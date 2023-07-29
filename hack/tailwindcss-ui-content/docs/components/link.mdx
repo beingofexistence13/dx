@@ -1,0 +1,97 @@
+---
+title: "Link"
+description: "Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an <a>"
+url: https://nextui.org/docs/components/link
+---
+
+# Link
+
+Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an `<a>`
+
+```jsx
+import { Link } from "@nextui-org/react";
+```
+
+<CarbonAd />
+
+<Spacer y={2} />
+
+<Playground
+  title="Default"
+  desc="You can use it to navigate between pages."
+  files={linkContent.default_link}
+/>
+
+<Playground
+  title="Colors"
+  desc="You can use the `color` property to change `Link` color."
+  files={linkContent.color}
+/>
+
+<Playground
+  title="Variants"
+  desc="You can choose between different styles of links."
+  files={linkContent.variation}
+/>
+
+<Playground
+  title="Block"
+  desc="You can use the `block` property to display a separate block."
+  files={linkContent.block}
+/>
+
+<Playground
+  title="External Link"
+  desc="Show an icon in the `Link` with the `isExternal` prop."
+  files={linkContent.icon}
+/>
+
+<Playground
+  title="Next.js Link"
+  desc="If you are using [Next.js](https://nextjs.org) you can use `next/link` as a parent."
+  code={`<NextLink href="/docs/components/button">
+  <Link block color="secondary">
+    Go to Button
+  </Link>
+</NextLink>
+`}
+/>
+
+<Spacer y={3} />
+
+### APIs
+
+<Spacer y={2} />
+
+#### Link Props
+
+| Attribute                | Type                                            | Accepted values            | Description                         | Default |
+| ------------------------ | ----------------------------------------------- | -------------------------- | ----------------------------------- | ------- |
+| **color**                | `LinkColors` `boolean` `string`                 | [LinkColors](#link-colors) | Change link color                   | `false` |
+| **href**                 | `string`                                        | -                          | Link url                            | -       |
+| **isExternal** `updated` | `boolean`                                       | `true/false`               | Show link icon                      | `false` |
+| **underline**            | `boolean`                                       | `true/false`               | Display underline                   | `false` |
+| **block**                | `boolean`                                       | `true/false`               | Display as a separate block         | `false` |
+| **ref**                  | <Code>Ref<HTMLAnchorElement &#124; null></Code> | -                          | forwardRef                          | -       |
+| **css**                  | `Stitches.CSS`                                  | -                          | Override Default CSS style          | -       |
+| **as**                   | `keyof JSX.IntrinsicElements`                   | -                          | Changes which tag component outputs | `a`     |
+| ...                      | `AnchorHTMLAttributes`                          | `'rel', 'target', ...`     | Native props                        | -       |
+
+<Spacer y={2} />
+
+### Link types
+
+<Spacer y={1} />
+
+#### Link Colors
+
+```ts
+type LinkColors =
+  | "text"
+  | "default"
+  | "primary"
+  | "secondary"
+  | "success"
+  | "warning"
+  | "error";
+```

@@ -1,0 +1,37 @@
+tasks:
+    - name: frontend
+      init: |
+          pnpm install
+          pnpm run build
+      command: |
+          pnpm run dev
+    - name: tailwindcss-documentation
+      init: |
+          cd inspirations &&
+          git clone https://github.com/beingofexistence/tailwindcss-documentation.git &&
+          cd tailwindcss-documentation &&
+          rm -rf .git
+      command: |
+          yarn install &&
+          yarn run build &&
+          yarn run dev
+    - name: nextui
+      init: |
+          cd inspirations &&
+          git clone https://github.com/beingofexistence/nextui.git &&
+          cd nextui &&
+          rm -rf .git
+    - name: material-ui
+      init: |
+          cd inspirations &&
+          git clone https://github.com/beingofexistence/material-ui.git &&
+          cd material-ui &&
+          rm -rf .git
+      command: |
+          yarn install
+    - name: nextjs
+      init: |
+          cd inspirations &&
+          git clone https://github.com/vercel/next.js.git &&
+          cd next.js &&
+          rm -rf .git
