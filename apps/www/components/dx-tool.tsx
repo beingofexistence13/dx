@@ -53,7 +53,7 @@ export function MenubarDemo() {
 
       <div className="collab flex space-x-2 border-x px-3">
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarImage src="https://github.com/beingofexistence/dx/hack/user-4.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
         <Avatar>
