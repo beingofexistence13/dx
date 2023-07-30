@@ -1,7 +1,13 @@
+"use client"
+
+import React from "react"
 import Image from "next/image"
-import Link from "next/link"
+import Link, { LinkProps } from "next/link"
+import { useRouter } from "next/navigation"
+import { ScrollArea } from "@radix-ui/react-scroll-area"
 
 import { siteConfig } from "@/config/site"
+import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 // Socail Media
 import { Button } from "@/components/ui/button"
@@ -22,8 +28,11 @@ import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
 import { buttonVariants } from "@/registry/new-york/ui/button"
+import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
 export function SiteHeader() {
+  const [open, setOpen] = React.useState(false)
+
   return (
     <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-14 items-center">
@@ -78,8 +87,21 @@ export function SiteHeader() {
               <DialogContent className="sm:max-w-[425px]">
                 <DialogHeader>
                   <DialogTitle>Social Medias</DialogTitle>
-                  <DialogDescription>
-                    Follow Me To In Social Medias
+                  <DialogDescription className="mt-3  h-[300px] overflow-y-auto overflow-x-hidden py-3">
+                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                      {socialMediaConfig.platform?.map(
+                        (item) =>
+                          item.href && (
+                            <MobileLink
+                              key={item.href}
+                              href={item.href}
+                              onOpenChange={setOpen}
+                            >
+                              {item.title}
+                            </MobileLink>
+                          )
+                      )}
+                    </div>
                   </DialogDescription>
                 </DialogHeader>
               </DialogContent>
@@ -110,3 +132,37 @@ export function SiteHeader() {
 }
 
 //
+
+interface MobileLinkProps extends LinkProps {
+  onOpenChange?: (open: boolean) => void
+  children: React.ReactNode
+  className?: string
+}
+
+function MobileLink({
+  href,
+  onOpenChange,
+  className,
+  children,
+  ...props
+}: MobileLinkProps) {
+  const router = useRouter()
+  return (
+    <Link
+      href={href}
+      onClick={() => {
+        router.push(href.toString())
+        onOpenChange?.(false)
+      }}
+      className={cn(
+        buttonVariants({
+          variant: "ghost",
+        }),
+        " flex h-[50px] items-center justify-center rounded-md border"
+      )}
+      {...props}
+    >
+      {children}
+    </Link>
+  )
+}

@@ -15,6 +15,8 @@ export interface NavItemWithChildren extends NavItem {
   items: NavItemWithChildren[]
 }
 
-export interface MainNavItem extends NavItem {}
+export interface MainNavItem extends NavItem {
+  [x: string]: any;
+}
 
 export interface SidebarNavItem extends NavItemWithChildren {}
