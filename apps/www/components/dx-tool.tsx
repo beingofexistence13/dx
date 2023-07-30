@@ -20,9 +20,9 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MenubarDemo() {
   return (
-    <Menubar className="fixed bottom-5 left-[50%] flex w-[360px] translate-x-[-50%] items-center justify-center overflow-hidden rounded-2xl px-5 py-6">
+    <Menubar className="fixed bottom-5 left-[50%] flex w-[380px] translate-x-[-50%] items-center justify-center overflow-hidden rounded-2xl px-5 py-6">
       <MenubarMenu>
-        <MenubarTrigger className="rounded-none border-r hover:rounded-lg">
+        <MenubarTrigger className=" rounded-lg">
           <Icons.setting className="h-4 w-4" />
         </MenubarTrigger>
         <MenubarContent>
@@ -51,86 +51,7 @@ export function MenubarDemo() {
         </MenubarContent>
       </MenubarMenu>
 
-      {/* <Separator orientation="vertical" /> */}
-      {/* 
-        <MenubarMenu>
-          <MenubarTrigger>User1</MenubarTrigger>
-          <MenubarContent>
-            <MenubarItem>
-              Undo <MenubarShortcut>⌘Z</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem>
-              Redo <MenubarShortcut>⇧⌘Z</MenubarShortcut>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarSub>
-              <MenubarSubTrigger>Find</MenubarSubTrigger>
-              <MenubarSubContent>
-                <MenubarItem>Search the web</MenubarItem>
-                <MenubarSeparator />
-                <MenubarItem>Find...</MenubarItem>
-                <MenubarItem>Find Next</MenubarItem>
-                <MenubarItem>Find Previous</MenubarItem>
-              </MenubarSubContent>
-            </MenubarSub>
-            <MenubarSeparator />
-            <MenubarItem>Cut</MenubarItem>
-            <MenubarItem>Copy</MenubarItem>
-            <MenubarItem>Paste</MenubarItem>
-          </MenubarContent>
-        </MenubarMenu>
-        <MenubarMenu>
-          <MenubarTrigger>User2</MenubarTrigger>
-          <MenubarContent>
-            <MenubarCheckboxItem>Always Show Bookmarks Bar</MenubarCheckboxItem>
-            <MenubarCheckboxItem checked>
-              Always Show Full URLs
-            </MenubarCheckboxItem>
-            <MenubarSeparator />
-            <MenubarItem inset>
-              Reload <MenubarShortcut>⌘R</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem disabled inset>
-              Force Reload <MenubarShortcut>⇧⌘R</MenubarShortcut>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem inset>Toggle Fullscreen</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem inset>Hide Sidebar</MenubarItem>
-          </MenubarContent>
-        </MenubarMenu>
-        <MenubarMenu>
-          <MenubarTrigger>User3</MenubarTrigger>
-          <MenubarContent>
-            <MenubarCheckboxItem>Always Show Bookmarks Bar</MenubarCheckboxItem>
-            <MenubarCheckboxItem checked>
-              Always Show Full URLs
-            </MenubarCheckboxItem>
-            <MenubarSeparator />
-            <MenubarItem inset>
-              Reload <MenubarShortcut>⌘R</MenubarShortcut>
-            </MenubarItem>
-            <MenubarItem disabled inset>
-              Force Reload <MenubarShortcut>⇧⌘R</MenubarShortcut>
-            </MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem inset>Toggle Fullscreen</MenubarItem>
-            <MenubarSeparator />
-            <MenubarItem inset>Hide Sidebar</MenubarItem>
-          </MenubarContent>
-        </MenubarMenu> */}
-
-      {/* <Separator orientation="vertical" /> */}
-
-      {/* <Separator className="my-4" /> */}
-      {/* <div className="flex h-5 items-center space-x-4 text-sm">
-        <div>Blog</div>
-        <Separator orientation="vertical" />
-        <div>Docs</div>
-        <Separator orientation="vertical" />
-        <div>Source</div>
-      </div> */}
-      <div className="collab flex space-x-2 px-2">
+      <div className="collab flex space-x-2 border-x px-3">
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
@@ -154,7 +75,7 @@ export function MenubarDemo() {
       </div>
 
       <MenubarMenu>
-        <MenubarTrigger className="rounded-none border-l  hover:rounded-lg">
+        <MenubarTrigger className="rounded-lg">
           <Icons.code className="h-4 w-4" />
         </MenubarTrigger>
         <MenubarContent>
