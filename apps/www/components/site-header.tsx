@@ -30,6 +30,8 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
+
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
 
@@ -52,23 +54,6 @@ export function SiteHeader() {
             <CommandMenu />
           </div>
           <nav className="flex items-center">
-            {/* <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={cn(
-                  buttonVariants({
-                    variant: "ghost",
-                  }),
-                  "w-9 px-0"
-                )}
-              >
-                <Icons.chevronDown className="h-4 w-4" />
-                <span className="sr-only">Social Medias</span>
-              </div>
-            </Link> */}
             <Dialog>
               <DialogTrigger asChild>
                 <div
@@ -84,26 +69,68 @@ export function SiteHeader() {
                 </div>
                 {/* <Button variant="outline">Edit Profile</Button> */}
               </DialogTrigger>
-              <DialogContent className="sm:max-w-[425px]">
-                <DialogHeader>
-                  <DialogTitle>Social Medias</DialogTitle>
-                  <DialogDescription className="mt-3  h-[300px] overflow-y-auto overflow-x-hidden py-3">
-                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
-                      {socialMediaConfig.platform?.map(
-                        (item) =>
-                          item.href && (
-                            <MobileLink
-                              key={item.href}
-                              href={item.href}
-                              onOpenChange={setOpen}
-                            >
-                              {item.title}
-                            </MobileLink>
-                          )
-                      )}
-                    </div>
-                  </DialogDescription>
-                </DialogHeader>
+              <DialogContent className=" pl-4 pr-2">
+                <Tabs defaultValue="vlog" className="">
+                  <DialogHeader>
+                    <DialogTitle>
+                      <TabsList className="absolute left-4 top-3 w-[200px]">
+                        <TabsTrigger value="vlog">Vlog</TabsTrigger>
+                        <TabsTrigger value="gaming">Gaming</TabsTrigger>
+                        <TabsTrigger value="react">React</TabsTrigger>
+                      </TabsList>
+                    </DialogTitle>
+                    <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
+                      <TabsContent value="vlog">
+                        <div className="grid grid-cols-2 justify-stretch gap-3">
+                          {socialMediaConfig.platformVlog?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                      <TabsContent value="gaming">
+                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                          {socialMediaConfig.platformGaming?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                      <TabsContent value="react">
+                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                          {socialMediaConfig.platformReact?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                    </DialogDescription>
+                  </DialogHeader>
+                </Tabs>
               </DialogContent>
             </Dialog>
             <ModeToggle />
@@ -133,19 +160,19 @@ export function SiteHeader() {
 
 //
 
-interface MobileLinkProps extends LinkProps {
+interface SocialMediaProps extends LinkProps {
   onOpenChange?: (open: boolean) => void
   children: React.ReactNode
   className?: string
 }
 
-function MobileLink({
+function SocialMedia({
   href,
   onOpenChange,
   className,
   children,
   ...props
-}: MobileLinkProps) {
+}: SocialMediaProps) {
   const router = useRouter()
   return (
     <Link
