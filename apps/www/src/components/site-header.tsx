@@ -25,7 +25,7 @@ import { buttonVariants } from "@/registry/new-york/ui/button"
 
 export function SiteHeader() {
   return (
-    <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
+    <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 py-2 backdrop-blur">
       <div className="container flex h-14 items-center">
         <MainNav />
         <MobileNav />
@@ -39,7 +39,7 @@ export function SiteHeader() {
               className="hidden dark:block"
             />
           </div>
-          <div className="w-full flex-1 lg:w-auto lg:flex-none ">
+          <div className="w-[150px] bg-red-500 flex-1 lg:w-auto lg:flex-none ">
             <CommandMenu />
           </div>
           <nav className="flex items-center">

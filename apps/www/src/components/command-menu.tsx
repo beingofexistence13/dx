@@ -52,13 +52,13 @@ export function CommandMenu({ ...props }: DialogProps) {
       <Button
         variant="outline"
         className={cn(
-          "relative w-max justify-start pr-12 text-sm text-muted-foreground md:w-40 lg:w-64"
+          "relative w-auto justify-start pr-12 text-sm text-muted-foreground md:w-40 lg:w-64"
         )}
         onClick={() => setOpen(true)}
         {...props}
       >
         <span className="hidden w-auto lg:inline-flex">Search documentation...</span>
-        <span className="inline-flex w-auto lg:hidden">Search...</span>
+        <span className="inline-flex w-[70px] lg:hidden">Search...</span>
         <kbd className="pointer-events-none absolute right-1.5 top-1.5 flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100">
           <span className="text-xs">⌘</span>K
         </kbd>
