@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { ThemeWrapper } from "@/src/components/theme-wrapper"
+import { ThemeWrapper } from "@/components/theme-wrapper"
 import { styles } from "@/registry/styles"
 
 interface SinkLayoutProps {

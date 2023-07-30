@@ -1,4 +1,4 @@
-import { Icons } from "@/src/components/icons"
+import { Icons } from "@/components/icons"
 import { Button } from "@/registry/new-york/ui/button"
 import {
   Card,

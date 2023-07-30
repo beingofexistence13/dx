@@ -4,17 +4,17 @@ import { ArrowRightIcon } from "@radix-ui/react-icons"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { ExamplesNav } from "@/src/components/examples-nav"
-import { Icons } from "@/src/components/icons"
+import { ExamplesNav } from "@/components/examples-nav"
+import { Icons } from "@/components/icons"
 import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@/src/components/page-header"
+} from "@/components/page-header"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Separator } from "@/registry/new-york/ui/separator"
 import DashboardPage from "@/app/examples/dashboard/page"
-import Todo from "@/src/components/todo"
+import Todo from "@/components/todo"
 
 export default function IndexPage() {
   return (
@@ -110,8 +110,6 @@ export default function IndexPage() {
           <DashboardPage />
         </div>
       </section>
-
-
     </div>
   )
 }

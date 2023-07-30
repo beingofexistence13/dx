@@ -41,6 +41,7 @@
 
     --scrollbar-track: transparent;
     --scrollbar-thumb: rgb(213, 213, 213);
+
   }
 
   .dark {
@@ -78,6 +79,7 @@
     --code--highlighted: rgb(17, 17, 17);
 
     --scrollbar-thumb: rgb(32, 32, 32);
+
   }
 }
 
@@ -127,8 +129,11 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(0, 0, 0) !important;
 }
 
+
 /* Firefox */
 * {
+  /* overflow-y: scroll; */
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb);
+
 }
