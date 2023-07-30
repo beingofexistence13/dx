@@ -92,6 +92,12 @@ const products: { title: string; href: string; description: string }[] = [
     description:
       "The perfect way to document anything in seconds",
   },
+  {
+    title: "Mathflow",
+    href: "/https://mathflow-emon-sumon-shohan.vercel.app/",
+    description:
+      "Mathamatics would't have to be a hard topic and universplace for improving your Math skills",
+  },
 
 ]
 const more: { title: string; href: string; description: string }[] = [
