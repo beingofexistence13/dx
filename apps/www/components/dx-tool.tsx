@@ -53,23 +53,23 @@ export function MenubarDemo() {
 
       <div className="collab flex space-x-2 border-x px-3">
         <Avatar>
-          <AvatarImage src="https://github.com/beingofexistence/dx/hack/user-4.jpg" alt="@shadcn" />
+          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-one.jpeg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-two.jpeg" alt="@shadcn" />
           <AvatarFallback>2</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-three.jpg" alt="@shadcn" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-four.jpg" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-five.jpeg" alt="@shadcn" />
           <AvatarFallback>5</AvatarFallback>
         </Avatar>
       </div>
