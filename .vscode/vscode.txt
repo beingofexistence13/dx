@@ -1,0 +1,221 @@
+// extentions.json
+{
+  "recommendations": [
+    // Linting / Formatting
+    "rust-lang.rust-analyzer",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+
+    // Testing
+    "orta.vscode-jest",
+
+    // PR management / Reviewing
+    "github.vscode-pull-request-github",
+
+    // Showing todo comments
+    "gruntfuggly.todo-tree",
+
+    // Collaborating
+    "ms-vsliveshare.vsliveshare",
+
+    // Debugging
+    "ms-vscode.vscode-js-profile-flame",
+
+    // MDX Authoring
+    "unifiedjs.vscode-mdx"
+  ]
+}
+
+// setting.json
+{
+  // Formatting using Prettier by default for all languages
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Formatting using Prettier for JavaScript, overrides VSCode default.
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Formatting using Rust-Analyzer for Rust.
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  // Linting using ESLint.
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Disable Jest autoRun as otherwise it will start running all tests the first time.
+  "jest.autoRun": "off",
+
+  // Debugging.
+  "debug.javascript.unmapMissingSources": true,
+
+  "files.exclude": {
+    "**/node_modules": false,
+    "node_modules": true,
+    "*[!test]**/node_modules": true
+  },
+
+  // Ensure enough terminal history is preserved when running tests.
+  "terminal.integrated.scrollback": 10000,
+
+  // Configure todo-tree to exclude node_modules, dist, and compiled.
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules",
+    "**/dist",
+    "**/compiled"
+  ],
+  // Match TODO-APP in addition to other TODOs.
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "TODO-APP"
+  ],
+
+  // Disable TypeScript surveys.
+  "typescript.surveys.enabled": false,
+
+  // Enable file nesting for unit test files.
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "$(capture).test.ts, $(capture).test.tsx",
+    "*.tsx": "$(capture).test.ts, $(capture).test.tsx"
+  },
+  // Compile rust-analyzer in a separate directory to avoid conflicts with the main project.
+  "rust-analyzer.checkOnSave.extraEnv": {
+    "CARGO_TARGET_DIR": "target/rust-analyzer"
+  },
+  "rust-analyzer.server.extraEnv": {
+    "CARGO_TARGET_DIR": "target/rust-analyzer",
+    "RUST_BACKTRACE": "0"
+  },
+  "rust-analyzer.cargo.extraEnv": {
+    "CARGO_TARGET_DIR": "target/rust_analyzer"
+  },
+  "cSpell.words": [
+    "Entrypoints",
+    "napi",
+    "nextjs",
+    "opentelemetry",
+    "Threadsafe",
+    "zipkin"
+  ],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ]
+}
+
+// launch.json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch test/e2e/app-dir/app development",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "dev", "test/e2e/app-dir/app"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch test/e2e/app-dir/app build",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "build", "test/e2e/app-dir/app"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch examples/hello-world development",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "dev", "examples/hello-world"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch examples/hello-world build",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "build", "examples/hello-world"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch examples/hello-world production",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "start", "examples/hello-world"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch current directory in development",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["debug", "dev", "${fileDirname}"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "name": "Launch app build trace jaeger",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["clean-trace-jaeger"],
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to existing debugger",
+      "port": 9229,
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NEXT_PRIVATE_LOCAL_WEBPACK": "1"
+      }
+    }
+  ]
+}
+

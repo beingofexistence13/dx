@@ -13,7 +13,9 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-const products: { title: string; href: string; description: string }[] = [
+
+
+export const products: { title: string; href: string; description: string }[] = [
   {
     title: "Hello",
     href: "/https://hello-emon-sumon-shohan.vercel.app/",
@@ -100,7 +102,7 @@ const products: { title: string; href: string; description: string }[] = [
   },
 
 ]
-const more: { title: string; href: string; description: string }[] = [
+export const more: { title: string; href: string; description: string }[] = [
   {
     title: "Changelog",
     href: "/changelog",
@@ -138,6 +140,7 @@ const more: { title: string; href: string; description: string }[] = [
       "Some Examples to ues this",
   },
 ]
+
 
 export function NavigationMenuDropdown() {
   return (

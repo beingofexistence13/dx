@@ -8,10 +8,18 @@ import { ViewVerticalIcon } from "@radix-ui/react-icons"
 import { docsConfig } from "@/config/docs"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 import { Icons } from "@/components/icons"
 import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
+
+import { more, products } from "./navigatioin-menu"
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
@@ -34,10 +42,50 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          <Icons.logo className="mr-2 h-4 w-4" />
-          <span className="font-bold">{siteConfig.name}</span>
+          {/* <Icons.logo className="mr-2 h-4 w-4" /> */}
+          <Avatar className="ml-5 font-bold">
+            <AvatarImage src="/logo.svg" alt="@shadcn" />
+            <AvatarFallback>1</AvatarFallback>
+          </Avatar>
+          <span className="ml-3 font-bold">{siteConfig.name}</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
+          <div className="mb-3 flex flex-col space-y-3 lg:hidden">
+            {products.map(
+              (item) =>
+                item.href && (
+                  <MobileLink
+                    key={item.href}
+                    href={item.href}
+                    onOpenChange={setOpen}
+                  >
+                    <HoverCard>
+                      <HoverCardTrigger> {item.title}</HoverCardTrigger>
+                      <HoverCardContent>{item.description}</HoverCardContent>
+                    </HoverCard>
+                  </MobileLink>
+                )
+            )}
+          </div>
+          <div className="mb-3 flex flex-col space-y-3 lg:hidden">
+            {more.map(
+              (item) =>
+                item.href && (
+                  <MobileLink
+                    key={item.href}
+                    href={item.href}
+                    onOpenChange={setOpen}
+                  >
+                    <HoverCard>
+                      <HoverCardTrigger> {item.title}</HoverCardTrigger>
+                      <HoverCardContent>{item.description}</HoverCardContent>
+                    </HoverCard>
+                  </MobileLink>
+                )
+            )}
+          </div>
+
+
           <div className="flex flex-col space-y-3">
             {docsConfig.mainNav?.map(
               (item) =>

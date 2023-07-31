@@ -17,6 +17,8 @@ import { Separator } from "@/components/ui/separator"
 import { Icons } from "@/components/icons"
 
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
+import { buttonVariants } from "./ui/button"
+import { cn } from "@/lib/utils"
 
 export function MenubarDemo() {
   return (
@@ -53,25 +55,29 @@ export function MenubarDemo() {
 
       <div className="collab flex space-x-2 border-x px-3">
         <Avatar>
-          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-onee.jpeg" alt="@shadcn" />
+          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-two.jpeg" alt="@shadcn" />
+          <AvatarImage src="/user-two.jpg" alt="@shadcn" />
           <AvatarFallback>2</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-three.jpg" alt="@shadcn" />
+          <AvatarImage src="/user-three.jpg" alt="@shadcn" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
         <Avatar>
-          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-four.jpg" alt="@shadcn" />
+          <AvatarImage src="/user-four.jpg" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
-        <Avatar>
-          <AvatarImage src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/user-five.jpeg" alt="@shadcn" />
-          <AvatarFallback>5</AvatarFallback>
-        </Avatar>
+        <div       className={cn(
+        buttonVariants({
+          variant: "ghost",
+        }),
+        " flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0"
+      )}>
+          <Icons.chevronUp className="h-4 w-4" />
+        </div>
       </div>
 
       <MenubarMenu>
