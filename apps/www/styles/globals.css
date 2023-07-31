@@ -36,8 +36,8 @@
     --radius: 0.5rem;
 
     --code: rgb(0, 0, 0) (255, 0, 0);
-    --code-foreground: #c0c0da;
-    --code--highlighted: rgb(19, 18, 18);
+    --code-foreground: #f4f4f5;
+    --code--highlighted: rgb(240, 240, 240);
 
     --scrollbar-track: transparent;
     --scrollbar-thumb: rgb(213, 213, 213);

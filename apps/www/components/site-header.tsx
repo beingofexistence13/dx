@@ -69,7 +69,7 @@ export function SiteHeader() {
                 </div>
                 {/* <Button variant="outline">Edit Profile</Button> */}
               </DialogTrigger>
-              <DialogContent className=" pl-4 pr-2">
+              <DialogContent className=" pb-0 pl-4 pr-1">
                 <Tabs defaultValue="vlog" className="">
                   <DialogHeader>
                     <DialogTitle>
