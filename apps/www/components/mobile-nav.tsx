@@ -45,7 +45,7 @@ export function MobileNav() {
           {/* <Icons.logo className="mr-2 h-4 w-4" /> */}
           <Avatar className="ml-5 font-bold">
             <AvatarImage src="/logo.svg" alt="@shadcn" />
-            <AvatarFallback>1</AvatarFallback>
+            <AvatarFallback>DX</AvatarFallback>
           </Avatar>
           <span className="ml-3 font-bold">{siteConfig.name}</span>
         </MobileLink>
