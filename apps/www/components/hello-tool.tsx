@@ -1,3 +1,26 @@
+"use client"
+
+import React from "react"
+import Link, { LinkProps } from "next/link"
+import { useRouter } from "next/router"
+
+import { socialMediaConfig } from "@/config/social-media"
+import { cn } from "@/lib/utils"
+import {
+  ContextMenu,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuTrigger,
+} from "@/components/ui/context-menu"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 import {
   Menubar,
   MenubarCheckboxItem,
@@ -18,9 +41,11 @@ import { Icons } from "@/components/icons"
 
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { buttonVariants } from "./ui/button"
-import { cn } from "@/lib/utils"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 
 export function HelloTool() {
+  const [open, setOpen] = React.useState(false)
+
   return (
     <Menubar className="fixed bottom-5 left-[50%] flex w-[380px] translate-x-[-50%] items-center justify-center overflow-hidden rounded-2xl px-5 py-6">
       <MenubarMenu>
@@ -70,14 +95,109 @@ export function HelloTool() {
           <AvatarImage src="/user-four.jpg" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
-        <div       className={cn(
-        buttonVariants({
-          variant: "ghost",
-        }),
-        " flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0"
-      )}>
-          <Icons.chevronUp className="h-4 w-4" />
-        </div>
+
+        {/* Dialog */}
+        <Dialog>
+          <DialogTrigger asChild>
+            <div
+              className={cn(
+                buttonVariants({
+                  variant: "ghost",
+                }),
+                "w-9 px-0"
+              )}
+            >
+              <Icons.chevronDown className="h-4 w-4" />
+              <span className="sr-only">Social Medias</span>
+            </div>
+            {/* <Button variant="outline">Edit Profile</Button> */}
+          </DialogTrigger>
+          <DialogContent className=" pb-0 pl-4 pr-1">
+            <Tabs defaultValue="vlog" className="">
+              <DialogHeader>
+                <DialogTitle>
+                  <TabsList className="absolute left-4 top-3 w-[200px]">
+                    <TabsTrigger value="vlog">Vlog</TabsTrigger>
+                    <TabsTrigger value="gaming">Gaming</TabsTrigger>
+                    <TabsTrigger value="react">React</TabsTrigger>
+                  </TabsList>
+                </DialogTitle>
+                <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
+                  <TabsContent value="vlog">
+                    <div className="grid grid-cols-2 justify-stretch gap-3">
+                      {socialMediaConfig.platformVlog?.map(
+                        (item) =>
+                          item.href && (
+                            <SocialMedia
+                              key={item.href}
+                              href={item.href}
+                              onOpenChange={setOpen}
+                            >
+                              {item.title}
+                            </SocialMedia>
+                          )
+                      )}
+                    </div>
+                  </TabsContent>
+                  <TabsContent value="gaming">
+                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                      {socialMediaConfig.platformGaming?.map(
+                        (item) =>
+                          item.href && (
+                            <SocialMedia
+                              key={item.href}
+                              href={item.href}
+                              onOpenChange={setOpen}
+                            >
+                              {item.title}
+                            </SocialMedia>
+                          )
+                      )}
+                    </div>
+                  </TabsContent>
+                  <TabsContent value="react">
+                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                      {socialMediaConfig.platformReact?.map(
+                        (item) =>
+                          item.href && (
+                            <SocialMedia
+                              key={item.href}
+                              href={item.href}
+                              onOpenChange={setOpen}
+                            >
+                              {item.title}
+                            </SocialMedia>
+                          )
+                      )}
+                    </div>
+                  </TabsContent>
+                </DialogDescription>
+              </DialogHeader>
+            </Tabs>
+          </DialogContent>
+        </Dialog>
+
+        <ContextMenu>
+          <ContextMenuTrigger>
+            {" "}
+            <div
+              className={cn(
+                buttonVariants({
+                  variant: "ghost",
+                }),
+                " flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0"
+              )}
+            >
+              <Icons.chevronUp className="h-4 w-4" />
+            </div>
+          </ContextMenuTrigger>
+          <ContextMenuContent>
+            <ContextMenuItem>Profile</ContextMenuItem>
+            <ContextMenuItem>Billing</ContextMenuItem>
+            <ContextMenuItem>Team</ContextMenuItem>
+            <ContextMenuItem>Subscription</ContextMenuItem>
+          </ContextMenuContent>
+        </ContextMenu>
       </div>
 
       <MenubarMenu>
@@ -97,7 +217,7 @@ export function HelloTool() {
             <MenubarRadioItem value="repkit">Repkit</MenubarRadioItem>
             <MenubarRadioItem value="stackblitz">Stackblitz</MenubarRadioItem>
             <MenubarRadioItem value="codePen">CodePen</MenubarRadioItem>
-            <MenubarRadioItem value="js-fiddle">JS Fiddle</MenubarRadioItem>
+            <MenubarRadioItem value="sandbox">Sandbox</MenubarRadioItem>
             <MenubarRadioItem value="js-bin">JS Bin</MenubarRadioItem>
             <MenubarRadioItem value="aws-cloud9">AWS Cloud9</MenubarRadioItem>
           </MenubarRadioGroup>
@@ -108,5 +228,39 @@ export function HelloTool() {
         </MenubarContent>
       </MenubarMenu>
     </Menubar>
+  )
+}
+
+interface SocialMediaProps extends LinkProps {
+  onOpenChange?: (open: boolean) => void
+  children: React.ReactNode
+  className?: string
+}
+
+function SocialMedia({
+  href,
+  onOpenChange,
+  className,
+  children,
+  ...props
+}: SocialMediaProps) {
+  const router = useRouter()
+  return (
+    <Link
+      href={href}
+      onClick={() => {
+        router.push(href.toString())
+        onOpenChange?.(false)
+      }}
+      className={cn(
+        buttonVariants({
+          variant: "ghost",
+        }),
+        " flex h-[50px] items-center justify-center rounded-md border"
+      )}
+      {...props}
+    >
+      {children}
+    </Link>
   )
 }
