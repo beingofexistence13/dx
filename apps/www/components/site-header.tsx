@@ -43,18 +43,9 @@ export function SiteHeader() {
         <MainNav />
         <MobileNav />
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
-          {/* <div className=" h-full w-[40px] lg:hidden">
-            <Image
-              src="logo.svg"
-              width={30}
-              height={20}
-              alt="Dashboard"
-              className="hidden dark:block"
-            />
-          </div> */}
           <Avatar className="lg:hidden">
             <AvatarImage src="/logo.svg" alt="@shadcn" />
-            <AvatarFallback>1</AvatarFallback>
+            <AvatarFallback>DX</AvatarFallback>
           </Avatar>
           <div className="w-full flex-1 lg:w-auto lg:flex-none ">
             <CommandMenu />

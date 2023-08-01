@@ -2,7 +2,7 @@
 
 import React from "react"
 import Link, { LinkProps } from "next/link"
-import { useRouter } from "next/router"
+import { useRouter } from "next/navigation"
 
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
@@ -99,15 +99,22 @@ export function HelloTool() {
         {/* Dialog */}
         <Dialog>
           <DialogTrigger asChild>
-            <div
-              className={cn(
-                buttonVariants({
-                  variant: "ghost",
-                }),
-                "w-9 px-0"
-              )}
-            >
-              <Icons.chevronDown className="h-4 w-4" />
+            <div>
+              {/* <Icons.chevronDown className="h-4 w-4" /> */}
+
+              <ContextMenu>
+                <ContextMenuTrigger>
+                  <div className=" flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0">
+                    <Icons.chevronUp className="h-4 w-4" />
+                  </div>
+                </ContextMenuTrigger>
+                <ContextMenuContent>
+                  <ContextMenuItem>Profile</ContextMenuItem>
+                  <ContextMenuItem>Billing</ContextMenuItem>
+                  <ContextMenuItem>Team</ContextMenuItem>
+                  <ContextMenuItem>Subscription</ContextMenuItem>
+                </ContextMenuContent>
+              </ContextMenu>
               <span className="sr-only">Social Medias</span>
             </div>
             {/* <Button variant="outline">Edit Profile</Button> */}
@@ -176,28 +183,6 @@ export function HelloTool() {
             </Tabs>
           </DialogContent>
         </Dialog>
-
-        <ContextMenu>
-          <ContextMenuTrigger>
-            {" "}
-            <div
-              className={cn(
-                buttonVariants({
-                  variant: "ghost",
-                }),
-                " flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0"
-              )}
-            >
-              <Icons.chevronUp className="h-4 w-4" />
-            </div>
-          </ContextMenuTrigger>
-          <ContextMenuContent>
-            <ContextMenuItem>Profile</ContextMenuItem>
-            <ContextMenuItem>Billing</ContextMenuItem>
-            <ContextMenuItem>Team</ContextMenuItem>
-            <ContextMenuItem>Subscription</ContextMenuItem>
-          </ContextMenuContent>
-        </ContextMenu>
       </div>
 
       <MenubarMenu>
