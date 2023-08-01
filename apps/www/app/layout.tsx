@@ -11,7 +11,7 @@ import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
-import { MenubarDemo } from "@/components/dx-tool"
+import { HelloTool } from "@/components/hello-tool"
 
 export const metadata: Metadata = {
   title: {
@@ -90,7 +90,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               {/* <SiteFooter /> */}
             </div>
             <TailwindIndicator />
-            <MenubarDemo />
+            <HelloTool />
 
           </ThemeProvider>
           <Analytics />

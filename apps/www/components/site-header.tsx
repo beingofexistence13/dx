@@ -4,6 +4,8 @@ import React from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
+
 import { ScrollArea } from "@radix-ui/react-scroll-area"
 
 import { siteConfig } from "@/config/site"
@@ -41,7 +43,7 @@ export function SiteHeader() {
         <MainNav />
         <MobileNav />
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
-          <div className=" h-full w-[40px] lg:hidden">
+          {/* <div className=" h-full w-[40px] lg:hidden">
             <Image
               src="logo.svg"
               width={30}
@@ -49,7 +51,11 @@ export function SiteHeader() {
               alt="Dashboard"
               className="hidden dark:block"
             />
-          </div>
+          </div> */}
+          <Avatar className="lg:hidden">
+            <AvatarImage src="/logo.svg" alt="@shadcn" />
+            <AvatarFallback>1</AvatarFallback>
+          </Avatar>
           <div className="w-full flex-1 lg:w-auto lg:flex-none ">
             <CommandMenu />
           </div>

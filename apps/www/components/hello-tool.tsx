@@ -20,12 +20,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { buttonVariants } from "./ui/button"
 import { cn } from "@/lib/utils"
 
-export function MenubarDemo() {
+export function HelloTool() {
   return (
     <Menubar className="fixed bottom-5 left-[50%] flex w-[380px] translate-x-[-50%] items-center justify-center overflow-hidden rounded-2xl px-5 py-6">
       <MenubarMenu>
         <MenubarTrigger className=" rounded-lg">
-          <Icons.setting className="h-4 w-4" />
+          <Icons.sparkles className="h-4 w-4" />
         </MenubarTrigger>
         <MenubarContent>
           <MenubarItem>
