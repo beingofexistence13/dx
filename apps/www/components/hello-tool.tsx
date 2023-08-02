@@ -50,7 +50,16 @@ export function HelloTool() {
     <Menubar className="fixed bottom-[50%] right-5 flex h-auto w-[70px] translate-y-[50%] flex-col items-center justify-center space-y-2 overflow-hidden rounded-2xl px-0 py-3">
       <MenubarMenu>
         <MenubarTrigger className=" rounded-lg">
-          <Icons.sparkles className="h-4 w-4" />
+          <div
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+              }),
+              " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+            )}
+          >
+            <Icons.magic className="h-4 w-4" />
+          </ div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarItem>
@@ -93,7 +102,7 @@ export function HelloTool() {
                     " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
                   )}
                 >
-                  <Icons.chevronUp className="h-4 w-4" />
+                  <Icons.inbox className="h-4 w-4" />
                 </div>
               </ContextMenuTrigger>
               <ContextMenuContent>
@@ -294,7 +303,7 @@ export function HelloTool() {
                     " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
                   )}
                 >
-                  <Icons.chevronUp className="h-4 w-4" />
+                  <Icons.sparkles className="h-4 w-4" />
                 </div>
               </ContextMenuTrigger>
               <ContextMenuContent>
@@ -375,7 +384,16 @@ export function HelloTool() {
 
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
-          <Icons.code className="h-4 w-4" />
+          <div
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+              }),
+              " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+            )}
+          >
+            <Icons.code className="h-4 w-4" />
+          </ div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarRadioGroup value="codesandbox">
