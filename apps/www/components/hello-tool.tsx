@@ -21,13 +21,12 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import { Icons } from "@/components/icons"
 
 import {
-  buttonVariants,
   Avatar,
   AvatarFallback,
   AvatarImage,
-  Separator,
   Menubar,
   MenubarCheckboxItem,
   MenubarContent,
@@ -40,30 +39,33 @@ import {
   MenubarSub,
   MenubarSubContent,
   MenubarSubTrigger,
-  MenubarTrigger, Tabs, TabsContent, TabsList, TabsTrigger
+  MenubarTrigger,
+  Separator,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  buttonVariants,
 } from "./ui"
-
-import { Icons } from "@/components/icons"
-
 
 export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool fixed bottom-[50%] right-0 flex h-auto w-[70px] translate-y-[50%] flex-col items-center justify-center  rounded-2xl m-0 py-3">
+    <Menubar className="hello-tool tailwindcss-classname-problem-solved please fixed bottom-[50%] right-0 m-0 flex h-auto w-[70px] translate-y-[50%]  flex-col items-center justify-center rounded-2xl bg-slate-50 px-9 py-3 lg:bg-red-500">
       {/* Magic */}
       <MenubarMenu>
-        <MenubarTrigger className=" rounded-lg">
+        <MenubarTrigger className="rounded-lg">
           <div
             className={cn(
               buttonVariants({
                 variant: "ghost",
               }),
-              " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0 m-0"
+              "flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
             )}
           >
             <Icons.magic className="h-4 w-4" />
-          </ div>
+          </div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarItem>
@@ -98,11 +100,11 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0 m-0"
+              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
             )}
           >
             <Icons.inbox className="h-4 w-4" />
-          </ div>
+          </div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarItem>
@@ -140,10 +142,10 @@ export function HelloTool() {
                     buttonVariants({
                       variant: "ghost",
                     }),
-                    " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0 m-0"
+                    "flex justify-center items-center p-0 m-0 rounded-lg h-[35px] w-[45px]"
                   )}
                 >
-                  <Icons.inbox className="h-4 w-4" />
+                  <Icons.inbox className="w-4 h-4" />
                 </div>
               </ContextMenuTrigger>
               <ContextMenuContent>
@@ -156,7 +158,7 @@ export function HelloTool() {
             <span className="sr-only">Social Medias</span>
           </div>
         </DialogTrigger>
-        <DialogContent className=" pb-0 pl-4 pr-1">
+        <DialogContent className="pr-1 pb-0 pl-4">
           <Tabs defaultValue="vlog" className="">
             <DialogHeader>
               <DialogTitle>
@@ -168,7 +170,7 @@ export function HelloTool() {
               </DialogTitle>
               <DialogDescription className=" h-[345px] overflow-y-auto overflow-x-hidden pt-7">
                 <TabsContent value="vlog">
-                  <div className="grid grid-cols-2 justify-stretch gap-3">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
                     {socialMediaConfig.platformVlog?.map(
                       (item) =>
                         item.href && (
@@ -184,7 +186,7 @@ export function HelloTool() {
                   </div>
                 </TabsContent>
                 <TabsContent value="gaming">
-                  <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
                     {socialMediaConfig.platformGaming?.map(
                       (item) =>
                         item.href && (
@@ -200,7 +202,7 @@ export function HelloTool() {
                   </div>
                 </TabsContent>
                 <TabsContent value="react">
-                  <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
                     {socialMediaConfig.platformReact?.map(
                       (item) =>
                         item.href && (
@@ -221,7 +223,7 @@ export function HelloTool() {
         </DialogContent>
       </Dialog> */}
       {/* Users */}
-      <div className="collab flex flex-col border-y items-center space-y-2 py-2">
+      <div className="collab flex flex-col items-center space-y-2 border-y py-2">
         <Avatar>
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
@@ -243,7 +245,7 @@ export function HelloTool() {
         <Dialog>
           <DialogTrigger asChild>
             <div>
-              {/* <Icons.chevronDown className="h-4 w-4" /> */}
+              {/* <Icons.chevronDown className="w-4 h-4" /> */}
 
               <ContextMenu>
                 <ContextMenuTrigger>
@@ -262,7 +264,7 @@ export function HelloTool() {
             </div>
             {/* <Button variant="outline">Edit Profile</Button> */}
           </DialogTrigger>
-          <DialogContent className=" pb-0 pl-4 pr-1">
+          <DialogContent className="pb-0 pl-4 pr-1">
             <Tabs defaultValue="vlog" className="">
               <DialogHeader>
                 <DialogTitle>
@@ -290,7 +292,7 @@ export function HelloTool() {
                     </div>
                   </TabsContent>
                   <TabsContent value="gaming">
-                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                    <div className="grid grid-cols-2 justify-stretch gap-3">
                       {socialMediaConfig.platformGaming?.map(
                         (item) =>
                           item.href && (
@@ -306,7 +308,7 @@ export function HelloTool() {
                     </div>
                   </TabsContent>
                   <TabsContent value="react">
-                    <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                    <div className="grid grid-cols-2 justify-stretch gap-3">
                       {socialMediaConfig.platformReact?.map(
                         (item) =>
                           item.href && (
@@ -335,11 +337,11 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0 m-0"
+              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
             )}
           >
             <Icons.sparkles className="h-4 w-4" />
-          </ div>
+          </div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarItem>
@@ -374,11 +376,11 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              " flex h-[35px] w-[45px] items-center justify-center rounded-lg  p-0 m-0"
+              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
             )}
           >
             <Icons.code className="h-4 w-4" />
-          </ div>
+          </div>
         </MenubarTrigger>
         <MenubarContent>
           <MenubarRadioGroup value="codesandbox">
@@ -432,7 +434,7 @@ function SocialMedia({
         buttonVariants({
           variant: "ghost",
         }),
-        " flex h-[50px] items-center justify-center rounded-md border"
+        "flex h-[50px] items-center justify-center rounded-md border"
       )}
       {...props}
     >
