@@ -93,7 +93,8 @@ export function HelloTool() {
                     " flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
                   )}
                 >
-                  <Icons.chevronUp className="h-4 w-4" />
+
+                  <Icons.inbox className="h-4 w-4" />
                 </div>
               </ContextMenuTrigger>
               <ContextMenuContent>
