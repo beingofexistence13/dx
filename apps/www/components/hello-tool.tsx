@@ -21,7 +21,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+
 import {
+  buttonVariants, 
+  Avatar, 
+  AvatarFallback, 
+  AvatarImage, 
+  Separator, 
   Menubar,
   MenubarCheckboxItem,
   MenubarContent,
@@ -34,14 +40,11 @@ import {
   MenubarSub,
   MenubarSubContent,
   MenubarSubTrigger,
-  MenubarTrigger,
-} from "@/components/ui/menubar"
-import { Separator } from "@/components/ui/separator"
+  MenubarTrigger, Tabs, TabsContent, TabsList, TabsTrigger
+} from "./ui"
+
 import { Icons } from "@/components/icons"
 
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-import { buttonVariants } from "./ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 
 export function HelloTool() {
   const [open, setOpen] = React.useState(false)
