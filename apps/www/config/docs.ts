@@ -135,6 +135,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Hello Mode",
+          href: "/docs/ui/hello-mode",
+          items: [],
+        },
+        {
           title: "Multiverse",
           href: "/docs/ui/multiverse",
           items: [],
@@ -147,11 +152,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Blockchain Status",
           href: "/docs/ui/blockchain-status",
-          items: [],
-        },
-        {
-          title: "Hello Mode",
-          href: "/docs/ui/hello-mode",
           items: [],
         },
         {
@@ -197,11 +197,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Command Palette",
           href: "/docs/ui/command-palette",
-          items: [],
-        },
-        {
-          title: "Comment",
-          href: "/docs/ui/comment",
           items: [],
         },
         {
