@@ -52,7 +52,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool tailwindcss-classname-problem-solved please fixed bottom-[50%] right-0 m-0 flex h-auto w-[70px] translate-y-[50%]  flex-col items-center justify-center rounded-2xl bg-slate-50 px-9 py-3 lg:bg-red-500">
+    <Menubar className="hello-tool fixed bottom-[50%] right-0 m-0 flex h-auto w-[70px] translate-y-[50%] flex-col items-center justify-center rounded-2xl p-2">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -223,7 +223,7 @@ export function HelloTool() {
         </DialogContent>
       </Dialog> */}
       {/* Users */}
-      <div className="collab flex flex-col items-center space-y-2 border-y py-2">
+      <div className="collab my-2 flex flex-col items-center space-y-2 border-y py-2">
         <Avatar>
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
