@@ -128,7 +128,10 @@ html.dark div[data-rehype-pretty-code-fragment] button svg {
 html.light div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(0, 0, 0) !important;
 }
-
+.hello-tool ,.hello-tool .collab{
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 /* Firefox */
 * {
