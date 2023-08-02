@@ -145,7 +145,9 @@ export function HelloTool() {
                     "flex justify-center items-center p-0 m-0 rounded-lg h-[35px] w-[45px]"
                   )}
                 >
+
                   <Icons.inbox className="w-4 h-4" />
+
                 </div>
               </ContextMenuTrigger>
               <ContextMenuContent>
