@@ -17,8 +17,6 @@ import {
 } from "@/components/ui/form"
 import { toast } from "@/components/ui/use-toast"
 
-
-
 const items = [
   {
     id: "navbar",
@@ -36,7 +34,7 @@ const items = [
     id: "bottombar",
     label: "Bottombar",
   },
-   {
+  {
     id: "applebar",
     label: "Applebar",
   },
@@ -64,8 +62,6 @@ const items = [
     id: "prettier plus dx and sanity",
     label: "prettier plus dx and sanity",
   },
-
-
 ] as const
 
 const FormSchema = z.object({
@@ -95,7 +91,10 @@ export default function Todo() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="mb-4  space-y-8 pb-4">
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="mb-4  space-y-8 pb-4"
+      >
         <FormField
           control={form.control}
           name="items"
@@ -146,23 +145,9 @@ export default function Todo() {
         />
         <Button type="submit">Add to tasks</Button>
         {/* <NavigationMenuDemo /> */}
-
       </form>
     </Form>
   )
 }
 
-
-
-
-
-
-
-
-
-
-
 // "use client"
-
-
-

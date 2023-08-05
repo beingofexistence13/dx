@@ -4,8 +4,6 @@ import React from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-
 import { ScrollArea } from "@radix-ui/react-scroll-area"
 
 import { siteConfig } from "@/config/site"
@@ -32,6 +30,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 
 export function SiteHeader() {

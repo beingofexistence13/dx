@@ -1,9 +1,8 @@
-
 // Navigation Menu Start
 import * as React from "react"
 import Link from "next/link"
+
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,140 +12,121 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import { Icons } from "@/components/icons"
 
-
-export const products: { title: string; href: string; description: string }[] = [
-  {
-    title: "Hello",
-    href: "/https://hello-emon-sumon-shohan.vercel.app/",
-    description:
-      "Multiversal Blockchain Based Socail Media",
-  },
-  {
-    title: "Aladdin",
-    href: "/https://aladdin-emon-sumon-shohan.vercel.app/",
-    description:
-      "The best way to buy or sell anything in seconds",
-  },
-  {
-    title: "Friday",
-    href: "/https://friday-emon-sumon-shohan.vercel.app/",
-    description:
-      "Your Personal Assitence(beyond any screens) And ONE OF THE most advanced Ai",
-  },
-  {
-    title: "Multiverse",
-    href: "/https://multiverse-emon-sumon-shohan.vercel.app/",
-    description:
-      "A place to hangout and explore",
-  },
-  {
-    title: "Hackin",
-    href: "/https://hackin-emon-sumon-shohan.vercel.app/",
-    description:
-      "Login and SignUp has never been so easy",
-  },
-  {
-    title: "Connect",
-    href: "/https://connect-emon-sumon-shohan.vercel.app/",
-    description:
-      "Make thirdparty connects in seconds",
-  },
-  {
-    title: "Mediaflow",
-    href: "/https://mediaflow-emon-sumon-shohan.vercel.app/",
-    description:
-      "Where Different Kinds Of Medias Live",
-  },
-  {
-    title: "Iconflow",
-    href: "/https://iconflow-emon-sumon-shohan.vercel.app/",
-    description:
-      "Where All Kinds Of Icons Live",
-  },
-  {
-    title: "Dx Native",
-    href: "/https://dx-native-emon-sumon-shohan.vercel.app/",
-    description:
-      "Cool Developer Expreince In App Development",
-  },
-  {
-    title: "Nextjs Native",
-    href: "/https://nextjs-native-emon-sumon-shohan.vercel.app/",
-    description:
-      "A better and version of React Native with Expo made by me(BeingOfExistence)",
-  },
-  {
-    title: "Nextjs",
-    href: "/https://nextjs.org/",
-    description:
-      "The most hottest React framwork out there made by vercel",
-  },
-  {
-    title: "Shadcn",
-    href: "https://ui.shadcn.com/",
-    description:
-      "My favorite UI component library(Highly Recommended)",
-  },
-  {
-    title: "Docsflow",
-    href: "/https://docsflow-emon-sumon-shohan.vercel.app/",
-    description:
-      "The perfect way to document anything in seconds",
-  },
-  {
-    title: "Mathflow",
-    href: "/https://mathflow-emon-sumon-shohan.vercel.app/",
-    description:
-      "Mathamatics would't have to be a hard topic and universplace for improving your Math skills",
-  },
-
-]
+export const products: { title: string; href: string; description: string }[] =
+  [
+    {
+      title: "Hello",
+      href: "/https://hello-emon-sumon-shohan.vercel.app/",
+      description: "Multiversal Blockchain Based Socail Media",
+    },
+    {
+      title: "Aladdin",
+      href: "/https://aladdin-emon-sumon-shohan.vercel.app/",
+      description: "The best way to buy or sell anything in seconds",
+    },
+    {
+      title: "Friday",
+      href: "/https://friday-emon-sumon-shohan.vercel.app/",
+      description:
+        "Your Personal Assitence(beyond any screens) And ONE OF THE most advanced Ai",
+    },
+    {
+      title: "Multiverse",
+      href: "/https://multiverse-emon-sumon-shohan.vercel.app/",
+      description: "A place to hangout and explore",
+    },
+    {
+      title: "Hackin",
+      href: "/https://hackin-emon-sumon-shohan.vercel.app/",
+      description: "Login and SignUp has never been so easy",
+    },
+    {
+      title: "Connect",
+      href: "/https://connect-emon-sumon-shohan.vercel.app/",
+      description: "Make thirdparty connects in seconds",
+    },
+    {
+      title: "Mediaflow",
+      href: "/https://mediaflow-emon-sumon-shohan.vercel.app/",
+      description: "Where Different Kinds Of Medias Live",
+    },
+    {
+      title: "Iconflow",
+      href: "/https://iconflow-emon-sumon-shohan.vercel.app/",
+      description: "Where All Kinds Of Icons Live",
+    },
+    {
+      title: "Dx Native",
+      href: "/https://dx-native-emon-sumon-shohan.vercel.app/",
+      description: "Cool Developer Expreince In App Development",
+    },
+    {
+      title: "Nextjs Native",
+      href: "/https://nextjs-native-emon-sumon-shohan.vercel.app/",
+      description:
+        "A better and version of React Native with Expo made by me(BeingOfExistence)",
+    },
+    {
+      title: "Nextjs",
+      href: "/https://nextjs.org/",
+      description: "The most hottest React framwork out there made by vercel",
+    },
+    {
+      title: "Shadcn",
+      href: "https://ui.shadcn.com/",
+      description: "My favorite UI component library(Highly Recommended)",
+    },
+    {
+      title: "Docsflow",
+      href: "/https://docsflow-emon-sumon-shohan.vercel.app/",
+      description: "The perfect way to document anything in seconds",
+    },
+    {
+      title: "Mathflow",
+      href: "/https://mathflow-emon-sumon-shohan.vercel.app/",
+      description:
+        "Mathamatics would't have to be a hard topic and universplace for improving your Math skills",
+    },
+  ]
 export const more: { title: string; href: string; description: string }[] = [
   {
     title: "Changelog",
     href: "/changelog",
-    description:
-      "A Complete History Of Changes Done in this software",
+    description: "A Complete History Of Changes Done in this software",
   },
   {
     title: "Integrations",
     href: "/integrations",
-    description:
-      "Things that can be integrated",
+    description: "Things that can be integrated",
   },
   {
     title: "Templates",
     href: "/templates",
-    description:
-      "Some Templates To Start FAST",
+    description: "Some Templates To Start FAST",
   },
   {
     title: "Thanks To",
     href: "/thanks-to",
-    description:
-      "All the peoples I love",
+    description: "All the peoples I love",
   },
   {
     title: "About",
     href: "/about",
-    description:
-      "Why I made this??",
+    description: "Why I made this??",
   },
   {
     title: "Examples",
     href: "/examples",
-    description:
-      "Some Examples to ues this",
+    description: "Some Examples to ues this",
   },
 ]
-
 
 export function NavigationMenuDropdown() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-
         <NavigationMenuItem>
           <NavigationMenuTrigger>Products</NavigationMenuTrigger>
           <NavigationMenuContent>

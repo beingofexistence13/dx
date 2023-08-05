@@ -77,7 +77,6 @@ export const docsConfig: DocsConfig = {
           title: "Spline",
           href: "/docs/spline",
           items: [],
-
         },
         {
           title: "Changelog",
@@ -624,7 +623,6 @@ export const docsConfig: DocsConfig = {
           href: "/docs/ai/viam",
           items: [],
         },
-
       ],
     },
     {
@@ -885,7 +883,6 @@ export const docsConfig: DocsConfig = {
           href: "/docs/test/jest",
           items: [],
         },
-
       ],
     },
     {
@@ -901,7 +898,6 @@ export const docsConfig: DocsConfig = {
           href: "/docs/others/graphql",
           items: [],
         },
-
       ],
     },
   ],

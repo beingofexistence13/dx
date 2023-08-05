@@ -5,13 +5,13 @@ import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
+import { HelloTool } from "@/components/hello-tool"
 import { ThemeProvider } from "@/components/providers"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
-import { HelloTool } from "@/components/hello-tool"
 
 export const metadata: Metadata = {
   title: {
@@ -91,7 +91,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </div>
             <TailwindIndicator />
             <HelloTool />
-
           </ThemeProvider>
           <Analytics />
           <NewYorkToaster />

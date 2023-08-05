@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
+
 import { NavigationMenuDropdown } from "./navigatioin-menu"
 
 export function MainNav() {
@@ -61,8 +62,7 @@ export function MainNav() {
           GitHub
         </Link>
       </nav> */}
-        <NavigationMenuDropdown />
-
+      <NavigationMenuDropdown />
     </div>
   )
 }

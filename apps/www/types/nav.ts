@@ -10,13 +10,12 @@ export interface NavItem {
   label?: string
 }
 
-
 export interface NavItemWithChildren extends NavItem {
   items: NavItemWithChildren[]
 }
 
 export interface MainNavItem extends NavItem {
-  [x: string]: any;
+  [x: string]: any
 }
 
 export interface SidebarNavItem extends NavItemWithChildren {}
