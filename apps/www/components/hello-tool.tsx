@@ -6,13 +6,16 @@ import { useRouter } from "next/navigation"
 
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
+import { Icons } from "@/components/icons"
+
 import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
   ContextMenuTrigger,
-} from "@/components/ui/context-menu"
-import {
   Dialog,
   DialogContent,
   DialogDescription,
@@ -20,13 +23,6 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { Icons } from "@/components/icons"
-
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
   Menubar,
   MenubarCheckboxItem,
   MenubarContent,
@@ -52,7 +48,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool fixed bottom-[50%] right-0 m-0 flex h-auto w-[70px] translate-y-[50%] flex-col items-center justify-center rounded-2xl p-2">
+    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto w-[450] translate-x-[-50%] flex-row items-center justify-center rounded-2xl p-2">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -131,101 +127,8 @@ export function HelloTool() {
           </MenubarItem>
         </MenubarContent>
       </MenubarMenu>
-      {/* <Dialog>
-        <DialogTrigger asChild>
-          <div>
-
-            <ContextMenu>
-              <ContextMenuTrigger>
-                <div
-                  className={cn(
-                    buttonVariants({
-                      variant: "ghost",
-                    }),
-                    "flex justify-center items-center p-0 m-0 rounded-lg h-[35px] w-[45px]"
-                  )}
-                >
-
-                  <Icons.inbox className="w-4 h-4" />
-
-                </div>
-              </ContextMenuTrigger>
-              <ContextMenuContent>
-                <ContextMenuItem>Profile</ContextMenuItem>
-                <ContextMenuItem>Billing</ContextMenuItem>
-                <ContextMenuItem>Team</ContextMenuItem>
-                <ContextMenuItem>Subscription</ContextMenuItem>
-              </ContextMenuContent>
-            </ContextMenu>
-            <span className="sr-only">Social Medias</span>
-          </div>
-        </DialogTrigger>
-        <DialogContent className="pr-1 pb-0 pl-4">
-          <Tabs defaultValue="vlog" className="">
-            <DialogHeader>
-              <DialogTitle>
-                <TabsList className="absolute left-4 top-3 w-[200px]">
-                  <TabsTrigger value="vlog">Vlog</TabsTrigger>
-                  <TabsTrigger value="gaming">Gaming</TabsTrigger>
-                  <TabsTrigger value="react">React</TabsTrigger>
-                </TabsList>
-              </DialogTitle>
-              <DialogDescription className=" h-[345px] overflow-y-auto overflow-x-hidden pt-7">
-                <TabsContent value="vlog">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformVlog?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-                <TabsContent value="gaming">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformGaming?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-                <TabsContent value="react">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformReact?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-              </DialogDescription>
-            </DialogHeader>
-          </Tabs>
-        </DialogContent>
-      </Dialog> */}
       {/* Users */}
-      <div className="collab my-2 flex flex-col items-center space-y-2 border-y py-2">
+      <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
         <Avatar>
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
@@ -251,7 +154,7 @@ export function HelloTool() {
 
               <ContextMenu>
                 <ContextMenuTrigger>
-                  <div className=" flex h-[45px] w-[45px] items-center justify-center rounded-full border p-0">
+                  <div className=" flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0">
                     <Icons.chevronUp className="h-4 w-4" />
                   </div>
                 </ContextMenuTrigger>
@@ -378,7 +281,7 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+              ""
             )}
           >
             <Icons.code className="h-4 w-4" />
@@ -443,4 +346,100 @@ function SocialMedia({
       {children}
     </Link>
   )
+}
+
+{
+  /* <Dialog>
+        <DialogTrigger asChild>
+          <div>
+
+            <ContextMenu>
+              <ContextMenuTrigger>
+                <div
+                  className={cn(
+                    buttonVariants({
+                      variant: "ghost",
+                    }),
+                    "flex justify-center items-center p-0 m-0 rounded-lg h-[35px] w-[45px]"
+                  )}
+                >
+
+                  <Icons.inbox className="w-4 h-4" />
+
+                </div>
+              </ContextMenuTrigger>
+              <ContextMenuContent>
+                <ContextMenuItem>Profile</ContextMenuItem>
+                <ContextMenuItem>Billing</ContextMenuItem>
+                <ContextMenuItem>Team</ContextMenuItem>
+                <ContextMenuItem>Subscription</ContextMenuItem>
+              </ContextMenuContent>
+            </ContextMenu>
+            <span className="sr-only">Social Medias</span>
+          </div>
+        </DialogTrigger>
+        <DialogContent className="pr-1 pb-0 pl-4">
+          <Tabs defaultValue="vlog" className="">
+            <DialogHeader>
+              <DialogTitle>
+                <TabsList className="absolute left-4 top-3 w-[200px]">
+                  <TabsTrigger value="vlog">Vlog</TabsTrigger>
+                  <TabsTrigger value="gaming">Gaming</TabsTrigger>
+                  <TabsTrigger value="react">React</TabsTrigger>
+                </TabsList>
+              </DialogTitle>
+              <DialogDescription className=" h-[345px] overflow-y-auto overflow-x-hidden pt-7">
+                <TabsContent value="vlog">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
+                    {socialMediaConfig.platformVlog?.map(
+                      (item) =>
+                        item.href && (
+                          <SocialMedia
+                            key={item.href}
+                            href={item.href}
+                            onOpenChange={setOpen}
+                          >
+                            {item.title}
+                          </SocialMedia>
+                        )
+                    )}
+                  </div>
+                </TabsContent>
+                <TabsContent value="gaming">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
+                    {socialMediaConfig.platformGaming?.map(
+                      (item) =>
+                        item.href && (
+                          <SocialMedia
+                            key={item.href}
+                            href={item.href}
+                            onOpenChange={setOpen}
+                          >
+                            {item.title}
+                          </SocialMedia>
+                        )
+                    )}
+                  </div>
+                </TabsContent>
+                <TabsContent value="react">
+                  <div className="grid grid-cols-2 gap-3 justify-stretch">
+                    {socialMediaConfig.platformReact?.map(
+                      (item) =>
+                        item.href && (
+                          <SocialMedia
+                            key={item.href}
+                            href={item.href}
+                            onOpenChange={setOpen}
+                          >
+                            {item.title}
+                          </SocialMedia>
+                        )
+                    )}
+                  </div>
+                </TabsContent>
+              </DialogDescription>
+            </DialogHeader>
+          </Tabs>
+        </DialogContent>
+      </Dialog> */
 }
