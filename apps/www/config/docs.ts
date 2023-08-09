@@ -179,6 +179,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Video Player",
+          href: "/docs/ui/video-player",
+          items: [],
+        },
+        {
+          title: "Hello 3d",
+          href: "/docs/ui/hello-3d",
+          items: [],
+        },
+        {
           title: "Theme",
           href: "/docs/ui/theme",
           items: [],
@@ -411,6 +421,212 @@ export const docsConfig: DocsConfig = {
         {
           title: "Date and Time Picker",
           href: "/docs/ui/date-and-time-picker",
+          items: [],
+        },
+
+        {
+          title: "Stacked Lists",
+          href: "/docs/ui/stacked-lists",
+          items: [],
+        },
+        {
+          title: "Feeds",
+          href: "/docs/ui/feeds",
+          items: [],
+        },
+        {
+          title: "Feildset",
+          href: "/docs/ui/feildset",
+          items: [],
+        },
+        {
+          title: "States",
+          href: "/docs/ui/states",
+          items: [],
+        },
+        {
+          title: "Action Panels",
+          href: "/docs/ui/action-panels",
+          items: [],
+        },
+        {
+          title: "Checkout Form",
+          href: "/docs/ui/checkout-form",
+          items: [],
+        },
+        {
+          title: "Reviews",
+          href: "/docs/ui/reviews",
+          items: [],
+        },
+        {
+          title: "Order Summaries",
+          href: "/docs/ui/order-summaries",
+          items: [],
+        },
+        {
+          title: "Order History",
+          href: "/docs/ui/order-history",
+          items: [],
+        },
+        {
+          title: "Incentives",
+          href: "/docs/ui/incentives",
+          items: [],
+        },
+        {
+          title: "Box",
+          href: "/docs/ui/box",
+          items: [],
+        },
+        {
+          title: "Callout",
+          href: "/docs/ui/callout",
+          items: [],
+        },
+        {
+          title: "Datapoint",
+          href: "/docs/ui/datapoint",
+          items: [],
+        },
+        {
+          title: "Masonary",
+          href: "/docs/ui/masonary",
+          items: [],
+        },
+        {
+          title: "Overlay Panels",
+          href: "/docs/ui/overlay-panels",
+          items: [],
+        },
+        {
+          title: "Table Of Contents",
+          href: "/docs/ui/table-of-contents",
+          items: [],
+        },
+        {
+          title: "Float Button",
+          href: "/docs/ui/float-button",
+          items: [],
+        },
+        {
+          title: "Autocomplete",
+          href: "/docs/ui/autocomplete",
+          items: [],
+        },
+        {
+          title: "Cascader",
+          href: "/docs/ui/cascader",
+          items: [],
+        },
+        {
+          title: "Color Picker",
+          href: "/docs/ui/color-picker",
+          items: [],
+        },
+        {
+          title: "Mentions",
+          href: "/docs/ui/mentions",
+          items: [],
+        },
+        {
+          title: "Rate",
+          href: "/docs/ui/rate",
+          items: [],
+        },
+        {
+          title: "Carosel",
+          href: "/docs/ui/carosel",
+          items: [],
+        },
+        {
+          title: "Transfer",
+          href: "/docs/ui/transfer",
+          items: [],
+        },
+        {
+          title: "Tag",
+          href: "/docs/ui/tag",
+          items: [],
+        },
+        {
+          title: "QR Code",
+          href: "/docs/ui/qr-code",
+          items: [],
+        },
+        {
+          title: "Statics",
+          href: "/docs/ui/statics",
+          items: [],
+        },
+        {
+          title: "Timeline",
+          href: "/docs/ui/timeline",
+          items: [],
+        },
+        {
+          title: "Tour",
+          href: "/docs/ui/tour",
+          items: [],
+        },
+        {
+          title: "Skeleton",
+          href: "/docs/ui/skeleton",
+          items: [],
+        },
+        {
+          title: "Affix",
+          href: "/docs/ui/affix",
+          items: [],
+        },
+        {
+          title: "Segmented",
+          href: "/docs/ui/segmented",
+          items: [],
+        },
+        {
+          title: "Tree",
+          href: "/docs/ui/tree",
+          items: [],
+        },
+        {
+          title: "Steps",
+          href: "/docs/ui/steps",
+          items: [],
+        },
+        {
+          title: "Rail",
+          href: "/docs/ui/rail",
+          items: [],
+        },
+        {
+          title: "Dimmer",
+          href: "/docs/ui/dimmer",
+          items: [],
+        },
+        {
+          title: "Portal",
+          href: "/docs/ui/portal",
+          items: [],
+        },
+        {
+          title: "Range Selector",
+          href: "/docs/ui/range-selector",
+          items: [],
+        },
+        {
+          title: "Emoji Feedback",
+          href: "/docs/ui/emojif-feedback",
+          items: [],
+        },
+        {
+          title: "World Map",
+          href: "/docs/ui/world-map",
+          items: [],
+        },
+        {
+          title: "Meter",
+          href: "/docs/ui/meter",
           items: [],
         },
       ],
