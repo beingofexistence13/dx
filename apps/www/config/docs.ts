@@ -629,6 +629,21 @@ export const docsConfig: DocsConfig = {
           href: "/docs/ui/meter",
           items: [],
         },
+        {
+          title: "Material Ui",
+          href: "/docs/ui/material-ui",
+          items: [],
+        },
+        {
+          title: "Nextui",
+          href: "/docs/ui/nextui",
+          items: [],
+        },
+        {
+          title: "Background Color",
+          href: "/docs/ui/background-color",
+          items: [],
+        },
       ],
     },
     {
