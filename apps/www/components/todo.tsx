@@ -103,7 +103,7 @@ export default function Todo() {
               <div className="mb-4">
                 <FormLabel className="text-base">Tasks</FormLabel>
                 <FormDescription>
-                  This tasks should be done untill (27/07/2023 - Thursday)
+                  This tasks should be done untill (10/08/2023 - Thursday)
                 </FormDescription>
               </div>
               {items.map((item) => (
