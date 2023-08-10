@@ -34,6 +34,6 @@ program.command('split')
 import stringWidth from 'string-width';
 
 
-chalkAnimation.rainbow('Lorem ipsum dolor sit amet');
+chalkAnimation.rainbow('Make Bulk Files by using any kind data,json,csv or any kind or datastorage');
 
 
