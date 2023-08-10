@@ -39,8 +39,13 @@
     --code-foreground: #f4f4f5;
     --code--highlighted: rgb(240, 240, 240);
 
-    --scrollbar-track: transparent;
+    --scrollbar-track: rgb(248, 248, 248);
+    --scrollbar-track-border: rgb(242, 242, 242);
+    --scrollbar-track-hover: rgb(240, 240, 240);
+    --scrollbar-track-active: rgb(244, 244, 244);
     --scrollbar-thumb: rgb(225, 225, 225);
+    --scrollbar-thumb-hover: rgb(220, 220, 220);
+    --scrollbar-thumb-active: rgb(229, 229, 229);
 
   }
 
@@ -76,9 +81,15 @@
 
     --code: rgb(255, 255, 255);
     --code-foreground: #18181b;
-    --code--highlighted: rgb(17, 17, 17);
+    --code-highlighted: rgb(17, 17, 17);
 
+    --scrollbar-track: #09090b;
+    --scrollbar-track-border: #1b1b1f;
+    --scrollbar-track-hover: #0b0b0c;
+    --scrollbar-track-active: #050507;
     --scrollbar-thumb: rgb(62, 62, 62);
+    --scrollbar-thumb-hover: rgb(68, 68, 68);
+    --scrollbar-thumb-active: rgb(66, 66, 66);
   }
 }
 
@@ -118,7 +129,7 @@ pre {
 }
 div[data-rehype-pretty-code-fragment] button:hover,
 span.line--highlighted {
-  background-color: var(--code--highlighted) !important;
+  background-color: var(--code-highlighted) !important;
 }
 
 html.dark div[data-rehype-pretty-code-fragment] button svg {
@@ -146,31 +157,45 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
-  width: 10px;
-  width: 10px;
+  width: 7px;
+  width: 7px;
 }
 *::-webkit-scrollbar-track {
-  border-radius: 20px;
-  background-color: var(--accent-foreground);
+  background-color: var(--scrollbar-track);
+  border-left: 1.5px solid var(--scrollbar-track-border);
+  border-right: 1px solid var(--scrollbar-track-border);
 }
-/* 
+
 *::-webkit-scrollbar-track:hover {
-  background-color: #F3EDE9;
+  background-color: var(--scrollbar-track-hover);
 }
 
 *::-webkit-scrollbar-track:active {
-  background-color: #EAEAE6;
-} */
+  background-color: var(--scrollbar-track-active);
+}
 
 *::-webkit-scrollbar-thumb {
-  border-radius: 20px;
   background-color: var(--scrollbar-thumb);
 }
 
-/* *::-webkit-scrollbar-thumb:hover {
-  background-color: #F0F0F0;
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+  border-radius: 14px;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #EAEAEA;
-} */
+  background-color:  var(--scrollbar-thumb-active);
+  border-radius: 14px;
+
+}
+
+
+
+.navbar{
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba(25, 129, 51, 0.37);
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-bottom: 2px solid var(--code-foreground);
+  z-index: 100;
+}

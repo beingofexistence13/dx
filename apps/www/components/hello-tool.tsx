@@ -281,7 +281,7 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              ""
+              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
             )}
           >
             <Icons.code className="h-4 w-4" />
