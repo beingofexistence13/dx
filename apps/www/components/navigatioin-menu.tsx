@@ -43,6 +43,12 @@ export const products: { title: string; href: string; description: string }[] =
       description: "Login and SignUp has never been so easy",
     },
     {
+      title: "NeonSlash",
+      href: "/https://neonSlash-emon-sumon-shohan.vercel.app/",
+      description:
+        "Neon Games is on their way to make your day more Exciting",
+    },
+    {
       title: "Connect",
       href: "/https://connect-emon-sumon-shohan.vercel.app/",
       description: "Make thirdparty connects in seconds",
@@ -88,6 +94,12 @@ export const products: { title: string; href: string; description: string }[] =
       href: "/https://mathflow-emon-sumon-shohan.vercel.app/",
       description:
         "Mathamatics would't have to be a hard topic and universplace for improving your Math skills",
+    },
+    {
+      title: "Paymentflow",
+      href: "/https://paymentflow-emon-sumon-shohan.vercel.app/",
+      description:
+        "Payment System with no Bounds",
     },
   ]
 export const more: { title: string; href: string; description: string }[] = [
