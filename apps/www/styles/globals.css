@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: var(--body-background);
+  min-height: 100vh;
+  width: 100%;
+}
 @layer base {
   :root {
+    --body-background: rgb(255, 255, 255);
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -46,10 +58,11 @@
     --scrollbar-thumb: rgb(225, 225, 225);
     --scrollbar-thumb-hover: rgb(220, 220, 220);
     --scrollbar-thumb-active: rgb(229, 229, 229);
-
   }
 
   .dark {
+    --body-background: rgb(0, 0, 0);
+
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
 
@@ -138,12 +151,12 @@ html.dark div[data-rehype-pretty-code-fragment] button svg {
 html.light div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(0, 0, 0) !important;
 }
-.hello-tool button{
+.hello-tool button {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding: 0 !important;
 }
-.hello-tool .collab{
+.hello-tool .collab {
   margin-left: 8px !important;
   margin-right: 8px !important;
 }
@@ -153,25 +166,33 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   /* overflow-y: auto; */
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb);
-
 }
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
   width: 7px;
   width: 7px;
+  height: 7px;
+  height: 7px;
+}
+*::-webkit-scrollbar-corner {
+  background-color: var(--scrollbar-track);
+  border: 1px solid var(--scrollbar-track);
+  
 }
 *::-webkit-scrollbar-track {
   background-color: var(--scrollbar-track);
-  border-left: 1.5px solid var(--scrollbar-track-border);
-  border-right: 1px solid var(--scrollbar-track-border);
 }
 
 *::-webkit-scrollbar-track:hover {
   background-color: var(--scrollbar-track-hover);
+  border-left: 1.5px solid var(--scrollbar-track-border);
+  border-right: 1px solid var(--scrollbar-track-border);
 }
 
 *::-webkit-scrollbar-track:active {
   background-color: var(--scrollbar-track-active);
+  border-left: 1.5px solid var(--scrollbar-track-border);
+  border-right: 1px solid var(--scrollbar-track-border);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -184,18 +205,27 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color:  var(--scrollbar-thumb-active);
+  background-color: var(--scrollbar-thumb-active);
   border-radius: 14px;
-
 }
 
-
-
-.navbar{
-  background: rgba( 255, 255, 255, 0 );
-  box-shadow: 0 8px 32px 0 rgba(25, 129, 51, 0.37);
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+.navbar {
+  animation: ranbow-glow 10s linear infinite;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 3px 5px 0 rgb(255, 0, 0);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-bottom: 2px solid var(--code-foreground);
-  z-index: 100;
+  z-index: 100000000000000;
+  min-width: 100%;
+}
+
+@keyframes ranbow-glow {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
 }

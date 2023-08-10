@@ -65,7 +65,7 @@ export function SiteHeader() {
                 </div>
                 {/* <Button variant="outline">Edit Profile</Button> */}
               </DialogTrigger>
-              <DialogContent className=" pb-0 pl-4 pr-1">
+              <DialogContent className=" pb-3 pl-2 pr-0">
                 <Tabs defaultValue="vlog" className="">
                   <DialogHeader>
                     <DialogTitle>
@@ -181,7 +181,7 @@ function SocialMedia({
         buttonVariants({
           variant: "ghost",
         }),
-        " flex h-[50px] items-center justify-center rounded-md border"
+        " flex h-[75px] items-center justify-center rounded-md border"
       )}
       {...props}
     >
