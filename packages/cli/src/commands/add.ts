@@ -95,18 +95,19 @@ export const add = new Command()
         process.exit(0)
       }
 
-      if (!options.yes) {
-        const { proceed } = await prompts({
-          type: "confirm",
-          name: "proceed",
-          message: `Ready to install components and dependencies. Proceed?`,
-          initial: true,
-        })
+      // if (!options.yes) {
 
-        if (!proceed) {
-          process.exit(0)
-        }
-      }
+      // }
+      const { proceed } = await prompts({
+        type: "confirm",
+        name: "proceed",
+        message: `Ready to install components and dependencies. Proceed?`,
+        initial: true,
+      })
+
+      // if (!proceed) {
+      //   process.exit(0)
+      // }
 
       const spinner = ora(`Installing components...`).start()
       for (const item of payload) {
