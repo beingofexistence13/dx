@@ -5,6 +5,12 @@ tasks:
           pnpm run build
       command: |
           pnpm run dev
+    - name: filesflow
+      init: |
+          cd packages && cd filesflow && pnpm install
+          pnpm run build
+      command: |
+          pnpm run dev
     - name: tailwindcss-documentation
       init: |
           cd inspirations &&
