@@ -1,6 +1,6 @@
 {
-  "name": "beingofexistence-dx",
-  "version": "0.3.0",
+  "name": "beingofexistence-terminalflow",
+  "version": "0.1.0",
   "description": "Add components and othr resources to your apps.",
   "publishConfig": {
     "access": "public"

@@ -1,11 +1,11 @@
 tasks:
     - name: frontend
       init: |
-          pnpm install
+          cd apps && cd www && pnpm install
           pnpm run build
       command: |
           pnpm run dev
-    - name: filesflow
+    - name: terminalflow
       init: |
           cd packages && cd filesflow && pnpm install
           pnpm run build
@@ -41,3 +41,7 @@ tasks:
           git clone https://github.com/vercel/next.js.git &&
           cd next.js &&
           rm -rf .git
+    - name: WorkSpace
+      init: |
+          pnpm install
+          pnpm run build          
