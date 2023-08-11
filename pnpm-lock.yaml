@@ -493,6 +493,21 @@ importers:
       '@babel/plugin-transform-typescript':
         specifier: ^7.22.5
         version: 7.22.5(@babel/core@7.22.1)
+      '@types/argparse':
+        specifier: ^2.0.10
+        version: 2.0.10
+      '@types/chalk-animation':
+        specifier: ^1.6.1
+        version: 1.6.1
+      '@types/figlet':
+        specifier: ^1.5.6
+        version: 1.5.6
+      '@types/gradient-string':
+        specifier: ^1.1.2
+        version: 1.1.2
+      '@types/inquirer':
+        specifier: ^9.0.3
+        version: 9.0.3
       argparse:
         specifier: ^2.0.1
         version: 2.0.1
@@ -3831,6 +3846,10 @@ packages:
       '@types/estree': 1.0.1
     dev: false
 
+  /@types/argparse@2.0.10:
+    resolution: {integrity: sha512-C4wahC3gz3vQtvPazrJ5ONwmK1zSDllQboiWvpMM/iOswCYfBREFnjFbq/iWKIVOCl8+m5Pk6eva6/ZSsDuIGA==}
+    dev: false
+
   /@types/babel__core@7.20.1:
     resolution: {integrity: sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw==}
     dependencies:
@@ -3868,6 +3887,10 @@ packages:
 
   /@types/chai@4.3.5:
     resolution: {integrity: sha512-mEo1sAde+UCE6b2hxn332f1g1E8WfYRu6p5SvTKr2ZKC1f7gFJXk4h5PyGP9Dt6gCaG8y8XhwnXWC6Iy2cmBng==}
+    dev: false
+
+  /@types/chalk-animation@1.6.1:
+    resolution: {integrity: sha512-MSuZqFkBeKcik4oMzd/BjaTRYkLpNftRSYkI/oszmckHAZOTSKslWR1CRdURwsxXBgYHPRlb5JM6Cx+tkyXUAg==}
     dev: false
 
   /@types/d3-array@3.0.5:
@@ -3935,6 +3958,10 @@ packages:
     resolution: {integrity: sha512-R1g/VyKFFI2HLC1QGAeTtCBWCo6n75l41OnsVYNbmKG+kempOESaodf6BeJyUM3Q0rKa/NQcTHbB2+66lNnxLw==}
     dev: true
 
+  /@types/figlet@1.5.6:
+    resolution: {integrity: sha512-AOdn9cKJGXpqfHeif16xeGMwWefB4nsOyxkdRMpc+PEP3nUxzu3psJfIqhjrCNW4Sejt5i6rISWmEwK0sw03mA==}
+    dev: false
+
   /@types/fs-extra@11.0.1:
     resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
     dependencies:
@@ -3942,10 +3969,23 @@ packages:
       '@types/node': 17.0.45
     dev: true
 
+  /@types/gradient-string@1.1.2:
+    resolution: {integrity: sha512-zIet2KvHr2dkOCPI5ggQQ+WJVyfBSFaqK9sNelhgDjlE2K3Fu2muuPJwu5aKM3xoWuc3WXudVEMUwI1QWhykEQ==}
+    dependencies:
+      '@types/tinycolor2': 1.4.3
+    dev: false
+
   /@types/hast@2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
       '@types/unist': 2.0.6
+
+  /@types/inquirer@9.0.3:
+    resolution: {integrity: sha512-CzNkWqQftcmk2jaCWdBTf9Sm7xSw4rkI1zpU/Udw3HX5//adEZUIm9STtoRP1qgWj0CWQtJ9UTvqmO2NNjhMJw==}
+    dependencies:
+      '@types/through': 0.0.30
+      rxjs: 7.8.1
+    dev: false
 
   /@types/is-ci@3.0.0:
     resolution: {integrity: sha512-Q0Op0hdWbYd1iahB+IFNQcWXFq4O0Q5MwQP7uN0souuQ4rPg1vEYcnIOfr1gY+M+6rc8FGoRaBO1mOOvL29sEQ==}
@@ -4067,6 +4107,12 @@ packages:
 
   /@types/semver@6.2.3:
     resolution: {integrity: sha512-KQf+QAMWKMrtBMsB8/24w53tEsxllMj6TuA80TT/5igJalLI/zm0L3oXRbIAl4Ohfc85gyHX/jhMwsVkmhLU4A==}
+    dev: false
+
+  /@types/through@0.0.30:
+    resolution: {integrity: sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==}
+    dependencies:
+      '@types/node': 17.0.45
     dev: false
 
   /@types/tinycolor2@1.4.3:

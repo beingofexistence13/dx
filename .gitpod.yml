@@ -5,10 +5,15 @@ tasks:
           pnpm run build
       command: |
           pnpm run dev
+    - name: terminalflow-typescript
+      init: |
+          cd packages && cd terminalflow && pnpm install
+          pnpm run typescript
+      command: |
+          pnpm run dev
     - name: terminalflow
       init: |
-          cd packages && cd filesflow && pnpm install
-          pnpm run build
+          cd packages && cd terminalflow && pnpm install
       command: |
           pnpm run dev
     - name: tailwindcss-documentation
