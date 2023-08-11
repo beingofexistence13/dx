@@ -74,16 +74,16 @@ export const products: { title: string; href: string; description: string }[] =
       description:
         "A better and version of React Native with Expo made by me(BeingOfExistence)",
     },
-    {
-      title: "Nextjs",
-      href: "/https://nextjs.org/",
-      description: "The most hottest React framwork out there made by vercel",
-    },
-    {
-      title: "Shadcn",
-      href: "https://ui.shadcn.com/",
-      description: "My favorite UI component library(Highly Recommended)",
-    },
+    // {
+    //   title: "Nextjs",
+    //   href: "/https://nextjs.org/",
+    //   description: "The most hottest React framwork out there made by vercel",
+    // },
+    // {
+    //   title: "Shadcn",
+    //   href: "https://ui.shadcn.com/",
+    //   description: "My favorite UI component library(Highly Recommended)",
+    // },
     {
       title: "Docsflow",
       href: "/https://docsflow-emon-sumon-shohan.vercel.app/",
