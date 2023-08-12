@@ -157,7 +157,7 @@ yarn turbo run build --filter=aptos-web
 7. JS Bin
 8. AWS Cloud9
 
-Vercel Preview Deployment problem!!!
+Vercel Preview Deployment problem Solved!!!
 
 Dopamine Detox
 Sumon
