@@ -140,6 +140,11 @@ export const products: { title: string; href: string; description: string }[] =
   ]
 export const more: { title: string; href: string; description: string }[] = [
   {
+    title: "Themes",
+    href: "/themes",
+    description: "Variety of Themes to choose from",
+  },
+  {
     title: "Changelog",
     href: "/changelog",
     description: "A Complete History Of Changes Done in this software",
@@ -244,7 +249,7 @@ export function NavigationMenuDropdown() {
 
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className="docs p-3">
               Docs
             </NavigationMenuLink>
           </Link>

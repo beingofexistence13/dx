@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev -p 3001",
     "build": "contentlayer build && pnpm build:registry && next build",
     "build:registry": "ts-node --esm --project ./tsconfig.scripts.json ./scripts/build-registry.ts",
     "seed:tasks": "ts-node --esm --project ./tsconfig.scripts.json ./app/examples/tasks/data/seed.ts",
-    "start": "next start -p 3000",
+    "start": "next start -p 3001",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "preview": "next build && next start -p 3000",
+    "preview": "next build && next start -p 3001",
     "typecheck": "contentlayer build && tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
@@ -70,7 +70,7 @@
     "recharts": "^2.6.2",
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.12.0",
-    "tailwindcss-animate": "^1.0.5",
+    "vaul": "^0.2.0",
     "zod": "^3.21.4"
   },
   "devDependencies": {

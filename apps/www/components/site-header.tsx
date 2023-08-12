@@ -57,7 +57,7 @@ export function SiteHeader() {
                     buttonVariants({
                       variant: "ghost",
                     }),
-                    "w-9 px-0"
+                    "social-media w-9 px-0"
                   )}
                 >
                   <Icons.chevronDown className="h-4 w-4" />

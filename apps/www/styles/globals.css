@@ -7,12 +7,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body,
 html {
   background-color: var(--body-background);
   min-height: 100vh;
   width: 100%;
 }
+
 @layer base {
   :root {
     --body-background: rgb(255, 255, 255);
@@ -110,6 +112,7 @@ html {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
@@ -137,9 +140,11 @@ html {
 span.line span {
   color: var(--code) !important;
 }
+
 pre {
   background-color: var(--code-foreground) !important;
 }
+
 div[data-rehype-pretty-code-fragment] button:hover,
 span.line--highlighted {
   background-color: var(--code-highlighted) !important;
@@ -148,14 +153,17 @@ span.line--highlighted {
 html.dark div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(255, 255, 255) !important;
 }
+
 html.light div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(0, 0, 0) !important;
 }
+
 .hello-tool button {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding: 0 !important;
 }
+
 .hello-tool .collab {
   margin-left: 8px !important;
   margin-right: 8px !important;
@@ -167,6 +175,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb);
 }
+
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
   width: 7px;
@@ -174,11 +183,13 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   height: 7px;
   height: 7px;
 }
+
 *::-webkit-scrollbar-corner {
   background-color: var(--scrollbar-track);
   border: 1px solid var(--scrollbar-track);
 
 }
+
 *::-webkit-scrollbar-track {
   background-color: var(--scrollbar-track);
 }
@@ -218,11 +229,31 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   min-width: 100%;
 }
 
+.navbar button,
+.navbar .docs,
+.navbar .social-media {
+  background: transparent !important;
+}
+
+.navbar button:hover,
+.navbar a:hover,
+.navbar .social-media:hover {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgb(0, 17, 255);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
 @keyframes ranbow-glow {
+
   0%,
   100% {
     filter: hue-rotate(0deg);
   }
+
   50% {
     filter: hue-rotate(360deg);
   }
