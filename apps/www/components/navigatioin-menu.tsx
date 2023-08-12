@@ -74,16 +74,6 @@ export const products: { title: string; href: string; description: string }[] =
       description:
         "A better and version of React Native with Expo made by me(BeingOfExistence)",
     },
-    // {
-    //   title: "Nextjs",
-    //   href: "/https://nextjs.org/",
-    //   description: "The most hottest React framwork out there made by vercel",
-    // },
-    // {
-    //   title: "Shadcn",
-    //   href: "https://ui.shadcn.com/",
-    //   description: "My favorite UI component library(Highly Recommended)",
-    // },
     {
       title: "Docsflow",
       href: "/https://docsflow-emon-sumon-shohan.vercel.app/",
@@ -123,13 +113,29 @@ export const products: { title: string; href: string; description: string }[] =
       title: "Osflow",
       href: "/https://paymentflow-emon-sumon-shohan.vercel.app/",
       description:
-        "All Oparating System Assemble",
+        "All Oparating Systems Assemble",
     },
     {
       title: "Browserflow",
       href: "/https://paymentflow-emon-sumon-shohan.vercel.app/",
       description:
         "What more can be added in MODERN BROWSERS",
+    },
+    {
+      title: "Extentionflow",
+      href: "/https://paymentflow-emon-sumon-shohan.vercel.app/",
+      description:
+        "All types of Extentions or Plugins that can be made",
+    },
+    {
+      title: "Nextjs",
+      href: "/https://nextjs.org/",
+      description: "The most hottest React framwork out there made by vercel",
+    },
+    {
+      title: "Shadcn",
+      href: "https://ui.shadcn.com/",
+      description: "My favorite UI component library(Highly Recommended)",
     },
   ]
 export const more: { title: string; href: string; description: string }[] = [
@@ -172,7 +178,7 @@ export function NavigationMenuDropdown() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Products</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid h-[500px] w-[400px] gap-3 overflow-x-scroll p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {products.map((component) => (
                 <ListItem
                   key={component.title}
