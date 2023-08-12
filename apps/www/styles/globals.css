@@ -211,12 +211,10 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar {
   animation: ranbow-glow 10s linear infinite;
-  background: rgba(255, 255, 255, 0);
-  /* box-shadow: 0 3px 5px 0 rgb(255, 0, 0); */
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
   border-bottom: 2px solid yellow;
-  /* z-index: 100000000000000; */
   min-width: 100%;
 }
 
