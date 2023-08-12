@@ -63,8 +63,8 @@ export function MobileNav() {
           </Avatar>
           <span className="ml-3 font-bold">{siteConfig.name}</span>
         </MobileLink>
-        <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
-          <div className="mb-3 flex flex-col space-y-3">
+        <ScrollArea className="mt-2 h-[100vh] pb-20 pl-6">
+          <div className="flex flex-col space-y-3">
             {products.map(
               (item) =>
                 item.href && (
@@ -81,7 +81,7 @@ export function MobileNav() {
                 )
             )}
           </div>
-          <div className="mb-3 flex flex-col space-y-3">
+          <div className="mt-3 flex flex-col space-y-3">
             {more.map(
               (item) =>
                 item.href && (
@@ -99,7 +99,7 @@ export function MobileNav() {
             )}
           </div>
 
-          <div className="flex flex-col space-y-3">
+          <div className="mt-3 flex flex-col space-y-3">
             {docsConfig.mainNav?.map(
               (item) =>
                 item.href && (
@@ -113,7 +113,7 @@ export function MobileNav() {
                 )
             )}
           </div>
-          <div className="flex flex-col space-y-2">
+          <div className="mt-3 flex flex-col space-y-2">
             {docsConfig.sidebarNav.map((item, index) => (
               <div key={index} className="flex flex-col space-y-3 pt-6">
                 <h4 className="font-medium">{item.title}</h4>

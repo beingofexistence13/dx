@@ -1129,6 +1129,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/others/graphql",
           items: [],
         },
+        {
+          title: "End",
+          href: "/docs/others/the-end",
+          items: [],
+        },
       ],
     },
   ],
