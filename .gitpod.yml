@@ -24,8 +24,7 @@ tasks:
           rm -rf .git
       command: |
           yarn install &&
-          yarn run build &&
-          yarn run dev
+          yarn run build
     - name: nextui
       init: |
           cd inspirations &&
