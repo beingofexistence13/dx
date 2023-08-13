@@ -1,4 +1,4 @@
-// CODE BEAUTIFIER 
+CODE BEAUTIFIER Converter
 
 HEX to Pantone Converter
 RGB to Pantone Converter
@@ -30,7 +30,6 @@ Unix Timestamp Converter
 More Unit Tools
 
 SQL Converters
-
 SQL to CSV Converter
 SQL to JSON Converter
 SQL to XML Converter
@@ -38,7 +37,6 @@ SQL to YAML Converter
 SQL to HTML Converter
 
 Encode and Decode
-
 Base32 Encode
 Base32 Decode
 Base58 Encode
@@ -60,7 +58,6 @@ JSON Decode Online
 JSON Encode Online
 
 Base64 Tools
-
 Image to Base64
 Base64 to Image
 PNG to Base64
@@ -83,7 +80,6 @@ Octal to Base64
 More Base64 Tools
 
 Image Tools
-
 JPG to PNG
 BMP to PNG
 PNG to JPG
@@ -263,7 +259,6 @@ Word to HTML
 Online Tableizer
 
 JSON Converters
-
 JSON to JAVA
 JSON to XML
 JSON to YAML
@@ -274,7 +269,6 @@ JSON to Excel
 JSON to HTML
 
 XML Converters
-
 XML Converter
 XML to JSON
 XML to YAML
@@ -287,7 +281,6 @@ XML to Excel
 XML to JAVA
 
 HTML Converters
-
 HTML Stripper
 HTML Table Generator
 HTML to CSV Converter
@@ -310,7 +303,6 @@ HTML to BBCode Converter
 BBCode to HTML Converter
 
 YAML Converters
-
 YAML Converter
 YAML to XML
 YAML to JSON
@@ -318,7 +310,6 @@ YAML to CSV
 YAML to Excel
 
 Utility
-
 Send Snap Message
 Responsive Website Tester
 Credit Card Validator
@@ -340,7 +331,6 @@ Curl to PHP
 Crontab Format
 
 Chart Tools
-
 Line Graph Maker
 Bar Graph Maker
 Pie Chart Maker
@@ -521,7 +511,6 @@ BBCode Viewer
 Markdown Viewer
 
 Programming Editors
-
 XML Editor
 JSON Editor
 Real Time HTML Editor
@@ -533,14 +522,12 @@ Actionscript Editor
 Markdown Editor
 
 Parsers
-
 URL Parser
 JSON Parser
 XML Parser
 YAML Parser
 
 CSS Tools
-
 CSS Beautifier
 CSS to LESS
 CSS to SCSS
@@ -568,7 +555,6 @@ SASS to SCSS
 SASS to LESS
 
 Escape Unescape
-
 HTML Escape Unescape
 XML Escape Unescape
 Java Escape Unescape
@@ -580,7 +566,6 @@ JSON Escape Unescape
 Un-Google Link
 
 CryptoGraphy Tools
-
 Encryption-Decryption
 HMAC Generator
 MD2 Hash Generator
@@ -820,7 +805,6 @@ Lua Minifier
 Text Minifier
 
 CSV Tools
-
 CSV Viewer
 CSV to XML/JSON
 CSV to XML
@@ -832,7 +816,6 @@ CSV to SQL
 CSV to Excel
 
 String Utilities
-
 Upside Down Text
 Random Word Generator
 NTLM Hash Generator
@@ -863,7 +846,6 @@ Text Repeater
 Remove Punctuation
 
 Syntax Highlighting
-
 JSON Syntax Highlighting
 XML Highlighter
 XML Pretty Print
@@ -1049,7 +1031,6 @@ API Test
 YAML Validator
 
 Number Utilities
-
 All Numbers Converter
 Decimal to Binary
 Decimal to Octal
@@ -1069,7 +1050,6 @@ Char to ASCII
 Reverse Hex
 
 Bitwise Tools
-
 Bitwise Calculator
 XOR Calculator
 AND Calculator
@@ -1079,7 +1059,6 @@ NOR Calculator
 XNOR Calculator
 
 IP Tools
-
 Hex to IP
 IP to Hex
 Binary to IP
@@ -1091,7 +1070,6 @@ IP to Octal
 IPV6 to Binary
 
 Other Tools
-
 Lorem-Ipsum
 Sharelink Generator
 Hostname to IP
@@ -1106,7 +1084,6 @@ Open Port Checker
 Webcam Test
 
 Random Tools
-
 Random IP Address
 Random Time Generator
 Random UUID Generator
@@ -1292,120 +1269,7 @@ Random Byte Generator
 Random Decimal Generator
 Random Alphanumeric Generator
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Popular Functionality
+Popular Functionality
 JSON Beautifier
 HTML Viewer
 Number to Words
@@ -1434,7 +1298,7 @@ ASCII to Text
 Random Emoji Generator
 REM to PX Converter
 
-// New Functionality
+New Functionality
 Random Trivia Generator
 Random Website Generator
 Random Proverb Generator
@@ -1664,7 +1528,7 @@ String to JSON Online
 YAML Pretty Print
 YouTube Thumbnail Grabber
 
-// Trending Tools
+Trending Tools
 Bitwise Calculator
 Number Sorter
 Remove Punctuation
@@ -1686,7 +1550,7 @@ Word to HTML
 CSV to Excel
 Sharelink Generator
 
-// Developer Tools
+Developer Tools
 IP Tools
 Formatters & Beautifiers
 Image Converter Tools
@@ -1721,10 +1585,8 @@ POJO Tools
 Twitter Tools
 Random Generators
 
-
-
-// Generators
----CSS
+Generators
+CSS
 ANIMATION
 Keyframe Animation
 BACKGROUND
@@ -1781,7 +1643,7 @@ Skew
 Translate
 TRANSITION
 Transition
----HTML
+HTML
 INPUT
 Button
 Checkbox & Radio Button
@@ -1814,7 +1676,7 @@ Quote & Blockquote
 Strikethrough
 Superscript & Subscript
 Underline (Unarticulated)
----OTHER
+OTHER
 Details
 Dialog
 Hyperlink
@@ -1836,7 +1698,7 @@ Product
 Recipe
 Video
 Website
----open Graph
+open Graph
 Article
 Book
 Business
@@ -1851,15 +1713,15 @@ Video Episode
 Video Movie
 Video TV Show
 Website
----Twitter Card
+Twitter Card
 App
 Player
 Summary
 Summary with Large Image
 Robots.txt
 
-// Code Converter
-VM745:1 SVG
+Code Converter
+SVG
 to JSX
 to React Native
 HTML
@@ -1934,11 +1796,7 @@ XML to JSON
 YAML to JSON
 YAML to TOML
 
-
-
-
-
-// Css Generators
+Css Generators
 Animated Text Generator
 Border Radius Generator
 Box Shadow Generator
@@ -1968,7 +1826,7 @@ Tooltip Generator
 Triangle Generator
 3D Transform Generator
 
-// Css Properties
+Css Properties
 align-content
 align-items
 align-self
@@ -2197,7 +2055,7 @@ word-wrap
 writing-mode
 z-index
 
-// Css Pseudo Classes
+Css Pseudo Classes
 :active
 :checked
 :default
@@ -2233,7 +2091,7 @@ z-index
 :valid
 :visited
 
-// Html Tags
+Html Tags
 <a>
 <abbr>
 <address>
@@ -2345,7 +2203,7 @@ z-index
 <video>
 <wbr>
 
-// Css Functions
+Css Functions
 attr()
 blur()
 brightness()
@@ -2392,7 +2250,7 @@ translateX()
 translateY()
 translateZ()
 
-// Css At Rules
+Css At Rules
 @charset
 @counter-style
 @document
@@ -2405,7 +2263,7 @@ translateZ()
 @page
 @supports
 
-// Css Data types
+Css Data types
 angle
 basic-shape
 blend-mode
@@ -2424,7 +2282,7 @@ string
 time
 url
 
-// Css Pseudo Elements
+Css Pseudo Elements
 ::after
 ::before
 ::first-letter
@@ -2432,7 +2290,7 @@ url
 ::placeholder
 ::selection 
 
-// Html Tools
+Html Tools
 Pug to HTML Compiler
 Markdown to HTML Compiler
 HTML to Pug Converter
@@ -2446,7 +2304,7 @@ HTML Online Editor
 HTML Tutorial
 HTML Validator
 
-// Css Tools
+Css Tools
 LESS to CSS Compiler
 SCSS to CSS Compiler
 Stylus to CSS Compiler
