@@ -1,5 +1,8 @@
 // Generators
 let generator, generators
+const regex = /\s/gi
+let cars = ["Saab", "Volvo", "BMW"]
+
 generators = [
   {
     title: "HEX to Pantone Converter",
@@ -13631,22 +13634,26 @@ generators = [
     title: "Online CSS Editor",
   },
 ]
-const regex = /\s/gi
 
-generator = `${generators.map((generators) => {
-  ;`{
-            title: "${generators.title}",
-            href: "/docs/generators/${generators.title
-              .toLowerCase()
-              .replaceAll(regex, "-")}",
-            items: [],
-        }`
-})}`
-
+for (let i = 0; i < generators.length; i++) {
+  generator = generators.map((generators) => {
+    return `{
+      title: "${generators.title}",
+      href: "/docs/generators/${generators.title
+        .toLowerCase()
+        .replaceAll(regex, "-")}",
+      items: [],
+    }`
+});;
+}
 function myFunction() {
   // Copy the text inside the text field
   navigator.clipboard.writeText(generator)
 
   // Alert the copied text
-  alert("Copied the text: " + generator)
+  alert("Copied the text: " + cars)
+  console.log(generator);
 }
+
+
+console.log(generator);
