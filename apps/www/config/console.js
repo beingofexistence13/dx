@@ -1,5 +1,6 @@
 // Generators
-const generators = [
+let generator, generators
+generators = [
   {
     title: "HEX to Pantone Converter",
   },
@@ -13630,12 +13631,22 @@ const generators = [
     title: "Online CSS Editor",
   },
 ]
+const regex = /\s/gi
 
-console.log(`${generators.map((generators) => {
-  `{
-        title: "${generators.title}",
-        href: "/docs/generators/${generators.title}",
-        items: [],
-    },`
-})}`);
+generator = `${generators.map((generators) => {
+  ;`{
+            title: "${generators.title}",
+            href: "/docs/generators/${generators.title
+              .toLowerCase()
+              .replaceAll(regex, "-")}",
+            items: [],
+        }`
+})}`
 
+function myFunction() {
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(generator)
+
+  // Alert the copied text
+  alert("Copied the text: " + generator)
+}
