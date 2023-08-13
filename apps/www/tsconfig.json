@@ -32,6 +32,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
-, "config/console.js"  ],
+, "config/console.js", "config/text.txty"  ],
   "exclude": ["node_modules", "./scripts/build-registry.ts"]
 }
