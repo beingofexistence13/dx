@@ -1145,18 +1145,28 @@ export const docsConfig: DocsConfig = {
       title: "Packages",
       items: [
         {
-          title: "Prisma",
-          href: "/docs/others/prisma",
+          title: "Npm",
+          href: "/docs/packages/prisma",
           items: [],
         },
         {
-          title: "Graphql",
-          href: "/docs/others/graphql",
+          title: "Pip",
+          href: "/docs/packages/pip",
           items: [],
         },
         {
-          title: "End",
-          href: "/docs/others/the-end",
+          title: "Docker",
+          href: "/docs/packages/Docker",
+          items: [],
+        },
+        {
+          title: "Go",
+          href: "/docs/packages/go",
+          items: [],
+        },
+        {
+          title: "Maven",
+          href: "/docs/packages/maven",
           items: [],
         },
       ],
@@ -2895,7 +2905,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Lisp – ISO/IEC 13816",
+          title: "Lisp ISO/IEC 13816",
           href: "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
           items: [],
         },
