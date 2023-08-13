@@ -60,6 +60,9 @@ html {
     --scrollbar-thumb: rgb(225, 225, 225);
     --scrollbar-thumb-hover: rgb(220, 220, 220);
     --scrollbar-thumb-active: rgb(229, 229, 229);
+
+    --rainbow-background: rgba(0, 0, 0, 0.16);
+
   }
 
   .dark {
@@ -105,6 +108,9 @@ html {
     --scrollbar-thumb: rgb(62, 62, 62);
     --scrollbar-thumb-hover: rgb(68, 68, 68);
     --scrollbar-thumb-active: rgb(66, 66, 66);
+
+    --rainbow-background: rgb(255, 0, 0);
+
   }
 }
 
@@ -238,13 +244,19 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar button:hover,
 .navbar .social-media:hover,
-.navbar .docs:hover {
+.navbar .docs:hover,
+.navbar ul li:hover {
   background: rgba(255, 255, 255, 0) !important;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: var(--rainbow-background) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px !important;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar a.docs {
+
+  height: 50px;
+  width: 50px;
 
 }
 

@@ -247,11 +247,9 @@ export function NavigationMenuDropdown() {
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className="p-2 ">
           <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className="docs p-3">
-              Docs
-            </NavigationMenuLink>
+            Docs
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
