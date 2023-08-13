@@ -630,6 +630,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "College",
+          href: "/docs/ui/college",
+          items: [],
+        },
+        {
           title: "Material Ui",
           href: "/docs/ui/material-ui",
           items: [],
@@ -857,7 +862,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Database",
+      title: "Databases",
       items: [
         {
           title: "Mysql",
@@ -982,7 +987,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Backend",
+      title: "Backends",
       items: [
         {
           title: "Django",
@@ -1027,7 +1032,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Hosting",
+      title: "Hosting Platforms",
       items: [
         {
           title: "Vercel",
@@ -1097,7 +1102,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Test",
+      title: "Testing Libraries",
       items: [
         {
           title: "Selinium",
@@ -1112,6 +1117,86 @@ export const docsConfig: DocsConfig = {
         {
           title: "Jest",
           href: "/docs/test/jest",
+          items: [],
+        },
+      ],
+    },
+    {
+      title: "Generators",
+      items: [
+        {
+          title: "Prisma",
+          href: "/docs/others/prisma",
+          items: [],
+        },
+        {
+          title: "Graphql",
+          href: "/docs/others/graphql",
+          items: [],
+        },
+        {
+          title: "End",
+          href: "/docs/others/the-end",
+          items: [],
+        },
+      ],
+    },
+    {
+      title: "Packages",
+      items: [
+        {
+          title: "Prisma",
+          href: "/docs/others/prisma",
+          items: [],
+        },
+        {
+          title: "Graphql",
+          href: "/docs/others/graphql",
+          items: [],
+        },
+        {
+          title: "End",
+          href: "/docs/others/the-end",
+          items: [],
+        },
+      ],
+    },
+    {
+      title: "Bucket List",
+      items: [
+        {
+          title: "Prisma",
+          href: "/docs/others/prisma",
+          items: [],
+        },
+        {
+          title: "Graphql",
+          href: "/docs/others/graphql",
+          items: [],
+        },
+        {
+          title: "End",
+          href: "/docs/others/the-end",
+          items: [],
+        },
+      ],
+    },
+    {
+      title: "Programming Languages",
+      items: [
+        {
+          title: "Prisma",
+          href: "/docs/others/prisma",
+          items: [],
+        },
+        {
+          title: "Graphql",
+          href: "/docs/others/graphql",
+          items: [],
+        },
+        {
+          title: "End",
+          href: "/docs/others/the-end",
           items: [],
         },
       ],
