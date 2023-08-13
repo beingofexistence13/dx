@@ -222,27 +222,28 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar {
   animation: ranbow-glow 10s linear infinite;
-  background: rgba( 255, 255, 255, 0.05 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-bottom: 2px solid yellow;
   min-width: 100%;
 }
 
 .navbar button,
 .navbar .docs,
-.navbar .social-media {
+.navbar .social-media,
+.navbar ul * {
   background: transparent !important;
 }
 
 .navbar button:hover,
-.navbar a:hover,
-.navbar .social-media:hover {
-  background: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 8px 32px 0 rgb(0, 17, 255);
+.navbar .social-media:hover,
+.navbar .docs:hover {
+  background: rgba(255, 255, 255, 0) !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px;
+  border-radius: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
