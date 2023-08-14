@@ -17,5 +17,8 @@ import { Separator } from "@/registry/new-york/ui/separator"
 import DashboardPage from "@/app/examples/dashboard/page"
 
 export default function IndexPage() {
-  return <div className="">UI</div>
+  return <div className="">
+    <h1>Ui</h1>
+    <Todo />
+  </div>
 }
