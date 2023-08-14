@@ -17,6 +17,7 @@ html {
 
 @layer base {
   :root {
+
     --body-background: rgb(255, 255, 255);
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -62,7 +63,6 @@ html {
     --scrollbar-thumb-active: rgb(229, 229, 229);
 
     --rainbow-background: rgba(0, 0, 0, 0.16);
-
   }
 
   .dark {
@@ -110,7 +110,6 @@ html {
     --scrollbar-thumb-active: rgb(66, 66, 66);
 
     --rainbow-background: rgb(255, 0, 0);
-
   }
 }
 
@@ -193,7 +192,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 *::-webkit-scrollbar-corner {
   background-color: var(--scrollbar-track);
   border: 1px solid var(--scrollbar-track);
-
 }
 
 *::-webkit-scrollbar-track {
@@ -228,7 +226,13 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar {
   animation: ranbow-glow 10s linear infinite;
+  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.05);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 2px solid yellow;
@@ -247,21 +251,19 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 .navbar .docs:hover,
 .navbar ul li:hover {
   background: rgba(255, 255, 255, 0) !important;
-  box-shadow: var(--rainbow-background) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px !important;
 }
 
 .navbar a.docs {
-
   height: 50px;
   width: 50px;
-
 }
 
 @keyframes ranbow-glow {
-
   0%,
   100% {
     filter: hue-rotate(0deg);

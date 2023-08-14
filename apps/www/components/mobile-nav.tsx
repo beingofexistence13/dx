@@ -64,7 +64,7 @@ export function MobileNav() {
           <span className="ml-3 font-bold">{siteConfig.name}</span>
         </MobileLink>
         <ScrollArea className="mt-2 h-[100vh] pb-20 pl-6">
-          <div className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 text-[#73737a]">
             {products.map(
               (item) =>
                 item.href && (
@@ -81,7 +81,7 @@ export function MobileNav() {
                 )
             )}
           </div>
-          <div className="mt-3 flex flex-col space-y-3">
+          <div className="mt-3 flex flex-col space-y-3 text-[#73737a]">
             {more.map(
               (item) =>
                 item.href && (

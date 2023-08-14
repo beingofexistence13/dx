@@ -2177,7 +2177,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Bucket List",
+      title: "Bucket Lists",
       items: [
         {
           title: "Platforms",
