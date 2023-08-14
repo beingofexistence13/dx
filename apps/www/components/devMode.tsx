@@ -69,10 +69,6 @@ const items = [
     id: "friday",
   },
   {
-    label: "Hello Mode",
-    id: "hello-mode",
-  },
-  {
     label: "Multiverse",
     id: "multiverse",
   },
@@ -204,60 +200,6 @@ export function DevMode() {
 
   return (
     <Menubar className="devMode fixed bottom-16 left-[90%] flex h-[50px] w-[50px] translate-x-[-50%] flex-row items-center justify-center overflow-hidden rounded-full p-2">
-      <Form {...form}>
-        <form
-          onSubmit={form.handleSubmit(onSubmit)}
-          className="mb-4  space-y-8 pb-4"
-        >
-          <FormField
-            control={form.control}
-            name="items"
-            render={() => (
-              <FormItem>
-                {items.map((item) => (
-                  <FormField
-                    key={item.id}
-                    control={form.control}
-                    name="items"
-                    render={({ field }) => {
-                      return (
-                        <FormItem
-                          key={item.id}
-                          className="flex flex-row items-start space-x-3 space-y-0"
-                        >
-
-                          <FormControl>
-                            <Checkbox
-                              checked={field.value?.includes(item.id)}
-                              onCheckedChange={(checked) => {
-                                return checked
-                                  ? field.onChange([...field.value, item.id])
-                                  : field.onChange(
-                                      field.value?.filter(
-                                        (value) => value !== item.id
-                                      )
-                                    )
-                              }}
-                            />
-                          </FormControl>
-
-
-                          <FormLabel className="font-normal">
-                            {item.label}
-                          </FormLabel>
-                        </FormItem>
-                      )
-                    }}
-                  />
-                ))}
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          {/* <Button type="submit">Add to tasks</Button> */}
-          {/* <NavigationMenuDemo /> */}
-        </form>
-      </Form>
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -272,15 +214,79 @@ export function DevMode() {
             <Icons.devMode className="h-2 w-2" />
           </div>
         </MenubarTrigger>
-        <MenubarContent>
-
-          <MenubarItem>
-
+        <MenubarContent className="w-[300px] ">
+          <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+            <Checkbox id="terms" />
+            <h3>Dev Mode</h3>
           </MenubarItem>
-  
+          <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+            <Checkbox id="terms" />
+            <h3>Hello Mode</h3>
+          </MenubarItem>
+
+          <MenubarSeparator />
+
+          <Form {...form}>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="">
+              <FormField
+                control={form.control}
+                name="items"
+                render={() => (
+                  <FormItem>
+                    <div className="">
+                      {/* <FormLabel className="text-base">Tasks</FormLabel> */}
+                      {/* <FormDescription>
+                  This tasks should be done untill (10/08/2023 - Thursday)
+                </FormDescription> */}
+                    </div>
+                    {items.map((item) => (
+                      <FormField
+                        key={item.id}
+                        control={form.control}
+                        name="items"
+                        render={({ field }) => {
+                          return (
+                            <FormItem
+                              key={item.id}
+                              className="flex flex-row items-center justify-start space-x-3 space-y-0"
+                            >
+                              <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+                                <FormControl className="flex items-center justify-center">
+                                  <Checkbox
+                                    checked={field.value?.includes(item.id)}
+                                    onCheckedChange={(checked) => {
+                                      return checked
+                                        ? field.onChange([
+                                            ...field.value,
+                                            item.id,
+                                          ])
+                                        : field.onChange(
+                                            field.value?.filter(
+                                              (value) => value !== item.id
+                                            )
+                                          )
+                                    }}
+                                  />
+                                </FormControl>
+                                <FormLabel className="flex items-center justify-center font-normal">
+                                  {item.label}
+                                </FormLabel>
+                              </MenubarItem>
+                            </FormItem>
+                          )
+                        }}
+                      />
+                    ))}
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              {/* <Button type="submit">Add to tasks</Button> */}
+              {/* <NavigationMenuDemo /> */}
+            </form>
+          </Form>
         </MenubarContent>
       </MenubarMenu>
- 
     </Menubar>
   )
 }
