@@ -48,7 +48,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto w-[450] translate-x-[-50%] flex-row items-center justify-center rounded-2xl p-2">
+    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto max-w-[360px] translate-x-[-50%] flex-row items-center justify-center rounded-2xl p-2">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -57,10 +57,10 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              "flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+              "flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
             )}
           >
-            <Icons.magic className="h-4 w-4" />
+            <Icons.magic className="h-2 w-2" />
           </div>
         </MenubarTrigger>
         <MenubarContent>
@@ -96,10 +96,10 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+              "m-0 flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
             )}
           >
-            <Icons.inbox className="h-4 w-4" />
+            <Icons.inbox className="h-2 w-2" />
           </div>
         </MenubarTrigger>
         <MenubarContent>
@@ -129,19 +129,19 @@ export function HelloTool() {
       </MenubarMenu>
       {/* Users */}
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
-        <Avatar>
+        <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
-        <Avatar>
+        <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-two.jpg" alt="@shadcn" />
           <AvatarFallback>2</AvatarFallback>
         </Avatar>
-        <Avatar>
+        <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-three.jpg" alt="@shadcn" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
-        <Avatar>
+        <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-four.jpg" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
@@ -154,8 +154,8 @@ export function HelloTool() {
 
               <ContextMenu>
                 <ContextMenuTrigger>
-                  <div className=" flex h-[40px] w-[40px] items-center justify-center rounded-full border p-0">
-                    <Icons.chevronUp className="h-4 w-4" />
+                  <div className=" flex h-[30px] w-[30px] items-center justify-center rounded-full border p-0">
+                    <Icons.chevronUp className="h-2 w-2" />
                   </div>
                 </ContextMenuTrigger>
                 <ContextMenuContent>
@@ -179,7 +179,7 @@ export function HelloTool() {
                     <TabsTrigger value="react">React</TabsTrigger>
                   </TabsList>
                 </DialogTitle>
-                <DialogDescription className=" h-[345px] overflow-y-auto overflow-x-hidden pt-7">
+                <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
                   <TabsContent value="vlog">
                     <div className="grid grid-cols-2 justify-stretch gap-3">
                       {socialMediaConfig.platformVlog?.map(
@@ -242,10 +242,10 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+              "m-0 flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
             )}
           >
-            <Icons.sparkles className="h-4 w-4" />
+            <Icons.sparkles className="h-2 w-2" />
           </div>
         </MenubarTrigger>
         <MenubarContent>
@@ -281,10 +281,10 @@ export function HelloTool() {
               buttonVariants({
                 variant: "ghost",
               }),
-              "m-0 flex h-[35px] w-[45px] items-center justify-center rounded-lg p-0"
+              "m-0 flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
             )}
           >
-            <Icons.code className="h-4 w-4" />
+            <Icons.code className="h-2 w-2" />
           </div>
         </MenubarTrigger>
         <MenubarContent>
@@ -360,7 +360,7 @@ function SocialMedia({
                     buttonVariants({
                       variant: "ghost",
                     }),
-                    "flex justify-center items-center p-0 m-0 rounded-lg h-[35px] w-[45px]"
+                    "flex justify-center items-center p-0 m-0 rounded-lg w-[25px] h-[25px]"
                   )}
                 >
 
@@ -388,7 +388,7 @@ function SocialMedia({
                   <TabsTrigger value="react">React</TabsTrigger>
                 </TabsList>
               </DialogTitle>
-              <DialogDescription className=" h-[345px] overflow-y-auto overflow-x-hidden pt-7">
+              <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
                 <TabsContent value="vlog">
                   <div className="grid grid-cols-2 gap-3 justify-stretch">
                     {socialMediaConfig.platformVlog?.map(
