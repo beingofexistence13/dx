@@ -7,8 +7,8 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
 
-import { socialMediaConfig } from "@/config/social-media"
 import { items } from "@/config/dev-mode"
+import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -61,7 +61,6 @@ import {
   buttonVariants,
 } from "./ui"
 
-
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: "You have to select at least one item.",
@@ -91,46 +90,129 @@ export function DevMode() {
   }
 
   return (
-    <Menubar className="devMode fixed bottom-16 left-[90%] flex h-[50px] w-[50px] translate-x-[-50%] flex-row items-center justify-center overflow-hidden rounded-full p-2">
-      {/* Magic */}
-      <MenubarMenu>
-        <MenubarTrigger className="rounded-lg">
-          <div
-            className={cn(
-              buttonVariants({
-                variant: "ghost",
-              }),
-              "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
-            )}
-          >
-            <Icons.devMode className="h-2 w-2" />
+    // <Menubar className="devMode fixed bottom-16 left-[90%] flex h-[50px] w-[50px] translate-x-[-50%] flex-row items-center justify-center overflow-hidden rounded-full p-2">
+    //   {/* Magic */}
+    //   <MenubarMenu>
+    //     <MenubarTrigger className="rounded-lg">
+    //       <div
+    //         className={cn(
+    //           buttonVariants({
+    //             variant: "ghost",
+    //           }),
+    //           "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
+    //         )}
+    //       >
+    //         <Icons.devMode className="h-2 w-2" />
+    //       </div>
+    //     </MenubarTrigger>
+    //     <MenubarContent className="w-[300px] ">
+    //       <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+    //         <Switch id="dev-mode" />
+    //         <h6>Dev Mode</h6>
+    //       </MenubarItem>
+    //       <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+    //         <Switch id="hello-tool" />
+    //         <h6>Hello Tool</h6>
+    //       </MenubarItem>
+
+    //       <MenubarSeparator />
+
+    //       <Form {...form}>
+    //         <form onSubmit={form.handleSubmit(onSubmit)} className="">
+    //           <FormField
+    //             control={form.control}
+    //             name="items"
+    //             render={() => (
+    //               <FormItem>
+    //                 <div className="">
+    //                   {/* <FormLabel className="text-base">Tasks</FormLabel> */}
+    //                   {/* <FormDescription>
+    //               This tasks should be done untill (10/08/2023 - Thursday)
+    //             </FormDescription> */}
+    //                 </div>
+    //                 {items.map((item) => (
+    //                   <FormField
+    //                     key={item.id}
+    //                     control={form.control}
+    //                     name="items"
+    //                     render={({ field }) => {
+    //                       return (
+    //                         <FormItem
+    //                           key={item.id}
+    //                           className="flex flex-row items-center justify-start space-x-3 space-y-0"
+    //                         >
+    //                           <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+    //                             <FormControl className="flex items-center justify-center">
+    //                               <Checkbox
+    //                                 checked={field.value?.includes(item.id)}
+    //                                 onCheckedChange={(checked) => {
+    //                                   return checked
+    //                                     ? field.onChange([
+    //                                         ...field.value,
+    //                                         item.id,
+    //                                       ])
+    //                                     : field.onChange(
+    //                                         field.value?.filter(
+    //                                           (value) => value !== item.id
+    //                                         )
+    //                                       )
+    //                                 }}
+    //                               />
+    //                             </FormControl>
+    //                             <FormLabel className="flex items-center justify-center font-normal">
+    //                               {item.label}
+    //                             </FormLabel>
+    //                           </MenubarItem>
+    //                         </FormItem>
+    //                       )
+    //                     }}
+    //                   />
+    //                 ))}
+    //                 <FormMessage />
+    //               </FormItem>
+    //             )}
+    //           />
+    //           {/* <Button type="submit">Add to tasks</Button> */}
+    //           {/* <NavigationMenuDemo /> */}
+    //         </form>
+    //       </Form>
+    //     </MenubarContent>
+    //   </MenubarMenu>
+    // </Menubar>
+    <Dialog>
+      <DialogTrigger className="devMode fixed bottom-16 left-[92%] flex h-[50px] w-[50px] translate-x-[-50%] flex-row items-center justify-center overflow-hidden rounded-full border p-2">
+        <div
+          className={cn(
+            buttonVariants({
+              variant: "ghost",
+            }),
+            "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
+          )}
+        >
+          <Icons.devMode className="h-2 w-2" />
+        </div>
+      </DialogTrigger>
+      <DialogContent className="devMode-container fixed bottom-5 right-[50px] h-[500px] w-[325px] translate-x-[-10%] translate-y-[-45%]">
+        <DialogHeader>
+          <div className="devMode-header pl-3 pt-3">
+            <div className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+              <Switch id="dev-mode" />
+              <h6>Dev Mode</h6>
+            </div>
+            <div className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
+              <Switch id="hello-tool" />
+              <h6>Hello Tool</h6>
+            </div>
           </div>
-        </MenubarTrigger>
-        <MenubarContent className="w-[300px] ">
-          <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
-            <Switch id="dev-mode" />
-            <h3>Dev Mode</h3>
-          </MenubarItem>
-          <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
-            <Switch id="hello-tool" />
-            <h3>Hello Tool</h3>
-          </MenubarItem>
 
-          <MenubarSeparator />
-
+          <div className="horizantalDivider"></div>
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="">
+            <form onSubmit={form.handleSubmit(onSubmit)} className="devMode-content h-[400px] overflow-y-auto pb-3 pl-2 pr-0">
               <FormField
                 control={form.control}
                 name="items"
                 render={() => (
                   <FormItem>
-                    <div className="">
-                      {/* <FormLabel className="text-base">Tasks</FormLabel> */}
-                      {/* <FormDescription>
-                  This tasks should be done untill (10/08/2023 - Thursday)
-                </FormDescription> */}
-                    </div>
                     {items.map((item) => (
                       <FormField
                         key={item.id}
@@ -140,30 +222,33 @@ export function DevMode() {
                           return (
                             <FormItem
                               key={item.id}
-                              className="flex flex-row items-center justify-start space-x-3 space-y-0"
+                              className={cn(
+                                buttonVariants({
+                                  variant: "ghost",
+                                }),
+                                "m-0 flex h-[20px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
+                              )}
                             >
-                              <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
-                                <FormControl className="flex items-center justify-center">
-                                  <Checkbox
-                                    checked={field.value?.includes(item.id)}
-                                    onCheckedChange={(checked) => {
-                                      return checked
-                                        ? field.onChange([
-                                            ...field.value,
-                                            item.id,
-                                          ])
-                                        : field.onChange(
-                                            field.value?.filter(
-                                              (value) => value !== item.id
-                                            )
+                              <FormControl className="flex items-center justify-center">
+                                <Checkbox
+                                  checked={field.value?.includes(item.id)}
+                                  onCheckedChange={(checked) => {
+                                    return checked
+                                      ? field.onChange([
+                                          ...field.value,
+                                          item.id,
+                                        ])
+                                      : field.onChange(
+                                          field.value?.filter(
+                                            (value) => value !== item.id
                                           )
-                                    }}
-                                  />
-                                </FormControl>
-                                <FormLabel className="flex items-center justify-center font-normal">
-                                  {item.label}
-                                </FormLabel>
-                              </MenubarItem>
+                                        )
+                                  }}
+                                />
+                              </FormControl>
+                              <FormLabel className="flex items-center justify-center font-normal">
+                                {item.label}
+                              </FormLabel>
                             </FormItem>
                           )
                         }}
@@ -177,8 +262,14 @@ export function DevMode() {
               {/* <NavigationMenuDemo /> */}
             </form>
           </Form>
-        </MenubarContent>
-      </MenubarMenu>
-    </Menubar>
+
+          {/* <DialogTitle>Are you sure absolutely sure?</DialogTitle> */}
+          {/* <DialogDescription>
+            This action cannot be undone. This will permanently delete your
+            account and remove your data from our servers.
+          </DialogDescription> */}
+        </DialogHeader>
+      </DialogContent>
+    </Dialog>
   )
 }
