@@ -6,6 +6,7 @@ import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
 import { HelloTool } from "@/components/hello-tool"
+import { DevMode } from "@/components/devMode"
 import { ThemeProvider } from "@/components/providers"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
@@ -94,6 +95,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </div>
               <TailwindIndicator />
               <HelloTool />
+              <DevMode />
             </ThemeProvider>
             <Analytics />
             <NewYorkToaster />
