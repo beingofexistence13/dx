@@ -19,6 +19,6 @@ import DashboardPage from "@/app/examples/dashboard/page"
 export default function IndexPage() {
   return <div className="">
     <h1>Ui</h1>
-    <Todo />
+    {/* <Todo /> */}
   </div>
 }

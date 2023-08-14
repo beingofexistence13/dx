@@ -56,7 +56,7 @@ export default function IndexPage() {
         </div>
       </PageHeader>
 
-      <Todo />
+      {/* <Todo /> */}
 
       <ExamplesNav className="[&>a:first-child]:text-primary" />
       <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
