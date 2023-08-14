@@ -5,6 +5,11 @@ import { usePathname } from "next/navigation"
 import { SidebarNavItem } from "types/nav"
 
 import { cn } from "@/lib/utils"
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 
 export interface DocsSidebarNavProps {
   items: SidebarNavItem[]
@@ -34,7 +39,6 @@ interface DocsSidebarNavItemsProps {
   pathname: string | null
 }
 
-
 export function DocsSidebarNavItems({
   items,
   pathname,
@@ -56,12 +60,16 @@ export function DocsSidebarNavItems({
             target={item.external ? "_blank" : ""}
             rel={item.external ? "noreferrer" : ""}
           >
-            {item.title}
-            {item.label && (
+            <HoverCard>
+              <HoverCardTrigger> {item.title}</HoverCardTrigger>
+              <HoverCardContent>{item.description}</HoverCardContent>
+            </HoverCard>
+            {/* {item.title} */}
+            {/* {item.label && (
               <span className="ml-2 rounded-md bg-[#adfa1d] px-1.5 py-0.5 text-xs leading-none text-[#000000] no-underline group-hover:no-underline">
                 {item.label}
               </span>
-            )}
+            )} */}
           </Link>
         ) : (
           <span

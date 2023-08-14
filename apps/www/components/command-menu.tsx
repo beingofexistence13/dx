@@ -62,7 +62,7 @@ export function CommandMenu({ ...props }: DialogProps) {
         </span>
         <span className="inline-flex w-auto lg:hidden">Search...</span>
         <kbd className="pointer-events-none absolute right-1.5 top-1.5 flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100">
-          <span className="text-xs">⌘</span>K
+          <span className="text-xs">K</span>
         </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
