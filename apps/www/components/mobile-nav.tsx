@@ -18,7 +18,7 @@ import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
-import { more, products } from "./navigatioin-menu"
+import { more, products } from "@/config/navbar";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MobileNav() {
