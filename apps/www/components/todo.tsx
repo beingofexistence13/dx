@@ -18,7 +18,11 @@ import {
 import { toast } from "@/components/ui/use-toast"
 
 const items = [
+  {
+    label: "Navbar",
+    id: "navbar",
 
+  },
   {
     label: "Friday",
     id: "friday",
@@ -31,11 +35,6 @@ const items = [
   {
     label: "Multiverse",
     id: "multiverse",
-
-  },
-  {
-    label: "Navbar",
-    id: "navbar",
 
   },
   {
@@ -186,10 +185,10 @@ export default function Todo() {
           render={() => (
             <FormItem>
               <div className="mb-4">
-                <FormLabel className="text-base">Tasks</FormLabel>
-                <FormDescription>
+                {/* <FormLabel className="text-base">Tasks</FormLabel> */}
+                {/* <FormDescription>
                   This tasks should be done untill (10/08/2023 - Thursday)
-                </FormDescription>
+                </FormDescription> */}
               </div>
               {items.map((item) => (
                 <FormField
@@ -228,7 +227,7 @@ export default function Todo() {
             </FormItem>
           )}
         />
-        <Button type="submit">Add to tasks</Button>
+        {/* <Button type="submit">Add to tasks</Button> */}
         {/* <NavigationMenuDemo /> */}
       </form>
     </Form>

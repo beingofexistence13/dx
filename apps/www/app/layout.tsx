@@ -13,6 +13,8 @@ import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
+import { Providers } from "./provider"
+
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -83,7 +85,20 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-          {children}
+          <Providers>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              <div className="relative flex min-h-screen flex-col">
+                <SiteHeader />
+                <main className="flex-1">{children}</main>
+                {/* <SiteFooter /> */}
+              </div>
+              <TailwindIndicator />
+              <HelloTool />
+            </ThemeProvider>
+            <Analytics />
+            <NewYorkToaster />
+            <DefaultToaster />
+          </Providers>
         </body>
       </html>
     </>
