@@ -42,51 +42,61 @@ export const docsConfig: DocsConfig = {
           title: "Introduction",
           href: "/docs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Installation",
           href: "/docs/installation",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Theming",
           href: "/docs/theming",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dark mode",
           href: "/docs/dark-mode",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CLI",
           href: "/docs/cli",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Typography",
           href: "/docs/ui/typography",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Figma",
           href: "/docs/figma",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Spline",
           href: "/docs/spline",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Changelog",
           href: "/docs/changelog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "About",
           href: "/docs/about",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -97,31 +107,37 @@ export const docsConfig: DocsConfig = {
           title: "Next.js",
           href: "/docs/installation/next",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Vite",
           href: "/docs/installation/vite",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Remix",
           href: "/docs/installation/remix",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Gatsby",
           href: "/docs/installation/gatsby",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Astro",
           href: "/docs/installation/astro",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Manual",
           href: "/docs/installation/manual",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -132,522 +148,626 @@ export const docsConfig: DocsConfig = {
           title: "Friday",
           href: "/docs/ui/friday",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hello Mode",
           href: "/docs/ui/hello-mode",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Multiverse",
           href: "/docs/ui/multiverse",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Navbar",
           href: "/docs/ui/navbar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Blockchain Status",
           href: "/docs/ui/blockchain-status",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Activitybar",
           href: "/docs/ui/activitybar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Primary Sidebar",
           href: "/docs/ui/primary-sidebar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Secondary Sidebar",
           href: "/docs/ui/secondary-sidebar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bottombar",
           href: "/docs/ui/bottombar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dockbar",
           href: "/docs/ui/dockbar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Video Player",
           href: "/docs/ui/video-player",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hello 3d",
           href: "/docs/ui/hello-3d",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Theme",
           href: "/docs/ui/theme",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Keyboard Shortcuts",
           href: "/docs/ui/keyboard-shortcuts",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Search",
           href: "/docs/ui/search",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Command Palette",
           href: "/docs/ui/command-palette",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Footer",
           href: "/docs/ui/footer",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "According",
           href: "/docs/ui/according",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alert",
           href: "/docs/ui/alert",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alert Dialog",
           href: "/docs/ui/alert-dialog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Aspect Ratio",
           href: "/docs/ui/aspect-ratio",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Avatar",
           href: "/docs/ui/avatar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Badge",
           href: "/docs/ui/badge",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Button",
           href: "/docs/ui/button",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Calendar",
           href: "/docs/ui/calendar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Card",
           href: "/docs/ui/card",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Checkbox",
           href: "/docs/ui/checkbox",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Collapsible",
           href: "/docs/ui/collapsible",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Combobox",
           href: "/docs/ui/combobox",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Context Menu",
           href: "/docs/ui/context-menu",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Data Table",
           href: "/docs/ui/data-table",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dialog",
           href: "/docs/ui/dialog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dropdown Menu",
           href: "/docs/ui/dropdown-menu",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Form",
           href: "/docs/ui/form",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hover Card",
           href: "/docs/ui/hover-card",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Input",
           href: "/docs/ui/input",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Label",
           href: "/docs/ui/label",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Popover",
           href: "/docs/ui/popover",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Progress",
           href: "/docs/ui/progress",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Radio Group",
           href: "/docs/ui/radio-group",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Scroll Area",
           href: "/docs/ui/scroll-area",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Select",
           href: "/docs/ui/select",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Separator",
           href: "/docs/ui/separator",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Sheet",
           href: "/docs/ui/sheet",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Skeleton",
           href: "/docs/ui/skeleton",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Slider",
           href: "/docs/ui/slider",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Switch",
           href: "/docs/ui/switch",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Table",
           href: "/docs/ui/table",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tabs",
           href: "/docs/ui/tabs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Textarea",
           href: "/docs/ui/textarea",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Toast",
           href: "/docs/ui/toast",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Toggle",
           href: "/docs/ui/toggle",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tooltip",
           href: "/docs/ui/tooltip",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Text",
           href: "/docs/ui/text",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Charts",
           href: "/docs/ui/charts",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pagination",
           href: "/docs/ui/pagination",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Breadcrumbs",
           href: "/docs/ui/breadcrumbs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Chat Bubble",
           href: "/docs/ui/chat-bubble",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Date and Time Picker",
           href: "/docs/ui/date-and-time-picker",
           items: [],
+          description: "Not Provided(coming soon}",
         },
 
         {
           title: "Stacked Lists",
           href: "/docs/ui/stacked-lists",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Feeds",
           href: "/docs/ui/feeds",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Feildset",
           href: "/docs/ui/feildset",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "States",
           href: "/docs/ui/states",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Action Panels",
           href: "/docs/ui/action-panels",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Checkout Form",
           href: "/docs/ui/checkout-form",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Reviews",
           href: "/docs/ui/reviews",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Order Summaries",
           href: "/docs/ui/order-summaries",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Order History",
           href: "/docs/ui/order-history",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Incentives",
           href: "/docs/ui/incentives",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Box",
           href: "/docs/ui/box",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Callout",
           href: "/docs/ui/callout",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Datapoint",
           href: "/docs/ui/datapoint",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Masonary",
           href: "/docs/ui/masonary",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Overlay Panels",
           href: "/docs/ui/overlay-panels",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Table Of Contents",
           href: "/docs/ui/table-of-contents",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Float Button",
           href: "/docs/ui/float-button",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Autocomplete",
           href: "/docs/ui/autocomplete",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cascader",
           href: "/docs/ui/cascader",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Color Picker",
           href: "/docs/ui/color-picker",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mentions",
           href: "/docs/ui/mentions",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rate",
           href: "/docs/ui/rate",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Carosel",
           href: "/docs/ui/carosel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Transfer",
           href: "/docs/ui/transfer",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tag",
           href: "/docs/ui/tag",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "QR Code",
           href: "/docs/ui/qr-code",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Statics",
           href: "/docs/ui/statics",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Timeline",
           href: "/docs/ui/timeline",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tour",
           href: "/docs/ui/tour",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Skeleton",
           href: "/docs/ui/skeleton",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Affix",
           href: "/docs/ui/affix",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Segmented",
           href: "/docs/ui/segmented",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tree",
           href: "/docs/ui/tree",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Steps",
           href: "/docs/ui/steps",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rail",
           href: "/docs/ui/rail",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dimmer",
           href: "/docs/ui/dimmer",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Portal",
           href: "/docs/ui/portal",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Range Selector",
           href: "/docs/ui/range-selector",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Emoji Feedback",
           href: "/docs/ui/emojif-feedback",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "World Map",
           href: "/docs/ui/world-map",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Meter",
           href: "/docs/ui/meter",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "College",
           href: "/docs/ui/college",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Material Ui",
           href: "/docs/ui/material-ui",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nextui",
           href: "/docs/ui/nextui",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Background Color",
           href: "/docs/ui/background-color",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -658,51 +778,61 @@ export const docsConfig: DocsConfig = {
           title: "Ar and Vr",
           href: "/docs/ux/ar-and-vr",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Motionjs",
           href: "/docs/ux/motionjs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Framer Motion",
           href: "/docs/ux/framer-motion",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Threejs",
           href: "/docs/ux/threejs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Unreal Engine",
           href: "/docs/ux/unreal-engine",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Unity Engine",
           href: "/docs/ux/unity-engine",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Blendar",
           href: "/docs/ux/blendar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Maya",
           href: "/docs/ux/maya",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "360Deg",
           href: "/docs/ux/360deg",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "WebAssembly",
           href: "/docs/ux/webassembly",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -713,81 +843,97 @@ export const docsConfig: DocsConfig = {
           title: "Chain",
           href: "/docs/web3/chain",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Wallet",
           href: "/docs/web3/wallet",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Smart Contract",
           href: "/docs/web3/smart-conatract",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ipfs",
           href: "/docs/web3/ipfs",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nft",
           href: "/docs/web3/nft",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Token",
           href: "/docs/web3/token",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Metaplex",
           href: "/docs/web3/metaplex",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Moralis",
           href: "/docs/web3/moralis",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Thirdweb",
           href: "/docs/web3/thirdweb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alchemy",
           href: "/docs/web3/alchemy",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Opensea",
           href: "/docs/web3/openesea",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Magiceden",
           href: "/docs/web3/magiceden",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rareble",
           href: "/docs/web3/rareble",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rainbow",
           href: "/docs/web3/rainbow",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pancakeswap",
           href: "/docs/web3/pancakeswap",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Uniswap",
           href: "/docs/web3/uniswap",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -798,66 +944,79 @@ export const docsConfig: DocsConfig = {
           title: "Huggingface",
           href: "/docs/ai/huggingface",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Openai",
           href: "/docs/ai/openai",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Meta",
           href: "/docs/ai/meta",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Google",
           href: "/docs/ai/google",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Chatgpt",
           href: "/docs/ai/chatgpt",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lanchain",
           href: "/docs/ai/lanchain",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Stable Diffution",
           href: "/docs/ai/stable-diffution",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Midjourney",
           href: "/docs/ai/midjourney",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Leanardoai",
           href: "/docs/ai/learnardoai",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Clipdrop",
           href: "/docs/ai/clipdrop",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Wonder Dynamics",
           href: "/docs/ai/wonder-dynamics",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Skyboxai",
           href: "/docs/ai/skyboxai",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Viam",
           href: "/docs/ai/viam",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -868,121 +1027,145 @@ export const docsConfig: DocsConfig = {
           title: "Mysql",
           href: "/docs/database/mysql",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Postgresql",
           href: "/docs/database/postgresql",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mongodb",
           href: "/docs/database/mongodb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Redis",
           href: "/docs/database/redis",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Yugabyte",
           href: "/docs/database/yugabyte",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Neon",
           href: "/docs/database/neon",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cockrockdb",
           href: "/docs/database/cockrockdb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Xata",
           href: "/docs/database/xata",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "8base",
           href: "/docs/database/8base",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Edgedb",
           href: "/docs/database/edgedb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fuana",
           href: "/docs/database/fuana",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Memgraph",
           href: "/docs/database/memgraph",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Planetscale",
           href: "/docs/database/planetscale",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Postgresql",
           href: "/docs/database/postgresql",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mindsdb",
           href: "/docs/database/mindsdb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pocketbase",
           href: "/docs/database/pocketbase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Firebase",
           href: "/docs/database/firebase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dynomodb",
           href: "/docs/database/dynomodb",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Superbase",
           href: "/docs/database/superbase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Keydb + Neo4j",
           href: "/docs/database/keydb-plus-neo4j",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dolt + Gun",
           href: "/docs/database/dolt-plus-gun",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Meilisearch + Algoria",
           href: "/docs/database/meilisearch-plus-algoria",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Casandra + Hasura",
           href: "/docs/database/casandr-plus-hasura",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nhost + Appwrite",
           href: "/docs/database/nhost-plus-appwrite",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -993,41 +1176,49 @@ export const docsConfig: DocsConfig = {
           title: "Django",
           href: "/docs/backend/django",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Express",
           href: "/docs/backend/express",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Laravel",
           href: "/docs/backend/laravel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Go",
           href: "/docs/backend/go",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rust",
           href: "/docs/backend/rust",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Spring",
           href: "/docs/backend/spring",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ruby On Rails",
           href: "/docs/backend/ruby-on-rails",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Flask",
           href: "/docs/backend/rflask",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -1038,66 +1229,79 @@ export const docsConfig: DocsConfig = {
           title: "Vercel",
           href: "/docs/hosting/vercel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Google Cloud",
           href: "/docs/hosting/google-cloud",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Aws",
           href: "/docs/hosting/aws",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Github Pages",
           href: "/docs/hosting/github-pages",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Digital Ocean",
           href: "/docs/hosting/digital-ocean",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Netlify",
           href: "/docs/hosting/netlify",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rendar",
           href: "/docs/hosting/Rendar",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Firebase",
           href: "/docs/hosting/firebase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Railway",
           href: "/docs/hosting/railway",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Superbase",
           href: "/docs/hosting/superbase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Back4app",
           href: "/docs/hosting/back4app",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cyclick",
           href: "/docs/hosting/cyclick",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fly",
           href: "/docs/hosting/fly",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -1108,16 +1312,19 @@ export const docsConfig: DocsConfig = {
           title: "Selinium",
           href: "/docs/test/selinium",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Circleci",
           href: "/docs/test/circleci",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Jest",
           href: "/docs/test/jest",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -1125,18178 +1332,4631 @@ export const docsConfig: DocsConfig = {
       title: "Generators",
       items: [
         {
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "SQL Converters",
-          href: "/docs/generators/sql-converters",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "Encode and Decode",
-          href: "/docs/generators/encode-and-decode",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image Tools",
-          href: "/docs/generators/image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "Color Converters",
-          href: "/docs/generators/color-converters",
-          items: [],
-        },{
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "Unit Converter",
-          href: "/docs/generators/unit-converter",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "SQL Converters",
-          href: "/docs/generators/sql-converters",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "Encode and Decode",
-          href: "/docs/generators/encode-and-decode",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image Tools",
-          href: "/docs/generators/image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "Converters",
-          href: "/docs/generators/converters",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "JSON Converters",
-          href: "/docs/generators/json-converters",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "XML Converters",
-          href: "/docs/generators/xml-converters",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "HTML Converters",
-          href: "/docs/generators/html-converters",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
           title: "HTML to Markdown",
           href: "/docs/generators/html-to-markdown",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Markdown to HTML",
           href: "/docs/generators/markdown-to-html",
           items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "YAML Converters",
-          href: "/docs/generators/yaml-converters",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "Utility",
-          href: "/docs/generators/utility",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Chart Tools",
-          href: "/docs/generators/chart-tools",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Converters",
-          href: "/docs/generators/converters",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "JSON Converters",
-          href: "/docs/generators/json-converters",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "XML Converters",
-          href: "/docs/generators/xml-converters",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "HTML Converters",
-          href: "/docs/generators/html-converters",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "YAML Converters",
-          href: "/docs/generators/yaml-converters",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "Utility",
-          href: "/docs/generators/utility",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Chart Tools",
-          href: "/docs/generators/chart-tools",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Viewers",
-          href: "/docs/generators/viewers",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "Programming Editors",
-          href: "/docs/generators/programming-editors",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "Parsers",
-          href: "/docs/generators/parsers",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "Escape Unescape",
-          href: "/docs/generators/escape-unescape",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "CryptoGraphy Tools",
-          href: "/docs/generators/cryptography-tools",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Viewers",
-          href: "/docs/generators/viewers",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "Programming Editors",
-          href: "/docs/generators/programming-editors",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "Parsers",
-          href: "/docs/generators/parsers",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "Escape Unescape",
-          href: "/docs/generators/escape-unescape",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "CryptoGraphy Tools",
-          href: "/docs/generators/cryptography-tools",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Beautifiers",
-          href: "/docs/generators/beautifiers",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "Minifier",
-          href: "/docs/generators/minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Lua Minifier",
           href: "/docs/generators/lua-minifier",
           items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "String Utilities",
-          href: "/docs/generators/string-utilities",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Syntax Highlighting",
-          href: "/docs/generators/syntax-highlighting",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "Compress",
-          href: "/docs/generators/compress",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "Beautifiers",
-          href: "/docs/generators/beautifiers",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Lua Beautifier",
           href: "/docs/generators/lua-beautifier",
           items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "Minifier",
-          href: "/docs/generators/minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "String Utilities",
-          href: "/docs/generators/string-utilities",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Syntax Highlighting",
-          href: "/docs/generators/syntax-highlighting",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "Compress",
-          href: "/docs/generators/compress",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "Number Utilities",
-          href: "/docs/generators/number-utilities",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "Bitwise Tools",
-          href: "/docs/generators/bitwise-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "Number Utilities",
-          href: "/docs/generators/number-utilities",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "Bitwise Tools",
-          href: "/docs/generators/bitwise-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Popular Functionality",
-          href: "/docs/generators/popular-functionality",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "Number to Words",
-          href: "/docs/generators/number-to-words",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "HEX to Pantone",
-          href: "/docs/generators/hex-to-pantone",
-          items: [],
-        },{
-          title: "Source Code Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "Excel to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "ONLINE JSON EDITOR",
-          href: "/docs/generators/online-json-editor",
-          items: [],
-        },{
-          title: "Decimal to Hex",
-          href: "/docs/generators/decimal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Random Emoji Generator",
-          href: "/docs/generators/random-emoji-generator",
-          items: [],
-        },{
-          title: "REM to PX Converter",
-          href: "/docs/generators/rem-to-px-converter",
-          items: [],
-        },{
-          title: "New Functionality",
-          href: "/docs/generators/new-functionality",
-          items: [],
-        },{
-          title: "Random Trivia Generator",
-          href: "/docs/generators/random-trivia-generator",
-          items: [],
-        },{
-          title: "Random Website Generator",
-          href: "/docs/generators/random-website-generator",
-          items: [],
-        },{
-          title: "Random Proverb Generator",
-          href: "/docs/generators/random-proverb-generator",
-          items: [],
-        },{
-          title: "Memorable Password Generator",
-          href: "/docs/generators/memorable-password-generator",
-          items: [],
-        },{
-          title: "Harry Potter Spells Generator",
-          href: "/docs/generators/harry-potter-spells-generator",
-          items: [],
-        },{
-          title: "Random New York Address",
-          href: "/docs/generators/random-new-york-address",
-          items: [],
-        },{
-          title: "Random Noun Generator",
-          href: "/docs/generators/random-noun-generator",
-          items: [],
-        },{
-          title: "Random Spanish Word Generator",
-          href: "/docs/generators/random-spanish-word-generator",
-          items: [],
-        },{
-          title: "Random Location Generator",
-          href: "/docs/generators/random-location-generator",
-          items: [],
-        },{
-          title: "Random Town Generator",
-          href: "/docs/generators/random-town-generator",
-          items: [],
-        },{
-          title: "Goth Name Generator",
-          href: "/docs/generators/goth-name-generator",
-          items: [],
-        },{
-          title: "Fantasy Name Generator",
-          href: "/docs/generators/fantasy-name-generator",
-          items: [],
-        },{
-          title: "Victorian Name Generator",
-          href: "/docs/generators/victorian-name-generator",
-          items: [],
-        },{
-          title: "Magic School Name",
-          href: "/docs/generators/magic-school-name",
-          items: [],
-        },{
-          title: "Halloween Costume Generator",
-          href: "/docs/generators/halloween-costume-generator",
-          items: [],
-        },{
-          title: "Book",
-          href: "/docs/generators/book",
-          items: [],
-        },{
-          title: "Disney Character Generator",
-          href: "/docs/generators/disney-character-generator",
-          items: [],
-        },{
-          title: "God Name Generator",
-          href: "/docs/generators/god-name-generator",
-          items: [],
-        },{
-          title: "Random Setting Generator",
-          href: "/docs/generators/random-setting-generator",
-          items: [],
-        },{
-          title: "Twitch Name Generator",
-          href: "/docs/generators/twitch-name-generator",
-          items: [],
-        },{
-          title: "Villager Name Generator",
-          href: "/docs/generators/villager-name-generator",
-          items: [],
-        },{
-          title: "Vampire Name Generator",
-          href: "/docs/generators/vampire-name-generator",
-          items: [],
-        },{
-          title: "Dwarf Name Generator",
-          href: "/docs/generators/dwarf-name-generator",
-          items: [],
-        },{
-          title: "DND Name Generator",
-          href: "/docs/generators/dnd-name-generator",
-          items: [],
-        },{
-          title: "Random Kingdom Name Generator",
-          href: "/docs/generators/random-kingdom-name-generator",
-          items: [],
-        },{
-          title: "Random Japanese Name Generator",
-          href: "/docs/generators/random-japanese-name-generator",
-          items: [],
-        },{
-          title: "Random School Name Generator",
-          href: "/docs/generators/random-school-name-generator",
-          items: [],
-        },{
-          title: "Glitch Text Generator",
-          href: "/docs/generators/glitch-text-generator",
-          items: [],
-        },{
-          title: "YAML Cheat Sheet",
-          href: "/docs/generators/yaml-cheat-sheet",
-          items: [],
-        },{
-          title: "JSON Cheat Sheet",
-          href: "/docs/generators/json-cheat-sheet",
-          items: [],
-        },{
-          title: "Random Username Generator",
-          href: "/docs/generators/random-username-generator",
-          items: [],
-        },{
-          title: "Random Cat Name Generator",
-          href: "/docs/generators/random-cat-name-generator",
-          items: [],
-        },{
-          title: "Random Food Generator",
-          href: "/docs/generators/random-food-generator",
-          items: [],
-        },{
-          title: "Scenario Generator",
-          href: "/docs/generators/scenario-generator",
-          items: [],
-        },{
-          title: "JSON to String",
-          href: "/docs/generators/json-to-string",
-          items: [],
-        },{
-          title: "Random New Zealand Address",
-          href: "/docs/generators/random-new-zealand-address",
-          items: [],
-        },{
-          title: "Random Paragraph Generator",
-          href: "/docs/generators/random-paragraph-generator",
-          items: [],
-        },{
-          title: "Fake ChatGPT Generator",
-          href: "/docs/generators/fake-chatgpt-generator",
-          items: [],
-        },{
-          title: "JavaScript Cheat Sheet",
-          href: "/docs/generators/javascript-cheat-sheet",
-          items: [],
-        },{
-          title: "Text Formatter",
-          href: "/docs/generators/text-formatter",
-          items: [],
-        },{
-          title: "Time Sheet Calculator",
-          href: "/docs/generators/time-sheet-calculator",
-          items: [],
-        },{
-          title: "Random Video Game Generator",
-          href: "/docs/generators/random-video-game-generator",
-          items: [],
-        },{
-          title: "Address in Spain",
-          href: "/docs/generators/address-in-spain",
-          items: [],
-        },{
-          title: "Random Actor Generator",
-          href: "/docs/generators/random-actor-generator",
-          items: [],
-        },{
-          title: "Random Song Lyrics",
-          href: "/docs/generators/random-song-lyrics",
-          items: [],
-        },{
-          title: "Random Caption Generator",
-          href: "/docs/generators/random-caption-generator",
-          items: [],
-        },{
-          title: "Random Celebrity Generator",
-          href: "/docs/generators/random-celebrity-generator",
-          items: [],
-        },{
-          title: "Sort XML Online",
-          href: "/docs/generators/sort-xml-online",
-          items: [],
-        },{
-          title: "SVG Viewer",
-          href: "/docs/generators/svg-viewer",
-          items: [],
-        },{
-          title: "SVG Formatter",
-          href: "/docs/generators/svg-formatter",
-          items: [],
-        },{
-          title: "Cursed Text Generator",
-          href: "/docs/generators/cursed-text-generator",
-          items: [],
-        },{
-          title: "Random Superhero Generator",
-          href: "/docs/generators/random-superhero-generator",
-          items: [],
-        },{
-          title: "CSS Selectors Cheat Sheet",
-          href: "/docs/generators/css-selectors-cheat-sheet",
-          items: [],
-        },{
-          title: "HEX to RGBA Converter",
-          href: "/docs/generators/hex-to-rgba-converter",
-          items: [],
-        },{
-          title: "Sentence Counter",
-          href: "/docs/generators/sentence-counter",
-          items: [],
-        },{
-          title: "JSON to One Line",
-          href: "/docs/generators/json-to-one-line",
-          items: [],
-        },{
-          title: "Paragraph Counter",
-          href: "/docs/generators/paragraph-counter",
-          items: [],
-        },{
-          title: "Javascript Tester",
-          href: "/docs/generators/javascript-tester",
-          items: [],
-        },{
-          title: "Random Pokemon Team Generator",
-          href: "/docs/generators/random-pokemon-team-generator",
-          items: [],
-        },{
-          title: "Vim Cheat Sheet",
-          href: "/docs/generators/vim-cheat-sheet",
-          items: [],
-        },{
-          title: "Random Canada Address Generator",
-          href: "/docs/generators/random-canada-address-generator",
-          items: [],
-        },{
-          title: "Random Pokemon Generator",
-          href: "/docs/generators/random-pokemon-generator",
-          items: [],
-        },{
-          title: "Random Address in California",
-          href: "/docs/generators/random-address-in-california",
-          items: [],
-        },{
-          title: "Random Movie Generator",
-          href: "/docs/generators/random-movie-generator",
-          items: [],
-        },{
-          title: "Character Trait Generator",
-          href: "/docs/generators/character-trait-generator",
-          items: [],
-        },{
-          title: "Random Flower Generator",
-          href: "/docs/generators/random-flower-generator",
-          items: [],
-        },{
-          title: "Random Quote Generator",
-          href: "/docs/generators/random-quote-generator",
-          items: [],
-        },{
-          title: "Random Sentence Generator",
-          href: "/docs/generators/random-sentence-generator",
-          items: [],
-        },{
-          title: "Random Element Generator",
-          href: "/docs/generators/random-element-generator",
-          items: [],
-        },{
-          title: "Random Planet Generator",
-          href: "/docs/generators/random-planet-generator",
-          items: [],
-        },{
-          title: "Random Holiday Generator",
-          href: "/docs/generators/random-holiday-generator",
-          items: [],
-        },{
-          title: "Random Last Name Generator",
-          href: "/docs/generators/random-last-name-generator",
-          items: [],
-        },{
-          title: "Random Cat Generator",
-          href: "/docs/generators/random-cat-generator",
-          items: [],
-        },{
-          title: "Random College Generator",
-          href: "/docs/generators/random-college-generator",
-          items: [],
-        },{
-          title: "Random Bird Generator",
-          href: "/docs/generators/random-bird-generator",
-          items: [],
-        },{
-          title: "Random Book Generator",
-          href: "/docs/generators/random-book-generator",
-          items: [],
-        },{
-          title: "Random Job Generator",
-          href: "/docs/generators/random-job-generator",
-          items: [],
-        },{
-          title: "Random Link Generator",
-          href: "/docs/generators/random-link-generator",
-          items: [],
-        },{
-          title: "Tweet to Image Converter",
-          href: "/docs/generators/tweet-to-image-converter",
-          items: [],
-        },{
-          title: "PSN Name Generator",
-          href: "/docs/generators/psn-name-generator",
-          items: [],
-        },{
-          title: "Monster Generator",
-          href: "/docs/generators/monster-generator",
-          items: [],
-        },{
-          title: "Random League Champion",
-          href: "/docs/generators/random-league-champion",
-          items: [],
-        },{
-          title: "Random Body Part Generator",
-          href: "/docs/generators/random-body-part-generator",
-          items: [],
-        },{
-          title: "Social Tools",
-          href: "/docs/generators/social-tools",
-          items: [],
-        },{
-          title: "Aesthetic Emoji Generator",
-          href: "/docs/generators/aesthetic-emoji-generator",
-          items: [],
-        },{
-          title: "Random Superpower Generator",
-          href: "/docs/generators/random-superpower-generator",
-          items: [],
-        },{
-          title: "Random Anime Character Generator",
-          href: "/docs/generators/random-anime-character-generator",
-          items: [],
-        },{
-          title: "Random Dinosaur Generator",
-          href: "/docs/generators/random-dinosaur-generator",
-          items: [],
-        },{
-          title: "Fursona Generator",
-          href: "/docs/generators/fursona-generator",
-          items: [],
-        },{
-          title: "Sims 3 Trait Generator",
-          href: "/docs/generators/sims-3-trait-generator",
-          items: [],
-        },{
-          title: "Random Emotion Generator",
-          href: "/docs/generators/random-emotion-generator",
-          items: [],
-        },{
-          title: "Random Year Generator",
-          href: "/docs/generators/random-year-generator",
-          items: [],
-        },{
-          title: "Random Cartoon Character Generator",
-          href: "/docs/generators/random-cartoon-character-generator",
-          items: [],
-        },{
-          title: "Random 6 Digit Number Generator",
-          href: "/docs/generators/random-6-digit-number-generator",
-          items: [],
-        },{
-          title: "Random 4 Digit Number Generator",
-          href: "/docs/generators/random-4-digit-number-generator",
-          items: [],
-        },{
-          title: "Random Birthday Generator",
-          href: "/docs/generators/random-birthday-generator",
-          items: [],
-        },{
-          title: "Letter Randomizer",
-          href: "/docs/generators/letter-randomizer",
-          items: [],
-        },{
-          title: "Text Replacer",
-          href: "/docs/generators/text-replacer",
-          items: [],
-        },{
-          title: "Random Tarot Card Generator",
-          href: "/docs/generators/random-tarot-card-generator",
-          items: [],
-        },{
-          title: "Random Dog Breed Generator",
-          href: "/docs/generators/random-dog-breed-generator",
-          items: [],
-        },{
-          title: "Random Car Generator",
-          href: "/docs/generators/random-car-generator",
-          items: [],
-        },{
-          title: "Lord Of The Rings Name Generator",
-          href: "/docs/generators/lord-of-the-rings-name-generator",
-          items: [],
-        },{
-          title: "Fortune Cookie Generator",
-          href: "/docs/generators/fortune-cookie-generator",
-          items: [],
-        },{
-          title: "Random Charades Generator",
-          href: "/docs/generators/random-charades-generator",
-          items: [],
-        },{
-          title: "Instagram Caption Generator",
-          href: "/docs/generators/instagram-caption-generator",
-          items: [],
-        },{
-          title: "Snapchat Fonts Generator",
-          href: "/docs/generators/snapchat-fonts-generator",
-          items: [],
-        },{
-          title: "Reddit Username Generator",
-          href: "/docs/generators/reddit-username-generator",
-          items: [],
-        },{
-          title: "Random Adjective Generator",
-          href: "/docs/generators/random-adjective-generator",
-          items: [],
-        },{
-          title: "Goofy Ahh Names Generator",
-          href: "/docs/generators/goofy-ahh-names-generator",
-          items: [],
-        },{
-          title: "Random City Generator",
-          href: "/docs/generators/random-city-generator",
-          items: [],
-        },{
-          title: "Personality Generator",
-          href: "/docs/generators/personality-generator",
-          items: [],
-        },{
-          title: "Random Girl Name Generator",
-          href: "/docs/generators/random-girl-name-generator",
-          items: [],
-        },{
-          title: "Random State Generator",
-          href: "/docs/generators/random-state-generator",
-          items: [],
-        },{
-          title: "Full White Screen",
-          href: "/docs/generators/full-white-screen",
-          items: [],
-        },{
-          title: "Full Blue Screen",
-          href: "/docs/generators/full-blue-screen",
-          items: [],
-        },{
-          title: "Full Red Screen",
-          href: "/docs/generators/full-red-screen",
-          items: [],
-        },{
-          title: "Full Black Screen",
-          href: "/docs/generators/full-black-screen",
-          items: [],
-        },{
-          title: "Aesthetic Username Generator",
-          href: "/docs/generators/aesthetic-username-generator",
-          items: [],
-        },{
-          title: "Word Replacer",
-          href: "/docs/generators/word-replacer",
-          items: [],
-        },{
-          title: "Moodboard Generator",
-          href: "/docs/generators/moodboard-generator",
-          items: [],
-        },{
-          title: "Valorant Crosshair Generator",
-          href: "/docs/generators/valorant-crosshair-generator",
-          items: [],
-        },{
-          title: "Cookie Run Character Generator",
-          href: "/docs/generators/cookie-run-character-generator",
-          items: [],
-        },{
-          title: "JoJo Stand Generator",
-          href: "/docs/generators/jojo-stand-generator",
-          items: [],
-        },{
-          title: "OTP Prompt Generator",
-          href: "/docs/generators/otp-prompt-generator",
-          items: [],
-        },{
-          title: "Random Minecraft Block Generator",
-          href: "/docs/generators/random-minecraft-block-generator",
-          items: [],
-        },{
-          title: "Random Theme Generator",
-          href: "/docs/generators/random-theme-generator",
-          items: [],
-        },{
-          title: "SQL Code Generator",
-          href: "/docs/generators/sql-code-generator",
-          items: [],
-        },{
-          title: "Random Pokemon Type Generator",
-          href: "/docs/generators/random-pokemon-type-generator",
-          items: [],
-        },{
-          title: "Fake Instagram Post Generator",
-          href: "/docs/generators/fake-instagram-post-generator",
-          items: [],
-        },{
-          title: "Random Aesthetic Generator",
-          href: "/docs/generators/random-aesthetic-generator",
-          items: [],
-        },{
-          title: "Random Environment Generator",
-          href: "/docs/generators/random-environment-generator",
-          items: [],
-        },{
-          title: "Random Scene Generator",
-          href: "/docs/generators/random-scene-generator",
-          items: [],
-        },{
-          title: "XBOX GamerTag Generator",
-          href: "/docs/generators/xbox-gamertag-generator",
-          items: [],
-        },{
-          title: "Elf Name Generator",
-          href: "/docs/generators/elf-name-generator",
-          items: [],
-        },{
-          title: "Twitalics Twitter Italics Generator",
-          href: "/docs/generators/twitalics-twitter-italics-generator",
-          items: [],
-        },{
-          title: "XBOX Name Generator",
-          href: "/docs/generators/xbox-name-generator",
-          items: [],
-        },{
-          title: "Warrior Cat Name Generator",
-          href: "/docs/generators/warrior-cat-name-generator",
-          items: [],
-        },{
-          title: "Fake Tweet Generator",
-          href: "/docs/generators/fake-tweet-generator",
-          items: [],
-        },{
-          title: "Random Topic Generator",
-          href: "/docs/generators/random-topic-generator",
-          items: [],
-        },{
-          title: "Pictionary Word Generator",
-          href: "/docs/generators/pictionary-word-generator",
-          items: [],
-        },{
-          title: "Random Things to Draw Generator",
-          href: "/docs/generators/random-things-to-draw-generator",
-          items: [],
-        },{
-          title: "Random Nationality Generator",
-          href: "/docs/generators/random-nationality-generator",
-          items: [],
-        },{
-          title: "Random Ethnicity Generator",
-          href: "/docs/generators/random-ethnicity-generator",
-          items: [],
-        },{
-          title: "Random Pet Generator",
-          href: "/docs/generators/random-pet-generator",
-          items: [],
-        },{
-          title: "Billing Postal Code Generator",
-          href: "/docs/generators/billing-postal-code-generator",
-          items: [],
-        },{
-          title: "Random Male Name Generator",
-          href: "/docs/generators/random-male-name-generator",
-          items: [],
-        },{
-          title: "Random Boy Name Generator",
-          href: "/docs/generators/random-boy-name-generator",
-          items: [],
-        },{
-          title: "Random Things Generator",
-          href: "/docs/generators/random-things-generator",
-          items: [],
-        },{
-          title: "Random NHL Team Generator",
-          href: "/docs/generators/random-nhl-team-generator",
-          items: [],
-        },{
-          title: "Random Zip Code",
-          href: "/docs/generators/random-zip-code",
-          items: [],
-        },{
-          title: "Random Team Generator",
-          href: "/docs/generators/random-team-generator",
-          items: [],
-        },{
-          title: "Random Billing Address",
-          href: "/docs/generators/random-billing-address",
-          items: [],
-        },{
-          title: "Random House Address",
-          href: "/docs/generators/random-house-address",
-          items: [],
-        },{
-          title: "Random Street Address",
-          href: "/docs/generators/random-street-address",
-          items: [],
-        },{
-          title: "Random Address Generator",
-          href: "/docs/generators/random-address-generator",
-          items: [],
-        },{
-          title: "Incorrect Quotes Generator",
-          href: "/docs/generators/incorrect-quotes-generator",
-          items: [],
-        },{
-          title: "Random Flag Generator",
-          href: "/docs/generators/random-flag-generator",
-          items: [],
-        },{
-          title: "Random Country Generator",
-          href: "/docs/generators/random-country-generator",
-          items: [],
-        },{
-          title: "Random US Area Codes",
-          href: "/docs/generators/random-us-area-codes",
-          items: [],
-        },{
-          title: "Random Phone Number",
-          href: "/docs/generators/random-phone-number",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "JSON Fixer",
-          href: "/docs/generators/json-fixer",
-          items: [],
-        },{
-          title: "JSON Navigator",
-          href: "/docs/generators/json-navigator",
-          items: [],
-        },{
-          title: "Random Emoji Generator",
-          href: "/docs/generators/random-emoji-generator",
-          items: [],
-        },{
-          title: "Favicon Generator",
-          href: "/docs/generators/favicon-generator",
-          items: [],
-        },{
-          title: "CIDR Calculator",
-          href: "/docs/generators/cidr-calculator",
-          items: [],
-        },{
-          title: "Marquee Generator",
-          href: "/docs/generators/marquee-generator",
-          items: [],
-        },{
-          title: "Meta Tag Generator",
-          href: "/docs/generators/meta-tag-generator",
-          items: [],
-        },{
-          title: "Screenshot Beautifier",
-          href: "/docs/generators/screenshot-beautifier",
-          items: [],
-        },{
-          title: "Tweet Ideas",
-          href: "/docs/generators/tweet-ideas",
-          items: [],
-        },{
-          title: "Number To WhatsApp",
-          href: "/docs/generators/number-to-whatsapp",
-          items: [],
-        },{
-          title: "Twitter Header Generator",
-          href: "/docs/generators/twitter-header-generator",
-          items: [],
-        },{
-          title: "Twitter Image Downloader",
-          href: "/docs/generators/twitter-image-downloader",
-          items: [],
-        },{
-          title: "Random MLB Team Generator",
-          href: "/docs/generators/random-mlb-team-generator",
-          items: [],
-        },{
-          title: "Random NBA Team Generator",
-          href: "/docs/generators/random-nba-team-generator",
-          items: [],
-        },{
-          title: "Random NCAA Football Team",
-          href: "/docs/generators/random-ncaa-football-team",
-          items: [],
-        },{
-          title: "Random NCAA Basketball Team",
-          href: "/docs/generators/random-ncaa-basketball-team",
-          items: [],
-        },{
-          title: "Random IPL Team Generator",
-          href: "/docs/generators/random-ipl-team-generator",
-          items: [],
-        },{
-          title: "Random NFL Team Generator",
-          href: "/docs/generators/random-nfl-team-generator",
-          items: [],
-        },{
-          title: "Random Object Generator",
-          href: "/docs/generators/random-object-generator",
-          items: [],
-        },{
-          title: "Random Animal Generator",
-          href: "/docs/generators/random-animal-generator",
-          items: [],
-        },{
-          title: "Random Hobby Generator",
-          href: "/docs/generators/random-hobby-generator",
-          items: [],
-        },{
-          title: "Code to Image Converter",
-          href: "/docs/generators/code-to-image-converter",
-          items: [],
-        },{
-          title: "Multiple URL Opener",
-          href: "/docs/generators/multiple-url-opener",
-          items: [],
-        },{
-          title: "Tweet Beautifier",
-          href: "/docs/generators/tweet-beautifier",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "Share Code Snippets",
-          href: "/docs/generators/share-code-snippets",
-          items: [],
-        },{
-          title: "Convert Text to Handwriting",
-          href: "/docs/generators/convert-text-to-handwriting",
-          items: [],
-        },{
-          title: "Image Beautifier",
-          href: "/docs/generators/image-beautifier",
-          items: [],
-        },{
-          title: "SVG to Base64",
-          href: "/docs/generators/svg-to-base64",
-          items: [],
-        },{
-          title: "Turbo Search",
-          href: "/docs/generators/turbo-search",
-          items: [],
-        },{
-          title: "Text Cleaner",
-          href: "/docs/generators/text-cleaner",
-          items: [],
-        },{
-          title: "JSON Cleaner",
-          href: "/docs/generators/json-cleaner",
-          items: [],
-        },{
-          title: "JSON to Typescript Code",
-          href: "/docs/generators/json-to-typescript-code",
-          items: [],
-        },{
-          title: "Online Vibration Simulator",
-          href: "/docs/generators/online-vibration-simulator",
-          items: [],
-        },{
-          title: "JSON to PHP Array Converter",
-          href: "/docs/generators/json-to-php-array-converter",
-          items: [],
-        },{
-          title: "IELTS to CLB",
-          href: "/docs/generators/ielts-to-clb",
-          items: [],
-        },{
-          title: "Hyperlink Generator",
-          href: "/docs/generators/hyperlink-generator",
-          items: [],
-        },{
-          title: "REM to PX Converter",
-          href: "/docs/generators/rem-to-px-converter",
-          items: [],
-        },{
-          title: "Facebook Bold Text",
-          href: "/docs/generators/facebook-bold-text",
-          items: [],
-        },{
-          title: "What is My Zodiac Sign",
-          href: "/docs/generators/what-is-my-zodiac-sign",
-          items: [],
-        },{
-          title: "Checksum Calculator",
-          href: "/docs/generators/checksum-calculator",
-          items: [],
-        },{
-          title: "SOAP Formatter",
-          href: "/docs/generators/soap-formatter",
-          items: [],
-        },{
-          title: "WSDL Formatter",
-          href: "/docs/generators/wsdl-formatter",
-          items: [],
-        },{
-          title: "Javascript Pretty Print",
-          href: "/docs/generators/javascript-pretty-print",
-          items: [],
-        },{
-          title: "Visualize JSON Data Graph",
-          href: "/docs/generators/visualize-json-data-graph",
-          items: [],
-        },{
-          title: "Morse Code Translator",
-          href: "/docs/generators/morse-code-translator",
-          items: [],
-        },{
-          title: "Alphabetical Order",
-          href: "/docs/generators/alphabetical-order",
-          items: [],
-        },{
-          title: "Random AlphaNumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "Byte to String",
-          href: "/docs/generators/byte-to-string",
-          items: [],
-        },{
-          title: "UTF8 to ASCII",
-          href: "/docs/generators/utf8-to-ascii",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Phone Number to IP",
-          href: "/docs/generators/phone-number-to-ip",
-          items: [],
-        },{
-          title: "Yaml Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "Gzip Decompress",
-          href: "/docs/generators/gzip-decompress",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML Link Generator",
-          href: "/docs/generators/html-link-generator",
-          items: [],
-        },{
-          title: "MP3 to Base64",
-          href: "/docs/generators/mp3-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Text",
-          href: "/docs/generators/base64-to-text",
-          items: [],
-        },{
-          title: "Base64 to Ascii",
-          href: "/docs/generators/base64-to-ascii",
-          items: [],
-        },{
-          title: "STYLUS Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "YAML Pretty Print",
-          href: "/docs/generators/yaml-pretty-print",
-          items: [],
-        },{
-          title: "YouTube Thumbnail Grabber",
-          href: "/docs/generators/youtube-thumbnail-grabber",
-          items: [],
-        },{
-          title: "Trending Tools",
-          href: "/docs/generators/trending-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "Number Sorter",
-          href: "/docs/generators/number-sorter",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Wordpress Password Hash",
           href: "/docs/generators/wordpress-password-hash",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Mirror Online",
           href: "/docs/generators/mirror-online",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "PHP Formatter",
           href: "/docs/generators/php-formatter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Image to ASCII Art",
           href: "/docs/generators/image-to-ascii-art",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "SHA256 Hash Generator",
           href: "/docs/generators/sha256-hash-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "SHA512 Hash Generator",
           href: "/docs/generators/sha512-hash-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Excel Viewer",
           href: "/docs/generators/excel-viewer",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Paraphrasing tool",
           href: "/docs/generators/paraphrasing-tool",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Word to HTML",
           href: "/docs/generators/word-to-html",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSV to Excel",
           href: "/docs/generators/csv-to-excel",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Sharelink Generator",
           href: "/docs/generators/sharelink-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Developer Tools",
           href: "/docs/generators/developer-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "IP Tools",
           href: "/docs/generators/ip-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Formatters",
           href: "/docs/generators/formatters",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Image Converter Tools",
           href: "/docs/generators/image-converter-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Finance Tools",
           href: "/docs/generators/finance-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TSV Tools",
           href: "/docs/generators/tsv-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "JSON Tools",
           href: "/docs/generators/json-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "XML Tools",
           href: "/docs/generators/xml-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "YAML Tools",
           href: "/docs/generators/yaml-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Tools",
           href: "/docs/generators/html-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Tools",
           href: "/docs/generators/css-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Javascript Tools",
           href: "/docs/generators/javascript-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSV Tools",
           href: "/docs/generators/csv-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "SQL Tools",
           href: "/docs/generators/sql-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Color Tools",
           href: "/docs/generators/color-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Unit Tools",
           href: "/docs/generators/unit-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Number Tools",
           href: "/docs/generators/number-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "String Tools",
           href: "/docs/generators/string-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Base64 Tools",
           href: "/docs/generators/base64-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Random Tools",
           href: "/docs/generators/random-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Minifiers",
           href: "/docs/generators/minifiers",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Validators",
           href: "/docs/generators/validators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Cryptography",
           href: "/docs/generators/cryptography",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Escape Unescape Tools",
           href: "/docs/generators/escape-unescape-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "UTF Tools",
           href: "/docs/generators/utf-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Compress Decompress",
           href: "/docs/generators/compress-decompress",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Generators",
           href: "/docs/generators/html-generators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Generators",
           href: "/docs/generators/css-generators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Other Tools",
           href: "/docs/generators/other-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Style Tools",
           href: "/docs/generators/text-style-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Unit Converter Tools",
           href: "/docs/generators/css-unit-converter-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "POJO Tools",
           href: "/docs/generators/pojo-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Twitter Tools",
           href: "/docs/generators/twitter-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Random Generators",
           href: "/docs/generators/random-generators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Generators",
           href: "/docs/generators/generators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS",
           href: "/docs/generators/css",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "ANIMATION",
           href: "/docs/generators/animation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Keyframe Animation",
           href: "/docs/generators/keyframe-animation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "BACKGROUND",
           href: "/docs/generators/background",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Background Color",
           href: "/docs/generators/background-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Background Gradient",
           href: "/docs/generators/background-gradient",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Background Image",
           href: "/docs/generators/background-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "BOX",
           href: "/docs/generators/box",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Border",
           href: "/docs/generators/border",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Border Image",
           href: "/docs/generators/border-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Border Radius",
           href: "/docs/generators/border-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Box Resize",
           href: "/docs/generators/box-resize",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Box Shadow",
           href: "/docs/generators/box-shadow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Opacity",
           href: "/docs/generators/opacity",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Outline",
           href: "/docs/generators/outline",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Overflow",
           href: "/docs/generators/overflow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "COLOR",
           href: "/docs/generators/color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Color",
           href: "/docs/generators/text-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "FILTER",
           href: "/docs/generators/filter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Blur",
           href: "/docs/generators/blur",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Brightness",
           href: "/docs/generators/brightness",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Contrast",
           href: "/docs/generators/contrast",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Drop Shadow",
           href: "/docs/generators/drop-shadow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Grayscale",
           href: "/docs/generators/grayscale",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Hue-Rotate",
           href: "/docs/generators/hue-rotate",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Invert",
           href: "/docs/generators/invert",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Saturate",
           href: "/docs/generators/saturate",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Sepia",
           href: "/docs/generators/sepia",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "LAYOUT",
           href: "/docs/generators/layout",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Columns",
           href: "/docs/generators/columns",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Display",
           href: "/docs/generators/display",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Visibility",
           href: "/docs/generators/visibility",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "LIST",
           href: "/docs/generators/list",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "List Style",
           href: "/docs/generators/list-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "MISCELLANEOUS",
           href: "/docs/generators/miscellaneous",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Cursor",
           href: "/docs/generators/cursor",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TEXT",
           href: "/docs/generators/text",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Letter Spacing",
           href: "/docs/generators/letter-spacing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Line Height",
           href: "/docs/generators/line-height",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Overflow Wrap",
           href: "/docs/generators/overflow-wrap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Tab Size",
           href: "/docs/generators/tab-size",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Align",
           href: "/docs/generators/text-align",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Decoration",
           href: "/docs/generators/text-decoration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Indent",
           href: "/docs/generators/text-indent",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Shadow",
           href: "/docs/generators/text-shadow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Transform",
           href: "/docs/generators/text-transform",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "White Space",
           href: "/docs/generators/white-space",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Word Break",
           href: "/docs/generators/word-break",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Word Spacing",
           href: "/docs/generators/word-spacing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TRANSFORM",
           href: "/docs/generators/transform",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Perspective",
           href: "/docs/generators/perspective",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Rotate",
           href: "/docs/generators/rotate",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Scale",
           href: "/docs/generators/scale",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Skew",
           href: "/docs/generators/skew",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Translate",
           href: "/docs/generators/translate",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TRANSITION",
           href: "/docs/generators/transition",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Transition",
           href: "/docs/generators/transition",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML",
           href: "/docs/generators/html",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "INPUT",
           href: "/docs/generators/input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Button",
           href: "/docs/generators/button",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Checkbox",
           href: "/docs/generators/checkbox",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Color Input",
           href: "/docs/generators/color-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Date",
           href: "/docs/generators/date",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Email Input",
           href: "/docs/generators/email-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "File Input",
           href: "/docs/generators/file-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Image Button",
           href: "/docs/generators/image-button",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Number Input",
           href: "/docs/generators/number-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Password Input",
           href: "/docs/generators/password-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Range Input",
           href: "/docs/generators/range-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Search Input",
           href: "/docs/generators/search-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Submit",
           href: "/docs/generators/submit",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Telephone Input",
           href: "/docs/generators/telephone-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Input",
           href: "/docs/generators/text-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Textarea",
           href: "/docs/generators/textarea",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "URL Input",
           href: "/docs/generators/url-input",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "MEDIA",
           href: "/docs/generators/media",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Audio",
           href: "/docs/generators/audio",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Image",
           href: "/docs/generators/image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video",
           href: "/docs/generators/video",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TEXT",
           href: "/docs/generators/text",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Bi-directional Override",
           href: "/docs/generators/bi-directional-override",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Bold",
           href: "/docs/generators/bold",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Cite",
           href: "/docs/generators/cite",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Code",
           href: "/docs/generators/code",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Italic",
           href: "/docs/generators/italic",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Highlight",
           href: "/docs/generators/highlight",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Quote",
           href: "/docs/generators/quote",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Strikethrough",
           href: "/docs/generators/strikethrough",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Superscript",
           href: "/docs/generators/superscript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Underline",
           href: "/docs/generators/underline",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "OTHER",
           href: "/docs/generators/other",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Details",
           href: "/docs/generators/details",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Dialog",
           href: "/docs/generators/dialog",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Hyperlink",
           href: "/docs/generators/hyperlink",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "iFrame",
           href: "/docs/generators/iframe",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Meter",
           href: "/docs/generators/meter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Progress",
           href: "/docs/generators/progress",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Meta Tags",
           href: "/docs/generators/meta-tags",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Structured Data",
           href: "/docs/generators/structured-data",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Article",
           href: "/docs/generators/article",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Breadcrumb",
           href: "/docs/generators/breadcrumb",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Event",
           href: "/docs/generators/event",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "FAQ",
           href: "/docs/generators/faq",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "How-to",
           href: "/docs/generators/how-to",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Job Posting",
           href: "/docs/generators/job-posting",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Local Business",
           href: "/docs/generators/local-business",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Organization",
           href: "/docs/generators/organization",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Person",
           href: "/docs/generators/person",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Product",
           href: "/docs/generators/product",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Recipe",
           href: "/docs/generators/recipe",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video",
           href: "/docs/generators/video",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Website",
           href: "/docs/generators/website",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "open Graph",
           href: "/docs/generators/open-graph",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Article",
           href: "/docs/generators/article",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Book",
           href: "/docs/generators/book",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Business",
           href: "/docs/generators/business",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Music Album",
           href: "/docs/generators/music-album",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Music Playlist",
           href: "/docs/generators/music-playlist",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Music Radio Station",
           href: "/docs/generators/music-radio-station",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Music Song",
           href: "/docs/generators/music-song",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Product",
           href: "/docs/generators/product",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Profile",
           href: "/docs/generators/profile",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video",
           href: "/docs/generators/video",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video Episode",
           href: "/docs/generators/video-episode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video Movie",
           href: "/docs/generators/video-movie",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Video TV Show",
           href: "/docs/generators/video-tv-show",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Website",
           href: "/docs/generators/website",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Twitter Card",
           href: "/docs/generators/twitter-card",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "App",
           href: "/docs/generators/app",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Player",
           href: "/docs/generators/player",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Summary",
           href: "/docs/generators/summary",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Summary with Large Image",
           href: "/docs/generators/summary-with-large-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Robots.txt",
           href: "/docs/generators/robots.txt",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Code Converter",
           href: "/docs/generators/code-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "SVG",
           href: "/docs/generators/svg",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSX",
           href: "/docs/generators/to-jsx",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to React Native",
           href: "/docs/generators/to-react-native",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML",
           href: "/docs/generators/html",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSX",
           href: "/docs/generators/to-jsx",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Pug",
           href: "/docs/generators/to-pug",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "JSON",
           href: "/docs/generators/json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Big Query Schema",
           href: "/docs/generators/to-big-query-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Flow",
           href: "/docs/generators/to-flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Go Bson",
           href: "/docs/generators/to-go-bson",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Go Struct",
           href: "/docs/generators/to-go-struct",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to GraphQL",
           href: "/docs/generators/to-graphql",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to io-ts",
           href: "/docs/generators/to-io-ts",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Java",
           href: "/docs/generators/to-java",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSDoc",
           href: "/docs/generators/to-jsdoc",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSON Schema",
           href: "/docs/generators/to-json-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Kotlin",
           href: "/docs/generators/to-kotlin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to MobX-State-Tree Model",
           href: "/docs/generators/to-mobx-state-tree-model",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Mongoose Schema",
           href: "/docs/generators/to-mongoose-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to MySQL",
           href: "/docs/generators/to-mysql",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to React PropTypes",
           href: "/docs/generators/to-react-proptypes",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Rust Serde",
           href: "/docs/generators/to-rust-serde",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Sarcastic",
           href: "/docs/generators/to-sarcastic",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Scala Case Class",
           href: "/docs/generators/to-scala-case-class",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TOML",
           href: "/docs/generators/to-toml",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript",
           href: "/docs/generators/to-typescript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to YAML",
           href: "/docs/generators/to-yaml",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Zod Schema",
           href: "/docs/generators/to-zod-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "JSON Schema",
           href: "/docs/generators/json-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to OpenAPI Schema",
           href: "/docs/generators/to-openapi-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Protobuf",
           href: "/docs/generators/to-protobuf",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript",
           href: "/docs/generators/to-typescript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Zod Schema",
           href: "/docs/generators/to-zod-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS",
           href: "/docs/generators/css",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JS Objects",
           href: "/docs/generators/to-js-objects",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TailwindCSS",
           href: "/docs/generators/to-tailwindcss",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to template literal",
           href: "/docs/generators/to-template-literal",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "JavaScript",
           href: "/docs/generators/javascript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSON",
           href: "/docs/generators/to-json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "GraphQL",
           href: "/docs/generators/graphql",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Components",
           href: "/docs/generators/to-components",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Flow",
           href: "/docs/generators/to-flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Fragment Matcher",
           href: "/docs/generators/to-fragment-matcher",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Introspection JSON",
           href: "/docs/generators/to-introspection-json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JAVA",
           href: "/docs/generators/to-java",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Resolvers Signature",
           href: "/docs/generators/to-resolvers-signature",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Schema AST",
           href: "/docs/generators/to-schema-ast",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript",
           href: "/docs/generators/to-typescript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript MongoDB",
           href: "/docs/generators/to-typescript-mongodb",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "JSON-LD",
           href: "/docs/generators/json-ld",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Compacted",
           href: "/docs/generators/to-compacted",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Expanded",
           href: "/docs/generators/to-expanded",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Flattened",
           href: "/docs/generators/to-flattened",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Framed",
           href: "/docs/generators/to-framed",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to N-Quads",
           href: "/docs/generators/to-n-quads",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Normalized",
           href: "/docs/generators/to-normalized",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TypeScript",
           href: "/docs/generators/typescript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Flow",
           href: "/docs/generators/to-flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to JSON Schema",
           href: "/docs/generators/to-json-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to plain JavaScript",
           href: "/docs/generators/to-plain-javascript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript Declaration",
           href: "/docs/generators/to-typescript-declaration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to Zod Schema",
           href: "/docs/generators/to-zod-schema",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Flow",
           href: "/docs/generators/flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to plain JavaScript",
           href: "/docs/generators/to-plain-javascript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript",
           href: "/docs/generators/to-typescript",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "to TypeScript Declaration",
           href: "/docs/generators/to-typescript-declaration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Others",
           href: "/docs/generators/others",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Cadence to Go",
           href: "/docs/generators/cadence-to-go",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Markdown to HTML",
           href: "/docs/generators/markdown-to-html",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TOML to JSON",
           href: "/docs/generators/toml-to-json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "TOML to YAML",
           href: "/docs/generators/toml-to-yaml",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "XML to JSON",
           href: "/docs/generators/xml-to-json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "YAML to JSON",
           href: "/docs/generators/yaml-to-json",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "YAML to TOML",
           href: "/docs/generators/yaml-to-toml",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Generators",
           href: "/docs/generators/css-generators",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Animated Text Generator",
           href: "/docs/generators/animated-text-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Border Radius Generator",
           href: "/docs/generators/border-radius-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Box Shadow Generator",
           href: "/docs/generators/box-shadow-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Button Generator",
           href: "/docs/generators/button-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Clip Path Generator",
           href: "/docs/generators/clip-path-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Column Generator",
           href: "/docs/generators/column-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Cubic Bezier Generator",
           href: "/docs/generators/cubic-bezier-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Flip Swith Generator",
           href: "/docs/generators/flip-swith-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Flexbox Generator",
           href: "/docs/generators/flexbox-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Glitch Text Effect",
           href: "/docs/generators/glitch-text-effect",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Google Fonts CSS",
           href: "/docs/generators/google-fonts-css",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Gradient Generator",
           href: "/docs/generators/gradient-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Image Filter Generator",
           href: "/docs/generators/image-filter-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Input Range Generator",
           href: "/docs/generators/input-range-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Layout Generator",
           href: "/docs/generators/layout-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Loader",
           href: "/docs/generators/loader",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Menu Generator",
           href: "/docs/generators/menu-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "RGBA Generator",
           href: "/docs/generators/rgba-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Ribbon Generator",
           href: "/docs/generators/ribbon-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Ribbon Banner Generator",
           href: "/docs/generators/ribbon-banner-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Scrollbar Generator",
           href: "/docs/generators/scrollbar-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Sprite Generator",
           href: "/docs/generators/sprite-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Gradient Generator",
           href: "/docs/generators/text-gradient-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Rotate Generator",
           href: "/docs/generators/text-rotate-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Text Shadow Generator",
           href: "/docs/generators/text-shadow-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Tooltip Generator",
           href: "/docs/generators/tooltip-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Triangle Generator",
           href: "/docs/generators/triangle-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "3D Transform Generator",
           href: "/docs/generators/3d-transform-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Properties",
           href: "/docs/generators/css-properties",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "align-content",
           href: "/docs/generators/align-content",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "align-items",
           href: "/docs/generators/align-items",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "align-self",
           href: "/docs/generators/align-self",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "all",
           href: "/docs/generators/all",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation",
           href: "/docs/generators/animation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-delay",
           href: "/docs/generators/animation-delay",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-direction",
           href: "/docs/generators/animation-direction",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-duration",
           href: "/docs/generators/animation-duration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-fill-mode",
           href: "/docs/generators/animation-fill-mode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-iteration-count",
           href: "/docs/generators/animation-iteration-count",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-name",
           href: "/docs/generators/animation-name",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-play-state",
           href: "/docs/generators/animation-play-state",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "animation-timing-function",
           href: "/docs/generators/animation-timing-function",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "backface-visibility",
           href: "/docs/generators/backface-visibility",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background",
           href: "/docs/generators/background",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-attachment",
           href: "/docs/generators/background-attachment",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-blend-mode",
           href: "/docs/generators/background-blend-mode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-clip",
           href: "/docs/generators/background-clip",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-color",
           href: "/docs/generators/background-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-image",
           href: "/docs/generators/background-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-origin",
           href: "/docs/generators/background-origin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-position",
           href: "/docs/generators/background-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-repeat",
           href: "/docs/generators/background-repeat",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "background-size",
           href: "/docs/generators/background-size",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border",
           href: "/docs/generators/border",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom",
           href: "/docs/generators/border-bottom",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom-color",
           href: "/docs/generators/border-bottom-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom-left-radius",
           href: "/docs/generators/border-bottom-left-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom-right-radius",
           href: "/docs/generators/border-bottom-right-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom-style",
           href: "/docs/generators/border-bottom-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-bottom-width",
           href: "/docs/generators/border-bottom-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-collapse",
           href: "/docs/generators/border-collapse",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-color",
           href: "/docs/generators/border-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image",
           href: "/docs/generators/border-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image-outset",
           href: "/docs/generators/border-image-outset",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image-repeat",
           href: "/docs/generators/border-image-repeat",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image-slice",
           href: "/docs/generators/border-image-slice",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image-source",
           href: "/docs/generators/border-image-source",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-image-width",
           href: "/docs/generators/border-image-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-left",
           href: "/docs/generators/border-left",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-left-color",
           href: "/docs/generators/border-left-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-left-style",
           href: "/docs/generators/border-left-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-left-width",
           href: "/docs/generators/border-left-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-radius",
           href: "/docs/generators/border-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-right",
           href: "/docs/generators/border-right",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-right-color",
           href: "/docs/generators/border-right-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-right-style",
           href: "/docs/generators/border-right-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-right-width",
           href: "/docs/generators/border-right-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-spacing",
           href: "/docs/generators/border-spacing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-style",
           href: "/docs/generators/border-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top",
           href: "/docs/generators/border-top",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top-color",
           href: "/docs/generators/border-top-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top-left-radius",
           href: "/docs/generators/border-top-left-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top-right-radius",
           href: "/docs/generators/border-top-right-radius",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top-style",
           href: "/docs/generators/border-top-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-top-width",
           href: "/docs/generators/border-top-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "border-width",
           href: "/docs/generators/border-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "bottom",
           href: "/docs/generators/bottom",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "box-decoration-break",
           href: "/docs/generators/box-decoration-break",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "box-shadow",
           href: "/docs/generators/box-shadow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "box-sizing",
           href: "/docs/generators/box-sizing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "break-after",
           href: "/docs/generators/break-after",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "break-before",
           href: "/docs/generators/break-before",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "break-inside",
           href: "/docs/generators/break-inside",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "caption-side",
           href: "/docs/generators/caption-side",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "caret-color",
           href: "/docs/generators/caret-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "clear",
           href: "/docs/generators/clear",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "clip-path",
           href: "/docs/generators/clip-path",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "color",
           href: "/docs/generators/color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-count",
           href: "/docs/generators/column-count",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-fill",
           href: "/docs/generators/column-fill",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-rule",
           href: "/docs/generators/column-rule",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-rule-color",
           href: "/docs/generators/column-rule-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-rule-style",
           href: "/docs/generators/column-rule-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-rule-width",
           href: "/docs/generators/column-rule-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-span",
           href: "/docs/generators/column-span",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "column-width",
           href: "/docs/generators/column-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "columns",
           href: "/docs/generators/columns",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "content",
           href: "/docs/generators/content",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "counter-increment",
           href: "/docs/generators/counter-increment",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "counter-reset",
           href: "/docs/generators/counter-reset",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "counter-set",
           href: "/docs/generators/counter-set",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "cursor",
           href: "/docs/generators/cursor",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "direction",
           href: "/docs/generators/direction",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "display",
           href: "/docs/generators/display",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "empty-cells",
           href: "/docs/generators/empty-cells",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "filter",
           href: "/docs/generators/filter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex",
           href: "/docs/generators/flex",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-basis",
           href: "/docs/generators/flex-basis",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-direction",
           href: "/docs/generators/flex-direction",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-flow",
           href: "/docs/generators/flex-flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-grow",
           href: "/docs/generators/flex-grow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-shrink",
           href: "/docs/generators/flex-shrink",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "flex-wrap",
           href: "/docs/generators/flex-wrap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "float",
           href: "/docs/generators/float",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font",
           href: "/docs/generators/font",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-family",
           href: "/docs/generators/font-family",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-feature-settings",
           href: "/docs/generators/font-feature-settings",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-kerning",
           href: "/docs/generators/font-kerning",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-language-override",
           href: "/docs/generators/font-language-override",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-size",
           href: "/docs/generators/font-size",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-size-adjust",
           href: "/docs/generators/font-size-adjust",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-stretch",
           href: "/docs/generators/font-stretch",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-style",
           href: "/docs/generators/font-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-synthesis",
           href: "/docs/generators/font-synthesis",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant",
           href: "/docs/generators/font-variant",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-alternates",
           href: "/docs/generators/font-variant-alternates",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-caps",
           href: "/docs/generators/font-variant-caps",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-east-asian",
           href: "/docs/generators/font-variant-east-asian",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-ligatures",
           href: "/docs/generators/font-variant-ligatures",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-numeric",
           href: "/docs/generators/font-variant-numeric",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-variant-position",
           href: "/docs/generators/font-variant-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "font-weight",
           href: "/docs/generators/font-weight",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid",
           href: "/docs/generators/grid",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-area",
           href: "/docs/generators/grid-area",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-auto-columns",
           href: "/docs/generators/grid-auto-columns",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-auto-flow",
           href: "/docs/generators/grid-auto-flow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-auto-rows",
           href: "/docs/generators/grid-auto-rows",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-column",
           href: "/docs/generators/grid-column",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-column-end",
           href: "/docs/generators/grid-column-end",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-column-gap",
           href: "/docs/generators/grid-column-gap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-column-start",
           href: "/docs/generators/grid-column-start",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-gap",
           href: "/docs/generators/grid-gap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-row",
           href: "/docs/generators/grid-row",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-row-end",
           href: "/docs/generators/grid-row-end",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-row-gap",
           href: "/docs/generators/grid-row-gap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-row-start",
           href: "/docs/generators/grid-row-start",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-template",
           href: "/docs/generators/grid-template",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-template-areas",
           href: "/docs/generators/grid-template-areas",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-template-columns",
           href: "/docs/generators/grid-template-columns",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grid-template-rows",
           href: "/docs/generators/grid-template-rows",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "hanging-punctuation",
           href: "/docs/generators/hanging-punctuation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "height",
           href: "/docs/generators/height",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "hyphens",
           href: "/docs/generators/hyphens",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "image-orientation",
           href: "/docs/generators/image-orientation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "justify-content",
           href: "/docs/generators/justify-content",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "justify-items",
           href: "/docs/generators/justify-items",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "justify-self",
           href: "/docs/generators/justify-self",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "left",
           href: "/docs/generators/left",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "letter-spacing",
           href: "/docs/generators/letter-spacing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "line-break",
           href: "/docs/generators/line-break",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "line-height",
           href: "/docs/generators/line-height",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "list-style",
           href: "/docs/generators/list-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "list-style-image",
           href: "/docs/generators/list-style-image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "list-style-position",
           href: "/docs/generators/list-style-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "list-style-type",
           href: "/docs/generators/list-style-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "margin",
           href: "/docs/generators/margin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "margin-bottom",
           href: "/docs/generators/margin-bottom",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "margin-left",
           href: "/docs/generators/margin-left",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "margin-right",
           href: "/docs/generators/margin-right",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "margin-top",
           href: "/docs/generators/margin-top",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "max-height",
           href: "/docs/generators/max-height",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "max-width",
           href: "/docs/generators/max-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "min-height",
           href: "/docs/generators/min-height",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "min-width",
           href: "/docs/generators/min-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "mix-blend-mode",
           href: "/docs/generators/mix-blend-mode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "object-fit",
           href: "/docs/generators/object-fit",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "object-position",
           href: "/docs/generators/object-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "opacity",
           href: "/docs/generators/opacity",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "order",
           href: "/docs/generators/order",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "orphans",
           href: "/docs/generators/orphans",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "outline",
           href: "/docs/generators/outline",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "outline-color",
           href: "/docs/generators/outline-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "outline-offset",
           href: "/docs/generators/outline-offset",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "outline-style",
           href: "/docs/generators/outline-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "outline-width",
           href: "/docs/generators/outline-width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "overflow",
           href: "/docs/generators/overflow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "overflow-wrap",
           href: "/docs/generators/overflow-wrap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "overflow-x",
           href: "/docs/generators/overflow-x",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "overflow-y",
           href: "/docs/generators/overflow-y",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "padding",
           href: "/docs/generators/padding",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "padding-bottom",
           href: "/docs/generators/padding-bottom",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "padding-left",
           href: "/docs/generators/padding-left",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "padding-right",
           href: "/docs/generators/padding-right",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "padding-top",
           href: "/docs/generators/padding-top",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "perspective",
           href: "/docs/generators/perspective",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "perspective-origin",
           href: "/docs/generators/perspective-origin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "place-content",
           href: "/docs/generators/place-content",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "place-items",
           href: "/docs/generators/place-items",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "place-self",
           href: "/docs/generators/place-self",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "position",
           href: "/docs/generators/position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "quotes",
           href: "/docs/generators/quotes",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "resize",
           href: "/docs/generators/resize",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "right",
           href: "/docs/generators/right",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "shape-image-threshold",
           href: "/docs/generators/shape-image-threshold",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "shape-margin",
           href: "/docs/generators/shape-margin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "shape-outside",
           href: "/docs/generators/shape-outside",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "tab-size",
           href: "/docs/generators/tab-size",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "table-layout",
           href: "/docs/generators/table-layout",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-align",
           href: "/docs/generators/text-align",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-align-last",
           href: "/docs/generators/text-align-last",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-combine-upright",
           href: "/docs/generators/text-combine-upright",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-decoration",
           href: "/docs/generators/text-decoration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-decoration-color",
           href: "/docs/generators/text-decoration-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-decoration-line",
           href: "/docs/generators/text-decoration-line",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-decoration-style",
           href: "/docs/generators/text-decoration-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-emphasis",
           href: "/docs/generators/text-emphasis",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-emphasis-color",
           href: "/docs/generators/text-emphasis-color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-emphasis-position",
           href: "/docs/generators/text-emphasis-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-emphasis-style",
           href: "/docs/generators/text-emphasis-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-indent",
           href: "/docs/generators/text-indent",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-justify",
           href: "/docs/generators/text-justify",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-orientation",
           href: "/docs/generators/text-orientation",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-overflow",
           href: "/docs/generators/text-overflow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-shadow",
           href: "/docs/generators/text-shadow",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-transform",
           href: "/docs/generators/text-transform",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "text-underline-position",
           href: "/docs/generators/text-underline-position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "top",
           href: "/docs/generators/top",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transform",
           href: "/docs/generators/transform",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transform-origin",
           href: "/docs/generators/transform-origin",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transform-style",
           href: "/docs/generators/transform-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transition",
           href: "/docs/generators/transition",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transition-delay",
           href: "/docs/generators/transition-delay",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transition-duration",
           href: "/docs/generators/transition-duration",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transition-property",
           href: "/docs/generators/transition-property",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "transition-timing-function",
           href: "/docs/generators/transition-timing-function",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "unicode-bidi",
           href: "/docs/generators/unicode-bidi",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "vertical-align",
           href: "/docs/generators/vertical-align",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "visibility",
           href: "/docs/generators/visibility",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "white-space",
           href: "/docs/generators/white-space",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "widows",
           href: "/docs/generators/widows",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "width",
           href: "/docs/generators/width",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "word-break",
           href: "/docs/generators/word-break",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "word-spacing",
           href: "/docs/generators/word-spacing",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "word-wrap",
           href: "/docs/generators/word-wrap",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "writing-mode",
           href: "/docs/generators/writing-mode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "z-index",
           href: "/docs/generators/z-index",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Pseudo Classes",
           href: "/docs/generators/css-pseudo-classes",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":active",
           href: "/docs/generators/:active",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":checked",
           href: "/docs/generators/:checked",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":default",
           href: "/docs/generators/:default",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":disabled",
           href: "/docs/generators/:disabled",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":empty",
           href: "/docs/generators/:empty",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":enabled",
           href: "/docs/generators/:enabled",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":first-child",
           href: "/docs/generators/:first-child",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":first-of-type",
           href: "/docs/generators/:first-of-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":focus",
           href: "/docs/generators/:focus",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":fullscreen",
           href: "/docs/generators/:fullscreen",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":hover",
           href: "/docs/generators/:hover",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":in-range",
           href: "/docs/generators/:in-range",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":indeterminate",
           href: "/docs/generators/:indeterminate",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":invalid",
           href: "/docs/generators/:invalid",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":lang",
           href: "/docs/generators/:lang",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":last-child",
           href: "/docs/generators/:last-child",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":last-of-type",
           href: "/docs/generators/:last-of-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":link",
           href: "/docs/generators/:link",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":not",
           href: "/docs/generators/:not",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":nth-child",
           href: "/docs/generators/:nth-child",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":nth-last-child",
           href: "/docs/generators/:nth-last-child",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":nth-last-of-type",
           href: "/docs/generators/:nth-last-of-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":nth-of-type",
           href: "/docs/generators/:nth-of-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":only-child",
           href: "/docs/generators/:only-child",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":only-of-type",
           href: "/docs/generators/:only-of-type",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":optional",
           href: "/docs/generators/:optional",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":out-of-range",
           href: "/docs/generators/:out-of-range",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":read-only",
           href: "/docs/generators/:read-only",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":read-write",
           href: "/docs/generators/:read-write",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":required",
           href: "/docs/generators/:required",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":root",
           href: "/docs/generators/:root",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":target",
           href: "/docs/generators/:target",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":valid",
           href: "/docs/generators/:valid",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: ":visited",
           href: "/docs/generators/:visited",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Html Tags",
           href: "/docs/generators/html-tags",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<a>",
           href: "/docs/generators/<a>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<abbr>",
           href: "/docs/generators/<abbr>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<address>",
           href: "/docs/generators/<address>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<area>",
           href: "/docs/generators/<area>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<article>",
           href: "/docs/generators/<article>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<aside>",
           href: "/docs/generators/<aside>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<audio>",
           href: "/docs/generators/<audio>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<b>",
           href: "/docs/generators/<b>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<base>",
           href: "/docs/generators/<base>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<bdi>",
           href: "/docs/generators/<bdi>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<bdo>",
           href: "/docs/generators/<bdo>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<blockquote>",
           href: "/docs/generators/<blockquote>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<body>",
           href: "/docs/generators/<body>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<br>",
           href: "/docs/generators/<br>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<button>",
           href: "/docs/generators/<button>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<canvas>",
           href: "/docs/generators/<canvas>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<caption>",
           href: "/docs/generators/<caption>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<cite>",
           href: "/docs/generators/<cite>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<code>",
           href: "/docs/generators/<code>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<col>",
           href: "/docs/generators/<col>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<colgroup>",
           href: "/docs/generators/<colgroup>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<comment>",
           href: "/docs/generators/<comment>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<datalist>",
           href: "/docs/generators/<datalist>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<dd>",
           href: "/docs/generators/<dd>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<del>",
           href: "/docs/generators/<del>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<details>",
           href: "/docs/generators/<details>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<dfn>",
           href: "/docs/generators/<dfn>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<dialog>",
           href: "/docs/generators/<dialog>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<div>",
           href: "/docs/generators/<div>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<dl>",
           href: "/docs/generators/<dl>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<doctype>",
           href: "/docs/generators/<doctype>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<dt>",
           href: "/docs/generators/<dt>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<em>",
           href: "/docs/generators/<em>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<embed>",
           href: "/docs/generators/<embed>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<fieldset>",
           href: "/docs/generators/<fieldset>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<figcaption>",
           href: "/docs/generators/<figcaption>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<figure>",
           href: "/docs/generators/<figure>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<footer>",
           href: "/docs/generators/<footer>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<form>",
           href: "/docs/generators/<form>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h1>",
           href: "/docs/generators/<h1>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h2>",
           href: "/docs/generators/<h2>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h3>",
           href: "/docs/generators/<h3>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h4>",
           href: "/docs/generators/<h4>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h5>",
           href: "/docs/generators/<h5>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<h6>",
           href: "/docs/generators/<h6>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<head>",
           href: "/docs/generators/<head>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<header>",
           href: "/docs/generators/<header>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<hr>",
           href: "/docs/generators/<hr>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<html>",
           href: "/docs/generators/<html>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<i>",
           href: "/docs/generators/<i>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<iframe>",
           href: "/docs/generators/<iframe>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<img>",
           href: "/docs/generators/<img>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<input>",
           href: "/docs/generators/<input>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<ins>",
           href: "/docs/generators/<ins>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<kbd>",
           href: "/docs/generators/<kbd>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<keygen>",
           href: "/docs/generators/<keygen>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<label>",
           href: "/docs/generators/<label>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<legend>",
           href: "/docs/generators/<legend>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<li>",
           href: "/docs/generators/<li>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<link>",
           href: "/docs/generators/<link>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<map>",
           href: "/docs/generators/<map>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<mark>",
           href: "/docs/generators/<mark>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<menu>",
           href: "/docs/generators/<menu>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<meta>",
           href: "/docs/generators/<meta>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<meter>",
           href: "/docs/generators/<meter>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<nav>",
           href: "/docs/generators/<nav>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<noscript>",
           href: "/docs/generators/<noscript>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<object>",
           href: "/docs/generators/<object>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<ol>",
           href: "/docs/generators/<ol>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<optgroup>",
           href: "/docs/generators/<optgroup>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<option>",
           href: "/docs/generators/<option>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<output>",
           href: "/docs/generators/<output>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<p>",
           href: "/docs/generators/<p>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<param>",
           href: "/docs/generators/<param>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<picture>",
           href: "/docs/generators/<picture>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<pre>",
           href: "/docs/generators/<pre>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<progress>",
           href: "/docs/generators/<progress>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<q>",
           href: "/docs/generators/<q>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<rp>",
           href: "/docs/generators/<rp>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<rt>",
           href: "/docs/generators/<rt>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<ruby>",
           href: "/docs/generators/<ruby>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<s>",
           href: "/docs/generators/<s>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<samp>",
           href: "/docs/generators/<samp>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<script>",
           href: "/docs/generators/<script>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<section>",
           href: "/docs/generators/<section>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<select>",
           href: "/docs/generators/<select>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<small>",
           href: "/docs/generators/<small>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<source>",
           href: "/docs/generators/<source>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<span>",
           href: "/docs/generators/<span>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<strong>",
           href: "/docs/generators/<strong>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<style>",
           href: "/docs/generators/<style>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<sub>",
           href: "/docs/generators/<sub>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<summary>",
           href: "/docs/generators/<summary>",
           items: [],
-        },{
-          title: "<sup>",
-          href: "/docs/generators/<sup>",
-          items: [],
-        },{
-          title: "<table>",
-          href: "/docs/generators/<table>",
-          items: [],
-        },{
-          title: "<tbody>",
-          href: "/docs/generators/<tbody>",
-          items: [],
-        },{
-          title: "<td>",
-          href: "/docs/generators/<td>",
-          items: [],
-        },{
-          title: "<textarea>",
-          href: "/docs/generators/<textarea>",
-          items: [],
-        },{
-          title: "<tfoot>",
-          href: "/docs/generators/<tfoot>",
-          items: [],
-        },{
-          title: "<th>",
-          href: "/docs/generators/<th>",
-          items: [],
-        },{
-          title: "<thead>",
-          href: "/docs/generators/<thead>",
-          items: [],
-        },{
-          title: "<time>",
-          href: "/docs/generators/<time>",
-          items: [],
-        },{
-          title: "hello",
-          href: "/docs/generators/hello",
-          items: [],
-        },{
-          title: "<tr>",
-          href: "/docs/generators/<tr>",
-          items: [],
-        },{
-          title: "<track>",
-          href: "/docs/generators/<track>",
-          items: [],
-        },{
-          title: "<u>",
-          href: "/docs/generators/<u>",
-          items: [],
-        },{
-          title: "<ul>",
-          href: "/docs/generators/<ul>",
-          items: [],
-        },{
-          title: "<var>",
-          href: "/docs/generators/<var>",
-          items: [],
-        },{
-          title: "<video>",
-          href: "/docs/generators/<video>",
-          items: [],
-        },{
-          title: "<wbr>",
-          href: "/docs/generators/<wbr>",
-          items: [],
-        },{
-          title: "Css Functions",
-          href: "/docs/generators/css-functions",
-          items: [],
-        },{
-          title: "attr()",
-          href: "/docs/generators/attr()",
-          items: [],
-        },{
-          title: "blur()",
-          href: "/docs/generators/blur()",
-          items: [],
-        },{
-          title: "brightness()",
-          href: "/docs/generators/brightness()",
-          items: [],
-        },{
-          title: "calc()",
-          href: "/docs/generators/calc()",
-          items: [],
-        },{
-          title: "circle()",
-          href: "/docs/generators/circle()",
-          items: [],
-        },{
-          title: "contrast()",
-          href: "/docs/generators/contrast()",
-          items: [],
-        },{
-          title: "drop-shadow()",
-          href: "/docs/generators/drop-shadow()",
-          items: [],
-        },{
-          title: "ellipse()",
-          href: "/docs/generators/ellipse()",
-          items: [],
-        },{
-          title: "grayscale()",
-          href: "/docs/generators/grayscale()",
-          items: [],
-        },{
-          title: "hsl()",
-          href: "/docs/generators/hsl()",
-          items: [],
-        },{
-          title: "hsla()",
-          href: "/docs/generators/hsla()",
-          items: [],
-        },{
-          title: "hue-rotate()",
-          href: "/docs/generators/hue-rotate()",
-          items: [],
-        },{
-          title: "inset()",
-          href: "/docs/generators/inset()",
-          items: [],
-        },{
-          title: "invert()",
-          href: "/docs/generators/invert()",
-          items: [],
-        },{
-          title: "linear-gradient()",
-          href: "/docs/generators/linear-gradient()",
-          items: [],
-        },{
-          title: "matrix()",
-          href: "/docs/generators/matrix()",
-          items: [],
-        },{
-          title: "matrix3d()",
-          href: "/docs/generators/matrix3d()",
-          items: [],
-        },{
-          title: "opacity()",
-          href: "/docs/generators/opacity()",
-          items: [],
-        },{
-          title: "perspective()",
-          href: "/docs/generators/perspective()",
-          items: [],
-        },{
-          title: "polygon()",
-          href: "/docs/generators/polygon()",
-          items: [],
-        },{
-          title: "radial-gradient()",
-          href: "/docs/generators/radial-gradient()",
-          items: [],
-        },{
-          title: "repeating-linear-gradient()",
-          href: "/docs/generators/repeating-linear-gradient()",
-          items: [],
-        },{
-          title: "repeating-radial-gradient()",
-          href: "/docs/generators/repeating-radial-gradient()",
-          items: [],
-        },{
-          title: "rgb()",
-          href: "/docs/generators/rgb()",
-          items: [],
-        },{
-          title: "rgba()",
-          href: "/docs/generators/rgba()",
-          items: [],
-        },{
-          title: "rotate()",
-          href: "/docs/generators/rotate()",
-          items: [],
-        },{
-          title: "rotate3d()",
-          href: "/docs/generators/rotate3d()",
-          items: [],
-        },{
-          title: "rotateX()",
-          href: "/docs/generators/rotatex()",
-          items: [],
-        },{
-          title: "rotateY()",
-          href: "/docs/generators/rotatey()",
-          items: [],
-        },{
-          title: "rotateZ()",
-          href: "/docs/generators/rotatez()",
-          items: [],
-        },{
-          title: "saturate()",
-          href: "/docs/generators/saturate()",
-          items: [],
-        },{
-          title: "scale()",
-          href: "/docs/generators/scale()",
-          items: [],
-        },{
-          title: "scale3d()",
-          href: "/docs/generators/scale3d()",
-          items: [],
-        },{
-          title: "scaleX()",
-          href: "/docs/generators/scalex()",
-          items: [],
-        },{
-          title: "scaleY()",
-          href: "/docs/generators/scaley()",
-          items: [],
-        },{
-          title: "scaleZ()",
-          href: "/docs/generators/scalez()",
-          items: [],
-        },{
-          title: "sepia()",
-          href: "/docs/generators/sepia()",
-          items: [],
-        },{
-          title: "skew()",
-          href: "/docs/generators/skew()",
-          items: [],
-        },{
-          title: "skewX()",
-          href: "/docs/generators/skewx()",
-          items: [],
-        },{
-          title: "skewY()",
-          href: "/docs/generators/skewy()",
-          items: [],
-        },{
-          title: "translate()",
-          href: "/docs/generators/translate()",
-          items: [],
-        },{
-          title: "translate3d()",
-          href: "/docs/generators/translate3d()",
-          items: [],
-        },{
-          title: "translateX()",
-          href: "/docs/generators/translatex()",
-          items: [],
-        },{
-          title: "translateY()",
-          href: "/docs/generators/translatey()",
-          items: [],
-        },{
-          title: "translateZ()",
-          href: "/docs/generators/translatez()",
-          items: [],
-        },{
-          title: "Css At Rules",
-          href: "/docs/generators/css-at-rules",
-          items: [],
-        },{
-          title: "@charset",
-          href: "/docs/generators/@charset",
-          items: [],
-        },{
-          title: "@counter-style",
-          href: "/docs/generators/@counter-style",
-          items: [],
-        },{
-          title: "@document",
-          href: "/docs/generators/@document",
-          items: [],
-        },{
-          title: "@font-face",
-          href: "/docs/generators/@font-face",
-          items: [],
-        },{
-          title: "@font-feature-values",
-          href: "/docs/generators/@font-feature-values",
-          items: [],
-        },{
-          title: "@import",
-          href: "/docs/generators/@import",
-          items: [],
-        },{
-          title: "@keyframes",
-          href: "/docs/generators/@keyframes",
-          items: [],
-        },{
-          title: "@media",
-          href: "/docs/generators/@media",
-          items: [],
-        },{
-          title: "@namespace",
-          href: "/docs/generators/@namespace",
-          items: [],
-        },{
-          title: "@page",
-          href: "/docs/generators/@page",
-          items: [],
-        },{
-          title: "@supports",
-          href: "/docs/generators/@supports",
-          items: [],
-        },{
-          title: "Css Data types",
-          href: "/docs/generators/css-data-types",
-          items: [],
-        },{
-          title: "angle",
-          href: "/docs/generators/angle",
-          items: [],
-        },{
-          title: "basic-shape",
-          href: "/docs/generators/basic-shape",
-          items: [],
-        },{
-          title: "blend-mode",
-          href: "/docs/generators/blend-mode",
-          items: [],
-        },{
-          title: "color",
-          href: "/docs/generators/color",
-          items: [],
-        },{
-          title: "frequency",
-          href: "/docs/generators/frequency",
-          items: [],
-        },{
-          title: "gradient",
-          href: "/docs/generators/gradient",
-          items: [],
-        },{
-          title: "image",
-          href: "/docs/generators/image",
-          items: [],
-        },{
-          title: "integer",
-          href: "/docs/generators/integer",
-          items: [],
-        },{
-          title: "length",
-          href: "/docs/generators/length",
-          items: [],
-        },{
-          title: "number",
-          href: "/docs/generators/number",
-          items: [],
-        },{
-          title: "percentage",
-          href: "/docs/generators/percentage",
-          items: [],
-        },{
-          title: "position",
-          href: "/docs/generators/position",
-          items: [],
-        },{
-          title: "ratio",
-          href: "/docs/generators/ratio",
-          items: [],
-        },{
-          title: "resolution",
-          href: "/docs/generators/resolution",
-          items: [],
-        },{
-          title: "string",
-          href: "/docs/generators/string",
-          items: [],
-        },{
-          title: "time",
-          href: "/docs/generators/time",
-          items: [],
-        },{
-          title: "url",
-          href: "/docs/generators/url",
-          items: [],
-        },{
-          title: "Css Pseudo Elements",
-          href: "/docs/generators/css-pseudo-elements",
-          items: [],
-        },{
-          title: "::after",
-          href: "/docs/generators/::after",
-          items: [],
-        },{
-          title: "::before",
-          href: "/docs/generators/::before",
-          items: [],
-        },{
-          title: "::first-letter",
-          href: "/docs/generators/::first-letter",
-          items: [],
-        },{
-          title: "::first-line",
-          href: "/docs/generators/::first-line",
-          items: [],
-        },{
-          title: "::placeholder",
-          href: "/docs/generators/::placeholder",
-          items: [],
-        },{
-          title: "::selection",
-          href: "/docs/generators/::selection",
-          items: [],
-        },{
-          title: "Html Tools",
-          href: "/docs/generators/html-tools",
-          items: [],
-        },{
-          title: "Pug to HTML Compiler",
-          href: "/docs/generators/pug-to-html-compiler",
-          items: [],
-        },{
-          title: "Markdown to HTML Compiler",
-          href: "/docs/generators/markdown-to-html-compiler",
-          items: [],
-        },{
-          title: "HTML to Pug Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "HTML to Markdown Converter",
-          href: "/docs/generators/html-to-markdown-converter",
-          items: [],
-        },{
-          title: "HTML Character Codes",
-          href: "/docs/generators/html-character-codes",
-          items: [],
-        },{
-          title: "HTML Colors",
-          href: "/docs/generators/html-colors",
-          items: [],
-        },{
-          title: "HTML Beautifier",
-          href: "/docs/generators/html-beautifier",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML Tags",
-          href: "/docs/generators/html-tags",
-          items: [],
-        },{
-          title: "HTML Online Editor",
-          href: "/docs/generators/html-online-editor",
-          items: [],
-        },{
-          title: "HTML Tutorial",
-          href: "/docs/generators/html-tutorial",
-          items: [],
-        },{
-          title: "HTML Validator",
-          href: "/docs/generators/html-validator",
-          items: [],
-        },{
-          title: "Css Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "LESS to CSS Compiler",
-          href: "/docs/generators/less-to-css-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS Compiler",
-          href: "/docs/generators/scss-to-css-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS Compiler",
-          href: "/docs/generators/stylus-to-css-compiler",
-          items: [],
-        },{
-          title: "CSS to LESS Converter",
-          href: "/docs/generators/css-to-less-converter",
-          items: [],
-        },{
-          title: "CSS to SCSS Converter",
-          href: "/docs/generators/css-to-scss-converter",
-          items: [],
-        },{
-          title: "CSS to Stylus Converter",
-          href: "/docs/generators/css-to-stylus-converter",
-          items: [],
-        },{
-          title: "CSS Color Converter",
-          href: "/docs/generators/css-color-converter",
-          items: [],
-        },{
-          title: "CSS Cursor Viewer",
-          href: "/docs/generators/css-cursor-viewer",
-          items: [],
-        },{
-          title: "CSS Font Preview",
-          href: "/docs/generators/css-font-preview",
-          items: [],
-        },{
-          title: "CSS Code Formatter",
-          href: "/docs/generators/css-code-formatter",
-          items: [],
-        },{
-          title: "CSS Lengths",
-          href: "/docs/generators/css-lengths",
-          items: [],
-        },{
-          title: "CSS Code Optimizer",
-          href: "/docs/generators/css-code-optimizer",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "CSS Visual Style Editor",
-          href: "/docs/generators/css-visual-style-editor",
-          items: [],
-        },{
-          title: "Convert Image to Data",
-          href: "/docs/generators/convert-image-to-data",
-          items: [],
-        },{
-          title: "Online CSS Editor",
-          href: "/docs/generators/online-css-editor",
-          items: [],
-        },{
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "SQL Converters",
-          href: "/docs/generators/sql-converters",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "Encode and Decode",
-          href: "/docs/generators/encode-and-decode",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image Tools",
-          href: "/docs/generators/image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "Color Converters",
-          href: "/docs/generators/color-converters",
-          items: [],
-        },{
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "HEX to Pantone Converter",
-          href: "/docs/generators/hex-to-pantone-converter",
-          items: [],
-        },{
-          title: "RGB to Pantone Converter",
-          href: "/docs/generators/rgb-to-pantone-converter",
-          items: [],
-        },{
-          title: "HSV to Pantone Converter",
-          href: "/docs/generators/hsv-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to Pantone Converter",
-          href: "/docs/generators/cmyk-to-pantone-converter",
-          items: [],
-        },{
-          title: "CMYK to HEX Converter",
-          href: "/docs/generators/cmyk-to-hex-converter",
-          items: [],
-        },{
-          title: "CMYK to RGB Converter",
-          href: "/docs/generators/cmyk-to-rgb-converter",
-          items: [],
-        },{
-          title: "CMYK to HSV Converter",
-          href: "/docs/generators/cmyk-to-hsv-converter",
-          items: [],
-        },{
-          title: "HSV to HEX Converter",
-          href: "/docs/generators/hsv-to-hex-converter",
-          items: [],
-        },{
-          title: "HSV to RGB Converter",
-          href: "/docs/generators/hsv-to-rgb-converter",
-          items: [],
-        },{
-          title: "HSV to CMYK Converter",
-          href: "/docs/generators/hsv-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to HSV Converter",
-          href: "/docs/generators/hex-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to HEX Converter",
-          href: "/docs/generators/rgb-to-hex-converter",
-          items: [],
-        },{
-          title: "RGB to HSV Converter",
-          href: "/docs/generators/rgb-to-hsv-converter",
-          items: [],
-        },{
-          title: "RGB to CMYK Converter",
-          href: "/docs/generators/rgb-to-cmyk-converter",
-          items: [],
-        },{
-          title: "HEX to RGB Converter",
-          href: "/docs/generators/hex-to-rgb-converter",
-          items: [],
-        },{
-          title: "HEX to CMYK Converter",
-          href: "/docs/generators/hex-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HEX Converter",
-          href: "/docs/generators/pantone-to-hex-converter",
-          items: [],
-        },{
-          title: "Pantone to RGB Converter",
-          href: "/docs/generators/pantone-to-rgb-converter",
-          items: [],
-        },{
-          title: "Pantone to CMYK Converter",
-          href: "/docs/generators/pantone-to-cmyk-converter",
-          items: [],
-        },{
-          title: "Pantone to HSV Converter",
-          href: "/docs/generators/pantone-to-hsv-converter",
-          items: [],
-        },{
-          title: "Unit Converter",
-          href: "/docs/generators/unit-converter",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "Length Converter",
-          href: "/docs/generators/length-converter",
-          items: [],
-        },{
-          title: "Weight Converter",
-          href: "/docs/generators/weight-converter",
-          items: [],
-        },{
-          title: "Volume Converter",
-          href: "/docs/generators/volume-converter",
-          items: [],
-        },{
-          title: "Area Converter",
-          href: "/docs/generators/area-converter",
-          items: [],
-        },{
-          title: "Time Converter",
-          href: "/docs/generators/time-converter",
-          items: [],
-        },{
-          title: "Unix Timestamp Converter",
-          href: "/docs/generators/unix-timestamp-converter",
-          items: [],
-        },{
-          title: "More Unit Tools",
-          href: "/docs/generators/more-unit-tools",
-          items: [],
-        },{
-          title: "SQL Converters",
-          href: "/docs/generators/sql-converters",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "SQL to CSV Converter",
-          href: "/docs/generators/sql-to-csv-converter",
-          items: [],
-        },{
-          title: "SQL to JSON Converter",
-          href: "/docs/generators/sql-to-json-converter",
-          items: [],
-        },{
-          title: "SQL to XML Converter",
-          href: "/docs/generators/sql-to-xml-converter",
-          items: [],
-        },{
-          title: "SQL to YAML Converter",
-          href: "/docs/generators/sql-to-yaml-converter",
-          items: [],
-        },{
-          title: "SQL to HTML Converter",
-          href: "/docs/generators/sql-to-html-converter",
-          items: [],
-        },{
-          title: "Encode and Decode",
-          href: "/docs/generators/encode-and-decode",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base32 Encode",
-          href: "/docs/generators/base32-encode",
-          items: [],
-        },{
-          title: "Base32 Decode",
-          href: "/docs/generators/base32-decode",
-          items: [],
-        },{
-          title: "Base58 Encode",
-          href: "/docs/generators/base58-encode",
-          items: [],
-        },{
-          title: "Base58 Decode",
-          href: "/docs/generators/base58-decode",
-          items: [],
-        },{
-          title: "Base64 Encode",
-          href: "/docs/generators/base64-encode",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "URL Encode Online",
-          href: "/docs/generators/url-encode-online",
-          items: [],
-        },{
-          title: "URL Decode Online",
-          href: "/docs/generators/url-decode-online",
-          items: [],
-        },{
-          title: "JSON URL Encode",
-          href: "/docs/generators/json-url-encode",
-          items: [],
-        },{
-          title: "JSON URL Decode",
-          href: "/docs/generators/json-url-decode",
-          items: [],
-        },{
-          title: "HTML Encode",
-          href: "/docs/generators/html-encode",
-          items: [],
-        },{
-          title: "HTML Decode",
-          href: "/docs/generators/html-decode",
-          items: [],
-        },{
-          title: "XML URL Encoding",
-          href: "/docs/generators/xml-url-encoding",
-          items: [],
-        },{
-          title: "XML URL Decoding",
-          href: "/docs/generators/xml-url-decoding",
-          items: [],
-        },{
-          title: "UTF8 Converter",
-          href: "/docs/generators/utf8-converter",
-          items: [],
-        },{
-          title: "UTF8 Decode",
-          href: "/docs/generators/utf8-decode",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "JSON Decode Online",
-          href: "/docs/generators/json-decode-online",
-          items: [],
-        },{
-          title: "JSON Encode Online",
-          href: "/docs/generators/json-encode-online",
-          items: [],
-        },{
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "PNG to Base64",
-          href: "/docs/generators/png-to-base64",
-          items: [],
-        },{
-          title: "JPG to Base64",
-          href: "/docs/generators/jpg-to-base64",
-          items: [],
-        },{
-          title: "JSON to Base64",
-          href: "/docs/generators/json-to-base64",
-          items: [],
-        },{
-          title: "XML to Base64",
-          href: "/docs/generators/xml-to-base64",
-          items: [],
-        },{
-          title: "YAML to Base64",
-          href: "/docs/generators/yaml-to-base64",
-          items: [],
-        },{
-          title: "Base64 to JSON",
-          href: "/docs/generators/base64-to-json",
-          items: [],
-        },{
-          title: "Base64 to XML",
-          href: "/docs/generators/base64-to-xml",
-          items: [],
-        },{
-          title: "Base64 to YAML",
-          href: "/docs/generators/base64-to-yaml",
-          items: [],
-        },{
-          title: "CSV to Base64",
-          href: "/docs/generators/csv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to CSV",
-          href: "/docs/generators/base64-to-csv",
-          items: [],
-        },{
-          title: "TSV to Base64",
-          href: "/docs/generators/tsv-to-base64",
-          items: [],
-        },{
-          title: "Base64 to TSV",
-          href: "/docs/generators/base64-to-tsv",
-          items: [],
-        },{
-          title: "Binary to Base64",
-          href: "/docs/generators/binary-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Binary",
-          href: "/docs/generators/base64-to-binary",
-          items: [],
-        },{
-          title: "Hex to Base64",
-          href: "/docs/generators/hex-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Hex",
-          href: "/docs/generators/base64-to-hex",
-          items: [],
-        },{
-          title: "Octal to Base64",
-          href: "/docs/generators/octal-to-base64",
-          items: [],
-        },{
-          title: "More Base64 Tools",
-          href: "/docs/generators/more-base64-tools",
-          items: [],
-        },{
-          title: "Image Tools",
-          href: "/docs/generators/image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "JPG to PNG",
-          href: "/docs/generators/jpg-to-png",
-          items: [],
-        },{
-          title: "BMP to PNG",
-          href: "/docs/generators/bmp-to-png",
-          items: [],
-        },{
-          title: "PNG to JPG",
-          href: "/docs/generators/png-to-jpg",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "More Image Tools",
-          href: "/docs/generators/more-image-tools",
-          items: [],
-        },{
-          title: "Converters",
-          href: "/docs/generators/converters",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "JSON Converters",
-          href: "/docs/generators/json-converters",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "XML Converters",
-          href: "/docs/generators/xml-converters",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "HTML Converters",
-          href: "/docs/generators/html-converters",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "YAML Converters",
-          href: "/docs/generators/yaml-converters",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "Utility",
-          href: "/docs/generators/utility",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Chart Tools",
-          href: "/docs/generators/chart-tools",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Converters",
-          href: "/docs/generators/converters",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "Date Calculater",
-          href: "/docs/generators/date-calculater",
-          items: [],
-        },{
-          title: "EXCEL to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "EXCEL to XML",
-          href: "/docs/generators/excel-to-xml",
-          items: [],
-        },{
-          title: "EXCEL to JSON",
-          href: "/docs/generators/excel-to-json",
-          items: [],
-        },{
-          title: "OPML to JSON",
-          href: "/docs/generators/opml-to-json",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "Online Tableizer",
-          href: "/docs/generators/online-tableizer",
-          items: [],
-        },{
-          title: "JSON Converters",
-          href: "/docs/generators/json-converters",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "JSON to JAVA",
-          href: "/docs/generators/json-to-java",
-          items: [],
-        },{
-          title: "JSON to XML",
-          href: "/docs/generators/json-to-xml",
-          items: [],
-        },{
-          title: "JSON to YAML",
-          href: "/docs/generators/json-to-yaml",
-          items: [],
-        },{
-          title: "JSON to CSV",
-          href: "/docs/generators/json-to-csv",
-          items: [],
-        },{
-          title: "JSON to TSV",
-          href: "/docs/generators/json-to-tsv",
-          items: [],
-        },{
-          title: "JSON to Text",
-          href: "/docs/generators/json-to-text",
-          items: [],
-        },{
-          title: "JSON to Excel",
-          href: "/docs/generators/json-to-excel",
-          items: [],
-        },{
-          title: "JSON to HTML",
-          href: "/docs/generators/json-to-html",
-          items: [],
-        },{
-          title: "XML Converters",
-          href: "/docs/generators/xml-converters",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "XML to YAML",
-          href: "/docs/generators/xml-to-yaml",
-          items: [],
-        },{
-          title: "XML to CSV",
-          href: "/docs/generators/xml-to-csv",
-          items: [],
-        },{
-          title: "XML to TSV",
-          href: "/docs/generators/xml-to-tsv",
-          items: [],
-        },{
-          title: "XML to Text",
-          href: "/docs/generators/xml-to-text",
-          items: [],
-        },{
-          title: "XML-XSL Transform",
-          href: "/docs/generators/xml-xsl-transform",
-          items: [],
-        },{
-          title: "XML to HTML",
-          href: "/docs/generators/xml-to-html",
-          items: [],
-        },{
-          title: "XML to Excel",
-          href: "/docs/generators/xml-to-excel",
-          items: [],
-        },{
-          title: "XML to JAVA",
-          href: "/docs/generators/xml-to-java",
-          items: [],
-        },{
-          title: "HTML Converters",
-          href: "/docs/generators/html-converters",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML to CSV Converter",
-          href: "/docs/generators/html-to-csv-converter",
-          items: [],
-        },{
-          title: "HTML to TSV Converter",
-          href: "/docs/generators/html-to-tsv-converter",
-          items: [],
-        },{
-          title: "HTML to PHP Converter",
-          href: "/docs/generators/html-to-php-converter",
-          items: [],
-        },{
-          title: "HTML to CSV",
-          href: "/docs/generators/html-to-csv",
-          items: [],
-        },{
-          title: "HTML to JSON",
-          href: "/docs/generators/html-to-json",
-          items: [],
-        },{
-          title: "HTML to XML",
-          href: "/docs/generators/html-to-xml",
-          items: [],
-        },{
-          title: "HTML to YAML",
-          href: "/docs/generators/html-to-yaml",
-          items: [],
-        },{
-          title: "HTML to Text",
-          href: "/docs/generators/html-to-text",
-          items: [],
-        },{
-          title: "Text to HTML Entities",
-          href: "/docs/generators/text-to-html-entities",
-          items: [],
-        },{
-          title: "HTML Entities to Text",
-          href: "/docs/generators/html-entities-to-text",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "PUG to HTML Converter",
-          href: "/docs/generators/pug-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to PUG Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-        },{
-          title: "JADE to HTML Converter",
-          href: "/docs/generators/jade-to-html-converter",
-          items: [],
-        },{
-          title: "HTML to JADE Converter",
-          href: "/docs/generators/html-to-jade-converter",
-          items: [],
-        },{
-          title: "HTML to BBCode Converter",
-          href: "/docs/generators/html-to-bbcode-converter",
-          items: [],
-        },{
-          title: "BBCode to HTML Converter",
-          href: "/docs/generators/bbcode-to-html-converter",
-          items: [],
-        },{
-          title: "YAML Converters",
-          href: "/docs/generators/yaml-converters",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "YAML Converter",
-          href: "/docs/generators/yaml-converter",
-          items: [],
-        },{
-          title: "YAML to XML",
-          href: "/docs/generators/yaml-to-xml",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to CSV",
-          href: "/docs/generators/yaml-to-csv",
-          items: [],
-        },{
-          title: "YAML to Excel",
-          href: "/docs/generators/yaml-to-excel",
-          items: [],
-        },{
-          title: "Utility",
-          href: "/docs/generators/utility",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Send Snap Message",
-          href: "/docs/generators/send-snap-message",
-          items: [],
-        },{
-          title: "Responsive Website Tester",
-          href: "/docs/generators/responsive-website-tester",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "Credit Card Fake Number Generator",
-          href: "/docs/generators/credit-card-fake-number-generator",
-          items: [],
-        },{
-          title: "XPath Tester",
-          href: "/docs/generators/xpath-tester",
-          items: [],
-        },{
-          title: "JSON Path Tester",
-          href: "/docs/generators/json-path-tester",
-          items: [],
-        },{
-          title: "JSON Minifier",
-          href: "/docs/generators/json-minifier",
-          items: [],
-        },{
-          title: "File Difference",
-          href: "/docs/generators/file-difference",
-          items: [],
-        },{
-          title: "JSON Diff",
-          href: "/docs/generators/json-diff",
-          items: [],
-        },{
-          title: "XML Diff",
-          href: "/docs/generators/xml-diff",
-          items: [],
-        },{
-          title: "Broken Link Checker",
-          href: "/docs/generators/broken-link-checker",
-          items: [],
-        },{
-          title: "JSON Deserialize Online",
-          href: "/docs/generators/json-deserialize-online",
-          items: [],
-        },{
-          title: "JSON Serialize Online",
-          href: "/docs/generators/json-serialize-online",
-          items: [],
-        },{
-          title: "JSON Stringify Online",
-          href: "/docs/generators/json-stringify-online",
-          items: [],
-        },{
-          title: "XML Stringify Online",
-          href: "/docs/generators/xml-stringify-online",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Crontab Format",
-          href: "/docs/generators/crontab-format",
-          items: [],
-        },{
-          title: "Chart Tools",
-          href: "/docs/generators/chart-tools",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Line Graph Maker",
-          href: "/docs/generators/line-graph-maker",
-          items: [],
-        },{
-          title: "Bar Graph Maker",
-          href: "/docs/generators/bar-graph-maker",
-          items: [],
-        },{
-          title: "Pie Chart Maker",
-          href: "/docs/generators/pie-chart-maker",
-          items: [],
-        },{
-          title: "Doughnut Chart Maker",
-          href: "/docs/generators/doughnut-chart-maker",
-          items: [],
-        },{
-          title: "Scatter Plot Maker",
-          href: "/docs/generators/scatter-plot-maker",
-          items: [],
-        },{
-          title: "Viewers",
-          href: "/docs/generators/viewers",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "Programming Editors",
-          href: "/docs/generators/programming-editors",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "Parsers",
-          href: "/docs/generators/parsers",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "Escape Unescape",
-          href: "/docs/generators/escape-unescape",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "CryptoGraphy Tools",
-          href: "/docs/generators/cryptography-tools",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Viewers",
-          href: "/docs/generators/viewers",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "YAML Viewer",
-          href: "/docs/generators/yaml-viewer",
-          items: [],
-        },{
-          title: "MXML Viewer",
-          href: "/docs/generators/mxml-viewer",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "JavaScript Viewer",
-          href: "/docs/generators/javascript-viewer",
-          items: [],
-        },{
-          title: "RSS Viewer",
-          href: "/docs/generators/rss-viewer",
-          items: [],
-        },{
-          title: "SOURCE CODE Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "OPML Viewer",
-          href: "/docs/generators/opml-viewer",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "BBCode Viewer",
-          href: "/docs/generators/bbcode-viewer",
-          items: [],
-        },{
-          title: "Markdown Viewer",
-          href: "/docs/generators/markdown-viewer",
-          items: [],
-        },{
-          title: "Programming Editors",
-          href: "/docs/generators/programming-editors",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "XML Editor",
-          href: "/docs/generators/xml-editor",
-          items: [],
-        },{
-          title: "JSON Editor",
-          href: "/docs/generators/json-editor",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "YAML Editor",
-          href: "/docs/generators/yaml-editor",
-          items: [],
-        },{
-          title: "ONLINE Editor",
-          href: "/docs/generators/online-editor",
-          items: [],
-        },{
-          title: "JAVA Editor",
-          href: "/docs/generators/java-editor",
-          items: [],
-        },{
-          title: "C# Editor",
-          href: "/docs/generators/c#-editor",
-          items: [],
-        },{
-          title: "Actionscript Editor",
-          href: "/docs/generators/actionscript-editor",
-          items: [],
-        },{
-          title: "Markdown Editor",
-          href: "/docs/generators/markdown-editor",
-          items: [],
-        },{
-          title: "Parsers",
-          href: "/docs/generators/parsers",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "URL Parser",
-          href: "/docs/generators/url-parser",
-          items: [],
-        },{
-          title: "JSON Parser",
-          href: "/docs/generators/json-parser",
-          items: [],
-        },{
-          title: "XML Parser",
-          href: "/docs/generators/xml-parser",
-          items: [],
-        },{
-          title: "YAML Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "CSS to LESS",
-          href: "/docs/generators/css-to-less",
-          items: [],
-        },{
-          title: "CSS to SCSS",
-          href: "/docs/generators/css-to-scss",
-          items: [],
-        },{
-          title: "CSS to SASS",
-          href: "/docs/generators/css-to-sass",
-          items: [],
-        },{
-          title: "CSS to Stylus",
-          href: "/docs/generators/css-to-stylus",
-          items: [],
-        },{
-          title: "Stylus Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "Stylus to CSS",
-          href: "/docs/generators/stylus-to-css",
-          items: [],
-        },{
-          title: "Stylus to LESS",
-          href: "/docs/generators/stylus-to-less",
-          items: [],
-        },{
-          title: "Stylus to SCSS",
-          href: "/docs/generators/stylus-to-scss",
-          items: [],
-        },{
-          title: "Stylus to SASS",
-          href: "/docs/generators/stylus-to-sass",
-          items: [],
-        },{
-          title: "LESS Compiler",
-          href: "/docs/generators/less-compiler",
-          items: [],
-        },{
-          title: "LESS to CSS",
-          href: "/docs/generators/less-to-css",
-          items: [],
-        },{
-          title: "LESS to Stylus",
-          href: "/docs/generators/less-to-stylus",
-          items: [],
-        },{
-          title: "LESS to SCSS",
-          href: "/docs/generators/less-to-scss",
-          items: [],
-        },{
-          title: "LESS to SASS",
-          href: "/docs/generators/less-to-sass",
-          items: [],
-        },{
-          title: "SCSS Compiler",
-          href: "/docs/generators/scss-compiler",
-          items: [],
-        },{
-          title: "SCSS to CSS",
-          href: "/docs/generators/scss-to-css",
-          items: [],
-        },{
-          title: "SCSS to Stylus",
-          href: "/docs/generators/scss-to-stylus",
-          items: [],
-        },{
-          title: "SCSS to LESS",
-          href: "/docs/generators/scss-to-less",
-          items: [],
-        },{
-          title: "SCSS to SASS",
-          href: "/docs/generators/scss-to-sass",
-          items: [],
-        },{
-          title: "SASS Compiler",
-          href: "/docs/generators/sass-compiler",
-          items: [],
-        },{
-          title: "SASS to CSS",
-          href: "/docs/generators/sass-to-css",
-          items: [],
-        },{
-          title: "SASS to Stylus",
-          href: "/docs/generators/sass-to-stylus",
-          items: [],
-        },{
-          title: "SASS to SCSS",
-          href: "/docs/generators/sass-to-scss",
-          items: [],
-        },{
-          title: "SASS to LESS",
-          href: "/docs/generators/sass-to-less",
-          items: [],
-        },{
-          title: "Escape Unescape",
-          href: "/docs/generators/escape-unescape",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "HTML Escape Unescape",
-          href: "/docs/generators/html-escape-unescape",
-          items: [],
-        },{
-          title: "XML Escape Unescape",
-          href: "/docs/generators/xml-escape-unescape",
-          items: [],
-        },{
-          title: "Java Escape Unescape",
-          href: "/docs/generators/java-escape-unescape",
-          items: [],
-        },{
-          title: "C# Escape Unescape",
-          href: "/docs/generators/c#-escape-unescape",
-          items: [],
-        },{
-          title: "Javascript Escape Unescape",
-          href: "/docs/generators/javascript-escape-unescape",
-          items: [],
-        },{
-          title: "CSV Escape Unescape",
-          href: "/docs/generators/csv-escape-unescape",
-          items: [],
-        },{
-          title: "SQL Escape Unescape",
-          href: "/docs/generators/sql-escape-unescape",
-          items: [],
-        },{
-          title: "JSON Escape Unescape",
-          href: "/docs/generators/json-escape-unescape",
-          items: [],
-        },{
-          title: "Un-Google Link",
-          href: "/docs/generators/un-google-link",
-          items: [],
-        },{
-          title: "CryptoGraphy Tools",
-          href: "/docs/generators/cryptography-tools",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "HMAC Generator",
-          href: "/docs/generators/hmac-generator",
-          items: [],
-        },{
-          title: "MD2 Hash Generator",
-          href: "/docs/generators/md2-hash-generator",
-          items: [],
-        },{
-          title: "MD4 Hash Generator",
-          href: "/docs/generators/md4-hash-generator",
-          items: [],
-        },{
-          title: "MD5 Hash Generator",
-          href: "/docs/generators/md5-hash-generator",
-          items: [],
-        },{
-          title: "MD6 Hash Generator",
-          href: "/docs/generators/md6-hash-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "SHA1 Hash Generator",
-          href: "/docs/generators/sha1-hash-generator",
-          items: [],
-        },{
-          title: "SHA2 Hash Generator",
-          href: "/docs/generators/sha2-hash-generator",
-          items: [],
-        },{
-          title: "SHA224 Hash Generator",
-          href: "/docs/generators/sha224-hash-generator",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA384 Hash Generator",
-          href: "/docs/generators/sha384-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/224 Hash Generator",
-          href: "/docs/generators/sha512/224-hash-generator",
-          items: [],
-        },{
-          title: "SHA512/256 Hash Generator",
-          href: "/docs/generators/sha512/256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-224 Hash Generator",
-          href: "/docs/generators/sha3-224-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-256 Hash Generator",
-          href: "/docs/generators/sha3-256-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-384 Hash Generator",
-          href: "/docs/generators/sha3-384-hash-generator",
-          items: [],
-        },{
-          title: "SHA3-512 Hash Generator",
-          href: "/docs/generators/sha3-512-hash-generator",
-          items: [],
-        },{
-          title: "CRC-16 Hash Generator",
-          href: "/docs/generators/crc-16-hash-generator",
-          items: [],
-        },{
-          title: "CRC-32 Hash Generator",
-          href: "/docs/generators/crc-32-hash-generator",
-          items: [],
-        },{
-          title: "Shake-128 Hash Generator",
-          href: "/docs/generators/shake-128-hash-generator",
-          items: [],
-        },{
-          title: "Shake-256 Hash Generator",
-          href: "/docs/generators/shake-256-hash-generator",
-          items: [],
-        },{
-          title: "Whirlpool Hash Generator",
-          href: "/docs/generators/whirlpool-hash-generator",
-          items: [],
-        },{
-          title: "Wordpress Password Hash Generator",
-          href: "/docs/generators/wordpress-password-hash-generator",
-          items: [],
-        },{
-          title: "Beautifiers",
-          href: "/docs/generators/beautifiers",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "Minifier",
-          href: "/docs/generators/minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "String Utilities",
-          href: "/docs/generators/string-utilities",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Syntax Highlighting",
-          href: "/docs/generators/syntax-highlighting",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "Compress",
-          href: "/docs/generators/compress",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "Beautifiers",
-          href: "/docs/generators/beautifiers",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "XML Beautifier",
-          href: "/docs/generators/xml-beautifier",
-          items: [],
-        },{
-          title: "Javascript Beautifier",
-          href: "/docs/generators/javascript-beautifier",
-          items: [],
-        },{
-          title: "YAML Beautifier",
-          href: "/docs/generators/yaml-beautifier",
-          items: [],
-        },{
-          title: "C# Beautifier",
-          href: "/docs/generators/c#-beautifier",
-          items: [],
-        },{
-          title: "Java Beautifier",
-          href: "/docs/generators/java-beautifier",
-          items: [],
-        },{
-          title: "C Beautifier",
-          href: "/docs/generators/c-beautifier",
-          items: [],
-        },{
-          title: "C++ Beautifier",
-          href: "/docs/generators/c++-beautifier",
-          items: [],
-        },{
-          title: "TypeScript Formatter",
-          href: "/docs/generators/typescript-formatter",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Babel Formatter",
-          href: "/docs/generators/babel-formatter",
-          items: [],
-        },{
-          title: "Markdown Formatter",
-          href: "/docs/generators/markdown-formatter",
-          items: [],
-        },{
-          title: "MDX Formatter",
-          href: "/docs/generators/mdx-formatter",
-          items: [],
-        },{
-          title: "LESS Beautifier",
-          href: "/docs/generators/less-beautifier",
-          items: [],
-        },{
-          title: "SCSS Beautifier",
-          href: "/docs/generators/scss-beautifier",
-          items: [],
-        },{
-          title: "GraphQL Beautifier",
-          href: "/docs/generators/graphql-beautifier",
-          items: [],
-        },{
-          title: "PHP Beautifier",
-          href: "/docs/generators/php-beautifier",
-          items: [],
-        },{
-          title: "Python Beautifier",
-          href: "/docs/generators/python-beautifier",
-          items: [],
-        },{
-          title: "Perl Beautifier",
-          href: "/docs/generators/perl-beautifier",
-          items: [],
-        },{
-          title: "Ruby Beautifier",
-          href: "/docs/generators/ruby-beautifier",
-          items: [],
-        },{
-          title: "Angular Formatter",
-          href: "/docs/generators/angular-formatter",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "XAML Beautifier",
-          href: "/docs/generators/xaml-beautifier",
-          items: [],
-        },{
-          title: "Minifier",
-          href: "/docs/generators/minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "JSON Minify",
-          href: "/docs/generators/json-minify",
-          items: [],
-        },{
-          title: "XML Minify",
-          href: "/docs/generators/xml-minify",
-          items: [],
-        },{
-          title: "Minify JS",
-          href: "/docs/generators/minify-js",
-          items: [],
-        },{
-          title: "CSS Minify",
-          href: "/docs/generators/css-minify",
-          items: [],
-        },{
-          title: "SQL Minifier",
-          href: "/docs/generators/sql-minifier",
-          items: [],
-        },{
-          title: "Minify HTML",
-          href: "/docs/generators/minify-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Text Minifier",
-          href: "/docs/generators/text-minifier",
-          items: [],
-        },{
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "CSV Viewer",
-          href: "/docs/generators/csv-viewer",
-          items: [],
-        },{
-          title: "CSV to XML/JSON",
-          href: "/docs/generators/csv-to-xml/json",
-          items: [],
-        },{
-          title: "CSV to XML",
-          href: "/docs/generators/csv-to-xml",
-          items: [],
-        },{
-          title: "CSV to JSON",
-          href: "/docs/generators/csv-to-json",
-          items: [],
-        },{
-          title: "CSV to HTML",
-          href: "/docs/generators/csv-to-html",
-          items: [],
-        },{
-          title: "CSV to TSV",
-          href: "/docs/generators/csv-to-tsv",
-          items: [],
-        },{
-          title: "CSV to MULTILINE DATA",
-          href: "/docs/generators/csv-to-multiline-data",
-          items: [],
-        },{
-          title: "CSV to SQL",
-          href: "/docs/generators/csv-to-sql",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "String Utilities",
-          href: "/docs/generators/string-utilities",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Upside Down Text",
-          href: "/docs/generators/upside-down-text",
-          items: [],
-        },{
-          title: "Random Word Generator",
-          href: "/docs/generators/random-word-generator",
-          items: [],
-        },{
-          title: "NTLM Hash Generator",
-          href: "/docs/generators/ntlm-hash-generator",
-          items: [],
-        },{
-          title: "Password Generator",
-          href: "/docs/generators/password-generator",
-          items: [],
-        },{
-          title: "String Builder",
-          href: "/docs/generators/string-builder",
-          items: [],
-        },{
-          title: "Number to Word Converter",
-          href: "/docs/generators/number-to-word-converter",
-          items: [],
-        },{
-          title: "Word to Number Converter",
-          href: "/docs/generators/word-to-number-converter",
-          items: [],
-        },{
-          title: "WORD COUNTER",
-          href: "/docs/generators/word-counter",
-          items: [],
-        },{
-          title: "Word Repeater",
-          href: "/docs/generators/word-repeater",
-          items: [],
-        },{
-          title: "Reverse String",
-          href: "/docs/generators/reverse-string",
-          items: [],
-        },{
-          title: "String to Hex Converter",
-          href: "/docs/generators/string-to-hex-converter",
-          items: [],
-        },{
-          title: "Hex to String Converter",
-          href: "/docs/generators/hex-to-string-converter",
-          items: [],
-        },{
-          title: "String to Binary Converter",
-          href: "/docs/generators/string-to-binary-converter",
-          items: [],
-        },{
-          title: "Binary to String Converter",
-          href: "/docs/generators/binary-to-string-converter",
-          items: [],
-        },{
-          title: "Case Converter",
-          href: "/docs/generators/case-converter",
-          items: [],
-        },{
-          title: "Delimited Text Extractor",
-          href: "/docs/generators/delimited-text-extractor",
-          items: [],
-        },{
-          title: "Remove Accents",
-          href: "/docs/generators/remove-accents",
-          items: [],
-        },{
-          title: "Remove Duplicate Lines",
-          href: "/docs/generators/remove-duplicate-lines",
-          items: [],
-        },{
-          title: "Remove Empty Lines",
-          href: "/docs/generators/remove-empty-lines",
-          items: [],
-        },{
-          title: "Remove Extra Spaces",
-          href: "/docs/generators/remove-extra-spaces",
-          items: [],
-        },{
-          title: "Remove Whitespace",
-          href: "/docs/generators/remove-whitespace",
-          items: [],
-        },{
-          title: "Remove Line Breaks",
-          href: "/docs/generators/remove-line-breaks",
-          items: [],
-        },{
-          title: "Remove Lines Containing",
-          href: "/docs/generators/remove-lines-containing",
-          items: [],
-        },{
-          title: "Sort Text Lines",
-          href: "/docs/generators/sort-text-lines",
-          items: [],
-        },{
-          title: "Word Sorter",
-          href: "/docs/generators/word-sorter",
-          items: [],
-        },{
-          title: "Word Frequency Counter",
-          href: "/docs/generators/word-frequency-counter",
-          items: [],
-        },{
-          title: "Text Repeater",
-          href: "/docs/generators/text-repeater",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "Syntax Highlighting",
-          href: "/docs/generators/syntax-highlighting",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "JSON Syntax Highlighting",
-          href: "/docs/generators/json-syntax-highlighting",
-          items: [],
-        },{
-          title: "XML Highlighter",
-          href: "/docs/generators/xml-highlighter",
-          items: [],
-        },{
-          title: "XML Pretty Print",
-          href: "/docs/generators/xml-pretty-print",
-          items: [],
-        },{
-          title: "HTML Pretty Print",
-          href: "/docs/generators/html-pretty-print",
-          items: [],
-        },{
-          title: "JS Pretty Print",
-          href: "/docs/generators/js-pretty-print",
-          items: [],
-        },{
-          title: "Code Highlighter",
-          href: "/docs/generators/code-highlighter",
-          items: [],
-        },{
-          title: "Compress",
-          href: "/docs/generators/compress",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "GZip Decompress Online",
-          href: "/docs/generators/gzip-decompress-online",
-          items: [],
-        },{
-          title: "Zlib Decompress Online",
-          href: "/docs/generators/zlib-decompress-online",
-          items: [],
-        },{
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "Number Utilities",
-          href: "/docs/generators/number-utilities",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "Bitwise Tools",
-          href: "/docs/generators/bitwise-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "JSON5 Validator",
-          href: "/docs/generators/json5-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "Credit Card Validator",
-          href: "/docs/generators/credit-card-validator",
-          items: [],
-        },{
-          title: "API Test",
-          href: "/docs/generators/api-test",
-          items: [],
-        },{
-          title: "YAML Validator",
-          href: "/docs/generators/yaml-validator",
-          items: [],
-        },{
-          title: "Number Utilities",
-          href: "/docs/generators/number-utilities",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "All Numbers Converter",
-          href: "/docs/generators/all-numbers-converter",
-          items: [],
-        },{
-          title: "Decimal to Binary",
-          href: "/docs/generators/decimal-to-binary",
-          items: [],
-        },{
-          title: "Decimal to Octal",
-          href: "/docs/generators/decimal-to-octal",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "Binary to Hex",
-          href: "/docs/generators/binary-to-hex",
-          items: [],
-        },{
-          title: "Binary to Octal",
-          href: "/docs/generators/binary-to-octal",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "Hex to Binary",
-          href: "/docs/generators/hex-to-binary",
-          items: [],
-        },{
-          title: "Hex to Octal",
-          href: "/docs/generators/hex-to-octal",
-          items: [],
-        },{
-          title: "Octal toDecimal",
-          href: "/docs/generators/octal-todecimal",
-          items: [],
-        },{
-          title: "Octal to Binary",
-          href: "/docs/generators/octal-to-binary",
-          items: [],
-        },{
-          title: "Octal to Hex",
-          href: "/docs/generators/octal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "Text to Binary",
-          href: "/docs/generators/text-to-binary",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Char to ASCII",
-          href: "/docs/generators/char-to-ascii",
-          items: [],
-        },{
-          title: "Reverse Hex",
-          href: "/docs/generators/reverse-hex",
-          items: [],
-        },{
-          title: "Bitwise Tools",
-          href: "/docs/generators/bitwise-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "XOR Calculator",
-          href: "/docs/generators/xor-calculator",
-          items: [],
-        },{
-          title: "AND Calculator",
-          href: "/docs/generators/and-calculator",
-          items: [],
-        },{
-          title: "NAND Calculator",
-          href: "/docs/generators/nand-calculator",
-          items: [],
-        },{
-          title: "OR Calculator",
-          href: "/docs/generators/or-calculator",
-          items: [],
-        },{
-          title: "NOR Calculator",
-          href: "/docs/generators/nor-calculator",
-          items: [],
-        },{
-          title: "XNOR Calculator",
-          href: "/docs/generators/xnor-calculator",
-          items: [],
-        },{
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Hex to IP",
-          href: "/docs/generators/hex-to-ip",
-          items: [],
-        },{
-          title: "IP to Hex",
-          href: "/docs/generators/ip-to-hex",
-          items: [],
-        },{
-          title: "Binary to IP",
-          href: "/docs/generators/binary-to-ip",
-          items: [],
-        },{
-          title: "IP to Binary",
-          href: "/docs/generators/ip-to-binary",
-          items: [],
-        },{
-          title: "Decimal to IP",
-          href: "/docs/generators/decimal-to-ip",
-          items: [],
-        },{
-          title: "IP to Decimal",
-          href: "/docs/generators/ip-to-decimal",
-          items: [],
-        },{
-          title: "Octal to IP",
-          href: "/docs/generators/octal-to-ip",
-          items: [],
-        },{
-          title: "IP to Octal",
-          href: "/docs/generators/ip-to-octal",
-          items: [],
-        },{
-          title: "IPV6 to Binary",
-          href: "/docs/generators/ipv6-to-binary",
-          items: [],
-        },{
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Lorem-Ipsum",
-          href: "/docs/generators/lorem-ipsum",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Hostname to IP",
-          href: "/docs/generators/hostname-to-ip",
-          items: [],
-        },{
-          title: "IP to Hostname",
-          href: "/docs/generators/ip-to-hostname",
-          items: [],
-        },{
-          title: "Phone to IP Address",
-          href: "/docs/generators/phone-to-ip-address",
-          items: [],
-        },{
-          title: "IP Address to Phone",
-          href: "/docs/generators/ip-address-to-phone",
-          items: [],
-        },{
-          title: "DNS Lookup",
-          href: "/docs/generators/dns-lookup",
-          items: [],
-        },{
-          title: "MX Lookup",
-          href: "/docs/generators/mx-lookup",
-          items: [],
-        },{
-          title: "Nameserver Lookup",
-          href: "/docs/generators/nameserver-lookup",
-          items: [],
-        },{
-          title: "Website to IP Address",
-          href: "/docs/generators/website-to-ip-address",
-          items: [],
-        },{
-          title: "Open Port Checker",
-          href: "/docs/generators/open-port-checker",
-          items: [],
-        },{
-          title: "Webcam Test",
-          href: "/docs/generators/webcam-test",
-          items: [],
-        },{
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Random IP Address",
-          href: "/docs/generators/random-ip-address",
-          items: [],
-        },{
-          title: "Random Time Generator",
-          href: "/docs/generators/random-time-generator",
-          items: [],
-        },{
-          title: "Random UUID Generator",
-          href: "/docs/generators/random-uuid-generator",
-          items: [],
-        },{
-          title: "Random JSON Generator",
-          href: "/docs/generators/random-json-generator",
-          items: [],
-        },{
-          title: "Random XML Generator",
-          href: "/docs/generators/random-xml-generator",
-          items: [],
-        },{
-          title: "Random Data from Regex",
-          href: "/docs/generators/random-data-from-regex",
-          items: [],
-        },{
-          title: "Random CSV Generator",
-          href: "/docs/generators/random-csv-generator",
-          items: [],
-        },{
-          title: "Random Number Generator",
-          href: "/docs/generators/random-number-generator",
-          items: [],
-        },{
-          title: "Random Integer Generator",
-          href: "/docs/generators/random-integer-generator",
-          items: [],
-        },{
-          title: "Random Prime Generator",
-          href: "/docs/generators/random-prime-generator",
-          items: [],
-        },{
-          title: "Random Date Generator",
-          href: "/docs/generators/random-date-generator",
-          items: [],
-        },{
-          title: "Random Bitmap Generator",
-          href: "/docs/generators/random-bitmap-generator",
-          items: [],
-        },{
-          title: "Random Name Picker",
-          href: "/docs/generators/random-name-picker",
-          items: [],
-        },{
-          title: "Text Lines shuffler",
-          href: "/docs/generators/text-lines-shuffler",
-          items: [],
-        },{
-          title: "MAC Address Generator",
-          href: "/docs/generators/mac-address-generator",
-          items: [],
-        },{
-          title: "Random Hex Generator",
-          href: "/docs/generators/random-hex-generator",
-          items: [],
-        },{
-          title: "Random TSV Generator",
-          href: "/docs/generators/random-tsv-generator",
-          items: [],
-        },{
-          title: "Random String Generator",
-          href: "/docs/generators/random-string-generator",
-          items: [],
-        },{
-          title: "Random Fraction Generator",
-          href: "/docs/generators/random-fraction-generator",
-          items: [],
-        },{
-          title: "Random Integer Range Generator",
-          href: "/docs/generators/random-integer-range-generator",
-          items: [],
-        },{
-          title: "Random Binary Generator",
-          href: "/docs/generators/random-binary-generator",
-          items: [],
-        },{
-          title: "Random Byte Generator",
-          href: "/docs/generators/random-byte-generator",
-          items: [],
-        },{
-          title: "Random Decimal Generator",
-          href: "/docs/generators/random-decimal-generator",
-          items: [],
-        },{
-          title: "Random Alphanumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Popular Functionality",
-          href: "/docs/generators/popular-functionality",
-          items: [],
-        },{
-          title: "JSON Beautifier",
-          href: "/docs/generators/json-beautifier",
-          items: [],
-        },{
-          title: "HTML Viewer",
-          href: "/docs/generators/html-viewer",
-          items: [],
-        },{
-          title: "Number to Words",
-          href: "/docs/generators/number-to-words",
-          items: [],
-        },{
-          title: "SQL Formatter",
-          href: "/docs/generators/sql-formatter",
-          items: [],
-        },{
-          title: "Image to Base64",
-          href: "/docs/generators/image-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Image",
-          href: "/docs/generators/base64-to-image",
-          items: [],
-        },{
-          title: "HEX to Pantone",
-          href: "/docs/generators/hex-to-pantone",
-          items: [],
-        },{
-          title: "Source Code Viewer",
-          href: "/docs/generators/source-code-viewer",
-          items: [],
-        },{
-          title: "Binary to Text",
-          href: "/docs/generators/binary-to-text",
-          items: [],
-        },{
-          title: "JSON Viewer",
-          href: "/docs/generators/json-viewer",
-          items: [],
-        },{
-          title: "JSON Validator",
-          href: "/docs/generators/json-validator",
-          items: [],
-        },{
-          title: "Base64 Decode",
-          href: "/docs/generators/base64-decode",
-          items: [],
-        },{
-          title: "Hex to Decimal",
-          href: "/docs/generators/hex-to-decimal",
-          items: [],
-        },{
-          title: "XML Viewer",
-          href: "/docs/generators/xml-viewer",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "Encryption-Decryption",
-          href: "/docs/generators/encryption-decryption",
-          items: [],
-        },{
-          title: "Excel to HTML",
-          href: "/docs/generators/excel-to-html",
-          items: [],
-        },{
-          title: "CSS Validator",
-          href: "/docs/generators/css-validator",
-          items: [],
-        },{
-          title: "XML Validator",
-          href: "/docs/generators/xml-validator",
-          items: [],
-        },{
-          title: "JavaScript Validator",
-          href: "/docs/generators/javascript-validator",
-          items: [],
-        },{
-          title: "CSS Beautifier",
-          href: "/docs/generators/css-beautifier",
-          items: [],
-        },{
-          title: "ONLINE JSON EDITOR",
-          href: "/docs/generators/online-json-editor",
-          items: [],
-        },{
-          title: "Decimal to Hex",
-          href: "/docs/generators/decimal-to-hex",
-          items: [],
-        },{
-          title: "Binary to Decimal",
-          href: "/docs/generators/binary-to-decimal",
-          items: [],
-        },{
-          title: "ASCII to Text",
-          href: "/docs/generators/ascii-to-text",
-          items: [],
-        },{
-          title: "Random Emoji Generator",
-          href: "/docs/generators/random-emoji-generator",
-          items: [],
-        },{
-          title: "REM to PX Converter",
-          href: "/docs/generators/rem-to-px-converter",
-          items: [],
-        },{
-          title: "New Functionality",
-          href: "/docs/generators/new-functionality",
-          items: [],
-        },{
-          title: "Random Trivia Generator",
-          href: "/docs/generators/random-trivia-generator",
-          items: [],
-        },{
-          title: "Random Website Generator",
-          href: "/docs/generators/random-website-generator",
-          items: [],
-        },{
-          title: "Random Proverb Generator",
-          href: "/docs/generators/random-proverb-generator",
-          items: [],
-        },{
-          title: "Memorable Password Generator",
-          href: "/docs/generators/memorable-password-generator",
-          items: [],
-        },{
-          title: "Harry Potter Spells Generator",
-          href: "/docs/generators/harry-potter-spells-generator",
-          items: [],
-        },{
-          title: "Random New York Address",
-          href: "/docs/generators/random-new-york-address",
-          items: [],
-        },{
-          title: "Random Noun Generator",
-          href: "/docs/generators/random-noun-generator",
-          items: [],
-        },{
-          title: "Random Spanish Word Generator",
-          href: "/docs/generators/random-spanish-word-generator",
-          items: [],
-        },{
-          title: "Random Location Generator",
-          href: "/docs/generators/random-location-generator",
-          items: [],
-        },{
-          title: "Random Town Generator",
-          href: "/docs/generators/random-town-generator",
-          items: [],
-        },{
-          title: "Goth Name Generator",
-          href: "/docs/generators/goth-name-generator",
-          items: [],
-        },{
-          title: "Fantasy Name Generator",
-          href: "/docs/generators/fantasy-name-generator",
-          items: [],
-        },{
-          title: "Victorian Name Generator",
-          href: "/docs/generators/victorian-name-generator",
-          items: [],
-        },{
-          title: "Magic School Name",
-          href: "/docs/generators/magic-school-name",
-          items: [],
-        },{
-          title: "Halloween Costume Generator",
-          href: "/docs/generators/halloween-costume-generator",
-          items: [],
-        },{
-          title: "Book",
-          href: "/docs/generators/book",
-          items: [],
-        },{
-          title: "Disney Character Generator",
-          href: "/docs/generators/disney-character-generator",
-          items: [],
-        },{
-          title: "God Name Generator",
-          href: "/docs/generators/god-name-generator",
-          items: [],
-        },{
-          title: "Random Setting Generator",
-          href: "/docs/generators/random-setting-generator",
-          items: [],
-        },{
-          title: "Twitch Name Generator",
-          href: "/docs/generators/twitch-name-generator",
-          items: [],
-        },{
-          title: "Villager Name Generator",
-          href: "/docs/generators/villager-name-generator",
-          items: [],
-        },{
-          title: "Vampire Name Generator",
-          href: "/docs/generators/vampire-name-generator",
-          items: [],
-        },{
-          title: "Dwarf Name Generator",
-          href: "/docs/generators/dwarf-name-generator",
-          items: [],
-        },{
-          title: "DND Name Generator",
-          href: "/docs/generators/dnd-name-generator",
-          items: [],
-        },{
-          title: "Random Kingdom Name Generator",
-          href: "/docs/generators/random-kingdom-name-generator",
-          items: [],
-        },{
-          title: "Random Japanese Name Generator",
-          href: "/docs/generators/random-japanese-name-generator",
-          items: [],
-        },{
-          title: "Random School Name Generator",
-          href: "/docs/generators/random-school-name-generator",
-          items: [],
-        },{
-          title: "Glitch Text Generator",
-          href: "/docs/generators/glitch-text-generator",
-          items: [],
-        },{
-          title: "YAML Cheat Sheet",
-          href: "/docs/generators/yaml-cheat-sheet",
-          items: [],
-        },{
-          title: "JSON Cheat Sheet",
-          href: "/docs/generators/json-cheat-sheet",
-          items: [],
-        },{
-          title: "Random Username Generator",
-          href: "/docs/generators/random-username-generator",
-          items: [],
-        },{
-          title: "Random Cat Name Generator",
-          href: "/docs/generators/random-cat-name-generator",
-          items: [],
-        },{
-          title: "Random Food Generator",
-          href: "/docs/generators/random-food-generator",
-          items: [],
-        },{
-          title: "Scenario Generator",
-          href: "/docs/generators/scenario-generator",
-          items: [],
-        },{
-          title: "JSON to String",
-          href: "/docs/generators/json-to-string",
-          items: [],
-        },{
-          title: "Random New Zealand Address",
-          href: "/docs/generators/random-new-zealand-address",
-          items: [],
-        },{
-          title: "Random Paragraph Generator",
-          href: "/docs/generators/random-paragraph-generator",
-          items: [],
-        },{
-          title: "Fake ChatGPT Generator",
-          href: "/docs/generators/fake-chatgpt-generator",
-          items: [],
-        },{
-          title: "JavaScript Cheat Sheet",
-          href: "/docs/generators/javascript-cheat-sheet",
-          items: [],
-        },{
-          title: "Text Formatter",
-          href: "/docs/generators/text-formatter",
-          items: [],
-        },{
-          title: "Time Sheet Calculator",
-          href: "/docs/generators/time-sheet-calculator",
-          items: [],
-        },{
-          title: "Random Video Game Generator",
-          href: "/docs/generators/random-video-game-generator",
-          items: [],
-        },{
-          title: "Address in Spain",
-          href: "/docs/generators/address-in-spain",
-          items: [],
-        },{
-          title: "Random Actor Generator",
-          href: "/docs/generators/random-actor-generator",
-          items: [],
-        },{
-          title: "Random Song Lyrics",
-          href: "/docs/generators/random-song-lyrics",
-          items: [],
-        },{
-          title: "Random Caption Generator",
-          href: "/docs/generators/random-caption-generator",
-          items: [],
-        },{
-          title: "Random Celebrity Generator",
-          href: "/docs/generators/random-celebrity-generator",
-          items: [],
-        },{
-          title: "Sort XML Online",
-          href: "/docs/generators/sort-xml-online",
-          items: [],
-        },{
-          title: "SVG Viewer",
-          href: "/docs/generators/svg-viewer",
-          items: [],
-        },{
-          title: "SVG Formatter",
-          href: "/docs/generators/svg-formatter",
-          items: [],
-        },{
-          title: "Cursed Text Generator",
-          href: "/docs/generators/cursed-text-generator",
-          items: [],
-        },{
-          title: "Random Superhero Generator",
-          href: "/docs/generators/random-superhero-generator",
-          items: [],
-        },{
-          title: "CSS Selectors Cheat Sheet",
-          href: "/docs/generators/css-selectors-cheat-sheet",
-          items: [],
-        },{
-          title: "HEX to RGBA Converter",
-          href: "/docs/generators/hex-to-rgba-converter",
-          items: [],
-        },{
-          title: "Sentence Counter",
-          href: "/docs/generators/sentence-counter",
-          items: [],
-        },{
-          title: "JSON to One Line",
-          href: "/docs/generators/json-to-one-line",
-          items: [],
-        },{
-          title: "Paragraph Counter",
-          href: "/docs/generators/paragraph-counter",
-          items: [],
-        },{
-          title: "Javascript Tester",
-          href: "/docs/generators/javascript-tester",
-          items: [],
-        },{
-          title: "Random Pokemon Team Generator",
-          href: "/docs/generators/random-pokemon-team-generator",
-          items: [],
-        },{
-          title: "Vim Cheat Sheet",
-          href: "/docs/generators/vim-cheat-sheet",
-          items: [],
-        },{
-          title: "Random Canada Address Generator",
-          href: "/docs/generators/random-canada-address-generator",
-          items: [],
-        },{
-          title: "Random Pokemon Generator",
-          href: "/docs/generators/random-pokemon-generator",
-          items: [],
-        },{
-          title: "Random Address in California",
-          href: "/docs/generators/random-address-in-california",
-          items: [],
-        },{
-          title: "Random Movie Generator",
-          href: "/docs/generators/random-movie-generator",
-          items: [],
-        },{
-          title: "Character Trait Generator",
-          href: "/docs/generators/character-trait-generator",
-          items: [],
-        },{
-          title: "Random Flower Generator",
-          href: "/docs/generators/random-flower-generator",
-          items: [],
-        },{
-          title: "Random Quote Generator",
-          href: "/docs/generators/random-quote-generator",
-          items: [],
-        },{
-          title: "Random Sentence Generator",
-          href: "/docs/generators/random-sentence-generator",
-          items: [],
-        },{
-          title: "Random Element Generator",
-          href: "/docs/generators/random-element-generator",
-          items: [],
-        },{
-          title: "Random Planet Generator",
-          href: "/docs/generators/random-planet-generator",
-          items: [],
-        },{
-          title: "Random Holiday Generator",
-          href: "/docs/generators/random-holiday-generator",
-          items: [],
-        },{
-          title: "Random Last Name Generator",
-          href: "/docs/generators/random-last-name-generator",
-          items: [],
-        },{
-          title: "Random Cat Generator",
-          href: "/docs/generators/random-cat-generator",
-          items: [],
-        },{
-          title: "Random College Generator",
-          href: "/docs/generators/random-college-generator",
-          items: [],
-        },{
-          title: "Random Bird Generator",
-          href: "/docs/generators/random-bird-generator",
-          items: [],
-        },{
-          title: "Random Book Generator",
-          href: "/docs/generators/random-book-generator",
-          items: [],
-        },{
-          title: "Random Job Generator",
-          href: "/docs/generators/random-job-generator",
-          items: [],
-        },{
-          title: "Random Link Generator",
-          href: "/docs/generators/random-link-generator",
-          items: [],
-        },{
-          title: "Tweet to Image Converter",
-          href: "/docs/generators/tweet-to-image-converter",
-          items: [],
-        },{
-          title: "PSN Name Generator",
-          href: "/docs/generators/psn-name-generator",
-          items: [],
-        },{
-          title: "Monster Generator",
-          href: "/docs/generators/monster-generator",
-          items: [],
-        },{
-          title: "Random League Champion",
-          href: "/docs/generators/random-league-champion",
-          items: [],
-        },{
-          title: "Random Body Part Generator",
-          href: "/docs/generators/random-body-part-generator",
-          items: [],
-        },{
-          title: "Social Tools",
-          href: "/docs/generators/social-tools",
-          items: [],
-        },{
-          title: "Aesthetic Emoji Generator",
-          href: "/docs/generators/aesthetic-emoji-generator",
-          items: [],
-        },{
-          title: "Random Superpower Generator",
-          href: "/docs/generators/random-superpower-generator",
-          items: [],
-        },{
-          title: "Random Anime Character Generator",
-          href: "/docs/generators/random-anime-character-generator",
-          items: [],
-        },{
-          title: "Random Dinosaur Generator",
-          href: "/docs/generators/random-dinosaur-generator",
-          items: [],
-        },{
-          title: "Fursona Generator",
-          href: "/docs/generators/fursona-generator",
-          items: [],
-        },{
-          title: "Sims 3 Trait Generator",
-          href: "/docs/generators/sims-3-trait-generator",
-          items: [],
-        },{
-          title: "Random Emotion Generator",
-          href: "/docs/generators/random-emotion-generator",
-          items: [],
-        },{
-          title: "Random Year Generator",
-          href: "/docs/generators/random-year-generator",
-          items: [],
-        },{
-          title: "Random Cartoon Character Generator",
-          href: "/docs/generators/random-cartoon-character-generator",
-          items: [],
-        },{
-          title: "Random 6 Digit Number Generator",
-          href: "/docs/generators/random-6-digit-number-generator",
-          items: [],
-        },{
-          title: "Random 4 Digit Number Generator",
-          href: "/docs/generators/random-4-digit-number-generator",
-          items: [],
-        },{
-          title: "Random Birthday Generator",
-          href: "/docs/generators/random-birthday-generator",
-          items: [],
-        },{
-          title: "Letter Randomizer",
-          href: "/docs/generators/letter-randomizer",
-          items: [],
-        },{
-          title: "Text Replacer",
-          href: "/docs/generators/text-replacer",
-          items: [],
-        },{
-          title: "Random Tarot Card Generator",
-          href: "/docs/generators/random-tarot-card-generator",
-          items: [],
-        },{
-          title: "Random Dog Breed Generator",
-          href: "/docs/generators/random-dog-breed-generator",
-          items: [],
-        },{
-          title: "Random Car Generator",
-          href: "/docs/generators/random-car-generator",
-          items: [],
-        },{
-          title: "Lord Of The Rings Name Generator",
-          href: "/docs/generators/lord-of-the-rings-name-generator",
-          items: [],
-        },{
-          title: "Fortune Cookie Generator",
-          href: "/docs/generators/fortune-cookie-generator",
-          items: [],
-        },{
-          title: "Random Charades Generator",
-          href: "/docs/generators/random-charades-generator",
-          items: [],
-        },{
-          title: "Instagram Caption Generator",
-          href: "/docs/generators/instagram-caption-generator",
-          items: [],
-        },{
-          title: "Snapchat Fonts Generator",
-          href: "/docs/generators/snapchat-fonts-generator",
-          items: [],
-        },{
-          title: "Reddit Username Generator",
-          href: "/docs/generators/reddit-username-generator",
-          items: [],
-        },{
-          title: "Random Adjective Generator",
-          href: "/docs/generators/random-adjective-generator",
-          items: [],
-        },{
-          title: "Goofy Ahh Names Generator",
-          href: "/docs/generators/goofy-ahh-names-generator",
-          items: [],
-        },{
-          title: "Random City Generator",
-          href: "/docs/generators/random-city-generator",
-          items: [],
-        },{
-          title: "Personality Generator",
-          href: "/docs/generators/personality-generator",
-          items: [],
-        },{
-          title: "Random Girl Name Generator",
-          href: "/docs/generators/random-girl-name-generator",
-          items: [],
-        },{
-          title: "Random State Generator",
-          href: "/docs/generators/random-state-generator",
-          items: [],
-        },{
-          title: "Full White Screen",
-          href: "/docs/generators/full-white-screen",
-          items: [],
-        },{
-          title: "Full Blue Screen",
-          href: "/docs/generators/full-blue-screen",
-          items: [],
-        },{
-          title: "Full Red Screen",
-          href: "/docs/generators/full-red-screen",
-          items: [],
-        },{
-          title: "Full Black Screen",
-          href: "/docs/generators/full-black-screen",
-          items: [],
-        },{
-          title: "Aesthetic Username Generator",
-          href: "/docs/generators/aesthetic-username-generator",
-          items: [],
-        },{
-          title: "Word Replacer",
-          href: "/docs/generators/word-replacer",
-          items: [],
-        },{
-          title: "Moodboard Generator",
-          href: "/docs/generators/moodboard-generator",
-          items: [],
-        },{
-          title: "Valorant Crosshair Generator",
-          href: "/docs/generators/valorant-crosshair-generator",
-          items: [],
-        },{
-          title: "Cookie Run Character Generator",
-          href: "/docs/generators/cookie-run-character-generator",
-          items: [],
-        },{
-          title: "JoJo Stand Generator",
-          href: "/docs/generators/jojo-stand-generator",
-          items: [],
-        },{
-          title: "OTP Prompt Generator",
-          href: "/docs/generators/otp-prompt-generator",
-          items: [],
-        },{
-          title: "Random Minecraft Block Generator",
-          href: "/docs/generators/random-minecraft-block-generator",
-          items: [],
-        },{
-          title: "Random Theme Generator",
-          href: "/docs/generators/random-theme-generator",
-          items: [],
-        },{
-          title: "SQL Code Generator",
-          href: "/docs/generators/sql-code-generator",
-          items: [],
-        },{
-          title: "Random Pokemon Type Generator",
-          href: "/docs/generators/random-pokemon-type-generator",
-          items: [],
-        },{
-          title: "Fake Instagram Post Generator",
-          href: "/docs/generators/fake-instagram-post-generator",
-          items: [],
-        },{
-          title: "Random Aesthetic Generator",
-          href: "/docs/generators/random-aesthetic-generator",
-          items: [],
-        },{
-          title: "Random Environment Generator",
-          href: "/docs/generators/random-environment-generator",
-          items: [],
-        },{
-          title: "Random Scene Generator",
-          href: "/docs/generators/random-scene-generator",
-          items: [],
-        },{
-          title: "XBOX GamerTag Generator",
-          href: "/docs/generators/xbox-gamertag-generator",
-          items: [],
-        },{
-          title: "Elf Name Generator",
-          href: "/docs/generators/elf-name-generator",
-          items: [],
-        },{
-          title: "Twitalics Twitter Italics Generator",
-          href: "/docs/generators/twitalics-twitter-italics-generator",
-          items: [],
-        },{
-          title: "XBOX Name Generator",
-          href: "/docs/generators/xbox-name-generator",
-          items: [],
-        },{
-          title: "Warrior Cat Name Generator",
-          href: "/docs/generators/warrior-cat-name-generator",
-          items: [],
-        },{
-          title: "Fake Tweet Generator",
-          href: "/docs/generators/fake-tweet-generator",
-          items: [],
-        },{
-          title: "Random Topic Generator",
-          href: "/docs/generators/random-topic-generator",
-          items: [],
-        },{
-          title: "Pictionary Word Generator",
-          href: "/docs/generators/pictionary-word-generator",
-          items: [],
-        },{
-          title: "Random Things to Draw Generator",
-          href: "/docs/generators/random-things-to-draw-generator",
-          items: [],
-        },{
-          title: "Random Nationality Generator",
-          href: "/docs/generators/random-nationality-generator",
-          items: [],
-        },{
-          title: "Random Ethnicity Generator",
-          href: "/docs/generators/random-ethnicity-generator",
-          items: [],
-        },{
-          title: "Random Pet Generator",
-          href: "/docs/generators/random-pet-generator",
-          items: [],
-        },{
-          title: "Billing Postal Code Generator",
-          href: "/docs/generators/billing-postal-code-generator",
-          items: [],
-        },{
-          title: "Random Male Name Generator",
-          href: "/docs/generators/random-male-name-generator",
-          items: [],
-        },{
-          title: "Random Boy Name Generator",
-          href: "/docs/generators/random-boy-name-generator",
-          items: [],
-        },{
-          title: "Random Things Generator",
-          href: "/docs/generators/random-things-generator",
-          items: [],
-        },{
-          title: "Random NHL Team Generator",
-          href: "/docs/generators/random-nhl-team-generator",
-          items: [],
-        },{
-          title: "Random Zip Code",
-          href: "/docs/generators/random-zip-code",
-          items: [],
-        },{
-          title: "Random Team Generator",
-          href: "/docs/generators/random-team-generator",
-          items: [],
-        },{
-          title: "Random Billing Address",
-          href: "/docs/generators/random-billing-address",
-          items: [],
-        },{
-          title: "Random House Address",
-          href: "/docs/generators/random-house-address",
-          items: [],
-        },{
-          title: "Random Street Address",
-          href: "/docs/generators/random-street-address",
-          items: [],
-        },{
-          title: "Random Address Generator",
-          href: "/docs/generators/random-address-generator",
-          items: [],
-        },{
-          title: "Incorrect Quotes Generator",
-          href: "/docs/generators/incorrect-quotes-generator",
-          items: [],
-        },{
-          title: "Random Flag Generator",
-          href: "/docs/generators/random-flag-generator",
-          items: [],
-        },{
-          title: "Random Country Generator",
-          href: "/docs/generators/random-country-generator",
-          items: [],
-        },{
-          title: "Random US Area Codes",
-          href: "/docs/generators/random-us-area-codes",
-          items: [],
-        },{
-          title: "Random Phone Number",
-          href: "/docs/generators/random-phone-number",
-          items: [],
-        },{
-          title: "React Formatter",
-          href: "/docs/generators/react-formatter",
-          items: [],
-        },{
-          title: "JSON Fixer",
-          href: "/docs/generators/json-fixer",
-          items: [],
-        },{
-          title: "JSON Navigator",
-          href: "/docs/generators/json-navigator",
-          items: [],
-        },{
-          title: "Random Emoji Generator",
-          href: "/docs/generators/random-emoji-generator",
-          items: [],
-        },{
-          title: "Favicon Generator",
-          href: "/docs/generators/favicon-generator",
-          items: [],
-        },{
-          title: "CIDR Calculator",
-          href: "/docs/generators/cidr-calculator",
-          items: [],
-        },{
-          title: "Marquee Generator",
-          href: "/docs/generators/marquee-generator",
-          items: [],
-        },{
-          title: "Meta Tag Generator",
-          href: "/docs/generators/meta-tag-generator",
-          items: [],
-        },{
-          title: "Screenshot Beautifier",
-          href: "/docs/generators/screenshot-beautifier",
-          items: [],
-        },{
-          title: "Tweet Ideas",
-          href: "/docs/generators/tweet-ideas",
-          items: [],
-        },{
-          title: "Number To WhatsApp",
-          href: "/docs/generators/number-to-whatsapp",
-          items: [],
-        },{
-          title: "Twitter Header Generator",
-          href: "/docs/generators/twitter-header-generator",
-          items: [],
-        },{
-          title: "Twitter Image Downloader",
-          href: "/docs/generators/twitter-image-downloader",
-          items: [],
-        },{
-          title: "Random MLB Team Generator",
-          href: "/docs/generators/random-mlb-team-generator",
-          items: [],
-        },{
-          title: "Random NBA Team Generator",
-          href: "/docs/generators/random-nba-team-generator",
-          items: [],
-        },{
-          title: "Random NCAA Football Team",
-          href: "/docs/generators/random-ncaa-football-team",
-          items: [],
-        },{
-          title: "Random NCAA Basketball Team",
-          href: "/docs/generators/random-ncaa-basketball-team",
-          items: [],
-        },{
-          title: "Random IPL Team Generator",
-          href: "/docs/generators/random-ipl-team-generator",
-          items: [],
-        },{
-          title: "Random NFL Team Generator",
-          href: "/docs/generators/random-nfl-team-generator",
-          items: [],
-        },{
-          title: "Random Object Generator",
-          href: "/docs/generators/random-object-generator",
-          items: [],
-        },{
-          title: "Random Animal Generator",
-          href: "/docs/generators/random-animal-generator",
-          items: [],
-        },{
-          title: "Random Hobby Generator",
-          href: "/docs/generators/random-hobby-generator",
-          items: [],
-        },{
-          title: "Code to Image Converter",
-          href: "/docs/generators/code-to-image-converter",
-          items: [],
-        },{
-          title: "Multiple URL Opener",
-          href: "/docs/generators/multiple-url-opener",
-          items: [],
-        },{
-          title: "Tweet Beautifier",
-          href: "/docs/generators/tweet-beautifier",
-          items: [],
-        },{
-          title: "GIF Viewer",
-          href: "/docs/generators/gif-viewer",
-          items: [],
-        },{
-          title: "GIF Splitter",
-          href: "/docs/generators/gif-splitter",
-          items: [],
-        },{
-          title: "Share Code Snippets",
-          href: "/docs/generators/share-code-snippets",
-          items: [],
-        },{
-          title: "Convert Text to Handwriting",
-          href: "/docs/generators/convert-text-to-handwriting",
-          items: [],
-        },{
-          title: "Image Beautifier",
-          href: "/docs/generators/image-beautifier",
-          items: [],
-        },{
-          title: "SVG to Base64",
-          href: "/docs/generators/svg-to-base64",
-          items: [],
-        },{
-          title: "Turbo Search",
-          href: "/docs/generators/turbo-search",
-          items: [],
-        },{
-          title: "Text Cleaner",
-          href: "/docs/generators/text-cleaner",
-          items: [],
-        },{
-          title: "JSON Cleaner",
-          href: "/docs/generators/json-cleaner",
-          items: [],
-        },{
-          title: "JSON to Typescript Code",
-          href: "/docs/generators/json-to-typescript-code",
-          items: [],
-        },{
-          title: "Online Vibration Simulator",
-          href: "/docs/generators/online-vibration-simulator",
-          items: [],
-        },{
-          title: "JSON to PHP Array Converter",
-          href: "/docs/generators/json-to-php-array-converter",
-          items: [],
-        },{
-          title: "IELTS to CLB",
-          href: "/docs/generators/ielts-to-clb",
-          items: [],
-        },{
-          title: "Hyperlink Generator",
-          href: "/docs/generators/hyperlink-generator",
-          items: [],
-        },{
-          title: "REM to PX Converter",
-          href: "/docs/generators/rem-to-px-converter",
-          items: [],
-        },{
-          title: "Facebook Bold Text",
-          href: "/docs/generators/facebook-bold-text",
-          items: [],
-        },{
-          title: "What is My Zodiac Sign",
-          href: "/docs/generators/what-is-my-zodiac-sign",
-          items: [],
-        },{
-          title: "Checksum Calculator",
-          href: "/docs/generators/checksum-calculator",
-          items: [],
-        },{
-          title: "SOAP Formatter",
-          href: "/docs/generators/soap-formatter",
-          items: [],
-        },{
-          title: "WSDL Formatter",
-          href: "/docs/generators/wsdl-formatter",
-          items: [],
-        },{
-          title: "Javascript Pretty Print",
-          href: "/docs/generators/javascript-pretty-print",
-          items: [],
-        },{
-          title: "Visualize JSON Data Graph",
-          href: "/docs/generators/visualize-json-data-graph",
-          items: [],
-        },{
-          title: "Morse Code Translator",
-          href: "/docs/generators/morse-code-translator",
-          items: [],
-        },{
-          title: "Alphabetical Order",
-          href: "/docs/generators/alphabetical-order",
-          items: [],
-        },{
-          title: "Random AlphaNumeric Generator",
-          href: "/docs/generators/random-alphanumeric-generator",
-          items: [],
-        },{
-          title: "Hex to UTF8",
-          href: "/docs/generators/hex-to-utf8",
-          items: [],
-        },{
-          title: "Byte to String",
-          href: "/docs/generators/byte-to-string",
-          items: [],
-        },{
-          title: "UTF8 to ASCII",
-          href: "/docs/generators/utf8-to-ascii",
-          items: [],
-        },{
-          title: "Curl to PHP",
-          href: "/docs/generators/curl-to-php",
-          items: [],
-        },{
-          title: "Phone Number to IP",
-          href: "/docs/generators/phone-number-to-ip",
-          items: [],
-        },{
-          title: "Yaml Parser",
-          href: "/docs/generators/yaml-parser",
-          items: [],
-        },{
-          title: "XML Converter",
-          href: "/docs/generators/xml-converter",
-          items: [],
-        },{
-          title: "Gzip Decompress",
-          href: "/docs/generators/gzip-decompress",
-          items: [],
-        },{
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-        },{
-          title: "HTML Link Generator",
-          href: "/docs/generators/html-link-generator",
-          items: [],
-        },{
-          title: "MP3 to Base64",
-          href: "/docs/generators/mp3-to-base64",
-          items: [],
-        },{
-          title: "Base64 to Text",
-          href: "/docs/generators/base64-to-text",
-          items: [],
-        },{
-          title: "Base64 to Ascii",
-          href: "/docs/generators/base64-to-ascii",
-          items: [],
-        },{
-          title: "STYLUS Compiler",
-          href: "/docs/generators/stylus-compiler",
-          items: [],
-        },{
-          title: "JavaScript Obfuscator",
-          href: "/docs/generators/javascript-obfuscator",
-          items: [],
-        },{
-          title: "String to JSON Online",
-          href: "/docs/generators/string-to-json-online",
-          items: [],
-        },{
-          title: "YAML Pretty Print",
-          href: "/docs/generators/yaml-pretty-print",
-          items: [],
-        },{
-          title: "YouTube Thumbnail Grabber",
-          href: "/docs/generators/youtube-thumbnail-grabber",
-          items: [],
-        },{
-          title: "Trending Tools",
-          href: "/docs/generators/trending-tools",
-          items: [],
-        },{
-          title: "Bitwise Calculator",
-          href: "/docs/generators/bitwise-calculator",
-          items: [],
-        },{
-          title: "Number Sorter",
-          href: "/docs/generators/number-sorter",
-          items: [],
-        },{
-          title: "Remove Punctuation",
-          href: "/docs/generators/remove-punctuation",
-          items: [],
-        },{
-          title: "HTML Stripper",
-          href: "/docs/generators/html-stripper",
-          items: [],
-        },{
-          title: "Real Time HTML Editor",
-          href: "/docs/generators/real-time-html-editor",
-          items: [],
-        },{
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
-          items: [],
-        },{
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
-          items: [],
-        },{
-          title: "Wordpress Password Hash",
-          href: "/docs/generators/wordpress-password-hash",
-          items: [],
-        },{
-          title: "Mirror Online",
-          href: "/docs/generators/mirror-online",
-          items: [],
-        },{
-          title: "PHP Formatter",
-          href: "/docs/generators/php-formatter",
-          items: [],
-        },{
-          title: "Image to ASCII Art",
-          href: "/docs/generators/image-to-ascii-art",
-          items: [],
-        },{
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
-          items: [],
-        },{
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
-          items: [],
-        },{
-          title: "Excel Viewer",
-          href: "/docs/generators/excel-viewer",
-          items: [],
-        },{
-          title: "Paraphrasing tool",
-          href: "/docs/generators/paraphrasing-tool",
-          items: [],
-        },{
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
-          items: [],
-        },{
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
-          items: [],
-        },{
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
-          items: [],
-        },{
-          title: "Developer Tools",
-          href: "/docs/generators/developer-tools",
-          items: [],
-        },{
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
-          items: [],
-        },{
-          title: "Formatters",
-          href: "/docs/generators/formatters",
-          items: [],
-        },{
-          title: "Image Converter Tools",
-          href: "/docs/generators/image-converter-tools",
-          items: [],
-        },{
-          title: "Finance Tools",
-          href: "/docs/generators/finance-tools",
-          items: [],
-        },{
-          title: "TSV Tools",
-          href: "/docs/generators/tsv-tools",
-          items: [],
-        },{
-          title: "JSON Tools",
-          href: "/docs/generators/json-tools",
-          items: [],
-        },{
-          title: "XML Tools",
-          href: "/docs/generators/xml-tools",
-          items: [],
-        },{
-          title: "YAML Tools",
-          href: "/docs/generators/yaml-tools",
-          items: [],
-        },{
-          title: "HTML Tools",
-          href: "/docs/generators/html-tools",
-          items: [],
-        },{
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-        },{
-          title: "Javascript Tools",
-          href: "/docs/generators/javascript-tools",
-          items: [],
-        },{
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
-          items: [],
-        },{
-          title: "SQL Tools",
-          href: "/docs/generators/sql-tools",
-          items: [],
-        },{
-          title: "Color Tools",
-          href: "/docs/generators/color-tools",
-          items: [],
-        },{
-          title: "Unit Tools",
-          href: "/docs/generators/unit-tools",
-          items: [],
-        },{
-          title: "Number Tools",
-          href: "/docs/generators/number-tools",
-          items: [],
-        },{
-          title: "String Tools",
-          href: "/docs/generators/string-tools",
-          items: [],
-        },{
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-        },{
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-        },{
-          title: "Minifiers",
-          href: "/docs/generators/minifiers",
-          items: [],
-        },{
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-        },{
-          title: "Cryptography",
-          href: "/docs/generators/cryptography",
-          items: [],
-        },{
-          title: "Escape Unescape Tools",
-          href: "/docs/generators/escape-unescape-tools",
-          items: [],
-        },{
-          title: "UTF Tools",
-          href: "/docs/generators/utf-tools",
-          items: [],
-        },{
-          title: "Compress Decompress",
-          href: "/docs/generators/compress-decompress",
-          items: [],
-        },{
-          title: "HTML Generators",
-          href: "/docs/generators/html-generators",
-          items: [],
-        },{
-          title: "CSS Generators",
-          href: "/docs/generators/css-generators",
-          items: [],
-        },{
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-        },{
-          title: "Text Style Tools",
-          href: "/docs/generators/text-style-tools",
-          items: [],
-        },{
-          title: "CSS Unit Converter Tools",
-          href: "/docs/generators/css-unit-converter-tools",
-          items: [],
-        },{
-          title: "POJO Tools",
-          href: "/docs/generators/pojo-tools",
-          items: [],
-        },{
-          title: "Twitter Tools",
-          href: "/docs/generators/twitter-tools",
-          items: [],
-        },{
-          title: "Random Generators",
-          href: "/docs/generators/random-generators",
-          items: [],
-        },{
-          title: "Generators",
-          href: "/docs/generators/generators",
-          items: [],
-        },{
-          title: "CSS",
-          href: "/docs/generators/css",
-          items: [],
-        },{
-          title: "ANIMATION",
-          href: "/docs/generators/animation",
-          items: [],
-        },{
-          title: "Keyframe Animation",
-          href: "/docs/generators/keyframe-animation",
-          items: [],
-        },{
-          title: "BACKGROUND",
-          href: "/docs/generators/background",
-          items: [],
-        },{
-          title: "Background Color",
-          href: "/docs/generators/background-color",
-          items: [],
-        },{
-          title: "Background Gradient",
-          href: "/docs/generators/background-gradient",
-          items: [],
-        },{
-          title: "Background Image",
-          href: "/docs/generators/background-image",
-          items: [],
-        },{
-          title: "BOX",
-          href: "/docs/generators/box",
-          items: [],
-        },{
-          title: "Border",
-          href: "/docs/generators/border",
-          items: [],
-        },{
-          title: "Border Image",
-          href: "/docs/generators/border-image",
-          items: [],
-        },{
-          title: "Border Radius",
-          href: "/docs/generators/border-radius",
-          items: [],
-        },{
-          title: "Box Resize",
-          href: "/docs/generators/box-resize",
-          items: [],
-        },{
-          title: "Box Shadow",
-          href: "/docs/generators/box-shadow",
-          items: [],
-        },{
-          title: "Opacity",
-          href: "/docs/generators/opacity",
-          items: [],
-        },{
-          title: "Outline",
-          href: "/docs/generators/outline",
-          items: [],
-        },{
-          title: "Overflow",
-          href: "/docs/generators/overflow",
-          items: [],
-        },{
-          title: "COLOR",
-          href: "/docs/generators/color",
-          items: [],
-        },{
-          title: "Text Color",
-          href: "/docs/generators/text-color",
-          items: [],
-        },{
-          title: "FILTER",
-          href: "/docs/generators/filter",
-          items: [],
-        },{
-          title: "Blur",
-          href: "/docs/generators/blur",
-          items: [],
-        },{
-          title: "Brightness",
-          href: "/docs/generators/brightness",
-          items: [],
-        },{
-          title: "Contrast",
-          href: "/docs/generators/contrast",
-          items: [],
-        },{
-          title: "Drop Shadow",
-          href: "/docs/generators/drop-shadow",
-          items: [],
-        },{
-          title: "Grayscale",
-          href: "/docs/generators/grayscale",
-          items: [],
-        },{
-          title: "Hue-Rotate",
-          href: "/docs/generators/hue-rotate",
-          items: [],
-        },{
-          title: "Invert",
-          href: "/docs/generators/invert",
-          items: [],
-        },{
-          title: "Saturate",
-          href: "/docs/generators/saturate",
-          items: [],
-        },{
-          title: "Sepia",
-          href: "/docs/generators/sepia",
-          items: [],
-        },{
-          title: "LAYOUT",
-          href: "/docs/generators/layout",
-          items: [],
-        },{
-          title: "Columns",
-          href: "/docs/generators/columns",
-          items: [],
-        },{
-          title: "Display",
-          href: "/docs/generators/display",
-          items: [],
-        },{
-          title: "Visibility",
-          href: "/docs/generators/visibility",
-          items: [],
-        },{
-          title: "LIST",
-          href: "/docs/generators/list",
-          items: [],
-        },{
-          title: "List Style",
-          href: "/docs/generators/list-style",
-          items: [],
-        },{
-          title: "MISCELLANEOUS",
-          href: "/docs/generators/miscellaneous",
-          items: [],
-        },{
-          title: "Cursor",
-          href: "/docs/generators/cursor",
-          items: [],
-        },{
-          title: "TEXT",
-          href: "/docs/generators/text",
-          items: [],
-        },{
-          title: "Letter Spacing",
-          href: "/docs/generators/letter-spacing",
-          items: [],
-        },{
-          title: "Line Height",
-          href: "/docs/generators/line-height",
-          items: [],
-        },{
-          title: "Overflow Wrap",
-          href: "/docs/generators/overflow-wrap",
-          items: [],
-        },{
-          title: "Tab Size",
-          href: "/docs/generators/tab-size",
-          items: [],
-        },{
-          title: "Text Align",
-          href: "/docs/generators/text-align",
-          items: [],
-        },{
-          title: "Text Decoration",
-          href: "/docs/generators/text-decoration",
-          items: [],
-        },{
-          title: "Text Indent",
-          href: "/docs/generators/text-indent",
-          items: [],
-        },{
-          title: "Text Shadow",
-          href: "/docs/generators/text-shadow",
-          items: [],
-        },{
-          title: "Text Transform",
-          href: "/docs/generators/text-transform",
-          items: [],
-        },{
-          title: "White Space",
-          href: "/docs/generators/white-space",
-          items: [],
-        },{
-          title: "Word Break",
-          href: "/docs/generators/word-break",
-          items: [],
-        },{
-          title: "Word Spacing",
-          href: "/docs/generators/word-spacing",
-          items: [],
-        },{
-          title: "TRANSFORM",
-          href: "/docs/generators/transform",
-          items: [],
-        },{
-          title: "Perspective",
-          href: "/docs/generators/perspective",
-          items: [],
-        },{
-          title: "Rotate",
-          href: "/docs/generators/rotate",
-          items: [],
-        },{
-          title: "Scale",
-          href: "/docs/generators/scale",
-          items: [],
-        },{
-          title: "Skew",
-          href: "/docs/generators/skew",
-          items: [],
-        },{
-          title: "Translate",
-          href: "/docs/generators/translate",
-          items: [],
-        },{
-          title: "TRANSITION",
-          href: "/docs/generators/transition",
-          items: [],
-        },{
-          title: "Transition",
-          href: "/docs/generators/transition",
-          items: [],
-        },{
-          title: "HTML",
-          href: "/docs/generators/html",
-          items: [],
-        },{
-          title: "INPUT",
-          href: "/docs/generators/input",
-          items: [],
-        },{
-          title: "Button",
-          href: "/docs/generators/button",
-          items: [],
-        },{
-          title: "Checkbox",
-          href: "/docs/generators/checkbox",
-          items: [],
-        },{
-          title: "Color Input",
-          href: "/docs/generators/color-input",
-          items: [],
-        },{
-          title: "Date",
-          href: "/docs/generators/date",
-          items: [],
-        },{
-          title: "Email Input",
-          href: "/docs/generators/email-input",
-          items: [],
-        },{
-          title: "File Input",
-          href: "/docs/generators/file-input",
-          items: [],
-        },{
-          title: "Image Button",
-          href: "/docs/generators/image-button",
-          items: [],
-        },{
-          title: "Number Input",
-          href: "/docs/generators/number-input",
-          items: [],
-        },{
-          title: "Password Input",
-          href: "/docs/generators/password-input",
-          items: [],
-        },{
-          title: "Range Input",
-          href: "/docs/generators/range-input",
-          items: [],
-        },{
-          title: "Search Input",
-          href: "/docs/generators/search-input",
-          items: [],
-        },{
-          title: "Submit",
-          href: "/docs/generators/submit",
-          items: [],
-        },{
-          title: "Telephone Input",
-          href: "/docs/generators/telephone-input",
-          items: [],
-        },{
-          title: "Text Input",
-          href: "/docs/generators/text-input",
-          items: [],
-        },{
-          title: "Textarea",
-          href: "/docs/generators/textarea",
-          items: [],
-        },{
-          title: "URL Input",
-          href: "/docs/generators/url-input",
-          items: [],
-        },{
-          title: "MEDIA",
-          href: "/docs/generators/media",
-          items: [],
-        },{
-          title: "Audio",
-          href: "/docs/generators/audio",
-          items: [],
-        },{
-          title: "Image",
-          href: "/docs/generators/image",
-          items: [],
-        },{
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-        },{
-          title: "TEXT",
-          href: "/docs/generators/text",
-          items: [],
-        },{
-          title: "Bi-directional Override",
-          href: "/docs/generators/bi-directional-override",
-          items: [],
-        },{
-          title: "Bold",
-          href: "/docs/generators/bold",
-          items: [],
-        },{
-          title: "Cite",
-          href: "/docs/generators/cite",
-          items: [],
-        },{
-          title: "Code",
-          href: "/docs/generators/code",
-          items: [],
-        },{
-          title: "Italic",
-          href: "/docs/generators/italic",
-          items: [],
-        },{
-          title: "Highlight",
-          href: "/docs/generators/highlight",
-          items: [],
-        },{
-          title: "Quote",
-          href: "/docs/generators/quote",
-          items: [],
-        },{
-          title: "Strikethrough",
-          href: "/docs/generators/strikethrough",
-          items: [],
-        },{
-          title: "Superscript",
-          href: "/docs/generators/superscript",
-          items: [],
-        },{
-          title: "Underline",
-          href: "/docs/generators/underline",
-          items: [],
-        },{
-          title: "OTHER",
-          href: "/docs/generators/other",
-          items: [],
-        },{
-          title: "Details",
-          href: "/docs/generators/details",
-          items: [],
-        },{
-          title: "Dialog",
-          href: "/docs/generators/dialog",
-          items: [],
-        },{
-          title: "Hyperlink",
-          href: "/docs/generators/hyperlink",
-          items: [],
-        },{
-          title: "iFrame",
-          href: "/docs/generators/iframe",
-          items: [],
-        },{
-          title: "Meter",
-          href: "/docs/generators/meter",
-          items: [],
-        },{
-          title: "Progress",
-          href: "/docs/generators/progress",
-          items: [],
-        },{
-          title: "Meta Tags",
-          href: "/docs/generators/meta-tags",
-          items: [],
-        },{
-          title: "Structured Data",
-          href: "/docs/generators/structured-data",
-          items: [],
-        },{
-          title: "Article",
-          href: "/docs/generators/article",
-          items: [],
-        },{
-          title: "Breadcrumb",
-          href: "/docs/generators/breadcrumb",
-          items: [],
-        },{
-          title: "Event",
-          href: "/docs/generators/event",
-          items: [],
-        },{
-          title: "FAQ",
-          href: "/docs/generators/faq",
-          items: [],
-        },{
-          title: "How-to",
-          href: "/docs/generators/how-to",
-          items: [],
-        },{
-          title: "Job Posting",
-          href: "/docs/generators/job-posting",
-          items: [],
-        },{
-          title: "Local Business",
-          href: "/docs/generators/local-business",
-          items: [],
-        },{
-          title: "Organization",
-          href: "/docs/generators/organization",
-          items: [],
-        },{
-          title: "Person",
-          href: "/docs/generators/person",
-          items: [],
-        },{
-          title: "Product",
-          href: "/docs/generators/product",
-          items: [],
-        },{
-          title: "Recipe",
-          href: "/docs/generators/recipe",
-          items: [],
-        },{
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-        },{
-          title: "Website",
-          href: "/docs/generators/website",
-          items: [],
-        },{
-          title: "open Graph",
-          href: "/docs/generators/open-graph",
-          items: [],
-        },{
-          title: "Article",
-          href: "/docs/generators/article",
-          items: [],
-        },{
-          title: "Book",
-          href: "/docs/generators/book",
-          items: [],
-        },{
-          title: "Business",
-          href: "/docs/generators/business",
-          items: [],
-        },{
-          title: "Music Album",
-          href: "/docs/generators/music-album",
-          items: [],
-        },{
-          title: "Music Playlist",
-          href: "/docs/generators/music-playlist",
-          items: [],
-        },{
-          title: "Music Radio Station",
-          href: "/docs/generators/music-radio-station",
-          items: [],
-        },{
-          title: "Music Song",
-          href: "/docs/generators/music-song",
-          items: [],
-        },{
-          title: "Product",
-          href: "/docs/generators/product",
-          items: [],
-        },{
-          title: "Profile",
-          href: "/docs/generators/profile",
-          items: [],
-        },{
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-        },{
-          title: "Video Episode",
-          href: "/docs/generators/video-episode",
-          items: [],
-        },{
-          title: "Video Movie",
-          href: "/docs/generators/video-movie",
-          items: [],
-        },{
-          title: "Video TV Show",
-          href: "/docs/generators/video-tv-show",
-          items: [],
-        },{
-          title: "Website",
-          href: "/docs/generators/website",
-          items: [],
-        },{
-          title: "Twitter Card",
-          href: "/docs/generators/twitter-card",
-          items: [],
-        },{
-          title: "App",
-          href: "/docs/generators/app",
-          items: [],
-        },{
-          title: "Player",
-          href: "/docs/generators/player",
-          items: [],
-        },{
-          title: "Summary",
-          href: "/docs/generators/summary",
-          items: [],
-        },{
-          title: "Summary with Large Image",
-          href: "/docs/generators/summary-with-large-image",
-          items: [],
-        },{
-          title: "Robots.txt",
-          href: "/docs/generators/robots.txt",
-          items: [],
-        },{
-          title: "Code Converter",
-          href: "/docs/generators/code-converter",
-          items: [],
-        },{
-          title: "SVG",
-          href: "/docs/generators/svg",
-          items: [],
-        },{
-          title: "to JSX",
-          href: "/docs/generators/to-jsx",
-          items: [],
-        },{
-          title: "to React Native",
-          href: "/docs/generators/to-react-native",
-          items: [],
-        },{
-          title: "HTML",
-          href: "/docs/generators/html",
-          items: [],
-        },{
-          title: "to JSX",
-          href: "/docs/generators/to-jsx",
-          items: [],
-        },{
-          title: "to Pug",
-          href: "/docs/generators/to-pug",
-          items: [],
-        },{
-          title: "JSON",
-          href: "/docs/generators/json",
-          items: [],
-        },{
-          title: "to Big Query Schema",
-          href: "/docs/generators/to-big-query-schema",
-          items: [],
-        },{
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-        },{
-          title: "to Go Bson",
-          href: "/docs/generators/to-go-bson",
-          items: [],
-        },{
-          title: "to Go Struct",
-          href: "/docs/generators/to-go-struct",
-          items: [],
-        },{
-          title: "to GraphQL",
-          href: "/docs/generators/to-graphql",
-          items: [],
-        },{
-          title: "to io-ts",
-          href: "/docs/generators/to-io-ts",
-          items: [],
-        },{
-          title: "to Java",
-          href: "/docs/generators/to-java",
-          items: [],
-        },{
-          title: "to JSDoc",
-          href: "/docs/generators/to-jsdoc",
-          items: [],
-        },{
-          title: "to JSON Schema",
-          href: "/docs/generators/to-json-schema",
-          items: [],
-        },{
-          title: "to Kotlin",
-          href: "/docs/generators/to-kotlin",
-          items: [],
-        },{
-          title: "to MobX-State-Tree Model",
-          href: "/docs/generators/to-mobx-state-tree-model",
-          items: [],
-        },{
-          title: "to Mongoose Schema",
-          href: "/docs/generators/to-mongoose-schema",
-          items: [],
-        },{
-          title: "to MySQL",
-          href: "/docs/generators/to-mysql",
-          items: [],
-        },{
-          title: "to React PropTypes",
-          href: "/docs/generators/to-react-proptypes",
-          items: [],
-        },{
-          title: "to Rust Serde",
-          href: "/docs/generators/to-rust-serde",
-          items: [],
-        },{
-          title: "to Sarcastic",
-          href: "/docs/generators/to-sarcastic",
-          items: [],
-        },{
-          title: "to Scala Case Class",
-          href: "/docs/generators/to-scala-case-class",
-          items: [],
-        },{
-          title: "to TOML",
-          href: "/docs/generators/to-toml",
-          items: [],
-        },{
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-        },{
-          title: "to YAML",
-          href: "/docs/generators/to-yaml",
-          items: [],
-        },{
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-        },{
-          title: "JSON Schema",
-          href: "/docs/generators/json-schema",
-          items: [],
-        },{
-          title: "to OpenAPI Schema",
-          href: "/docs/generators/to-openapi-schema",
-          items: [],
-        },{
-          title: "to Protobuf",
-          href: "/docs/generators/to-protobuf",
-          items: [],
-        },{
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-        },{
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-        },{
-          title: "CSS",
-          href: "/docs/generators/css",
-          items: [],
-        },{
-          title: "to JS Objects",
-          href: "/docs/generators/to-js-objects",
-          items: [],
-        },{
-          title: "to TailwindCSS",
-          href: "/docs/generators/to-tailwindcss",
-          items: [],
-        },{
-          title: "to template literal",
-          href: "/docs/generators/to-template-literal",
-          items: [],
-        },{
-          title: "JavaScript",
-          href: "/docs/generators/javascript",
-          items: [],
-        },{
-          title: "to JSON",
-          href: "/docs/generators/to-json",
-          items: [],
-        },{
-          title: "GraphQL",
-          href: "/docs/generators/graphql",
-          items: [],
-        },{
-          title: "to Components",
-          href: "/docs/generators/to-components",
-          items: [],
-        },{
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-        },{
-          title: "to Fragment Matcher",
-          href: "/docs/generators/to-fragment-matcher",
-          items: [],
-        },{
-          title: "to Introspection JSON",
-          href: "/docs/generators/to-introspection-json",
-          items: [],
-        },{
-          title: "to JAVA",
-          href: "/docs/generators/to-java",
-          items: [],
-        },{
-          title: "to Resolvers Signature",
-          href: "/docs/generators/to-resolvers-signature",
-          items: [],
-        },{
-          title: "to Schema AST",
-          href: "/docs/generators/to-schema-ast",
-          items: [],
-        },{
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-        },{
-          title: "to TypeScript MongoDB",
-          href: "/docs/generators/to-typescript-mongodb",
-          items: [],
-        },{
-          title: "JSON-LD",
-          href: "/docs/generators/json-ld",
-          items: [],
-        },{
-          title: "to Compacted",
-          href: "/docs/generators/to-compacted",
-          items: [],
-        },{
-          title: "to Expanded",
-          href: "/docs/generators/to-expanded",
-          items: [],
-        },{
-          title: "to Flattened",
-          href: "/docs/generators/to-flattened",
-          items: [],
-        },{
-          title: "to Framed",
-          href: "/docs/generators/to-framed",
-          items: [],
-        },{
-          title: "to N-Quads",
-          href: "/docs/generators/to-n-quads",
-          items: [],
-        },{
-          title: "to Normalized",
-          href: "/docs/generators/to-normalized",
-          items: [],
-        },{
-          title: "TypeScript",
-          href: "/docs/generators/typescript",
-          items: [],
-        },{
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-        },{
-          title: "to JSON Schema",
-          href: "/docs/generators/to-json-schema",
-          items: [],
-        },{
-          title: "to plain JavaScript",
-          href: "/docs/generators/to-plain-javascript",
-          items: [],
-        },{
-          title: "to TypeScript Declaration",
-          href: "/docs/generators/to-typescript-declaration",
-          items: [],
-        },{
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-        },{
-          title: "Flow",
-          href: "/docs/generators/flow",
-          items: [],
-        },{
-          title: "to plain JavaScript",
-          href: "/docs/generators/to-plain-javascript",
-          items: [],
-        },{
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-        },{
-          title: "to TypeScript Declaration",
-          href: "/docs/generators/to-typescript-declaration",
-          items: [],
-        },{
-          title: "Others",
-          href: "/docs/generators/others",
-          items: [],
-        },{
-          title: "Cadence to Go",
-          href: "/docs/generators/cadence-to-go",
-          items: [],
-        },{
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-        },{
-          title: "TOML to JSON",
-          href: "/docs/generators/toml-to-json",
-          items: [],
-        },{
-          title: "TOML to YAML",
-          href: "/docs/generators/toml-to-yaml",
-          items: [],
-        },{
-          title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
-          items: [],
-        },{
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
-          items: [],
-        },{
-          title: "YAML to TOML",
-          href: "/docs/generators/yaml-to-toml",
-          items: [],
-        },{
-          title: "Css Generators",
-          href: "/docs/generators/css-generators",
-          items: [],
-        },{
-          title: "Animated Text Generator",
-          href: "/docs/generators/animated-text-generator",
-          items: [],
-        },{
-          title: "Border Radius Generator",
-          href: "/docs/generators/border-radius-generator",
-          items: [],
-        },{
-          title: "Box Shadow Generator",
-          href: "/docs/generators/box-shadow-generator",
-          items: [],
-        },{
-          title: "Button Generator",
-          href: "/docs/generators/button-generator",
-          items: [],
-        },{
-          title: "Clip Path Generator",
-          href: "/docs/generators/clip-path-generator",
-          items: [],
-        },{
-          title: "Column Generator",
-          href: "/docs/generators/column-generator",
-          items: [],
-        },{
-          title: "Cubic Bezier Generator",
-          href: "/docs/generators/cubic-bezier-generator",
-          items: [],
-        },{
-          title: "Flip Swith Generator",
-          href: "/docs/generators/flip-swith-generator",
-          items: [],
-        },{
-          title: "Flexbox Generator",
-          href: "/docs/generators/flexbox-generator",
-          items: [],
-        },{
-          title: "Glitch Text Effect",
-          href: "/docs/generators/glitch-text-effect",
-          items: [],
-        },{
-          title: "Google Fonts CSS",
-          href: "/docs/generators/google-fonts-css",
-          items: [],
-        },{
-          title: "Gradient Generator",
-          href: "/docs/generators/gradient-generator",
-          items: [],
-        },{
-          title: "Image Filter Generator",
-          href: "/docs/generators/image-filter-generator",
-          items: [],
-        },{
-          title: "Input Range Generator",
-          href: "/docs/generators/input-range-generator",
-          items: [],
-        },{
-          title: "Layout Generator",
-          href: "/docs/generators/layout-generator",
-          items: [],
-        },{
-          title: "Loader",
-          href: "/docs/generators/loader",
-          items: [],
-        },{
-          title: "Menu Generator",
-          href: "/docs/generators/menu-generator",
-          items: [],
-        },{
-          title: "RGBA Generator",
-          href: "/docs/generators/rgba-generator",
-          items: [],
-        },{
-          title: "Ribbon Generator",
-          href: "/docs/generators/ribbon-generator",
-          items: [],
-        },{
-          title: "Ribbon Banner Generator",
-          href: "/docs/generators/ribbon-banner-generator",
-          items: [],
-        },{
-          title: "Scrollbar Generator",
-          href: "/docs/generators/scrollbar-generator",
-          items: [],
-        },{
-          title: "Sprite Generator",
-          href: "/docs/generators/sprite-generator",
-          items: [],
-        },{
-          title: "Text Gradient Generator",
-          href: "/docs/generators/text-gradient-generator",
-          items: [],
-        },{
-          title: "Text Rotate Generator",
-          href: "/docs/generators/text-rotate-generator",
-          items: [],
-        },{
-          title: "Text Shadow Generator",
-          href: "/docs/generators/text-shadow-generator",
-          items: [],
-        },{
-          title: "Tooltip Generator",
-          href: "/docs/generators/tooltip-generator",
-          items: [],
-        },{
-          title: "Triangle Generator",
-          href: "/docs/generators/triangle-generator",
-          items: [],
-        },{
-          title: "3D Transform Generator",
-          href: "/docs/generators/3d-transform-generator",
-          items: [],
-        },{
-          title: "Css Properties",
-          href: "/docs/generators/css-properties",
-          items: [],
-        },{
-          title: "align-content",
-          href: "/docs/generators/align-content",
-          items: [],
-        },{
-          title: "align-items",
-          href: "/docs/generators/align-items",
-          items: [],
-        },{
-          title: "align-self",
-          href: "/docs/generators/align-self",
-          items: [],
-        },{
-          title: "all",
-          href: "/docs/generators/all",
-          items: [],
-        },{
-          title: "animation",
-          href: "/docs/generators/animation",
-          items: [],
-        },{
-          title: "animation-delay",
-          href: "/docs/generators/animation-delay",
-          items: [],
-        },{
-          title: "animation-direction",
-          href: "/docs/generators/animation-direction",
-          items: [],
-        },{
-          title: "animation-duration",
-          href: "/docs/generators/animation-duration",
-          items: [],
-        },{
-          title: "animation-fill-mode",
-          href: "/docs/generators/animation-fill-mode",
-          items: [],
-        },{
-          title: "animation-iteration-count",
-          href: "/docs/generators/animation-iteration-count",
-          items: [],
-        },{
-          title: "animation-name",
-          href: "/docs/generators/animation-name",
-          items: [],
-        },{
-          title: "animation-play-state",
-          href: "/docs/generators/animation-play-state",
-          items: [],
-        },{
-          title: "animation-timing-function",
-          href: "/docs/generators/animation-timing-function",
-          items: [],
-        },{
-          title: "backface-visibility",
-          href: "/docs/generators/backface-visibility",
-          items: [],
-        },{
-          title: "background",
-          href: "/docs/generators/background",
-          items: [],
-        },{
-          title: "background-attachment",
-          href: "/docs/generators/background-attachment",
-          items: [],
-        },{
-          title: "background-blend-mode",
-          href: "/docs/generators/background-blend-mode",
-          items: [],
-        },{
-          title: "background-clip",
-          href: "/docs/generators/background-clip",
-          items: [],
-        },{
-          title: "background-color",
-          href: "/docs/generators/background-color",
-          items: [],
-        },{
-          title: "background-image",
-          href: "/docs/generators/background-image",
-          items: [],
-        },{
-          title: "background-origin",
-          href: "/docs/generators/background-origin",
-          items: [],
-        },{
-          title: "background-position",
-          href: "/docs/generators/background-position",
-          items: [],
-        },{
-          title: "background-repeat",
-          href: "/docs/generators/background-repeat",
-          items: [],
-        },{
-          title: "background-size",
-          href: "/docs/generators/background-size",
-          items: [],
-        },{
-          title: "border",
-          href: "/docs/generators/border",
-          items: [],
-        },{
-          title: "border-bottom",
-          href: "/docs/generators/border-bottom",
-          items: [],
-        },{
-          title: "border-bottom-color",
-          href: "/docs/generators/border-bottom-color",
-          items: [],
-        },{
-          title: "border-bottom-left-radius",
-          href: "/docs/generators/border-bottom-left-radius",
-          items: [],
-        },{
-          title: "border-bottom-right-radius",
-          href: "/docs/generators/border-bottom-right-radius",
-          items: [],
-        },{
-          title: "border-bottom-style",
-          href: "/docs/generators/border-bottom-style",
-          items: [],
-        },{
-          title: "border-bottom-width",
-          href: "/docs/generators/border-bottom-width",
-          items: [],
-        },{
-          title: "border-collapse",
-          href: "/docs/generators/border-collapse",
-          items: [],
-        },{
-          title: "border-color",
-          href: "/docs/generators/border-color",
-          items: [],
-        },{
-          title: "border-image",
-          href: "/docs/generators/border-image",
-          items: [],
-        },{
-          title: "border-image-outset",
-          href: "/docs/generators/border-image-outset",
-          items: [],
-        },{
-          title: "border-image-repeat",
-          href: "/docs/generators/border-image-repeat",
-          items: [],
-        },{
-          title: "border-image-slice",
-          href: "/docs/generators/border-image-slice",
-          items: [],
-        },{
-          title: "border-image-source",
-          href: "/docs/generators/border-image-source",
-          items: [],
-        },{
-          title: "border-image-width",
-          href: "/docs/generators/border-image-width",
-          items: [],
-        },{
-          title: "border-left",
-          href: "/docs/generators/border-left",
-          items: [],
-        },{
-          title: "border-left-color",
-          href: "/docs/generators/border-left-color",
-          items: [],
-        },{
-          title: "border-left-style",
-          href: "/docs/generators/border-left-style",
-          items: [],
-        },{
-          title: "border-left-width",
-          href: "/docs/generators/border-left-width",
-          items: [],
-        },{
-          title: "border-radius",
-          href: "/docs/generators/border-radius",
-          items: [],
-        },{
-          title: "border-right",
-          href: "/docs/generators/border-right",
-          items: [],
-        },{
-          title: "border-right-color",
-          href: "/docs/generators/border-right-color",
-          items: [],
-        },{
-          title: "border-right-style",
-          href: "/docs/generators/border-right-style",
-          items: [],
-        },{
-          title: "border-right-width",
-          href: "/docs/generators/border-right-width",
-          items: [],
-        },{
-          title: "border-spacing",
-          href: "/docs/generators/border-spacing",
-          items: [],
-        },{
-          title: "border-style",
-          href: "/docs/generators/border-style",
-          items: [],
-        },{
-          title: "border-top",
-          href: "/docs/generators/border-top",
-          items: [],
-        },{
-          title: "border-top-color",
-          href: "/docs/generators/border-top-color",
-          items: [],
-        },{
-          title: "border-top-left-radius",
-          href: "/docs/generators/border-top-left-radius",
-          items: [],
-        },{
-          title: "border-top-right-radius",
-          href: "/docs/generators/border-top-right-radius",
-          items: [],
-        },{
-          title: "border-top-style",
-          href: "/docs/generators/border-top-style",
-          items: [],
-        },{
-          title: "border-top-width",
-          href: "/docs/generators/border-top-width",
-          items: [],
-        },{
-          title: "border-width",
-          href: "/docs/generators/border-width",
-          items: [],
-        },{
-          title: "bottom",
-          href: "/docs/generators/bottom",
-          items: [],
-        },{
-          title: "box-decoration-break",
-          href: "/docs/generators/box-decoration-break",
-          items: [],
-        },{
-          title: "box-shadow",
-          href: "/docs/generators/box-shadow",
-          items: [],
-        },{
-          title: "box-sizing",
-          href: "/docs/generators/box-sizing",
-          items: [],
-        },{
-          title: "break-after",
-          href: "/docs/generators/break-after",
-          items: [],
-        },{
-          title: "break-before",
-          href: "/docs/generators/break-before",
-          items: [],
-        },{
-          title: "break-inside",
-          href: "/docs/generators/break-inside",
-          items: [],
-        },{
-          title: "caption-side",
-          href: "/docs/generators/caption-side",
-          items: [],
-        },{
-          title: "caret-color",
-          href: "/docs/generators/caret-color",
-          items: [],
-        },{
-          title: "clear",
-          href: "/docs/generators/clear",
-          items: [],
-        },{
-          title: "clip-path",
-          href: "/docs/generators/clip-path",
-          items: [],
-        },{
-          title: "color",
-          href: "/docs/generators/color",
-          items: [],
-        },{
-          title: "column-count",
-          href: "/docs/generators/column-count",
-          items: [],
-        },{
-          title: "column-fill",
-          href: "/docs/generators/column-fill",
-          items: [],
-        },{
-          title: "column-rule",
-          href: "/docs/generators/column-rule",
-          items: [],
-        },{
-          title: "column-rule-color",
-          href: "/docs/generators/column-rule-color",
-          items: [],
-        },{
-          title: "column-rule-style",
-          href: "/docs/generators/column-rule-style",
-          items: [],
-        },{
-          title: "column-rule-width",
-          href: "/docs/generators/column-rule-width",
-          items: [],
-        },{
-          title: "column-span",
-          href: "/docs/generators/column-span",
-          items: [],
-        },{
-          title: "column-width",
-          href: "/docs/generators/column-width",
-          items: [],
-        },{
-          title: "columns",
-          href: "/docs/generators/columns",
-          items: [],
-        },{
-          title: "content",
-          href: "/docs/generators/content",
-          items: [],
-        },{
-          title: "counter-increment",
-          href: "/docs/generators/counter-increment",
-          items: [],
-        },{
-          title: "counter-reset",
-          href: "/docs/generators/counter-reset",
-          items: [],
-        },{
-          title: "counter-set",
-          href: "/docs/generators/counter-set",
-          items: [],
-        },{
-          title: "cursor",
-          href: "/docs/generators/cursor",
-          items: [],
-        },{
-          title: "direction",
-          href: "/docs/generators/direction",
-          items: [],
-        },{
-          title: "display",
-          href: "/docs/generators/display",
-          items: [],
-        },{
-          title: "empty-cells",
-          href: "/docs/generators/empty-cells",
-          items: [],
-        },{
-          title: "filter",
-          href: "/docs/generators/filter",
-          items: [],
-        },{
-          title: "flex",
-          href: "/docs/generators/flex",
-          items: [],
-        },{
-          title: "flex-basis",
-          href: "/docs/generators/flex-basis",
-          items: [],
-        },{
-          title: "flex-direction",
-          href: "/docs/generators/flex-direction",
-          items: [],
-        },{
-          title: "flex-flow",
-          href: "/docs/generators/flex-flow",
-          items: [],
-        },{
-          title: "flex-grow",
-          href: "/docs/generators/flex-grow",
-          items: [],
-        },{
-          title: "flex-shrink",
-          href: "/docs/generators/flex-shrink",
-          items: [],
-        },{
-          title: "flex-wrap",
-          href: "/docs/generators/flex-wrap",
-          items: [],
-        },{
-          title: "float",
-          href: "/docs/generators/float",
-          items: [],
-        },{
-          title: "font",
-          href: "/docs/generators/font",
-          items: [],
-        },{
-          title: "font-family",
-          href: "/docs/generators/font-family",
-          items: [],
-        },{
-          title: "font-feature-settings",
-          href: "/docs/generators/font-feature-settings",
-          items: [],
-        },{
-          title: "font-kerning",
-          href: "/docs/generators/font-kerning",
-          items: [],
-        },{
-          title: "font-language-override",
-          href: "/docs/generators/font-language-override",
-          items: [],
-        },{
-          title: "font-size",
-          href: "/docs/generators/font-size",
-          items: [],
-        },{
-          title: "font-size-adjust",
-          href: "/docs/generators/font-size-adjust",
-          items: [],
-        },{
-          title: "font-stretch",
-          href: "/docs/generators/font-stretch",
-          items: [],
-        },{
-          title: "font-style",
-          href: "/docs/generators/font-style",
-          items: [],
-        },{
-          title: "font-synthesis",
-          href: "/docs/generators/font-synthesis",
-          items: [],
-        },{
-          title: "font-variant",
-          href: "/docs/generators/font-variant",
-          items: [],
-        },{
-          title: "font-variant-alternates",
-          href: "/docs/generators/font-variant-alternates",
-          items: [],
-        },{
-          title: "font-variant-caps",
-          href: "/docs/generators/font-variant-caps",
-          items: [],
-        },{
-          title: "font-variant-east-asian",
-          href: "/docs/generators/font-variant-east-asian",
-          items: [],
-        },{
-          title: "font-variant-ligatures",
-          href: "/docs/generators/font-variant-ligatures",
-          items: [],
-        },{
-          title: "font-variant-numeric",
-          href: "/docs/generators/font-variant-numeric",
-          items: [],
-        },{
-          title: "font-variant-position",
-          href: "/docs/generators/font-variant-position",
-          items: [],
-        },{
-          title: "font-weight",
-          href: "/docs/generators/font-weight",
-          items: [],
-        },{
-          title: "grid",
-          href: "/docs/generators/grid",
-          items: [],
-        },{
-          title: "grid-area",
-          href: "/docs/generators/grid-area",
-          items: [],
-        },{
-          title: "grid-auto-columns",
-          href: "/docs/generators/grid-auto-columns",
-          items: [],
-        },{
-          title: "grid-auto-flow",
-          href: "/docs/generators/grid-auto-flow",
-          items: [],
-        },{
-          title: "grid-auto-rows",
-          href: "/docs/generators/grid-auto-rows",
-          items: [],
-        },{
-          title: "grid-column",
-          href: "/docs/generators/grid-column",
-          items: [],
-        },{
-          title: "grid-column-end",
-          href: "/docs/generators/grid-column-end",
-          items: [],
-        },{
-          title: "grid-column-gap",
-          href: "/docs/generators/grid-column-gap",
-          items: [],
-        },{
-          title: "grid-column-start",
-          href: "/docs/generators/grid-column-start",
-          items: [],
-        },{
-          title: "grid-gap",
-          href: "/docs/generators/grid-gap",
-          items: [],
-        },{
-          title: "grid-row",
-          href: "/docs/generators/grid-row",
-          items: [],
-        },{
-          title: "grid-row-end",
-          href: "/docs/generators/grid-row-end",
-          items: [],
-        },{
-          title: "grid-row-gap",
-          href: "/docs/generators/grid-row-gap",
-          items: [],
-        },{
-          title: "grid-row-start",
-          href: "/docs/generators/grid-row-start",
-          items: [],
-        },{
-          title: "grid-template",
-          href: "/docs/generators/grid-template",
-          items: [],
-        },{
-          title: "grid-template-areas",
-          href: "/docs/generators/grid-template-areas",
-          items: [],
-        },{
-          title: "grid-template-columns",
-          href: "/docs/generators/grid-template-columns",
-          items: [],
-        },{
-          title: "grid-template-rows",
-          href: "/docs/generators/grid-template-rows",
-          items: [],
-        },{
-          title: "hanging-punctuation",
-          href: "/docs/generators/hanging-punctuation",
-          items: [],
-        },{
-          title: "height",
-          href: "/docs/generators/height",
-          items: [],
-        },{
-          title: "hyphens",
-          href: "/docs/generators/hyphens",
-          items: [],
-        },{
-          title: "image-orientation",
-          href: "/docs/generators/image-orientation",
-          items: [],
-        },{
-          title: "justify-content",
-          href: "/docs/generators/justify-content",
-          items: [],
-        },{
-          title: "justify-items",
-          href: "/docs/generators/justify-items",
-          items: [],
-        },{
-          title: "justify-self",
-          href: "/docs/generators/justify-self",
-          items: [],
-        },{
-          title: "left",
-          href: "/docs/generators/left",
-          items: [],
-        },{
-          title: "letter-spacing",
-          href: "/docs/generators/letter-spacing",
-          items: [],
-        },{
-          title: "line-break",
-          href: "/docs/generators/line-break",
-          items: [],
-        },{
-          title: "line-height",
-          href: "/docs/generators/line-height",
-          items: [],
-        },{
-          title: "list-style",
-          href: "/docs/generators/list-style",
-          items: [],
-        },{
-          title: "list-style-image",
-          href: "/docs/generators/list-style-image",
-          items: [],
-        },{
-          title: "list-style-position",
-          href: "/docs/generators/list-style-position",
-          items: [],
-        },{
-          title: "list-style-type",
-          href: "/docs/generators/list-style-type",
-          items: [],
-        },{
-          title: "margin",
-          href: "/docs/generators/margin",
-          items: [],
-        },{
-          title: "margin-bottom",
-          href: "/docs/generators/margin-bottom",
-          items: [],
-        },{
-          title: "margin-left",
-          href: "/docs/generators/margin-left",
-          items: [],
-        },{
-          title: "margin-right",
-          href: "/docs/generators/margin-right",
-          items: [],
-        },{
-          title: "margin-top",
-          href: "/docs/generators/margin-top",
-          items: [],
-        },{
-          title: "max-height",
-          href: "/docs/generators/max-height",
-          items: [],
-        },{
-          title: "max-width",
-          href: "/docs/generators/max-width",
-          items: [],
-        },{
-          title: "min-height",
-          href: "/docs/generators/min-height",
-          items: [],
-        },{
-          title: "min-width",
-          href: "/docs/generators/min-width",
-          items: [],
-        },{
-          title: "mix-blend-mode",
-          href: "/docs/generators/mix-blend-mode",
-          items: [],
-        },{
-          title: "object-fit",
-          href: "/docs/generators/object-fit",
-          items: [],
-        },{
-          title: "object-position",
-          href: "/docs/generators/object-position",
-          items: [],
-        },{
-          title: "opacity",
-          href: "/docs/generators/opacity",
-          items: [],
-        },{
-          title: "order",
-          href: "/docs/generators/order",
-          items: [],
-        },{
-          title: "orphans",
-          href: "/docs/generators/orphans",
-          items: [],
-        },{
-          title: "outline",
-          href: "/docs/generators/outline",
-          items: [],
-        },{
-          title: "outline-color",
-          href: "/docs/generators/outline-color",
-          items: [],
-        },{
-          title: "outline-offset",
-          href: "/docs/generators/outline-offset",
-          items: [],
-        },{
-          title: "outline-style",
-          href: "/docs/generators/outline-style",
-          items: [],
-        },{
-          title: "outline-width",
-          href: "/docs/generators/outline-width",
-          items: [],
-        },{
-          title: "overflow",
-          href: "/docs/generators/overflow",
-          items: [],
-        },{
-          title: "overflow-wrap",
-          href: "/docs/generators/overflow-wrap",
-          items: [],
-        },{
-          title: "overflow-x",
-          href: "/docs/generators/overflow-x",
-          items: [],
-        },{
-          title: "overflow-y",
-          href: "/docs/generators/overflow-y",
-          items: [],
-        },{
-          title: "padding",
-          href: "/docs/generators/padding",
-          items: [],
-        },{
-          title: "padding-bottom",
-          href: "/docs/generators/padding-bottom",
-          items: [],
-        },{
-          title: "padding-left",
-          href: "/docs/generators/padding-left",
-          items: [],
-        },{
-          title: "padding-right",
-          href: "/docs/generators/padding-right",
-          items: [],
-        },{
-          title: "padding-top",
-          href: "/docs/generators/padding-top",
-          items: [],
-        },{
-          title: "perspective",
-          href: "/docs/generators/perspective",
-          items: [],
-        },{
-          title: "perspective-origin",
-          href: "/docs/generators/perspective-origin",
-          items: [],
-        },{
-          title: "place-content",
-          href: "/docs/generators/place-content",
-          items: [],
-        },{
-          title: "place-items",
-          href: "/docs/generators/place-items",
-          items: [],
-        },{
-          title: "place-self",
-          href: "/docs/generators/place-self",
-          items: [],
-        },{
-          title: "position",
-          href: "/docs/generators/position",
-          items: [],
-        },{
-          title: "quotes",
-          href: "/docs/generators/quotes",
-          items: [],
-        },{
-          title: "resize",
-          href: "/docs/generators/resize",
-          items: [],
-        },{
-          title: "right",
-          href: "/docs/generators/right",
-          items: [],
-        },{
-          title: "shape-image-threshold",
-          href: "/docs/generators/shape-image-threshold",
-          items: [],
-        },{
-          title: "shape-margin",
-          href: "/docs/generators/shape-margin",
-          items: [],
-        },{
-          title: "shape-outside",
-          href: "/docs/generators/shape-outside",
-          items: [],
-        },{
-          title: "tab-size",
-          href: "/docs/generators/tab-size",
-          items: [],
-        },{
-          title: "table-layout",
-          href: "/docs/generators/table-layout",
-          items: [],
-        },{
-          title: "text-align",
-          href: "/docs/generators/text-align",
-          items: [],
-        },{
-          title: "text-align-last",
-          href: "/docs/generators/text-align-last",
-          items: [],
-        },{
-          title: "text-combine-upright",
-          href: "/docs/generators/text-combine-upright",
-          items: [],
-        },{
-          title: "text-decoration",
-          href: "/docs/generators/text-decoration",
-          items: [],
-        },{
-          title: "text-decoration-color",
-          href: "/docs/generators/text-decoration-color",
-          items: [],
-        },{
-          title: "text-decoration-line",
-          href: "/docs/generators/text-decoration-line",
-          items: [],
-        },{
-          title: "text-decoration-style",
-          href: "/docs/generators/text-decoration-style",
-          items: [],
-        },{
-          title: "text-emphasis",
-          href: "/docs/generators/text-emphasis",
-          items: [],
-        },{
-          title: "text-emphasis-color",
-          href: "/docs/generators/text-emphasis-color",
-          items: [],
-        },{
-          title: "text-emphasis-position",
-          href: "/docs/generators/text-emphasis-position",
-          items: [],
-        },{
-          title: "text-emphasis-style",
-          href: "/docs/generators/text-emphasis-style",
-          items: [],
-        },{
-          title: "text-indent",
-          href: "/docs/generators/text-indent",
-          items: [],
-        },{
-          title: "text-justify",
-          href: "/docs/generators/text-justify",
-          items: [],
-        },{
-          title: "text-orientation",
-          href: "/docs/generators/text-orientation",
-          items: [],
-        },{
-          title: "text-overflow",
-          href: "/docs/generators/text-overflow",
-          items: [],
-        },{
-          title: "text-shadow",
-          href: "/docs/generators/text-shadow",
-          items: [],
-        },{
-          title: "text-transform",
-          href: "/docs/generators/text-transform",
-          items: [],
-        },{
-          title: "text-underline-position",
-          href: "/docs/generators/text-underline-position",
-          items: [],
-        },{
-          title: "top",
-          href: "/docs/generators/top",
-          items: [],
-        },{
-          title: "transform",
-          href: "/docs/generators/transform",
-          items: [],
-        },{
-          title: "transform-origin",
-          href: "/docs/generators/transform-origin",
-          items: [],
-        },{
-          title: "transform-style",
-          href: "/docs/generators/transform-style",
-          items: [],
-        },{
-          title: "transition",
-          href: "/docs/generators/transition",
-          items: [],
-        },{
-          title: "transition-delay",
-          href: "/docs/generators/transition-delay",
-          items: [],
-        },{
-          title: "transition-duration",
-          href: "/docs/generators/transition-duration",
-          items: [],
-        },{
-          title: "transition-property",
-          href: "/docs/generators/transition-property",
-          items: [],
-        },{
-          title: "transition-timing-function",
-          href: "/docs/generators/transition-timing-function",
-          items: [],
-        },{
-          title: "unicode-bidi",
-          href: "/docs/generators/unicode-bidi",
-          items: [],
-        },{
-          title: "vertical-align",
-          href: "/docs/generators/vertical-align",
-          items: [],
-        },{
-          title: "visibility",
-          href: "/docs/generators/visibility",
-          items: [],
-        },{
-          title: "white-space",
-          href: "/docs/generators/white-space",
-          items: [],
-        },{
-          title: "widows",
-          href: "/docs/generators/widows",
-          items: [],
-        },{
-          title: "width",
-          href: "/docs/generators/width",
-          items: [],
-        },{
-          title: "word-break",
-          href: "/docs/generators/word-break",
-          items: [],
-        },{
-          title: "word-spacing",
-          href: "/docs/generators/word-spacing",
-          items: [],
-        },{
-          title: "word-wrap",
-          href: "/docs/generators/word-wrap",
-          items: [],
-        },{
-          title: "writing-mode",
-          href: "/docs/generators/writing-mode",
-          items: [],
-        },{
-          title: "z-index",
-          href: "/docs/generators/z-index",
-          items: [],
-        },{
-          title: "Css Pseudo Classes",
-          href: "/docs/generators/css-pseudo-classes",
-          items: [],
-        },{
-          title: ":active",
-          href: "/docs/generators/:active",
-          items: [],
-        },{
-          title: ":checked",
-          href: "/docs/generators/:checked",
-          items: [],
-        },{
-          title: ":default",
-          href: "/docs/generators/:default",
-          items: [],
-        },{
-          title: ":disabled",
-          href: "/docs/generators/:disabled",
-          items: [],
-        },{
-          title: ":empty",
-          href: "/docs/generators/:empty",
-          items: [],
-        },{
-          title: ":enabled",
-          href: "/docs/generators/:enabled",
-          items: [],
-        },{
-          title: ":first-child",
-          href: "/docs/generators/:first-child",
-          items: [],
-        },{
-          title: ":first-of-type",
-          href: "/docs/generators/:first-of-type",
-          items: [],
-        },{
-          title: ":focus",
-          href: "/docs/generators/:focus",
-          items: [],
-        },{
-          title: ":fullscreen",
-          href: "/docs/generators/:fullscreen",
-          items: [],
-        },{
-          title: ":hover",
-          href: "/docs/generators/:hover",
-          items: [],
-        },{
-          title: ":in-range",
-          href: "/docs/generators/:in-range",
-          items: [],
-        },{
-          title: ":indeterminate",
-          href: "/docs/generators/:indeterminate",
-          items: [],
-        },{
-          title: ":invalid",
-          href: "/docs/generators/:invalid",
-          items: [],
-        },{
-          title: ":lang",
-          href: "/docs/generators/:lang",
-          items: [],
-        },{
-          title: ":last-child",
-          href: "/docs/generators/:last-child",
-          items: [],
-        },{
-          title: ":last-of-type",
-          href: "/docs/generators/:last-of-type",
-          items: [],
-        },{
-          title: ":link",
-          href: "/docs/generators/:link",
-          items: [],
-        },{
-          title: ":not",
-          href: "/docs/generators/:not",
-          items: [],
-        },{
-          title: ":nth-child",
-          href: "/docs/generators/:nth-child",
-          items: [],
-        },{
-          title: ":nth-last-child",
-          href: "/docs/generators/:nth-last-child",
-          items: [],
-        },{
-          title: ":nth-last-of-type",
-          href: "/docs/generators/:nth-last-of-type",
-          items: [],
-        },{
-          title: ":nth-of-type",
-          href: "/docs/generators/:nth-of-type",
-          items: [],
-        },{
-          title: ":only-child",
-          href: "/docs/generators/:only-child",
-          items: [],
-        },{
-          title: ":only-of-type",
-          href: "/docs/generators/:only-of-type",
-          items: [],
-        },{
-          title: ":optional",
-          href: "/docs/generators/:optional",
-          items: [],
-        },{
-          title: ":out-of-range",
-          href: "/docs/generators/:out-of-range",
-          items: [],
-        },{
-          title: ":read-only",
-          href: "/docs/generators/:read-only",
-          items: [],
-        },{
-          title: ":read-write",
-          href: "/docs/generators/:read-write",
-          items: [],
-        },{
-          title: ":required",
-          href: "/docs/generators/:required",
-          items: [],
-        },{
-          title: ":root",
-          href: "/docs/generators/:root",
-          items: [],
-        },{
-          title: ":target",
-          href: "/docs/generators/:target",
-          items: [],
-        },{
-          title: ":valid",
-          href: "/docs/generators/:valid",
-          items: [],
-        },{
-          title: ":visited",
-          href: "/docs/generators/:visited",
-          items: [],
-        },{
-          title: "Html Tags",
-          href: "/docs/generators/html-tags",
-          items: [],
-        },{
-          title: "<a>",
-          href: "/docs/generators/<a>",
-          items: [],
-        },{
-          title: "<abbr>",
-          href: "/docs/generators/<abbr>",
-          items: [],
-        },{
-          title: "<address>",
-          href: "/docs/generators/<address>",
-          items: [],
-        },{
-          title: "<area>",
-          href: "/docs/generators/<area>",
-          items: [],
-        },{
-          title: "<article>",
-          href: "/docs/generators/<article>",
-          items: [],
-        },{
-          title: "<aside>",
-          href: "/docs/generators/<aside>",
-          items: [],
-        },{
-          title: "<audio>",
-          href: "/docs/generators/<audio>",
-          items: [],
-        },{
-          title: "<b>",
-          href: "/docs/generators/<b>",
-          items: [],
-        },{
-          title: "<base>",
-          href: "/docs/generators/<base>",
-          items: [],
-        },{
-          title: "<bdi>",
-          href: "/docs/generators/<bdi>",
-          items: [],
-        },{
-          title: "<bdo>",
-          href: "/docs/generators/<bdo>",
-          items: [],
-        },{
-          title: "<blockquote>",
-          href: "/docs/generators/<blockquote>",
-          items: [],
-        },{
-          title: "<body>",
-          href: "/docs/generators/<body>",
-          items: [],
-        },{
-          title: "<br>",
-          href: "/docs/generators/<br>",
-          items: [],
-        },{
-          title: "<button>",
-          href: "/docs/generators/<button>",
-          items: [],
-        },{
-          title: "<canvas>",
-          href: "/docs/generators/<canvas>",
-          items: [],
-        },{
-          title: "<caption>",
-          href: "/docs/generators/<caption>",
-          items: [],
-        },{
-          title: "<cite>",
-          href: "/docs/generators/<cite>",
-          items: [],
-        },{
-          title: "<code>",
-          href: "/docs/generators/<code>",
-          items: [],
-        },{
-          title: "<col>",
-          href: "/docs/generators/<col>",
-          items: [],
-        },{
-          title: "<colgroup>",
-          href: "/docs/generators/<colgroup>",
-          items: [],
-        },{
-          title: "<comment>",
-          href: "/docs/generators/<comment>",
-          items: [],
-        },{
-          title: "<datalist>",
-          href: "/docs/generators/<datalist>",
-          items: [],
-        },{
-          title: "<dd>",
-          href: "/docs/generators/<dd>",
-          items: [],
-        },{
-          title: "<del>",
-          href: "/docs/generators/<del>",
-          items: [],
-        },{
-          title: "<details>",
-          href: "/docs/generators/<details>",
-          items: [],
-        },{
-          title: "<dfn>",
-          href: "/docs/generators/<dfn>",
-          items: [],
-        },{
-          title: "<dialog>",
-          href: "/docs/generators/<dialog>",
-          items: [],
-        },{
-          title: "<div>",
-          href: "/docs/generators/<div>",
-          items: [],
-        },{
-          title: "<dl>",
-          href: "/docs/generators/<dl>",
-          items: [],
-        },{
-          title: "<doctype>",
-          href: "/docs/generators/<doctype>",
-          items: [],
-        },{
-          title: "<dt>",
-          href: "/docs/generators/<dt>",
-          items: [],
-        },{
-          title: "<em>",
-          href: "/docs/generators/<em>",
-          items: [],
-        },{
-          title: "<embed>",
-          href: "/docs/generators/<embed>",
-          items: [],
-        },{
-          title: "<fieldset>",
-          href: "/docs/generators/<fieldset>",
-          items: [],
-        },{
-          title: "<figcaption>",
-          href: "/docs/generators/<figcaption>",
-          items: [],
-        },{
-          title: "<figure>",
-          href: "/docs/generators/<figure>",
-          items: [],
-        },{
-          title: "<footer>",
-          href: "/docs/generators/<footer>",
-          items: [],
-        },{
-          title: "<form>",
-          href: "/docs/generators/<form>",
-          items: [],
-        },{
-          title: "<h1>",
-          href: "/docs/generators/<h1>",
-          items: [],
-        },{
-          title: "<h2>",
-          href: "/docs/generators/<h2>",
-          items: [],
-        },{
-          title: "<h3>",
-          href: "/docs/generators/<h3>",
-          items: [],
-        },{
-          title: "<h4>",
-          href: "/docs/generators/<h4>",
-          items: [],
-        },{
-          title: "<h5>",
-          href: "/docs/generators/<h5>",
-          items: [],
-        },{
-          title: "<h6>",
-          href: "/docs/generators/<h6>",
-          items: [],
-        },{
-          title: "<head>",
-          href: "/docs/generators/<head>",
-          items: [],
-        },{
-          title: "<header>",
-          href: "/docs/generators/<header>",
-          items: [],
-        },{
-          title: "<hr>",
-          href: "/docs/generators/<hr>",
-          items: [],
-        },{
-          title: "<html>",
-          href: "/docs/generators/<html>",
-          items: [],
-        },{
-          title: "<i>",
-          href: "/docs/generators/<i>",
-          items: [],
-        },{
-          title: "<iframe>",
-          href: "/docs/generators/<iframe>",
-          items: [],
-        },{
-          title: "<img>",
-          href: "/docs/generators/<img>",
-          items: [],
-        },{
-          title: "<input>",
-          href: "/docs/generators/<input>",
-          items: [],
-        },{
-          title: "<ins>",
-          href: "/docs/generators/<ins>",
-          items: [],
-        },{
-          title: "<kbd>",
-          href: "/docs/generators/<kbd>",
-          items: [],
-        },{
-          title: "<keygen>",
-          href: "/docs/generators/<keygen>",
-          items: [],
-        },{
-          title: "<label>",
-          href: "/docs/generators/<label>",
-          items: [],
-        },{
-          title: "<legend>",
-          href: "/docs/generators/<legend>",
-          items: [],
-        },{
-          title: "<li>",
-          href: "/docs/generators/<li>",
-          items: [],
-        },{
-          title: "<link>",
-          href: "/docs/generators/<link>",
-          items: [],
-        },{
-          title: "<map>",
-          href: "/docs/generators/<map>",
-          items: [],
-        },{
-          title: "<mark>",
-          href: "/docs/generators/<mark>",
-          items: [],
-        },{
-          title: "<menu>",
-          href: "/docs/generators/<menu>",
-          items: [],
-        },{
-          title: "<meta>",
-          href: "/docs/generators/<meta>",
-          items: [],
-        },{
-          title: "<meter>",
-          href: "/docs/generators/<meter>",
-          items: [],
-        },{
-          title: "<nav>",
-          href: "/docs/generators/<nav>",
-          items: [],
-        },{
-          title: "<noscript>",
-          href: "/docs/generators/<noscript>",
-          items: [],
-        },{
-          title: "<object>",
-          href: "/docs/generators/<object>",
-          items: [],
-        },{
-          title: "<ol>",
-          href: "/docs/generators/<ol>",
-          items: [],
-        },{
-          title: "<optgroup>",
-          href: "/docs/generators/<optgroup>",
-          items: [],
-        },{
-          title: "<option>",
-          href: "/docs/generators/<option>",
-          items: [],
-        },{
-          title: "<output>",
-          href: "/docs/generators/<output>",
-          items: [],
-        },{
-          title: "<p>",
-          href: "/docs/generators/<p>",
-          items: [],
-        },{
-          title: "<param>",
-          href: "/docs/generators/<param>",
-          items: [],
-        },{
-          title: "<picture>",
-          href: "/docs/generators/<picture>",
-          items: [],
-        },{
-          title: "<pre>",
-          href: "/docs/generators/<pre>",
-          items: [],
-        },{
-          title: "<progress>",
-          href: "/docs/generators/<progress>",
-          items: [],
-        },{
-          title: "<q>",
-          href: "/docs/generators/<q>",
-          items: [],
-        },{
-          title: "<rp>",
-          href: "/docs/generators/<rp>",
-          items: [],
-        },{
-          title: "<rt>",
-          href: "/docs/generators/<rt>",
-          items: [],
-        },{
-          title: "<ruby>",
-          href: "/docs/generators/<ruby>",
-          items: [],
-        },{
-          title: "<s>",
-          href: "/docs/generators/<s>",
-          items: [],
-        },{
-          title: "<samp>",
-          href: "/docs/generators/<samp>",
-          items: [],
-        },{
-          title: "<script>",
-          href: "/docs/generators/<script>",
-          items: [],
-        },{
-          title: "<section>",
-          href: "/docs/generators/<section>",
-          items: [],
-        },{
-          title: "<select>",
-          href: "/docs/generators/<select>",
-          items: [],
-        },{
-          title: "<small>",
-          href: "/docs/generators/<small>",
-          items: [],
-        },{
-          title: "<source>",
-          href: "/docs/generators/<source>",
-          items: [],
-        },{
-          title: "<span>",
-          href: "/docs/generators/<span>",
-          items: [],
-        },{
-          title: "<strong>",
-          href: "/docs/generators/<strong>",
-          items: [],
-        },{
-          title: "<style>",
-          href: "/docs/generators/<style>",
-          items: [],
-        },{
-          title: "<sub>",
-          href: "/docs/generators/<sub>",
-          items: [],
-        },{
-          title: "<summary>",
-          href: "/docs/generators/<summary>",
-          items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "sup>",
           href: "/docs/generators/sup>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<table>",
           href: "/docs/generators/<table>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<tbody>",
           href: "/docs/generators/<tbody>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<td>",
           href: "/docs/generators/<td>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<th>",
           href: "/docs/generators/<th>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<thead>",
           href: "/docs/generators/<thead>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<time>",
           href: "/docs/generators/<time>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<tr>",
           href: "/docs/generators/<tr>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<track>",
           href: "/docs/generators/<track>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<u>",
           href: "/docs/generators/<u>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<ul>",
           href: "/docs/generators/<ul>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<var>",
           href: "/docs/generators/<var>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<video>",
           href: "/docs/generators/<video>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "<wbr>",
           href: "/docs/generators/<wbr>",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Functions",
           href: "/docs/generators/css-functions",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "attr()",
           href: "/docs/generators/attr()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "blur()",
           href: "/docs/generators/blur()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "brightness()",
           href: "/docs/generators/brightness()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "calc()",
           href: "/docs/generators/calc()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "circle()",
           href: "/docs/generators/circle()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "contrast()",
           href: "/docs/generators/contrast()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "drop-shadow()",
           href: "/docs/generators/drop-shadow()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "ellipse()",
           href: "/docs/generators/ellipse()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "grayscale()",
           href: "/docs/generators/grayscale()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "hsl()",
           href: "/docs/generators/hsl()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "hsla()",
           href: "/docs/generators/hsla()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "hue-rotate()",
           href: "/docs/generators/hue-rotate()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "inset()",
           href: "/docs/generators/inset()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "invert()",
           href: "/docs/generators/invert()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "linear-gradient()",
           href: "/docs/generators/linear-gradient()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "matrix()",
           href: "/docs/generators/matrix()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "matrix3d()",
           href: "/docs/generators/matrix3d()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "opacity()",
           href: "/docs/generators/opacity()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "perspective()",
           href: "/docs/generators/perspective()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "polygon()",
           href: "/docs/generators/polygon()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "radial-gradient()",
           href: "/docs/generators/radial-gradient()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "repeating-linear-gradient()",
           href: "/docs/generators/repeating-linear-gradient()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "repeating-radial-gradient()",
           href: "/docs/generators/repeating-radial-gradient()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rgb()",
           href: "/docs/generators/rgb()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rgba()",
           href: "/docs/generators/rgba()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rotate()",
           href: "/docs/generators/rotate()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rotate3d()",
           href: "/docs/generators/rotate3d()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rotateX()",
           href: "/docs/generators/rotatex()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rotateY()",
           href: "/docs/generators/rotatey()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "rotateZ()",
           href: "/docs/generators/rotatez()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "saturate()",
           href: "/docs/generators/saturate()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "scale()",
           href: "/docs/generators/scale()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "scale3d()",
           href: "/docs/generators/scale3d()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "scaleX()",
           href: "/docs/generators/scalex()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "scaleY()",
           href: "/docs/generators/scaley()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "scaleZ()",
           href: "/docs/generators/scalez()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "sepia()",
           href: "/docs/generators/sepia()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "skew()",
           href: "/docs/generators/skew()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "skewX()",
           href: "/docs/generators/skewx()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "skewY()",
           href: "/docs/generators/skewy()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "translate()",
           href: "/docs/generators/translate()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "translate3d()",
           href: "/docs/generators/translate3d()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "translateX()",
           href: "/docs/generators/translatex()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "translateY()",
           href: "/docs/generators/translatey()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "translateZ()",
           href: "/docs/generators/translatez()",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css At Rules",
           href: "/docs/generators/css-at-rules",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@charset",
           href: "/docs/generators/@charset",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@counter-style",
           href: "/docs/generators/@counter-style",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@document",
           href: "/docs/generators/@document",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@font-face",
           href: "/docs/generators/@font-face",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@font-feature-values",
           href: "/docs/generators/@font-feature-values",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@import",
           href: "/docs/generators/@import",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@keyframes",
           href: "/docs/generators/@keyframes",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@media",
           href: "/docs/generators/@media",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@namespace",
           href: "/docs/generators/@namespace",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@page",
           href: "/docs/generators/@page",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "@supports",
           href: "/docs/generators/@supports",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Data types",
           href: "/docs/generators/css-data-types",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "angle",
           href: "/docs/generators/angle",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "basic-shape",
           href: "/docs/generators/basic-shape",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "blend-mode",
           href: "/docs/generators/blend-mode",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "color",
           href: "/docs/generators/color",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "frequency",
           href: "/docs/generators/frequency",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "gradient",
           href: "/docs/generators/gradient",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "image",
           href: "/docs/generators/image",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "integer",
           href: "/docs/generators/integer",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "length",
           href: "/docs/generators/length",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "number",
           href: "/docs/generators/number",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "percentage",
           href: "/docs/generators/percentage",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "position",
           href: "/docs/generators/position",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "ratio",
           href: "/docs/generators/ratio",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "resolution",
           href: "/docs/generators/resolution",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "string",
           href: "/docs/generators/string",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "time",
           href: "/docs/generators/time",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "url",
           href: "/docs/generators/url",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Pseudo Elements",
           href: "/docs/generators/css-pseudo-elements",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::after",
           href: "/docs/generators/::after",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::before",
           href: "/docs/generators/::before",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::first-letter",
           href: "/docs/generators/::first-letter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::first-line",
           href: "/docs/generators/::first-line",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::placeholder",
           href: "/docs/generators/::placeholder",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "::selection",
           href: "/docs/generators/::selection",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Html Tools",
           href: "/docs/generators/html-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Pug to HTML Compiler",
           href: "/docs/generators/pug-to-html-compiler",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Markdown to HTML Compiler",
           href: "/docs/generators/markdown-to-html-compiler",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML to Pug Converter",
           href: "/docs/generators/html-to-pug-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML to Markdown Converter",
           href: "/docs/generators/html-to-markdown-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Character Codes",
           href: "/docs/generators/html-character-codes",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Colors",
           href: "/docs/generators/html-colors",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Beautifier",
           href: "/docs/generators/html-beautifier",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Table Generator",
           href: "/docs/generators/html-table-generator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Tags",
           href: "/docs/generators/html-tags",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Online Editor",
           href: "/docs/generators/html-online-editor",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Tutorial",
           href: "/docs/generators/html-tutorial",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "HTML Validator",
           href: "/docs/generators/html-validator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Css Tools",
           href: "/docs/generators/css-tools",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "LESS to CSS Compiler",
           href: "/docs/generators/less-to-css-compiler",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "SCSS to CSS Compiler",
           href: "/docs/generators/scss-to-css-compiler",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Stylus to CSS Compiler",
           href: "/docs/generators/stylus-to-css-compiler",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS to LESS Converter",
           href: "/docs/generators/css-to-less-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS to SCSS Converter",
           href: "/docs/generators/css-to-scss-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS to Stylus Converter",
           href: "/docs/generators/css-to-stylus-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Color Converter",
           href: "/docs/generators/css-color-converter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Cursor Viewer",
           href: "/docs/generators/css-cursor-viewer",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Font Preview",
           href: "/docs/generators/css-font-preview",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Code Formatter",
           href: "/docs/generators/css-code-formatter",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Lengths",
           href: "/docs/generators/css-lengths",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Code Optimizer",
           href: "/docs/generators/css-code-optimizer",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Validator",
           href: "/docs/generators/css-validator",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "CSS Visual Style Editor",
           href: "/docs/generators/css-visual-style-editor",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Convert Image to Data",
           href: "/docs/generators/convert-image-to-data",
           items: [],
-        },{
+          description: "Not Provided(coming soon}",
+        },
+        {
           title: "Online CSS Editor",
           href: "/docs/generators/online-css-editor",
           items: [],
-        }
+          description: "Not Provided(coming soon}",
+        },
       ],
     },
     {
@@ -19304,28 +5964,45 @@ export const docsConfig: DocsConfig = {
       items: [
         {
           title: "Npm",
-          href: "/docs/packages/prisma",
+          href: "/docs/packages/npm",
           items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Deno",
+          href: "/docs/packages/deno",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Burn",
+          href: "/docs/packages/burn",
+          items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pip",
           href: "/docs/packages/pip",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Docker",
           href: "/docs/packages/Docker",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Go",
           href: "/docs/packages/go",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Maven",
           href: "/docs/packages/maven",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -19333,19 +6010,4204 @@ export const docsConfig: DocsConfig = {
       title: "Bucket List",
       items: [
         {
+          title: "Platforms",
+          href: "/platforms",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Programming Languages",
+          href: "/programming-languages",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Front-End Development",
+          href: "/front-end-development",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Back-End Development",
+          href: "/back-end-development",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Computer Science",
+          href: "/computer-science",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Big Data",
+          href: "/big-data",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Theory",
+          href: "/theory",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Books",
+          href: "/books",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Editors",
+          href: "/editors",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Gaming",
+          href: "/gaming",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Development Environment",
+          href: "/development-environment",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Entertainment",
+          href: "/entertainment",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Databases",
+          href: "/databases",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Media",
+          href: "/media",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Learn",
+          href: "/learn",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Security",
+          href: "/security",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Content Management Systems",
+          href: "/content-management-systems",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Hardware",
+          href: "/hardware",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Business",
+          href: "/business",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Work",
+          href: "/work",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Networking",
+          href: "/networking",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Decentralized Systems",
+          href: "/decentralized-systems",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Health and Social Science",
+          href: "/health-and-social-science",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Events",
+          href: "/events",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Testing",
+          href: "/testing",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Miscellaneous",
+          href: "/miscellaneous",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Related",
+          href: "/related",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Node.js",
+          href: "https://github.com/sindresorhus/BeingOfExistence-nodejs#readme",
+          items: [],
+          description:
+            "Async non-blocking event-driven JavaScript runtime built on Chrome's V8 JavaScript engine",
+        },
+        {
+          title: "Cross-Platform",
+          href: "https://github.com/bcoe/BeingOfExistence-cross-platform-nodejs#readme",
+          items: [],
+          description: "Writing cross-platform code on Node.js",
+        },
+        {
+          title: "Frontend Development",
+          href: "https://github.com/dypsilon/frontend-dev-bookmarks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "iOS",
+          href: "https://github.com/vsouza/BeingOfExistence-ios#readme",
+          items: [],
+          description: "Mobile operating system for Apple phones and tablets",
+        },
+        {
+          title: "Android",
+          href: "https://github.com/JStumpp/BeingOfExistence-android#readme",
+          items: [],
+          description: "Mobile operating system developed by Google",
+        },
+        {
+          title: "IoT & Hybrid Apps",
+          href: "https://github.com/weblancaster/BeingOfExistence-IoT-hybrid#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Electron",
+          href: "https://github.com/sindresorhus/BeingOfExistence-electron#readme",
+          items: [],
+          description:
+            "Cross-platform native desktop apps using JavaScript/HTML/CSS",
+        },
+        {
+          title: "Cordova",
+          href: "https://github.com/busterc/BeingOfExistence-cordova#readme",
+          items: [],
+          description: "JavaScript API for hybrid apps",
+        },
+        {
+          title: "React Native",
+          href: "https://github.com/jondot/BeingOfExistence-react-native#readme",
+          items: [],
+          description:
+            "JavaScript framework for writing natively rendering mobile apps for iOS and Android",
+        },
+        {
+          title: "Xamarin",
+          href: "https://github.com/XamSome/BeingOfExistence-xamarin#readme",
+          items: [],
+          description: "Mobile app development IDE, testing, and distribution",
+        },
+        {
+          title: "Linux",
+          href: "https://github.com/inputsh/BeingOfExistence-linux#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Containers",
+          href: "https://github.com/Friz-zy/BeingOfExistence-linux-containers#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "eBPF",
+          href: "https://github.com/zoidbergwill/BeingOfExistence-ebpf#readme",
+          items: [],
+          description:
+            "Virtual machine that allows you to write more efficient and powerful tracing and monitoring for Linux systems",
+        },
+        {
+          title: "Arch-based Projects",
+          href: "https://github.com/PandaFoss/BeingOfExistence-Arch#readme",
+          items: [],
+          description: "Linux distributions and projects based on Arch Linux",
+        },
+        {
+          title: "AppImage",
+          href: "https://github.com/AppImage/BeingOfExistence-appimage#readme",
+          items: [],
+          description:
+            "Package apps in a single file that works on various mainstream Linux distributions",
+        },
+        {
+          title: "Screensavers",
+          href: "https://github.com/agarrharr/BeingOfExistence-macos-screensavers#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Apps",
+          href: "https://github.com/jaywcjlove/BeingOfExistence-mac#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Open Source Apps",
+          href: "https://github.com/serhii-londar/open-source-mac-os-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "watchOS",
+          href: "https://github.com/yenchenlin/BeingOfExistence-watchos#readme",
+          items: [],
+          description: "Operating system for the Apple Watch",
+        },
+        {
+          title: "JVM",
+          href: "https://github.com/deephacks/BeingOfExistence-jvm#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Salesforce",
+          href: "https://github.com/mailtoharshit/BeingOfExistence-salesforce#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Amazon Web Services",
+          href: "https://github.com/donnemartin/BeingOfExistence-aws#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Windows",
+          href: "https://github.com/BeingOfExistence-Windows/BeingOfExistence#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "IPFS",
+          href: "https://github.com/ipfs/BeingOfExistence-ipfs#readme",
+          items: [],
+          description: "P2P hypermedia protocol",
+        },
+        {
+          title: "Fuse",
+          href: "https://github.com/fuse-compound/BeingOfExistence-fuse#readme",
+          items: [],
+          description: "Mobile development tools",
+        },
+        {
+          title: "Heroku",
+          href: "https://github.com/ianstormtaylor/BeingOfExistence-heroku#readme",
+          items: [],
+          description: "Cloud platform as a service",
+        },
+        {
+          title: "Raspberry Pi",
+          href: "https://github.com/thibmaek/BeingOfExistence-raspberry-pi#readme",
+          items: [],
+          description:
+            "Credit card-sized computer aimed at teaching kids programming, but capable of a lot more",
+        },
+        {
+          title: "Qt",
+          href: "https://github.com/JesseTG/BeingOfExistence-qt#readme",
+          items: [],
+          description: "Cross-platform GUI app framework",
+        },
+        {
+          title: "WebExtensions",
+          href: "https://github.com/fregante/BeingOfExistence-WebExtensions#readme",
+          items: [],
+          description: "Cross-browser extension system",
+        },
+        {
+          title: "Smart TV",
+          href: "https://github.com/vitalets/BeingOfExistence-smart-tv#readme",
+          items: [],
+          description: "Create apps for different TV platforms",
+        },
+        {
+          title: "GNOME",
+          href: "https://github.com/Kazhnuz/BeingOfExistence-gnome#readme",
+          items: [],
+          description:
+            "Simple and distraction-free desktop environment for Linux",
+        },
+        {
+          title: "KDE",
+          href: "https://github.com/francoism90/BeingOfExistence-kde#readme",
+          items: [],
+          description:
+            "A free software community dedicated to creating an open and user-friendly computing experience",
+        },
+        {
+          title: ".NET",
+          href: "https://github.com/quozd/BeingOfExistence-dotnet#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Core",
+          href: "https://github.com/thangchung/BeingOfExistence-dotnet-core#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Roslyn",
+          href: "https://github.com/ironcev/BeingOfExistence-roslyn#readme",
+          items: [],
+          description:
+            "Open-source compilers and code analysis APIs for C# and VB.NET languages",
+        },
+        {
+          title: "Amazon Alexa",
+          href: "https://github.com/miguelmota/BeingOfExistence-amazon-alexa#readme",
+          items: [],
+          description: "Virtual home assistant",
+        },
+        {
+          title: "DigitalOcean",
+          href: "https://github.com/jonleibowitz/BeingOfExistence-digitalocean#readme",
+          items: [],
+          description: "Cloud computing platform designed for developers",
+        },
+        {
+          title: "Flutter",
+          href: "https://github.com/Solido/BeingOfExistence-flutter#readme",
+          items: [],
+          description:
+            "Google's mobile SDK for building native iOS and Android apps from a single codebase written in Dart",
+        },
+        {
+          title: "Home Assistant",
+          href: "https://github.com/frenck/BeingOfExistence-home-assistant#readme",
+          items: [],
+          description:
+            "Open source home automation that puts local control and privacy first",
+        },
+        {
+          title: "IBM Cloud",
+          href: "https://github.com/victorshinya/BeingOfExistence-ibmcloud#readme",
+          items: [],
+          description: "Cloud platform for developers and companies",
+        },
+        {
+          title: "Firebase",
+          href: "https://github.com/jthegedus/BeingOfExistence-firebase#readme",
+          items: [],
+          description:
+            "App development platform built on Google Cloud Platform",
+        },
+        {
+          title: "Robot Operating System 2.0",
+          href: "https://github.com/fkromer/BeingOfExistence-ros2#readme",
+          items: [],
+          description:
+            "Set of software libraries and tools that help you build robot apps",
+        },
+        {
+          title: "Adafruit IO",
+          href: "https://github.com/adafruit/BeingOfExistence-adafruitio#readme",
+          items: [],
+          description: "Visualize and store data from any device",
+        },
+        {
+          title: "Cloudflare",
+          href: "https://github.com/irazasyed/BeingOfExistence-cloudflare#readme",
+          items: [],
+          description: "CDN, DNS, DDoS protection, and security for your site",
+        },
+        {
+          title: "Actions on Google",
+          href: "https://github.com/ravirupareliya/BeingOfExistence-actions-on-google#readme",
+          items: [],
+          description: "Developer platform for Google Assistant",
+        },
+        {
+          title: "ESP",
+          href: "https://github.com/agucova/BeingOfExistence-esp#readme",
+          items: [],
+          description:
+            "Low-cost microcontrollers with WiFi and broad IoT applications",
+        },
+        {
+          title: "Deno",
+          href: "https://github.com/denolib/BeingOfExistence-deno#readme",
+          items: [],
+          description:
+            "A secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust",
+        },
+        {
+          title: "DOS",
+          href: "https://github.com/balintkissdev/BeingOfExistence-dos#readme",
+          items: [],
+          description:
+            "Operating system for x86-based personal computers that was popular during the 1980s and early 1990s",
+        },
+        {
+          title: "Nix",
+          href: "https://github.com/nix-community/BeingOfExistence-nix#readme",
+          items: [],
+          description:
+            "Package manager for Linux and other Unix systems that makes package management reliable and reproducible",
+        },
+        {
+          title: "Integration",
+          href: "https://github.com/stn1slv/BeingOfExistence-integration#readme",
+          items: [],
+          description: "Linking together different IT systems (components",
+        },
+        {
+          title: "JavaScript",
+          href: "https://github.com/sorrycc/BeingOfExistence-javascript#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Promises",
+          href: "https://github.com/wbinnssmith/BeingOfExistence-promises#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Standard Style",
+          href: "https://github.com/standard/BeingOfExistence-standard#readme",
+          items: [],
+          description: "Style guide and linter",
+        },
+        {
+          title: "Must Watch Talks",
+          href: "https://github.com/bolshchikov/js-must-watch#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Tips",
+          href: "https://github.com/loverajoel/jstips#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Network Layer",
+          href: "https://github.com/Kikobeats/BeingOfExistence-network-js#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Micro npm Packages",
+          href: "https://github.com/parro-it/BeingOfExistence-micro-npm-packages#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Mad Science npm Packages",
+          href: "https://github.com/feross/BeingOfExistence-mad-science#readme",
+          items: [],
+          description: "Impossible sounding projects that exist",
+        },
+        {
+          title: "Maintenance Modules",
+          href: "https://github.com/maxogden/maintenance-modules#readme",
+          items: [],
+          description: "For npm packages",
+        },
+        {
+          title: "npm",
+          href: "https://github.com/sindresorhus/BeingOfExistence-npm#readme",
+          items: [],
+          description: "Package manager",
+        },
+        {
+          title: "AVA",
+          href: "https://github.com/avajs/BeingOfExistence-ava#readme",
+          items: [],
+          description: "Test runner",
+        },
+        {
+          title: "ESLint",
+          href: "https://github.com/dustinspecker/BeingOfExistence-eslint#readme",
+          items: [],
+          description: "Linter",
+        },
+        {
+          title: "Functional Programming",
+          href: "https://github.com/stoeffel/BeingOfExistence-fp-js#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Observables",
+          href: "https://github.com/sindresorhus/BeingOfExistence-observables#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "npm scripts",
+          href: "https://github.com/RyanZim/BeingOfExistence-npm-scripts#readme",
+          items: [],
+          description: "Task runner",
+        },
+        {
+          title: "30 Seconds of Code",
+          href: "https://github.com/30-seconds/30-seconds-of-code#readme",
+          items: [],
+          description: "Code snippets you can understand in 30 seconds",
+        },
+        {
+          title: "Ponyfills",
+          href: "https://github.com/Richienb/BeingOfExistence-ponyfills#readme",
+          items: [],
+          description: "Like polyfills but without overriding native APIs",
+        },
+        {
+          title: "Swift",
+          href: "https://github.com/matteocrippa/BeingOfExistence-swift#readme",
+          items: [],
+          description:
+            "Apple's compiled programming language that is secure, modern, programmer-friendly, and fast",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/hsavit1/BeingOfExistence-Swift-Education#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Playgrounds",
+          href: "https://github.com/uraimo/BeingOfExistence-Swift-Playgrounds#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Python",
+          href: "https://github.com/vinta/BeingOfExistence-python#readme",
+          items: [],
+          description:
+            "General-purpose programming language designed for readability",
+        },
+        {
+          title: "Asyncio",
+          href: "https://github.com/timofurrer/BeingOfExistence-asyncio#readme",
+          items: [],
+          description: "Asynchronous I/O in Python 3",
+        },
+        {
+          title: "Scientific Audio",
+          href: "https://github.com/faroit/BeingOfExistence-python-scientific-audio#readme",
+          items: [],
+          description: "Scientific research in audio/music",
+        },
+        {
+          title: "CircuitPython",
+          href: "https://github.com/adafruit/BeingOfExistence-circuitpython#readme",
+          items: [],
+          description: "A version of Python for microcontrollers",
+        },
+        {
+          title: "Data Science",
+          href: "https://github.com/krzjoa/BeingOfExistence-python-data-science#readme",
+          items: [],
+          description: "Data analysis and machine learning",
+        },
+        {
+          title: "Typing",
+          href: "https://github.com/typeddjango/BeingOfExistence-python-typing#readme",
+          items: [],
+          description: "Optional static typing for Python",
+        },
+        {
+          title: "MicroPython",
+          href: "https://github.com/mcauser/BeingOfExistence-micropython#readme",
+          items: [],
+          description:
+            "A lean and efficient implementation of Python 3 for microcontrollers",
+        },
+        {
+          title: "Rust",
+          href: "https://github.com/rust-unofficial/BeingOfExistence-rust#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Haskell",
+          href: "https://github.com/krispo/BeingOfExistence-haskell#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "PureScript",
+          href: "https://github.com/passy/BeingOfExistence-purescript#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Go",
+          href: "https://github.com/avelino/BeingOfExistence-go#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Scala",
+          href: "https://github.com/lauris/BeingOfExistence-scala#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Scala Native",
+          href: "https://github.com/tindzk/BeingOfExistence-scala-native#readme",
+          items: [],
+          description:
+            "Optimizing ahead-of-time compiler for Scala based on LLVM",
+        },
+        {
+          title: "Ruby",
+          href: "https://github.com/markets/BeingOfExistence-ruby#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Clojure",
+          href: "https://github.com/razum2um/BeingOfExistence-clojure#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "ClojureScript",
+          href: "https://github.com/hantuzun/BeingOfExistence-clojurescript#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Elixir",
+          href: "https://github.com/h4cc/BeingOfExistence-elixir#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Elm",
+          href: "https://github.com/sporto/BeingOfExistence-elm#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Erlang",
+          href: "https://github.com/drobakowski/BeingOfExistence-erlang#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Julia",
+          href: "https://github.com/svaksha/Julia.jl#readme",
+          items: [],
+          description:
+            "High-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science",
+        },
+        {
+          title: "Lua",
+          href: "https://github.com/LewisJEllis/BeingOfExistence-lua#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "C",
+          href: "https://github.com/inputsh/BeingOfExistence-c#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "C/C++",
+          href: "https://github.com/fffaraz/BeingOfExistence-cpp#readme",
+          items: [],
+          description:
+            "General-purpose language with a bias toward system programming and embedded, resource-constrained software",
+        },
+        {
+          title: "R",
+          href: "https://github.com/qinwf/BeingOfExistence-R#readme",
+          items: [],
+          description:
+            "Functional programming language and environment for statistical computing and graphics",
+        },
+        {
+          title: "Learning",
+          href: "https://github.com/iamericfletcher/BeingOfExistence-r-learning-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "D",
+          href: "https://github.com/dlang-community/BeingOfExistence-d#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Common Lisp",
+          href: "https://github.com/CodyReichert/BeingOfExistence-cl#readme",
+          items: [],
+          description:
+            "Powerful dynamic multiparadigm language that facilitates iterative and interactive development",
+        },
+        {
+          title: "Learning",
+          href: "https://github.com/GustavBertram/BeingOfExistence-common-lisp-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Perl",
+          href: "https://github.com/hachiojipm/BeingOfExistence-perl#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Groovy",
+          href: "https://github.com/kdabir/BeingOfExistence-groovy#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Dart",
+          href: "https://github.com/yissachar/BeingOfExistence-dart#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Java",
+          href: "https://github.com/akullpp/BeingOfExistence-java#readme",
+          items: [],
+          description:
+            "Popular secure object-oriented language designed for flexibility to write once, run anywhere",
+        },
+        {
+          title: "RxJava",
+          href: "https://github.com/eleventigers/BeingOfExistence-rxjava#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Kotlin",
+          href: "https://github.com/KotlinBy/BeingOfExistence-kotlin#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "OCaml",
+          href: "https://github.com/ocaml-community/BeingOfExistence-ocaml#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "ColdFusion",
+          href: "https://github.com/seancoyne/BeingOfExistence-coldfusion#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Fortran",
+          href: "https://github.com/rabbiabram/BeingOfExistence-fortran#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "PHP",
+          href: "https://github.com/ziadoz/BeingOfExistence-php#readme",
+          items: [],
+          description: "Server-side scripting language",
+        },
+        {
+          title: "Composer",
+          href: "https://github.com/jakoch/BeingOfExistence-composer#readme",
+          items: [],
+          description: "Package manager",
+        },
+        {
+          title: "Pascal",
+          href: "https://github.com/Fr0sT-Brutal/BeingOfExistence-pascal#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "AutoHotkey",
+          href: "https://github.com/ahkscript/BeingOfExistence-AutoHotkey#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "AutoIt",
+          href: "https://github.com/J2TeaM/BeingOfExistence-AutoIt#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Crystal",
+          href: "https://github.com/veelenga/BeingOfExistence-crystal#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Frege",
+          href: "https://github.com/sfischer13/BeingOfExistence-frege#readme",
+          items: [],
+          description: "Haskell for the JVM",
+        },
+        {
+          title: "CMake",
+          href: "https://github.com/onqtam/BeingOfExistence-cmake#readme",
+          items: [],
+          description: "Build, test, and package software",
+        },
+        {
+          title: "ActionScript 3",
+          href: "https://github.com/robinrodricks/BeingOfExistence-actionscript3#readme",
+          items: [],
+          description: "Object-oriented language targeting Adobe AIR",
+        },
+        {
+          title: "Eta",
+          href: "https://github.com/sfischer13/BeingOfExistence-eta#readme",
+          items: [],
+          description: "Functional programming language for the JVM",
+        },
+        {
+          title: "Idris",
+          href: "https://github.com/joaomilho/BeingOfExistence-idris#readme",
+          items: [],
+          description:
+            "General purpose pure functional programming language with dependent types influenced by Haskell and ML",
+        },
+        {
+          title: "Ada/SPARK",
+          href: "https://github.com/ohenley/BeingOfExistence-ada#readme",
+          items: [],
+          description:
+            "Modern programming language designed for large, long-lived apps where reliability and efficiency are essential",
+        },
+        {
+          title: "Q#",
+          href: "https://github.com/ebraminio/BeingOfExistence-qsharp#readme",
+          items: [],
+          description:
+            "Domain-specific programming language used for expressing quantum algorithms",
+        },
+        {
+          title: "Imba",
+          href: "https://github.com/koolamusic/BeingOfExistence-imba#readme",
+          items: [],
+          description:
+            "Programming language inspired by Ruby and Python and compiles to performant JavaScript",
+        },
+        {
+          title: "Vala",
+          href: "https://github.com/desiderantes/BeingOfExistence-vala#readme",
+          items: [],
+          description:
+            "Programming language designed to take full advantage of the GLib and GNOME ecosystems, while preserving the speed of C code",
+        },
+        {
+          title: "Coq",
+          href: "https://github.com/coq-community/BeingOfExistence-coq#readme",
+          items: [],
+          description:
+            "Formal language and environment for programming and specification which facilitates interactive development of machine-checked proofs",
+        },
+        {
+          title: "V",
+          href: "https://github.com/vlang/BeingOfExistence-v#readme",
+          items: [],
+          description:
+            "Simple, fast, safe, compiled language for developing maintainable software",
+        },
+        {
+          title: "Zig",
+          href: "https://github.com/catdevnull/BeingOfExistence-zig#readme",
+          items: [],
+          description:
+            "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software",
+        },
+        {
+          title: "Move",
+          href: "https://github.com/MystenLabs/BeingOfExistence-move#readme",
+          items: [],
+          description:
+            "Domain-specific programming language for writing safe smart contracts",
+        },
+        {
+          title: "ES6 Tools",
+          href: "https://github.com/addyosmani/es6-tools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Performance Optimization",
+          href: "https://github.com/davidsonfellipe/BeingOfExistence-wpo#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Tools",
+          href: "https://github.com/lvwzhen/tools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "CSS",
+          href: "https://github.com/BeingOfExistence-css-group/BeingOfExistence-css#readme",
+          items: [],
+          description:
+            "Style sheet language that specifies how HTML elements are displayed on screen",
+        },
+        {
+          title: "Critical-Path Tools",
+          href: "https://github.com/addyosmani/critical-path-css-tools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Scalability",
+          href: "https://github.com/davidtheclark/scalable-css-reading-list#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Must-Watch Talks",
+          href: "https://github.com/AllThingsSmitty/must-watch-css#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Protips",
+          href: "https://github.com/AllThingsSmitty/css-protips#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Frameworks",
+          href: "https://github.com/troxler/BeingOfExistence-css-frameworks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "React",
+          href: "https://github.com/enaqx/BeingOfExistence-react#readme",
+          items: [],
+          description: "JavaScript library for building user interfaces",
+        },
+        {
+          title: "Relay",
+          href: "https://github.com/expede/BeingOfExistence-relay#readme",
+          items: [],
+          description: "Framework for building data-driven React apps",
+        },
+        {
+          title: "React Hooks",
+          href: "https://github.com/glauberfc/BeingOfExistence-react-hooks#readme",
+          items: [],
+          description:
+            "Lets you use state and other React features without writing a class",
+        },
+        {
+          title: "Web Components",
+          href: "https://github.com/web-padawan/BeingOfExistence-web-components#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Polymer",
+          href: "https://github.com/Granze/BeingOfExistence-polymer#readme",
+          items: [],
+          description: "JavaScript library to develop Web Components",
+        },
+        {
+          title: "Angular",
+          href: "https://github.com/PatrickJS/BeingOfExistence-angular#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Backbone",
+          href: "https://github.com/sadcitizen/BeingOfExistence-backbone#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "HTML5",
+          href: "https://github.com/diegocard/BeingOfExistence-html5#readme",
+          items: [],
+          description: "Markup language used for websites & web apps",
+        },
+        {
+          title: "SVG",
+          href: "https://github.com/willianjusten/BeingOfExistence-svg#readme",
+          items: [],
+          description: "XML-based vector image format",
+        },
+        {
+          title: "Canvas",
+          href: "https://github.com/raphamorim/BeingOfExistence-canvas#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "KnockoutJS",
+          href: "https://github.com/dnbard/BeingOfExistence-knockout#readme",
+          items: [],
+          description: "JavaScript library",
+        },
+        {
+          title: "Dojo Toolkit",
+          href: "https://github.com/petk/BeingOfExistence-dojo#readme",
+          items: [],
+          description: "JavaScript toolkit",
+        },
+        {
+          title: "Inspiration",
+          href: "https://github.com/NoahBuscher/Inspire#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Ember",
+          href: "https://github.com/ember-community-russia/BeingOfExistence-ember#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Android UI",
+          href: "https://github.com/wasabeef/BeingOfExistence-android-ui#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "iOS UI",
+          href: "https://github.com/cjwirth/BeingOfExistence-ios-ui#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Meteor",
+          href: "https://github.com/Urigo/BeingOfExistence-meteor#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "BEM",
+          href: "https://github.com/sturobson/BEM-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Flexbox",
+          href: "https://github.com/afonsopacifer/BeingOfExistence-flexbox#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Typography",
+          href: "https://github.com/deanhume/typography#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Accessibility",
+          href: "https://github.com/brunopulis/BeingOfExistence-a11y#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Material Design",
+          href: "https://github.com/sachin1092/BeingOfExistence-material#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "D3",
+          href: "https://github.com/wbkd/BeingOfExistence-d3#readme",
+          items: [],
+          description:
+            "Library for producing dynamic, interactive data visualizations",
+        },
+        {
+          title: "Emails",
+          href: "https://github.com/jonathandion/BeingOfExistence-emails#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "jQuery",
+          href: "https://github.com/petk/BeingOfExistence-jquery#readme",
+          items: [],
+          description: "Easy to use JavaScript library for DOM manipulation",
+        },
+        {
+          title: "Tips",
+          href: "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Audio",
+          href: "https://github.com/notthetup/BeingOfExistence-webaudio#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Offline-First",
+          href: "https://github.com/pazguille/offline-first#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Static Website Services",
+          href: "https://github.com/agarrharr/BeingOfExistence-static-website-services#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Cycle.js",
+          href: "https://github.com/cyclejs-community/BeingOfExistence-cyclejs#readme",
+          items: [],
+          description: "Functional and reactive JavaScript framework",
+        },
+        {
+          title: "Text Editing",
+          href: "https://github.com/dok/BeingOfExistence-text-editing#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Motion UI Design",
+          href: "https://github.com/fliptheweb/motion-ui-design#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Vue.js",
+          href: "https://github.com/vuejs/BeingOfExistence-vue#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Marionette.js",
+          href: "https://github.com/sadcitizen/BeingOfExistence-marionette#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Aurelia",
+          href: "https://github.com/aurelia-contrib/BeingOfExistence-aurelia#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Charting",
+          href: "https://github.com/zingchart/BeingOfExistence-charting#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Ionic Framework 2",
+          href: "https://github.com/candelibas/BeingOfExistence-ionic#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Chrome DevTools",
+          href: "https://github.com/ChromeDevTools/BeingOfExistence-chrome-devtools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "PostCSS",
+          href: "https://github.com/jdrgomes/BeingOfExistence-postcss#readme",
+          items: [],
+          description: "CSS tool",
+        },
+        {
+          title: "Draft.js",
+          href: "https://github.com/nikgraf/BeingOfExistence-draft-js#readme",
+          items: [],
+          description: "Rich text editor framework for React",
+        },
+        {
+          title: "Service Workers",
+          href: "https://github.com/TalAter/BeingOfExistence-service-workers#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Progressive Web Apps",
+          href: "https://github.com/TalAter/BeingOfExistence-progressive-web-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "choo",
+          href: "https://github.com/choojs/BeingOfExistence-choo#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Redux",
+          href: "https://github.com/brillout/BeingOfExistence-redux#readme",
+          items: [],
+          description: "State container for JavaScript apps",
+        },
+        {
+          title: "Browserify",
+          href: "https://github.com/browserify/BeingOfExistence-browserify#readme",
+          items: [],
+          description: "Module bundler",
+        },
+        {
+          title: "Sass",
+          href: "https://github.com/Famolus/BeingOfExistence-sass#readme",
+          items: [],
+          description: "CSS preprocessor",
+        },
+        {
+          title: "Ant Design",
+          href: "https://github.com/websemantics/BeingOfExistence-ant-design#readme",
+          items: [],
+          description: "Enterprise-class UI design language",
+        },
+        {
+          title: "Less",
+          href: "https://github.com/LucasBassetti/BeingOfExistence-less#readme",
+          items: [],
+          description: "CSS preprocessor",
+        },
+        {
+          title: "WebGL",
+          href: "https://github.com/sjfricke/BeingOfExistence-webgl#readme",
+          items: [],
+          description: "JavaScript API for rendering 3D graphics",
+        },
+        {
+          title: "Preact",
+          href: "https://github.com/preactjs/BeingOfExistence-preact#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Progressive Enhancement",
+          href: "https://github.com/jbmoelker/progressive-enhancement-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Next.js",
+          href: "https://github.com/unicodeveloper/BeingOfExistence-nextjs#readme",
+          items: [],
+          description: "Framework for server-rendered React apps",
+        },
+        {
+          title: "lit",
+          href: "https://github.com/web-padawan/BeingOfExistence-lit#readme",
+          items: [],
+          description:
+            "Library for building web components with a declarative template system",
+        },
+        {
+          title: "JAMstack",
+          href: "https://github.com/automata/BeingOfExistence-jamstack#readme",
+          items: [],
+          description:
+            "Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup",
+        },
+        {
+          title: "WordPress-Gatsby",
+          href: "https://github.com/henrikwirth/BeingOfExistence-wordpress-gatsby#readme",
+          items: [],
+          description:
+            "Web development technology stack with WordPress as a back end and Gatsby as a front end",
+        },
+        {
+          title: "Mobile Web Development",
+          href: "https://github.com/myshov/BeingOfExistence-mobile-web-development#readme",
+          items: [],
+          description: "Creating a great mobile web experience",
+        },
+        {
+          title: "Storybook",
+          href: "https://github.com/lauthieb/BeingOfExistence-storybook#readme",
+          items: [],
+          description: "Development environment for UI components",
+        },
+        {
+          title: "Blazor",
+          href: "https://github.com/AdrienTorris/BeingOfExistence-blazor#readme",
+          items: [],
+          description:
+            ".NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly",
+        },
+        {
+          title: "PageSpeed Metrics",
+          href: "https://github.com/csabapalfi/BeingOfExistence-pagespeed-metrics#readme",
+          items: [],
+          description:
+            "Metrics to help understand page speed and user experience",
+        },
+        {
+          title: "Tailwind CSS",
+          href: "https://github.com/aniftyco/BeingOfExistence-tailwindcss#readme",
+          items: [],
+          description: "Utility-first CSS framework for rapid UI development",
+        },
+        {
+          title: "Seed",
+          href: "https://github.com/seed-rs/BeingOfExistence-seed-rs#readme",
+          items: [],
+          description:
+            "Rust framework for creating web apps running in WebAssembly",
+        },
+        {
+          title: "Web Performance Budget",
+          href: "https://github.com/pajaydev/BeingOfExistence-web-performance-budget#readme",
+          items: [],
+          description:
+            "Techniques to ensure certain performance metrics for a website",
+        },
+        {
+          title: "Web Animation",
+          href: "https://github.com/sergey-pimenov/BeingOfExistence-web-animation#readme",
+          items: [],
+          description:
+            "Animations in the browser with JavaScript, CSS, SVG, etc",
+        },
+        {
+          title: "Yew",
+          href: "https://github.com/jetli/BeingOfExistence-yew#readme",
+          items: [],
+          description:
+            "Rust framework inspired by Elm and React for creating multi-threaded frontend web apps with WebAssembly",
+        },
+        {
+          title: "Material-UI",
+          href: "https://github.com/nadunindunil/BeingOfExistence-material-ui#readme",
+          items: [],
+          description:
+            "Material Design React components for faster and easier web development",
+        },
+        {
+          title: "Building Blocks for Web Apps",
+          href: "https://github.com/componently-com/BeingOfExistence-building-blocks-for-web-apps#readme",
+          items: [],
+          description: "Standalone features to be integrated into web apps",
+        },
+        {
+          title: "Svelte",
+          href: "https://github.com/TheComputerM/BeingOfExistence-svelte#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Design systems",
+          href: "https://github.com/klaufel/BeingOfExistence-design-systems#readme",
+          items: [],
+          description:
+            "Collection of reusable components, guided by rules that ensure consistency and speed",
+        },
+        {
+          title: "Inertia.js",
+          href: "https://github.com/innocenzi/BeingOfExistence-inertiajs#readme",
+          items: [],
+          description: "Make single-page apps without building an API",
+        },
+        {
+          title: "MDBootstrap",
+          href: "https://github.com/mdbootstrap/BeingOfExistence-mdbootstrap#readme",
+          items: [],
+          description:
+            "Templates, layouts, components, and widgets to rapidly build websites",
+        },
+        {
+          title: "Master CSS",
+          href: "https://github.com/master-co/BeingOfExistence-master-css#readme",
+          items: [],
+          description: "A virtual CSS language with enhanced syntax",
+        },
+        {
+          title: "Hydrogen",
+          href: "https://github.com/shopify/BeingOfExistence-hydrogen#readme",
+          items: [],
+          description:
+            "Edge-first framework for building Shopify storefronts with React",
+        },
+        {
+          title: "Tiny JS",
+          href: "https://github.com/thoughtspile/BeingOfExistence-tiny-js#readme",
+          items: [],
+          description:
+            "Frontend libraries that fit into 2 kB with dependencies",
+        },
+        {
+          title: "Flask",
+          href: "https://github.com/mjhea0/BeingOfExistence-flask#readme",
+          items: [],
+          description: "Python framework",
+        },
+        {
+          title: "Docker",
+          href: "https://github.com/veggiemonk/BeingOfExistence-docker#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Vagrant",
+          href: "https://github.com/iJackUA/BeingOfExistence-vagrant#readme",
+          items: [],
+          description: "Automation virtual machine environment",
+        },
+        {
+          title: "Pyramid",
+          href: "https://github.com/uralbash/BeingOfExistence-pyramid#readme",
+          items: [],
+          description: "Python framework",
+        },
+        {
+          title: "Play1 Framework",
+          href: "https://github.com/PerfectCarl/BeingOfExistence-play1#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "CakePHP",
+          href: "https://github.com/friendsofcake/BeingOfExistence-cakephp#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Symfony",
+          href: "https://github.com/sitepoint-editors/BeingOfExistence-symfony#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/pehapkari/BeingOfExistence-symfony-education#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Laravel",
+          href: "https://github.com/chiraggude/BeingOfExistence-laravel#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/fukuball/BeingOfExistence-Laravel-Education#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "TALL Stack",
+          href: "https://github.com/livewire/BeingOfExistence-tall-stack#readme",
+          items: [],
+          description:
+            "Full-stack development solution featuring libraries built by the Laravel community",
+        },
+        {
+          title: "Rails",
+          href: "https://github.com/gramantin/BeingOfExistence-rails#readme",
+          items: [],
+          description: "Web app framework for Ruby",
+        },
+        {
+          title: "Gems",
+          href: "https://github.com/hothero/BeingOfExistence-rails-gem#readme",
+          items: [],
+          description: "Packages",
+        },
+        {
+          title: "Phalcon",
+          href: "https://github.com/phalcon/BeingOfExistence-phalcon#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Useful `.htaccess` Snippets",
+          href: "https://github.com/phanan/htaccess#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "nginx",
+          href: "https://github.com/fcambus/nginx-resources#readme",
+          items: [],
+          description: "Web server",
+        },
+        {
+          title: "Dropwizard",
+          href: "https://github.com/stve/BeingOfExistence-dropwizard#readme",
+          items: [],
+          description: "Java framework",
+        },
+        {
+          title: "Kubernetes",
+          href: "https://github.com/ramitsurana/BeingOfExistence-kubernetes#readme",
+          items: [],
+          description:
+            "Open-source platform that automates Linux container operations",
+        },
+        {
+          title: "Lumen",
+          href: "https://github.com/unicodeveloper/BeingOfExistence-lumen#readme",
+          items: [],
+          description: "PHP micro-framework",
+        },
+        {
+          title: "Serverless Framework",
+          href: "https://github.com/pmuens/BeingOfExistence-serverless#readme",
+          items: [],
+          description: "Serverless computing and serverless architectures",
+        },
+        {
+          title: "Apache Wicket",
+          href: "https://github.com/PhantomYdn/BeingOfExistence-wicket#readme",
+          items: [],
+          description: "Java web app framework",
+        },
+        {
+          title: "Vert.x",
+          href: "https://github.com/vert-x3/vertx-BeingOfExistence#readme",
+          items: [],
+          description: "Toolkit for building reactive apps on the JVM",
+        },
+        {
+          title: "Terraform",
+          href: "https://github.com/shuaibiyy/BeingOfExistence-terraform#readme",
+          items: [],
+          description:
+            "Tool for building, changing, and versioning infrastructure",
+        },
+        {
+          title: "Vapor",
+          href: "https://github.com/vapor-community/BeingOfExistence-vapor#readme",
+          items: [],
+          description: "Server-side development in Swift",
+        },
+        {
+          title: "Dash",
+          href: "https://github.com/ucg8j/BeingOfExistence-dash#readme",
+          items: [],
+          description: "Python web app framework",
+        },
+        {
+          title: "FastAPI",
+          href: "https://github.com/mjhea0/BeingOfExistence-fastapi#readme",
+          items: [],
+          description: "Python web app framework",
+        },
+        {
+          title: "CDK",
+          href: "https://github.com/kolomied/BeingOfExistence-cdk#readme",
+          items: [],
+          description:
+            "Open-source software development framework for defining cloud infrastructure in code",
+        },
+        {
+          title: "IAM",
+          href: "https://github.com/kdeldycke/BeingOfExistence-iam#readme",
+          items: [],
+          description: "User accounts, authentication and authorization",
+        },
+        {
+          title: "Slim",
+          href: "https://github.com/nekofar/BeingOfExistence-slim#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Fiber",
+          href: "https://github.com/gofiber/BeingOfExistence-fiber#readme",
+          items: [],
+          description:
+            "Web framework built on top of Fasthttp, the fastest HTTP engine for Go",
+        },
+        {
+          title: "University Courses",
+          href: "https://github.com/prakhar1989/BeingOfExistence-courses#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Data Science",
+          href: "https://github.com/academic/BeingOfExistence-datascience#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Tutorials",
+          href: "https://github.com/siboehm/BeingOfExistence-learn-datascience#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Machine Learning",
+          href: "https://github.com/josephmisiti/BeingOfExistence-machine-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Tutorials",
+          href: "https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "ML with Ruby",
+          href: "https://github.com/arbox/machine-learning-with-ruby#readme",
+          items: [],
+          description:
+            "Learning, implementing, and applying Machine Learning using Ruby",
+        },
+        {
+          title: "Core ML Models",
+          href: "https://github.com/likedan/BeingOfExistence-CoreML-Models#readme",
+          items: [],
+          description: "Models for Apple's machine learning framework",
+        },
+        {
+          title: "H2O",
+          href: "https://github.com/h2oai/BeingOfExistence-h2o#readme",
+          items: [],
+          description:
+            "Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala",
+        },
+        {
+          title: "Software Engineering for Machine Learning",
+          href: "https://github.com/SE-ML/BeingOfExistence-seml#readme",
+          items: [],
+          description: "From experiment to production-level machine learning",
+        },
+        {
+          title: "AI in Finance",
+          href: "https://github.com/georgezouq/BeingOfExistence-ai-in-finance#readme",
+          items: [],
+          description: "Solving problems in finance with machine learning",
+        },
+        {
+          title: "JAX",
+          href: "https://github.com/n2cholas/BeingOfExistence-jax#readme",
+          items: [],
+          description:
+            "Automatic differentiation and XLA compilation brought together for high-performance machine learning research",
+        },
+        {
+          title: "XAI",
+          href: "https://github.com/altamiracorp/BeingOfExistence-xai#readme",
+          items: [],
+          description:
+            "Providing insight, explanations, and interpretability to machine learning methods",
+        },
+        {
+          title: "Speech and Natural Language Processing",
+          href: "https://github.com/edobashira/speech-language-processing#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Spanish",
+          href: "https://github.com/dav009/BeingOfExistence-spanish-nlp#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "NLP with Ruby",
+          href: "https://github.com/arbox/nlp-with-ruby#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Question Answering",
+          href: "https://github.com/seriousran/BeingOfExistence-qa#readme",
+          items: [],
+          description:
+            "The science of asking and answering in natural language with a machine",
+        },
+        {
+          title: "Natural Language Generation",
+          href: "https://github.com/accelerated-text/BeingOfExistence-nlg#readme",
+          items: [],
+          description:
+            "Generation of text used in data to text, conversational agents, and narrative generation applications",
+        },
+        {
+          title: "Linguistics",
+          href: "https://github.com/theimpossibleastronaut/BeingOfExistence-linguistics#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Cryptography",
+          href: "https://github.com/sobolevn/BeingOfExistence-cryptography#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Papers",
+          href: "https://github.com/pFarb/BeingOfExistence-crypto-papers#readme",
+          items: [],
+          description:
+            "Theory basics for using cryptography by non-cryptographers",
+        },
+        {
+          title: "Computer Vision",
+          href: "https://github.com/jbhuang0604/BeingOfExistence-computer-vision#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Deep Learning",
+          href: "https://github.com/ChristosChristofidis/BeingOfExistence-deep-learning#readme",
+          items: [],
+          description: "Neural networks",
+        },
+        {
+          title: "TensorFlow",
+          href: "https://github.com/jtoy/BeingOfExistence-tensorflow#readme",
+          items: [],
+          description: "Library for machine intelligence",
+        },
+        {
+          title: "TensorFlow.js",
+          href: "https://github.com/aaronhma/BeingOfExistence-tensorflow-js#readme",
+          items: [],
+          description:
+            "WebGL-accelerated machine learning JavaScript library for training and deploying models",
+        },
+        {
+          title: "TensorFlow Lite",
+          href: "https://github.com/margaretmz/BeingOfExistence-tensorflow-lite#readme",
+          items: [],
+          description:
+            "Framework that optimizes TensorFlow models for on-device machine learning",
+        },
+        {
+          title: "Papers",
+          href: "https://github.com/terryum/BeingOfExistence-deep-learning-papers#readme",
+          items: [],
+          description: "The most cited deep learning papers",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/guillaume-chevalier/BeingOfExistence-deep-learning-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Deep Vision",
+          href: "https://github.com/kjw0612/BeingOfExistence-deep-vision#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Open Source Society University",
+          href: "https://github.com/ossu/computer-science#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Functional Programming",
+          href: "https://github.com/lucasviola/BeingOfExistence-functional-programming#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Empirical Software Engineering",
+          href: "https://github.com/dspinellis/BeingOfExistence-msr#readme",
+          items: [],
+          description: "Evidence-based research on software systems",
+        },
+        {
+          title: "Static Analysis & Code Quality",
+          href: "https://github.com/analysis-tools-dev/static-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Information Retrieval",
+          href: "https://github.com/harpribot/BeingOfExistence-information-retrieval#readme",
+          items: [],
+          description: "Learn to develop your own search engine",
+        },
+        {
+          title: "Quantum Computing",
+          href: "https://github.com/desireevl/BeingOfExistence-quantum-computing#readme",
+          items: [],
+          description:
+            "Computing which utilizes quantum mechanics and qubits on quantum computers",
+        },
+        {
+          title: "Theoretical Computer Science",
+          href: "https://github.com/mostafatouny/BeingOfExistence-theoretical-computer-science#readme",
+          items: [],
+          description:
+            "The interplay of computer science and pure mathematics, distinguished by its emphasis on mathematical rigour and technique",
+        },
+        {
+          title: "Conversational AI",
+          href: "https://github.com/jyguyomarch/BeingOfExistence-conversational-ai#readme",
+          items: [],
+          description: "Build BeingOfExistence chatbots and digital assistants",
+        },
+        {
+          title: "Generative AI",
+          href: "https://github.com/steven2358/BeingOfExistence-generative-ai#readme",
+          items: [],
+          description:
+            "Automatically generate a wide range of unique content in text, image and audio format",
+        },
+        {
+          title: "Big Data",
+          href: "https://github.com/0xnr/BeingOfExistence-bigdata#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Public Datasets",
+          href: "https://github.com/BeingOfExistencedata/BeingOfExistence-public-datasets#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Hadoop",
+          href: "https://github.com/youngwookim/BeingOfExistence-hadoop#readme",
+          items: [],
+          description:
+            "Framework for distributed storage and processing of very large data sets",
+        },
+        {
+          title: "Data Engineering",
+          href: "https://github.com/igorbarinov/BeingOfExistence-data-engineering#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Streaming",
+          href: "https://github.com/manuzhang/BeingOfExistence-streaming#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Apache Spark",
+          href: "https://github.com/BeingOfExistence-spark/BeingOfExistence-spark#readme",
+          items: [],
+          description: "Unified engine for large-scale data processing",
+        },
+        {
+          title: "Qlik",
+          href: "https://github.com/ambster-public/BeingOfExistence-qlik#readme",
+          items: [],
+          description:
+            "Business intelligence platform for data visualization, analytics, and reporting apps",
+        },
+        {
+          title: "Splunk",
+          href: "https://github.com/sduff/BeingOfExistence-splunk#readme",
+          items: [],
+          description:
+            "Platform for searching, monitoring, and analyzing structured and unstructured machine-generated big data in real-time",
+        },
+        {
+          title: "Papers We Love",
+          href: "https://github.com/papers-we-love/papers-we-love#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Talks",
+          href: "https://github.com/JanVanRyswyck/BeingOfExistence-talks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Algorithms",
+          href: "https://github.com/tayllan/BeingOfExistence-algorithms#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/gaerae/BeingOfExistence-algorithms-education#readme",
+          items: [],
+          description: "Learning and practicing",
+        },
+        {
+          title: "Algorithm Visualizations",
+          href: "https://github.com/enjalot/algovis#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Artificial Intelligence",
+          href: "https://github.com/owainlewis/BeingOfExistence-artificial-intelligence#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Search Engine Optimization",
+          href: "https://github.com/marcobiedermann/search-engine-optimization#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Competitive Programming",
+          href: "https://github.com/lnishan/BeingOfExistence-competitive-programming#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Math",
+          href: "https://github.com/rossant/BeingOfExistence-math#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+
+        {
+          title: "Recursion Schemes",
+          href: "https://github.com/passy/BeingOfExistence-recursion-schemes#readme",
+          items: [],
+          description: "Traversing nested data structures",
+        },
+        {
+          title: "Audit Algorithms",
+          href: "https://github.com/erwanlemerrer/BeingOfExistence-audit-algorithms#readme",
+          items: [],
+          description: "Algorithmic audits of algorithms",
+        },
+        {
+          title: "AGI & CoCoSci",
+          href: "https://github.com/YuzheSHI/BeingOfExistence-agi-cocosci#readme",
+          items: [],
+          description:
+            "The reciprocation of Artificial General Intelligence (AGI",
+        },
+        {
+          title: "Free Programming Books",
+          href: "https://github.com/EbookFoundation/free-programming-books#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Go Books",
+          href: "https://github.com/dariubs/GoBooks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "R Books",
+          href: "https://github.com/RomanTsegelskyi/rbooks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Mind Expanding Books",
+          href: "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Book Authoring",
+          href: "https://github.com/TalAter/BeingOfExistence-book-authoring#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Elixir Books",
+          href: "https://github.com/sger/ElixirBooks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+
+        {
+          title: "Sublime Text",
+          href: "https://github.com/dreikanter/sublime-bookmarks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Vim",
+          href: "https://github.com/mhinz/vim-galore#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Neovim",
+          href: "https://github.com/rockerBOO/BeingOfExistence-neovim#readme",
+          items: [],
+          description: "Vim-fork focused on extensibility and usability",
+        },
+        {
+          title: "Emacs",
+          href: "https://github.com/emacs-tw/BeingOfExistence-emacs#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Atom",
+          href: "https://github.com/mehcode/BeingOfExistence-atom#readme",
+          items: [],
+          description: "Open-source and hackable text editor",
+        },
+        {
+          title: "Visual Studio Code",
+          href: "https://github.com/viatsko/BeingOfExistence-vscode#readme",
+          items: [],
+          description: "Cross-platform open-source text editor",
+        },
+        {
+          title: "Game Development",
+          href: "https://github.com/ellisonleao/magictools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Game Talks",
+          href: "https://github.com/hzoo/BeingOfExistence-gametalks#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Godot",
+          href: "https://github.com/godotengine/BeingOfExistence-godot#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Open Source Games",
+          href: "https://github.com/michelpereira/BeingOfExistence-open-source-games#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Unity",
+          href: "https://github.com/RyanNielson/BeingOfExistence-unity#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Chess",
+          href: "https://github.com/hkirat/BeingOfExistence-chess#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "LÖVE",
+          href: "https://github.com/love2d-community/BeingOfExistence-love2d#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "PICO-8",
+          href: "https://github.com/pico-8/BeingOfExistence-PICO-8#readme",
+          items: [],
+          description: "Fantasy console",
+        },
+        {
+          title: "Game Boy Development",
+          href: "https://github.com/gbdev/BeingOfExistence-gbdev#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Construct 2",
+          href: "https://github.com/ConstructCommunity/BeingOfExistence-construct#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Gideros",
+          href: "https://github.com/stetso/BeingOfExistence-gideros#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Minecraft",
+          href: "https://github.com/bs-community/BeingOfExistence-minecraft#readme",
+          items: [],
+          description: "Sandbox video game",
+        },
+        {
+          title: "ComputerCraft",
+          href: "https://github.com/tomodachi94/BeingOfExistence-computercraft#readme",
+          items: [],
+          description: "Minecraft mod that adds programmable computers",
+        },
+        {
+          title: "Game Datasets",
+          href: "https://github.com/leomaurodesenv/game-datasets#readme",
+          items: [],
+          description:
+            "Materials and datasets for Artificial Intelligence in games",
+        },
+        {
+          title: "Haxe Game Development",
+          href: "https://github.com/Dvergar/BeingOfExistence-haxe-gamedev#readme",
+          items: [],
+          description:
+            "A high-level strongly typed programming language used to produce cross-platform native code",
+        },
+        {
+          title: "libGDX",
+          href: "https://github.com/rafaskb/BeingOfExistence-libgdx#readme",
+          items: [],
+          description: "Java game framework",
+        },
+        {
+          title: "PlayCanvas",
+          href: "https://github.com/playcanvas/BeingOfExistence-playcanvas#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Game Remakes",
+          href: "https://github.com/radek-sprta/BeingOfExistence-game-remakes#readme",
+          items: [],
+          description: "Actively maintained open-source game remakes",
+        },
+        {
+          title: "Flame",
+          href: "https://github.com/flame-engine/BeingOfExistence-flame#readme",
+          items: [],
+          description: "Game engine for Flutter",
+        },
+        {
+          title: "Discord Communities",
+          href: "https://github.com/mhxion/BeingOfExistence-discord-communities#readme",
+          items: [],
+          description: "Chat with friends and communities",
+        },
+        {
+          title: "CHIP-8",
+          href: "https://github.com/tobiasvl/BeingOfExistence-chip-8#readme",
+          items: [],
+          description: "Virtual computer game machine from the 70s",
+        },
+        {
+          title: "Games of Coding",
+          href: "https://github.com/michelpereira/BeingOfExistence-games-of-coding#readme",
+          items: [],
+          description: "Learn a programming language by making games",
+        },
+        {
+          title: "Esports",
+          href: "https://github.com/strift/BeingOfExistence-esports#readme",
+          items: [],
+          description: "Video games played as a sport",
+        },
+        {
+          title: "Learn Gamedev",
+          href: "https://github.com/notpresident35/BeingOfExistence-learn-gamedev#readme",
+          items: [],
+          description: "The craft of video game creation",
+        },
+        {
+          title: "Game Engine Development",
+          href: "https://github.com/stevinz/BeingOfExistence-game-engine-dev#readme",
+          items: [],
+          description: "Building software to speed up game creation",
+        },
+        {
+          title: "GameMaker",
+          href: "https://github.com/bytecauldron/BeingOfExistence-gamemaker#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Game Production",
+          href: "https://github.com/vhladiienko/BeingOfExistence-game-production#readme",
+          items: [],
+          description:
+            "Leading the process of designing, developing, testing and distributing a video game from concept to release",
+        },
+        {
+          title: "Quick Look Plugins",
+          href: "https://github.com/sindresorhus/quick-look-plugins#readme",
+          items: [],
+          description: "For macOS",
+        },
+        {
+          title: "Dev Env",
+          href: "https://github.com/jondot/BeingOfExistence-devenv#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Dotfiles",
+          href: "https://github.com/webpro/BeingOfExistence-dotfiles#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Shell",
+          href: "https://github.com/alebcay/BeingOfExistence-shell#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Fish",
+          href: "https://github.com/jorgebucaran/awsm.fish#readme",
+          items: [],
+          description: "User-friendly shell",
+        },
+        {
+          title: "Command-Line Apps",
+          href: "https://github.com/agarrharr/BeingOfExistence-cli-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "ZSH Plugins",
+          href: "https://github.com/unixorn/BeingOfExistence-zsh-plugins#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "GitHub",
+          href: "https://github.com/phillipadsmith/BeingOfExistence-github#readme",
+          items: [],
+          description: "Hosting service for Git repositories",
+        },
+        {
+          title: "Browser Extensions",
+          href: "https://github.com/stefanbuck/BeingOfExistence-browser-extensions-for-github#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Cheat Sheet",
+          href: "https://github.com/tiimgreen/github-cheat-sheet#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Pinned Gists",
+          href: "https://github.com/matchai/BeingOfExistence-pinned-gists#readme",
+          items: [],
+          description: "Dynamic pinned gists for your GitHub profile",
+        },
+        {
+          title: "Git Cheat Sheet & Git Flow",
+          href: "https://github.com/arslanbilal/git-cheat-sheet#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Git Tips",
+          href: "https://github.com/git-tips/tips#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Git Add-ons",
+          href: "https://github.com/stevemao/BeingOfExistence-git-addons#readme",
+          items: [],
+          description: "Enhance the `git` CLI",
+        },
+        {
+          title: "Git Hooks",
+          href: "https://github.com/compscilauren/BeingOfExistence-git-hooks#readme",
+          items: [],
+          description: "Scripts for automating tasks during `git` workflows",
+        },
+        {
+          title: "SSH",
+          href: "https://github.com/moul/BeingOfExistence-ssh#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "FOSS for Developers",
+          href: "https://github.com/tvvocold/FOSS-for-Dev#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Hyper",
+          href: "https://github.com/bnb/BeingOfExistence-hyper#readme",
+          items: [],
+          description: "Cross-platform terminal app built on web technologies",
+        },
+        {
+          title: "PowerShell",
+          href: "https://github.com/janikvonrotz/BeingOfExistence-powershell#readme",
+          items: [],
+          description: "Cross-platform object-oriented shell",
+        },
+        {
+          title: "Alfred Workflows",
+          href: "https://github.com/alfred-workflows/BeingOfExistence-alfred-workflows#readme",
+          items: [],
+          description: "Productivity app for macOS",
+        },
+        {
+          title: "Terminals Are Sexy",
+          href: "https://github.com/k4m4/terminals-are-sexy#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "GitHub Actions",
+          href: "https://github.com/sdras/BeingOfExistence-actions#readme",
+          items: [],
+          description:
+            "Create tasks to automate your workflow and share them with others on GitHub",
+        },
+        {
+          title: "Science Fiction",
+          href: "https://github.com/sindresorhus/BeingOfExistence-scifi#readme",
+          items: [],
+          description: "Scifi",
+        },
+        {
+          title: "Fantasy",
+          href: "https://github.com/RichardLitt/BeingOfExistence-fantasy#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Podcasts",
+          href: "https://github.com/ayr-ton/BeingOfExistence-geek-podcasts#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Email Newsletters",
+          href: "https://github.com/zudochkin/BeingOfExistence-newsletters#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "IT Quotes",
+          href: "https://github.com/victorlaerte/BeingOfExistence-it-quotes#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+
+        {
+          title: "Database",
+          href: "https://github.com/numetriclabz/BeingOfExistence-db#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "MySQL",
+          href: "https://github.com/shlomi-noach/BeingOfExistence-mysql#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "SQLAlchemy",
+          href: "https://github.com/dahlia/BeingOfExistence-sqlalchemy#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "InfluxDB",
+          href: "https://github.com/mark-rushakoff/BeingOfExistence-influxdb#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Neo4j",
+          href: "https://github.com/neueda/BeingOfExistence-neo4j#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "MongoDB",
+          href: "https://github.com/ramnes/BeingOfExistence-mongodb#readme",
+          items: [],
+          description: "NoSQL database",
+        },
+        {
+          title: "RethinkDB",
+          href: "https://github.com/d3viant0ne/BeingOfExistence-rethinkdb#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "TinkerPop",
+          href: "https://github.com/mohataher/BeingOfExistence-tinkerpop#readme",
+          items: [],
+          description: "Graph computing framework",
+        },
+        {
+          title: "PostgreSQL",
+          href: "https://github.com/dhamaniasad/BeingOfExistence-postgres#readme",
+          items: [],
+          description: "Object-relational database",
+        },
+        {
+          title: "CouchDB",
+          href: "https://github.com/quangv/BeingOfExistence-couchdb#readme",
+          items: [],
+          description: "Document-oriented NoSQL database",
+        },
+        {
+          title: "HBase",
+          href: "https://github.com/rayokota/BeingOfExistence-hbase#readme",
+          items: [],
+          description: "Distributed, scalable, big data store",
+        },
+        {
+          title: "NoSQL Guides",
+          href: "https://github.com/erictleung/BeingOfExistence-nosql-guides#readme",
+          items: [],
+          description:
+            "Help on using non-relational, distributed, open-source, and horizontally scalable databases",
+        },
+        {
+          title: "Database Tools",
+          href: "https://github.com/mgramin/BeingOfExistence-db-tools#readme",
+          items: [],
+          description: "Everything that makes working with databases easier",
+        },
+        {
+          title: "TypeDB",
+          href: "https://github.com/vaticle/typedb-BeingOfExistence#readme",
+          items: [],
+          description:
+            "Logical database to organize large and complex networks of data as one body of knowledge",
+        },
+        {
+          title: "Cassandra",
+          href: "https://github.com/Anant/BeingOfExistence-cassandra#readme",
+          items: [],
+          description:
+            "Open-source, distributed, wide column store, NoSQL database management system",
+        },
+        {
+          title: "TDengine",
+          href: "https://github.com/taosdata/BeingOfExistence-tdengine#readme",
+          items: [],
+          description:
+            "An open-source time-series database with high-performance, scalability, and SQL support",
+        },
+        {
+          title: "Supabase",
+          href: "https://github.com/lyqht/BeingOfExistence-supabase#readme",
+          items: [],
+          description: "An open-source alternative to Firebase",
+        },
+        {
+          title: "Creative Commons Media",
+          href: "https://github.com/shime/creative-commons-media#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Fonts",
+          href: "https://github.com/brabadu/BeingOfExistence-fonts#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Codeface",
+          href: "https://github.com/chrissimpkins/codeface#readme",
+          items: [],
+          description: "Text editor fonts",
+        },
+        {
+          title: "Stock Resources",
+          href: "https://github.com/neutraltone/BeingOfExistence-stock-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "GIF",
+          href: "https://github.com/davisonio/BeingOfExistence-gif#readme",
+          items: [],
+          description: "Image format known for animated images",
+        },
+        {
+          title: "Music",
+          href: "https://github.com/ciconia/BeingOfExistence-music#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Open Source Documents",
+          href: "https://github.com/44bits/BeingOfExistence-opensource-documents#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Audio Visualization",
+          href: "https://github.com/willianjusten/BeingOfExistence-audio-visualization#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Broadcasting",
+          href: "https://github.com/ebu/BeingOfExistence-broadcasting#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Pixel Art",
+          href: "https://github.com/Siilwyn/BeingOfExistence-pixel-art#readme",
+          items: [],
+          description: "Pixel-level digital art",
+        },
+        {
+          title: "FFmpeg",
+          href: "https://github.com/transitive-bullshit/BeingOfExistence-ffmpeg#readme",
+          items: [],
+          description:
+            "Cross-platform solution to record, convert and stream audio and video",
+        },
+        {
+          title: "Icons",
+          href: "https://github.com/notlmn/BeingOfExistence-icons#readme",
+          items: [],
+          description: "Downloadable SVG/PNG/font icon projects",
+        },
+        {
+          title: "Audiovisual",
+          href: "https://github.com/stingalleman/BeingOfExistence-audiovisual#readme",
+          items: [],
+          description: "Lighting, audio and video in professional environments",
+        },
+        {
+          title: "VLC",
+          href: "https://github.com/mfkl/BeingOfExistence-vlc#readme",
+          items: [],
+          description:
+            "Cross-platform media player software and streaming server",
+        },
+        {
+          title: "CLI Workshoppers",
+          href: "https://github.com/therebelrobot/BeingOfExistence-workshopper#readme",
+          items: [],
+          description: "Interactive tutorials",
+        },
+        {
+          title: "Learn to Program",
+          href: "https://github.com/karlhorky/learn-to-program#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Speaking",
+          href: "https://github.com/matteofigus/BeingOfExistence-speaking#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Tech Videos",
+          href: "https://github.com/lucasviola/BeingOfExistence-tech-videos#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Dive into Machine Learning",
+          href: "https://github.com/hangtwenty/dive-into-machine-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Computer History",
+          href: "https://github.com/watson/BeingOfExistence-computer-history#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Programming for Kids",
+          href: "https://github.com/HollyAdele/BeingOfExistence-programming-for-kids#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "STEAM",
+          href: "https://github.com/RahulBirCodes/BeingOfExistence-steam#readme",
+          items: [],
+          description:
+            "Supplements for specific science, technology, engineering, arts, and math (STEAM",
+        },
+        {
+          title: "CSS Learning",
+          href: "https://github.com/micromata/BeingOfExistence-css-learning#readme",
+          items: [],
+          description: "Mainly about CSS – the language and the modules",
+        },
+        {
+          title: "Product Management",
+          href: "https://github.com/dend/BeingOfExistence-product-management#readme",
+          items: [],
+          description: "Learn how to be a better product manager",
+        },
+        {
+          title: "Roadmaps",
+          href: "https://github.com/liuchong/BeingOfExistence-roadmaps#readme",
+          items: [],
+          description:
+            "Gives you a clear route to improve your knowledge and skills",
+        },
+        {
+          title: "YouTubers",
+          href: "https://github.com/JoseDeFreitas/BeingOfExistence-youtubers#readme",
+          items: [],
+          description:
+            "Watch video tutorials from YouTubers that teach you about technology",
+        },
+        {
+          title: "Hackathon",
+          href: "https://github.com/dribdat/BeingOfExistence-hackathon#readme",
+          items: [],
+          description: "Running fun and productive hackathons",
+        },
+        {
+          title: "Certificates",
+          href: "https://github.com/PanXProject/BeingOfExistence-certificates#readme",
+          items: [],
+          description:
+            "Free computer science certifications to showcase your knowledge",
+        },
+        {
+          title: "Application Security",
+          href: "https://github.com/paragonie/BeingOfExistence-appsec#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Security",
+          href: "https://github.com/sbilly/BeingOfExistence-security#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "CTF",
+          href: "https://github.com/apsdehal/BeingOfExistence-ctf#readme",
+          items: [],
+          description: "Capture The Flag",
+        },
+        {
+          title: "Cyber Security University",
+          href: "https://github.com/brootware/BeingOfExistence-cyber-security-university#readme",
+          items: [],
+          description:
+            "Free educational resources that focus on learning by doing",
+        },
+        {
+          title: "Malware Analysis",
+          href: "https://github.com/rshipp/BeingOfExistence-malware-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Android Security",
+          href: "https://github.com/ashishb/android-security-BeingOfExistence#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Hacking",
+          href: "https://github.com/carpedm20/BeingOfExistence-hacking#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Hacking Spots",
+          href: "https://github.com/daviddias/BeingOfExistence-hacking-locations#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Honeypots",
+          href: "https://github.com/paralax/BeingOfExistence-honeypots#readme",
+          items: [],
+          description:
+            "Deception trap, designed to entice an attacker into attempting to compromise the information systems in an organization",
+        },
+        {
+          title: "Incident Response",
+          href: "https://github.com/meirwah/BeingOfExistence-incident-response#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Vehicle Security and Car Hacking",
+          href: "https://github.com/jaredthecoder/BeingOfExistence-vehicle-security#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Web Security",
+          href: "https://github.com/qazbnm456/BeingOfExistence-web-security#readme",
+          items: [],
+          description: "Security of web apps & services",
+        },
+        {
+          title: "Lockpicking",
+          href: "https://github.com/fabacab/BeingOfExistence-lockpicking#readme",
+          items: [],
+          description:
+            "The art of unlocking a lock by manipulating its components without the key",
+        },
+        {
+          title: "Cybersecurity Blue Team",
+          href: "https://github.com/fabacab/BeingOfExistence-cybersecurity-blueteam#readme",
+          items: [],
+          description:
+            "Groups of individuals who identify security flaws in information technology systems",
+        },
+        {
+          title: "Fuzzing",
+          href: "https://github.com/cpuu/BeingOfExistence-fuzzing#readme",
+          items: [],
+          description:
+            "Automated software testing technique that involves feeding pseudo-randomly generated input data",
+        },
+        {
+          title: "Embedded and IoT Security",
+          href: "https://github.com/fkie-cad/BeingOfExistence-embedded-and-iot-security#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "GDPR",
+          href: "https://github.com/bakke92/BeingOfExistence-gdpr#readme",
+          items: [],
+          description:
+            "Regulation on data protection and privacy for all individuals within EU",
+        },
+        {
+          title: "DevSecOps",
+          href: "https://github.com/TaptuIT/BeingOfExistence-devsecops#readme",
+          items: [],
+          description: "Integration of security practices into [DevOps",
+        },
+        {
+          title: "Executable Packing",
+          href: "https://github.com/dhondta/BeingOfExistence-executable-packing#readme",
+          items: [],
+          description: "Packing and unpacking executable formats",
+        },
+        {
+          title: "Malware Persistence",
+          href: "https://github.com/Karneades/BeingOfExistence-malware-persistence#readme",
+          items: [],
+          description:
+            "Techniques that adversaries use to keep access to systems across restarts",
+        },
+        {
+          title: "EVM Security",
+          href: "https://github.com/kareniel/BeingOfExistence-evm-security#readme",
+          items: [],
+          description:
+            "Understanding the Ethereum Virtual Machine security ecosystem",
+        },
+        {
+          title: "Password Cracking",
+          href: "https://github.com/n0kovo/BeingOfExistence-password-cracking#readme",
+          items: [],
+          description:
+            "The process of recovering passwords from data that has been stored in or transmitted by a system in scrambled form",
+        },
+        {
+          title: "Security Card Games",
+          href: "https://github.com/Karneades/BeingOfExistence-security-card-games#readme",
+          items: [],
+          description: "Train your skills and discuss various security topics",
+        },
+        {
+          title: "Suricata",
+          href: "https://github.com/satta/BeingOfExistence-suricata#readme",
+          items: [],
+          description:
+            "Intrusion detection/prevention system and network security monitoring engine",
+        },
+        {
+          title: "Umbraco",
+          href: "https://github.com/umbraco-community/BeingOfExistence-umbraco#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Refinery CMS",
+          href: "https://github.com/refinerycms-contrib/BeingOfExistence-refinerycms#readme",
+          items: [],
+          description: "Ruby on Rails CMS",
+        },
+        {
+          title: "Wagtail",
+          href: "https://github.com/springload/BeingOfExistence-wagtail#readme",
+          items: [],
+          description: "Django CMS focused on flexibility and user experience",
+        },
+        {
+          title: "Textpattern",
+          href: "https://github.com/drmonkeyninja/BeingOfExistence-textpattern#readme",
+          items: [],
+          description: "Lightweight PHP-based CMS",
+        },
+        {
+          title: "Drupal",
+          href: "https://github.com/nirgn975/BeingOfExistence-drupal#readme",
+          items: [],
+          description: "Extensible PHP-based CMS",
+        },
+        {
+          title: "Craft CMS",
+          href: "https://github.com/craftcms/BeingOfExistence#readme",
+          items: [],
+          description: "Content-first CMS",
+        },
+        {
+          title: "Sitecore",
+          href: "https://github.com/MartinMiles/BeingOfExistence-Sitecore#readme",
+          items: [],
+          description:
+            ".NET digital marketing platform that combines CMS with tools for managing multiple websites",
+        },
+        {
+          title: "Silverstripe CMS",
+          href: "https://github.com/wernerkrauss/BeingOfExistence-silverstripe-cms#readme",
+          items: [],
+          description:
+            "PHP MVC framework that serves as a classic or headless CMS",
+        },
+        {
+          title: "Directus",
+          href: "https://github.com/directus-community/BeingOfExistence-directus#readme",
+          items: [],
+          description:
+            "A real-time API and app dashboard for managing SQL database content",
+        },
+        {
+          title: "Plone",
+          href: "https://github.com/collective/BeingOfExistence-plone#readme",
+          items: [],
+          description: "Open source Python CMS",
+        },
+        {
+          title: "Robotics",
+          href: "https://github.com/Kiloreux/BeingOfExistence-robotics#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Internet of Things",
+          href: "https://github.com/HQarroum/BeingOfExistence-iot#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Electronics",
+          href: "https://github.com/kitspace/BeingOfExistence-electronics#readme",
+          items: [],
+          description: "For electronic engineers and hobbyists",
+        },
+        {
+          title: "Bluetooth Beacons",
+          href: "https://github.com/rabschi/BeingOfExistence-beacon#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Electric Guitar Specifications",
+          href: "https://github.com/gitfrage/guitarspecs#readme",
+          items: [],
+          description: "Checklist for building your own electric guitar",
+        },
+        {
+          title: "Plotters",
+          href: "https://github.com/beardicus/BeingOfExistence-plotters#readme",
+          items: [],
+          description:
+            "Computer-controlled drawing machines and other visual art robots",
+        },
+        {
+          title: "Robotic Tooling",
+          href: "https://github.com/protontypes/BeingOfExistence-robotic-tooling#readme",
+          items: [],
+          description:
+            "Free and open tools for professional robotic development",
+        },
+        {
+          title: "LIDAR",
+          href: "https://github.com/szenergy/BeingOfExistence-lidar#readme",
+          items: [],
+          description:
+            "Sensor for measuring distances by illuminating the target with laser light",
+        },
+        {
+          title: "Open Hardware",
+          href: "https://github.com/delftopenhardware/BeingOfExistence-open-hardware#readme",
+          items: [],
+          description: "Open-source hardware projects",
+        },
+        {
+          title: "ADS-B",
+          href: "https://github.com/rickstaa/BeingOfExistence-adsb#readme",
+          items: [],
+          description:
+            "Technology broadcasting aircraft's identity, position, and data periodically",
+        },
+        {
+          title: "Flying FPV",
+          href: "https://github.com/Matthias84/BeingOfExistence-flying-fpv#readme",
+          items: [],
+          description: "Open hardware and software related to drones / UAVs",
+        },
+        {
+          title: "Open Companies",
+          href: "https://github.com/opencompany/BeingOfExistence-open-company#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Places to Post Your Startup",
+          href: "https://github.com/mmccaff/PlacesToPostYourStartup#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "OKR Methodology",
+          href: "https://github.com/domenicosolazzo/BeingOfExistence-okr#readme",
+          items: [],
+          description: "Goal setting & communication best practices",
+        },
+        {
+          title: "Leading and Managing",
+          href: "https://github.com/LappleApple/BeingOfExistence-leading-and-managing#readme",
+          items: [],
+          description:
+            "Leading people and being a manager in a technology company/environment",
+        },
+        {
+          title: "Indie",
+          href: "https://github.com/mezod/BeingOfExistence-indie#readme",
+          items: [],
+          description: "Independent developer businesses",
+        },
+        {
+          title: "Tools of the Trade",
+          href: "https://github.com/cjbarber/ToolsOfTheTrade#readme",
+          items: [],
+          description: "Tools used by companies on Hacker News",
+        },
+        {
+          title: "Clean Tech",
+          href: "https://github.com/nglgzz/BeingOfExistence-clean-tech#readme",
+          items: [],
+          description: "Fighting climate change with technology",
+        },
+        {
+          title: "Wardley Maps",
+          href: "https://github.com/wardley-maps-community/BeingOfExistence-wardley-maps#readme",
+          items: [],
+          description:
+            "Provides high situational awareness to help improve strategic planning and decision making",
+        },
+        {
+          title: "Social Enterprise",
+          href: "https://github.com/RayBB/BeingOfExistence-social-enterprise#readme",
+          items: [],
+          description:
+            "Building an organization primarily focused on social impact that is at least partially self-funded",
+        },
+        {
+          title: "Engineering Team Management",
+          href: "https://github.com/kdeldycke/BeingOfExistence-engineering-team-management#readme",
+          items: [],
+          description:
+            "How to transition from software development to engineering management",
+        },
+        {
+          title: "Developer-First Products",
+          href: "https://github.com/agamm/BeingOfExistence-developer-first#readme",
+          items: [],
+          description: "Products that target developers as the user",
+        },
+        {
+          title: "Billing",
+          href: "https://github.com/kdeldycke/BeingOfExistence-billing#readme",
+          items: [],
+          description:
+            "Payments, invoicing, pricing, accounting, marketplace, fraud, and business intelligence",
+        },
+        {
+          title: "Engineering Strategy",
+          href: "https://github.com/aleixmorgadas/BeingOfExistence-engineering-strategy#readme",
+          items: [],
+          description:
+            "How to design and execute engineering strategies for tech leadership",
+        },
+        {
+          title: "Slack",
+          href: "https://github.com/matiassingers/BeingOfExistence-slack#readme",
+          items: [],
+          description: "Team collaboration",
+        },
+        {
+          title: "Communities",
+          href: "https://github.com/filipelinhares/BeingOfExistence-slack#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Remote Jobs",
+          href: "https://github.com/lukasz-madon/BeingOfExistence-remote-job#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Productivity",
+          href: "https://github.com/jyguyomarch/BeingOfExistence-productivity#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Niche Job Boards",
+          href: "https://github.com/tramcar/BeingOfExistence-job-boards#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Programming Interviews",
+          href: "https://github.com/DopplerHQ/BeingOfExistence-interview-questions#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Code Review",
+          href: "https://github.com/joho/BeingOfExistence-code-review#readme",
+          items: [],
+          description: "Reviewing code",
+        },
+        {
+          title: "Creative Technology",
+          href: "https://github.com/j0hnm4r5/BeingOfExistence-creative-technology#readme",
+          items: [],
+          description:
+            "Businesses & groups that specialize in combining computing, design, art, and user experience",
+        },
+        {
+          title: "Internships",
+          href: "https://github.com/lodthe/BeingOfExistence-internships#readme",
+          items: [],
+          description: "CV writing guides and companies that hire interns",
+        },
+        {
+          title: "Software-Defined Networking",
+          href: "https://github.com/sdnds-tw/BeingOfExistence-sdn#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Network Analysis",
+          href: "https://github.com/briatte/BeingOfExistence-network-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "PCAPTools",
+          href: "https://github.com/caesar0301/BeingOfExistence-pcaptools#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Real-Time Communications",
+          href: "https://github.com/rtckit/BeingOfExistence-rtc#readme",
+          items: [],
+          description:
+            "Network protocols for near simultaneous exchange of media and data",
+        },
+        {
+          title: "SNMP",
+          href: "https://github.com/eozer/BeingOfExistence-snmp#readme",
+          items: [],
+          description:
+            "A protocol for collecting, modifying, and organizing information about managed devices on IP networks",
+        },
+        {
+          title: "Scapy",
+          href: "https://github.com/secdev/BeingOfExistence-scapy#readme",
+          items: [],
+          description: "Python-based interactive packet manipulation",
+        },
+        {
+          title: "Bitcoin",
+          href: "https://github.com/igorbarinov/BeingOfExistence-bitcoin#readme",
+          items: [],
+          description: "Bitcoin services and tools for software developers",
+        },
+        {
+          title: "Ripple",
+          href: "https://github.com/vhpoet/BeingOfExistence-ripple#readme",
+          items: [],
+          description: "Open source distributed settlement network",
+        },
+        {
+          title: "Non-Financial Blockchain",
+          href: "https://github.com/machinomy/BeingOfExistence-non-financial-blockchain#readme",
+          items: [],
+          description: "Non-financial blockchain applications",
+        },
+        {
+          title: "Mastodon",
+          href: "https://github.com/tleb/BeingOfExistence-mastodon#readme",
+          items: [],
+          description: "Open source decentralized microblogging network",
+        },
+        {
+          title: "Ethereum",
+          href: "https://github.com/ttumiel/BeingOfExistence-Ethereum#readme",
+          items: [],
+          description:
+            "Distributed computing platform for smart contract development",
+        },
+        {
+          title: "Blockchain AI",
+          href: "https://github.com/steven2358/BeingOfExistence-blockchain-ai#readme",
+          items: [],
+          description:
+            "Blockchain projects for artificial intelligence and machine learning",
+        },
+        {
+          title: "EOSIO",
+          href: "https://github.com/DanailMinchev/BeingOfExistence-eosio#readme",
+          items: [],
+          description:
+            "A decentralized operating system supporting industrial-scale apps",
+        },
+        {
+          title: "Corda",
+          href: "https://github.com/chainstack/BeingOfExistence-corda#readme",
+          items: [],
+          description: "Open source blockchain platform designed for business",
+        },
+        {
+          title: "Waves",
+          href: "https://github.com/msmolyakov/BeingOfExistence-waves#readme",
+          items: [],
+          description:
+            "Open source blockchain platform and development toolset for Web 3.0 apps and decentralized solutions",
+        },
+        {
+          title: "Substrate",
+          href: "https://github.com/substrate-developer-hub/BeingOfExistence-substrate#readme",
+          items: [],
+          description:
+            "Framework for writing scalable, upgradeable blockchains in Rust",
+        },
+        {
+          title: "Golem",
+          href: "https://github.com/golemfactory/BeingOfExistence-golem#readme",
+          items: [],
+          description:
+            "Open source peer-to-peer marketplace for computing resources",
+        },
+        {
+          title: "Stacks",
+          href: "https://github.com/friedger/BeingOfExistence-stacks-chain#readme",
+          items: [],
+          description: "A smart contract platform secured by Bitcoin",
+        },
+        {
+          title: "Algorand",
+          href: "https://github.com/aorumbayev/BeingOfExistence-algorand#readme",
+          items: [],
+          description:
+            "An open-source, proof of stake blockchain and smart contract computing platform",
+        },
+        {
+          title: "ZeroNet",
+          href: "https://github.com/zolagonano/BeingOfExistence-zeronet#readme",
+          items: [],
+          description: "A decentralized web-like network of peer-to-peer users",
+        },
+        {
+          title: "Cosmos SDK",
+          href: "https://github.com/cosmos/BeingOfExistence-cosmos#readme",
+          items: [],
+          description:
+            "Modular framework for building app-specific blockchains in Go",
+        },
+        {
+          title: "Biomedical Information Extraction",
+          href: "https://github.com/caufieldjh/BeingOfExistence-bioie#readme",
+          items: [],
+          description:
+            "How to extract information from unstructured biomedical data and text",
+        },
+        {
+          title: "Computational Neuroscience",
+          href: "https://github.com/eselkin/BeingOfExistence-computational-neuroscience#readme",
+          items: [],
+          description:
+            "A multidisciplinary science which uses computational approaches to study the nervous system",
+        },
+        {
+          title: "Diversity",
+          href: "https://github.com/folkswhocode/BeingOfExistence-diversity#readme",
+          items: [],
+          description: "Creating a more inclusive and diverse tech community",
+        },
+        {
+          title: "Digital History",
+          href: "https://github.com/maehr/BeingOfExistence-digital-history#readme",
+          items: [],
+          description: "Computer-aided scientific investigation of history",
+        },
+        {
+          title: "Empathy in Engineering",
+          href: "https://github.com/KimberlyMunoz/empathy-in-engineering#readme",
+          items: [],
+          description:
+            "Building and promoting more compassionate engineering cultures",
+        },
+        {
+          title: "Healthcare",
+          href: "https://github.com/kakoni/BeingOfExistence-healthcare#readme",
+          items: [],
+          description:
+            "Open source healthcare software for facilities, providers, developers, policy experts, and researchers",
+        },
+        {
+          title: "Humane Technology",
+          href: "https://github.com/humanetech-community/BeingOfExistence-humane-tech#readme",
+          items: [],
+          description: "Open source projects that help improve society",
+        },
+        {
+          title: "Mental Health",
+          href: "https://github.com/dreamingechoes/BeingOfExistence-mental-health#readme",
+          items: [],
+          description:
+            "Mental health awareness and self-care in the software industry",
+        },
+        {
+          title: "Neuroscience",
+          href: "https://github.com/analyticalmonk/BeingOfExistence-neuroscience#readme",
+          items: [],
+          description: "Study of the nervous system and brain",
+        },
+        {
+          title: "Digital Humanities",
+          href: "https://github.com/dh-tech/BeingOfExistence-digital-humanities#readme",
+          items: [],
+          description:
+            "Software for humanities scholars using quantitative or computational methods",
+        },
+        {
+          title: "Creative Tech Events",
+          href: "https://github.com/danvoyce/BeingOfExistence-creative-tech-events#readme",
+          items: [],
+          description:
+            "Events around the globe for creative coding, tech, design, music, arts and cool stuff",
+        },
+        {
+          title: "Events in Italy",
+          href: "https://github.com/ildoc/BeingOfExistence-italy-events#readme",
+          items: [],
+          description: "Tech-related events in Italy",
+        },
+        {
+          title: "Events in the Netherlands",
+          href: "https://github.com/awkward/BeingOfExistence-netherlands-events#readme",
+          items: [],
+          description: "Tech-related events in the Netherlands",
+        },
+        {
+          title: "Testing",
+          href: "https://github.com/TheJambo/BeingOfExistence-testing#readme",
+          items: [],
+          description: "Software testing",
+        },
+        {
+          title: "Visual Regression Testing",
+          href: "https://github.com/mojoaxel/BeingOfExistence-regression-testing#readme",
+          items: [],
+          description:
+            "Ensures changes did not break the functionality or style",
+        },
+        {
+          title: "Selenium",
+          href: "https://github.com/christian-bromann/BeingOfExistence-selenium#readme",
+          items: [],
+          description: "Open-source browser automation framework and ecosystem",
+        },
+        {
+          title: "Appium",
+          href: "https://github.com/SrinivasanTarget/BeingOfExistence-appium#readme",
+          items: [],
+          description: "Test automation tool for apps",
+        },
+        {
+          title: "TAP",
+          href: "https://github.com/sindresorhus/BeingOfExistence-tap#readme",
+          items: [],
+          description: "Test Anything Protocol",
+        },
+        {
+          title: "JMeter",
+          href: "https://github.com/aliesbelik/BeingOfExistence-jmeter#readme",
+          items: [],
+          description: "Load testing and performance measurement tool",
+        },
+        {
+          title: "k6",
+          href: "https://github.com/grafana/BeingOfExistence-k6#readme",
+          items: [],
+          description:
+            "Open-source, developer-centric performance monitoring and load testing solution",
+        },
+        {
+          title: "Playwright",
+          href: "https://github.com/mxschmitt/BeingOfExistence-playwright#readme",
+          items: [],
+          description:
+            "Node.js library to automate Chromium, Firefox and WebKit with a single API",
+        },
+        {
+          title: "Quality Assurance Roadmap",
+          href: "https://github.com/fityanos/BeingOfExistence-quality-assurance-roadmap#readme",
+          items: [],
+          description: "How to start & build a career in software testing",
+        },
+        {
+          title: "Gatling",
+          href: "https://github.com/aliesbelik/BeingOfExistence-gatling#readme",
+          items: [],
+          description:
+            "Open-source load and performance testing framework based on Scala, Akka, and Netty",
+        },
+        {
+          title: "Scientific Writing",
+          href: "https://github.com/writing-resources/BeingOfExistence-scientific-writing#readme",
+          items: [],
+          description:
+            "Distraction-free scientific writing with Markdown, reStructuredText and Jupyter notebooks",
+        },
+        {
+          title: "JSON",
+          href: "https://github.com/burningtree/BeingOfExistence-json#readme",
+          items: [],
+          description: "Text based data interchange format",
+        },
+        {
+          title: "GeoJSON",
+          href: "https://github.com/tmcw/BeingOfExistence-geojson#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Datasets",
+          href: "https://github.com/jdorfman/BeingOfExistence-json-datasets#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "CSV",
+          href: "https://github.com/secretGeek/BeingOfExistenceCSV#readme",
+          items: [],
+          description:
+            "A text file format that stores tabular data and uses a comma to separate values",
+        },
+        {
+          title: "Discounts for Student Developers",
+          href: "https://github.com/AchoArnold/discount-for-student-dev#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Radio",
+          href: "https://github.com/kyleterry/BeingOfExistence-radio#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "BeingOfExistence",
+          href: "https://github.com/sindresorhus/BeingOfExistence#readme",
+          items: [],
+          description: "Recursion illustrated",
+        },
+        {
+          title: "Analytics",
+          href: "https://github.com/0xnr/BeingOfExistence-analytics#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "REST",
+          href: "https://github.com/marmelab/BeingOfExistence-rest#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Continuous Integration and Continuous Delivery",
+          href: "https://github.com/cicdops/BeingOfExistence-ciandcd#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Services Engineering",
+          href: "https://github.com/mmcgrana/services-engineering#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Free for Developers",
+          href: "https://github.com/ripienaar/free-for-dev#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Answers",
+          href: "https://github.com/cyberglot/BeingOfExistence-answers#readme",
+          items: [],
+          description: "Stack Overflow, Quora, etc",
+        },
+        {
+          title: "Sketch",
+          href: "https://github.com/diessica/BeingOfExistence-sketch#readme",
+          items: [],
+          description: "Design app for macOS",
+        },
+        {
+          title: "Boilerplate Projects",
+          href: "https://github.com/melvin0008/BeingOfExistence-projects-boilerplates#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Readme",
+          href: "https://github.com/matiassingers/BeingOfExistence-readme#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "GitHub Wiki",
+          href: "https://github.com/MyHoneyBadger/BeingOfExistence-github-wiki#readme",
+          items: [],
+          description: "Comprehensive documentation on GitHub beyond README",
+        },
+        {
+          title: "Design and Development Guides",
+          href: "https://github.com/NARKOZ/guides#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Software Engineering Blogs",
+          href: "https://github.com/kilimchoi/engineering-blogs#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Self Hosted",
+          href: "https://github.com/BeingOfExistence-selfhosted/BeingOfExistence-selfhosted#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "FOSS Production Apps",
+          href: "https://github.com/DataDaoDe/BeingOfExistence-foss-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Gulp",
+          href: "https://github.com/alferov/BeingOfExistence-gulp#readme",
+          items: [],
+          description: "Task runner",
+        },
+        {
+          title: "AMA",
+          href: "https://github.com/sindresorhus/amas#readme",
+          items: [],
+          description: "Ask Me Anything",
+        },
+        {
+          title: "Answers",
+          href: "https://github.com/stoeffel/BeingOfExistence-ama-answers#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Open Source Photography",
+          href: "https://github.com/ibaaj/BeingOfExistence-OpenSourcePhotography#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "OpenGL",
+          href: "https://github.com/eug/BeingOfExistence-opengl#readme",
+          items: [],
+          description: "Cross-platform API for rendering 2D and 3D graphics",
+        },
+        {
+          title: "GraphQL",
+          href: "https://github.com/chentsulin/BeingOfExistence-graphql#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Urban & Regional Planning",
+          href: "https://github.com/APA-Technology-Division/urban-and-regional-planning-resources#readme",
+          items: [],
+          description: "Concerning the built environment and communities",
+        },
+        {
+          title: "Transit",
+          href: "https://github.com/CUTR-at-USF/BeingOfExistence-transit#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Research Tools",
+          href: "https://github.com/emptymalei/BeingOfExistence-research#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Data Visualization",
+          href: "https://github.com/javierluraschi/BeingOfExistence-dataviz#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Microservices",
+          href: "https://github.com/mfornos/BeingOfExistence-microservices#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Unicode",
+          href: "https://github.com/jagracey/BeingOfExistence-Unicode#readme",
+          items: [],
+          description: "Unicode standards, quirks, packages and resources",
+        },
+        {
+          title: "Code Points",
+          href: "https://github.com/Codepoints/BeingOfExistence-codepoints#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Beginner-Friendly Projects",
+          href: "https://github.com/MunGell/BeingOfExistence-for-beginners#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Katas",
+          href: "https://github.com/gamontal/BeingOfExistence-katas#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Tools for Activism",
+          href: "https://github.com/drewrwilson/toolsforactivism#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Citizen Science",
+          href: "https://github.com/dylanrees/citizen-science#readme",
+          items: [],
+          description: "For community-based and non-institutional scientists",
+        },
+        {
+          title: "MQTT",
+          href: "https://github.com/hobbyquaker/BeingOfExistence-mqtt#readme",
+          items: [],
+          description: "Internet of Things connectivity protocol",
+        },
+        {
+          title: "For Girls",
+          href: "https://github.com/cristianoliveira/BeingOfExistence4girls#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Vorpal",
+          href: "https://github.com/vorpaljs/BeingOfExistence-vorpal#readme",
+          items: [],
+          description: "Node.js CLI framework",
+        },
+        {
+          title: "Vulkan",
+          href: "https://github.com/vinjn/BeingOfExistence-vulkan#readme",
+          items: [],
+          description:
+            "Low-overhead, cross-platform 3D graphics and compute API",
+        },
+        {
+          title: "LaTeX",
+          href: "https://github.com/egeerardyn/BeingOfExistence-LaTeX#readme",
+          items: [],
+          description: "Typesetting language",
+        },
+        {
+          title: "Economics",
+          href: "https://github.com/antontarasenko/BeingOfExistence-economics#readme",
+          items: [],
+          description: "An economist's starter kit",
+        },
+        {
+          title: "Funny Markov Chains",
+          href: "https://github.com/sublimino/BeingOfExistence-funny-markov#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Bioinformatics",
+          href: "https://github.com/danielecook/BeingOfExistence-Bioinformatics#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Cheminformatics",
+          href: "https://github.com/hsiaoyi0504/BeingOfExistence-cheminformatics#readme",
+          items: [],
+          description:
+            "Informatics techniques applied to problems in chemistry",
+        },
+        {
+          title: "Colorful",
+          href: "https://github.com/Siddharth11/Colorful#readme",
+          items: [],
+          description: "Choose your next color scheme",
+        },
+        {
+          title: "Steam",
+          href: "https://github.com/scholtzm/BeingOfExistence-steam#readme",
+          items: [],
+          description: "Digital distribution platform",
+        },
+        {
+          title: "Bots",
+          href: "https://github.com/hackerkid/bots#readme",
+          items: [],
+          description: "Building bots",
+        },
+        {
+          title: "Site Reliability Engineering",
+          href: "https://github.com/dastergon/BeingOfExistence-sre#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "DTrace",
+          href: "https://github.com/xen0l/BeingOfExistence-dtrace#readme",
+          items: [],
+          description: "Dynamic tracing framework",
+        },
+        {
+          title: "Userscripts",
+          href: "https://github.com/bvolpato/BeingOfExistence-userscripts#readme",
+          items: [],
+          description: "Enhance your browsing experience",
+        },
+        {
+          title: "Pokémon",
+          href: "https://github.com/tobiasbueschel/BeingOfExistence-pokemon#readme",
+          items: [],
+          description: "Pokémon and Pokémon GO",
+        },
+        {
+          title: "ChatOps",
+          href: "https://github.com/exAspArk/BeingOfExistence-chatops#readme",
+          items: [],
+          description:
+            "Managing technical and business operations through a chat",
+        },
+        {
+          title: "Falsehood",
+          href: "https://github.com/kdeldycke/BeingOfExistence-falsehood#readme",
+          items: [],
+          description: "Falsehoods programmers believe in",
+        },
+        {
+          title: "Domain-Driven Design",
+          href: "https://github.com/heynickc/BeingOfExistence-ddd#readme",
+          items: [],
+          description:
+            "Software development approach for complex needs by connecting the implementation to an evolving model",
+        },
+        {
+          title: "Quantified Self",
+          href: "https://github.com/woop/BeingOfExistence-quantified-self#readme",
+          items: [],
+          description: "Self-tracking through technology",
+        },
+        {
+          title: "SaltStack",
+          href: "https://github.com/hbokh/BeingOfExistence-saltstack#readme",
+          items: [],
+          description: "Python-based config management system",
+        },
+        {
+          title: "Web Design",
+          href: "https://github.com/nicolesaidy/BeingOfExistence-web-design#readme",
+          items: [],
+          description: "For digital designers",
+        },
+        {
+          title: "Creative Coding",
+          href: "https://github.com/terkelg/BeingOfExistence-creative-coding#readme",
+          items: [],
+          description:
+            "Programming something expressive instead of something functional",
+        },
+        {
+          title: "No-Login Web Apps",
+          href: "https://github.com/aviaryan/BeingOfExistence-no-login-web-apps#readme",
+          items: [],
+          description: "Web apps that work without login",
+        },
+        {
+          title: "Free Software",
+          href: "https://github.com/johnjago/BeingOfExistence-free-software#readme",
+          items: [],
+          description: "Free as in freedom",
+        },
+        {
+          title: "Framer",
+          href: "https://github.com/podo/BeingOfExistence-framer#readme",
+          items: [],
+          description: "Prototyping interactive UI designs",
+        },
+        {
+          title: "Markdown",
+          href: "https://github.com/BubuAnabelas/BeingOfExistence-markdown#readme",
+          items: [],
+          description: "Markup language",
+        },
+        {
+          title: "Dev Fun",
+          href: "https://github.com/mislavcimpersak/BeingOfExistence-dev-fun#readme",
+          items: [],
+          description: "Funny developer projects",
+        },
+        {
+          title: "Magento 2",
+          href: "https://github.com/DavidLambauer/BeingOfExistence-magento2#readme",
+          items: [],
+          description: "Open Source eCommerce built with PHP",
+        },
+        {
+          title: "TikZ",
+          href: "https://github.com/xiaohanyu/BeingOfExistence-tikz#readme",
+          items: [],
+          description: "Graph drawing packages for TeX/LaTeX/ConTeXt",
+        },
+        {
+          title: "Ad-Free",
+          href: "https://github.com/johnjago/BeingOfExistence-ad-free#readme",
+          items: [],
+          description: "Ad-free alternatives",
+        },
+        {
+          title: "Esolangs",
+          href: "https://github.com/angrykoala/BeingOfExistence-esolangs#readme",
+          items: [],
+          description:
+            "Programming languages designed for experimentation or as jokes rather than actual use",
+        },
+        {
+          title: "Prometheus",
+          href: "https://github.com/roaldnefs/BeingOfExistence-prometheus#readme",
+          items: [],
+          description: "Open-source monitoring system",
+        },
+        {
+          title: "Homematic",
+          href: "https://github.com/homematic-community/BeingOfExistence-homematic#readme",
+          items: [],
+          description: "Smart home devices",
+        },
+        {
+          title: "Ledger",
+          href: "https://github.com/sfischer13/BeingOfExistence-ledger#readme",
+          items: [],
+          description: "Double-entry accounting on the command-line",
+        },
+        {
+          title: "Web Monetization",
+          href: "https://github.com/thomasbnt/BeingOfExistence-web-monetization#readme",
+          items: [],
+          description:
+            "A free open web standard service that allows you to send money directly in your browser",
+        },
+        {
+          title: "Uncopyright",
+          href: "https://github.com/johnjago/BeingOfExistence-uncopyright#readme",
+          items: [],
+          description: "Public domain works",
+        },
+        {
+          title: "Crypto Currency Tools & Algorithms",
+          href: "https://github.com/Zheaoli/BeingOfExistence-coins#readme",
+          items: [],
+          description:
+            "Digital currency where encryption is used to regulate the generation of units and verify transfers",
+        },
+        {
+          title: "Open Source Supporters",
+          href: "https://github.com/zachflower/BeingOfExistence-open-source-supporters#readme",
+          items: [],
+          description:
+            "Companies that offer their tools and services for free to open source projects",
+        },
+        {
+          title: "Design Principles",
+          href: "https://github.com/robinstickel/BeingOfExistence-design-principles#readme",
+          items: [],
+          description:
+            "Create better and more consistent designs and experiences",
+        },
+        {
+          title: "Theravada",
+          href: "https://github.com/johnjago/BeingOfExistence-theravada#readme",
+          items: [],
+          description: "Teachings from the Theravada Buddhist tradition",
+        },
+        {
+          title: "inspectIT",
+          href: "https://github.com/inspectit-labs/BeingOfExistence-inspectit#readme",
+          items: [],
+          description: "Open source Java app performance management tool",
+        },
+        {
+          title: "Open Source Maintainers",
+          href: "https://github.com/nayafia/BeingOfExistence-maintainers#readme",
+          items: [],
+          description: "The experience of being an open source maintainer",
+        },
+        {
+          title: "Calculators",
+          href: "https://github.com/xxczaki/BeingOfExistence-calculators#readme",
+          items: [],
+          description: "Calculators for every platform",
+        },
+        {
+          title: "Captcha",
+          href: "https://github.com/ZYSzys/BeingOfExistence-captcha#readme",
+          items: [],
+          description:
+            "A type of challenge–response test used in computing to determine whether or not the user is human",
+        },
+        {
+          title: "Jupyter",
+          href: "https://github.com/markusschanta/BeingOfExistence-jupyter#readme",
+          items: [],
+          description:
+            "Create and share documents that contain code, equations, visualizations and narrative text",
+        },
+        {
+          title: "FIRST Robotics Competition",
+          href: "https://github.com/andrewda/BeingOfExistence-frc#readme",
+          items: [],
+          description: "International high school robotics championship",
+        },
+        {
+          title: "Speakers",
+          href: "https://github.com/karlhorky/BeingOfExistence-speakers#readme",
+          items: [],
+          description:
+            "Conference and meetup speakers in the programming and design community",
+        },
+        {
+          title: "Board Games",
+          href: "https://github.com/edm00se/BeingOfExistence-board-games#readme",
+          items: [],
+          description: "Table-top gaming fun for all",
+        },
+        {
+          title: "Software Patreons",
+          href: "https://github.com/uraimo/BeingOfExistence-software-patreons#readme",
+          items: [],
+          description:
+            "Fund individual programmers or the development of open source projects",
+        },
+        {
+          title: "Parasite",
+          href: "https://github.com/ecohealthalliance/BeingOfExistence-parasite#readme",
+          items: [],
+          description: "Parasites and host-pathogen interactions",
+        },
+        {
+          title: "Food",
+          href: "https://github.com/jzarca01/BeingOfExistence-food#readme",
+          items: [],
+          description: "Food-related projects on GitHub",
+        },
+        {
+          title: "Bitcoin Payment Processors",
+          href: "https://github.com/alexk111/BeingOfExistence-bitcoin-payment-processors#readme",
+          items: [],
+          description: "Start accepting Bitcoin",
+        },
+        {
+          title: "Scientific Computing",
+          href: "https://github.com/nschloe/BeingOfExistence-scientific-computing#readme",
+          items: [],
+          description: "Solving complex scientific problems using computers",
+        },
+        {
+          title: "Amazon Sellers",
+          href: "https://github.com/ScaleLeap/BeingOfExistence-amazon-seller#readme",
+          items: [],
+          description: "Not Provided(coming soon}",
+        },
+        {
+          title: "Agriculture",
+          href: "https://github.com/brycejohnston/BeingOfExistence-agriculture#readme",
+          items: [],
+          description: "Open source technology for farming and gardening",
+        },
+        {
+          title: "Product Design",
+          href: "https://github.com/ttt30ga/BeingOfExistence-product-design#readme",
+          items: [],
+          description:
+            "Design a product from the initial concept to production",
+        },
+        {
           title: "Prisma",
-          href: "/docs/others/prisma",
+          href: "https://github.com/catalinmiron/BeingOfExistence-prisma#readme",
           items: [],
+          description: "Turn your database into a GraphQL API",
         },
         {
-          title: "Graphql",
-          href: "/docs/others/graphql",
+          title: "Software Architecture",
+          href: "https://github.com/simskij/BeingOfExistence-software-architecture#readme",
           items: [],
+          description: "The discipline of designing and building software",
         },
         {
-          title: "End",
-          href: "/docs/others/the-end",
+          title: "Connectivity Data and Reports",
+          href: "https://github.com/stevesong/BeingOfExistence-connectivity-info#readme",
           items: [],
+          description:
+            "Better understand who has access to telecommunication and internet infrastructure and on what terms",
+        },
+        {
+          title: "Stacks",
+          href: "https://github.com/stackshareio/BeingOfExistence-stacks#readme",
+          items: [],
+          description: "Tech stacks for building different apps and features",
+        },
+        {
+          title: "Cytodata",
+          href: "https://github.com/cytodata/BeingOfExistence-cytodata#readme",
+          items: [],
+          description:
+            "Image-based profiling of biological phenotypes for computational biologists",
+        },
+        {
+          title: "IRC",
+          href: "https://github.com/davisonio/BeingOfExistence-irc#readme",
+          items: [],
+          description: "Open source messaging protocol",
+        },
+        {
+          title: "Advertising",
+          href: "https://github.com/cenoura/BeingOfExistence-ads#readme",
+          items: [],
+          description: "Advertising and programmatic media for websites",
+        },
+        {
+          title: "Earth",
+          href: "https://github.com/philsturgeon/BeingOfExistence-earth#readme",
+          items: [],
+          description: "Find ways to resolve the climate crisis",
+        },
+        {
+          title: "Naming",
+          href: "https://github.com/gruhn/BeingOfExistence-naming#readme",
+          items: [],
+          description: "Naming things in computer science done right",
+        },
+        {
+          title: "Web Archiving",
+          href: "https://github.com/iipc/BeingOfExistence-web-archiving#readme",
+          items: [],
+          description: "An effort to preserve the Web for future generations",
+        },
+        {
+          title: "WP-CLI",
+          href: "https://github.com/schlessera/BeingOfExistence-wp-cli#readme",
+          items: [],
+          description: "Command-line interface for WordPress",
+        },
+        {
+          title: "Credit Modeling",
+          href: "https://github.com/mourarthur/BeingOfExistence-credit-modeling#readme",
+          items: [],
+          description:
+            "Methods for classifying credit applicants into risk classes",
+        },
+        {
+          title: "Ansible",
+          href: "https://github.com/ansible-community/BeingOfExistence-ansible#readme",
+          items: [],
+          description:
+            "A Python-based, open source IT configuration management and automation platform",
+        },
+        {
+          title: "Biological Visualizations",
+          href: "https://github.com/keller-mark/BeingOfExistence-biological-visualizations#readme",
+          items: [],
+          description:
+            "Interactive visualization of biological data on the web",
+        },
+        {
+          title: "QR Code",
+          href: "https://github.com/make-github-pseudonymous-again/BeingOfExistence-qr-code#readme",
+          items: [],
+          description:
+            "A type of matrix barcode that can be used to store and share a small amount of information",
+        },
+        {
+          title: "Veganism",
+          href: "https://github.com/sdassow/BeingOfExistence-veganism#readme",
+          items: [],
+          description: "Making the plant-based lifestyle easy and accessible",
+        },
+        {
+          title: "Translations",
+          href: "https://github.com/mbiesiad/BeingOfExistence-translations#readme",
+          items: [],
+          description:
+            "The transfer of the meaning of a text from one language to another",
+        },
+        {
+          title: "Scriptable",
+          href: "https://github.com/dersvenhesse/BeingOfExistence-scriptable#readme",
+          items: [],
+          description: "An iOS app for automations in JavaScript",
+        },
+        {
+          title: "WebXR",
+          href: "https://github.com/msub2/BeingOfExistence-webxr#readme",
+          items: [],
+          description:
+            "Enables immersive virtual reality and augmented reality content on the web",
+        },
+        {
+          title: "Computational Geometry",
+          href: "https://github.com/atkirtland/BeingOfExistence-computational-geometry#readme",
+          items: [],
+          description: "Computational approaches for problems in geometry",
+        },
+        {
+          title: "OpenStreetMap",
+          href: "https://github.com/osmlab/BeingOfExistence-openstreetmap#readme",
+          items: [],
+          description:
+            "An open data mapping project utilized by many apps and devices",
+        },
+        {
+          title: "Computational Biology",
+          href: "https://github.com/inoue0426/BeingOfExistence-computational-biology#readme",
+          items: [],
+          description:
+            "Computational approaches applied to problems in biology",
+        },
+        {
+          title: "Read the Docs",
+          href: "https://github.com/readthedocs-examples/BeingOfExistence-read-the-docs#readme",
+          items: [],
+          description:
+            "Example documentation projects to inspire and help bootstrap new documentation projects",
+        },
+        {
+          title: "Quarto",
+          href: "https://github.com/mcanouil/BeingOfExistence-quarto#readme",
+          items: [],
+          description:
+            "Scientific and technical open-source publishing system built on Pandoc",
+        },
+        {
+          title: "ChatGPT",
+          href: "https://github.com/sindresorhus/BeingOfExistence-chatgpt#readme",
+          items: [],
+          description: "Artificial intelligence chatbot developed by OpenAI",
+        },
+        {
+          title: "Whisper",
+          href: "https://github.com/sindresorhus/BeingOfExistence-whisper#readme",
+          items: [],
+          description:
+            "Open-source AI-powered speech recognition system developed by OpenAI",
+        },
+        {
+          title: "All BeingOfExistence Lists",
+          href: "https://github.com/topics/BeingOfExistence",
+          items: [],
+          description: "All the BeingOfExistence lists on GitHub",
+        },
+        {
+          title: "BeingOfExistence Search",
+          href: "https://BeingOfExistencelists.top",
+          items: [],
+          description: "Quick search for BeingOfExistence lists",
+        },
+        {
+          title: "StumbleUponBeingOfExistence",
+          href: "https://github.com/basharovV/StumbleUponBeingOfExistence",
+          items: [],
+          description:
+            "Discover random pages from the BeingOfExistence dataset using a browser extension",
+        },
+        {
+          title: "BeingOfExistence CLI",
+          href: "https://github.com/umutphp/BeingOfExistence-cli",
+          items: [],
+          description:
+            "A simple command-line tool to dive into BeingOfExistence lists",
+        },
+        {
+          title: "BeingOfExistence Viewer",
+          href: "https://BeingOfExistence.digitalbunker.dev",
+          items: [],
+          description:
+            "A visualizer for all of the above BeingOfExistence lists",
+        },
+        {
+          title: "Track BeingOfExistence List",
+          href: "https://www.trackBeingOfExistencelist.com",
+          items: [],
+          description: "View the latest updates of BeingOfExistence lists",
         },
       ],
     },
@@ -19356,3497 +10218,4196 @@ export const docsConfig: DocsConfig = {
           title: "A# .NET",
           href: "https://en.wikipedia.org/wiki/A_Sharp_(.NET) ",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "A# (Axiom)",
           href: "https://en.wikipedia.org/wiki/A_Sharp_(Axiom)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "A-0 System",
           href: "https://en.wikipedia.org/wiki/A-0_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "A+",
           href: "https://en.wikipedia.org/wiki/A%2B_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "A++",
           href: "https://en.wikipedia.org/wiki/A%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ABAP",
           href: "https://en.wikipedia.org/wiki/ABAP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ABC",
           href: "https://en.wikipedia.org/wiki/ABC_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ABC ALGOL",
           href: "https://en.wikipedia.org/wiki/ABC_ALGOL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ABSET",
           href: "https://en.wikipedia.org/wiki/ABSET",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ABSYS",
           href: "https://en.wikipedia.org/wiki/ABSYS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ACC",
           href: "https://en.wikipedia.org/wiki/ACC_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Accent",
           href: "https://en.wikipedia.org/wiki/Accent_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ace DASL",
           href: "https://en.wikipedia.org/wiki/Distributed_Application_Specification_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ACL2",
           href: "https://en.wikipedia.org/wiki/ACL2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ACT-III",
           href: "https://en.wikipedia.org/wiki/LGP-30#ACT-III_programming_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Action!",
           href: "https://en.wikipedia.org/wiki/Action!_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ActionScript",
           href: "https://en.wikipedia.org/wiki/ActionScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ada",
           href: "https://en.wikipedia.org/wiki/Ada_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Adenine",
           href: "https://en.wikipedia.org/wiki/Adenine_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Agda",
           href: "https://en.wikipedia.org/wiki/Agda_(theorem_prover)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Agilent VEE",
           href: "https://en.wikipedia.org/wiki/Agilent_VEE",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Agora",
           href: "https://en.wikipedia.org/wiki/Agora_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AIMMS",
           href: "https://en.wikipedia.org/wiki/AIMMS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alef",
           href: "https://en.wikipedia.org/wiki/Alef_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ALF",
           href: "https://en.wikipedia.org/wiki/Algebraic_Logic_Functional_programming_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ALGOL 58",
           href: "https://en.wikipedia.org/wiki/ALGOL_58",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ALGOL 60",
           href: "https://en.wikipedia.org/wiki/ALGOL_60",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ALGOL 68",
           href: "https://en.wikipedia.org/wiki/ALGOL_68",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ALGOL W",
           href: "https://en.wikipedia.org/wiki/ALGOL_W",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alice",
           href: "https://en.wikipedia.org/wiki/Alice_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Alma-0",
           href: "https://en.wikipedia.org/wiki/Alma-0",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AmbientTalk",
           href: "https://en.wikipedia.org/wiki/AmbientTalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Amiga E",
           href: "https://en.wikipedia.org/wiki/Amiga_E",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AMOS",
           href: "https://en.wikipedia.org/wiki/AMOS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AMPL",
           href: "https://en.wikipedia.org/wiki/AMPL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Apex (Salesforce.com)",
           href: "https://en.wikipedia.org/wiki/Salesforce.com#Apex",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "APL",
           href: "https://en.wikipedia.org/wiki/APL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "App Inventor for Android's visual block language",
           href: "https://en.wikipedia.org/wiki/App_Inventor_for_Android_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AppleScript",
           href: "https://en.wikipedia.org/wiki/AppleScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Arc",
           href: "https://en.wikipedia.org/wiki/Arc_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ARexx",
           href: "https://en.wikipedia.org/wiki/ARexx",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Argus",
           href: "https://en.wikipedia.org/wiki/Argus_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AspectJ",
           href: "https://en.wikipedia.org/wiki/AspectJ",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Assembly language",
           href: "https://en.wikipedia.org/wiki/Assembly_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ATS",
           href: "https://en.wikipedia.org/wiki/ATS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ateji PX",
           href: "https://en.wikipedia.org/wiki/Ateji_PX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AutoHotkey",
           href: "https://en.wikipedia.org/wiki/AutoHotkey",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Autocoder",
           href: "https://en.wikipedia.org/wiki/Autocoder",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AutoIt",
           href: "https://en.wikipedia.org/wiki/AutoIt",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AutoLISP / Visual LISP",
           href: "https://en.wikipedia.org/wiki/AutoLISP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Averest",
           href: "https://en.wikipedia.org/wiki/Averest",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "AWK",
           href: "https://en.wikipedia.org/wiki/AWK",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Axum",
           href: "https://en.wikipedia.org/wiki/Axum_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "B",
           href: "https://en.wikipedia.org/wiki/B_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Babbage",
           href: "https://en.wikipedia.org/wiki/Babbage_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bash",
           href: "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BASIC",
           href: "https://en.wikipedia.org/wiki/BASIC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "bc",
           href: "https://en.wikipedia.org/wiki/Bc_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BCPL",
           href: "https://en.wikipedia.org/wiki/BCPL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BeanShell",
           href: "https://en.wikipedia.org/wiki/BeanShell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Batch (Windows/Dos)",
           href: "https://en.wikipedia.org/wiki/Batch_file",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bertrand",
           href: "https://en.wikipedia.org/wiki/Bertrand_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BETA",
           href: "https://en.wikipedia.org/wiki/BETA_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bigwig",
           href: "https://en.wikipedia.org/wiki/Bigwig_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bistro",
           href: "https://en.wikipedia.org/wiki/Bistro_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BitC",
           href: "https://en.wikipedia.org/wiki/BitC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BLISS",
           href: "https://en.wikipedia.org/wiki/BLISS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Blockly",
           href: "https://en.wikipedia.org/wiki/Blockly",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BlooP",
           href: "https://en.wikipedia.org/wiki/BlooP_and_FlooP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Blue",
           href: "https://en.wikipedia.org/wiki/Blue_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Boo",
           href: "https://en.wikipedia.org/wiki/Boo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Boomerang",
           href: "https://en.wikipedia.org/wiki/Boomerang_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Bourne shell (including",
           href: "https://en.wikipedia.org/wiki/Bourne_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "bash and",
           href: "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ksh )",
           href: "https://en.wikipedia.org/wiki/Korn_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BREW",
           href: "https://en.wikipedia.org/wiki/Qualcomm_Brew",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "BPEL",
           href: "https://en.wikipedia.org/wiki/Business_Process_Execution_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C",
           href: "https://en.wikipedia.org/wiki/C_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C--",
           href: "https://en.wikipedia.org/wiki/C--",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C++ – ISO/IEC 14882",
           href: "https://en.wikipedia.org/wiki/C%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C# – ISO/IEC 23270",
           href: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C/AL",
           href: "https://en.wikipedia.org/wiki/C/AL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Caché ObjectScript",
           href: "https://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "C Shell",
           href: "https://en.wikipedia.org/wiki/C_Shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Caml",
           href: "https://en.wikipedia.org/wiki/Caml",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cayenne",
           href: "https://en.wikipedia.org/wiki/Cayenne_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CDuce",
           href: "https://en.wikipedia.org/wiki/CDuce",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cecil",
           href: "https://en.wikipedia.org/wiki/Cecil_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cel",
           href: "https://en.wikipedia.org/wiki/Cel_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cesil",
           href: "https://en.wikipedia.org/wiki/Cesil",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ceylon",
           href: "https://en.wikipedia.org/wiki/Ceylon_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CFEngine",
           href: "https://en.wikipedia.org/wiki/CFEngine",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CFML",
           href: "https://en.wikipedia.org/wiki/ColdFusion_Markup_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cg",
           href: "https://en.wikipedia.org/wiki/Cg_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ch",
           href: "https://en.wikipedia.org/wiki/Ch_(computer_programming)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Chapel",
           href: "https://en.wikipedia.org/wiki/Chapel_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CHAIN",
           href: "https://en.wikipedia.org/wiki/CHAIN_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Charity",
           href: "https://en.wikipedia.org/wiki/Charity_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Charm",
           href: "https://en.wikipedia.org/wiki/Charm_(language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Chef",
           href: "https://en.wikipedia.org/wiki/Chef_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CHILL",
           href: "https://en.wikipedia.org/wiki/CHILL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CHIP-8",
           href: "https://en.wikipedia.org/wiki/CHIP-8",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "chomski",
           href: "https://en.wikipedia.org/wiki/Chomski",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ChucK",
           href: "https://en.wikipedia.org/wiki/ChucK",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CICS",
           href: "https://en.wikipedia.org/wiki/CICS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cilk",
           href: "https://en.wikipedia.org/wiki/Cilk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Citrine (programming language)",
           href: "https://en.wikipedia.org/wiki/Citrine_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CL (IBM)",
           href: "https://en.wikipedia.org/wiki/AS/400_Control_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Claire",
           href: "https://en.wikipedia.org/wiki/Claire_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Clarion",
           href: "https://en.wikipedia.org/wiki/Clarion_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Clean",
           href: "https://en.wikipedia.org/wiki/Clean_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Clipper",
           href: "https://en.wikipedia.org/wiki/Clipper_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CLIST",
           href: "https://en.wikipedia.org/wiki/CLIST",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Clojure",
           href: "https://en.wikipedia.org/wiki/Clojure",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CLU",
           href: "https://en.wikipedia.org/wiki/CLU_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CMS-2",
           href: "https://en.wikipedia.org/wiki/CMS-2_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "COBOL – ISO/IEC 1989",
           href: "https://en.wikipedia.org/wiki/COBOL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cobra",
           href: "https://en.wikipedia.org/wiki/Cobra_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CODE",
           href: "https://en.wikipedia.org/wiki/CODE_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CoffeeScript",
           href: "https://en.wikipedia.org/wiki/CoffeeScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ColdFusion",
           href: "https://en.wikipedia.org/wiki/ColdFusion",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "COMAL",
           href: "https://en.wikipedia.org/wiki/COMAL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Combined Programming Language (CPL)",
           href: "https://en.wikipedia.org/wiki/Combined_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "COMIT",
           href: "https://en.wikipedia.org/wiki/COMIT",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Common Intermediate Language (CIL)",
           href: "https://en.wikipedia.org/wiki/Common_Intermediate_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Common Lisp (also known as CL)",
           href: "https://en.wikipedia.org/wiki/Common_Lisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "COMPASS",
           href: "https://en.wikipedia.org/wiki/COMPASS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Component Pascal",
           href: "https://en.wikipedia.org/wiki/Component_Pascal",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Constraint Handling Rules (CHR)",
           href: "https://en.wikipedia.org/wiki/Constraint_Handling_Rules",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Converge",
           href: "https://en.wikipedia.org/wiki/Converge_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cool",
           href: "https://en.wikipedia.org/wiki/Cool_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Coq",
           href: "https://en.wikipedia.org/wiki/Coq",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Coral 66",
           href: "https://en.wikipedia.org/wiki/Coral_66",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Corn",
           href: "https://en.wikipedia.org/wiki/Corn_(emulator)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CorVision",
           href: "https://en.wikipedia.org/wiki/CorVision",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "COWSEL",
           href: "https://en.wikipedia.org/wiki/COWSEL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CPL",
           href: "https://en.wikipedia.org/wiki/Combined_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cryptol",
           href: "https://en.wikipedia.org/wiki/Cryptol",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "csh",
           href: "https://en.wikipedia.org/wiki/C_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Csound",
           href: "https://en.wikipedia.org/wiki/Csound",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CSP",
           href: "https://en.wikipedia.org/wiki/Communicating_sequential_processes",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CUDA",
           href: "https://en.wikipedia.org/wiki/CUDA",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Curl",
           href: "https://en.wikipedia.org/wiki/Curl_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Curry",
           href: "https://en.wikipedia.org/wiki/Curry_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cyclone",
           href: "https://en.wikipedia.org/wiki/Cyclone_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Cython",
           href: "https://en.wikipedia.org/wiki/Cython",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "D",
           href: "https://en.wikipedia.org/wiki/D_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DASL (Datapoint's Advanced Systems Language)",
           href: "https://en.wikipedia.org/wiki/Datapoint%27s_Advanced_Systems_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DASL (Distributed Application Specification Language)",
           href: "https://en.wikipedia.org/wiki/Distributed_Application_Specification_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dart",
           href: "https://en.wikipedia.org/wiki/Dart_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DataFlex",
           href: "https://en.wikipedia.org/wiki/DataFlex",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Datalog",
           href: "https://en.wikipedia.org/wiki/Datalog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DATATRIEVE",
           href: "https://en.wikipedia.org/wiki/DATATRIEVE",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "dBase",
           href: "https://en.wikipedia.org/wiki/DBase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "dc",
           href: "https://en.wikipedia.org/wiki/Dc_(computer_program)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DCL",
           href: "https://en.wikipedia.org/wiki/DIGITAL_Command_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Deesel (formerly G)",
           href: "https://en.wikipedia.org/wiki/Deesel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Delphi",
           href: "https://en.wikipedia.org/wiki/Delphi_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DinkC",
           href: "https://en.wikipedia.org/wiki/Dink_Smallwood#Modification",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DIBOL",
           href: "https://en.wikipedia.org/wiki/DIBOL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dog",
           href: "https://en.wikipedia.org/wiki/Sepandar_Kamvar#.22Dog.22_programming_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Draco",
           href: "https://en.wikipedia.org/wiki/Draco_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DRAKON",
           href: "https://en.wikipedia.org/wiki/DRAKON",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Dylan",
           href: "https://en.wikipedia.org/wiki/Dylan_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "DYNAMO",
           href: "https://en.wikipedia.org/wiki/DYNAMO_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "E",
           href: "https://en.wikipedia.org/wiki/E_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "E#",
           href: "https://en.wikipedia.org/wiki/E_Sharp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ease",
           href: "https://en.wikipedia.org/wiki/Ease_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Easy PL/I",
           href: "https://en.wikipedia.org/wiki/PL/I",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Easy Programming Language",
           href: "https://en.wikipedia.org/wiki/Easy_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "EASYTRIEVE PLUS",
           href: "https://en.wikipedia.org/wiki/Easytrieve",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ECMAScript",
           href: "https://en.wikipedia.org/wiki/ECMAScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Edinburgh IMP",
           href: "https://en.wikipedia.org/wiki/Edinburgh_IMP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "EGL",
           href: "https://en.wikipedia.org/wiki/EGL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Eiffel",
           href: "https://en.wikipedia.org/wiki/Eiffel_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ELAN",
           href: "https://en.wikipedia.org/wiki/ELAN_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Elixir",
           href: "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Elm",
           href: "https://en.wikipedia.org/wiki/Elm_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Emacs Lisp",
           href: "https://en.wikipedia.org/wiki/Emacs_Lisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Emerald",
           href: "https://en.wikipedia.org/wiki/Emerald_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Epigram",
           href: "https://en.wikipedia.org/wiki/Epigram_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "EPL",
           href: "https://en.wikipedia.org/wiki/Easy_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Erlang",
           href: "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "es",
           href: "https://en.wikipedia.org/wiki/Es_(Unix_shell)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Escher",
           href: "https://en.wikipedia.org/wiki/Escher_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ESPOL",
           href: "https://en.wikipedia.org/wiki/Executive_Systems_Problem_Oriented_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Esterel",
           href: "https://en.wikipedia.org/wiki/Esterel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Etoys",
           href: "https://en.wikipedia.org/wiki/Etoys_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Euclid",
           href: "https://en.wikipedia.org/wiki/Euclid_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Euler",
           href: "https://en.wikipedia.org/wiki/Euler_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Euphoria",
           href: "https://en.wikipedia.org/wiki/Euphoria_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "EusLisp Robot Programming Language",
           href: "https://en.wikipedia.org/wiki/EusLisp_Robot_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CMS EXEC (EXEC)",
           href: "https://en.wikipedia.org/wiki/CMS_EXEC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "EXEC 2",
           href: "https://en.wikipedia.org/wiki/EXEC_2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Executable UML",
           href: "https://en.wikipedia.org/wiki/Executable_UML",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "F",
           href: "https://en.wikipedia.org/wiki/F_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "F#",
           href: "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Factor",
           href: "https://en.wikipedia.org/wiki/Factor_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Falcon",
           href: "https://en.wikipedia.org/wiki/Falcon_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fantom",
           href: "https://en.wikipedia.org/wiki/Fantom_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FAUST",
           href: "https://en.wikipedia.org/wiki/FAUST_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FFP",
           href: "https://en.wikipedia.org/wiki/FFP_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fjölnir",
           href: "https://en.wikipedia.org/wiki/Fj%C3%B6lnir_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FL",
           href: "https://en.wikipedia.org/wiki/FL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Flavors",
           href: "https://en.wikipedia.org/wiki/Flavors_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Flex",
           href: "https://en.wikipedia.org/wiki/Flex_(language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FlooP",
           href: "https://en.wikipedia.org/wiki/BlooP_and_FlooP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FLOW-MATIC",
           href: "https://en.wikipedia.org/wiki/FLOW-MATIC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FOCAL",
           href: "https://en.wikipedia.org/wiki/FOCAL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FOCUS",
           href: "https://en.wikipedia.org/wiki/FOCUS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FOIL",
           href: "https://en.wikipedia.org/wiki/FOIL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FORMAC",
           href: "https://en.wikipedia.org/wiki/FORMAC_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "@Formula",
           href: "https://en.wikipedia.org/wiki/Formula_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Forth",
           href: "https://en.wikipedia.org/wiki/Forth_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fortran – ISO/IEC 1539",
           href: "https://en.wikipedia.org/wiki/Fortran",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Fortress",
           href: "https://en.wikipedia.org/wiki/Fortress_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FoxBase",
           href: "https://en.wikipedia.org/wiki/FoxBase",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FoxPro",
           href: "https://en.wikipedia.org/wiki/FoxPro",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FP",
           href: "https://en.wikipedia.org/wiki/FP_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "FPr",
           href: "https://en.wikipedia.org/wiki/FPr_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Franz Lisp",
           href: "https://en.wikipedia.org/wiki/Franz_Lisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Frege",
           href: "https://en.wikipedia.org/wiki/Frege_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "F-Script",
           href: "https://en.wikipedia.org/wiki/F-Script_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "G",
           href: "https://en.wikipedia.org/wiki/G_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Game Maker Language",
           href: "https://en.wikipedia.org/wiki/GameMaker:_Studio",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GameMonkey Script",
           href: "https://en.wikipedia.org/wiki/GameMonkey_Script",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GAMS",
           href: "https://en.wikipedia.org/wiki/General_Algebraic_Modeling_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GAP",
           href: "https://en.wikipedia.org/wiki/GAP_computer_algebra_system",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "G-code",
           href: "https://en.wikipedia.org/wiki/G-code",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Genie",
           href: "https://en.wikipedia.org/wiki/Genie_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GDL",
           href: "https://en.wikipedia.org/wiki/Geometric_Description_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GJ",
           href: "https://en.wikipedia.org/wiki/Generic_Java",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GEORGE",
           href: "https://en.wikipedia.org/wiki/GEORGE_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GLSL",
           href: "https://en.wikipedia.org/wiki/GLSL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GNU E",
           href: "https://en.wikipedia.org/wiki/GNU_E",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GM",
           href: "https://en.wikipedia.org/wiki/Golden_master",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Go",
           href: "https://en.wikipedia.org/wiki/Go_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Go!",
           href: "https://en.wikipedia.org/wiki/Go!_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GOAL",
           href: "https://en.wikipedia.org/wiki/Game_Oriented_Assembly_Lisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Gödel",
           href: "https://en.wikipedia.org/wiki/G%C3%B6del_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Godiva",
           href: "https://en.wikipedia.org/wiki/Godiva_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Golo",
           href: "https://en.wikipedia.org/wiki/Golo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GOM (Good Old Mad)",
           href: "https://en.wikipedia.org/wiki/MAD_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Google Apps Script",
           href: "https://en.wikipedia.org/wiki/Google_Apps_Script",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Gosu",
           href: "https://en.wikipedia.org/wiki/Gosu_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GOTRAN",
           href: "https://en.wikipedia.org/wiki/IBM_1620#GOTRAN",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GPSS",
           href: "https://en.wikipedia.org/wiki/GPSS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GraphTalk",
           href: "https://en.wikipedia.org/wiki/Computer_Sciences_Corporation",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "GRASS",
           href: "https://en.wikipedia.org/wiki/GRASS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Groovy",
           href: "https://en.wikipedia.org/wiki/Groovy_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hack",
           href: "https://en.wikipedia.org/wiki/Hack_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "HAL/S",
           href: "https://en.wikipedia.org/wiki/HAL/S",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hamilton C shell",
           href: "https://en.wikipedia.org/wiki/Hamilton_C_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Harbour",
           href: "https://en.wikipedia.org/wiki/Harbour_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hartmann pipelines",
           href: "https://en.wikipedia.org/wiki/Hartmann_pipeline",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Haskell",
           href: "https://en.wikipedia.org/wiki/Haskell_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Haxe",
           href: "https://en.wikipedia.org/wiki/Haxe",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "High Level Assembly",
           href: "https://en.wikipedia.org/wiki/High_Level_Assembly",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "HLSL",
           href: "https://en.wikipedia.org/wiki/High_Level_Shader_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hop",
           href: "https://en.wikipedia.org/wiki/Hop_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hopscotch",
           href: "https://en.wikipedia.org/wiki/Hopscotch_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hope",
           href: "https://en.wikipedia.org/wiki/Hope_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hugo",
           href: "https://en.wikipedia.org/wiki/Hugo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Hume",
           href: "https://en.wikipedia.org/wiki/Hume_(language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "HyperTalk",
           href: "https://en.wikipedia.org/wiki/HyperTalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IBM Basic assembly language",
           href: "https://en.wikipedia.org/wiki/IBM_Basic_assembly_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IBM HAScript",
           href: "https://en.wikipedia.org/wiki/IBM_HAScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IBM Informix-4GL",
           href: "https://en.wikipedia.org/wiki/IBM_Informix-4GL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IBM RPG",
           href: "https://en.wikipedia.org/wiki/IBM_RPG",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ICI",
           href: "https://en.wikipedia.org/wiki/ICI_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Icon",
           href: "https://en.wikipedia.org/wiki/Icon_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Id",
           href: "https://en.wikipedia.org/wiki/Id_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IDL",
           href: "https://en.wikipedia.org/wiki/IDL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Idris",
           href: "https://en.wikipedia.org/wiki/Idris_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IMP",
           href: "https://en.wikipedia.org/wiki/IMP_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Inform",
           href: "https://en.wikipedia.org/wiki/Inform",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Io",
           href: "https://en.wikipedia.org/wiki/Io_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ioke",
           href: "https://en.wikipedia.org/wiki/Ioke_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IPL",
           href: "https://en.wikipedia.org/wiki/Information_Processing_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "IPTSCRAE",
           href: "https://en.wikipedia.org/wiki/IPTSCRAE",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ISLISP",
           href: "https://en.wikipedia.org/wiki/ISLISP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ISPF",
           href: "https://en.wikipedia.org/wiki/ISPF",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ISWIM",
           href: "https://en.wikipedia.org/wiki/ISWIM",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "J",
           href: "https://en.wikipedia.org/wiki/J_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "J#",
           href: "https://en.wikipedia.org/wiki/J_Sharp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "J++",
           href: "https://en.wikipedia.org/wiki/Visual_J%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JADE",
           href: "https://en.wikipedia.org/wiki/JADE_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Jako",
           href: "https://en.wikipedia.org/wiki/Jako_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JAL",
           href: "https://en.wikipedia.org/wiki/JAL_(compiler)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Janus (concurrent constraint programming language)",
           href: "https://en.wikipedia.org/wiki/Janus_(concurrent_constraint_programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Janus (time-reversible computing programming language)",
           href: "https://en.wikipedia.org/wiki/Janus_(time-reversible_computing_programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JASS",
           href: "https://en.wikipedia.org/wiki/JASS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Java",
           href: "https://en.wikipedia.org/wiki/Java_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JavaScript",
           href: "https://en.wikipedia.org/wiki/JavaScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JCL",
           href: "https://en.wikipedia.org/wiki/Job_Control_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JEAN",
           href: "https://en.wikipedia.org/wiki/JEAN",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Join Java",
           href: "https://en.wikipedia.org/wiki/Join_Java",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JOSS",
           href: "https://en.wikipedia.org/wiki/JOSS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Joule",
           href: "https://en.wikipedia.org/wiki/Joule_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JOVIAL",
           href: "https://en.wikipedia.org/wiki/JOVIAL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Joy",
           href: "https://en.wikipedia.org/wiki/Joy_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JScript",
           href: "https://en.wikipedia.org/wiki/JScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JScript .NET",
           href: "https://en.wikipedia.org/wiki/JScript_.NET",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "JavaFX Script",
           href: "https://en.wikipedia.org/wiki/JavaFX_Script",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Julia",
           href: "https://en.wikipedia.org/wiki/Julia_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Jython",
           href: "https://en.wikipedia.org/wiki/Jython",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "K",
           href: "https://en.wikipedia.org/wiki/K_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Kaleidoscope",
           href: "https://en.wikipedia.org/wiki/Kaleidoscope_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Karel",
           href: "https://en.wikipedia.org/wiki/Karel_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Karel++",
           href: "https://en.wikipedia.org/wiki/Karel%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KEE",
           href: "https://en.wikipedia.org/wiki/IntelliCorp_(Software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Kixtart",
           href: "https://en.wikipedia.org/wiki/KiXtart",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Klerer-May System",
           href: "https://en.wikipedia.org/wiki/Klerer-May_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KIF",
           href: "https://en.wikipedia.org/wiki/Knowledge_Interchange_Format",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Kojo",
           href: "https://en.wikipedia.org/wiki/Kojo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Kotlin",
           href: "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KRC",
           href: "https://en.wikipedia.org/wiki/Kent_Recursive_Calculator",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KRL",
           href: "https://en.wikipedia.org/wiki/KRL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KUKA Robot Language)",
           href: "https://en.wikipedia.org/wiki/KUKA",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "KRYPTON",
           href: "https://en.wikipedia.org/wiki/KRYPTON",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ksh",
           href: "https://en.wikipedia.org/wiki/Korn_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "L",
           href: "https://en.wikipedia.org/wiki/L_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "L# .NET",
           href: "https://en.wikipedia.org/wiki/L_Sharp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LabVIEW",
           href: "https://en.wikipedia.org/wiki/LabVIEW",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ladder",
           href: "https://en.wikipedia.org/wiki/Ladder_logic",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lagoona",
           href: "https://en.wikipedia.org/wiki/Lagoona_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LANSA",
           href: "https://en.wikipedia.org/wiki/LANSA_(development_environment)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lasso",
           href: "https://en.wikipedia.org/wiki/Lasso_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LaTeX",
           href: "https://en.wikipedia.org/wiki/LaTeX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lava",
           href: "https://en.wikipedia.org/wiki/Lava_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LC-3",
           href: "https://en.wikipedia.org/wiki/LC-3",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Leda",
           href: "https://en.wikipedia.org/wiki/Leda_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Legoscript",
           href: "https://en.wikipedia.org/wiki/Lego_Mindstorms",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LIL",
           href: "https://en.wikipedia.org/wiki/Little_Implementation_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LilyPond",
           href: "https://en.wikipedia.org/wiki/LilyPond",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Limbo",
           href: "https://en.wikipedia.org/wiki/Limbo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Limnor",
           href: "https://en.wikipedia.org/wiki/Limnor",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LINC",
           href: "https://en.wikipedia.org/wiki/LINC_4GL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lingo",
           href: "https://en.wikipedia.org/wiki/Lingo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LIS",
           href: "https://en.wikipedia.org/wiki/LIS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LISA",
           href: "https://en.wikipedia.org/wiki/Language_for_Instruction_Set_Architecture",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lisaac",
           href: "https://en.wikipedia.org/wiki/Lisaac",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lisp ISO/IEC 13816",
           href: "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lite-C",
           href: "https://en.wikipedia.org/wiki/Lite-C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lithe",
           href: "https://en.wikipedia.org/wiki/Lithe_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Little b",
           href: "https://en.wikipedia.org/wiki/Little_b_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Logo",
           href: "https://en.wikipedia.org/wiki/Logo_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Logtalk",
           href: "https://en.wikipedia.org/wiki/Logtalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LotusScript",
           href: "https://en.wikipedia.org/wiki/LotusScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LPC",
           href: "https://en.wikipedia.org/wiki/LPC_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LSE",
           href: "https://en.wikipedia.org/wiki/LSE_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LSL",
           href: "https://en.wikipedia.org/wiki/Linden_Scripting_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LiveCode",
           href: "https://en.wikipedia.org/wiki/LiveCode",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LiveScript",
           href: "https://en.wikipedia.org/wiki/LiveScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lua",
           href: "https://en.wikipedia.org/wiki/Lua_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lucid",
           href: "https://en.wikipedia.org/wiki/Lucid_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lustre",
           href: "https://en.wikipedia.org/wiki/Lustre_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "LYaPAS",
           href: "https://en.wikipedia.org/wiki/LYaPAS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Lynx",
           href: "https://en.wikipedia.org/wiki/Lynx_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "M2001",
           href: "https://en.wikipedia.org/wiki/M2001",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         { title: "MarsCode (programming language)", href: "", items: [] },
         {
           title: "M4",
           href: "https://en.wikipedia.org/wiki/M4_(computer_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "M#",
           href: "https://en.wikipedia.org/wiki/M_Sharp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Machine code",
           href: "https://en.wikipedia.org/wiki/Machine_code",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MAD (Michigan Algorithm Decoder)",
           href: "https://en.wikipedia.org/wiki/MAD_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MAD/I",
           href: "https://en.wikipedia.org/wiki/MAD_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Magik",
           href: "https://en.wikipedia.org/wiki/Magik_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Magma",
           href: "https://en.wikipedia.org/wiki/Magma_computer_algebra_system",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "make",
           href: "https://en.wikipedia.org/wiki/Make_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Maple",
           href: "https://en.wikipedia.org/wiki/Maple_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MAPPER now part of BIS",
           href: "https://en.wikipedia.org/wiki/MAPPER",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MARK-IV now VISION:BUILDER",
           href: "https://en.wikipedia.org/wiki/MARK_IV_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mary",
           href: "https://en.wikipedia.org/wiki/Mary_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MASM Microsoft Assembly x86",
           href: "https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MATH-MATIC",
           href: "https://en.wikipedia.org/wiki/MATH-MATIC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mathematica",
           href: "https://en.wikipedia.org/wiki/Mathematica",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MATLAB",
           href: "https://en.wikipedia.org/wiki/MATLAB",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Maxima (see also",
           href: "https://en.wikipedia.org/wiki/Maxima_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Macsyma )",
           href: "https://en.wikipedia.org/wiki/Macsyma",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Max (Max Msp – Graphical Programming Environment)",
           href: "https://en.wikipedia.org/wiki/Max_(software)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MaxScript internal language 3D Studio Max",
           href: "https://en.wikipedia.org/wiki/Autodesk_3ds_Max",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Maya (MEL)",
           href: "https://en.wikipedia.org/wiki/Maya_Embedded_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MDL",
           href: "https://en.wikipedia.org/wiki/MDL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mercury",
           href: "https://en.wikipedia.org/wiki/Mercury_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mesa",
           href: "https://en.wikipedia.org/wiki/Mesa_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Metacard",
           href: "https://en.wikipedia.org/wiki/Metacard",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Metafont",
           href: "https://en.wikipedia.org/wiki/Metafont",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Microcode",
           href: "https://en.wikipedia.org/wiki/Microassembler",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MicroScript",
           href: "https://en.wikipedia.org/wiki/MicroScript_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MIIS",
           href: "https://en.wikipedia.org/wiki/MIIS_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MillScript",
           href: "https://en.wikipedia.org/wiki/MillScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MIMIC",
           href: "https://en.wikipedia.org/wiki/MIMIC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mirah",
           href: "https://en.wikipedia.org/wiki/Mirah_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Miranda",
           href: "https://en.wikipedia.org/wiki/Miranda_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MIVA Script",
           href: "https://en.wikipedia.org/wiki/MIVA_Script",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ML",
           href: "https://en.wikipedia.org/wiki/ML_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Moby",
           href: "https://en.wikipedia.org/wiki/Moby_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Model 204",
           href: "https://en.wikipedia.org/wiki/Model_204",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Modelica",
           href: "https://en.wikipedia.org/wiki/Modelica",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Modula",
           href: "https://en.wikipedia.org/wiki/Modula",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Modula-2",
           href: "https://en.wikipedia.org/wiki/Modula-2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Modula-3",
           href: "https://en.wikipedia.org/wiki/Modula-3",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mohol",
           href: "https://en.wikipedia.org/wiki/Mohol_programming_languages",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MOO",
           href: "https://en.wikipedia.org/wiki/MOO_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mortran",
           href: "https://en.wikipedia.org/wiki/Mortran",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mouse",
           href: "https://en.wikipedia.org/wiki/Mouse_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MPD",
           href: "https://en.wikipedia.org/wiki/MPD_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "CIL",
           href: "https://en.wikipedia.org/wiki/Common_Intermediate_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MSL",
           href: "https://en.wikipedia.org/wiki/MIRC_scripting_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "MUMPS",
           href: "https://en.wikipedia.org/wiki/MUMPS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Mystic Programming Language (MPL)",
           href: "https://en.wikipedia.org/wiki/Mystic_BBS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NASM",
           href: "https://en.wikipedia.org/wiki/Netwide_Assembler",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Napier88",
           href: "https://en.wikipedia.org/wiki/Napier88",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Neko",
           href: "https://en.wikipedia.org/wiki/Neko_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nemerle",
           href: "https://en.wikipedia.org/wiki/Nemerle",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "nesC",
           href: "https://en.wikipedia.org/wiki/NesC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NESL",
           href: "https://en.wikipedia.org/wiki/NESL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Net.Data",
           href: "https://en.wikipedia.org/wiki/Net.Data",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NetLogo",
           href: "https://en.wikipedia.org/wiki/NetLogo",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NetRexx",
           href: "https://en.wikipedia.org/wiki/NetRexx",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NewLISP",
           href: "https://en.wikipedia.org/wiki/NewLISP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NEWP",
           href: "https://en.wikipedia.org/wiki/NEWP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Newspeak",
           href: "https://en.wikipedia.org/wiki/Newspeak_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NewtonScript",
           href: "https://en.wikipedia.org/wiki/NewtonScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NGL",
           href: "https://en.wikipedia.org/wiki/NGL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nial",
           href: "https://en.wikipedia.org/wiki/Nial",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nice",
           href: "https://en.wikipedia.org/wiki/Nice_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nickle",
           href: "https://en.wikipedia.org/wiki/Nickle_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nim",
           href: "https://en.wikipedia.org/wiki/Nim_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NPL",
           href: "https://en.wikipedia.org/wiki/NORD_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Not eXactly C (NXC)",
           href: "https://en.wikipedia.org/wiki/Not_eXactly_C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Not Quite C (NQC)",
           href: "https://en.wikipedia.org/wiki/Not_Quite_C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NSIS",
           href: "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Nu",
           href: "https://en.wikipedia.org/wiki/Nu_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NWScript",
           href: "https://en.wikipedia.org/wiki/NWScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "NXT-G",
           href: "https://en.wikipedia.org/wiki/NXT-G",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "o:XML",
           href: "https://en.wikipedia.org/wiki/O:XML",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Oak",
           href: "https://en.wikipedia.org/wiki/Oak_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Oberon",
           href: "https://en.wikipedia.org/wiki/Oberon_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OBJ2",
           href: "https://en.wikipedia.org/wiki/OBJ2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Object Lisp",
           href: "https://en.wikipedia.org/wiki/Object_Lisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ObjectLOGO",
           href: "https://en.wikipedia.org/wiki/ObjectLOGO",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Object REXX",
           href: "https://en.wikipedia.org/wiki/Object_REXX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Object Pascal",
           href: "https://en.wikipedia.org/wiki/Object_Pascal",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Objective-C",
           href: "https://en.wikipedia.org/wiki/Objective-C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Objective-J",
           href: "https://en.wikipedia.org/wiki/Objective-J",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Obliq",
           href: "https://en.wikipedia.org/wiki/Obliq",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OCaml",
           href: "https://en.wikipedia.org/wiki/OCaml",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "occam",
           href: "https://en.wikipedia.org/wiki/Occam_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "occam-π",
           href: "https://en.wikipedia.org/wiki/Occam-%CF%80",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Octave",
           href: "https://en.wikipedia.org/wiki/GNU_Octave",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OmniMark",
           href: "https://en.wikipedia.org/wiki/OmniMark",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Onyx",
           href: "https://en.wikipedia.org/wiki/Onyx_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Opa",
           href: "https://en.wikipedia.org/wiki/Opa_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Opal",
           href: "https://en.wikipedia.org/wiki/Opal_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OpenCL",
           href: "https://en.wikipedia.org/wiki/OpenCL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OpenEdge ABL",
           href: "https://en.wikipedia.org/wiki/OpenEdge_Advanced_Business_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OPL",
           href: "https://en.wikipedia.org/wiki/Open_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OPS5",
           href: "https://en.wikipedia.org/wiki/OPS5",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "OptimJ",
           href: "https://en.wikipedia.org/wiki/OptimJ",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Orc",
           href: "https://en.wikipedia.org/wiki/Orc_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ORCA/Modula-2",
           href: "https://en.wikipedia.org/wiki/ORCA/Modula-2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Oriel",
           href: "https://en.wikipedia.org/wiki/Oriel_(scripting_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Orwell",
           href: "https://en.wikipedia.org/wiki/Orwell_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Oxygene",
           href: "https://en.wikipedia.org/wiki/Oxygene_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Oz",
           href: "https://en.wikipedia.org/wiki/Oz_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "P′′",
           href: "https://en.wikipedia.org/wiki/P%E2%80%B2%E2%80%B2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "P#",
           href: "https://en.wikipedia.org/wiki/P_Sharp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ParaSail (programming language)",
           href: "https://en.wikipedia.org/wiki/ParaSail_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PARI/GP",
           href: "https://en.wikipedia.org/wiki/PARI/GP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pascal – ISO 7185",
           href: "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PCASTL",
           href: "https://en.wikipedia.org/wiki/PCASTL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PCF",
           href: "https://en.wikipedia.org/wiki/Programming_language_for_Computable_Functions",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PEARL",
           href: "https://en.wikipedia.org/wiki/PEARL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PeopleCode",
           href: "https://en.wikipedia.org/wiki/PeopleCode",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Perl",
           href: "https://en.wikipedia.org/wiki/Perl",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PDL",
           href: "https://en.wikipedia.org/wiki/Perl_Data_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Perl6",
           href: "https://en.wikipedia.org/wiki/Perl6",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pharo",
           href: "https://en.wikipedia.org/wiki/Pharo",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PHP",
           href: "https://en.wikipedia.org/wiki/PHP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Phrogram",
           href: "https://en.wikipedia.org/wiki/Phrogram",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pico",
           href: "https://en.wikipedia.org/wiki/Pico_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Picolisp",
           href: "https://en.wikipedia.org/wiki/Picolisp",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pict",
           href: "https://en.wikipedia.org/wiki/Pict_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pike",
           href: "https://en.wikipedia.org/wiki/Pike_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PIKT",
           href: "https://en.wikipedia.org/wiki/PIKT",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PILOT",
           href: "https://en.wikipedia.org/wiki/PILOT",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pipelines",
           href: "https://en.wikipedia.org/wiki/Hartmann_pipeline",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pizza",
           href: "https://en.wikipedia.org/wiki/Pizza_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL-11",
           href: "https://en.wikipedia.org/wiki/PL-11",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/0",
           href: "https://en.wikipedia.org/wiki/PL/0",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/B",
           href: "https://en.wikipedia.org/wiki/Programming_Language_for_Business",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/C",
           href: "https://en.wikipedia.org/wiki/PL/C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/I – ISO 6160",
           href: "https://en.wikipedia.org/wiki/PL/I",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/M",
           href: "https://en.wikipedia.org/wiki/PL/M",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/P",
           href: "https://en.wikipedia.org/wiki/PL/P",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL/SQL",
           href: "https://en.wikipedia.org/wiki/PL/SQL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PL360",
           href: "https://en.wikipedia.org/wiki/PL360",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PLANC",
           href: "https://en.wikipedia.org/wiki/PLANC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Plankalkül",
           href: "https://en.wikipedia.org/wiki/Plankalk%C3%BCl",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Planner",
           href: "https://en.wikipedia.org/wiki/Planner_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PLEX",
           href: "https://en.wikipedia.org/wiki/PLEX_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PLEXIL",
           href: "https://en.wikipedia.org/wiki/PLEXIL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Plus",
           href: "https://en.wikipedia.org/wiki/Plus_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "POP-11",
           href: "https://en.wikipedia.org/wiki/POP-11",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PostScript",
           href: "https://en.wikipedia.org/wiki/PostScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PortablE",
           href: "https://en.wikipedia.org/wiki/Amiga_E#PortablE",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Powerhouse",
           href: "https://en.wikipedia.org/wiki/Powerhouse_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PowerBuilder – 4GL GUI applcation generator from Sybase",
           href: "https://en.wikipedia.org/wiki/PowerBuilder",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PowerShell",
           href: "https://en.wikipedia.org/wiki/PowerShell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PPL",
           href: "https://en.wikipedia.org/wiki/Polymorphic_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Processing",
           href: "https://en.wikipedia.org/wiki/Processing_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Processing.js",
           href: "https://en.wikipedia.org/wiki/Processing.js",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Prograph",
           href: "https://en.wikipedia.org/wiki/Prograph",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PROIV",
           href: "https://en.wikipedia.org/wiki/PROIV",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Prolog",
           href: "https://en.wikipedia.org/wiki/Prolog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PROMAL",
           href: "https://en.wikipedia.org/wiki/PROMAL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Promela",
           href: "https://en.wikipedia.org/wiki/Promela",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PROSE modeling language",
           href: "https://en.wikipedia.org/wiki/PROSE_modeling_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "PROTEL",
           href: "https://en.wikipedia.org/wiki/Protel",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ProvideX",
           href: "https://en.wikipedia.org/wiki/ProvideX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pro*C",
           href: "https://en.wikipedia.org/wiki/Pro*C",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Pure",
           href: "https://en.wikipedia.org/wiki/Pure_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Python",
           href: "https://en.wikipedia.org/wiki/Python_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Q (equational programming language)",
           href: "https://en.wikipedia.org/wiki/Q_(equational_programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Qalb",
           href: "https://en.wikipedia.org/wiki/Qalb_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "QtScript",
           href: "https://en.wikipedia.org/wiki/QtScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "QuakeC",
           href: "https://en.wikipedia.org/wiki/QuakeC",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "QPL",
           href: "https://en.wikipedia.org/wiki/Quantum_programming",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "R",
           href: "https://en.wikipedia.org/wiki/R_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "R++",
           href: "https://en.wikipedia.org/wiki/R%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Racket",
           href: "https://en.wikipedia.org/wiki/Racket_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RAPID",
           href: "https://en.wikipedia.org/wiki/RAPID",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rapira",
           href: "https://en.wikipedia.org/wiki/Rapira",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ratfiv",
           href: "https://en.wikipedia.org/wiki/Ratfiv",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ratfor",
           href: "https://en.wikipedia.org/wiki/Ratfor",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "rc",
           href: "https://en.wikipedia.org/wiki/Rc",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "REBOL",
           href: "https://en.wikipedia.org/wiki/REBOL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Red",
           href: "https://en.wikipedia.org/wiki/Red_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Redcode",
           href: "https://en.wikipedia.org/wiki/Core_War",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "REFAL",
           href: "https://en.wikipedia.org/wiki/REFAL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Reia",
           href: "https://en.wikipedia.org/wiki/Reia_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Revolution",
           href: "https://en.wikipedia.org/wiki/Revolution_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "REXX",
           href: "https://en.wikipedia.org/wiki/REXX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rlab",
           href: "https://en.wikipedia.org/wiki/Rlab",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ROOP",
           href: "https://en.wikipedia.org/wiki/ROOP_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RPG",
           href: "https://en.wikipedia.org/wiki/IBM_RPG",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RPL",
           href: "https://en.wikipedia.org/wiki/RPL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RSL",
           href: "https://en.wikipedia.org/wiki/Robot_Battle#Robot_scripting_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RTL/2",
           href: "https://en.wikipedia.org/wiki/RTL/2",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ruby",
           href: "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "RuneScript",
           href: "https://en.wikipedia.org/wiki/RuneScape#History_and_development",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Rust",
           href: "https://en.wikipedia.org/wiki/Rust_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S",
           href: "https://en.wikipedia.org/wiki/S_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S2",
           href: "https://en.wikipedia.org/wiki/S2_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S3",
           href: "https://en.wikipedia.org/wiki/S3_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S-Lang",
           href: "https://en.wikipedia.org/wiki/S-Lang_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S-PLUS",
           href: "https://en.wikipedia.org/wiki/S-PLUS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SA-C",
           href: "https://en.wikipedia.org/wiki/SA-C_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SabreTalk",
           href: "https://en.wikipedia.org/wiki/SabreTalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SAIL",
           href: "https://en.wikipedia.org/wiki/SAIL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SALSA",
           href: "https://en.wikipedia.org/wiki/SALSA_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SAM76",
           href: "https://en.wikipedia.org/wiki/SAM76",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SAS",
           href: "https://en.wikipedia.org/wiki/SAS_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SASL",
           href: "https://en.wikipedia.org/wiki/SASL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Sather",
           href: "https://en.wikipedia.org/wiki/Sather",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Sawzall",
           href: "https://en.wikipedia.org/wiki/Sawzall_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SBL",
           href: "https://en.wikipedia.org/wiki/Superbase_database",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Scala",
           href: "https://en.wikipedia.org/wiki/Scala_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Scheme",
           href: "https://en.wikipedia.org/wiki/Scheme_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Scilab",
           href: "https://en.wikipedia.org/wiki/Scilab",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Scratch",
           href: "https://en.wikipedia.org/wiki/Scratch_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Script.NET",
           href: "https://en.wikipedia.org/wiki/Script.NET",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Sed",
           href: "https://en.wikipedia.org/wiki/Sed",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Seed7",
           href: "https://en.wikipedia.org/wiki/Seed7",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Self",
           href: "https://en.wikipedia.org/wiki/Self_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SenseTalk",
           href: "https://en.wikipedia.org/wiki/SenseTalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SequenceL",
           href: "https://en.wikipedia.org/wiki/SequenceL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SETL",
           href: "https://en.wikipedia.org/wiki/SETL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SIMPOL",
           href: "https://en.wikipedia.org/wiki/Superbase_database#History",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SIGNAL",
           href: "https://en.wikipedia.org/wiki/SIGNAL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SiMPLE",
           href: "https://en.wikipedia.org/wiki/SiMPLE",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SIMSCRIPT",
           href: "https://en.wikipedia.org/wiki/SIMSCRIPT",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Simula",
           href: "https://en.wikipedia.org/wiki/Simula",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Simulink",
           href: "https://en.wikipedia.org/wiki/Simulink",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SISAL",
           href: "https://en.wikipedia.org/wiki/SISAL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SLIP",
           href: "https://en.wikipedia.org/wiki/SLIP_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SMALL",
           href: "https://en.wikipedia.org/wiki/SMALL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Smalltalk",
           href: "https://en.wikipedia.org/wiki/Smalltalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Small Basic",
           href: "https://en.wikipedia.org/wiki/Microsoft_Small_Basic",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SML",
           href: "https://en.wikipedia.org/wiki/Standard_ML",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Snap!",
           href: "https://en.wikipedia.org/wiki/Snap!_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SNOBOL (",
           href: "https://en.wikipedia.org/wiki/SNOBOL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SPITBOL )",
           href: "https://en.wikipedia.org/wiki/SPITBOL_compiler",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Snowball",
           href: "https://en.wikipedia.org/wiki/Snowball_programming_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SOL",
           href: "https://en.wikipedia.org/wiki/Secure_Operations_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Span",
           href: "https://en.wikipedia.org/wiki/Span_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SPARK",
           href: "https://en.wikipedia.org/wiki/SPARK_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Speedcode",
           href: "https://en.wikipedia.org/wiki/Speedcoding",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SPIN",
           href: "https://en.wikipedia.org/wiki/Parallax_Propeller",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SP/k",
           href: "https://en.wikipedia.org/wiki/SP/k",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SPS",
           href: "https://en.wikipedia.org/wiki/IBM_1401_Symbolic_Programming_System",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SQR",
           href: "https://en.wikipedia.org/wiki/SQR",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Squeak",
           href: "https://en.wikipedia.org/wiki/Squeak",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Squirrel",
           href: "https://en.wikipedia.org/wiki/Squirrel_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SR",
           href: "https://en.wikipedia.org/wiki/SR_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "S/SL",
           href: "https://en.wikipedia.org/wiki/S/SL_programming_language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Stackless Python",
           href: "https://en.wikipedia.org/wiki/Stackless_Python",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Starlogo",
           href: "https://en.wikipedia.org/wiki/Starlogo",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Strand",
           href: "https://en.wikipedia.org/wiki/Strand_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Stata",
           href: "https://en.wikipedia.org/wiki/Stata",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Stateflow",
           href: "https://en.wikipedia.org/wiki/Stateflow",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Subtext",
           href: "https://en.wikipedia.org/wiki/Subtext_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SuperCollider",
           href: "https://en.wikipedia.org/wiki/SuperCollider",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SuperTalk",
           href: "https://en.wikipedia.org/wiki/SuperTalk",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Swift (Apple programming language)",
           href: "https://en.wikipedia.org/wiki/Swift_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Swift (parallel scripting language)",
           href: "https://en.wikipedia.org/wiki/Swift_(parallel_scripting_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SYMPL",
           href: "https://en.wikipedia.org/wiki/SYMPL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SyncCharts",
           href: "https://en.wikipedia.org/wiki/SyncCharts",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "SystemVerilog",
           href: "https://en.wikipedia.org/wiki/SystemVerilog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "T",
           href: "https://en.wikipedia.org/wiki/T_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TACL",
           href: "https://en.wikipedia.org/wiki/TACL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TACPOL",
           href: "https://en.wikipedia.org/wiki/TACPOL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TADS",
           href: "https://en.wikipedia.org/wiki/TADS",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TAL",
           href: "https://en.wikipedia.org/wiki/Transaction_Application_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tcl",
           href: "https://en.wikipedia.org/wiki/Tcl",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tea",
           href: "https://en.wikipedia.org/wiki/Tea_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TECO",
           href: "https://en.wikipedia.org/wiki/Text_Editor_and_Corrector",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TELCOMP",
           href: "https://en.wikipedia.org/wiki/TELCOMP",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TeX",
           href: "https://en.wikipedia.org/wiki/TeX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TEX",
           href: "https://en.wikipedia.org/wiki/Text_Executive_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TIE",
           href: "https://en.wikipedia.org/wiki/Tensilica_Instruction_Extension",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Timber",
           href: "https://en.wikipedia.org/wiki/Timber_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TMG ",
           href: "//en.wikipedia.org/wiki/TMG_(language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Tom",
           href: "https://en.wikipedia.org/wiki/Tom_(pattern_matching_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TOM",
           href: "https://en.wikipedia.org/wiki/TOM_(object-oriented_programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TouchDevelop",
           href: "https://en.wikipedia.org/wiki/TouchDevelop",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Topspeed",
           href: "https://en.wikipedia.org/wiki/Clarion_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TPU",
           href: "https://en.wikipedia.org/wiki/Text_Processing_Utility",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Trac",
           href: "https://en.wikipedia.org/wiki/TRAC_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TTM",
           href: "https://en.wikipedia.org/wiki/TTM_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "T-SQL",
           href: "https://en.wikipedia.org/wiki/Transact-SQL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TTCN",
           href: "https://en.wikipedia.org/wiki/TTCN",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Turing",
           href: "https://en.wikipedia.org/wiki/Turing_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TUTOR",
           href: "https://en.wikipedia.org/wiki/TUTOR_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TXL",
           href: "https://en.wikipedia.org/wiki/TXL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "TypeScript",
           href: "https://en.wikipedia.org/wiki/TypeScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Turbo C++",
           href: "https://en.wikipedia.org/wiki/Turbo_C%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Ubercode",
           href: "https://en.wikipedia.org/wiki/Ubercode",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "UCSD Pascal",
           href: "https://en.wikipedia.org/wiki/UCSD_Pascal",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Umple",
           href: "https://en.wikipedia.org/wiki/Umple",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Unicon",
           href: "https://en.wikipedia.org/wiki/Unicon_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Uniface",
           href: "https://en.wikipedia.org/wiki/Uniface_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "UNITY",
           href: "https://en.wikipedia.org/wiki/UNITY_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Unix shell",
           href: "https://en.wikipedia.org/wiki/Unix_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "UnrealScript",
           href: "https://en.wikipedia.org/wiki/UnrealScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Vala",
           href: "https://en.wikipedia.org/wiki/Vala_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual DataFlex",
           href: "https://en.wikipedia.org/wiki/Visual_DataFlex",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual DialogScript",
           href: "https://en.wikipedia.org/wiki/Visual_DialogScript",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual Fortran",
           href: "https://en.wikipedia.org/wiki/Visual_Fortran",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual FoxPro",
           href: "https://en.wikipedia.org/wiki/Visual_FoxPro",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual J++",
           href: "https://en.wikipedia.org/wiki/Visual_J%2B%2B",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual J#",
           href: "https://en.wikipedia.org/wiki/Visual_J",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual Objects",
           href: "https://en.wikipedia.org/wiki/Visual_Objects",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Visual Prolog",
           href: "https://en.wikipedia.org/wiki/Visual_Prolog",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "VSXu",
           href: "https://en.wikipedia.org/wiki/VSXu",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "vvvv",
           href: "https://en.wikipedia.org/wiki/Vvvv",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "WATFIV",
           href: "//en.wikipedia.org/wiki/WATFIV_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "WebDNA",
           href: "https://en.wikipedia.org/wiki/WebDNA",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "WebQL",
           href: "https://en.wikipedia.org/wiki/WebQL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Whiley",
           href: "https://en.wikipedia.org/wiki/Whiley_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Windows PowerShell",
           href: "https://en.wikipedia.org/wiki/Windows_PowerShell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Winbatch",
           href: "https://en.wikipedia.org/wiki/Winbatch",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Wolfram Language",
           href: "https://en.wikipedia.org/wiki/Wolfram_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Wyvern",
           href: "https://en.wikipedia.org/wiki/Wyvern_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "X++",
           href: "https://en.wikipedia.org/wiki/Microsoft_Dynamics_AX",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "X#",
           href: "https://en.wikipedia.org/wiki/X_Sharp_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "X10",
           href: "https://en.wikipedia.org/wiki/X10_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XBL",
           href: "https://en.wikipedia.org/wiki/XBL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XC (exploits",
           href: "https://en.wikipedia.org/wiki/XC_Programming_Language",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XMOS architecture )",
           href: "https://en.wikipedia.org/wiki/XCore_XS1",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "xHarbour",
           href: "https://en.wikipedia.org/wiki/XHarbour",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XL",
           href: "https://en.wikipedia.org/wiki/XL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Xojo",
           href: "https://en.wikipedia.org/wiki/Xojo",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XOTcl",
           href: "https://en.wikipedia.org/wiki/XOTcl",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XPL",
           href: "https://en.wikipedia.org/wiki/XPL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XPL0",
           href: "https://en.wikipedia.org/wiki/XPL0",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XQuery",
           href: "https://en.wikipedia.org/wiki/XQuery",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XSB",
           href: "https://en.wikipedia.org/wiki/XSB",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XSLT – see",
           href: "https://en.wikipedia.org/wiki/XSL_Transformations",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "XPath",
           href: "https://en.wikipedia.org/wiki/XPath",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Xtend",
           href: "https://en.wikipedia.org/wiki/Xtend",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Yorick",
           href: "https://en.wikipedia.org/wiki/Yorick_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "YQL",
           href: "https://en.wikipedia.org/wiki/YQL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Z notation",
           href: "https://en.wikipedia.org/wiki/Z_notation",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Zeno",
           href: "https://en.wikipedia.org/wiki/Zeno_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ZOPL",
           href: "https://en.wikipedia.org/wiki/ZOPL",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Zsh",
           href: "https://en.wikipedia.org/wiki/Z_shell",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "ZPL",
           href: "https://en.wikipedia.org/wiki/ZPL_(programming_language)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Q (programming language from Kx Systems)",
           href: "https://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },
@@ -22857,16 +14418,19 @@ export const docsConfig: DocsConfig = {
           title: "Prisma",
           href: "/docs/others/prisma",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "Graphql",
           href: "/docs/others/graphql",
           items: [],
+          description: "Not Provided(coming soon}",
         },
         {
           title: "End",
           href: "/docs/others/the-end",
           items: [],
+          description: "Not Provided(coming soon}",
         },
       ],
     },

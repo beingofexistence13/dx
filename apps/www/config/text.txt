@@ -6482,139 +6482,139 @@
         "title": "Css Functions"
       },
       {
-        "title": "attr()"
+        "title": "attr(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "blur()"
+        "title": "blur(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "brightness()"
+        "title": "brightness(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "calc()"
+        "title": "calc(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "circle()"
+        "title": "circle(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "contrast()"
+        "title": "contrast(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "drop-shadow()"
+        "title": "drop-shadow(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "ellipse()"
+        "title": "ellipse(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "grayscale()"
+        "title": "grayscale(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hsl()"
+        "title": "hsl(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hsla()"
+        "title": "hsla(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hue-rotate()"
+        "title": "hue-rotate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "inset()"
+        "title": "inset(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "invert()"
+        "title": "invert(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "linear-gradient()"
+        "title": "linear-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "matrix()"
+        "title": "matrix(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "matrix3d()"
+        "title": "matrix3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "opacity()"
+        "title": "opacity(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "perspective()"
+        "title": "perspective(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "polygon()"
+        "title": "polygon(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "radial-gradient()"
+        "title": "radial-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "repeating-linear-gradient()"
+        "title": "repeating-linear-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "repeating-radial-gradient()"
+        "title": "repeating-radial-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rgb()"
+        "title": "rgb(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rgba()"
+        "title": "rgba(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotate()"
+        "title": "rotate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotate3d()"
+        "title": "rotate3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateX()"
+        "title": "rotateX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateY()"
+        "title": "rotateY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateZ()"
+        "title": "rotateZ(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "saturate()"
+        "title": "saturate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scale()"
+        "title": "scale(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scale3d()"
+        "title": "scale3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleX()"
+        "title": "scaleX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleY()"
+        "title": "scaleY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleZ()"
+        "title": "scaleZ(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "sepia()"
+        "title": "sepia(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skew()"
+        "title": "skew(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skewX()"
+        "title": "skewX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skewY()"
+        "title": "skewY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translate()"
+        "title": "translate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translate3d()"
+        "title": "translate3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateX()"
+        "title": "translateX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateY()"
+        "title": "translateY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateZ()"
+        "title": "translateZ(",items:[],description:"Not Provided"},"
       },
       {
         "title": "Css At Rules"
@@ -13292,139 +13292,139 @@
         "title": "Css Functions"
       },
       {
-        "title": "attr()"
+        "title": "attr(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "blur()"
+        "title": "blur(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "brightness()"
+        "title": "brightness(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "calc()"
+        "title": "calc(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "circle()"
+        "title": "circle(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "contrast()"
+        "title": "contrast(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "drop-shadow()"
+        "title": "drop-shadow(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "ellipse()"
+        "title": "ellipse(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "grayscale()"
+        "title": "grayscale(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hsl()"
+        "title": "hsl(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hsla()"
+        "title": "hsla(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "hue-rotate()"
+        "title": "hue-rotate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "inset()"
+        "title": "inset(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "invert()"
+        "title": "invert(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "linear-gradient()"
+        "title": "linear-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "matrix()"
+        "title": "matrix(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "matrix3d()"
+        "title": "matrix3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "opacity()"
+        "title": "opacity(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "perspective()"
+        "title": "perspective(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "polygon()"
+        "title": "polygon(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "radial-gradient()"
+        "title": "radial-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "repeating-linear-gradient()"
+        "title": "repeating-linear-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "repeating-radial-gradient()"
+        "title": "repeating-radial-gradient(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rgb()"
+        "title": "rgb(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rgba()"
+        "title": "rgba(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotate()"
+        "title": "rotate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotate3d()"
+        "title": "rotate3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateX()"
+        "title": "rotateX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateY()"
+        "title": "rotateY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "rotateZ()"
+        "title": "rotateZ(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "saturate()"
+        "title": "saturate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scale()"
+        "title": "scale(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scale3d()"
+        "title": "scale3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleX()"
+        "title": "scaleX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleY()"
+        "title": "scaleY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "scaleZ()"
+        "title": "scaleZ(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "sepia()"
+        "title": "sepia(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skew()"
+        "title": "skew(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skewX()"
+        "title": "skewX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "skewY()"
+        "title": "skewY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translate()"
+        "title": "translate(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translate3d()"
+        "title": "translate3d(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateX()"
+        "title": "translateX(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateY()"
+        "title": "translateY(",items:[],description:"Not Provided"},"
       },
       {
-        "title": "translateZ()"
+        "title": "translateZ(",items:[],description:"Not Provided"},"
       },
       {
         "title": "Css At Rules"
@@ -13627,3 +13627,35 @@
       {
         "title": "Online CSS Editor"
       }
+
+
+
+
+
+{title:"Platforms",href:"/platforms",items:[],description:"Not Provided"},
+{title:"Programming Languages",href:"/programming-languages",items:[],description:"Not Provided"},
+{title:"Front-End Development",href:"/front-end-development",items:[],description:"Not Provided"},
+{title:"Back-End Development",href:"/back-end-development",items:[],description:"Not Provided"},
+{title:"Computer Science",href:"/computer-science",items:[],description:"Not Provided"},
+{title:"Big Data",href:"/big-data",items:[],description:"Not Provided"},
+{title:"Theory",href:"/theory",items:[],description:"Not Provided"},
+{title:"Books",href:"/books",items:[],description:"Not Provided"},
+{title:"Editors",href:"/editors",items:[],description:"Not Provided"},
+{title:"Gaming",href:"/gaming",items:[],description:"Not Provided"},
+{title:"Development Environment",href:"/development-environment",items:[],description:"Not Provided"},
+{title:"Entertainment",href:"/entertainment",items:[],description:"Not Provided"},
+{title:"Databases",href:"/databases",items:[],description:"Not Provided"},
+{title:"Media",href:"/media",items:[],description:"Not Provided"},
+{title:"Learn",href:"/learn",items:[],description:"Not Provided"},
+{title:"Security",href:"/security",items:[],description:"Not Provided"},
+{title:"Content Management Systems",href:"/content-management-systems",items:[],description:"Not Provided"},
+{title:"Hardware",href:"/hardware",items:[],description:"Not Provided"},
+{title:"Business",href:"/business",items:[],description:"Not Provided"},
+{title:"Work",href:"/work",items:[],description:"Not Provided"},
+{title:"Networking",href:"/networking",items:[],description:"Not Provided"},
+{title:"Decentralized Systems",href:"/decentralized-systems",items:[],description:"Not Provided"},
+{title:"Health and Social Science",href:"/health-and-social-science",items:[],description:"Not Provided"},
+{title:"Events",href:"/events",items:[],description:"Not Provided"},
+{title:"Testing",href:"/testing",items:[],description:"Not Provided"},
+{title:"Miscellaneous",href:"/miscellaneous",items:[],description:"Not Provided"},
+{title:"Related",href:"/related",items:[],description:"Not Provided"},
