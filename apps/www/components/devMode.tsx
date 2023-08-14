@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form"
 import * as z from "zod"
 
 import { socialMediaConfig } from "@/config/social-media"
+import { items } from "@/config/dev-mode"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -52,6 +53,7 @@ import {
   MenubarSubTrigger,
   MenubarTrigger,
   Separator,
+  Switch,
   Tabs,
   TabsContent,
   TabsList,
@@ -59,116 +61,6 @@ import {
   buttonVariants,
 } from "./ui"
 
-const items = [
-  {
-    label: "Navbar",
-    id: "navbar",
-  },
-  {
-    label: "Friday",
-    id: "friday",
-  },
-  {
-    label: "Multiverse",
-    id: "multiverse",
-  },
-  {
-    label: "Blockchain Status",
-    id: "blockchain-status",
-  },
-  {
-    label: "Activitybar",
-    id: "activitybar",
-  },
-  {
-    label: "Primary Sidebar",
-    id: "primary-sidebar",
-  },
-  {
-    label: "Secondary Sidebar",
-    id: "secondary-sidebar",
-  },
-  {
-    label: "Bottombar",
-    id: "bottombar",
-  },
-  {
-    label: "Dockbar",
-    id: "dockbar",
-  },
-  {
-    label: "Video Player",
-    id: "video-player",
-  },
-  {
-    label: "Hello 3d",
-    id: "hello-3d",
-  },
-  {
-    label: "Theme",
-    id: "theme",
-  },
-  {
-    label: "Keyboard Shortcuts",
-    id: "keyboard-shortcuts",
-  },
-  {
-    label: "Search",
-    id: "search",
-  },
-  {
-    label: "Command Palette",
-    id: "command-palette",
-  },
-  {
-    label: "Footer",
-    id: "footer",
-  },
-  // {
-  //   id: "navbar",
-  //   label: "Navbar",
-  // },
-  // {
-  //   id: "hack",
-  //   label: "Hack",
-  // },
-  // {
-  //   id: "sidebar",
-  //   label: "Sidebar",
-  // },
-  // {
-  //   id: "bottombar",
-  //   label: "Bottombar",
-  // },
-  // {
-  //   id: "applebar",
-  //   label: "Applebar",
-  // },
-  // {
-  //   id: "ui",
-  //   label: "Ui",
-  // },
-  // {
-  //   id: "redux,3d,360degree,ar,vr,webassembly,prisma",
-  //   label: "redux,3d,360degree,ar,vr,webassembly,prisma",
-  // },
-  // {
-  //   id: "circleci plus swr and trpc",
-  //   label: "circleci plus swr and trpc",
-  // },
-  // {
-  //   id: "ux",
-  //   label: "Ux",
-  // },
-  // {
-  //   id: "testing and github-actions",
-  //   label: "Testing And Github-Actions",
-  // },
-  // {
-  //   id: "prettier plus dx and sanity",
-  //   label: "prettier plus dx and sanity",
-  // },
-] as const
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -216,12 +108,12 @@ export function DevMode() {
         </MenubarTrigger>
         <MenubarContent className="w-[300px] ">
           <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
-            <Checkbox id="terms" />
+            <Switch id="dev-mode" />
             <h3>Dev Mode</h3>
           </MenubarItem>
           <MenubarItem className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">
-            <Checkbox id="terms" />
-            <h3>Hello Mode</h3>
+            <Switch id="hello-tool" />
+            <h3>Hello Tool</h3>
           </MenubarItem>
 
           <MenubarSeparator />
