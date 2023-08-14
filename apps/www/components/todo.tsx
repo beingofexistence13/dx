@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
@@ -18,50 +18,135 @@ import {
 import { toast } from "@/components/ui/use-toast"
 
 const items = [
+
   {
-    id: "navbar",
+    label: "Friday",
+    id: "friday",
+  },
+  {
+    label: "Hello Mode",
+    id: "hello-mode",
+
+  },
+  {
+    label: "Multiverse",
+    id: "multiverse",
+
+  },
+  {
     label: "Navbar",
+    id: "navbar",
+
   },
   {
-    id: "hack",
-    label: "Hack",
+    label: "Blockchain Status",
+    id: "blockchain-status",
+
   },
   {
-    id: "sidebar",
-    label: "Sidebar",
+    label: "Activitybar",
+    id: "activitybar",
+
   },
   {
-    id: "bottombar",
+    label: "Primary Sidebar",
+    id: "primary-sidebar",
+
+  },
+  {
+    label: "Secondary Sidebar",
+    id: "secondary-sidebar",
+
+  },
+  {
     label: "Bottombar",
+    id: "bottombar",
+
   },
   {
-    id: "applebar",
-    label: "Applebar",
+    label: "Dockbar",
+    id: "dockbar",
+
   },
   {
-    id: "ui",
-    label: "Ui",
+    label: "Video Player",
+    id: "video-player",
+
   },
   {
-    id: "redux,3d,360degree,ar,vr,webassembly,prisma",
-    label: "redux,3d,360degree,ar,vr,webassembly,prisma",
+    label: "Hello 3d",
+    id: "hello-3d",
+
   },
   {
-    id: "circleci plus swr and trpc",
-    label: "circleci plus swr and trpc",
+    label: "Theme",
+    id: "theme",
+
   },
   {
-    id: "ux",
-    label: "Ux",
+    label: "Keyboard Shortcuts",
+    id: "keyboard-shortcuts",
+
   },
   {
-    id: "testing and github-actions",
-    label: "Testing And Github-Actions",
+    label: "Search",
+    id: "search",
+
   },
   {
-    id: "prettier plus dx and sanity",
-    label: "prettier plus dx and sanity",
+    label: "Command Palette",
+    id: "command-palette",
+
   },
+  {
+    label: "Footer",
+    id: "footer",
+
+  },
+  // {
+  //   id: "navbar",
+  //   label: "Navbar",
+  // },
+  // {
+  //   id: "hack",
+  //   label: "Hack",
+  // },
+  // {
+  //   id: "sidebar",
+  //   label: "Sidebar",
+  // },
+  // {
+  //   id: "bottombar",
+  //   label: "Bottombar",
+  // },
+  // {
+  //   id: "applebar",
+  //   label: "Applebar",
+  // },
+  // {
+  //   id: "ui",
+  //   label: "Ui",
+  // },
+  // {
+  //   id: "redux,3d,360degree,ar,vr,webassembly,prisma",
+  //   label: "redux,3d,360degree,ar,vr,webassembly,prisma",
+  // },
+  // {
+  //   id: "circleci plus swr and trpc",
+  //   label: "circleci plus swr and trpc",
+  // },
+  // {
+  //   id: "ux",
+  //   label: "Ux",
+  // },
+  // {
+  //   id: "testing and github-actions",
+  //   label: "Testing And Github-Actions",
+  // },
+  // {
+  //   id: "prettier plus dx and sanity",
+  //   label: "prettier plus dx and sanity",
+  // },
 ] as const
 
 const FormSchema = z.object({

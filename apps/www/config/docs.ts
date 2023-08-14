@@ -148,7 +148,7 @@ export const docsConfig: DocsConfig = {
           title: "Friday",
           href: "/docs/ui/friday",
           items: [],
-          description: "Not Provided(coming soon)",
+          description: "Not Provided (coming soon)",
         },
         {
           title: "Hello Mode",
