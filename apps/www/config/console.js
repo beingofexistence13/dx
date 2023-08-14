@@ -1,5 +1,5 @@
-// Generators
-let generator, generators,ux,uxs;
+// Generatorstesting_library
+let generator, generators, ux, uxs, testing_libraries, testing_library
 const regex = /\s/gi
 
 generators = [
@@ -13633,91 +13633,197 @@ generators = [
     title: "Online CSS Editor",
   },
 ]
-uxs=[
-  {description:"Multiselect Dropdown List With Checkboxes",title:"multiselect.js"},
-  {description:"Multiple Select With Dropdown List",title:"multiselect"},
-  {description:"Confetti Falling Animation In Pure JavaScript",title:"confetti.js"},
-  {description:"Medium.com Like Image Zoom Library",title:"Lightense.js"},
-  {description:"Elegant Multi-Select Component With Autocomplete",title:"SelectPure"},
-  {description:"Drag And Drop Flowchart Builder",title:"Drawflow"},
-  {description:"Flip Through Elements In A 3D Space",title:"Carousel.js"},
+uxs = [
+  {
+    description: "Multiselect Dropdown List With Checkboxes",
+    title: "multiselect.js",
+  },
+  { description: "Multiple Select With Dropdown List", title: "multiselect" },
+  {
+    description: "Confetti Falling Animation In Pure JavaScript",
+    title: "confetti.js",
+  },
+  { description: "Medium.com Like Image Zoom Library", title: "Lightense.js" },
+  {
+    description: "Elegant Multi-Select Component With Autocomplete",
+    title: "SelectPure",
+  },
+  { description: "Drag And Drop Flowchart Builder", title: "Drawflow" },
+  { description: "Flip Through Elements In A 3D Space", title: "Carousel.js" },
 
-  {description:"Zoom Image On Hover",title:"js-image-zoom"},
+  { description: "Zoom Image On Hover", title: "js-image-zoom" },
 
-  {description:"Create A Multi-Step Form In Bootstrap 5",title:"Enchanter"},
-  {description:"Render JSON Data As A Tree View",title:"json-view"},
+  {
+    description: "Create A Multi-Step Form In Bootstrap 5",
+    title: "Enchanter",
+  },
+  { description: "Render JSON Data As A Tree View", title: "json-view" },
 
-  {description:"Custom Single/Multi Select In Pure JavaScript",title:"vanillaSelectBox"},
-  {description:"High Performance Select Box JavaScript Library",title:"Virtual Select"},
-  {description:"Elegant Box Shadows In Pure CSS",title:"Shadow.css"},
-  {description:"Customizable Select Box & Input Field Enhancement Library",title:"Choices.js"},
+  {
+    description: "Custom Single/Multi Select In Pure JavaScript",
+    title: "vanillaSelectBox",
+  },
+  {
+    description: "High Performance Select Box JavaScript Library",
+    title: "Virtual Select",
+  },
+  { description: "Elegant Box Shadows In Pure CSS", title: "Shadow.css" },
+  {
+    description: "Customizable Select Box & Input Field Enhancement Library",
+    title: "Choices.js",
+  },
 
-  {description:"Realistic Book Page Flip Animation In JavaScript",title:"StPageFlip"},
-  {description:"🎉 Simple Celebrate Confetti Animation In JavaScript",title:"Party.js"},
-  {description:"QR Code Generator With Logo And Title Support",title:"EasyQRCodeJS"},
-  {description:"Easy Tags Input Component For Bootstrap 5/4",title:"Tags.js"},
-  {description:"Firework Animation With JavaScript And Canvas",title:"fireworks-js"},
-  {description:"Full-featured Calendar JavaScript Library",title:"tui.calendar"},
-  {description:"Render Family/Organization Tree From JSON",title:"treeMaker"},
+  {
+    description: "Realistic Book Page Flip Animation In JavaScript",
+    title: "StPageFlip",
+  },
+  {
+    description: "🎉 Simple Celebrate Confetti Animation In JavaScript",
+    title: "Party.js",
+  },
+  {
+    description: "QR Code Generator With Logo And Title Support",
+    title: "EasyQRCodeJS",
+  },
+  {
+    description: "Easy Tags Input Component For Bootstrap 5/4",
+    title: "Tags.js",
+  },
+  {
+    description: "Firework Animation With JavaScript And Canvas",
+    title: "fireworks-js",
+  },
+  {
+    description: "Full-featured Calendar JavaScript Library",
+    title: "tui.calendar",
+  },
+  {
+    description: "Render Family/Organization Tree From JSON",
+    title: "treeMaker",
+  },
 
-  {description:"Number Countup Animation With Vanilla JavaScript",title:"Animated Counter"},
-  {description:"Customizable Gauge Library With JavaScript And Canvas",title:"Gauge.js"},
-  {description:"Create A Simple Event Calendar With JavaScript",title:"Caleandar.js"},
-  {description:"Feature-rich Lightbox Gallery Based On Bootstrap 5",title:"bs5-lightbox.js"},
+  {
+    description: "Number Countup Animation With Vanilla JavaScript",
+    title: "Animated Counter",
+  },
+  {
+    description: "Customizable Gauge Library With JavaScript And Canvas",
+    title: "Gauge.js",
+  },
+  {
+    description: "Create A Simple Event Calendar With JavaScript",
+    title: "Caleandar.js",
+  },
+  {
+    description: "Feature-rich Lightbox Gallery Based On Bootstrap 5",
+    title: "bs5-lightbox.js",
+  },
 
-  {description:"Beautiful Date Picker Component",title:"MCDatepicker"},
-  {description:"Elegant Alert/Confirm/Toast Dialog Box In JavaScript",title:"Cute Alert"},
-  {description:"Animate Elements On Scroll With Parallax Effect",title:"locomotive-scroll"},
-  {description:"Flat Style JavaScript Date Picker",title:"flatpickr"},
-  {description:"Handle Long Press/Tap Event In JavaScript",title:"long-press-event"},
-  {description:"Dynamic Tree View With Checkboxes",title:"Treejs"},
-  {description:"Infinite Multi-slide Carousel In Pure JavaScript",title:"elder-carousel"},
+  { description: "Beautiful Date Picker Component", title: "MCDatepicker" },
+  {
+    description: "Elegant Alert/Confirm/Toast Dialog Box In JavaScript",
+    title: "Cute Alert",
+  },
+  {
+    description: "Animate Elements On Scroll With Parallax Effect",
+    title: "locomotive-scroll",
+  },
+  { description: "Flat Style JavaScript Date Picker", title: "flatpickr" },
+  {
+    description: "Handle Long Press/Tap Event In JavaScript",
+    title: "long-press-event",
+  },
+  { description: "Dynamic Tree View With Checkboxes", title: "Treejs" },
+  {
+    description: "Infinite Multi-slide Carousel In Pure JavaScript",
+    title: "elder-carousel",
+  },
 
-  {description:"Custom HTML5 Form Validator In Vanilla JavaScript",title:"Just-validate"},
-  {description:"Fade In/Out Elements On Scroll",title:"ScrollFade.js"},
+  {
+    description: "Custom HTML5 Form Validator In Vanilla JavaScript",
+    title: "Just-validate",
+  },
+  { description: "Fade In/Out Elements On Scroll", title: "ScrollFade.js" },
 
-  {description:"Multi-select Dropdown Component For JavaScript",title:"slim-select"},
-  {description:"Responsive Lightbox Gallery With Pure JavaScript And CSS3",title:"lightGallery"},
-  {description:"Super Simple JavaScript Message Toaster",title:"toast.js"},
-  {description:"Bootstrap Style Searchable Dropdown Plugin",title:"fstdropdown"},
-  {description:"Simple Folder Tree With JSON And JavaScript",title:"tree.js"},
-  {description:"Multi-Select Box With Tree Structured Data Dropdown List",title:"Treeselect"},
+  {
+    description: "Multi-select Dropdown Component For JavaScript",
+    title: "slim-select",
+  },
+  {
+    description: "Responsive Lightbox Gallery With Pure JavaScript And CSS3",
+    title: "lightGallery",
+  },
+  { description: "Super Simple JavaScript Message Toaster", title: "toast.js" },
+  {
+    description: "Bootstrap Style Searchable Dropdown Plugin",
+    title: "fstdropdown",
+  },
+  {
+    description: "Simple Folder Tree With JSON And JavaScript",
+    title: "tree.js",
+  },
+  {
+    description: "Multi-Select Box With Tree Structured Data Dropdown List",
+    title: "Treeselect",
+  },
 
-  {description:"Create Animated Gauges With JavaScript",title:"SVG Gauge"},
-  {description:"Easy Datetime Countdown Timer",title:"Countdown.js"},
-  {description:"Customizable Event Calendar With Month/Year Selection",title:"Color Calendar"},
+  { description: "Create Animated Gauges With JavaScript", title: "SVG Gauge" },
+  { description: "Easy Datetime Countdown Timer", title: "Countdown.js" },
+  {
+    description: "Customizable Event Calendar With Month/Year Selection",
+    title: "Color Calendar",
+  },
 
-  {description:"Accessible Color Picker",title:"Coloris.js"},
+  { description: "Accessible Color Picker", title: "Coloris.js" },
 
-  {description:"Configurable Snow Falling Effects In JavaScript",title:"snow.js"},
-  {description:"Simple Table Paginator In Pure JavaScript",title:"Paginator.js"},
-  {description:"Performant Custom Scrollbar JavaScript Library",title:"SimpleBar"},
-  {description:"Read More / Read Less Functionality In Pure JavaScript",title:"ReadMore.js"},
-  {description:"Linear Step-by-Step Flow",title:"Bootstrap Steps"},
-
+  {
+    description: "Configurable Snow Falling Effects In JavaScript",
+    title: "snow.js",
+  },
+  {
+    description: "Simple Table Paginator In Pure JavaScript",
+    title: "Paginator.js",
+  },
+  {
+    description: "Performant Custom Scrollbar JavaScript Library",
+    title: "SimpleBar",
+  },
+  {
+    description: "Read More / Read Less Functionality In Pure JavaScript",
+    title: "ReadMore.js",
+  },
+  { description: "Linear Step-by-Step Flow", title: "Bootstrap Steps" },
+]
+testing_libraries = [
+  { title: "Chai" },
+  { title: "Jest" },
+  { title: "Mocha" },
+  { title: "Karma" },
+  { title: "Jasmine" },
+  { title: "Enzyme" },
+  { title: "React-Testing-Library" },
 ]
 
-for (let i = 0; i < uxs.length; i++) {
-  ux = uxs.map((uxs) => {
+for (let i = 0; i < testing_libraries.length; i++) {
+  testing_library = testing_libraries.map((testing_libraries) => {
     return `
     {
-      title: "${uxs.title}",
-      href: "/docs/ux/${uxs.title
+      title: "${testing_libraries.title}",
+      href: "/docs/testing_libraries/${testing_libraries.title
         .toLowerCase()
         .replaceAll(regex, "-")}",
-      description:"${uxs.description}",
+      description:"Not Provided(coming soon)",
       items: [],
     }`
-});
+  })
 }
 function myFunction() {
   // Copy the text inside the text field
-  navigator.clipboard.writeText(ux)
+  navigator.clipboard.writeText(testing_library)
 
   // Alert the copied text
-  alert("Copied the text: " + uxs)
-  console.log(ux);
+  alert("Copied the text: " + testing_libraries.length)
+  console.log(testing_libraries)
 }
 
-
-console.log(ux);
+console.log(testing_library)
