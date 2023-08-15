@@ -180,7 +180,7 @@ export function DevMode() {
     //   </MenubarMenu>
     // </Menubar>
     <Dialog>
-      <DialogTrigger className="devMode fixed bottom-16 left-[92%] flex h-[50px] w-[50px] translate-x-[-50%] flex-row items-center justify-center overflow-hidden rounded-full border p-2">
+      <DialogTrigger className="devMode fixed bottom-3 right-2 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full border p-2">
         <div
           className={cn(
             buttonVariants({
@@ -192,7 +192,7 @@ export function DevMode() {
           <Icons.devMode className="h-2 w-2" />
         </div>
       </DialogTrigger>
-      <DialogContent className="devMode-container fixed bottom-5 right-[50px] h-[500px] w-[325px] translate-x-[-10%] translate-y-[-45%]">
+      <DialogContent className="devMode-container f h-[500px] ">
         <DialogHeader>
           <div className="devMode-header pl-3 pt-3">
             <div className="flex h-[35px] w-full flex-row items-center justify-start space-x-3 space-y-0">

@@ -293,6 +293,11 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 
 .devMode{
+
+  /* position: fixed !important;
+  right: 10% !important;
+  bottom: 70px !important; */
+
   padding: 0 !important;
   margin: 0 !important;
   height: 50px !important;
@@ -301,6 +306,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 .devMode-container{
   padding: 0 !important;
+  width: 325px !important;
   
 }
 .devMode-content div{
