@@ -70,14 +70,14 @@ const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: "You have to select at least one item.",
   }),
-  dev_mode: z.boolean().default(false).optional(),
+  dev_mode: z.boolean(),
   hello_tool: z.boolean(),
 })
 
 export function DevMode() {
   const dispatch = useDispatch();
   const { toast } = useToast()
-  const [DevMode, setDevMode] = React.useState(false)
+  const [DevMode, setDevMode] = React.useState(true)
   const [HelloTool, setHelloTool] = React.useState(true)
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
   const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
@@ -86,6 +86,7 @@ export function DevMode() {
     resolver: zodResolver(FormSchema),
     defaultValues: {
       items: ["recents", "home"],
+      dev_mode: false,
       hello_tool: true,
     },
   })
@@ -144,7 +145,7 @@ export function DevMode() {
                               setDevMode(!DevMode);
                               dispatch(updateDev(DevMode))
                               toast({
-                                title: `Dev Mode is switch to ${DevModeSelector}`,
+                                title: `Dev Mode is switch to ${!DevModeSelector}`,
                                 description:
                                   "You Can Now Make Your Components Without Any Disturbance",
                                 action: (

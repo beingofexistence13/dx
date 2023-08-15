@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
+import Components from "@/components/components"
 import { DevMode } from "@/components/devMode"
 import { HelloTool } from "@/components/hello-tool"
 import { ThemeProvider } from "@/components/providers"
@@ -92,14 +93,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <Providers>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <main className="flex-1">{children}</main>
-              <SiteHeader />
-              <HelloTool />
               <DevMode />
-              <Analytics />
-              <NewYorkToaster />
-              <DefaultToaster />
-              <TailwindIndicator />
+              <Components />
+              <main className="flex-1">{children}</main>
             </ThemeProvider>
           </Providers>
         </body>
