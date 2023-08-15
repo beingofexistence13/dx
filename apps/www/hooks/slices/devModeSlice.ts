@@ -5,7 +5,7 @@ const initialState = {
   isDev: false,
 } as any;
 
-const devSlice = createSlice({
+const devModeSlice = createSlice({
   name: "dev",
   initialState,
   reducers: {
@@ -16,6 +16,6 @@ const devSlice = createSlice({
 
 });
 
-export const { toggle } = devSlice.actions;
+export const { toggle } = devModeSlice.actions;
 
-export default devSlice.reducer;
+export default devModeSlice.reducer;

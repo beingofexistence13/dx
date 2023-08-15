@@ -1,7 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "./slices/userSlice";
 import sidebarReducer from "./slices/sidebarSlice";
-import devReducer from "./slices/devSlice";
+import devModeReducer from "./slices/devModeSlice";
+import helloToolReducer from "./slices/helloToolSlice";
 
 export function makeStore() {
   return configureStore({
@@ -9,7 +10,8 @@ export function makeStore() {
     reducer: {
       user: userReducer,
       sidebar: sidebarReducer,
-      dev: devReducer,
+      devMode: devModeReducer,
+      helloTool: helloToolReducer,
 
     },
   });

@@ -305,17 +305,33 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   border-radius: 50% !important;
 }
 .devMode-container{
+
+  row-gap: 0 !important;
+  column-gap: 0 !important;
   padding: 0 !important;
-  width: 325px !important;
+  width: 350px !important;
   
 }
-.devMode-content div{
-margin: 0 !important;
+/* .devMode-container *{
+  margin: 0 !important;
+
+} */
+
+.devMode-content *{
+
+  /* padding-top: 0 !important; */
+  margin-top: 0 !important;
 
 }
+/* .devMode-content div{
+margin: 0 !important;
+
+} */
 .horizantalDivider{
+  margin-top: 10px !important;
+
   width: 100%;
-  height: 1px;
+  height: 2px;
   background: var(--code-foreground);
 
 }

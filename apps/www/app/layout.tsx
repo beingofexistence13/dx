@@ -1,16 +1,18 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
+import { Terminal } from "lucide-react"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
-import { HelloTool } from "@/components/hello-tool"
 import { DevMode } from "@/components/devMode"
+import { HelloTool } from "@/components/hello-tool"
 import { ThemeProvider } from "@/components/providers"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
+import { Alert, AlertDescription, AlertTitle, Toaster } from "@/components/ui"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
@@ -100,7 +102,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Analytics />
             <NewYorkToaster />
             <DefaultToaster />
+            <Alert>
+              <Terminal className="h-4 w-4" />
+              <AlertTitle>Heads up!</AlertTitle>
+              <AlertDescription>
+                You can add components and dependencies to your app using the
+                cli.
+              </AlertDescription>
+            </Alert>
           </Providers>
+          <Toaster />
         </body>
       </html>
     </>

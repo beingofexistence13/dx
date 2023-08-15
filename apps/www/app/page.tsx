@@ -15,6 +15,7 @@ import Todo from "@/components/todo"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Separator } from "@/registry/new-york/ui/separator"
 import DashboardPage from "@/app/examples/dashboard/page"
+import { Button } from "@/components/ui"
 
 export default function IndexPage() {
   return (
@@ -53,6 +54,9 @@ export default function IndexPage() {
             <Icons.gitHub className="mr-2 h-4 w-4" />
             GitHub
           </Link>
+          {/* <Button>Tost</Button> */}
+
+
         </div>
       </PageHeader>
 
