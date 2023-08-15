@@ -2,26 +2,26 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
 const initialState = {
-  isDev: false,
+  isDevMode: false,
 } as any;
 
 const devModeSlice = createSlice({
   name: "dev",
   initialState,
   reducers: {
-    updateDev: (state,action) => {
-      state.isDev = action.payload;
+    updateDevMode: (state,action) => {
+      state.isDevMode = action.payload;
     },
     on: (state,action) => {
-      state.isDev = true;
+      state.isDevMode = true;
     },
     off: (state,action) => {
-      state.isDev = false;
+      state.isDevMode = false;
     },
   },
 
 });
 
-export const { updateDev,on,off } = devModeSlice.actions;
+export const { updateDevMode,on,off } = devModeSlice.actions;
 
 export default devModeSlice.reducer;

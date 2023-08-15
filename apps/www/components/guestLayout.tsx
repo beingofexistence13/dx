@@ -7,11 +7,12 @@ import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
 import { Analytics } from "./analytics"
+import { DevMode } from "./devMode"
 import { HelloTool } from "./hello-tool"
 import { SiteHeader } from "./site-header"
 import { TailwindIndicator } from "./tailwind-indicator"
 
-const Components = () => {
+const GuestLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
   const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
 
@@ -19,9 +20,8 @@ const Components = () => {
     <div>
       {DevModeSelector ? "" : <SiteHeader />}
       {HelloToolSelector ? "" : <HelloTool />}
-      
-      
 
+      <DevMode />
       <Analytics />
       <TailwindIndicator />
       <NewYorkToaster />
@@ -30,4 +30,4 @@ const Components = () => {
   )
 }
 
-export default Components
+export default GuestLayout

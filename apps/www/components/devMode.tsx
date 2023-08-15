@@ -63,7 +63,7 @@ import {
   ToastAction,
   buttonVariants,
 } from "./ui"
-import { updateDev } from "@/hooks/slices/devModeSlice"
+import { updateDevMode} from "@/hooks/slices/devModeSlice"
 import { updateHello } from "@/hooks/slices/helloToolSlice"
 
 const FormSchema = z.object({
@@ -130,7 +130,7 @@ export function DevMode() {
                     render={({ field }) => (
                       <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
-                          <FormLabel>Dev Mode</FormLabel>
+                          <FormLabel>DevModeMode</FormLabel>
                           <FormDescription>
                             This is only for developers who are working on
                             components and want to develop them in a blank
@@ -143,9 +143,9 @@ export function DevMode() {
                             onCheckedChange={field.onChange}
                             onClick={() => {
                               setDevMode(!DevMode);
-                              dispatch(updateDev(DevMode))
+                              dispatch(updateDevMode(DevMode))
                               toast({
-                                title: `Dev Mode is switch to ${!DevModeSelector}`,
+                                title: `DevModeMode is switch to ${!DevModeSelector}`,
                                 description:
                                   "You Can Now Make Your Components Without Any Disturbance",
                                 action: (

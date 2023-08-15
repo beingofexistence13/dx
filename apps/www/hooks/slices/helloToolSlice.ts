@@ -2,21 +2,21 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
 const initialState = {
-  isDev: false,
+  isHelloTool: false,
 } as any;
 
 const helloToolSlice = createSlice({
-  name: "dev",
+  name: "helloTool",
   initialState,
   reducers: {
     updateHello: (state,action) => {
-      state.isDev = action.payload;
+      state.isHelloTool = action.payload;
     },
     on: (state,action) => {
-      state.isDev = true;
+      state.isHelloTool = true;
     },
     off: (state,action) => {
-      state.isDev = false;
+      state.isHelloTool = false;
     },
   },
 

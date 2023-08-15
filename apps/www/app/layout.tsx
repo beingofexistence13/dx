@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@/components/analytics"
-import Components from "@/components/components"
+import SiteLayout from "@/components/site-layout"
 import { DevMode } from "@/components/devMode"
 import { HelloTool } from "@/components/hello-tool"
 import { ThemeProvider } from "@/components/providers"
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "Next.js",
     "React",
     "Tailwind CSS",
-    "Server Components",
+    "Server SiteLayout",
     "Radix UI",
   ],
   authors: [
@@ -80,7 +80,6 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  let DevModeSelector, HelloToolSelector
   return (
     <>
       <html lang="en" suppressHydrationWarning>
@@ -93,8 +92,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <Providers>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <DevMode />
-              <Components />
+              <SiteLayout />
               <main className="flex-1">{children}</main>
             </ThemeProvider>
           </Providers>

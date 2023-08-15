@@ -1,1 +1,0 @@
-# This folder default is empty
