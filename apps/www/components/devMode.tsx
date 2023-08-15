@@ -68,8 +68,8 @@ const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: "You have to select at least one item.",
   }),
-  marketing_emails: z.boolean().default(false).optional(),
-  security_emails: z.boolean(),
+  dev_mode: z.boolean().default(false).optional(),
+  hello_tool: z.boolean(),
 })
 
 export function DevMode() {
@@ -82,7 +82,7 @@ export function DevMode() {
     resolver: zodResolver(FormSchema),
     defaultValues: {
       items: ["recents", "home"],
-      security_emails: true,
+      hello_tool: true,
     },
   })
   function onSubmit(data: z.infer<typeof FormSchema>) {
@@ -121,7 +121,7 @@ export function DevMode() {
                 <div className="space-y-4">
                   <FormField
                     control={form.control}
-                    name="marketing_emails"
+                    name="dev_mode"
                     render={({ field }) => (
                       <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
@@ -143,7 +143,7 @@ export function DevMode() {
                                   "You Can Now Make Your Components Without Any Disturbance",
                                 action: (
                                   <ToastAction altText="Goto schedule to undo">
-                                    Confrom
+                                    Confirm
                                   </ToastAction>
                                 ),
                               })
@@ -155,7 +155,7 @@ export function DevMode() {
                   />
                   <FormField
                     control={form.control}
-                    name="marketing_emails"
+                    name="hello_tool"
                     render={({ field }) => (
                       <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
@@ -176,7 +176,7 @@ export function DevMode() {
                                   "Enjoy Every Single Moments Of Your Existence",
                                 action: (
                                   <ToastAction altText="Goto schedule to undo">
-                                    Confrom
+                                    Confirm
                                   </ToastAction>
                                 ),
                               })
