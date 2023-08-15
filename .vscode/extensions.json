@@ -2,7 +2,8 @@
   "recommendations": [
     // Linting / Formatting
     "bradlc.vscode-tailwindcss",
-    "pkief.material-icon-them",
+
+    "pkief.material-icon-theme",
     "ritwickdey.liveserver",
     "esbenp.prettier-vscode",
     // PR management / Reviewing
