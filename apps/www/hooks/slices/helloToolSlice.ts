@@ -9,13 +9,19 @@ const helloToolSlice = createSlice({
   name: "dev",
   initialState,
   reducers: {
-    toggle: (state) => {
+    updateHello: (state,action) => {
+      state.isDev = action.payload;
+    },
+    on: (state,action) => {
       state.isDev = true;
+    },
+    off: (state,action) => {
+      state.isDev = false;
     },
   },
 
 });
 
-export const { toggle } = helloToolSlice.actions;
+export const { updateHello,on,off } = helloToolSlice.actions;
 
 export default helloToolSlice.reducer;

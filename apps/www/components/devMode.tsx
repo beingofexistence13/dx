@@ -63,7 +63,8 @@ import {
   ToastAction,
   buttonVariants,
 } from "./ui"
-import { update } from "@/hooks/slices/devModeSlice"
+import { updateDev } from "@/hooks/slices/devModeSlice"
+import { updateHello } from "@/hooks/slices/helloToolSlice"
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -76,7 +77,7 @@ const FormSchema = z.object({
 export function DevMode() {
   const dispatch = useDispatch();
   const { toast } = useToast()
-  const [isDev, setIsDev] = React.useState(false)
+  const [DevMode, setDevMode] = React.useState(false)
   const [HelloTool, setHelloTool] = React.useState(false)
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
   const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
@@ -140,8 +141,8 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
-                              setIsDev(!isDev);
-                              dispatch(update(isDev))
+                              setDevMode(!DevMode);
+                              dispatch(updateDev(DevMode))
                               toast({
                                 title: `Dev Mode is switch to ${DevModeSelector}`,
                                 description:
@@ -176,6 +177,7 @@ export function DevMode() {
                             onCheckedChange={field.onChange}
                             onClick={() => {
                               setHelloTool(!HelloTool);
+                              dispatch(updateHello(HelloTool))
                               toast({
                                 title: `Hello Tool is  switch to ${HelloToolSelector}`,
                                 description:
