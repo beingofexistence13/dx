@@ -1,6 +1,7 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import { Terminal } from "lucide-react"
+import { useSelector } from "react-redux"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
@@ -78,6 +79,7 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
+  let DevModeSelector, HelloToolSelector
   return (
     <>
       <html lang="en" suppressHydrationWarning>
@@ -90,28 +92,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <Providers>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <div className="relative flex min-h-screen flex-col">
-                <SiteHeader />
-                <main className="flex-1">{children}</main>
-                {/* <SiteFooter /> */}
-              </div>
-              <TailwindIndicator />
+              <main className="flex-1">{children}</main>
+              <SiteHeader />
               <HelloTool />
               <DevMode />
+              <Analytics />
+              <NewYorkToaster />
+              <DefaultToaster />
+              <TailwindIndicator />
             </ThemeProvider>
-            <Analytics />
-            <NewYorkToaster />
-            <DefaultToaster />
-            <Alert>
-              <Terminal className="h-4 w-4" />
-              <AlertTitle>Heads up!</AlertTitle>
-              <AlertDescription>
-                You can add components and dependencies to your app using the
-                cli.
-              </AlertDescription>
-            </Alert>
           </Providers>
-          <Toaster />
         </body>
       </html>
     </>

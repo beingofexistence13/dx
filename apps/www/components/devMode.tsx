@@ -78,7 +78,7 @@ export function DevMode() {
   const dispatch = useDispatch();
   const { toast } = useToast()
   const [DevMode, setDevMode] = React.useState(false)
-  const [HelloTool, setHelloTool] = React.useState(false)
+  const [HelloTool, setHelloTool] = React.useState(true)
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
   const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
 
