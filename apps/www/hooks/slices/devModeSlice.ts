@@ -9,13 +9,13 @@ const devModeSlice = createSlice({
   name: "dev",
   initialState,
   reducers: {
-    toggle: (state) => {
-      state.isDev = true;
+    update: (state,action) => {
+      state.isDev = action.payload.isDev;
     },
   },
 
 });
 
-export const { toggle } = devModeSlice.actions;
+export const { update } = devModeSlice.actions;
 
 export default devModeSlice.reducer;

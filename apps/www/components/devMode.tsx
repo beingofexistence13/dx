@@ -5,7 +5,7 @@ import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import * as z from "zod"
 
 import { items } from "@/config/dev-mode"
@@ -63,6 +63,7 @@ import {
   ToastAction,
   buttonVariants,
 } from "./ui"
+import { update } from "@/hooks/slices/devModeSlice"
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -73,8 +74,10 @@ const FormSchema = z.object({
 })
 
 export function DevMode() {
+  const dispatch = useDispatch();
   const { toast } = useToast()
-  const [DevMode, setDevMode] = React.useState(false)
+  const [isDev, setIsDev] = React.useState(false)
+  const [HelloTool, setHelloTool] = React.useState(false)
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
   const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
 
@@ -137,6 +140,8 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
+                              setIsDev(!isDev);
+                              dispatch(update(isDev))
                               toast({
                                 title: `Dev Mode is switch to ${DevModeSelector}`,
                                 description:
@@ -170,6 +175,7 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
+                              setHelloTool(!HelloTool);
                               toast({
                                 title: `Hello Tool is  switch to ${HelloToolSelector}`,
                                 description:
