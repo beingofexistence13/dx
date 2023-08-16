@@ -1194,6 +1194,660 @@ passport_github_repository = [
   { github_repositry: "passport-open" },
 ]
 
+let passport_merged = [
+  {
+    title: "https://github.com/mikenicholson/passport-jwt",
+    github_repository: "passport-jwt",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-oauth",
+    github_repository: "passport-oauth",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-local",
+    github_repository: "passport-local",
+  },
+  {
+    title: "https://github.com/mbell8903/passport-custom",
+    github_repository: "passport-custom",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-twitter",
+    github_repository: "passport-twitter",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-oauth",
+    github_repository: "passport-oauth",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-http",
+    github_repository: "passport-http",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-openidconnect",
+    github_repository: "passport-openidconnect",
+  },
+  {
+    title: "https://github.com/seanfisher/passport-microsoft",
+    github_repository: "passport-microsoft",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-github",
+    github_repository: "passport-github",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-facebook",
+    github_repository: "passport-facebook",
+  },
+  {
+    title: "https://github.com/ananay/passport-apple",
+    github_repository: "passport-apple",
+  },
+  {
+    title: "https://github.com/node-saml",
+    github_repository: "not_provided",
+  },
+  {
+    title: "https://github.com/joshbirk/passport-forcedotcom",
+    github_repository: "passport-forcedotcom",
+  },
+  {
+    title: "https://github.com/Schmoopiie/passport-twitch",
+    github_repository: "passport-twitch",
+  },
+  {
+    title: "https://github.com/clocked0ne/passport-outlook",
+    github_repository: "passport-outlook",
+  },
+  {
+    title: "https://github.com/ForbesLindesay/passport-raven",
+    github_repository: "passport-raven",
+  },
+  {
+    title: "https://github.com/idris/passport-coinbase",
+    github_repository: "passport-coinbase",
+  },
+  {
+    title: "https://github.com/wyntau/passport-weixin",
+    github_repository: "passport-weixin",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-yahoo",
+    github_repository: "passport-yahoo",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-paypal",
+    github_repository: "passport-paypal",
+  },
+  {
+    title: "https://github.com/brainflake/passport-constantcontact",
+    github_repository: "passport-constantcontact",
+  },
+  {
+    title: "https://github.com/OtaK/passport-dailymotion",
+    github_repository: "passport-dailymotion",
+  },
+  {
+    title: "https://github.com/TryGhost/passport-ghost",
+    github_repository: "passport-ghost",
+  },
+  {
+    title: "https://github.com/sebabelmar/passport-dribbble",
+    github_repository: "passport-dribbble",
+  },
+  {
+    title: "https://github.com/nitzo/passport-line",
+    github_repository: "passport-line",
+  },
+  {
+    title: "https://github.com/jozzhart/passport-youtube",
+    github_repository: "passport-youtube",
+  },
+  {
+    title: "https://github.com/jfromaniello/passport-hawk",
+    github_repository: "passport-hawk",
+  },
+  {
+    title: "https://github.com/lablayers/passport-deviantart",
+    github_repository: "passport-deviantart",
+  },
+  {
+    title: "https://github.com/xinbenlv/passport-weibo",
+    github_repository: "passport-weibo",
+  },
+  {
+    title: "https://github.com/brainflake/passport-campaignmonitor",
+    github_repository: "passport-campaignmonitor",
+  },
+  {
+    title: "https://github.com/Uninett/passport-dataporten",
+    github_repository: "passport-dataporten",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-vimeo",
+    github_repository: "passport-vimeo",
+  },
+  {
+    title: "https://github.com/sebastiendb/passport-bufferapp",
+    github_repository: "passport-bufferapp",
+  },
+  {
+    title: "https://github.com/Lewuathe/passport-yj",
+    github_repository: "passport-yj",
+  },
+  {
+    title: "https://github.com/techfeed/passport-mastodon",
+    github_repository: "passport-mastodon",
+  },
+  {
+    title: "https://github.com/homebrewing/passport-maltio",
+    github_repository: "passport-maltio",
+  },
+  {
+    title: "https://github.com/LDSorg/passport-lds",
+    github_repository: "passport-lds",
+  },
+  {
+    title: "https://github.com/auth0/passport-daccount",
+    github_repository: "passport-daccount",
+  },
+  {
+    title: "https://github.com/tiberule/passport-mailru",
+    github_repository: "passport-mailru",
+  },
+  {
+    title: "https://github.com/tradier/passport-tradier",
+    github_repository: "passport-tradier",
+  },
+  {
+    title: "https://github.com/harbur/passport-digitalocean",
+    github_repository: "passport-digitalocean",
+  },
+  {
+    title: "https://github.com/coding-blocks",
+    github_repository: "not_provided",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-familysearch",
+    github_repository: "passport-familysearch",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-goodreads",
+    github_repository: "passport-goodreads",
+  },
+  {
+    title: "https://github.com/octoblu/passport-citrix",
+    github_repository: "passport-citrix",
+  },
+  {
+    title: "https://github.com/rajaraodv/passport-cloudfoundry",
+    github_repository: "passport-cloudfoundry",
+  },
+  {
+    title: "https://github.com/73rhodes/passport-opentoken",
+    github_repository: "passport-opentoken",
+  },
+  {
+    title: "https://github.com/tusbar/passport-idn",
+    github_repository: "passport-idn",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-intuit",
+    github_repository: "passport-intuit",
+  },
+  {
+    title: "https://github.com/muradaliyev/passport-eve",
+    github_repository: "passport-eve",
+  },
+  {
+    title: "https://github.com/webkom/passport-abakus",
+    github_repository: "passport-abakus",
+  },
+  {
+    title: "https://github.com/reydelleon/passport-basecrm",
+    github_repository: "passport-basecrm",
+  },
+  {
+    title: "https://github.com/andreskir/passport-tiendanube",
+    github_repository: "passport-tiendanube",
+  },
+  {
+    title: "https://github.com/IONISx/passport-ionisx",
+    github_repository: "passport-ionisx",
+  },
+  {
+    title: "https://github.com/mbrennan/passport-eveonline",
+    github_repository: "passport-eveonline",
+  },
+  {
+    title: "https://github.com/SpringRole/passport-civic",
+    github_repository: "passport-civic",
+  },
+  {
+    title: "https://github.com/mko/passport-indieauth",
+    github_repository: "passport-indieauth",
+  },
+  {
+    title: "https://github.com/SamyPesse/passport-gumroad",
+    github_repository: "passport-gumroad",
+  },
+  {
+    title: "https://github.com/AlisamfP/passport-thingiverse",
+    github_repository: "passport-thingiverse",
+  },
+  {
+    title: "https://github.com/octoblu/passport-square",
+    github_repository: "passport-square",
+  },
+  {
+    title: "https://github.com/Siedrix/passport-pocket",
+    github_repository: "passport-pocket",
+  },
+  {
+    title: "https://github.com/getlot/passport-headhunter",
+    github_repository: "passport-headhunter",
+  },
+  {
+    title: "https://github.com/optilude/passport-authtkt",
+    github_repository: "passport-authtkt",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-meetup",
+    github_repository: "passport-meetup",
+  },
+  {
+    title: "https://github.com/io84team/passport-ethereum",
+    github_repository: "passport-ethereum",
+  },
+  {
+    title: "https://github.com/kizzlebot/passport-lastfm",
+    github_repository: "passport-lastfm",
+  },
+  {
+    title: "https://github.com/dreadjr/passport-bitly",
+    github_repository: "passport-bitly",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-foursquare",
+    github_repository: "passport-foursquare",
+  },
+  {
+    title: "https://github.com/octoblu/passport-smartsheet",
+    github_repository: "passport-smartsheet",
+  },
+  {
+    title: "https://github.com/mjpearson/passport-podio",
+    github_repository: "passport-podio",
+  },
+  {
+    title: "https://github.com/brainflake/passport-hubspot",
+    github_repository: "passport-hubspot",
+  },
+  {
+    title: "https://github.com/mjpearson/passport-mixcloud",
+    github_repository: "passport-mixcloud",
+  },
+  {
+    title: "https://github.com/SpiderStrategies/passport-appfigures",
+    github_repository: "passport-appfigures",
+  },
+  {
+    title: "https://github.com/DavidSpriggs/passport-arcgis",
+    github_repository: "passport-arcgis",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-fitbit",
+    github_repository: "passport-fitbit",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-soundcloud",
+    github_repository: "passport-soundcloud",
+  },
+  {
+    title: "https://github.com/timfpark/passport-publickey",
+    github_repository: "passport-publickey",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-dropbox",
+    github_repository: "passport-dropbox",
+  },
+  {
+    title: "https://github.com/johnnyhalife/passport-flickr",
+    github_repository: "passport-flickr",
+  },
+  {
+    title: "https://github.com/mindfreakthemon/passport-imgur",
+    github_repository: "passport-imgur",
+  },
+  {
+    title: "https://github.com/onshape/passport-onshape",
+    github_repository: "passport-onshape",
+  },
+  {
+    title: "https://github.com/qdsang/passport-qq",
+    github_repository: "passport-qq",
+  },
+  {
+    title: "https://github.com/jeff-blaisdell",
+    github_repository: "not_provided",
+  },
+  {
+    title: "https://github.com/mjpearson/passport-wordpress",
+    github_repository: "passport-wordpress",
+  },
+  {
+    title: "https://github.com/chatter/passport-hmac",
+    github_repository: "passport-hmac",
+  },
+  {
+    title: "https://github.com/octoblu/passport-citrix",
+    github_repository: "passport-citrix",
+  },
+  {
+    title: "https://github.com/sdurandeu/passport-mercadolibre",
+    github_repository: "passport-mercadolibre",
+  },
+  {
+    title: "https://github.com/kiwiai/passport-jawbone",
+    github_repository: "passport-jawbone",
+  },
+  {
+    title: "https://github.com/alphagov/passport-verify",
+    github_repository: "passport-verify",
+  },
+  {
+    title: "https://github.com/EriksRemess/passport-draugiem",
+    github_repository: "passport-draugiem",
+  },
+  {
+    title: "https://github.com/penske-media-corp",
+    github_repository: "not_provided",
+  },
+  {
+    title: "https://github.com/QuePort/passport-sharepoint",
+    github_repository: "passport-sharepoint",
+  },
+  {
+    title: "https://github.com/stormpath/passport-stormpath",
+    github_repository: "passport-stormpath",
+  },
+  {
+    title: "https://github.com/drstearns/passport-uwshib",
+    github_repository: "passport-uwshib",
+  },
+  {
+    title: "https://github.com/userapp-io",
+    github_repository: "not_provided",
+  },
+  {
+    title: "https://github.com/ColinEdwardRhodes/passport-waad",
+    github_repository: "passport-waad",
+  },
+  {
+    title: "https://github.com/DBCDK/passport-unilogin",
+    github_repository: "passport-unilogin",
+  },
+  {
+    title: "https://github.com/gologo13/passport-rakuten",
+    github_repository: "passport-rakuten",
+  },
+  {
+    title: "https://github.com/jaredhanson/passport-hotp",
+    github_repository: "passport-hotp",
+  },
+  {
+    title: "https://github.com/maxcoto/passport-assembla",
+    github_repository: "passport-assembla",
+  },
+  {
+    title: "https://github.com/xiaoao/passport-baidu",
+    github_repository: "passport-baidu",
+  },
+  {
+    title: "https://github.com/descope/passport-descope",
+    github_repository: "passport-descope",
+  },
+  {
+    title: "https://github.com/combsco/passport-predix",
+    github_repository: "passport-predix",
+  },
+  {
+    title: "https://github.com/may215/passport-feedly",
+    github_repository: "passport-feedly",
+  },
+  {
+    title: "https://github.com/mtso/passport-ses",
+    github_repository: "passport-ses",
+  },
+  {
+    title: "https://github.com/Everyplay/passport-everyplay",
+    github_repository: "passport-everyplay",
+  },
+  {
+    name: "passport-lyft",
+    url: "https://github.com/girliemac/passport-lyft",
+  },
+  {
+    name: "passport-supinfo",
+    url: "https://github.com/vincentpeyrouse/passport-supinfo",
+  },
+  {
+    name: "passport-beatsmusic",
+    url: "https://github.com/datmark/passport-beatsmusic",
+  },
+  {
+    name: "passport-edmodo",
+    url: "https://github.com/zaption/passport-edmodo",
+  },
+  {
+    name: "passport-metocean",
+    url: "https://github.com/metocean/passport-metocean",
+  },
+  {
+    name: "passport-trademe",
+    url: "https://github.com/dupesnduds/passport-trademe",
+  },
+  {
+    name: "passport-freshbooks",
+    url: "https://github.com/MichaelJCole/passport-freshbooks",
+  },
+  {
+    name: "passport-justintv",
+    url: "https://github.com/jaredhanson/passport-justintv",
+  },
+  {
+    name: "passport-stocktwits",
+    url: "https://github.com/simov/passport-stocktwits",
+  },
+  {
+    name: "passport-sharefile",
+    url: "https://github.com/octoblu/passport-sharefile",
+  },
+  {
+    name: "passport-authtoken",
+    url: "https://github.com/horiuchi/passport-authtoken",
+  },
+  {
+    name: "passport-oauth",
+    url: "https://github.com/jaredhanson/passport-oauth",
+  },
+  {
+    name: "passport-wink",
+    url: "https://github.com/tuddman/passport-wink",
+  },
+  {
+    name: "passport-coola",
+    url: "https://github.com/cooladata/passport-coola",
+  },
+  {
+    name: "passport-fanfou",
+    url: "https://github.com/didikeke/passport-fanfou",
+  },
+  {
+    name: "passport-lims",
+    url: "https://github.com/taoyuan/passport-lims",
+  },
+  {
+    name: "passport-kuali",
+    url: "https://github.com/KualiCo/passport-kuali",
+  },
+  {
+    name: "passport-honeywell",
+    url: "https://github.com/Nibbler999/passport-honeywell",
+  },
+  {
+    name: "passport-nationbuilder",
+    url: "https://github.com/msyea/passport-nationbuilder",
+  },
+  {
+    name: "passport-nuwe",
+    url: "https://github.com/nuwehq/passport-nuwe",
+  },
+  {
+    name: "passport-thinkful",
+    url: "https://github.com/Thinkful/passport-thinkful",
+  },
+  {
+    name: "passport-redgate",
+    url: "https://github.com/ForbesLindesay/passport-redgate",
+  },
+  {
+    name: "passport-scarecrow",
+    url: "https://github.com/abstractj/passport-scarecrow",
+  },
+  {
+    name: "passport-tq",
+    url: "https://github.com/heroicyang/passport-tq",
+  },
+  {
+    name: "passport-browserid",
+    url: "https://github.com/jaredhanson/passport-browserid",
+  },
+  {
+    name: "passport-pixiv",
+    url: "https://github.com/pixiv/passport-pixiv",
+  },
+  {
+    name: "passport-rightsignature",
+    url: "https://github.com/AlisamfP/passport-rightsignature",
+  },
+  {
+    name: "passport-venmo",
+    url: "https://github.com/jihokoo/passport-venmo",
+  },
+  {
+    name: "passport-linkedin",
+    url: "https://github.com/jaredhanson/passport-linkedin",
+  },
+  {
+    name: "passport-withings",
+    url: "https://github.com/mko/passport-withings",
+  },
+  {
+    name: "passport-parse",
+    url: "https://github.com/malikov/passport-parse",
+  },
+  {
+    name: "passport-angellist",
+    url: "https://github.com/jaredhanson/passport-angellist",
+  },
+  {
+    name: "passport-tmobileid",
+    url: "https://github.com/tmobile/passport-tmobileid",
+  },
+  {
+    name: "passport-dwolla",
+    url: "https://github.com/jaredhanson/passport-dwolla",
+  },
+  {
+    name: "passport-rdio",
+    url: "https://github.com/jaredhanson/passport-rdio",
+  },
+  {
+    name: "passport-humanapi",
+    url: "https://github.com/humanapi/passport-humanapi",
+  },
+  {
+    name: "passport-drchrono",
+    url: "https://github.com/Nimblr999/passport-drchrono",
+  },
+  {
+    name: "passport-geoloqi",
+    url: "https://github.com/jaredhanson/passport-geoloqi",
+  },
+  {
+    name: "passport-suzuri",
+    url: "https://github.com/kitak/passport-suzuri",
+  },
+  {
+    name: "passport-statusnet",
+    url: "https://github.com/zoowar/passport-statusnet",
+  },
+  {
+    name: "passport-readability",
+    url: "https://github.com/jaredhanson/passport-readability",
+  },
+  {
+    name: "passport-nexon",
+    url: "https://github.com/mamsori/passport-nexon",
+  },
+  {
+    name: "passport-basecamp",
+    url: "https://github.com/janbaykara/passport-basecamp",
+  },
+  {
+    name: "passport-stanford",
+    url: "https://github.com/scottylogan/passport-stanford",
+  },
+  {
+    name: "passport-namely",
+    url: "https://github.com/mykabam/passport-namely",
+  },
+  {
+    name: "passport-iucas",
+    url: "https://github.com/soichih/passport-iucas",
+  },
+  {
+    name: "passport-borchk",
+    url: "https://github.com/DBCDK/passport-borchk",
+  },
+  {
+    name: "passport-ustream",
+    url: "https://github.com/superpan/passport-ustream",
+  },
+  {
+    name: "passport-persona",
+    url: "https://github.com/jaredhanson/passport-persona",
+  },
+  {
+    name: "passport-twitchtv",
+    url: "https://github.com/johnkernke/passport-twitchtv",
+  },
+  {
+    name: "veritone-sdk",
+    url: "https://github.com/veritone/veritone-sdk",
+  },
+  {
+    name: "passport-keystone",
+    url: "https://github.com/eddywashere/passport-keystone",
+  },
+  {
+    name: "passport-workwell",
+    url: "https://github.com/emathieu13/passport-workwell",
+  },
+  {
+    name: "passport-lds",
+    url: "https://github.com/LDSorg/passport-lds",
+  },
+  {
+    name: "passport-ufshib",
+    url: "https://github.com/crohead13/passport-ufshib",
+  },
+  {
+    name: "passport-hackid",
+    url: "https://github.com/username/passport-hackid",
+  },
+]
 
 
 
