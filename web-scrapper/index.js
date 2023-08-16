@@ -1,6 +1,6 @@
 const axios = require('axios');
-let url = 'https://www.passportjs.org/'; // Replace with the URL of the website you want to scrape
-let passports,passport_github_repository,regex;
+let url = 'https://www.passportjs.org/packages/passport-facebook'; // Replace with the URL of the website you want to scrape
+let passports,passport_github_repository,regex,matcher;
 
 passports = [
   {title:"facebook"},
@@ -520,25 +520,39 @@ passports = [
   
   
 ]
-url = passports.map((passports) => {
-  return `"https://www.passportjs.org/${passports.title}"`
-})
+  
+
+// for (let i = 0; i < passports.length; i++) {
+//   url = passports.map((passports) => {
+//     return `https://www.passportjs.org/packages/passport-${passports.title}`
+//   })
+//   axios.get(url)
+//   .then(response => {
+//     const html = response.data; // HTML content of the page
+//     regex = html.match(/\s\W""https:..github.com.beingofexistence.dx""/g);
+
+//     // Now you can parse and extract data from the HTML
+//     passport_github_repository = `git clone ${regex}`;
+//     console.log(passport_github_repository);
+//   })
+//   .catch(error => {
+//     console.error('Error fetching the page:', error);
+//   });
+// }
+
 axios.get(url)
 .then(response => {
+
   const html = response.data; // HTML content of the page
-  regex = html.match(/\s\W""https:..github.com.beingofexistence.dx""/g);
+  matcher = "From This Sentence I have to select this(Yes!!!,You Selected The Right Thing)"
+  // regex = html.match(/\s\W"https:..github.com.\w+.\w+-\w+"/g);
+  regex = matcher.match(/Yes!!!,You Selected The Right Thing/g);
 
   // Now you can parse and extract data from the HTML
-  passport_github_repository = `git clone ${regex}`;
+  passport_github_repository = `git clone ${html}`;
   console.log(passport_github_repository);
 })
 .catch(error => {
   console.error('Error fetching the page:', error);
 });
-
-for (let i = 0; i < passports.length; i++) {
-
-}
-
-
 
