@@ -145,7 +145,7 @@ export function DevMode() {
                               setDevMode(!DevMode);
                               dispatch(updateDevMode(DevMode))
                               toast({
-                                title: `DevModeMode is switch to ${!DevModeSelector}`,
+                                title: `DevModeMode is switch to ${DevModeSelector}`,
                                 description:
                                   "You Can Now Make Your Components Without Any Disturbance",
                                 action: (
