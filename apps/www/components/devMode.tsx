@@ -130,7 +130,7 @@ export function DevMode() {
                     render={({ field }) => (
                       <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
-                          <FormLabel>DevModeMode</FormLabel>
+                          <FormLabel>DevMode</FormLabel>
                           <FormDescription>
                             This is only for developers who are working on
                             components and want to develop them in a blank
