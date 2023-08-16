@@ -48,7 +48,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto max-w-[360px] translate-x-[-50%] flex-row items-center justify-center rounded-2xl p-2">
+    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto w-[360px] translate-x-[-50%] flex-row items-center justify-center rounded-2xl px-2 py-3">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">

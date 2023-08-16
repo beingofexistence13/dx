@@ -19,6 +19,7 @@ import Todo from "@/components/todo"
 import { Button } from "@/components/ui"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Separator } from "@/registry/new-york/ui/separator"
+import DashboardPage from "./examples/dashboard/page"
 
 // import DashboardPage from "@/app/examples/dashboard/page"
 
@@ -65,10 +66,9 @@ export default function IndexPage() {
                 <Icons.gitHub className="mr-2 h-4 w-4" />
                 GitHub
               </Link>
-              <Button>Tost</Button>
             </div>
           </PageHeader>
-
+{/* 
           <ExamplesNav className="[&>a:first-child]:text-primary" />
           <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
             <Image
@@ -85,12 +85,12 @@ export default function IndexPage() {
               alt="Dashboard"
               className="hidden dark:block"
             />
-          </section>
-          <section className="hidden md:block">
+          </section> */}
+          {/* <section className="hidden md:block">
             <div className="overflow-hidden rounded-lg border bg-background shadow">
-              {/* <DashboardPage /> */}
+              <DashboardPage />
             </div>
-          </section>
+          </section> */}
         </div>
       )}
     </div>
