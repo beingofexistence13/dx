@@ -6,7 +6,7 @@ const initialState = {
 } as any;
 
 const devModeSlice = createSlice({
-  name: "dev",
+  name: "devMode",
   initialState,
   reducers: {
     updateDevMode: (state,action) => {

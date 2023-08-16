@@ -79,8 +79,8 @@ export function DevMode() {
   const { toast } = useToast()
   const [DevMode, setDevMode] = React.useState(true)
   const [HelloTool, setHelloTool] = React.useState(true)
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
-  const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
+  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
+  const HelloToolSelector = useSelector((state: any) => state.helloTool.isHelloTool)
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -130,7 +130,7 @@ export function DevMode() {
                     render={({ field }) => (
                       <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
-                          <FormLabel>DevMode</FormLabel>
+                          <FormLabel>Dev Mode</FormLabel>
                           <FormDescription>
                             This is only for developers who are working on
                             components and want to develop them in a blank
@@ -145,7 +145,7 @@ export function DevMode() {
                               setDevMode(!DevMode);
                               dispatch(updateDevMode(DevMode))
                               toast({
-                                title: `DevModeMode is switch to ${DevModeSelector}`,
+                                title: `DevMode is switch to ${!DevModeSelector}`,
                                 description:
                                   "You Can Now Make Your Components Without Any Disturbance",
                                 action: (

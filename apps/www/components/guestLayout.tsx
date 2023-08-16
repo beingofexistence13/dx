@@ -13,8 +13,8 @@ import { SiteHeader } from "./site-header"
 import { TailwindIndicator } from "./tailwind-indicator"
 
 const GuestLayout = () => {
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
-  const HelloToolSelector = useSelector((state: any) => state.helloTool.isDev)
+  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
+  const HelloToolSelector = useSelector((state: any) => state.helloTool.isHelloTool)
 
   return (
     <div>
