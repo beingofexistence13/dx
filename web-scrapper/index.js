@@ -1194,6 +1194,9 @@ passport_github_repository = [
   { github_repositry: "passport-open" },
 ]
 
+
+
+
 // passports.map((passports) => {
 //     axios
 //       .get(`https://www.passportjs.org/packages/passport-${passports.title}`)
@@ -1210,16 +1213,24 @@ passport_github_repository = [
 //         console.error("Error fetching the page:", error)
 //       })
 // })
+// passport_titles.map((passport_titles) => {
+//   let id = 1;
+//   id++;
+//   // id < passport_titles.length;
+//       passport_title = `{id:"${id}",title:"${passport_titles.title}"}`
+//       console.log(passport_title);
 
-for (let i = 0; i < passport_titles.length; i++) {
-  let id = 0;
-  id++;
+// })
 
-  passport_title = passport_titles.map((passport_titles) => {
-    return `{id:"${i}",title:"${passport_titles.title}"}`
-  })
-}
-console.log(passport_title)
+// for (let i = 0; i < passport_titles.length; i++) {
+
+//   passport_title = `{id:"${i}",title:"${passport_titles.title}"}`
+//   console.log(passport_title);
+
+// }
+
+
+// console.log(passport_title)
 
 // for (let i = 0; i < passports.length; i++) {
 //   axios
@@ -1268,3 +1279,19 @@ console.log(passport_title)
 // .catch(error => {
 //   console.error('Error fetching the page:', error);
 // });
+// const mergeArrays = (passport_titles = [], passport_github_repository = []) => {
+//   let res = [];
+//   res = passport_titles.map(obj => {
+//      const index = passport_github_repository.findIndex(el => el["github_repositry"] == obj["github_repositry"]);
+//      const { address } = index !== -1 ? passport_github_repository[index] : {};
+//      return {
+//         ...obj,
+//         address
+//      };
+//   });
+//   return res;
+// };
+let armixed = passport_titles.map(function (x, i) { 
+  return [x, passport_github_repository[i]] 
+});
+console.log(armixed);
