@@ -528,7 +528,8 @@ description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
 description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
 description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
 description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s
-
+ 
+let passport_title = [
 {title:"https://github.com/mikenicholson/passport-jwt"},
 {title:"https://github.com/jaredhanson/passport-oauth"},
 {title:"https://github.com/jaredhanson/passport-local"},
@@ -1197,6 +1198,5 @@ let passport_github_repository = [
 {github_repositry:"passport-encored"},
 {github_repositry:"passport-atlassian"},
 {github_repositry:"passport-renren"},
-{github_repositry:"passport-opennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"},
-]"},
-"},
+{github_repositry:"passport-open"},
+]"
