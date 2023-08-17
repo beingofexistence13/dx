@@ -16,6 +16,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "@faker-js/faker": "^7.6.0",
     "@hookform/resolvers": "^3.1.0",
     "@radix-ui/react-accessible-icon": "^1.0.3",

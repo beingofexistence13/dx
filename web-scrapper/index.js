@@ -1,4 +1,4 @@
-const axios = require("axios")
+const axios = require("axios");
 let passport_facebook = "https://www.passportjs.org/packages/passport-facebook" // Replace with the URL of the website you want to scrape
 let passports,
   passport_github_repository,

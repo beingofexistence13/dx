@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import axios from "axios";
 import { SidebarNavItem } from "types/nav"
 
 import { cn } from "@/lib/utils"
@@ -44,6 +45,8 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
+
+  let data,components_logo:any;
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
       {items.map((item, index) =>
@@ -62,7 +65,34 @@ export function DocsSidebarNavItems({
             rel={item.external ? "noreferrer" : ""}
           >
             <HoverCard>
-              <HoverCardTrigger> {item.title}</HoverCardTrigger>
+              <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+                <Avatar className="mr-2 h-[25px] w-[25px]">
+                  <AvatarImage
+                    src={`https://logo.clearbit.com/${item.title}.com`}
+                  />
+                  {axios
+                    .get(
+                      `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
+                    )
+                    .then((response: any) => {
+                       data = response.data
+                      components_logo = JSON.stringify(data)
+                      console.log(components_logo)
+                    })
+                    .catch((error: any) => {
+                      console.error("Error fetching the page:", error)
+                    })}
+                  <AvatarFallback>
+                    <Avatar className="mr-2 h-[25px] w-[25px]">
+                      <AvatarImage
+                        src={components_logo.urls.small}
+                      />
+                      <AvatarFallback>WF</AvatarFallback>
+                    </Avatar>
+                  </AvatarFallback>
+                </Avatar>
+                {item.title}
+              </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
             </HoverCard>
             {/* {item.title} */}
@@ -80,19 +110,23 @@ export function DocsSidebarNavItems({
               item.disabled && "cursor-not-allowed opacity-60"
             )}
           >
-            {item.title}
+            <HoverCard>
+              <HoverCardTrigger>
+                <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+                  Allhamdulilla
+                </span>
+              </HoverCardTrigger>
+              <HoverCardContent>{item.description}</HoverCardContent>
+            </HoverCard>
+            {/* {item.title} */}
             {item.label && (
               <HoverCard>
                 <HoverCardTrigger>
-                  <Avatar>
-                    <AvatarImage src="https://github.com/beingofexistence.png" />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
-                  <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+                  {/* <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
                     {item.label}
-                  </span>
+                  </span> */}
                 </HoverCardTrigger>
-                <HoverCardContent>{item.description}</HoverCardContent>
+                {/* <HoverCardContent>{item.description}</HoverCardContent> */}
               </HoverCard>
             )}
           </span>
