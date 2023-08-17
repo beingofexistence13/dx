@@ -1,20 +1,21 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Scrapper</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Web Scrapper</h1>
-    <!-- The text field -->
-    <input type="text" value="Generators Array" id="myInput" />
-
-    <!-- The button used to copy the text -->
-    <button onclick="myFunction()">Copy text</button>
-
-    <script src="console.js"></script>
-    <script src="http.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenAI API Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <textarea id="prompt" placeholder="Enter your prompt..."></textarea>
+    <button id="generateButton">Generate Text</button>
+    <div id="output">
+      <h3>Generated Output:</h3>
+      <p id="generatedText"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
