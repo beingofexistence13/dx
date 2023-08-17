@@ -63,9 +63,8 @@ export function SiteHeader() {
                   <Icons.chevronDown className="h-4 w-4" />
                   <span className="sr-only">Social Medias</span>
                 </div>
-                {/* <Button variant="outline">Edit Profile</Button> */}
               </DialogTrigger>
-              <DialogContent className=" pb-3 pl-2 pr-0">
+              <DialogContent className="pb-3 pl-2 pr-0 pt-0">
                 <Tabs defaultValue="vlog" className="">
                   <DialogHeader>
                     <DialogTitle>
@@ -75,7 +74,7 @@ export function SiteHeader() {
                         <TabsTrigger value="react">React</TabsTrigger>
                       </TabsList>
                     </DialogTitle>
-                    <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
+                    <DialogDescription className="social_media_container h-[350px] overflow-y-auto overflow-x-hidden pt-0">
                       <TabsContent value="vlog">
                         <div className="grid grid-cols-2 justify-stretch gap-3">
                           {socialMediaConfig.platformVlog?.map(

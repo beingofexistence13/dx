@@ -1,4 +1,4 @@
-{
+[{
     title:"ABAKUS",
     href:"https://github.com/webkom/passport-abakus",
     description:'Not Provided(coming soon)',
@@ -1698,4 +1698,4 @@
     description:'Not Provided(coming soon)',
     logo:"https://logo.clearbit.com/yj.com",
     items:[],
- },
+ }]
