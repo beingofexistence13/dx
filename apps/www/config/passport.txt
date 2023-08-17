@@ -1283,7 +1283,7 @@ git clone https://github.com/mikenicholson/passport-jwt && cd passport-jwt && rm
 
 
 
-git clone https://github.com/mikenicholson/passport-jwt && cd passport-jwt && rm -rf .git && cd ..&&
+mkdir passports && cd passports && git clone https://github.com/mikenicholson/passport-jwt && cd passport-jwt && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-oauth && cd passport-oauth && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-local && cd passport-local && rm -rf .git && cd ..&&
 git clone https://github.com/mbell8903/passport-custom && cd passport-custom && rm -rf .git && cd ..&&
@@ -1318,7 +1318,6 @@ git clone https://github.com/sebastiendb/passport-bufferapp && cd passport-buffe
 git clone https://github.com/Lewuathe/passport-yj && cd passport-yj && rm -rf .git && cd ..&&
 git clone https://github.com/techfeed/passport-mastodon && cd passport-mastodon && rm -rf .git && cd ..&&
 git clone https://github.com/homebrewing/passport-maltio && cd passport-maltio && rm -rf .git && cd ..&&
-git clone https://github.com/LDSorg/passport-lds && cd passport-lds && rm -rf .git && cd ..&&
 git clone https://github.com/auth0/passport-daccount && cd passport-daccount && rm -rf .git && cd ..&&
 git clone https://github.com/tiberule/passport-mailru && cd passport-mailru && rm -rf .git && cd ..&&
 git clone https://github.com/tradier/passport-tradier && cd passport-tradier && rm -rf .git && cd ..&&
@@ -1596,18 +1595,3 @@ git clone https://github.com/mooyoul/passport-encored && cd passport-encored && 
 git clone https://github.com/DanielHreben/passport-atlassian && cd passport-atlassian && rm -rf .git && cd ..&&
 git clone https://github.com/xr/passport-renren && cd passport-renren && rm -rf .git && cd ..&&
 git clone https://github.com/OpenHumans/passport-open && cd passport-open && rm -rf .git && cd ..
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
