@@ -1403,8 +1403,7 @@ git clone https://github.com/msyea/passport-nationbuilder && cd passport-nationb
 git clone https://github.com/nuwehq/passport-nuwe && cd passport-nuwe && rm -rf .git && cd ..&&
 git clone https://github.com/Thinkful/passport-thinkful && cd passport-thinkful && rm -rf .git && cd ..&&
 git clone https://github.com/ForbesLindesay/passport-redgate && cd passport-redgate && rm -rf .git && cd ..&&
-git clone https://github.com/abstractj/passport-scarecrow && cd passport-scarecrow && rm -rf .git && cd ..&&
-git clone https://github.com/heroicyang/passport-tq && cd passport-tq && rm -rf .git && cd ..&&
+git clone https://github.com/heroicyang/passport-tqq && cd passport-tqq && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-browserid && cd passport-browserid && rm -rf .git && cd ..&&
 git clone https://github.com/pixiv/passport-pixiv && cd passport-pixiv && rm -rf .git && cd ..&&
 git clone https://github.com/AlisamfP/passport-rightsignature && cd passport-rightsignature && rm -rf .git && cd ..&&
@@ -1447,9 +1446,7 @@ git clone https://github.com/jaredhanson/passport-gowalla && cd passport-gowalla
 git clone https://github.com/Leko/passport-nextengine && cd passport-nextengine && rm -rf .git && cd ..&&
 git clone https://github.com/Redsmin/passport-clevercloud && cd passport-clevercloud && rm -rf .git && cd ..&&
 git clone https://github.com/monarchapis/passport-monarch && cd passport-monarch && rm -rf .git && cd ..&&
-git clone https://github.com/automatic/passport-automatic && cd passport-automatic && rm -rf .git && cd ..&&
 git clone https://github.com/octoblu/passport-octoblu && cd passport-octoblu && rm -rf .git && cd ..&&
-git clone https://github.com/xinbenlv/passport-weibo && cd passport-weibo && rm -rf .git && cd ..&&
 git clone https://github.com/auth0/passport-exact && cd passport-exact && rm -rf .git && cd ..&&
 git clone https://github.com/sitegate/passport-sitegate && cd passport-sitegate && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-runkeeper && cd passport-runkeeper && rm -rf .git && cd ..&&
@@ -1466,7 +1463,6 @@ git clone https://github.com/jaredhanson/passport-tripit && cd passport-tripit &
 git clone https://github.com/jaredhanson/passport-aol && cd passport-aol && rm -rf .git && cd ..&&
 git clone https://github.com/ekristen/passport-replicated && cd passport-replicated && rm -rf .git && cd ..&&
 git clone https://github.com/meefik/passport-ifmosso && cd passport-ifmosso && rm -rf .git && cd ..&&
-git clone https://github.com/coderpp/passport-taobao && cd passport-taobao && rm -rf .git && cd ..&&
 git clone https://github.com/AuthentiqID/passport-authentiq && cd passport-authentiq && rm -rf .git && cd ..&&
 git clone https://github.com/junmer/passport-bong && cd passport-bong && rm -rf .git && cd ..&&
 git clone https://github.com/billglover/passport-moves && cd passport-moves && rm -rf .git && cd ..&&
@@ -1484,7 +1480,6 @@ git clone https://github.com/esabelhaus/passport-dice && cd passport-dice && rm 
 git clone https://github.com/Mistat/passport-deskcom && cd passport-deskcom && rm -rf .git && cd ..&&
 git clone https://github.com/ktmud/passport-douban && cd passport-douban && rm -rf .git && cd ..&&
 git clone https://github.com/watsoncj/passport-eloqua && cd passport-eloqua && rm -rf .git && cd ..&&
-git clone https://github.com/leizongmin/passport-frontwinner && cd passport-frontwinner && rm -rf .git && cd ..&&
 git clone https://github.com/globelabs/passport-globelabs && cd passport-globelabs && rm -rf .git && cd ..&&
 git clone https://github.com/octoblu/passport-flic && cd passport-flic && rm -rf .git && cd ..&&
 git clone https://github.com/itasdesk/passport-infotjenester && cd passport-infotjenester && rm -rf .git && cd ..&&
@@ -1492,14 +1487,10 @@ git clone https://github.com/patbonecrusher/passport-mapmyfitness && cd passport
 git clone https://github.com/guruward/passport-medoauth && cd passport-medoauth && rm -rf .git && cd ..&&
 git clone https://github.com/pukapukan/passport-nate && cd passport-nate && rm -rf .git && cd ..&&
 git clone https://github.com/dglittle/passport-odesk && cd passport-odesk && rm -rf .git && cd ..&&
-git clone https://github.com/Inexistante/passport-sbhs && cd passport-sbhs && rm -rf .git && cd ..&&
-git clone https://github.com/StubHubLabs/node-oneprofile && cd node-oneprofile && rm -rf .git && cd ..&&
 git clone https://github.com/elisee/passport-nuclearhub && cd passport-nuclearhub && rm -rf .git && cd ..&&
-git clone https://github.com/oz/passport-oz && cd passport-oz && rm -rf .git && cd ..&&
 git clone https://github.com/PolkaSpots/passport-polkaspots && cd passport-polkaspots && rm -rf .git && cd ..&&
 git clone https://github.com/octoblu/passport-redbooth && cd passport-redbooth && rm -rf .git && cd ..&&
 git clone https://github.com/DFTinc/passport-passprint && cd passport-passprint && rm -rf .git && cd ..&&
-git clone https://github.com/coderpp/passport-taobao && cd passport-taobao && rm -rf .git && cd ..&&
 git clone https://github.com/7elephants/passport-teamsnap && cd passport-teamsnap && rm -rf .git && cd ..&&
 git clone https://github.com/REscour/passport-rescour && cd passport-rescour && rm -rf .git && cd ..&&
 git clone https://github.com/l0gd0g/passport-ucoz && cd passport-ucoz && rm -rf .git && cd ..&&
