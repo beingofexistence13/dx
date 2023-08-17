@@ -10,8 +10,6 @@
     "dbaeumer.vscode-eslint",
     // Collaborating
     "ms-vsliveshare.vsliveshare",
-    // Debugging
-    "eamodio.gitlens",
     // MDX Authoring
     "github.github-vscode-theme",
     "dsznajder.es7-react-js-snippets"
