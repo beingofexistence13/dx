@@ -99,8 +99,11 @@ export function DocsSidebarNavItems({
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("/api/components_logo")
+        const response = await axios.get(
+          "https://api.unsplash.com/photos?page=1&query=superman&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk"
+        )
         setData(response.data)
+        console.log(data)
       } catch (error) {
         console.error("Error fetching data:", error)
       }
@@ -128,9 +131,16 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+                {/* <Avatar className="mr-2 h-[25px] w-[25px]">
+                  <AvatarImage src="https://images.unsplash.com/photo-1682685797857-97de838c192e?ixid=M3w0OTA0MTB8MXwxfGFsbHwxfHx8fHx8Mnx8MTY5MjMxMDI0Nnw&ixlib=rb-4.0.3" />
+                  <AvatarFallback>Dx
+                  </AvatarFallback>
+                </Avatar> */}
                 <Avatar className="mr-2 h-[25px] w-[25px]">
-                  <AvatarImage src={data} />
-                  <AvatarFallback>Dx</AvatarFallback>
+                  <AvatarImage
+                    src={`https://logo.clearbit.com/${item.title}.com`}
+                  />
+                  <AvatarFallback>WF</AvatarFallback>
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
