@@ -24,7 +24,7 @@ import DashboardPage from "./examples/dashboard/page"
 // import DashboardPage from "@/app/examples/dashboard/page"
 
 export default function IndexPage() {
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
+  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
 
   return (
     <div>
