@@ -342,7 +342,7 @@ margin: 0 !important;
 
 
 
-.hello-tool{
+.hello-tool,.devMode,.devMode-container,.devMode-content{
   z-index: 100000000000;
 
 }

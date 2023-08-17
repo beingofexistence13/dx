@@ -1,8 +1,9 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import axios from "axios";
+import axios from "axios"
 import { SidebarNavItem } from "types/nav"
 
 import { cn } from "@/lib/utils"
@@ -12,6 +13,36 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+
+interface Item {
+  id: number
+  name: string
+}
+
+// function MyComponent() {
+//   const [data, setData] = useState<Item[]>([]);
+
+//   useEffect(() => {
+//     async function fetchData() {
+//       try {
+//         const response = await axios.get('/api/components_logo');
+//         setData(response.data);
+//       } catch (error) {
+//         console.error('Error fetching data:', error);
+//       }
+//     }
+
+//     fetchData();
+//   }, []);
+
+//   return (
+//     <div>
+//       {data.map(item => (
+//         <div key={item.id}>{item.name}</div>
+//       ))}
+//     </div>
+//   );
+// }
 
 export interface DocsSidebarNavProps {
   items: SidebarNavItem[]
@@ -45,8 +76,39 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
+  // const components_logo_function = () => {
+  //   {
+  //     items.map((item, index) => {
+  //       axios
+  //         .get(
+  //           `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
+  //         )
+  //         .then((response: any) => {
+  //           data = response.data
+  //           console.log(data)
+  //         })
+  //         .catch((error: any) => {
+  //           console.error("Error fetching the page:", error)
+  //         })
+  //     })
+  //   }
+  // }
+  // components_logo_function();
+  const [data, setData] = useState("")
 
-  let data,components_logo:any;
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await axios.get("/api/components_logo")
+        setData(response.data)
+      } catch (error) {
+        console.error("Error fetching data:", error)
+      }
+    }
+
+    fetchData()
+  }, [])
+
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
       {items.map((item, index) =>
@@ -67,29 +129,8 @@ export function DocsSidebarNavItems({
             <HoverCard>
               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
                 <Avatar className="mr-2 h-[25px] w-[25px]">
-                  <AvatarImage
-                    src={`https://logo.clearbit.com/${item.title}.com`}
-                  />
-                  {axios
-                    .get(
-                      `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
-                    )
-                    .then((response: any) => {
-                       data = response.data
-                      components_logo = JSON.stringify(data)
-                      console.log(components_logo)
-                    })
-                    .catch((error: any) => {
-                      console.error("Error fetching the page:", error)
-                    })}
-                  <AvatarFallback>
-                    <Avatar className="mr-2 h-[25px] w-[25px]">
-                      <AvatarImage
-                        src={components_logo.urls.small}
-                      />
-                      <AvatarFallback>WF</AvatarFallback>
-                    </Avatar>
-                  </AvatarFallback>
+                  <AvatarImage src={data} />
+                  <AvatarFallback>Dx</AvatarFallback>
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
