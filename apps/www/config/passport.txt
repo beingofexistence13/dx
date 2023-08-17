@@ -1324,7 +1324,6 @@ git clone https://github.com/tradier/passport-tradier && cd passport-tradier && 
 git clone https://github.com/harbur/passport-digitalocean && cd passport-digitalocean && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-familysearch && cd passport-familysearch && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-goodreads && cd passport-goodreads && rm -rf .git && cd ..&&
-git clone https://github.com/octoblu/passport-citrix && cd passport-citrix && rm -rf .git && cd ..&&
 git clone https://github.com/rajaraodv/passport-cloudfoundry && cd passport-cloudfoundry && rm -rf .git && cd ..&&
 git clone https://github.com/73rhodes/passport-opentoken && cd passport-opentoken && rm -rf .git && cd ..&&
 git clone https://github.com/tusbar/passport-idn && cd passport-idn && rm -rf .git && cd ..&&
