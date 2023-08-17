@@ -1489,6 +1489,7 @@ git clone https://github.com/pukapukan/passport-nate && cd passport-nate && rm -
 git clone https://github.com/dglittle/passport-odesk && cd passport-odesk && rm -rf .git && cd ..&&
 git clone https://github.com/elisee/passport-nuclearhub && cd passport-nuclearhub && rm -rf .git && cd ..&&
 git clone https://github.com/PolkaSpots/passport-polkaspots && cd passport-polkaspots && rm -rf .git && cd ..&&
+
 git clone https://github.com/octoblu/passport-redbooth && cd passport-redbooth && rm -rf .git && cd ..&&
 git clone https://github.com/DFTinc/passport-passprint && cd passport-passprint && rm -rf .git && cd ..&&
 git clone https://github.com/7elephants/passport-teamsnap && cd passport-teamsnap && rm -rf .git && cd ..&&
@@ -1501,9 +1502,9 @@ git clone https://github.com/thunderblaster/passport-vivokey && cd passport-vivo
 git clone https://github.com/ZengineHQ/passport-zengine && cd passport-zengine && rm -rf .git && cd ..&&
 git clone https://github.com/stephenlacy/passport-cloudup && cd passport-cloudup && rm -rf .git && cd ..&&
 git clone https://github.com/phantauth/passport-phantauth && cd passport-phantauth && rm -rf .git && cd ..&&
-git clone https://github.com/jaredhanson/passport-http && cd passport-http && rm -rf .git && cd ..&&
 git clone https://github.com/Siedrix/passport-pocket && cd passport-pocket && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..&&
+
 git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..&&
@@ -1542,7 +1543,6 @@ git clone https://github.com/lughino/passport-unique && cd passport-unique && rm
 git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..&&
 git clone https://github.com/jaredhanson/passport-remember && cd passport-remember && rm -rf .git && cd ..&&
 git clone https://github.com/codebarista/passport-jwt && cd passport-jwt && rm -rf .git && cd ..&&
-git clone https://github.com/jaredhanson/passport-http && cd passport-http && rm -rf .git && cd ..&&
 git clone https://github.com/IvanWei/passport-line && cd passport-line && rm -rf .git && cd ..&&
 git clone https://github.com/energywebfoundation/passport-did && cd passport-did && rm -rf .git && cd ..&&
 git clone https://github.com/nash403/passport-anonym && cd passport-anonym && rm -rf .git && cd ..&&
