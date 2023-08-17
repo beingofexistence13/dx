@@ -1,0 +1,35 @@
+{
+  "name": "passport-lastfm",
+  "version": "1.0.1",
+  "description": "Login strategy for passportjs for authentication with last.fm",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --reporter spec --timeout 5000 --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizzlebot/passport-lastfm.git"
+  },
+  "keywords": [
+    "passportjs",
+    "passport",
+    "lastfm",
+    "last.fm",
+    "authentication"
+  ],
+  "author": "James Choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kizzlebot/passport-lastfm/issues"
+  },
+  "homepage": "https://github.com/kizzlebot/passport-lastfm#readme",
+  "dependencies": {
+    "lastfm": "^0.9.2",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "mocha": "^2.4.5"
+  }
+}

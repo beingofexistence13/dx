@@ -1,0 +1,19 @@
+html
+  head
+    title Passport-Lims Example
+    style.
+      a+a {
+        margin-left: 10px;
+      }
+  body
+    if user
+      p
+      a(href='/') Home
+      a(href='/account') Account
+      a(href='/logout') Logout
+    else
+      p
+      a(href='/') Home
+      a(href='/login') Login
+    p
+    block content

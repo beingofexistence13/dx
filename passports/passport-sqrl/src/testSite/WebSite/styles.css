@@ -1,0 +1,38 @@
+/* Global Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 5px;
+  background-color: #FFF;
+}
+body, input[text], button {
+  color: #222;
+  font-family: Cambria, Georgia;
+}
+.qr-code > svg {
+  color: #000;
+  background-color: #FFF;
+}
+@media (orientation: landscape) {
+  .qr-code > svg {
+    width: 30%;
+  }
+}
+@media (orientation: portrait) {
+  .qr-code > svg {
+    width: 100%;
+  }
+}
+
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

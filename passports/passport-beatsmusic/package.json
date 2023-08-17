@@ -1,0 +1,41 @@
+{
+    "name": "passport-beatsmusic",
+    "version": "1.0.2",
+    "description": "Beats Music authentication strategy for Passport.",
+    "keywords": [
+    "passport",
+    "beats",
+    "music",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/datmark/passport-beatsmusic.git"
+    },
+    "bugs": {
+        "url": "https://github.com/datmark/passport-beatsmusic/issues"
+    },
+    "author": "Mark Purugganan <mark.purugganan@gmail.com>",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+    "main": "./lib/passport-beatsmusic",
+    "dependencies": {
+        "pkginfo": "0.3.x",
+        "passport-oauth": "1.0.0"
+    },
+    "devDependencies": {},
+    "engines": {
+        "node": ">= 0.4.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT"
+}

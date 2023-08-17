@@ -1,0 +1,37 @@
+{
+  "name": "passport-draugiem",
+  "version": "0.1.2",
+  "description": "Draugiem.lv authentication strategy for Passport.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/EriksRemess/passport-draugiem.git"
+  },
+  "type": "module",
+  "keywords": [
+    "passport",
+    "draugiem",
+    "frype",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Ēriks Remess",
+    "email": "eriks@remess.lv"
+  },
+  "bugs": {
+    "url": "https://github.com/EriksRemess/passport-draugiem/issues"
+  },
+  "homepage": "https://github.com/EriksRemess/passport-draugiem",
+  "dependencies": {
+    "passport": "^0.6.0"
+  },
+  "optionalDependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

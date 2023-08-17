@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  if user !== null
+    h1 Hello, #{user.displayName}
+  else
+    h1 Hello
+
+  a(href="/profile") Profile
+  br
+  a(href="/forced") Profile (forced re-authentication)

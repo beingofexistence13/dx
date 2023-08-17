@@ -1,0 +1,46 @@
+{
+  "name": "passport-nuwe",
+  "version": "1.0.8",
+  "description": "Nuwe authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "nuwe",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Steve Schofield",
+    "email": "steve@nuwe.co",
+    "url": "http://www.nuwe.co/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nuwehq/passport-nuwe.git"
+  },
+  "bugs": {
+    "url": "http://github.com/nuwehq/passport-nuwe/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

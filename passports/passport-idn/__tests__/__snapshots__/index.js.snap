@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`passport-idn should load a profile completely 1`] = `
+Object {
+  "_json": Object {
+    "birthdate": "01-04-1984",
+    "contact/city/home": "Paris",
+    "contact/country/home": "France",
+    "contact/email": "mbl@somewhere.net",
+    "contact/phone/cell": "0607080910",
+    "contact/postalAddress/home": ";;4 rue Franconville;;Paris;75050",
+    "id": "mbl",
+    "namePerson": "M LE-JAMBON Paul",
+    "namePerson/first": "Paul",
+    "namePerson/friendly": "mbl",
+    "namePerson/last": "LE-JAMBON",
+    "namePerson/prefix": "M",
+  },
+  "_raw": "{
+  \\"id\\": \\"mbl\\",
+  \\"namePerson/friendly\\": \\"mbl\\",
+  \\"namePerson\\": \\"M LE-JAMBON Paul\\",
+  \\"namePerson/prefix\\": \\"M\\",
+  \\"namePerson/last\\": \\"LE-JAMBON\\",
+  \\"namePerson/first\\": \\"Paul\\",
+  \\"birthdate\\": \\"01-04-1984\\",
+  \\"contact/postalAddress/home\\": \\";;4 rue Franconville;;Paris;75050\\",
+  \\"contact/city/home\\": \\"Paris\\",
+  \\"contact/country/home\\": \\"France\\",
+  \\"contact/email\\": \\"mbl@somewhere.net\\",
+  \\"contact/phone/cell\\": \\"0607080910\\"
+}
+",
+  "emails": Array [
+    Object {
+      "value": "mbl@somewhere.net",
+    },
+  ],
+  "id": "mbl",
+  "name": "M LE-JAMBON Paul",
+  "provider": "idn",
+  "username": "mbl",
+}
+`;

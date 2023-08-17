@@ -1,0 +1,26 @@
+{
+  "name": "passport-netatmo",
+  "version": "1.0.1",
+  "description": "Provides a netatmo authentication strategy for Passport",
+  "keywords": [
+    "passport",
+    "netatmo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nibbler999/passport-netatmo"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "./lib/passport-netatmo",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

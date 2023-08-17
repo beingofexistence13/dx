@@ -1,0 +1,31 @@
+{
+  "name": "passport-everyplay",
+  "version": "0.0.1",
+  "description": "Everyplay authentication strategy for Passport.js",
+  "author": { "name": "Matti Savolainen", "email": "matti@applifier.com", "url": "http://www.everyplay.com/" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Everyplay/passport-everyplay.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Everyplay/passport-everyplay/issues"
+  },
+  "main": "./lib/passport-everyplay",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x",
+    "dox-foundation": "*"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "everyplay", "auth", "authn", "authentication", "identity"]
+}

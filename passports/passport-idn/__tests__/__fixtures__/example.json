@@ -1,0 +1,14 @@
+{
+  "id": "mbl",
+  "namePerson/friendly": "mbl",
+  "namePerson": "M LE-JAMBON Paul",
+  "namePerson/prefix": "M",
+  "namePerson/last": "LE-JAMBON",
+  "namePerson/first": "Paul",
+  "birthdate": "01-04-1984",
+  "contact/postalAddress/home": ";;4 rue Franconville;;Paris;75050",
+  "contact/city/home": "Paris",
+  "contact/country/home": "France",
+  "contact/email": "mbl@somewhere.net",
+  "contact/phone/cell": "0607080910"
+}

@@ -1,0 +1,3 @@
+user
+pass
+a@b.c

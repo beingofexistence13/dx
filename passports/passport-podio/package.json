@@ -1,0 +1,36 @@
+{
+  "name": "passport-podio",
+  "version": "0.0.4",
+  "description": "Podio authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "podio",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mjpearson/passport-podio.git"
+  },
+  "bugs": {
+    "url": "http://github.com/mjpearson/passport-podio/issues"
+  },  
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-podio",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },  
+  "_id": "passport-podio@0.0.3",
+  "_from": "passport-podio@>=0.0.1"
+}

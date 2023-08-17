@@ -1,0 +1,53 @@
+{
+  "name": "passport-drchrono",
+  "version": "1.0.2",
+  "description": "DrChrono authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "authn",
+    "authentication",
+    "drchrono",
+    "ehr"
+  ],
+  "author": {
+    "name": "David Jiménez",
+    "email": "david@nimblr.ai",
+    "url": "https://nimblr.ai/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nimblr/passport-drchrono.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nimblr/passport-drchrono/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "debug": "4.x.x",
+    "passport-oauth2": "1.x.x",
+    "request": "2.x.x"
+  },
+  "devDependencies": {
+    "chai": "4.x.x",
+    "chai-passport-strategy": "1.x.x",
+    "istanbul": "~0.4.5",
+    "mocha": "4.x.x",
+    "node-mocks-http": "1.7.6",
+    "sinon": "4.x.x"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/*.test.js",
+    "test-cov": "istanbul cover  --dir ./reports/coverage ./node_modules/.bin/_mocha -- test/*.test.js",
+    "view-cov": "open ./reports/coverage/lcov-report/index.html"
+  }
+}

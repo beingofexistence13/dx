@@ -1,0 +1,84 @@
+{
+  "name": "passport-idn",
+  "version": "1.0.0",
+  "description": "La Poste IDN (Identité Numérique) authentication strategy for Passport.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "passport",
+    "idn",
+    "laposte",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "license": "MIT",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com> (https://github.com/tusbar)",
+  "repository": "http://github.com/tusbar/passport-idn.git",
+  "bugs": {
+    "url": "http://github.com/tusbar/passport-idn/issues"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  },
+  "devDependencies": {
+    "codecov": "^3.1.0",
+    "jest": "^24.0.0",
+    "jest-junit": "^7.0.0",
+    "lerna-changelog": "^0.8.2",
+    "xo": "^0.24.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__helpers__/",
+      "/__fixtures__/"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "output": "reports/tests/junit.xml"
+        }
+      ]
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "overrides": [
+      {
+        "files": "__tests__/**/*.js",
+        "envs": [
+          "jest"
+        ]
+      }
+    ]
+  },
+  "changelog": {
+    "cacheDir": ".changelog",
+    "labels": {
+      "bug": ":bug: Bug Fix",
+      "build": ":building_construction: Build Process",
+      "cleanup": ":shower: Cleanup",
+      "documentation": ":memo: Documentation",
+      "enhancement": ":rocket: Enhancement",
+      "performance": ":racehorse: Performance",
+      "security": ":policeman: Security"
+    },
+    "repo": "tusbar/passport-idn"
+  }
+}

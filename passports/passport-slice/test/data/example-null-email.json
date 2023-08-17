@@ -1,0 +1,21 @@
+{
+  "result": {
+    "userName": "", 
+    "updateTime": 1418920723000, 
+    "firstName": "Malcolm", 
+    "lastName": "Reynolds", 
+    "linkedAccounts": [], 
+    "userEmail": "malcolm.reynolds@firefly.com", 
+    "mailboxes": [
+      {
+        "href": "https://api.slice.com/api/v1/mailboxes/###################"
+      }, 
+      {
+        "href": "https://api.slice.com/api/v1/mailboxes/###################"
+      }
+    ], 
+    "href": "https://api.slice.com/api/v1/users/self", 
+    "createTime": 1418548071000
+  }, 
+  "currentTime": 1418920764000
+}

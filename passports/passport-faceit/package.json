@@ -1,0 +1,54 @@
+{
+  "name": "@technoblazed/passport-faceit",
+  "version": "1.2.0",
+  "description": "FACEIT (OAuth) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "faceit",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth",
+    "oauth2",
+    "strategy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Technoblazed/passport-faceit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Technoblazed/passport-faceit/issues"
+  },
+  "author": {
+    "name": "Technoblazed",
+    "email": "i.will@spamthe.world",
+    "url": "https://github.com/Technoblazed"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-faceit",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "passport-oauth2": "github:technoblazed/passport-oauth2#ec7e27c4d883536ecfe181717cfa7f1a865d9f5d",
+    "pkginfo": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Techno",
+      "email": "i.will@spamthe.world"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/Technoblazed/passport-faceit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

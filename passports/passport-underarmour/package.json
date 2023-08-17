@@ -1,0 +1,43 @@
+{
+  "name": "passport-underarmour",
+  "version": "1.0.2",
+  "description": "Under Armour authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "mapmyfitness",
+    "under armour",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Pat Laplante",
+    "email": "bonecrusher@covenofchaos.com",
+    "url": "http://www.covenofchaos.com/"
+  },
+  "contributors": [
+    {
+      "name": "Jason Sanford",
+      "email": "jasonsanford@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JasonSanford/passport-underarmour.git"
+  },
+  "bugs": {
+    "url": "http://github.com/JasonSanford/passport-underarmour/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "engines": {
+    "node": "~0.10.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "passport-mapmyfitness",
+    "version": "1.0.2",
+    "description": "Map my api authentication strategy for Passport.",
+    "keywords": [
+        "passport",
+        "mapmyapi",
+        "auth",
+        "authn",
+        "authentication",
+        "identity"
+    ],
+    "author": {
+        "name": "Pat Laplante",
+        "email": "bonecrusher@covenofchaos.com",
+        "url": "http://www.covenofchaos.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/patbonecrusher/passport-mapmyfitness.git"
+    },
+    "bugs": {
+        "url": "http://github.com/patbonecrusher/passport-mapmyfitness/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "main": "./lib",
+    "dependencies": {
+        "passport-oauth2": "1.x.x"
+    },
+    "devDependencies": {
+        "mocha": "1.x.x",
+        "chai": "1.x.x",
+        "chai-passport-strategy": "0.2.x"
+    },
+    "engines": {
+        "node": ">= 0.4.0"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    }
+
+}

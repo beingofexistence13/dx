@@ -1,0 +1,53 @@
+{
+  "name": "passport-twitch",
+  "version": "1.0.3",
+  "description": "Twitch (OAuth) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "twitch",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth",
+    "oauth2",
+    "strategy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Schmoopiie/passport-twitch.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Schmoopiie/passport-twitch/issues"
+  },
+  "author": {
+    "name": "Schmoopiie",
+    "email": "Schmoopiie@gmail.com",
+    "url": "http://www.schmoopiie.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-twitch",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "0.2.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Schmoopiie",
+      "email": "Schmoopiie@gmail.com"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/Schmoopiie/passport-twitch"
+}

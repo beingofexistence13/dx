@@ -1,0 +1,33 @@
+{
+  "name": "passport-untappd",
+  "version": "1.0.0",
+  "description": "Untappd authentication strategy for Passport.",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shuhei/passport-untappd.git"
+  },
+  "keywords": [
+    "passport",
+    "untappd",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Shuhei Kagawa",
+    "email": "shuhei.kagawa@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuhei/passport-untappd/issues"
+  },
+  "homepage": "https://github.com/shuhei/passport-untappd",
+  "dependencies": {
+    "passport-oauth": "^1.0.0"
+  }
+}

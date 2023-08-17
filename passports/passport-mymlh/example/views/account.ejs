@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Passport - MyMLH example</title>
+	</head>
+	<body>
+		<% if (!user) { %>
+			<p>
+			<a href="/">Home</a> |
+			<a href="/login">Log In</a>
+			</p>
+		<% } else { %>
+			<p>
+			<a href="/">Home</a> |
+			<a href="/account">Account</a> |
+			<a href="/logout">Log Out</a>
+			</p>
+		<% } %>
+
+		<p>id: <%= user.id %></p>
+    <p>email: <%= user.email %></p>
+    <p>created_at: <%= user.created_at%></p>
+    <p>updated_at: <%= user.updated_at%></p>
+    <p>first_name: <%= user.first_name%></p>
+    <p>last_name: <%= user.last_name%></p>
+    <p>major: <%= user.major%></p>
+    <p>shirt_size: <%= user.shirt_size%></p>
+    <p>dietary_restrictions: <%= user.dietary_restrictions%></p>
+    <p>special_needs: <%= user.special_needs%></p>
+    <p>date_of_birth: <%= user.date_of_birth%></p>
+    <p>gender: <%= user.gender%></p>
+    <p>phone_number: <%= user.phone_number%></p>
+    <p>level_of_study: <%= user.level_of_study%></p>
+    <p>school id: <%= user.school.id%></p>
+    <p>school name: <%= user.school.name%></p>
+    <p>json: <%= user %></p>
+	</body>
+</html>

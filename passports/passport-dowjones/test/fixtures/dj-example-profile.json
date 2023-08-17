@@ -1,0 +1,20 @@
+{
+  "email": "joesample@gmail.com",
+  "family_name": "Sample",
+  "gender": "male",
+  "given_name": "Joe",
+  "identities": [
+    {
+      "access_token": "access-token-s01",
+      "provider": "google-oauth2",
+      "user_id": "abc123890",
+      "connection": "google-oauth2",
+      "isSocial": true
+    }
+  ],
+  "locale": "en",
+  "name": "Joe Sample",
+  "nickname": "jsample",
+  "picture": "https://lh3.googlesample.sample",
+  "user_id": "google-oauth2|abc123890"
+}

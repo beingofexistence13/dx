@@ -1,0 +1,34 @@
+{
+  "name": "passport-paypal",
+  "version": "0.3.0",
+  "description": "PayPal (OpenID) authentication strategy for Passport.",
+  "keywords": ["passport", "paypal", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-paypal.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-paypal/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-paypal",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-openid": "0.3.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.6.0" }
+}

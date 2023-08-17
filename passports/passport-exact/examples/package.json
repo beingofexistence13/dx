@@ -1,0 +1,14 @@
+{
+  "name": "passport-exact-oauth-examples-oauth2",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 0.0.0",
+    "ejs": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "body-parser": "*",    
+    "cookie-parser": "*",
+    "method-override": "*",
+    "express-session": "*",
+    "serve-static": "*"
+  }
+}

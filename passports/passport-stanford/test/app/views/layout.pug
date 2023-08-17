@@ -1,0 +1,69 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')/
+        meta(http-equiv='content-type', content='text/html; charset=windows-1252')/
+        title Passport-Stanford Example
+        block links
+            link(rel='icon', href='//web.stanford.edu/favicon.ico', type='image/x-icon')/
+            link(rel='shortcut icon', href='//web.stanford.edu/favicon.ico' type='image/x-icon')/
+            link(rel='stylesheet', href='https://weblogin.itlab.stanford.edu/css/bootstrap.min.css')/
+            link(rel='stylesheet', href='https://weblogin.itlab.stanford.edu/css/su-identity.css')/
+            script(src='https://weblogin.itlab.stanford.edu/js/jquery-1.11.1.min.js')
+            script(src='https://weblogin.itlab.stanford.edu/js/bootstrap.min.js')
+
+    body
+        #su-wrap
+            #su-content
+                #brandbar
+                    .container
+                        a(href='http://www.stanford.edu'): img(src='https://weblogin.itlab.stanford.edu/images/brandbar-stanford-logo@2x.png', alt='Stanford University', width='153', height='22')
+
+                #header
+                    .container
+                        div(style='margin: 1em 10px 0 0;')
+                        h2.pagetitle Passport-Stanford Example
+
+                #content
+                    .container
+
+                        .row
+                            .col-md-8
+
+                                block content
+
+        #global-footer
+            .container
+                .row
+                    #bottom-logo(class='col-xs-6 col-sm-2')
+                        a(href='http://itlab.stanford.edu'): img(width='105', height='49', alt='IT Lab', src='https://weblogin.itlab.stanford.edu/images/bunsen-beaker-2.png')
+                    #bottom-text(class='col-xs-6 col-sm-10')
+                        ul
+                          li.home
+                              a(href='http://www.stanford.edu') SU Home
+                          li.home
+                              a(href='http://uit.stanford.edu') UIT Home
+                          li(class='maps alt')
+                              a.su-link(href='http://visit.stanford.edu/plan/maps.html') Maps & Directions
+                          li.search-stanford
+                              a(href='http://stanford.edu/search/') Search Stanford
+                          li(class='terms alt')
+                              a(href='http://www.stanford.edu/site/terms.html') Terms of Use
+                          li.emergency-info
+                              a.su-link(href='http://emergency.stanford.edu/') Emergency Info
+
+                    .clear
+                    p(class='copyright vcard col-sm-10')
+                      | &copy;
+                      span(class='fn org') Stanford University
+                      span.adr
+                          span.locality Stanford
+                          | ,
+                          span.region California
+                          span.postal-code 94305
+                      | .
+                      span#termsofuse
+                          a.su-link(href='http://www.stanford.edu/group/security/dmca.html') Copyright Complaints
+                          a.su-link(href='https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4') Trademark Notice
+

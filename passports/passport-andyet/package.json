@@ -1,0 +1,23 @@
+{
+  "name": "passport-andyet",
+  "version": "0.0.1",
+  "description": "passport plugin for andyet auth",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andyet/passport-andyet.git"
+  },
+  "keywords": [
+    "passport",
+    "andyet"
+  ],
+  "author": "Nathan LaFreniere <quitlahok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyet/passport-andyet/issues"
+  },
+  "homepage": "https://github.com/andyet/passport-andyet",
+  "dependencies": {
+    "request": "~2.33.0"
+  }
+}

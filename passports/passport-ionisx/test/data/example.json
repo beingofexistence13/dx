@@ -1,0 +1,22 @@
+{
+    "id": "1a",
+    "emails": [{
+        "confirmed": true,
+        "email": "jdoe@example.com",
+        "primary": true,
+        "social": false
+    }],
+    "name": "John Doe",
+    "username": "jdoe",
+    "createdAt": "2013-12-09T20:53:53.000Z",
+    "primaryEmail": "cool-email@example.com",
+    "updatedAt": "2015-09-12T12:46:15.015Z",
+    "courses": [{
+        "createdAt": "2015-06-22T14:32:34.590Z",
+        "updatedAt": "2015-06-22T14:33:11.264Z",
+        "course": "558807dbeeeecf335de0aa31",
+        "lastAccessed": "2015-06-22T14:33:11.264Z"
+    }],
+    "active": true,
+    "_href": "https://api.ionisx.com/v1/users/541054f5dbaef96746b79641"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "passport-smugmug",
+  "version": "0.1.2",
+  "description": "SmugMug authentication strategy for Passport.",
+  "keywords": ["passport", "smugmug", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-smugmug.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-smugmug/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-smugmug",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}

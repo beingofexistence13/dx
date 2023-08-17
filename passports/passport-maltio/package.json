@@ -1,0 +1,49 @@
+{
+  "name": "passport-maltio",
+  "version": "1.0.0",
+  "description": "Malt.io (OAuth2) authentication strategy for Passport.js",
+  "homepage": "https://github.com/homebrewing/passport-maltio",
+  "main": "passport-maltio.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homebrewing/passport-maltio"
+  },
+  "bugs": {
+    "url": "https://github.com/homebrewing/passport-maltio/issues"
+  },
+  "keywords": [
+    "beer",
+    "wine",
+    "mead",
+    "homebrew",
+    "homebrewer",
+    "homebrewing",
+    "brew",
+    "brewer",
+    "brewing",
+    "passport",
+    "login",
+    "auth",
+    "authenticate",
+    "authentication",
+    "authorize",
+    "authorization",
+    "identity",
+    "maltio"
+  ],
+  "author": {
+    "name": "Daniel G. Taylor",
+    "email": "danielgtaylor@gmail.com",
+    "url": "https://github.com/homebrewing"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "passport-oauth": "~0.1.15"
+  },
+  "devDependencies": {
+    "passport-oauth": "~0.1.15"
+  },
+  "engines": {
+    "node": ">=0.8.19"
+  }
+}

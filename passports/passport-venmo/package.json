@@ -1,0 +1,51 @@
+{
+  "name": "passport-venmo",
+  "version": "0.0.1",
+  "description": "Venmo authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "venmo",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jihokoo/passport-venmo.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jihokoo/passport-venmo/issues"
+  },
+  "author": {
+    "name": "Ji Ho Koo",
+    "email": "jiho.koo@outlook.com",
+    "url": "http://www.jihokoo.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jihokoo/passport-venmo",
+  "_id": "passport-venmo@0.0.1",
+  "_from": "passport-venmo@~0.0.1"
+}
+

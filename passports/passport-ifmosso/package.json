@@ -1,0 +1,44 @@
+{
+  "name": "passport-ifmosso",
+  "version": "1.0.2",
+  "description": "IfmoSSO authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "auth",
+    "authentication",
+    "ifmosso"
+  ],
+  "author": {
+    "name": "Anton Skshidlevsky",
+    "email": "meefik@gmail.com",
+    "url": "http://meefik.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meefik/passport-ifmosso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meefik/passport-ifmosso/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

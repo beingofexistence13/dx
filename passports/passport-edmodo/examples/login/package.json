@@ -1,0 +1,14 @@
+{
+    "name": "passport-edmodo-examples-login",
+    "version": "0.0.0",
+    "dependencies": {
+        "express": "4.x",
+        "morgan": "1.x",
+        "body-parser": "1.x",
+        "method-override": "1.x",
+        "express-session": "1.x",
+        "ejs": ">= 0.0.0",
+        "passport": ">= 0.0.0",
+        "passport-edmodo": ">= 0.0.0"
+    }
+}

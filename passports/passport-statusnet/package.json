@@ -1,0 +1,20 @@
+{
+  "author": "ZooWar",
+  "description": "StatusNet authentication strategy for Passport.",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.6",
+    "pkginfo": ">= 0.2.3"
+  },
+  "devDependencies": {
+    "nodelint": "0.6.0"
+  },
+  "engines": { "node": ">= 0.6.0" },
+  "keywords": ["passport", "statusnet", "auth", "oauth", "authentication", "identity"],
+  "main": "./lib/passport-statusnet",
+  "name": "passport-statusnet",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zoowar/passport-statusnet.git"
+  },
+  "version": "0.1.0"
+}

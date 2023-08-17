@@ -1,0 +1,17 @@
+Makefile
+build/
+docs/
+examples/
+reports/
+test/
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Git
+.git*
+
+# Utilities
+.jshintrc
+.travis.yml

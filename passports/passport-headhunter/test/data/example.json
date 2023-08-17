@@ -1,0 +1,22 @@
+{
+    "id": "12345678",
+    "last_name": "Фамилия",
+    "first_name": "Имя",
+    "middle_name": "Отчество",
+    "is_admin": false,
+    "is_applicant": false,
+    "is_employer": true,
+    "email": "contact@example.com",
+    "employer": {
+        "id": "1455",
+        "name": "HeadHunter",
+        "manager_id": "87654321"
+    },
+    "counters": {
+        "unread_negotiations": 0,
+        "new_resume_views": 2
+    },
+    "is_in_search": true,
+    "resumes_url": "https://api.hh.ru/resumes/mine",
+    "negotiations_url": "https://api.hh.ru/negotiations"
+}

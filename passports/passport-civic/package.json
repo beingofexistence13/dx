@@ -1,0 +1,31 @@
+{
+  "name": "passport-civic",
+  "version": "1.0.6",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "civic-sip-api": "^0.4.2"
+  },
+  "homepage": "https://github.com/SpringRole/passport-civic",
+  "bugs": {
+    "url": "http://github.com/SpringRole/passport-civic/issues"
+  },
+  "keywords": [
+    "passport",
+    "civic",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpringRole/passport-civic.git"
+  },
+  "author": "Vinay Agarwal",
+  "license": "MIT"
+}

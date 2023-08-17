@@ -1,0 +1,10 @@
+{
+  "name": "passport-arcgis-examples-login",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "passport": "*",
+    "passport-arcgis": "*"
+  }
+}

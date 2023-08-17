@@ -1,0 +1,36 @@
+{
+  "name": "passport-avalon",
+  "version": "0.0.1",
+  "description": "Avalon OAuth2 strategy for Passport.",
+  "keywords": [
+    "passport",
+    "avalon",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abembecker/passport-avalon.git"
+  },
+  "bugs": {
+    "url": "http://github.com/abembecker/passport-avalon/issues"
+  },  
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-avalon",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },  
+  "_id": "passport-avalon@0.0.1",
+  "_from": "passport-avalon@>=0.0.0"
+}

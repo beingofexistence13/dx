@@ -1,0 +1,59 @@
+{
+  "name": "passport-persona",
+  "version": "0.2.1",
+  "description": "Mozilla Persona authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "persona",
+    "browserid",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "contributors": [
+    {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com"
+    },
+    {
+      "name": "Leo McArdle",
+      "email": "leomcardle@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-persona.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-persona/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+  }
+}

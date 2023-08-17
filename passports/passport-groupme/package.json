@@ -1,0 +1,54 @@
+{
+  "name": "passport-groupme",
+  "version": "1.0.0",
+  "description": "OAuth 2.0 authentication strategy for Passport for GroupMe.",
+  "keywords": [
+    "passport",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "oauth",
+    "oauth2",
+    "groupme"
+  ],
+  "author": {
+    "name": "Andrew Wiik",
+    "email": "cardflourish101@gmail.com",
+    "url": "http://www.atwiiks.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewwiik/passport-groupme.git"
+  },
+  "bugs": {
+    "url": "http://github.com/andrewwiik/passport-groupme/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "oauth": "0.9.x",
+    "passport-strategy": "1.x.x",
+    "uid2": "0.0.x",
+    "utils-merge": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "passport-outlook",
+  "version": "3.0.0",
+  "description": "Outlook REST API v2 authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "microsoft",
+    "outlook",
+    "msn",
+    "hotmail",
+    "windowslive",
+    "auth",
+    "oauth",
+    "oauth2",
+    "authorization",
+    "authorisation",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Nigel Horton",
+    "email": "webdevelopment@clocked0ne.co.uk",
+    "url": "http://www.clocked0ne.co.uk/"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Potaire",
+      "url": "https://github.com/http-teapot"
+    },
+    {
+      "name": "DJphilomath",
+      "url": "https://github.com/DJphilomath"
+    },
+    {
+      "name": "Andrés González",
+      "url": "https://github.com/andreider04"
+    },
+    {
+      "name": "Dan Perry",
+      "url": "https://github.com/dperry"
+    },
+    {
+      "name": "Lakhan Nad",
+      "url": "https://github.com/Lakhan-Nad"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clocked0ne/passport-outlook.git"
+  },
+  "bugs": {
+    "url": "http://github.com/clocked0ne/passport-outlook/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.x",
+    "mocha": "8.x.x",
+    "chai": "4.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

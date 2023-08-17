@@ -1,0 +1,16 @@
+{
+  "name": "passport-appdotnet",
+  "version": "0.1.1",
+  "description": "App.net authentication strategy for Passport.",
+  "author": "Michael Owens <mk@mowens.com> (http://mowens.com/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mowens/passport-appdotnet.git"
+  },
+  "main": "./lib/passport-appdotnet",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "appdotnet", "appnet", "app.net", "oauth", "auth", "authn", "authentication", "identity"]
+}

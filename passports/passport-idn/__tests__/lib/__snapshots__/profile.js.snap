@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lib.profile parse should parse profile 1`] = `
+Object {
+  "emails": Array [
+    Object {
+      "value": "mbl@somewhere.net",
+    },
+  ],
+  "id": "mbl",
+  "name": "M LE-JAMBON Paul",
+  "username": "mbl",
+}
+`;
+
+exports[`lib.profile parse should parse profile with null email 1`] = `
+Object {
+  "id": "mbl",
+  "username": "mbl",
+}
+`;

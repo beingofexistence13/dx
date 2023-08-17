@@ -1,0 +1,10 @@
+{
+  "name": "passport-bong-examples-login",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "2.0",
+    "ejs": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "passport-bong": "git://github.com/junmer/passport-bong#master"
+  }
+}

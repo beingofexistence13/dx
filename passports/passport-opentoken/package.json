@@ -1,0 +1,40 @@
+{
+  "name": "passport-opentoken",
+  "version": "1.0.0",
+  "description": "Passport strategy for authenticating with PingFederate using the OpenToken API",
+  "main": "./lib/passport-opentoken",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/*.js",
+    "lint": "jshint lib examples"
+  },
+  "author": "Darren DeRidder",
+  "license": "ISC",
+  "dependencies": {
+    "opentoken": "^1.0.11",
+    "passport-strategy": "^1.0.0",
+    "pkginfo": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-passport-strategy": "^1.0.1",
+    "express": "^4.9.6",
+    "jshint": "^2.9.5",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/73rhodes/passport-opentoken.git"
+  },
+  "keywords": [
+    "passport",
+    "authentication",
+    "opentoken"
+  ],
+  "bugs": {
+    "url": "https://github.com/73rhodes/passport-opentoken/issues"
+  },
+  "homepage": "https://github.com/73rhodes/passport-opentoken"
+}

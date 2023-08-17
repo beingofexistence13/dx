@@ -1,0 +1,16 @@
+{
+  "name": "passport-rightsignature",
+  "version": "0.1.0",
+  "description": "Right Signature authentication strategy for Passport.",
+  "author": "Alisa Palson <palson@alisa.codes> (http://alisa.codes/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/alisamfp/passport-rightsignature.git"
+  },
+  "main": "./lib/passport-rightsignature",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "rightsignature", "oauth", "auth", "authn", "authentication", "identity"]
+}

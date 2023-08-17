@@ -1,0 +1,30 @@
+{
+  "name": "passport-baidu",
+  "version": "0.0.1",
+  "description": "Baidu authentication strategy for Passport.",
+  "author": { "name": "xiaoao", "email": "junhuifoo@gmail.com", "url": "http://github.com/xiaoao" },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xiaoao/passport-baidu.git"
+  },
+  "keywords": [
+    "node",
+    "passport",
+    "baidu"
+  ],
+  "bugs": {
+    "url": "http://github.com/xiaoao/passport-baidu/issues"
+  },
+  "main": "./lib/passport-baidu",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "license": "BSD"
+}

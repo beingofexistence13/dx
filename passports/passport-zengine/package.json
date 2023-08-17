@@ -1,0 +1,39 @@
+{
+  "name": "passport-zengine",
+  "version": "0.1.3",
+  "main": "./passport-zengine.js",
+  "description": "Zengine (OAuth2) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "zengine",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZengineHQ/passport-zengine.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ZengineHQ/passport-zengine/issues"
+  },
+  "author": {
+    "name": "Anthony Putignano",
+    "email": "anthony@zenginehq.com",
+    "url": "http://about.me/anthony.putignano"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}

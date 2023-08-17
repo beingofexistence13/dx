@@ -1,0 +1,30 @@
+{
+  "name": "passport-authic",
+  "version": "0.0.3",
+  "description": "Authic strategy for Passport",
+  "author": { "name": "Authic Team", "email": "support@authic.com", "url": "https://www.authic.com" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/authic/passport-authic.git"
+  },
+  "bugs": {
+    "url": "http://github.com/authic/passport-authic/issues"
+  },
+  "main": "./lib/passport-authic",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.2"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "authic", "auth", "authn", "authentication", "identity"]
+}

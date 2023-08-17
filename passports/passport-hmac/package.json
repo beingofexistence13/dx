@@ -1,0 +1,48 @@
+{
+  "name": "passport-hmac",
+  "version": "1.0.4",
+  "description": "HMAC authentication strategy for Passport",
+  "keywords": [
+    "passport",
+    "strategy",
+    "hmac",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Curtis Hatter",
+    "email": "mitchell.hatter@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chatter/passport-hmac.git"
+  },
+  "bugs": {
+    "url": "http://github.com/chatter/passport-twitter/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^2.3.2",
+    "crypto-js": "^3.1.5"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*_test.js"
+  }
+}

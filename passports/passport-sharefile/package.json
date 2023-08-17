@@ -1,0 +1,27 @@
+{
+  "name": "passport-sharefile",
+  "version": "1.0.0",
+  "description": "ShareFile authentication strategy for Passport",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octoblu/passport-sharefile.git"
+  },
+  "keywords": [
+    "passport",
+    "sharefile",
+    "auth"
+  ],
+  "author": "Octoblu Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/passport-sharefile/issues"
+  },
+  "homepage": "https://github.com/octoblu/passport-sharefile",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  }
+}

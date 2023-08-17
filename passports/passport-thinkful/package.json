@@ -1,0 +1,33 @@
+{
+  "name": "passport-thinkful",
+  "version": "0.0.0-beta.3",
+  "description": "Thinkful authentication strategy for Passport.",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thinkful/passport-thinkful.git"
+  },
+  "keywords": [
+    "passport",
+    "thinkful",
+    "auth"
+  ],
+  "author": "Thinkful",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Thinkful/passport-thinkful/issues"
+  },
+  "homepage": "https://github.com/Thinkful/passport-thinkful",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^3.2.2",
+    "passport-http-bearer": "^1.0.1"
+  }
+}

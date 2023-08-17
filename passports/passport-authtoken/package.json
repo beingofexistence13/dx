@@ -1,0 +1,45 @@
+{
+  "name": "passport-authtoken",
+  "version": "1.0.0",
+  "description": "Authentication token and check phrase authentication strategy for Passport and Node.js.",
+  "keywords": [
+    "passport",
+    "authtoken",
+    "auth",
+    "authn",
+    "authentication",
+    "token"
+  ],
+  "author": {
+    "name": "Hiroki Horiuchi",
+    "email": "horiuchi.g@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/horiuchi/passport-authtoken.git"
+  },
+  "bugs": {
+    "url": "http://github.com/horiuchi/passport-authtoken/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "compounds": [ ],
+    "configurations": [
+        {
+            "name": "IntegrationTestSite",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/out/testSite/RunNodeTestSiteServer.js",
+            "cwd": "${workspaceRoot}/out/testSite",
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "Profile",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/out/testSite/RunNodeTestSiteServer",
+            "cwd": "${workspaceRoot}/out/testSite",
+            "preLaunchTask": "build",
+            "runtimeArgs": [
+                "--nolazy",
+                "--prof"
+            ]
+        },
+        {
+            "name": "Attach to Test Site",
+            "type": "node",
+            "request": "attach",
+            "port": 5858,
+            "address": "localhost",
+            "restart": false,
+            "sourceMaps": false,
+            "outFiles": [],
+            "localRoot": "${workspaceRoot}/out/testSite",
+            "remoteRoot": null
+        }
+    ]
+}

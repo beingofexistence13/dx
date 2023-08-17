@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KualiStrategy it sends a mock user 1`] = `
+Object {
+  "approved": true,
+  "apps": Object {
+    "appBuilder": true,
+    "cm": true,
+    "groups": true,
+    "users": true,
+    "workflow": true,
+  },
+  "createdAt": 1508860880459,
+  "displayName": "mockuser",
+  "email": "mockuser@example.com",
+  "firstName": null,
+  "groupId": null,
+  "id": "59ef62388eb4e253149451fd",
+  "impersonatedBy": null,
+  "lastName": null,
+  "name": "Mock User",
+  "phone": null,
+  "role": "admin",
+  "schoolId": null,
+  "scopesCm": "[\\"OVERLORD\\",\\"EDIT_CONFIG\\"]",
+  "ssoId": null,
+  "updatedAt": 1508860880459,
+  "updatedBy": Object {
+    "id": "59ef62388eb4e253149451fd",
+  },
+  "username": "mockuser",
+}
+`;

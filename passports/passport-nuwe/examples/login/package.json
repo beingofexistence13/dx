@@ -1,0 +1,10 @@
+{
+  "name": "passport-nuwe-examples-login",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.11.2",
+    "ejs": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "passport-nuwe": ">= 0.0.0"
+  }
+}

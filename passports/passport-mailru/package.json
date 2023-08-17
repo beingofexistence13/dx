@@ -1,0 +1,23 @@
+{
+  "name": "passport-mailru",
+  "version": "0.0.1",
+  "description": "Mail.ru authentication strategy for Passport.",
+  "author": {
+    "name": "Tiberule",
+    "email": "tiberule@gmail.com"
+  },
+  "main": "./lib/passport-mailru",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.2"
+  },
+  "keywords": [
+    "passport",
+    "mailru",
+    "mail.ru",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
+}

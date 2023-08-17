@@ -1,0 +1,26 @@
+{
+    "name": "passport-beatport",
+    "version": "0.0.2",
+    "description": "Beatport.com authentication strategy for Passport.",
+    "keywords": ["passport", "beatport", "auth", "authn", "authentication", "identity"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/fastman/passport-beatport.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fastman/passport-beatport/issues"
+    },
+    "author": {
+        "name": "Jakub Jelen",
+        "email": "kuba@xserve.pl"
+    },
+    "licenses": [ {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licences/MIT"
+    } ],
+    "main": "./lib",
+    "dependencies": {
+        "passport-oauth1": "1.x.x"
+    },
+    "engines": { "node": ">= 0.4.0" }
+}

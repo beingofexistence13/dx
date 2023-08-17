@@ -1,0 +1,39 @@
+import passport-local as passportLocal
+import request
+
+export (options) ->
+    if not process.env.ABAKUS_TOKEN
+        throw new Error('Missing environment variable ABAKUS_TOKEN')
+    options = options or {}
+    return new passportLocal.Strategy((username, password, done) ->
+        url = 'https://abakus.no/api/#{process.env.ABAKUS_TOKEN}/user/check/'
+        data = { form: { username: username, password: password } }
+
+        request.post(url, data, (error, response, body) ->
+            data = JSON.parse(body)
+            if error or not data.hasOwnProperty('user')
+                done(null, false, { message: 'Error in API response' })
+            else
+                user = data.user
+                if user.auth
+                    if options.requireCommittee
+                        if user.committees.indexOf(options.requireCommittee) >= 0
+                            user.username = username
+                            done(null, user)
+                        else
+                            done(null, false, { message: 'Not in #{options.requireCommittee}' })
+
+                    elif options.requireAbakom
+                        if user.is_abakom
+                            user.username = username
+                            done(null, user)
+                        else
+                            done(null, false, { message: 'Not in abakom' })
+                    else
+                        user.username = username
+                        done(null, user)
+
+                else
+                    done(null, false, { message: 'Bad credentials' })
+        )
+    )

@@ -1,0 +1,38 @@
+{
+  "name": "passport-npm",
+  "version": "2.0.0",
+  "description": "Passport Strategy for authenticating a `npm` CLI client.",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "passport",
+    "sso",
+    "login",
+    "session",
+    "npm",
+    "authorization",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godaddy/passport-npm"
+  },
+  "author": "GoDaddy Operating Company, LLC.",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "passport-http": "~0.3.0",
+    "passport-http-bearer": "~1.0.1",
+    "passport-strategy": "~1.0.0"
+  },
+  "devDependencies": {
+    "express": "~4.14.0",
+    "passport": "~0.3.2",
+    "tap": "~8.0.1",
+    "tmp": "~0.0.31"
+  }
+}

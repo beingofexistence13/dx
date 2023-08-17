@@ -1,0 +1,13 @@
+{
+    "name": "passport-oschina-examples-login",
+    "version": "0.0.0",
+    "dependencies": {
+        "express": "latest",
+        "express-session" : "latest",
+        "ejs": "latest",
+        "express-ejs-layouts": "latest",
+        "passport": "latest",
+        "passport-oschina": "latest"
+    },
+    "license": "MIT"
+}

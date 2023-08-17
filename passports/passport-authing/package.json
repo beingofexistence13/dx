@@ -1,0 +1,24 @@
+{
+  "name": "passport-authing",
+  "version": "0.0.0",
+  "description": "Authing platform authentication strategy for Passport.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/authing/passport-authing"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jws": "^3.2.2",
+    "mocha": "^6.2.3",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "passport-oauth": "^1.0.0",
+    "passport-oauth2": "^1.6.0"
+  }
+}

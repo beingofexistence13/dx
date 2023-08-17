@@ -1,0 +1,11 @@
+test/
+node_modules/
+.git/
+
+.gitignore
+.npmignore
+.jshintrc
+.jscsrc
+.travis.yml
+
+readme.md

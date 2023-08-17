@@ -1,0 +1,44 @@
+{
+  "name": "passport-slice",
+  "version": "0.1.0",
+  "description": "Slice authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "slice",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Rustin Crandall",
+    "email": "rustinpc@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rustinpc/passport-slice.git"
+  },
+  "bugs": {
+    "url": "http://github.com/rustinpc/passport-slice/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

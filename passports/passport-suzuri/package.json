@@ -1,0 +1,27 @@
+{
+  "name": "passport-suzuri",
+  "version": "1.0.1",
+  "description": "SUZURI authentication strategy for Passport and Node.js.",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/kitak/passport-suzuri.git"
+  },
+  "keywords": [
+    "passport",
+    "SUZURI",
+    "auth",
+    "authentication",
+    "identity",
+    "pepabo"
+  ],
+  "author": "Keisuke KITA",
+  "license": "http://kitak.mit-license.org/",
+  "bugs": {
+    "url": "https://github.com/kitak/passport-suzuri/issues"
+  },
+  "homepage": "https://github.com/kitak/passport-suzuri",
+  "dependencies": {
+    "passport-oauth2": "1.x"
+  }
+}

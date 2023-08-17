@@ -1,0 +1,58 @@
+{
+  "name": "Abdel Diaz",
+  "email": "abdel@gmail.com",
+  "avatar": "/media/avatars/06d3bc740e8ba0c8f64427649d527269.jpg",
+  "cnes": {
+    "cns": "980016002147174",
+    "cns_master": "708600075470580",
+    "cpf": "24609455072",
+    "crms": [],
+    "noProfissional": "ABDO FARRET NETO",
+    "tpSexo": null,
+    "vinculos": [{
+      "ch_amb": 0,
+      "ch_hosp": 1,
+      "ch_outros": 0,
+      "cnes": "2653982",
+      "coCBO": "225225",
+      "coMun": "240810",
+      "coVinculo": "2",
+      "eh_perceptor": false,
+      "eh_residente": false,
+      "eh_sus": true,
+      "ineEquipe": false,
+      "noCBO": "MEDICO CIRURGIAO GERAL",
+      "noEquipe": null,
+      "noFant": "HUOL HOSPITAL UNIVERSITARIO ONOFRE LOPES",
+      "noMun": "NATAL",
+      "noVinculo": "VINCULO EMPREGATICIO",
+      "stAtivo": true,
+      "tpCoVinculo": "2",
+      "tpGestao": "MUNICIPAL",
+      "tpNoVinculo": "ESTATUTARIO",
+      "tpSubCoVinculo": "2",
+      "tpSubNoVinculo": "SERVIDOR PROPRIO",
+      "uf": "RN"
+    }]
+  },
+  "conselhos": [{
+    "cpf": "066.147.261-29",
+    "data_nascimento": "1972-05-04",
+    "email": null,
+    "estado": { "nome": "RIO GRANDE DO SUL", "sigla": "RS" },
+    "nome": "ABDEL KASAN MONTPELLIER DIAZ",
+    "numero_registro": "4300274",
+    "orgao_classe": {
+      "nome": "REGISTRO DO MINISTÉRIO DA SAÚDE",
+      "sigla": "RMS"
+    }
+  }],
+  "receita_federal": {
+    "situacao": "Regular",
+    "nome": "ABDEL KASAN MONTPELLIER DIAZ",
+    "cpf": "06614726129",
+    "mae": "MARIA OLIVEIRA SALES",
+    "uf": "DF",
+    "municipio": "BRASILIA"
+  }
+}

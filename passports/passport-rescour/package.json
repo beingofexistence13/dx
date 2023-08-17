@@ -1,0 +1,46 @@
+{
+  "name": "passport-rescour",
+  "version": "0.0.1",
+  "description": "REscour authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "rescour",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Spencer Applegate",
+    "email": "spencer@rescour.com",
+    "url": "http://rescour.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/REscour/passport-rescour.git"
+  },
+  "bugs": {
+    "url": "http://github.com/REscour/passport-rescour/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.2.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

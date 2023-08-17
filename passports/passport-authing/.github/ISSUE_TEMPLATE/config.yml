@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Authing Community
+    url: https://community.authing.cn/c/sdks/5
+    about: Discuss this SDK in the Authing Community forums
+  - name: Library Documentation
+    url: https://github.com/authing/passport-authing#documentation
+    about: Read the library docs on Authing.com

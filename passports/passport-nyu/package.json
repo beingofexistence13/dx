@@ -1,0 +1,24 @@
+{
+	"name": "passport-nyu",
+	"version": "0.1.2",
+	"description": "NYUADSG authentication strategy for Passport.",
+	"author": { "name": "Morgante Pell", "email": "me@morgante.net", "url": "http://morgante.net" },
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nyuadsg/passport-nyu.git"
+	},
+	"bugs": {
+		"url": "http://github.com/nyuadsg/passport-nyu/issues"
+	},
+	"main": "./lib/passport-nyu",
+	"dependencies": {
+		"pkginfo": "0.2.x",
+		"passport-oauth": "0.1.x"
+	},
+	"engines": { "node": ">= 0.4.0" },
+	"licenses": [ {
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/MIT" 
+	} ],
+	"keywords": ["passport", "nyu", "auth", "authn", "authentication", "identity"]
+}

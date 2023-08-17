@@ -1,0 +1,27 @@
+{
+  "name": "passport-flic",
+  "version": "1.0.0",
+  "description": "Flic Button Oauth2 authentication strategy for Passport",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octoblu/passport-flic.git"
+  },
+  "keywords": [
+    "passport",
+    "flic",
+    "iot"
+  ],
+  "author": "Octoblu Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/passport-flic/issues"
+  },
+  "homepage": "https://github.com/octoblu/passport-flic",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  }
+}

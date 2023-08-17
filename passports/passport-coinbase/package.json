@@ -1,0 +1,33 @@
+{
+  "name": "passport-coinbase",
+  "version": "0.1.2",
+  "description": "Coinbase authentication strategy for Passport.",
+  "keywords": ["passport", "coinbase", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/idris/passport-coinbase.git"
+  },
+  "bugs": {
+    "url": "http://github.com/idris/passport-coinbase/issues"
+  },
+  "author": {
+    "name": "Idris Mokhtarzada",
+    "url": "http://about.me/idris"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  } ],
+  "main": "./lib/passport-coinbase",
+  "dependencies": {
+    "pkginfo": "0.3.x",
+    "passport-oauth": "1.0.x"
+  },
+  "devDependencies": {
+    "vows": "0.7.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}

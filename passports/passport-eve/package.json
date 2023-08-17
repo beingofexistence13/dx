@@ -1,0 +1,43 @@
+{
+  "name": "passport-eve",
+  "version": "1.0.2",
+  "description": "Eve Online SSO strategy for passport.js",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.4"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "passport-eve"
+  },
+  "keywords": [
+    "eve",
+    "eve-online",
+    "passport",
+    "SSO"
+  ],
+  "author": {
+    "name": "Murad Aliyev",
+    "email": "muradaliev@gmail.com"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "readme": "# passport-eve\r\nEve Online SSO strategy for passport.js\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "02651562d8d5e39c1532470950956e0a66aec510",
+  "_id": "passport-eve@1.0.0",
+  "_shasum": "9bb1f54945f43694d4539e79a16c3339af6bff48",
+  "_from": "passport-eve@"
+}

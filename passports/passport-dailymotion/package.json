@@ -1,0 +1,29 @@
+{
+    "name": "passport-dailymotion",
+    "version": "0.0.4",
+    "description": "Dailymotion strategy for Passport.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/OtaK/passport-dailymotion.git"
+    },
+    "keywords": [
+        "dailymotion",
+        "oauth",
+        "passport",
+        "oauth2"
+    ],
+    "dependencies": {
+        "passport-oauth": "1.0.x"
+    },
+    "author": {
+        "name": "Mathieu Amiot",
+        "email": "m.amiot@otak-arts.com",
+        "url": "http://www.mathieu-amiot.fr/"
+    },
+    "license": "Apache 2.0",
+    "readmeFilename": "README.md"
+}

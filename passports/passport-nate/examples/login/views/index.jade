@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	- if(!user)
+		h2 Welcome! Please Login.
+	- else
+		h2 Hello, 
+			=user.name
+			img(src=user.profileUrl)

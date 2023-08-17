@@ -1,0 +1,18 @@
+{
+    "url": "https://api.edmodo.com/users/41423353",
+    "id": 41423353,
+    "type": "teacher",
+    "username": "cstigler602",
+    "user_title": "Mr",
+    "first_name": "Charlie",
+    "last_name": "Stigler",
+    "time_zone": "America/Los_Angeles",
+    "utc_offset": -28800,
+    "locale": "en",
+    "verified_institution_member": false,
+    "avatars": {
+        "small": "https://u.ph.edim.co/default-avatars/1_42.jpg",
+        "large": "https://u.ph.edim.co/default-avatars/1_140.jpg"
+    },
+    "email": null
+}

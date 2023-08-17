@@ -1,0 +1,12 @@
+{
+  "critics": {
+    "lint": {
+      "engine": "none"
+    }
+  },
+  "dependencies": {
+    "mute": [
+      "jest"
+    ]
+  }
+}

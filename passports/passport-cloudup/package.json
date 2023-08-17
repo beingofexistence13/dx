@@ -1,0 +1,35 @@
+{
+  "name": "passport-cloudup",
+  "description": "Cloudup authentication for Passport (http://passportjs.org)",
+  "version": "0.1.0",
+  "author": "Steve Lacy <me@slacy.me> (https://slacy.me)",
+  "homepage": "https://github.com/stevelacy/passport-cloudup",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevelacy/passport-cloudup"
+  },
+  "keywords": [
+    "passport",
+    "cloudup",
+    "oauth"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevelacy/passport-cloudup/issues"
+  }
+}

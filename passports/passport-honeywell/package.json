@@ -1,0 +1,26 @@
+{
+  "name": "passport-honeywell",
+  "version": "1.0.1",
+  "description": "Provides a honeywell authentication strategy for Passport",
+  "keywords": [
+    "passport",
+    "honeywell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nibbler999/passport-honeywell"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "./lib/passport-honeywell",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

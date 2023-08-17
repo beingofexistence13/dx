@@ -1,0 +1,18 @@
+{
+  "status": "200",
+  "message": "OK",
+  "see": "http://docs.appfigures.com/api",
+  "version": "2.0",
+  "user": {
+    "id": 123,
+    "name": "Nathan Bowser",
+    "email": "nathan@foo.com",
+    "avatar_url": "https://secure.gravatar.com/avatar/936ffb5030a32c7745e6e6feeadkdk?d=mm"
+  },
+  "usage": {
+    "daily_used": 0,
+    "daily_limit": 1000
+  },
+  "sequence": 398,
+  "source": "101"
+}

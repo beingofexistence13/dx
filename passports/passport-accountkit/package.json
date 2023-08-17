@@ -1,0 +1,49 @@
+{
+  "name": "passport-accountkit",
+  "version": "2.1.0",
+  "description": "Facebook AccountKit authentication strategy for Passport.",
+  "keywords": [
+    "accountkit",
+    "passport",
+    "facebook",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Brett Park",
+    "email": "brett@shiverware.com",
+    "url": "http://www.shiverware.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brettthepark/passport-accountkit.git"
+  },
+  "bugs": {
+    "url": "http://github.com/brettthepark/passport-accountkit.git/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+  }
+}

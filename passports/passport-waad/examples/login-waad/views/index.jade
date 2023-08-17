@@ -1,0 +1,60 @@
+extends layout
+
+block content
+  .container-fluid
+    .row
+      .jumbotron
+        .container
+          .h1.text-primary Congratulations!
+          .p You've managed to log in via #{method}
+          a.text-right.btn.btn-primary.btn-lg(href="/logout", role="button") Logout
+      .container
+        .row
+          .col-md-6
+            .ul.list-group
+              li.list-group-item 
+                h4.text-info Given Name: 
+                h6 #{user.givenName}
+              li.list-group-item 
+                h4.text-info Surname: 
+                h6 #{user.surname}
+              li.list-group-item 
+                h4.text-info Job Title: 
+                h6 #{user.jobTitle}
+              li.list-group-item 
+                h4.text-info Department: 
+                h6 #{user.department}
+              li.list-group-item 
+                h4.text-info ThumbnailPhoto: 
+                h6 #{user.thumbnailPhoto}
+              li.list-group-item 
+                h4.text-info Email: 
+                h6 #{user.email}
+          .col-md-6
+            .ul.list-group
+              li.list-group-item 
+                h4.text-info Street:
+                h6 #{user.streetAddress}
+              li.list-group-item 
+                h4.text-info State: 
+                h6 #{user.state}
+              li.list-group-item 
+                h4.text-info Country: 
+                h6 #{user.country}
+              li.list-group-item 
+                h4.text-info Post Code:
+                h6 #{user.postalCode}
+              li.list-group-item 
+                h4.text-info TelephoneNumber:
+                h6 #{user.telephoneNumber}
+              li.list-group-item 
+                h4.text-info Fax:
+                h6 #{user.facsimileTelephoneNumber}
+        .well
+          h4.text-info Groups:
+          ul
+            each val in user.groups.length ? user.groups : ['There are no groups']
+              li= val.name
+          a(href='user') Are you in the User group?
+          p
+          a(href='nouser') Are you in the NoUser group

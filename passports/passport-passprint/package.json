@@ -1,0 +1,59 @@
+{
+  "name": "passport-passprint",
+  "version": "0.1.2",
+  "description": "PassPrint (OAuth2) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "passprint",
+    "fingerprint",
+    "biometrics",
+    "onyx",
+    "onyxauth",
+    "auth",
+    "authn",
+    "oauth",
+    "authentication",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DFTinc/passport-passprint.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DFTinc/passport-passprint/issues"
+  },
+  "author": {
+    "name": "Diamond Fortress Technologies, Inc.",
+    "email": "dftmain@diamondfortress.com",
+    "url": "http://www.diamondfortress.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "~0.1.4"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "_id": "passport-passprint@0.1.1",
+  "_npmVersion": "1.1.62",
+  "_npmUser": {
+    "name": "mwheatley",
+    "email": "mwheatley@diamondfortress.com"
+  },
+  "maintainers": [
+    {
+      "name": "Diamond Foretress Technologies, Inc.",
+      "email": "dftmain@diamondfortress.com"
+    }
+  ],
+  "directories": {},
+  "readme": "Passport strategies for authenticating with PassPrint using OAuth 2.0.\n\n  This module lets you authenticate using PassPrint in your Node.js applications. By plugging into Passport, PassPrint authentication can be easily and unobtrusively integrated into any application or framework that supports Connect-style middleware, including Express.",
+  "homepage": "https://github.com/DFTinc/passport-passprint"
+}

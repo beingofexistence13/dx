@@ -1,0 +1,45 @@
+{
+  "name": "passport-headhunter",
+  "version": "0.1.8",
+  "description": "HeadHunter authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "headhunter",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Andrey Petukhov",
+    "email": "andribas@ya.ru",
+    "url": "http://getlot.ru/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/getlot/passport-headhunter.git"
+  },
+  "bugs": {
+    "url": "http://github.com/getlot/passport-headhunter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

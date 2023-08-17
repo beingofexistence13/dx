@@ -1,0 +1,41 @@
+{
+  "name": "passport-supinfo",
+  "version": "0.3.0",
+  "description": "SUPINFO OpenID strategy for Passport.",
+  "author": {
+    "name": "Vincent PEYROUSE",
+    "email": "vincent.peyrouse@supinfo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GodezInc/passport-supinfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GodezInc/passport-supinfo/issues"
+  },
+  "main": "./lib/passport-supinfo",
+  "dependencies": {
+    "passport": "0.1.x",
+    "openid": "https://github.com/GodezInc/node-openid"
+  },
+  "scripts": {
+    "test": "echo Not yet implemented"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "openid",
+    "supinfo",
+    "auth",
+    "authentication",
+    "identity"
+  ]
+}

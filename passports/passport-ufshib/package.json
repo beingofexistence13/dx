@@ -1,0 +1,37 @@
+{
+  "name": "passport-ufshib",
+  "version": "0.1.8",
+  "license": "MIT",
+  "keywords": [
+    "passport",
+    "saml",
+    "shibboleth",
+    "sso",
+    "UF",
+    "University of Florida"
+  ],
+  "description": "Passport authentication strategy for University of Florida's Shibboleth service",
+  "homepage": "https://www.ufl.edu",
+  "author": "Lee Stevens <cro@ufl.edu> (http://www.ufl.edu)",
+  "main": "index.js",
+  "dependencies": {
+    "passport-saml": "git://github.com/crohead13/passport-saml.git",
+    "passport": "0.2.1",
+    "util": "0.10.3",
+    "xml2js": "0.4.4",
+    "fs": "0.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.28"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crohead13/passport-ufshib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crohead13/passport-ufshib/issues"
+  }
+}

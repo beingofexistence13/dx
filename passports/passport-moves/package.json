@@ -1,0 +1,36 @@
+{
+	"name": "passport-moves",
+	"version": "0.0.1",
+	"description": "Moves authentication strategy for Passport",
+	"keywords": ["passport", "moves", "auth", "authentication"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/billglover/passport-moves.git"
+	},
+	"bugs": {
+		"url": "https://github.com/billglover/passport-moves/issues"
+	},
+	"author": {
+		"name": "Bill Glover",
+		"email": "bill@billglover.co.uk",
+		"url": "http://billglover.co.uk/"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/MIT"
+	}],
+	"main": "./lib",
+	"dependencies": {
+		"passport-oauth2": "1.x.x",
+		"pkginfo": "0.3.x"
+	},
+	"devDependencies": {
+    "vows": "~0.9.x || 0.9.0-rc2"
+  },
+	"engines": {
+    "node": "~0.10.x"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}

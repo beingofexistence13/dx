@@ -1,0 +1,53 @@
+{
+    "name": "passport-edmodo",
+    "version": "0.3.0",
+    "description": "Edmodo Connect authentication strategy for Passport on Node.js ",
+    "keywords": [
+        "passport",
+        "edmodo",
+        "connect",
+        "oauth",
+        "authentication",
+        "identity"
+    ],
+    "author": {
+        "name": "Charlie Stigler",
+        "email": "charlie@zaption.com",
+        "url": "http://www.zaption.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/zaption/passport-edmodo.git"
+    },
+    "bugs": {
+        "url": "http://github.com/zaption/passport-edmodo/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "main": "./lib",
+    "dependencies": {
+        "passport-oauth2": "1.x.x"
+    },
+    "devDependencies": {
+        "mocha": "1.x.x",
+        "chai": "1.x.x"
+    },
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "scripts": {
+        "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    },
+    "readme": "# Passport-Edmodo\n\n[Passport](http://passportjs.org/) strategy for authenticating with [Edmodo](http://edmodo.com/)\nusing the OAuth 2.0 API.\n\nThis module lets you authenticate using Edmodo in your Node.js applications.\nBy plugging into Passport, Edmodo authentication can be easily and\nunobtrusively integrated into any application or framework that supports\n[Connect](http://www.senchalabs.org/connect/)-style middleware, including\n[Express](http://expressjs.com/).\n\n## Install\n\n    $ npm install passport-edmodo\n\n## Usage\n\n#### Configure Strategy\n\nThe Edmodo authentication strategy authenticates users using a Edmodo account\nand OAuth 2.0 tokens.  The strategy requires a `verify` callback, which accepts\nthese credentials and calls `done` providing a user, as well as `options`\nspecifying a client ID, client secret, and callback URL.\n\n    passport.use(new EdmodoStrategy({\n        clientID: EDMODO_CLIENT_ID,\n        clientSecret: EDMODO_CLIENT_SECRET,\n        callbackURL: \"http://127.0.0.1:3000/auth/edmodo/callback\"\n      },\n      function(accessToken, refreshToken, profile, done) {\n        User.findOrCreate({ edmodoId: profile.id }, function (err, user) {\n          return done(err, user);\n        });\n      }\n    ));\n\n#### Authenticate Requests\n\nUse `passport.authenticate()`, specifying the `'edmodo'` strategy, to\nauthenticate requests.\n\nFor example, as route middleware in an [Express](http://expressjs.com/)\napplication:\n\n    app.get('/login/edmodo',\n      passport.authenticate('edmodo'));\n\n    app.get('/login/edmodo/callback', \n      passport.authenticate('edmodo', { failureRedirect: '/login' }),\n      function(req, res) {\n        // Successful authentication, redirect home.\n        res.redirect('/');\n      });\n\n## Examples\n\nFor a complete, working example, refer to the [login example](https://github.com/zaption/passport-edmodo/tree/master/examples/login).\n\n## Tests\n\n    $ npm install --dev\n    $ make test\n\n## Credits\n\n  - [Charlie Stigler](http://github.com/cstigler) at [Zaption](http://github.com/zaption)\n\n  - Based on [passport-github](http://github.com/jaredhanson/passport-github), by [Jared Hanson](http://github.com/jaredhanson)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2014 Zaption <[http://www.zaption.com](http://www.zaption.com)>\n\n",
+    "readmeFilename": "README.md",
+    "_id": "passport-edmodo@0.0.2",
+    "dist": {
+        "shasum": "b6e67d64e430364e4db874fddec09c94279786fd"
+    },
+    "_from": "passport-edmodo@0.0.2",
+    "_resolved": "https://registry.npmjs.org/passport-edmodo/-/passport-edmodo-0.0.2.tgz"
+}

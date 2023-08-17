@@ -1,0 +1,7 @@
+[submodule "node_modules/passport-oauth"]
+	path = node_modules/passport-oauth
+	url = https://github.com/jaredhanson/passport-oauth.git
+
+[submodule "node_modules/pkginfo"]
+	path = node_modules/pkginfo
+	url = https://github.com/indexzero/node-pkginfo.git

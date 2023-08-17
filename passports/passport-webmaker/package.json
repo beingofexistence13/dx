@@ -1,0 +1,29 @@
+{
+  "name": "passport-webmaker",
+  "version": "1.1.1",
+  "description": "Webmaker authentication strategy for passport.js",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/passport-webmaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla/passport-webmaker/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "passportjs",
+    "passport",
+    "webmaker",
+    "mozlla",
+    "thimble",
+    "id.webmaker.org"
+  ],
+  "author": "Ryan Warsaw",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0"
+  }
+}

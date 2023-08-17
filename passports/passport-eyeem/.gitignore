@@ -1,0 +1,10 @@
+# Mac OS X
+.DS_Store
+
+#Webstorm
+.idea
+
+# Node.js
+node_modules
+npm-debug.log
+*.tgz

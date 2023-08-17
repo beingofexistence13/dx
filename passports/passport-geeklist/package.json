@@ -1,0 +1,39 @@
+{
+  "name": "passport-geeklist",
+  "version": "0.1.0",
+  "description": "Geeklist authentication strategy for Passport.",
+  "author": {
+    "name": "Sébastien De Bollivier",
+    "email": "webinadiv@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/despekiroule/passport-geeklist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/despekiroule/passport-geeklist/issues"
+  },
+  "main": "./lib/passport-geeklist",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "geeklist",
+    "oauth",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
+}

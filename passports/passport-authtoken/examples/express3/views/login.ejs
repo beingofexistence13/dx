@@ -1,0 +1,17 @@
+<% if (message) { %>
+<p><%= message %></p>
+<% } %>
+<form action="/login" method="post">
+	<div>
+	<label>Auth Token:</label>
+	<input type="text" name="token"/><br/>
+	</div>
+	<div>
+	<label>Pin Number:</label>
+	<input type="number" name="pin"/>
+	</div>
+	<div>
+	<input type="submit" value="Submit"/>
+	</div>
+</form>
+<p><small>Hint - abcd:0000</small></p>

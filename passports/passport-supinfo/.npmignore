@@ -1,0 +1,6 @@
+.DS_Store
+.git*
+
+.nide
+node_modules
+npm-debug.log

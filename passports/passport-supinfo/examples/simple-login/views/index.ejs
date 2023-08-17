@@ -1,0 +1,16 @@
+<% if (!user) { %>
+  <form method="POST" action="/auth/supinfo">
+    <input name="openid_identifier" placeholder="BoosterId"/>
+    <input type="submit"/>
+  </form>
+<% } else { %>
+  <p>Booster ID: <%= user.boosterId %></p>
+  <p>Name: <%= user.fullanme %></p>
+  <p>Role: <%= user.role %></p>
+  <p>Campus: <%= user.campus %></p>
+  <p>Campus ID: <%= user.campusId %></p>
+  <p>Level: <%= user.campusId %></p>
+  <p>Ranks: <%= user.ranks.join(',') %></p>
+  <p>Fullprof Subjects: <%= user.fullprofSubjects.join(',') %></p>
+  <p>Teacher Subjects: <%= user.teacherSubjects.join(',') %></p>
+<% } %>

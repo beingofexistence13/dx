@@ -1,0 +1,37 @@
+{
+  "name": "passport-veritone",
+  "version": "1.0.1",
+  "description": "Passport auth strategy for Veritone oauth.",
+  "keywords": [
+    "passport",
+    "strategy",
+    "veritone"
+  ],
+  "author": {
+    "name": "Veritone",
+    "email": "",
+    "url": "http://www.veritone.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/veritone/veritone-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veritone/veritone-sdk/issues"
+  },
+  "license": "Apache-2.0",
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}

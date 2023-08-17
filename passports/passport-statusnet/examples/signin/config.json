@@ -1,0 +1,5 @@
+{
+  "STATUSNET": "A StatusNet instance (e.g. identi.ca)",
+  "STATUSNET_CONSUMER_KEY": "your consumer key",
+  "STATUSNET_CONSUMER_SECRET": "your consumer secret"
+}
