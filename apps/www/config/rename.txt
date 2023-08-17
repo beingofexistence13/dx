@@ -641,7 +641,7 @@
 {name:"Trac",href:"https,href://en.wikipedia.org/wiki/TRAC_(programming_language)",items:[],},
 {name:"TTM",href:"https,href://en.wikipedia.org/wiki/TTM_(programming_language)",items:[],},
 {name:"T-SQL",href:"https,href://en.wikipedia.org/wiki/Transact-SQL",items:[],},
-{name:"TTCN",href:"https,href://en.wikipedia.org/wiki/TTCN",items:[],},
+{name:"TTDX",href:"https,href://en.wikipedia.org/wiki/TTDX",items:[],},
 {name:"Turing",href:"https,href://en.wikipedia.org/wiki/Turing_(programming_language)",items:[],},
 {name:"TUTOR",href:"https,href://en.wikipedia.org/wiki/TUTOR_(programming_language)",items:[],},
 {name:"TXL",href:"https,href://en.wikipedia.org/wiki/TXL_(programming_language)",items:[],},

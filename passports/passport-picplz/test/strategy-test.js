@@ -30,7 +30,7 @@ vows.describe('PicplzStrategy').addBatch({
       
       // mock
       strategy._oauth2.get = function(url, accessToken, callback) {
-        var body = '{ "result": "ok", "value": { "users": [ { "username": "waterbuffalo", "display_name": "Waterbuffalo", "following_count": 36, "follower_count": 139, "id": 1908, "icon": { "url": "http://a2.picplzthumbs.com/i/FwCNRNyPZJGlqJMyQXwM2wgQ_k4.png", "width": 100, "height": 100 } } ] } }';
+        var body = '{ "result": "ok", "value": { "users": [ { "username": "waterbuffalo", "display_name": "Waterbuffalo", "following_count": 36, "follower_count": 139, "id": 1908, "icon": { "url": "http://a2.picplzthumbs.com/i/FwDXRNyPZJGlqJMyQXwM2wgQ_k4.png", "width": 100, "height": 100 } } ] } }';
         
         callback(null, body, undefined);
       }

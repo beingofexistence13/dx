@@ -18,7 +18,7 @@ test('it should generate a basic face subquery from a face recognition engine ca
     type: 'entity',
     label: 'Kobe Bryant',
     image:
-      'https://prod-veritone-library.s3.amazonaws.com/2277175f-5a26-4199-bdbc-cff3311297b0/237eca2b-bbd8-4591-a5d3-91d37a458916/profile-1507911101521.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJUCF3BCNMSE5YZEQ%2F20180613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180613T001725Z&X-Amz-Expires=900&X-Amz-Signature=993ce0ed9c0b28e6af1c14d24152578a7c5e6ee8fa695f42dc1608bc44e72a5e&X-Amz-SignedHeaders=host',
+      'https://prod-veritone-library.s3.amazonaws.com/2277175f-5a26-4199-bdbc-cff3311297b0/237eca2b-bbd8-4591-a5d3-91d37a458916/profile-1507911101521.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJUCF3BDXMSE5YZEQ%2F20180613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180613T001725Z&X-Amz-Expires=900&X-Amz-Signature=993ce0ed9c0b28e6af1c14d24152578a7c5e6ee8fa695f42dc1608bc44e72a5e&X-Amz-SignedHeaders=host',
     description: 'TV-News-Personality'
   };
   expect(

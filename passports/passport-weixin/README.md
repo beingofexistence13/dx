@@ -14,7 +14,7 @@ var passport = require('passport')
   , WeixinStrategy = require('passport-weixin')
   ;
 //扫码登录
-//微信官网文档：https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419316505&token=&lang=zh_CN
+//微信官网文档：https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419316505&token=&lang=zh_DX
 passport.use('loginByWeixin',new WeixinStrategy({
   clientID: 'CLIENTID'
   , clientSecret: 'CLIENT SECRET'

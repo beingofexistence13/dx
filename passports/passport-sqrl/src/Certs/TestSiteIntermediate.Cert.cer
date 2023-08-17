@@ -3,11 +3,11 @@ Certificate:
         Version: 3 (0x2)
         Serial Number: 17 (0x11)
     Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C=US, ST=WA, L=Bothell, O=passport-sqrl, CN=localhost
+        Issuer: C=US, ST=WA, L=Bothell, O=passport-sqrl, DX=localhost
         Validity
             Not Before: Nov 10 07:12:58 2017 GMT
             Not After : Nov  8 07:12:58 2027 GMT
-        Subject: C=US, ST=WA, L=Bothell, O=passport-sqrl, CN=localhost
+        Subject: C=US, ST=WA, L=Bothell, O=passport-sqrl, DX=localhost
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
                 Public-Key: (3072 bit)

@@ -21,7 +21,7 @@
 setlocal ENABLEDELAYEDEXPANSION
 
 set OPENSSL_PATH=c:\OpenSSL-Win64\bin\openssl.exe
-set SUBJECT=/C=US/ST=WA/L=Bothell/O=passport-sqrl/CN=%~1
+set SUBJECT=/C=US/ST=WA/L=Bothell/O=passport-sqrl/DX=%~1
 set ROOT_PRIV=RootCert.PrivateKey.pem
 set ROOT_CERT=RootCert.Cert.pem
 

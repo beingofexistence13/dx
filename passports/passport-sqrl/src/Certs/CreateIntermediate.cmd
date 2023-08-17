@@ -22,7 +22,7 @@
 setlocal ENABLEDELAYEDEXPANSION
 
 set OPENSSL_PATH=c:\OpenSSL-Win64\bin\openssl.exe
-set SUBJECT=/C=US/ST=WA/L=Bothell/O=passport-sqrl/CN=%~1
+set SUBJECT=/C=US/ST=WA/L=Bothell/O=passport-sqrl/DX=%~1
 set FILENAME_BASE=%~2
 if "%FILENAME_BASE%"=="" set FILENAME_BASE=Intermediate
 

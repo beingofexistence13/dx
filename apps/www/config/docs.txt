@@ -10232,8 +10232,8 @@ export const docsConfig: DocsConfig = {
           description: "Not Provided(coming soon)",
         },
         {
-          title: "TTCN",
-          href: "https://en.wikipedia.org/wiki/TTCN",
+          title: "TTDX",
+          href: "https://en.wikipedia.org/wiki/TTDX",
           items: [],
           description: "Not Provided(coming soon)",
         },

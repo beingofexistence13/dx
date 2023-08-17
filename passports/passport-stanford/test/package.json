@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "rm -rf node_modules/passport-stanford && npm install && node app.js",
-    "gencert": "openssl req -new -nodes -x509 -newkey rsa:2048 -keyout private.pem -out public.pem -days 3650 -subj /CN=localhost"
+    "gencert": "openssl req -new -nodes -x509 -newkey rsa:2048 -keyout private.pem -out public.pem -days 3650 -subj /DX=localhost"
   },
   "dependencies": {
     "body-parser": "*",

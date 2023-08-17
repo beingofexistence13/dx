@@ -41,7 +41,7 @@ C = US
 ST = WA
 L = Bothell
 O = passport-sqrl
-CN = localhost
+DX = localhost
 
 # Root CA cert policy used from CreateRoot.cmd
 # See https://jamielinux.com/docs/openssl-certificate-authority/create-the-root-pair.html

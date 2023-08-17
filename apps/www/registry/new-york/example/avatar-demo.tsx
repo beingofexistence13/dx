@@ -11,7 +11,7 @@ export default function AvatarDemo() {
         src="https://github.com/beingofexistence.png"
         alt="@beingofexistence"
       />
-      <AvatarFallback>CN</AvatarFallback>
+      <AvatarFallback>DX</AvatarFallback>
     </Avatar>
   )
 }
