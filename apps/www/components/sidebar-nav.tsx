@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import { SidebarNavItem } from "types/nav"
 
 import { cn } from "@/lib/utils"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {
   HoverCard,
   HoverCardContent,
@@ -81,9 +82,18 @@ export function DocsSidebarNavItems({
           >
             {item.title}
             {item.label && (
-              <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
-                {item.label}
-              </span>
+              <HoverCard>
+                <HoverCardTrigger>
+                  <Avatar>
+                    <AvatarImage src="https://github.com/beingofexistence.png" />
+                    <AvatarFallback>CN</AvatarFallback>
+                  </Avatar>
+                  <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+                    {item.label}
+                  </span>
+                </HoverCardTrigger>
+                <HoverCardContent>{item.description}</HoverCardContent>
+              </HoverCard>
             )}
           </span>
         )
