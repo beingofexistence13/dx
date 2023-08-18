@@ -44,33 +44,353 @@ export function DocsSidebarNav({ items }: DocsSidebarNavProps) {
 }
 
 interface DocsSidebarNavItemsProps {
-  items: SidebarNavItem[]
+  items: SidebarNavItem[] | undefined
   pathname: string | null
 }
+
+// export function DocsSidebarNavItems({
+//   items,
+//   pathname,
+// }: DocsSidebarNavItemsProps) {
+
+
+//   return items?.length ? (
+//     <div className="grid grid-flow-row auto-rows-max text-sm">
+//       {items.map((item, index) =>
+//         item.href && !item.disabled ? (
+//           <Link
+//             key={index}
+//             href={item.href}
+//             className={cn(
+//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60",
+//               pathname === item.href
+//                 ? "font-medium text-foreground"
+//                 : "text-muted-foreground"
+//             )}
+//             target={item.external ? "_blank" : ""}
+//             rel={item.external ? "noreferrer" : ""}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+//                 <Avatar className="mr-2 h-[25px] w-[25px]">
+//                   <AvatarImage
+//                     src={`https://logo.clearbit.com/${item.title}.com`}
+//                   />
+//                   <AvatarFallback>{item.title}</AvatarFallback>
+//                 </Avatar>
+//                 {/* {images.map((imageUrl, index) => (
+//                   <Avatar key={index} className="mr-2 h-[25px] w-[25px]">
+//                     <AvatarImage src={imageUrl} />
+//                     <AvatarFallback>Dx</AvatarFallback>
+//                   </Avatar>
+//                 ))} */}
+//                 {item.title}
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//           </Link>
+//         ) : (
+//           <span
+//             key={index}
+//             className={cn(
+//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60"
+//             )}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger>
+//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                   Allhamdulilla
+//                 </span>
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//             {/* {item.title} */}
+//             {item.label && (
+//               <HoverCard>
+//                 <HoverCardTrigger>
+//                   {/* <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                     {item.label}
+//                   </span> */}
+//                 </HoverCardTrigger>
+//                 {/* <HoverCardContent>{item.description}</HoverCardContent> */}
+//               </HoverCard>
+//             )}
+//           </span>
+//         )
+//       )}
+//     </div>
+//   ) : null
+// }
+
+
+// export function DocsSidebarNavItems({
+//   items,
+//   pathname,
+// }: DocsSidebarNavItemsProps) {
+
+//   function capitalizeFirstAndLast(title) {
+//     const words = title.split(' ');
+//     const firstWord = words[0];
+//     const lastWord = words[words.length - 1];
+//     const firstWordCapitalized = firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
+//     const lastWordCapitalized = lastWord.charAt(0).toUpperCase() + lastWord.slice(1);
+//     words[0] = firstWordCapitalized;
+//     words[words.length - 1] = lastWordCapitalized;
+//     return words.join(' ');
+//   }
+
+
+//   return items?.length ? (
+//     <div className="grid grid-flow-row auto-rows-max text-sm">
+//       {items.map((item, index) =>
+//         item.href && !item.disabled ? (
+//           <Link
+//             key={index}
+//             href={item.href}
+//             className={cn(
+//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60",
+//               pathname === item.href
+//                 ? "font-medium text-foreground"
+//                 : "text-muted-foreground"
+//             )}
+//             target={item.external ? "_blank" : ""}
+//             rel={item.external ? "noreferrer" : ""}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+//                 <Avatar className="mr-2 h-[25px] w-[25px]">
+//                   <AvatarImage
+//                     src={`https://logo.clearbit.com/${item.title}.com`}
+//                   />
+//                   <AvatarFallback>
+//                     {capitalizeFirstAndLast(item.title)}
+//                   </AvatarFallback>
+//                 </Avatar>
+//                 {item.title}
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//           </Link>
+//         ) : (
+//           <span
+//             key={index}
+//             className={cn(
+//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60"
+//             )}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger>
+//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                   Allhamdulilla
+//                 </span>
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//             {item.label && (
+//               <HoverCard>
+//                 <HoverCardTrigger>
+//                   {/* <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                     {item.label}
+//                   </span> */}
+//                 </HoverCardTrigger>
+//                 {/* <HoverCardContent>{item.description}</HoverCardContent> */}
+//               </HoverCard>
+//             )}
+//           </span>
+//         )
+//       )}
+//     </div>
+//   ) : null;
+// }
+
+
+// export function DocsSidebarNavItems({
+//   items,
+//   pathname,
+// }: DocsSidebarNavItemsProps) {
+//   function capitalizeFirstAndLast(title: string): string {
+//     const words = title.split(' ');
+//     const firstWord = words[0];
+//     const lastWord = words[words.length - 1];
+//     const firstWordCapitalized =
+//       firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
+//     const lastWordCapitalized =
+//       lastWord.charAt(0).toUpperCase() + lastWord.slice(1);
+//     words[0] = firstWordCapitalized;
+//     words[words.length - 1] = lastWordCapitalized;
+//     return words.join(' ');
+//   }
+
+//   return items?.length ? (
+//     <div className="grid grid-flow-row auto-rows-max text-sm">
+//       {items.map((item, index) =>
+//         item.href && !item.disabled ? (
+//           <Link
+//             key={index}
+//             href={item.href}
+//             className={cn(
+//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60",
+//               pathname === item.href
+//                 ? "font-medium text-foreground"
+//                 : "text-muted-foreground"
+//             )}
+//             target={item.external ? "_blank" : ""}
+//             rel={item.external ? "noreferrer" : ""}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+//                 <Avatar className="mr-2 h-[25px] w-[25px]">
+//                   <AvatarImage
+//                     src={`https://logo.clearbit.com/${item.title}.com`}
+//                   />
+//                   <AvatarFallback>
+//                     {capitalizeFirstAndLast(item.title)}
+//                   </AvatarFallback>
+//                 </Avatar>
+//                 {item.title}
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//           </Link>
+//         ) : (
+//           <span
+//             key={index}
+//             className={cn(
+//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60"
+//             )}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger>
+//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                   Allhamdulilla
+//                 </span>
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//             {item.label && (
+//               <HoverCard>
+//                 <HoverCardTrigger>
+//                   {/* Render your label here */}
+//                 </HoverCardTrigger>
+//                 {/* Render label-related content here */}
+//               </HoverCard>
+//             )}
+//           </span>
+//         )
+//       )}
+//     </div>
+//   ) : null;
+// }
+
+
+
+// ... (imports and other code)
+
+// export function DocsSidebarNavItems({
+//   items,
+//   pathname,
+// }: DocsSidebarNavItemsProps) {
+//   function capitalizeFirstAndLast(title: string): string {
+//     const words = title.split(' ');
+//     const firstWord = words[0];
+//     const lastWord = words[words.length - 1];
+//     const firstWordCapitalized =
+//       firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
+//     const lastWordCapitalized =
+//       lastWord.charAt(0).toUpperCase() + lastWord.slice(1);
+//     words[0] = firstWordCapitalized;
+//     words[words.length - 1] = lastWordCapitalized;
+//     return words.join(' ');
+//   }
+
+//   return items?.length ? (
+//     <div className="grid grid-flow-row auto-rows-max text-sm">
+//       {items.map((item, index) =>
+//         item.href && !item.disabled ? (
+//           <Link
+//             key={index}
+//             href={item.href}
+//             className={cn(
+//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60",
+//               pathname === item.href
+//                 ? "font-medium text-foreground"
+//                 : "text-muted-foreground"
+//             )}
+//             target={item.external ? "_blank" : ""}
+//             rel={item.external ? "noreferrer" : ""}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
+//                 <Avatar className="mr-2 h-[25px] w-[25px]">
+//                   <AvatarImage
+//                     src={`https://logo.clearbit.com/${item.title}.com`}
+//                   />
+//                   <AvatarFallback>
+//                     {capitalizeFirstAndLast(item.title)}
+//                   </AvatarFallback>
+//                 </Avatar>
+//                 {item.title}
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//           </Link>
+//         ) : (
+//           <span
+//             key={index}
+//             className={cn(
+//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60"
+//             )}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger>
+//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                   Allhamdulilla
+//                 </span>
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//             {item.label && (
+//               <HoverCard>
+//                 <HoverCardTrigger>
+//                   {/* Render your label here */}
+//                 </HoverCardTrigger>
+//                 {/* Render label-related content here */}
+//               </HoverCard>
+//             )}
+//           </span>
+//         )
+//       )}
+//     </div>
+//   ) : null;
+// }
+
+// ... (rest of the code)
+// ... (imports and other code)
 
 export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
-  // const titles:any = docsConfig;
-  const [images, setImages] = useState<string[]>([])
-
-  useEffect(() => {
-    const fetchImages = async () => {
-      const apiKey = "YOUR_UNSPLASH_API_KEY"
-      const results = await Promise.all(
-        items.map(async (item) => {
-          const response = await axios.get(`https://api.unsplash.com/photos?page=1&query=css&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`)
-          return response.data;
-        })
-      )
-      setImages(results)
-    }
-
-    fetchImages()
-  }, [items])
-
-
+  function capitalizeFirstAndLast(title: string): string {
+    const words = title.split(' ');
+    const firstWord = words[0];
+    const lastWord = words[words.length - 1];
+    const firstWordCapitalized =
+      firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
+    const lastWordCapitalized =
+      lastWord.charAt(0).toUpperCase() + lastWord.slice(1);
+    words[0] = firstWordCapitalized;
+    words[words.length - 1] = lastWordCapitalized;
+    return words.join(' ');
+  }
 
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -91,18 +411,14 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
-                <Avatar className="mr-2 h-[25px] w-[25px]">
+                <Avatar className="mr-2 hidden h-[100px] w-[100px]">
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
-                  <AvatarFallback>Dx</AvatarFallback>
+                  <AvatarFallback>
+                    {item.title ? capitalizeFirstAndLast(item.title) : ''}
+                  </AvatarFallback>
                 </Avatar>
-                {/* {images.map((imageUrl, index) => (
-                  <Avatar key={index} className="mr-2 h-[25px] w-[25px]">
-                    <AvatarImage src={imageUrl} />
-                    <AvatarFallback>Dx</AvatarFallback>
-                  </Avatar>
-                ))} */}
                 {item.title}
               </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
@@ -124,20 +440,19 @@ export function DocsSidebarNavItems({
               </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
             </HoverCard>
-            {/* {item.title} */}
             {item.label && (
               <HoverCard>
                 <HoverCardTrigger>
-                  {/* <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
-                    {item.label}
-                  </span> */}
+                  {/* Render your label here */}
                 </HoverCardTrigger>
-                {/* <HoverCardContent>{item.description}</HoverCardContent> */}
+                {/* Render label-related content here */}
               </HoverCard>
             )}
           </span>
         )
       )}
     </div>
-  ) : null
+  ) : null;
 }
+
+// ... (rest of the code)
