@@ -160,7 +160,7 @@ export function DocsSidebarNavItems({
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
-                  <AvatarFallback>WF</AvatarFallback>
+                  <AvatarFallback>Dx</AvatarFallback>
                 </Avatar>
                 {/* {images.map((imageUrl, index) => (
                   <Avatar key={index} className="mr-2 h-[25px] w-[25px]">
