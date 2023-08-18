@@ -20,31 +20,6 @@ interface DocsConfig {
   sidebarNav: SidebarNavItem[]
 }
 
-// function MyComponent() {
-//   const [data, setData] = useState<Item[]>([]);
-
-//   useEffect(() => {
-//     async function fetchData() {
-//       try {
-//         const response = await axios.get('/api/components_logo');
-//         setData(response.data);
-//       } catch (error) {
-//         console.error('Error fetching data:', error);
-//       }
-//     }
-
-//     fetchData();
-//   }, []);
-
-//   return (
-//     <div>
-//       {data.map(item => (
-//         <div key={item.id}>{item.name}</div>
-//       ))}
-//     </div>
-//   );
-// }
-
 export interface DocsSidebarNavProps {
   items: SidebarNavItem[]
 }
@@ -95,47 +70,7 @@ export function DocsSidebarNavItems({
     fetchImages()
   }, [items])
 
-  // const components_logo_function = () => {
-  //   {
-  //     items.map((item, index) => {
-  //       axios
-  //         .get(
-  //           `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
-  //         )
-  //         .then((response: any) => {
-  //           data = response.data
-  //           console.log(data)
-  //         })
-  //         .catch((error: any) => {
-  //           console.error("Error fetching the page:", error)
-  //         })
-  //     })
-  //   }
-  // }
-  // components_logo_function();
-  // const [data, setData] = useState<Item[]>([])
 
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     try {
-  //       const response = await axios.get("/api/components_logo")
-  //       const prelease: any[] = JSON.parse(response.data)
-
-  //       const urlsOnly: string[] = prelease.map((item) => item.urls.raw)
-
-  //       console.log(urlsOnly)
-  //       setData(response.data)
-
-  //       console.log("Allhamdulilla")
-
-  //       console.log(JSON.stringify(response.data))
-  //     } catch (error) {
-  //       console.error("Error fetching data:", error)
-  //     }
-  //   }
-
-  //   fetchData()
-  // }, [])
 
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -172,12 +107,6 @@ export function DocsSidebarNavItems({
               </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
             </HoverCard>
-            {/* {item.title} */}
-            {/* {item.label && (
-              <span className="ml-2 rounded-md bg-[#adfa1d] px-1.5 py-0.5 text-xs leading-none text-[#000000] no-underline group-hover:no-underline">
-                {item.label}
-              </span>
-            )} */}
           </Link>
         ) : (
           <span
