@@ -1,43 +1,63 @@
-# beingofexistence-dx
+<p align="center">
+  <a href="https://vercel.com">
+    <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
+    <h3 align="center">Vercel</h3>
+  </a>
+  <p align="center">Develop. Preview. Ship.</p>
+</p>
 
-A CLI for adding components to your project.
+[![Join the community on GitHub Discussions](https://badgen.net/badge/join%20the%20discussion/on%20github/black?icon=github)](https://github.com/vercel/vercel/discussions)
 
 ## Usage
 
-Use the `init` command to initialize dependencies for a new project.
+Vercel's frontend cloud gives developers frameworks, workflows, and infrastructure to build a faster, more personalized web.
 
-The `init` command installs dependencies, adds the `cn` util, configures `tailwind.config.js`, and CSS variables for the project.
-
-```bash
-npx beingofexistence-dx init
-```
-
-## add
-
-Use the `add` command to add components to your project.
-
-The `add` command adds a component to your project and installs all required dependencies.
+To install the latest version of Vercel CLI, run this command:
 
 ```bash
-npx beingofexistence-dx add [component]
+npm i -g vercel
 ```
 
-### Example
+To quickly start a new project, run the following commands:
 
 ```bash
-npx beingofexistence-dx add alert-dialog
+vercel init     # Pick an example project
+cd <PROJECT>    # Change directory to the new project
+vercel          # Deploy to the cloud
 ```
 
-You can also run the command without any arguments to view a list of all available components:
-
-```bash
-npx beingofexistence-dx add
-```
+Finally, [connect your Git repository to Vercel](https://vercel.com/docs/git) and deploy with `git push`.
 
 ## Documentation
 
-Visit http://ui.beingofexistence.com/docs to view the documentation.
+For details on how to use Vercel CLI, check out our [documentation](https://vercel.com/docs/cli).
 
-## License
+## Local Development
 
-Licensed under the [MIT license](https://github.com/beingofexistence/ui/blob/main/LICENSE.md).
+To develop Vercel CLI, first check out the source code, install dependencies, and build all packages:
+
+```bash
+git clone https://github.com/vercel/vercel.git
+cd vercel
+pnpm install
+pnpm build
+```
+
+At this point you can make modifications to the CLI source code and test them out locally. The CLI source code is located in the `packages/cli` directory.
+
+```bash
+cd packages/cli
+```
+
+### `pnpm dev <cli-commands...>`
+
+From within the `packages/cli` directory, you can use the "dev" script to quickly execute Vercel CLI from its TypeScript source code directly (without having to manually compile first). For example:
+
+```bash
+pnpm dev deploy
+pnpm dev whoami
+pnpm dev login
+pnpm dev switch --debug
+```
+
+When you are satisfied with your changes, make a commit and create a pull request!
