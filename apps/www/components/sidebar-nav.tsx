@@ -53,17 +53,13 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
-  function capitalizeFirstLetter(title: string): string {
-    const words = title.split(' ');
-    const firstWord = words[0];
-    const lastWord = words[words.length - 1];
-    const firstWordCapitalized =
-      firstWord.charAt(0).toUpperCase();
-    const lastWordCapitalized =
-      lastWord.charAt(0).toUpperCase();
-    words[0] = firstWordCapitalized;
-    words[words.length - 1] = lastWordCapitalized;
-    return words.join('');
+  function logoLetter(title: string): string {
+    let text = title;
+    let firstLetter = text.charAt(0).toUpperCase();
+    let lastLetter = text.charAt(text.length - 1).toUpperCase();
+    let result = firstLetter + lastLetter;
+    
+    return result;
   }
 
   return items?.length ? (
@@ -85,12 +81,12 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                <Avatar className="mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px] text-yellow-500">
+                <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px]">
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>
-                    {item.title ? capitalizeFirstLetter(item.title) : 'Dx'}
+                    {item.title ? logoLetter(item.title) : 'Dx'}
                   </AvatarFallback>
                 </Avatar>
                 {item.title}

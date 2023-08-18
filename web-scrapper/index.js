@@ -842,35 +842,50 @@
 
 
 
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
+// (async () => {
+//   const browser = await puppeteer.launch();
+//   const page = await browser.newPage();
 
-  const searchTerm = 'Blockchain logos'; // Your search term
+//   const searchTerm = 'Blockchain logos'; // Your search term
 
-  // Navigate to Google search results for the specified search term
-  await page.goto(`https://www.google.com/search?q=${encodeURIComponent(searchTerm)}`);
+//   // Navigate to Google search results for the specified search term
+//   await page.goto(`https://www.google.com/search?q=${encodeURIComponent(searchTerm)}`);
 
-  // Wait for the search results to load
-  await page.waitForSelector('.g');
+//   // Wait for the search results to load
+//   await page.waitForSelector('.g');
 
-  // Extract and print the search result titles and URLs
-  const searchResults = await page.$$eval('.g', (results) =>
-    results.map((result) => {
-      const title = result.querySelector('h3').innerText;
-      const url = result.querySelector('.rc > .r > a').href;
-      return { title, url };
-    })
-  );
+//   // Extract and print the search result titles and URLs
+//   const searchResults = await page.$$eval('.g', (results) =>
+//     results.map((result) => {
+//       const title = result.querySelector('h3').innerText;
+//       const url = result.querySelector('.rc > .r > a').href;
+//       return { title, url };
+//     })
+//   );
 
-  console.log('Search Results:', searchResults);
+//   console.log('Search Results:', searchResults);
 
-  await browser.close();
-})();
-
-
+//   await browser.close();
+// })();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+let text = "convert Image to Data";
+let firstLetter = text.charAt(0).toUpperCase();
+let lastLetter = text.charAt(text.length - 1).toUpperCase();
+let result = firstLetter + lastLetter;
+
+console.log(result); // Output: "Ct"
