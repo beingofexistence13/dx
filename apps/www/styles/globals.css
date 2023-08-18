@@ -151,6 +151,9 @@ pre {
 
 div[data-rehype-pretty-code-fragment] button:hover,
 span.line--highlighted {
+  background-color: var(--code-foreground) !important;
+}
+div[data-rehype-pretty-code-fragment] button {
   background-color: var(--code-highlighted) !important;
 }
 
