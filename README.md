@@ -157,7 +157,7 @@ yarn turbo run build --filter=aptos-web
 7. JS Bin
 8. AWS Cloud9
 
-Vercel Preview Deployment problem Solved!!!
+Dx Preview Deployment problem Solved!!!
 
 Dopamine Detox
 Sumon
@@ -1056,9 +1056,9 @@ Sumon
 Will start working on filesflow from 7:00PM at 10/08/2023(Thursday)
 
 <p align="center">
-  <a href="https://vercel.com">
+  <a href="https://dx-emon-sumon-shohan.vercel.app/">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
-    <h3 align="center">Vercel</h3>
+    <h3 align="center">Dx</h3>
   </a>
 </p>
 
@@ -1067,30 +1067,30 @@ Will start working on filesflow from 7:00PM at 10/08/2023(Thursday)
 </p>
 
 <p align="center">
-  <a href="https://vercel.com/docs"><strong>Documentation</strong></a> ·
-  <a href="https://vercel.com/changelog"><strong>Changelog</strong></a> ·
-  <a href="https://vercel.com/templates"><strong>Templates</strong></a> ·
-  <a href="https://vercel.com/cli"><strong>CLI</strong></a>
+  <a href="https://dx-emon-sumon-shohan.vercel.app/docs"><strong>Documentation</strong></a> ·
+  <a href="https://dx-emon-sumon-shohan.vercel.app/changelog"><strong>Changelog</strong></a> ·
+  <a href="https://dx-emon-sumon-shohan.vercel.app/templates"><strong>Templates</strong></a> ·
+  <a href="https://dx-emon-sumon-shohan.vercel.app/cli"><strong>CLI</strong></a>
 </p>
 <br/>
 
-## Vercel
+## Dx
 
-Vercel's frontend cloud gives developers frameworks, workflows, and infrastructure to build a faster, more personalized web.
+Dx's frontend cloud gives developers frameworks, workflows, and infrastructure to build a faster, more personalized web.
 
 ## Deploy
 
-Get started by [importing a project](https://vercel.com/new) or using the [Vercel CLI](https://vercel.com/cli). Then, `git push` to deploy.
+Get started by [importing a project](https://dx-emon-sumon-shohan.vercel.app/new) or using the [Dx CLI](https://dx-emon-sumon-shohan.vercel.app/cli). Then, `git push` to deploy.
 
 ## Documentation
 
-For details on how to use Vercel, check out our [documentation](https://vercel.com/docs).
+For details on how to use Dx, check out our [documentation](https://dx-emon-sumon-shohan.vercel.app/docs).
 
 ## Contributing
 
 This project uses [pnpm](https://pnpm.io/) to install dependencies and run scripts.
 
-You can use the `dev` script to run local changes as if you were invoking Vercel CLI. For example, `vercel deploy --cwd=/path/to/project` could be run with local changes with `pnpm dev deploy --cwd=/path/to/project`.
+You can use the `dev` script to run local changes as if you were invoking Dx CLI. For example, `vercel deploy --cwd=/path/to/project` could be run with local changes with `pnpm dev deploy --cwd=/path/to/project`.
 
 See the [Contributing Guidelines](./.github/CONTRIBUTING.md) for more details.
 
