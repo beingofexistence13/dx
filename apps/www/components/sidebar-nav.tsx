@@ -53,17 +53,17 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
-  function capitalizeFirstAndLast(title: string): string {
+  function capitalizeFirstLetter(title: string): string {
     const words = title.split(' ');
     const firstWord = words[0];
     const lastWord = words[words.length - 1];
     const firstWordCapitalized =
-      firstWord.charAt(0).toUpperCase() + firstWord.slice(1);
+      firstWord.charAt(0).toUpperCase();
     const lastWordCapitalized =
-      lastWord.charAt(0).toUpperCase() + lastWord.slice(1);
+      lastWord.charAt(0).toUpperCase();
     words[0] = firstWordCapitalized;
     words[words.length - 1] = lastWordCapitalized;
-    return words.join(' ');
+    return words.join('');
   }
 
   return items?.length ? (
@@ -84,13 +84,13 @@ export function DocsSidebarNavItems({
             rel={item.external ? "noreferrer" : ""}
           >
             <HoverCard>
-              <HoverCardTrigger className="flex h-[30px] w-full items-center ">
-                <Avatar className="mr-2 hidden h-[100px] w-[100px]">
+              <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+                <Avatar className="mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px] text-yellow-500">
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>
-                    {item.title ? capitalizeFirstAndLast(item.title) : ''}
+                    {item.title ? capitalizeFirstLetter(item.title) : 'Dx'}
                   </AvatarFallback>
                 </Avatar>
                 {item.title}
