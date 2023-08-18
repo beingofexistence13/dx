@@ -85,15 +85,15 @@ export function DocsSidebarNavItems({
       const apiKey = "YOUR_UNSPLASH_API_KEY"
       const results = await Promise.all(
         items.map(async (item) => {
-          const response = await axios.get(`https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`)
-          return response.data.urls.small;
+          const response = await axios.get(`https://api.unsplash.com/photos?page=1&query=css&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`)
+          return response.data;
         })
       )
       setImages(results)
     }
 
     fetchImages()
-  }, [])
+  }, [items])
 
   // const components_logo_function = () => {
   //   {
@@ -156,18 +156,18 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
-                {/* <Avatar className="mr-2 h-[25px] w-[25px]">
+                <Avatar className="mr-2 h-[25px] w-[25px]">
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>WF</AvatarFallback>
-                </Avatar> */}
-                {images.map((imageUrl, index) => (
+                </Avatar>
+                {/* {images.map((imageUrl, index) => (
                   <Avatar key={index} className="mr-2 h-[25px] w-[25px]">
                     <AvatarImage src={imageUrl} />
                     <AvatarFallback>Dx</AvatarFallback>
                   </Avatar>
-                ))}
+                ))} */}
                 {item.title}
               </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
