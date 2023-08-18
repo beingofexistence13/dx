@@ -85,10 +85,8 @@ export function DocsSidebarNavItems({
       const apiKey = "YOUR_UNSPLASH_API_KEY"
       const results = await Promise.all(
         items.map(async (item) => {
-          const response = await axios.get(
-            `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
-          )
-          return response.data.urls.raw
+          const response = await axios.get(`https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`)
+          return response.data.urls.small;
         })
       )
       setImages(results)
