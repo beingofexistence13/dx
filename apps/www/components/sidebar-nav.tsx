@@ -4,8 +4,9 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import axios from "axios"
-import { SidebarNavItem } from "types/nav"
+import { MainNavItem, SidebarNavItem } from "types/nav"
 
+import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {
@@ -14,8 +15,9 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 
-interface Item {
-  url: string
+interface DocsConfig {
+  mainNav: MainNavItem[]
+  sidebarNav: SidebarNavItem[]
 }
 
 // function MyComponent() {
@@ -75,6 +77,26 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
+  // const titles:any = docsConfig;
+  const [images, setImages] = useState<string[]>([])
+
+  useEffect(() => {
+    const fetchImages = async () => {
+      const apiKey = "YOUR_UNSPLASH_API_KEY"
+      const results = await Promise.all(
+        items.map(async (item) => {
+          const response = await axios.get(
+            `https://api.unsplash.com/photos?page=1&query=${item.title}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
+          )
+          return response.data.urls.raw
+        })
+      )
+      setImages(results)
+    }
+
+    fetchImages()
+  }, [])
+
   // const components_logo_function = () => {
   //   {
   //     items.map((item, index) => {
@@ -93,24 +115,29 @@ export function DocsSidebarNavItems({
   //   }
   // }
   // components_logo_function();
-  const [data, setData] = useState<Item[]>([])
+  // const [data, setData] = useState<Item[]>([])
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await axios.get("/api/components_logo")
-        setData(response.data.urls.small)
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await axios.get("/api/components_logo")
+  //       const prelease: any[] = JSON.parse(response.data)
 
-        console.log("Allhamdulilla")
+  //       const urlsOnly: string[] = prelease.map((item) => item.urls.raw)
 
-        console.log(response.data)
-      } catch (error) {
-        console.error("Error fetching data:", error)
-      }
-    }
+  //       console.log(urlsOnly)
+  //       setData(response.data)
 
-    fetchData()
-  }, [])
+  //       console.log("Allhamdulilla")
+
+  //       console.log(JSON.stringify(response.data))
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error)
+  //     }
+  //   }
+
+  //   fetchData()
+  // }, [])
 
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -131,13 +158,18 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[30px] w-full items-center ">
-                <Avatar className="mr-2 h-[25px] w-[25px]">
+                {/* <Avatar className="mr-2 h-[25px] w-[25px]">
                   <AvatarImage
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>WF</AvatarFallback>
-                </Avatar>
-
+                </Avatar> */}
+                {images.map((imageUrl, index) => (
+                  <Avatar key={index} className="mr-2 h-[25px] w-[25px]">
+                    <AvatarImage src={imageUrl} />
+                    <AvatarFallback>Dx</AvatarFallback>
+                  </Avatar>
+                ))}
                 {item.title}
               </HoverCardTrigger>
               <HoverCardContent>{item.description}</HoverCardContent>
