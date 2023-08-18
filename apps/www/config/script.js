@@ -1,38 +1,44 @@
-// script.js
-const API_KEY = 'your_api_key_here';
-const API_ENDPOINT = 'https://api.openai.com/v1/engines/text-davinci-003/completions';
+document.addEventListener('DOMContentLoaded', function () {
+  const chatMessages = document.getElementById('chat-messages');
+  const userInput = document.getElementById('user-input');
+  const sendButton = document.getElementById('send-button');
 
-const generateButton = document.getElementById('generateButton');
-const generatedTextElement = document.getElementById('generatedText');
+  sendButton.addEventListener('click', async function () {
+    const userMessage = userInput.value;
+    if (userMessage.trim() === '') return;
 
-generateButton.addEventListener('click', async () => {
-  const prompt = document.getElementById('prompt').value;
-  const generatedText = await generateText(prompt);
-  generatedTextElement.textContent = generatedText;
-});
+    displayMessage('You', userMessage);
 
-async function generateText(prompt) {
-  const headers = {
-    'Content-Type': 'application/json',
-    Authorization: `Bearer ${API_KEY}`,
-  };
+    const assistantMessage = await getAssistantReply(userMessage);
+    displayMessage('Assistant', assistantMessage);
 
-  const data = {
-    prompt: prompt,
-    max_tokens: 50,
-    temperature: 0.7,
-  };
+    userInput.value = '';
+  });
 
-  try {
-    const response = await fetch(API_ENDPOINT, {
+  async function getAssistantReply(userMessage) {
+    const API_KEY = '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'; // Replace with your actual API key
+    const API_URL = 'https://api.openai.com/v1/chat/completions';
+
+    const response = await fetch(API_URL, {
       method: 'POST',
-      headers: headers,
-      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${API_KEY}`,
+      },
+      body: JSON.stringify({
+        messages: [{ role: 'user', content: userMessage }],
+      }),
     });
-    const responseData = await response.json();
-    return responseData.choices[0].text;
-  } catch (error) {
-    console.error('Error generating text:', error);
-    return 'Error generating text.';
+
+    const data = await response.json();
+    return data.choices[0].message.content;
   }
-}
+
+  function displayMessage(role, content) {
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message', role.toLowerCase());
+    messageElement.innerText = `${role}: ${content}`;
+    chatMessages.appendChild(messageElement);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+});

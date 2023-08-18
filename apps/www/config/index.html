@@ -1,20 +1,18 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OpenAI API Example</title>
   <link rel="stylesheet" href="styles.css">
+  <title>ChatGPT API Example</title>
 </head>
 <body>
-  <div class="container">
-    <textarea id="prompt" placeholder="Enter your prompt..."></textarea>
-    <button id="generateButton">Generate Text</button>
-    <div id="output">
-      <h3>Generated Output:</h3>
-      <p id="generatedText"></p>
+  <div class="chat-container">
+    <div class="chat-messages" id="chat-messages">
+      <!-- Chat messages will be displayed here -->
     </div>
+    <input type="text" id="user-input" placeholder="Type your message...">
+    <button id="send-button">Send</button>
   </div>
   <script src="script.js"></script>
 </body>
