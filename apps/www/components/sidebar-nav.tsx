@@ -43,78 +43,107 @@ export function DocsSidebarNav({ items }: DocsSidebarNavProps) {
   ) : null
 }
 interface Item {
-  title: string;
-  href?: string;
-  disabled?: boolean;
-  external?: boolean;
-  label?: string;
+  title: string
+  href?: string
+  disabled?: boolean
+  external?: boolean
+  label?: string
 }
 // interface DocsSidebarNavItemsProps {
 //   items: SidebarNavItem[];
 //   pathname: string | null
 // }
 interface DocsSidebarNavItemsProps {
-  items: SidebarNavItem[];
-  pathname: string | null;
+  items: SidebarNavItem[]
+  pathname: string | null
 }
-
-
-
-
 
 export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
   // const [descriptions, setDescriptions] = useState({});
-  const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({});
-  
-async function generateDescription(title:any) {
-  const prompt = `Generate a unique and creative description for ${title}`;
-  const response = await fetch('https://api.edenai.run/v1/pretrained/text/generate_text', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `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`
-    },
-    body: JSON.stringify({
-      text: prompt,
-      provider: ['openai'],
-      model: ['davinci'],
-      length: 100
-    })
-  });
-  const data = await response.json();
-  return data.result[0].output;
-}
-useEffect(() => {
-  async function fetchDescriptions() {
-    if (items) {
-      const newDescriptions: { [key: string]: any } = {};
-      for (const item of items) {
-        if (item.title) {
-          newDescriptions[item.title] = await generateDescription(item.title);
-        }
+  const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({})
+  const [emoji, setEmoji] = useState<{ [key: string]: any }>({})
+
+  async function generateDescription(title: any) {
+    const prompt = `Generate a unique and creative description for ${title}`
+    const response = await fetch(
+      "https://api.edenai.run/v1/pretrained/text/generate_text",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `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`,
+        },
+        body: JSON.stringify({
+          text: prompt,
+          provider: ["openai"],
+          model: ["davinci"],
+          length: 100,
+        }),
       }
-      setDescriptions(newDescriptions);
-      console.log("Alhamdulilla");
-      console.log(descriptions["Material UI"]);
-    }
+    )
+    const data = await response.json()
+    return data.result[0].output
   }
-  fetchDescriptions();
-}, [items]);
+  useEffect(() => {
+    async function fetchDescriptions() {
+      if (items) {
+        const newDescriptions: { [key: string]: any } = {}
+        for (const item of items) {
+          if (item.title) {
+            newDescriptions[item.title] = await generateDescription(item.title)
+          }
+        }
+        setDescriptions(newDescriptions)
+        console.log("Alhamdulilla")
+        console.log(descriptions["Material UI"])
+      }
+    }
 
-
-
+    const fetchRandomEmoji = async () => {
+      const response = await axios.get("https://api.api-ninjas.com/v1/emoji", {
+        headers: {
+          "X-Api-Key": "vocMEyG2QBwkfbPiD/pNug==3TPtJy5c4bUr1Fhy",
+        },
+      })
+      const emojis = response.data
+      const randomIndex = Math.floor(Math.random() * emojis.length)
+      setEmoji(emojis[randomIndex].character)
+    }
+    fetchRandomEmoji()
+    fetchDescriptions()
+  }, [items])
 
   function logoLetter(title: string): string {
-    let text = title;
-    let firstLetter = text.charAt(0).toUpperCase();
-    let lastLetter = text.charAt(text.length - 1).toUpperCase();
-    let result = firstLetter + lastLetter;
-    
-    return result;
+    let text = title
+    let firstLetter = text.charAt(0).toUpperCase()
+    let lastLetter = text.charAt(text.length - 1).toUpperCase()
+    let result = firstLetter + lastLetter
+
+    return result
   }
+
+  // const RandomEmojiGenerator: React.FC = () => {
+  //   const [emoji, setEmoji] = useState<string>('');
+
+  //   useEffect(() => {
+  //     const fetchRandomEmoji = async () => {
+  //       const response = await axios.get('https://api.api-ninjas.com/v1/emoji', {
+  //         headers: {
+  //           'X-Api-Key': 'YOUR_API_KEY'
+  //         }
+  //       });
+  //       const emojis = response.data;
+  //       const randomIndex = Math.floor(Math.random() * emojis.length);
+  //       setEmoji(emojis[randomIndex].character);
+  //     };
+  //     fetchRandomEmoji();
+  //   }, []);
+
+  //   return <div>{emoji}</div>;
+  // };
 
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -140,15 +169,14 @@ useEffect(() => {
                     src={`https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>
-                    {item.title ? logoLetter(item.title) : 'Dx'}
+                    {item.title ? logoLetter(item.title) : "Dx"}
                   </AvatarFallback>
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
               <HoverCardContent>
                 {/* {descriptions[item.title]} */}
-                {item.description}
-              
+                {emoji + item.description}
               </HoverCardContent>
             </HoverCard>
           </Link>
@@ -169,9 +197,9 @@ useEffect(() => {
 
               <HoverCardContent>
                 {/* {descriptions[item.title] } */}
-                {item.description}
+                {emoji + item.description}
 
-                </HoverCardContent>
+              </HoverCardContent>
             </HoverCard>
             {item.label && (
               <HoverCard>
@@ -185,21 +213,8 @@ useEffect(() => {
         )
       )}
     </div>
-  ) : null;
+  ) : null
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // export function DocsSidebarNavItems({
 //   items,
@@ -210,7 +225,7 @@ useEffect(() => {
 //     let firstLetter = text.charAt(0).toUpperCase();
 //     let lastLetter = text.charAt(text.length - 1).toUpperCase();
 //     let result = firstLetter + lastLetter;
-    
+
 //     return result;
 //   }
 
@@ -276,4 +291,3 @@ useEffect(() => {
 //     </div>
 //   ) : null;
 // }
-
