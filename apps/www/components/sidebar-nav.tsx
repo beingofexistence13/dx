@@ -42,17 +42,68 @@ export function DocsSidebarNav({ items }: DocsSidebarNavProps) {
     </div>
   ) : null
 }
-
-interface DocsSidebarNavItemsProps {
-  items: SidebarNavItem[] | undefined
-  pathname: string | null
+interface Item {
+  title: string;
+  href?: string;
+  disabled?: boolean;
+  external?: boolean;
+  label?: string;
 }
+// interface DocsSidebarNavItemsProps {
+//   items: SidebarNavItem[];
+//   pathname: string | null
+// }
+interface DocsSidebarNavItemsProps {
+  items: SidebarNavItem[];
+  pathname: string | null;
+}
+
+
+
 
 
 export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
+  // const [descriptions, setDescriptions] = useState({});
+  const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({});
+  
+async function generateDescription(title:any) {
+  const prompt = `Generate a unique and creative description for ${title}`;
+  const response = await fetch('https://api.edenai.run/v1/pretrained/text/generate_text', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOWFmNmU4N2EtNTk1ZS00NTJlLTgxYWQtZjRkNjlkYmZmMzc2IiwidHlwZSI6ImFwaV90b2tlbiJ9.EIsAzV167m6BOY8GQw-tcXtXYvq7bllxQEFxjnpbQe0`
+    },
+    body: JSON.stringify({
+      text: prompt,
+      provider: ['openai'],
+      model: ['davinci'],
+      length: 50
+    })
+  });
+  const data = await response.json();
+  return data.result[0].output;
+}
+useEffect(() => {
+  async function fetchDescriptions() {
+    if (items) {
+      const newDescriptions: { [key: string]: any } = {};
+      for (const item of items) {
+        if (item.title) {
+          newDescriptions[item.title] = await generateDescription(item.title);
+        }
+      }
+      setDescriptions(newDescriptions);
+    }
+  }
+  fetchDescriptions();
+}, [items]);
+
+
+
   function logoLetter(title: string): string {
     let text = title;
     let firstLetter = text.charAt(0).toUpperCase();
@@ -91,7 +142,7 @@ export function DocsSidebarNavItems({
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent>{item.description}</HoverCardContent>
+              <HoverCardContent>{descriptions[item.title]}</HoverCardContent>
             </HoverCard>
           </Link>
         ) : (
@@ -108,7 +159,7 @@ export function DocsSidebarNavItems({
                   Allhamdulilla
                 </span>
               </HoverCardTrigger>
-              <HoverCardContent>{item.description}</HoverCardContent>
+              <HoverCardContent>{descriptions[item.title]}</HoverCardContent>
             </HoverCard>
             {item.label && (
               <HoverCard>
@@ -124,4 +175,93 @@ export function DocsSidebarNavItems({
     </div>
   ) : null;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export function DocsSidebarNavItems({
+//   items,
+//   pathname,
+// }: DocsSidebarNavItemsProps) {
+//   function logoLetter(title: string): string {
+//     let text = title;
+//     let firstLetter = text.charAt(0).toUpperCase();
+//     let lastLetter = text.charAt(text.length - 1).toUpperCase();
+//     let result = firstLetter + lastLetter;
+    
+//     return result;
+//   }
+
+//   return items?.length ? (
+//     <div className="grid grid-flow-row auto-rows-max text-sm">
+//       {items.map((item, index) =>
+//         item.href && !item.disabled ? (
+//           <Link
+//             key={index}
+//             href={item.href}
+//             className={cn(
+//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60",
+//               pathname === item.href
+//                 ? "font-medium text-foreground"
+//                 : "text-muted-foreground"
+//             )}
+//             target={item.external ? "_blank" : ""}
+//             rel={item.external ? "noreferrer" : ""}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+//                 <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px]">
+//                   <AvatarImage
+//                     src={`https://logo.clearbit.com/${item.title}.com`}
+//                   />
+//                   <AvatarFallback>
+//                     {item.title ? logoLetter(item.title) : 'Dx'}
+//                   </AvatarFallback>
+//                 </Avatar>
+//                 {item.title}
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//           </Link>
+//         ) : (
+//           <span
+//             key={index}
+//             className={cn(
+//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
+//               item.disabled && "cursor-not-allowed opacity-60"
+//             )}
+//           >
+//             <HoverCard>
+//               <HoverCardTrigger>
+//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
+//                   Allhamdulilla
+//                 </span>
+//               </HoverCardTrigger>
+//               <HoverCardContent>{item.description}</HoverCardContent>
+//             </HoverCard>
+//             {item.label && (
+//               <HoverCard>
+//                 <HoverCardTrigger>
+//                   {/* Render your label here */}
+//                 </HoverCardTrigger>
+//                 {/* Render label-related content here */}
+//               </HoverCard>
+//             )}
+//           </span>
+//         )
+//       )}
+//     </div>
+//   ) : null;
+// }
 

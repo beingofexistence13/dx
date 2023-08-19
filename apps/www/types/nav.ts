@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons"
 
 export interface NavItem {
-  title?: string
+  title: string
   description?: string
   logo?: string
   href?: string
