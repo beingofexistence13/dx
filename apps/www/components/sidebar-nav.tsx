@@ -75,13 +75,13 @@ async function generateDescription(title:any) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOWFmNmU4N2EtNTk1ZS00NTJlLTgxYWQtZjRkNjlkYmZmMzc2IiwidHlwZSI6ImFwaV90b2tlbiJ9.EIsAzV167m6BOY8GQw-tcXtXYvq7bllxQEFxjnpbQe0`
+      'Authorization': `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`
     },
     body: JSON.stringify({
       text: prompt,
       provider: ['openai'],
       model: ['davinci'],
-      length: 50
+      length: 100
     })
   });
   const data = await response.json();
@@ -97,10 +97,13 @@ useEffect(() => {
         }
       }
       setDescriptions(newDescriptions);
+      console.log("Alhamdulilla");
+      console.log(descriptions["Material UI"]);
     }
   }
   fetchDescriptions();
 }, [items]);
+
 
 
 
@@ -159,7 +162,8 @@ useEffect(() => {
                   Allhamdulilla
                 </span>
               </HoverCardTrigger>
-              <HoverCardContent>{descriptions[item.title]}</HoverCardContent>
+
+              <HoverCardContent>{descriptions[item.title] }</HoverCardContent>
             </HoverCard>
             {item.label && (
               <HoverCard>
