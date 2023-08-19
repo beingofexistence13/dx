@@ -883,9 +883,49 @@
 
 
 
-let text = "convert Image to Data";
-let firstLetter = text.charAt(0).toUpperCase();
-let lastLetter = text.charAt(text.length - 1).toUpperCase();
-let result = firstLetter + lastLetter;
+// let text = "convert Image to Data";
+// let firstLetter = text.charAt(0).toUpperCase();
+// let lastLetter = text.charAt(text.length - 1).toUpperCase();
+// let result = firstLetter + lastLetter;
 
-console.log(result); // Output: "Ct"
+// console.log(result); // Output: "Ct"
+
+
+
+// const sdk = require('api')('@eden-ai/v2.0#rmckb24zallf965p7');
+
+// sdk.auth('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzg5MWRmYjgtYjkxZS00YWNlLWFiMmYtNjkxODU0OWRhMGRhIiwidHlwZSI6ImZyb250X2FwaV90b2tlbiJ9.a91i1e26UvOx5e6KsMvmMXC3puUlhui4C3rfHvNaXeI');
+// sdk.text_generation_create({
+//   response_as_dict: true,
+//   attributes_as_list: false,
+//   show_original_response: false,
+//   temperature: 0,
+//   max_tokens: 10,
+//   providers: 'openai',
+//   text: 'The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n\nHuman: Hello, who are you?'
+// })
+//   .then(({ data }) => console.log(data))
+//   .catch(err => console.error(err));
+
+const { Configuration, OpenAIApi } = require("openai");
+const configuration = Configuration({
+    apiKey: process.env.OPENAI_API_KEY,
+});
+const openai = OpenAIApi(configuration);
+const chat_completion = (async () => {
+    const gptResponse = await openai.complete({
+        engine: 'davinci',
+        prompt: 'this is a test',
+        maxTokens: 5,
+        temperature: 0.9,
+        topP: 1,
+        presencePenalty: 0,
+        frequencyPenalty: 0,
+        bestOf: 1,
+        n: 1,
+        stream: false,
+        stop: ['\n', "testing"]
+    });
+
+    console.log(gptResponse.data);
+})();

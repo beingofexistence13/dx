@@ -7,6 +7,7 @@ import { useSelector } from "react-redux"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import MaterialUIDescription from "@/components/desciption-generator"
 import { ExamplesNav } from "@/components/examples-nav"
 import { Icons } from "@/components/icons"
 import {
@@ -19,6 +20,7 @@ import Todo from "@/components/todo"
 import { Button } from "@/components/ui"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { Separator } from "@/registry/new-york/ui/separator"
+
 import DashboardPage from "./examples/dashboard/page"
 
 // import DashboardPage from "@/app/examples/dashboard/page"
@@ -68,7 +70,8 @@ export default function IndexPage() {
               </Link>
             </div>
           </PageHeader>
-{/* 
+          <MaterialUIDescription />
+          {/* 
           <ExamplesNav className="[&>a:first-child]:text-primary" />
           <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
             <Image
