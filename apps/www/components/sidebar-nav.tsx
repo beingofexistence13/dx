@@ -64,7 +64,8 @@ export function DocsSidebarNavItems({
 }: DocsSidebarNavItemsProps) {
   // const [descriptions, setDescriptions] = useState({});
   const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({})
-  const [emoji, setEmoji] = useState<{ [key: string]: any }>({})
+  const [emoji, setEmoji] = useState<string>("")
+  const emojis = ["😀", "😂", "😍", "🤔", "🙄", "😴", "🤢", "🤯", "🥳", "🤩"]
 
   async function generateDescription(title: any) {
     const prompt = `Generate a unique and creative description for ${title}`
@@ -102,17 +103,24 @@ export function DocsSidebarNavItems({
       }
     }
 
-    const fetchRandomEmoji = async () => {
-      const response = await axios.get("https://api.api-ninjas.com/v1/emoji", {
-        headers: {
-          "X-Api-Key": "vocMEyG2QBwkfbPiD/pNug==3TPtJy5c4bUr1Fhy",
-        },
-      })
-      const emojis = response.data
+    const interval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * emojis.length)
-      setEmoji(emojis[randomIndex].character)
-    }
-    fetchRandomEmoji()
+      setEmoji(emojis[randomIndex])
+    }, 60000)
+    return () => clearInterval(interval)
+
+    // const fetchRandomEmoji = async () => {
+    //   const response = await axios.get("https://api.api-ninjas.com/v1/emoji", {
+    //     headers: {
+    //       "X-Api-Key": "vocMEyG2QBwkfbPiD/pNug==3TPtJy5c4bUr1Fhy",
+    //     },
+    //   })
+    //   const emojis = response.data
+    //   const randomIndex = Math.floor(Math.random() * emojis.length)
+    //   setEmoji(emojis[randomIndex].character)
+    // }
+    // fetchRandomEmoji()
+
     fetchDescriptions()
   }, [items])
 
@@ -198,7 +206,6 @@ export function DocsSidebarNavItems({
               <HoverCardContent>
                 {/* {descriptions[item.title] } */}
                 {emoji + item.description}
-
               </HoverCardContent>
             </HoverCard>
             {item.label && (
