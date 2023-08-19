@@ -106,7 +106,7 @@ export function DocsSidebarNavItems({
     const interval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * emojis.length)
       setEmoji(emojis[randomIndex])
-    }, 60000)
+    }, 30000)
     return () => clearInterval(interval)
 
     // const fetchRandomEmoji = async () => {
