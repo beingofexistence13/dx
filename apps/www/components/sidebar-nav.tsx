@@ -145,7 +145,11 @@ useEffect(() => {
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent>{descriptions[item.title]}</HoverCardContent>
+              <HoverCardContent>
+                {/* {descriptions[item.title]} */}
+                {item.description}
+              
+              </HoverCardContent>
             </HoverCard>
           </Link>
         ) : (
@@ -163,7 +167,11 @@ useEffect(() => {
                 </span>
               </HoverCardTrigger>
 
-              <HoverCardContent>{descriptions[item.title] }</HoverCardContent>
+              <HoverCardContent>
+                {/* {descriptions[item.title] } */}
+                {item.description}
+
+                </HoverCardContent>
             </HoverCard>
             {item.label && (
               <HoverCard>
