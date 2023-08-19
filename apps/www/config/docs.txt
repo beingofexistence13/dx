@@ -10687,7 +10687,6 @@ export const docsConfig: DocsConfig = {
 
 
 
-
 sidebarNav: [{
             title: "GettingStarted"
             , items: [{
@@ -10745,120 +10744,210 @@ sidebarNav: [{
         , }, {
             title: "Ui"
             , items: [{
-                title: "Friday"
-                , description: "Create a fun and friendly chatbot for your website with Friday, a UI component that mimics a conversation 💬"
-            , }, {
-                title: "HelloMode"
-                , description: "Make your website more interactive and engaging with HelloMode, a UI component that greets your visitors 👋"
-            , }, {
-                title: "Multiverse"
-                , description: "Add some sci-fi flair to your website with Multiverse, a UI component that creates a portal effect 🌀"
-            , }, {
-                title: "Navbar"
-                , description: "Create a responsive and customizable navigation bar for your website with Navbar, a UI component that offers many options 🧭"
-            , }, {
-                title: "BlockchainStatus"
-                , description: "Showcase your blockchain project's status and progress with BlockchainStatus, a UI component that displays relevant metrics 📊"
-            , }, {
-                title: "Activitybar"
-                , description: "Create a sidebar that shows your website's activity and notifications with Activitybar, a UI component that keeps you updated 🔔"
+                        title: "Friday"
+                        , description: "Create a fun and friendly chatbot for your website with Friday, a UI component that mimics a conversation 💬"
+                    , }, {
+                        title: "HelloMode"
+                        , description: "Make your website more interactive and engaging with HelloMode, a UI component that greets your visitors 👋"
+                    , }, {
+                        title: "Multiverse"
+                        , description: "Add some sci-fi flair to your website with Multiverse, a UI component that creates a portal effect 🌀"
+                    , }, {
+                        title: "Navbar"
+                        , description: "Create a responsive and customizable navigation bar for your website with Navbar, a UI component that offers many options 🧭"
+                    , }, {
+                        title: "BlockchainStatus"
+                        , description: "Showcase your blockchain project's status and progress with BlockchainStatus, a UI component that displays relevant metrics 📊"
+                    , }, {
+                        title: "Activitybar"
+                        , description: "Create a sidebar that shows your website's activity and notifications with Activitybar, a UI component that keeps you updated 🔔"
             }, {
-                title: "PrimarySidebar"
-                , description: "Create a primary sidebar that contains the main navigation links for your website with PrimarySidebar, a UI component that is easy to use and configure 📑"
+                        title: "PrimarySidebar"
+                        , description: "Create a primary sidebar that contains the main navigation links for your website with PrimarySidebar, a UI component that is easy to use and configure 📑"
             }, {
-                title: "SecondarySidebar"
-                , description: "Create a secondary sidebar that contains additional information or features for your website with SecondarySidebar, a UI component that is flexible and versatile 🗂️"
+                        title: "SecondarySidebar"
+                        , description: "Create a secondary sidebar that contains additional information or features for your website with SecondarySidebar, a UI component that is flexible and versatile 🗂️"
             }, {
-                title: "Bottombar"
-                , description: "Create a bottom bar that contains useful actions or shortcuts for your website with Bottombar, a UI component that is accessible and convenient ⬇️"
+                        title: "Bottombar"
+                        , description: "Create a bottom bar that contains useful actions or shortcuts for your website with Bottombar, a UI component that is accessible and convenient ⬇️"
             }, {
-                title: "Dockbar"
-                , description: "Create a dock bar that contains icons or widgets for your website with Dockbar, a UI component that is sleek and modern ⚓"
+                        title: "Dockbar"
+                        , description: "Create a dock bar that contains icons or widgets for your website with Dockbar, a UI component that is sleek and modern ⚓"
             }, {
-                title: "VideoPlayer"
-                , description: "Create a video player that can play any video format or source for your website with VideoPlayer, a UI component that is powerful and customizable ▶️"
+                        title: "VideoPlayer"
+                        , description: "Create a video player that can play any video format or source for your website with VideoPlayer, a UI component that is powerful and customizable ▶️"
             }, {
-                title: "Hello3d"
-                , description: "Create a 3D greeting card that can display any message or image for your website with Hello3d, a UI component that is fun and creative 🎁"
+                        title: "Hello3d"
+                        , description: "Create a 3D greeting card that can display any message or image for your website with Hello3d, a UI component that is fun and creative 🎁"
             }, {
-                title: "Theme"
-                , description: "Create a theme switcher that can change the appearance of your website with Theme, a UI component that is simple and elegant 🎨"
+                        title: "Theme"
+                        , description: "Create a theme switcher that can change the appearance of your website with Theme, a UI component that is simple and elegant 🎨"
             }, {
-                title: "KeyboardShortcuts"
-                , description: "Create keyboard shortcuts that can trigger any action or function for your website with KeyboardShortcuts, a UI component that is handy and efficient ⌨️"
+                        title: "KeyboardShortcuts"
+                        , description: "Create keyboard shortcuts that can trigger any action or function for your website with KeyboardShortcuts, a UI component that is handy and efficient ⌨️"
             }, {
-                title: "Search"
-                , description: "Create a search bar that can find any content or information for your website with Search, a UI component that is fast and smart 🔍"
+                        title: "Search"
+                        , description: "Create a search bar that can find any content or information for your website with Search, a UI component that is fast and smart 🔍"
             }, {
-                title: "CommandPalette"
-                , description: "Create a command palette that can execute any command or query for your website with CommandPalette, a UI component that is cool and powerful 🎮"
+                        title: "CommandPalette"
+                        , description: "Create a command palette that can execute any command or query for your website with CommandPalette, a UI component that is cool and powerful 🎮"
             }, {
-                title: "Footer"
-                , description: "Create a footer that can display any text or links for your website with Footer, a UI component that is simple and clean 🦶"
+                        title: "Footer"
+                        , description: "Create a footer that can display any text or links for your website with Footer, a UI component that is simple and clean 🦶"
             }, {
-                title: "According"
-                , description: "Create an accordion that can expand and collapse any content or section for your website with According, a UI component that is neat and tidy 📂"
+                        title: "According"
+                        , description: "Create an accordion that can expand and collapse any content or section for your website with According, a UI component that is neat and tidy 📂"
             }, {
-                title: "Alert"
-                , description: "Create an alert that can show any message or notification for your website with Alert, a UI component that is attention-grabbing and informative ⚠️"
+                        title: "Alert"
+                        , description: "Create an alert that can show any message or notification for your website with Alert, a UI component that is attention-grabbing and informative ⚠️"
             }, {
-                title: "AlertDialog"
-                , description: "Create an alert dialog that can ask for confirmation or input from the user for your website with AlertDialog, a UI component that is user-friendly and helpful ❓"
+                        title: "AlertDialog"
+                        , description: "Create an alert dialog that can ask for confirmation or input from the user for your website with AlertDialog, a UI component that is user-friendly and helpful ❓"
             }, {
-                title: "AspectRatio"
-                , description: "Create an aspect ratio box that can maintain the proportions of any element for your website with AspectRatio, a UI component that is responsive and adaptive 📏"
+                        title: "AspectRatio"
+                        , description: "Create an aspect ratio box that can maintain the proportions of any element for your website with AspectRatio, a UI component that is responsive and adaptive 📏"
             }, {
-                title: "Avatar"
-                , description: "Create an avatar that can display any image or icon for your website with Avatar, a UI component that is cute and personal 🧑"
+                        title: "Avatar"
+                        , description: "Create an avatar that can display any image or icon for your website with Avatar, a UI component that is cute and personal 🧑"
             }, {
-                title: "Badge"
-                , description: "Create a badge that can display any text or number for your website with Badge, a UI component that is small and colorful 🎫"
+                        title: "Badge"
+                        , description: "Create a badge that can display any text or number for your website with Badge, a UI component that is small and colorful 🎫"
             }, {
-                title: "Button"
-                , description: "Create a button that can trigger any action or event for your website with Button, a UI component that is clickable and interactive 🖱️"
+                        title: "Button"
+                        , description: "Create a button that can trigger any action or event for your website with Button, a UI component that is clickable and interactive 🖱️"
             }, {
-                title: "Calendar"
-                , description: "Create a calendar that can display any date or event for your website with Calendar, a UI component that is useful and practical 🗓️"
+                        title: "Calendar"
+                        , description: "Create a calendar that can display any date or event for your website with Calendar, a UI component that is useful and practical 🗓️"
             }, {
-                title: "Card"
-                , description: "Create a card that can display any content or information for your website with Card, a UI component that is attractive and elegant 🃏"
+                        title: "Card"
+                        , description: "Create a card that can display any content or information for your website with Card, a UI component that is attractive and elegant 🃏"
             }, {
-                title: "Checkbox"
-                , description: "Create a checkbox that can toggle any option or state for your website with Checkbox, a UI component that is simple and reliable ☑️"
+                        title: "Checkbox"
+                        , description: "Create a checkbox that can toggle any option or state for your website with Checkbox, a UI component that is simple and reliable ☑️"
             }, {
-                title: "Collapsible"
-                , description: "Create a collapsible element that can show or hide any content or section for your website with Collapsible, a UI component that is smooth and dynamic 🙈"
+                        title: "Collapsible"
+                        , description: "Create a collapsible element that can show or hide any content or section for your website with Collapsible, a UI component that is smooth and dynamic 🙈"
             }, {
-                title: "Combobox"
-                , description: "Create a combobox that can select any option or value for your website with Combobox, a UI component that is versatile and convenient 🗃️"
+                        title: "Combobox"
+                        , description: "Create a combobox that can select any option or value for your website with Combobox, a UI component that is versatile and convenient 🗃️"
             }, {
-                title: "ContextMenu"
-                , description: "Create a context menu that can offer any action or function for your website with ContextMenu, a UI component that is contextual and intuitive 🍽️"
+                        title: "ContextMenu"
+                        , description: "Create a context menu that can offer any action or function for your website with ContextMenu, a UI component that is contextual and intuitive 🍽️"
             }, {
-                title: "DataTable"
-                , description: "Create a data table that can display any data or information for your website with DataTable, a UI component that is structured and sortable 📊"
+                        title: "DataTable"
+                        , description: "Create a data table that can display any data or information for your website with DataTable, a UI component that is structured and sortable 📊"
             }, {
-                title: "Dialog"
-                , description: "Create a dialog that can show any content or information for your website with Dialog, a UI component that is modal and interactive 💬"
+                        title: "Dialog"
+                        , description: "Create a dialog that can show any content or information for your website with Dialog, a UI component that is modal and interactive 💬"
             }, {
-                title: "DropdownMenu"
-                , description: "Create a dropdown menu that can offer any option or function for your website with DropdownMenu, a UI component that is dropdown and flexible ⬇️"
+                        title: "DropdownMenu"
+                        , description: "Create a dropdown menu that can offer any option or function for your website with DropdownMenu, a UI component that is dropdown and flexible ⬇️"
             }, {
-                title: "Form"
-                , description: "Create a form that can collect any input or feedback from the user for your website with Form, a UI component that is formative and valid 📝"
+                        title: "Form"
+                        , description: "Create a form that can collect any input or feedback from the user for your website with Form, a UI component that is formative and valid 📝"
             }, {
-                title: "HoverCard"
-                , description: "Create a hover card that can show any content or information when the user hovers over an element for your website with HoverCard, a UI component that is hoverable and delightful 🐭"
+                        title: "HoverCard"
+                        , description: "Create a hover card that can show any content or information when the user hovers over an element for your website with HoverCard, a UI component that is hoverable and delightful 🐭"
             }, {
-                title: "Input"
-                , description: "Create an input field that can accept any text or value from the user for your website with Input, a UI component that is editable and clear ✏️"
+                        title: "Input"
+                        , description: "Create an input field that can accept any text or value from the user for your website with Input, a UI component that is editable and clear ✏️"
             }, {
-                title: "Label"
-                , description: "Create a label that can display any text or information for your website with Label, a UI component that is descriptive and readable 🏷️"
+                        title: "Label"
+                        , description: "Create a label that can display any text or information for your website with Label, a UI component that is descriptive and readable 🏷️"
             }, {
-                title: "Popover"
-                , description: "Create"
-            },
-            OK, I will try to replace the "Not Provided(coming soon)" descriptions with some creative ones that are unique and use emojis. Here is the modified array:
-{title:"Progress",description:"A component that shows the progress of a task or operation in a visual way. You can customize the shape, color, and size of the progress bar or circle. 📈"},{title:"RadioGroup",description:"A group of radio buttons that allow the user to select one option from a set of choices. You can use labels, icons, and tooltips to make the options more clear and accessible. 📻"},{title:"ScrollArea",description:"A container that enables scrolling within a fixed area. You can use it to display large or dynamic content that does not fit in the available space. You can also add scrollbars, shadows, and indicators to enhance the user experience. 🖱️"},{title:"Select",description:"A dropdown menu that lets the user choose one or more items from a list of options. You can use groups, submenus, checkboxes, and search boxes to organize and filter the options. You can also customize the appearance and behavior of the select component. 🗃️"},{title:"Separator",description:"A horizontal or vertical line that divides the content into sections or groups. You can use it to create visual hierarchy and contrast between different parts of the UI. You can also adjust the thickness, color, and style of the separator. 📏"},{title:"Sheet",description:"A component that slides up from the bottom or down from the top of the screen to display additional content or actions. You can use it to show menus, forms, dialogs, or panels without leaving the current context. You can also control how the sheet is triggered, closed, and animated. 📜"},{title:"Skeleton",description:"A component that shows a placeholder for the content that is loading or not available yet. You can use it to improve the perceived performance and avoid blank screens or jumpy layouts. You can also customize the shape, color, and animation of the skeleton. 💀"},{title:"Slider",description:"A component that allows the user to select a value or range of values by dragging a handle along a track. You can use it to input numbers, percentages, dates, or other continuous values. You can also add labels, marks, and tooltips to display the current value or range. 🎚️"},{title:"Switch",description:"A component that toggles between two states: on and off. You can use it to enable or disable a feature or option with a simple tap or click. You can also add labels, icons, and colors to indicate the meaning and status of the switch. 🔛"},{title:"Table",description:"A component that displays data in rows and columns. You can use it to show structured or tabular information that is easy to compare and analyze. You can also add features such as sorting, filtering, pagination, and editing to make the table more interactive and functional. 📊"},{title:"Tabs",description:"A component that organizes the content into different sections or views that can be switched by clicking on a tab label. You can use it to display related but distinct information or tasks in a compact and accessible way. You can also customize the layout, style, and behavior of the tabs. 🗂️"},{title:"Textarea",description:"A component that allows the user to enter multiple lines of text. You can use it to collect feedback, comments, reviews, or other long-form input from the user. You can also add features such as auto-resizing, character count, and validation to enhance the usability and functionality of the textarea. 📝"},{title:"Toast",description:"A component that shows a brief message or notification at the bottom or top of the screen. You can use it to inform the user about the result of an action, an event, an error, or a status update. You can also add icons, buttons, and timers to make the toast more informative and interactive. 🍞"},{title:"Toggle",description:"A component that switches between two or more options or states by clicking on a button or label. You can use it to change settings, modes, views, or preferences with a single action. You can also add icons, colors, and animations to make the toggle more expressive and engaging. 🔄"},{title:"Tooltip",description:"A component that shows a small pop-up message when the user hovers over or focuses on an element. You can use it to provide extra information, tips, hints, or warnings about an element without cluttering the UI. You can also adjust the position, size, and style of the tooltip. 💡"},{title:"Text",description:"A component that displays text content in various formats and styles. You can use it to show headings, paragraphs, lists, quotes, labels, captions, or any other textual information in your UI. You can also apply fonts, colors, sizes, alignments, and decorations to the text. 📃"},{title:"Charts",description:"A component that visualizes data in graphical forms such as bars, lines, pies, or donuts. You can use it to show trends, patterns, comparisons, or distributions of data in an easy-to-understand way. You can also customize the data, axes, legends, and tooltips of the charts. 📈"},{title:"Pagination",description:"A component that divides a large collection of items into smaller pages that can be navigated by clicking on buttons or links. You can use it to improve the performance and usability of your UI when dealing with a lot of data or content. You can also configure the number, size, and layout of the pages. 📄"},{title:"Breadcrumbs",description:"A component that shows the current location of the user within a website or app. You can use it to help the user navigate back to previous pages or levels in a hierarchical structure. You can also add icons, separators, and links to the breadcrumbs. 🍞"},{title:"ChatBubble",description:"A component that shows a message or conversation in a rounded rectangle with a tail pointing to the sender. You can use it to create chat or messaging interfaces that are friendly and familiar. You can also add features such as avatars, timestamps, emojis, and attachments to the chat bubble. 💬"},{title:"DateandTimePicker",description:"A component that allows the user to select a date and/or time from a calendar or a clock. You can use it to input or display dates and times for events, appointments, schedules, or deadlines. You can also customize the format, range, and appearance of the date and time picker. 📅"},{title:"StackedLists",description:"A component that displays a list of items in a stacked or overlapping manner. You can use it to show a sequence of steps, actions, or events in a compact and elegant way. You can also add transitions, animations, and interactions to the stacked list. 🗒️"},{title:"Feeds",description:"A component that displays a stream of updates or news from various sources or topics. You can use it to keep the user informed and engaged with the latest information or content. You can also add features such as images, videos, likes, comments, and shares to the feeds. 📰"},{title:"Feildset",description:"A component that groups related elements in a form or a UI. You can use it to create logical sections or categories for the user input or output. You can also add a legend or a label to describe the purpose or meaning of the fieldset. 📋"},{title:"States",description:"A component that shows the status or condition of an element or a system. You can use it to indicate if something is loading, success, error, warning, disabled, active, or inactive. You can also use colors, icons, texts, and animations to convey the state clearly and effectively. 🔴"},{title:"ActionPanels",description:"A component that displays a set of actions or commands that the user can perform on an element or a UI. You can use it to provide quick and easy access to common or contextual functions such as edit, delete, copy, share, etc. You can also use buttons, icons, menus, or toolbars to present the action panel. ⚙️"},{title:"CheckoutForm",description:"A component that collects the information and payment details from the user when they want to buy something online. You can use it to create a smooth and secure checkout process for your e-commerce website or app. You can also add features such as validation, confirmation, and summary to the checkout form. 💳"},{title:"Reviews",description:"A component that shows the feedback or opinion of the user about a product or service. You can use it to display ratings, comments, testimonials, or recommendations from your customers or users. You can also add features such as images, videos, names, dates, and filters to the reviews. ⭐"},{title:"OrderSummaries",description:"A component that shows the details and breakdown of an order placed by the user online. You can use it to display items, quantities,
-]
+                        title: "Popover"
+                        , description: "Create"
+            }
+                    {
+                        title: "Progress"
+                        , description: "A component that shows the progress of a task or operation in a visual way. You can customize the shape, color, and size of the progress bar or circle. 📈"
+                    }, {
+                        title: "RadioGroup"
+                        , description: "A group of radio buttons that allow the user to select one option from a set of choices. You can use labels, icons, and tooltips to make the options more clear and accessible. 📻"
+                    }, {
+                        title: "ScrollArea"
+                        , description: "A container that enables scrolling within a fixed area. You can use it to display large or dynamic content that does not fit in the available space. You can also add scrollbars, shadows, and indicators to enhance the user experience. 🖱️"
+                    }, {
+                        title: "Select"
+                        , description: "A dropdown menu that lets the user choose one or more items from a list of options. You can use groups, submenus, checkboxes, and search boxes to organize and filter the options. You can also customize the appearance and behavior of the select component. 🗃️"
+                    }, {
+                        title: "Separator"
+                        , description: "A horizontal or vertical line that divides the content into sections or groups. You can use it to create visual hierarchy and contrast between different parts of the UI. You can also adjust the thickness, color, and style of the separator. 📏"
+                    }, {
+                        title: "Sheet"
+                        , description: "A component that slides up from the bottom or down from the top of the screen to display additional content or actions. You can use it to show menus, forms, dialogs, or panels without leaving the current context. You can also control how the sheet is triggered, closed, and animated. 📜"
+                    }, {
+                        title: "Skeleton"
+                        , description: "A component that shows a placeholder for the content that is loading or not available yet. You can use it to improve the perceived performance and avoid blank screens or jumpy layouts. You can also customize the shape, color, and animation of the skeleton. 💀"
+                    }, {
+                        title: "Slider"
+                        , description: "A component that allows the user to select a value or range of values by dragging a handle along a track. You can use it to input numbers, percentages, dates, or other continuous values. You can also add labels, marks, and tooltips to display the current value or range. 🎚️"
+                    }, {
+                        title: "Switch"
+                        , description: "A component that toggles between two states: on and off. You can use it to enable or disable a feature or option with a simple tap or click. You can also add labels, icons, and colors to indicate the meaning and status of the switch. 🔛"
+                    }, {
+                        title: "Table"
+                        , description: "A component that displays data in rows and columns. You can use it to show structured or tabular information that is easy to compare and analyze. You can also add features such as sorting, filtering, pagination, and editing to make the table more interactive and functional. 📊"
+                    }, {
+                        title: "Tabs"
+                        , description: "A component that organizes the content into different sections or views that can be switched by clicking on a tab label. You can use it to display related but distinct information or tasks in a compact and accessible way. You can also customize the layout, style, and behavior of the tabs. 🗂️"
+                    }, {
+                        title: "Textarea"
+                        , description: "A component that allows the user to enter multiple lines of text. You can use it to collect feedback, comments, reviews, or other long-form input from the user. You can also add features such as auto-resizing, character count, and validation to enhance the usability and functionality of the textarea. 📝"
+                    }, {
+                        title: "Toast"
+                        , description: "A component that shows a brief message or notification at the bottom or top of the screen. You can use it to inform the user about the result of an action, an event, an error, or a status update. You can also add icons, buttons, and timers to make the toast more informative and interactive. 🍞"
+                    }, {
+                        title: "Toggle"
+                        , description: "A component that switches between two or more options or states by clicking on a button or label. You can use it to change settings, modes, views, or preferences with a single action. You can also add icons, colors, and animations to make the toggle more expressive and engaging. 🔄"
+                    }, {
+                        title: "Tooltip"
+                        , description: "A component that shows a small pop-up message when the user hovers over or focuses on an element. You can use it to provide extra information, tips, hints, or warnings about an element without cluttering the UI. You can also adjust the position, size, and style of the tooltip. 💡"
+                    }, {
+                        title: "Text"
+                        , description: "A component that displays text content in various formats and styles. You can use it to show headings, paragraphs, lists, quotes, labels, captions, or any other textual information in your UI. You can also apply fonts, colors, sizes, alignments, and decorations to the text. 📃"
+                    }, {
+                        title: "Charts"
+                        , description: "A component that visualizes data in graphical forms such as bars, lines, pies, or donuts. You can use it to show trends, patterns, comparisons, or distributions of data in an easy-to-understand way. You can also customize the data, axes, legends, and tooltips of the charts. 📈"
+                    }, {
+                        title: "Pagination"
+                        , description: "A component that divides a large collection of items into smaller pages that can be navigated by clicking on buttons or links. You can use it to improve the performance and usability of your UI when dealing with a lot of data or content. You can also configure the number, size, and layout of the pages. 📄"
+                    }, {
+                        title: "Breadcrumbs"
+                        , description: "A component that shows the current location of the user within a website or app. You can use it to help the user navigate back to previous pages or levels in a hierarchical structure. You can also add icons, separators, and links to the breadcrumbs. 🍞"
+                    }, {
+                        title: "ChatBubble"
+                        , description: "A component that shows a message or conversation in a rounded rectangle with a tail pointing to the sender. You can use it to create chat or messaging interfaces that are friendly and familiar. You can also add features such as avatars, timestamps, emojis, and attachments to the chat bubble. 💬"
+                    }, {
+                        title: "DateandTimePicker"
+                        , description: "A component that allows the user to select a date and/or time from a calendar or a clock. You can use it to input or display dates and times for events, appointments, schedules, or deadlines. You can also customize the format, range, and appearance of the date and time picker. 📅"
+                    }, {
+                        title: "StackedLists"
+                        , description: "A component that displays a list of items in a stacked or overlapping manner. You can use it to show a sequence of steps, actions, or events in a compact and elegant way. You can also add transitions, animations, and interactions to the stacked list. 🗒️"
+                    }, {
+                        title: "Feeds"
+                        , description: "A component that displays a stream of updates or news from various sources or topics. You can use it to keep the user informed and engaged with the latest information or content. You can also add features such as images, videos, likes, comments, and shares to the feeds. 📰"
+                    }, {
+                        title: "Feildset"
+                        , description: "A component that groups related elements in a form or a UI. You can use it to create logical sections or categories for the user input or output. You can also add a legend or a label to describe the purpose or meaning of the fieldset. 📋"
+                    }, {
+                        title: "States"
+                        , description: "A component that shows the status or condition of an element or a system. You can use it to indicate if something is loading, success, error, warning, disabled, active, or inactive. You can also use colors, icons, texts, and animations to convey the state clearly and effectively. 🔴"
+                    }, {
+                        title: "ActionPanels"
+                        , description: "A component that displays a set of actions or commands that the user can perform on an element or a UI. You can use it to provide quick and easy access to common or contextual functions such as edit, delete, copy, share, etc. You can also use buttons, icons, menus, or toolbars to present the action panel. ⚙️"
+                    }, {
+                        title: "CheckoutForm"
+                        , description: "A component that collects the information and payment details from the user when they want to buy something online. You can use it to create a smooth and secure checkout process for your e-commerce website or app. You can also add features such as validation, confirmation, and summary to the checkout form. 💳"
+                    }, {
+                        title: "Reviews"
+                        , description: "A component that shows the feedback or opinion of the user about a product or service. You can use it to display ratings, comments, testimonials, or recommendations from your customers or users. You can also add features such as images, videos, names, dates, and filters to the reviews. ⭐"
+                    }, {
+                        title: "OrderSummaries"
+                        , description: "A component that shows the details and breakdown of an order placed by the user online. You can use it to display items, quantities,
+                    ]
+                    
+
+
+
+                    
