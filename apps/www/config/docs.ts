@@ -10,28 +10,40 @@ export const docsConfig: DocsConfig = {
     {
       title: "Documentation",
       href: "/docs",
+      description: "Not Provided(coming soon)",
+
     },
     {
       title: "Components",
       href: "/docs/ui/accordion",
+      description: "Not Provided(coming soon)",
+
     },
     {
       title: "Examples",
       href: "/examples",
+      description: "Not Provided(coming soon)",
+
     },
     {
       title: "Figma",
       href: "/docs/figma",
+      description: "Not Provided(coming soon)",
+
     },
     {
       title: "GitHub",
       href: "https://github.com/beingofexistence/dx",
+      description: "Not Provided(coming soon)",
+
       external: true,
     },
     {
       title: "Twitter",
       href: "https://twitter.com/beingofexistence",
       external: true,
+      description: "Not Provided(coming soon)",
+
     },
   ],
   sidebarNav: [
