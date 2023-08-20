@@ -51,19 +51,20 @@ import axios from "axios";
 //       console.error("Error fetching the page:", error)
 //     })
 // })
-  axios
-    .get(
-      `https://blockspot.io/wallet/`
-    )
-    .then((response) => {
-      const html = response.data
-    //   matcher =
-    //     "From This Sentence I have to select this(Yes!!!,You Selected The Right Thing)"
-    //   preregex = html.match(/.url. href..https...github.com.\w+.\w+-\w+/g)
+  // axios
+  //   .get(
+  //     `https://blockspot.io/wallet/`
+  //   )
+  //   .then((response) => {
+  //     const html = response.data
+  //   //   matcher =
+  //   //     "From This Sentence I have to select this(Yes!!!,You Selected The Right Thing)"
+  //   //   preregex = html.match(/.url. href..https...github.com.\w+.\w+-\w+/g)
 
-    //   passport_github_repository = `git clone ${preregex}`
-      console.log(html)
-    })
-    .catch((error) => {
-      console.error("Error fetching the page:", error)
-    })
+  //   //   passport_github_repository = `git clone ${preregex}`
+  //     console.log(html)
+  //   })
+  //   .catch((error) => {
+  //     console.error("Error fetching the page:", error)
+  //   })
+
