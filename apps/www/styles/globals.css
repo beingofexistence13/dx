@@ -53,6 +53,7 @@ html {
     --code: rgb(0, 0, 0) (255, 0, 0);
     --code-foreground: #f4f4f5;
     --code--highlighted: rgb(240, 240, 240);
+    --copy-button-background: rgb(255, 255, 255);
 
     --scrollbar-track: rgb(248, 248, 248);
     --scrollbar-track-border: rgb(242, 242, 242);
@@ -100,6 +101,7 @@ html {
     --code: rgb(255, 255, 255);
     --code-foreground: #18181b;
     --code-highlighted: rgb(17, 17, 17);
+    --copy-button-background: rgb(17, 17, 17);
 
     --scrollbar-track: #09090b;
     --scrollbar-track-border: #1b1b1f;
@@ -150,12 +152,11 @@ pre {
   background-color: var(--code-foreground) !important;
 }
 
-div[data-rehype-pretty-code-fragment] button:hover,
 span.line--highlighted {
   background-color: var(--code-foreground) !important;
 }
-div[data-rehype-pretty-code-fragment] button {
-  background-color: var(--code-highlighted) !important;
+div[data-rehype-pretty-code-fragment] button:hover {
+  background-color: var(--copy-button-background) !important;
 }
 
 html.dark div[data-rehype-pretty-code-fragment] button svg {
@@ -179,7 +180,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 /* Firefox */
 * {
-  /* overflow-y: auto; */
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb);
 }
@@ -229,30 +229,24 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar {
   animation: ranbow-glow 10s linear infinite;
-  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.05);
-  /* border-radius: 16px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
-  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 2px solid yellow;
   min-width: 100%;
 }
 .rainbow-text {
-  animation: ranbow-glow 30s linear infinite;
+  animation: ranbow-glow 60s linear infinite;
   background: red;
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 0 !important;
-  margin: 0 !important; */
 
-  border: 1px solid red;
+  border: .25px solid red;
 }
 
 .navbar button,
@@ -291,9 +285,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 
 .devMode {
-  /* position: fixed !important;
-  right: 10% !important;
-  bottom: 70px !important; */
 
   padding: 0 !important;
   margin: 0 !important;
@@ -309,19 +300,11 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
   z-index: 100000000000;
 }
-/* .devMode-container *{
-  margin: 0 !important;
-
-} */
 
 .devMode-content * {
-  /* padding-top: 0 !important; */
   margin-top: 0 !important;
 }
-/* .devMode-content div{
-margin: 0 !important;
 
-} */
 .horizantalDivider {
   margin-top: 10px !important;
 

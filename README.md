@@ -1107,3 +1107,5 @@ See the [Contributing Guidelines](./.github/CONTRIBUTING.md) for more details.
 
 Login Widget have some bugs
 My OpenAi freetier is over
+
+npx beingofexistence-dx@latest init
