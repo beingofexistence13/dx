@@ -238,7 +238,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   min-width: 100%;
 }
 .rainbow-text {
-  animation: ranbow-glow 60s linear infinite;
+  /* animation: ranbow-glow 60s linear infinite; */
   /* background: red; */
 
   display: flex;
