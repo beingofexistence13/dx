@@ -103,11 +103,11 @@ export function DocsSidebarNavItems({
       }
     }
 
-    const interval = setInterval(() => {
-      const randomIndex = Math.floor(Math.random() * emojis.length)
-      setEmoji(emojis[randomIndex])
-    }, 30000)
-    return () => clearInterval(interval)
+    // const interval = setInterval(() => {
+    //   const randomIndex = Math.floor(Math.random() * emojis.length)
+    //   setEmoji(emojis[randomIndex])
+    // }, 30000)
+    // return () => clearInterval(interval)
 
     // const fetchRandomEmoji = async () => {
     //   const response = await axios.get("https://api.api-ninjas.com/v1/emoji", {
