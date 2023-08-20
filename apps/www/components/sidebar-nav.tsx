@@ -122,7 +122,7 @@ export function DocsSidebarNavItems({
     // fetchRandomEmoji()
 
     fetchDescriptions()
-  }, [items])
+  }, [descriptions, emojis, items])
 
   function logoLetter(title: string): string {
     let text = title
@@ -174,7 +174,7 @@ export function DocsSidebarNavItems({
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
                 <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px]">
                   <AvatarImage
-                    src={`https://logo.clearbit.com/${item.title}.com`}
+                    src={item.logo ? item.logo : `https://logo.clearbit.com/${item.title}.com`}
                   />
                   <AvatarFallback>
                     {item.title ? logoLetter(item.title) : "Dx"}
