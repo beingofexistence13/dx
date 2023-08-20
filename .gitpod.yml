@@ -16,29 +16,29 @@ tasks:
     #       cd packages && cd terminalflow && pnpm install
     #   command: |
     #       pnpm run dev
-    - name: tailwindcss-documentation
-      init: |
-          cd inspirations &&
-          git clone https://github.com/beingofexistence/tailwindcss-documentation.git &&
-          cd tailwindcss-documentation &&
-          rm -rf .git
-      command: |
-          yarn install &&
-          yarn run build
-    - name: nextui
-      init: |
-          cd inspirations &&
-          git clone https://github.com/beingofexistence/nextui.git &&
-          cd nextui &&
-          rm -rf .git
-    - name: material-ui
-      init: |
-          cd inspirations &&
-          git clone https://github.com/beingofexistence/material-ui.git &&
-          cd material-ui &&
-          rm -rf .git
-      command: |
-          yarn install
+    # - name: tailwindcss-documentation
+    #   init: |
+    #       cd inspirations &&
+    #       git clone https://github.com/beingofexistence/tailwindcss-documentation.git &&
+    #       cd tailwindcss-documentation &&
+    #       rm -rf .git
+    #   command: |
+    #       yarn install &&
+    #       yarn run build
+    # - name: nextui
+    #   init: |
+    #       cd inspirations &&
+    #       git clone https://github.com/beingofexistence/nextui.git &&
+    #       cd nextui &&
+    #       rm -rf .git
+    # - name: material-ui
+    #   init: |
+    #       cd inspirations &&
+    #       git clone https://github.com/beingofexistence/material-ui.git &&
+    #       cd material-ui &&
+    #       rm -rf .git
+    #   command: |
+    #       yarn install
     # - name: nextjs
     #   init: |
     #       cd inspirations &&
@@ -52,3 +52,11 @@ tasks:
     # - name: Terminal
     #   init: |
        
+
+
+
+
+
+
+
+
