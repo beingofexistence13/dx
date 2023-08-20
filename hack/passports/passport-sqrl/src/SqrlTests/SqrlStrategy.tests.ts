@@ -3,7 +3,7 @@
 import { assert } from "chai";
 import * as express from 'express';
 import { AuthCompletionInfo, AuthenticateAsyncResult, ClientRequestInfo, SQRLStrategy, SQRLStrategyConfig, TIFFlags, UrlAndNut } from '../passport-sqrl';
-import { MockLogger } from '../SqrlTests/MockLogger';
+import { MockLogger } from './MockLogger';
 import { MockSQRLClient, ServerResponseInfo } from './MockSqrlClient';
 
 describe('SQRLStrategy', () => {

@@ -3,7 +3,7 @@
 import { assert } from "chai";
 import * as express from 'express';
 import { AuthCompletionInfo, AuthenticateAsyncResult, ClientInputError, ClientRequestInfo, ILogger, ISQRLIdentityStorage, NutInfo, SQRLExpress, SQRLStrategyConfig, TIFFlags, UrlAndNut } from '../passport-sqrl';
-import { MockLogger } from '../SqrlTests/MockLogger';
+import { MockLogger } from './MockLogger';
 import { MockSQRLClient, ServerResponseInfo } from './MockSqrlClient';
 
 type AuthCallback = (clientRequestInfo: ClientRequestInfo) => Promise<AuthCompletionInfo>;
