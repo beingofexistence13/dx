@@ -1,0 +1,11 @@
+<form
+  onSubmit={(event) => {
+    event.preventDefault();
+  }}
+>
+  <Stack spacing={1}>
+    <Input placeholder="Try to submit with no text!" required />
+    <Input placeholder="It is disabled" disabled />
+    <Button type="submit">Submit</Button>
+  </Stack>
+</form>

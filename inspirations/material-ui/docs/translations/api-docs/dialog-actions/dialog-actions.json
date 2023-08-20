@@ -1,0 +1,21 @@
+{
+  "componentDescription": "",
+  "propDescriptions": {
+    "children": { "description": "The content of the component." },
+    "classes": { "description": "Override or extend the styles applied to the component." },
+    "disableSpacing": {
+      "description": "If <code>true</code>, the actions do not have additional margin."
+    },
+    "sx": {
+      "description": "The system prop that allows defining system overrides as well as additional CSS styles."
+    }
+  },
+  "classDescriptions": {
+    "root": { "description": "Styles applied to the root element." },
+    "spacing": {
+      "description": "Styles applied to {{nodeName}} unless {{conditions}}.",
+      "nodeName": "the root element",
+      "conditions": "<code>disableSpacing={true}</code>"
+    }
+  }
+}

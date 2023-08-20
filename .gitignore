@@ -33,16 +33,5 @@ yarn-error.log*
 .turbo
 
 .contentlayer
-<<<<<<< HEAD
+
 tsconfig.tsbuildinfo
-
-
-# Inspirations
-inspirations/material-ui
-inspirations/nextui
-inspirations/next.js
-inspirations/tailwindcss-documentation
-
-=======
-tsconfig.tsbuildinfo
->>>>>>> parent of ac26ef8 (feat: gitpod configuratioins updated)
