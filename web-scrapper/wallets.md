@@ -289,3 +289,6 @@ const wallers = [
     {title:"Zelcore",description:"Not Provided(coming soon)"},
     {title:"Zumo",description:"Not Provided(coming soon)"},
 ]
+
+
+<img style="margin-right: 5px;" src="/wp-content/uploads/xapo-wallet-logo-32x32.png" width="16">
