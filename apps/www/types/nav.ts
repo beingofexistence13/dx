@@ -4,6 +4,7 @@ export interface NavItem {
   title: string
   description?: string
   logo?: string
+  github_repository?: string
   href?: string
   disabled?: boolean
   external?: boolean

@@ -770,7 +770,6 @@
 //   { title: "passport-yj" },
 //   { title: "passport-youtube" },
 //   { title: "passport-zengine" },
-//   { title: "veritone-sdk" },
 // ]
 
 
