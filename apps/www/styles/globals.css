@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -246,7 +245,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   align-items: center;
   justify-content: center;
 
-  border: .25px solid red;
+  border: 0.25px solid red;
 }
 
 .navbar button,
@@ -285,7 +284,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 
 .devMode {
-
   padding: 0 !important;
   margin: 0 !important;
   height: 50px !important;
@@ -311,11 +309,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   width: 100%;
   height: 2px;
   background: var(--code-foreground);
-}
-.backdrop-blur-sm {
-  display: none !important;
-  background-color: transparent !important;
-  filter: blur(0) !important;
 }
 
 .social_media_container {
@@ -345,10 +338,12 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 .devMode-content {
   z-index: 100000000000;
 }
-
-
-
-
-
-
-
+.hack {
+  width: 380px !important;
+}
+.hack svg {
+  display: none !important;
+}
+/* .backdrop-blur-sm {
+  display: none !important;
+} */

@@ -115,8 +115,8 @@ export function DevMode() {
           <Icons.devMode className="h-2 w-2" />
         </div>
       </DialogTrigger>
-      <DialogContent className="devMode-container flex h-[600px] flex-col">
-        <div className="devMode-header px-3 pt-10">
+      <DialogContent className="devMode-container flex h-[600px] flex-col rounded-sm">
+        <div className="devMode-header px-3 pt-3">
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}

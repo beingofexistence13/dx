@@ -5,8 +5,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "./accordion"
-import { Alert, AlertDescription, AlertTitle } from "./alert"
+} from "@/components/ui/accordion"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -17,12 +17,12 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "./alert-dialog"
-import { AspectRatio } from "./aspect-ratio"
-import { Avatar, AvatarFallback, AvatarImage } from "./avatar"
-import { Badge, badgeVariants } from "./badge"
-import { Button, buttonVariants } from "./button"
-import { Calendar } from "./calendar"
+} from "@/components/ui/alert-dialog"
+import { AspectRatio } from "@/components/ui/aspect-ratio"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Badge, badgeVariants } from "@/components/ui/badge"
+import { Button, buttonVariants } from "@/components/ui/button"
+import { Calendar } from "@/components/ui/calendar"
 import {
   Card,
   CardContent,
@@ -30,13 +30,13 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./card"
-import { Checkbox } from "./checkbox"
+} from "@/components/ui/card"
+import { Checkbox } from "@/components/ui/checkbox"
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "./collapsible"
+} from "@/components/ui/collapsible"
 import {
   Command,
   CommandDialog,
@@ -47,7 +47,7 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "./command"
+} from "@/components/ui/command"
 import {
   ContextMenu,
   ContextMenuCheckboxItem,
@@ -64,7 +64,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "./context-menu"
+} from "@/components/ui/context-menu"
 import {
   Dialog,
   DialogContent,
@@ -73,7 +73,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./dialog"
+} from "@/components/ui/dialog"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -90,7 +90,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "./dropdown-menu"
+} from "@/components/ui/dropdown-menu"
 import {
   Form,
   FormControl,
@@ -100,10 +100,10 @@ import {
   FormLabel,
   FormMessage,
   useFormField,
-} from "./form"
-import { HoverCard, HoverCardContent, HoverCardTrigger } from "./hover-card"
-import { Input } from "./input"
-import { Label } from "./label"
+} from "@/components/ui/form"
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 import {
   Menubar,
   MenubarCheckboxItem,
@@ -121,7 +121,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from "./menubar"
+} from "@/components/ui/menubar"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -132,11 +132,11 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
   navigationMenuTriggerStyle,
-} from "./navigation-menu"
-import { Popover, PopoverContent, PopoverTrigger } from "./popover"
-import { Progress } from "./progress"
-import { RadioGroup, RadioGroupItem } from "./radio-group"
-import { ScrollArea, ScrollBar } from "./scroll-area"
+} from "@/components/ui/navigation-menu"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { Progress } from "@/components/ui/progress"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import {
   Select,
   SelectContent,
@@ -146,8 +146,8 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from "./select"
-import { Separator } from "./separator"
+} from "@/components/ui/select"
+import { Separator } from "@/components/ui/separator"
 import {
   Sheet,
   SheetClose,
@@ -157,10 +157,10 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "./sheet"
-import { Skeleton } from "./skeleton"
-import { Slider } from "./slider"
-import { Switch } from "./switch"
+} from "@/components/ui/sheet"
+import { Skeleton } from "@/components/ui/skeleton"
+import { Slider } from "@/components/ui/slider"
+import { Switch } from "@/components/ui/switch"
 import {
   Table,
   TableBody,
@@ -170,9 +170,9 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./table"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./tabs"
-import { Textarea } from "./textarea"
+} from "@/components/ui/table"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Textarea } from "@/components/ui/textarea"
 import {
   Toast,
   ToastAction,
@@ -183,16 +183,16 @@ import {
   ToastViewport,
   type ToastActionElement,
   type ToastProps,
-} from "./toast"
-import { Toaster } from "./toaster"
-import { Toggle, toggleVariants } from "./toggle"
+} from "@/components/ui/toast"
+import { Toaster } from "@/components/ui/toaster"
+import { Toggle, toggleVariants } from "@/components/ui/toggle"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "./tooltip"
-import { toast, useToast } from "./use-toast"
+} from "@/components/ui/tooltip"
+import { toast, useToast } from "@/components/ui/use-toast"
 
 export {
   Accordion,

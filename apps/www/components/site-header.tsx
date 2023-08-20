@@ -4,14 +4,92 @@ import React from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-import { ScrollArea } from "@radix-ui/react-scroll-area"
+
+// import { ScrollArea } from "@radix-ui/react-scroll-area"
 
 import { siteConfig } from "@/config/site"
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 // Socail Media
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
+// import {
+//   Dialog,
+//   DialogContent,
+//   DialogDescription,
+//   DialogFooter,
+//   DialogHeader,
+//   DialogTitle,
+//   DialogTrigger,
+// } from "@/components/ui/dialog"
+// import { Input } from "@/components/ui/input"
+// import { Label } from "@/components/ui/label"
+import { CommandMenu } from "@/components/command-menu"
+import { Icons } from "@/components/icons"
+import { MainNav } from "@/components/main-nav"
+import { MobileNav } from "@/components/mobile-nav"
+import { ModeToggle } from "@/components/mode-toggle"
+// import { buttonVariants } from "@/registry/new-york/ui/button"
+// import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
+// import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
+// import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Alert,
+  AlertDescription,
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+  AlertTitle,
+  AspectRatio,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Button,
+  Calendar,
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+  Checkbox,
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuGroup,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuPortal,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
   Dialog,
   DialogContent,
   DialogDescription,
@@ -19,19 +97,121 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { CommandMenu } from "@/components/command-menu"
-import { Icons } from "@/components/icons"
-import { MainNav } from "@/components/main-nav"
-import { MobileNav } from "@/components/mobile-nav"
-import { ModeToggle } from "@/components/mode-toggle"
-import { buttonVariants } from "@/registry/new-york/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
-
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+  Input,
+  Label,
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarGroup,
+  MenubarItem,
+  MenubarLabel,
+  MenubarMenu,
+  MenubarPortal,
+  MenubarRadioGroup,
+  MenubarRadioItem,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Progress,
+  RadioGroup,
+  RadioGroupItem,
+  ScrollArea,
+  ScrollBar,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectSeparator,
+  SelectTrigger,
+  SelectValue,
+  Separator,
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  Skeleton,
+  Slider,
+  Switch,
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+  Toast,
+  ToastAction,
+  ToastClose,
+  ToastDescription,
+  ToastProvider,
+  ToastTitle,
+  ToastViewport,
+  Toaster,
+  Toggle,
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+  badgeVariants,
+  buttonVariants,
+  navigationMenuTriggerStyle,
+  toast,
+  toggleVariants,
+  useFormField,
+  useToast,
+  type ToastActionElement,
+  type ToastProps,
+} from "@/components/ui"
 
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
@@ -128,24 +308,141 @@ export function SiteHeader() {
                 </Tabs>
               </DialogContent>
             </Dialog>
+
             <ModeToggle />
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={cn(
-                  buttonVariants({
-                    variant: "ghost",
-                  }),
-                  "docs w-9 px-0 "
-                )}
-              >
-                <Icons.hack className="h-4 w-4 fill-current" />
-                <span className="sr-only">HackIn</span>
-              </div>
-            </Link>
+
+            <Dialog>
+              <DialogTrigger asChild>
+                <div
+                  className={cn(
+                    buttonVariants({
+                      variant: "ghost",
+                    }),
+                    "social-media w-9 px-0"
+                  )}
+                >
+                  <Icons.hack className="h-4 w-4 fill-current" />
+                  <span className="sr-only">HackIn</span>
+                </div>
+              </DialogTrigger>
+              <DialogContent className="hack flex items-center rounded-md p-3">
+                {/* <Tabs defaultValue="vlog" className="">
+                  <DialogHeader>
+                    <DialogTitle>
+                      <TabsList className="absolute left-4 top-3 w-[250px]">
+                        <TabsTrigger value="vlog">Email</TabsTrigger>
+                        <TabsTrigger value="react">Social Medias</TabsTrigger>
+                        <TabsTrigger value="gaming">Web3</TabsTrigger>
+                      </TabsList>
+                    </DialogTitle>
+                    <DialogDescription className="social_media_container h-[350px] overflow-y-auto overflow-x-hidden pt-0">
+                      <TabsContent value="vlog">
+                        <div className="grid grid-cols-2 justify-stretch gap-3">
+                          {socialMediaConfig.platformVlog?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                      <TabsContent value="gaming">
+                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                          {socialMediaConfig.platformGaming?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                      <TabsContent value="react">
+                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
+                          {socialMediaConfig.platformReact?.map(
+                            (item) =>
+                              item.href && (
+                                <SocialMedia
+                                  key={item.href}
+                                  href={item.href}
+                                  onOpenChange={setOpen}
+                                >
+                                  {item.title}
+                                </SocialMedia>
+                              )
+                          )}
+                        </div>
+                      </TabsContent>
+                    </DialogDescription>
+                  </DialogHeader>
+                </Tabs> */}
+                <Tabs defaultValue="hackIn" className="w-full ">
+                  <TabsList className="mx-auto grid w-full grid-cols-2">
+                    <TabsTrigger value="hackIn">HackIn</TabsTrigger>
+                    <TabsTrigger value="hackUp">HackUp</TabsTrigger>
+                  </TabsList>
+                  <TabsContent value="hackIn">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>HackIn</CardTitle>
+                        <CardDescription>
+                          Make changes to your account here. Click save when
+                          youre done.
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="name">Name</Label>
+                          <Input id="name" defaultValue="Pedro Duarte" />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="username">Username</Label>
+                          <Input id="username" defaultValue="@peduarte" />
+                        </div>
+                      </CardContent>
+                      <CardFooter>
+                        <Button>Save changes</Button>
+                      </CardFooter>
+                    </Card>
+                  </TabsContent>
+                  <TabsContent value="hackUp">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>HackUp</CardTitle>
+                        <CardDescription>
+                          Change your password here. After saving, youll be
+                          logged out.
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="current">Current password</Label>
+                          <Input id="current" type="password" />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="new">New password</Label>
+                          <Input id="new" type="password" />
+                        </div>
+                      </CardContent>
+                      <CardFooter>
+                        <Button>Save password</Button>
+                      </CardFooter>
+                    </Card>
+                  </TabsContent>
+                </Tabs>
+              </DialogContent>
+            </Dialog>
           </nav>
         </div>
       </div>
