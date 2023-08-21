@@ -103,7 +103,7 @@ export function DevMode() {
 
   return (
     <Dialog>
-      <DialogTrigger className="devMode fixed bottom-3 right-2 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full border p-2">
+      <DialogTrigger className="devMode fixed bottom-20 right-2 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full border p-2 sm:bottom-2 ">
         <div
           className={cn(
             buttonVariants({

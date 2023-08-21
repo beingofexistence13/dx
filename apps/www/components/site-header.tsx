@@ -4,34 +4,14 @@ import React from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-
-// import { ScrollArea } from "@radix-ui/react-scroll-area"
-
 import { siteConfig } from "@/config/site"
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
-// Socail Media
-// import { Button } from "@/components/ui/button"
-// import {
-//   Dialog,
-//   DialogContent,
-//   DialogDescription,
-//   DialogFooter,
-//   DialogHeader,
-//   DialogTitle,
-//   DialogTrigger,
-// } from "@/components/ui/dialog"
-// import { Input } from "@/components/ui/input"
-// import { Label } from "@/components/ui/label"
 import { CommandMenu } from "@/components/command-menu"
 import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
-// import { buttonVariants } from "@/registry/new-york/ui/button"
-// import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
-// import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-// import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 import {
   Accordion,
   AccordionContent,
@@ -237,7 +217,7 @@ export function SiteHeader() {
                     buttonVariants({
                       variant: "ghost",
                     }),
-                    "social-media w-9 px-0"
+                    "nav-toggles social-media w-9 px-0"
                   )}
                 >
                   <Icons.chevronDown className="h-4 w-4" />
@@ -318,7 +298,7 @@ export function SiteHeader() {
                     buttonVariants({
                       variant: "ghost",
                     }),
-                    "social-media w-9 px-0"
+                    "nav-toggles social-media w-9 px-0"
                   )}
                 >
                   <Icons.hack className="h-4 w-4 fill-current" />
@@ -326,67 +306,6 @@ export function SiteHeader() {
                 </div>
               </DialogTrigger>
               <DialogContent className="hack flex items-center rounded-md p-3">
-                {/* <Tabs defaultValue="vlog" className="">
-                  <DialogHeader>
-                    <DialogTitle>
-                      <TabsList className="absolute left-4 top-3 w-[250px]">
-                        <TabsTrigger value="vlog">Email</TabsTrigger>
-                        <TabsTrigger value="react">Social Medias</TabsTrigger>
-                        <TabsTrigger value="gaming">Web3</TabsTrigger>
-                      </TabsList>
-                    </DialogTitle>
-                    <DialogDescription className="social_media_container h-[350px] overflow-y-auto overflow-x-hidden pt-0">
-                      <TabsContent value="vlog">
-                        <div className="grid grid-cols-2 justify-stretch gap-3">
-                          {socialMediaConfig.platformVlog?.map(
-                            (item) =>
-                              item.href && (
-                                <SocialMedia
-                                  key={item.href}
-                                  href={item.href}
-                                  onOpenChange={setOpen}
-                                >
-                                  {item.title}
-                                </SocialMedia>
-                              )
-                          )}
-                        </div>
-                      </TabsContent>
-                      <TabsContent value="gaming">
-                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
-                          {socialMediaConfig.platformGaming?.map(
-                            (item) =>
-                              item.href && (
-                                <SocialMedia
-                                  key={item.href}
-                                  href={item.href}
-                                  onOpenChange={setOpen}
-                                >
-                                  {item.title}
-                                </SocialMedia>
-                              )
-                          )}
-                        </div>
-                      </TabsContent>
-                      <TabsContent value="react">
-                        <div className="grid grid-cols-2 justify-stretch gap-3 ">
-                          {socialMediaConfig.platformReact?.map(
-                            (item) =>
-                              item.href && (
-                                <SocialMedia
-                                  key={item.href}
-                                  href={item.href}
-                                  onOpenChange={setOpen}
-                                >
-                                  {item.title}
-                                </SocialMedia>
-                              )
-                          )}
-                        </div>
-                      </TabsContent>
-                    </DialogDescription>
-                  </DialogHeader>
-                </Tabs> */}
                 <Tabs defaultValue="hackIn" className="w-full ">
                   <TabsList className="mx-auto grid w-full grid-cols-2">
                     <TabsTrigger value="hackIn">HackIn</TabsTrigger>

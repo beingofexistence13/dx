@@ -7,7 +7,7 @@ export default function NotFound() {
         This Page Is In Devlopment And Will Be Added Soon!!!
       </h2> */}
       <h2 className="text-lg font-bold">
-        This page  is in devlopment(coming soon!!!)
+        This page is in devlopment(coming soon!!ghfgh!)
       </h2>
     </div>
   )

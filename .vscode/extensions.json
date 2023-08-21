@@ -10,6 +10,7 @@
     "dbaeumer.vscode-eslint",
     // Collaborating
     "ms-vsliveshare.vsliveshare",
+    "hoovercj.vscode-power-mode",
     // MDX Authoring
     "github.github-vscode-theme",
     "dsznajder.es7-react-js-snippets"
