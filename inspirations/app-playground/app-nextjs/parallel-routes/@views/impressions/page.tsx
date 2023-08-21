@@ -1,4 +1,4 @@
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 
 export default function Page() {
   return (

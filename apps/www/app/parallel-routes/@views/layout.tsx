@@ -1,4 +1,4 @@
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import { TabGroup } from '#/ui/tab-group';
 
 export default function Layout({ children }: { children: React.ReactNode }) {

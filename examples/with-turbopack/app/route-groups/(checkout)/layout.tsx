@@ -1,4 +1,4 @@
-import { Boundary } from '#/ui/boundary'
+import { Boundary } from '@/ui/boundary'
 import { TabNavItem } from '#/ui/tab-nav-item'
 import React from 'react'
 

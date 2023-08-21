@@ -1,5 +1,5 @@
 import { getCategories } from '#/app/api/categories/getCategories'
-import { Boundary } from '#/ui/boundary'
+import { Boundary } from '@/ui/boundary'
 import { TabGroup } from '#/ui/tab-group'
 import { CounterProvider } from 'app/context/counter-context'
 import React from 'react'

@@ -1,5 +1,5 @@
 import { CurrentRoute } from '#/app-nextjs/parallel-routes/_ui/current-route';
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import Link from 'next/link';
 
 export default function Default() {

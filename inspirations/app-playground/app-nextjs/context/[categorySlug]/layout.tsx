@@ -1,5 +1,5 @@
 import { getCategories, getCategory } from '#/app-nextjs/api/categories/getCategories';
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import { TabGroup } from '#/ui/tab-group';
 import { Counter } from '../context-click-counter';
 

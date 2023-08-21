@@ -1,5 +1,5 @@
 import { getCategory } from '#/app-nextjs/api/categories/getCategories';
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import { Counter } from '../context-click-counter';
 
 export default async function Page({

@@ -1,4 +1,4 @@
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import { ExternalLink } from '#/ui/external-link';
 
 export default function Page() {

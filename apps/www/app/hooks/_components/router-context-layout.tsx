@@ -1,6 +1,6 @@
 'use client';
 
-import { Boundary } from '#/ui/boundary';
+import { Boundary } from '@/ui/boundary';
 import {
   useSelectedLayoutSegment,
   useSelectedLayoutSegments,
