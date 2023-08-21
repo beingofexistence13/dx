@@ -6807,7 +6807,6 @@ let passport_statergy = [
 // })
 let evm_dapps = []
 let evm_dapp = [
-  [
     {
       title: "Unstoppable Domains",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4725dda0-4471-4d0f-7adf-6bbe8b929c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
@@ -9520,11 +9519,11 @@ let evm_dapp = [
       title: "vision",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aaec2b79-1400-42f5-35a2-cd404da89f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
     },
-  ],
+  
 ]
 let solana_dapps = []
 let solana_dapp = [
-  [
+  
     {
       title: "Elusiv",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/822e40a9-0662-4f19-015f-cf3f8867f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
@@ -9629,12 +9628,12 @@ let solana_dapp = [
       title: "OMNIA Protocol",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
     },
-  ],
+
 ]
 
 let cosmos_dapps = []
 let cosmos_dapp = [
-  [
+
     {
       title: "Fuzio",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c01f9e1-a633-4db4-03e9-b4cdd37ad100?projectId=2f05ae7f1116030fde2d36508f472bfb",
@@ -9683,16 +9682,44 @@ let cosmos_dapp = [
       title: "OMNIA Protocol",
       logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
     },
-  ],
+
 ]
 
-passport_statergy.map((statergies) => {
-  passport_statergies = `{title:"${
+evm_dapp.map((statergies) => {
+  let title_formated = statergies.title.replace(/\s+/g, '_');
+  let github_repo_formated = statergies.title.replace(/\s+/g, '');
+  evm_dapps = `{title:"${
     statergies.title
-  }",href:"docs/hack(passports)/${statergies.title.toLowerCase()}",github_repository:"${
-    statergies.href
-  }",description:"Not Provided(coming soon)",logo:"${
+  }",href:"docs/blockchains(evm_dapps)/${title_formated.toLowerCase()}",description:"No Provided(coming soon)",logo:"${
     statergies.logo
   }",items:[]},`
-  console.log(passport_statergies)
+  console.log(evm_dapps)
 })
+
+
+// github_repository:"https://github.com/${github_repo_formated.toLowerCase()}",
+
+
+
+
+
+// solana_dapp.map((statergies) => {
+//   solana_dapps = `{title:"${
+//     statergies.title
+//   }",href:"docs/hack(passports)/${statergies.title.toLowerCase()}",github_repository:"${
+//     statergies.href
+//   }",description:"Not Provided(coming soon)",logo:"${
+//     statergies.logo
+//   }",items:[]},`
+//   console.log(solana_dapps)
+// })
+// cosmos_dapp.map((statergies) => {
+//   cosmos_dapps = `{title:"${
+//     statergies.title
+//   }",href:"docs/hack(passports)/${statergies.title.toLowerCase()}",github_repository:"${
+//     statergies.href
+//   }",description:"Not Provided(coming soon)",logo:"${
+//     statergies.logo
+//   }",items:[]},`
+//   console.log(cosmos_dapps)
+// })
