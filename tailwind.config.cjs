@@ -73,8 +73,8 @@ module.exports = {
       },
     },
     screens: {
-      '2xs': {'max': '320px'},
-      'xs': {'min': '320px','max': '640px'},
+      '2xs': {'max': '400px'},
+      'xs': {'min': '400px','max': '640px'},
       ...defaultTheme.screens,
     },
   },

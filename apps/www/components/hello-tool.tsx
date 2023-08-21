@@ -3,11 +3,9 @@
 import React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
-
 import {
   Avatar,
   AvatarFallback,
@@ -48,7 +46,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool fixed bottom-3 left-[50%] flex h-auto w-[360px] translate-x-[-50%] flex-row items-center justify-center rounded-2xl px-2 py-3">
+    <Menubar className="hello-tool fixed bottom-0 left-[50%] flex h-auto w-full translate-x-[-50%] flex-row items-center justify-center border px-2 py-3 xs:bottom-3 xs:w-[360px] xs:rounded-2xl sm:bottom-3 sm:w-[360px] sm:rounded-2xl">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -346,100 +344,4 @@ function SocialMedia({
       {children}
     </Link>
   )
-}
-
-{
-  /* <Dialog>
-        <DialogTrigger asChild>
-          <div>
-
-            <ContextMenu>
-              <ContextMenuTrigger>
-                <div
-                  className={cn(
-                    buttonVariants({
-                      variant: "ghost",
-                    }),
-                    "flex justify-center items-center p-0 m-0 rounded-lg w-[25px] h-[25px]"
-                  )}
-                >
-
-                  <Icons.inbox className="w-4 h-4" />
-
-                </div>
-              </ContextMenuTrigger>
-              <ContextMenuContent>
-                <ContextMenuItem>Profile</ContextMenuItem>
-                <ContextMenuItem>Billing</ContextMenuItem>
-                <ContextMenuItem>Team</ContextMenuItem>
-                <ContextMenuItem>Subscription</ContextMenuItem>
-              </ContextMenuContent>
-            </ContextMenu>
-            <span className="sr-only">Social Medias</span>
-          </div>
-        </DialogTrigger>
-        <DialogContent className="pr-1 pb-0 pl-4">
-          <Tabs defaultValue="vlog" className="">
-            <DialogHeader>
-              <DialogTitle>
-                <TabsList className="absolute left-4 top-3 w-[200px]">
-                  <TabsTrigger value="vlog">Vlog</TabsTrigger>
-                  <TabsTrigger value="gaming">Gaming</TabsTrigger>
-                  <TabsTrigger value="react">React</TabsTrigger>
-                </TabsList>
-              </DialogTitle>
-              <DialogDescription className=" h-[330px] overflow-y-auto overflow-x-hidden pt-7">
-                <TabsContent value="vlog">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformVlog?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-                <TabsContent value="gaming">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformGaming?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-                <TabsContent value="react">
-                  <div className="grid grid-cols-2 gap-3 justify-stretch">
-                    {socialMediaConfig.platformReact?.map(
-                      (item) =>
-                        item.href && (
-                          <SocialMedia
-                            key={item.href}
-                            href={item.href}
-                            onOpenChange={setOpen}
-                          >
-                            {item.title}
-                          </SocialMedia>
-                        )
-                    )}
-                  </div>
-                </TabsContent>
-              </DialogDescription>
-            </DialogHeader>
-          </Tabs>
-        </DialogContent>
-      </Dialog> */
 }

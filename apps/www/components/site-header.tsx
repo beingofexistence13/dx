@@ -224,7 +224,7 @@ export function SiteHeader() {
                   <span className="sr-only">Social Medias</span>
                 </div>
               </DialogTrigger>
-              <DialogContent className="pb-3 pl-2 pr-0 pt-0">
+              <DialogContent className="max-w-[90%] rounded-md pb-3 pl-2 pr-0 pt-0">
                 <Tabs defaultValue="vlog" className="">
                   <DialogHeader>
                     <DialogTitle>
