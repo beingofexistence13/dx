@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"
 import { ViewVerticalIcon } from "@radix-ui/react-icons"
 
 import { docsConfig } from "@/config/docs"
+import { more, products } from "@/config/navbar"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import {
@@ -18,11 +19,18 @@ import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
-import { more, products } from "@/config/navbar";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
+
+  function logoLetter(title: string): string {
+    let text = title
+    let firstLetter = text.charAt(0).toUpperCase()
+    let lastLetter = text.charAt(text.length - 1).toUpperCase()
+    let result = firstLetter + lastLetter
+    return result
+  }
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -31,7 +39,6 @@ export function MobileNav() {
           variant="ghost"
           className="p-2 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
         >
-          {/* <Icons.menu className="h-4 w-4" /> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -74,7 +81,17 @@ export function MobileNav() {
                     onOpenChange={setOpen}
                   >
                     <HoverCard>
-                      <HoverCardTrigger> {item.title}</HoverCardTrigger>
+                      <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+                        <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                          <AvatarImage
+                            src={`https://logo.clearbit.com/${item.title}.com`}
+                          />
+                          <AvatarFallback>
+                            {item.title ? logoLetter(item.title) : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                        {item.title}
+                      </HoverCardTrigger>
                       <HoverCardContent>{item.description}</HoverCardContent>
                     </HoverCard>
                   </MobileLink>
@@ -91,7 +108,17 @@ export function MobileNav() {
                     onOpenChange={setOpen}
                   >
                     <HoverCard>
-                      <HoverCardTrigger> {item.title}</HoverCardTrigger>
+                      <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+                        <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                          <AvatarImage
+                            src={`https://logo.clearbit.com/${item.title}.com`}
+                          />
+                          <AvatarFallback>
+                            {item.title ? logoLetter(item.title) : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                        {item.title}
+                      </HoverCardTrigger>
                       <HoverCardContent>{item.description}</HoverCardContent>
                     </HoverCard>
                   </MobileLink>
@@ -108,7 +135,24 @@ export function MobileNav() {
                     href={item.href}
                     onOpenChange={setOpen}
                   >
-                    {item.title}
+                    <HoverCard>
+                      <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+                        <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                          <AvatarImage
+                            src={
+                              item.logo
+                                ? item.logo
+                                : `https://logo.clearbit.com/${item.title}.com`
+                            }
+                          />
+                          <AvatarFallback>
+                            {item.title ? logoLetter(item.title) : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                        {item.title}
+                      </HoverCardTrigger>
+                      <HoverCardContent>{item.description}</HoverCardContent>
+                    </HoverCard>
                   </MobileLink>
                 )
             )}
@@ -127,7 +171,26 @@ export function MobileNav() {
                             onOpenChange={setOpen}
                             className="text-muted-foreground"
                           >
-                            {item.title}
+                            <HoverCard>
+                              <HoverCardTrigger className="flex h-[35px] w-full items-center ">
+                                <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                                  <AvatarImage
+                                    src={
+                                      item.logo
+                                        ? item.logo
+                                        : `https://logo.clearbit.com/${item.title}.com`
+                                    }
+                                  />
+                                  <AvatarFallback>
+                                    {item.title ? logoLetter(item.title) : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                {item.title}
+                              </HoverCardTrigger>
+                              <HoverCardContent>
+                                {item.description}
+                              </HoverCardContent>
+                            </HoverCard>
                           </MobileLink>
                         ) : (
                           item.title
