@@ -1,91 +1,52 @@
-import "@/styles/globals.css"
-import { Metadata } from "next"
-
-import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
-import { Analytics } from "@/components/analytics"
-import { HelloTool } from "@/components/hello-tool"
-import { ThemeProvider } from "@/components/providers"
-import { SiteFooter } from "@/components/site-footer"
-import { SiteHeader } from "@/components/site-header"
-import { TailwindIndicator } from "@/components/tailwind-indicator"
-import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
-import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
+import '@/styles/globals.css';
+import { AddressBar } from '@/ui/address-bar';
+import Byline from '@/ui/byline';
+import { GlobalNav } from '@/ui/global-nav';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: 'Next.js App Router',
+    template: '%s | Next.js App Router',
   },
-  description: siteConfig.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
-  ],
-  authors: [
-    {
-      name: "beingofexistence",
-      url: "https://beingofexistence.com",
-    },
-  ],
-  creator: "beingofexistence",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  description:
+    'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
   openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: siteConfig.name,
-      },
-    ],
+    title: 'Next.js App Router Playground',
+    description:
+      'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+    images: [`/api/og?title=Next.js App Router`],
   },
   twitter: {
-    card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [siteConfig.ogImage],
-    creator: "@beingofexistence",
+    card: 'summary_large_image',
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
-  manifest: `${siteConfig.url}/site.webmanifest`,
-}
+};
 
-interface RootLayoutProps {
-  children: React.ReactNode
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <>
-      <html lang="en" suppressHydrationWarning>
-        <head />
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
-          )}
-        >
-          {children}
-        </body>
-      </html>
-    </>
-  )
+    <html lang="en" className="[color-scheme:dark]">
+      <body className="bg-gray-1100 overflow-y-scroll bg-[url('/grid.svg')] pb-36">
+        <GlobalNav />
+
+        <div className="lg:pl-72">
+          <div className="mx-auto max-w-4xl space-y-8 px-2 pt-20 lg:p-8">
+            <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
+              <div className="rounded-lg bg-black">
+                <AddressBar />
+              </div>
+            </div>
+
+            <div className="bg-vc-border-gradient rounded-lg p-px shadow-lg shadow-black/20">
+              <div className="rounded-lg bg-black p-3.5 lg:p-6">{children}</div>
+            </div>
+            <Byline className="fixed sm:hidden" />
+          </div>
+        </div>
+      </body>
+    </html>
+  );
 }
