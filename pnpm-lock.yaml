@@ -108,8 +108,8 @@ importers:
         specifier: ^7.6.0
         version: 7.6.0
       '@heroicons/react':
-        specifier: ^2.0.18
-        version: 2.0.18(react@18.2.0)
+        specifier: 1.0.6
+        version: 1.0.6(react@18.2.0)
       '@hookform/resolvers':
         specifier: ^3.1.0
         version: 3.2.0(react-hook-form@7.45.4)
@@ -2886,8 +2886,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@heroicons/react@2.0.18(react@18.2.0):
-    resolution: {integrity: sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw==}
+  /@heroicons/react@1.0.6(react@18.2.0):
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
     peerDependencies:
       react: '>= 16'
     dependencies:
