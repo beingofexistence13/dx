@@ -9522,6 +9522,169 @@ let evm_dapp = [
     },
   ],
 ]
+let solana_dapps = []
+let solana_dapp = [
+  [
+    {
+      title: "Elusiv",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/822e40a9-0662-4f19-015f-cf3f8867f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "xbanking",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6848316c-eed7-4f57-f41e-729209744d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "LearnWeb3",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5b019d7a-ac89-473c-73ec-8f9f28646600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "XBANKING",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5c5d025b-c11f-4798-4473-b2656bc20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Bitriel",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ce959cc-75cc-4c34-fdfd-a23dccb0ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Liquifi",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f6895b1-65b0-4bcf-9960-65c90d345f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Carrier",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/39624901-25c0-41e6-b091-8434045d4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Connect3",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1cb4c660-34c9-4bcb-27ae-6582f6895d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Mango",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/78b67117-7234-4fa1-177c-f03c01e37100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Faye",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f23601e4-3f9e-4ab1-c865-6b0394944d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "DopamineApp",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Delta One",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/11ac53de-cfdc-40a9-49b0-b409d5619e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Marinade Finance",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75c0c024-8b6d-4687-d695-906111b57300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "FRAX",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f0625a53-b3b5-4d0d-dad0-915a8a3b6700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "DeGame",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "TKN: Token Name Service",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f739904-d570-4c1b-a5b1-9fddf0927a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Polychain Islands",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d99a3202-4f36-4e34-3e90-e8239be9aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "CryptoPay",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c9070ac-aa84-4aa5-5a35-3210e2153400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Floor",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ada4d35d-5e67-4258-9ac9-8f4a10436100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "KoinX - Production",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Mint and Win",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f916cd9-91d5-46fb-25ab-6f72671fe400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "FinSortis",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e856be60-0dc8-45e4-96e0-e2cb2fbf0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "DRiP",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d54aeb3-3dc9-4d04-12da-73b5bcef4800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "TabTrader",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/14552541-a69c-40a1-5a5e-368f030f1c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "MID",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/15aa0a35-24f7-48d6-7078-88fbdcd8d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "OMNIA Protocol",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+  ],
+]
+
+let cosmos_dapps = []
+let cosmos_dapp = [
+  [
+    {
+      title: "Fuzio",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c01f9e1-a633-4db4-03e9-b4cdd37ad100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "xbanking",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6848316c-eed7-4f57-f41e-729209744d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "XBANKING",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5c5d025b-c11f-4798-4473-b2656bc20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "THORSwap",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4dc14f23-9d37-419c-12c2-11bc14960600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Faye",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f23601e4-3f9e-4ab1-c865-6b0394944d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Cypher DApp",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b357d4f-6dc8-4972-2997-5b4f0daa9700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Forward",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad477dbe-f194-4a71-8013-781f180ad400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Dexter",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ee8dae0d-ab63-490e-f23f-3d1a86a02c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "TKN: Token Name Service",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f739904-d570-4c1b-a5b1-9fddf0927a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Mars Protocol",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/59df2c82-fd72-4cb0-5d4b-9591b6808500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "Astral",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad54b251-ad48-4431-c55f-a1d1c4512800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+    {
+      title: "OMNIA Protocol",
+      logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+    },
+  ],
+]
 
 passport_statergy.map((statergies) => {
   passport_statergies = `{title:"${
