@@ -8,6 +8,7 @@ import {
 } from "@/components/page-header"
 import { ThemeCustomizer } from "@/components/theme-customizer"
 import { ThemeWrapper } from "@/components/theme-wrapper"
+
 import { ThemesTabs } from "./tabs"
 
 export const metadata: Metadata = {

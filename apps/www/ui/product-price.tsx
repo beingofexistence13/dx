@@ -1,16 +1,17 @@
-import { Product } from '@/app/api/products/product';
-import { ProductCurrencySymbol } from '@/ui/product-currency-symbol';
-import { ProductDeal } from '@/ui/product-deal';
-import { ProductLighteningDeal } from '@/ui/product-lightening-deal';
-import { multiply, toUnit, type Dinero } from 'dinero.js';
+import { ProductCurrencySymbol } from "@/ui/product-currency-symbol"
+import { ProductDeal } from "@/ui/product-deal"
+import { ProductLighteningDeal } from "@/ui/product-lightening-deal"
+import { multiply, toUnit, type Dinero } from "dinero.js"
+
+import { Product } from "@/app/api/products/product"
 
 function isDiscount(obj: any): obj is { percent: number; expires?: number } {
-  return typeof obj?.percent === 'number';
+  return typeof obj?.percent === "number"
 }
 
 function formatDiscount(
   price: Dinero<number>,
-  discountRaw: Product['discount'],
+  discountRaw: Product["discount"]
 ) {
   return isDiscount(discountRaw)
     ? {
@@ -20,23 +21,23 @@ function formatDiscount(
         }),
         expires: discountRaw.expires,
       }
-    : undefined;
+    : undefined
 }
 
 export const ProductPrice = ({
   price,
   discount: discountRaw,
 }: {
-  price: Dinero<number>;
-  discount: Product['discount'];
+  price: Dinero<number>
+  discount: Product["discount"]
 }) => {
-  const discount = formatDiscount(price, discountRaw);
+  const discount = formatDiscount(price, discountRaw)
 
   if (discount) {
-    if (discount?.expires && typeof discount.expires === 'number') {
-      return <ProductLighteningDeal price={price} discount={discount} />;
+    if (discount?.expires && typeof discount.expires === "number") {
+      return <ProductLighteningDeal price={price} discount={discount} />
     }
-    return <ProductDeal price={price} discount={discount} />;
+    return <ProductDeal price={price} discount={discount} />
   }
 
   return (
@@ -48,5 +49,5 @@ export const ProductPrice = ({
         {toUnit(price)}
       </div>
     </div>
-  );
-};
+  )
+}

@@ -1,4 +1,4 @@
-import { ExternalLink } from '@/ui/external-link';
+import { ExternalLink } from "@/ui/external-link"
 
 export default function Page() {
   return (
@@ -31,5 +31,5 @@ export default function Page() {
         </ExternalLink>
       </div>
     </div>
-  );
+  )
 }

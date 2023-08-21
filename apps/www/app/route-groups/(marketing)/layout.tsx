@@ -1,19 +1,20 @@
-import { getCategories } from '@/app/api/categories/getCategories';
-import { Boundary } from '@/ui/boundary';
-import { ClickCounter } from '@/ui/click-counter';
-import { TabGroup } from '@/ui/tab-group';
-import React from 'react';
+import React from "react"
+import { Boundary } from "@/ui/boundary"
+import { ClickCounter } from "@/ui/click-counter"
+import { TabGroup } from "@/ui/tab-group"
+
+import { getCategories } from "@/app/api/categories/getCategories"
 
 export default async function Layout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
-  const categories = await getCategories();
+  const categories = await getCategories()
 
   return (
     <Boundary
-      labels={['marketing layout']}
+      labels={["marketing layout"]}
       color="violet"
       animateRerendering={false}
     >
@@ -23,14 +24,14 @@ export default async function Layout({
             path="/route-groups"
             items={[
               {
-                text: 'Home',
+                text: "Home",
               },
               ...categories.map((x) => ({
                 text: x.name,
                 slug: x.slug,
               })),
-              { text: 'Checkout', slug: 'checkout' },
-              { text: 'Blog', slug: 'blog' },
+              { text: "Checkout", slug: "checkout" },
+              { text: "Blog", slug: "blog" },
             ]}
           />
 
@@ -42,5 +43,5 @@ export default async function Layout({
         <div>{children}</div>
       </div>
     </Boundary>
-  );
+  )
 }

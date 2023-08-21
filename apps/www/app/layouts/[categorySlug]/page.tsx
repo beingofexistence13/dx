@@ -1,12 +1,13 @@
-import { getCategory } from '@/app/api/categories/getCategories';
-import { SkeletonCard } from '@/ui/skeleton-card';
+import { SkeletonCard } from "@/ui/skeleton-card"
+
+import { getCategory } from "@/app/api/categories/getCategories"
 
 export default async function Page({
   params,
 }: {
-  params: { categorySlug: string };
+  params: { categorySlug: string }
 }) {
-  const category = await getCategory({ slug: params.categorySlug });
+  const category = await getCategory({ slug: params.categorySlug })
 
   return (
     <div className="space-y-4">
@@ -20,5 +21,5 @@ export default async function Page({
         ))}
       </div>
     </div>
-  );
+  )
 }

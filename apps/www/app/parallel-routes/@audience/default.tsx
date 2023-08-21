@@ -1,20 +1,21 @@
-import { CurrentRoute } from '@/app/parallel-routes/_ui/current-route';
-import { Boundary } from '@/ui/boundary';
-import Link from 'next/link';
+import Link from "next/link"
+import { Boundary } from "@/ui/boundary"
+
+import { CurrentRoute } from "@/app/parallel-routes/_ui/current-route"
 
 export default function Default() {
   return (
-    <Boundary labels={['@audience/default.tsx']} color="blue" size="small">
+    <Boundary labels={["@audience/default.tsx"]} color="blue" size="small">
       <div className="prose prose-sm prose-invert max-w-none">
         <h2 className="text-lg font-bold">Default UI</h2>
 
         <p>
-          Default UI is rendered because the <code>@audience</code> slot{' '}
+          Default UI is rendered because the <code>@audience</code> slot{" "}
           <strong>does not</strong> contain a route segment that matches the
-          current{' '}
+          current{" "}
           <code>
             /<CurrentRoute slice={1} />
-          </code>{' '}
+          </code>{" "}
           route.
         </p>
 
@@ -24,7 +25,7 @@ export default function Default() {
               @audience/
               <CurrentRoute />
               /page.js
-            </code>{' '}
+            </code>{" "}
             does not exist.
           </li>
 
@@ -43,5 +44,5 @@ export default function Default() {
         </div>
       </div>
     </Boundary>
-  );
+  )
 }

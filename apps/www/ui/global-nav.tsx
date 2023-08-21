@@ -1,17 +1,19 @@
-'use client';
+"use client"
 
-import { demos, type Item } from '@/lib/demos';
-import { NextLogo } from '@/ui/next-logo';
-import Link from 'next/link';
-import { useSelectedLayoutSegment } from 'next/navigation';
-import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid';
-import clsx from 'clsx';
-import { useState } from 'react';
-import Byline from './byline';
+import { useState } from "react"
+import Link from "next/link"
+import { useSelectedLayoutSegment } from "next/navigation"
+import { NextLogo } from "@/ui/next-logo"
+import { MenuAlt2Icon, XIcon } from "@heroicons/react/solid"
+import clsx from "clsx"
+
+import { demos, type Item } from "@/lib/demos"
+
+import Byline from "./byline"
 
 export function GlobalNav() {
-  const [isOpen, setIsOpen] = useState(false);
-  const close = () => setIsOpen(false);
+  const [isOpen, setIsOpen] = useState(false)
+  const close = () => setIsOpen(false)
 
   return (
     <div className="fixed top-0 z-10 flex w-full flex-col border-b border-gray-800 bg-black lg:bottom-0 lg:z-auto lg:w-72 lg:border-b-0 lg:border-r lg:border-gray-800">
@@ -44,13 +46,12 @@ export function GlobalNav() {
         ) : (
           // <MenuAlt2Icon className="block w-6 text-gray-400" />
           <h1>Menu</h1>
-
         )}
       </button>
 
       <div
-        className={clsx('overflow-y-auto lg:static lg:block', {
-          'fixed inset-x-0 bottom-0 top-14 mt-px bg-black': isOpen,
+        className={clsx("overflow-y-auto lg:static lg:block", {
+          "fixed inset-x-0 bottom-0 top-14 mt-px bg-black": isOpen,
           hidden: !isOpen,
         })}
       >
@@ -68,38 +69,38 @@ export function GlobalNav() {
                   ))}
                 </div>
               </div>
-            );
+            )
           })}
         </nav>
         <Byline className="absolute hidden sm:block" />
       </div>
     </div>
-  );
+  )
 }
 
 function GlobalNavItem({
   item,
   close,
 }: {
-  item: Item;
-  close: () => false | void;
+  item: Item
+  close: () => false | void
 }) {
-  const segment = useSelectedLayoutSegment();
-  const isActive = item.slug === segment;
+  const segment = useSelectedLayoutSegment()
+  const isActive = item.slug === segment
 
   return (
     <Link
       onClick={close}
       href={`/${item.slug}`}
       className={clsx(
-        'block rounded-md px-3 py-2 text-sm font-medium hover:text-gray-300',
+        "block rounded-md px-3 py-2 text-sm font-medium hover:text-gray-300",
         {
-          'text-gray-400 hover:bg-gray-800': !isActive,
-          'text-white': isActive,
-        },
+          "text-gray-400 hover:bg-gray-800": !isActive,
+          "text-white": isActive,
+        }
       )}
     >
       {item.name}
     </Link>
-  );
+  )
 }

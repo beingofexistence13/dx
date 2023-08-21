@@ -1,16 +1,16 @@
-'use client';
+"use client"
 
-import { Boundary } from '@/ui/boundary';
-import Button from '@/ui/button';
-import React from 'react';
+import React from "react"
+import { Boundary } from "@/ui/boundary"
+import Button from "@/ui/button"
 
 export default function Error({ error, reset }: any) {
   React.useEffect(() => {
-    console.log('logging error:', error);
-  }, [error]);
+    console.log("logging error:", error)
+  }, [error])
 
   return (
-    <Boundary labels={['./[categorySlug]/error.tsx']} color="pink">
+    <Boundary labels={["./[categorySlug]/error.tsx"]} color="pink">
       <div className="space-y-4">
         <h2 className="text-lg font-bold">Error</h2>
         <p className="text-sm">{error?.message}</p>
@@ -19,5 +19,5 @@ export default function Error({ error, reset }: any) {
         </div>
       </div>
     </Boundary>
-  );
+  )
 }

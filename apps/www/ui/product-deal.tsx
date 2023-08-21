@@ -1,18 +1,18 @@
-import { ProductCurrencySymbol } from '@/ui/product-currency-symbol';
-import { toUnit, type Dinero } from 'dinero.js';
+import { ProductCurrencySymbol } from "@/ui/product-currency-symbol"
+import { toUnit, type Dinero } from "dinero.js"
 
 export const ProductDeal = ({
   price: priceRaw,
   discount: discountRaw,
 }: {
-  price: Dinero<number>;
+  price: Dinero<number>
   discount: {
-    amount: Dinero<number>;
-  };
+    amount: Dinero<number>
+  }
 }) => {
-  const discount = toUnit(discountRaw.amount);
-  const price = toUnit(priceRaw);
-  const percent = Math.round(100 - (discount / price) * 100);
+  const discount = toUnit(discountRaw.amount)
+  const price = toUnit(priceRaw)
+  const percent = Math.round(100 - (discount / price) * 100)
 
   return (
     <div className="flex gap-x-1.5">
@@ -32,5 +32,5 @@ export const ProductDeal = ({
         {price}
       </div>
     </div>
-  );
-};
+  )
+}

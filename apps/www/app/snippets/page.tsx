@@ -1,13 +1,13 @@
-import { ExternalLink } from '@/ui/external-link';
-import Link from 'next/link';
+import Link from "next/link"
+import { ExternalLink } from "@/ui/external-link"
 
 const items = [
   {
-    name: 'Updating searchParams',
-    slug: 'search-params',
-    description: 'Update searchParams using `useRouter` and `<Link>`',
+    name: "Updating searchParams",
+    slug: "search-params",
+    description: "Update searchParams using `useRouter` and `<Link>`",
   },
-];
+]
 
 export default function Page() {
   return (
@@ -32,7 +32,7 @@ export default function Page() {
                 </div>
               ) : null}
             </Link>
-          );
+          )
         })}
       </div>
 
@@ -42,5 +42,5 @@ export default function Page() {
         </ExternalLink>
       </div>
     </div>
-  );
+  )
 }

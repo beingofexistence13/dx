@@ -1,4 +1,4 @@
-import { VercelLogo } from '@/ui/vercel-logo';
+import { VercelLogo } from "@/ui/vercel-logo"
 
 export default function Byline({ className }: { className: string }) {
   return (
@@ -24,7 +24,7 @@ export default function Byline({ className }: { className: string }) {
           >
             View code
           </a>
-          {' or '}
+          {" or "}
           <a
             className="underline decoration-dotted underline-offset-4 transition-colors hover:text-gray-300"
             href="https://vercel.com/templates/next.js/app-directory"
@@ -36,5 +36,5 @@ export default function Byline({ className }: { className: string }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

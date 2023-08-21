@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
@@ -21,7 +21,6 @@ const items = [
   {
     label: "Navbar",
     id: "navbar",
-
   },
   {
     label: "Friday",
@@ -30,77 +29,62 @@ const items = [
   {
     label: "Hello Mode",
     id: "hello-mode",
-
   },
   {
     label: "Multiverse",
     id: "multiverse",
-
   },
   {
     label: "Blockchain Status",
     id: "blockchain-status",
-
   },
   {
     label: "Activitybar",
     id: "activitybar",
-
   },
   {
     label: "Primary Sidebar",
     id: "primary-sidebar",
-
   },
   {
     label: "Secondary Sidebar",
     id: "secondary-sidebar",
-
   },
   {
     label: "Bottombar",
     id: "bottombar",
-
   },
   {
     label: "Dockbar",
     id: "dockbar",
-
   },
   {
     label: "Video Player",
     id: "video-player",
-
   },
   {
     label: "Hello 3d",
     id: "hello-3d",
-
   },
   {
     label: "Theme",
     id: "theme",
-
   },
   {
     label: "Keyboard Shortcuts",
     id: "keyboard-shortcuts",
-
   },
   {
     label: "Search",
     id: "search",
-
   },
   {
     label: "Command Palette",
     id: "command-palette",
-
   },
   {
     label: "Footer",
     id: "footer",
-
   },
   // {
   //   id: "navbar",

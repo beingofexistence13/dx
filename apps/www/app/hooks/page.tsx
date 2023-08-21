@@ -1,4 +1,4 @@
-import { ExternalLink } from '@/ui/external-link';
+import { ExternalLink } from "@/ui/external-link"
 
 export default function Page() {
   return (
@@ -13,7 +13,7 @@ export default function Page() {
           </li>
           <li>
             Try navigating each page and observing the output of each hook
-            called from the current routes <code>layout.js</code> and{' '}
+            called from the current routes <code>layout.js</code> and{" "}
             <code>page.js</code> files.
           </li>
         </ul>
@@ -28,5 +28,5 @@ export default function Page() {
         </div>
       </div>
     </div>
-  );
+  )
 }

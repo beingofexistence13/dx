@@ -11,6 +11,8 @@ import * as z from "zod"
 import { items } from "@/config/dev-mode"
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
+import { updateDevMode } from "@/hooks/slices/devModeSlice"
+import { updateHello } from "@/hooks/slices/helloToolSlice"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
 import {
@@ -63,8 +65,6 @@ import {
   ToastAction,
   buttonVariants,
 } from "./ui"
-import { updateDevMode} from "@/hooks/slices/devModeSlice"
-import { updateHello } from "@/hooks/slices/helloToolSlice"
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -75,12 +75,14 @@ const FormSchema = z.object({
 })
 
 export function DevMode() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
   const { toast } = useToast()
   const [DevMode, setDevMode] = React.useState(true)
   const [HelloTool, setHelloTool] = React.useState(true)
   const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
-  const HelloToolSelector = useSelector((state: any) => state.helloTool.isHelloTool)
+  const HelloToolSelector = useSelector(
+    (state: any) => state.helloTool.isHelloTool
+  )
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
@@ -142,7 +144,7 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
-                              setDevMode(!DevMode);
+                              setDevMode(!DevMode)
                               dispatch(updateDevMode(DevMode))
                               toast({
                                 title: `DevMode is switch to ${!DevModeSelector}`,
@@ -177,7 +179,7 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
-                              setHelloTool(!HelloTool);
+                              setHelloTool(!HelloTool)
                               dispatch(updateHello(HelloTool))
                               toast({
                                 title: `Hello Tool is  switch to ${HelloToolSelector}`,

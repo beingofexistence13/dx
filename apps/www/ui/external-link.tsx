@@ -1,11 +1,11 @@
-import { ArrowRightIcon } from '@heroicons/react/outline';
+import { ArrowRightIcon } from "@heroicons/react/outline"
 
 export const ExternalLink = ({
   children,
   href,
 }: {
-  children: React.ReactNode;
-  href: string;
+  children: React.ReactNode
+  href: string
 }) => {
   return (
     <a
@@ -16,5 +16,5 @@ export const ExternalLink = ({
 
       <ArrowRightIcon className="block w-4" />
     </a>
-  );
-};
+  )
+}

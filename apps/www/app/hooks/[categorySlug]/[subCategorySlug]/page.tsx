@@ -1,12 +1,12 @@
-import { getCategory } from '@/app/api/categories/getCategories';
-import { HooksClient } from '@/app/hooks/_components/router-context';
+import { getCategory } from "@/app/api/categories/getCategories"
+import { HooksClient } from "@/app/hooks/_components/router-context"
 
 export default async function Page({
   params,
 }: {
-  params: { categorySlug: string; subCategorySlug: string };
+  params: { categorySlug: string; subCategorySlug: string }
 }) {
-  const category = await getCategory({ slug: params.subCategorySlug });
+  const category = await getCategory({ slug: params.subCategorySlug })
 
   return (
     <div className="space-y-9">
@@ -14,5 +14,5 @@ export default async function Page({
 
       <HooksClient />
     </div>
-  );
+  )
 }

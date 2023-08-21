@@ -1,10 +1,10 @@
-'use client';
+"use client"
 
-import React, { Suspense } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import React, { Suspense } from "react"
+import { usePathname, useSearchParams } from "next/navigation"
 
 function Params() {
-  const searchParams = useSearchParams()!;
+  const searchParams = useSearchParams()!
 
   return searchParams.toString().length !== 0 ? (
     <div className="px-2 text-gray-500">
@@ -29,14 +29,14 @@ function Params() {
               </span>
             </span>
           </React.Fragment>
-        );
+        )
       })}
     </div>
-  ) : null;
+  ) : null
 }
 
 export function AddressBar() {
-  const pathname = usePathname();
+  const pathname = usePathname()
 
   return (
     <div className="flex items-center gap-x-2 p-3.5 lg:px-5 lg:py-3">
@@ -62,7 +62,7 @@ export function AddressBar() {
           <>
             <span className="text-gray-600">/</span>
             {pathname
-              .split('/')
+              .split("/")
               .slice(2)
               .map((segment) => {
                 return (
@@ -78,7 +78,7 @@ export function AddressBar() {
 
                     <span className="text-gray-600">/</span>
                   </React.Fragment>
-                );
+                )
               })}
           </>
         ) : null}
@@ -88,5 +88,5 @@ export function AddressBar() {
         </Suspense>
       </div>
     </div>
-  );
+  )
 }

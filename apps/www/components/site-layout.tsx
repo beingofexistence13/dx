@@ -2,8 +2,8 @@
 
 import React from "react"
 import { useSelector } from "react-redux"
-import GuestLayout from "./guestLayout"
 
+import GuestLayout from "./guestLayout"
 
 const SiteLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
@@ -14,7 +14,6 @@ const SiteLayout = () => {
       {/* {DevModeSelector ? "" : <SiteHeader />} */}
       {/* {HelloToolSelector ? "" : <HelloTool />} */}
       <GuestLayout />
-
     </div>
   )
 }

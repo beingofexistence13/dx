@@ -1,6 +1,7 @@
 import * as React from "react"
 import Link from "next/link"
 
+import { more, products } from "@/config/navbar"
 import { cn } from "@/lib/utils"
 import {
   NavigationMenu,
@@ -12,8 +13,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { Icons } from "@/components/icons"
-import { more, products } from "@/config/navbar"
-
 
 export function NavigationMenuDropdown() {
   return (

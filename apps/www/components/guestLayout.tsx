@@ -14,7 +14,9 @@ import { TailwindIndicator } from "./tailwind-indicator"
 
 const GuestLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
-  const HelloToolSelector = useSelector((state: any) => state.helloTool.isHelloTool)
+  const HelloToolSelector = useSelector(
+    (state: any) => state.helloTool.isHelloTool
+  )
 
   return (
     <div>

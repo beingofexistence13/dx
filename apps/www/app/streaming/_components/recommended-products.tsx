@@ -1,14 +1,15 @@
-import { Product } from '@/app/api/products/product';
-import { ProductCard } from '@/ui/product-card';
+import { ProductCard } from "@/ui/product-card"
+
+import { Product } from "@/app/api/products/product"
 
 export async function RecommendedProducts({
   path,
   data,
 }: {
-  path: string;
-  data: Promise<Response>;
+  path: string
+  data: Promise<Response>
 }) {
-  const products = (await data.then((res) => res.json())) as Product[];
+  const products = (await data.then((res) => res.json())) as Product[]
 
   return (
     <div className="space-y-6">
@@ -28,10 +29,10 @@ export async function RecommendedProducts({
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-const shimmer = `relative overflow-hidden before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_1.5s_infinite] before:bg-gradient-to-r before:from-transparent before:via-white/10 before:to-transparent`;
+const shimmer = `relative overflow-hidden before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_1.5s_infinite] before:bg-gradient-to-r before:from-transparent before:via-white/10 before:to-transparent`
 
 function ProductSkeleton() {
   return (
@@ -43,7 +44,7 @@ function ProductSkeleton() {
       <div className="h-4 w-full rounded-lg bg-gray-900" />
       <div className="h-4 w-4/6 rounded-lg bg-gray-900" />
     </div>
-  );
+  )
 }
 
 export function RecommendedProductsSkeleton() {
@@ -61,5 +62,5 @@ export function RecommendedProductsSkeleton() {
         <ProductSkeleton />
       </div>
     </div>
-  );
+  )
 }

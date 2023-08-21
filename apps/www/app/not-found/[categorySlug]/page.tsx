@@ -1,17 +1,18 @@
-import { getCategory } from '@/app/api/categories/getCategories';
-import { SkeletonCard } from '@/ui/skeleton-card';
+import { SkeletonCard } from "@/ui/skeleton-card"
+
+import { getCategory } from "@/app/api/categories/getCategories"
 
 export default async function Page({
   params,
 }: {
-  params: { categorySlug: string };
+  params: { categorySlug: string }
 }) {
   // - `getCategory()` returns `notFound()` if the fetched data is `null` or `undefined`.
   // - `notFound()` renders the closest `not-found.tsx` in the route segment hierarchy.
   // - For `layout.js`, the closest `not-found.tsx` starts from the parent segment.
   // - For `page.js`, the closest `not-found.tsx` starts from the same segment.
   // - Learn more: https://nextjs.org/docs/app/building-your-application/routing#component-hierarchy.
-  const category = await getCategory({ slug: params.categorySlug });
+  const category = await getCategory({ slug: params.categorySlug })
 
   return (
     <div className="space-y-4">
@@ -25,5 +26,5 @@ export default async function Page({
         ))}
       </div>
     </div>
-  );
+  )
 }

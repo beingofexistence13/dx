@@ -1,4 +1,4 @@
-const title = 'Snippets';
+const title = "Snippets"
 
 export const metadata = {
   title,
@@ -6,8 +6,8 @@ export const metadata = {
     title,
     images: [`/api/og?title=${title}`],
   },
-};
+}
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return children;
+  return children
 }

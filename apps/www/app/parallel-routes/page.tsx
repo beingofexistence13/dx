@@ -1,9 +1,9 @@
-import { Boundary } from '@/ui/boundary';
-import { ExternalLink } from '@/ui/external-link';
+import { Boundary } from "@/ui/boundary"
+import { ExternalLink } from "@/ui/external-link"
 
 export default function Page() {
   return (
-    <Boundary labels={['parallel-routes/page.tsx']} size="small">
+    <Boundary labels={["parallel-routes/page.tsx"]} size="small">
       <div className="prose prose-sm prose-invert max-w-none">
         <h2 className="text-lg font-bold">Parallel Routes</h2>
         <ul>
@@ -12,11 +12,11 @@ export default function Page() {
             multiple pages, with independent navigation, in the same layout.
           </li>
           <li>
-            Parallel Routes can be used for advanced routing patterns like{' '}
+            Parallel Routes can be used for advanced routing patterns like{" "}
             <a href="https://nextjs.org/docs/app/building-your-application/routing/parallel-routes#conditional-routes">
               Conditional Routes
-            </a>{' '}
-            and{' '}
+            </a>{" "}
+            and{" "}
             <a href="https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes">
               Intercepted Routes
             </a>
@@ -48,5 +48,5 @@ export default function Page() {
         </div>
       </div>
     </Boundary>
-  );
+  )
 }

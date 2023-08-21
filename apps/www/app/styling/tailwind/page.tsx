@@ -5,7 +5,7 @@ const SkeletonCard = () => (
     <div className="h-3 w-11/12 rounded-lg bg-gray-700" />
     <div className="h-3 w-8/12 rounded-lg bg-gray-700" />
   </div>
-);
+)
 
 export default function Page() {
   return (
@@ -20,5 +20,5 @@ export default function Page() {
         <SkeletonCard />
       </div>
     </div>
-  );
+  )
 }

@@ -1,10 +1,11 @@
-import { getCategories } from '@/app/api/categories/getCategories';
-import { LayoutHooks } from '@/app/hooks/_components/router-context-layout';
-import { ClickCounter } from '@/ui/click-counter';
-import { TabGroup } from '@/ui/tab-group';
-import React from 'react';
+import React from "react"
+import { ClickCounter } from "@/ui/click-counter"
+import { TabGroup } from "@/ui/tab-group"
 
-const title = 'Hooks';
+import { getCategories } from "@/app/api/categories/getCategories"
+import { LayoutHooks } from "@/app/hooks/_components/router-context-layout"
+
+const title = "Hooks"
 
 export const metadata = {
   title,
@@ -12,14 +13,14 @@ export const metadata = {
     title,
     images: [`/api/og?title=${title}`],
   },
-};
+}
 
 export default async function Layout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
-  const categories = await getCategories();
+  const categories = await getCategories()
 
   return (
     <div className="space-y-9">
@@ -28,7 +29,7 @@ export default async function Layout({
           path="/hooks"
           items={[
             {
-              text: 'Home',
+              text: "Home",
             },
             ...categories.map((x) => ({
               text: x.name,
@@ -46,5 +47,5 @@ export default async function Layout({
 
       <div>{children}</div>
     </div>
-  );
+  )
 }

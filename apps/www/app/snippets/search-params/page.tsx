@@ -1,28 +1,29 @@
-import { Boundary } from '@/ui/boundary';
-import { ExternalLink } from '@/ui/external-link';
-import { Suspense } from 'react';
-import ActiveLink from './active-link';
-import Client from './client';
+import { Suspense } from "react"
+import { Boundary } from "@/ui/boundary"
+import { ExternalLink } from "@/ui/external-link"
+
+import ActiveLink from "./active-link"
+import Client from "./client"
 
 const options = [
   {
-    name: 'Sort',
-    value: 'sort',
-    items: ['asc', 'desc'],
+    name: "Sort",
+    value: "sort",
+    items: ["asc", "desc"],
   },
   {
-    name: 'Page',
-    value: 'page',
-    items: ['1', '2', '3'],
+    name: "Page",
+    value: "page",
+    items: ["1", "2", "3"],
   },
   {
-    name: 'Items Per Page',
-    value: 'perPage',
-    items: ['10', '25', '100'],
+    name: "Items Per Page",
+    value: "perPage",
+    items: ["10", "25", "100"],
   },
-];
+]
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic"
 
 export default async function Page({ searchParams }: { searchParams: any }) {
   return (
@@ -31,16 +32,16 @@ export default async function Page({ searchParams }: { searchParams: any }) {
         Updating <code>searchParams</code>
       </h1>
       <p>
-        The <code>useSearchParams</code> hook returns a read only version of{' '}
-        <code>URLSearchParams</code>. You can use{' '}
-        <code>useRouter&#40;&#41;</code> or <code>&lt;Link&gt;</code> to set new{' '}
-        <code>searchParams</code>. After a navigation is performed, the current{' '}
-        <code>page.js</code> will receive an updated <code>searchParams</code>{' '}
+        The <code>useSearchParams</code> hook returns a read only version of{" "}
+        <code>URLSearchParams</code>. You can use{" "}
+        <code>useRouter&#40;&#41;</code> or <code>&lt;Link&gt;</code> to set new{" "}
+        <code>searchParams</code>. After a navigation is performed, the current{" "}
+        <code>page.js</code> will receive an updated <code>searchParams</code>{" "}
         prop.
       </p>
       <div className="mt-12 space-y-12">
         <div className="space-y-4">
-          <Boundary color="blue" labels={['From the Client']}>
+          <Boundary color="blue" labels={["From the Client"]}>
             <h3 className="mt-0">
               Using <code>useRouter&#40;&#41;</code>
             </h3>
@@ -56,7 +57,7 @@ export default async function Page({ searchParams }: { searchParams: any }) {
         </div>
 
         <div className="space-y-4">
-          <Boundary labels={['From the Server']}>
+          <Boundary labels={["From the Server"]}>
             <h3 className="mt-0">
               Using <code>&lt;Link&gt;</code>
             </h3>
@@ -73,11 +74,11 @@ export default async function Page({ searchParams }: { searchParams: any }) {
                           // set the first item as active if no search param is set
                           (!searchParams[option.value] && i === 0) ||
                           // otherwise check if the current item is the active one
-                          item === searchParams[option.value];
+                          item === searchParams[option.value]
 
                         // create new searchParams object for easier manipulation
-                        const params = new URLSearchParams(searchParams);
-                        params.set(option.value, item);
+                        const params = new URLSearchParams(searchParams)
+                        params.set(option.value, item)
                         return (
                           <ActiveLink
                             key={item}
@@ -86,11 +87,11 @@ export default async function Page({ searchParams }: { searchParams: any }) {
                           >
                             {item}
                           </ActiveLink>
-                        );
+                        )
                       })}
                     </div>
                   </div>
-                );
+                )
               })}
             </div>
           </Boundary>
@@ -101,5 +102,5 @@ export default async function Page({ searchParams }: { searchParams: any }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

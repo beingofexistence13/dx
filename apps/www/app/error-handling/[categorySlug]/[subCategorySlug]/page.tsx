@@ -1,14 +1,15 @@
-import { getCategory } from '@/app/api/categories/getCategories';
-import BuggyButton from '@/ui/buggy-button';
-import { SkeletonCard } from '@/ui/skeleton-card';
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation"
+import BuggyButton from "@/ui/buggy-button"
+import { SkeletonCard } from "@/ui/skeleton-card"
+
+import { getCategory } from "@/app/api/categories/getCategories"
 
 export default async function Page({
   params,
 }: {
-  params: { categorySlug: string; subCategorySlug: string };
+  params: { categorySlug: string; subCategorySlug: string }
 }) {
-  const category = await getCategory({ slug: params.subCategorySlug });
+  const category = await getCategory({ slug: params.subCategorySlug })
 
   return (
     <div className="space-y-4">
@@ -22,5 +23,5 @@ export default async function Page({
         ))}
       </div>
     </div>
-  );
+  )
 }

@@ -1,21 +1,19 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
   isOpen: false,
-} as any;
+} as any
 
 const sidebarSlice = createSlice({
   name: "users",
   initialState,
   reducers: {
     increment: (state) => {
-      state.value++;
+      state.value++
     },
   },
+})
 
-});
+export const { increment } = sidebarSlice.actions
 
-export const { increment } = sidebarSlice.actions;
-
-export default sidebarSlice.reducer;
+export default sidebarSlice.reducer

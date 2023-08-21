@@ -1,9 +1,9 @@
-import { Boundary } from '@/ui/boundary';
+import { Boundary } from "@/ui/boundary"
 
 export default function NotFound() {
   return (
     <Boundary
-      labels={['./[categorySlug]/[subCategorySlug]/not-found.tsx']}
+      labels={["./[categorySlug]/[subCategorySlug]/not-found.tsx"]}
       color="pink"
     >
       <div className="text-vercel-pink space-y-3">
@@ -12,5 +12,5 @@ export default function NotFound() {
         <p className="text-sm">Could not find requested resource</p>
       </div>
     </Boundary>
-  );
+  )
 }

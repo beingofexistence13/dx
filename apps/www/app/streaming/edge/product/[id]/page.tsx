@@ -1,13 +1,14 @@
+import { Suspense } from "react"
+import { Ping } from "@/ui/ping"
+
 import {
   RecommendedProducts,
   RecommendedProductsSkeleton,
-} from '@/app/streaming/_components/recommended-products';
-import { Reviews, ReviewsSkeleton } from '@/app/streaming/_components/reviews';
-import { SingleProduct } from '@/app/streaming/_components/single-product';
-import { Ping } from '@/ui/ping';
-import { Suspense } from 'react';
+} from "@/app/streaming/_components/recommended-products"
+import { Reviews, ReviewsSkeleton } from "@/app/streaming/_components/reviews"
+import { SingleProduct } from "@/app/streaming/_components/single-product"
 
-export const runtime = 'experimental-edge';
+export const runtime = "experimental-edge"
 
 export default async function Page({ params }: { params: { id: string } }) {
   return (
@@ -15,7 +16,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       {/* @ts-expect-error Async Server Component */}
       <SingleProduct
         data={fetch(
-          `https://app-router-api.vercel.app/api/products?id=${params.id}`,
+          `https://app-router-api.vercel.app/api/products?id=${params.id}`
         )}
       />
 
@@ -42,8 +43,8 @@ export default async function Page({ params }: { params: { id: string } }) {
             {
               // We intentionally disable Next.js Cache to better demo
               // streaming
-              cache: 'no-store',
-            },
+              cache: "no-store",
+            }
           )}
         />
       </Suspense>
@@ -58,11 +59,11 @@ export default async function Page({ params }: { params: { id: string } }) {
             {
               // We intentionally disable Next.js Cache to better demo
               // streaming
-              cache: 'no-store',
-            },
+              cache: "no-store",
+            }
           )}
         />
       </Suspense>
     </div>
-  );
+  )
 }

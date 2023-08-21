@@ -1,22 +1,22 @@
-import { RenderingInfo } from '@/ui/rendering-info';
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation"
+import { RenderingInfo } from "@/ui/rendering-info"
 
 export async function generateStaticParams() {
   // Generate two pages at build time and the rest (3-100) on-demand
-  return [{ id: '1' }, { id: '2' }];
+  return [{ id: "1" }, { id: "2" }]
 }
 
 export default async function Page({ params }: { params: { id: string } }) {
   if (Number(params.id) >= 100) {
-    notFound();
+    notFound()
   }
 
   const res = await fetch(
-    `https://jsonplaceholder.typicode.com/posts/${params.id}`,
-  );
-  const data = (await res.json()) as { title: string; body: string };
+    `https://jsonplaceholder.typicode.com/posts/${params.id}`
+  )
+  const data = (await res.json()) as { title: string; body: string }
 
-  const isOnDemand = Number(params.id) >= 3;
+  const isOnDemand = Number(params.id) >= 3
 
   return (
     <div className="grid grid-cols-6 gap-x-6 gap-y-3">
@@ -27,8 +27,8 @@ export default async function Page({ params }: { params: { id: string } }) {
         <p className="line-clamp-3 font-medium text-gray-500">{data.body}</p>
       </div>
       <div className="-order-1 col-span-full lg:order-none lg:col-span-2">
-        <RenderingInfo type={isOnDemand ? 'ssgod' : 'ssg'} />
+        <RenderingInfo type={isOnDemand ? "ssgod" : "ssg"} />
       </div>
     </div>
-  );
+  )
 }

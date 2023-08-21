@@ -3,9 +3,11 @@
 import React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
+
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
+
 import {
   Avatar,
   AvatarFallback,

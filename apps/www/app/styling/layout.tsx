@@ -1,7 +1,7 @@
-import { TabGroup } from '@/ui/tab-group';
-import React from 'react';
+import React from "react"
+import { TabGroup } from "@/ui/tab-group"
 
-const title = 'Styling';
+const title = "Styling"
 
 export const metadata = {
   title,
@@ -9,30 +9,30 @@ export const metadata = {
     title,
     images: [`/api/og?title=${title}`],
   },
-};
+}
 
 const items = [
   {
-    text: 'Global CSS',
-    slug: 'global-css',
+    text: "Global CSS",
+    slug: "global-css",
   },
   {
-    text: 'CSS Modules',
-    slug: 'css-modules',
+    text: "CSS Modules",
+    slug: "css-modules",
   },
   {
-    text: 'Styled Components',
-    slug: 'styled-components',
+    text: "Styled Components",
+    slug: "styled-components",
   },
   {
-    text: 'Styled JSX',
-    slug: 'styled-jsx',
+    text: "Styled JSX",
+    slug: "styled-jsx",
   },
   {
-    text: 'Tailwind CSS',
-    slug: 'tailwind',
+    text: "Tailwind CSS",
+    slug: "tailwind",
   },
-];
+]
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -41,12 +41,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         path="/styling"
         items={[
           {
-            text: 'Home',
+            text: "Home",
           },
           ...items,
         ]}
       />
       <div>{children}</div>
     </div>
-  );
+  )
 }

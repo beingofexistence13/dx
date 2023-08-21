@@ -1,4 +1,4 @@
-const title = 'Parallel Routes';
+const title = "Parallel Routes"
 
 export const metadata = {
   title,
@@ -6,16 +6,16 @@ export const metadata = {
     title,
     images: [`/api/og?title=${title}`],
   },
-};
+}
 
 export default function Layout({
   children,
   audience,
   views,
 }: {
-  children: React.ReactNode;
-  audience: React.ReactNode;
-  views: React.ReactNode;
+  children: React.ReactNode
+  audience: React.ReactNode
+  views: React.ReactNode
 }) {
   return (
     <div className="space-y-6">
@@ -28,5 +28,5 @@ export default function Layout({
         </div>
       </div>
     </div>
-  );
+  )
 }

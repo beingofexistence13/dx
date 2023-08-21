@@ -1,9 +1,9 @@
-'use client';
+"use client"
 
-import React from 'react';
+import React from "react"
 
 export function ClickCounter() {
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = React.useState(0)
 
   return (
     <button
@@ -12,5 +12,5 @@ export function ClickCounter() {
     >
       {count} Clicks
     </button>
-  );
+  )
 }

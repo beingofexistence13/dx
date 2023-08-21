@@ -1,20 +1,21 @@
-import { CurrentRoute } from '@/app/parallel-routes/_ui/current-route';
-import { Boundary } from '@/ui/boundary';
-import Link from 'next/link';
+import Link from "next/link"
+import { Boundary } from "@/ui/boundary"
+
+import { CurrentRoute } from "@/app/parallel-routes/_ui/current-route"
 
 export default function Default() {
   return (
-    <Boundary labels={['@children/default.tsx']} color="blue" size="small">
+    <Boundary labels={["@children/default.tsx"]} color="blue" size="small">
       <div className="prose prose-sm prose-invert max-w-none">
         <h2 className="text-lg font-bold">Default UI</h2>
 
         <p>
-          Default UI is rendered because the implicit <code>@children</code>{' '}
+          Default UI is rendered because the implicit <code>@children</code>{" "}
           slot <strong>does not</strong> contain a route segment that matches
-          the current{' '}
+          the current{" "}
           <code>
             /<CurrentRoute slice={1} />
-          </code>{' '}
+          </code>{" "}
           route.
         </p>
 
@@ -24,18 +25,18 @@ export default function Default() {
               parallel-routes/
               <CurrentRoute />
               /page.js
-            </code>{' '}
-            OR{' '}
+            </code>{" "}
+            OR{" "}
             <code>
               parallel-routes/@children/
               <CurrentRoute />
               /page.js
-            </code>{' '}
+            </code>{" "}
             do not exist.
           </li>
 
           <li>
-            <code>parallel-routes/default.js</code> OR{' '}
+            <code>parallel-routes/default.js</code> OR{" "}
             <code>parallel-routes/@children/default.js</code> exists.
           </li>
         </ul>
@@ -50,5 +51,5 @@ export default function Default() {
         </div>
       </div>
     </Boundary>
-  );
+  )
 }

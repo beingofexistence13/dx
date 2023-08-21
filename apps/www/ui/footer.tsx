@@ -1,11 +1,11 @@
-'use client';
+"use client"
 
 export default function Footer({
   reactVersion,
   nextVersion,
 }: {
-  reactVersion: string;
-  nextVersion: string;
+  reactVersion: string
+  nextVersion: string
 }) {
   return (
     <div className="col-start-2 col-end-4 mt-28 flex items-center justify-between">
@@ -37,5 +37,5 @@ export default function Footer({
         <div>Next: {nextVersion}</div>
       </div>
     </div>
-  );
+  )
 }

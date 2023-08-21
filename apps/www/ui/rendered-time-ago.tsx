@@ -1,38 +1,38 @@
-'use client';
+"use client"
 
-import ms from 'ms';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react"
+import ms from "ms"
 
 // https://github.com/streamich/react-use/blob/master/src/useInterval.ts
 const useInterval = (callback: Function, delay?: number | null) => {
-  const savedCallback = useRef<Function>(() => {});
+  const savedCallback = useRef<Function>(() => {})
 
   useEffect(() => {
-    savedCallback.current = callback;
-  });
+    savedCallback.current = callback
+  })
 
   useEffect(() => {
     if (delay !== null) {
-      const interval = setInterval(() => savedCallback.current(), delay || 0);
-      return () => clearInterval(interval);
+      const interval = setInterval(() => savedCallback.current(), delay || 0)
+      return () => clearInterval(interval)
     }
 
-    return undefined;
-  }, [delay]);
-};
+    return undefined
+  }, [delay])
+}
 
 export function RenderedTimeAgo({ timestamp }: { timestamp: number }) {
-  const [msAgo, setMsAgo] = useState<number>(0);
+  const [msAgo, setMsAgo] = useState<number>(0)
 
   // update on page change
   useEffect(() => {
-    setMsAgo(Date.now() - timestamp);
-  }, [timestamp]);
+    setMsAgo(Date.now() - timestamp)
+  }, [timestamp])
 
   // update every second
   useInterval(() => {
-    setMsAgo(Date.now() - timestamp);
-  }, 1000);
+    setMsAgo(Date.now() - timestamp)
+  }, 1000)
 
   return (
     <div
@@ -46,11 +46,11 @@ export function RenderedTimeAgo({ timestamp }: { timestamp: number }) {
             suppressHydrationWarning={true}
             className="font-semibold tabular-nums text-gray-900"
           >
-            {msAgo >= 1000 ? ms(msAgo) : '0s'}
-          </span>{' '}
+            {msAgo >= 1000 ? ms(msAgo) : "0s"}
+          </span>{" "}
           <span className="text-gray-600">ago</span>
         </>
       ) : null}
     </div>
-  );
+  )
 }

@@ -91,9 +91,7 @@ export default async function DocPage({ params }: DocPageProps) {
     <main className="relative py-6 pl-2 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
       <div className="mx-auto w-full min-w-0">
         <div className="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
-          <div className="overflow-hidden text-ellipsis whitespace-nowrap">
-            Docs
-          </div>
+          <div className="overflow-hidden truncate">Docs</div>
           <ChevronRightIcon className="h-4 w-4" />
           <div className="font-medium text-foreground">{doc.title}</div>
         </div>

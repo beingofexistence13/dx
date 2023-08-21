@@ -1,38 +1,38 @@
-'use client';
+"use client"
 
-import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid';
-import clsx from 'clsx';
-import React from 'react';
+import React from "react"
+import { MenuAlt2Icon, XIcon } from "@heroicons/react/solid"
+import clsx from "clsx"
 
 const MobileNavContext = React.createContext<
   [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined
->(undefined);
+>(undefined)
 
 export function MobileNavContextProvider({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false)
   return (
     <MobileNavContext.Provider value={[isOpen, setIsOpen]}>
       {children}
     </MobileNavContext.Provider>
-  );
+  )
 }
 
 export function useMobileNavToggle() {
-  const context = React.useContext(MobileNavContext);
+  const context = React.useContext(MobileNavContext)
   if (context === undefined) {
     throw new Error(
-      'useMobileNavToggle must be used within a MobileNavContextProvider',
-    );
+      "useMobileNavToggle must be used within a MobileNavContextProvider"
+    )
   }
-  return context;
+  return context
 }
 
 export function MobileNavToggle({ children }: { children: React.ReactNode }) {
-  const [isOpen, setIsOpen] = useMobileNavToggle();
+  const [isOpen, setIsOpen] = useMobileNavToggle()
 
   return (
     <>
@@ -52,13 +52,13 @@ export function MobileNavToggle({ children }: { children: React.ReactNode }) {
       </button>
 
       <div
-        className={clsx('overflow-y-auto lg:static lg:block', {
-          'fixed inset-x-0 bottom-0 top-14 bg-gray-900': isOpen,
+        className={clsx("overflow-y-auto lg:static lg:block", {
+          "fixed inset-x-0 bottom-0 top-14 bg-gray-900": isOpen,
           hidden: !isOpen,
         })}
       >
         {children}
       </div>
     </>
-  );
+  )
 }
