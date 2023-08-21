@@ -17,90 +17,89 @@ import { DashboardTableOfContents } from "@/components/toc"
 import { badgeVariants } from "@/registry/new-york/ui/badge"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 
-interface DocPageProps {
-  params: {
-    slug: string[]
-  }
-}
+// interface DocPageProps {
+//   params: {
+//     slug: string
+//   }
+// }
 
-async function getDocFromParams({ params }: DocPageProps) {
-  const doc = params.slug?.join("/") || ""
-  // const doc = allDocs.find((doc) => doc.slugAsParams === slug)
+// async function getDocFromParams({ params }: DocPageProps) {
+//   const doc = params.slug;
+//   // const doc = allDocs.find((doc) => doc.slugAsParams === slug)
 
-  if (!doc) {
-    null
-  }
+//   if (!doc) {
+//     null
+//   }
 
-  return doc
-}
+//   return doc
+// }
 
-export async function generateMetadata({
-  params,
-}: DocPageProps): Promise<Metadata> {
-  const doc = await getDocFromParams({ params })
-
-  if (!doc) {
-    return {}
-  }
-// doc is now slug
-  return {
-    title: "Not Found(coming soon!!!)",
-    description:  "Not Found(coming soon!!!)",
-    openGraph: {
-      title:  "Not Found(coming soon!!!)",
-      description:  "Not Found(coming soon!!!)",
-      type: "article",
-      url: absoluteUrl(doc),
-      images: [
-        {
-          url: siteConfig.ogImage,
-          width: 1200,
-          height: 630,
-          alt: siteConfig.name,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title:  "Not Found(coming soon!!!)",
-      description: "Not Found(coming soon!!!)",
-      images: [siteConfig.ogImage],
-      creator: "@beingofexistence",
-    },
-  }
-}
-
-export async function generateStaticParams(): Promise<
-  DocPageProps["params"][]
-> {
-  return allDocs.map((doc) => ({
-    slug: doc.slugAsParams.split("/"),
-  }))
-}
-
-// async function DocPage({ params }: DocPageProps) {
+// export async function generateMetadata({
+//   params,
+// }: DocPageProps): Promise<Metadata> {
 //   const doc = await getDocFromParams({ params })
 
 //   if (!doc) {
-//     notFound()
+//     return {}
 //   }
-
+// // doc is now slug
+//   return {
+//     title: "Not Found(coming soon!!!)",
+//     description:  "Not Found(coming soon!!!)",
+//     openGraph: {
+//       title:  "Not Found(coming soon!!!)",
+//       description:  "Not Found(coming soon!!!)",
+//       type: "article",
+//       url: absoluteUrl(doc),
+//       images: [
+//         {
+//           url: siteConfig.ogImage,
+//           width: 1200,
+//           height: 630,
+//           alt: siteConfig.name,
+//         },
+//       ],
+//     },
+//     twitter: {
+//       card: "summary_large_image",
+//       title:  "Not Found(coming soon!!!)",
+//       description: "Not Found(coming soon!!!)",
+//       images: [siteConfig.ogImage],
+//       creator: "@beingofexistence",
+//     },
+//   }
 // }
 
-export default async function NotFound({ params }: DocPageProps) {
+// // export async function generateStaticParams(): Promise<
+// //   DocPageProps["params"][]
+// // > {
+// //   // return allDocs.map((doc) => ({
+// //   //   slug: doc.slugAsParams.split("/"),
+// //   // }))
+// // }
 
-  const doc = await getDocFromParams({ params })
+// // async function DocPage({ params }: DocPageProps) {
+// //   const doc = await getDocFromParams({ params })
 
-  if (!doc) {
-    notFound()
-  }
+// //   if (!doc) {
+// //     notFound()
+// //   }
+
+// // }
+
+export default async function NotFound() {
+  // const doc = await getDocFromParams({ params })
+
+  // if (!doc) {
+  //   notFound()
+  // }
+  let doc = "Docs"
 
   return (
-    <div className="flex h-full w-full items-center justify-center">
-      <h2 className="text-lg font-bold">
-        {`This ${doc} page in devlopment(coming soon!!ghfgh!)`}
+    <div className="flex h-full w-full items-center justify-center border-r">
+      <h2 className="mr-3 rounded-md border p-5 text-lg font-bold">
+        {`This ${doc} page is in devlopment(coming soon!!!)`}
       </h2>
     </div>
   )
 }
-

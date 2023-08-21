@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import axios from "axios"
@@ -64,8 +64,9 @@ export function DocsSidebarNavItems({
 }: DocsSidebarNavItemsProps) {
   // const [descriptions, setDescriptions] = useState({});
   const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({})
-  const [emoji, setEmoji] = useState<string>("")
-  const emojis = ["😀", "😂", "😍", "🤔", "🙄", "😴", "🤢", "🤯", "🥳", "🤩"]
+  const [emoji, setEmoji] = useState<string>("");
+  const emojis = useMemo(() => ["😀", "😂", "😍", "🤔", "🙄", "😴", "🤢", "🤯", "🥳", "🤩"], []);
+
 
   async function generateDescription(title: any) {
     const prompt = `Generate a unique and creative description for ${title}`
@@ -94,7 +95,7 @@ export function DocsSidebarNavItems({
         const newDescriptions: { [key: string]: any } = {}
         for (const item of items) {
           if (item.title) {
-            newDescriptions[item.title] = await generateDescription(item.title)
+            newDescriptions[item.title] = await item.title
           }
         }
         setDescriptions(newDescriptions)

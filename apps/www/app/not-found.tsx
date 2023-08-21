@@ -1,13 +1,31 @@
-import { Boundary } from "@/ui/boundary"
+import { notFound } from "next/navigation"
+import { allDocs } from "contentlayer/generated"
 
-export default function NotFound() {
+import "@/styles/mdx.css"
+import type { Metadata } from "next"
+import Link from "next/link"
+import { ChevronRightIcon } from "@radix-ui/react-icons"
+import Balancer from "react-wrap-balancer"
+
+import { siteConfig } from "@/config/site"
+import { getTableOfContents } from "@/lib/toc"
+import { absoluteUrl, cn } from "@/lib/utils"
+import { Icons } from "@/components/icons"
+import { Mdx } from "@/components/mdx-components"
+import { DocsPager } from "@/components/pager"
+import { DashboardTableOfContents } from "@/components/toc"
+import { badgeVariants } from "@/registry/new-york/ui/badge"
+import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
+
+export default async function NotFound() {
+
+  let doc = "Docs"
+
   return (
-    <Boundary labels={["not-found.tsx"]} color="pink">
-      <div className="text-vercel-pink space-y-4">
-        <h2 className="text-lg font-bold">Not Found</h2>
-
-        <p className="text-sm">Could not find requested resource</p>
-      </div>
-    </Boundary>
+    <div className="flex h-full w-full items-center justify-center">
+      <h2 className="rounded-md border p-5 text-lg font-bold">
+        {`This page may be in devlopment or we donot have this page(coming soon!!!)`}
+      </h2>
+    </div>
   )
 }
