@@ -1,5 +1,5 @@
 ## Configuration (local testing)
-1. Create a Veritone application using the instructions [here](http://docs.veritone.com/#/applications/quick-start/step-1). 
+1. Create a Veritone application using the instructions [here](http://docs.veritone.com/@/applications/quick-start/step-1). 
    * In the URL field, use `http://localhost:3000/`
    * In the OAuth2 Redirect URL field, use `http://localhost:5001/auth/veritone/callback`
 

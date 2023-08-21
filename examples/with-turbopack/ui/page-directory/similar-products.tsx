@@ -1,5 +1,5 @@
-import { IProduct } from '#/lib/page-directory/get-products'
-import { ProductCard } from '#/ui/product-card'
+import { IProduct } from '@/lib/page-directory/get-products'
+import { ProductCard } from '@/ui/product-card'
 
 export function SimilarProducts({ products }: { products: IProduct[] }) {
   return (

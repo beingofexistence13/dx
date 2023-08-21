@@ -341,7 +341,7 @@ The Veritone export engine outputs full screen dialog. This will fetch the engin
 ## Running the development environment (storybook)
 1. Set up your local clone of veritone-sdk, following the instructions in the [main readme](https://github.com/veritone/veritone-sdk#development)
 2. cd to this package
-3. In `config.dev.json`, fill in the missing fields with your own app's information (see our [application quick-start guide](http://docs.veritone.com/#/applications/quick-start/) for more info on how to create an app). **Your app's `URL` and `redirect URL` should be set to the same value** for the purposes of dev in this package. This default allows the environment to run with minimal config. 
+3. In `config.dev.json`, fill in the missing fields with your own app's information (see our [application quick-start guide](http://docs.veritone.com/@/applications/quick-start/) for more info on how to create an app). **Your app's `URL` and `redirect URL` should be set to the same value** for the purposes of dev in this package. This default allows the environment to run with minimal config. 
 4. run `yarn start`.
 5. When the build finishes, access the storybook at the url provided in your terminal.
 

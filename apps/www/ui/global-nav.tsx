@@ -1,7 +1,7 @@
 'use client';
 
-import { demos, type Item } from '#/lib/demos';
-import { NextLogo } from '#/ui/next-logo';
+import { demos, type Item } from '@/lib/demos';
+import { NextLogo } from '@/ui/next-logo';
 import Link from 'next/link';
 import { useSelectedLayoutSegment } from 'next/navigation';
 import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid';
@@ -39,9 +39,12 @@ export function GlobalNav() {
           Menu
         </div>
         {isOpen ? (
-          <XIcon className="block w-6 text-gray-400" />
+          // <XIcon className="block w-6 text-gray-400" />
+          <h1>X</h1>
         ) : (
-          <MenuAlt2Icon className="block w-6 text-gray-400" />
+          // <MenuAlt2Icon className="block w-6 text-gray-400" />
+          <h1>Menu</h1>
+
         )}
       </button>
 

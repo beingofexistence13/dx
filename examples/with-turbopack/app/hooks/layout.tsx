@@ -1,7 +1,7 @@
-import { getCategories } from '#/app/api/categories/getCategories'
-import { LayoutHooks } from '#/app/hooks/_components/router-context-layout'
-import { ClickCounter } from '#/ui/click-counter'
-import { TabGroup } from '#/ui/tab-group'
+import { getCategories } from '@/app/api/categories/getCategories'
+import { LayoutHooks } from '@/app/hooks/_components/router-context-layout'
+import { ClickCounter } from '@/ui/click-counter'
+import { TabGroup } from '@/ui/tab-group'
 import React from 'react'
 
 export const metadata = {

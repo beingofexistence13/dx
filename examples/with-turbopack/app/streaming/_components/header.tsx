@@ -1,4 +1,4 @@
-import { NextLogo } from '#/ui/next-logo'
+import { NextLogo } from '@/ui/next-logo'
 import { SearchIcon, ShoppingCartIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import Link from 'next/link'

@@ -1,5 +1,5 @@
-import type { Review } from '#/app/api/reviews/review'
-import { ProductReviewCard } from '#/ui/product-review-card'
+import type { Review } from '@/app/api/reviews/review'
+import { ProductReviewCard } from '@/ui/product-review-card'
 
 export async function Reviews({ data }: { data: Promise<Response> }) {
   const reviews = (await data.then((res) => res.json())) as Review[]

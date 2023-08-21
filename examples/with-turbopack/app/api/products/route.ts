@@ -1,4 +1,4 @@
-import type { Product } from '#/app/api/products/product'
+import type { Product } from '@/app/api/products/product'
 
 const data: Product[] = [
   {

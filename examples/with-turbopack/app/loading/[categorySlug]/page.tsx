@@ -1,6 +1,6 @@
-import type { Category } from '#/app/api/categories/category'
-import { getBaseUrl } from '#/lib/getBaseUrl'
-import { SkeletonCard } from '#/ui/skeleton-card'
+import type { Category } from '@/app/api/categories/category'
+import { getBaseUrl } from '@/lib/getBaseUrl'
+import { SkeletonCard } from '@/ui/skeleton-card'
 import { notFound } from 'next/navigation'
 
 export default async function Page({

@@ -1,4 +1,4 @@
-import { RenderingInfo } from '#/ui/rendering-info'
+import { RenderingInfo } from '@/ui/rendering-info'
 
 export const dynamicParams = true
 

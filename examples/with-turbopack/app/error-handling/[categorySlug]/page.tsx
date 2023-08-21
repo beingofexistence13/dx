@@ -1,6 +1,6 @@
-import { getCategory } from '#/app/api/categories/getCategories'
-import BuggyButton from '#/ui/buggy-button'
-import { SkeletonCard } from '#/ui/skeleton-card'
+import { getCategory } from '@/app/api/categories/getCategories'
+import BuggyButton from '@/ui/buggy-button'
+import { SkeletonCard } from '@/ui/skeleton-card'
 
 export default async function Page({
   params,

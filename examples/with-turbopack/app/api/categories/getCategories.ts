@@ -1,4 +1,4 @@
-import { getBaseUrl } from '#/lib/getBaseUrl'
+import { getBaseUrl } from '@/lib/getBaseUrl'
 import { notFound } from 'next/navigation'
 import type { Category } from './category'
 

@@ -1,6 +1,6 @@
-import { type IReview } from '#/lib/page-directory/get-products'
-import { ProductReviewCard as ProductReviewCardCss } from '#/ui/product-review-card'
-// import { ProductReviewCard as ReviewCssModules } from '#/ui/modules/ProductReviewCard';
+import { type IReview } from '@/lib/page-directory/get-products'
+import { ProductReviewCard as ProductReviewCardCss } from '@/ui/product-review-card'
+// import { ProductReviewCard as ReviewCssModules } from '@/ui/modules/ProductReviewCard';
 
 export function Reviews({ reviews }: { reviews: IReview[] }) {
   return (

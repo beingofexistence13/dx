@@ -1,9 +1,9 @@
-import { type IProduct } from '#/lib/page-directory/get-products'
-import { ProductEstimatedArrival } from '#/ui/product-estimated-arrival'
-import { ProductLowStockWarning } from '#/ui/product-low-stock-warning'
-import { ProductPrice } from '#/ui/product-price'
-import { ProductSplitPayments } from '#/ui/product-split-payments'
-import { ProductUsedPrice } from '#/ui/product-used-price'
+import { type IProduct } from '@/lib/page-directory/get-products'
+import { ProductEstimatedArrival } from '@/ui/product-estimated-arrival'
+import { ProductLowStockWarning } from '@/ui/product-low-stock-warning'
+import { ProductPrice } from '@/ui/product-price'
+import { ProductSplitPayments } from '@/ui/product-split-payments'
+import { ProductUsedPrice } from '@/ui/product-used-price'
 import { dinero, type DineroSnapshot } from 'dinero.js'
 
 export function ProductPricing({ product }: { product: IProduct }) {

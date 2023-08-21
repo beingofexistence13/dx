@@ -1,4 +1,4 @@
-import { Review } from '#/app/api/reviews/review'
+import { Review } from '@/app/api/reviews/review'
 
 const reviews: Review[] = [
   {

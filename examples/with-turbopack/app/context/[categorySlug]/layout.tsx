@@ -1,6 +1,6 @@
-import { getCategories, getCategory } from '#/app/api/categories/getCategories'
+import { getCategories, getCategory } from '@/app/api/categories/getCategories'
 import { Boundary } from '@/ui/boundary'
-import { TabGroup } from '#/ui/tab-group'
+import { TabGroup } from '@/ui/tab-group'
 import { Counter } from '../context-click-counter'
 
 export default async function Layout({

@@ -1,4 +1,4 @@
-import { ExternalLink } from '#/ui/external-link'
+import { ExternalLink } from '@/ui/external-link'
 import Link from 'next/link'
 
 const items = [

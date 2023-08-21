@@ -1,5 +1,5 @@
-import { Product } from '#/app/api/products/product'
-import { ProductCard } from '#/ui/product-card'
+import { Product } from '@/app/api/products/product'
+import { ProductCard } from '@/ui/product-card'
 
 export async function RecommendedProducts({
   path,

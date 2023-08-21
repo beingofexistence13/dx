@@ -1,6 +1,6 @@
-import { type IProduct } from '#/lib/page-directory/get-products'
-import { ProductPricing } from '#/ui/page-directory/product-pricing'
-import { ProductRating } from '#/ui/product-rating'
+import { type IProduct } from '@/lib/page-directory/get-products'
+import { ProductPricing } from '@/ui/page-directory/product-pricing'
+import { ProductRating } from '@/ui/product-rating'
 import Image from 'next/image'
 
 export const Product = ({ product }: { product: IProduct }) => {

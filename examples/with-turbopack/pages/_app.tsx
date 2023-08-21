@@ -1,4 +1,4 @@
-import { Layout } from '#/ui/page-directory/layout'
+import { Layout } from '@/ui/page-directory/layout'
 import { Inter } from 'next/font/google'
 import { AppProps } from 'next/app'
 import 'styles/globals.css'

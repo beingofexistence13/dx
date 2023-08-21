@@ -1,6 +1,6 @@
 'use client'
 
-import { Tab } from '#/ui/tab'
+import { Tab } from '@/ui/tab'
 import clsx from 'clsx'
 import React, { useEffect } from 'react'
 
