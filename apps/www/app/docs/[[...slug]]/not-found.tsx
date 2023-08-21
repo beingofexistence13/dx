@@ -98,7 +98,7 @@ export default async function NotFound() {
   return (
     <div className="flex h-full w-full items-center justify-center border-r">
       <h2 className="mr-3 rounded-md border p-5 text-lg font-bold">
-        {`This ${doc} page is in devlopment(coming soon!!!)`}
+        {`This ${doc} page Is In Devlopment(coming soon!!!)`}
       </h2>
     </div>
   )
