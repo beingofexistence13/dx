@@ -129,7 +129,19 @@ export function HelloTool() {
       </MenubarMenu>
       {/* Users */}
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
-        <Avatar className=" h-[30px] w-[30px]">
+        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarFallback>1</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarFallback>1</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarFallback>1</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>

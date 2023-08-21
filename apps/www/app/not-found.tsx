@@ -19,12 +19,10 @@ import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 
 export default async function NotFound() {
 
-  let doc = "Docs"
-
   return (
     <div className="flex h-full w-full items-center justify-center">
       <h2 className="rounded-md border p-5 text-lg font-bold">
-        {`This page may be in devlopment or we donot have this page(coming soon!!!)`}
+        {`This page may be in devlopment or we donot have this page!!!`}
       </h2>
     </div>
   )
