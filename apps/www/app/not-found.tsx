@@ -98,7 +98,7 @@ export default function NotFound() {
         </Link>
         <Link
 
-          href="/docs/introduction"
+          href="/docs"
           className={cn(buttonVariants({ variant: "outline" }))}
         >
           Docs
