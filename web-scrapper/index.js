@@ -1,4 +1,7 @@
 import axios from "axios"
+// import cheerio from "cheerio"
+import { JSDOM } from 'jsdom';
+
 
 let evm_wallet = [
   {
@@ -4338,8 +4341,8 @@ let evm_wallets = [
     items: [],
   },
   {
-    title: "Crypto.com | DeFi Wallet",
-    href: "docs/hack(evm-wallets)/Crypto.com | DeFi Wallet",
+    title: "Crypto.com",
+    href: "docs/hack(evm-wallets)/Crypto.com",
     description: "Not Provided(coming soon)",
     logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c5ff577-a68d-49c5-02cd-3d83637b0b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
     items: [],
@@ -4426,13 +4429,6 @@ let evm_wallets = [
     href: "docs/hack(evm-wallets)/Ledger Live",
     description: "Not Provided(coming soon)",
     logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7f416de-aa03-4c5e-3280-ab49269aef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-    items: [],
-  },
-  {
-    title: "MEW wallet",
-    href: "docs/hack(evm-wallets)/MEW wallet",
-    description: "Not Provided(coming soon)",
-    logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e2024511-2c9b-46d7-3111-52df3d241700?projectId=2f05ae7f1116030fde2d36508f472bfb",
     items: [],
   },
   {
@@ -4667,8 +4663,8 @@ let evm_wallets = [
     items: [],
   },
   {
-    title: "Tokoin | My-T Wallet",
-    href: "docs/hack(evm-wallets)/Tokoin | My-T Wallet",
+    title: "Tokoin",
+    href: "docs/hack(evm-wallets)/Tokoin",
     description: "Not Provided(coming soon)",
     logo: "https://explorer-api.walletconnect.com/v3/logo/lg/88a2518c-16c2-4ee3-4699-1a1c6903bc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
     items: [],
@@ -19164,13 +19160,13 @@ let walletConnect = [
     },
   ],
 ]
-let walletConnects = evm_wallets.concat(
-  solana_wallets,
-  cosmos_wallets,
-  evm_dapps,
-  solana_dapps,
-  cosmos_dapps
-)
+// let walletConnects = evm_wallets.concat(
+//   solana_wallets,
+//   cosmos_wallets,
+//   evm_dapps,
+//   solana_dapps,
+//   cosmos_dapps
+// )
 // console.log(JSON.stringify(walletConnect))
 // evm_wallet.map((statergies) => {
 //   let title_formated = statergies.title.replace(/\s+/g, "_")
@@ -19183,23 +19179,51 @@ let walletConnects = evm_wallets.concat(
 //   console.log(cosmos_dapps)
 // })
 
-let evm_wallets_details = [];
+let evm_wallets_details = []
+let result = []
+// evm_wallets.map((statergies) => {
+//   let title_formated = statergies.title.replace(/\s+/g, "-")
+//   let url = `https://walletconnect.com/explorer/${title_formated}`
+//   axios
+//     .get(url)
+//     .then((response) => {
+//       const html = response.data
+//       let dom = new JSDOM(html);
+//       let document = dom.window.document;
+      
+//       let description = document.querySelector('.styles_text__LlfBJ').textContent;
+//       let website_url = document.querySelector('.styles_linkContainer__LpFnL a').href;
+      
+//       result.push({description: description, website_url: website_url});
+//       console.log(result);
+//     })
+//     .catch((error) => {
+//       console.error("Error fetching the page:", error)
+//     })
+// })
 
-for (let i = 0; i < evm_wallets.length; i++) {
-  let title_formated = evm_wallets.title.replace(/\s+/g, "-")
-  let url = `https://walletconnect.com/explorer/${title_formated}`;
+// console.log(evm_wallets_details)
 
-  axios
-  .get(url)
-  .then((response) => {
-    const html = response.data;
-    regex = html.match(/.url. href..https...github.com.\w+.\w+-\w+/g);
 
-    evm_wallets_details = `{url:"${regex}"},`;
-  })
-  .catch((error) => {
-    console.error("Error fetching the page:", error)
-  })
-  console.log(evm_wallets_details);
+evm_wallets.map((statergies, index) => {
+  setTimeout(() => {
+    let title_formated = statergies.title.replace(/\s+/g, "-")
+    let url = `https://walletconnect.com/explorer/${title_formated.toLowerCase()}`
+    axios
+      .get(url)
+      .then((response) => {
+        const html = response.data
+        let dom = new JSDOM(html);
+        let document = dom.window.document;
 
-}
+        let description = document.querySelector('div.styles_wrapper__rE1Uh p.styles_text__LlfBJ').textContent;
+        let website_url = document.querySelector('.styles_linkContainer__LpFnL a').href;
+
+        result = `{title:"${statergies.title}",description:"${description}",website_url:"${website_url}"},`;
+        console.log(result);
+      })
+      .catch((error) => {
+        console.error("Error fetching the page:", error)
+      })
+  }, index * 5000); // delay of 1 second
+})
