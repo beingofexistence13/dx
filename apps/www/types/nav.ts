@@ -3,8 +3,13 @@ import { Icons } from "@/components/icons"
 export interface NavItem {
   title: string
   description?: string
+  download?: string
+  star?: string
+  version?: string
+  updated?: string
   logo?: string
   github_repository?: string
+  github_repo?: string
   href?: string
   disabled?: boolean
   external?: boolean
@@ -13,7 +18,7 @@ export interface NavItem {
 }
 
 export interface NavItemWithChildren extends NavItem {
-  items: NavItemWithChildren[]
+  items?: NavItemWithChildren[]
 }
 
 export interface MainNavItem extends NavItem {
