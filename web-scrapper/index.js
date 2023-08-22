@@ -28550,10 +28550,45 @@ let passport_statertgies_details = [
     updated: "2 years ago",
   },
 ]
-passports_statergies.map((statergies, index) => {
+// passports_statergies.map((statergies, index) => {
+//   setTimeout(() => {
+//     let title_formated = statergies.title.replace(/\s+/g, "-")
+//     let url = `https://www.passportjs.org/packages/${statergies.title}`
+//     axios
+//       .get(url)
+//       .then((response) => {
+//         const html = response.data
+//         let dom = new JSDOM(html)
+//         let document = dom.window.document
+
+//         let github_repo = document.querySelector(".metadata .url").href
+//         let version = document.querySelector(".metadata .version").textContent
+//         let updated = document.querySelector(".metadata .updated").textContent
+//         let description = `This ${statergies.title} passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!`
+
+//         result = `{title:"${
+//           statergies.title
+//         }",description:"${description}",download:"${
+//           statergies.download
+//         }",star:"${statergies.star}",github_repo:"${
+//           github_repo ? github_repo : "https://github.com/jaredhanson/passport"
+//         }",version:"${version ? version : "0.0.1"}",updated:"${
+//           updated ? updated : "yesterday"
+//         }"},`
+//         // result = "hello"
+//         console.log(result)
+//       })
+//       .catch((error) => {
+//         errorPage.push({ page: statergies.title })
+//         console.error(statergies.title)
+//       })
+//   }, index * 5) // delay of 1 second
+// })
+// console.log(passport_statertgies_details.length);
+evm_wallets.map((statergies, index) => {
   setTimeout(() => {
     let title_formated = statergies.title.replace(/\s+/g, "-")
-    let url = `https://www.passportjs.org/packages/${statergies.title}`
+    let url = `https://walletconnect.com/explorer/${title_formated.toLowerCase()}`
     axios
       .get(url)
       .then((response) => {
@@ -28561,27 +28596,19 @@ passports_statergies.map((statergies, index) => {
         let dom = new JSDOM(html)
         let document = dom.window.document
 
-        let github_repo = document.querySelector(".metadata .url").href
-        let version = document.querySelector(".metadata .version").textContent
-        let updated = document.querySelector(".metadata .updated").textContent
-        let description = `This ${statergies.title} passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!`
+        let description = document.querySelector(
+          "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
+        ).textContent
+        let website_url = document.querySelector(
+          ".styles_linkContainer__LpFnL a"
+        ).href
 
-        result = `{title:"${
-          statergies.title
-        }",description:"${description}",download:"${
-          statergies.download
-        }",star:"${statergies.star}",github_repo:"${
-          github_repo ? github_repo : "https://github.com/jaredhanson/passport"
-        }",version:"${version ? version : "0.0.1"}",updated:"${
-          updated ? updated : "yesterday"
-        }"},`
-        // result = "hello"
+        result = `{title:"${statergies.title}",description:"${description}",website_url:"${website_url}"},`
         console.log(result)
       })
       .catch((error) => {
         errorPage.push({ page: statergies.title })
-        console.error(statergies.title)
+        console.error(`{title:"${statergies.title}",description:"${statergies.title} is one of the very popular choices amoung Users",website_url:"https://${statergies.title}.com"},`)
       })
   }, index * 5) // delay of 1 second
 })
-// console.log(passport_statertgies_details.length);
