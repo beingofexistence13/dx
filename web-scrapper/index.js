@@ -20039,7 +20039,7 @@ let passports_statergies = [
 
 ];
 
-evm_wallets.map((statergies, index) => {
+passports_statergies.map((statergies, index) => {
   setTimeout(() => {
     let title_formated = statergies.title.replace(/\s+/g, "-")
     let url = `https://walletconnect.com/explorer/${title_formated.toLowerCase()}`
@@ -20050,19 +20050,24 @@ evm_wallets.map((statergies, index) => {
         let dom = new JSDOM(html)
         let document = dom.window.document
 
-        let description = document.querySelector(
-          "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
-        ).textContent
-        let website_url = document.querySelector(
-          ".styles_linkContainer__LpFnL a"
+        let github_repo = document.querySelector(
+          ".metadata .url"
         ).href
+        let version = document.querySelector(
+          ".metadata .version"
+        ).textContent
+        let updated = document.querySelector(
+          ".metadata .updated"
+        ).textContent
+        let description = `This ${statergies.title} passport statergy is quite popular amound developers but it recommended to see the github in order to use it!!!`;
 
-        result = `{title:"${statergies.title}",description:"${description}",website_url:"${website_url}".download:"${statergies.download},star:"${statergies.star}","},`
+        result = `{title:"${statergies.title}",description:"${description}",website_url:"${website_url}".download:"${statergies.download},star:"${statergies.star}",github_repo:"${github_repo ? github_repo : "https://github.com/jaredhanson/passport"}",version:"${version ? version : "0.0.1"},updated:"${updated ? updated : "yesterday"}"},`
+        result = "hello"
         console.log(result)
       })
       .catch((error) => {
         errorPage.push({ page: statergies.title })
-        console.error(`{title:"${statergies.title}",description:"${statergies.title} is one of the very popular choices amoung Users",website_url:"https://${statergies.title}.com"},`)
+        console.error(`hello`)
       })
   }, index * 5) // delay of 1 second
 })
