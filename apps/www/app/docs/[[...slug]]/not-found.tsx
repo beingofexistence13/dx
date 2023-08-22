@@ -87,7 +87,7 @@ import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 
 // // }
 
-export default async function NotFound() {
+export default function NotFound() {
   // const doc = await getDocFromParams({ params })
 
   // if (!doc) {

@@ -1,28 +1,57 @@
-import { notFound } from "next/navigation"
-import { allDocs } from "contentlayer/generated"
+"use client"
 
-import "@/styles/mdx.css"
-import type { Metadata } from "next"
-import Link from "next/link"
-import { ChevronRightIcon } from "@radix-ui/react-icons"
-import Balancer from "react-wrap-balancer"
+import { useEffect, useState } from "react"
 
-import { siteConfig } from "@/config/site"
-import { getTableOfContents } from "@/lib/toc"
-import { absoluteUrl, cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
-import { Mdx } from "@/components/mdx-components"
-import { DocsPager } from "@/components/pager"
-import { DashboardTableOfContents } from "@/components/toc"
-import { badgeVariants } from "@/registry/new-york/ui/badge"
-import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
+// import { useRouter } from 'next/router';
 
-export default async function NotFound() {
+export default function NotFound() {
+  const [urls, setUrls] = useState("Not Found")
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // You can safely use window here
+      // window.addEventListener('scroll', handleScroll);
+      const origin =
+        typeof window !== "undefined" ? window.location.href : "gfdg"
+      // const inputString = "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io/dgdfsgfdsc";
+      const regex = /\/([^/]+)$;/ // Matches the last word after the last '/' character
+      const regex2 = /.[\w-]+,/g // Matches the last word after the last '/' character
+      const regex3 = /[\w-]+/g // Matches the last word after the last '/' character
+
+      const prematch1: any = origin.match(regex)
+      const prematch2: any = prematch1 ? prematch1.match(regex2) : "Not Found"
+      // const match: any = prematch2 ? prematch2.match(regex3) : "Not Found"
+      // const match = prematch ? prematch.replace(regex2, "") : "Not Found";
+
+      // let lastWord: any = match ? match[1] : "Not Found";
+      // Use a regular expression to extract the last word before "/"
+      const match = origin.match(/\/([^/]+)$/)
+
+      if (match) {
+        const lastWord = match[1]
+        setUrls(lastWord)
+
+        console.log(lastWord) // This will print "gfhddfgh"
+      } else {
+        console.log("No match found")
+      }
+      const url = `${match}`
+      console.log(origin)
+    }
+  }, [])
+  // const router = useRouter();
+  // const { asPath } = router;
+
+  // if (typeof window !== "undefined") {
+  //   // You can safely use window here
+  //   // window.addEventListener('scroll', handleScroll);
+  //   console.log(typeof window !== "undefined" ? window.location.href : "gfdg")
+  // }
+  console.log(urls)
   return (
-    <div className="flex h-full w-full items-center justify-center">
-      <h2 className="rounded-md border p-5 text-lg font-bold">
-        {`This page may be in devlopment or we donot have this page!!!`}
+    <div className="flex min-h-full w-full items-center justify-center border-r">
+      <h2 className="mr-3 rounded-md border p-5 text-lg font-bold">
+        {`This ${urls} page Is In Devlopment(coming soon!!!)`}
       </h2>
     </div>
   )
