@@ -16,5 +16,9 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "./packages/**/*",
+    "node_modules",
+    "/workspace/dx/packages/next-swc/crates/next-core/js/src/entry/app/server-to-client-ssr.d.ts"
+  ]
 }
