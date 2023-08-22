@@ -1,8 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
   "root": true,
+  
   "extends": [
     "next/core-web-vitals",
+    "next/babel",
     "turbo",
     "prettier",
     "plugin:tailwindcss/recommended"
