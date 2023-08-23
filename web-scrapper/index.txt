@@ -880,3 +880,1619 @@ const chat_completion = (async () => {
 
 
 [{"title":"Spot","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/1bf33a89-b049-4a1c-d1f6-4dd7419ee400?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Omni","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/2cd67b4c-282b-4809-e7c0-a88cd5116f00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Frontier","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/a78c4d48-32c1-4a9d-52f2-ec7ee08ce200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"SafePal","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/252753e7-b783-4e03-7f77-d39864530900?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Exodus","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/4c16cad4-cac9-4643-6726-c696efaf5200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"ONTO","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/d22b2a4b-5562-49ba-506b-6d5986914600?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"MathWallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/26a8f588-3231-4411-60ce-5bb6b805a700?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Fireblocks","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/7e1514ba-932d-415d-1bdb-bccb6c2cbc00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Infinity Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/9f259366-0bcd-4817-0af9-f78773e41900?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Coin98 Super App","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/fc460647-ea95-447a-99f0-1bff8fa4be00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Ottr Finance","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/7025146c-c341-473f-a79c-62ec48eef800?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Broearn Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/b3c2c77c-a8cf-46e1-095a-77f0a3891500?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Burrito Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/7eec7187-3f48-4fda-53bb-b0ad55749a00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"CVL Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/e4eff15a-35d5-49fe-047f-33e331f46400?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Nitrogen Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/af185895-cda5-4eaf-e31b-28b6fe4b0800?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"BCVault","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/56995d82-a980-4dfc-2611-0f91d88c5700?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Absolute Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/03797059-fc49-4adc-7b93-503290b62300?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Brave Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/8cecad66-73e3-46ee-f45f-01503c032f00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Crossmint","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/8ad627ec-cbcd-4878-ec5c-3df588055200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Torus","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/1caa462e-dcf5-4c56-d180-094c81444f00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"iToken Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/5cd60c34-038d-470c-c024-d58f64260200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Slavi Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/282ce060-0beb-4236-b7b0-1b34cc6c8f00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"StrikeX Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/cae46de2-b432-4002-8bc8-1f0e7380b200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"3S Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/f3b6a89d-ec8f-49dc-e07f-6bf723e1e500?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"SimpleHold","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/a9f1ba96-b658-4d13-f71f-226b6389f000?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"OneKey","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/12bebb3f-8030-4892-8452-c60a6bac1500?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Phantom","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/c38443bb-b3c1-4697-e569-408de3fcc100?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Coinbase Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/a5ebc364-8f91-4200-fcc6-be81310a0000?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"XDEFI Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/efec6318-7f96-4b30-9287-6c287660cd00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"SafeMoon","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/ea0140c7-787c-43a4-838f-d5ab6a342000?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"PassPay Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/a1c337f5-c156-4ce8-763b-b4cc65f1c200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"tomiPAY","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/bf8bd7b8-b638-40f6-1caa-1d7678bb1900?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"StrikeX Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/eb2b6db5-1086-4739-a422-4a4bf3a44300?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Catecoin Wallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/d017bc54-db4d-4f07-2de2-69790ce92400?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"UKISS Hub","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/23f4c933-68e6-46f9-75b6-2d2905ca1300?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Tidus Wallet ","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/797bd108-d862-4d1b-d339-883de9a75000?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Zelcore","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/1b9e652e-1667-425a-f828-707bf9b05400?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"Gate.io","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/6e528abf-7a7d-47bd-d84d-481f169b1200?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"UTORG","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/39c77c0b-d6ea-419d-92b7-513a5eac2c00?projectId=2f05ae7f1116030fde2d36508f472bfb"},{"title":"CoinWallet","logo":"https://explorer-api.walletconnect.com/v3/logo/lg/1c0cd352-ce8e-4bcc-f91d-8763eab60b00?projectId=2f05ae7f1116030fde2d36508f472bfb"}]
+
+
+// let evm_wallets_details = [
+//   {
+//     title: "MetaMask",
+//     description:
+//       "Whether you are an experienced user or brand new to blockchain, MetaMask helps you connect to the decentralized web: a new internet.",
+//     website_url: "https://metamask.io/",
+//   },
+//   {
+//     title: "Trust Wallet",
+//     description:
+//       "Trust Wallet supports over 8 Million tokens including Ethereum, Solana, Polygon Matic, BNB, and Avalanche.",
+//     website_url: "https://trustwallet.com/",
+//   },
+//   {
+//     title: "Uniswap Wallet",
+//     description:
+//       "Built by the most trusted team in DeFi, Uniswap Wallet allows you to maintain full custody and control of your assets. ",
+//     website_url: "https://uniswap.org/",
+//   },
+//   {
+//     title: "Crypto.com",
+//     description: "Crypto.com is one of the very popular choices amoung Users",
+//     website_url: "https://Crypto.com.com",
+//   },
+//   {
+//     title: "Blockchain.com",
+//     description:
+//       "Blockchain.com is one of the very popular choices amoung Users",
+//     website_url: "https://Blockchain.com.com",
+//   },
+//   {
+//     title: "Rainbow",
+//     description:
+//       "Rainbow is a fun, simple, and secure way to get started with crypto and explore the new world of Ethereum",
+//     website_url: "https://rainbow.me/",
+//   },
+//   {
+//     title: "1inch Wallet",
+//     description: "1inch Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://1inch Wallet.com",
+//   },
+//   {
+//     title: "Spot",
+//     description:
+//       "Spot is a mobile & secure non-custodial wallet for Ethereum, Polygon, Solana, Bitcoin, Tezos & NFTs. Access web3 & DeFi with WalletConnect.",
+//     website_url: "https://www.spot-wallet.com/",
+//   },
+//   {
+//     title: "Zerion",
+//     description: "Smart Web3 Wallet",
+//     website_url: "https://zerion.io/",
+//   },
+//   {
+//     title: "Bitcoin.com Wallet",
+//     description:
+//       "Bitcoin.com Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Bitcoin.com Wallet.com",
+//   },
+//   {
+//     title: "Bridge Wallet",
+//     description:
+//       "Bridge Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Bridge Wallet.com",
+//   },
+//   {
+//     title: "Broearn Wallet",
+//     description:
+//       "Broearn Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Broearn Wallet.com",
+//   },
+//   {
+//     title: "Argent",
+//     description:
+//       "Buy, earn, stake and trade on Ethereum Layer 2 with low fees & bulletproof security.",
+//     website_url: "https://www.argent.xyz/",
+//   },
+//   {
+//     title: "Zengo Wallet",
+//     description: "Web3, DeFi and Dapp wallet",
+//     website_url: "https://zengo.com/",
+//   },
+//   {
+//     title: "Ripio Portal",
+//     description: "Ripio Portal is one of the very popular choices amoung Users",
+//     website_url: "https://Ripio Portal.com",
+//   },
+//   {
+//     title: "Safe",
+//     description: "The most trusted platform to manage digital assets.",
+//     website_url: "https://safe.global/",
+//   },
+//   {
+//     title: "Robinhood Wallet",
+//     description: "Robinhood’s Web3 Wallet",
+//     website_url: "https://robinhood.com/web3-wallet/",
+//   },
+//   {
+//     title: "Imota ",
+//     description: "Imota  is one of the very popular choices amoung Users",
+//     website_url: "https://Imota .com",
+//   },
+//   {
+//     title: "BCVault",
+//     description: "BCVault is one of the very popular choices amoung Users",
+//     website_url: "https://BCVault.com",
+//   },
+//   {
+//     title: "Ledger Live",
+//     description:
+//       "Web3 Wallet from the company that produced the world's most secure crypto hardware device.",
+//     website_url: "https://www.ledger.com/ledger-live",
+//   },
+//   {
+//     title: "OKX Wallet",
+//     description: "One Web3 portal to rule them all",
+//     website_url: "https://www.okx.com/web3",
+//   },
+//   {
+//     title: "BitKeep",
+//     description: "BitKeep Wallet",
+//     website_url: "https://bitkeep.com/",
+//   },
+//   {
+//     title: "Ottr Finance",
+//     description: "The Wallet for Everyone",
+//     website_url: "https://ottr.finance/",
+//   },
+//   {
+//     title: "Exodus",
+//     description: "Best Crypto Wallet for Desktop, Mobile, Browser, Hardware",
+//     website_url: "https://exodus.com/",
+//   },
+//   {
+//     title: "αU wallet",
+//     description: "Safely manage NFTs and cryptocurrencies with Wallet",
+//     website_url: "https://web.wallet.alpha-u.io/intro.html",
+//   },
+//   {
+//     title: "Arculus Wallet",
+//     description: "Cold Storage Crypto Wallet",
+//     website_url: "https://www.getarculus.com/",
+//   },
+//   {
+//     title: "Kelp",
+//     description:
+//       "A non-custodial cryptocurrency wallet to use during the Kelp multi-phase launch.",
+//     website_url: "https://kelp.finance/",
+//   },
+//   {
+//     title: "LOBSTR Wallet",
+//     description:
+//       "LOBSTR is a leading platform for managing Stellar Lumens and other assets issued on the Stellar network.",
+//     website_url: "https://lobstr.co/",
+//   },
+//   {
+//     title: "Modular Wallet Prod",
+//     description: "The first modular wallet.",
+//     website_url: "https://modular.pk/",
+//   },
+//   {
+//     title: "Coinomi",
+//     description:
+//       "The blockchain wallet trusted by millions. Securely store, manage, and exchange Bitcoin, Ethereum, and more than 1,770 Tokens and Altcoins.",
+//     website_url: "https://www.coinomi.com/",
+//   },
+//   {
+//     title: "Numio",
+//     description:
+//       "Send Crypto Instantly and Save up to 100x on Ethereum Fees Cheap. Fast. Secure. Download for free and start saving money today.",
+//     website_url: "https://numio.one/",
+//   },
+//   {
+//     title: "Jade Wallet",
+//     description: "Eliminate Single Point of Failures with MPC.",
+//     website_url: "https://www.jadewallet.io/",
+//   },
+//   {
+//     title: "Huddln",
+//     description: "Web3's social gateway",
+//     website_url: "https://www.huddln.io/",
+//   },
+//   {
+//     title: "HaHa",
+//     description: "Wallet and Portfolio Tracker",
+//     website_url: "https://www.haha.me/",
+//   },
+//   {
+//     title: "Chain",
+//     description: "Buy Bitcoin, NFTs & Crypto",
+//     website_url: "https://chain.com/",
+//   },
+//   {
+//     title: "Spatium",
+//     description: "Spatium is one of the very popular choices amoung Users",
+//     website_url: "https://Spatium.com",
+//   },
+//   {
+//     title: "Absolute Wallet",
+//     description:
+//       "Absolute Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Absolute Wallet.com",
+//   },
+//   {
+//     title: "Ownbit",
+//     description: "Ownbit is one of the very popular choices amoung Users",
+//     website_url: "https://Ownbit.com",
+//   },
+//   {
+//     title: "Binance DeFi Wallet",
+//     description:
+//       "Binance DeFi Wallet is a keyless, seedless, multi-chain and semi-custody wallet.",
+//     website_url: "https://www.binance.com/en/defiwallet",
+//   },
+//   {
+//     title: "Cobalt Wallet",
+//     description: "Horizen's EVM wallet",
+//     website_url: "https://www.horizen.io/",
+//   },
+//   {
+//     title: "Sabay Wallet App",
+//     description: "Blochain Wallet to connect with MySabay",
+//     website_url: "https://wallet.sabay.com/",
+//   },
+//   {
+//     title: "NOW Wallet",
+//     description: "Cryptocurrency Fort Knox in your pocket",
+//     website_url: "https://walletnow.app/",
+//   },
+//   {
+//     title: "Tokoin",
+//     description:
+//       "A super token which is an integral part of all of Tokoin’s ecosystem.",
+//     website_url: "https://tokoin.io/",
+//   },
+//   {
+//     title: "Verso",
+//     description: "The easiest crypto wallet",
+//     website_url: "https://get-verso.com/",
+//   },
+//   {
+//     title: "Everspace",
+//     description: "Non-custodial multichain crypto wallet",
+//     website_url: "https://everspace.app/",
+//   },
+//   {
+//     title: "Enjin Wallet",
+//     description:
+//       "Enjin Wallet is a secure non-custodial wallet to store, send, manage NFTs, FTs, and digital collectables.",
+//     website_url: "https://enjin.io/products/wallet",
+//   },
+//   {
+//     title: "Kriptomat",
+//     description: "The simplest way to use Web3 apps.",
+//     website_url: "https://kriptomat.io/web3/",
+//   },
+//   {
+//     title: "Copiosa",
+//     description:
+//       "The Copiosa Wallet is more than just a digital wallet, it's an innovative tool that makes managing cryptocurrencies easy and secure",
+//     website_url: "https://copiosa.io/",
+//   },
+//   {
+//     title: "Leap Cosmos Wallet",
+//     description: "A crypto super wallet for Cosmos blockchains",
+//     website_url: "https://leapwallet.io/",
+//   },
+//   {
+//     title: "Libera",
+//     description:
+//       "Libera is the key to empowering financially unserved and underserved people around the world.",
+//     website_url: "https://liberawallet.com/",
+//   },
+//   {
+//     title: "CoinCircle",
+//     description: "Earn, Pay, Buy, Borrow Crypto",
+//     website_url: "https://coincircle.com/",
+//   },
+//   {
+//     title: "Valora",
+//     description:
+//       "Valora is a mobile crypto wallet that enables global payments and easy access to decentralized apps.",
+//     website_url: "https://valoraapp.com/",
+//   },
+//   {
+//     title: "GameStop Wallet",
+//     description:
+//       "GameStop Wallet is a simple and secure way to get started with Web3. Use your GameStop Wallet to buy, hold, swap. Power to the players!",
+//     website_url: "https://wallet.gamestop.com/wallets",
+//   },
+//   {
+//     title: "Torus",
+//     description: "Torus is one of the very popular choices amoung Users",
+//     website_url: "https://Torus.com",
+//   },
+//   {
+//     title: "D'CENT Wallet",
+//     description:
+//       "D'CENT Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://D'CENT Wallet.com",
+//   },
+//   {
+//     title: "Opera Crypto Browser",
+//     description:
+//       "The Opera Crypto Browser offers a secure and optimized Web3 browser to revolutionize internet experiences for the blockchain community.",
+//     website_url: "http://opera.com/",
+//   },
+//   {
+//     title: "Status",
+//     description:
+//       "Status is a private messenger, secure crypto wallet, and Ethereum Web3 DApp browser—in short, one powerful communication tool.",
+//     website_url: "https://status.im/",
+//   },
+//   {
+//     title: "Certhis",
+//     description: "The Ultimate Web3 Solution",
+//     website_url: "https://certhis.io/",
+//   },
+//   {
+//     title: "Ancrypto",
+//     description: "Your gateway to web3",
+//     website_url: "https://www.ancrypto.io/",
+//   },
+//   {
+//     title: "VIVE Wallet",
+//     description:
+//       "Your seamless gateway to the Web3 world. Manage your crypto assets and claim your identity in VIVERSE.",
+//     website_url: "https://www.viverse.com/apps/wallet",
+//   },
+//   {
+//     title: "Theta Wallet",
+//     description: "Official Theta Wallet",
+//     website_url: "https://www.thetatoken.org/wallet",
+//   },
+//   {
+//     title: "FILWallet",
+//     description: "Decentralized digital asset wallet build on web3.0 ecosystem",
+//     website_url: "https://filwallet.co/",
+//   },
+//   {
+//     title: "ISLAMIwallet",
+//     description: "Swap, Vote & recovery system",
+//     website_url: "https://islamicoin.finance/islamiwallet",
+//   },
+//   {
+//     title: "Nitrogen Wallet",
+//     description: "DeFi and GameFi Solana wallet",
+//     website_url: "https://nitrogen.org/",
+//   },
+//   {
+//     title: "MyWalliD",
+//     description:
+//       "MyWalliD lets the user store and manage their own identities assets on the browser local memory or to authenticate on the web3.",
+//     website_url: "https://www.wallid.io/",
+//   },
+//   {
+//     title: "Loopring Wallet",
+//     description: "Loopring Smart Wallet",
+//     website_url: "https://loopring.io/",
+//   },
+//   {
+//     title: "ApolloX",
+//     description:
+//       "ApolloX is a mobile wallet that combines security and anonymity and it allows users to send, receive and store BEP20 (BSC) tokens.",
+//     website_url: "https://www.apollox.com/en",
+//   },
+//   {
+//     title: "Defiant",
+//     description: "Defiant is one of the very popular choices amoung Users",
+//     website_url: "https://Defiant.com",
+//   },
+//   {
+//     title: "ioPay",
+//     description: "ioPay is one of the very popular choices amoung Users",
+//     website_url: "https://ioPay.com",
+//   },
+//   {
+//     title: "Cling Wallet",
+//     description:
+//       "Cling Wallet is a safe digital wallet that enables users to handle custom tokens and NFTs on various blockchain networks.",
+//     website_url: "https://clingon.io/",
+//   },
+//   {
+//     title: "Fncy Mobile Wallet",
+//     description: "Fncy Mobile Wallet",
+//     website_url: "https://fncy.world/",
+//   },
+//   {
+//     title: "Monarch Wallet",
+//     description:
+//       "Secure, Decentralized, DAPP Gateway, *NFTs, Buy, Sell, Earn, Swap & *Recurring & Custom Crypto Payments — Over 1 Million Wallets Generated",
+//     website_url: "https://monarchwallet.com/",
+//   },
+//   {
+//     title: "BRISE Wallet",
+//     description:
+//       "You can send, receive and store coins and many other cryptocurrencies and digital assets safely and securely.",
+//     website_url: "https://bitgert.com/",
+//   },
+//   {
+//     title: "LocalTrade Wallet",
+//     description:
+//       "Created as an addition to our interconnected ecosystem, this wallet is the definitive gateway to the world of decentralized finance",
+//     website_url: "https://lab.localtrade.cc/",
+//   },
+//   {
+//     title: "Ballet Crypto",
+//     description:
+//       "Ballet Crypto is the world’s first multi-currency, non-electronic cryptocurrency wallet.",
+//     website_url: "https://www.balletcrypto.com/",
+//   },
+//   {
+//     title: "BeeWallet",
+//     description: "Web3 wallet from BeeDAO, your bridge for entering Metaverse.",
+//     website_url: "https://www.bee.com/en",
+//   },
+//   {
+//     title: "Talk+",
+//     description: "Talk+ is one of the very popular choices amoung Users",
+//     website_url: "https://Talk+.com",
+//   },
+//   {
+//     title: "Omni",
+//     description: "Multi chain, self custodial DeFi wallet",
+//     website_url: "https://omni.app/",
+//   },
+//   {
+//     title: "ABC Wallet",
+//     description:
+//       "Secure your crypto with ABC Wallet! MPC tech, recoverable keys. Manage ETH, Klaytn, Polygon, BSC in one place.",
+//     website_url: "https://myabcwallet.io/",
+//   },
+//   {
+//     title: "CVL Wallet",
+//     description:
+//       "CVL Wallet is the easiest way to store, send, receive and exchange crypto, fiat currencies, metals and stocks at a speed never seen before.",
+//     website_url: "https://cvl.network/",
+//   },
+//   {
+//     title: "Dawn Wallet",
+//     description:
+//       "A gateway to DeFi, culture and governance on the layers of Ethereum.",
+//     website_url: "https://www.dawnwallet.xyz/",
+//   },
+//   {
+//     title: "Neon Wallet",
+//     description: "Light wallet for the NEO blockchain",
+//     website_url: "https://neonwallet.com/",
+//   },
+//   {
+//     title: "ID Pocket",
+//     description:
+//       "Your private digital pocket for your identity and credentials",
+//     website_url: "https://rktechworks.com/idpocket",
+//   },
+//   {
+//     title: "Cryptnox Wallet",
+//     description: "IOS app to use our smartcards as hardware wallet via NFC",
+//     website_url: "https://cryptnox.com/",
+//   },
+//   {
+//     title: "Minerva Wallet",
+//     description:
+//       "Minerva Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Minerva Wallet.com",
+//   },
+//   {
+//     title: "Ambire Wallet",
+//     description:
+//       "Ambire Wallet is a full featured non-custodial open-source wallet focused on DeFi and ease of use.",
+//     website_url: "https://www.ambire.com/",
+//   },
+//   {
+//     title: "Burrito Wallet",
+//     description: "Let's wrap it up with Burrito Wallet!",
+//     website_url: "https://burritowallet.com/",
+//   },
+//   {
+//     title: "UPBOND Wallet",
+//     description:
+//       "Keep track, manage, and transfer your unique assets including Tokens and NFT on UPBOND Wallet, utilizing Social Login",
+//     website_url: "https://www.upbond.io/",
+//   },
+//   {
+//     title: "Xcapit",
+//     description:
+//       "The first smart wallet, easy and simple to use for decentralized finance, without government restrictions.",
+//     website_url: "https://xcapit.com/",
+//   },
+//   {
+//     title: "Snowball",
+//     description:
+//       "Gain access to high-yield stablecoin vaults and generate interest in real-time via DeFi",
+//     website_url: "https://snowball.money/",
+//   },
+//   {
+//     title: "Dohrnii Wallet",
+//     description: "The official wallet of the Dohrnii DAO",
+//     website_url: "https://dohrnii.io/",
+//   },
+//   {
+//     title: "Enno Wallet",
+//     description:
+//       "A non-custodial multi chain mobile crypto wallet & DeFi aggregator.",
+//     website_url: "https://www.ennowallet.com/",
+//   },
+//   {
+//     title: "ATON",
+//     description:
+//       "ATON is a safe and easy to use mobile wallet, and the first one that supports PlatON's network.",
+//     website_url: "https://www.platon.network/en/wallet",
+//   },
+//   {
+//     title: "Volt: DeFi",
+//     description: "Volt: DeFi is one of the very popular choices amoung Users",
+//     website_url: "https://Volt: DeFi.com",
+//   },
+//   {
+//     title: "Assure",
+//     description: "A decentralized wallet of digital currency",
+//     website_url: "https://www.assure.pro/",
+//   },
+//   {
+//     title: "Flooz",
+//     description: "Your all-in-one crypto wallet",
+//     website_url: "https://wallet.flooz.trade/",
+//   },
+//   {
+//     title: "Edge Wallet",
+//     description:
+//       " Edge is a powerful and easy to use cryptocurrency wallet that allows users to easily control their own private keys.",
+//     website_url: "https://edge.app/",
+//   },
+//   {
+//     title: "NeftiWallet",
+//     description:
+//       "The platform's NFT WALLET allows storing of the NFTs securely on the blockchain.",
+//     website_url: "https://neftipedia.com/",
+//   },
+//   {
+//     title: "Taho",
+//     description: "First community-owned web3 wallet",
+//     website_url: "https://taho.xyz/",
+//   },
+//   {
+//     title: "GoldBit",
+//     description:
+//       "GoldBit 因應數位貨幣而生，作為儲存虛擬幣的冷錢包，支援Bitcoin、Ethereum和TRON三大主鏈的幣種，提供快速且便利的操作，並且擁有市面少有多錢包機制，可以輕鬆且安全存放虛擬貨幣。",
+//     website_url: "http://goldbit.io/gbapp.php",
+//   },
+//   {
+//     title: "Shinobi-Wallet",
+//     description:
+//       "Shinobi-Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Shinobi-Wallet.com",
+//   },
+//   {
+//     title: "Autonomy: Digital Art Wallet",
+//     description:
+//       "Autonomy: Digital Art Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://Autonomy: Digital Art Wallet.com",
+//   },
+//   {
+//     title: "imToken",
+//     description:
+//       "imToken is an easy and secure digital wallet trusted by millions.",
+//     website_url: "https://token.im/",
+//   },
+//   {
+//     title: "Cypher Wallet",
+//     description: "Non Custodial Multichain Wallet",
+//     website_url: "https://cypherwallet.io/",
+//   },
+//   {
+//     title: "Cypherock cySync",
+//     description: "Desktop companion application for Cypherock X1",
+//     website_url: "https://www.cypherock.com/",
+//   },
+//   {
+//     title: "RealT Wallet",
+//     description:
+//       "RealT Wallet is a user-friendly, reliable mobile wallet that gives you complete control over your RealTokens and cryptocurrency.",
+//     website_url: "https://realt.co/",
+//   },
+//   {
+//     title: "SahalWallet",
+//     description:
+//       "Non-custodial multi-chain wallet serving as gateway to MRHB Network.",
+//     website_url: "https://mrhb.network/",
+//   },
+//   {
+//     title: "UvToken",
+//     description:
+//       "A safe, convenient and efficient decentralized digital asset management community",
+//     website_url: "https://www.uvtoken.com/",
+//   },
+//   {
+//     title: "Wirex Wallet",
+//     description:
+//       "Wirex Wallet is a super-secure, non-custodial way to send, store and receive digital assets. Biometric backup, multi-blockchain capability",
+//     website_url: "https://wwallet.app.link/W1YKPgySZsb",
+//   },
+//   {
+//     title: "Safematrix",
+//     description:
+//       "Safematrix app is mcp wallet used for signing transactions, viewing operation records, and other functions.",
+//     website_url: "https://safematrix.io/",
+//   },
+//   {
+//     title: "SafeMoon",
+//     description: "SafeMoon is one of the very popular choices amoung Users",
+//     website_url: "https://SafeMoon.com",
+//   },
+//   {
+//     title: "BCERTin wallet",
+//     description:
+//       "The BCERTin wallet comes with a set of amazing tools to manage your business & life with unlimited cloud access",
+//     website_url: "https://blockcerts.com/",
+//   },
+//   {
+//     title: "ParaSwap Wallet",
+//     description:
+//       "ParaSwap Wallet is a multichain DeFi wallet for trading at the best rates, with the highest efficiency and security in a friendly interface",
+//     website_url: "https://paraswap.io/",
+//   },
+//   {
+//     title: "A4 Wallet",
+//     description:
+//       "A4 wallet is a non-custodial multi-currency crypto wallet from A4 Finance to securely store, exchange and manage your cryptocurrencies",
+//     website_url: "https://a4.finance/",
+//   },
+//   {
+//     title: "Oxalus Wallet",
+//     description: "The true wallet for people",
+//     website_url: "https://oxalus.io/wallet",
+//   },
+//   {
+//     title: "Linen",
+//     description:
+//       "Linen users are protected by the Safe technology used by large crypto holders.",
+//     website_url: "https://linen.app/",
+//   },
+//   {
+//     title: "Gryfyn",
+//     description:
+//       "Gryfyn is a custodial wallet that gives you access to Web3 experiences without needing to worry about the security of your private keys.",
+//     website_url: "https://gryfyn.io/",
+//   },
+//   {
+//     title: "ByteBank",
+//     description:
+//       "Storing and managing your cryptocurrencies made easier. No matter where you are, no matter which digital currency you hold.",
+//     website_url: "https://www.bytebank.org/",
+//   },
+//   {
+//     title: "LikerLand App",
+//     description:
+//       "LikerLand App is one of the very popular choices amoung Users",
+//     website_url: "https://LikerLand App.com",
+//   },
+//   {
+//     title: "THORWallet",
+//     description: "THORWallet is one of the very popular choices amoung Users",
+//     website_url: "https://THORWallet.com",
+//   },
+//   {
+//     title: "MeWallet",
+//     description: "MeWallet is one of the very popular choices amoung Users",
+//     website_url: "https://MeWallet.com",
+//   },
+//   {
+//     title: "meta-WONDER-verse",
+//     description:
+//       "meta-WONDER-verse is one of the very popular choices amoung Users",
+//     website_url: "https://meta-WONDER-verse.com",
+//   },
+//   {
+//     title: "CoinStats",
+//     description: "CoinStats is one of the very popular choices amoung Users",
+//     website_url: "https://CoinStats.com",
+//   },
+//   {
+//     title: "Nabox",
+//     description: "Nabox is a cross-chain DID application built for Web3.  ",
+//     website_url: "https://nabox.io/",
+//   },
+//   {
+//     title: "Locker Token",
+//     description:
+//       "Multi-currency digital wallet platform connecting you with the crypto-world.",
+//     website_url: "https://locker-token.com/",
+//   },
+//   {
+//     title: "Klever Wallet",
+//     description:
+//       "Klever app is a simple, powerful, smart and secure crypto wallet for BTC, ETH, BNB and other crypto assets serving over 2 million users.",
+//     website_url: "https://klever.finance/wallet/",
+//   },
+//   {
+//     title: "Keeper",
+//     description:
+//       "Your entry point to the Waves blockchain and Waves-powered dApps",
+//     website_url: "https://keeper-wallet.app/",
+//   },
+//   {
+//     title: "Aktionariat",
+//     description:
+//       "A fully automated, blockchain-based market tool. Embedded in your company's website.",
+//     website_url: "https://aktionariat.com/",
+//   },
+//   {
+//     title: "PLTwallet",
+//     description: "PLTwallet is a wallet for ethereum and PLT",
+//     website_url: "https://pltwallet.io/",
+//   },
+//   {
+//     title: "AirGap Wallet",
+//     description:
+//       "Self custody made simple and secure. Based on a two device approach, increasing security and usability with YOU in the driver’s seat",
+//     website_url: "https://airgap.it/",
+//   },
+//   {
+//     title: "Avacus",
+//     description:
+//       "Crypto wallet integrated with token exchanges, browser DApps, multichain wallet and many other utilities",
+//     website_url: "https://avacus.cc/",
+//   },
+//   {
+//     title: "Tidus Wallet ",
+//     description:
+//       "Tidus Wallet  is one of the very popular choices amoung Users",
+//     website_url: "https://Tidus Wallet .com",
+//   },
+//   {
+//     title: "Zelcore",
+//     description: "Zelcore is one of the very popular choices amoung Users",
+//     website_url: "https://Zelcore.com",
+//   },
+//   {
+//     title: "Infinity Wallet",
+//     description:
+//       "Infinity Wallet is a leading all-in-one one-stop DeFi and Web3 crypto wallet & the 1st Web3 Browser!",
+//     website_url: "https://infinitywallet.io/",
+//   },
+//   {
+//     title: "Ancrypto Wallet",
+//     description:
+//       "Ancrypto Wallet is mnemonics based highly secured mobile wallet to store crypto assets. ",
+//     website_url: "https://www.antiersolutions.com/",
+//   },
+//   {
+//     title: "XFUN Wallet",
+//     description:
+//       "XFUN Wallet is a non-custodial wallet that can store, send, and receive FUN, XFUN, other ERC-20 tokens, and BTC.",
+//     website_url: "https://xfun.io/",
+//   },
+//   {
+//     title: "Card Wallet",
+//     description:
+//       "Fast, easy & cheap payments for Web3 Use your mobile wallet for access, payments, identity and approvals.",
+//     website_url: "https://cardstack.com/earn-together",
+//   },
+//   {
+//     title: "Opto Wallet",
+//     description: "The wallet built for NEAR Protocol & Octopus Network",
+//     website_url: "https://optowallet.com/",
+//   },
+//   {
+//     title: "Gate.io",
+//     description: "Gate.io is one of the very popular choices amoung Users",
+//     website_url: "https://Gate.io.com",
+//   },
+//   {
+//     title: "Safe App Syscoin",
+//     description:
+//       "Safe App Syscoin is one of the very popular choices amoung Users",
+//     website_url: "https://Safe App Syscoin.com",
+//   },
+//   {
+//     title: "TokenPocket",
+//     description:
+//       "The leading multi-chain self-custodial wallet, which supports mainstream networks including BTC, ETH, BSC, TRON, zkSync Era∎, etc.",
+//     website_url: "https://tokenpocket.pro/",
+//   },
+//   {
+//     title: "Paper",
+//     description: "Connect an app's embedded wallet powered by Paper.",
+//     website_url: "https://withpaper.com/",
+//   },
+//   {
+//     title: "Core",
+//     description: "Bridge, Buy, Swap and Send Crypto Easily with Core.",
+//     website_url:
+//       "https://core.app/?utm_source=referral&utm_medium=website&utm_campaign=walletconnect",
+//   },
+//   {
+//     title: "RiceWallet",
+//     description: "Investing in DeFi for Everyone",
+//     website_url: "https://ricewallet.io/",
+//   },
+//   {
+//     title: "PayBolt",
+//     description:
+//       "World’s first Web3 cross-chain crypto payment ecosystem that accepts ALL tokens.",
+//     website_url: "https://www.paybolt.com/",
+//   },
+//   {
+//     title: "Slavi Wallet",
+//     description:
+//       "Cross-chain decentralized SuperDApp with 30+ blockchains & one-click access to Web 3.0, PlayToEarn and NFT services",
+//     website_url: "https://slavi.io/",
+//   },
+//   {
+//     title: "MDAO Wallet",
+//     description:
+//       "MDAO Wallet is the best app with a friendly user and convenient interface to keep and manage your digital assets.",
+//     website_url: "https://ttmwallet.io/",
+//   },
+//   {
+//     title: "StrikeX Wallet",
+//     description:
+//       "The StrikeX Wallet makes buying, selling, swapping, transferring, and tracking your favourite crypto projects — slick, secure and simple. ",
+//     website_url: "https://tradestrike.io/",
+//   },
+//   {
+//     title: "Haven Wallet",
+//     description: "Multi-user Enterprise Wallet.",
+//     website_url: "https://havensuite.io/",
+//   },
+//   {
+//     title: "Earth Wallet",
+//     description:
+//       "Earth Wallet is an open source, self-custody digital asset wallet for Internet Computer, Polygon, Bitcoin and Ethereum.",
+//     website_url: "https://www.earthwallet.io/",
+//   },
+//   {
+//     title: "f(x)Wallet",
+//     description: "f(x)Wallet is one of the very popular choices amoung Users",
+//     website_url: "https://f(x)Wallet.com",
+//   },
+//   {
+//     title: "Binance.US",
+//     description: "Binance.US is one of the very popular choices amoung Users",
+//     website_url: "https://Binance.US.com",
+//   },
+//   {
+//     title: "Frame",
+//     description:
+//       "A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux",
+//     website_url: "https://frame.sh/",
+//   },
+//   {
+//     title: "pier",
+//     description:
+//       "Come to the pier and discover Web3: a place to explore, transact and interact directly with others.",
+//     website_url: "https://www.pierwallet.com/",
+//   },
+//   {
+//     title: "Crossmint",
+//     description: "Making NFTs accessible to everyone",
+//     website_url: "https://www.crossmint.com/",
+//   },
+//   {
+//     title: "Keplr",
+//     description:
+//       "Keplr is the largest Interchain wallet in the Cosmos ecosystem, supporting ",
+//     website_url: "https://keplr.app/",
+//   },
+//   {
+//     title: "Coingrig",
+//     description:
+//       "A powerful crypto wallet for everyone. Private, secure and open source.",
+//     website_url: "https://coingrig.com/",
+//   },
+//   {
+//     title: "Zelus",
+//     description: "The most user-friendly NFT and crypto multichain wallet",
+//     website_url: "https://zelus.io/",
+//   },
+//   {
+//     title: "helix id",
+//     description: "Digital Identity Service Provider",
+//     website_url: "https://helixid.io/",
+//   },
+//   {
+//     title: "MetaOne",
+//     description: "Explore Web3 & metaverses intuitively with MetaOne",
+//     website_url: "https://getmeta.one/",
+//   },
+//   {
+//     title: "Impersonator",
+//     description: "Log-in to dapps as ANY Ethereum Address in view-only mode",
+//     website_url: "https://www.impersonator.xyz/",
+//   },
+//   {
+//     title: "Marble",
+//     description:
+//       "A fully customizable non-custodial wallet that takes seconds for your users to set up. No seed phrases or extensions needed.",
+//     website_url: "https://www.marblewallet.com/",
+//   },
+//   {
+//     title: "Bee Wallet",
+//     description:
+//       "Bee Wallet is a mobile-first crypto wallet that lets you manage funds, swap tokens safely, and track your NFT collection.",
+//     website_url: "https://www.beewallet.app/",
+//   },
+//   {
+//     title: "TK Finance",
+//     description:
+//       "Entering the great Trustkeys Finance Ecosystem. Fast, safe, secure trading experience with Hybrid Change.",
+//     website_url: "https://trustkeys.network/",
+//   },
+//   {
+//     title: "Payperless",
+//     description:
+//       "We believe everyone should have access to the benefits of Bitcoin and other crypto currencies, so we make it easy and safe. ",
+//     website_url: "https://payperless.com/",
+//   },
+//   {
+//     title: "KEYRING PRO",
+//     description:
+//       "KEYRING PRO brings possibilities to reality by offering a simple cross-chain environment, where user can experience multiple chains at once.",
+//     website_url: "https://keyring.app/",
+//   },
+//   {
+//     title: "Hippo Wallet",
+//     description: " Hippo: Crypto & Bitcoin Wallet",
+//     website_url: "https://hippowallet.io/",
+//   },
+//   {
+//     title: "Streakk Wallet",
+//     description: "Streakk unlocks the potential of your cryptocurrencies.",
+//     website_url: "https://streakk.io/",
+//   },
+//   {
+//     title: "Lilico",
+//     description:
+//       "Lilico is the first non-custodial wallet on Flow blockchain.  It enables you to access Web 3.0, NFTs, tokens and dApps.",
+//     website_url: "https://lilico.app/",
+//   },
+//   {
+//     title: "Ultimate",
+//     description: "Crypto Trading & DeFi Wallet",
+//     website_url: "https://ultimate.app/",
+//   },
+//   {
+//     title: "Frontier",
+//     description:
+//       "The unified non-custodial wallet to Send, Stake, Swap, Bridge Crypto & NFTs. Interact with DeFi apps, 50+ Blockchains & ecosystems.",
+//     website_url: "https://www.frontier.xyz/",
+//   },
+//   {
+//     title: "AlphaWallet",
+//     description:
+//       "AlphaWallet is a production-ready and easy to customise Ethereum Wallet for your business.",
+//     website_url: "https://alphawallet.com/",
+//   },
+//   {
+//     title: "Sequence Wallet",
+//     description:
+//       "Sequence is the smartest web3 wallet and developer platform. Sequence makes building user-friendly web3 applications easy for developers.",
+//     website_url: "https://sequence.xyz/",
+//   },
+//   {
+//     title: "Arianee Wallet",
+//     description:
+//       "With the Arianee Wallet, you can use digital passports / NFTs to verify and prove the authenticity of your most precious items.",
+//     website_url: "https://arianee.org/",
+//   },
+//   {
+//     title: "Phantom",
+//     description:
+//       "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.",
+//     website_url: "https://phantom.app/",
+//   },
+//   {
+//     title: "HUMBL WALLET",
+//     description:
+//       "The HUMBL Wallet allows you to buy, sell, receive, store and exchange digital assets such as ETH, BLOCKS, USDC.",
+//     website_url: "https://www.humbl.com/",
+//   },
+//   {
+//     title: "SaitaPro",
+//     description:
+//       "SaitaPro is here to make crypto and decentralized finance simple and safe for you. Buying crypto, trading assets, staking .",
+//     website_url: "https://www.saitamatoken.com/saitapro/",
+//   },
+//   {
+//     title: "Fizz",
+//     description: "Self-Custodial Wallet",
+//     website_url: "https://www.fizzwallet.app/",
+//   },
+//   {
+//     title: "DTTD",
+//     description: "A Mobile-First Social Wallet Enabling Web3 for Everyone",
+//     website_url: "https://www.dttd.io/",
+//   },
+//   {
+//     title: "HAQQ Wallet",
+//     description:
+//       "Mobile crypto wallet for secure, halal cryptocurrency storage and instant access",
+//     website_url: "https://haqq.network/wallet",
+//   },
+//   {
+//     title: "DOSI Vault",
+//     description: "Blockchain Wallet for All",
+//     website_url: "https://vault.dosi.world/",
+//   },
+//   {
+//     title: "OzoneWallet",
+//     description: "Chia Wallet secure and portable",
+//     website_url: "https://ozonewallet.io/",
+//   },
+//   {
+//     title: "ONTO",
+//     description:
+//       "A #DID-based #Web3 gateway for 1 million+ users on 30+ popular #blockchains, supporting 700+ dApps.",
+//     website_url: "https://onto.app/",
+//   },
+//   {
+//     title: "Rabby",
+//     description: "The game-changing wallet for Ethereum and all EVM chains",
+//     website_url: "https://rabby.io/",
+//   },
+//   {
+//     title: "iToken Wallet",
+//     description: "For and from those who place top priority on asset security.",
+//     website_url: "https://www.itoken.com/",
+//   },
+//   {
+//     title: "CoolWallet",
+//     description: "Explore the Web3 universe with the coolest wallet.",
+//     website_url: "https://coolwallet.io/",
+//   },
+//   {
+//     title: "Holdstation Wallet",
+//     description:
+//       "Holdstation Wallet is a self-custodial wallet working with all EVM. Holdstation aims to be a secured wallet with the best user experience.",
+//     website_url: "https://www.holdstation.com/",
+//   },
+//   {
+//     title: "Cosmostation",
+//     description: "Wallet For Cosmos Ecosystem",
+//     website_url: "https://www.cosmostation.io/",
+//   },
+//   {
+//     title: "Kriptonio",
+//     description: "All-in-One Web3 Platform",
+//     website_url: "https://kriptonio.com/",
+//   },
+//   {
+//     title: "HARTi Wallet",
+//     description:
+//       "HARTi, the curated NFT platform, blends virtual and physical art spaces. Discover, explore, and buy art at harti.tokyo.",
+//     website_url: "https://harti.io/",
+//   },
+//   {
+//     title: "Callback",
+//     description:
+//       "Callback Wallet is the coolest way to manage your on-chain items.",
+//     website_url: "https://callback.is/",
+//   },
+//   {
+//     title: "U2U Wallet",
+//     description:
+//       "Easy asset management. Multichain available. Self-custody wallet.  Web3 Dapp browser.  Store cryptocurrencies and NFTs in one place",
+//     website_url: "https://wallet.uniultra.xyz/",
+//   },
+//   {
+//     title: "Impact Wallet",
+//     description: "Impacts Wallet to make a difference.",
+//     website_url: "https://www.ixo.world/",
+//   },
+//   {
+//     title: "Obvious",
+//     description:
+//       "Obvious is a self-custody wallet that brings together assets across EVM chains",
+//     website_url: "https://obvious.technology/",
+//   },
+//   {
+//     title: "Qubic Wallet",
+//     description: "More Than Just A Wallet",
+//     website_url: "https://wallet.qubic.app/",
+//   },
+//   {
+//     title: "KryptoGO Wallet",
+//     description:
+//       "The 1st decentralized DeFi Wallet with full compliance. Unlock DeFi earning in your hand.",
+//     website_url: "https://kryptogo.com/wallet",
+//   },
+//   {
+//     title: "PiEthereum Hardware",
+//     description:
+//       "raspberryPi Ethereum Open Source Hardware: ID + Wallet for Privacy and Autonomy",
+//     website_url: "https://nftydaze.com/opensource/",
+//   },
+//   {
+//     title: "FoxWallet",
+//     description:
+//       "Best Multi-chain Web3 Wallet Private & Secure Decentralized & Flexible",
+//     website_url: "http://foxwallet.com/",
+//   },
+//   {
+//     title: "Klip",
+//     description: "Klip for WalletConnect",
+//     website_url: "https://klipwallet.com/",
+//   },
+//   {
+//     title: "Nova Wallet",
+//     description: "The Ultimate Mobile Wallet for Web3",
+//     website_url: "https://novawallet.io/",
+//   },
+//   {
+//     title: "KeepKey Desktop",
+//     description: "A Desktop Client for the KeepKey Hardware Wallet",
+//     website_url: "https://www.keepkey.com/",
+//   },
+//   {
+//     title: "Lif3 Wallet",
+//     description: "Lif3 Wallet App.",
+//     website_url: "https://lif3.com/",
+//   },
+//   {
+//     title: "Abra Wallet",
+//     description: "Abra DeFi Wallet",
+//     website_url: "https://abra.com/",
+//   },
+//   {
+//     title: "Bitski",
+//     description:
+//       "The wallet for everyone - The convenience of a hot wallet; The security of a cold wallet.",
+//     website_url: "https://bitski.com/",
+//   },
+//   {
+//     title: "StrikeX Wallet",
+//     description:
+//       "The StrikeX Wallet makes buying, selling, swapping, transferring, and tracking your favourite crypto projects — slick, secure and simple. ",
+//     website_url: "https://tradestrike.io/",
+//   },
+//   {
+//     title: "ELLIPAL",
+//     description:
+//       "ELLIPAL is an all-in-one cryptocurrency wallet. It combines the safety of a Cold Wallet with the convenience of a mobile one. ",
+//     website_url: "https://www.ellipal.com/",
+//   },
+//   {
+//     title: "WOW EARN",
+//     description: "The best crypto wallet",
+//     website_url: "https://www.ullapay.com/",
+//   },
+//   {
+//     title: "Konio",
+//     description:
+//       "Native Koinos Wallet - The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
+//     website_url: "https://konio.io/",
+//   },
+//   {
+//     title: "Aurora Pass",
+//     description: "Your gateway to the Aurora ecosystem",
+//     website_url: "https://auroracloud.dev/pass",
+//   },
+//   {
+//     title: "Ronin Wallet",
+//     description:
+//       "Ronin Wallet is the mobile wallet that allows you to use all decentralized applications running on Ronin.",
+//     website_url: "https://wallet.roninchain.com/",
+//   },
+//   {
+//     title: "Unido",
+//     description:
+//       "Unido offers enterprise-level crypto self-custody solutions for SMEs, sophisticated corporations and institutions.",
+//     website_url: "https://www.unido.us/",
+//   },
+//   {
+//     title: "SafePal",
+//     description:
+//       "SafePal is a cryptocurrency wallet that aims to provide a secure and user-friendly crypto management platform for the masses. ",
+//     website_url: "https://safepal.com/",
+//   },
+//   {
+//     title: "Coin98 Super App",
+//     description:
+//       "Coin98 Wallet is the #1 non-custodial, multi-chain wallet, and DeFi gateway",
+//     website_url: "https://coin98.com/wallet",
+//   },
+//   {
+//     title: "Nufinetes",
+//     description: "Nufinetes - Multi-Chain Crypto Wallet",
+//     website_url: "https://www.nufinetes.com/",
+//   },
+//   {
+//     title: "Slingshot Wallet",
+//     description:
+//       "Slingshot Wallet is a self-custody defi wallet designed for both experienced crypto traders and web3 newcomers. ",
+//     website_url: "https://slingshot.finance/",
+//   },
+//   {
+//     title: "Sender",
+//     description:
+//       "Sender is a web3 wallet that is compatible with Ethereum and NEAR, allowing you to control your cryptocurrency, NFTs, DeFi activities.",
+//     website_url: "https://sender.org/",
+//   },
+//   {
+//     title: "Timeless Wallet",
+//     description: "Web3 made simple. secure. social.",
+//     website_url: "https://timelesswallet.xyz/",
+//   },
+//   {
+//     title: "Tholos",
+//     description:
+//       "A crypto wallet secured by multiple owners to view assets, transact, and interact with applications on any blockchain.",
+//     website_url: "https://tholos.app/",
+//   },
+//   {
+//     title: "Shido Wallet",
+//     description:
+//       "Shido Wallet Multi-Chain is a next generation Crypto DeFi Wallet with Fiat Support.",
+//     website_url: "https://www.shidowallet.io/",
+//   },
+//   {
+//     title: "SISTEMAS",
+//     description: "Sistema de apertura de cuentas",
+//     website_url: "https://waynance.com/",
+//   },
+//   {
+//     title: "RYIPAY",
+//     description:
+//       "RYIpay wallet app is built as a decentralized asset management tool for cryptocurrencies ",
+//     website_url: "https://ryipay.app/",
+//   },
+//   {
+//     title: "Coininn Wallet",
+//     description:
+//       "Securely Hold, Send, Receive, Exchange, Tip and Earn 800+ cryptocurrencies with coinInn",
+//     website_url: "https://www.coininn.com/coinwallet",
+//   },
+//   {
+//     title: "IndiGG",
+//     description:
+//       "The ultimate Web3 gaming wallet that lets you enter the web3 ecosystem and earn while playing games.",
+//     website_url: "https://indi.gg/",
+//   },
+//   {
+//     title: "MUZA",
+//     description:
+//       "MUZA is a crypto wallet, this application connects you between web3 and the physical world to redeem a privilege from your NFTs.",
+//     website_url: "https://muza.co/",
+//   },
+//   {
+//     title: "Internet Money Wallet",
+//     description:
+//       "EVM Wallet. Connect to All EVM Chains. First Tokenized Crypto Wallet of It's Kind. ",
+//     website_url: "https://internetmoney.io/",
+//   },
+//   {
+//     title: "Brave Wallet",
+//     description: "The secure multi-chain crypto wallet",
+//     website_url: "https://brave.com/wallet/",
+//   },
+//   {
+//     title: "iMe",
+//     description:
+//       "Intelligent DeFi & AI Platform Powered by Telegram API with non-custodial Crypto Wallet",
+//     website_url: "https://imem.app/",
+//   },
+//   {
+//     title: "Okto",
+//     description:
+//       "Okto web3 wallet: Simple gateway to DeFi. Trade 1000+ tokens, 20+ chains, earn from 100+ protocols. Easy investing and trading features.",
+//     website_url: "https://okto.tech/",
+//   },
+//   {
+//     title: "AmmerWallet",
+//     description: "Crypto Wallet and Pay ecosystem",
+//     website_url: "https://ammer.cards/",
+//   },
+//   {
+//     title: "MOONSTAKE",
+//     description:
+//       "MS is one of the top 8 staking providers in the world.As a decentralized e-wallet,we provide a platform for you to fully control asset.",
+//     website_url: "https://moonstake.io/",
+//   },
+//   {
+//     title: "SuperWallet",
+//     description: "The Multichain Wallet for Web3",
+//     website_url: "https://superex.live/",
+//   },
+//   {
+//     title: "NuFi",
+//     description:
+//       "A self-custody Web3 wallet to manage crypto, staking, NFTs, trading and Dapps",
+//     website_url: "https://nu.fi/",
+//   },
+//   {
+//     title: "Nunu",
+//     description: "The 1st smart contract wallet on the opBNB.",
+//     website_url: "https://nunuwallet.com/",
+//   },
+//   {
+//     title: "Okse Wallet",
+//     description: "Okse Wallet & Card App",
+//     website_url: "https://okse.io/",
+//   },
+//   {
+//     title: "3S Wallet",
+//     description: "Mobile crypto wallet",
+//     website_url: "https://3swallet.com/",
+//   },
+//   {
+//     title: "MPCWallet",
+//     description: "Metaverse-Ready Wallet",
+//     website_url: "https://www.mpcwallet.xyz/",
+//   },
+//   {
+//     title: "PassPay Wallet",
+//     description:
+//       "PassPay allows users to manage, send, and receive crypto assets, and is used in a variety of situations in a service called web3.",
+//     website_url: "https://www.passpay.io/",
+//   },
+//   {
+//     title: "Arianee Wallet",
+//     description:
+//       "With the Arianee Wallet, you can use digital passports / NFTs to verify and prove the authenticity of your most precious items.",
+//     website_url: "https://arianee.org/",
+//   },
+//   {
+//     title: "Stickey Wallet",
+//     description:
+//       "Easy to use for everyone! Everyone gathers! Community-focused wallet",
+//     website_url: "https://stickey.app/",
+//   },
+//   {
+//     title: "Nash",
+//     description: "Spend, save & invest",
+//     website_url: "https://nash.io/",
+//   },
+//   {
+//     title: "Solace",
+//     description: "Solace ERC4337 Smart Contract Wallet",
+//     website_url: "https://solaceprotocol.com/",
+//   },
+//   {
+//     title: "Venly",
+//     description:
+//       "Onboard users in seconds! Venly Wallet allows your users to interact with Web3 familiarly, while we take care of the security & complexity.",
+//     website_url: "https://www.venly.io/",
+//   },
+//   {
+//     title: "Pillar",
+//     description:
+//       "The only community-run, multichain & non-custodial DeFi wallet with one address, low-to-no gas fees and cross-chain super powers.",
+//     website_url: "https://pillar.fi/",
+//   },
+//   {
+//     title: "Reunit",
+//     description:
+//       "Reunit is the first omnichain wallet built on top of LayerZero",
+//     website_url: "https://everywhere.finance/",
+//   },
+//   {
+//     title: "Catecoin Wallet",
+//     description: "A secure crypto wallet to grow your investments",
+//     website_url: "https://catecoin.app/",
+//   },
+//   {
+//     title: "SA ASSISTANT",
+//     description: "A wallet ",
+//     website_url: "https://summonersarena.io/",
+//   },
+//   {
+//     title: "EASY",
+//     description: "Your web3 social wallet",
+//     website_url: "https://easy.me/",
+//   },
+//   {
+//     title: "BlockWallet",
+//     description:
+//       "BlockWallet is a self-custodial wallet making it easy to secure digital assets, protect identity, and experience Web3.",
+//     website_url: "https://blockwallet.io/",
+//   },
+//   {
+//     title: "SimpleHold",
+//     description:
+//       "SimpleHold is a non-custodial multicurrency wallet that empowers you to receive, send, exchange and store your cryptocurrencies.",
+//     website_url: "https://simplehold.io/",
+//   },
+//   {
+//     title: "PREMA Wallet",
+//     description:
+//       "PREMA offers a seamless multichain experience as a full-fledged Blockchain platform.",
+//     website_url: "https://premanft.com/",
+//   },
+//   {
+//     title: "Blocto",
+//     description: "Aims to make the Web3 community more accessible",
+//     website_url: "https://blocto.io/",
+//   },
+//   {
+//     title: "Coinbase Wallet",
+//     description: "Your key to the world of crypto",
+//     website_url: "https://www.coinbase.com/wallet/",
+//   },
+//   {
+//     title: "tomiPAY",
+//     description: "Digital Payment System",
+//     website_url: "https://tomi.com/wallet",
+//   },
+//   {
+//     title: "Tellaw Wallet",
+//     description: "Web3 portal at fingertips",
+//     website_url: "https://www.tellaw.com/",
+//   },
+//   {
+//     title: "SubWallet",
+//     description: "Comprehensive Polkadot,Substrate & Ethereum wallet",
+//     website_url: "https://www.subwallet.app/",
+//   },
+//   {
+//     title: "Xellar",
+//     description:
+//       "The worlds most lightweight & secure hard wallet combined with the decentralized banks within one platform",
+//     website_url: "https://xellar.co/",
+//   },
+//   {
+//     title: "Wirex Wallet",
+//     description:
+//       "Wirex Wallet is a super-secure, non-custodial way to send, store and receive digital assets. Biometric backup, multi-blockchain capability",
+//     website_url: "https://wwallet.app.link/W1YKPgySZsb",
+//   },
+//   {
+//     title: "Unstoppable Wallet",
+//     description:
+//       "Unstoppable Wallet is a decentralized, open-source, non-custodial, multi-blockchain, cryptocurrency wallet app.",
+//     website_url: "https://unstoppable.money/",
+//   },
+//   {
+//     title: "MetaWallet",
+//     description:
+//       "a feature-rich and secure wallet application designed to help users better manage and control their financial situation",
+//     website_url: "http://www.dota168.org/",
+//   },
+//   {
+//     title: "Sequel Wallet",
+//     description:
+//       "A self-custody, multi-wallet management platform featuring trustless, chain-agnostic social recovery.  Powered by OPAQUE cryptography.",
+//     website_url: "https://www.sequelfi.com/",
+//   },
+//   {
+//     title: "FxWallet",
+//     description:
+//       "A Decentralized Multi-Chain Digital Wallet & The Gateway to Web3.",
+//     website_url: "https://www.fxwallet.com/",
+//   },
+//   {
+//     title: "Plasma Wallet",
+//     description: "Non-custodial iOS crypto wallet for DeFi, NFT and Web3",
+//     website_url: "https://plasma-wallet.com/",
+//   },
+//   {
+//     title: "TREASURE",
+//     description:
+//       "TREASURE WALLET Is Your Gateway To Crypto World To Earning Money From Everything Like DeFi, DAO, NFTs, Tasks, And More.",
+//     website_url: "https://treasurewallet.co/",
+//   },
+//   {
+//     title: "Stasis Wallet",
+//     description: "Non-custodial wallet for stablecoins",
+//     website_url: "https://stasis.net/wallet/",
+//   },
+//   {
+//     title: "Bybit Wallet",
+//     description:
+//       "Bybit Wallet connects you to the world of Web3 with best-in-class reliability and security",
+//     website_url: "https://www.bybit.com/web3/",
+//   },
+//   {
+//     title: "pockie",
+//     description:
+//       "Pockie is a new, user-friendly wallet here to simplify your crypto journey.You can easily manage digital assets across different chains.",
+//     website_url: "https://www.pockie.io/ko",
+//   },
+//   {
+//     title: "Talken Wallet",
+//     description: "Talken Web3 Wallet & NFT Suite",
+//     website_url: "https://talken.io/",
+//   },
+//   {
+//     title: "Yuse Wallet",
+//     description:
+//       "Yuse Wallet is the official crypto wallet of Yuse Technologies.",
+//     website_url: "https://yusetoken.io/",
+//   },
+//   {
+//     title: "XDEFI Wallet",
+//     description:
+//       "XDEFI is a multichain wallet that allows you to securely store, swap, and send Crypto and NFTs across 17 blockchains.",
+//     website_url: "https://www.xdefi.io/",
+//   },
+//   {
+//     title: "Krystal",
+//     description: "Simplest Web3 Wallet for Everyone",
+//     website_url: "https://krystal.app/",
+//   },
+//   {
+//     title: "Tangem Wallet",
+//     description:
+//       "Tangem is a card-shaped self-custodial cold hardware wallet which gives you full control of your private keys",
+//     website_url: "https://tangem.com/",
+//   },
+//   {
+//     title: "UTORG",
+//     description:
+//       "A multi-crypto, self-custody wallet with blockchain support. Purchase crypto directly within the app.",
+//     website_url: "https://utorg.app/",
+//   },
+//   {
+//     title: "atato custody",
+//     description:
+//       "atato wallet is an MPC-based custody wallet that aims to enable SME use cases. For more info, please visit https://atato.com.",
+//     website_url: "https://atato.com/",
+//   },
+//   {
+//     title: "Bitverse",
+//     description: "Credit Wallet Creates Wealth Web3 Space",
+//     website_url: "https://www.bitverse.zone/",
+//   },
+//   {
+//     title: "Altme",
+//     description:
+//       "A user-friendly crypto wallet designed to protect your digital identity and simplify your journey in web 3 world.",
+//     website_url: "https://altme.io/",
+//   },
+//   {
+//     title: "Meter Wallet",
+//     description: "wallet on ethereum compatible networks",
+//     website_url: "https://www.meter.io/",
+//   },
+//   {
+//     title: "Pali Wallet",
+//     description: "Your Secure Web3 Companion.",
+//     website_url: "https://paliwallet.com/",
+//   },
+//   {
+//     title: "Uniblow",
+//     description: "A universal blockchain wallet for cryptos",
+//     website_url: "https://uniblow.org/",
+//   },
+//   {
+//     title: "MathWallet",
+//     description: "The Multichain Wallet for Web3",
+//     website_url: "https://mathwallet.org/",
+//   },
+//   {
+//     title: "Essentials",
+//     description: "Crypto and Decentralized Identity",
+//     website_url: "https://www.trinity-tech.io/essentials",
+//   },
+//   {
+//     title: "Bifrost Wallet",
+//     description:
+//       "A multi-chain wallet for decentralized finance and NFTs on Songbird, Flare, Ethereum and beyond.",
+//     website_url: "https://bifrostwallet.com/",
+//   },
+//   {
+//     title: "AmazeWallet",
+//     description:
+//       "The Web3 smartwallet. Swap, buy, trade and chat to friends while mining crypto.",
+//     website_url: "https://amazewallet.com/",
+//   },
+//   {
+//     title: "Fireblocks",
+//     description: "#1 Crypto and Digital Asset Platform for Institutions",
+//     website_url: "https://www.fireblocks.com/",
+//   },
+//   {
+//     title: "UKISS Hub",
+//     description:
+//       "UKISS Hub Mobile Wallet enables UKISS Hugware to connect to DAPP platforms via Wallet Connect ",
+//     website_url: "https://www.ukiss.io/",
+//   },
+//   {
+//     title: "Wallet 3",
+//     description:
+//       "Wallet 3 is a digital wallet designed specifically for Ethereum users.",
+//     website_url: "https://wallet3.io/",
+//   },
+//   {
+//     title: "Bitpie",
+//     description:
+//       "Bitpie is an industry-leading multi-blockchain (BTC/ETH/TRX/USDT etc.) decentralized wallet. ",
+//     website_url: "https://bitpie.com/",
+//   },
+//   {
+//     title: "CoinWallet",
+//     description:
+//       "HD Wallet Designed for Professionals, support mainnet and testnet, and generate address based on specific derivation path",
+//     website_url: "https://www.coinsdo.com/",
+//   },
+//   {
+//     title: "OneKey",
+//     description:
+//       "Open source multi-chain crypto wallet runs on all platforms: iOS, Android, Windows, macOS, Linux, Chrome, Firefox... and more.",
+//     website_url: "https://onekey.so/",
+//   },
+//   {
+//     title: "Pitaka",
+//     description: "Take control of your Assets, Information, and Security.",
+//     website_url: "https://pitaka.io/",
+//   },
+//   {
+//     title: "Bitizen",
+//     description: "Crypto/Web3 Wallet",
+//     website_url: "https://bitizen.org/",
+//   },
+// ]
