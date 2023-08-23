@@ -45673,13 +45673,13 @@ let generators = [
     description: "Not Provided(coming soon)",
   },
 ]
-cosmos_dapps.map((statergies, index) => {
+generators.map((statergies, index) => {
   setTimeout(() => {
     let title_formated = statergies.title.replace(/\s+/g, "-")
     let github_title_formated = statergies.title
       .replace(/\s+/g, "")
       .toLowerCase()
-    let url = `https://walletconnect.com/explorer/${title_formated.toLowerCase()}`
+    let url = `https://codebeautify.org/${title_formated.toLowerCase()}`
     axios
       .get(url)
       .then((response) => {
@@ -45688,50 +45688,79 @@ cosmos_dapps.map((statergies, index) => {
         let document = dom.window.document
 
         let description = document.querySelector(
-          "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
+          "div.card-header p"
         ).textContent
 
-        let websiteElement = document.querySelector(
-          ".styles_linkContainer__LpFnL a:nth-child(1)"
-        )
-        let appStoreElement = document.querySelector(
-          ".styles_linkContainer__LpFnL a:nth-child(2)"
-        )
-        let googlePlayStoreElement = document.querySelector(
-          ".styles_linkContainer__LpFnL a:nth-child(3)"
-        )
-        let chromeWebStoreElement = document.querySelector(
-          ".styles_linkContainer__LpFnL a:nth-child(4)"
-        )
 
-        let website_url = websiteElement
-          ? websiteElement.href
-          : "https://apps.apple.com/app/id1456732565/"
-        let appStore_url = appStoreElement
-          ? appStoreElement.href
-          : "https://apps.apple.com/app/id1456732565/"
-        let googleplayStore_url = googlePlayStoreElement
-          ? googlePlayStoreElement.href
-          : "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/"
-        let chromewebStore_url = chromeWebStoreElement
-          ? chromeWebStoreElement.href
-          : "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+        // let result = `{title: "${statergies.title}",description: "${description}",website_url: "${website_url}", github_repo: "${`https://github.com/${github_title_formated}`}",appStore_url: "${appStore_url}",googleplayStore_url: "${googleplayStore_url}",chromewebStore_url: "${chromewebStore_url}",items: [],},`
+        // console.log(result)
+        console.log("This",statergies.title,"is from this website!!!",description)
 
-        let result = `{title: "${
-          statergies.title
-        }",description: "${description}",website_url: "${website_url}", github_repo: "${`https://github.com/${github_title_formated}`}",appStore_url: "${appStore_url}",googleplayStore_url: "${googleplayStore_url}",chromewebStore_url: "${chromewebStore_url}",items: [],},`
-        console.log(result)
       })
       .catch((error) => {
-        errorPage.push({ page: statergies.title })
-        console.error(
-          `{title:"${statergies.title}",description:"${
-            statergies.title
-          } Try Catch Error",website_url:"https://${
-            statergies.title
-          }.com",github_repo:"${`https://github.com/${github_title_formated}`}",appStore_url:"https://apps.apple.com/app/id1456732565/",googleplayStore_url:"https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",chromewebStore_url:"https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",items:[],},`
-        )
+        console.log("Error:",statergies.title,)
       })
   }, index * 5) // delay of 1 second
 })
-console.log(evm_wallets_details.length)
+// cosmos_dapps.map((statergies, index) => {
+//   setTimeout(() => {
+//     let title_formated = statergies.title.replace(/\s+/g, "-")
+//     let github_title_formated = statergies.title
+//       .replace(/\s+/g, "")
+//       .toLowerCase()
+//     let url = `https://walletconnect.com/explorer/${title_formated.toLowerCase()}`
+//     axios
+//       .get(url)
+//       .then((response) => {
+//         const html = response.data
+//         let dom = new JSDOM(html)
+//         let document = dom.window.document
+
+//         let description = document.querySelector(
+//           "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
+//         ).textContent
+
+//         let websiteElement = document.querySelector(
+//           ".styles_linkContainer__LpFnL a:nth-child(1)"
+//         )
+//         let appStoreElement = document.querySelector(
+//           ".styles_linkContainer__LpFnL a:nth-child(2)"
+//         )
+//         let googlePlayStoreElement = document.querySelector(
+//           ".styles_linkContainer__LpFnL a:nth-child(3)"
+//         )
+//         let chromeWebStoreElement = document.querySelector(
+//           ".styles_linkContainer__LpFnL a:nth-child(4)"
+//         )
+
+//         let website_url = websiteElement
+//           ? websiteElement.href
+//           : "https://apps.apple.com/app/id1456732565/"
+//         let appStore_url = appStoreElement
+//           ? appStoreElement.href
+//           : "https://apps.apple.com/app/id1456732565/"
+//         let googleplayStore_url = googlePlayStoreElement
+//           ? googlePlayStoreElement.href
+//           : "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/"
+//         let chromewebStore_url = chromeWebStoreElement
+//           ? chromeWebStoreElement.href
+//           : "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+
+//         let result = `{title: "${
+//           statergies.title
+//         }",description: "${description}",website_url: "${website_url}", github_repo: "${`https://github.com/${github_title_formated}`}",appStore_url: "${appStore_url}",googleplayStore_url: "${googleplayStore_url}",chromewebStore_url: "${chromewebStore_url}",items: [],},`
+//         console.log(result)
+//       })
+//       .catch((error) => {
+//         errorPage.push({ page: statergies.title })
+//         console.error(
+//           `{title:"${statergies.title}",description:"${
+//             statergies.title
+//           } Try Catch Error",website_url:"https://${
+//             statergies.title
+//           }.com",github_repo:"${`https://github.com/${github_title_formated}`}",appStore_url:"https://apps.apple.com/app/id1456732565/",googleplayStore_url:"https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",chromewebStore_url:"https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",items:[],},`
+//         )
+//       })
+//   }, index * 5) // delay of 1 second
+// })
+console.log(generators.length)
