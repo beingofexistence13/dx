@@ -22685,4635 +22685,11767 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Generators
     {
       title: "Generators",
       items: [
         {
-          title: "HTML to Markdown",
-          href: "/docs/generators/html-to-markdown",
+          title: "not provided",
+          href: "https://codebeautify.org/",
+          description:
+            "This  generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
+          title: "not provided",
+          href: "not provided",
+          description:
+            "This      generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Lua Minifier",
-          href: "/docs/generators/lua-minifier",
+          title: "JSON Formatter",
+          href: "https://jsonformatter.org/",
+          description:
+            "This JSON Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonformatter",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Lua Beautifier",
-          href: "/docs/generators/lua-beautifier",
+          title: "XML Formatter",
+          href: "https://jsonformatter.org/xml-formatter",
+          description:
+            "This XML Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlformatter",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Wordpress Password Hash",
-          href: "/docs/generators/wordpress-password-hash",
+          title: "Calculators",
+          href: "https://codebeautify.org/calculators/",
+          description:
+            "This Calculators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/calculators",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Mirror Online",
-          href: "/docs/generators/mirror-online",
+          title: "JSON Beautifier",
+          href: "https://codebeautify.org/jsonviewer",
+          description:
+            "This JSON Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonbeautifier",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "PHP Formatter",
-          href: "/docs/generators/php-formatter",
+          title: "Recent Links",
+          href: "https://codebeautify.org/recentLinksPage",
+          description:
+            "This Recent Links generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/recentlinks",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Image to ASCII Art",
-          href: "/docs/generators/image-to-ascii-art",
+          title: "Sitemap",
+          href: "https://codebeautify.org/all-tools",
+          description:
+            "This Sitemap generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sitemap",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "SHA256 Hash Generator",
-          href: "/docs/generators/sha256-hash-generator",
+          title: " Home ",
+          href: "https://codebeautify.org/",
+          description:
+            "This  Home  generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/home",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "SHA512 Hash Generator",
-          href: "/docs/generators/sha512-hash-generator",
+          title: "Login",
+          href: "https://codebeautify.org/login",
+          description:
+            "This Login generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/login",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Excel Viewer",
-          href: "/docs/generators/excel-viewer",
+          title: "Links",
+          href: "https://codebeautify.org/userSaveLinkPage",
+          description:
+            "This Links generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/links",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Paraphrasing tool",
-          href: "/docs/generators/paraphrasing-tool",
+          title: "Archived",
+          href: "https://codebeautify.org/userSaveOldLinkPage",
+          description:
+            "This Archived generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/archived",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Word to HTML",
-          href: "/docs/generators/word-to-html",
+          title: "Favorite",
+          href: "https://codebeautify.org/myFavouriteTools",
+          description:
+            "This Favorite generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/favorite",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "CSV to Excel",
-          href: "/docs/generators/csv-to-excel",
+          title: "Logout",
+          href: "https://codebeautify.org/logout",
+          description:
+            "This Logout generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/logout",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Sharelink Generator",
-          href: "/docs/generators/sharelink-generator",
+          title: "Chrome Extension",
+          href: "https://chrome.google.com/webstore/detail/popfphmhmamgbcboijokepmcjnanoknp",
+          description:
+            "This Chrome Extension generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/chromeextension",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Developer Tools",
-          href: "/docs/generators/developer-tools",
+          title: "JSON Syntax Highlighting",
+          href: "https://codebeautify.org/json-syntax-highlighting",
+          description:
+            "This JSON Syntax Highlighting generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonsyntaxhighlighting",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "IP Tools",
-          href: "/docs/generators/ip-tools",
+          title: "HEX to Pantone Converter",
+          href: "https://codebeautify.org/hex-to-pantone-converter",
+          description:
+            "This HEX to Pantone Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextopantoneconverter",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Formatters",
-          href: "/docs/generators/formatters",
+          title: "JavaScript Beautifier",
+          href: "https://codebeautify.org/jsviewer",
+          description:
+            "This JavaScript Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptbeautifier",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Image Converter Tools",
-          href: "/docs/generators/image-converter-tools",
+          title: "C Formatter",
+          href: "https://codebeautify.org/c-formatter-beautifier",
+          description:
+            "This C Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cformatter",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Finance Tools",
-          href: "/docs/generators/finance-tools",
+          title: "JSON Beautifier",
+          href: "https://codebeautify.org/jsonviewer",
+          description:
+            "This JSON Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonbeautifier",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "TSV Tools",
-          href: "/docs/generators/tsv-tools",
+          title: "HTML Viewer",
+          href: "https://codebeautify.org/htmlviewer",
+          description:
+            "This HTML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlviewer",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "JSON Tools",
-          href: "/docs/generators/json-tools",
+          title: "Number to Words",
+          href: "https://codebeautify.org/number-to-word-converter",
+          description:
+            "This Number to Words generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numbertowords",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "XML Tools",
-          href: "/docs/generators/xml-tools",
+          title: "SQL Formatter",
+          href: "https://codebeautify.org/sqlformatter",
+          description:
+            "This SQL Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlformatter",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "YAML Tools",
-          href: "/docs/generators/yaml-tools",
+          title: "Image to Base64",
+          href: "https://codebeautify.org/image-to-base64-converter",
+          description:
+            "This Image to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagetobase64",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "HTML Tools",
-          href: "/docs/generators/html-tools",
+          title: "Base64 to Image",
+          href: "https://codebeautify.org/base64-to-image-converter",
+          description:
+            "This Base64 to Image generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toimage",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "CSS Tools",
-          href: "/docs/generators/css-tools",
+          title: "HEX to Pantone",
+          href: "https://codebeautify.org/hex-to-pantone-converter",
+          description:
+            "This HEX to Pantone generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextopantone",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Javascript Tools",
-          href: "/docs/generators/javascript-tools",
+          title: "Source Code Viewer",
+          href: "https://codebeautify.org/source-code-viewer",
+          description:
+            "This Source Code Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sourcecodeviewer",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "CSV Tools",
-          href: "/docs/generators/csv-tools",
+          title: "Binary to Text",
+          href: "https://codebeautify.org/binary-to-text",
+          description:
+            "This Binary to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytotext",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "SQL Tools",
-          href: "/docs/generators/sql-tools",
+          title: "JSON Viewer",
+          href: "https://codebeautify.org/jsonviewer",
+          description:
+            "This JSON Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonviewer",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Color Tools",
-          href: "/docs/generators/color-tools",
+          title: "JSON Validator",
+          href: "https://codebeautify.org/jsonvalidator",
+          description:
+            "This JSON Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonvalidator",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Unit Tools",
-          href: "/docs/generators/unit-tools",
+          title: "Base64 Decode",
+          href: "https://codebeautify.org/base64-decode",
+          description:
+            "This Base64 Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64decode",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "Number Tools",
-          href: "/docs/generators/number-tools",
+          title: "Hex to Decimal",
+          href: "https://codebeautify.org/hex-decimal-converter",
+          description:
+            "This Hex to Decimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextodecimal",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "String Tools",
-          href: "/docs/generators/string-tools",
+          title: "XML Viewer",
+          href: "https://codebeautify.org/xmlviewer",
+          description:
+            "This XML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlviewer",
           items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Base64 Tools",
-          href: "/docs/generators/base64-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Random Tools",
-          href: "/docs/generators/random-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Minifiers",
-          href: "/docs/generators/minifiers",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-
-        {
-          title: "INPUT",
-          href: "/docs/generators/input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Button",
-          href: "/docs/generators/button",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Checkbox",
-          href: "/docs/generators/checkbox",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Color Input",
-          href: "/docs/generators/color-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Date",
-          href: "/docs/generators/date",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Email Input",
-          href: "/docs/generators/email-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "File Input",
-          href: "/docs/generators/file-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Image Button",
-          href: "/docs/generators/image-button",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Number Input",
-          href: "/docs/generators/number-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Password Input",
-          href: "/docs/generators/password-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Range Input",
-          href: "/docs/generators/range-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Search Input",
-          href: "/docs/generators/search-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Submit",
-          href: "/docs/generators/submit",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Telephone Input",
-          href: "/docs/generators/telephone-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Input",
-          href: "/docs/generators/text-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Textarea",
-          href: "/docs/generators/textarea",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "URL Input",
-          href: "/docs/generators/url-input",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "MEDIA",
-          href: "/docs/generators/media",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Audio",
-          href: "/docs/generators/audio",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Image",
-          href: "/docs/generators/image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TEXT",
-          href: "/docs/generators/text",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Bi-directional Override",
-          href: "/docs/generators/bi-directional-override",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Bold",
-          href: "/docs/generators/bold",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Cite",
-          href: "/docs/generators/cite",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Code",
-          href: "/docs/generators/code",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Italic",
-          href: "/docs/generators/italic",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Highlight",
-          href: "/docs/generators/highlight",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Quote",
-          href: "/docs/generators/quote",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Strikethrough",
-          href: "/docs/generators/strikethrough",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Superscript",
-          href: "/docs/generators/superscript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Underline",
-          href: "/docs/generators/underline",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "OTHER",
-          href: "/docs/generators/other",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Details",
-          href: "/docs/generators/details",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Dialog",
-          href: "/docs/generators/dialog",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Hyperlink",
-          href: "/docs/generators/hyperlink",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "iFrame",
-          href: "/docs/generators/iframe",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Meter",
-          href: "/docs/generators/meter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Progress",
-          href: "/docs/generators/progress",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Meta Tags",
-          href: "/docs/generators/meta-tags",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Structured Data",
-          href: "/docs/generators/structured-data",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Article",
-          href: "/docs/generators/article",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Breadcrumb",
-          href: "/docs/generators/breadcrumb",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Event",
-          href: "/docs/generators/event",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "FAQ",
-          href: "/docs/generators/faq",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "How-to",
-          href: "/docs/generators/how-to",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Job Posting",
-          href: "/docs/generators/job-posting",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Local Business",
-          href: "/docs/generators/local-business",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Organization",
-          href: "/docs/generators/organization",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Person",
-          href: "/docs/generators/person",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Product",
-          href: "/docs/generators/product",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Recipe",
-          href: "/docs/generators/recipe",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Website",
-          href: "/docs/generators/website",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "open Graph",
-          href: "/docs/generators/open-graph",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Article",
-          href: "/docs/generators/article",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Book",
-          href: "/docs/generators/book",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Business",
-          href: "/docs/generators/business",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Music Album",
-          href: "/docs/generators/music-album",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Music Playlist",
-          href: "/docs/generators/music-playlist",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Music Radio Station",
-          href: "/docs/generators/music-radio-station",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Music Song",
-          href: "/docs/generators/music-song",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Product",
-          href: "/docs/generators/product",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Profile",
-          href: "/docs/generators/profile",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video",
-          href: "/docs/generators/video",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video Episode",
-          href: "/docs/generators/video-episode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video Movie",
-          href: "/docs/generators/video-movie",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Video TV Show",
-          href: "/docs/generators/video-tv-show",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Website",
-          href: "/docs/generators/website",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Twitter Card",
-          href: "/docs/generators/twitter-card",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "App",
-          href: "/docs/generators/app",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Player",
-          href: "/docs/generators/player",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Summary",
-          href: "/docs/generators/summary",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Summary with Large Image",
-          href: "/docs/generators/summary-with-large-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Robots.txt",
-          href: "/docs/generators/robots.txt",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Code Converter",
-          href: "/docs/generators/code-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "SVG",
-          href: "/docs/generators/svg",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSX",
-          href: "/docs/generators/to-jsx",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to React Native",
-          href: "/docs/generators/to-react-native",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML",
-          href: "/docs/generators/html",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSX",
-          href: "/docs/generators/to-jsx",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Pug",
-          href: "/docs/generators/to-pug",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "JSON",
-          href: "/docs/generators/json",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Big Query Schema",
-          href: "/docs/generators/to-big-query-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Go Bson",
-          href: "/docs/generators/to-go-bson",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Go Struct",
-          href: "/docs/generators/to-go-struct",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to GraphQL",
-          href: "/docs/generators/to-graphql",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to io-ts",
-          href: "/docs/generators/to-io-ts",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Java",
-          href: "/docs/generators/to-java",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSDoc",
-          href: "/docs/generators/to-jsdoc",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSON Schema",
-          href: "/docs/generators/to-json-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Kotlin",
-          href: "/docs/generators/to-kotlin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to MobX-State-Tree Model",
-          href: "/docs/generators/to-mobx-state-tree-model",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Mongoose Schema",
-          href: "/docs/generators/to-mongoose-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to MySQL",
-          href: "/docs/generators/to-mysql",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to React PropTypes",
-          href: "/docs/generators/to-react-proptypes",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Rust Serde",
-          href: "/docs/generators/to-rust-serde",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Sarcastic",
-          href: "/docs/generators/to-sarcastic",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Scala Case Class",
-          href: "/docs/generators/to-scala-case-class",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TOML",
-          href: "/docs/generators/to-toml",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to YAML",
-          href: "/docs/generators/to-yaml",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "JSON Schema",
-          href: "/docs/generators/json-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to OpenAPI Schema",
-          href: "/docs/generators/to-openapi-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Protobuf",
-          href: "/docs/generators/to-protobuf",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS",
-          href: "/docs/generators/css",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JS Objects",
-          href: "/docs/generators/to-js-objects",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TailwindCSS",
-          href: "/docs/generators/to-tailwindcss",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to template literal",
-          href: "/docs/generators/to-template-literal",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "JavaScript",
-          href: "/docs/generators/javascript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSON",
-          href: "/docs/generators/to-json",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "GraphQL",
-          href: "/docs/generators/graphql",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Components",
-          href: "/docs/generators/to-components",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Fragment Matcher",
-          href: "/docs/generators/to-fragment-matcher",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Introspection JSON",
-          href: "/docs/generators/to-introspection-json",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JAVA",
-          href: "/docs/generators/to-java",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Resolvers Signature",
-          href: "/docs/generators/to-resolvers-signature",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Schema AST",
-          href: "/docs/generators/to-schema-ast",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript MongoDB",
-          href: "/docs/generators/to-typescript-mongodb",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "JSON-LD",
-          href: "/docs/generators/json-ld",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Compacted",
-          href: "/docs/generators/to-compacted",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Expanded",
-          href: "/docs/generators/to-expanded",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Flattened",
-          href: "/docs/generators/to-flattened",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Framed",
-          href: "/docs/generators/to-framed",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to N-Quads",
-          href: "/docs/generators/to-n-quads",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Normalized",
-          href: "/docs/generators/to-normalized",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TypeScript",
-          href: "/docs/generators/typescript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Flow",
-          href: "/docs/generators/to-flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to JSON Schema",
-          href: "/docs/generators/to-json-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to plain JavaScript",
-          href: "/docs/generators/to-plain-javascript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript Declaration",
-          href: "/docs/generators/to-typescript-declaration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to Zod Schema",
-          href: "/docs/generators/to-zod-schema",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Flow",
-          href: "/docs/generators/flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to plain JavaScript",
-          href: "/docs/generators/to-plain-javascript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript",
-          href: "/docs/generators/to-typescript",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "to TypeScript Declaration",
-          href: "/docs/generators/to-typescript-declaration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Others",
-          href: "/docs/generators/others",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Cadence to Go",
-          href: "/docs/generators/cadence-to-go",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Markdown to HTML",
-          href: "/docs/generators/markdown-to-html",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TOML to JSON",
-          href: "/docs/generators/toml-to-json",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TOML to YAML",
-          href: "/docs/generators/toml-to-yaml",
-          items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "XML to JSON",
-          href: "/docs/generators/xml-to-json",
+          href: "https://codebeautify.org/xmltojson",
+          description:
+            "This XML to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltojson",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "YAML to JSON",
-          href: "/docs/generators/yaml-to-json",
+          title: "Encryption-Decryption",
+          href: "https://codebeautify.org/encrypt-decrypt",
+          description:
+            "This Encryption-Decryption generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/encryption-decryption",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
-          title: "YAML to TOML",
-          href: "/docs/generators/yaml-to-toml",
+          title: "Excel to HTML",
+          href: "https://codebeautify.org/excel-to-html",
+          description:
+            "This Excel to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/exceltohtml",
           items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Generators",
-          href: "/docs/generators/css-generators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Animated Text Generator",
-          href: "/docs/generators/animated-text-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Border Radius Generator",
-          href: "/docs/generators/border-radius-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Box Shadow Generator",
-          href: "/docs/generators/box-shadow-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Button Generator",
-          href: "/docs/generators/button-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Clip Path Generator",
-          href: "/docs/generators/clip-path-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Column Generator",
-          href: "/docs/generators/column-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Cubic Bezier Generator",
-          href: "/docs/generators/cubic-bezier-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Flip Swith Generator",
-          href: "/docs/generators/flip-swith-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Flexbox Generator",
-          href: "/docs/generators/flexbox-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Glitch Text Effect",
-          href: "/docs/generators/glitch-text-effect",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Google Fonts CSS",
-          href: "/docs/generators/google-fonts-css",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Gradient Generator",
-          href: "/docs/generators/gradient-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Image Filter Generator",
-          href: "/docs/generators/image-filter-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Input Range Generator",
-          href: "/docs/generators/input-range-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Layout Generator",
-          href: "/docs/generators/layout-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Loader",
-          href: "/docs/generators/loader",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Menu Generator",
-          href: "/docs/generators/menu-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "RGBA Generator",
-          href: "/docs/generators/rgba-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Ribbon Generator",
-          href: "/docs/generators/ribbon-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Ribbon Banner Generator",
-          href: "/docs/generators/ribbon-banner-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Scrollbar Generator",
-          href: "/docs/generators/scrollbar-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Sprite Generator",
-          href: "/docs/generators/sprite-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Gradient Generator",
-          href: "/docs/generators/text-gradient-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Rotate Generator",
-          href: "/docs/generators/text-rotate-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Shadow Generator",
-          href: "/docs/generators/text-shadow-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Tooltip Generator",
-          href: "/docs/generators/tooltip-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Triangle Generator",
-          href: "/docs/generators/triangle-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "3D Transform Generator",
-          href: "/docs/generators/3d-transform-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Properties",
-          href: "/docs/generators/css-properties",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "align-content",
-          href: "/docs/generators/align-content",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "align-items",
-          href: "/docs/generators/align-items",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "align-self",
-          href: "/docs/generators/align-self",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "all",
-          href: "/docs/generators/all",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation",
-          href: "/docs/generators/animation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-delay",
-          href: "/docs/generators/animation-delay",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-direction",
-          href: "/docs/generators/animation-direction",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-duration",
-          href: "/docs/generators/animation-duration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-fill-mode",
-          href: "/docs/generators/animation-fill-mode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-iteration-count",
-          href: "/docs/generators/animation-iteration-count",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-name",
-          href: "/docs/generators/animation-name",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-play-state",
-          href: "/docs/generators/animation-play-state",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "animation-timing-function",
-          href: "/docs/generators/animation-timing-function",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "backface-visibility",
-          href: "/docs/generators/backface-visibility",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background",
-          href: "/docs/generators/background",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-attachment",
-          href: "/docs/generators/background-attachment",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-blend-mode",
-          href: "/docs/generators/background-blend-mode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-clip",
-          href: "/docs/generators/background-clip",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-color",
-          href: "/docs/generators/background-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-image",
-          href: "/docs/generators/background-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-origin",
-          href: "/docs/generators/background-origin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-position",
-          href: "/docs/generators/background-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-repeat",
-          href: "/docs/generators/background-repeat",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "background-size",
-          href: "/docs/generators/background-size",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border",
-          href: "/docs/generators/border",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom",
-          href: "/docs/generators/border-bottom",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom-color",
-          href: "/docs/generators/border-bottom-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom-left-radius",
-          href: "/docs/generators/border-bottom-left-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom-right-radius",
-          href: "/docs/generators/border-bottom-right-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom-style",
-          href: "/docs/generators/border-bottom-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-bottom-width",
-          href: "/docs/generators/border-bottom-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-collapse",
-          href: "/docs/generators/border-collapse",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-color",
-          href: "/docs/generators/border-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image",
-          href: "/docs/generators/border-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image-outset",
-          href: "/docs/generators/border-image-outset",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image-repeat",
-          href: "/docs/generators/border-image-repeat",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image-slice",
-          href: "/docs/generators/border-image-slice",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image-source",
-          href: "/docs/generators/border-image-source",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-image-width",
-          href: "/docs/generators/border-image-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-left",
-          href: "/docs/generators/border-left",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-left-color",
-          href: "/docs/generators/border-left-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-left-style",
-          href: "/docs/generators/border-left-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-left-width",
-          href: "/docs/generators/border-left-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-radius",
-          href: "/docs/generators/border-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-right",
-          href: "/docs/generators/border-right",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-right-color",
-          href: "/docs/generators/border-right-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-right-style",
-          href: "/docs/generators/border-right-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-right-width",
-          href: "/docs/generators/border-right-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-spacing",
-          href: "/docs/generators/border-spacing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-style",
-          href: "/docs/generators/border-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top",
-          href: "/docs/generators/border-top",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top-color",
-          href: "/docs/generators/border-top-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top-left-radius",
-          href: "/docs/generators/border-top-left-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top-right-radius",
-          href: "/docs/generators/border-top-right-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top-style",
-          href: "/docs/generators/border-top-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-top-width",
-          href: "/docs/generators/border-top-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "border-width",
-          href: "/docs/generators/border-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "bottom",
-          href: "/docs/generators/bottom",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "box-decoration-break",
-          href: "/docs/generators/box-decoration-break",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "box-shadow",
-          href: "/docs/generators/box-shadow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "box-sizing",
-          href: "/docs/generators/box-sizing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "break-after",
-          href: "/docs/generators/break-after",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "break-before",
-          href: "/docs/generators/break-before",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "break-inside",
-          href: "/docs/generators/break-inside",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "caption-side",
-          href: "/docs/generators/caption-side",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "caret-color",
-          href: "/docs/generators/caret-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "clear",
-          href: "/docs/generators/clear",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "clip-path",
-          href: "/docs/generators/clip-path",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "color",
-          href: "/docs/generators/color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-count",
-          href: "/docs/generators/column-count",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-fill",
-          href: "/docs/generators/column-fill",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-rule",
-          href: "/docs/generators/column-rule",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-rule-color",
-          href: "/docs/generators/column-rule-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-rule-style",
-          href: "/docs/generators/column-rule-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-rule-width",
-          href: "/docs/generators/column-rule-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-span",
-          href: "/docs/generators/column-span",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "column-width",
-          href: "/docs/generators/column-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "columns",
-          href: "/docs/generators/columns",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "content",
-          href: "/docs/generators/content",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "counter-increment",
-          href: "/docs/generators/counter-increment",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "counter-reset",
-          href: "/docs/generators/counter-reset",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "counter-set",
-          href: "/docs/generators/counter-set",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "cursor",
-          href: "/docs/generators/cursor",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "direction",
-          href: "/docs/generators/direction",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "display",
-          href: "/docs/generators/display",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "empty-cells",
-          href: "/docs/generators/empty-cells",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "filter",
-          href: "/docs/generators/filter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex",
-          href: "/docs/generators/flex",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-basis",
-          href: "/docs/generators/flex-basis",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-direction",
-          href: "/docs/generators/flex-direction",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-flow",
-          href: "/docs/generators/flex-flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-grow",
-          href: "/docs/generators/flex-grow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-shrink",
-          href: "/docs/generators/flex-shrink",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "flex-wrap",
-          href: "/docs/generators/flex-wrap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "float",
-          href: "/docs/generators/float",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font",
-          href: "/docs/generators/font",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-family",
-          href: "/docs/generators/font-family",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-feature-settings",
-          href: "/docs/generators/font-feature-settings",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-kerning",
-          href: "/docs/generators/font-kerning",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-language-override",
-          href: "/docs/generators/font-language-override",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-size",
-          href: "/docs/generators/font-size",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-size-adjust",
-          href: "/docs/generators/font-size-adjust",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-stretch",
-          href: "/docs/generators/font-stretch",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-style",
-          href: "/docs/generators/font-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-synthesis",
-          href: "/docs/generators/font-synthesis",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant",
-          href: "/docs/generators/font-variant",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-alternates",
-          href: "/docs/generators/font-variant-alternates",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-caps",
-          href: "/docs/generators/font-variant-caps",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-east-asian",
-          href: "/docs/generators/font-variant-east-asian",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-ligatures",
-          href: "/docs/generators/font-variant-ligatures",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-numeric",
-          href: "/docs/generators/font-variant-numeric",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-variant-position",
-          href: "/docs/generators/font-variant-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "font-weight",
-          href: "/docs/generators/font-weight",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid",
-          href: "/docs/generators/grid",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-area",
-          href: "/docs/generators/grid-area",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-auto-columns",
-          href: "/docs/generators/grid-auto-columns",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-auto-flow",
-          href: "/docs/generators/grid-auto-flow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-auto-rows",
-          href: "/docs/generators/grid-auto-rows",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-column",
-          href: "/docs/generators/grid-column",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-column-end",
-          href: "/docs/generators/grid-column-end",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-column-gap",
-          href: "/docs/generators/grid-column-gap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-column-start",
-          href: "/docs/generators/grid-column-start",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-gap",
-          href: "/docs/generators/grid-gap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-row",
-          href: "/docs/generators/grid-row",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-row-end",
-          href: "/docs/generators/grid-row-end",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-row-gap",
-          href: "/docs/generators/grid-row-gap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-row-start",
-          href: "/docs/generators/grid-row-start",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-template",
-          href: "/docs/generators/grid-template",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-template-areas",
-          href: "/docs/generators/grid-template-areas",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-template-columns",
-          href: "/docs/generators/grid-template-columns",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grid-template-rows",
-          href: "/docs/generators/grid-template-rows",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "hanging-punctuation",
-          href: "/docs/generators/hanging-punctuation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "height",
-          href: "/docs/generators/height",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "hyphens",
-          href: "/docs/generators/hyphens",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "image-orientation",
-          href: "/docs/generators/image-orientation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "justify-content",
-          href: "/docs/generators/justify-content",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "justify-items",
-          href: "/docs/generators/justify-items",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "justify-self",
-          href: "/docs/generators/justify-self",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "left",
-          href: "/docs/generators/left",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "letter-spacing",
-          href: "/docs/generators/letter-spacing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "line-break",
-          href: "/docs/generators/line-break",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "line-height",
-          href: "/docs/generators/line-height",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "list-style",
-          href: "/docs/generators/list-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "list-style-image",
-          href: "/docs/generators/list-style-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "list-style-position",
-          href: "/docs/generators/list-style-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "list-style-type",
-          href: "/docs/generators/list-style-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "margin",
-          href: "/docs/generators/margin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "margin-bottom",
-          href: "/docs/generators/margin-bottom",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "margin-left",
-          href: "/docs/generators/margin-left",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "margin-right",
-          href: "/docs/generators/margin-right",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "margin-top",
-          href: "/docs/generators/margin-top",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "max-height",
-          href: "/docs/generators/max-height",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "max-width",
-          href: "/docs/generators/max-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "min-height",
-          href: "/docs/generators/min-height",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "min-width",
-          href: "/docs/generators/min-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "mix-blend-mode",
-          href: "/docs/generators/mix-blend-mode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "object-fit",
-          href: "/docs/generators/object-fit",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "object-position",
-          href: "/docs/generators/object-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "opacity",
-          href: "/docs/generators/opacity",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "order",
-          href: "/docs/generators/order",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "orphans",
-          href: "/docs/generators/orphans",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "outline",
-          href: "/docs/generators/outline",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "outline-color",
-          href: "/docs/generators/outline-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "outline-offset",
-          href: "/docs/generators/outline-offset",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "outline-style",
-          href: "/docs/generators/outline-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "outline-width",
-          href: "/docs/generators/outline-width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "overflow",
-          href: "/docs/generators/overflow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "overflow-wrap",
-          href: "/docs/generators/overflow-wrap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "overflow-x",
-          href: "/docs/generators/overflow-x",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "overflow-y",
-          href: "/docs/generators/overflow-y",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "padding",
-          href: "/docs/generators/padding",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "padding-bottom",
-          href: "/docs/generators/padding-bottom",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "padding-left",
-          href: "/docs/generators/padding-left",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "padding-right",
-          href: "/docs/generators/padding-right",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "padding-top",
-          href: "/docs/generators/padding-top",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "perspective",
-          href: "/docs/generators/perspective",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "perspective-origin",
-          href: "/docs/generators/perspective-origin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "place-content",
-          href: "/docs/generators/place-content",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "place-items",
-          href: "/docs/generators/place-items",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "place-self",
-          href: "/docs/generators/place-self",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "position",
-          href: "/docs/generators/position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "quotes",
-          href: "/docs/generators/quotes",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "resize",
-          href: "/docs/generators/resize",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "right",
-          href: "/docs/generators/right",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "shape-image-threshold",
-          href: "/docs/generators/shape-image-threshold",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "shape-margin",
-          href: "/docs/generators/shape-margin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "shape-outside",
-          href: "/docs/generators/shape-outside",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "tab-size",
-          href: "/docs/generators/tab-size",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "table-layout",
-          href: "/docs/generators/table-layout",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-align",
-          href: "/docs/generators/text-align",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-align-last",
-          href: "/docs/generators/text-align-last",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-combine-upright",
-          href: "/docs/generators/text-combine-upright",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-decoration",
-          href: "/docs/generators/text-decoration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-decoration-color",
-          href: "/docs/generators/text-decoration-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-decoration-line",
-          href: "/docs/generators/text-decoration-line",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-decoration-style",
-          href: "/docs/generators/text-decoration-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-emphasis",
-          href: "/docs/generators/text-emphasis",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-emphasis-color",
-          href: "/docs/generators/text-emphasis-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-emphasis-position",
-          href: "/docs/generators/text-emphasis-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-emphasis-style",
-          href: "/docs/generators/text-emphasis-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-indent",
-          href: "/docs/generators/text-indent",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-justify",
-          href: "/docs/generators/text-justify",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-orientation",
-          href: "/docs/generators/text-orientation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-overflow",
-          href: "/docs/generators/text-overflow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-shadow",
-          href: "/docs/generators/text-shadow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-transform",
-          href: "/docs/generators/text-transform",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "text-underline-position",
-          href: "/docs/generators/text-underline-position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "top",
-          href: "/docs/generators/top",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transform",
-          href: "/docs/generators/transform",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transform-origin",
-          href: "/docs/generators/transform-origin",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transform-style",
-          href: "/docs/generators/transform-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transition",
-          href: "/docs/generators/transition",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transition-delay",
-          href: "/docs/generators/transition-delay",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transition-duration",
-          href: "/docs/generators/transition-duration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transition-property",
-          href: "/docs/generators/transition-property",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "transition-timing-function",
-          href: "/docs/generators/transition-timing-function",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "unicode-bidi",
-          href: "/docs/generators/unicode-bidi",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "vertical-align",
-          href: "/docs/generators/vertical-align",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "visibility",
-          href: "/docs/generators/visibility",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "white-space",
-          href: "/docs/generators/white-space",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "widows",
-          href: "/docs/generators/widows",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "width",
-          href: "/docs/generators/width",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "word-break",
-          href: "/docs/generators/word-break",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "word-spacing",
-          href: "/docs/generators/word-spacing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "word-wrap",
-          href: "/docs/generators/word-wrap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "writing-mode",
-          href: "/docs/generators/writing-mode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "z-index",
-          href: "/docs/generators/z-index",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Pseudo Classes",
-          href: "/docs/generators/css-pseudo-classes",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":active",
-          href: "/docs/generators/:active",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":checked",
-          href: "/docs/generators/:checked",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":default",
-          href: "/docs/generators/:default",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":disabled",
-          href: "/docs/generators/:disabled",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":empty",
-          href: "/docs/generators/:empty",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":enabled",
-          href: "/docs/generators/:enabled",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":first-child",
-          href: "/docs/generators/:first-child",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":first-of-type",
-          href: "/docs/generators/:first-of-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":focus",
-          href: "/docs/generators/:focus",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":fullscreen",
-          href: "/docs/generators/:fullscreen",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":hover",
-          href: "/docs/generators/:hover",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":in-range",
-          href: "/docs/generators/:in-range",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":indeterminate",
-          href: "/docs/generators/:indeterminate",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":invalid",
-          href: "/docs/generators/:invalid",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":lang",
-          href: "/docs/generators/:lang",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":last-child",
-          href: "/docs/generators/:last-child",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":last-of-type",
-          href: "/docs/generators/:last-of-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":link",
-          href: "/docs/generators/:link",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":not",
-          href: "/docs/generators/:not",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":nth-child",
-          href: "/docs/generators/:nth-child",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":nth-last-child",
-          href: "/docs/generators/:nth-last-child",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":nth-last-of-type",
-          href: "/docs/generators/:nth-last-of-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":nth-of-type",
-          href: "/docs/generators/:nth-of-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":only-child",
-          href: "/docs/generators/:only-child",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":only-of-type",
-          href: "/docs/generators/:only-of-type",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":optional",
-          href: "/docs/generators/:optional",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":out-of-range",
-          href: "/docs/generators/:out-of-range",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":read-only",
-          href: "/docs/generators/:read-only",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":read-write",
-          href: "/docs/generators/:read-write",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":required",
-          href: "/docs/generators/:required",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":root",
-          href: "/docs/generators/:root",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":target",
-          href: "/docs/generators/:target",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":valid",
-          href: "/docs/generators/:valid",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: ":visited",
-          href: "/docs/generators/:visited",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Html Tags",
-          href: "/docs/generators/html-tags",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<a>",
-          href: "/docs/generators/<a>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<abbr>",
-          href: "/docs/generators/<abbr>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<address>",
-          href: "/docs/generators/<address>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<area>",
-          href: "/docs/generators/<area>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<article>",
-          href: "/docs/generators/<article>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<aside>",
-          href: "/docs/generators/<aside>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<audio>",
-          href: "/docs/generators/<audio>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<b>",
-          href: "/docs/generators/<b>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<base>",
-          href: "/docs/generators/<base>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<bdi>",
-          href: "/docs/generators/<bdi>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<bdo>",
-          href: "/docs/generators/<bdo>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<blockquote>",
-          href: "/docs/generators/<blockquote>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<body>",
-          href: "/docs/generators/<body>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<br>",
-          href: "/docs/generators/<br>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<button>",
-          href: "/docs/generators/<button>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<canvas>",
-          href: "/docs/generators/<canvas>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<caption>",
-          href: "/docs/generators/<caption>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<cite>",
-          href: "/docs/generators/<cite>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<code>",
-          href: "/docs/generators/<code>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<col>",
-          href: "/docs/generators/<col>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<colgroup>",
-          href: "/docs/generators/<colgroup>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<comment>",
-          href: "/docs/generators/<comment>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<datalist>",
-          href: "/docs/generators/<datalist>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<dd>",
-          href: "/docs/generators/<dd>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<del>",
-          href: "/docs/generators/<del>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<details>",
-          href: "/docs/generators/<details>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<dfn>",
-          href: "/docs/generators/<dfn>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<dialog>",
-          href: "/docs/generators/<dialog>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<div>",
-          href: "/docs/generators/<div>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<dl>",
-          href: "/docs/generators/<dl>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<doctype>",
-          href: "/docs/generators/<doctype>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<dt>",
-          href: "/docs/generators/<dt>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<em>",
-          href: "/docs/generators/<em>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<embed>",
-          href: "/docs/generators/<embed>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<fieldset>",
-          href: "/docs/generators/<fieldset>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<figcaption>",
-          href: "/docs/generators/<figcaption>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<figure>",
-          href: "/docs/generators/<figure>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<footer>",
-          href: "/docs/generators/<footer>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<form>",
-          href: "/docs/generators/<form>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h1>",
-          href: "/docs/generators/<h1>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h2>",
-          href: "/docs/generators/<h2>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h3>",
-          href: "/docs/generators/<h3>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h4>",
-          href: "/docs/generators/<h4>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h5>",
-          href: "/docs/generators/<h5>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<h6>",
-          href: "/docs/generators/<h6>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<head>",
-          href: "/docs/generators/<head>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<header>",
-          href: "/docs/generators/<header>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<hr>",
-          href: "/docs/generators/<hr>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<html>",
-          href: "/docs/generators/<html>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<i>",
-          href: "/docs/generators/<i>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<iframe>",
-          href: "/docs/generators/<iframe>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<img>",
-          href: "/docs/generators/<img>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<input>",
-          href: "/docs/generators/<input>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<ins>",
-          href: "/docs/generators/<ins>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<kbd>",
-          href: "/docs/generators/<kbd>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<keygen>",
-          href: "/docs/generators/<keygen>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<label>",
-          href: "/docs/generators/<label>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<legend>",
-          href: "/docs/generators/<legend>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<li>",
-          href: "/docs/generators/<li>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<link>",
-          href: "/docs/generators/<link>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<map>",
-          href: "/docs/generators/<map>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<mark>",
-          href: "/docs/generators/<mark>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<menu>",
-          href: "/docs/generators/<menu>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<meta>",
-          href: "/docs/generators/<meta>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<meter>",
-          href: "/docs/generators/<meter>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<nav>",
-          href: "/docs/generators/<nav>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<noscript>",
-          href: "/docs/generators/<noscript>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<object>",
-          href: "/docs/generators/<object>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<ol>",
-          href: "/docs/generators/<ol>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<optgroup>",
-          href: "/docs/generators/<optgroup>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<option>",
-          href: "/docs/generators/<option>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<output>",
-          href: "/docs/generators/<output>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<p>",
-          href: "/docs/generators/<p>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<param>",
-          href: "/docs/generators/<param>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<picture>",
-          href: "/docs/generators/<picture>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<pre>",
-          href: "/docs/generators/<pre>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<progress>",
-          href: "/docs/generators/<progress>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<q>",
-          href: "/docs/generators/<q>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<rp>",
-          href: "/docs/generators/<rp>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<rt>",
-          href: "/docs/generators/<rt>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<ruby>",
-          href: "/docs/generators/<ruby>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<s>",
-          href: "/docs/generators/<s>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<samp>",
-          href: "/docs/generators/<samp>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<script>",
-          href: "/docs/generators/<script>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<section>",
-          href: "/docs/generators/<section>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<select>",
-          href: "/docs/generators/<select>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<small>",
-          href: "/docs/generators/<small>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<source>",
-          href: "/docs/generators/<source>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<span>",
-          href: "/docs/generators/<span>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<strong>",
-          href: "/docs/generators/<strong>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<style>",
-          href: "/docs/generators/<style>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<sub>",
-          href: "/docs/generators/<sub>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<summary>",
-          href: "/docs/generators/<summary>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "sup>",
-          href: "/docs/generators/sup>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<table>",
-          href: "/docs/generators/<table>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<tbody>",
-          href: "/docs/generators/<tbody>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<td>",
-          href: "/docs/generators/<td>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<th>",
-          href: "/docs/generators/<th>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<thead>",
-          href: "/docs/generators/<thead>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<time>",
-          href: "/docs/generators/<time>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<tr>",
-          href: "/docs/generators/<tr>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<track>",
-          href: "/docs/generators/<track>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<u>",
-          href: "/docs/generators/<u>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<ul>",
-          href: "/docs/generators/<ul>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<var>",
-          href: "/docs/generators/<var>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<video>",
-          href: "/docs/generators/<video>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "<wbr>",
-          href: "/docs/generators/<wbr>",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Functions",
-          href: "/docs/generators/css-functions",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "attr()",
-          href: "/docs/generators/attr()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "blur()",
-          href: "/docs/generators/blur()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "brightness()",
-          href: "/docs/generators/brightness()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "calc()",
-          href: "/docs/generators/calc()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "circle()",
-          href: "/docs/generators/circle()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "contrast()",
-          href: "/docs/generators/contrast()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "drop-shadow()",
-          href: "/docs/generators/drop-shadow()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "ellipse()",
-          href: "/docs/generators/ellipse()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "grayscale()",
-          href: "/docs/generators/grayscale()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "hsl()",
-          href: "/docs/generators/hsl()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "hsla()",
-          href: "/docs/generators/hsla()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "hue-rotate()",
-          href: "/docs/generators/hue-rotate()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "inset()",
-          href: "/docs/generators/inset()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "invert()",
-          href: "/docs/generators/invert()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "linear-gradient()",
-          href: "/docs/generators/linear-gradient()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "matrix()",
-          href: "/docs/generators/matrix()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "matrix3d()",
-          href: "/docs/generators/matrix3d()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "opacity()",
-          href: "/docs/generators/opacity()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "perspective()",
-          href: "/docs/generators/perspective()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "polygon()",
-          href: "/docs/generators/polygon()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "radial-gradient()",
-          href: "/docs/generators/radial-gradient()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "repeating-linear-gradient()",
-          href: "/docs/generators/repeating-linear-gradient()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "repeating-radial-gradient()",
-          href: "/docs/generators/repeating-radial-gradient()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rgb()",
-          href: "/docs/generators/rgb()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rgba()",
-          href: "/docs/generators/rgba()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rotate()",
-          href: "/docs/generators/rotate()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rotate3d()",
-          href: "/docs/generators/rotate3d()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rotateX()",
-          href: "/docs/generators/rotatex()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rotateY()",
-          href: "/docs/generators/rotatey()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "rotateZ()",
-          href: "/docs/generators/rotatez()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "saturate()",
-          href: "/docs/generators/saturate()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "scale()",
-          href: "/docs/generators/scale()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "scale3d()",
-          href: "/docs/generators/scale3d()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "scaleX()",
-          href: "/docs/generators/scalex()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "scaleY()",
-          href: "/docs/generators/scaley()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "scaleZ()",
-          href: "/docs/generators/scalez()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "sepia()",
-          href: "/docs/generators/sepia()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "skew()",
-          href: "/docs/generators/skew()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "skewX()",
-          href: "/docs/generators/skewx()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "skewY()",
-          href: "/docs/generators/skewy()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "translate()",
-          href: "/docs/generators/translate()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "translate3d()",
-          href: "/docs/generators/translate3d()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "translateX()",
-          href: "/docs/generators/translatex()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "translateY()",
-          href: "/docs/generators/translatey()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "translateZ()",
-          href: "/docs/generators/translatez()",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css At Rules",
-          href: "/docs/generators/css-at-rules",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@charset",
-          href: "/docs/generators/@charset",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@counter-style",
-          href: "/docs/generators/@counter-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@document",
-          href: "/docs/generators/@document",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@font-face",
-          href: "/docs/generators/@font-face",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@font-feature-values",
-          href: "/docs/generators/@font-feature-values",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@import",
-          href: "/docs/generators/@import",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@keyframes",
-          href: "/docs/generators/@keyframes",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@media",
-          href: "/docs/generators/@media",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@namespace",
-          href: "/docs/generators/@namespace",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@page",
-          href: "/docs/generators/@page",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "@supports",
-          href: "/docs/generators/@supports",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Data types",
-          href: "/docs/generators/css-data-types",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "angle",
-          href: "/docs/generators/angle",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "basic-shape",
-          href: "/docs/generators/basic-shape",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "blend-mode",
-          href: "/docs/generators/blend-mode",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "color",
-          href: "/docs/generators/color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "frequency",
-          href: "/docs/generators/frequency",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "gradient",
-          href: "/docs/generators/gradient",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "image",
-          href: "/docs/generators/image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "integer",
-          href: "/docs/generators/integer",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "length",
-          href: "/docs/generators/length",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "number",
-          href: "/docs/generators/number",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "percentage",
-          href: "/docs/generators/percentage",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "position",
-          href: "/docs/generators/position",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "ratio",
-          href: "/docs/generators/ratio",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "resolution",
-          href: "/docs/generators/resolution",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "string",
-          href: "/docs/generators/string",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "time",
-          href: "/docs/generators/time",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "url",
-          href: "/docs/generators/url",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Pseudo Elements",
-          href: "/docs/generators/css-pseudo-elements",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::after",
-          href: "/docs/generators/::after",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::before",
-          href: "/docs/generators/::before",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::first-letter",
-          href: "/docs/generators/::first-letter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::first-line",
-          href: "/docs/generators/::first-line",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::placeholder",
-          href: "/docs/generators/::placeholder",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "::selection",
-          href: "/docs/generators/::selection",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Html Tools",
-          href: "/docs/generators/html-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Pug to HTML Compiler",
-          href: "/docs/generators/pug-to-html-compiler",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Markdown to HTML Compiler",
-          href: "/docs/generators/markdown-to-html-compiler",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML to Pug Converter",
-          href: "/docs/generators/html-to-pug-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML to Markdown Converter",
-          href: "/docs/generators/html-to-markdown-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Character Codes",
-          href: "/docs/generators/html-character-codes",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Colors",
-          href: "/docs/generators/html-colors",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Beautifier",
-          href: "/docs/generators/html-beautifier",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Table Generator",
-          href: "/docs/generators/html-table-generator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Tags",
-          href: "/docs/generators/html-tags",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Online Editor",
-          href: "/docs/generators/html-online-editor",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Tutorial",
-          href: "/docs/generators/html-tutorial",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Validator",
-          href: "/docs/generators/html-validator",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Css Tools",
-          href: "/docs/generators/css-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "LESS to CSS Compiler",
-          href: "/docs/generators/less-to-css-compiler",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "SCSS to CSS Compiler",
-          href: "/docs/generators/scss-to-css-compiler",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Stylus to CSS Compiler",
-          href: "/docs/generators/stylus-to-css-compiler",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS to LESS Converter",
-          href: "/docs/generators/css-to-less-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS to SCSS Converter",
-          href: "/docs/generators/css-to-scss-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS to Stylus Converter",
-          href: "/docs/generators/css-to-stylus-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Color Converter",
-          href: "/docs/generators/css-color-converter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Cursor Viewer",
-          href: "/docs/generators/css-cursor-viewer",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Font Preview",
-          href: "/docs/generators/css-font-preview",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Code Formatter",
-          href: "/docs/generators/css-code-formatter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Lengths",
-          href: "/docs/generators/css-lengths",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Validators",
-          href: "/docs/generators/validators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Cryptography",
-          href: "/docs/generators/cryptography",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Escape Unescape Tools",
-          href: "/docs/generators/escape-unescape-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "UTF Tools",
-          href: "/docs/generators/utf-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Compress Decompress",
-          href: "/docs/generators/compress-decompress",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML Generators",
-          href: "/docs/generators/html-generators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Generators",
-          href: "/docs/generators/css-generators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Other Tools",
-          href: "/docs/generators/other-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Style Tools",
-          href: "/docs/generators/text-style-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Unit Converter Tools",
-          href: "/docs/generators/css-unit-converter-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "POJO Tools",
-          href: "/docs/generators/pojo-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Twitter Tools",
-          href: "/docs/generators/twitter-tools",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Random Generators",
-          href: "/docs/generators/random-generators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Generators",
-          href: "/docs/generators/generators",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS",
-          href: "/docs/generators/css",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "ANIMATION",
-          href: "/docs/generators/animation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Keyframe Animation",
-          href: "/docs/generators/keyframe-animation",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "BACKGROUND",
-          href: "/docs/generators/background",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Background Color",
-          href: "/docs/generators/background-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Background Gradient",
-          href: "/docs/generators/background-gradient",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Background Image",
-          href: "/docs/generators/background-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "BOX",
-          href: "/docs/generators/box",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Border",
-          href: "/docs/generators/border",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Border Image",
-          href: "/docs/generators/border-image",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Border Radius",
-          href: "/docs/generators/border-radius",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Box Resize",
-          href: "/docs/generators/box-resize",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Box Shadow",
-          href: "/docs/generators/box-shadow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Opacity",
-          href: "/docs/generators/opacity",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Outline",
-          href: "/docs/generators/outline",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Overflow",
-          href: "/docs/generators/overflow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "COLOR",
-          href: "/docs/generators/color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Color",
-          href: "/docs/generators/text-color",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "FILTER",
-          href: "/docs/generators/filter",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Blur",
-          href: "/docs/generators/blur",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Brightness",
-          href: "/docs/generators/brightness",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Contrast",
-          href: "/docs/generators/contrast",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Drop Shadow",
-          href: "/docs/generators/drop-shadow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Grayscale",
-          href: "/docs/generators/grayscale",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Hue-Rotate",
-          href: "/docs/generators/hue-rotate",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Invert",
-          href: "/docs/generators/invert",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Saturate",
-          href: "/docs/generators/saturate",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Sepia",
-          href: "/docs/generators/sepia",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "LAYOUT",
-          href: "/docs/generators/layout",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Columns",
-          href: "/docs/generators/columns",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Display",
-          href: "/docs/generators/display",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Visibility",
-          href: "/docs/generators/visibility",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "LIST",
-          href: "/docs/generators/list",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "List Style",
-          href: "/docs/generators/list-style",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "MISCELLANEOUS",
-          href: "/docs/generators/miscellaneous",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Cursor",
-          href: "/docs/generators/cursor",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TEXT",
-          href: "/docs/generators/text",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Letter Spacing",
-          href: "/docs/generators/letter-spacing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Line Height",
-          href: "/docs/generators/line-height",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Overflow Wrap",
-          href: "/docs/generators/overflow-wrap",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Tab Size",
-          href: "/docs/generators/tab-size",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Align",
-          href: "/docs/generators/text-align",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Decoration",
-          href: "/docs/generators/text-decoration",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Indent",
-          href: "/docs/generators/text-indent",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Shadow",
-          href: "/docs/generators/text-shadow",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Text Transform",
-          href: "/docs/generators/text-transform",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "White Space",
-          href: "/docs/generators/white-space",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Word Break",
-          href: "/docs/generators/word-break",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Word Spacing",
-          href: "/docs/generators/word-spacing",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TRANSFORM",
-          href: "/docs/generators/transform",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Perspective",
-          href: "/docs/generators/perspective",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Rotate",
-          href: "/docs/generators/rotate",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Scale",
-          href: "/docs/generators/scale",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Skew",
-          href: "/docs/generators/skew",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Translate",
-          href: "/docs/generators/translate",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "TRANSITION",
-          href: "/docs/generators/transition",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "Transition",
-          href: "/docs/generators/transition",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "HTML",
-          href: "/docs/generators/html",
-          items: [],
-          description: "Not Provided(coming soon)",
-        },
-        {
-          title: "CSS Code Optimizer",
-          href: "/docs/generators/css-code-optimizer",
-          items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "CSS Validator",
-          href: "/docs/generators/css-validator",
+          href: "https://codebeautify.org/cssvalidate",
+          description:
+            "This CSS Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssvalidator",
           items: [],
-          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "XML Validator",
+          href: "https://codebeautify.org/xmlvalidator",
+          description:
+            "This XML Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlvalidator",
+          items: [],
+        },
+        {
+          title: "JavaScript Validator",
+          href: "https://codebeautify.org/jsvalidate",
+          description:
+            "This JavaScript Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptvalidator",
+          items: [],
+        },
+        {
+          title: "CSS Beautifier",
+          href: "https://codebeautify.org/css-beautify-minify",
+          description:
+            "This CSS Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssbeautifier",
+          items: [],
+        },
+        {
+          title: "ONLINE JSON EDITOR",
+          href: "https://codebeautify.org/online-json-editor",
+          description:
+            "This ONLINE JSON EDITOR generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/onlinejsoneditor",
+          items: [],
+        },
+        {
+          title: "Decimal to Hex",
+          href: "https://codebeautify.org/decimal-hex-converter",
+          description:
+            "This Decimal to Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/decimaltohex",
+          items: [],
+        },
+        {
+          title: "Binary to Decimal",
+          href: "https://codebeautify.org/binary-decimal-converter",
+          description:
+            "This Binary to Decimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytodecimal",
+          items: [],
+        },
+        {
+          title: "ASCII to Text",
+          href: "https://codebeautify.org/ascii-to-text",
+          description:
+            "This ASCII to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/asciitotext",
+          items: [],
+        },
+        {
+          title: "Random Emoji Generator",
+          href: "https://codebeautify.org/random-emoji-generator",
+          description:
+            "This Random Emoji Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomemojigenerator",
+          items: [],
+        },
+        {
+          title: "REM to PX Converter",
+          href: "https://codebeautify.org/rem-to-px-converter",
+          description:
+            "This REM to PX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/remtopxconverter",
+          items: [],
+        },
+        {
+          title: "Flesch-Kincaid Grade Level Calculator",
+          href: "https://codebeautify.org/flesch-kincaid-grade-level-calculator",
+          description:
+            "This Flesch-Kincaid Grade Level Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/flesch-kincaidgradelevelcalculator",
+          items: [],
+        },
+        {
+          title: "Random Trivia Generator",
+          href: "https://codebeautify.org/random-trivia-generator",
+          description:
+            "This Random Trivia Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtriviagenerator",
+          items: [],
+        },
+        {
+          title: "Random Website Generator",
+          href: "https://codebeautify.org/random-website-generator",
+          description:
+            "This Random Website Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomwebsitegenerator",
+          items: [],
+        },
+        {
+          title: "Random Proverb Generator",
+          href: "https://codebeautify.org/random-proverb-generator",
+          description:
+            "This Random Proverb Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomproverbgenerator",
+          items: [],
+        },
+        {
+          title: "Memorable Password Generator",
+          href: "https://codebeautify.org/memorable-password-generator",
+          description:
+            "This Memorable Password Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/memorablepasswordgenerator",
+          items: [],
+        },
+        {
+          title: "Harry Potter Spells Generator",
+          href: "https://codebeautify.org/harry-potter-spells-generator",
+          description:
+            "This Harry Potter Spells Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/harrypotterspellsgenerator",
+          items: [],
+        },
+        {
+          title: "Random New York Address",
+          href: "https://codebeautify.org/random-new-york-address",
+          description:
+            "This Random New York Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnewyorkaddress",
+          items: [],
+        },
+        {
+          title: "Random Noun Generator",
+          href: "https://codebeautify.org/random-noun-generator",
+          description:
+            "This Random Noun Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnoungenerator",
+          items: [],
+        },
+        {
+          title: "Random Spanish Word Generator",
+          href: "https://codebeautify.org/random-spanish-word-generator",
+          description:
+            "This Random Spanish Word Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomspanishwordgenerator",
+          items: [],
+        },
+        {
+          title: "Random Location Generator",
+          href: "https://codebeautify.org/random-location-generator",
+          description:
+            "This Random Location Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomlocationgenerator",
+          items: [],
+        },
+        {
+          title: "Random Town Generator",
+          href: "https://codebeautify.org/random-town-generator",
+          description:
+            "This Random Town Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtowngenerator",
+          items: [],
+        },
+        {
+          title: "Goth Name Generator",
+          href: "https://codebeautify.org/goth-name-generator",
+          description:
+            "This Goth Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gothnamegenerator",
+          items: [],
+        },
+        {
+          title: "Fantasy Name Generator",
+          href: "https://codebeautify.org/random-fantasy-name-generator",
+          description:
+            "This Fantasy Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fantasynamegenerator",
+          items: [],
+        },
+        {
+          title: "Victorian Name Generator",
+          href: "https://codebeautify.org/victorian-name-generator",
+          description:
+            "This Victorian Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/victoriannamegenerator",
+          items: [],
+        },
+        {
+          title: "Magic School Name",
+          href: "https://codebeautify.org/magic-school-name-generator",
+          description:
+            "This Magic School Name generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/magicschoolname",
+          items: [],
+        },
+        {
+          title: "Halloween Costume Generator",
+          href: "https://codebeautify.org/halloween-costume-generator",
+          description:
+            "This Halloween Costume Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/halloweencostumegenerator",
+          items: [],
+        },
+        {
+          title: "Book Title Generator",
+          href: "https://codebeautify.org/book-title-generator",
+          description:
+            "This Book Title Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/booktitlegenerator",
+          items: [],
+        },
+        {
+          title: "Disney Character Generator",
+          href: "https://codebeautify.org/disney-character-generator",
+          description:
+            "This Disney Character Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/disneycharactergenerator",
+          items: [],
+        },
+        {
+          title: "God Name Generator",
+          href: "https://codebeautify.org/god-name-generator",
+          description:
+            "This God Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/godnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Setting Generator",
+          href: "https://codebeautify.org/random-setting-generator",
+          description:
+            "This Random Setting Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomsettinggenerator",
+          items: [],
+        },
+        {
+          title: "Twitch Name Generator",
+          href: "https://codebeautify.org/twitch-name-generator",
+          description:
+            "This Twitch Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/twitchnamegenerator",
+          items: [],
+        },
+        {
+          title: "Villager Name Generator",
+          href: "https://codebeautify.org/villager-name-generator",
+          description:
+            "This Villager Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/villagernamegenerator",
+          items: [],
+        },
+        {
+          title: "Vampire Name Generator",
+          href: "https://codebeautify.org/vampire-name-generator",
+          description:
+            "This Vampire Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/vampirenamegenerator",
+          items: [],
+        },
+        {
+          title: "Dwarf Name Generator",
+          href: "https://codebeautify.org/random-dwarf-name-generator",
+          description:
+            "This Dwarf Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/dwarfnamegenerator",
+          items: [],
+        },
+        {
+          title: "DND Name Generator",
+          href: "https://codebeautify.org/dnd-name-generator",
+          description:
+            "This DND Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/dndnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Kingdom Name Generator",
+          href: "https://codebeautify.org/kingdom-name-generator",
+          description:
+            "This Random Kingdom Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomkingdomnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Japanese Name Generator",
+          href: "https://codebeautify.org/japanese-name-generator",
+          description:
+            "This Random Japanese Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomjapanesenamegenerator",
+          items: [],
+        },
+        {
+          title: "Random School Name Generator",
+          href: "https://codebeautify.org/random-school-name-generator",
+          description:
+            "This Random School Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomschoolnamegenerator",
+          items: [],
+        },
+        {
+          title: "Glitch Text Generator",
+          href: "https://codebeautify.org/glitch-text-generator",
+          description:
+            "This Glitch Text Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/glitchtextgenerator",
+          items: [],
+        },
+        {
+          title: "YAML Cheat Sheet",
+          href: "https://codebeautify.org/yaml-cheat-sheet",
+          description:
+            "This YAML Cheat Sheet generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlcheatsheet",
+          items: [],
+        },
+        {
+          title: "JSON Cheat Sheet",
+          href: "https://codebeautify.org/json-cheat-sheet",
+          description:
+            "This JSON Cheat Sheet generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsoncheatsheet",
+          items: [],
+        },
+        {
+          title: "Random Username Generator",
+          href: "https://codebeautify.org/random-username-generator",
+          description:
+            "This Random Username Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomusernamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Cat Name Generator",
+          href: "https://codebeautify.org/random-cat-name-generator",
+          description:
+            "This Random Cat Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcatnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Food Generator",
+          href: "https://codebeautify.org/random-food-generator",
+          description:
+            "This Random Food Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomfoodgenerator",
+          items: [],
+        },
+        {
+          title: "Scenario Generator",
+          href: "https://codebeautify.org/random-scenario-generator",
+          description:
+            "This Scenario Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scenariogenerator",
+          items: [],
+        },
+        {
+          title: "JSON to String",
+          href: "https://codebeautify.org/json-to-string-online",
+          description:
+            "This JSON to String generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontostring",
+          items: [],
+        },
+        {
+          title: "Random New Zealand Address",
+          href: "https://codebeautify.org/random-new-zealand-address",
+          description:
+            "This Random New Zealand Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnewzealandaddress",
+          items: [],
+        },
+        {
+          title: "Random Paragraph Generator",
+          href: "https://codebeautify.org/random-paragraph-generator",
+          description:
+            "This Random Paragraph Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomparagraphgenerator",
+          items: [],
+        },
+        {
+          title: "Fake ChatGPT Generator",
+          href: "https://codebeautify.org/fake-chat-gpt-generator",
+          description:
+            "This Fake ChatGPT Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fakechatgptgenerator",
+          items: [],
+        },
+        {
+          title: "JavaScript Cheat Sheet",
+          href: "https://codebeautify.org/javascript-cheat-sheet",
+          description:
+            "This JavaScript Cheat Sheet generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptcheatsheet",
+          items: [],
+        },
+        {
+          title: "Text Formatter",
+          href: "https://codebeautify.org/text-formatter",
+          description:
+            "This Text Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textformatter",
+          items: [],
+        },
+        {
+          title: "Time Sheet Calculator",
+          href: "https://codebeautify.org/time-sheet-calculator",
+          description:
+            "This Time Sheet Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/timesheetcalculator",
+          items: [],
+        },
+        {
+          title: "Random Video Game Generator",
+          href: "https://codebeautify.org/random-video-game-generator",
+          description:
+            "This Random Video Game Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomvideogamegenerator",
+          items: [],
+        },
+        {
+          title: "Address in Spain",
+          href: "https://codebeautify.org/random-address-in-spain",
+          description:
+            "This Address in Spain generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/addressinspain",
+          items: [],
+        },
+        {
+          title: "Random Actor Generator",
+          href: "https://codebeautify.org/random-actor-generator",
+          description:
+            "This Random Actor Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomactorgenerator",
+          items: [],
+        },
+        {
+          title: "Random Song Lyrics",
+          href: "https://codebeautify.org/random-song-lyrics",
+          description:
+            "This Random Song Lyrics generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomsonglyrics",
+          items: [],
+        },
+        {
+          title: "Random Caption Generator",
+          href: "https://codebeautify.org/random-caption-generator",
+          description:
+            "This Random Caption Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcaptiongenerator",
+          items: [],
+        },
+        {
+          title: "Random Celebrity Generator",
+          href: "https://codebeautify.org/random-celebrity-generator",
+          description:
+            "This Random Celebrity Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcelebritygenerator",
+          items: [],
+        },
+        {
+          title: "Sort XML Online",
+          href: "https://codebeautify.org/sort-xml-online",
+          description:
+            "This Sort XML Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sortxmlonline",
+          items: [],
+        },
+        {
+          title: "SVG Viewer",
+          href: "https://codebeautify.org/svg-viewer",
+          description:
+            "This SVG Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/svgviewer",
+          items: [],
+        },
+        {
+          title: "SVG Formatter",
+          href: "https://codebeautify.org/svg-formatter-beautifier",
+          description:
+            "This SVG Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/svgformatter",
+          items: [],
+        },
+        {
+          title: "Cursed Text Generator",
+          href: "https://codebeautify.org/cursed-text-generator",
+          description:
+            "This Cursed Text Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cursedtextgenerator",
+          items: [],
+        },
+        {
+          title: "Random Superhero Generator",
+          href: "https://codebeautify.org/superhero-generator",
+          description:
+            "This Random Superhero Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomsuperherogenerator",
+          items: [],
+        },
+        {
+          title: "CSS Selectors Cheat Sheet",
+          href: "https://codebeautify.org/css-selector-cheat-sheet",
+          description:
+            "This CSS Selectors Cheat Sheet generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssselectorscheatsheet",
+          items: [],
+        },
+        {
+          title: "HEX to RGBA Converter",
+          href: "https://codebeautify.org/hex-to-rgba-converter",
+          description:
+            "This HEX to RGBA Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextorgbaconverter",
+          items: [],
+        },
+        {
+          title: "Sentence Counter",
+          href: "https://codebeautify.org/sentence-counter",
+          description:
+            "This Sentence Counter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sentencecounter",
+          items: [],
+        },
+        {
+          title: "JSON to One Line",
+          href: "https://codebeautify.org/json-to-one-line",
+          description:
+            "This JSON to One Line generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontooneline",
+          items: [],
+        },
+        {
+          title: "Paragraph Counter",
+          href: "https://codebeautify.org/paragraph-counter",
+          description:
+            "This Paragraph Counter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/paragraphcounter",
+          items: [],
+        },
+        {
+          title: "Javascript Tester",
+          href: "https://codebeautify.org/javascript-tester",
+          description:
+            "This Javascript Tester generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascripttester",
+          items: [],
+        },
+        {
+          title: "Random Pokemon Team Generator",
+          href: "https://codebeautify.org/random-pokemon-team-generator",
+          description:
+            "This Random Pokemon Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randompokemonteamgenerator",
+          items: [],
+        },
+        {
+          title: "Vim Cheat Sheet",
+          href: "https://codebeautify.org/vim-cheat-sheet",
+          description:
+            "This Vim Cheat Sheet generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/vimcheatsheet",
+          items: [],
+        },
+        {
+          title: "Random Canada Address Generator",
+          href: "https://codebeautify.org/canada-address",
+          description:
+            "This Random Canada Address Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcanadaaddressgenerator",
+          items: [],
+        },
+        {
+          title: "Random Pokemon Generator",
+          href: "https://codebeautify.org/random-pokemon-generator",
+          description:
+            "This Random Pokemon Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randompokemongenerator",
+          items: [],
+        },
+        {
+          title: "Random Address in California",
+          href: "https://codebeautify.org/random-address-in-california",
+          description:
+            "This Random Address in California generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomaddressincalifornia",
+          items: [],
+        },
+        {
+          title: "Random Movie Generator",
+          href: "https://codebeautify.org/random-movie-generator",
+          description:
+            "This Random Movie Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randommoviegenerator",
+          items: [],
+        },
+        {
+          title: "Character Trait Generator",
+          href: "https://codebeautify.org/character-trait-generator",
+          description:
+            "This Character Trait Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/charactertraitgenerator",
+          items: [],
+        },
+        {
+          title: "Random Flower Generator",
+          href: "https://codebeautify.org/random-flower-generator",
+          description:
+            "This Random Flower Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomflowergenerator",
+          items: [],
+        },
+        {
+          title: "Random Quote Generator",
+          href: "https://codebeautify.org/random-quote-generator",
+          description:
+            "This Random Quote Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomquotegenerator",
+          items: [],
+        },
+        {
+          title: "Random Sentence Generator",
+          href: "https://codebeautify.org/random-sentence-generator",
+          description:
+            "This Random Sentence Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomsentencegenerator",
+          items: [],
+        },
+        {
+          title: "Random Element Generator",
+          href: "https://codebeautify.org/random-element-generator",
+          description:
+            "This Random Element Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomelementgenerator",
+          items: [],
+        },
+        {
+          title: "Random Planet Generator",
+          href: "https://codebeautify.org/random-planet-generator",
+          description:
+            "This Random Planet Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomplanetgenerator",
+          items: [],
+        },
+        {
+          title: "Random Holiday Generator",
+          href: "https://codebeautify.org/random-holiday-generator",
+          description:
+            "This Random Holiday Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomholidaygenerator",
+          items: [],
+        },
+        {
+          title: "Random Last Name Generator",
+          href: "https://codebeautify.org/random-last-name-generator",
+          description:
+            "This Random Last Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomlastnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Cat Generator",
+          href: "https://codebeautify.org/random-cat-generator",
+          description:
+            "This Random Cat Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcatgenerator",
+          items: [],
+        },
+        {
+          title: "Random College Generator",
+          href: "https://codebeautify.org/random-college-generator",
+          description:
+            "This Random College Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcollegegenerator",
+          items: [],
+        },
+        {
+          title: "Random Bird Generator",
+          href: "https://codebeautify.org/random-bird-generator",
+          description:
+            "This Random Bird Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombirdgenerator",
+          items: [],
+        },
+        {
+          title: "Random Book Generator",
+          href: "https://codebeautify.org/random-book-generator",
+          description:
+            "This Random Book Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombookgenerator",
+          items: [],
+        },
+        {
+          title: "Random Job Generator",
+          href: "https://codebeautify.org/random-job-generator",
+          description:
+            "This Random Job Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomjobgenerator",
+          items: [],
+        },
+        {
+          title: "Random Link Generator",
+          href: "https://codebeautify.org/random-link-generator",
+          description:
+            "This Random Link Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomlinkgenerator",
+          items: [],
+        },
+        {
+          title: "Tweet to Image Converter",
+          href: "https://codebeautify.org/tweet-to-image-converter",
+          description:
+            "This Tweet to Image Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/tweettoimageconverter",
+          items: [],
+        },
+        {
+          title: "PSN Name Generator",
+          href: "https://codebeautify.org/psn-name-generator",
+          description:
+            "This PSN Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/psnnamegenerator",
+          items: [],
+        },
+        {
+          title: "Monster Generator",
+          href: "https://codebeautify.org/monster-generator",
+          description:
+            "This Monster Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/monstergenerator",
+          items: [],
+        },
+        {
+          title: "Random League Champion",
+          href: "https://codebeautify.org/random-league-champion",
+          description:
+            "This Random League Champion generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomleaguechampion",
+          items: [],
+        },
+        {
+          title: "Random Body Part Generator",
+          href: "https://codebeautify.org/random-body-part-generator",
+          description:
+            "This Random Body Part Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombodypartgenerator",
+          items: [],
+        },
+        {
+          title: "Social Tools",
+          href: "https://codebeautify.org/social-tools",
+          description:
+            "This Social Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/socialtools",
+          items: [],
+        },
+        {
+          title: "Aesthetic Emoji Generator",
+          href: "https://codebeautify.org/aesthetic-emoji-generator",
+          description:
+            "This Aesthetic Emoji Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/aestheticemojigenerator",
+          items: [],
+        },
+        {
+          title: "Random Superpower Generator",
+          href: "https://codebeautify.org/random-superpower-generator",
+          description:
+            "This Random Superpower Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomsuperpowergenerator",
+          items: [],
+        },
+        {
+          title: "Random Anime Character Generator",
+          href: "https://codebeautify.org/random-anime-character-generator",
+          description:
+            "This Random Anime Character Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomanimecharactergenerator",
+          items: [],
+        },
+        {
+          title: "Random Dinosaur Generator",
+          href: "https://codebeautify.org/random-dinosaur-generator",
+          description:
+            "This Random Dinosaur Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomdinosaurgenerator",
+          items: [],
+        },
+        {
+          title: "Fursona Generator",
+          href: "https://codebeautify.org/fursona-generator",
+          description:
+            "This Fursona Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fursonagenerator",
+          items: [],
+        },
+        {
+          title: "Sims 3 Trait Generator",
+          href: "https://codebeautify.org/sims-3-trait-generator",
+          description:
+            "This Sims 3 Trait Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sims3traitgenerator",
+          items: [],
+        },
+        {
+          title: "Random Emotion Generator",
+          href: "https://codebeautify.org/random-emotion-generator",
+          description:
+            "This Random Emotion Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomemotiongenerator",
+          items: [],
+        },
+        {
+          title: "Random Year Generator",
+          href: "https://codebeautify.org/random-year-generator",
+          description:
+            "This Random Year Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomyeargenerator",
+          items: [],
+        },
+        {
+          title: "Random Cartoon Character Generator",
+          href: "https://codebeautify.org/random-cartoon-character-generator",
+          description:
+            "This Random Cartoon Character Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcartooncharactergenerator",
+          items: [],
+        },
+        {
+          title: "Random 6 Digit Number Generator",
+          href: "https://codebeautify.org/random-6-digit-number-generator",
+          description:
+            "This Random 6 Digit Number Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/random6digitnumbergenerator",
+          items: [],
+        },
+        {
+          title: "Random 4 Digit Number Generator",
+          href: "https://codebeautify.org/random-4-digit-number-generator",
+          description:
+            "This Random 4 Digit Number Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/random4digitnumbergenerator",
+          items: [],
+        },
+        {
+          title: "Random Birthday Generator",
+          href: "https://codebeautify.org/random-birthday-generator",
+          description:
+            "This Random Birthday Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombirthdaygenerator",
+          items: [],
+        },
+        {
+          title: "Letter Randomizer",
+          href: "https://codebeautify.org/letter-randomizer",
+          description:
+            "This Letter Randomizer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/letterrandomizer",
+          items: [],
+        },
+        {
+          title: "Text Replacer",
+          href: "https://codebeautify.org/text-replacer",
+          description:
+            "This Text Replacer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textreplacer",
+          items: [],
+        },
+        {
+          title: "Random Tarot Card Generator",
+          href: "https://codebeautify.org/random-tarot-card-generator",
+          description:
+            "This Random Tarot Card Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtarotcardgenerator",
+          items: [],
+        },
+        {
+          title: "Random Dog Breed Generator",
+          href: "https://codebeautify.org/random-dog-breed-generator",
+          description:
+            "This Random Dog Breed Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomdogbreedgenerator",
+          items: [],
+        },
+        {
+          title: "Random Car Generator",
+          href: "https://codebeautify.org/random-car-generator",
+          description:
+            "This Random Car Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcargenerator",
+          items: [],
+        },
+        {
+          title: "Lord Of The Rings Name Generator",
+          href: "https://codebeautify.org/lord-of-the-rings-name-generator",
+          description:
+            "This Lord Of The Rings Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lordoftheringsnamegenerator",
+          items: [],
+        },
+        {
+          title: "Fortune Cookie Generator",
+          href: "https://codebeautify.org/fortune-cookie-generator",
+          description:
+            "This Fortune Cookie Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fortunecookiegenerator",
+          items: [],
+        },
+        {
+          title: "Random Charades Generator",
+          href: "https://codebeautify.org/random-charades-generator",
+          description:
+            "This Random Charades Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcharadesgenerator",
+          items: [],
+        },
+        {
+          title: "Instagram Caption Generator",
+          href: "https://codebeautify.org/instagram-caption-generator",
+          description:
+            "This Instagram Caption Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/instagramcaptiongenerator",
+          items: [],
+        },
+        {
+          title: "Snapchat Fonts Generator",
+          href: "https://codebeautify.org/snapchat-fonts-generator",
+          description:
+            "This Snapchat Fonts Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/snapchatfontsgenerator",
+          items: [],
+        },
+        {
+          title: "Reddit Username Generator",
+          href: "https://codebeautify.org/reddit-username-generator",
+          description:
+            "This Reddit Username Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/redditusernamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Adjective Generator",
+          href: "https://codebeautify.org/random-adjective-generator",
+          description:
+            "This Random Adjective Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomadjectivegenerator",
+          items: [],
+        },
+        {
+          title: "Goofy Ahh Names Generator",
+          href: "https://codebeautify.org/goofy-ahh-names-generator",
+          description:
+            "This Goofy Ahh Names Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/goofyahhnamesgenerator",
+          items: [],
+        },
+        {
+          title: "Random City Generator",
+          href: "https://codebeautify.org/random-city-generator",
+          description:
+            "This Random City Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcitygenerator",
+          items: [],
+        },
+        {
+          title: "Personality Generator",
+          href: "https://codebeautify.org/personality-generator",
+          description:
+            "This Personality Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/personalitygenerator",
+          items: [],
+        },
+        {
+          title: "Random Girl Name Generator",
+          href: "https://codebeautify.org/random-girl-name-generator",
+          description:
+            "This Random Girl Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomgirlnamegenerator",
+          items: [],
+        },
+        {
+          title: "Random State Generator",
+          href: "https://codebeautify.org/random-state-generator",
+          description:
+            "This Random State Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomstategenerator",
+          items: [],
+        },
+        {
+          title: "Full White Screen",
+          href: "https://codebeautify.org/full-white-screen",
+          description:
+            "This Full White Screen generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fullwhitescreen",
+          items: [],
+        },
+        {
+          title: "Full Blue Screen",
+          href: "https://codebeautify.org/full-blue-screen",
+          description:
+            "This Full Blue Screen generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fullbluescreen",
+          items: [],
+        },
+        {
+          title: "Full Red Screen",
+          href: "https://codebeautify.org/full-red-screen",
+          description:
+            "This Full Red Screen generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fullredscreen",
+          items: [],
+        },
+        {
+          title: "Full Black Screen",
+          href: "https://codebeautify.org/full-black-screen",
+          description:
+            "This Full Black Screen generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fullblackscreen",
+          items: [],
+        },
+        {
+          title: "Aesthetic Username Generator",
+          href: "https://codebeautify.org/aesthetic-username-generator",
+          description:
+            "This Aesthetic Username Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/aestheticusernamegenerator",
+          items: [],
+        },
+        {
+          title: "Word Replacer",
+          href: "https://codebeautify.org/word-replacer",
+          description:
+            "This Word Replacer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordreplacer",
+          items: [],
+        },
+        {
+          title: "Moodboard Generator",
+          href: "https://codebeautify.org/moodboard-generator",
+          description:
+            "This Moodboard Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/moodboardgenerator",
+          items: [],
+        },
+        {
+          title: "Valorant Crosshair Generator",
+          href: "https://codebeautify.org/valorant-crosshair-generator",
+          description:
+            "This Valorant Crosshair Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/valorantcrosshairgenerator",
+          items: [],
+        },
+        {
+          title: "Cookie Run Character Generator",
+          href: "https://codebeautify.org/cookie-run-character-generator",
+          description:
+            "This Cookie Run Character Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cookieruncharactergenerator",
+          items: [],
+        },
+        {
+          title: "JoJo Stand Generator",
+          href: "https://codebeautify.org/jojo-stand-generator",
+          description:
+            "This JoJo Stand Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jojostandgenerator",
+          items: [],
+        },
+        {
+          title: "OTP Prompt Generator",
+          href: "https://codebeautify.org/otp-prompt-generator",
+          description:
+            "This OTP Prompt Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/otppromptgenerator",
+          items: [],
+        },
+        {
+          title: "Random Minecraft Block Generator",
+          href: "https://codebeautify.org/random-minecraft-block-generator",
+          description:
+            "This Random Minecraft Block Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomminecraftblockgenerator",
+          items: [],
+        },
+        {
+          title: "Random Theme Generator",
+          href: "https://codebeautify.org/random-theme-generator",
+          description:
+            "This Random Theme Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomthemegenerator",
+          items: [],
+        },
+        {
+          title: "SQL Code Generator",
+          href: "https://codebeautify.org/sql-code-generator",
+          description:
+            "This SQL Code Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlcodegenerator",
+          items: [],
+        },
+        {
+          title: "Random Pokemon Type Generator",
+          href: "https://codebeautify.org/random-pokemon-type-generator",
+          description:
+            "This Random Pokemon Type Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randompokemontypegenerator",
+          items: [],
+        },
+        {
+          title: "Fake Instagram Post Generator",
+          href: "https://codebeautify.org/fake-instagram-post-generator",
+          description:
+            "This Fake Instagram Post Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/fakeinstagrampostgenerator",
+          items: [],
+        },
+        {
+          title: "Random Aesthetic Generator",
+          href: "https://codebeautify.org/random-aesthetic-generator",
+          description:
+            "This Random Aesthetic Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomaestheticgenerator",
+          items: [],
+        },
+        {
+          title: "Random Environment Generator",
+          href: "https://codebeautify.org/random-environment-generator",
+          description:
+            "This Random Environment Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomenvironmentgenerator",
+          items: [],
+        },
+        {
+          title: "Random Scene Generator",
+          href: "https://codebeautify.org/random-scene-generator",
+          description:
+            "This Random Scene Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomscenegenerator",
+          items: [],
+        },
+        {
+          title: "XBOX GamerTag Generator",
+          href: "https://codebeautify.org/xbox-gamertag-generator",
+          description:
+            "This XBOX GamerTag Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xboxgamertaggenerator",
+          items: [],
+        },
+        {
+          title: "Elf Name Generator",
+          href: "https://codebeautify.org/elf-name-generator",
+          description:
+            "This Elf Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/elfnamegenerator",
+          items: [],
+        },
+        {
+          title: "Twitalics Twitter Italics Generator",
+          href: "https://codebeautify.org/twitalics-twitter-italics-generator",
+          description:
+            "This Twitalics Twitter Italics Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/twitalicstwitteritalicsgenerator",
+          items: [],
+        },
+        {
+          title: "XBOX Name Generator",
+          href: "https://codebeautify.org/xbox-name-generator",
+          description:
+            "This XBOX Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xboxnamegenerator",
+          items: [],
+        },
+        {
+          title: "Warrior Cat Name Generator",
+          href: "https://codebeautify.org/warrior-cat-name-generator",
+          description:
+            "This Warrior Cat Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/warriorcatnamegenerator",
+          items: [],
+        },
+        {
+          title: "Fake Tweet Generator",
+          href: "https://codebeautify.org/fake-tweet-generator",
+          description:
+            "This Fake Tweet Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/faketweetgenerator",
+          items: [],
+        },
+        {
+          title: "Random Topic Generator",
+          href: "https://codebeautify.org/random-topic-generator",
+          description:
+            "This Random Topic Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtopicgenerator",
+          items: [],
+        },
+        {
+          title: "Pictionary Word Generator",
+          href: "https://codebeautify.org/pictionary-word-generator",
+          description:
+            "This Pictionary Word Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pictionarywordgenerator",
+          items: [],
+        },
+        {
+          title: "Random Things to Draw Generator",
+          href: "https://codebeautify.org/random-things-to-draw-generator",
+          description:
+            "This Random Things to Draw Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomthingstodrawgenerator",
+          items: [],
+        },
+        {
+          title: "Random Nationality Generator",
+          href: "https://codebeautify.org/random-nationality-generator",
+          description:
+            "This Random Nationality Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnationalitygenerator",
+          items: [],
+        },
+        {
+          title: "Random Ethnicity Generator",
+          href: "https://codebeautify.org/random-ethnicity-generator",
+          description:
+            "This Random Ethnicity Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomethnicitygenerator",
+          items: [],
+        },
+        {
+          title: "Random Pet Generator",
+          href: "https://codebeautify.org/random-pet-generator",
+          description:
+            "This Random Pet Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randompetgenerator",
+          items: [],
+        },
+        {
+          title: "Billing Postal Code Generator",
+          href: "https://codebeautify.org/billing-postal-code-generator",
+          description:
+            "This Billing Postal Code Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/billingpostalcodegenerator",
+          items: [],
+        },
+        {
+          title: "Random Male Name Generator",
+          href: "https://codebeautify.org/random-male-name-generator",
+          description:
+            "This Random Male Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randommalenamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Boy Name Generator",
+          href: "https://codebeautify.org/random-boy-name-generator",
+          description:
+            "This Random Boy Name Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomboynamegenerator",
+          items: [],
+        },
+        {
+          title: "Random Things Generator",
+          href: "https://codebeautify.org/random-things-generator",
+          description:
+            "This Random Things Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomthingsgenerator",
+          items: [],
+        },
+        {
+          title: "Random NHL Team Generator",
+          href: "https://codebeautify.org/random-nhl-team-generator",
+          description:
+            "This Random NHL Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnhlteamgenerator",
+          items: [],
+        },
+        {
+          title: "Random Zip Code",
+          href: "https://codebeautify.org/random-zip-code",
+          description:
+            "This Random Zip Code generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomzipcode",
+          items: [],
+        },
+        {
+          title: "Random Team Generator",
+          href: "https://codebeautify.org/random-team-generator",
+          description:
+            "This Random Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomteamgenerator",
+          items: [],
+        },
+        {
+          title: "Random Billing Address",
+          href: "https://codebeautify.org/random-billing-address",
+          description:
+            "This Random Billing Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombillingaddress",
+          items: [],
+        },
+        {
+          title: "Random House Address",
+          href: "https://codebeautify.org/random-house-address",
+          description:
+            "This Random House Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomhouseaddress",
+          items: [],
+        },
+        {
+          title: "Random Street Address",
+          href: "https://codebeautify.org/random-street-address",
+          description:
+            "This Random Street Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomstreetaddress",
+          items: [],
+        },
+        {
+          title: "Random Address Generator",
+          href: "https://codebeautify.org/random-address-generator",
+          description:
+            "This Random Address Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomaddressgenerator",
+          items: [],
+        },
+        {
+          title: "Incorrect Quotes Generator",
+          href: "https://codebeautify.org/incorrect-quotes-generator",
+          description:
+            "This Incorrect Quotes Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/incorrectquotesgenerator",
+          items: [],
+        },
+        {
+          title: "Random Flag Generator",
+          href: "https://codebeautify.org/random-flag-generator",
+          description:
+            "This Random Flag Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomflaggenerator",
+          items: [],
+        },
+        {
+          title: "Random Country Generator",
+          href: "https://codebeautify.org/random-country-generator",
+          description:
+            "This Random Country Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcountrygenerator",
+          items: [],
+        },
+        {
+          title: "Random US Area Codes",
+          href: "https://codebeautify.org/random-us-area-codes",
+          description:
+            "This Random US Area Codes generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomusareacodes",
+          items: [],
+        },
+        {
+          title: "Random Phone Number",
+          href: "https://codebeautify.org/random-phone-number",
+          description:
+            "This Random Phone Number generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomphonenumber",
+          items: [],
+        },
+        {
+          title: "React Formatter",
+          href: "https://codebeautify.org/react-formatter",
+          description:
+            "This React Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/reactformatter",
+          items: [],
+        },
+        {
+          title: "JSON Fixer",
+          href: "https://codebeautify.org/json-fixer",
+          description:
+            "This JSON Fixer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonfixer",
+          items: [],
+        },
+        {
+          title: "JSON Navigator",
+          href: "https://codebeautify.org/json-navigator-online",
+          description:
+            "This JSON Navigator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonnavigator",
+          items: [],
+        },
+        {
+          title: "Random Emoji Generator",
+          href: "https://codebeautify.org/random-emoji-generator",
+          description:
+            "This Random Emoji Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomemojigenerator",
+          items: [],
+        },
+        {
+          title: "Favicon Generator",
+          href: "https://codebeautify.org/favicon-generator",
+          description:
+            "This Favicon Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/favicongenerator",
+          items: [],
+        },
+        {
+          title: "CIDR Calculator",
+          href: "https://codebeautify.org/cidr-calculator",
+          description:
+            "This CIDR Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cidrcalculator",
+          items: [],
+        },
+        {
+          title: "Marquee Generator",
+          href: "https://codebeautify.org/marquee-generator",
+          description:
+            "This Marquee Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/marqueegenerator",
+          items: [],
+        },
+        {
+          title: "Meta Tag Generator",
+          href: "https://codebeautify.org/meta-tag-generator",
+          description:
+            "This Meta Tag Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/metataggenerator",
+          items: [],
+        },
+        {
+          title: "Screenshot Beautifier",
+          href: "https://codebeautify.org/screenshot-beautifier",
+          description:
+            "This Screenshot Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/screenshotbeautifier",
+          items: [],
+        },
+        {
+          title: "Tweet Ideas",
+          href: "https://codebeautify.org/tweet-ideas",
+          description:
+            "This Tweet Ideas generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/tweetideas",
+          items: [],
+        },
+        {
+          title: "Number To WhatsApp",
+          href: "https://codebeautify.org/number-to-whatsapp",
+          description:
+            "This Number To WhatsApp generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numbertowhatsapp",
+          items: [],
+        },
+        {
+          title: "Twitter Header Generator",
+          href: "https://codebeautify.org/twitter-header-generator",
+          description:
+            "This Twitter Header Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/twitterheadergenerator",
+          items: [],
+        },
+        {
+          title: "Twitter Image Downloader",
+          href: "https://codebeautify.org/twitter-image-downloader",
+          description:
+            "This Twitter Image Downloader generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/twitterimagedownloader",
+          items: [],
+        },
+        {
+          title: "Random MLB Team Generator",
+          href: "https://codebeautify.org/random-mlb-team-generator",
+          description:
+            "This Random MLB Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randommlbteamgenerator",
+          items: [],
+        },
+        {
+          title: "Random NBA Team Generator",
+          href: "https://codebeautify.org/random-nba-team-generator",
+          description:
+            "This Random NBA Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnbateamgenerator",
+          items: [],
+        },
+        {
+          title: "Random NCAA Football Team",
+          href: "https://codebeautify.org/random-ncaa-football-team-generator",
+          description:
+            "This Random NCAA Football Team generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomncaafootballteam",
+          items: [],
+        },
+        {
+          title: "Random NCAA Basketball Team",
+          href: "https://codebeautify.org/random-ncaa-basketball-team-generator",
+          description:
+            "This Random NCAA Basketball Team generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomncaabasketballteam",
+          items: [],
+        },
+        {
+          title: "Random IPL Team Generator",
+          href: "https://codebeautify.org/random-ipl-team-generator",
+          description:
+            "This Random IPL Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomiplteamgenerator",
+          items: [],
+        },
+        {
+          title: "Random NFL Team Generator",
+          href: "https://codebeautify.org/random-nfl-team-generator",
+          description:
+            "This Random NFL Team Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnflteamgenerator",
+          items: [],
+        },
+        {
+          title: "Random Object Generator",
+          href: "https://codebeautify.org/random-object-generator",
+          description:
+            "This Random Object Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomobjectgenerator",
+          items: [],
+        },
+        {
+          title: "Random Animal Generator",
+          href: "https://codebeautify.org/random-animal-generator",
+          description:
+            "This Random Animal Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomanimalgenerator",
+          items: [],
+        },
+        {
+          title: "Random Hobby Generator",
+          href: "https://codebeautify.org/random-hobby-generator",
+          description:
+            "This Random Hobby Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomhobbygenerator",
+          items: [],
+        },
+        {
+          title: "Code to Image Converter",
+          href: "https://codebeautify.org/code-to-image-converter",
+          description:
+            "This Code to Image Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/codetoimageconverter",
+          items: [],
+        },
+        {
+          title: "Multiple URL Opener",
+          href: "https://codebeautify.org/multiple-url-opener",
+          description:
+            "This Multiple URL Opener generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/multipleurlopener",
+          items: [],
+        },
+        {
+          title: "Tweet Beautifier",
+          href: "https://codebeautify.org/tweet-beautifier",
+          description:
+            "This Tweet Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/tweetbeautifier",
+          items: [],
+        },
+        {
+          title: "GIF Viewer",
+          href: "https://codebeautify.org/gif-viewer",
+          description:
+            "This GIF Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gifviewer",
+          items: [],
+        },
+        {
+          title: "GIF Splitter",
+          href: "https://codebeautify.org/gif-splitter",
+          description:
+            "This GIF Splitter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gifsplitter",
+          items: [],
+        },
+        {
+          title: "Share Code Snippets",
+          href: "https://codebeautify.org/share-code-snippets",
+          description:
+            "This Share Code Snippets generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sharecodesnippets",
+          items: [],
+        },
+        {
+          title: "Convert Text to Handwriting",
+          href: "https://codebeautify.org/convert-text-to-handwriting",
+          description:
+            "This Convert Text to Handwriting generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/converttexttohandwriting",
+          items: [],
+        },
+        {
+          title: "Image Beautifier",
+          href: "https://codebeautify.org/image-beautifier",
+          description:
+            "This Image Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagebeautifier",
+          items: [],
+        },
+        {
+          title: "SVG to Base64",
+          href: "https://codebeautify.org/svg-to-base64-converter",
+          description:
+            "This SVG to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/svgtobase64",
+          items: [],
+        },
+        {
+          title: "Turbo Search",
+          href: "https://codebeautify.org/turbo-search",
+          description:
+            "This Turbo Search generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/turbosearch",
+          items: [],
+        },
+        {
+          title: "Text Cleaner",
+          href: "https://codebeautify.org/text-cleaner",
+          description:
+            "This Text Cleaner generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textcleaner",
+          items: [],
+        },
+        {
+          title: "JSON Cleaner",
+          href: "https://codebeautify.org/json-cleaner",
+          description:
+            "This JSON Cleaner generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsoncleaner",
+          items: [],
+        },
+        {
+          title: "JSON to Typescript Code",
+          href: "https://codebeautify.org/json-to-typescript-pojo-generator",
+          description:
+            "This JSON to Typescript Code generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontotypescriptcode",
+          items: [],
+        },
+        {
+          title: "Online Vibration Simulator",
+          href: "https://codebeautify.org/online-vibration-simulator",
+          description:
+            "This Online Vibration Simulator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/onlinevibrationsimulator",
+          items: [],
+        },
+        {
+          title: "JSON to PHP Array Converter",
+          href: "https://codebeautify.org/json-to-php-array-converter",
+          description:
+            "This JSON to PHP Array Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontophparrayconverter",
+          items: [],
+        },
+        {
+          title: "IELTS to CLB",
+          href: "https://codebeautify.org/ielts-to-clb-converter",
+          description:
+            "This IELTS to CLB generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/ieltstoclb",
+          items: [],
+        },
+        {
+          title: "Hyperlink Generator",
+          href: "https://codebeautify.org/hyperlink-generator",
+          description:
+            "This Hyperlink Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hyperlinkgenerator",
+          items: [],
+        },
+        {
+          title: "REM to PX Converter",
+          href: "https://codebeautify.org/rem-to-px-converter",
+          description:
+            "This REM to PX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/remtopxconverter",
+          items: [],
+        },
+        {
+          title: "Facebook Bold Text",
+          href: "https://codebeautify.org/facebook-bold-text",
+          description:
+            "This Facebook Bold Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/facebookboldtext",
+          items: [],
+        },
+        {
+          title: "What is My Zodiac Sign",
+          href: "https://codebeautify.org/what-is-my-zodiac-sign",
+          description:
+            "This What is My Zodiac Sign generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/whatismyzodiacsign",
+          items: [],
+        },
+        {
+          title: "Checksum Calculator",
+          href: "https://codebeautify.org/checksum-calculator",
+          description:
+            "This Checksum Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/checksumcalculator",
+          items: [],
+        },
+        {
+          title: "SOAP Formatter",
+          href: "https://codebeautify.org/soap-formatter",
+          description:
+            "This SOAP Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/soapformatter",
+          items: [],
+        },
+        {
+          title: "WSDL Formatter",
+          href: "https://codebeautify.org/wsdl-formatter",
+          description:
+            "This WSDL Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wsdlformatter",
+          items: [],
+        },
+        {
+          title: "Javascript Pretty Print",
+          href: "https://codebeautify.org/javascript-pretty-print",
+          description:
+            "This Javascript Pretty Print generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptprettyprint",
+          items: [],
+        },
+        {
+          title: "Visualize JSON Data Graph",
+          href: "https://codebeautify.org/visualize-json-data-graph",
+          description:
+            "This Visualize JSON Data Graph generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/visualizejsondatagraph",
+          items: [],
+        },
+        {
+          title: "Morse Code Translator",
+          href: "https://codebeautify.org/morse-code-translator",
+          description:
+            "This Morse Code Translator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/morsecodetranslator",
+          items: [],
+        },
+        {
+          title: "Alphabetical Order",
+          href: "https://codebeautify.org/alphabetical-order-tool",
+          description:
+            "This Alphabetical Order generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/alphabeticalorder",
+          items: [],
+        },
+        {
+          title: "Random AlphaNumeric Generator",
+          href: "https://codebeautify.org/random-alphanumeric-generator",
+          description:
+            "This Random AlphaNumeric Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomalphanumericgenerator",
+          items: [],
+        },
+        {
+          title: "Hex to UTF8",
+          href: "https://codebeautify.org/hex-to-utf8",
+          description:
+            "This Hex to UTF8 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextoutf8",
+          items: [],
+        },
+        {
+          title: "Byte to String",
+          href: "https://codebeautify.org/byte-to-string",
+          description:
+            "This Byte to String generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bytetostring",
+          items: [],
+        },
+        {
+          title: "UTF8 to ASCII",
+          href: "https://codebeautify.org/utf8-to-ascii",
+          description:
+            "This UTF8 to ASCII generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/utf8toascii",
+          items: [],
+        },
+        {
+          title: "Curl to PHP",
+          href: "https://codebeautify.org/curl-to-php-online",
+          description:
+            "This Curl to PHP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/curltophp",
+          items: [],
+        },
+        {
+          title: "Phone Number to IP",
+          href: "https://codebeautify.org/phone-number-to-ip-address-converter",
+          description:
+            "This Phone Number to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/phonenumbertoip",
+          items: [],
+        },
+        {
+          title: "Yaml Parser",
+          href: "https://codebeautify.org/yaml-parser-online",
+          description:
+            "This Yaml Parser generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlparser",
+          items: [],
+        },
+        {
+          title: "XML Converter",
+          href: "https://codebeautify.org/xml-converter-online",
+          description:
+            "This XML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlconverter",
+          items: [],
+        },
+        {
+          title: "Gzip Decompress",
+          href: "https://codebeautify.org/gzip-decompress-online",
+          description:
+            "This Gzip Decompress generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gzipdecompress",
+          items: [],
+        },
+        {
+          title: "HTML Table Generator",
+          href: "https://codebeautify.org/html-table-generator",
+          description:
+            "This HTML Table Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltablegenerator",
+          items: [],
+        },
+        {
+          title: "HTML Link Generator",
+          href: "https://codebeautify.org/html-link-generator",
+          description:
+            "This HTML Link Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmllinkgenerator",
+          items: [],
+        },
+        {
+          title: "MP3 to Base64",
+          href: "https://codebeautify.org/mp3-to-base64-converter",
+          description:
+            "This MP3 to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/mp3tobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to Text",
+          href: "https://codebeautify.org/base64-to-text-converter",
+          description:
+            "This Base64 to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64totext",
+          items: [],
+        },
+        {
+          title: "Base64 to Ascii",
+          href: "https://codebeautify.org/base64-to-ascii-converter",
+          description:
+            "This Base64 to Ascii generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toascii",
+          items: [],
+        },
+        {
+          title: "STYLUS Compiler",
+          href: "https://codebeautify.org/stylus-compiler",
+          description:
+            "This STYLUS Compiler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/styluscompiler",
+          items: [],
+        },
+        {
+          title: "JavaScript Obfuscator",
+          href: "https://codebeautify.org/javascript-obfuscator",
+          description:
+            "This JavaScript Obfuscator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptobfuscator",
+          items: [],
+        },
+        {
+          title: "String to JSON Online",
+          href: "https://codebeautify.org/string-to-json-online",
+          description:
+            "This String to JSON Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringtojsononline",
+          items: [],
+        },
+        {
+          title: "YAML Pretty Print",
+          href: "https://codebeautify.org/yaml-pretty-print",
+          description:
+            "This YAML Pretty Print generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlprettyprint",
+          items: [],
+        },
+        {
+          title: "YouTube Thumbnail Grabber",
+          href: "https://codebeautify.org/youtube-thumbnail-grabber",
+          description:
+            "This YouTube Thumbnail Grabber generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/youtubethumbnailgrabber",
+          items: [],
+        },
+        {
+          title: "Bitwise Calculator",
+          href: "https://codebeautify.org/bitwise-calculator",
+          description:
+            "This Bitwise Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bitwisecalculator",
+          items: [],
+        },
+        {
+          title: "Number Sorter",
+          href: "https://codebeautify.org/number-sorter",
+          description:
+            "This Number Sorter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numbersorter",
+          items: [],
+        },
+        {
+          title: "Remove Punctuation",
+          href: "https://codebeautify.org/remove-punctuation",
+          description:
+            "This Remove Punctuation generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removepunctuation",
+          items: [],
+        },
+        {
+          title: "HTML Stripper",
+          href: "https://codebeautify.org/html-stripper",
+          description:
+            "This HTML Stripper generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlstripper",
+          items: [],
+        },
+        {
+          title: "Real Time HTML Editor",
+          href: "https://codebeautify.org/real-time-html-editor",
+          description:
+            "This Real Time HTML Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/realtimehtmleditor",
+          items: [],
+        },
+        {
+          title: "HTML to Markdown",
+          href: "https://codebeautify.org/html-to-markdown",
+          description:
+            "This HTML to Markdown generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltomarkdown",
+          items: [],
+        },
+        {
+          title: "Markdown to HTML",
+          href: "https://codebeautify.org/markdown-to-html",
+          description:
+            "This Markdown to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/markdowntohtml",
+          items: [],
+        },
+        {
+          title: "Lua Minifier",
+          href: "https://codebeautify.org/lua-minifier",
+          description:
+            "This Lua Minifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/luaminifier",
+          items: [],
+        },
+        {
+          title: "Lua Beautifier",
+          href: "https://codebeautify.org/lua-beautifier",
+          description:
+            "This Lua Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/luabeautifier",
+          items: [],
+        },
+        {
+          title: "Wordpress Password Hash",
+          href: "https://codebeautify.org/wordpress-password-hash-generator",
+          description:
+            "This Wordpress Password Hash generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordpresspasswordhash",
+          items: [],
+        },
+        {
+          title: "Mirror Online",
+          href: "https://codebeautify.org/mirror-online",
+          description:
+            "This Mirror Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/mirroronline",
+          items: [],
+        },
+        {
+          title: "PHP Formatter",
+          href: "https://codebeautify.org/php-beautifier",
+          description:
+            "This PHP Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/phpformatter",
+          items: [],
+        },
+        {
+          title: "Image to ASCII Art",
+          href: "https://codebeautify.org/image-to-ascii-art",
+          description:
+            "This Image to ASCII Art generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagetoasciiart",
+          items: [],
+        },
+        {
+          title: "SHA256 Hash Generator",
+          href: "https://codebeautify.org/sha256-hash-generator",
+          description:
+            "This SHA256 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha256hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA512 Hash Generator",
+          href: "https://codebeautify.org/sha512-hash-generator",
+          description:
+            "This SHA512 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha512hashgenerator",
+          items: [],
+        },
+        {
+          title: "Excel Viewer",
+          href: "https://codebeautify.org/excel-viewer",
+          description:
+            "This Excel Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/excelviewer",
+          items: [],
+        },
+        {
+          title: "Paraphrasing tool",
+          href: "https://codebeautify.org/paraphrasing-tool",
+          description:
+            "This Paraphrasing tool generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/paraphrasingtool",
+          items: [],
+        },
+        {
+          title: "Word to HTML",
+          href: "https://codebeautify.org/word-to-html-converter",
+          description:
+            "This Word to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordtohtml",
+          items: [],
+        },
+        {
+          title: "CSV to Excel",
+          href: "https://codebeautify.org/csv-to-excel-converter",
+          description:
+            "This CSV to Excel generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtoexcel",
+          items: [],
+        },
+        {
+          title: "Sharelink Generator",
+          href: "https://codebeautify.org/share-link-generator",
+          description:
+            "This Sharelink Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sharelinkgenerator",
+          items: [],
+        },
+        {
+          title: "IP Tools",
+          href: "https://codebeautify.org/ip-tools",
+          description:
+            "This IP Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptools",
+          items: [],
+        },
+        {
+          title: "Formatters & Beautifiers",
+          href: "https://codebeautify.org/formatters-and-beautifiers",
+          description:
+            "This Formatters & Beautifiers generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/formatters&beautifiers",
+          items: [],
+        },
+        {
+          title: "Image Converter Tools",
+          href: "https://codebeautify.org/image-converter-tools",
+          description:
+            "This Image Converter Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imageconvertertools",
+          items: [],
+        },
+        {
+          title: "Finance Tools",
+          href: "https://codebeautify.org/financial-tools",
+          description:
+            "This Finance Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/financetools",
+          items: [],
+        },
+        {
+          title: "TSV Tools",
+          href: "https://codebeautify.org/tsv-tools",
+          description:
+            "This TSV Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/tsvtools",
+          items: [],
+        },
+        {
+          title: "JSON Tools",
+          href: "https://codebeautify.org/json-tools",
+          description:
+            "This JSON Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontools",
+          items: [],
+        },
+        {
+          title: "XML Tools",
+          href: "https://codebeautify.org/xml-tools",
+          description:
+            "This XML Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltools",
+          items: [],
+        },
+        {
+          title: "YAML Tools",
+          href: "https://codebeautify.org/yaml-tools",
+          description:
+            "This YAML Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltools",
+          items: [],
+        },
+        {
+          title: "HTML Tools",
+          href: "https://codebeautify.org/html-tools",
+          description:
+            "This HTML Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltools",
+          items: [],
+        },
+        {
+          title: "CSS Tools",
+          href: "https://codebeautify.org/css-tools",
+          description:
+            "This CSS Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstools",
+          items: [],
+        },
+        {
+          title: "Javascript Tools",
+          href: "https://codebeautify.org/javascript-tools",
+          description:
+            "This Javascript Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascripttools",
+          items: [],
+        },
+        {
+          title: "CSV Tools",
+          href: "https://codebeautify.org/csv-tools",
+          description:
+            "This CSV Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtools",
+          items: [],
+        },
+        {
+          title: "SQL Tools",
+          href: "https://codebeautify.org/sql-tools",
+          description:
+            "This SQL Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltools",
+          items: [],
+        },
+        {
+          title: "Color Tools",
+          href: "https://codebeautify.org/color-tools",
+          description:
+            "This Color Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/colortools",
+          items: [],
+        },
+        {
+          title: "Unit Tools",
+          href: "https://codebeautify.org/unit-tools",
+          description:
+            "This Unit Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/unittools",
+          items: [],
+        },
+        {
+          title: "Number Tools",
+          href: "https://codebeautify.org/number-tools",
+          description:
+            "This Number Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numbertools",
+          items: [],
+        },
+        {
+          title: "String Tools",
+          href: "https://codebeautify.org/string-functions",
+          description:
+            "This String Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringtools",
+          items: [],
+        },
+        {
+          title: "Base64 Tools",
+          href: "https://codebeautify.org/base64-tools",
+          description:
+            "This Base64 Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tools",
+          items: [],
+        },
+        {
+          title: "Random Tools",
+          href: "https://codebeautify.org/random-tools",
+          description:
+            "This Random Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtools",
+          items: [],
+        },
+        {
+          title: "Minifiers",
+          href: "https://codebeautify.org/minifier-tools",
+          description:
+            "This Minifiers generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/minifiers",
+          items: [],
+        },
+        {
+          title: "Validators",
+          href: "https://codebeautify.org/validator-tools",
+          description:
+            "This Validators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/validators",
+          items: [],
+        },
+        {
+          title: "Cryptography",
+          href: "https://codebeautify.org/cryptography-tools",
+          description:
+            "This Cryptography generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cryptography",
+          items: [],
+        },
+        {
+          title: "Escape Unescape Tools",
+          href: "https://codebeautify.org/escape-unescape-tools",
+          description:
+            "This Escape Unescape Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/escapeunescapetools",
+          items: [],
+        },
+        {
+          title: "UTF Tools",
+          href: "https://codebeautify.org/utf-tools",
+          description:
+            "This UTF Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/utftools",
+          items: [],
+        },
+        {
+          title: "Compress Decompress",
+          href: "https://codebeautify.org/compress-decompress-tools",
+          description:
+            "This Compress Decompress generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/compressdecompress",
+          items: [],
+        },
+        {
+          title: "HTML Generators",
+          href: "https://codebeautify.org/html-generators",
+          description:
+            "This HTML Generators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlgenerators",
+          items: [],
+        },
+        {
+          title: "CSS Generators",
+          href: "https://codebeautify.org/css-generators",
+          description:
+            "This CSS Generators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssgenerators",
+          items: [],
+        },
+        {
+          title: "Other Tools",
+          href: "https://codebeautify.org/other-tools",
+          description:
+            "This Other Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/othertools",
+          items: [],
+        },
+        {
+          title: "Text Style Tools",
+          href: "https://codebeautify.org/funtext-tools",
+          description:
+            "This Text Style Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textstyletools",
+          items: [],
+        },
+        {
+          title: "CSS Unit Converter Tools",
+          href: "https://codebeautify.org/css-unit-converter-tools",
+          description:
+            "This CSS Unit Converter Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssunitconvertertools",
+          items: [],
+        },
+        {
+          title: "POJO Tools",
+          href: "https://codebeautify.org/pojo-tools",
+          description:
+            "This POJO Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pojotools",
+          items: [],
+        },
+        {
+          title: "Twitter Tools",
+          href: "https://codebeautify.org/twitter-tools",
+          description:
+            "This Twitter Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/twittertools",
+          items: [],
+        },
+        {
+          title: "Random Generators",
+          href: "https://codebeautify.org/random-generators",
+          description:
+            "This Random Generators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomgenerators",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://www.facebook.com/codebeautify",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://www.linkedin.com/company/codebeautify/",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://twitter.com/Codebeautify",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.instagram.com/codebeautify/",
+          description:
+            "This  generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://twitter.com/share?url=https%3A%2F%2Fcodebeautify.org&text=Amazing%20Collection%20of%20Tools%20for%20Developers",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://www.linkedin.com/sharing/share-offsite/?url=https://codebeautify.org",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: " ",
+          href: "https://www.facebook.com/sharer.php?s=100&p[url]=https%3A%2F%2Fcodebeautify.org",
+          description:
+            "This   generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.instagram.com/codebeautify/",
+          description:
+            "This  generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: "HEX to Pantone Converter",
+          href: "https://codebeautify.org/hex-to-pantone-converter",
+          description:
+            "This HEX to Pantone Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextopantoneconverter",
+          items: [],
+        },
+        {
+          title: "RGB to Pantone Converter",
+          href: "https://codebeautify.org/rgb-to-pantone-converter",
+          description:
+            "This RGB to Pantone Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rgbtopantoneconverter",
+          items: [],
+        },
+        {
+          title: "HSV to Pantone Converter",
+          href: "https://codebeautify.org/hsv-to-pantone-converter",
+          description:
+            "This HSV to Pantone Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hsvtopantoneconverter",
+          items: [],
+        },
+        {
+          title: "CMYK to Pantone Converter",
+          href: "https://codebeautify.org/cmyk-to-pantone-converter",
+          description:
+            "This CMYK to Pantone Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cmyktopantoneconverter",
+          items: [],
+        },
+        {
+          title: "CMYK to HEX Converter",
+          href: "https://codebeautify.org/cmyk-to-hex-converter",
+          description:
+            "This CMYK to HEX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cmyktohexconverter",
+          items: [],
+        },
+        {
+          title: "CMYK to RGB Converter",
+          href: "https://codebeautify.org/cmyk-to-rgb-converter",
+          description:
+            "This CMYK to RGB Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cmyktorgbconverter",
+          items: [],
+        },
+        {
+          title: "CMYK to HSV Converter",
+          href: "https://codebeautify.org/cmyk-to-hsv-converter",
+          description:
+            "This CMYK to HSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cmyktohsvconverter",
+          items: [],
+        },
+        {
+          title: "HSV to HEX Converter",
+          href: "https://codebeautify.org/hsv-to-hex-converter",
+          description:
+            "This HSV to HEX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hsvtohexconverter",
+          items: [],
+        },
+        {
+          title: "HSV to RGB Converter",
+          href: "https://codebeautify.org/hsv-to-rgb-converter",
+          description:
+            "This HSV to RGB Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hsvtorgbconverter",
+          items: [],
+        },
+        {
+          title: "HSV to CMYK Converter",
+          href: "https://codebeautify.org/hsv-to-cmyk-converter",
+          description:
+            "This HSV to CMYK Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hsvtocmykconverter",
+          items: [],
+        },
+        {
+          title: "HEX to HSV Converter",
+          href: "https://codebeautify.org/hex-to-hsv-converter",
+          description:
+            "This HEX to HSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextohsvconverter",
+          items: [],
+        },
+        {
+          title: "RGB to HEX Converter",
+          href: "https://codebeautify.org/rgb-to-hex-converter",
+          description:
+            "This RGB to HEX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rgbtohexconverter",
+          items: [],
+        },
+        {
+          title: "RGB to HSV Converter",
+          href: "https://codebeautify.org/rgb-to-hsv-converter",
+          description:
+            "This RGB to HSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rgbtohsvconverter",
+          items: [],
+        },
+        {
+          title: "RGB to CMYK Converter",
+          href: "https://codebeautify.org/rgb-to-cmyk-converter",
+          description:
+            "This RGB to CMYK Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rgbtocmykconverter",
+          items: [],
+        },
+        {
+          title: "HEX to RGB Converter",
+          href: "https://codebeautify.org/hex-to-rgb-converter",
+          description:
+            "This HEX to RGB Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextorgbconverter",
+          items: [],
+        },
+        {
+          title: "HEX to CMYK Converter",
+          href: "https://codebeautify.org/hex-to-cmyk-converter",
+          description:
+            "This HEX to CMYK Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextocmykconverter",
+          items: [],
+        },
+        {
+          title: "Pantone to HEX Converter",
+          href: "https://codebeautify.org/pantone-to-hex-converter",
+          description:
+            "This Pantone to HEX Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pantonetohexconverter",
+          items: [],
+        },
+        {
+          title: "Pantone to RGB Converter",
+          href: "https://codebeautify.org/pantone-to-rgb-converter",
+          description:
+            "This Pantone to RGB Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pantonetorgbconverter",
+          items: [],
+        },
+        {
+          title: "Pantone to CMYK Converter",
+          href: "https://codebeautify.org/pantone-to-cmyk-converter",
+          description:
+            "This Pantone to CMYK Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pantonetocmykconverter",
+          items: [],
+        },
+        {
+          title: "Pantone to HSV Converter",
+          href: "https://codebeautify.org/pantone-to-hsv-converter",
+          description:
+            "This Pantone to HSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pantonetohsvconverter",
+          items: [],
+        },
+        {
+          title: "Unit Converter",
+          href: "https://codebeautify.org/unit-tools",
+          description:
+            "This Unit Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/unitconverter",
+          items: [],
+        },
+        {
+          title: "Length Converter",
+          href: "https://codebeautify.org/length-converter",
+          description:
+            "This Length Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lengthconverter",
+          items: [],
+        },
+        {
+          title: "Weight Converter",
+          href: "https://codebeautify.org/weight-converter",
+          description:
+            "This Weight Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/weightconverter",
+          items: [],
+        },
+        {
+          title: "Volume Converter",
+          href: "https://codebeautify.org/volume-converter",
+          description:
+            "This Volume Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/volumeconverter",
+          items: [],
+        },
+        {
+          title: "Area Converter",
+          href: "https://codebeautify.org/area-converter",
+          description:
+            "This Area Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/areaconverter",
+          items: [],
+        },
+        {
+          title: "Time Converter",
+          href: "https://codebeautify.org/time-converter",
+          description:
+            "This Time Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/timeconverter",
+          items: [],
+        },
+        {
+          title: "Unix Timestamp Converter",
+          href: "https://codebeautify.org/unix-time-stamp-converter",
+          description:
+            "This Unix Timestamp Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/unixtimestampconverter",
+          items: [],
+        },
+        {
+          title: "More Unit Tools",
+          href: "https://codebeautify.org/unit-tools",
+          description:
+            "This More Unit Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/moreunittools",
+          items: [],
+        },
+        {
+          title: "SQL Converters",
+          href: "https://codebeautify.org/sql-tools",
+          description:
+            "This SQL Converters generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlconverters",
+          items: [],
+        },
+        {
+          title: "SQL to CSV Converter",
+          href: "https://codebeautify.org/sql-to-csv-converter",
+          description:
+            "This SQL to CSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltocsvconverter",
+          items: [],
+        },
+        {
+          title: "SQL to JSON Converter",
+          href: "https://codebeautify.org/sql-to-json-converter",
+          description:
+            "This SQL to JSON Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltojsonconverter",
+          items: [],
+        },
+        {
+          title: "SQL to XML Converter",
+          href: "https://codebeautify.org/sql-to-xml-converter",
+          description:
+            "This SQL to XML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltoxmlconverter",
+          items: [],
+        },
+        {
+          title: "SQL to YAML Converter",
+          href: "https://codebeautify.org/sql-to-yaml-converter",
+          description:
+            "This SQL to YAML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltoyamlconverter",
+          items: [],
+        },
+        {
+          title: "SQL to HTML Converter",
+          href: "https://codebeautify.org/sql-to-html-converter",
+          description:
+            "This SQL to HTML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqltohtmlconverter",
+          items: [],
+        },
+        {
+          title: "Base32 Encode",
+          href: "https://codebeautify.org/base32-encode",
+          description:
+            "This Base32 Encode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base32encode",
+          items: [],
+        },
+        {
+          title: "Base32 Decode",
+          href: "https://codebeautify.org/base32-decode",
+          description:
+            "This Base32 Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base32decode",
+          items: [],
+        },
+        {
+          title: "Base58 Encode",
+          href: "https://codebeautify.org/base58-encode",
+          description:
+            "This Base58 Encode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base58encode",
+          items: [],
+        },
+        {
+          title: "Base58 Decode",
+          href: "https://codebeautify.org/base58-decode",
+          description:
+            "This Base58 Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base58decode",
+          items: [],
+        },
+        {
+          title: "Base64 Encode",
+          href: "https://codebeautify.org/base64-encode",
+          description:
+            "This Base64 Encode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64encode",
+          items: [],
+        },
+        {
+          title: "Base64 Decode",
+          href: "https://codebeautify.org/base64-decode",
+          description:
+            "This Base64 Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64decode",
+          items: [],
+        },
+        {
+          title: "URL Encode Online",
+          href: "https://codebeautify.org/url-encode-string",
+          description:
+            "This URL Encode Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/urlencodeonline",
+          items: [],
+        },
+        {
+          title: "URL Decode Online",
+          href: "https://codebeautify.org/url-decode-string",
+          description:
+            "This URL Decode Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/urldecodeonline",
+          items: [],
+        },
+        {
+          title: "JSON URL Encode",
+          href: "https://codebeautify.org/json-url-encode",
+          description:
+            "This JSON URL Encode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonurlencode",
+          items: [],
+        },
+        {
+          title: "JSON URL Decode",
+          href: "https://codebeautify.org/json-url-decode",
+          description:
+            "This JSON URL Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonurldecode",
+          items: [],
+        },
+        {
+          title: "HTML Encode",
+          href: "https://codebeautify.org/html-encode-string",
+          description:
+            "This HTML Encode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlencode",
+          items: [],
+        },
+        {
+          title: "HTML Decode",
+          href: "https://codebeautify.org/html-decode-string",
+          description:
+            "This HTML Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmldecode",
+          items: [],
+        },
+        {
+          title: "XML URL Encoding",
+          href: "https://codebeautify.org/xml-url-encoding",
+          description:
+            "This XML URL Encoding generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlurlencoding",
+          items: [],
+        },
+        {
+          title: "XML URL Decoding",
+          href: "https://codebeautify.org/xml-url-decoding",
+          description:
+            "This XML URL Decoding generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlurldecoding",
+          items: [],
+        },
+        {
+          title: "UTF8 Converter",
+          href: "https://codebeautify.org/utf8-converter",
+          description:
+            "This UTF8 Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/utf8converter",
+          items: [],
+        },
+        {
+          title: "UTF8 Decode",
+          href: "https://codebeautify.org/utf8-decode",
+          description:
+            "This UTF8 Decode generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/utf8decode",
+          items: [],
+        },
+        {
+          title: "Hex to UTF8",
+          href: "https://codebeautify.org/hex-to-utf8",
+          description:
+            "This Hex to UTF8 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextoutf8",
+          items: [],
+        },
+        {
+          title: "JSON Decode Online",
+          href: "https://codebeautify.org/json-decode-online",
+          description:
+            "This JSON Decode Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsondecodeonline",
+          items: [],
+        },
+        {
+          title: "JSON Encode Online",
+          href: "https://codebeautify.org/json-encode-online",
+          description:
+            "This JSON Encode Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonencodeonline",
+          items: [],
+        },
+        {
+          title: "Base64 Tools",
+          href: "https://codebeautify.org/base64-tools",
+          description:
+            "This Base64 Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tools",
+          items: [],
+        },
+        {
+          title: "Image to Base64",
+          href: "https://codebeautify.org/image-to-base64-converter",
+          description:
+            "This Image to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagetobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to Image",
+          href: "https://codebeautify.org/base64-to-image-converter",
+          description:
+            "This Base64 to Image generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toimage",
+          items: [],
+        },
+        {
+          title: "PNG to Base64",
+          href: "https://codebeautify.org/png-to-base64-converter",
+          description:
+            "This PNG to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pngtobase64",
+          items: [],
+        },
+        {
+          title: "JPG to Base64",
+          href: "https://codebeautify.org/jpg-to-base64-converter",
+          description:
+            "This JPG to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jpgtobase64",
+          items: [],
+        },
+        {
+          title: "JSON to Base64",
+          href: "https://codebeautify.org/json-to-base64-converter",
+          description:
+            "This JSON to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontobase64",
+          items: [],
+        },
+        {
+          title: "XML to Base64",
+          href: "https://codebeautify.org/xml-to-base64-converter",
+          description:
+            "This XML to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltobase64",
+          items: [],
+        },
+        {
+          title: "YAML to Base64",
+          href: "https://codebeautify.org/yaml-to-base64-converter",
+          description:
+            "This YAML to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to JSON",
+          href: "https://codebeautify.org/base64-to-json-converter",
+          description:
+            "This Base64 to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tojson",
+          items: [],
+        },
+        {
+          title: "Base64 to XML",
+          href: "https://codebeautify.org/base64-to-xml-converter",
+          description:
+            "This Base64 to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toxml",
+          items: [],
+        },
+        {
+          title: "Base64 to YAML",
+          href: "https://codebeautify.org/base64-to-yaml-converter",
+          description:
+            "This Base64 to YAML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toyaml",
+          items: [],
+        },
+        {
+          title: "CSV to Base64",
+          href: "https://codebeautify.org/csv-to-base64-converter",
+          description:
+            "This CSV to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to CSV",
+          href: "https://codebeautify.org/base64-to-csv-converter",
+          description:
+            "This Base64 to CSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tocsv",
+          items: [],
+        },
+        {
+          title: "TSV to Base64",
+          href: "https://codebeautify.org/tsv-to-base64-converter",
+          description:
+            "This TSV to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/tsvtobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to TSV",
+          href: "https://codebeautify.org/base64-to-tsv-converter",
+          description:
+            "This Base64 to TSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64totsv",
+          items: [],
+        },
+        {
+          title: "Binary to Base64",
+          href: "https://codebeautify.org/binary-to-base64-converter",
+          description:
+            "This Binary to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to Binary",
+          href: "https://codebeautify.org/base64-to-binary-converter",
+          description:
+            "This Base64 to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tobinary",
+          items: [],
+        },
+        {
+          title: "Hex to Base64",
+          href: "https://codebeautify.org/hex-to-base64-converter",
+          description:
+            "This Hex to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to Hex",
+          href: "https://codebeautify.org/base64-to-hex-converter",
+          description:
+            "This Base64 to Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64tohex",
+          items: [],
+        },
+        {
+          title: "Octal to Base64",
+          href: "https://codebeautify.org/octal-to-base64-converter",
+          description:
+            "This Octal to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/octaltobase64",
+          items: [],
+        },
+        {
+          title: "More Base64 Tools",
+          href: "https://codebeautify.org/base64-tools",
+          description:
+            "This More Base64 Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/morebase64tools",
+          items: [],
+        },
+        {
+          title: "Image Tools",
+          href: "https://codebeautify.org/image-converter-tools",
+          description:
+            "This Image Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagetools",
+          items: [],
+        },
+        {
+          title: "JPG to PNG",
+          href: "https://codebeautify.org/jpg-to-png-converter",
+          description:
+            "This JPG to PNG generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jpgtopng",
+          items: [],
+        },
+        {
+          title: "BMP to PNG",
+          href: "https://codebeautify.org/bmp-to-png-converter",
+          description:
+            "This BMP to PNG generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bmptopng",
+          items: [],
+        },
+        {
+          title: "PNG to JPG",
+          href: "https://codebeautify.org/png-to-jpg-converter",
+          description:
+            "This PNG to JPG generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pngtojpg",
+          items: [],
+        },
+        {
+          title: "GIF Splitter",
+          href: "https://codebeautify.org/gif-splitter",
+          description:
+            "This GIF Splitter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gifsplitter",
+          items: [],
+        },
+        {
+          title: "GIF Viewer",
+          href: "https://codebeautify.org/gif-viewer",
+          description:
+            "This GIF Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gifviewer",
+          items: [],
+        },
+        {
+          title: "More Image Tools",
+          href: "https://codebeautify.org/image-converter-tools",
+          description:
+            "This More Image Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/moreimagetools",
+          items: [],
+        },
+        {
+          title: "Image to Base64",
+          href: "https://codebeautify.org/image-to-base64-converter",
+          description:
+            "This Image to Base64 generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/imagetobase64",
+          items: [],
+        },
+        {
+          title: "Base64 to Image",
+          href: "https://codebeautify.org/base64-to-image-converter",
+          description:
+            "This Base64 to Image generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/base64toimage",
+          items: [],
+        },
+        {
+          title: "Date Calculater",
+          href: "https://codebeautify.org/date-time-calculater",
+          description:
+            "This Date Calculater generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/datecalculater",
+          items: [],
+        },
+        {
+          title: "EXCEL to HTML",
+          href: "https://codebeautify.org/excel-to-html",
+          description:
+            "This EXCEL to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/exceltohtml",
+          items: [],
+        },
+        {
+          title: "EXCEL to XML",
+          href: "https://codebeautify.org/excel-to-xml",
+          description:
+            "This EXCEL to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/exceltoxml",
+          items: [],
+        },
+        {
+          title: "EXCEL to JSON",
+          href: "https://codebeautify.org/excel-to-json",
+          description:
+            "This EXCEL to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/exceltojson",
+          items: [],
+        },
+        {
+          title: "OPML to JSON",
+          href: "https://codebeautify.org/opml-to-json-converter",
+          description:
+            "This OPML to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/opmltojson",
+          items: [],
+        },
+        {
+          title: "Word to HTML",
+          href: "https://codebeautify.org/word-to-html-converter",
+          description:
+            "This Word to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordtohtml",
+          items: [],
+        },
+        {
+          title: "Online Tableizer",
+          href: "https://codebeautify.org/tableizer",
+          description:
+            "This Online Tableizer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/onlinetableizer",
+          items: [],
+        },
+        {
+          title: "JSON to JAVA",
+          href: "https://codebeautify.org/json-to-java-converter",
+          description:
+            "This JSON to JAVA generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontojava",
+          items: [],
+        },
+        {
+          title: "JSON to XML",
+          href: "https://codebeautify.org/jsontoxml",
+          description:
+            "This JSON to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontoxml",
+          items: [],
+        },
+        {
+          title: "JSON to YAML",
+          href: "https://codebeautify.org/json-to-yaml",
+          description:
+            "This JSON to YAML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontoyaml",
+          items: [],
+        },
+        {
+          title: "JSON to CSV",
+          href: "https://codebeautify.org/json-to-csv",
+          description:
+            "This JSON to CSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontocsv",
+          items: [],
+        },
+        {
+          title: "JSON to TSV",
+          href: "https://codebeautify.org/json-to-tsv-converter",
+          description:
+            "This JSON to TSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontotsv",
+          items: [],
+        },
+        {
+          title: "JSON to Text",
+          href: "https://codebeautify.org/json-to-text-converter",
+          description:
+            "This JSON to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontotext",
+          items: [],
+        },
+        {
+          title: "JSON to Excel",
+          href: "https://codebeautify.org/json-to-excel-converter",
+          description:
+            "This JSON to Excel generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontoexcel",
+          items: [],
+        },
+        {
+          title: "JSON to HTML",
+          href: "https://codebeautify.org/json-to-html-converter",
+          description:
+            "This JSON to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsontohtml",
+          items: [],
+        },
+        {
+          title: "XML Converter",
+          href: "https://codebeautify.org/xml-converter-online",
+          description:
+            "This XML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlconverter",
+          items: [],
+        },
+        {
+          title: "XML to JSON",
+          href: "https://codebeautify.org/xmltojson",
+          description:
+            "This XML to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltojson",
+          items: [],
+        },
+        {
+          title: "XML to YAML",
+          href: "https://codebeautify.org/xml-to-yaml",
+          description:
+            "This XML to YAML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltoyaml",
+          items: [],
+        },
+        {
+          title: "XML to CSV",
+          href: "https://codebeautify.org/xml-to-csv-converter",
+          description:
+            "This XML to CSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltocsv",
+          items: [],
+        },
+        {
+          title: "XML to TSV",
+          href: "https://codebeautify.org/xml-to-tsv-converter",
+          description:
+            "This XML to TSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltotsv",
+          items: [],
+        },
+        {
+          title: "XML to Text",
+          href: "https://codebeautify.org/xml-to-text-converter",
+          description:
+            "This XML to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltotext",
+          items: [],
+        },
+        {
+          title: "XML-XSL Transform",
+          href: "https://codebeautify.org/xml-xsl-transformation",
+          description:
+            "This XML-XSL Transform generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xml-xsltransform",
+          items: [],
+        },
+        {
+          title: "XML to HTML",
+          href: "https://codebeautify.org/xml-to-html-converter",
+          description:
+            "This XML to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltohtml",
+          items: [],
+        },
+        {
+          title: "XML to Excel",
+          href: "https://codebeautify.org/xml-to-excel-converter",
+          description:
+            "This XML to Excel generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltoexcel",
+          items: [],
+        },
+        {
+          title: "XML to JAVA",
+          href: "https://codebeautify.org/xml-to-java-converter",
+          description:
+            "This XML to JAVA generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmltojava",
+          items: [],
+        },
+        {
+          title: "HTML Stripper",
+          href: "https://codebeautify.org/html-stripper",
+          description:
+            "This HTML Stripper generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlstripper",
+          items: [],
+        },
+        {
+          title: "HTML Table Generator",
+          href: "https://codebeautify.org/html-table-generator",
+          description:
+            "This HTML Table Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltablegenerator",
+          items: [],
+        },
+        {
+          title: "HTML to CSV Converter",
+          href: "https://codebeautify.org/html-to-csv-converter",
+          description:
+            "This HTML to CSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltocsvconverter",
+          items: [],
+        },
+        {
+          title: "HTML to TSV Converter",
+          href: "https://codebeautify.org/html-to-tsv-converter",
+          description:
+            "This HTML to TSV Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltotsvconverter",
+          items: [],
+        },
+        {
+          title: "HTML to PHP Converter",
+          href: "https://codebeautify.org/html-to-php-converter",
+          description:
+            "This HTML to PHP Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltophpconverter",
+          items: [],
+        },
+        {
+          title: "HTML to CSV",
+          href: "https://codebeautify.org/html-to-csv-converter",
+          description:
+            "This HTML to CSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltocsv",
+          items: [],
+        },
+        {
+          title: "HTML to JSON",
+          href: "https://codebeautify.org/html-to-json-converter",
+          description:
+            "This HTML to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltojson",
+          items: [],
+        },
+        {
+          title: "HTML to XML",
+          href: "https://codebeautify.org/html-to-xml-converter",
+          description:
+            "This HTML to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltoxml",
+          items: [],
+        },
+        {
+          title: "HTML to YAML",
+          href: "https://codebeautify.org/html-to-yaml-converter",
+          description:
+            "This HTML to YAML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltoyaml",
+          items: [],
+        },
+        {
+          title: "HTML to Text",
+          href: "https://codebeautify.org/html-to-text-converter",
+          description:
+            "This HTML to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltotext",
+          items: [],
+        },
+        {
+          title: "Text to HTML Entities",
+          href: "https://codebeautify.org/text-to-html-entities-converter",
+          description:
+            "This Text to HTML Entities generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/texttohtmlentities",
+          items: [],
+        },
+        {
+          title: "HTML Entities to Text",
+          href: "https://codebeautify.org/html-entities-to-text-converter",
+          description:
+            "This HTML Entities to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlentitiestotext",
+          items: [],
+        },
+        {
+          title: "HTML to Markdown",
+          href: "https://codebeautify.org/html-to-markdown",
+          description:
+            "This HTML to Markdown generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltomarkdown",
+          items: [],
+        },
+        {
+          title: "Markdown to HTML",
+          href: "https://codebeautify.org/markdown-to-html",
+          description:
+            "This Markdown to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/markdowntohtml",
+          items: [],
+        },
+        {
+          title: "PUG to HTML Converter",
+          href: "https://codebeautify.org/pug-to-html-converter",
+          description:
+            "This PUG to HTML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pugtohtmlconverter",
+          items: [],
+        },
+        {
+          title: "HTML to PUG Converter",
+          href: "https://codebeautify.org/html-to-pug-converter",
+          description:
+            "This HTML to PUG Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltopugconverter",
+          items: [],
+        },
+        {
+          title: "JADE to HTML Converter",
+          href: "https://codebeautify.org/jade-to-html-converter",
+          description:
+            "This JADE to HTML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jadetohtmlconverter",
+          items: [],
+        },
+        {
+          title: "HTML to JADE Converter",
+          href: "https://codebeautify.org/html-to-jade-converter",
+          description:
+            "This HTML to JADE Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltojadeconverter",
+          items: [],
+        },
+        {
+          title: "HTML to BBCode Converter",
+          href: "https://codebeautify.org/html-to-bbcode-converter",
+          description:
+            "This HTML to BBCode Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmltobbcodeconverter",
+          items: [],
+        },
+        {
+          title: "BBCode to HTML Converter",
+          href: "https://codebeautify.org/bbcode-to-html-converter",
+          description:
+            "This BBCode to HTML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bbcodetohtmlconverter",
+          items: [],
+        },
+        {
+          title: "YAML Converter",
+          href: "https://codebeautify.org/yaml-to-json-xml-csv",
+          description:
+            "This YAML Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlconverter",
+          items: [],
+        },
+        {
+          title: "YAML to XML",
+          href: "https://codebeautify.org/yaml-to-json-xml-csv",
+          description:
+            "This YAML to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltoxml",
+          items: [],
+        },
+        {
+          title: "YAML to JSON",
+          href: "https://codebeautify.org/yaml-to-json-xml-csv",
+          description:
+            "This YAML to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltojson",
+          items: [],
+        },
+        {
+          title: "YAML to CSV",
+          href: "https://codebeautify.org/yaml-to-json-xml-csv",
+          description:
+            "This YAML to CSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltocsv",
+          items: [],
+        },
+        {
+          title: "YAML to Excel",
+          href: "https://codebeautify.org/yaml-to-excel-converter",
+          description:
+            "This YAML to Excel generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamltoexcel",
+          items: [],
+        },
+        {
+          title: "Send Snap Message",
+          href: "https://codebeautify.org/send-snap-message",
+          description:
+            "This Send Snap Message generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sendsnapmessage",
+          items: [],
+        },
+        {
+          title: "Responsive Website Tester",
+          href: "https://codebeautify.org/responsive-website-tester",
+          description:
+            "This Responsive Website Tester generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/responsivewebsitetester",
+          items: [],
+        },
+        {
+          title: "Credit Card Validator",
+          href: "https://codebeautify.org/credit-card-validate",
+          description:
+            "This Credit Card Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/creditcardvalidator",
+          items: [],
+        },
+        {
+          title: "Credit Card Fake Number Generator",
+          href: "https://codebeautify.org/credit-card-fake-number-generator",
+          description:
+            "This Credit Card Fake Number Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/creditcardfakenumbergenerator",
+          items: [],
+        },
+        {
+          title: "XPath Tester",
+          href: "https://codebeautify.org/Xpath-Tester",
+          description:
+            "This XPath Tester generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xpathtester",
+          items: [],
+        },
+        {
+          title: "JSON Path Tester",
+          href: "https://codebeautify.org/jsonpath-tester",
+          description:
+            "This JSON Path Tester generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonpathtester",
+          items: [],
+        },
+        {
+          title: "JSON Minifier",
+          href: "https://codebeautify.org/jsonminifier",
+          description:
+            "This JSON Minifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonminifier",
+          items: [],
+        },
+        {
+          title: "File Difference",
+          href: "https://codebeautify.org/file-diff",
+          description:
+            "This File Difference generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/filedifference",
+          items: [],
+        },
+        {
+          title: "JSON Diff",
+          href: "https://codebeautify.org/json-diff",
+          description:
+            "This JSON Diff generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsondiff",
+          items: [],
+        },
+        {
+          title: "XML Diff",
+          href: "https://codebeautify.org/xml-diff",
+          description:
+            "This XML Diff generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmldiff",
+          items: [],
+        },
+        {
+          title: "Broken Link Checker",
+          href: "https://codebeautify.org/broken-link-checker",
+          description:
+            "This Broken Link Checker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/brokenlinkchecker",
+          items: [],
+        },
+        {
+          title: "JSON Deserialize Online",
+          href: "https://codebeautify.org/json-deserialize-online",
+          description:
+            "This JSON Deserialize Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsondeserializeonline",
+          items: [],
+        },
+        {
+          title: "JSON Serialize Online",
+          href: "https://codebeautify.org/json-serialize-online",
+          description:
+            "This JSON Serialize Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonserializeonline",
+          items: [],
+        },
+        {
+          title: "JSON Stringify Online",
+          href: "https://codebeautify.org/json-stringify-online",
+          description:
+            "This JSON Stringify Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonstringifyonline",
+          items: [],
+        },
+        {
+          title: "XML Stringify Online",
+          href: "https://codebeautify.org/xml-stringify-online",
+          description:
+            "This XML Stringify Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlstringifyonline",
+          items: [],
+        },
+        {
+          title: "String to JSON Online",
+          href: "https://codebeautify.org/string-to-json-online",
+          description:
+            "This String to JSON Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringtojsononline",
+          items: [],
+        },
+        {
+          title: "JavaScript Obfuscator",
+          href: "https://codebeautify.org/javascript-obfuscator",
+          description:
+            "This JavaScript Obfuscator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptobfuscator",
+          items: [],
+        },
+        {
+          title: "Curl to PHP",
+          href: "https://codebeautify.org/curl-to-php-online",
+          description:
+            "This Curl to PHP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/curltophp",
+          items: [],
+        },
+        {
+          title: "Crontab Format",
+          href: "https://codebeautify.org/crontab-format",
+          description:
+            "This Crontab Format generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/crontabformat",
+          items: [],
+        },
+        {
+          title: "Line Graph Maker",
+          href: "https://codebeautify.org/line-graph-maker",
+          description:
+            "This Line Graph Maker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/linegraphmaker",
+          items: [],
+        },
+        {
+          title: "Bar Graph Maker",
+          href: "https://codebeautify.org/bar-graph-maker",
+          description:
+            "This Bar Graph Maker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bargraphmaker",
+          items: [],
+        },
+        {
+          title: "Pie Chart Maker",
+          href: "https://codebeautify.org/pie-chart-maker",
+          description:
+            "This Pie Chart Maker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/piechartmaker",
+          items: [],
+        },
+        {
+          title: "Doughnut Chart Maker",
+          href: "https://codebeautify.org/doughnut-chart-maker",
+          description:
+            "This Doughnut Chart Maker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/doughnutchartmaker",
+          items: [],
+        },
+        {
+          title: "Scatter Plot Maker",
+          href: "https://codebeautify.org/scatter-plot-maker",
+          description:
+            "This Scatter Plot Maker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scatterplotmaker",
+          items: [],
+        },
+        {
+          title: "JSON Viewer",
+          href: "https://codebeautify.org/jsonviewer",
+          description:
+            "This JSON Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonviewer",
+          items: [],
+        },
+        {
+          title: "XML Viewer",
+          href: "https://codebeautify.org/xmlviewer",
+          description:
+            "This XML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlviewer",
+          items: [],
+        },
+        {
+          title: "YAML Viewer",
+          href: "https://codebeautify.org/yaml-viewer-online",
+          description:
+            "This YAML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlviewer",
+          items: [],
+        },
+        {
+          title: "MXML Viewer",
+          href: "https://codebeautify.org/mxmlviewer",
+          description:
+            "This MXML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/mxmlviewer",
+          items: [],
+        },
+        {
+          title: "HTML Viewer",
+          href: "https://codebeautify.org/htmlviewer",
+          description:
+            "This HTML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlviewer",
+          items: [],
+        },
+        {
+          title: "JavaScript Viewer",
+          href: "https://codebeautify.org/jsviewer",
+          description:
+            "This JavaScript Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptviewer",
+          items: [],
+        },
+        {
+          title: "RSS Viewer",
+          href: "https://codebeautify.org/rssviewer",
+          description:
+            "This RSS Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rssviewer",
+          items: [],
+        },
+        {
+          title: "SOURCE CODE Viewer",
+          href: "https://codebeautify.org/source-code-viewer",
+          description:
+            "This SOURCE CODE Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sourcecodeviewer",
+          items: [],
+        },
+        {
+          title: "OPML Viewer",
+          href: "https://codebeautify.org/opmlviewer",
+          description:
+            "This OPML Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/opmlviewer",
+          items: [],
+        },
+        {
+          title: "CSV Viewer",
+          href: "https://codebeautify.org/csv-viewer",
+          description:
+            "This CSV Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvviewer",
+          items: [],
+        },
+        {
+          title: "BBCode Viewer",
+          href: "https://codebeautify.org/bbcode-viewer",
+          description:
+            "This BBCode Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bbcodeviewer",
+          items: [],
+        },
+        {
+          title: "Markdown Viewer",
+          href: "https://codebeautify.org/markdown-viewer",
+          description:
+            "This Markdown Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/markdownviewer",
+          items: [],
+        },
+        {
+          title: "XML Editor",
+          href: "https://codebeautify.org/online-xml-editor",
+          description:
+            "This XML Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmleditor",
+          items: [],
+        },
+        {
+          title: "JSON Editor",
+          href: "https://codebeautify.org/online-json-editor",
+          description:
+            "This JSON Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsoneditor",
+          items: [],
+        },
+        {
+          title: "Real Time HTML Editor",
+          href: "https://codebeautify.org/real-time-html-editor",
+          description:
+            "This Real Time HTML Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/realtimehtmleditor",
+          items: [],
+        },
+        {
+          title: "YAML Editor",
+          href: "https://codebeautify.org/yaml-editor-online",
+          description:
+            "This YAML Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamleditor",
+          items: [],
+        },
+        {
+          title: "ONLINE Editor",
+          href: "https://codebeautify.org/alleditor",
+          description:
+            "This ONLINE Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/onlineeditor",
+          items: [],
+        },
+        {
+          title: "JAVA Editor",
+          href: "https://codebeautify.org/javaviewer",
+          description:
+            "This JAVA Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javaeditor",
+          items: [],
+        },
+        {
+          title: "C# Editor",
+          href: "https://codebeautify.org/csharpviewer",
+          description:
+            "This C# Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/c#editor",
+          items: [],
+        },
+        {
+          title: "Actionscript Editor",
+          href: "https://codebeautify.org/actionscript",
+          description:
+            "This Actionscript Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/actionscripteditor",
+          items: [],
+        },
+        {
+          title: "Markdown Editor",
+          href: "https://codebeautify.org/markdown-editor",
+          description:
+            "This Markdown Editor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/markdowneditor",
+          items: [],
+        },
+        {
+          title: "URL Parser",
+          href: "https://codebeautify.org/url-parser",
+          description:
+            "This URL Parser generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/urlparser",
+          items: [],
+        },
+        {
+          title: "JSON Parser",
+          href: "https://codebeautify.org/json-parser-online",
+          description:
+            "This JSON Parser generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonparser",
+          items: [],
+        },
+        {
+          title: "XML Parser",
+          href: "https://codebeautify.org/xml-parser-online",
+          description:
+            "This XML Parser generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlparser",
+          items: [],
+        },
+        {
+          title: "YAML Parser",
+          href: "https://codebeautify.org/yaml-parser-online",
+          description:
+            "This YAML Parser generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlparser",
+          items: [],
+        },
+        {
+          title: "CSS Tools",
+          href: "https://codebeautify.org/css-tools",
+          description:
+            "This CSS Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstools",
+          items: [],
+        },
+        {
+          title: "CSS Beautifier",
+          href: "https://codebeautify.org/css-beautify-minify",
+          description:
+            "This CSS Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssbeautifier",
+          items: [],
+        },
+        {
+          title: "CSS to LESS",
+          href: "https://codebeautify.org/css-to-less-converter",
+          description:
+            "This CSS to LESS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstoless",
+          items: [],
+        },
+        {
+          title: "CSS to SCSS",
+          href: "https://codebeautify.org/css-to-scss-converter",
+          description:
+            "This CSS to SCSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstoscss",
+          items: [],
+        },
+        {
+          title: "CSS to SASS",
+          href: "https://codebeautify.org/css-to-sass-converter",
+          description:
+            "This CSS to SASS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstosass",
+          items: [],
+        },
+        {
+          title: "CSS to Stylus",
+          href: "https://codebeautify.org/css-to-stylus-converter",
+          description:
+            "This CSS to Stylus generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csstostylus",
+          items: [],
+        },
+        {
+          title: "Stylus Compiler",
+          href: "https://codebeautify.org/stylus-compiler",
+          description:
+            "This Stylus Compiler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/styluscompiler",
+          items: [],
+        },
+        {
+          title: "Stylus to CSS",
+          href: "https://codebeautify.org/stylus-to-css-converter",
+          description:
+            "This Stylus to CSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stylustocss",
+          items: [],
+        },
+        {
+          title: "Stylus to LESS",
+          href: "https://codebeautify.org/stylus-to-less-converter",
+          description:
+            "This Stylus to LESS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stylustoless",
+          items: [],
+        },
+        {
+          title: "Stylus to SCSS",
+          href: "https://codebeautify.org/stylus-to-scss-converter",
+          description:
+            "This Stylus to SCSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stylustoscss",
+          items: [],
+        },
+        {
+          title: "Stylus to SASS",
+          href: "https://codebeautify.org/stylus-to-sass-converter",
+          description:
+            "This Stylus to SASS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stylustosass",
+          items: [],
+        },
+        {
+          title: "LESS Compiler",
+          href: "https://codebeautify.org/less-compiler",
+          description:
+            "This LESS Compiler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lesscompiler",
+          items: [],
+        },
+        {
+          title: "LESS to CSS",
+          href: "https://codebeautify.org/less-to-css-converter",
+          description:
+            "This LESS to CSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lesstocss",
+          items: [],
+        },
+        {
+          title: "LESS to Stylus",
+          href: "https://codebeautify.org/less-to-stylus-converter",
+          description:
+            "This LESS to Stylus generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lesstostylus",
+          items: [],
+        },
+        {
+          title: "LESS to SCSS",
+          href: "https://codebeautify.org/less-to-scss-converter",
+          description:
+            "This LESS to SCSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lesstoscss",
+          items: [],
+        },
+        {
+          title: "LESS to SASS",
+          href: "https://codebeautify.org/less-to-sass-converter",
+          description:
+            "This LESS to SASS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lesstosass",
+          items: [],
+        },
+        {
+          title: "SCSS Compiler",
+          href: "https://codebeautify.org/scss-compiler",
+          description:
+            "This SCSS Compiler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scsscompiler",
+          items: [],
+        },
+        {
+          title: "SCSS to CSS",
+          href: "https://codebeautify.org/scss-to-css-converter",
+          description:
+            "This SCSS to CSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scsstocss",
+          items: [],
+        },
+        {
+          title: "SCSS to Stylus",
+          href: "https://codebeautify.org/scss-to-stylus-converter",
+          description:
+            "This SCSS to Stylus generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scsstostylus",
+          items: [],
+        },
+        {
+          title: "SCSS to LESS",
+          href: "https://codebeautify.org/scss-to-less-converter",
+          description:
+            "This SCSS to LESS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scsstoless",
+          items: [],
+        },
+        {
+          title: "SCSS to SASS",
+          href: "https://codebeautify.org/scss-to-sass-converter",
+          description:
+            "This SCSS to SASS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scsstosass",
+          items: [],
+        },
+        {
+          title: "SASS Compiler",
+          href: "https://codebeautify.org/sass-compiler",
+          description:
+            "This SASS Compiler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sasscompiler",
+          items: [],
+        },
+        {
+          title: "SASS to CSS",
+          href: "https://codebeautify.org/sass-to-css-converter",
+          description:
+            "This SASS to CSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sasstocss",
+          items: [],
+        },
+        {
+          title: "SASS to Stylus",
+          href: "https://codebeautify.org/sass-to-stylus-converter",
+          description:
+            "This SASS to Stylus generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sasstostylus",
+          items: [],
+        },
+        {
+          title: "SASS to SCSS",
+          href: "https://codebeautify.org/sass-to-scss-converter",
+          description:
+            "This SASS to SCSS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sasstoscss",
+          items: [],
+        },
+        {
+          title: "SASS to LESS",
+          href: "https://codebeautify.org/sass-to-less-converter",
+          description:
+            "This SASS to LESS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sasstoless",
+          items: [],
+        },
+        {
+          title: "Escape Unescape",
+          href: "https://codebeautify.org/escape-unescape-tools",
+          description:
+            "This Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/escapeunescape",
+          items: [],
+        },
+        {
+          title: "HTML Escape Unescape",
+          href: "https://codebeautify.org/html-escape-unescape",
+          description:
+            "This HTML Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlescapeunescape",
+          items: [],
+        },
+        {
+          title: "XML Escape Unescape",
+          href: "https://codebeautify.org/xml-escape-unescape",
+          description:
+            "This XML Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlescapeunescape",
+          items: [],
+        },
+        {
+          title: "Java Escape Unescape",
+          href: "https://codebeautify.org/java-escape-unescape",
+          description:
+            "This Java Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javaescapeunescape",
+          items: [],
+        },
+        {
+          title: "C# Escape Unescape",
+          href: "https://codebeautify.org/csharp-escape-unescape",
+          description:
+            "This C# Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/c#escapeunescape",
+          items: [],
+        },
+        {
+          title: "Javascript Escape Unescape",
+          href: "https://codebeautify.org/javascript-escape-unescape",
+          description:
+            "This Javascript Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptescapeunescape",
+          items: [],
+        },
+        {
+          title: "CSV Escape Unescape",
+          href: "https://codebeautify.org/csv-escape-unescape",
+          description:
+            "This CSV Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvescapeunescape",
+          items: [],
+        },
+        {
+          title: "SQL Escape Unescape",
+          href: "https://codebeautify.org/sql-escape-unescape",
+          description:
+            "This SQL Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlescapeunescape",
+          items: [],
+        },
+        {
+          title: "JSON Escape Unescape",
+          href: "https://codebeautify.org/json-escape-unescape",
+          description:
+            "This JSON Escape Unescape generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonescapeunescape",
+          items: [],
+        },
+        {
+          title: "Un-Google Link",
+          href: "https://codebeautify.org/un-google-link",
+          description:
+            "This Un-Google Link generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/un-googlelink",
+          items: [],
+        },
+        {
+          title: "Encryption-Decryption",
+          href: "https://codebeautify.org/encrypt-decrypt",
+          description:
+            "This Encryption-Decryption generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/encryption-decryption",
+          items: [],
+        },
+        {
+          title: "HMAC Generator",
+          href: "https://codebeautify.org/hmac-generator",
+          description:
+            "This HMAC Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hmacgenerator",
+          items: [],
+        },
+        {
+          title: "MD2 Hash Generator",
+          href: "https://codebeautify.org/md2-hash-generator",
+          description:
+            "This MD2 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/md2hashgenerator",
+          items: [],
+        },
+        {
+          title: "MD4 Hash Generator",
+          href: "https://codebeautify.org/md4-hash-generator",
+          description:
+            "This MD4 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/md4hashgenerator",
+          items: [],
+        },
+        {
+          title: "MD5 Hash Generator",
+          href: "https://codebeautify.org/md5-hash-generator",
+          description:
+            "This MD5 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/md5hashgenerator",
+          items: [],
+        },
+        {
+          title: "MD6 Hash Generator",
+          href: "https://codebeautify.org/md6-hash-generator",
+          description:
+            "This MD6 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/md6hashgenerator",
+          items: [],
+        },
+        {
+          title: "NTLM Hash Generator",
+          href: "https://codebeautify.org/ntlm-hash-generator",
+          description:
+            "This NTLM Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/ntlmhashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA1 Hash Generator",
+          href: "https://codebeautify.org/sha1-hash-generator",
+          description:
+            "This SHA1 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha1hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA2 Hash Generator",
+          href: "https://codebeautify.org/sha2-hash-generator",
+          description:
+            "This SHA2 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha2hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA224 Hash Generator",
+          href: "https://codebeautify.org/sha224-hash-generator",
+          description:
+            "This SHA224 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha224hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA256 Hash Generator",
+          href: "https://codebeautify.org/sha256-hash-generator",
+          description:
+            "This SHA256 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha256hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA384 Hash Generator",
+          href: "https://codebeautify.org/sha384-hash-generator",
+          description:
+            "This SHA384 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha384hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA512 Hash Generator",
+          href: "https://codebeautify.org/sha512-hash-generator",
+          description:
+            "This SHA512 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha512hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA512/224 Hash Generator",
+          href: "https://codebeautify.org/sha512-224-hash-generator",
+          description:
+            "This SHA512/224 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha512/224hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA512/256 Hash Generator",
+          href: "https://codebeautify.org/sha512-256-hash-generator",
+          description:
+            "This SHA512/256 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha512/256hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA3-224 Hash Generator",
+          href: "https://codebeautify.org/sha3-224-hash-generator",
+          description:
+            "This SHA3-224 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha3-224hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA3-256 Hash Generator",
+          href: "https://codebeautify.org/sha3-256-hash-generator",
+          description:
+            "This SHA3-256 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha3-256hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA3-384 Hash Generator",
+          href: "https://codebeautify.org/sha3-384-hash-generator",
+          description:
+            "This SHA3-384 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha3-384hashgenerator",
+          items: [],
+        },
+        {
+          title: "SHA3-512 Hash Generator",
+          href: "https://codebeautify.org/sha3-512-hash-generator",
+          description:
+            "This SHA3-512 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sha3-512hashgenerator",
+          items: [],
+        },
+        {
+          title: "CRC-16 Hash Generator",
+          href: "https://codebeautify.org/crc-16-hash-generator",
+          description:
+            "This CRC-16 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/crc-16hashgenerator",
+          items: [],
+        },
+        {
+          title: "CRC-32 Hash Generator",
+          href: "https://codebeautify.org/crc-32-hash-generator",
+          description:
+            "This CRC-32 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/crc-32hashgenerator",
+          items: [],
+        },
+        {
+          title: "Shake-128 Hash Generator",
+          href: "https://codebeautify.org/shake-128-hash-generator",
+          description:
+            "This Shake-128 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/shake-128hashgenerator",
+          items: [],
+        },
+        {
+          title: "Shake-256 Hash Generator",
+          href: "https://codebeautify.org/shake-256-hash-generator",
+          description:
+            "This Shake-256 Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/shake-256hashgenerator",
+          items: [],
+        },
+        {
+          title: "Whirlpool Hash Generator",
+          href: "https://codebeautify.org/whirlpool-hash-generator",
+          description:
+            "This Whirlpool Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/whirlpoolhashgenerator",
+          items: [],
+        },
+        {
+          title: "Wordpress Password Hash Generator",
+          href: "https://codebeautify.org/wordpress-password-hash-generator",
+          description:
+            "This Wordpress Password Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordpresspasswordhashgenerator",
+          items: [],
+        },
+        {
+          title: "Beautifiers",
+          href: "https://codebeautify.org/formatters-and-beautifiers",
+          description:
+            "This Beautifiers generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/beautifiers",
+          items: [],
+        },
+        {
+          title: "JSON Beautifier",
+          href: "https://codebeautify.org/jsonviewer",
+          description:
+            "This JSON Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonbeautifier",
+          items: [],
+        },
+        {
+          title: "CSS Beautifier",
+          href: "https://codebeautify.org/css-beautify-minify",
+          description:
+            "This CSS Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssbeautifier",
+          items: [],
+        },
+        {
+          title: "XML Beautifier",
+          href: "https://codebeautify.org/xmlviewer",
+          description:
+            "This XML Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlbeautifier",
+          items: [],
+        },
+        {
+          title: "Javascript Beautifier",
+          href: "https://codebeautify.org/jsviewer",
+          description:
+            "This Javascript Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptbeautifier",
+          items: [],
+        },
+        {
+          title: "YAML Beautifier",
+          href: "https://codebeautify.org/yaml-beautifier",
+          description:
+            "This YAML Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlbeautifier",
+          items: [],
+        },
+        {
+          title: "C# Beautifier",
+          href: "https://codebeautify.org/csharpviewer",
+          description:
+            "This C# Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/c#beautifier",
+          items: [],
+        },
+        {
+          title: "Java Beautifier",
+          href: "https://codebeautify.org/javaviewer",
+          description:
+            "This Java Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javabeautifier",
+          items: [],
+        },
+        {
+          title: "C Beautifier",
+          href: "https://codebeautify.org/c-formatter-beautifier",
+          description:
+            "This C Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cbeautifier",
+          items: [],
+        },
+        {
+          title: "C++ Beautifier",
+          href: "https://codebeautify.org/cpp-formatter-beautifier",
+          description:
+            "This C++ Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/c++beautifier",
+          items: [],
+        },
+        {
+          title: "TypeScript Formatter",
+          href: "https://codebeautify.org/typescript-formatter-online",
+          description:
+            "This TypeScript Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/typescriptformatter",
+          items: [],
+        },
+        {
+          title: "SQL Formatter",
+          href: "https://codebeautify.org/sqlformatter",
+          description:
+            "This SQL Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlformatter",
+          items: [],
+        },
+        {
+          title: "Babel Formatter",
+          href: "https://codebeautify.org/babel-formatter",
+          description:
+            "This Babel Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/babelformatter",
+          items: [],
+        },
+        {
+          title: "Markdown Formatter",
+          href: "https://codebeautify.org/markdown-formatter",
+          description:
+            "This Markdown Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/markdownformatter",
+          items: [],
+        },
+        {
+          title: "MDX Formatter",
+          href: "https://codebeautify.org/mdx-formatter",
+          description:
+            "This MDX Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/mdxformatter",
+          items: [],
+        },
+        {
+          title: "LESS Beautifier",
+          href: "https://codebeautify.org/less-beautifier",
+          description:
+            "This LESS Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lessbeautifier",
+          items: [],
+        },
+        {
+          title: "SCSS Beautifier",
+          href: "https://codebeautify.org/scss-beautifier",
+          description:
+            "This SCSS Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/scssbeautifier",
+          items: [],
+        },
+        {
+          title: "GraphQL Beautifier",
+          href: "https://codebeautify.org/graphql-beautifier",
+          description:
+            "This GraphQL Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/graphqlbeautifier",
+          items: [],
+        },
+        {
+          title: "PHP Beautifier",
+          href: "https://codebeautify.org/php-beautifier",
+          description:
+            "This PHP Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/phpbeautifier",
+          items: [],
+        },
+        {
+          title: "Python Beautifier",
+          href: "https://codebeautify.org/python-formatter-beautifier",
+          description:
+            "This Python Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/pythonbeautifier",
+          items: [],
+        },
+        {
+          title: "Perl Beautifier",
+          href: "https://codebeautify.org/perl-formatter-beautifier",
+          description:
+            "This Perl Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/perlbeautifier",
+          items: [],
+        },
+        {
+          title: "Ruby Beautifier",
+          href: "https://codebeautify.org/ruby-formatter-beautifier",
+          description:
+            "This Ruby Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/rubybeautifier",
+          items: [],
+        },
+        {
+          title: "Angular Formatter",
+          href: "https://codebeautify.org/angular-formatter",
+          description:
+            "This Angular Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/angularformatter",
+          items: [],
+        },
+        {
+          title: "React Formatter",
+          href: "https://codebeautify.org/react-formatter",
+          description:
+            "This React Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/reactformatter",
+          items: [],
+        },
+        {
+          title: "Lua Beautifier",
+          href: "https://codebeautify.org/lua-beautifier",
+          description:
+            "This Lua Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/luabeautifier",
+          items: [],
+        },
+        {
+          title: "XAML Beautifier",
+          href: "https://codebeautify.org/xaml-beautifier",
+          description:
+            "This XAML Beautifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xamlbeautifier",
+          items: [],
+        },
+        {
+          title: "JSON Minify",
+          href: "https://codebeautify.org/jsonminifier",
+          description:
+            "This JSON Minify generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonminify",
+          items: [],
+        },
+        {
+          title: "XML Minify",
+          href: "https://codebeautify.org/xml-minifier",
+          description:
+            "This XML Minify generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlminify",
+          items: [],
+        },
+        {
+          title: "Minify JS",
+          href: "https://codebeautify.org/minify-js",
+          description:
+            "This Minify JS generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/minifyjs",
+          items: [],
+        },
+        {
+          title: "CSS Minify",
+          href: "https://codebeautify.org/css-beautify-minify",
+          description:
+            "This CSS Minify generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssminify",
+          items: [],
+        },
+        {
+          title: "SQL Minifier",
+          href: "https://codebeautify.org/sql-minifier",
+          description:
+            "This SQL Minifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sqlminifier",
+          items: [],
+        },
+        {
+          title: "Minify HTML",
+          href: "https://codebeautify.org/minify-html",
+          description:
+            "This Minify HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/minifyhtml",
+          items: [],
+        },
+        {
+          title: "Lua Minifier",
+          href: "https://codebeautify.org/lua-minifier",
+          description:
+            "This Lua Minifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/luaminifier",
+          items: [],
+        },
+        {
+          title: "Text Minifier",
+          href: "https://codebeautify.org/text-minifier",
+          description:
+            "This Text Minifier generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textminifier",
+          items: [],
+        },
+        {
+          title: "CSV Tools",
+          href: "https://codebeautify.org/csv-tools",
+          description:
+            "This CSV Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtools",
+          items: [],
+        },
+        {
+          title: "CSV Viewer",
+          href: "https://codebeautify.org/csv-viewer",
+          description:
+            "This CSV Viewer generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvviewer",
+          items: [],
+        },
+        {
+          title: "CSV to XML/JSON",
+          href: "https://codebeautify.org/csv-to-xml-json",
+          description:
+            "This CSV to XML/JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtoxml/json",
+          items: [],
+        },
+        {
+          title: "CSV to XML",
+          href: "https://codebeautify.org/csv-to-xml-converter",
+          description:
+            "This CSV to XML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtoxml",
+          items: [],
+        },
+        {
+          title: "CSV to JSON",
+          href: "https://codebeautify.org/csv-to-json-converter",
+          description:
+            "This CSV to JSON generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtojson",
+          items: [],
+        },
+        {
+          title: "CSV to HTML",
+          href: "https://codebeautify.org/csv-to-html-converter",
+          description:
+            "This CSV to HTML generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtohtml",
+          items: [],
+        },
+        {
+          title: "CSV to TSV",
+          href: "https://codebeautify.org/csv-to-tsv-converter",
+          description:
+            "This CSV to TSV generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtotsv",
+          items: [],
+        },
+        {
+          title: "CSV to MULTILINE DATA",
+          href: "https://codebeautify.org/csv-to-multi-line-converter",
+          description:
+            "This CSV to MULTILINE DATA generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtomultilinedata",
+          items: [],
+        },
+        {
+          title: "CSV to SQL",
+          href: "https://codebeautify.org/csv-to-sql-converter",
+          description:
+            "This CSV to SQL generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtosql",
+          items: [],
+        },
+        {
+          title: "CSV to Excel",
+          href: "https://codebeautify.org/csv-to-excel-converter",
+          description:
+            "This CSV to Excel generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/csvtoexcel",
+          items: [],
+        },
+        {
+          title: "String Utilities",
+          href: "https://codebeautify.org/string-functions",
+          description:
+            "This String Utilities generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringutilities",
+          items: [],
+        },
+        {
+          title: "Upside Down Text",
+          href: "https://codebeautify.org/upside-down-text",
+          description:
+            "This Upside Down Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/upsidedowntext",
+          items: [],
+        },
+        {
+          title: "Random Word Generator",
+          href: "https://codebeautify.org/random-word-generator",
+          description:
+            "This Random Word Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomwordgenerator",
+          items: [],
+        },
+        {
+          title: "NTLM Hash Generator",
+          href: "https://codebeautify.org/ntlm-hash-generator",
+          description:
+            "This NTLM Hash Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/ntlmhashgenerator",
+          items: [],
+        },
+        {
+          title: "Password Generator",
+          href: "https://codebeautify.org/password-generator",
+          description:
+            "This Password Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/passwordgenerator",
+          items: [],
+        },
+        {
+          title: "String Builder",
+          href: "https://codebeautify.org/string-builder",
+          description:
+            "This String Builder generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringbuilder",
+          items: [],
+        },
+        {
+          title: "Number to Word Converter",
+          href: "https://codebeautify.org/number-to-word-converter",
+          description:
+            "This Number to Word Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numbertowordconverter",
+          items: [],
+        },
+        {
+          title: "Word to Number Converter",
+          href: "https://codebeautify.org/word-to-number-converter",
+          description:
+            "This Word to Number Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordtonumberconverter",
+          items: [],
+        },
+        {
+          title: "WORD COUNTER",
+          href: "https://codebeautify.org/wordcounter",
+          description:
+            "This WORD COUNTER generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordcounter",
+          items: [],
+        },
+        {
+          title: "Word Repeater",
+          href: "https://codebeautify.org/word-repeater",
+          description:
+            "This Word Repeater generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordrepeater",
+          items: [],
+        },
+        {
+          title: "Reverse String",
+          href: "https://codebeautify.org/reverse-string",
+          description:
+            "This Reverse String generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/reversestring",
+          items: [],
+        },
+        {
+          title: "String to Hex Converter",
+          href: "https://codebeautify.org/string-hex-converter",
+          description:
+            "This String to Hex Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringtohexconverter",
+          items: [],
+        },
+        {
+          title: "Hex to String Converter",
+          href: "https://codebeautify.org/hex-string-converter",
+          description:
+            "This Hex to String Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextostringconverter",
+          items: [],
+        },
+        {
+          title: "String to Binary Converter",
+          href: "https://codebeautify.org/string-binary-converter",
+          description:
+            "This String to Binary Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/stringtobinaryconverter",
+          items: [],
+        },
+        {
+          title: "Binary to String Converter",
+          href: "https://codebeautify.org/binary-string-converter",
+          description:
+            "This Binary to String Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytostringconverter",
+          items: [],
+        },
+        {
+          title: "Case Converter",
+          href: "https://codebeautify.org/case-converter",
+          description:
+            "This Case Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/caseconverter",
+          items: [],
+        },
+        {
+          title: "Delimited Text Extractor",
+          href: "https://codebeautify.org/delimited-text-extractor",
+          description:
+            "This Delimited Text Extractor generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/delimitedtextextractor",
+          items: [],
+        },
+        {
+          title: "Remove Accents",
+          href: "https://codebeautify.org/remove-accents",
+          description:
+            "This Remove Accents generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removeaccents",
+          items: [],
+        },
+        {
+          title: "Remove Duplicate Lines",
+          href: "https://codebeautify.org/remove-duplicate-lines",
+          description:
+            "This Remove Duplicate Lines generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removeduplicatelines",
+          items: [],
+        },
+        {
+          title: "Remove Empty Lines",
+          href: "https://codebeautify.org/remove-empty-lines",
+          description:
+            "This Remove Empty Lines generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removeemptylines",
+          items: [],
+        },
+        {
+          title: "Remove Extra Spaces",
+          href: "https://codebeautify.org/remove-extra-spaces",
+          description:
+            "This Remove Extra Spaces generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removeextraspaces",
+          items: [],
+        },
+        {
+          title: "Remove Whitespace",
+          href: "https://codebeautify.org/remove-whitespace",
+          description:
+            "This Remove Whitespace generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removewhitespace",
+          items: [],
+        },
+        {
+          title: "Remove Line Breaks",
+          href: "https://codebeautify.org/remove-line-breaks",
+          description:
+            "This Remove Line Breaks generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removelinebreaks",
+          items: [],
+        },
+        {
+          title: "Remove Lines Containing",
+          href: "https://codebeautify.org/remove-lines-containing",
+          description:
+            "This Remove Lines Containing generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removelinescontaining",
+          items: [],
+        },
+        {
+          title: "Sort Text Lines",
+          href: "https://codebeautify.org/sort-text-lines",
+          description:
+            "This Sort Text Lines generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sorttextlines",
+          items: [],
+        },
+        {
+          title: "Word Sorter",
+          href: "https://codebeautify.org/word-sorter",
+          description:
+            "This Word Sorter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordsorter",
+          items: [],
+        },
+        {
+          title: "Word Frequency Counter",
+          href: "https://codebeautify.org/word-frequency-counter",
+          description:
+            "This Word Frequency Counter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/wordfrequencycounter",
+          items: [],
+        },
+        {
+          title: "Text Repeater",
+          href: "https://codebeautify.org/text-repeater",
+          description:
+            "This Text Repeater generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textrepeater",
+          items: [],
+        },
+        {
+          title: "Remove Punctuation",
+          href: "https://codebeautify.org/remove-punctuation",
+          description:
+            "This Remove Punctuation generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/removepunctuation",
+          items: [],
+        },
+        {
+          title: "JSON Syntax Highlighting",
+          href: "https://codebeautify.org/json-syntax-highlighting",
+          description:
+            "This JSON Syntax Highlighting generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonsyntaxhighlighting",
+          items: [],
+        },
+        {
+          title: "XML Highlighter",
+          href: "https://codebeautify.org/xml-highlighter",
+          description:
+            "This XML Highlighter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlhighlighter",
+          items: [],
+        },
+        {
+          title: "XML Pretty Print",
+          href: "https://codebeautify.org/xml-pretty-print",
+          description:
+            "This XML Pretty Print generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlprettyprint",
+          items: [],
+        },
+        {
+          title: "HTML Pretty Print",
+          href: "https://codebeautify.org/html-pretty-print",
+          description:
+            "This HTML Pretty Print generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/htmlprettyprint",
+          items: [],
+        },
+        {
+          title: "JS Pretty Print",
+          href: "https://codebeautify.org/javascript-pretty-print",
+          description:
+            "This JS Pretty Print generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsprettyprint",
+          items: [],
+        },
+        {
+          title: "Code Highlighter",
+          href: "https://codebeautify.org/code-highlighter",
+          description:
+            "This Code Highlighter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/codehighlighter",
+          items: [],
+        },
+        {
+          title: "Compress / Decompress",
+          href: "https://codebeautify.org/compress-decompress-tools",
+          description:
+            "This Compress / Decompress generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/compress/decompress",
+          items: [],
+        },
+        {
+          title: "GZip Decompress Online",
+          href: "https://codebeautify.org/gzip-decompress-online",
+          description:
+            "This GZip Decompress Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/gzipdecompressonline",
+          items: [],
+        },
+        {
+          title: "Zlib Decompress Online",
+          href: "https://codebeautify.org/zlib-decompress-online",
+          description:
+            "This Zlib Decompress Online generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/zlibdecompressonline",
+          items: [],
+        },
+        {
+          title: "CSS Validator",
+          href: "https://codebeautify.org/cssvalidate",
+          description:
+            "This CSS Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/cssvalidator",
+          items: [],
+        },
+        {
+          title: "JavaScript Validator",
+          href: "https://codebeautify.org/jsvalidate",
+          description:
+            "This JavaScript Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/javascriptvalidator",
+          items: [],
+        },
+        {
+          title: "JSON Validator",
+          href: "https://codebeautify.org/jsonvalidator",
+          description:
+            "This JSON Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonvalidator",
+          items: [],
+        },
+        {
+          title: "JSON5 Validator",
+          href: "https://codebeautify.org/json5-validator",
+          description:
+            "This JSON5 Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/json5validator",
+          items: [],
+        },
+        {
+          title: "XML Validator",
+          href: "https://codebeautify.org/xmlvalidator",
+          description:
+            "This XML Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xmlvalidator",
+          items: [],
+        },
+        {
+          title: "Credit Card Validator",
+          href: "https://codebeautify.org/credit-card-validate",
+          description:
+            "This Credit Card Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/creditcardvalidator",
+          items: [],
+        },
+        {
+          title: "API Test",
+          href: "https://codebeautify.org/api-test",
+          description:
+            "This API Test generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/apitest",
+          items: [],
+        },
+        {
+          title: "YAML Validator",
+          href: "https://codebeautify.org/yaml-validator",
+          description:
+            "This YAML Validator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/yamlvalidator",
+          items: [],
+        },
+        {
+          title: "Number Utilities",
+          href: "https://codebeautify.org/number-tools",
+          description:
+            "This Number Utilities generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/numberutilities",
+          items: [],
+        },
+        {
+          title: "All Numbers Converter",
+          href: "https://codebeautify.org/all-number-converter",
+          description:
+            "This All Numbers Converter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/allnumbersconverter",
+          items: [],
+        },
+        {
+          title: "Decimal to Binary",
+          href: "https://codebeautify.org/decimal-binary-converter",
+          description:
+            "This Decimal to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/decimaltobinary",
+          items: [],
+        },
+        {
+          title: "Decimal to Octal",
+          href: "https://codebeautify.org/decimal-octal-converter",
+          description:
+            "This Decimal to Octal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/decimaltooctal",
+          items: [],
+        },
+        {
+          title: "Binary to Decimal",
+          href: "https://codebeautify.org/binary-decimal-converter",
+          description:
+            "This Binary to Decimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytodecimal",
+          items: [],
+        },
+        {
+          title: "Binary to Hex",
+          href: "https://codebeautify.org/binary-hex-converter",
+          description:
+            "This Binary to Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytohex",
+          items: [],
+        },
+        {
+          title: "Binary to Octal",
+          href: "https://codebeautify.org/binary-octal-converter",
+          description:
+            "This Binary to Octal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytooctal",
+          items: [],
+        },
+        {
+          title: "Hex to Decimal",
+          href: "https://codebeautify.org/hex-decimal-converter",
+          description:
+            "This Hex to Decimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextodecimal",
+          items: [],
+        },
+        {
+          title: "Hex to Binary",
+          href: "https://codebeautify.org/hex-binary-converter",
+          description:
+            "This Hex to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextobinary",
+          items: [],
+        },
+        {
+          title: "Hex to Octal",
+          href: "https://codebeautify.org/hex-octal-converter",
+          description:
+            "This Hex to Octal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextooctal",
+          items: [],
+        },
+        {
+          title: "Octal toDecimal",
+          href: "https://codebeautify.org/octal-decimal-converter",
+          description:
+            "This Octal toDecimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/octaltodecimal",
+          items: [],
+        },
+        {
+          title: "Octal to Binary",
+          href: "https://codebeautify.org/octal-binary-converter",
+          description:
+            "This Octal to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/octaltobinary",
+          items: [],
+        },
+        {
+          title: "Octal to Hex",
+          href: "https://codebeautify.org/octal-hex-converter",
+          description:
+            "This Octal to Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/octaltohex",
+          items: [],
+        },
+        {
+          title: "Binary to Text",
+          href: "https://codebeautify.org/binary-to-text",
+          description:
+            "This Binary to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytotext",
+          items: [],
+        },
+        {
+          title: "Text to Binary",
+          href: "https://codebeautify.org/text-to-binary",
+          description:
+            "This Text to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/texttobinary",
+          items: [],
+        },
+        {
+          title: "ASCII to Text",
+          href: "https://codebeautify.org/ascii-to-text",
+          description:
+            "This ASCII to Text generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/asciitotext",
+          items: [],
+        },
+        {
+          title: "Char to ASCII",
+          href: "https://codebeautify.org/char-to-ascii",
+          description:
+            "This Char to ASCII generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/chartoascii",
+          items: [],
+        },
+        {
+          title: "Reverse Hex",
+          href: "https://codebeautify.org/reverse-hex",
+          description:
+            "This Reverse Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/reversehex",
+          items: [],
+        },
+        {
+          title: "Bitwise Calculator",
+          href: "https://codebeautify.org/bitwise-calculator",
+          description:
+            "This Bitwise Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/bitwisecalculator",
+          items: [],
+        },
+        {
+          title: "XOR Calculator",
+          href: "https://codebeautify.org/xor-calculator",
+          description:
+            "This XOR Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xorcalculator",
+          items: [],
+        },
+        {
+          title: "AND Calculator",
+          href: "https://codebeautify.org/and-calculator",
+          description:
+            "This AND Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/andcalculator",
+          items: [],
+        },
+        {
+          title: "NAND Calculator",
+          href: "https://codebeautify.org/nand-calculator",
+          description:
+            "This NAND Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/nandcalculator",
+          items: [],
+        },
+        {
+          title: "OR Calculator",
+          href: "https://codebeautify.org/or-calculator",
+          description:
+            "This OR Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/orcalculator",
+          items: [],
+        },
+        {
+          title: "NOR Calculator",
+          href: "https://codebeautify.org/nor-calculator",
+          description:
+            "This NOR Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/norcalculator",
+          items: [],
+        },
+        {
+          title: "XNOR Calculator",
+          href: "https://codebeautify.org/xnor-calculator",
+          description:
+            "This XNOR Calculator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/xnorcalculator",
+          items: [],
+        },
+        {
+          title: "IP Tools",
+          href: "https://codebeautify.org/ip-tools",
+          description:
+            "This IP Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptools",
+          items: [],
+        },
+        {
+          title: "Hex to IP",
+          href: "https://codebeautify.org/hex-to-ip-converter",
+          description:
+            "This Hex to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hextoip",
+          items: [],
+        },
+        {
+          title: "IP to Hex",
+          href: "https://codebeautify.org/ip-to-hex-converter",
+          description:
+            "This IP to Hex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptohex",
+          items: [],
+        },
+        {
+          title: "Binary to IP",
+          href: "https://codebeautify.org/binary-to-ip-converter",
+          description:
+            "This Binary to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/binarytoip",
+          items: [],
+        },
+        {
+          title: "IP to Binary",
+          href: "https://codebeautify.org/ip-to-binary-converter",
+          description:
+            "This IP to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptobinary",
+          items: [],
+        },
+        {
+          title: "Decimal to IP",
+          href: "https://codebeautify.org/decimal-to-ip-converter",
+          description:
+            "This Decimal to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/decimaltoip",
+          items: [],
+        },
+        {
+          title: "IP to Decimal",
+          href: "https://codebeautify.org/ip-to-decimal-converter",
+          description:
+            "This IP to Decimal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptodecimal",
+          items: [],
+        },
+        {
+          title: "Octal to IP",
+          href: "https://codebeautify.org/octal-to-ip-converter",
+          description:
+            "This Octal to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/octaltoip",
+          items: [],
+        },
+        {
+          title: "IP to Octal",
+          href: "https://codebeautify.org/ip-to-octal-converter",
+          description:
+            "This IP to Octal generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptooctal",
+          items: [],
+        },
+        {
+          title: "IPV6 to Binary",
+          href: "https://codebeautify.org/ipv6-to-binary-converter",
+          description:
+            "This IPV6 to Binary generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/ipv6tobinary",
+          items: [],
+        },
+        {
+          title: "Lorem-Ipsum",
+          href: "https://codebeautify.org/lorem-ipsum",
+          description:
+            "This Lorem-Ipsum generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/lorem-ipsum",
+          items: [],
+        },
+        {
+          title: "Sharelink Generator",
+          href: "https://codebeautify.org/share-link-generator",
+          description:
+            "This Sharelink Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/sharelinkgenerator",
+          items: [],
+        },
+        {
+          title: "Hostname to IP",
+          href: "https://codebeautify.org/hostname-to-ip",
+          description:
+            "This Hostname to IP generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/hostnametoip",
+          items: [],
+        },
+        {
+          title: "IP to Hostname",
+          href: "https://codebeautify.org/ip-to-hostname",
+          description:
+            "This IP to Hostname generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/iptohostname",
+          items: [],
+        },
+        {
+          title: "Phone to IP Address",
+          href: "https://codebeautify.org/phone-number-to-ip-address-converter",
+          description:
+            "This Phone to IP Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/phonetoipaddress",
+          items: [],
+        },
+        {
+          title: "IP Address to Phone",
+          href: "https://codebeautify.org/ip-address-to-phone-number-converter",
+          description:
+            "This IP Address to Phone generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/ipaddresstophone",
+          items: [],
+        },
+        {
+          title: "DNS Lookup",
+          href: "https://codebeautify.org/dns-lookup",
+          description:
+            "This DNS Lookup generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/dnslookup",
+          items: [],
+        },
+        {
+          title: "MX Lookup",
+          href: "https://codebeautify.org/mx-lookup",
+          description:
+            "This MX Lookup generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/mxlookup",
+          items: [],
+        },
+        {
+          title: "Nameserver Lookup",
+          href: "https://codebeautify.org/name-server-lookup",
+          description:
+            "This Nameserver Lookup generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/nameserverlookup",
+          items: [],
+        },
+        {
+          title: "Website to IP Address",
+          href: "https://codebeautify.org/website-to-ip-address",
+          description:
+            "This Website to IP Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/websitetoipaddress",
+          items: [],
+        },
+        {
+          title: "Open Port Checker",
+          href: "https://codebeautify.org/open-port-checker",
+          description:
+            "This Open Port Checker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/openportchecker",
+          items: [],
+        },
+        {
+          title: "Webcam Test",
+          href: "https://codebeautify.org/mirror-online",
+          description:
+            "This Webcam Test generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/webcamtest",
+          items: [],
+        },
+        {
+          title: "Random Tools",
+          href: "https://codebeautify.org/random-tools",
+          description:
+            "This Random Tools generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtools",
+          items: [],
+        },
+        {
+          title: "Random IP Address",
+          href: "https://codebeautify.org/generate-random-ip",
+          description:
+            "This Random IP Address generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomipaddress",
+          items: [],
+        },
+        {
+          title: "Random Time Generator",
+          href: "https://codebeautify.org/generate-random-time",
+          description:
+            "This Random Time Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtimegenerator",
+          items: [],
+        },
+        {
+          title: "Random UUID Generator",
+          href: "https://codebeautify.org/generate-random-uuid",
+          description:
+            "This Random UUID Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomuuidgenerator",
+          items: [],
+        },
+        {
+          title: "Random JSON Generator",
+          href: "https://codebeautify.org/json-generator",
+          description:
+            "This Random JSON Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomjsongenerator",
+          items: [],
+        },
+        {
+          title: "Random XML Generator",
+          href: "https://codebeautify.org/generate-random-xml",
+          description:
+            "This Random XML Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomxmlgenerator",
+          items: [],
+        },
+        {
+          title: "Random Data from Regex",
+          href: "https://codebeautify.org/generate-random-data-from-regexp",
+          description:
+            "This Random Data from Regex generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomdatafromregex",
+          items: [],
+        },
+        {
+          title: "Random CSV Generator",
+          href: "https://codebeautify.org/generate-random-csv",
+          description:
+            "This Random CSV Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomcsvgenerator",
+          items: [],
+        },
+        {
+          title: "Random Number Generator",
+          href: "https://codebeautify.org/generate-random-numbers",
+          description:
+            "This Random Number Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnumbergenerator",
+          items: [],
+        },
+        {
+          title: "Random Integer Generator",
+          href: "https://codebeautify.org/generate-random-integers",
+          description:
+            "This Random Integer Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomintegergenerator",
+          items: [],
+        },
+        {
+          title: "Random Prime Generator",
+          href: "https://codebeautify.org/prime-number-generator",
+          description:
+            "This Random Prime Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomprimegenerator",
+          items: [],
+        },
+        {
+          title: "Random Date Generator",
+          href: "https://codebeautify.org/generate-random-date",
+          description:
+            "This Random Date Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomdategenerator",
+          items: [],
+        },
+        {
+          title: "Random Bitmap Generator",
+          href: "https://codebeautify.org/generate-random-bitmap",
+          description:
+            "This Random Bitmap Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombitmapgenerator",
+          items: [],
+        },
+        {
+          title: "Random Name Picker",
+          href: "https://codebeautify.org/random-name-picker",
+          description:
+            "This Random Name Picker generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomnamepicker",
+          items: [],
+        },
+        {
+          title: "Text Lines shuffler",
+          href: "https://codebeautify.org/shuffle-lines",
+          description:
+            "This Text Lines shuffler generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/textlinesshuffler",
+          items: [],
+        },
+        {
+          title: "MAC Address Generator",
+          href: "https://codebeautify.org/generate-random-mac",
+          description:
+            "This MAC Address Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/macaddressgenerator",
+          items: [],
+        },
+        {
+          title: "Random Hex Generator",
+          href: "https://codebeautify.org/generate-random-hexadecimal-numbers",
+          description:
+            "This Random Hex Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomhexgenerator",
+          items: [],
+        },
+        {
+          title: "Random TSV Generator",
+          href: "https://codebeautify.org/generate-random-tsv",
+          description:
+            "This Random TSV Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomtsvgenerator",
+          items: [],
+        },
+        {
+          title: "Random String Generator",
+          href: "https://codebeautify.org/generate-random-string",
+          description:
+            "This Random String Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomstringgenerator",
+          items: [],
+        },
+        {
+          title: "Random Fraction Generator",
+          href: "https://codebeautify.org/generate-random-fractions",
+          description:
+            "This Random Fraction Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomfractiongenerator",
+          items: [],
+        },
+        {
+          title: "Random Integer Range Generator",
+          href: "https://codebeautify.org/generate-random-integer-range",
+          description:
+            "This Random Integer Range Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomintegerrangegenerator",
+          items: [],
+        },
+        {
+          title: "Random Binary Generator",
+          href: "https://codebeautify.org/generate-random-binary-numbers",
+          description:
+            "This Random Binary Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombinarygenerator",
+          items: [],
+        },
+        {
+          title: "Random Byte Generator",
+          href: "https://codebeautify.org/generate-random-bytes",
+          description:
+            "This Random Byte Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randombytegenerator",
+          items: [],
+        },
+        {
+          title: "Random Decimal Generator",
+          href: "https://codebeautify.org/generate-random-decimal-numbers",
+          description:
+            "This Random Decimal Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomdecimalgenerator",
+          items: [],
+        },
+        {
+          title: "Random Alphanumeric Generator",
+          href: "https://codebeautify.org/random-alphanumeric-generator",
+          description:
+            "This Random Alphanumeric Generator generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/randomalphanumericgenerator",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.ezoic.com/what-is-ezoic/",
+          description:
+            "This  generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: "Buy us a Coffee",
+          href: "https://goo.gl/1oWmPe",
+          description:
+            "This Buy us a Coffee generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/buyusacoffee",
+          items: [],
+        },
+        {
+          title: "JSON Formatter",
+          href: "https://jsonformatter.org/",
+          description:
+            "This JSON Formatter generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/jsonformatter",
+          items: [],
+        },
+        {
+          title: "FAQ",
+          href: "https://codebeautify.org/faq",
+          description:
+            "This FAQ generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/faq",
+          items: [],
+        },
+        {
+          title: "Privacy Policy",
+          href: "https://codebeautify.org/privacy-policy",
+          description:
+            "This Privacy Policy generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/privacypolicy",
+          items: [],
+        },
+        {
+          title: "About",
+          href: "https://codebeautify.org/aboutus",
+          description:
+            "This About generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/about",
+          items: [],
+        },
+        {
+          title: "Contact",
+          href: "https://codebeautify.org/contactus",
+          description:
+            "This Contact generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/contact",
+          items: [],
+        },
+        {
+          title: "History",
+          href: "https://codebeautify.org/history",
+          description:
+            "This History generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/history",
+          items: [],
+        },
+        {
+          title: "Where am I right now?",
+          href: "https://codebeautify.org/where-am-i-right-now",
+          description:
+            "This Where am I right now? generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/whereamirightnow?",
+          items: [],
+        },
+        {
+          title: "Blog",
+          href: "https://codeblogmoney.com/",
+          description:
+            "This Blog generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/blog",
+          items: [],
+        },
+        {
+          title: "Calculators",
+          href: "https://codebeautify.org/calculators/",
+          description:
+            "This Calculators generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/calculators",
+          items: [],
+        },
+        {
+          title: "SEO Inspector",
+          href: "https://seoinspector.pro/",
+          description:
+            "This SEO Inspector generator is one of the hard work from codeBeautify",
+          website_url: "https://codebeautify.org/",
+          github_repo: "https://github.com/seoinspector",
+          items: [],
+        },
+
+        {
+          title: "CSS Portal",
+          href: "https://www.cssportal.com/",
+          description:
+            "This CSS Portal generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssportal",
+          items: [],
+        },
+        {
+          title: "CSS Generators",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Generators generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssgenerators",
+          items: [],
+        },
+        {
+          title: "Animated Text Generator",
+          href: "https://www.cssportal.com/css-animated-text-generator/",
+          description:
+            "This Animated Text Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animatedtextgenerator",
+          items: [],
+        },
+        {
+          title: "Border Radius Generator",
+          href: "https://www.cssportal.com/css3-rounded-corner/",
+          description:
+            "This Border Radius Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/borderradiusgenerator",
+          items: [],
+        },
+        {
+          title: "Box Shadow Generator",
+          href: "https://www.cssportal.com/css3-box-shadow-generator/",
+          description:
+            "This Box Shadow Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/boxshadowgenerator",
+          items: [],
+        },
+        {
+          title: "Button Generator",
+          href: "https://www.cssportal.com/css3-button-generator/",
+          description:
+            "This Button Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/buttongenerator",
+          items: [],
+        },
+        {
+          title: "Clip Path Generator",
+          href: "https://www.cssportal.com/css-clip-path-generator/",
+          description:
+            "This Clip Path Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/clippathgenerator",
+          items: [],
+        },
+        {
+          title: "Column Generator",
+          href: "https://www.cssportal.com/css-column-generator/",
+          description:
+            "This Column Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/columngenerator",
+          items: [],
+        },
+        {
+          title: "Cubic Bezier Generator",
+          href: "https://www.cssportal.com/css-cubic-bezier-generator/",
+          description:
+            "This Cubic Bezier Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cubicbeziergenerator",
+          items: [],
+        },
+        {
+          title: "Flip Swith Generator",
+          href: "https://www.cssportal.com/css3-flip-switch/",
+          description:
+            "This Flip Swith Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flipswithgenerator",
+          items: [],
+        },
+        {
+          title: "Flexbox Generator",
+          href: "https://www.cssportal.com/css-flexbox-generator/",
+          description:
+            "This Flexbox Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flexboxgenerator",
+          items: [],
+        },
+        {
+          title: "Glitch Text Effect",
+          href: "https://www.cssportal.com/css-glitch-text-effect/",
+          description:
+            "This Glitch Text Effect generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/glitchtexteffect",
+          items: [],
+        },
+        {
+          title: "Google Fonts CSS",
+          href: "https://www.cssportal.com/google-fonts-css-generator/",
+          description:
+            "This Google Fonts CSS generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/googlefontscss",
+          items: [],
+        },
+        {
+          title: "Gradient Generator",
+          href: "https://www.cssportal.com/css-gradient-generator/",
+          description:
+            "This Gradient Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/gradientgenerator",
+          items: [],
+        },
+        {
+          title: "Image Filter Generator",
+          href: "https://www.cssportal.com/css-image-filter-generator/",
+          description:
+            "This Image Filter Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/imagefiltergenerator",
+          items: [],
+        },
+        {
+          title: "Input Range Generator",
+          href: "https://www.cssportal.com/style-input-range/",
+          description:
+            "This Input Range Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/inputrangegenerator",
+          items: [],
+        },
+        {
+          title: "Layout Generator",
+          href: "https://www.cssportal.com/layout-generator/",
+          description:
+            "This Layout Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/layoutgenerator",
+          items: [],
+        },
+        {
+          title: "Loader / Spinner Generator",
+          href: "https://www.cssportal.com/css-loader-generator/",
+          description:
+            "This Loader / Spinner Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/loader/spinnergenerator",
+          items: [],
+        },
+        {
+          title: "Menu Generator",
+          href: "https://www.cssportal.com/css3-menu-generator/",
+          description:
+            "This Menu Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/menugenerator",
+          items: [],
+        },
+        {
+          title: "RGBA Generator",
+          href: "https://www.cssportal.com/css3-rgba-generator/",
+          description:
+            "This RGBA Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rgbagenerator",
+          items: [],
+        },
+        {
+          title: "Ribbon Generator",
+          href: "https://www.cssportal.com/css-ribbon-generator/",
+          description:
+            "This Ribbon Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/ribbongenerator",
+          items: [],
+        },
+        {
+          title: "Ribbon Banner Generator",
+          href: "https://www.cssportal.com/css-ribbon-banner-generator/",
+          description:
+            "This Ribbon Banner Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/ribbonbannergenerator",
+          items: [],
+        },
+        {
+          title: "Scrollbar Generator",
+          href: "https://www.cssportal.com/css-scrollbar-generator/",
+          description:
+            "This Scrollbar Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scrollbargenerator",
+          items: [],
+        },
+        {
+          title: "Sprite Generator",
+          href: "https://www.cssportal.com/css-sprite-generator/",
+          description:
+            "This Sprite Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/spritegenerator",
+          items: [],
+        },
+        {
+          title: "Text Gradient Generator",
+          href: "https://www.cssportal.com/css-text-gradient-generator/",
+          description:
+            "This Text Gradient Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/textgradientgenerator",
+          items: [],
+        },
+        {
+          title: "Text Rotate Generator",
+          href: "https://www.cssportal.com/css3-text-rotate-generator/",
+          description:
+            "This Text Rotate Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/textrotategenerator",
+          items: [],
+        },
+        {
+          title: "Text Shadow Generator",
+          href: "https://www.cssportal.com/css3-text-shadow-generator/",
+          description:
+            "This Text Shadow Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/textshadowgenerator",
+          items: [],
+        },
+        {
+          title: "Tooltip Generator",
+          href: "https://www.cssportal.com/css-tooltip-generator/",
+          description:
+            "This Tooltip Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/tooltipgenerator",
+          items: [],
+        },
+        {
+          title: "Triangle Generator",
+          href: "https://www.cssportal.com/css-triangle-generator/",
+          description:
+            "This Triangle Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/trianglegenerator",
+          items: [],
+        },
+        {
+          title: "3D Transform Generator",
+          href: "https://www.cssportal.com/css-3d-transform-generator/",
+          description:
+            "This 3D Transform Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/3dtransformgenerator",
+          items: [],
+        },
+        {
+          title: "CSS Resources",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Resources generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssresources",
+          items: [],
+        },
+        {
+          title: "CSS At Rules",
+          href: "https://www.cssportal.com/css-at-rules/",
+          description:
+            "This CSS At Rules generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssatrules",
+          items: [],
+        },
+        {
+          title: "CSS Animations",
+          href: "https://www.cssportal.com/animate-css/",
+          description:
+            "This CSS Animations generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssanimations",
+          items: [],
+        },
+        {
+          title: "CSS Blog",
+          href: "https://www.cssportal.com/blog/",
+          description:
+            "This CSS Blog generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssblog",
+          items: [],
+        },
+        {
+          title: "CSS Color Names",
+          href: "https://www.cssportal.com/css3-color-names/",
+          description:
+            "This CSS Color Names generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csscolornames",
+          items: [],
+        },
+        {
+          title: "CSS Data Types",
+          href: "https://www.cssportal.com/css-data-types/",
+          description:
+            "This CSS Data Types generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssdatatypes",
+          items: [],
+        },
+        {
+          title: "CSS Functions",
+          href: "https://www.cssportal.com/css-functions/",
+          description:
+            "This CSS Functions generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssfunctions",
+          items: [],
+        },
+        {
+          title: "CSS Preloaders",
+          href: "https://www.cssportal.com/css3-preloaders/",
+          description:
+            "This CSS Preloaders generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csspreloaders",
+          items: [],
+        },
+        {
+          title: "CSS Properties",
+          href: "https://www.cssportal.com/css-properties/",
+          description:
+            "This CSS Properties generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssproperties",
+          items: [],
+        },
+        {
+          title: "CSS Pseudo Classes",
+          href: "https://www.cssportal.com/css-pseudo-class/",
+          description:
+            "This CSS Pseudo Classes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csspseudoclasses",
+          items: [],
+        },
+        {
+          title: "CSS Quiz",
+          href: "https://www.cssportal.com/css-quiz/",
+          description:
+            "This CSS Quiz generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssquiz",
+          items: [],
+        },
+        {
+          title: "CSS Selectors",
+          href: "https://www.cssportal.com/css-selectors/",
+          description:
+            "This CSS Selectors generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssselectors",
+          items: [],
+        },
+        {
+          title: "CSS Shapes",
+          href: "https://www.cssportal.com/css3-shapes/",
+          description:
+            "This CSS Shapes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssshapes",
+          items: [],
+        },
+        {
+          title: "CSS Tools",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Tools generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csstools",
+          items: [],
+        },
+        {
+          title: "LESS to CSS Compiler",
+          href: "https://www.cssportal.com/less-to-css/",
+          description:
+            "This LESS to CSS Compiler generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/lesstocsscompiler",
+          items: [],
+        },
+        {
+          title: "SCSS to CSS Compiler",
+          href: "https://www.cssportal.com/scss-to-css/",
+          description:
+            "This SCSS to CSS Compiler generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scsstocsscompiler",
+          items: [],
+        },
+        {
+          title: "Stylus to CSS Compiler",
+          href: "https://www.cssportal.com/stylus-to-css/",
+          description:
+            "This Stylus to CSS Compiler generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/stylustocsscompiler",
+          items: [],
+        },
+        {
+          title: "CSS to LESS Converter",
+          href: "https://www.cssportal.com/css-to-less/",
+          description:
+            "This CSS to LESS Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csstolessconverter",
+          items: [],
+        },
+        {
+          title: "CSS to SCSS Converter",
+          href: "https://www.cssportal.com/css-to-scss/",
+          description:
+            "This CSS to SCSS Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csstoscssconverter",
+          items: [],
+        },
+        {
+          title: "CSS to Stylus Converter",
+          href: "https://www.cssportal.com/css-to-stylus/",
+          description:
+            "This CSS to Stylus Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csstostylusconverter",
+          items: [],
+        },
+        {
+          title: "CSS Color Converter",
+          href: "https://www.cssportal.com/css-color-converter/",
+          description:
+            "This CSS Color Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csscolorconverter",
+          items: [],
+        },
+        {
+          title: "CSS Cursor Viewer",
+          href: "https://www.cssportal.com/css-cursor-viewer/",
+          description:
+            "This CSS Cursor Viewer generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csscursorviewer",
+          items: [],
+        },
+        {
+          title: "CSS Font Preview",
+          href: "https://www.cssportal.com/css-font-preview/",
+          description:
+            "This CSS Font Preview generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssfontpreview",
+          items: [],
+        },
+        {
+          title: "CSS Code Formatter",
+          href: "https://www.cssportal.com/css-formatter/",
+          description:
+            "This CSS Code Formatter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csscodeformatter",
+          items: [],
+        },
+        {
+          title: "CSS Lengths",
+          href: "https://www.cssportal.com/css-lengths/",
+          description:
+            "This CSS Lengths generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csslengths",
+          items: [],
+        },
+        {
+          title: "CSS Code Optimizer",
+          href: "https://www.cssportal.com/css-optimize/",
+          description:
+            "This CSS Code Optimizer generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csscodeoptimizer",
+          items: [],
+        },
+        {
+          title: "CSS Validator",
+          href: "https://www.cssportal.com/css-validator/",
+          description:
+            "This CSS Validator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssvalidator",
+          items: [],
         },
         {
           title: "CSS Visual Style Editor",
-          href: "/docs/generators/css-visual-style-editor",
+          href: "https://www.cssportal.com/css-style-editor/",
+          description:
+            "This CSS Visual Style Editor generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssvisualstyleeditor",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Convert Image to Data",
-          href: "/docs/generators/convert-image-to-data",
+          href: "https://www.cssportal.com/image-to-data/",
+          description:
+            "This Convert Image to Data generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/convertimagetodata",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Online CSS Editor",
-          href: "/docs/generators/online-css-editor",
+          href: "https://www.cssportal.com/online-css-editor/",
+          description:
+            "This Online CSS Editor generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/onlinecsseditor",
           items: [],
-          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "HTML Tools",
+          href: "javascript: void(0);",
+          description:
+            "This HTML Tools generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltools",
+          items: [],
+        },
+        {
+          title: "Pug to HTML Compiler",
+          href: "https://www.cssportal.com/pug-to-html/",
+          description:
+            "This Pug to HTML Compiler generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/pugtohtmlcompiler",
+          items: [],
+        },
+        {
+          title: "Markdown to HTML Compiler",
+          href: "https://www.cssportal.com/markdown-to-html/",
+          description:
+            "This Markdown to HTML Compiler generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/markdowntohtmlcompiler",
+          items: [],
+        },
+        {
+          title: "HTML to Pug Converter",
+          href: "https://www.cssportal.com/html-to-pug/",
+          description:
+            "This HTML to Pug Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltopugconverter",
+          items: [],
+        },
+        {
+          title: "HTML to Markdown Converter",
+          href: "https://www.cssportal.com/html-to-markdown/",
+          description:
+            "This HTML to Markdown Converter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltomarkdownconverter",
+          items: [],
+        },
+        {
+          title: "HTML Character Codes",
+          href: "https://www.cssportal.com/html-characters/",
+          description:
+            "This HTML Character Codes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmlcharactercodes",
+          items: [],
+        },
+        {
+          title: "HTML Colors",
+          href: "https://www.cssportal.com/html-colors/",
+          description:
+            "This HTML Colors generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmlcolors",
+          items: [],
+        },
+        {
+          title: "HTML Beautifier / Minifier",
+          href: "https://www.cssportal.com/html-formatter/",
+          description:
+            "This HTML Beautifier / Minifier generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmlbeautifier/minifier",
+          items: [],
+        },
+        {
+          title: "HTML Table Generator",
+          href: "https://www.cssportal.com/html-table-generator/",
+          description:
+            "This HTML Table Generator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltablegenerator",
+          items: [],
+        },
+        {
+          title: "HTML Tags",
+          href: "https://www.cssportal.com/html-tags/",
+          description:
+            "This HTML Tags generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltags",
+          items: [],
+        },
+        {
+          title: "HTML Online Editor",
+          href: "https://www.cssportal.com/html-online-editor/",
+          description:
+            "This HTML Online Editor generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmlonlineeditor",
+          items: [],
+        },
+        {
+          title: "HTML Tutorial",
+          href: "https://www.cssportal.com/html-tutorial/",
+          description:
+            "This HTML Tutorial generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltutorial",
+          items: [],
+        },
+        {
+          title: "HTML Validator",
+          href: "https://www.cssportal.com/html-validator/",
+          description:
+            "This HTML Validator generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmlvalidator",
+          items: [],
+        },
+        {
+          title: "CSS At-Rules",
+          href: "javascript: void(0);",
+          description:
+            "This CSS At-Rules generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssat-rules",
+          items: [],
+        },
+        {
+          title: "@charset",
+          href: "https://www.cssportal.com/css-at-rules/charset.php",
+          description:
+            "This @charset generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@charset",
+          items: [],
+        },
+        {
+          title: "@counter-style",
+          href: "https://www.cssportal.com/css-at-rules/counter-style.php",
+          description:
+            "This @counter-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@counter-style",
+          items: [],
+        },
+        {
+          title: "@document",
+          href: "https://www.cssportal.com/css-at-rules/document.php",
+          description:
+            "This @document generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@document",
+          items: [],
+        },
+        {
+          title: "@font-face",
+          href: "https://www.cssportal.com/css-at-rules/font-face.php",
+          description:
+            "This @font-face generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@font-face",
+          items: [],
+        },
+        {
+          title: "@font-feature-values",
+          href: "https://www.cssportal.com/css-at-rules/font-feature-values.php",
+          description:
+            "This @font-feature-values generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@font-feature-values",
+          items: [],
+        },
+        {
+          title: "@import",
+          href: "https://www.cssportal.com/css-at-rules/import.php",
+          description:
+            "This @import generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@import",
+          items: [],
+        },
+        {
+          title: "@keyframes",
+          href: "https://www.cssportal.com/css-at-rules/keyframes.php",
+          description:
+            "This @keyframes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@keyframes",
+          items: [],
+        },
+        {
+          title: "@media",
+          href: "https://www.cssportal.com/css-at-rules/media.php",
+          description:
+            "This @media generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@media",
+          items: [],
+        },
+        {
+          title: "@namespace",
+          href: "https://www.cssportal.com/css-at-rules/namespace.php",
+          description:
+            "This @namespace generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@namespace",
+          items: [],
+        },
+        {
+          title: "@page",
+          href: "https://www.cssportal.com/css-at-rules/page.php",
+          description:
+            "This @page generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@page",
+          items: [],
+        },
+        {
+          title: "@supports",
+          href: "https://www.cssportal.com/css-at-rules/supports.php",
+          description:
+            "This @supports generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@supports",
+          items: [],
+        },
+        {
+          title: "@viewport",
+          href: "https://www.cssportal.com/css-at-rules/viewport.php",
+          description:
+            "This @viewport generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/@viewport",
+          items: [],
+        },
+        {
+          title: "CSS Data Types",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Data Types generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssdatatypes",
+          items: [],
+        },
+        {
+          title: "angle",
+          href: "https://www.cssportal.com/css-data-types/angle.php",
+          description:
+            "This angle generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/angle",
+          items: [],
+        },
+        {
+          title: "basic-shape",
+          href: "https://www.cssportal.com/css-data-types/basic-shape.php",
+          description:
+            "This basic-shape generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/basic-shape",
+          items: [],
+        },
+        {
+          title: "blend-mode",
+          href: "https://www.cssportal.com/css-data-types/blend-mode.php",
+          description:
+            "This blend-mode generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/blend-mode",
+          items: [],
+        },
+        {
+          title: "color",
+          href: "https://www.cssportal.com/css-data-types/color.php",
+          description:
+            "This color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/color",
+          items: [],
+        },
+        {
+          title: "frequency",
+          href: "https://www.cssportal.com/css-data-types/frequency.php",
+          description:
+            "This frequency generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/frequency",
+          items: [],
+        },
+        {
+          title: "gradient",
+          href: "https://www.cssportal.com/css-data-types/gradient.php",
+          description:
+            "This gradient generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/gradient",
+          items: [],
+        },
+        {
+          title: "image",
+          href: "https://www.cssportal.com/css-data-types/image.php",
+          description:
+            "This image generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/image",
+          items: [],
+        },
+        {
+          title: "integer",
+          href: "https://www.cssportal.com/css-data-types/integer.php",
+          description:
+            "This integer generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/integer",
+          items: [],
+        },
+        {
+          title: "length",
+          href: "https://www.cssportal.com/css-data-types/length.php",
+          description:
+            "This length generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/length",
+          items: [],
+        },
+        {
+          title: "number",
+          href: "https://www.cssportal.com/css-data-types/number.php",
+          description:
+            "This number generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/number",
+          items: [],
+        },
+        {
+          title: "percentage",
+          href: "https://www.cssportal.com/css-data-types/percentage.php",
+          description:
+            "This percentage generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/percentage",
+          items: [],
+        },
+        {
+          title: "position",
+          href: "https://www.cssportal.com/css-data-types/position.php",
+          description:
+            "This position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/position",
+          items: [],
+        },
+        {
+          title: "ratio",
+          href: "https://www.cssportal.com/css-data-types/ratio.php",
+          description:
+            "This ratio generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/ratio",
+          items: [],
+        },
+        {
+          title: "resolution",
+          href: "https://www.cssportal.com/css-data-types/resolution.php",
+          description:
+            "This resolution generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/resolution",
+          items: [],
+        },
+        {
+          title: "string",
+          href: "https://www.cssportal.com/css-data-types/string.php",
+          description:
+            "This string generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/string",
+          items: [],
+        },
+        {
+          title: "time",
+          href: "https://www.cssportal.com/css-data-types/time.php",
+          description:
+            "This time generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/time",
+          items: [],
+        },
+        {
+          title: "CSS Functions",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Functions generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssfunctions",
+          items: [],
+        },
+        {
+          title: "attr()",
+          href: "https://www.cssportal.com/css-functions/attr.php",
+          description:
+            "This attr() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/attr()",
+          items: [],
+        },
+        {
+          title: "blur()",
+          href: "https://www.cssportal.com/css-functions/blur.php",
+          description:
+            "This blur() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/blur()",
+          items: [],
+        },
+        {
+          title: "brightness()",
+          href: "https://www.cssportal.com/css-functions/brightness.php",
+          description:
+            "This brightness() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/brightness()",
+          items: [],
+        },
+        {
+          title: "calc()",
+          href: "https://www.cssportal.com/css-functions/calc.php",
+          description:
+            "This calc() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/calc()",
+          items: [],
+        },
+        {
+          title: "circle()",
+          href: "https://www.cssportal.com/css-functions/circle.php",
+          description:
+            "This circle() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/circle()",
+          items: [],
+        },
+        {
+          title: "contrast()",
+          href: "https://www.cssportal.com/css-functions/contrast.php",
+          description:
+            "This contrast() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/contrast()",
+          items: [],
+        },
+        {
+          title: "drop-shadow()",
+          href: "https://www.cssportal.com/css-functions/drop-shadow.php",
+          description:
+            "This drop-shadow() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/drop-shadow()",
+          items: [],
+        },
+        {
+          title: "ellipse()",
+          href: "https://www.cssportal.com/css-functions/ellipse.php",
+          description:
+            "This ellipse() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/ellipse()",
+          items: [],
+        },
+        {
+          title: "grayscale()",
+          href: "https://www.cssportal.com/css-functions/grayscale.php",
+          description:
+            "This grayscale() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grayscale()",
+          items: [],
+        },
+        {
+          title: "hsl()",
+          href: "https://www.cssportal.com/css-functions/hsl.php",
+          description:
+            "This hsl() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/hsl()",
+          items: [],
+        },
+        {
+          title: "hsla()",
+          href: "https://www.cssportal.com/css-functions/hsla.php",
+          description:
+            "This hsla() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/hsla()",
+          items: [],
+        },
+        {
+          title: "hue-rotate()",
+          href: "https://www.cssportal.com/css-functions/hue-rotate.php",
+          description:
+            "This hue-rotate() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/hue-rotate()",
+          items: [],
+        },
+        {
+          title: "inset()",
+          href: "https://www.cssportal.com/css-functions/inset.php",
+          description:
+            "This inset() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/inset()",
+          items: [],
+        },
+        {
+          title: "invert()",
+          href: "https://www.cssportal.com/css-functions/invert.php",
+          description:
+            "This invert() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/invert()",
+          items: [],
+        },
+        {
+          title: "linear-gradient()",
+          href: "https://www.cssportal.com/css-functions/linear-gradient.php",
+          description:
+            "This linear-gradient() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/linear-gradient()",
+          items: [],
+        },
+        {
+          title: "matrix()",
+          href: "https://www.cssportal.com/css-functions/matrix.php",
+          description:
+            "This matrix() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/matrix()",
+          items: [],
+        },
+        {
+          title: "matrix3d()",
+          href: "https://www.cssportal.com/css-functions/matrix3d.php",
+          description:
+            "This matrix3d() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/matrix3d()",
+          items: [],
+        },
+        {
+          title: "opacity()",
+          href: "https://www.cssportal.com/css-functions/opacity.php",
+          description:
+            "This opacity() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/opacity()",
+          items: [],
+        },
+        {
+          title: "perspective()",
+          href: "https://www.cssportal.com/css-functions/perspective.php",
+          description:
+            "This perspective() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/perspective()",
+          items: [],
+        },
+        {
+          title: "polygon()",
+          href: "https://www.cssportal.com/css-functions/polygon.php",
+          description:
+            "This polygon() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/polygon()",
+          items: [],
+        },
+        {
+          title: "radial-gradient()",
+          href: "https://www.cssportal.com/css-functions/radial-gradient.php",
+          description:
+            "This radial-gradient() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/radial-gradient()",
+          items: [],
+        },
+        {
+          title: "repeating-linear-gradient()",
+          href: "https://www.cssportal.com/css-functions/repeating-linear-gradient.php",
+          description:
+            "This repeating-linear-gradient() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/repeating-linear-gradient()",
+          items: [],
+        },
+        {
+          title: "repeating-radial-gradient()",
+          href: "https://www.cssportal.com/css-functions/repeating-radial-gradient.php",
+          description:
+            "This repeating-radial-gradient() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/repeating-radial-gradient()",
+          items: [],
+        },
+        {
+          title: "rgb()",
+          href: "https://www.cssportal.com/css-functions/rgb.php",
+          description:
+            "This rgb() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rgb()",
+          items: [],
+        },
+        {
+          title: "rgba()",
+          href: "https://www.cssportal.com/css-functions/rgba.php",
+          description:
+            "This rgba() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rgba()",
+          items: [],
+        },
+        {
+          title: "rotate()",
+          href: "https://www.cssportal.com/css-functions/rotate.php",
+          description:
+            "This rotate() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rotate()",
+          items: [],
+        },
+        {
+          title: "rotate3d()",
+          href: "https://www.cssportal.com/css-functions/rotate3d.php",
+          description:
+            "This rotate3d() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rotate3d()",
+          items: [],
+        },
+        {
+          title: "rotateX()",
+          href: "https://www.cssportal.com/css-functions/rotateX.php",
+          description:
+            "This rotateX() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rotatex()",
+          items: [],
+        },
+        {
+          title: "rotateY()",
+          href: "https://www.cssportal.com/css-functions/rotateY.php",
+          description:
+            "This rotateY() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rotatey()",
+          items: [],
+        },
+        {
+          title: "rotateZ()",
+          href: "https://www.cssportal.com/css-functions/rotateZ.php",
+          description:
+            "This rotateZ() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/rotatez()",
+          items: [],
+        },
+        {
+          title: "saturate()",
+          href: "https://www.cssportal.com/css-functions/saturate.php",
+          description:
+            "This saturate() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/saturate()",
+          items: [],
+        },
+        {
+          title: "scale()",
+          href: "https://www.cssportal.com/css-functions/scale.php",
+          description:
+            "This scale() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scale()",
+          items: [],
+        },
+        {
+          title: "scale3d()",
+          href: "https://www.cssportal.com/css-functions/scale3d.php",
+          description:
+            "This scale3d() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scale3d()",
+          items: [],
+        },
+        {
+          title: "scaleX()",
+          href: "https://www.cssportal.com/css-functions/scaleX.php",
+          description:
+            "This scaleX() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scalex()",
+          items: [],
+        },
+        {
+          title: "scaleY()",
+          href: "https://www.cssportal.com/css-functions/scaleY.php",
+          description:
+            "This scaleY() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scaley()",
+          items: [],
+        },
+        {
+          title: "scaleZ()",
+          href: "https://www.cssportal.com/css-functions/scaleZ.php",
+          description:
+            "This scaleZ() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/scalez()",
+          items: [],
+        },
+        {
+          title: "sepia()",
+          href: "https://www.cssportal.com/css-functions/sepia.php",
+          description:
+            "This sepia() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/sepia()",
+          items: [],
+        },
+        {
+          title: "skew()",
+          href: "https://www.cssportal.com/css-functions/skew.php",
+          description:
+            "This skew() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/skew()",
+          items: [],
+        },
+        {
+          title: "skewX()",
+          href: "https://www.cssportal.com/css-functions/skewX.php",
+          description:
+            "This skewX() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/skewx()",
+          items: [],
+        },
+        {
+          title: "skewY()",
+          href: "https://www.cssportal.com/css-functions/skewY.php",
+          description:
+            "This skewY() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/skewy()",
+          items: [],
+        },
+        {
+          title: "translate()",
+          href: "https://www.cssportal.com/css-functions/translate.php",
+          description:
+            "This translate() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/translate()",
+          items: [],
+        },
+        {
+          title: "translate3d()",
+          href: "https://www.cssportal.com/css-functions/translate3d.php",
+          description:
+            "This translate3d() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/translate3d()",
+          items: [],
+        },
+        {
+          title: "translateX()",
+          href: "https://www.cssportal.com/css-functions/translateX.php",
+          description:
+            "This translateX() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/translatex()",
+          items: [],
+        },
+        {
+          title: "translateY()",
+          href: "https://www.cssportal.com/css-functions/translateY.php",
+          description:
+            "This translateY() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/translatey()",
+          items: [],
+        },
+        {
+          title: "translateZ()",
+          href: "https://www.cssportal.com/css-functions/translateZ.php",
+          description:
+            "This translateZ() generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/translatez()",
+          items: [],
+        },
+        {
+          title: "CSS Properties",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Properties generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cssproperties",
+          items: [],
+        },
+        {
+          title: "align-content",
+          href: "https://www.cssportal.com/css-properties/align-content.php",
+          description:
+            "This align-content generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/align-content",
+          items: [],
+        },
+        {
+          title: "align-items",
+          href: "https://www.cssportal.com/css-properties/align-items.php",
+          description:
+            "This align-items generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/align-items",
+          items: [],
+        },
+        {
+          title: "align-self",
+          href: "https://www.cssportal.com/css-properties/align-self.php",
+          description:
+            "This align-self generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/align-self",
+          items: [],
+        },
+        {
+          title: "all",
+          href: "https://www.cssportal.com/css-properties/all.php",
+          description:
+            "This all generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/all",
+          items: [],
+        },
+        {
+          title: "animation",
+          href: "https://www.cssportal.com/css-properties/animation.php",
+          description:
+            "This animation generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation",
+          items: [],
+        },
+        {
+          title: "animation-delay",
+          href: "https://www.cssportal.com/css-properties/animation-delay.php",
+          description:
+            "This animation-delay generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-delay",
+          items: [],
+        },
+        {
+          title: "animation-direction",
+          href: "https://www.cssportal.com/css-properties/animation-direction.php",
+          description:
+            "This animation-direction generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-direction",
+          items: [],
+        },
+        {
+          title: "animation-duration",
+          href: "https://www.cssportal.com/css-properties/animation-duration.php",
+          description:
+            "This animation-duration generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-duration",
+          items: [],
+        },
+        {
+          title: "animation-fill-mode",
+          href: "https://www.cssportal.com/css-properties/animation-fill-mode.php",
+          description:
+            "This animation-fill-mode generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-fill-mode",
+          items: [],
+        },
+        {
+          title: "animation-iteration-count",
+          href: "https://www.cssportal.com/css-properties/animation-iteration-count.php",
+          description:
+            "This animation-iteration-count generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-iteration-count",
+          items: [],
+        },
+        {
+          title: "animation-name",
+          href: "https://www.cssportal.com/css-properties/animation-name.php",
+          description:
+            "This animation-name generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-name",
+          items: [],
+        },
+        {
+          title: "animation-play-state",
+          href: "https://www.cssportal.com/css-properties/animation-play-state.php",
+          description:
+            "This animation-play-state generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-play-state",
+          items: [],
+        },
+        {
+          title: "animation-timing-function",
+          href: "https://www.cssportal.com/css-properties/animation-timing-function.php",
+          description:
+            "This animation-timing-function generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/animation-timing-function",
+          items: [],
+        },
+        {
+          title: "backface-visibility",
+          href: "https://www.cssportal.com/css-properties/backface-visibility.php",
+          description:
+            "This backface-visibility generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/backface-visibility",
+          items: [],
+        },
+        {
+          title: "background",
+          href: "https://www.cssportal.com/css-properties/background.php",
+          description:
+            "This background generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background",
+          items: [],
+        },
+        {
+          title: "background-attachment",
+          href: "https://www.cssportal.com/css-properties/background-attachment.php",
+          description:
+            "This background-attachment generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-attachment",
+          items: [],
+        },
+        {
+          title: "background-blend-mode",
+          href: "https://www.cssportal.com/css-properties/background-blend-mode.php",
+          description:
+            "This background-blend-mode generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-blend-mode",
+          items: [],
+        },
+        {
+          title: "background-clip",
+          href: "https://www.cssportal.com/css-properties/background-clip.php",
+          description:
+            "This background-clip generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-clip",
+          items: [],
+        },
+        {
+          title: "background-color",
+          href: "https://www.cssportal.com/css-properties/background-color.php",
+          description:
+            "This background-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-color",
+          items: [],
+        },
+        {
+          title: "background-image",
+          href: "https://www.cssportal.com/css-properties/background-image.php",
+          description:
+            "This background-image generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-image",
+          items: [],
+        },
+        {
+          title: "background-origin",
+          href: "https://www.cssportal.com/css-properties/background-origin.php",
+          description:
+            "This background-origin generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-origin",
+          items: [],
+        },
+        {
+          title: "background-position",
+          href: "https://www.cssportal.com/css-properties/background-position.php",
+          description:
+            "This background-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-position",
+          items: [],
+        },
+        {
+          title: "background-repeat",
+          href: "https://www.cssportal.com/css-properties/background-repeat.php",
+          description:
+            "This background-repeat generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-repeat",
+          items: [],
+        },
+        {
+          title: "background-size",
+          href: "https://www.cssportal.com/css-properties/background-size.php",
+          description:
+            "This background-size generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/background-size",
+          items: [],
+        },
+        {
+          title: "border",
+          href: "https://www.cssportal.com/css-properties/border.php",
+          description:
+            "This border generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border",
+          items: [],
+        },
+        {
+          title: "border-bottom",
+          href: "https://www.cssportal.com/css-properties/border-bottom.php",
+          description:
+            "This border-bottom generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom",
+          items: [],
+        },
+        {
+          title: "border-bottom-color",
+          href: "https://www.cssportal.com/css-properties/border-bottom-color.php",
+          description:
+            "This border-bottom-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom-color",
+          items: [],
+        },
+        {
+          title: "border-bottom-left-radius",
+          href: "https://www.cssportal.com/css-properties/border-bottom-left-radius.php",
+          description:
+            "This border-bottom-left-radius generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom-left-radius",
+          items: [],
+        },
+        {
+          title: "border-bottom-right-radius",
+          href: "https://www.cssportal.com/css-properties/border-bottom-right-radius.php",
+          description:
+            "This border-bottom-right-radius generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom-right-radius",
+          items: [],
+        },
+        {
+          title: "border-bottom-style",
+          href: "https://www.cssportal.com/css-properties/border-bottom-style.php",
+          description:
+            "This border-bottom-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom-style",
+          items: [],
+        },
+        {
+          title: "border-bottom-width",
+          href: "https://www.cssportal.com/css-properties/border-bottom-width.php",
+          description:
+            "This border-bottom-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-bottom-width",
+          items: [],
+        },
+        {
+          title: "border-collapse",
+          href: "https://www.cssportal.com/css-properties/border-collapse.php",
+          description:
+            "This border-collapse generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-collapse",
+          items: [],
+        },
+        {
+          title: "border-color",
+          href: "https://www.cssportal.com/css-properties/border-color.php",
+          description:
+            "This border-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-color",
+          items: [],
+        },
+        {
+          title: "border-image",
+          href: "https://www.cssportal.com/css-properties/border-image.php",
+          description:
+            "This border-image generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image",
+          items: [],
+        },
+        {
+          title: "border-image-outset",
+          href: "https://www.cssportal.com/css-properties/border-image-outset.php",
+          description:
+            "This border-image-outset generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image-outset",
+          items: [],
+        },
+        {
+          title: "border-image-repeat",
+          href: "https://www.cssportal.com/css-properties/border-image-repeat.php",
+          description:
+            "This border-image-repeat generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image-repeat",
+          items: [],
+        },
+        {
+          title: "border-image-slice",
+          href: "https://www.cssportal.com/css-properties/border-image-slice.php",
+          description:
+            "This border-image-slice generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image-slice",
+          items: [],
+        },
+        {
+          title: "border-image-source",
+          href: "https://www.cssportal.com/css-properties/border-image-source.php",
+          description:
+            "This border-image-source generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image-source",
+          items: [],
+        },
+        {
+          title: "border-image-width",
+          href: "https://www.cssportal.com/css-properties/border-image-width.php",
+          description:
+            "This border-image-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-image-width",
+          items: [],
+        },
+        {
+          title: "border-left",
+          href: "https://www.cssportal.com/css-properties/border-left.php",
+          description:
+            "This border-left generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-left",
+          items: [],
+        },
+        {
+          title: "border-left-color",
+          href: "https://www.cssportal.com/css-properties/border-left-color.php",
+          description:
+            "This border-left-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-left-color",
+          items: [],
+        },
+        {
+          title: "border-left-style",
+          href: "https://www.cssportal.com/css-properties/border-left-style.php",
+          description:
+            "This border-left-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-left-style",
+          items: [],
+        },
+        {
+          title: "border-left-width",
+          href: "https://www.cssportal.com/css-properties/border-left-width.php",
+          description:
+            "This border-left-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-left-width",
+          items: [],
+        },
+        {
+          title: "border-radius",
+          href: "https://www.cssportal.com/css-properties/border-radius.php",
+          description:
+            "This border-radius generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-radius",
+          items: [],
+        },
+        {
+          title: "border-right",
+          href: "https://www.cssportal.com/css-properties/border-right.php",
+          description:
+            "This border-right generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-right",
+          items: [],
+        },
+        {
+          title: "border-right-color",
+          href: "https://www.cssportal.com/css-properties/border-right-color.php",
+          description:
+            "This border-right-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-right-color",
+          items: [],
+        },
+        {
+          title: "border-right-style",
+          href: "https://www.cssportal.com/css-properties/border-right-style.php",
+          description:
+            "This border-right-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-right-style",
+          items: [],
+        },
+        {
+          title: "border-right-width",
+          href: "https://www.cssportal.com/css-properties/border-right-width.php",
+          description:
+            "This border-right-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-right-width",
+          items: [],
+        },
+        {
+          title: "border-spacing",
+          href: "https://www.cssportal.com/css-properties/border-spacing.php",
+          description:
+            "This border-spacing generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-spacing",
+          items: [],
+        },
+        {
+          title: "border-style",
+          href: "https://www.cssportal.com/css-properties/border-style.php",
+          description:
+            "This border-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-style",
+          items: [],
+        },
+        {
+          title: "border-top",
+          href: "https://www.cssportal.com/css-properties/border-top.php",
+          description:
+            "This border-top generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top",
+          items: [],
+        },
+        {
+          title: "border-top-color",
+          href: "https://www.cssportal.com/css-properties/border-top-color.php",
+          description:
+            "This border-top-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top-color",
+          items: [],
+        },
+        {
+          title: "border-top-left-radius",
+          href: "https://www.cssportal.com/css-properties/border-top-left-radius.php",
+          description:
+            "This border-top-left-radius generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top-left-radius",
+          items: [],
+        },
+        {
+          title: "border-top-right-radius",
+          href: "https://www.cssportal.com/css-properties/border-top-right-radius.php",
+          description:
+            "This border-top-right-radius generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top-right-radius",
+          items: [],
+        },
+        {
+          title: "border-top-style",
+          href: "https://www.cssportal.com/css-properties/border-top-style.php",
+          description:
+            "This border-top-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top-style",
+          items: [],
+        },
+        {
+          title: "border-top-width",
+          href: "https://www.cssportal.com/css-properties/border-top-width.php",
+          description:
+            "This border-top-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-top-width",
+          items: [],
+        },
+        {
+          title: "border-width",
+          href: "https://www.cssportal.com/css-properties/border-width.php",
+          description:
+            "This border-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/border-width",
+          items: [],
+        },
+        {
+          title: "bottom",
+          href: "https://www.cssportal.com/css-properties/bottom.php",
+          description:
+            "This bottom generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/bottom",
+          items: [],
+        },
+        {
+          title: "box-decoration-break",
+          href: "https://www.cssportal.com/css-properties/box-decoration-break.php",
+          description:
+            "This box-decoration-break generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/box-decoration-break",
+          items: [],
+        },
+        {
+          title: "box-shadow",
+          href: "https://www.cssportal.com/css-properties/box-shadow.php",
+          description:
+            "This box-shadow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/box-shadow",
+          items: [],
+        },
+        {
+          title: "box-sizing",
+          href: "https://www.cssportal.com/css-properties/box-sizing.php",
+          description:
+            "This box-sizing generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/box-sizing",
+          items: [],
+        },
+        {
+          title: "break-after",
+          href: "https://www.cssportal.com/css-properties/break-after.php",
+          description:
+            "This break-after generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/break-after",
+          items: [],
+        },
+        {
+          title: "break-before",
+          href: "https://www.cssportal.com/css-properties/break-before.php",
+          description:
+            "This break-before generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/break-before",
+          items: [],
+        },
+        {
+          title: "break-inside",
+          href: "https://www.cssportal.com/css-properties/break-inside.php",
+          description:
+            "This break-inside generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/break-inside",
+          items: [],
+        },
+        {
+          title: "caption-side",
+          href: "https://www.cssportal.com/css-properties/caption-side.php",
+          description:
+            "This caption-side generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/caption-side",
+          items: [],
+        },
+        {
+          title: "caret-color",
+          href: "https://www.cssportal.com/css-properties/caret-color.php",
+          description:
+            "This caret-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/caret-color",
+          items: [],
+        },
+        {
+          title: "clear",
+          href: "https://www.cssportal.com/css-properties/clear.php",
+          description:
+            "This clear generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/clear",
+          items: [],
+        },
+        {
+          title: "clip-path",
+          href: "https://www.cssportal.com/css-properties/clip-path.php",
+          description:
+            "This clip-path generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/clip-path",
+          items: [],
+        },
+        {
+          title: "color",
+          href: "https://www.cssportal.com/css-properties/color.php",
+          description:
+            "This color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/color",
+          items: [],
+        },
+        {
+          title: "column-count",
+          href: "https://www.cssportal.com/css-properties/column-count.php",
+          description:
+            "This column-count generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-count",
+          items: [],
+        },
+        {
+          title: "column-fill",
+          href: "https://www.cssportal.com/css-properties/column-fill.php",
+          description:
+            "This column-fill generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-fill",
+          items: [],
+        },
+        {
+          title: "column-rule",
+          href: "https://www.cssportal.com/css-properties/column-rule.php",
+          description:
+            "This column-rule generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-rule",
+          items: [],
+        },
+        {
+          title: "column-rule-color",
+          href: "https://www.cssportal.com/css-properties/column-rule-color.php",
+          description:
+            "This column-rule-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-rule-color",
+          items: [],
+        },
+        {
+          title: "column-rule-style",
+          href: "https://www.cssportal.com/css-properties/column-rule-style.php",
+          description:
+            "This column-rule-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-rule-style",
+          items: [],
+        },
+        {
+          title: "column-rule-width",
+          href: "https://www.cssportal.com/css-properties/column-rule-width.php",
+          description:
+            "This column-rule-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-rule-width",
+          items: [],
+        },
+        {
+          title: "column-span",
+          href: "https://www.cssportal.com/css-properties/column-span.php",
+          description:
+            "This column-span generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-span",
+          items: [],
+        },
+        {
+          title: "column-width",
+          href: "https://www.cssportal.com/css-properties/column-width.php",
+          description:
+            "This column-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/column-width",
+          items: [],
+        },
+        {
+          title: "columns",
+          href: "https://www.cssportal.com/css-properties/columns.php",
+          description:
+            "This columns generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/columns",
+          items: [],
+        },
+        {
+          title: "content",
+          href: "https://www.cssportal.com/css-properties/content.php",
+          description:
+            "This content generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/content",
+          items: [],
+        },
+        {
+          title: "counter-increment",
+          href: "https://www.cssportal.com/css-properties/counter-increment.php",
+          description:
+            "This counter-increment generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/counter-increment",
+          items: [],
+        },
+        {
+          title: "counter-reset",
+          href: "https://www.cssportal.com/css-properties/counter-reset.php",
+          description:
+            "This counter-reset generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/counter-reset",
+          items: [],
+        },
+        {
+          title: "counter-set",
+          href: "https://www.cssportal.com/css-properties/counter-set.php",
+          description:
+            "This counter-set generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/counter-set",
+          items: [],
+        },
+        {
+          title: "cursor",
+          href: "https://www.cssportal.com/css-properties/cursor.php",
+          description:
+            "This cursor generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/cursor",
+          items: [],
+        },
+        {
+          title: "direction",
+          href: "https://www.cssportal.com/css-properties/direction.php",
+          description:
+            "This direction generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/direction",
+          items: [],
+        },
+        {
+          title: "display",
+          href: "https://www.cssportal.com/css-properties/display.php",
+          description:
+            "This display generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/display",
+          items: [],
+        },
+        {
+          title: "empty-cells",
+          href: "https://www.cssportal.com/css-properties/empty-cells.php",
+          description:
+            "This empty-cells generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/empty-cells",
+          items: [],
+        },
+        {
+          title: "filter",
+          href: "https://www.cssportal.com/css-properties/filter.php",
+          description:
+            "This filter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/filter",
+          items: [],
+        },
+        {
+          title: "flex",
+          href: "https://www.cssportal.com/css-properties/flex.php",
+          description:
+            "This flex generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex",
+          items: [],
+        },
+        {
+          title: "flex-basis",
+          href: "https://www.cssportal.com/css-properties/flex-basis.php",
+          description:
+            "This flex-basis generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-basis",
+          items: [],
+        },
+        {
+          title: "flex-direction",
+          href: "https://www.cssportal.com/css-properties/flex-direction.php",
+          description:
+            "This flex-direction generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-direction",
+          items: [],
+        },
+        {
+          title: "flex-flow",
+          href: "https://www.cssportal.com/css-properties/flex-flow.php",
+          description:
+            "This flex-flow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-flow",
+          items: [],
+        },
+        {
+          title: "flex-grow",
+          href: "https://www.cssportal.com/css-properties/flex-grow.php",
+          description:
+            "This flex-grow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-grow",
+          items: [],
+        },
+        {
+          title: "flex-shrink",
+          href: "https://www.cssportal.com/css-properties/flex-shrink.php",
+          description:
+            "This flex-shrink generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-shrink",
+          items: [],
+        },
+        {
+          title: "flex-wrap",
+          href: "https://www.cssportal.com/css-properties/flex-wrap.php",
+          description:
+            "This flex-wrap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/flex-wrap",
+          items: [],
+        },
+        {
+          title: "float",
+          href: "https://www.cssportal.com/css-properties/float.php",
+          description:
+            "This float generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/float",
+          items: [],
+        },
+        {
+          title: "font",
+          href: "https://www.cssportal.com/css-properties/font.php",
+          description:
+            "This font generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font",
+          items: [],
+        },
+        {
+          title: "font-family",
+          href: "https://www.cssportal.com/css-properties/font-family.php",
+          description:
+            "This font-family generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-family",
+          items: [],
+        },
+        {
+          title: "font-feature-settings",
+          href: "https://www.cssportal.com/css-properties/font-feature-settings.php",
+          description:
+            "This font-feature-settings generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-feature-settings",
+          items: [],
+        },
+        {
+          title: "font-kerning",
+          href: "https://www.cssportal.com/css-properties/font-kerning.php",
+          description:
+            "This font-kerning generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-kerning",
+          items: [],
+        },
+        {
+          title: "font-language-override",
+          href: "https://www.cssportal.com/css-properties/font-language-override.php",
+          description:
+            "This font-language-override generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-language-override",
+          items: [],
+        },
+        {
+          title: "font-size",
+          href: "https://www.cssportal.com/css-properties/font-size.php",
+          description:
+            "This font-size generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-size",
+          items: [],
+        },
+        {
+          title: "font-size-adjust",
+          href: "https://www.cssportal.com/css-properties/font-size-adjust.php",
+          description:
+            "This font-size-adjust generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-size-adjust",
+          items: [],
+        },
+        {
+          title: "font-stretch",
+          href: "https://www.cssportal.com/css-properties/font-stretch.php",
+          description:
+            "This font-stretch generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-stretch",
+          items: [],
+        },
+        {
+          title: "font-style",
+          href: "https://www.cssportal.com/css-properties/font-style.php",
+          description:
+            "This font-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-style",
+          items: [],
+        },
+        {
+          title: "font-synthesis",
+          href: "https://www.cssportal.com/css-properties/font-synthesis.php",
+          description:
+            "This font-synthesis generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-synthesis",
+          items: [],
+        },
+        {
+          title: "font-variant",
+          href: "https://www.cssportal.com/css-properties/font-variant.php",
+          description:
+            "This font-variant generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant",
+          items: [],
+        },
+        {
+          title: "font-variant-alternates",
+          href: "https://www.cssportal.com/css-properties/font-variant-alternates.php",
+          description:
+            "This font-variant-alternates generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-alternates",
+          items: [],
+        },
+        {
+          title: "font-variant-caps",
+          href: "https://www.cssportal.com/css-properties/font-variant-caps.php",
+          description:
+            "This font-variant-caps generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-caps",
+          items: [],
+        },
+        {
+          title: "font-variant-east-asian",
+          href: "https://www.cssportal.com/css-properties/font-variant-east-asian.php",
+          description:
+            "This font-variant-east-asian generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-east-asian",
+          items: [],
+        },
+        {
+          title: "font-variant-ligatures",
+          href: "https://www.cssportal.com/css-properties/font-variant-ligatures.php",
+          description:
+            "This font-variant-ligatures generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-ligatures",
+          items: [],
+        },
+        {
+          title: "font-variant-numeric",
+          href: "https://www.cssportal.com/css-properties/font-variant-numeric.php",
+          description:
+            "This font-variant-numeric generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-numeric",
+          items: [],
+        },
+        {
+          title: "font-variant-position",
+          href: "https://www.cssportal.com/css-properties/font-variant-position.php",
+          description:
+            "This font-variant-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-variant-position",
+          items: [],
+        },
+        {
+          title: "font-weight",
+          href: "https://www.cssportal.com/css-properties/font-weight.php",
+          description:
+            "This font-weight generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/font-weight",
+          items: [],
+        },
+        {
+          title: "grid",
+          href: "https://www.cssportal.com/css-properties/grid.php",
+          description:
+            "This grid generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid",
+          items: [],
+        },
+        {
+          title: "grid-area",
+          href: "https://www.cssportal.com/css-properties/grid-area.php",
+          description:
+            "This grid-area generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-area",
+          items: [],
+        },
+        {
+          title: "grid-auto-columns",
+          href: "https://www.cssportal.com/css-properties/grid-auto-columns.php",
+          description:
+            "This grid-auto-columns generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-auto-columns",
+          items: [],
+        },
+        {
+          title: "grid-auto-flow",
+          href: "https://www.cssportal.com/css-properties/grid-auto-flow.php",
+          description:
+            "This grid-auto-flow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-auto-flow",
+          items: [],
+        },
+        {
+          title: "grid-auto-rows",
+          href: "https://www.cssportal.com/css-properties/grid-auto-rows.php",
+          description:
+            "This grid-auto-rows generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-auto-rows",
+          items: [],
+        },
+        {
+          title: "grid-column",
+          href: "https://www.cssportal.com/css-properties/grid-column.php",
+          description:
+            "This grid-column generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-column",
+          items: [],
+        },
+        {
+          title: "grid-column-end",
+          href: "https://www.cssportal.com/css-properties/grid-column-end.php",
+          description:
+            "This grid-column-end generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-column-end",
+          items: [],
+        },
+        {
+          title: "grid-column-gap",
+          href: "https://www.cssportal.com/css-properties/grid-column-gap.php",
+          description:
+            "This grid-column-gap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-column-gap",
+          items: [],
+        },
+        {
+          title: "grid-column-start",
+          href: "https://www.cssportal.com/css-properties/grid-column-start.php",
+          description:
+            "This grid-column-start generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-column-start",
+          items: [],
+        },
+        {
+          title: "grid-gap",
+          href: "https://www.cssportal.com/css-properties/grid-gap.php",
+          description:
+            "This grid-gap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-gap",
+          items: [],
+        },
+        {
+          title: "grid-row",
+          href: "https://www.cssportal.com/css-properties/grid-row.php",
+          description:
+            "This grid-row generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-row",
+          items: [],
+        },
+        {
+          title: "grid-row-end",
+          href: "https://www.cssportal.com/css-properties/grid-row-end.php",
+          description:
+            "This grid-row-end generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-row-end",
+          items: [],
+        },
+        {
+          title: "grid-row-gap",
+          href: "https://www.cssportal.com/css-properties/grid-row-gap.php",
+          description:
+            "This grid-row-gap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-row-gap",
+          items: [],
+        },
+        {
+          title: "grid-row-start",
+          href: "https://www.cssportal.com/css-properties/grid-row-start.php",
+          description:
+            "This grid-row-start generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-row-start",
+          items: [],
+        },
+        {
+          title: "grid-template",
+          href: "https://www.cssportal.com/css-properties/grid-template.php",
+          description:
+            "This grid-template generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-template",
+          items: [],
+        },
+        {
+          title: "grid-template-areas",
+          href: "https://www.cssportal.com/css-properties/grid-template-areas.php",
+          description:
+            "This grid-template-areas generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-template-areas",
+          items: [],
+        },
+        {
+          title: "grid-template-columns",
+          href: "https://www.cssportal.com/css-properties/grid-template-columns.php",
+          description:
+            "This grid-template-columns generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-template-columns",
+          items: [],
+        },
+        {
+          title: "grid-template-rows",
+          href: "https://www.cssportal.com/css-properties/grid-template-rows.php",
+          description:
+            "This grid-template-rows generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/grid-template-rows",
+          items: [],
+        },
+        {
+          title: "hanging-punctuation",
+          href: "https://www.cssportal.com/css-properties/hanging-punctuation.php",
+          description:
+            "This hanging-punctuation generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/hanging-punctuation",
+          items: [],
+        },
+        {
+          title: "height",
+          href: "https://www.cssportal.com/css-properties/height.php",
+          description:
+            "This height generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/height",
+          items: [],
+        },
+        {
+          title: "hyphens",
+          href: "https://www.cssportal.com/css-properties/hyphens.php",
+          description:
+            "This hyphens generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/hyphens",
+          items: [],
+        },
+        {
+          title: "image-orientation",
+          href: "https://www.cssportal.com/css-properties/image-orientation.php",
+          description:
+            "This image-orientation generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/image-orientation",
+          items: [],
+        },
+        {
+          title: "justify-content",
+          href: "https://www.cssportal.com/css-properties/justify-content.php",
+          description:
+            "This justify-content generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/justify-content",
+          items: [],
+        },
+        {
+          title: "justify-items",
+          href: "https://www.cssportal.com/css-properties/justify-items.php",
+          description:
+            "This justify-items generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/justify-items",
+          items: [],
+        },
+        {
+          title: "justify-self",
+          href: "https://www.cssportal.com/css-properties/justify-self.php",
+          description:
+            "This justify-self generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/justify-self",
+          items: [],
+        },
+        {
+          title: "left",
+          href: "https://www.cssportal.com/css-properties/left.php",
+          description:
+            "This left generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/left",
+          items: [],
+        },
+        {
+          title: "letter-spacing",
+          href: "https://www.cssportal.com/css-properties/letter-spacing.php",
+          description:
+            "This letter-spacing generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/letter-spacing",
+          items: [],
+        },
+        {
+          title: "line-break",
+          href: "https://www.cssportal.com/css-properties/line-break.php",
+          description:
+            "This line-break generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/line-break",
+          items: [],
+        },
+        {
+          title: "line-height",
+          href: "https://www.cssportal.com/css-properties/line-height.php",
+          description:
+            "This line-height generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/line-height",
+          items: [],
+        },
+        {
+          title: "list-style",
+          href: "https://www.cssportal.com/css-properties/list-style.php",
+          description:
+            "This list-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/list-style",
+          items: [],
+        },
+        {
+          title: "list-style-image",
+          href: "https://www.cssportal.com/css-properties/list-style-image.php",
+          description:
+            "This list-style-image generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/list-style-image",
+          items: [],
+        },
+        {
+          title: "list-style-position",
+          href: "https://www.cssportal.com/css-properties/list-style-position.php",
+          description:
+            "This list-style-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/list-style-position",
+          items: [],
+        },
+        {
+          title: "list-style-type",
+          href: "https://www.cssportal.com/css-properties/list-style-type.php",
+          description:
+            "This list-style-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/list-style-type",
+          items: [],
+        },
+        {
+          title: "margin",
+          href: "https://www.cssportal.com/css-properties/margin.php",
+          description:
+            "This margin generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/margin",
+          items: [],
+        },
+        {
+          title: "margin-bottom",
+          href: "https://www.cssportal.com/css-properties/margin-bottom.php",
+          description:
+            "This margin-bottom generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/margin-bottom",
+          items: [],
+        },
+        {
+          title: "margin-left",
+          href: "https://www.cssportal.com/css-properties/margin-left.php",
+          description:
+            "This margin-left generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/margin-left",
+          items: [],
+        },
+        {
+          title: "margin-right",
+          href: "https://www.cssportal.com/css-properties/margin-right.php",
+          description:
+            "This margin-right generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/margin-right",
+          items: [],
+        },
+        {
+          title: "margin-top",
+          href: "https://www.cssportal.com/css-properties/margin-top.php",
+          description:
+            "This margin-top generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/margin-top",
+          items: [],
+        },
+        {
+          title: "max-height",
+          href: "https://www.cssportal.com/css-properties/max-height.php",
+          description:
+            "This max-height generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/max-height",
+          items: [],
+        },
+        {
+          title: "max-width",
+          href: "https://www.cssportal.com/css-properties/max-width.php",
+          description:
+            "This max-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/max-width",
+          items: [],
+        },
+        {
+          title: "min-height",
+          href: "https://www.cssportal.com/css-properties/min-height.php",
+          description:
+            "This min-height generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/min-height",
+          items: [],
+        },
+        {
+          title: "min-width",
+          href: "https://www.cssportal.com/css-properties/min-width.php",
+          description:
+            "This min-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/min-width",
+          items: [],
+        },
+        {
+          title: "mix-blend-mode",
+          href: "https://www.cssportal.com/css-properties/mix-blend-mode.php",
+          description:
+            "This mix-blend-mode generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/mix-blend-mode",
+          items: [],
+        },
+        {
+          title: "object-fit",
+          href: "https://www.cssportal.com/css-properties/object-fit.php",
+          description:
+            "This object-fit generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/object-fit",
+          items: [],
+        },
+        {
+          title: "object-position",
+          href: "https://www.cssportal.com/css-properties/object-position.php",
+          description:
+            "This object-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/object-position",
+          items: [],
+        },
+        {
+          title: "opacity",
+          href: "https://www.cssportal.com/css-properties/opacity.php",
+          description:
+            "This opacity generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/opacity",
+          items: [],
+        },
+        {
+          title: "order",
+          href: "https://www.cssportal.com/css-properties/order.php",
+          description:
+            "This order generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/order",
+          items: [],
+        },
+        {
+          title: "orphans",
+          href: "https://www.cssportal.com/css-properties/orphans.php",
+          description:
+            "This orphans generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/orphans",
+          items: [],
+        },
+        {
+          title: "outline",
+          href: "https://www.cssportal.com/css-properties/outline.php",
+          description:
+            "This outline generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/outline",
+          items: [],
+        },
+        {
+          title: "outline-color",
+          href: "https://www.cssportal.com/css-properties/outline-color.php",
+          description:
+            "This outline-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/outline-color",
+          items: [],
+        },
+        {
+          title: "outline-offset",
+          href: "https://www.cssportal.com/css-properties/outline-offset.php",
+          description:
+            "This outline-offset generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/outline-offset",
+          items: [],
+        },
+        {
+          title: "outline-style",
+          href: "https://www.cssportal.com/css-properties/outline-style.php",
+          description:
+            "This outline-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/outline-style",
+          items: [],
+        },
+        {
+          title: "outline-width",
+          href: "https://www.cssportal.com/css-properties/outline-width.php",
+          description:
+            "This outline-width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/outline-width",
+          items: [],
+        },
+        {
+          title: "overflow",
+          href: "https://www.cssportal.com/css-properties/overflow.php",
+          description:
+            "This overflow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/overflow",
+          items: [],
+        },
+        {
+          title: "overflow-wrap",
+          href: "https://www.cssportal.com/css-properties/overflow-wrap.php",
+          description:
+            "This overflow-wrap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/overflow-wrap",
+          items: [],
+        },
+        {
+          title: "overflow-x",
+          href: "https://www.cssportal.com/css-properties/overflow-x.php",
+          description:
+            "This overflow-x generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/overflow-x",
+          items: [],
+        },
+        {
+          title: "overflow-y",
+          href: "https://www.cssportal.com/css-properties/overflow-y.php",
+          description:
+            "This overflow-y generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/overflow-y",
+          items: [],
+        },
+        {
+          title: "padding",
+          href: "https://www.cssportal.com/css-properties/padding.php",
+          description:
+            "This padding generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/padding",
+          items: [],
+        },
+        {
+          title: "padding-bottom",
+          href: "https://www.cssportal.com/css-properties/padding-bottom.php",
+          description:
+            "This padding-bottom generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/padding-bottom",
+          items: [],
+        },
+        {
+          title: "padding-left",
+          href: "https://www.cssportal.com/css-properties/padding-left.php",
+          description:
+            "This padding-left generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/padding-left",
+          items: [],
+        },
+        {
+          title: "padding-right",
+          href: "https://www.cssportal.com/css-properties/padding-right.php",
+          description:
+            "This padding-right generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/padding-right",
+          items: [],
+        },
+        {
+          title: "padding-top",
+          href: "https://www.cssportal.com/css-properties/padding-top.php",
+          description:
+            "This padding-top generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/padding-top",
+          items: [],
+        },
+        {
+          title: "perspective",
+          href: "https://www.cssportal.com/css-properties/perspective.php",
+          description:
+            "This perspective generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/perspective",
+          items: [],
+        },
+        {
+          title: "perspective-origin",
+          href: "https://www.cssportal.com/css-properties/perspective-origin.php",
+          description:
+            "This perspective-origin generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/perspective-origin",
+          items: [],
+        },
+        {
+          title: "place-content",
+          href: "https://www.cssportal.com/css-properties/place-content.php",
+          description:
+            "This place-content generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/place-content",
+          items: [],
+        },
+        {
+          title: "place-items",
+          href: "https://www.cssportal.com/css-properties/place-items.php",
+          description:
+            "This place-items generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/place-items",
+          items: [],
+        },
+        {
+          title: "place-self",
+          href: "https://www.cssportal.com/css-properties/place-self.php",
+          description:
+            "This place-self generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/place-self",
+          items: [],
+        },
+        {
+          title: "position",
+          href: "https://www.cssportal.com/css-properties/position.php",
+          description:
+            "This position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/position",
+          items: [],
+        },
+        {
+          title: "quotes",
+          href: "https://www.cssportal.com/css-properties/quotes.php",
+          description:
+            "This quotes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/quotes",
+          items: [],
+        },
+        {
+          title: "resize",
+          href: "https://www.cssportal.com/css-properties/resize.php",
+          description:
+            "This resize generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/resize",
+          items: [],
+        },
+        {
+          title: "right",
+          href: "https://www.cssportal.com/css-properties/right.php",
+          description:
+            "This right generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/right",
+          items: [],
+        },
+        {
+          title: "shape-image-threshold",
+          href: "https://www.cssportal.com/css-properties/shape-image-threshold.php",
+          description:
+            "This shape-image-threshold generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/shape-image-threshold",
+          items: [],
+        },
+        {
+          title: "shape-margin",
+          href: "https://www.cssportal.com/css-properties/shape-margin.php",
+          description:
+            "This shape-margin generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/shape-margin",
+          items: [],
+        },
+        {
+          title: "shape-outside",
+          href: "https://www.cssportal.com/css-properties/shape-outside.php",
+          description:
+            "This shape-outside generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/shape-outside",
+          items: [],
+        },
+        {
+          title: "tab-size",
+          href: "https://www.cssportal.com/css-properties/tab-size.php",
+          description:
+            "This tab-size generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/tab-size",
+          items: [],
+        },
+        {
+          title: "table-layout",
+          href: "https://www.cssportal.com/css-properties/table-layout.php",
+          description:
+            "This table-layout generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/table-layout",
+          items: [],
+        },
+        {
+          title: "text-align",
+          href: "https://www.cssportal.com/css-properties/text-align.php",
+          description:
+            "This text-align generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-align",
+          items: [],
+        },
+        {
+          title: "text-align-last",
+          href: "https://www.cssportal.com/css-properties/text-align-last.php",
+          description:
+            "This text-align-last generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-align-last",
+          items: [],
+        },
+        {
+          title: "text-combine-upright",
+          href: "https://www.cssportal.com/css-properties/text-combine-upright.php",
+          description:
+            "This text-combine-upright generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-combine-upright",
+          items: [],
+        },
+        {
+          title: "text-decoration",
+          href: "https://www.cssportal.com/css-properties/text-decoration.php",
+          description:
+            "This text-decoration generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-decoration",
+          items: [],
+        },
+        {
+          title: "text-decoration-color",
+          href: "https://www.cssportal.com/css-properties/text-decoration-color.php",
+          description:
+            "This text-decoration-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-decoration-color",
+          items: [],
+        },
+        {
+          title: "text-decoration-line",
+          href: "https://www.cssportal.com/css-properties/text-decoration-line.php",
+          description:
+            "This text-decoration-line generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-decoration-line",
+          items: [],
+        },
+        {
+          title: "text-decoration-style",
+          href: "https://www.cssportal.com/css-properties/text-decoration-style.php",
+          description:
+            "This text-decoration-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-decoration-style",
+          items: [],
+        },
+        {
+          title: "text-emphasis",
+          href: "https://www.cssportal.com/css-properties/text-emphasis.php",
+          description:
+            "This text-emphasis generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-emphasis",
+          items: [],
+        },
+        {
+          title: "text-emphasis-color",
+          href: "https://www.cssportal.com/css-properties/text-emphasis-color.php",
+          description:
+            "This text-emphasis-color generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-emphasis-color",
+          items: [],
+        },
+        {
+          title: "text-emphasis-position",
+          href: "https://www.cssportal.com/css-properties/text-emphasis-position.php",
+          description:
+            "This text-emphasis-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-emphasis-position",
+          items: [],
+        },
+        {
+          title: "text-emphasis-style",
+          href: "https://www.cssportal.com/css-properties/text-emphasis-style.php",
+          description:
+            "This text-emphasis-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-emphasis-style",
+          items: [],
+        },
+        {
+          title: "text-indent",
+          href: "https://www.cssportal.com/css-properties/text-indent.php",
+          description:
+            "This text-indent generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-indent",
+          items: [],
+        },
+        {
+          title: "text-justify",
+          href: "https://www.cssportal.com/css-properties/text-justify.php",
+          description:
+            "This text-justify generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-justify",
+          items: [],
+        },
+        {
+          title: "text-orientation",
+          href: "https://www.cssportal.com/css-properties/text-orientation.php",
+          description:
+            "This text-orientation generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-orientation",
+          items: [],
+        },
+        {
+          title: "text-overflow",
+          href: "https://www.cssportal.com/css-properties/text-overflow.php",
+          description:
+            "This text-overflow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-overflow",
+          items: [],
+        },
+        {
+          title: "text-shadow",
+          href: "https://www.cssportal.com/css-properties/text-shadow.php",
+          description:
+            "This text-shadow generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-shadow",
+          items: [],
+        },
+        {
+          title: "text-transform",
+          href: "https://www.cssportal.com/css-properties/text-transform.php",
+          description:
+            "This text-transform generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-transform",
+          items: [],
+        },
+        {
+          title: "text-underline-position",
+          href: "https://www.cssportal.com/css-properties/text-underline-position.php",
+          description:
+            "This text-underline-position generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/text-underline-position",
+          items: [],
+        },
+        {
+          title: "top",
+          href: "https://www.cssportal.com/css-properties/top.php",
+          description:
+            "This top generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/top",
+          items: [],
+        },
+        {
+          title: "transform",
+          href: "https://www.cssportal.com/css-properties/transform.php",
+          description:
+            "This transform generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transform",
+          items: [],
+        },
+        {
+          title: "transform-origin",
+          href: "https://www.cssportal.com/css-properties/transform-origin.php",
+          description:
+            "This transform-origin generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transform-origin",
+          items: [],
+        },
+        {
+          title: "transform-style",
+          href: "https://www.cssportal.com/css-properties/transform-style.php",
+          description:
+            "This transform-style generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transform-style",
+          items: [],
+        },
+        {
+          title: "transition",
+          href: "https://www.cssportal.com/css-properties/transition.php",
+          description:
+            "This transition generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transition",
+          items: [],
+        },
+        {
+          title: "transition-delay",
+          href: "https://www.cssportal.com/css-properties/transition-delay.php",
+          description:
+            "This transition-delay generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transition-delay",
+          items: [],
+        },
+        {
+          title: "transition-duration",
+          href: "https://www.cssportal.com/css-properties/transition-duration.php",
+          description:
+            "This transition-duration generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transition-duration",
+          items: [],
+        },
+        {
+          title: "transition-property",
+          href: "https://www.cssportal.com/css-properties/transition-property.php",
+          description:
+            "This transition-property generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transition-property",
+          items: [],
+        },
+        {
+          title: "transition-timing-function",
+          href: "https://www.cssportal.com/css-properties/transition-timing-function.php",
+          description:
+            "This transition-timing-function generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/transition-timing-function",
+          items: [],
+        },
+        {
+          title: "unicode-bidi",
+          href: "https://www.cssportal.com/css-properties/unicode-bidi.php",
+          description:
+            "This unicode-bidi generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/unicode-bidi",
+          items: [],
+        },
+        {
+          title: "vertical-align",
+          href: "https://www.cssportal.com/css-properties/vertical-align.php",
+          description:
+            "This vertical-align generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/vertical-align",
+          items: [],
+        },
+        {
+          title: "visibility",
+          href: "https://www.cssportal.com/css-properties/visibility.php",
+          description:
+            "This visibility generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/visibility",
+          items: [],
+        },
+        {
+          title: "white-space",
+          href: "https://www.cssportal.com/css-properties/white-space.php",
+          description:
+            "This white-space generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/white-space",
+          items: [],
+        },
+        {
+          title: "widows",
+          href: "https://www.cssportal.com/css-properties/widows.php",
+          description:
+            "This widows generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/widows",
+          items: [],
+        },
+        {
+          title: "width",
+          href: "https://www.cssportal.com/css-properties/width.php",
+          description:
+            "This width generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/width",
+          items: [],
+        },
+        {
+          title: "word-break",
+          href: "https://www.cssportal.com/css-properties/word-break.php",
+          description:
+            "This word-break generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/word-break",
+          items: [],
+        },
+        {
+          title: "word-spacing",
+          href: "https://www.cssportal.com/css-properties/word-spacing.php",
+          description:
+            "This word-spacing generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/word-spacing",
+          items: [],
+        },
+        {
+          title: "word-wrap",
+          href: "https://www.cssportal.com/css-properties/word-wrap.php",
+          description:
+            "This word-wrap generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/word-wrap",
+          items: [],
+        },
+        {
+          title: "writing-mode",
+          href: "https://www.cssportal.com/css-properties/writing-mode.php",
+          description:
+            "This writing-mode generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/writing-mode",
+          items: [],
+        },
+        {
+          title: "z-index",
+          href: "https://www.cssportal.com/css-properties/z-index.php",
+          description:
+            "This z-index generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/z-index",
+          items: [],
+        },
+        {
+          title: "CSS Pseudo Classes",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Pseudo Classes generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csspseudoclasses",
+          items: [],
+        },
+        {
+          title: ":active",
+          href: "https://www.cssportal.com/css-pseudo-class/active.php",
+          description:
+            "This :active generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:active",
+          items: [],
+        },
+        {
+          title: ":checked",
+          href: "https://www.cssportal.com/css-pseudo-class/checked.php",
+          description:
+            "This :checked generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:checked",
+          items: [],
+        },
+        {
+          title: ":default",
+          href: "https://www.cssportal.com/css-pseudo-class/default.php",
+          description:
+            "This :default generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:default",
+          items: [],
+        },
+        {
+          title: ":disabled",
+          href: "https://www.cssportal.com/css-pseudo-class/disabled.php",
+          description:
+            "This :disabled generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:disabled",
+          items: [],
+        },
+        {
+          title: ":empty",
+          href: "https://www.cssportal.com/css-pseudo-class/empty.php",
+          description:
+            "This :empty generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:empty",
+          items: [],
+        },
+        {
+          title: ":enabled",
+          href: "https://www.cssportal.com/css-pseudo-class/enabled.php",
+          description:
+            "This :enabled generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:enabled",
+          items: [],
+        },
+        {
+          title: ":first-child",
+          href: "https://www.cssportal.com/css-pseudo-class/first-child.php",
+          description:
+            "This :first-child generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:first-child",
+          items: [],
+        },
+        {
+          title: ":first-of-type",
+          href: "https://www.cssportal.com/css-pseudo-class/first-of-type.php",
+          description:
+            "This :first-of-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:first-of-type",
+          items: [],
+        },
+        {
+          title: ":focus",
+          href: "https://www.cssportal.com/css-pseudo-class/focus.php",
+          description:
+            "This :focus generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:focus",
+          items: [],
+        },
+        {
+          title: ":fullscreen",
+          href: "https://www.cssportal.com/css-pseudo-class/fullscreen.php",
+          description:
+            "This :fullscreen generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:fullscreen",
+          items: [],
+        },
+        {
+          title: ":hover",
+          href: "https://www.cssportal.com/css-pseudo-class/hover.php",
+          description:
+            "This :hover generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:hover",
+          items: [],
+        },
+        {
+          title: ":in-range",
+          href: "https://www.cssportal.com/css-pseudo-class/in-range.php",
+          description:
+            "This :in-range generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:in-range",
+          items: [],
+        },
+        {
+          title: ":indeterminate",
+          href: "https://www.cssportal.com/css-pseudo-class/indeterminate.php",
+          description:
+            "This :indeterminate generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:indeterminate",
+          items: [],
+        },
+        {
+          title: ":invalid",
+          href: "https://www.cssportal.com/css-pseudo-class/invalid.php",
+          description:
+            "This :invalid generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:invalid",
+          items: [],
+        },
+        {
+          title: ":lang",
+          href: "https://www.cssportal.com/css-pseudo-class/lang.php",
+          description:
+            "This :lang generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:lang",
+          items: [],
+        },
+        {
+          title: ":last-child",
+          href: "https://www.cssportal.com/css-pseudo-class/last-child.php",
+          description:
+            "This :last-child generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:last-child",
+          items: [],
+        },
+        {
+          title: ":last-of-type",
+          href: "https://www.cssportal.com/css-pseudo-class/last-of-type.php",
+          description:
+            "This :last-of-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:last-of-type",
+          items: [],
+        },
+        {
+          title: ":link",
+          href: "https://www.cssportal.com/css-pseudo-class/link.php",
+          description:
+            "This :link generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:link",
+          items: [],
+        },
+        {
+          title: ":not",
+          href: "https://www.cssportal.com/css-pseudo-class/not.php",
+          description:
+            "This :not generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:not",
+          items: [],
+        },
+        {
+          title: ":nth-child",
+          href: "https://www.cssportal.com/css-pseudo-class/nth-child.php",
+          description:
+            "This :nth-child generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:nth-child",
+          items: [],
+        },
+        {
+          title: ":nth-last-child",
+          href: "https://www.cssportal.com/css-pseudo-class/nth-last-child.php",
+          description:
+            "This :nth-last-child generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:nth-last-child",
+          items: [],
+        },
+        {
+          title: ":nth-last-of-type",
+          href: "https://www.cssportal.com/css-pseudo-class/nth-last-of-type.php",
+          description:
+            "This :nth-last-of-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:nth-last-of-type",
+          items: [],
+        },
+        {
+          title: ":nth-of-type",
+          href: "https://www.cssportal.com/css-pseudo-class/nth-of-type.php",
+          description:
+            "This :nth-of-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:nth-of-type",
+          items: [],
+        },
+        {
+          title: ":only-child",
+          href: "https://www.cssportal.com/css-pseudo-class/only-child.php",
+          description:
+            "This :only-child generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:only-child",
+          items: [],
+        },
+        {
+          title: ":only-of-type",
+          href: "https://www.cssportal.com/css-pseudo-class/only-of-type.php",
+          description:
+            "This :only-of-type generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:only-of-type",
+          items: [],
+        },
+        {
+          title: ":optional",
+          href: "https://www.cssportal.com/css-pseudo-class/optional.php",
+          description:
+            "This :optional generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:optional",
+          items: [],
+        },
+        {
+          title: ":out-of-range",
+          href: "https://www.cssportal.com/css-pseudo-class/out-of-range.php",
+          description:
+            "This :out-of-range generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:out-of-range",
+          items: [],
+        },
+        {
+          title: ":read-only",
+          href: "https://www.cssportal.com/css-pseudo-class/read-only.php",
+          description:
+            "This :read-only generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:read-only",
+          items: [],
+        },
+        {
+          title: ":read-write",
+          href: "https://www.cssportal.com/css-pseudo-class/read-write.php",
+          description:
+            "This :read-write generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:read-write",
+          items: [],
+        },
+        {
+          title: ":required",
+          href: "https://www.cssportal.com/css-pseudo-class/required.php",
+          description:
+            "This :required generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:required",
+          items: [],
+        },
+        {
+          title: ":root",
+          href: "https://www.cssportal.com/css-pseudo-class/root.php",
+          description:
+            "This :root generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:root",
+          items: [],
+        },
+        {
+          title: ":target",
+          href: "https://www.cssportal.com/css-pseudo-class/target.php",
+          description:
+            "This :target generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:target",
+          items: [],
+        },
+        {
+          title: ":valid",
+          href: "https://www.cssportal.com/css-pseudo-class/valid.php",
+          description:
+            "This :valid generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:valid",
+          items: [],
+        },
+        {
+          title: ":visited",
+          href: "https://www.cssportal.com/css-pseudo-class/visited.php",
+          description:
+            "This :visited generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/:visited",
+          items: [],
+        },
+        {
+          title: "CSS Pseudo Elements",
+          href: "javascript: void(0);",
+          description:
+            "This CSS Pseudo Elements generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/csspseudoelements",
+          items: [],
+        },
+        {
+          title: "::after",
+          href: "https://www.cssportal.com/css-pseudo-class/after.php",
+          description:
+            "This ::after generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::after",
+          items: [],
+        },
+        {
+          title: "::before",
+          href: "https://www.cssportal.com/css-pseudo-class/before.php",
+          description:
+            "This ::before generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::before",
+          items: [],
+        },
+        {
+          title: "::first-letter",
+          href: "https://www.cssportal.com/css-pseudo-class/first-letter.php",
+          description:
+            "This ::first-letter generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::first-letter",
+          items: [],
+        },
+        {
+          title: "::first-line",
+          href: "https://www.cssportal.com/css-pseudo-class/first-line.php",
+          description:
+            "This ::first-line generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::first-line",
+          items: [],
+        },
+        {
+          title: "::placeholder",
+          href: "https://www.cssportal.com/css-pseudo-class/placeholder.php",
+          description:
+            "This ::placeholder generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::placeholder",
+          items: [],
+        },
+        {
+          title: "::selection",
+          href: "https://www.cssportal.com/css-pseudo-class/selection.php",
+          description:
+            "This ::selection generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/::selection",
+          items: [],
+        },
+        {
+          title: "HTML Tags",
+          href: "javascript: void(0);",
+          description:
+            "This HTML Tags generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltags",
+          items: [],
+        },
+        {
+          title: "<a>",
+          href: "https://www.cssportal.com/html-tags/tag-a.php",
+          description:
+            "This <a> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<a>",
+          items: [],
+        },
+        {
+          title: "<abbr>",
+          href: "https://www.cssportal.com/html-tags/tag-abbr.php",
+          description:
+            "This <abbr> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<abbr>",
+          items: [],
+        },
+        {
+          title: "<address>",
+          href: "https://www.cssportal.com/html-tags/tag-address.php",
+          description:
+            "This <address> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<address>",
+          items: [],
+        },
+        {
+          title: "<area>",
+          href: "https://www.cssportal.com/html-tags/tag-area.php",
+          description:
+            "This <area> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<area>",
+          items: [],
+        },
+        {
+          title: "<article>",
+          href: "https://www.cssportal.com/html-tags/tag-article.php",
+          description:
+            "This <article> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<article>",
+          items: [],
+        },
+        {
+          title: "<aside>",
+          href: "https://www.cssportal.com/html-tags/tag-aside.php",
+          description:
+            "This <aside> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<aside>",
+          items: [],
+        },
+        {
+          title: "<audio>",
+          href: "https://www.cssportal.com/html-tags/tag-audio.php",
+          description:
+            "This <audio> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<audio>",
+          items: [],
+        },
+        {
+          title: "<b>",
+          href: "https://www.cssportal.com/html-tags/tag-b.php",
+          description:
+            "This <b> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<b>",
+          items: [],
+        },
+        {
+          title: "<base>",
+          href: "https://www.cssportal.com/html-tags/tag-base.php",
+          description:
+            "This <base> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<base>",
+          items: [],
+        },
+        {
+          title: "<bdi>",
+          href: "https://www.cssportal.com/html-tags/tag-bdi.php",
+          description:
+            "This <bdi> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<bdi>",
+          items: [],
+        },
+        {
+          title: "<bdo>",
+          href: "https://www.cssportal.com/html-tags/tag-bdo.php",
+          description:
+            "This <bdo> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<bdo>",
+          items: [],
+        },
+        {
+          title: "<blockquote>",
+          href: "https://www.cssportal.com/html-tags/tag-blockquote.php",
+          description:
+            "This <blockquote> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<blockquote>",
+          items: [],
+        },
+        {
+          title: "<body>",
+          href: "https://www.cssportal.com/html-tags/tag-body.php",
+          description:
+            "This <body> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<body>",
+          items: [],
+        },
+        {
+          title: "<br>",
+          href: "https://www.cssportal.com/html-tags/tag-br.php",
+          description:
+            "This <br> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<br>",
+          items: [],
+        },
+        {
+          title: "<button>",
+          href: "https://www.cssportal.com/html-tags/tag-button.php",
+          description:
+            "This <button> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<button>",
+          items: [],
+        },
+        {
+          title: "<canvas>",
+          href: "https://www.cssportal.com/html-tags/tag-canvas.php",
+          description:
+            "This <canvas> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<canvas>",
+          items: [],
+        },
+        {
+          title: "<caption>",
+          href: "https://www.cssportal.com/html-tags/tag-caption.php",
+          description:
+            "This <caption> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<caption>",
+          items: [],
+        },
+        {
+          title: "<cite>",
+          href: "https://www.cssportal.com/html-tags/tag-cite.php",
+          description:
+            "This <cite> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<cite>",
+          items: [],
+        },
+        {
+          title: "<code>",
+          href: "https://www.cssportal.com/html-tags/tag-code.php",
+          description:
+            "This <code> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<code>",
+          items: [],
+        },
+        {
+          title: "<col>",
+          href: "https://www.cssportal.com/html-tags/tag-col.php",
+          description:
+            "This <col> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<col>",
+          items: [],
+        },
+        {
+          title: "<colgroup>",
+          href: "https://www.cssportal.com/html-tags/tag-colgroup.php",
+          description:
+            "This <colgroup> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<colgroup>",
+          items: [],
+        },
+        {
+          title: "<comment>",
+          href: "https://www.cssportal.com/html-tags/tag-comment.php",
+          description:
+            "This <comment> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<comment>",
+          items: [],
+        },
+        {
+          title: "<datalist>",
+          href: "https://www.cssportal.com/html-tags/tag-datalist.php",
+          description:
+            "This <datalist> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<datalist>",
+          items: [],
+        },
+        {
+          title: "<dd>",
+          href: "https://www.cssportal.com/html-tags/tag-dd.php",
+          description:
+            "This <dd> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<dd>",
+          items: [],
+        },
+        {
+          title: "<del>",
+          href: "https://www.cssportal.com/html-tags/tag-del.php",
+          description:
+            "This <del> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<del>",
+          items: [],
+        },
+        {
+          title: "<details>",
+          href: "https://www.cssportal.com/html-tags/tag-details.php",
+          description:
+            "This <details> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<details>",
+          items: [],
+        },
+        {
+          title: "<dfn>",
+          href: "https://www.cssportal.com/html-tags/tag-dfn.php",
+          description:
+            "This <dfn> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<dfn>",
+          items: [],
+        },
+        {
+          title: "<dialog>",
+          href: "https://www.cssportal.com/html-tags/tag-dialog.php",
+          description:
+            "This <dialog> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<dialog>",
+          items: [],
+        },
+        {
+          title: "<div>",
+          href: "https://www.cssportal.com/html-tags/tag-div.php",
+          description:
+            "This <div> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<div>",
+          items: [],
+        },
+        {
+          title: "<dl>",
+          href: "https://www.cssportal.com/html-tags/tag-dl.php",
+          description:
+            "This <dl> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<dl>",
+          items: [],
+        },
+        {
+          title: "<doctype>",
+          href: "https://www.cssportal.com/html-tags/tag-doctype.php",
+          description:
+            "This <doctype> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<doctype>",
+          items: [],
+        },
+        {
+          title: "<dt>",
+          href: "https://www.cssportal.com/html-tags/tag-dt.php",
+          description:
+            "This <dt> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<dt>",
+          items: [],
+        },
+        {
+          title: "<em>",
+          href: "https://www.cssportal.com/html-tags/tag-em.php",
+          description:
+            "This <em> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<em>",
+          items: [],
+        },
+        {
+          title: "<embed>",
+          href: "https://www.cssportal.com/html-tags/tag-embed.php",
+          description:
+            "This <embed> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<embed>",
+          items: [],
+        },
+        {
+          title: "<fieldset>",
+          href: "https://www.cssportal.com/html-tags/tag-fieldset.php",
+          description:
+            "This <fieldset> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<fieldset>",
+          items: [],
+        },
+        {
+          title: "<figcaption>",
+          href: "https://www.cssportal.com/html-tags/tag-figcaption.php",
+          description:
+            "This <figcaption> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<figcaption>",
+          items: [],
+        },
+        {
+          title: "<figure>",
+          href: "https://www.cssportal.com/html-tags/tag-figure.php",
+          description:
+            "This <figure> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<figure>",
+          items: [],
+        },
+        {
+          title: "<footer>",
+          href: "https://www.cssportal.com/html-tags/tag-footer.php",
+          description:
+            "This <footer> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<footer>",
+          items: [],
+        },
+        {
+          title: "<form>",
+          href: "https://www.cssportal.com/html-tags/tag-form.php",
+          description:
+            "This <form> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<form>",
+          items: [],
+        },
+        {
+          title: "<h1>",
+          href: "https://www.cssportal.com/html-tags/tag-h1.php",
+          description:
+            "This <h1> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h1>",
+          items: [],
+        },
+        {
+          title: "<h2>",
+          href: "https://www.cssportal.com/html-tags/tag-h2.php",
+          description:
+            "This <h2> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h2>",
+          items: [],
+        },
+        {
+          title: "<h3>",
+          href: "https://www.cssportal.com/html-tags/tag-h3.php",
+          description:
+            "This <h3> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h3>",
+          items: [],
+        },
+        {
+          title: "<h4>",
+          href: "https://www.cssportal.com/html-tags/tag-h4.php",
+          description:
+            "This <h4> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h4>",
+          items: [],
+        },
+        {
+          title: "<h5>",
+          href: "https://www.cssportal.com/html-tags/tag-h5.php",
+          description:
+            "This <h5> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h5>",
+          items: [],
+        },
+        {
+          title: "<h6>",
+          href: "https://www.cssportal.com/html-tags/tag-h6.php",
+          description:
+            "This <h6> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<h6>",
+          items: [],
+        },
+        {
+          title: "<head>",
+          href: "https://www.cssportal.com/html-tags/tag-head.php",
+          description:
+            "This <head> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<head>",
+          items: [],
+        },
+        {
+          title: "<header>",
+          href: "https://www.cssportal.com/html-tags/tag-header.php",
+          description:
+            "This <header> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<header>",
+          items: [],
+        },
+        {
+          title: "<hr>",
+          href: "https://www.cssportal.com/html-tags/tag-hr.php",
+          description:
+            "This <hr> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<hr>",
+          items: [],
+        },
+        {
+          title: "<html>",
+          href: "https://www.cssportal.com/html-tags/tag-html.php",
+          description:
+            "This <html> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<html>",
+          items: [],
+        },
+        {
+          title: "<i>",
+          href: "https://www.cssportal.com/html-tags/tag-i.php",
+          description:
+            "This <i> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<i>",
+          items: [],
+        },
+        {
+          title: "<iframe>",
+          href: "https://www.cssportal.com/html-tags/tag-iframe.php",
+          description:
+            "This <iframe> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<iframe>",
+          items: [],
+        },
+        {
+          title: "<img>",
+          href: "https://www.cssportal.com/html-tags/tag-img.php",
+          description:
+            "This <img> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<img>",
+          items: [],
+        },
+        {
+          title: "<input>",
+          href: "https://www.cssportal.com/html-tags/tag-input.php",
+          description:
+            "This <input> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<input>",
+          items: [],
+        },
+        {
+          title: "<ins>",
+          href: "https://www.cssportal.com/html-tags/tag-ins.php",
+          description:
+            "This <ins> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<ins>",
+          items: [],
+        },
+        {
+          title: "<kbd>",
+          href: "https://www.cssportal.com/html-tags/tag-kbd.php",
+          description:
+            "This <kbd> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<kbd>",
+          items: [],
+        },
+        {
+          title: "<keygen>",
+          href: "https://www.cssportal.com/html-tags/tag-keygen.php",
+          description:
+            "This <keygen> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<keygen>",
+          items: [],
+        },
+        {
+          title: "<label>",
+          href: "https://www.cssportal.com/html-tags/tag-label.php",
+          description:
+            "This <label> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<label>",
+          items: [],
+        },
+        {
+          title: "<legend>",
+          href: "https://www.cssportal.com/html-tags/tag-legend.php",
+          description:
+            "This <legend> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<legend>",
+          items: [],
+        },
+        {
+          title: "<li>",
+          href: "https://www.cssportal.com/html-tags/tag-li.php",
+          description:
+            "This <li> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<li>",
+          items: [],
+        },
+        {
+          title: "<link>",
+          href: "https://www.cssportal.com/html-tags/tag-link.php",
+          description:
+            "This <link> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<link>",
+          items: [],
+        },
+        {
+          title: "<map>",
+          href: "https://www.cssportal.com/html-tags/tag-map.php",
+          description:
+            "This <map> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<map>",
+          items: [],
+        },
+        {
+          title: "<mark>",
+          href: "https://www.cssportal.com/html-tags/tag-mark.php",
+          description:
+            "This <mark> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<mark>",
+          items: [],
+        },
+        {
+          title: "<menu>",
+          href: "https://www.cssportal.com/html-tags/tag-menu.php",
+          description:
+            "This <menu> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<menu>",
+          items: [],
+        },
+        {
+          title: "<meta>",
+          href: "https://www.cssportal.com/html-tags/tag-meta.php",
+          description:
+            "This <meta> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<meta>",
+          items: [],
+        },
+        {
+          title: "<meter>",
+          href: "https://www.cssportal.com/html-tags/tag-meter.php",
+          description:
+            "This <meter> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<meter>",
+          items: [],
+        },
+        {
+          title: "<nav>",
+          href: "https://www.cssportal.com/html-tags/tag-nav.php",
+          description:
+            "This <nav> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<nav>",
+          items: [],
+        },
+        {
+          title: "<noscript>",
+          href: "https://www.cssportal.com/html-tags/tag-noscript.php",
+          description:
+            "This <noscript> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<noscript>",
+          items: [],
+        },
+        {
+          title: "<object>",
+          href: "https://www.cssportal.com/html-tags/tag-object.php",
+          description:
+            "This <object> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<object>",
+          items: [],
+        },
+        {
+          title: "<ol>",
+          href: "https://www.cssportal.com/html-tags/tag-ol.php",
+          description:
+            "This <ol> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<ol>",
+          items: [],
+        },
+        {
+          title: "<optgroup>",
+          href: "https://www.cssportal.com/html-tags/tag-optgroup.php",
+          description:
+            "This <optgroup> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<optgroup>",
+          items: [],
+        },
+        {
+          title: "<option>",
+          href: "https://www.cssportal.com/html-tags/tag-option.php",
+          description:
+            "This <option> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<option>",
+          items: [],
+        },
+        {
+          title: "<output>",
+          href: "https://www.cssportal.com/html-tags/tag-output.php",
+          description:
+            "This <output> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<output>",
+          items: [],
+        },
+        {
+          title: "<p>",
+          href: "https://www.cssportal.com/html-tags/tag-p.php",
+          description:
+            "This <p> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<p>",
+          items: [],
+        },
+        {
+          title: "<param>",
+          href: "https://www.cssportal.com/html-tags/tag-param.php",
+          description:
+            "This <param> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<param>",
+          items: [],
+        },
+        {
+          title: "<picture>",
+          href: "https://www.cssportal.com/html-tags/tag-picture.php",
+          description:
+            "This <picture> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<picture>",
+          items: [],
+        },
+        {
+          title: "<pre>",
+          href: "https://www.cssportal.com/html-tags/tag-pre.php",
+          description:
+            "This <pre> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<pre>",
+          items: [],
+        },
+        {
+          title: "<progress>",
+          href: "https://www.cssportal.com/html-tags/tag-progress.php",
+          description:
+            "This <progress> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<progress>",
+          items: [],
+        },
+        {
+          title: "<q>",
+          href: "https://www.cssportal.com/html-tags/tag-q.php",
+          description:
+            "This <q> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<q>",
+          items: [],
+        },
+        {
+          title: "<rp>",
+          href: "https://www.cssportal.com/html-tags/tag-rp.php",
+          description:
+            "This <rp> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<rp>",
+          items: [],
+        },
+        {
+          title: "<rt>",
+          href: "https://www.cssportal.com/html-tags/tag-rt.php",
+          description:
+            "This <rt> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<rt>",
+          items: [],
+        },
+        {
+          title: "<ruby>",
+          href: "https://www.cssportal.com/html-tags/tag-ruby.php",
+          description:
+            "This <ruby> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<ruby>",
+          items: [],
+        },
+        {
+          title: "<s>",
+          href: "https://www.cssportal.com/html-tags/tag-s.php",
+          description:
+            "This <s> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<s>",
+          items: [],
+        },
+        {
+          title: "<samp>",
+          href: "https://www.cssportal.com/html-tags/tag-samp.php",
+          description:
+            "This <samp> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<samp>",
+          items: [],
+        },
+        {
+          title: "<script>",
+          href: "https://www.cssportal.com/html-tags/tag-script.php",
+          description:
+            "This <script> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<script>",
+          items: [],
+        },
+        {
+          title: "<section>",
+          href: "https://www.cssportal.com/html-tags/tag-section.php",
+          description:
+            "This <section> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<section>",
+          items: [],
+        },
+        {
+          title: "<select>",
+          href: "https://www.cssportal.com/html-tags/tag-select.php",
+          description:
+            "This <select> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<select>",
+          items: [],
+        },
+        {
+          title: "<small>",
+          href: "https://www.cssportal.com/html-tags/tag-small.php",
+          description:
+            "This <small> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<small>",
+          items: [],
+        },
+        {
+          title: "<source>",
+          href: "https://www.cssportal.com/html-tags/tag-source.php",
+          description:
+            "This <source> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<source>",
+          items: [],
+        },
+        {
+          title: "<span>",
+          href: "https://www.cssportal.com/html-tags/tag-span.php",
+          description:
+            "This <span> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<span>",
+          items: [],
+        },
+        {
+          title: "<strong>",
+          href: "https://www.cssportal.com/html-tags/tag-strong.php",
+          description:
+            "This <strong> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<strong>",
+          items: [],
+        },
+        {
+          title: "<style>",
+          href: "https://www.cssportal.com/html-tags/tag-style.php",
+          description:
+            "This <style> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<style>",
+          items: [],
+        },
+        {
+          title: "<sub>",
+          href: "https://www.cssportal.com/html-tags/tag-sub.php",
+          description:
+            "This <sub> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<sub>",
+          items: [],
+        },
+        {
+          title: "<summary>",
+          href: "https://www.cssportal.com/html-tags/tag-summary.php",
+          description:
+            "This <summary> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<summary>",
+          items: [],
+        },
+        {
+          title: "<sup>",
+          href: "https://www.cssportal.com/html-tags/tag-sup.php",
+          description:
+            "This <sup> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<sup>",
+          items: [],
+        },
+        {
+          title: "<table>",
+          href: "https://www.cssportal.com/html-tags/tag-table.php",
+          description:
+            "This <table> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<table>",
+          items: [],
+        },
+        {
+          title: "<tbody>",
+          href: "https://www.cssportal.com/html-tags/tag-tbody.php",
+          description:
+            "This <tbody> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<tbody>",
+          items: [],
+        },
+        {
+          title: "<td>",
+          href: "https://www.cssportal.com/html-tags/tag-td.php",
+          description:
+            "This <td> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<td>",
+          items: [],
+        },
+        {
+          title: "<textarea>",
+          href: "https://www.cssportal.com/html-tags/tag-textarea.php",
+          description:
+            "This <textarea> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<textarea>",
+          items: [],
+        },
+        {
+          title: "<tfoot>",
+          href: "https://www.cssportal.com/html-tags/tag-tfoot.php",
+          description:
+            "This <tfoot> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<tfoot>",
+          items: [],
+        },
+        {
+          title: "<th>",
+          href: "https://www.cssportal.com/html-tags/tag-th.php",
+          description:
+            "This <th> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<th>",
+          items: [],
+        },
+        {
+          title: "<thead>",
+          href: "https://www.cssportal.com/html-tags/tag-thead.php",
+          description:
+            "This <thead> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<thead>",
+          items: [],
+        },
+        {
+          title: "<time>",
+          href: "https://www.cssportal.com/html-tags/tag-time.php",
+          description:
+            "This <time> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<time>",
+          items: [],
+        },
+        {
+          title: "<title>",
+          href: "https://www.cssportal.com/html-tags/tag-title.php",
+          description:
+            "This <title> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<title>",
+          items: [],
+        },
+        {
+          title: "<tr>",
+          href: "https://www.cssportal.com/html-tags/tag-tr.php",
+          description:
+            "This <tr> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<tr>",
+          items: [],
+        },
+        {
+          title: "<track>",
+          href: "https://www.cssportal.com/html-tags/tag-track.php",
+          description:
+            "This <track> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<track>",
+          items: [],
+        },
+        {
+          title: "<u>",
+          href: "https://www.cssportal.com/html-tags/tag-u.php",
+          description:
+            "This <u> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<u>",
+          items: [],
+        },
+        {
+          title: "<ul>",
+          href: "https://www.cssportal.com/html-tags/tag-ul.php",
+          description:
+            "This <ul> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<ul>",
+          items: [],
+        },
+        {
+          title: "<var>",
+          href: "https://www.cssportal.com/html-tags/tag-var.php",
+          description:
+            "This <var> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<var>",
+          items: [],
+        },
+        {
+          title: "<video>",
+          href: "https://www.cssportal.com/html-tags/tag-video.php",
+          description:
+            "This <video> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<video>",
+          items: [],
+        },
+        {
+          title: "<wbr>",
+          href: "https://www.cssportal.com/html-tags/tag-wbr.php",
+          description:
+            "This <wbr> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<wbr>",
+          items: [],
+        },
+        {
+          title: "Donations",
+          href: "https://www.cssportal.com/donate.php",
+          description:
+            "This Donations generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/donations",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.cssportal.com/",
+          description: "This  generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/",
+          items: [],
+        },
+        {
+          title: "HTML Tags",
+          href: "https://www.cssportal.com/html-tags/",
+          description:
+            "This HTML Tags generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/htmltags",
+          items: [],
+        },
+        {
+          title: "<a>",
+          href: "https://www.cssportal.com/html-tags/tag-a.php",
+          description:
+            "This <a> generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/<a>",
+          items: [],
+        },
+        {
+          title: "Global Attributes in HTML5",
+          href: "https://www.cssportal.com/html-global-attributes/",
+          description:
+            "This Global Attributes in HTML5 generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/globalattributesinhtml5",
+          items: [],
+        },
+        {
+          title: "Event Attributes in HTML5",
+          href: "https://www.cssportal.com/html-event-attributes/",
+          description:
+            "This Event Attributes in HTML5 generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/eventattributesinhtml5",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.cssportal.com%2Fhtml-tags%2Ftag-a.php&t=HTML%20%3Ca%3E%20Tag%20-%20CSSPortal.com",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://twitter.com/intent/tweet?text=HTML%20%3Ca%3E%20Tag%20-%20CSSPortal.com%20-%20https%3A%2F%2Fwww.cssportal.com%2Fhtml-tags%2Ftag-a.php%20",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.google.com/bookmarks/mark?op=edit&bkmk=https%3A%2F%2Fwww.cssportal.com%2Fhtml-tags%2Ftag-a.php&title=HTML%20%3Ca%3E%20Tag%20-%20CSSPortal.com&annotation=",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://reddit.com/submit?url=https%3A%2F%2Fwww.cssportal.com%2Fhtml-tags%2Ftag-a.php&title=HTML%20%3Ca%3E%20Tag%20-%20CSSPortal.com",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.cssportal.com%2Fhtml-tags%2Ftag-a.php&title=HTML%20%3Ca%3E%20Tag%20-%20CSSPortal.com&summary=",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
+        },
+        {
+          title:
+            "Turn Website into App - Convert your website into an app for Android and iOS. Updates automatically.",
+          href: "https://webtoapp.design/?utm_source=cssportal&utm_medium=banner&utm_campaign=cssportal_banner",
+          description:
+            "This Turn Website into App - Convert your website into an app for Android and iOS. Updates automatically. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/turnwebsiteintoapp-convertyourwebsiteintoanappforandroidandios.updatesautomatically.",
+          items: [],
+        },
+        {
+          title:
+            "Unicode Characters & Emojis - Search all Unicode characters and emojis plus other tools.",
+          href: "https://www.charactercodes.net/",
+          description:
+            "This Unicode Characters & Emojis - Search all Unicode characters and emojis plus other tools. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/unicodecharacters&emojis-searchallunicodecharactersandemojisplusothertools.",
+          items: [],
+        },
+        {
+          title:
+            "Learn Wordpress - Wordpress hosting. Theme and plugin reviews. Wordpress development tips.",
+          href: "https://zuziko.com/",
+          description:
+            "This Learn Wordpress - Wordpress hosting. Theme and plugin reviews. Wordpress development tips. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/learnwordpress-wordpresshosting.themeandpluginreviews.wordpressdevelopmenttips.",
+          items: [],
+        },
+        {
+          title:
+            "Templatic - Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips.",
+          href: "https://www.templatic.com/",
+          description:
+            "This Templatic - Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/templatic-wordpressthemes,cloudhosting,backupsandwebmastertips.",
+          items: [],
+        },
+        {
+          title:
+            "A2 Web Hosting - Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting.",
+          href: "https://www.a2hosting.com/web-hosting?utm_campaign=grassroots&utm_medium=nner&utm_source=cssportal.com",
+          description:
+            "This A2 Web Hosting - Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/a2webhosting-sharedhosting,resellerhosting,cloudhosting,dedicatedhosting.",
+          items: [],
+        },
+        {
+          title:
+            "Online Password Manager - Access your passwords from any computer, no need to remember all of your passwords.",
+          href: "https://www.passwordpal.net/",
+          description:
+            "This Online Password Manager - Access your passwords from any computer, no need to remember all of your passwords. generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/onlinepasswordmanager-accessyourpasswordsfromanycomputer,noneedtorememberallofyourpasswords.",
+          items: [],
+        },
+        {
+          title: "Advertise Here - Advertise your company and products here!",
+          href: "https://www.cssportal.com/advertise.php",
+          description:
+            "This Advertise Here - Advertise your company and products here! generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo:
+            "https://github.com/advertisehere-advertiseyourcompanyandproductshere!",
+          items: [],
+        },
+        {
+          title: "Privacy Policy",
+          href: "https://www.cssportal.com/privacy.php",
+          description:
+            "This Privacy Policy generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/privacypolicy",
+          items: [],
+        },
+        {
+          title: "Contact Us",
+          href: "https://www.cssportal.com/contact.php",
+          description:
+            "This Contact Us generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/contactus",
+          items: [],
+        },
+        {
+          title: "Donations",
+          href: "https://www.cssportal.com/donate.php",
+          description:
+            "This Donations generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/donations",
+          items: [],
+        },
+        {
+          title: "not provided",
+          href: "javascript:void(0);",
+          description:
+            "This not provided generator is one of the hard work from cssPortal",
+          website_url: "https://www.cssportal.com/",
+          github_repo: "https://github.com/notprovided",
+          items: [],
         },
       ],
     },
