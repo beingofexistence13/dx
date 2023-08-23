@@ -20845,6 +20845,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Ai
     {
       title: "Ai",
       items: [
@@ -20928,6 +20929,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Databases
     {
       title: "Databases",
       items: [
@@ -21077,6 +21079,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Backends
     {
       title: "Backends",
       items: [
@@ -21130,6 +21133,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Hosting
     {
       title: "Hosting Platforms",
       items: [
@@ -21213,6 +21217,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Testing Libraries
     {
       title: "Testing Libraries",
       items: [
@@ -21273,6 +21278,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Packages
     {
       title: "Packages",
       items: [
@@ -21320,6 +21326,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Others
     {
       title: "Others",
       items: [
