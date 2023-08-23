@@ -45764,3 +45764,10 @@ generators.map((statergies, index) => {
 //   }, index * 5) // delay of 1 second
 // })
 console.log(generators.length)
+
+
+
+
+
+
+
