@@ -45,36 +45,37 @@ export default function NotFound() {
       // } else {
       //   console.log("No match found")
       // }
-      const inputString = "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io/gfhddfgh";
+      const inputString =
+        "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io/gfhddfgh"
 
       // Use a regular expression to match the desired pattern
-      
+
       // Replace the input string with the matched pattern
-      const result = origin.replace(/^(https:\/\/[^/]+)\//g,"");
-      
-      console.log(result);
-      
-        // const extractedUrl = result[1]
-        // console.log(result) // This will print "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io"
-        // const match = origin.replace(result, "")
-        const generateErrorMessage = (input: string) => {
-          const parts = input.split("/") // Split the input string by "/"
+      const result = origin.replace(/^(https:\/\/[^/]+)\//g, "")
 
-          if (parts.length < 2) {
-            return "Invalid input format"
-          }
+      console.log(result)
 
-          const targetPage = parts.pop() // Get the last part as the target page
-          const parameters = parts.join("~") // Join the remaining parts with "~" as parameters
+      // const extractedUrl = result[1]
+      // console.log(result) // This will print "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io"
+      // const match = origin.replace(result, "")
+      const generateErrorMessage = (input: string) => {
+        const parts = input.split("/") // Split the input string by "/"
 
-          return `parameter ${parameters} has no page such as ${targetPage} in it`
+        if (parts.length < 2) {
+          return "Invalid input format"
         }
 
-        const errorMessage = generateErrorMessage(result)
+        const targetPage = parts.pop() // Get the last part as the target page
+        const parameters = parts.join("~") // Join the remaining parts with "~" as parameters
 
-        console.log(errorMessage)
-        setUrls(errorMessage)
-  
+        return `parameter ${parameters} has no page such as ${targetPage} in it`
+      }
+
+      const errorMessage = generateErrorMessage(result)
+
+      console.log(errorMessage)
+      setUrls(errorMessage)
+
       // const url = `${match}`
       // console.log(origin)
     }
@@ -84,26 +85,21 @@ export default function NotFound() {
   return (
     <div className="flex min-h-screen w-full items-center justify-center border-r">
       <div className="flex flex-col items-center justify-center">
-      <div className="m-0 rounded-md border p-5 text-lg font-bold">
-        {`This ${urls} maybe it 
+        <div className="m-0 rounded-md border p-5 text-lg font-bold">
+          {`This ${urls} maybe it 
       is in devlopment(coming soon!!!)`}
-      </div>
-      <div className="flex h-full w-full items-end justify-between pt-3">
-        <Link
-
-          href="/"
-          className={cn(buttonVariants({ variant: "outline" }))}
-        >
-          Dashboard
-        </Link>
-        <Link
-
-          href="/docs"
-          className={cn(buttonVariants({ variant: "outline" }))}
-        >
-          Docs
-        </Link>
-      </div>
+        </div>
+        <div className="flex h-full w-full items-end justify-between pt-3">
+          <Link href="/" className={cn(buttonVariants({ variant: "outline" }))}>
+            Dashboard
+          </Link>
+          <Link
+            href="/docs"
+            className={cn(buttonVariants({ variant: "outline" }))}
+          >
+            Docs
+          </Link>
+        </div>
       </div>
     </div>
   )

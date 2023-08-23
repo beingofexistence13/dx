@@ -64,9 +64,11 @@ export function DocsSidebarNavItems({
 }: DocsSidebarNavItemsProps) {
   // const [descriptions, setDescriptions] = useState({});
   const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({})
-  const [emoji, setEmoji] = useState<string>("");
-  const emojis = useMemo(() => ["😀", "😂", "😍", "🤔", "🙄", "😴", "🤢", "🤯", "🥳", "🤩"], []);
-
+  const [emoji, setEmoji] = useState<string>("")
+  const emojis = useMemo(
+    () => ["😀", "😂", "😍", "🤔", "🙄", "😴", "🤢", "🤯", "🥳", "🤩"],
+    []
+  )
 
   async function generateDescription(title: any) {
     const prompt = `Generate a unique and creative description for ${title}`
