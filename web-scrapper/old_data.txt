@@ -7036,3 +7036,191 @@
 // let solana_wallets = []
 // let cosmos_wallets = []
 // let passport_statergies
+
+
+
+
+     // if (response.status === 200) {
+        //   const html = response.data
+        //   let dom = new JSDOM(html)
+        //   let document = dom.window.document
+
+        //   let description = document.querySelector(
+        //     "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
+        //   ).textContent
+        //   let website_url = document.querySelector(
+        //     ".styles_linkContainer__LpFnL a"
+        //   ).href
+        //   let other_url_container = document.querySelector(
+        //     ".styles_linkContainer__LpFnL"
+        //   )
+        //   const appStoreRegex = /https:\/\/apps\.apple\.com\/([^"]+)/
+        //   const googlePlayStoreRegex =
+        //     /https:\/\/play\.google\.com\/store\/apps\/([^"]+)/
+        //   const chromeWebStoreRegex =
+        //     /https:\/\/chrome\.google\.com\/webstore\/([^"]+)/
+
+        //   const appStoreMatch = other_url_container.match(appStoreRegex)
+        //   const googlePlayStoreMatch =
+        //     other_url_container.match(googlePlayStoreRegex)
+        //   const chromeWebStoreMatch =
+        //     other_url_container.match(chromeWebStoreRegex)
+        //   appStore_url = appStoreMatch ? appStoreMatch[1] : "id1456732565/"
+        //   googleplayStore_url = googlePlayStoreMatch
+        //     ? googlePlayStoreMatch[1]
+        //     : "details?id=io.zerion.android&hl=en&gl=US/"
+        //   chromewebStore_url = chromeWebStoreMatch
+        //     ? chromeWebStoreMatch[1]
+        //     : "detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+
+        //   result = `{
+        //     title:"${statergies.title}",
+        //     description:"${description}",
+        //     website_url:"${website_url}",
+        //     github_repo:"${`https://github.com/${github_title_formated}`}",
+        //     appStore_url:"https://apps.apple.com/app/${appStore_url}"
+        //     googleplayStore_url:"https://play.google.com/store/apps/${googleplayStore_url}"
+        //     chromewebStore_url:"https://chrome.google.com/webstore/${chromewebStore_url}"
+        //     items:[]
+        //   },`
+        //   console.log(result)
+        // } else {
+        //   errorPage.push({ page: statergies.title })
+        //   console.error(`
+        //   {
+        //       title:"${statergies.title}",
+        //       description:"${statergies.title} Status Error",
+        //       website_url:"https://${statergies.title}.com",
+        //       github_repo:"${`https://github.com/${github_title_formated}`}",
+        //       appStore_url:"https://apps.apple.com/app/id1456732565/"
+        //       googleplayStore_url:"https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/"
+        //       chromewebStore_url:"https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+        //       items:[]
+        //   },`)
+        // }
+        // const html = response.data
+        // let dom = new JSDOM(html)
+        // let document = dom.window.document
+        // console.log(document.querySelector(
+        //   "div.styles_wrapper__rE1Uh p.styles_text__LlfBJ"
+        // ).textContent)
+
+
+
+      // let appStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(2)"
+        // ).href ? document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(2)"
+        // ).href : "https://apps.apple.com/app/id1456732565/";
+        // let googleplayStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(3)"
+        // ).href ? document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(3)"
+        // ).href : "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/";
+        // let chromewebStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(4)"
+        // ).href ? document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(4)"
+        // ).href : "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/";
+        // let appStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(2)"
+        // ).href || "https://apps.apple.com/app/id1456732565/";
+        // let googleplayStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(3)"
+        // ).href || "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/";
+        // let chromewebStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(4)"
+        // ).href || "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/";
+        // let website_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a"
+        // ).href
+        // let other_url_container = document.querySelector(
+        //   ".styles_linkContainer__LpFnL"
+        // )
+
+
+
+        // let appStore_url = "https://apps.apple.com/app/id1456732565/";
+        // let googleplayStore_url = "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/";
+        // let chromewebStore_url = "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/";
+
+
+        
+
+        // let appStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(2)"
+        // ).href
+        // let googleplayStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(3)"
+        // ).href
+        // let chromewebStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a:nth-child(4)"
+        // ).href
+        // let website_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a"
+        // ).href
+        // let other_url_container = document.querySelector(
+        //   ".styles_linkContainer__LpFnL"
+        // )
+        // const appStoreRegex = /https:\/\/apps\.apple\.com\/([^"]+)/
+        // const googlePlayStoreRegex =
+        //   /https:\/\/play\.google\.com\/store\/apps\/([^"]+)/
+        // const chromeWebStoreRegex =
+        //   /https:\/\/chrome\.google\.com\/webstore\/([^"]+)/
+
+        // const appStoreMatch = other_url_container.match(appStoreRegex) ? other_url_container.match(appStoreRegex)  : "id1456732565/"
+        // const googlePlayStoreMatch =
+        //   other_url_container.match(googlePlayStoreRegex)
+        // const chromeWebStoreMatch =
+        //   other_url_container.match(chromeWebStoreRegex)
+        // let appStore_url = document.querySelector(
+        //   ".styles_linkContainer__LpFnL a"
+        // ).href
+        // let googleplayStore_url = googlePlayStoreMatch
+        //   ? googlePlayStoreMatch[1]
+        //   : "details?id=io.zerion.android&hl=en&gl=US/"
+        // let chromewebStore_url = chromeWebStoreMatch
+        //   ? chromeWebStoreMatch[1]
+        //   : "detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+
+
+        // let appStore_url = "details?id=io.zerion.android&hl=en&gl=US/"
+        // let googleplayStore_url = "details?id=io.zerion.android&hl=en&gl=US/"
+        // let chromewebStore_url =
+        //   "detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/"
+        // let appStoreElement = document.querySelector(".styles_linkContainer__LpFnL a:nth-child(2)");
+        // let googlePlayStoreElement = document.querySelector(".styles_linkContainer__LpFnL a:nth-child(3)");
+        // let chromeWebStoreElement = document.querySelector(".styles_linkContainer__LpFnL a:nth-child(4)");
+
+        // let appStore_url = appStoreElement ? appStoreElement.href : undefined;
+        // let googleplayStore_url = googlePlayStoreElement ? googlePlayStoreElement.href : undefined;
+        // let chromewebStore_url = chromeWebStoreElement ? chromeWebStoreElement.href : undefined;
+
+        // if (appStore_url) {
+        //   console.log("appStore_url exists:", appStore_url);
+        // } else {
+        //   console.log("appStore_url does not exist");
+        // }
+
+        // if (googleplayStore_url) {
+        //   console.log("googleplayStore_url exists:", googleplayStore_url);
+        // } else {
+        //   console.log("googleplayStore_url does not exist");
+        // }
+
+        // if (chromewebStore_url) {
+        //   console.log("chromewebStore_url exists:", chromewebStore_url);
+        // } else {
+        //   console.log("chromewebStore_url does not exist");
+        // }
+
+        // result = `{
+        //     title:"${statergies.title}",
+        //     description:"${description}",
+        //     website_url:"${website_url}",
+        //     github_repo:"${`https://github.com/${github_title_formated}`}",
+        //     appStore_url:"${appStore_url}"
+        //     googleplayStore_url:"${googleplayStore_url}"
+        //     chromewebStore_url:"${chromewebStore_url}"
+        //     items:[]
+        //   },`

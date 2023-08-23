@@ -1369,2049 +1369,3798 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
-    
     {
       title: "Hack(Evm Wallets)",
       items: [
         {
           title: "MetaMask",
-          href: "docs/hack(evm-wallets)/MetaMask",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5195e9db-94d8-4579-6f11-ef553be95100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description:
+            "Whether you are an experienced user or brand new to blockchain, MetaMask helps you connect to the decentralized web: a new internet.",
+          website_url: "https://metamask.io/",
+          github_repo: "https://github.com/metamask",
+          appStore_url: "https://apps.apple.com/us/app/metamask/id1438144202",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.metamask",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn",
           items: [],
         },
         {
           title: "Trust Wallet",
-          href: "docs/hack(evm-wallets)/Trust Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0528ee7e-16d1-4089-21e3-bbfb41933100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description:
+            "Trust Wallet supports over 8 Million tokens including Ethereum, Solana, Polygon Matic, BNB, and Avalanche.",
+          website_url: "https://trustwallet.com/",
+          github_repo: "https://github.com/trustwallet",
+          appStore_url: "https://apps.apple.com/app/apple-store/id1288339409",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/trust-wallet/egjidjbpglichdcondbcbdnbeeppgdph",
           items: [],
         },
         {
-          title: "Safe",
-          href: "docs/hack(evm-wallets)/Safe",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3913df81-63c2-4413-d60b-8ff83cbed500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Rainbow",
-          href: "docs/hack(evm-wallets)/Rainbow",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a33d7f1-3d12-4b5c-f3ee-5cd83cb1b500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Uniswap Wallet",
-          href: "docs/hack(evm-wallets)/Uniswap Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bff9cf1f-df19-42ce-f62a-87f04df13c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Zerion",
-          href: "docs/hack(evm-wallets)/Zerion",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/73f6f52f-7862-49e7-bb85-ba93ab72cc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "imToken",
-          href: "docs/hack(evm-wallets)/imToken",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/99520548-525c-49d7-fb2f-5db65293b000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Argent",
-          href: "docs/hack(evm-wallets)/Argent",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/215158d2-614b-49c9-410f-77aa661c3900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Spot",
-          href: "docs/hack(evm-wallets)/Spot",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1bf33a89-b049-4a1c-d1f6-4dd7419ee400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Omni",
-          href: "docs/hack(evm-wallets)/Omni",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2cd67b4c-282b-4809-e7c0-a88cd5116f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Crypto.com | DeFi Wallet",
-          href: "docs/hack(evm-wallets)/Crypto.com | DeFi Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c5ff577-a68d-49c5-02cd-3d83637b0b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "OKX Wallet",
-          href: "docs/hack(evm-wallets)/OKX Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/45f2f08e-fc0c-4d62-3e63-404e72170500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "TokenPocket",
-          href: "docs/hack(evm-wallets)/TokenPocket",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f3119826-4ef5-4d31-4789-d4ae5c18e400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Robinhood Wallet",
-          href: "docs/hack(evm-wallets)/Robinhood Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dfe0e3e3-5746-4e2b-12ad-704608531500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Frontier",
-          href: "docs/hack(evm-wallets)/Frontier",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a78c4d48-32c1-4a9d-52f2-ec7ee08ce200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Crypto.com",
+          description: "Crypto.com Try Catch Error",
+          website_url: "https://Crypto.com.com",
+          github_repo: "https://github.com/crypto.com",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Blockchain.com",
-          href: "docs/hack(evm-wallets)/Blockchain.com",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6f913b80-86c0-46f9-61ca-cc90a1805900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SafePal",
-          href: "docs/hack(evm-wallets)/SafePal",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/252753e7-b783-4e03-7f77-d39864530900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "BitKeep",
-          href: "docs/hack(evm-wallets)/BitKeep",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3f7075d0-4ab7-4db5-404d-3e4c05e6fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Zengo Wallet",
-          href: "docs/hack(evm-wallets)/Zengo Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6133c399-ae32-4eba-0c5a-0fb84492bf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Blockchain.com Try Catch Error",
+          website_url: "https://Blockchain.com.com",
+          github_repo: "https://github.com/blockchain.com",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "1inch Wallet",
-          href: "docs/hack(evm-wallets)/1inch Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/52b1da3c-9e72-40ae-5dac-6142addd9c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Binance DeFi Wallet",
-          href: "docs/hack(evm-wallets)/Binance DeFi Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ebac7b39-688c-41e3-7912-a4fefba74600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Exodus",
-          href: "docs/hack(evm-wallets)/Exodus",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4c16cad4-cac9-4643-6726-c696efaf5200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ledger Live",
-          href: "docs/hack(evm-wallets)/Ledger Live",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7f416de-aa03-4c5e-3280-ab49269aef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MEW wallet",
-          href: "docs/hack(evm-wallets)/MEW wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e2024511-2c9b-46d7-3111-52df3d241700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "AlphaWallet",
-          href: "docs/hack(evm-wallets)/AlphaWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5b1cddfb-056e-4e78-029a-54de5d70c500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "KEYRING PRO",
-          href: "docs/hack(evm-wallets)/KEYRING PRO",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dda0f0fb-34e8-4a57-dcea-b008e7d1ff00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "LOBSTR Wallet",
-          href: "docs/hack(evm-wallets)/LOBSTR Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0dafcaab-0852-47f7-85dd-436b86491d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ONTO",
-          href: "docs/hack(evm-wallets)/ONTO",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d22b2a4b-5562-49ba-506b-6d5986914600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MathWallet",
-          href: "docs/hack(evm-wallets)/MathWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/26a8f588-3231-4411-60ce-5bb6b805a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Obvious",
-          href: "docs/hack(evm-wallets)/Obvious",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fe1b9394-55af-4828-a70d-5c5b7de6b200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Fireblocks",
-          href: "docs/hack(evm-wallets)/Fireblocks",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7e1514ba-932d-415d-1bdb-bccb6c2cbc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ambire Wallet",
-          href: "docs/hack(evm-wallets)/Ambire Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c39b3a16-1a38-4588-f089-cb7aeb584700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Infinity Wallet",
-          href: "docs/hack(evm-wallets)/Infinity Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f259366-0bcd-4817-0af9-f78773e41900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "1inch Wallet Try Catch Error",
+          website_url: "https://1inch Wallet.com",
+          github_repo: "https://github.com/1inchwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Bridge Wallet",
-          href: "docs/hack(evm-wallets)/Bridge Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/20c3072e-c92e-4902-d4b9-cb2b6ab29100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Bridge Wallet Try Catch Error",
+          website_url: "https://Bridge Wallet.com",
+          github_repo: "https://github.com/bridgewallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Internet Money Wallet",
-          href: "docs/hack(evm-wallets)/Internet Money Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/204b2240-5ce4-4996-6ec4-f06a22726900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Rainbow",
+          description:
+            "Rainbow is a fun, simple, and secure way to get started with crypto and explore the new world of Ethereum",
+          website_url: "https://rainbow.me/",
+          github_repo: "https://github.com/rainbow",
+          appStore_url:
+            "https://apps.apple.com/app/rainbow-ethereum-wallet/id1457119021",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=me.rainbow",
+          chromewebStore_url: "https://rainbow.me/extension",
           items: [],
         },
         {
-          title: "NOW Wallet",
-          href: "docs/hack(evm-wallets)/NOW Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b6ee4efc-f53e-475b-927b-a7ded6211700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Argent",
+          description:
+            "Buy, earn, stake and trade on Ethereum Layer 2 with low fees & bulletproof security.",
+          website_url: "https://www.argent.xyz/",
+          github_repo: "https://github.com/argent",
+          appStore_url:
+            "https://apps.apple.com/us/app/argent-defi-in-a-tap/id1358741926",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=im.argent.contractwalletclient&hl=en&gl=US&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Zengo Wallet",
+          description: "Web3, DeFi and Dapp wallet",
+          website_url: "https://zengo.com/",
+          github_repo: "https://github.com/zengowallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/zengo-crypto-bitcoin-wallet/id1440147115",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.zengo.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Safe",
+          description: "The most trusted platform to manage digital assets.",
+          website_url: "https://safe.global/",
+          github_repo: "https://github.com/safe",
+          appStore_url: "https://apps.apple.com/app/id1515759131",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.gnosis.safe",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Robinhood Wallet",
+          description: "Robinhood’s Web3 Wallet",
+          website_url: "https://robinhood.com/web3-wallet/",
+          github_repo: "https://github.com/robinhoodwallet",
+          appStore_url: "https://robinhood.com/web3-wallet/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "LOBSTR Wallet",
+          description:
+            "LOBSTR is a leading platform for managing Stellar Lumens and other assets issued on the Stellar network.",
+          website_url: "https://lobstr.co/",
+          github_repo: "https://github.com/lobstrwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/lobstr-stellar-wallet/id1404357892",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.lobstr.client",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Spot",
+          description:
+            "Spot is a mobile & secure non-custodial wallet for Ethereum, Polygon, Solana, Bitcoin, Tezos & NFTs. Access web3 & DeFi with WalletConnect.",
+          website_url: "https://www.spot-wallet.com/",
+          github_repo: "https://github.com/spot",
+          appStore_url:
+            "https://apps.apple.com/us/app/buy-bitcoin-spot-wallet-app/id1390560448",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.spot.spot",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/spot/pfdaepphglddodhkmcfoefimbcnkipmn",
+          items: [],
+        },
+        {
+          title: "Uniswap Wallet",
+          description:
+            "Built by the most trusted team in DeFi, Uniswap Wallet allows you to maintain full custody and control of your assets. ",
+          website_url: "https://uniswap.org/",
+          github_repo: "https://github.com/uniswapwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/uniswap-wallet/id6443944476",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Ledger Live",
+          description:
+            "Web3 Wallet from the company that produced the world's most secure crypto hardware device.",
+          website_url: "https://www.ledger.com/ledger-live",
+          github_repo: "https://github.com/ledgerlive",
+          appStore_url: "https://itunes.apple.com/app/id1361671700",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.ledger.live",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Zerion",
+          description: "Smart Web3 Wallet",
+          website_url: "https://zerion.io/",
+          github_repo: "https://github.com/zerion",
+          appStore_url: "https://apps.apple.com/app/id1456732565",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl",
+          items: [],
+        },
+        {
+          title: "OKX Wallet",
+          description: "One Web3 portal to rule them all",
+          website_url: "https://www.okx.com/web3",
+          github_repo: "https://github.com/okxwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/okx-buy-bitcoin-eth-crypto/id1327268470",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.okinc.okex.gp",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Binance DeFi Wallet",
+          description:
+            "Binance DeFi Wallet is a keyless, seedless, multi-chain and semi-custody wallet.",
+          website_url: "https://www.binance.com/en/defiwallet",
+          github_repo: "https://github.com/binancedefiwallet",
+          appStore_url: "https://www.binance.com/en/download",
+          googleplayStore_url: "https://www.binance.com/en/download",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "BitKeep",
+          description: "Bitget Wallet",
+          website_url: "https://web3.bitget.com/",
+          github_repo: "https://github.com/bitkeep",
+          appStore_url: "https://web3.bitget.com/en/wallet-download?type=0",
+          googleplayStore_url:
+            "https://web3.bitget.com/en/wallet-download?type=0",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/bitkeep-crypto-nft-wallet/jiidiaalihmmhddjgbnbgdfflelocpak",
+          items: [],
+        },
+        {
+          title: "Exodus",
+          description:
+            "Best Crypto Wallet for Desktop, Mobile, Browser, Hardware",
+          website_url: "https://exodus.com/",
+          github_repo: "https://github.com/exodus",
+          appStore_url:
+            "https://apps.apple.com/us/app/exodus-crypto-bitcoin-wallet/id1414384820",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/exodus-web3-wallet/aholpfdialjgjfhomihkjbmgjidlcdno",
           items: [],
         },
         {
           title: "Bitcoin.com Wallet",
-          href: "docs/hack(evm-wallets)/Bitcoin.com Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0d7938e1-9b3b-4d8b-177b-98188c4cf400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "αU wallet",
-          href: "docs/hack(evm-wallets)/αU wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/58a5b183-4d44-4cdd-22da-e89f49fa4c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Coin98 Super App",
-          href: "docs/hack(evm-wallets)/Coin98 Super App",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fc460647-ea95-447a-99f0-1bff8fa4be00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ABC Wallet",
-          href: "docs/hack(evm-wallets)/ABC Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9854c79-14ba-4987-42e1-4a82abbf5700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ottr Finance",
-          href: "docs/hack(evm-wallets)/Ottr Finance",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7025146c-c341-473f-a79c-62ec48eef800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Arculus Wallet",
-          href: "docs/hack(evm-wallets)/Arculus Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f78dab27-7165-4a3d-fdb1-fcff06c0a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Opera Crypto Browser",
-          href: "docs/hack(evm-wallets)/Opera Crypto Browser",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/877fa1a4-304d-4d45-ca8e-f76d1a556f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cobalt Wallet",
-          href: "docs/hack(evm-wallets)/Cobalt Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/29d914e5-9daa-4342-33cd-169155c5a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Chain",
-          href: "docs/hack(evm-wallets)/Chain",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9f3d8da-e791-47d2-98c2-031712617e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Huddln",
-          href: "docs/hack(evm-wallets)/Huddln",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ba1571c-10c4-4284-b438-04dac27cb700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Verso",
-          href: "docs/hack(evm-wallets)/Verso",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/109d7c90-86ed-4ee0-e17d-3c87624ddf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Jade Wallet",
-          href: "docs/hack(evm-wallets)/Jade Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/280cd57b-24f4-4700-8d53-94fe292fab00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "HaHa",
-          href: "docs/hack(evm-wallets)/HaHa",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/79285c9f-2630-451e-0680-c71b42fb7400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Modular Wallet Prod",
-          href: "docs/hack(evm-wallets)/Modular Wallet Prod",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/70485da2-2568-463d-722c-25082997cc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Kelp",
-          href: "docs/hack(evm-wallets)/Kelp",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/02d9143d-deed-4336-0cae-f4b8b1091f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Numio",
-          href: "docs/hack(evm-wallets)/Numio",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/416ee463-6699-43f7-c0e3-396f0ad3d300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cling Wallet",
-          href: "docs/hack(evm-wallets)/Cling Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d8006c3-852b-458a-d6b0-916c5ba76800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Broearn Wallet",
-          href: "docs/hack(evm-wallets)/Broearn Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b3c2c77c-a8cf-46e1-095a-77f0a3891500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Coinomi",
-          href: "docs/hack(evm-wallets)/Coinomi",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b446d16-a908-40c8-5835-9a6efe90dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Bitcoin.com Wallet Try Catch Error",
+          website_url: "https://Bitcoin.com Wallet.com",
+          github_repo: "https://github.com/bitcoin.comwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Ripio Portal",
-          href: "docs/hack(evm-wallets)/Ripio Portal",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fd56c695-ce58-4df5-1625-767571c80700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Ripio Portal Try Catch Error",
+          website_url: "https://Ripio Portal.com",
+          github_repo: "https://github.com/ripioportal",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Sabay Wallet App",
-          href: "docs/hack(evm-wallets)/Sabay Wallet App",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c4df7014-abaf-4016-8180-fb994804b400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Tokoin | My-T Wallet",
-          href: "docs/hack(evm-wallets)/Tokoin | My-T Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/88a2518c-16c2-4ee3-4699-1a1c6903bc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Impersonator",
-          href: "docs/hack(evm-wallets)/Impersonator",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b072a0c6-1bc2-4a80-6f05-50a4ebbf0700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Fncy Mobile Wallet",
-          href: "docs/hack(evm-wallets)/Fncy Mobile Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c1c8d374-dff3-419c-96af-3515d0192100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Copiosa",
-          href: "docs/hack(evm-wallets)/Copiosa",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cae1be94-9f53-4eba-b915-f6e381d5a500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Broearn Wallet",
+          description: "Broearn Wallet Try Catch Error",
+          website_url: "https://Broearn Wallet.com",
+          github_repo: "https://github.com/broearnwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Imota ",
-          href: "docs/hack(evm-wallets)/Imota ",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c81f5bbf-ce66-42bd-3436-f1baaaa18b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Imota  Try Catch Error",
+          website_url: "https://Imota .com",
+          github_repo: "https://github.com/imota",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Libera",
-          href: "docs/hack(evm-wallets)/Libera",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9485d17f-c413-47fe-ebee-a876a9dc9100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Certhis",
-          href: "docs/hack(evm-wallets)/Certhis",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fbd441cc-e861-46dc-48ae-a04228ddb500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Burrito Wallet",
-          href: "docs/hack(evm-wallets)/Burrito Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7eec7187-3f48-4fda-53bb-b0ad55749a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ancrypto",
-          href: "docs/hack(evm-wallets)/Ancrypto",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8dee1c33-b277-4a5a-5ddd-5e70fd9d1800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cypherock cySync",
-          href: "docs/hack(evm-wallets)/Cypherock cySync",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7fd5a23a-3a01-4cfb-3c8b-9f43ae414400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "CVL Wallet",
-          href: "docs/hack(evm-wallets)/CVL Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e4eff15a-35d5-49fe-047f-33e331f46400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cypher Wallet",
-          href: "docs/hack(evm-wallets)/Cypher Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7bce0965-a4cc-4aad-6217-009d51017500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Status",
-          href: "docs/hack(evm-wallets)/Status",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e131fa98-8c4f-4680-f5b6-6fb77189c900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Enjin Wallet",
-          href: "docs/hack(evm-wallets)/Enjin Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/add9626b-a5fa-4c12-178c-e5584e6dcd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Essentials",
-          href: "docs/hack(evm-wallets)/Essentials",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/058878f4-7364-4e01-434f-2cc09a15cf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Everspace",
-          href: "docs/hack(evm-wallets)/Everspace",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/80eaa630-6392-4b0a-a604-0a0f808e4d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "BlockWallet",
-          href: "docs/hack(evm-wallets)/BlockWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ef825629-9828-4a5a-b376-62ab4ee81f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Kriptomat",
-          href: "docs/hack(evm-wallets)/Kriptomat",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/774110aa-70f6-4d0c-210f-ab434838fa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Oxalus Wallet",
-          href: "docs/hack(evm-wallets)/Oxalus Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a6e22fcb-6b69-45d2-b52d-a4a347a21e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Theta Wallet",
-          href: "docs/hack(evm-wallets)/Theta Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d4afb810-5925-4f00-4ebb-d180fcf29000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Dawn Wallet",
-          href: "docs/hack(evm-wallets)/Dawn Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dcb4a287-a6f5-4e81-cbab-2d0eb27b2f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Rabby",
-          href: "docs/hack(evm-wallets)/Rabby",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/255e6ba2-8dfd-43ad-e88e-57cbb98f6800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Leap Cosmos Wallet",
-          href: "docs/hack(evm-wallets)/Leap Cosmos Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/73e6b2b2-8c02-42e9-84f5-82a859978200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ISLAMIwallet",
-          href: "docs/hack(evm-wallets)/ISLAMIwallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8d723c78-28ad-4610-901f-ea391d7e8d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "UPBOND Wallet",
-          href: "docs/hack(evm-wallets)/UPBOND Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/698e08f3-b452-4c91-9f65-299939396a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "VIVE Wallet",
-          href: "docs/hack(evm-wallets)/VIVE Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5ef7e40e-1f02-4da2-54bf-992e3e83e100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Wirex Wallet",
-          href: "docs/hack(evm-wallets)/Wirex Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/769739aa-ff45-4db5-c6e6-70590741ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "BCERTin wallet",
-          href: "docs/hack(evm-wallets)/BCERTin wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e321346d-5ce7-4e75-371e-e4f0bf923900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Monarch Wallet",
-          href: "docs/hack(evm-wallets)/Monarch Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c664d955-8a1e-4460-3917-4cfcf198f000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "FILWallet",
-          href: "docs/hack(evm-wallets)/FILWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f400f6c2-ca6c-487b-654d-e119af247500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Valora",
-          href: "docs/hack(evm-wallets)/Valora",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a03bfa44-ce98-4883-9b2a-75e2b68f5700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "CoinCircle",
-          href: "docs/hack(evm-wallets)/CoinCircle",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eae63a23-c7ba-4f7e-24b3-e6fc69215d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MyWalliD",
-          href: "docs/hack(evm-wallets)/MyWalliD",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e6cff623-9671-4a39-acc7-1c2292d7e100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "BRISE Wallet",
-          href: "docs/hack(evm-wallets)/BRISE Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/09a4e1d9-e4de-44fa-f248-5495ba9ab300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Snowball",
-          href: "docs/hack(evm-wallets)/Snowball",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/313faea4-af8c-41f4-0ed8-98be5d048e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "GameStop Wallet",
-          href: "docs/hack(evm-wallets)/GameStop Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c12536e0-dff1-4a1a-6c8f-c7247d6aa200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ParaSwap Wallet",
-          href: "docs/hack(evm-wallets)/ParaSwap Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/73dc6b30-b644-46e6-020c-5926851df600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ballet Crypto",
-          href: "docs/hack(evm-wallets)/Ballet Crypto",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/542094e6-70d6-4b0d-4c8f-b61cc2c38500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "UvToken",
-          href: "docs/hack(evm-wallets)/UvToken",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a0057241-cd91-4a53-7175-016b76bfd900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "RealT Wallet",
-          href: "docs/hack(evm-wallets)/RealT Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bf1f251b-08a5-4b27-ae4a-201a5f698900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SahalWallet",
-          href: "docs/hack(evm-wallets)/SahalWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d29d6426-b6f2-481b-12d8-7b20ec82af00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ApolloX",
-          href: "docs/hack(evm-wallets)/ApolloX",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/80ab63a2-1b32-4140-3577-9fbc8ea82e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Enno Wallet",
-          href: "docs/hack(evm-wallets)/Enno Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ae4f5167-0b61-43bd-7d76-1f8579271000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Nitrogen Wallet",
-          href: "docs/hack(evm-wallets)/Nitrogen Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/af185895-cda5-4eaf-e31b-28b6fe4b0800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Loopring Wallet",
-          href: "docs/hack(evm-wallets)/Loopring Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2103feda-4fc8-4635-76a7-02a4ed998000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "A4 Wallet",
-          href: "docs/hack(evm-wallets)/A4 Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a788c03-daf7-4d93-fa3a-f94e2b719900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "BeeWallet",
-          href: "docs/hack(evm-wallets)/BeeWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8f86199e-5142-4314-91b8-c23a59e9dc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Dohrnii Wallet",
-          href: "docs/hack(evm-wallets)/Dohrnii Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1bb51ed9-68ed-4012-3082-72dcb7754300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "LocalTrade Wallet",
-          href: "docs/hack(evm-wallets)/LocalTrade Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fcc60983-74ae-484a-4242-87cb6f05f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Xcapit",
-          href: "docs/hack(evm-wallets)/Xcapit",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/17f59b75-21b0-4b3f-b024-fe4b9b8d2300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Ambire Wallet",
+          description:
+            "Ambire Wallet is a full featured non-custodial open-source wallet focused on DeFi and ease of use.",
+          website_url: "https://www.ambire.com/",
+          github_repo: "https://github.com/ambirewallet",
+          appStore_url:
+            "https://apps.apple.com/bg/app/ambire-smart-crypto-wallet/id6444863857",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.ambire.wallet&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "BCVault",
-          href: "docs/hack(evm-wallets)/BCVault",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/56995d82-a980-4dfc-2611-0f91d88c5700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Safematrix",
-          href: "docs/hack(evm-wallets)/Safematrix",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/48ea5de9-869a-4994-2402-97afba060900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Neon Wallet",
-          href: "docs/hack(evm-wallets)/Neon Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/322bd6f0-09b5-4595-cb15-0dfab8054800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Absolute Wallet",
-          href: "docs/hack(evm-wallets)/Absolute Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/03797059-fc49-4adc-7b93-503290b62300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Locker Token",
-          href: "docs/hack(evm-wallets)/Locker Token",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37401d35-3fa1-451c-802d-604940315800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Sequence Wallet",
-          href: "docs/hack(evm-wallets)/Sequence Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b2d5c39c-a485-4efa-5736-a782204e4a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Linen",
-          href: "docs/hack(evm-wallets)/Linen",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aff3e4e1-92a9-4066-f48f-3591947cf200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Nabox",
-          href: "docs/hack(evm-wallets)/Nabox",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b75e9f7-2ca8-4a33-ed2b-4e8a0c048d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Marble",
-          href: "docs/hack(evm-wallets)/Marble",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eb6de921-6824-4f35-6331-8a8b031e7100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "BCVault Try Catch Error",
+          website_url: "https://BCVault.com",
+          github_repo: "https://github.com/bcvault",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Spatium",
-          href: "docs/hack(evm-wallets)/Spatium",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51867bee-2963-4071-d67a-1fdcaa451f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cryptnox Wallet",
-          href: "docs/hack(evm-wallets)/Cryptnox Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2947b7c8-8966-4485-a98d-25fe43c16700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ownbit",
-          href: "docs/hack(evm-wallets)/Ownbit",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/19923b08-7208-4539-9c2d-c43db22bce00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ID Pocket",
-          href: "docs/hack(evm-wallets)/ID Pocket",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c227ee0a-5127-4707-ded9-c3cd81348d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Assure",
-          href: "docs/hack(evm-wallets)/Assure",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64db7104-c8b7-44ea-e102-11ce87124200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Flooz",
-          href: "docs/hack(evm-wallets)/Flooz",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a04f368-4f56-4c12-0bfa-93b14bb20800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ATON",
-          href: "docs/hack(evm-wallets)/ATON",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2e85f1d1-f498-4cae-bb54-1d40614ee300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Keplr",
-          href: "docs/hack(evm-wallets)/Keplr",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/527324b0-3849-462b-9a1a-72b53bdfea00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Brave Wallet",
-          href: "docs/hack(evm-wallets)/Brave Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8cecad66-73e3-46ee-f45f-01503c032f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Crossmint",
-          href: "docs/hack(evm-wallets)/Crossmint",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8ad627ec-cbcd-4878-ec5c-3df588055200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Gryfyn",
-          href: "docs/hack(evm-wallets)/Gryfyn",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51bb1507-45a1-4d21-15f2-1cc2ebe69400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "pier",
-          href: "docs/hack(evm-wallets)/pier",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cf3f0da1-40ec-4940-aebe-df075513d100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Core",
-          href: "docs/hack(evm-wallets)/Core",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/35f9c46e-cc57-4aa7-315d-e6ccb2a1d600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Taho",
-          href: "docs/hack(evm-wallets)/Taho",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/13416950-f73f-4a4c-2f22-d494ed5df800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Torus",
-          href: "docs/hack(evm-wallets)/Torus",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1caa462e-dcf5-4c56-d180-094c81444f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Frame",
-          href: "docs/hack(evm-wallets)/Frame",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/29b4f569-c1e8-4144-132e-629bf5290f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Keeper",
-          href: "docs/hack(evm-wallets)/Keeper",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/41f6ac85-8f4e-4d9f-b37b-92b43fa7f400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Uniblow",
-          href: "docs/hack(evm-wallets)/Uniblow",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3aa86daa-b885-4686-c443-83355e1b3b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Spatium Try Catch Error",
+          website_url: "https://Spatium.com",
+          github_repo: "https://github.com/spatium",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "D'CENT Wallet",
-          href: "docs/hack(evm-wallets)/D'CENT Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c68b81d1-a400-4a07-6d9d-28edda986d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "D'CENT Wallet Try Catch Error",
+          website_url: "https://D'CENT Wallet.com",
+          github_repo: "https://github.com/d'centwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Paper",
-          href: "docs/hack(evm-wallets)/Paper",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37d7a10f-d94d-4a56-c30e-267e8afbd500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Ottr Finance",
+          description: "The Wallet for Everyone",
+          website_url: "https://ottr.finance/",
+          github_repo: "https://github.com/ottrfinance",
+          appStore_url: "https://itunes.apple.com/app/id1628669270",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=finance.ottr.android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Klever Wallet",
-          href: "docs/hack(evm-wallets)/Klever Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8f5bbad8-6a14-4b2c-5343-cc1fca6e4d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Jade Wallet",
+          description: "Eliminate Single Point of Failures with MPC.",
+          website_url: "https://www.jadewallet.io/",
+          github_repo: "https://github.com/jadewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/jade-wallet-bitcoin-defi/id1544207492",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Edge Wallet",
-          href: "docs/hack(evm-wallets)/Edge Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f601bc29-4298-422f-dbf7-34dac2884f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Absolute Wallet",
+          description: "Absolute Wallet Try Catch Error",
+          website_url: "https://Absolute Wallet.com",
+          github_repo: "https://github.com/absolutewallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "NeftiWallet",
-          href: "docs/hack(evm-wallets)/NeftiWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1f812dec-be3d-446c-52f7-a79eb0dd5400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Ownbit",
+          description: "Ownbit Try Catch Error",
+          website_url: "https://Ownbit.com",
+          github_repo: "https://github.com/ownbit",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "GoldBit",
-          href: "docs/hack(evm-wallets)/GoldBit",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/11974ef1-21ab-4806-a2b1-362c31499900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Torus",
+          description: "Torus Try Catch Error",
+          website_url: "https://Torus.com",
+          github_repo: "https://github.com/torus",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Coingrig",
-          href: "docs/hack(evm-wallets)/Coingrig",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/18e38e41-a387-4402-ca31-6d2d5eb91100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Kelp",
+          description:
+            "A non-custodial cryptocurrency wallet to use during the Kelp multi-phase launch.",
+          website_url: "https://kelp.finance/",
+          github_repo: "https://github.com/kelp",
+          appStore_url: "https://apps.apple.com/us/app/kelp/id1632857274",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "XFUN Wallet",
-          href: "docs/hack(evm-wallets)/XFUN Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a665f8f3-09ef-4d17-2bd0-26dca4518400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Modular Wallet Prod",
+          description: "The first modular wallet.",
+          website_url: "https://modular.pk/",
+          github_repo: "https://github.com/modularwalletprod",
+          appStore_url: "https://testflight.apple.com/join/Zbf6wZaP",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.modular",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "RiceWallet",
-          href: "docs/hack(evm-wallets)/RiceWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/df94578e-19be-4f00-258f-2470343e7b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Chain",
+          description: "Buy Bitcoin, NFTs & Crypto",
+          website_url: "https://chain.com/",
+          github_repo: "https://github.com/chain",
+          appStore_url: "https://apps.apple.com/us/app/id6444779277",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Ancrypto Wallet",
-          href: "docs/hack(evm-wallets)/Ancrypto Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d4382329-e288-4d7a-0ac8-3eb0facfb900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Arculus Wallet",
+          description: "Cold Storage Crypto Wallet",
+          website_url: "https://www.getarculus.com/",
+          github_repo: "https://github.com/arculuswallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/arculus-wallet/id1575425801",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.arculus.wallet.android&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Okse Wallet",
-          href: "docs/hack(evm-wallets)/Okse Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8a1b36d5-7f40-403a-7000-5d30f9181200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Coinomi",
+          description:
+            "The blockchain wallet trusted by millions. Securely store, manage, and exchange Bitcoin, Ethereum, and more than 1,770 Tokens and Altcoins.",
+          website_url: "https://www.coinomi.com/",
+          github_repo: "https://github.com/coinomi",
+          appStore_url:
+            "https://itunes.apple.com/app/coinomi-wallet/id1333588809",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coinomi.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Aktionariat",
-          href: "docs/hack(evm-wallets)/Aktionariat",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6d18e8ea-b536-4038-c5bf-94a499d5a400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Numio",
+          description:
+            "Send Crypto Instantly and Save up to 100x on Ethereum Fees Cheap. Fast. Secure. Download for free and start saving money today.",
+          website_url: "https://numio.one/",
+          github_repo: "https://github.com/numio",
+          appStore_url:
+            "https://apps.apple.com/us/app/numio-ethereum-wallet-defi/id1538072952",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.numio.pay",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "iToken Wallet",
-          href: "docs/hack(evm-wallets)/iToken Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5cd60c34-038d-470c-c024-d58f64260200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Zelus",
-          href: "docs/hack(evm-wallets)/Zelus",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aeba2105-6c84-4642-f441-b3f5817ac400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "HaHa",
+          description: "Wallet and Portfolio Tracker",
+          website_url: "https://www.haha.me/",
+          github_repo: "https://github.com/haha",
+          appStore_url:
+            "https://apps.apple.com/us/app/haha-crypto-portfolio-tracker/id1591158244",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.permutize.haha",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Talk+",
-          href: "docs/hack(evm-wallets)/Talk+",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d24cdd56-6f55-42da-631b-c25974c36f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Card Wallet",
-          href: "docs/hack(evm-wallets)/Card Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/325428cf-c212-4d83-a434-7f48902d2c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "PayBolt",
-          href: "docs/hack(evm-wallets)/PayBolt",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cc8f4e0c-56a8-465a-6cb6-3e9d60846500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Arianee Wallet",
-          href: "docs/hack(evm-wallets)/Arianee Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ace938a9-c906-4b9e-f683-b85f1ab72800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Slavi Wallet",
-          href: "docs/hack(evm-wallets)/Slavi Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/282ce060-0beb-4236-b7b0-1b34cc6c8f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Plasma Wallet",
-          href: "docs/hack(evm-wallets)/Plasma Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c268e78d-ffb0-4c8b-5cad-04c3add48500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "ioPay",
-          href: "docs/hack(evm-wallets)/ioPay",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/18891f5a-fd0f-4126-7d1a-452be6714700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Talk+ Try Catch Error",
+          website_url: "https://Talk+.com",
+          github_repo: "https://github.com/talk+",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Defiant",
-          href: "docs/hack(evm-wallets)/Defiant",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/11a96ca4-3592-42ae-c781-2b7265ec9200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Defiant Try Catch Error",
+          website_url: "https://Defiant.com",
+          github_repo: "https://github.com/defiant",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "StrikeX Wallet",
-          href: "docs/hack(evm-wallets)/StrikeX Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cae46de2-b432-4002-8bc8-1f0e7380b200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "ioPay",
+          description: "ioPay Try Catch Error",
+          website_url: "https://ioPay.com",
+          github_repo: "https://github.com/iopay",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Avacus",
-          href: "docs/hack(evm-wallets)/Avacus",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7106965-91cc-4a73-4688-c5c72ae0ed00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Omni",
+          description: "Multi chain, self custodial DeFi wallet",
+          website_url: "https://omni.app/",
+          github_repo: "https://github.com/omni",
+          appStore_url:
+            "https://apps.apple.com/de/app/steakwallet/id1569375204?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=fi.steakwallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "ByteBank",
-          href: "docs/hack(evm-wallets)/ByteBank",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bc7aacd6-b2e2-4146-7d21-06e0c5d44f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Huddln",
+          description: "Web3's social gateway",
+          website_url: "https://www.huddln.io/",
+          github_repo: "https://github.com/huddln",
+          appStore_url:
+            "https://apps.apple.com/us/app/huddln-nft-social-network/id1503825604",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.huddln&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "CoolWallet",
-          href: "docs/hack(evm-wallets)/CoolWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f581365d-e844-4d21-8e35-44a755a32d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Everspace",
+          description: "Non-custodial multichain crypto wallet",
+          website_url: "https://everspace.app/",
+          github_repo: "https://github.com/everspace",
+          appStore_url:
+            "https://apps.apple.com/ru/app/everspace/id1585434994?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.oberton.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Opto Wallet",
-          href: "docs/hack(evm-wallets)/Opto Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3df102e4-e435-49dd-d4b1-5ea74ebed500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "TK Finance",
-          href: "docs/hack(evm-wallets)/TK Finance",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c4066f68-2247-49bf-ac8a-a677bfa81800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Bee Wallet",
-          href: "docs/hack(evm-wallets)/Bee Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f90bc33f-f085-40cf-7538-fae5ae84f900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Pitaka",
-          href: "docs/hack(evm-wallets)/Pitaka",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/691c0716-5213-4b99-e837-079268313800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MDAO Wallet",
-          href: "docs/hack(evm-wallets)/MDAO Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/82014e92-838b-4e75-e77e-76cdc5539d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "PLTwallet",
-          href: "docs/hack(evm-wallets)/PLTwallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a5d9dd15-8cef-42de-8bed-09e01a8b0200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "helix id",
-          href: "docs/hack(evm-wallets)/helix id",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4083ef71-8389-4682-ded6-0099236d2e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "AirGap Wallet",
-          href: "docs/hack(evm-wallets)/AirGap Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/76bfe8cd-cf3f-4341-c33c-60da01065000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Qubic Wallet",
-          href: "docs/hack(evm-wallets)/Qubic Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/535c91a5-a43c-4104-233c-439449ffcd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Haven Wallet",
-          href: "docs/hack(evm-wallets)/Haven Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b41fc3f2-a874-45ae-4d4f-cdf47da89500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Holdstation Wallet",
-          href: "docs/hack(evm-wallets)/Holdstation Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e6dba126-85af-4194-84f6-dd16632c3c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Earth Wallet",
-          href: "docs/hack(evm-wallets)/Earth Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d3f724c4-f99b-476f-10f8-12aa4af13800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MetaOne",
-          href: "docs/hack(evm-wallets)/MetaOne",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b869d966-4699-44de-eadb-4eb39a580600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "3S Wallet",
-          href: "docs/hack(evm-wallets)/3S Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f3b6a89d-ec8f-49dc-e07f-6bf723e1e500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SimpleHold",
-          href: "docs/hack(evm-wallets)/SimpleHold",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a9f1ba96-b658-4d13-f71f-226b6389f000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Payperless",
-          href: "docs/hack(evm-wallets)/Payperless",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4a867e30-44c9-4627-6281-33457b8e2100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Minerva Wallet",
-          href: "docs/hack(evm-wallets)/Minerva Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b57b2163-1bd8-4f6b-3311-470767e6d200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Libera",
+          description:
+            "Libera is the key to empowering financially unserved and underserved people around the world.",
+          website_url: "https://liberawallet.com/",
+          github_repo: "https://github.com/libera",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.impactmarket.mobile&&pli=1",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Volt: DeFi",
-          href: "docs/hack(evm-wallets)/Volt: DeFi",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51d783cb-0686-4ffa-e661-edca0c380000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Volt: DeFi Try Catch Error",
+          website_url: "https://Volt: DeFi.com",
+          github_repo: "https://github.com/volt:defi",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Lif3 Wallet",
-          href: "docs/hack(evm-wallets)/Lif3 Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a89c0ec-9059-4515-afb6-8204d49f0900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "NOW Wallet",
+          description: "Cryptocurrency Fort Knox in your pocket",
+          website_url: "https://walletnow.app/",
+          github_repo: "https://github.com/nowwallet",
+          appStore_url:
+            "https://apps.apple.com/app/now-wallet-bitcoin-crypto/id1591216386",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.nowwallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Verso",
+          description: "The easiest crypto wallet",
+          website_url: "https://get-verso.com/",
+          github_repo: "https://github.com/verso",
+          appStore_url: "https://apps.apple.com/app/btu-protocol/id1539304605",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.btuprotocol.btu_wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Cobalt Wallet",
+          description: "Horizen's EVM wallet",
+          website_url: "https://www.horizen.io/",
+          github_repo: "https://github.com/cobaltwallet",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/cobalt/hekbjgfncacdinlajhgiakpaieajpfph/related",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Sabay Wallet App",
+          description: "Blochain Wallet to connect with MySabay",
+          website_url: "https://wallet.sabay.com/",
+          github_repo: "https://github.com/sabaywalletapp",
+          appStore_url:
+            "https://apps.apple.com/kh/app/sabay-wallet/id6449341309",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=kh.com.sabay.sabaywallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Kriptomat",
+          description: "The simplest way to use Web3 apps.",
+          website_url: "https://kriptomat.io/web3/",
+          github_repo: "https://github.com/kriptomat",
+          appStore_url: "https://apps.apple.com/app/id1440135740",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.kriptomat.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Copiosa",
+          description:
+            "The Copiosa Wallet is more than just a digital wallet, it's an innovative tool that makes managing cryptocurrencies easy and secure",
+          website_url: "https://copiosa.io/",
+          github_repo: "https://github.com/copiosa",
+          appStore_url:
+            "https://apps.apple.com/gb/app/copiosa-crypto-wallet/id6443951470",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.copiosa.exchange",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ISLAMIwallet",
+          description: "Swap, Vote & recovery system",
+          website_url: "https://islamicoin.finance/islamiwallet",
+          github_repo: "https://github.com/islamiwallet",
+          appStore_url:
+            "https://apps.apple.com/lb/app/islamiwallet/id1631212925",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.islami.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "αU wallet",
+          description: "Safely manage NFTs and cryptocurrencies with Wallet",
+          website_url: "https://web.wallet.alpha-u.io/intro.html",
+          github_repo: "https://github.com/αuwallet",
+          appStore_url:
+            "https://apps.apple.com/jp/app/%CE%B1u-wallet/id6444401106",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.kddi.wallet",
+          chromewebStore_url: "nothing",
           items: [],
         },
         {
           title: "Shinobi-Wallet",
-          href: "docs/hack(evm-wallets)/Shinobi-Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/685c986c-3e80-4701-cec6-cd247ba1a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Shinobi-Wallet Try Catch Error",
+          website_url: "https://Shinobi-Wallet.com",
+          github_repo: "https://github.com/shinobi-wallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "KryptoGO Wallet",
-          href: "docs/hack(evm-wallets)/KryptoGO Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3ccbd966-97e8-45a0-1ceb-6141a8978e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Minerva Wallet",
+          description: "Minerva Wallet Try Catch Error",
+          website_url: "https://Minerva Wallet.com",
+          github_repo: "https://github.com/minervawallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Cling Wallet",
+          description:
+            "Cling Wallet is a safe digital wallet that enables users to handle custom tokens and NFTs on various blockchain networks.",
+          website_url: "https://clingon.io/",
+          github_repo: "https://github.com/clingwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/cling-wallet/id6443952504",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.carrieverse.cling.wallet&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Ancrypto",
+          description: "Your gateway to web3",
+          website_url: "https://www.ancrypto.io/",
+          github_repo: "https://github.com/ancrypto",
+          appStore_url: "https://apps.apple.com/in/app/ancrypto/id1660898349",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.ancryptoWallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Status",
+          description:
+            "Status is a private messenger, secure crypto wallet, and Ethereum Web3 DApp browser—in short, one powerful communication tool.",
+          website_url: "https://status.im/",
+          github_repo: "https://github.com/status",
+          appStore_url:
+            "https://apps.apple.com/us/app/status-private-communication/id1178893006",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=im.status.ethereum&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Theta Wallet",
+          description: "Official Theta Wallet",
+          website_url: "https://www.thetatoken.org/wallet",
+          github_repo: "https://github.com/thetawallet",
+          appStore_url: "https://apps.apple.com/app/theta-wallet/id1451094550",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.theta.wallet&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Enjin Wallet",
+          description:
+            "Enjin Wallet is a secure non-custodial wallet to store, send, manage NFTs, FTs, and digital collectables.",
+          website_url: "https://enjin.io/products/wallet",
+          github_repo: "https://github.com/enjinwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/enjin-nft-crypto-wallet/id1349078375",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.enjin.mobile.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Tokoin",
+          description:
+            "A super token which is an integral part of all of Tokoin’s ecosystem.",
+          website_url: "https://tokoin.io/",
+          github_repo: "https://github.com/tokoin",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Certhis",
+          description: "The Ultimate Web3 Solution",
+          website_url: "https://certhis.io/",
+          github_repo: "https://github.com/certhis",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MyWalliD",
+          description:
+            "MyWalliD lets the user store and manage their own identities assets on the browser local memory or to authenticate on the web3.",
+          website_url: "https://www.wallid.io/",
+          github_repo: "https://github.com/mywallid",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Autonomy: Digital Art Wallet",
-          href: "docs/hack(evm-wallets)/Autonomy: Digital Art Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/126a7683-2349-45c6-ed19-0e27a645c000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Autonomy: Digital Art Wallet Try Catch Error",
+          website_url: "https://Autonomy: Digital Art Wallet.com",
+          github_repo: "https://github.com/autonomy:digitalartwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Bifrost Wallet",
-          href: "docs/hack(evm-wallets)/Bifrost Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/86be07e2-6652-4fd1-5f33-651682c95400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Fncy Mobile Wallet",
+          description: "Fncy Mobile Wallet",
+          website_url: "https://fncy.world/",
+          github_repo: "https://github.com/fncymobilewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/fncy-blockchain-platform/id1613707166",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.metaverse.world.cube&hl=en_US&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Nufinetes",
-          href: "docs/hack(evm-wallets)/Nufinetes",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bb6c1ca-4196-4ba3-ece2-c3d335e1f800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Dawn Wallet",
+          description:
+            "A gateway to DeFi, culture and governance on the layers of Ethereum.",
+          website_url: "https://www.dawnwallet.xyz/",
+          github_repo: "https://github.com/dawnwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/dawn-ethereum-wallet/id1673143782",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Wallet 3",
-          href: "docs/hack(evm-wallets)/Wallet 3",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/34ab7558-9e64-4436-f4e6-9069f2533d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Leap Cosmos Wallet",
+          description: "A crypto super wallet for Cosmos blockchains",
+          website_url: "https://leapwallet.io/",
+          github_repo: "https://github.com/leapcosmoswallet",
+          appStore_url:
+            "https://apps.apple.com/in/app/leap-cosmos/id1642465549/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.leapwallet.cosmos",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg",
           items: [],
         },
         {
-          title: "Abra Wallet",
-          href: "docs/hack(evm-wallets)/Abra Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2219db01-e0c9-471c-5def-fd3b4e7a7a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "VIVE Wallet",
+          description:
+            "Your seamless gateway to the Web3 world. Manage your crypto assets and claim your identity in VIVERSE.",
+          website_url: "https://www.viverse.com/apps/wallet",
+          github_repo: "https://github.com/vivewallet",
+          appStore_url: "https://apps.apple.com/app/vive-wallet/id6444718696",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.htc.vivewallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "iMe",
-          href: "docs/hack(evm-wallets)/iMe",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/25aa3abf-901b-4d82-bb89-c5ade54c0c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Monarch Wallet",
+          description:
+            "Secure, Decentralized, DAPP Gateway, *NFTs, Buy, Sell, Earn, Swap & *Recurring & Custom Crypto Payments — Over 1 Million Wallets Generated",
+          website_url: "https://monarchwallet.com/",
+          github_repo: "https://github.com/monarchwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/monarch-wallet/id1386397997",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "PREMA Wallet",
-          href: "docs/hack(evm-wallets)/PREMA Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6487869b-1165-4f30-aa3a-115665be8300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "CoinCircle",
+          description: "Earn, Pay, Buy, Borrow Crypto",
+          website_url: "https://coincircle.com/",
+          github_repo: "https://github.com/coincircle",
+          appStore_url: "https://coincircle.com/app",
+          googleplayStore_url: "https://coincircle.com/app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "OneKey",
-          href: "docs/hack(evm-wallets)/OneKey",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/12bebb3f-8030-4892-8452-c60a6bac1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Valora",
+          description:
+            "Valora is a mobile crypto wallet that enables global payments and easy access to decentralized apps.",
+          website_url: "https://valoraapp.com/",
+          github_repo: "https://github.com/valora",
+          appStore_url: "https://apps.apple.com/app/id1520414263",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.clabs.valora",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Slingshot Wallet",
-          href: "docs/hack(evm-wallets)/Slingshot Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/10c75467-6612-48ad-b97b-63985e922200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "FILWallet",
+          description:
+            "Decentralized digital asset wallet build on web3.0 ecosystem",
+          website_url: "https://filwallet.co/",
+          github_repo: "https://github.com/filwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/filwallet-io/id1572930901",
+          googleplayStore_url: "https://filwallet.co/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Kriptonio",
-          href: "docs/hack(evm-wallets)/Kriptonio",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/363fae03-882a-4d81-a721-6e6f6e9ac500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Ballet Crypto",
+          description:
+            "Ballet Crypto is the world’s first multi-currency, non-electronic cryptocurrency wallet.",
+          website_url: "https://www.balletcrypto.com/",
+          github_repo: "https://github.com/balletcrypto",
+          appStore_url:
+            "https://apps.apple.com/us/app/ballet-crypto/id1474912942",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.balletcrypto&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Timeless Wallet",
-          href: "docs/hack(evm-wallets)/Timeless Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/32e89601-0490-42fc-0cc4-8627d62a2000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "GameStop Wallet",
+          description:
+            "GameStop Wallet is a simple and secure way to get started with Web3. Use your GameStop Wallet to buy, hold, swap. Power to the players!",
+          website_url: "https://wallet.gamestop.com/wallets",
+          github_repo: "https://github.com/gamestopwallet",
+          appStore_url: "https://wallet.gamestop.com/wallets",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Venly",
-          href: "docs/hack(evm-wallets)/Venly",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d8c846d0-5164-4520-d10f-e1c27d69ce00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Phantom",
-          href: "docs/hack(evm-wallets)/Phantom",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c38443bb-b3c1-4697-e569-408de3fcc100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Coinbase Wallet",
-          href: "docs/hack(evm-wallets)/Coinbase Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a5ebc364-8f91-4200-fcc6-be81310a0000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Bitski",
-          href: "docs/hack(evm-wallets)/Bitski",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/94d94cb5-a94f-47cf-70e6-fe8d3f1c3700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MPCWallet",
-          href: "docs/hack(evm-wallets)/MPCWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/636ff7d4-79ce-41d6-ede5-85c9f8a1d900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "XDEFI Wallet",
-          href: "docs/hack(evm-wallets)/XDEFI Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/efec6318-7f96-4b30-9287-6c287660cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "TREASURE",
-          href: "docs/hack(evm-wallets)/TREASURE",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6b5d45f6-117c-44a0-d7b0-71c28864a100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Streakk Wallet",
-          href: "docs/hack(evm-wallets)/Streakk Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/45ec6eb9-d7fe-4b9b-6dbf-cc675c5d1d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Sender",
-          href: "docs/hack(evm-wallets)/Sender",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6fb46282-3d15-4c8a-41ae-0d52115e3f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SaitaPro",
-          href: "docs/hack(evm-wallets)/SaitaPro",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65bdc812-5692-441f-abcb-a389b754a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Lilico",
-          href: "docs/hack(evm-wallets)/Lilico",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/70c0bc88-7bb1-4c1f-3531-9a5f799fb100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Hippo Wallet",
-          href: "docs/hack(evm-wallets)/Hippo Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9570968-45f7-47c1-3189-98cf60e25c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Cosmostation",
-          href: "docs/hack(evm-wallets)/Cosmostation",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ea26c3c8-adb6-4dc4-ee02-35d6eee02800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Bitizen",
-          href: "docs/hack(evm-wallets)/Bitizen",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75dd1471-77e9-4811-ce57-ec8fc980ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Blocto",
-          href: "docs/hack(evm-wallets)/Blocto",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/374258d3-c749-4f37-7815-77e61f798c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "HUMBL WALLET",
-          href: "docs/hack(evm-wallets)/HUMBL WALLET",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1ac55ba2-aa98-4ed0-59b3-b3155dea4200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SafeMoon",
-          href: "docs/hack(evm-wallets)/SafeMoon",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ea0140c7-787c-43a4-838f-d5ab6a342000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "PassPay Wallet",
-          href: "docs/hack(evm-wallets)/PassPay Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a1c337f5-c156-4ce8-763b-b4cc65f1c200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ultimate",
-          href: "docs/hack(evm-wallets)/Ultimate",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1ed9823d-64dd-4ab6-2f3f-22c8ff228f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "ApolloX",
+          description:
+            "ApolloX is a mobile wallet that combines security and anonymity and it allows users to send, receive and store BEP20 (BSC) tokens.",
+          website_url: "https://www.apollox.com/en",
+          github_repo: "https://github.com/apollox",
+          appStore_url:
+            "https://apps.apple.com/us/app/apx-apollox/id1589405398",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.apollox.android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "MeWallet",
-          href: "docs/hack(evm-wallets)/MeWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e9666b15-4296-4384-3661-7e99a5f2a900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "MeWallet Try Catch Error",
+          website_url: "https://MeWallet.com",
+          github_repo: "https://github.com/mewallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SafeMoon",
+          description: "SafeMoon Try Catch Error",
+          website_url: "https://SafeMoon.com",
+          github_repo: "https://github.com/safemoon",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Infinity Wallet",
+          description:
+            "Infinity Wallet is a leading all-in-one one-stop DeFi and Web3 crypto wallet & the 1st Web3 Browser!",
+          website_url: "https://infinitywallet.io/",
+          github_repo: "https://github.com/infinitywallet",
+          appStore_url: "https://infinitywallet.io/download/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "UPBOND Wallet",
+          description:
+            "Keep track, manage, and transfer your unique assets including Tokens and NFT on UPBOND Wallet, utilizing Social Login",
+          website_url: "https://www.upbond.io/",
+          github_repo: "https://github.com/upbondwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "BRISE Wallet",
+          description:
+            "You can send, receive and store coins and many other cryptocurrencies and digital assets safely and securely.",
+          website_url: "https://bitgert.com/",
+          github_repo: "https://github.com/brisewallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.brise.wallet&hl=en_US&gl=US",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Cryptnox Wallet",
+          description:
+            "IOS app to use our smartcards as hardware wallet via NFC",
+          website_url: "https://cryptnox.com/",
+          github_repo: "https://github.com/cryptnoxwallet",
+          appStore_url: "https://apps.apple.com/app/id1583011693",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ID Pocket",
+          description:
+            "Your private digital pocket for your identity and credentials",
+          website_url: "https://rktechworks.com/idpocket",
+          github_repo: "https://github.com/idpocket",
+          appStore_url: "https://apps.apple.com/us/app/id-pocket/id1549462128",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.rktechworks.idpocket",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Loopring Wallet",
+          description: "Loopring Smart Wallet",
+          website_url: "https://loopring.io/",
+          github_repo: "https://github.com/loopringwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/loopring-smart-wallet/id1550921126",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Neon Wallet",
+          description: "Light wallet for the NEO blockchain",
+          website_url: "https://neonwallet.com/",
+          github_repo: "https://github.com/neonwallet",
+          appStore_url:
+            "https://apps.apple.com/my/app/neon-wallet-mobile/id1530111452",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=neo.org.freewallet.app&hl=pt_BR&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Edge Wallet",
+          description:
+            " Edge is a powerful and easy to use cryptocurrency wallet that allows users to easily control their own private keys.",
+          website_url: "https://edge.app/",
+          github_repo: "https://github.com/edgewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/edge-bitcoin-wallet/id1344400091",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.edgesecure.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "THORWallet",
-          href: "docs/hack(evm-wallets)/THORWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/45165bea-fdae-454e-7caa-31681f255200?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Fizz",
-          href: "docs/hack(evm-wallets)/Fizz",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9d4db84-2e9f-4fbe-684f-c1e921c98800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "PiEthereum Hardware",
-          href: "docs/hack(evm-wallets)/PiEthereum Hardware",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/310a5036-3c8f-4bfc-0510-cba61d7d5100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Reunit",
-          href: "docs/hack(evm-wallets)/Reunit",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/98ed357f-1e2d-4679-0e78-1100f7594000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Arianee Wallet",
-          href: "docs/hack(evm-wallets)/Arianee Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/13b7fe36-909a-4c83-4f06-5740829a3900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Tholos",
-          href: "docs/hack(evm-wallets)/Tholos",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f0f306e6-2dba-4805-e7b9-4f25952e2900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Stickey Wallet",
-          href: "docs/hack(evm-wallets)/Stickey Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/12aab9fb-f3d4-4248-10e0-4eda17a5de00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Klip",
-          href: "docs/hack(evm-wallets)/Klip",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f7b6b2a6-ebe7-4779-6ad1-79a3142e6b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "CoinStats",
-          href: "docs/hack(evm-wallets)/CoinStats",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b2a00908-f144-4a49-cc0a-9d7422ad5e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "LikerLand App",
-          href: "docs/hack(evm-wallets)/LikerLand App",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/501fa316-f0df-4a1b-ead6-5523251b7100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Krystal",
-          href: "docs/hack(evm-wallets)/Krystal",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d2b59965-4eb8-4828-d3d4-fbc0b3379e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "KeepKey Desktop",
-          href: "docs/hack(evm-wallets)/KeepKey Desktop",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eb4227d9-366c-466c-db8f-ab7e45985500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Pillar",
-          href: "docs/hack(evm-wallets)/Pillar",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/87737170-f79f-4359-338b-7c30856c9f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "HARTi Wallet",
-          href: "docs/hack(evm-wallets)/HARTi Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d0407f26-fe0b-4f3c-43c3-69bc8fef2e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Stasis Wallet",
-          href: "docs/hack(evm-wallets)/Stasis Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d83223cf-f29a-4757-a21e-8913b12f9f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Nova Wallet",
-          href: "docs/hack(evm-wallets)/Nova Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f159b10-419b-483a-f2bf-da3d17855e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "THORWallet Try Catch Error",
+          website_url: "https://THORWallet.com",
+          github_repo: "https://github.com/thorwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "meta-WONDER-verse",
-          href: "docs/hack(evm-wallets)/meta-WONDER-verse",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5cc6d96d-178d-42a6-cba1-ebd9d9415700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "meta-WONDER-verse Try Catch Error",
+          website_url: "https://meta-WONDER-verse.com",
+          github_repo: "https://github.com/meta-wonder-verse",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "DTTD",
-          href: "docs/hack(evm-wallets)/DTTD",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4a1da9d0-1a81-4e51-4758-b2157f4e6000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "CoinStats",
+          description: "CoinStats Try Catch Error",
+          website_url: "https://CoinStats.com",
+          github_repo: "https://github.com/coinstats",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "FoxWallet",
-          href: "docs/hack(evm-wallets)/FoxWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d994a61e-c1df-49cb-cf4c-10ec51338400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "LikerLand App",
+          description: "LikerLand App Try Catch Error",
+          website_url: "https://LikerLand App.com",
+          github_repo: "https://github.com/likerlandapp",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "HAQQ Wallet",
-          href: "docs/hack(evm-wallets)/HAQQ Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/99fe539d-6a2a-4f52-2211-42fd04a9f300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "CVL Wallet",
+          description:
+            "CVL Wallet is the easiest way to store, send, receive and exchange crypto, fiat currencies, metals and stocks at a speed never seen before.",
+          website_url: "https://cvl.network/",
+          github_repo: "https://github.com/cvlwallet",
+          appStore_url: "https://apps.apple.com/ru/app/cvl-wallet/id6444357628",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=llp.bc_group.cvl_wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "tomiPAY",
-          href: "docs/hack(evm-wallets)/tomiPAY",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bf8bd7b8-b638-40f6-1caa-1d7678bb1900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Burrito Wallet",
+          description: "Let's wrap it up with Burrito Wallet!",
+          website_url: "https://burritowallet.com/",
+          github_repo: "https://github.com/burritowallet",
+          appStore_url:
+            "https://apps.apple.com/app/burrito-wallet/id6449563083",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.burritowallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Snowball",
+          description:
+            "Gain access to high-yield stablecoin vaults and generate interest in real-time via DeFi",
+          website_url: "https://snowball.money/",
+          github_repo: "https://github.com/snowball",
+          appStore_url:
+            "https://apps.apple.com/app/snowball-smart-defi-wallet/id1449662311",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=money.snowball.defi",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "BeeWallet",
+          description:
+            "Web3 wallet from BeeDAO, your bridge for entering Metaverse.",
+          website_url: "https://www.bee.com/en",
+          github_repo: "https://github.com/beewallet",
+          appStore_url: "https://apps.apple.com/app/id1529988919",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=network.bee.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/bee-wallet/nankopfjhdflikcokhgohiaoehnjfako",
+          items: [],
+        },
+        {
+          title: "Nitrogen Wallet",
+          description: "DeFi and GameFi Solana wallet",
+          website_url: "https://nitrogen.org/",
+          github_repo: "https://github.com/nitrogenwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/nitrogen-wallet/id1595123469",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.nitrogen.mobile_wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "GoldBit",
+          description:
+            "GoldBit 因應數位貨幣而生，作為儲存虛擬幣的冷錢包，支援Bitcoin、Ethereum和TRON三大主鏈的幣種，提供快速且便利的操作，並且擁有市面少有多錢包機制，可以輕鬆且安全存放虛擬貨幣。",
+          website_url: "http://goldbit.io/gbapp.php",
+          github_repo: "https://github.com/goldbit",
+          appStore_url:
+            "https://apps.apple.com/tw/app/goldbit%E9%8C%A2%E5%8C%85/id1551914030",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.goldbitpro.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "NeftiWallet",
+          description:
+            "The platform's NFT WALLET allows storing of the NFTs securely on the blockchain.",
+          website_url: "https://neftipedia.com/",
+          github_repo: "https://github.com/neftiwallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.NEFTiPEDiA.mp",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "TokenPocket",
+          description:
+            "The leading multi-chain self-custodial wallet, which supports mainstream networks including BTC, ETH, BSC, TRON, zkSync Era∎, etc.",
+          website_url: "https://tokenpocket.pro/",
+          github_repo: "https://github.com/tokenpocket",
+          appStore_url:
+            "https://apps.apple.com/us/app/tp-wallet/id6444625622?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=vip.mytokenpocket",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/tokenpocket/mfgccjchihfkkindfppnaooecgfneiii",
+          items: [],
+        },
+        {
+          title: "Opera Crypto Browser",
+          description:
+            "The Opera Crypto Browser offers a secure and optimized Web3 browser to revolutionize internet experiences for the blockchain community.",
+          website_url: "http://opera.com/",
+          github_repo: "https://github.com/operacryptobrowser",
+          appStore_url:
+            "https://apps.apple.com/us/app/itunes-u/id1604311726?action=write-review",
+          googleplayStore_url: "https://www.opera.com/crypto/next",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Oxalus Wallet",
+          description: "The true wallet for people",
+          website_url: "https://oxalus.io/wallet",
+          github_repo: "https://github.com/oxaluswallet",
+          appStore_url:
+            "https://apps.apple.com/vn/app/oxalus-wallet/id1620111723",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.oxalus.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "BCERTin wallet",
+          description:
+            "The BCERTin wallet comes with a set of amazing tools to manage your business & life with unlimited cloud access",
+          website_url: "https://blockcerts.com/",
+          github_repo: "https://github.com/bcertinwallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.blockcerts.BlockCerts&hl=en_US&gl",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Dohrnii Wallet",
+          description: "The official wallet of the Dohrnii DAO",
+          website_url: "https://dohrnii.io/",
+          github_repo: "https://github.com/dohrniiwallet",
+          appStore_url:
+            "https://apps.apple.com/ch/app/dohrnii-wallet/id1624702756?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.dohrnii.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Enno Wallet",
+          description:
+            "A non-custodial multi chain mobile crypto wallet & DeFi aggregator.",
+          website_url: "https://www.ennowallet.com/",
+          github_repo: "https://github.com/ennowallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/enno-wallet/id1577011660#iosmph",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.app.awqsome.ennowallet#gpmph",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Xcapit",
+          description:
+            "The first smart wallet, easy and simple to use for decentralized finance, without government restrictions.",
+          website_url: "https://xcapit.com/",
+          github_repo: "https://github.com/xcapit",
+          appStore_url: "https://apps.apple.com/ar/app/xcapit/id1545648148",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.xcapit.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Taho",
+          description: "First community-owned web3 wallet",
+          website_url: "https://taho.xyz/",
+          github_repo: "https://github.com/taho",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/taho/eajafomhmkipbjmfmhebemolkcicgfmd",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Gryfyn",
+          description:
+            "Gryfyn is a custodial wallet that gives you access to Web3 experiences without needing to worry about the security of your private keys.",
+          website_url: "https://gryfyn.io/",
+          github_repo: "https://github.com/gryfyn",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Aktionariat",
+          description:
+            "A fully automated, blockchain-based market tool. Embedded in your company's website.",
+          website_url: "https://aktionariat.com/",
+          github_repo: "https://github.com/aktionariat",
+          appStore_url:
+            "https://apps.apple.com/ch/app/aktionariat/id1518326813",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.aktionariat.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ByteBank",
+          description:
+            "Storing and managing your cryptocurrencies made easier. No matter where you are, no matter which digital currency you hold.",
+          website_url: "https://www.bytebank.org/",
+          github_repo: "https://github.com/bytebank",
+          appStore_url:
+            "https://apps.apple.com/sg/app/hideout-wallet/id1620315192?l=zh",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.hideout.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Avacus",
+          description:
+            "Crypto wallet integrated with token exchanges, browser DApps, multichain wallet and many other utilities",
+          website_url: "https://avacus.cc/",
+          github_repo: "https://github.com/avacus",
+          appStore_url: "https://apps.apple.com/us/app/id1339638445",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.floortracks.avacus",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ABC Wallet",
+          description:
+            "Secure your crypto with ABC Wallet! MPC tech, recoverable keys. Manage ETH, Klaytn, Polygon, BSC in one place.",
+          website_url: "https://myabcwallet.io/",
+          github_repo: "https://github.com/abcwallet",
+          appStore_url:
+            "https://apps.apple.com/app/abc-wallet-safe-web3-wallet/id1642837445",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.myabcwallet.mpc&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "UvToken",
+          description:
+            "A safe, convenient and efficient decentralized digital asset management community",
+          website_url: "https://www.uvtoken.com/",
+          github_repo: "https://github.com/uvtoken",
+          appStore_url: "https://apps.apple.com/hk/app/uvtoken/id1552556395",
+          googleplayStore_url:
+            "https://wallet.uvtoken.com/static/download/android/uvtoken.apk",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Safematrix",
+          description:
+            "Safematrix app is mcp wallet used for signing transactions, viewing operation records, and other functions.",
+          website_url: "https://safematrix.io/",
+          github_repo: "https://github.com/safematrix",
+          appStore_url: "https://apps.apple.com/sg/app/safematrix/id1613333481",
+          googleplayStore_url:
+            "https://download.safematrix.io/abm/safematrix.apk",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "LocalTrade Wallet",
+          description:
+            "Created as an addition to our interconnected ecosystem, this wallet is the definitive gateway to the world of decentralized finance",
+          website_url: "https://lab.localtrade.cc/",
+          github_repo: "https://github.com/localtradewallet",
+          appStore_url:
+            "https://apps.apple.com/app/localtrade-defi-wallet/id1602772298",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.localtrade.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "RiceWallet",
+          description: "Investing in DeFi for Everyone",
+          website_url: "https://ricewallet.io/",
+          github_repo: "https://github.com/ricewallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Keeper",
+          description:
+            "Your entry point to the Waves blockchain and Waves-powered dApps",
+          website_url: "https://keeper-wallet.app/",
+          github_repo: "https://github.com/keeper",
+          appStore_url:
+            "https://apps.apple.com/us/app/keeper-wallet/id6444443920",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.keeper.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ATON",
+          description:
+            "ATON is a safe and easy to use mobile wallet, and the first one that supports PlatON's network.",
+          website_url: "https://www.platon.network/en/wallet",
+          github_repo: "https://github.com/aton",
+          appStore_url:
+            "https://apps.apple.com/us/app/aton-platon-network%E9%92%B1%E5%8C%85/id1473112418?l=zh",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.platon.aton",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Assure",
+          description: "A decentralized wallet of digital currency",
+          website_url: "https://www.assure.pro/",
+          github_repo: "https://github.com/assure",
+          appStore_url: "http://itunes.apple.com/app/id1604825026",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.neuxs.assure",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Card Wallet",
+          description:
+            "Fast, easy & cheap payments for Web3 Use your mobile wallet for access, payments, identity and approvals.",
+          website_url: "https://cardstack.com/earn-together",
+          github_repo: "https://github.com/cardwallet",
+          appStore_url: "https://cardstack.com/ios",
+          googleplayStore_url: "https://cardstack.com/android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "PLTwallet",
+          description: "PLTwallet is a wallet for ethereum and PLT",
+          website_url: "https://pltwallet.io/",
+          github_repo: "https://github.com/pltwallet",
+          appStore_url: "https://apps.apple.com/us/app/id1581055631",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.palettechain.wallet&hl=ja&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "KEYRING PRO",
+          description:
+            "KEYRING PRO brings possibilities to reality by offering a simple cross-chain environment, where user can experience multiple chains at once.",
+          website_url: "https://keyring.app/",
+          github_repo: "https://github.com/keyringpro",
+          appStore_url:
+            "https://apps.apple.com/us/app/keyring-pro-wallet-management/id1546824976",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.bacoor.keyring",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Cypher Wallet",
+          description: "Non Custodial Multichain Wallet",
+          website_url: "https://cypherwallet.io/",
+          github_repo: "https://github.com/cypherwallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.cypherd.androidwallet",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "XFUN Wallet",
+          description:
+            "XFUN Wallet is a non-custodial wallet that can store, send, and receive FUN, XFUN, other ERC-20 tokens, and BTC.",
+          website_url: "https://xfun.io/",
+          github_repo: "https://github.com/xfunwallet",
+          appStore_url: "https://apps.apple.com/app/xfun-wallet/id1612225910",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.xfun.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Flooz",
+          description: "Your all-in-one crypto wallet",
+          website_url: "https://wallet.flooz.trade/",
+          github_repo: "https://github.com/flooz",
+          appStore_url: "https://apps.apple.com/app/id1621027074",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=wallet.flooz.mobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "PayBolt",
+          description:
+            "World’s first Web3 cross-chain crypto payment ecosystem that accepts ALL tokens.",
+          website_url: "https://www.paybolt.com/",
+          github_repo: "https://github.com/paybolt",
+          appStore_url:
+            "https://apps.apple.com/app/paybolt-crypto/id1599880290",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.fincrypt.paybolt",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "StrikeX Wallet",
-          href: "docs/hack(evm-wallets)/StrikeX Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eb2b6db5-1086-4739-a422-4a4bf3a44300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description:
+            "The StrikeX Wallet makes buying, selling, swapping, transferring, and tracking your favourite crypto projects — slick, secure and simple. ",
+          website_url: "https://tradestrike.io/",
+          github_repo: "https://github.com/strikexwallet",
+          appStore_url:
+            "https://apps.apple.com/gb/app/strikex-defi-crypto-wallet/id6443517613",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.tradestrike",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Nash",
-          href: "docs/hack(evm-wallets)/Nash",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/93a15cd2-8f0d-4bf6-1545-6bdf745c2300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Zelus",
+          description:
+            "The most user-friendly NFT and crypto multichain wallet",
+          website_url: "https://zelus.io/",
+          github_repo: "https://github.com/zelus",
+          appStore_url: "https://apps.apple.com/us/app/zelus/id1588430343",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.zelus.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Bybit Wallet",
-          href: "docs/hack(evm-wallets)/Bybit Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b9e64f74-0176-44fd-c603-673a45ed5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Earth Wallet",
+          description:
+            "Earth Wallet is an open source, self-custody digital asset wallet for Internet Computer, Polygon, Bitcoin and Ethereum.",
+          website_url: "https://www.earthwallet.io/",
+          github_repo: "https://github.com/earthwallet",
+          appStore_url: "https://apps.apple.com/app/earth-wallet/id1638414929",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=earth.wallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "SubWallet",
-          href: "docs/hack(evm-wallets)/SubWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/03f5c08c-fb30-46a0-ca5c-d8fdd7250b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "AirGap Wallet",
+          description:
+            "Self custody made simple and secure. Based on a two device approach, increasing security and usability with YOU in the driver’s seat",
+          website_url: "https://airgap.it/",
+          github_repo: "https://github.com/airgapwallet",
+          appStore_url:
+            "https://itunes.apple.com/us/app/airgap-wallet/id1420996542?l=de&ls=1&mt=8",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=it.airgap.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Okto",
-          href: "docs/hack(evm-wallets)/Okto",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/154c69b7-9bb1-4010-5b4c-6b37eeda8900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Catecoin Wallet",
-          href: "docs/hack(evm-wallets)/Catecoin Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d017bc54-db4d-4f07-2de2-69790ce92400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "UKISS Hub",
-          href: "docs/hack(evm-wallets)/UKISS Hub",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/23f4c933-68e6-46f9-75b6-2d2905ca1300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Tellaw Wallet",
-          href: "docs/hack(evm-wallets)/Tellaw Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c1cb03f5-e1c2-4c3e-86e1-9a90565ea300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Tangem Wallet",
-          href: "docs/hack(evm-wallets)/Tangem Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/80679c6f-bb0b-43d0-83e0-462ac268b600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Callback",
-          href: "docs/hack(evm-wallets)/Callback",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f50c7a7-2384-4efe-89c3-01e0fec2b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "SA ASSISTANT",
-          href: "docs/hack(evm-wallets)/SA ASSISTANT",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7954b508-9ff0-4416-9aba-16209b571000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Xellar",
-          href: "docs/hack(evm-wallets)/Xellar",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/89cf9926-00bf-4152-d98f-cac53d7cad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Talken Wallet",
-          href: "docs/hack(evm-wallets)/Talken Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3c49e8e7-a4d8-4810-23ef-0a0102cce100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "U2U Wallet",
-          href: "docs/hack(evm-wallets)/U2U Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/03bca3fc-c191-4877-592d-0b0d6557c900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Shido Wallet",
-          href: "docs/hack(evm-wallets)/Shido Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dd5c7007-4572-41c7-a9b8-b97d071adb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "OzoneWallet",
-          href: "docs/hack(evm-wallets)/OzoneWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4eb57479-515a-463a-9fcb-c20e9cc60c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Tidus Wallet ",
-          href: "docs/hack(evm-wallets)/Tidus Wallet ",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/797bd108-d862-4d1b-d339-883de9a75000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Impact Wallet",
-          href: "docs/hack(evm-wallets)/Impact Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/afc85418-2ca6-46cf-cfb9-daf6bc43e400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Cypherock cySync",
+          description: "Desktop companion application for Cypherock X1",
+          website_url: "https://www.cypherock.com/",
+          github_repo: "https://github.com/cypherockcysync",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Wirex Wallet",
-          href: "docs/hack(evm-wallets)/Wirex Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/66b40d9b-7314-42dd-cacf-4e324b0c2000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description:
+            "Wirex Wallet is a super-secure, non-custodial way to send, store and receive digital assets. Biometric backup, multi-blockchain capability",
+          website_url: "https://wwallet.app.link/W1YKPgySZsb",
+          github_repo: "https://github.com/wirexwallet",
+          appStore_url:
+            "https://apps.apple.com/app/wirex-wallet-crypto-and-defi/id1594165139",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.wirex.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Linen",
+          description:
+            "Linen users are protected by the Safe technology used by large crypto holders.",
+          website_url: "https://linen.app/",
+          github_repo: "https://github.com/linen",
+          appStore_url:
+            "https://apps.apple.com/app/linen-app-investing-in-defi/id1480509067",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.linen.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "pier",
+          description:
+            "Come to the pier and discover Web3: a place to explore, transact and interact directly with others.",
+          website_url: "https://www.pierwallet.com/",
+          github_repo: "https://github.com/pier",
+          appStore_url: "https://apps.apple.com/lb/app/id1613187762",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=one.nobank.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Keplr",
+          description:
+            "Keplr is the largest Interchain wallet in the Cosmos ecosystem, supporting ",
+          website_url: "https://keplr.app/",
+          github_repo: "https://github.com/keplr",
+          appStore_url:
+            "https://apps.apple.com/us/app/keplr-wallet/id1567851089",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.chainapsis.keplr&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en",
+          items: [],
+        },
+        {
+          title: "Klever Wallet",
+          description:
+            "Klever app is a simple, powerful, smart and secure crypto wallet for BTC, ETH, BNB and other crypto assets serving over 2 million users.",
+          website_url: "https://klever.finance/wallet/",
+          github_repo: "https://github.com/kleverwallet",
+          appStore_url: "https://apps.apple.com/us/app/id1525584688",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=cash.klever.blockchain.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Zelcore",
-          href: "docs/hack(evm-wallets)/Zelcore",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1b9e652e-1667-425a-f828-707bf9b05400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Zelcore Try Catch Error",
+          website_url: "https://Zelcore.com",
+          github_repo: "https://github.com/zelcore",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "DOSI Vault",
-          href: "docs/hack(evm-wallets)/DOSI Vault",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a0d223e-6bf7-4e12-a5b4-1720deb02000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Tidus Wallet ",
+          description: "Tidus Wallet  Try Catch Error",
+          website_url: "https://Tidus Wallet .com",
+          github_repo: "https://github.com/tiduswallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "WOW EARN",
-          href: "docs/hack(evm-wallets)/WOW EARN",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1985a753-7fd8-4d75-4c50-7998ea68a800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Obvious",
+          description:
+            "Obvious is a self-custody wallet that brings together assets across EVM chains",
+          website_url: "https://obvious.technology/",
+          github_repo: "https://github.com/obvious",
+          appStore_url:
+            "https://apps.apple.com/in/app/obvious-crypto-wallet/id1643088398",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.hashhalli.obvious",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "ELLIPAL",
-          href: "docs/hack(evm-wallets)/ELLIPAL",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a5b45a1-c974-4f41-6c14-376714478c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "ParaSwap Wallet",
+          description:
+            "ParaSwap Wallet is a multichain DeFi wallet for trading at the best rates, with the highest efficiency and security in a friendly interface",
+          website_url: "https://paraswap.io/",
+          github_repo: "https://github.com/paraswapwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/paraswap-multichain-wallet/id1584610690",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Unstoppable Wallet",
-          href: "docs/hack(evm-wallets)/Unstoppable Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a63cbfce-0726-4f94-9187-a761afb94400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Locker Token",
+          description:
+            "Multi-currency digital wallet platform connecting you with the crypto-world.",
+          website_url: "https://locker-token.com/",
+          github_repo: "https://github.com/lockertoken",
+          appStore_url:
+            "https://apps.apple.com/ar/app/locker-token/id1619140841?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.lockertoken",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Aurora Pass",
-          href: "docs/hack(evm-wallets)/Aurora Pass",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6d93eeba-edce-431c-4293-e25784e61f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Nabox",
+          description:
+            "Nabox is a cross-chain DID application built for Web3.  ",
+          website_url: "https://nabox.io/",
+          github_repo: "https://github.com/nabox",
+          appStore_url: "https://testflight.apple.com/join/Ux18h5Nv",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.wallet.nabox",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Bitverse",
-          href: "docs/hack(evm-wallets)/Bitverse",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5851c585-0f2b-41a1-a36a-221a18af5200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Coingrig",
+          description:
+            "A powerful crypto wallet for everyone. Private, secure and open source.",
+          website_url: "https://coingrig.com/",
+          github_repo: "https://github.com/coingrig",
+          appStore_url:
+            "https://apps.apple.com/us/app/coingrig-crypto-btc-wallet/id1583464451",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coingrig",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Konio",
-          href: "docs/hack(evm-wallets)/Konio",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/028c7760-a1af-43ea-7ac7-8b811712b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "SahalWallet",
+          description:
+            "Non-custodial multi-chain wallet serving as gateway to MRHB Network.",
+          website_url: "https://mrhb.network/",
+          github_repo: "https://github.com/sahalwallet",
+          appStore_url:
+            "https://apps.apple.com/gb/app/sahal-wallet/id1602366920",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=sahal.wallet.app&gl=GB",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Gate.io",
-          href: "docs/hack(evm-wallets)/Gate.io",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6e528abf-7a7d-47bd-d84d-481f169b1200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Paper",
+          description: "Connect an app's embedded wallet powered by Paper.",
+          website_url: "https://withpaper.com/",
+          github_repo: "https://github.com/paper",
+          appStore_url: "https://withpaper.com/wallet",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "UTORG",
-          href: "docs/hack(evm-wallets)/UTORG",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/39c77c0b-d6ea-419d-92b7-513a5eac2c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Frame",
+          description:
+            "A privacy focused Ethereum wallet that runs natively on macOS, Windows and Linux",
+          website_url: "https://frame.sh/",
+          github_repo: "https://github.com/frame",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/frame-companion/ldcoohedfbjoobcadoglnnmmfbdlmmhf",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "CoinWallet",
-          href: "docs/hack(evm-wallets)/CoinWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1c0cd352-ce8e-4bcc-f91d-8763eab60b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Core",
+          description: "Bridge, Buy, Swap and Send Crypto Easily with Core.",
+          website_url:
+            "https://core.app/?utm_source=referral&utm_medium=website&utm_campaign=walletconnect",
+          github_repo: "https://github.com/core",
+          appStore_url:
+            "https://apps.apple.com/us/app/core-crypto-wallet-nfts/id6443685999",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.avaxwallet&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/core-crypto-wallet-nft-ex/agoakfejjabomempkjlepdflaleeobhb",
           items: [],
         },
         {
-          title: "AmmerWallet",
-          href: "docs/hack(evm-wallets)/AmmerWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7d38dd8e-92ee-44bf-1ca4-818531de1900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Slavi Wallet",
+          description:
+            "Cross-chain decentralized SuperDApp with 30+ blockchains & one-click access to Web 3.0, PlayToEarn and NFT services",
+          website_url: "https://slavi.io/",
+          github_repo: "https://github.com/slaviwallet",
+          appStore_url:
+            "https://apps.apple.com/en/app/slavi-wallet/id1610125496?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.defiwalletmobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "TK Finance",
+          description:
+            "Entering the great Trustkeys Finance Ecosystem. Fast, safe, secure trading experience with Hybrid Change.",
+          website_url: "https://trustkeys.network/",
+          github_repo: "https://github.com/tkfinance",
+          appStore_url: "https://apps.apple.com/vn/app/tk-finance/id1601968967",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.trustkeysnetwork",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Payperless",
+          description:
+            "We believe everyone should have access to the benefits of Bitcoin and other crypto currencies, so we make it easy and safe. ",
+          website_url: "https://payperless.com/",
+          github_repo: "https://github.com/payperless",
+          appStore_url:
+            "https://apps.apple.com/us/app/payperless-wallet/id1552741313",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.payperless.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MDAO Wallet",
+          description:
+            "MDAO Wallet is the best app with a friendly user and convenient interface to keep and manage your digital assets.",
+          website_url: "https://ttmwallet.io/",
+          github_repo: "https://github.com/mdaowallet",
+          appStore_url: "https://apps.apple.com/ru/app/ttm-wallet/id1540851562",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.ttmbank.wallet.app&hl=ru&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Opto Wallet",
+          description: "The wallet built for NEAR Protocol & Octopus Network",
+          website_url: "https://optowallet.com/",
+          github_repo: "https://github.com/optowallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/opto-wallet/id6443854537",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.opto.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Fizz",
+          description: "Self-Custodial Wallet",
+          website_url: "https://www.fizzwallet.app/",
+          github_repo: "https://github.com/fizz",
+          appStore_url:
+            "https://apps.apple.com/kr/app/fizz-fun-ezzy-crypto-wallet/id6447460538",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Binance.US",
-          href: "docs/hack(evm-wallets)/Binance.US",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/48aa1a7d-c5fe-4ad6-c2f2-e5684b296900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Binance.US Try Catch Error",
+          website_url: "https://Binance.US.com",
+          github_repo: "https://github.com/binance.us",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "SISTEMAS",
-          href: "docs/hack(evm-wallets)/SISTEMAS",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eda865c8-746b-4536-9d57-7d7de0555400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MUZA",
-          href: "docs/hack(evm-wallets)/MUZA",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9934307c-0a39-4c60-7fd0-4cb9297f3900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "FxWallet",
-          href: "docs/hack(evm-wallets)/FxWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/46a80541-e639-483d-e230-731fcbf13000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "RYIPAY",
-          href: "docs/hack(evm-wallets)/RYIPAY",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bb6e9045-24db-428a-7661-5b3365cc2800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Ronin Wallet",
-          href: "docs/hack(evm-wallets)/Ronin Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dff7f251-5116-460b-54f7-b14c5343b800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Sequel Wallet",
-          href: "docs/hack(evm-wallets)/Sequel Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0c89b2e4-a0cc-4bfc-e3f5-398f4711af00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MetaWallet",
-          href: "docs/hack(evm-wallets)/MetaWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a18337ad-433f-47c0-ea57-8a6199835e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Altme",
-          href: "docs/hack(evm-wallets)/Altme",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7eeac6e8-6852-4d09-8579-e229fd6b9a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Unido",
-          href: "docs/hack(evm-wallets)/Unido",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c22450a3-b4a7-4e86-8855-f5b88d983100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Bitpie",
-          href: "docs/hack(evm-wallets)/Bitpie",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e6dce4ec-a1a8-49e6-d8e1-8329fdd5c700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "MOONSTAKE",
-          href: "docs/hack(evm-wallets)/MOONSTAKE",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/22374fae-244c-4224-2e3d-c14912f98a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "IndiGG",
-          href: "docs/hack(evm-wallets)/IndiGG",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8e90a32f-130d-4317-7294-4884510aa300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Yuse Wallet",
-          href: "docs/hack(evm-wallets)/Yuse Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2cd61458-59c2-4208-c8ee-98b5e0076b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Coininn Wallet",
-          href: "docs/hack(evm-wallets)/Coininn Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/52efd5a7-65fa-428d-668c-f53ceb4b5f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          items: [],
-        },
-        {
-          title: "Safe App Syscoin",
-          href: "docs/hack(evm-wallets)/Safe App Syscoin",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0b6b29ca-10a4-44cc-a51e-baa4b49fc300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Gate.io",
+          description: "Gate.io Try Catch Error",
+          website_url: "https://Gate.io.com",
+          github_repo: "https://github.com/gate.io",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "f(x)Wallet",
-          href: "docs/hack(evm-wallets)/f(x)Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bdd2f39b-98fa-485d-b180-bf4a42fa6100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "f(x)Wallet Try Catch Error",
+          website_url: "https://f(x)Wallet.com",
+          github_repo: "https://github.com/f(x)wallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "pockie",
-          href: "docs/hack(evm-wallets)/pockie",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a761beae-1e7e-4402-bcc5-a896a92bfb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "imToken",
+          description:
+            "imToken is an easy and secure digital wallet trusted by millions.",
+          website_url: "https://token.im/",
+          github_repo: "https://github.com/imtoken",
+          appStore_url: "https://apps.apple.com/us/app/imtoken2/id1384798940",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=im.token.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "AmazeWallet",
-          href: "docs/hack(evm-wallets)/AmazeWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/38495eb4-efcf-47cb-be73-a695510f9f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "RealT Wallet",
+          description:
+            "RealT Wallet is a user-friendly, reliable mobile wallet that gives you complete control over your RealTokens and cryptocurrency.",
+          website_url: "https://realt.co/",
+          github_repo: "https://github.com/realtwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/realt-wallet/id1545585469",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.realt.bridge",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "atato custody",
-          href: "docs/hack(evm-wallets)/atato custody",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/53878398-b6da-4384-47dc-bc744acd5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "A4 Wallet",
+          description:
+            "A4 wallet is a non-custodial multi-currency crypto wallet from A4 Finance to securely store, exchange and manage your cryptocurrencies",
+          website_url: "https://a4.finance/",
+          github_repo: "https://github.com/a4wallet",
+          appStore_url:
+            "https://apps.apple.com/app/a4-finance-crypto-web3-wallet/id1623005090",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=finance.a4.mobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Pali Wallet",
-          href: "docs/hack(evm-wallets)/Pali Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4672cbde-0f96-42f3-84a0-524e9ad70a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "iToken Wallet",
+          description:
+            "For and from those who place top priority on asset security.",
+          website_url: "https://www.itoken.com/",
+          github_repo: "https://github.com/itokenwallet",
+          appStore_url: "https://apps.apple.com/us/app/id1433883012",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.huobionchainwallet.gp",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Nunu",
-          href: "docs/hack(evm-wallets)/Nunu",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a4a42e1d-b43d-4fa1-b8b3-daf4e6b61c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Bee Wallet",
+          description:
+            "Bee Wallet is a mobile-first crypto wallet that lets you manage funds, swap tokens safely, and track your NFT collection.",
+          website_url: "https://www.beewallet.app/",
+          github_repo: "https://github.com/beewallet",
+          appStore_url:
+            "https://apps.apple.com/lt/app/bee-for-uniswap-pancakeswap/id1617257467",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Haven Wallet",
+          description: "Multi-user Enterprise Wallet.",
+          website_url: "https://havensuite.io/",
+          github_repo: "https://github.com/havenwallet",
+          appStore_url:
+            "https://apps.apple.com/sg/app/haven-wallet/id1634596545",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.wallet.haven",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Streakk Wallet",
+          description:
+            "Streakk unlocks the potential of your cryptocurrencies.",
+          website_url: "https://streakk.io/",
+          github_repo: "https://github.com/streakkwallet",
+          appStore_url:
+            "https://apps.apple.com/in/app/streakk-wallet/id1636671089",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.streakk",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Ultimate",
+          description: "Crypto Trading & DeFi Wallet",
+          website_url: "https://ultimate.app/",
+          github_repo: "https://github.com/ultimate",
+          appStore_url: "https://apps.apple.com/app/id1629053410",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Safe App Syscoin",
+          description: "Safe App Syscoin Try Catch Error",
+          website_url: "https://Safe App Syscoin.com",
+          github_repo: "https://github.com/safeappsyscoin",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Frontier",
+          description:
+            "The unified non-custodial wallet to Send, Stake, Swap, Bridge Crypto & NFTs. Interact with DeFi apps, 50+ Blockchains & ecosystems.",
+          website_url: "https://www.frontier.xyz/",
+          github_repo: "https://github.com/frontier",
+          appStore_url:
+            "https://apps.apple.com/us/app/frontier-defi-wallet/id1482380988",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.frontierwallet&hl=en_IN&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/frontier-wallet/kppfdiipphfccemcignhifpjkapfbihd",
+          items: [],
+        },
+        {
+          title: "AlphaWallet",
+          description:
+            "AlphaWallet is a production-ready and easy to customise Ethereum Wallet for your business.",
+          website_url: "https://alphawallet.com/",
+          github_repo: "https://github.com/alphawallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/alphawallet-eth-wallet/id1358230430",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.stormbird.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Crossmint",
+          description: "Making NFTs accessible to everyone",
+          website_url: "https://www.crossmint.com/",
+          github_repo: "https://github.com/crossmint",
+          appStore_url: "https://www.crossmint.com/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Arianee Wallet",
+          description:
+            "With the Arianee Wallet, you can use digital passports / NFTs to verify and prove the authenticity of your most precious items.",
+          website_url: "https://arianee.org/",
+          github_repo: "https://github.com/arianeewallet",
+          appStore_url:
+            "https://apps.apple.com/fr/app/arianee-wallet/id1435782507",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.arianee.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Qubic Wallet",
+          description: "More Than Just A Wallet",
+          website_url: "https://wallet.qubic.app/",
+          github_repo: "https://github.com/qubicwallet",
+          appStore_url:
+            "https://apps.apple.com/app/qubic-%E6%9C%80%E7%B0%A1%E5%96%AE%E4%B8%8A%E6%89%8B%E7%9A%84%E8%99%9B%E6%93%AC%E8%B2%A8%E5%B9%A3%E9%8C%A2%E5%8C%85/id1563987988?itsct=apps_box_link&itscg=30200",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.qubic.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MetaOne",
+          description: "Explore Web3 & metaverses intuitively with MetaOne",
+          website_url: "https://getmeta.one/",
+          github_repo: "https://github.com/metaone",
+          appStore_url:
+            "https://apps.apple.com/us/app/metaone-wallet/id1627212812",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=ventures.aag.metaone",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Lilico",
+          description:
+            "Lilico is the first non-custodial wallet on Flow blockchain.  It enables you to access Web 3.0, NFTs, tokens and dApps.",
+          website_url: "https://lilico.app/",
+          github_repo: "https://github.com/lilico",
+          appStore_url: "https://apps.apple.com/us/app/lilico/id1644169603",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.outblock.lilico",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "HARTi Wallet",
+          description:
+            "HARTi, the curated NFT platform, blends virtual and physical art spaces. Discover, explore, and buy art at harti.tokyo.",
+          website_url: "https://harti.io/",
+          github_repo: "https://github.com/hartiwallet",
+          appStore_url: "https://apps.apple.com/jp/app/harti/id1599921940?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.harti&hl=ja&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Hippo Wallet",
+          description: " Hippo: Crypto & Bitcoin Wallet",
+          website_url: "https://hippowallet.io/",
+          github_repo: "https://github.com/hippowallet",
+          appStore_url:
+            "https://apps.apple.com/ae/app/hippo-wallet/id1613041499",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.blockchaincommodities.hippo_wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "DTTD",
+          description:
+            "A Mobile-First Social Wallet Enabling Web3 for Everyone",
+          website_url: "https://www.dttd.io/",
+          github_repo: "https://github.com/dttd",
+          appStore_url: "https://hop.dttd.app/appstoredownload",
+          googleplayStore_url: "https://hop.dttd.app/googleplaydownload",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Callback",
+          description:
+            "Callback Wallet is the coolest way to manage your on-chain items.",
+          website_url: "https://callback.is/",
+          github_repo: "https://github.com/callback",
+          appStore_url:
+            "https://apps.apple.com/en/app/callback-original-stickers/id1543659456",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.thebasicsmeishi",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SafePal",
+          description:
+            "SafePal is a cryptocurrency wallet that aims to provide a secure and user-friendly crypto management platform for the masses. ",
+          website_url: "https://safepal.com/",
+          github_repo: "https://github.com/safepal",
+          appStore_url:
+            "https://apps.apple.com/app/safepal-wallet/id1548297139",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.safepal.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/safepal-extension-wallet/lgmpcpglpngdoalbgeoldeajfclnhafa",
+          items: [],
+        },
+        {
+          title: "Sequence Wallet",
+          description:
+            "Sequence is the smartest web3 wallet and developer platform. Sequence makes building user-friendly web3 applications easy for developers.",
+          website_url: "https://sequence.xyz/",
+          github_repo: "https://github.com/sequencewallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "KryptoGO Wallet",
+          description:
+            "The 1st decentralized DeFi Wallet with full compliance. Unlock DeFi earning in your hand.",
+          website_url: "https://kryptogo.com/wallet",
+          github_repo: "https://github.com/kryptogowallet",
+          appStore_url: "https://apps.apple.com/il/app/kryptogo/id1593830910",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.kryptogo.walletapp",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SaitaPro",
+          description:
+            "SaitaPro is here to make crypto and decentralized finance simple and safe for you. Buying crypto, trading assets, staking .",
+          website_url: "https://www.saitamatoken.com/saitapro/",
+          github_repo: "https://github.com/saitapro",
+          appStore_url: "https://apps.apple.com/us/app/saitapro/id1636523777",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.saitapro&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "helix id",
+          description: "Digital Identity Service Provider",
+          website_url: "https://helixid.io/",
+          github_repo: "https://github.com/helixid",
+          appStore_url:
+            "https://apps.apple.com/de/app/helix-id/id1469238013?l=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.io.helix.id&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Phantom",
+          description:
+            "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain.",
+          website_url: "https://phantom.app/",
+          github_repo: "https://github.com/phantom",
+          appStore_url:
+            "https://apps.apple.com/app/phantom-solana-wallet/1598432977",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.phantom",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa",
+          items: [],
+        },
+        {
+          title: "HUMBL WALLET",
+          description:
+            "The HUMBL Wallet allows you to buy, sell, receive, store and exchange digital assets such as ETH, BLOCKS, USDC.",
+          website_url: "https://www.humbl.com/",
+          github_repo: "https://github.com/humblwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/humbl-wallet/id1627171234",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.humbl.wallet.app&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Klip",
+          description: "Klip for WalletConnect",
+          website_url: "https://klipwallet.com/",
+          github_repo: "https://github.com/klip",
+          appStore_url:
+            "https://apps.apple.com/kr/app/%ED%81%B4%EB%A6%BD-klip/id1627665524",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.klipwallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "HAQQ Wallet",
+          description:
+            "Mobile crypto wallet for secure, halal cryptocurrency storage and instant access",
+          website_url: "https://haqq.network/wallet",
+          github_repo: "https://github.com/haqqwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/haqq-wallet-by-bored-gen/id6443843352",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.haqq.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Marble",
+          description:
+            "A fully customizable non-custodial wallet that takes seconds for your users to set up. No seed phrases or extensions needed.",
+          website_url: "https://www.marblewallet.com/",
+          github_repo: "https://github.com/marble",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Holdstation Wallet",
+          description:
+            "Holdstation Wallet is a self-custodial wallet working with all EVM. Holdstation aims to be a secured wallet with the best user experience.",
+          website_url: "https://www.holdstation.com/",
+          github_repo: "https://github.com/holdstationwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/holdstation-web3-wallet/id6444925618",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.holdstation",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "CoolWallet",
+          description: "Explore the Web3 universe with the coolest wallet.",
+          website_url: "https://coolwallet.io/",
+          github_repo: "https://github.com/coolwallet",
+          appStore_url:
+            "https://itunes.apple.com/us/app/coolwallet-s-2018/id1328764142",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coolbitx.cwsapp",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Lif3 Wallet",
+          description: "Lif3 Wallet App.",
+          website_url: "https://lif3.com/",
+          github_repo: "https://github.com/lif3wallet",
+          appStore_url: "https://apps.apple.com/app/lif3/id6444389674",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Kriptonio",
+          description: "All-in-One Web3 Platform",
+          website_url: "https://kriptonio.com/",
+          github_repo: "https://github.com/kriptonio",
+          appStore_url: "https://apps.apple.com/hr/app/kriptonio/id6444807361",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.kriptonio.mobile.android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Cosmostation",
+          description: "Wallet For Cosmos Ecosystem",
+          website_url: "https://www.cosmostation.io/",
+          github_repo: "https://github.com/cosmostation",
+          appStore_url:
+            "https://apps.apple.com/kr/app/cosmostation/id1459830339",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Nova Wallet",
+          description: "The Ultimate Mobile Wallet for Web3",
+          website_url: "https://novawallet.io/",
+          github_repo: "https://github.com/novawallet",
+          appStore_url:
+            "https://apps.apple.com/app/nova-polkadot-kusama-wallet/id1597119355",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.novafoundation.nova.market",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "FoxWallet",
+          description:
+            "Best Multi-chain Web3 Wallet Private & Secure Decentralized & Flexible",
+          website_url: "http://foxwallet.com/",
+          github_repo: "https://github.com/foxwallet",
+          appStore_url:
+            "https://apps.apple.com/app/foxwallet-crypto-web3/id1590983231",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.foxwallet.play",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Ancrypto Wallet",
+          description:
+            "Ancrypto Wallet is mnemonics based highly secured mobile wallet to store crypto assets. ",
+          website_url: "https://www.antiersolutions.com/",
+          github_repo: "https://github.com/ancryptowallet",
+          appStore_url:
+            "https://apps.apple.com/in/app/ancrypto-wallet/id1453657650",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "StrikeX Wallet",
+          description:
+            "The StrikeX Wallet makes buying, selling, swapping, transferring, and tracking your favourite crypto projects — slick, secure and simple. ",
+          website_url: "https://tradestrike.io/",
+          github_repo: "https://github.com/strikexwallet",
+          appStore_url:
+            "https://apps.apple.com/gb/app/strikex-defi-crypto-wallet/id6443517613",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.tradestrike",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Brave Wallet",
+          description: "The secure multi-chain crypto wallet",
+          website_url: "https://brave.com/wallet/",
+          github_repo: "https://github.com/bravewallet",
+          appStore_url: "https://brave.com/wallet/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Abra Wallet",
+          description: "Abra DeFi Wallet",
+          website_url: "https://abra.com/",
+          github_repo: "https://github.com/abrawallet",
+          appStore_url: "https://abra.com/",
+          googleplayStore_url: "https://abra.com/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Nufinetes",
+          description: "Nufinetes - Multi-Chain Crypto Wallet",
+          website_url: "https://www.nufinetes.com/",
+          github_repo: "https://github.com/nufinetes",
+          appStore_url: "https://apps.apple.com/us/app/nufinetes/id1609562349",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.vimworld.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Arianee Wallet",
+          description:
+            "With the Arianee Wallet, you can use digital passports / NFTs to verify and prove the authenticity of your most precious items.",
+          website_url: "https://arianee.org/",
+          github_repo: "https://github.com/arianeewallet",
+          appStore_url:
+            "https://apps.apple.com/fr/app/arianee-wallet/id1435782507",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.arianee.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Tholos",
+          description:
+            "A crypto wallet secured by multiple owners to view assets, transact, and interact with applications on any blockchain.",
+          website_url: "https://tholos.app/",
+          github_repo: "https://github.com/tholos",
+          appStore_url: "https://apps.apple.com/app/tholos/id1669578487",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.tholos.tholos",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "PiEthereum Hardware",
+          description:
+            "raspberryPi Ethereum Open Source Hardware: ID + Wallet for Privacy and Autonomy",
+          website_url: "https://nftydaze.com/opensource/",
+          github_repo: "https://github.com/piethereumhardware",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "KeepKey Desktop",
+          description: "A Desktop Client for the KeepKey Hardware Wallet",
+          website_url: "https://www.keepkey.com/",
+          github_repo: "https://github.com/keepkeydesktop",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Slingshot Wallet",
+          description:
+            "Slingshot Wallet is a self-custody defi wallet designed for both experienced crypto traders and web3 newcomers. ",
+          website_url: "https://slingshot.finance/",
+          github_repo: "https://github.com/slingshotwallet",
+          appStore_url: "https://apps.apple.com/app/apple-store/id1633406472",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.slingshot.finance",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bitski",
+          description:
+            "The wallet for everyone - The convenience of a hot wallet; The security of a cold wallet.",
+          website_url: "https://bitski.com/",
+          github_repo: "https://github.com/bitski",
+          appStore_url:
+            "https://apps.apple.com/us/app/bitski-wallet/id1587199538",
+          googleplayStore_url:
+            "https://chrome.google.com/webstore/detail/bitski/feejiigddaafeojfddjjlmfkabimkell",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Reunit",
+          description:
+            "Reunit is the first omnichain wallet built on top of LayerZero",
+          website_url: "https://everywhere.finance/",
+          github_repo: "https://github.com/reunit",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/reunit/nlcccgcedoleehdicpnlnjeccnlfkemh",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Okto",
+          description:
+            "Okto web3 wallet: Simple gateway to DeFi. Trade 1000+ tokens, 20+ chains, earn from 100+ protocols. Easy investing and trading features.",
+          website_url: "https://okto.tech/",
+          github_repo: "https://github.com/okto",
+          appStore_url:
+            "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coindcx.okto&hl=en_IN&gl=US",
+          chromewebStore_url: "https://okto.tech/",
+          items: [],
+        },
+        {
+          title: "Impact Wallet",
+          description: "Impacts Wallet to make a difference.",
+          website_url: "https://www.ixo.world/",
+          github_repo: "https://github.com/impactwallet",
+          appStore_url: "https://apps.apple.com/app/impacts-x/id6444948058",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.ixo.mobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "DOSI Vault",
+          description: "Blockchain Wallet for All",
+          website_url: "https://vault.dosi.world/",
+          github_repo: "https://github.com/dosivault",
+          appStore_url: "https://apps.apple.com/kr/app/dosi-vault/id1664013594",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=world.dosi.vault",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/dosi-vault/blpiicikpimmklhoiploliaenjmecabp?hl=en",
+          items: [],
+        },
+        {
+          title: "OzoneWallet",
+          description: "Chia Wallet secure and portable",
+          website_url: "https://ozonewallet.io/",
+          github_repo: "https://github.com/ozonewallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.chiatk.apps.ozone1",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ONTO",
+          description:
+            "A #DID-based #Web3 gateway for 1 million+ users on 30+ popular #blockchains, supporting 700+ dApps.",
+          website_url: "https://onto.app/",
+          github_repo: "https://github.com/onto",
+          appStore_url:
+            "https://apps.apple.com/us/app/onto-an-ontology-dapp/id1436009823",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.github.ontio.onto",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Impersonator",
+          description:
+            "Log-in to dapps as ANY Ethereum Address in view-only mode",
+          website_url: "https://www.impersonator.xyz/",
+          github_repo: "https://github.com/impersonator",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/impersonator/hgihfkmoibhccfdohjdbklmmcknjjmgl",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "iMe",
+          description:
+            "Intelligent DeFi & AI Platform Powered by Telegram API with non-custodial Crypto Wallet",
+          website_url: "https://imem.app/",
+          github_repo: "https://github.com/ime",
+          appStore_url:
+            "https://apps.apple.com/us/app/ime-messenger/id1450480822",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.iMe.android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Timeless Wallet",
+          description: "Web3 made simple. secure. social.",
+          website_url: "https://timelesswallet.xyz/",
+          github_repo: "https://github.com/timelesswallet",
+          appStore_url:
+            "https://apps.apple.com/app/timeless-wallet/id1592807339",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Pillar",
+          description:
+            "The only community-run, multichain & non-custodial DeFi wallet with one address, low-to-no gas fees and cross-chain super powers.",
+          website_url: "https://pillar.fi/",
+          github_repo: "https://github.com/pillar",
+          appStore_url:
+            "https://apps.apple.com/app/apple-store/id1346582238?pt=118878535&ct=pillar.fi&mt=8",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.pillarproject.wallet&referrer=utm_source%3Dpillar.fi%26utm_medium%3Ddownload%26utm_campaign%3Dandroid",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Nash",
+          description: "Spend, save & invest",
+          website_url: "https://nash.io/",
+          github_repo: "https://github.com/nash",
+          appStore_url:
+            "https://apps.apple.com/nl/app/nash-spend-save-invest/id1475759236",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.nash.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "U2U Wallet",
+          description:
+            "Easy asset management. Multichain available. Self-custody wallet.  Web3 Dapp browser.  Store cryptocurrencies and NFTs in one place",
+          website_url: "https://wallet.uniultra.xyz/",
+          github_repo: "https://github.com/u2uwallet",
+          appStore_url:
+            "https://apps.apple.com/vn/app/u2u-wallet/id6446194312?l=vi",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.u2u.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Ronin Wallet",
+          description:
+            "Ronin Wallet is the mobile wallet that allows you to use all decentralized applications running on Ronin.",
+          website_url: "https://wallet.roninchain.com/",
+          github_repo: "https://github.com/roninwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/ronin-wallet/id1592675001",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.skymavis.genesis",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/ronin-wallet/fnjhmkhhmkbjkkabndcnnogagogbneec",
+          items: [],
+        },
+        {
+          title: "Konio",
+          description:
+            "Native Koinos Wallet - The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
+          website_url: "https://konio.io/",
+          github_repo: "https://github.com/konio",
+          appStore_url: "https://apps.apple.com/app/konio/id6453561342",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.adrihoke.konio",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Rabby",
+          description:
+            "The game-changing wallet for Ethereum and all EVM chains",
+          website_url: "https://rabby.io/",
+          github_repo: "https://github.com/rabby",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/rabby-wallet/acmacodkjbdgmoleebolmdjonilkdbch",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Sender",
+          description:
+            "Sender is a web3 wallet that is compatible with Ethereum and NEAR, allowing you to control your cryptocurrency, NFTs, DeFi activities.",
+          website_url: "https://sender.org/",
+          github_repo: "https://github.com/sender",
+          appStore_url:
+            "https://apps.apple.com/us/app/sender-wallet/id1637821762",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.sender_wallet_mobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/sender-wallet/epapihdplajcdnnkdeiahlgigofloibg?utm_source=chrome-ntp-icon",
+          items: [],
+        },
+        {
+          title: "PassPay Wallet",
+          description:
+            "PassPay allows users to manage, send, and receive crypto assets, and is used in a variety of situations in a service called web3.",
+          website_url: "https://www.passpay.io/",
+          github_repo: "https://github.com/passpaywallet",
+          appStore_url:
+            "https://apps.apple.com/US/app/passpay-wallet-nft-%E4%BB%AE%E6%83%B3%E9%80%9A%E8%B2%A8-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88/id1645009398",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Stickey Wallet",
+          description:
+            "Easy to use for everyone! Everyone gathers! Community-focused wallet",
+          website_url: "https://stickey.app/",
+          github_repo: "https://github.com/stickeywallet",
+          appStore_url: "https://apps.apple.com/app/id1671113083",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.stickey",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "tomiPAY",
+          description: "Digital Payment System",
+          website_url: "https://tomi.com/wallet",
+          github_repo: "https://github.com/tomipay",
+          appStore_url:
+            "https://apps.apple.com/us/app/tomipay-digital-payment-system/id1643501440",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.tomiapp.production",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "WOW EARN",
+          description: "The best crypto wallet",
+          website_url: "https://www.ullapay.com/",
+          github_repo: "https://github.com/wowearn",
+          appStore_url: "https://apps.apple.com/us/app/id6443434220",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.hxg.wallet&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MUZA",
+          description:
+            "MUZA is a crypto wallet, this application connects you between web3 and the physical world to redeem a privilege from your NFTs.",
+          website_url: "https://muza.co/",
+          github_repo: "https://github.com/muza",
+          appStore_url:
+            "https://apps.apple.com/th/app/muza-wallet-nft-web3/id6450735857",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.muza.muza&pcampaignid=web_share",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Aurora Pass",
+          description: "Your gateway to the Aurora ecosystem",
+          website_url: "https://auroracloud.dev/pass",
+          github_repo: "https://github.com/aurorapass",
+          appStore_url:
+            "https://apps.apple.com/app/aurora-pass-web3-wallet/id6447244286",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=aurora.pass.android.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Unido",
+          description:
+            "Unido offers enterprise-level crypto self-custody solutions for SMEs, sophisticated corporations and institutions.",
+          website_url: "https://www.unido.us/",
+          github_repo: "https://github.com/unido",
+          appStore_url: "https://apps.apple.com/au/app/unido/id1444261005",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.worldwebms.multisigwallet&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Coininn Wallet",
+          description:
+            "Securely Hold, Send, Receive, Exchange, Tip and Earn 800+ cryptocurrencies with coinInn",
+          website_url: "https://www.coininn.com/coinwallet",
+          github_repo: "https://github.com/coininnwallet",
+          appStore_url: "https://itunes.apple.com/app/id6448525015",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coininn.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Okse Wallet",
+          description: "Okse Wallet & Card App",
+          website_url: "https://okse.io/",
+          github_repo: "https://github.com/oksewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/okse-wallet-card/id1555914591",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=wallet.okse.io",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "PREMA Wallet",
+          description:
+            "PREMA offers a seamless multichain experience as a full-fledged Blockchain platform.",
+          website_url: "https://premanft.com/",
+          github_repo: "https://github.com/premawallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/prema%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88-%E3%83%9E%E3%83%AB%E3%83%81%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1603556315",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.jp.xcreation.premawallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SubWallet",
+          description: "Comprehensive Polkadot,Substrate & Ethereum wallet",
+          website_url: "https://www.subwallet.app/",
+          github_repo: "https://github.com/subwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/subwallet-polkadot-wallet/id1633050285",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=app.subwallet.mobile&hl=en_US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn",
+          items: [],
+        },
+        {
+          title: "Shido Wallet",
+          description:
+            "Shido Wallet Multi-Chain is a next generation Crypto DeFi Wallet with Fiat Support.",
+          website_url: "https://www.shidowallet.io/",
+          github_repo: "https://github.com/shidowallet",
+          appStore_url:
+            "https://apps.apple.com/in/app/shido-wallet/id6443624368",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.shidowallet&hl=en_IN&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "RYIPAY",
+          description:
+            "RYIpay wallet app is built as a decentralized asset management tool for cryptocurrencies ",
+          website_url: "https://ryipay.app/",
+          github_repo: "https://github.com/ryipay",
+          appStore_url:
+            "https://apps.apple.com/us/app/ryipay-wallet/id1620995066",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.ryi.pay",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SISTEMAS",
+          description: "Sistema de apertura de cuentas",
+          website_url: "https://waynance.com/",
+          github_repo: "https://github.com/sistemas",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "NuFi",
-          href: "docs/hack(evm-wallets)/NuFi",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65e07e9f-183a-4f6c-6ca5-4964eda1ef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description:
+            "A self-custody Web3 wallet to manage crypto, staking, NFTs, trading and Dapps",
+          website_url: "https://nu.fi/",
+          github_repo: "https://github.com/nufi",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/nufi/gpnihlnnodeiiaakbikldcihojploeca",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "EASY",
-          href: "docs/hack(evm-wallets)/EASY",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/62feb41a-be1f-4b1c-e089-27f97c0e8d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "IndiGG",
+          description:
+            "The ultimate Web3 gaming wallet that lets you enter the web3 ecosystem and earn while playing games.",
+          website_url: "https://indi.gg/",
+          github_repo: "https://github.com/indigg",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.indiggcommunity&hl=en_US",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "Solace",
-          href: "docs/hack(evm-wallets)/Solace",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bb93c92-f20b-41d7-97c7-d0e74100bd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "Solace ERC4337 Smart Contract Wallet",
+          website_url: "https://solaceprotocol.com/",
+          github_repo: "https://github.com/solace",
+          appStore_url: "https://solace.money/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
-          title: "Meter Wallet",
-          href: "docs/hack(evm-wallets)/Meter Wallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/05700788-1b9d-4670-dabd-61fa9b90f900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          title: "Nunu",
+          description: "The 1st smart contract wallet on the opBNB.",
+          website_url: "https://nunuwallet.com/",
+          github_repo: "https://github.com/nunu",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.nunu.wallet",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
           items: [],
         },
         {
           title: "SuperWallet",
-          href: "docs/hack(evm-wallets)/SuperWallet",
-          description: "Not Provided(coming soon)",
-          logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7ce7b31-5439-4a99-06f9-aa62f3ae4e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+          description: "The Multichain Wallet for Web3",
+          website_url: "https://superex.live/",
+          github_repo: "https://github.com/superwallet",
+          appStore_url: "https://apps.apple.com/us/app/superex/id1601589888",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.superex.ex",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Coin98 Super App",
+          description:
+            "Coin98 Wallet is the #1 non-custodial, multi-chain wallet, and DeFi gateway",
+          website_url: "https://coin98.com/wallet",
+          github_repo: "https://github.com/coin98superapp",
+          appStore_url:
+            "https://apps.apple.com/vn/app/coin98-wallet/id1561969966",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=coin98.crypto.finance.media&hl=vi&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/coin98-wallet/aeachknmefphepccionboohckonoeemg",
+          items: [],
+        },
+        {
+          title: "Plasma Wallet",
+          description: "Non-custodial iOS crypto wallet for DeFi, NFT and Web3",
+          website_url: "https://plasma-wallet.com/",
+          github_repo: "https://github.com/plasmawallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/plasmapay-defi-crypto-wallet/id1461735396",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "3S Wallet",
+          description: "Mobile crypto wallet",
+          website_url: "https://3swallet.com/",
+          github_repo: "https://github.com/3swallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/3s-wallet-crypto-wallet/id1622316272",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=network.bho.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MPCWallet",
+          description: "Metaverse-Ready Wallet",
+          website_url: "https://www.mpcwallet.xyz/",
+          github_repo: "https://github.com/mpcwallet",
+          appStore_url: "https://apps.apple.com/app/mindtrust/id6443522988",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=xyz.mpcwallet.pro&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Coinbase Wallet",
+          description: "Your key to the world of crypto",
+          website_url: "https://www.coinbase.com/wallet/",
+          github_repo: "https://github.com/coinbasewallet",
+          appStore_url: "https://apps.apple.com/app/apple-store/id1278383455",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.toshi",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en",
+          items: [],
+        },
+        {
+          title: "Catecoin Wallet",
+          description: "A secure crypto wallet to grow your investments",
+          website_url: "https://catecoin.app/",
+          github_repo: "https://github.com/catecoinwallet",
+          appStore_url:
+            "https://apps.apple.com/app/id1637850589?platform=iphone",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.crypto.wallet.catecoin",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Tellaw Wallet",
+          description: "Web3 portal at fingertips",
+          website_url: "https://www.tellaw.com/",
+          github_repo: "https://github.com/tellawwallet",
+          appStore_url: "https://apps.apple.com/us/app/id6446802245",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.tellaw.tellaw",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "ELLIPAL",
+          description:
+            "ELLIPAL is an all-in-one cryptocurrency wallet. It combines the safety of a Cold Wallet with the convenience of a mobile one. ",
+          website_url: "https://www.ellipal.com/",
+          github_repo: "https://github.com/ellipal",
+          appStore_url:
+            "https://itunes.apple.com/us/app/ellipal/id1426179665?l=zh&ls=1&mt=8",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "AmmerWallet",
+          description: "Crypto Wallet and Pay ecosystem",
+          website_url: "https://ammer.cards/",
+          github_repo: "https://github.com/ammerwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/ammer-wallet/id1599698329",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MOONSTAKE",
+          description:
+            "MS is one of the top 8 staking providers in the world.As a decentralized e-wallet,we provide a platform for you to fully control asset.",
+          website_url: "https://moonstake.io/",
+          github_repo: "https://github.com/moonstake",
+          appStore_url:
+            "https://apps.apple.com/us/app/moonstake-wallet/id1502532651",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.moonstake.wallet&hl=en",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Blocto",
+          description: "Aims to make the Web3 community more accessible",
+          website_url: "https://blocto.io/",
+          github_repo: "https://github.com/blocto",
+          appStore_url: "https://apps.apple.com/app/id1481181682",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.portto.blocto&hl=en&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Stasis Wallet",
+          description: "Non-custodial wallet for stablecoins",
+          website_url: "https://stasis.net/wallet/",
+          github_repo: "https://github.com/stasiswallet",
+          appStore_url: "https://apps.apple.com/app/stasis-wallet/id1371949230",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.stasis.stasiswallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Xellar",
+          description:
+            "The worlds most lightweight & secure hard wallet combined with the decentralized banks within one platform",
+          website_url: "https://xellar.co/",
+          github_repo: "https://github.com/xellar",
+          appStore_url:
+            "https://apps.apple.com/us/app/xellar-crypto-wallet/id1671215861",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.xellar.wallets",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "EASY",
+          description: "Your web3 social wallet",
+          website_url: "https://easy.me/",
+          github_repo: "https://github.com/easy",
+          appStore_url:
+            "https://apps.apple.com/us/app/easy-web3-social-wallet/id1641192503",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.theeasy.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "TREASURE",
+          description:
+            "TREASURE WALLET Is Your Gateway To Crypto World To Earning Money From Everything Like DeFi, DAO, NFTs, Tasks, And More.",
+          website_url: "https://treasurewallet.co/",
+          github_repo: "https://github.com/treasure",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.crypto.treasure",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Krystal",
+          description: "Simplest Web3 Wallet for Everyone",
+          website_url: "https://krystal.app/",
+          github_repo: "https://github.com/krystal",
+          appStore_url:
+            "https://apps.apple.com/us/app/krystal-one-platform-all-defi/id1558105691",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.kyrd.krystal",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Wirex Wallet",
+          description:
+            "Wirex Wallet is a super-secure, non-custodial way to send, store and receive digital assets. Biometric backup, multi-blockchain capability",
+          website_url: "https://wwallet.app.link/W1YKPgySZsb",
+          github_repo: "https://github.com/wirexwallet",
+          appStore_url:
+            "https://apps.apple.com/app/wirex-wallet-crypto-and-defi/id1594165139",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.wirex.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Tangem Wallet",
+          description:
+            "Tangem is a card-shaped self-custodial cold hardware wallet which gives you full control of your private keys",
+          website_url: "https://tangem.com/",
+          github_repo: "https://github.com/tangemwallet",
+          appStore_url: "https://apps.apple.com/uz/app/tangem/id1354868448",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.tangem.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "MetaWallet",
+          description:
+            "a feature-rich and secure wallet application designed to help users better manage and control their financial situation",
+          website_url: "http://www.dota168.org/",
+          github_repo: "https://github.com/metawallet",
+          appStore_url: "http://www.dota168.org/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "FxWallet",
+          description:
+            "A Decentralized Multi-Chain Digital Wallet & The Gateway to Web3.",
+          website_url: "https://www.fxwallet.com/",
+          github_repo: "https://github.com/fxwallet",
+          appStore_url: "https://apps.apple.com/us/app/fxwallet/id1560943983",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.fxfi.fxwallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Internet Money Wallet",
+          description:
+            "EVM Wallet. Connect to All EVM Chains. First Tokenized Crypto Wallet of It's Kind. ",
+          website_url: "https://internetmoney.io/",
+          github_repo: "https://github.com/internetmoneywallet",
+          appStore_url: "https://apps.apple.com/us/app/id1641771042",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.internetmoneywallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/ckklhkaabbmdjkahiaaplikpdddkenic",
+          items: [],
+        },
+        {
+          title: "MathWallet",
+          description: "The Multichain Wallet for Web3",
+          website_url: "https://mathwallet.org/",
+          github_repo: "https://github.com/mathwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/mathwallet5/id1582612388",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.mathwallet.android",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc",
+          items: [],
+        },
+        {
+          title: "BlockWallet",
+          description:
+            "BlockWallet is a self-custodial wallet making it easy to secure digital assets, protect identity, and experience Web3.",
+          website_url: "https://blockwallet.io/",
+          github_repo: "https://github.com/blockwallet",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/blockwallet/bopcbmipnjdcdfflfgjdgdjejmgpoaab",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SimpleHold",
+          description:
+            "SimpleHold is a non-custodial multicurrency wallet that empowers you to receive, send, exchange and store your cryptocurrencies.",
+          website_url: "https://simplehold.io/",
+          github_repo: "https://github.com/simplehold",
+          appStore_url:
+            "https://apps.apple.com/gb/app/simplehold-crypto-wallet/id1589064973",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.simplehold.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Venly",
+          description:
+            "Onboard users in seconds! Venly Wallet allows your users to interact with Web3 familiarly, while we take care of the security & complexity.",
+          website_url: "https://www.venly.io/",
+          github_repo: "https://github.com/venly",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bybit Wallet",
+          description:
+            "Bybit Wallet connects you to the world of Web3 with best-in-class reliability and security",
+          website_url: "https://www.bybit.com/web3/",
+          github_repo: "https://github.com/bybitwallet",
+          appStore_url: "https://apps.apple.com/US/app/id1488296980",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.bybit.app&hl=en",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/bybit-wallet/pdliaogehgdbhbnmkklieghmmjkpigpa",
+          items: [],
+        },
+        {
+          title: "Sequel Wallet",
+          description:
+            "A self-custody, multi-wallet management platform featuring trustless, chain-agnostic social recovery.  Powered by OPAQUE cryptography.",
+          website_url: "https://www.sequelfi.com/",
+          github_repo: "https://github.com/sequelwallet",
+          appStore_url: "https://app.sequelfi.com/",
+          googleplayStore_url: "https://app.sequelfi.com/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Unstoppable Wallet",
+          description:
+            "Unstoppable Wallet is a decentralized, open-source, non-custodial, multi-blockchain, cryptocurrency wallet app.",
+          website_url: "https://unstoppable.money/",
+          github_repo: "https://github.com/unstoppablewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/unstoppable-crypto-wallet/id1447619907",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "pockie",
+          description:
+            "Pockie is a new, user-friendly wallet here to simplify your crypto journey.You can easily manage digital assets across different chains.",
+          website_url: "https://www.pockie.io/ko",
+          github_repo: "https://github.com/pockie",
+          appStore_url: "https://apps.apple.com/kr/app/pockie/id6448715234",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.pilab.pockie&hl=en-KR",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Yuse Wallet",
+          description:
+            "Yuse Wallet is the official crypto wallet of Yuse Technologies.",
+          website_url: "https://yusetoken.io/",
+          github_repo: "https://github.com/yusewallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/yuse-wallet/id6449364813",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.yuse.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "XDEFI Wallet",
+          description:
+            "XDEFI is a multichain wallet that allows you to securely store, swap, and send Crypto and NFTs across 17 blockchains.",
+          website_url: "https://www.xdefi.io/",
+          github_repo: "https://github.com/xdefiwallet",
+          appStore_url:
+            "https://chrome.google.com/webstore/detail/xdefi-wallet/hmeobnfnfcmdkdcmlblgagmfpfboieaf?hl=en",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Talken Wallet",
+          description: "Talken Web3 Wallet & NFT Suite",
+          website_url: "https://talken.io/",
+          github_repo: "https://github.com/talkenwallet",
+          appStore_url:
+            "https://apps.apple.com/kr/app/talken-web3-wallet-nft-suite/id1459475831",
+          googleplayStore_url:
+            "https://play.google.com/store/search?q=talken&c=apps&hl=en-KR",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "SA ASSISTANT",
+          description: "A wallet ",
+          website_url: "https://summonersarena.io/",
+          github_repo: "https://github.com/saassistant",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.onechain.saas&hl=en-VN",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "atato custody",
+          description:
+            "atato wallet is an MPC-based custody wallet that aims to enable SME use cases. For more info, please visit https://atato.com.",
+          website_url: "https://atato.com/",
+          github_repo: "https://github.com/atatocustody",
+          appStore_url:
+            "https://apps.apple.com/us/app/atato-custody/id1586312980",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.atato.custody",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Essentials",
+          description: "Crypto and Decentralized Identity",
+          website_url: "https://www.trinity-tech.io/essentials",
+          github_repo: "https://github.com/essentials",
+          appStore_url:
+            "https://apps.apple.com/us/app/elastos-essentials/id1568931743",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.elastos.essentials.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Uniblow",
+          description: "A universal blockchain wallet for cryptos",
+          website_url: "https://uniblow.org/",
+          github_repo: "https://github.com/uniblow",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bitverse",
+          description: "Credit Wallet Creates Wealth Web3 Space",
+          website_url: "https://www.bitverse.zone/",
+          github_repo: "https://github.com/bitverse",
+          appStore_url: "https://apps.apple.com/app/1645515614",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.bitverse.app&pli=1",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/bitverse-wallet/gkeelndblnomfmjnophbhfhcjbcnemka",
+          items: [],
+        },
+        {
+          title: "Pali Wallet",
+          description: "Your Secure Web3 Companion.",
+          website_url: "https://paliwallet.com/",
+          github_repo: "https://github.com/paliwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/pali-wallet-dex-nft-defi/id6447639615",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.paliwallet",
+          chromewebStore_url:
+            "https://play.google.com/store/apps/details?id=io.paliwallet",
+          items: [],
+        },
+        {
+          title: "Meter Wallet",
+          description: "wallet on ethereum compatible networks",
+          website_url: "https://www.meter.io/",
+          github_repo: "https://github.com/meterwallet",
+          appStore_url: "https://apps.apple.com/app/id1456732565/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bifrost Wallet",
+          description:
+            "A multi-chain wallet for decentralized finance and NFTs on Songbird, Flare, Ethereum and beyond.",
+          website_url: "https://bifrostwallet.com/",
+          github_repo: "https://github.com/bifrostwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/bifrost-wallet/id1577198351",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.bifrostwallet.app",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "UTORG",
+          description:
+            "A multi-crypto, self-custody wallet with blockchain support. Purchase crypto directly within the app.",
+          website_url: "https://utorg.app/",
+          github_repo: "https://github.com/utorg",
+          appStore_url:
+            "https://apps.apple.com/app/utorg-bitcoin-crypto-wallet/id6444720908",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.utorg",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Altme",
+          description:
+            "A user-friendly crypto wallet designed to protect your digital identity and simplify your journey in web 3 world.",
+          website_url: "https://altme.io/",
+          github_repo: "https://github.com/altme",
+          appStore_url: "https://apps.apple.com/fr/app/altme/id1633216869",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=co.altme.alt.me.altme",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "AmazeWallet",
+          description:
+            "The Web3 smartwallet. Swap, buy, trade and chat to friends while mining crypto.",
+          website_url: "https://amazewallet.com/",
+          github_repo: "https://github.com/amazewallet",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=com.walletamaze.nftwallet",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "UKISS Hub",
+          description:
+            "UKISS Hub Mobile Wallet enables UKISS Hugware to connect to DAPP platforms via Wallet Connect ",
+          website_url: "https://www.ukiss.io/",
+          github_repo: "https://github.com/ukisshub",
+          appStore_url:
+            "https://play.google.com/store/apps/details?id=io.ukiss.uhub.mobile",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Wallet 3",
+          description:
+            "Wallet 3 is a digital wallet designed specifically for Ethereum users.",
+          website_url: "https://wallet3.io/",
+          github_repo: "https://github.com/wallet3",
+          appStore_url: "https://itunes.apple.com/us/app/wallet-3/id1597395741",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=jp.co.chainbow.wallet3.mobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Fireblocks",
+          description: "#1 Crypto and Digital Asset Platform for Institutions",
+          website_url: "https://www.fireblocks.com/",
+          github_repo: "https://github.com/fireblocks",
+          appStore_url: "https://apps.apple.com/us/app/fireblocks/id1439296596",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.fireblocks.client&gl=IL",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bitpie",
+          description:
+            "Bitpie is an industry-leading multi-blockchain (BTC/ETH/TRX/USDT etc.) decentralized wallet. ",
+          website_url: "https://bitpie.com/",
+          github_repo: "https://github.com/bitpie",
+          appStore_url: "https://bitpie.com/android/",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "CoinWallet",
+          description:
+            "HD Wallet Designed for Professionals, support mainnet and testnet, and generate address based on specific derivation path",
+          website_url: "https://www.coinsdo.com/",
+          github_repo: "https://github.com/coinwallet",
+          appStore_url:
+            "https://apps.apple.com/us/app/coinsdo-wallet/id1631258517",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.coinsdo.wallet",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "OneKey",
+          description:
+            "Open source multi-chain crypto wallet runs on all platforms: iOS, Android, Windows, macOS, Linux, Chrome, Firefox... and more.",
+          website_url: "https://onekey.so/",
+          github_repo: "https://github.com/onekey",
+          appStore_url:
+            "https://apps.apple.com/us/app/onekey-open-source-wallet/id1609559473",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=so.onekey.app.wallet&hl=en_US&gl=US",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/onekey/jnmbobjmhlngoefaiojfljckilhhlhcj",
+          items: [],
+        },
+        {
+          title: "Pitaka",
+          description:
+            "Take control of your Assets, Information, and Security.",
+          website_url: "https://pitaka.io/",
+          github_repo: "https://github.com/pitaka",
+          appStore_url: "https://testflight.apple.com/join/nO1eKTVP",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=com.pitakamobile",
+          chromewebStore_url:
+            "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+          items: [],
+        },
+        {
+          title: "Bitizen",
+          description: "Crypto/Web3 Wallet",
+          website_url: "https://bitizen.org/",
+          github_repo: "https://github.com/bitizen",
+          appStore_url:
+            "https://apps.apple.com/us/app/bitizen-defi-web3-eth-wallet/id1598283542",
+          googleplayStore_url:
+            "https://play.google.com/store/apps/details?id=org.bitizen.wallet",
+          chromewebStore_url: "https://bitizen.org/",
           items: [],
         },
       ],
     },
+    // Evm Wallets
     {
       title: "Hack(Solana Wallets)",
       items: [
@@ -4377,7 +6126,8 @@ export const docsConfig: DocsConfig = {
             "This passport-http-header-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "5,286",
           star: "1",
-          github_repo: "https://github.com/FengYuHe/passport-http-header-strategy",
+          github_repo:
+            "https://github.com/FengYuHe/passport-http-header-strategy",
           version: "1.1.0",
           updated: "a year ago",
           items: [],
@@ -4443,7 +6193,8 @@ export const docsConfig: DocsConfig = {
             "This passport-google-oidc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2,984",
           star: "11",
-          github_repo: "https://github.com/jaredhanson/passport-google-openidconnect",
+          github_repo:
+            "https://github.com/jaredhanson/passport-google-openidconnect",
           version: "0.1.0",
           updated: "a year ago",
           items: [],
@@ -4586,7 +6337,8 @@ export const docsConfig: DocsConfig = {
             "This passport-jwt-cookiecombo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "962",
           star: "31",
-          github_repo: "https://github.com/codebarista/passport-jwt-cookiecombo",
+          github_repo:
+            "https://github.com/codebarista/passport-jwt-cookiecombo",
           version: "1.0.5",
           updated: "a year ago",
           items: [],
@@ -4652,7 +6404,8 @@ export const docsConfig: DocsConfig = {
             "This passport-dropbox-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "850",
           star: "31",
-          github_repo: "https://github.com/florianheinemann/passport-dropbox-oauth2",
+          github_repo:
+            "https://github.com/florianheinemann/passport-dropbox-oauth2",
           version: "1.1.0",
           updated: "a year ago",
           items: [],
@@ -4817,7 +6570,8 @@ export const docsConfig: DocsConfig = {
             "This passport-appfigures passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "40",
           star: "1",
-          github_repo: "https://github.com/SpiderStrategies/passport-appfigures",
+          github_repo:
+            "https://github.com/SpiderStrategies/passport-appfigures",
           version: "1.0.1",
           updated: "a year ago",
           items: [],
@@ -5037,7 +6791,8 @@ export const docsConfig: DocsConfig = {
             "This passport-eventbrite-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "23",
           star: "0",
-          github_repo: "git://github.com/jamplify/passport-eventbrite-oauth.git",
+          github_repo:
+            "git://github.com/jamplify/passport-eventbrite-oauth.git",
           version: "0.0.3",
           updated: "a year ago",
           items: [],
@@ -5125,7 +6880,8 @@ export const docsConfig: DocsConfig = {
             "This passport-tequila passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "19",
           star: "0",
-          github_repo: "git+ssh://git@gitlab.com/epfl-isasfsd/passport-tequila.git",
+          github_repo:
+            "git+ssh://git@gitlab.com/epfl-isasfsd/passport-tequila.git",
           version: "1.0.4",
           updated: "6 months ago",
           items: [],
@@ -5444,7 +7200,8 @@ export const docsConfig: DocsConfig = {
             "This passport-bitbucket-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "307",
           star: "6",
-          github_repo: "https://github.com/saintedlama/passport-bitbucket-oauth2",
+          github_repo:
+            "https://github.com/saintedlama/passport-bitbucket-oauth2",
           version: "1.1.0",
           updated: "a year ago",
           items: [],
@@ -5455,7 +7212,8 @@ export const docsConfig: DocsConfig = {
             "This passport-http-custom-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "297",
           star: "1",
-          github_repo: "https://github.com/wwwslinger/passport-http-custom-bearer",
+          github_repo:
+            "https://github.com/wwwslinger/passport-http-custom-bearer",
           version: "1.0.15",
           updated: "a year ago",
           items: [],
@@ -5841,7 +7599,8 @@ export const docsConfig: DocsConfig = {
             "This passport-did-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "109",
           star: "14",
-          github_repo: "https://github.com/energywebfoundation/passport-did-auth",
+          github_repo:
+            "https://github.com/energywebfoundation/passport-did-auth",
           version: "2.0.0",
           updated: "7 days ago",
           items: [],
@@ -5929,7 +7688,8 @@ export const docsConfig: DocsConfig = {
             "This passport-fitbit-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "104",
           star: "29",
-          github_repo: "https://github.com/thegameofcode/passport-fitbit-oauth2",
+          github_repo:
+            "https://github.com/thegameofcode/passport-fitbit-oauth2",
           version: "1.0.2",
           updated: "a year ago",
           items: [],
@@ -6292,7 +8052,8 @@ export const docsConfig: DocsConfig = {
             "This passport-taccounts-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "4",
           star: "1",
-          github_repo: "https://github.com/Telefonica/passport-taccounts-oauth2",
+          github_repo:
+            "https://github.com/Telefonica/passport-taccounts-oauth2",
           version: "2.0.0",
           updated: "a year ago",
           items: [],
@@ -6458,7 +8219,8 @@ export const docsConfig: DocsConfig = {
             "This passport-ibm-connections-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "3",
           star: "2",
-          github_repo: "https://github.com/benkroeger/passport-ibm-connections-cloud",
+          github_repo:
+            "https://github.com/benkroeger/passport-ibm-connections-cloud",
           version: "1.2.0",
           updated: "a year ago",
           items: [],
@@ -6678,7 +8440,8 @@ export const docsConfig: DocsConfig = {
             "This passport-shutterstock-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "3",
           star: "0",
-          github_repo: "https://github.com/shutterstock/passport-shutterstock-oauth2",
+          github_repo:
+            "https://github.com/shutterstock/passport-shutterstock-oauth2",
           version: "1.1.2",
           updated: "a year ago",
           items: [],
@@ -6986,7 +8749,8 @@ export const docsConfig: DocsConfig = {
             "This passport-tidal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "5",
           star: "0",
-          github_repo: "git+https://github.com/tidal-engineering/passport-tidal.git",
+          github_repo:
+            "git+https://github.com/tidal-engineering/passport-tidal.git",
           version: "0.4.2",
           updated: "a year ago",
           items: [],
@@ -7305,7 +9069,8 @@ export const docsConfig: DocsConfig = {
             "This passport-learningstudio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2",
           star: "0",
-          github_repo: "git://github.com/PearsonAPI/passport-learningstudio.git",
+          github_repo:
+            "git://github.com/PearsonAPI/passport-learningstudio.git",
           version: "1.0.2",
           updated: "a year ago",
           items: [],
@@ -7316,7 +9081,8 @@ export const docsConfig: DocsConfig = {
             "This passport-ibm-connections-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2",
           star: "0",
-          github_repo: "https://github.com/benkroeger/passport-ibm-connections-oauth",
+          github_repo:
+            "https://github.com/benkroeger/passport-ibm-connections-oauth",
           version: "2.1.0",
           updated: "a year ago",
           items: [],
@@ -7371,7 +9137,8 @@ export const docsConfig: DocsConfig = {
             "This passport-latch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2",
           star: "0",
-          github_repo: "git://github.com/elevenpaths/latch-plugin-passportjs.git",
+          github_repo:
+            "git://github.com/elevenpaths/latch-plugin-passportjs.git",
           version: "0.1.0",
           updated: "a year ago",
           items: [],
@@ -7415,7 +9182,8 @@ export const docsConfig: DocsConfig = {
             "This passport_eloqua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "3",
           star: "0",
-          github_repo: "git+ssh://git@github.com/bedrockdata/passport_eloqua.git",
+          github_repo:
+            "git+ssh://git@github.com/bedrockdata/passport_eloqua.git",
           version: "1.0.5",
           updated: "a year ago",
           items: [],
@@ -7603,7 +9371,8 @@ export const docsConfig: DocsConfig = {
             "This passport-digital-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2",
           star: "2",
-          github_repo: "https://github.com/johnhenry/passport-digital-signature",
+          github_repo:
+            "https://github.com/johnhenry/passport-digital-signature",
           version: "0.0.1",
           updated: "a year ago",
           items: [],
@@ -7736,7 +9505,8 @@ export const docsConfig: DocsConfig = {
             "This passport-chalkable-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "2",
-          github_repo: "https://github.com/headlessme/passport-chalkable-oauth2",
+          github_repo:
+            "https://github.com/headlessme/passport-chalkable-oauth2",
           version: "0.0.6",
           updated: "a year ago",
           items: [],
@@ -7879,7 +9649,8 @@ export const docsConfig: DocsConfig = {
             "This passport-ibm-connections-basic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "1",
-          github_repo: "https://github.com/benkroeger/passport-ibm-connections-basic",
+          github_repo:
+            "https://github.com/benkroeger/passport-ibm-connections-basic",
           version: "1.0.1",
           updated: "a year ago",
           items: [],
@@ -7923,7 +9694,8 @@ export const docsConfig: DocsConfig = {
             "This passport-brightspace-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "1",
-          github_repo: "https://github.com/Brightspace/passport-brightspace-auth",
+          github_repo:
+            "https://github.com/Brightspace/passport-brightspace-auth",
           version: "1.0.4",
           updated: "a year ago",
           items: [],
@@ -8011,7 +9783,8 @@ export const docsConfig: DocsConfig = {
             "This passport-dedicated-bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "1",
-          github_repo: "https://github.com/colbycolby/passport-dedicated-bluemix",
+          github_repo:
+            "https://github.com/colbycolby/passport-dedicated-bluemix",
           version: "1.0.0",
           updated: "a year ago",
           items: [],
@@ -8165,7 +9938,8 @@ export const docsConfig: DocsConfig = {
             "This passport-webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "1",
-          github_repo: "https://github.com/webauthn-open-source/passport-webauthn",
+          github_repo:
+            "https://github.com/webauthn-open-source/passport-webauthn",
           version: "0.0.1",
           updated: "a year ago",
           items: [],
@@ -8562,7 +10336,8 @@ export const docsConfig: DocsConfig = {
             "This passport-planningcenter-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "2",
           star: "0",
-          github_repo: "https://github.com/glena/passport-planningcenter-oauth2",
+          github_repo:
+            "https://github.com/glena/passport-planningcenter-oauth2",
           version: "1.0.0",
           updated: "a year ago",
           items: [],
@@ -8859,7 +10634,8 @@ export const docsConfig: DocsConfig = {
             "This passport-http-encrypted-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "0",
-          github_repo: "https://github.com/dowjones/passport-http-encrypted-token",
+          github_repo:
+            "https://github.com/dowjones/passport-http-encrypted-token",
           version: "1.2.1",
           updated: "a year ago",
           items: [],
@@ -8892,7 +10668,8 @@ export const docsConfig: DocsConfig = {
             "This passport-makerpass passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "0",
-          github_repo: "git+ssh://git@github.com/makerpass/passport-makerpass.git",
+          github_repo:
+            "git+ssh://git@github.com/makerpass/passport-makerpass.git",
           version: "2.0.0",
           updated: "a year ago",
           items: [],
@@ -9101,7 +10878,8 @@ export const docsConfig: DocsConfig = {
             "This passport-fellowshipone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "3",
-          github_repo: "https://github.com/hairyhenderson/passport-fellowshipone",
+          github_repo:
+            "https://github.com/hairyhenderson/passport-fellowshipone",
           version: "0.0.4",
           updated: "a year ago",
           items: [],
@@ -9200,7 +10978,8 @@ export const docsConfig: DocsConfig = {
             "This passport-mapmyfitness passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "0",
-          github_repo: "https://github.com/patbonecrusher/passport-mapmyfitness",
+          github_repo:
+            "https://github.com/patbonecrusher/passport-mapmyfitness",
           version: "1.0.3",
           updated: "a year ago",
           items: [],
@@ -9399,7 +11178,8 @@ export const docsConfig: DocsConfig = {
             "This passport-headerapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "0",
           star: "0",
-          github_repo: "git://github.com/hydra-newmedia/passport-headerapikey.git",
+          github_repo:
+            "git://github.com/hydra-newmedia/passport-headerapikey.git",
           version: "1.0.3",
           updated: "2 years ago",
           items: [],
@@ -9685,7 +11465,8 @@ export const docsConfig: DocsConfig = {
             "This passport-wevision passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "1",
           star: "0",
-          github_repo: "git://bitbucket.org/themobilefirm/passport-wevision.git",
+          github_repo:
+            "git://bitbucket.org/themobilefirm/passport-wevision.git",
           version: "0.1.3",
           updated: "a year ago",
           items: [],
@@ -9718,7 +11499,8 @@ export const docsConfig: DocsConfig = {
             "This passport-atlassian-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           download: "0",
           star: "3",
-          github_repo: "https://github.com/DanielHreben/passport-atlassian-connect",
+          github_repo:
+            "https://github.com/DanielHreben/passport-atlassian-connect",
           version: "1.0.0",
           updated: "a year ago",
           items: [],

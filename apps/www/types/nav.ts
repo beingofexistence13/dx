@@ -3,6 +3,10 @@ import { Icons } from "@/components/icons"
 export interface NavItem {
   title: string
   description?: string
+  website_url?: string
+  appStore_url?: string
+  googleplayStore_url?: string
+  chromewebStore_url?: string
   download?: string
   star?: string
   version?: string
