@@ -53273,6 +53273,3311 @@ let ui = [
     description: "Not Provided(coming soon)",
   },
 ]
+let uis = [
+  {
+    title:"Friday",
+    description:"This section provides information about Friday.",
+    href:"/docs/ui/friday",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Hello Mode",
+    description:"This section provides information about Hello Mode.",
+    href:"/docs/ui/hello-mode",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Multiverse",
+    description:"This section provides information about Multiverse.",
+    href:"/docs/ui/multiverse",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Navbar",
+    description:"This section provides information about Navbar.",
+    href:"/docs/ui/navbar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Blockchain Status",
+    description:"This section provides information about Blockchain Status.",
+    href:"/docs/ui/blockchain-status",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Activitybar",
+    description:"This section provides information about Activitybar.",
+    href:"/docs/ui/activitybar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Primary Sidebar",
+    description:"This section provides information about Primary Sidebar.",
+    href:"/docs/ui/primary-sidebar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Secondary Sidebar",
+    description:"This section provides information about Secondary Sidebar.",
+    href:"/docs/ui/secondary-sidebar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Bottombar",
+    description:"This section provides information about Bottombar.",
+    href:"/docs/ui/bottombar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Dockbar",
+    description:"This section provides information about Dockbar.",
+    href:"/docs/ui/dockbar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Video Player",
+    description:"This section provides information about Video Player.",
+    href:"/docs/ui/video-player",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Hello 3d",
+    description:"This section provides information about Hello 3d.",
+    href:"/docs/ui/hello-3d",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Theme",
+    description:"This section provides information about Theme.",
+    href:"/docs/ui/theme",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Keyboard Shortcuts",
+    description:"This section provides information about Keyboard Shortcuts.",
+    href:"/docs/ui/keyboard-shortcuts",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Search",
+    description:"This section provides information about Search.",
+    href:"/docs/ui/search",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Command Palette",
+    description:"This section provides information about Command Palette.",
+    href:"/docs/ui/command-palette",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Footer",
+    description:"This section provides information about Footer.",
+    href:"/docs/ui/footer",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"According",
+    description:"This section provides information about According.",
+    href:"/docs/ui/according",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Alert",
+    description:"This section provides information about Alert.",
+    href:"/docs/ui/alert",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Alert Dialog",
+    description:"This section provides information about Alert Dialog.",
+    href:"/docs/ui/alert-dialog",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Aspect Ratio",
+    description:"This section provides information about Aspect Ratio.",
+    href:"/docs/ui/aspect-ratio",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Avatar",
+    description:"This section provides information about Avatar.",
+    href:"/docs/ui/avatar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Badge",
+    description:"This section provides information about Badge.",
+    href:"/docs/ui/badge",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Button",
+    description:"This section provides information about Button.",
+    href:"/docs/ui/button",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Calendar",
+    description:"This section provides information about Calendar.",
+    href:"/docs/ui/calendar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Card",
+    description:"This section provides information about Card.",
+    href:"/docs/ui/card",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Checkbox",
+    description:"This section provides information about Checkbox.",
+    href:"/docs/ui/checkbox",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Collapsible",
+    description:"This section provides information about Collapsible.",
+    href:"/docs/ui/collapsible",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Combobox",
+    description:"This section provides information about Combobox.",
+    href:"/docs/ui/combobox",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Context Menu",
+    description:"This section provides information about Context Menu.",
+    href:"/docs/ui/context-menu",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Data Table",
+    description:"This section provides information about Data Table.",
+    href:"/docs/ui/data-table",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Dialog",
+    description:"This section provides information about Dialog.",
+    href:"/docs/ui/dialog",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Dropdown Menu",
+    description:"This section provides information about Dropdown Menu.",
+    href:"/docs/ui/dropdown-menu",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Form",
+    description:"This section provides information about Form.",
+    href:"/docs/ui/form",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Hover Card",
+    description:"This section provides information about Hover Card.",
+    href:"/docs/ui/hover-card",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Input",
+    description:"This section provides information about Input.",
+    href:"/docs/ui/input",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Label",
+    description:"This section provides information about Label.",
+    href:"/docs/ui/label",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Popover",
+    description:"This section provides information about Popover.",
+    href:"/docs/ui/popover",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Progress",
+    description:"This section provides information about Progress.",
+    href:"/docs/ui/progress",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Radio Group",
+    description:"This section provides information about Radio Group.",
+    href:"/docs/ui/radio-group",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Scroll Area",
+    description:"This section provides information about Scroll Area.",
+    href:"/docs/ui/scroll-area",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Select",
+    description:"This section provides information about Select.",
+    href:"/docs/ui/select",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Separator",
+    description:"This section provides information about Separator.",
+    href:"/docs/ui/separator",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Sheet",
+    description:"This section provides information about Sheet.",
+    href:"/docs/ui/sheet",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Skeleton",
+    description:"This section provides information about Skeleton.",
+    href:"/docs/ui/skeleton",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Slider",
+    description:"This section provides information about Slider.",
+    href:"/docs/ui/slider",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Switch",
+    description:"This section provides information about Switch.",
+    href:"/docs/ui/switch",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Table",
+    description:"This section provides information about Table.",
+    href:"/docs/ui/table",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tabs",
+    description:"This section provides information about Tabs.",
+    href:"/docs/ui/tabs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Textarea",
+    description:"This section provides information about Textarea.",
+    href:"/docs/ui/textarea",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Toast",
+    description:"This section provides information about Toast.",
+    href:"/docs/ui/toast",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Toggle",
+    description:"This section provides information about Toggle.",
+    href:"/docs/ui/toggle",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tooltip",
+    description:"This section provides information about Tooltip.",
+    href:"/docs/ui/tooltip",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Text",
+    description:"This section provides information about Text.",
+    href:"/docs/ui/text",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Charts",
+    description:"This section provides information about Charts.",
+    href:"/docs/ui/charts",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Pagination",
+    description:"This section provides information about Pagination.",
+    href:"/docs/ui/pagination",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Breadcrumbs",
+    description:"This section provides information about Breadcrumbs.",
+    href:"/docs/ui/breadcrumbs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Chat Bubble",
+    description:"This section provides information about Chat Bubble.",
+    href:"/docs/ui/chat-bubble",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Date and Time Picker",
+    description:"This section provides information about Date and Time Picker.",
+    href:"/docs/ui/date-and-time-picker",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Stacked Lists",
+    description:"This section provides information about Stacked Lists.",
+    href:"/docs/ui/stacked-lists",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Feeds",
+    description:"This section provides information about Feeds.",
+    href:"/docs/ui/feeds",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Feildset",
+    description:"This section provides information about Feildset.",
+    href:"/docs/ui/feildset",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"States",
+    description:"This section provides information about States.",
+    href:"/docs/ui/states",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Action Panels",
+    description:"This section provides information about Action Panels.",
+    href:"/docs/ui/action-panels",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Checkout Form",
+    description:"This section provides information about Checkout Form.",
+    href:"/docs/ui/checkout-form",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Reviews",
+    description:"This section provides information about Reviews.",
+    href:"/docs/ui/reviews",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Order Summaries",
+    description:"This section provides information about Order Summaries.",
+    href:"/docs/ui/order-summaries",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Order History",
+    description:"This section provides information about Order History.",
+    href:"/docs/ui/order-history",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Incentives",
+    description:"This section provides information about Incentives.",
+    href:"/docs/ui/incentives",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Box",
+    description:"This section provides information about Box.",
+    href:"/docs/ui/box",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Callout",
+    description:"This section provides information about Callout.",
+    href:"/docs/ui/callout",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Datapoint",
+    description:"This section provides information about Datapoint.",
+    href:"/docs/ui/datapoint",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Masonary",
+    description:"This section provides information about Masonary.",
+    href:"/docs/ui/masonary",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Overlay Panels",
+    description:"This section provides information about Overlay Panels.",
+    href:"/docs/ui/overlay-panels",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Table Of Contents",
+    description:"This section provides information about Table Of Contents.",
+    href:"/docs/ui/table-of-contents",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Float Button",
+    description:"This section provides information about Float Button.",
+    href:"/docs/ui/float-button",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Autocomplete",
+    description:"This section provides information about Autocomplete.",
+    href:"/docs/ui/autocomplete",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Cascader",
+    description:"This section provides information about Cascader.",
+    href:"/docs/ui/cascader",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Color Picker",
+    description:"This section provides information about Color Picker.",
+    href:"/docs/ui/color-picker",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Mentions",
+    description:"This section provides information about Mentions.",
+    href:"/docs/ui/mentions",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Rate",
+    description:"This section provides information about Rate.",
+    href:"/docs/ui/rate",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Carosel",
+    description:"This section provides information about Carosel.",
+    href:"/docs/ui/carosel",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Transfer",
+    description:"This section provides information about Transfer.",
+    href:"/docs/ui/transfer",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tag",
+    description:"This section provides information about Tag.",
+    href:"/docs/ui/tag",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"QR Code",
+    description:"This section provides information about QR Code.",
+    href:"/docs/ui/qr-code",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Statics",
+    description:"This section provides information about Statics.",
+    href:"/docs/ui/statics",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Timeline",
+    description:"This section provides information about Timeline.",
+    href:"/docs/ui/timeline",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tour",
+    description:"This section provides information about Tour.",
+    href:"/docs/ui/tour",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Skeleton",
+    description:"This section provides information about Skeleton.",
+    href:"/docs/ui/skeleton",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Affix",
+    description:"This section provides information about Affix.",
+    href:"/docs/ui/affix",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Segmented",
+    description:"This section provides information about Segmented.",
+    href:"/docs/ui/segmented",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tree",
+    description:"This section provides information about Tree.",
+    href:"/docs/ui/tree",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Steps",
+    description:"This section provides information about Steps.",
+    href:"/docs/ui/steps",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Rail",
+    description:"This section provides information about Rail.",
+    href:"/docs/ui/rail",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Dimmer",
+    description:"This section provides information about Dimmer.",
+    href:"/docs/ui/dimmer",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Portal",
+    description:"This section provides information about Portal.",
+    href:"/docs/ui/portal",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Range Selector",
+    description:"This section provides information about Range Selector.",
+    href:"/docs/ui/range-selector",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Emoji Feedback",
+    description:"This section provides information about Emoji Feedback.",
+    href:"/docs/ui/emojif-feedback",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"World Map",
+    description:"This section provides information about World Map.",
+    href:"/docs/ui/world-map",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Meter",
+    description:"This section provides information about Meter.",
+    href:"/docs/ui/meter",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"College",
+    description:"This section provides information about College.",
+    href:"/docs/ui/college",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Material Ui",
+    description:"This section provides information about Material Ui.",
+    href:"/docs/ui/material-ui",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Nextui",
+    description:"This section provides information about Nextui.",
+    href:"/docs/ui/nextui",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Background Color",
+    description:"This section provides information about Background Color.",
+    href:"/docs/ui/background-color",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let ux = [
+  {
+    title: "Ar and Vr",
+    href: "/docs/ux/ar-and-vr",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Motionjs",
+    href: "/docs/ux/motionjs",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Framer Motion",
+    href: "/docs/ux/framer-motion",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Threejs",
+    href: "/docs/ux/threejs",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Unreal Engine",
+    href: "/docs/ux/unreal-engine",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Unity Engine",
+    href: "/docs/ux/unity-engine",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Blendar",
+    href: "/docs/ux/blendar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Maya",
+    href: "/docs/ux/maya",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "360Deg",
+    href: "/docs/ux/360deg",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "WebAssembly",
+    href: "/docs/ux/webassembly",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "React Spring",
+    href: "/docs/ux/react-spring",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React Motion",
+    href: "/docs/ux/react-motion",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Framer Motion",
+    href: "/docs/ux/framer-motion",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "GSAP (GreenSock Animation Platform)",
+    href: "/docs/ux/gsap-(greensock-animation-platform)",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React Transition Group",
+    href: "/docs/ux/react-transition-group",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React Move",
+    href: "/docs/ux/react-move",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React-Flip-Toolkit",
+    href: "/docs/ux/react-flip-toolkit",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React-Reveal",
+    href: "/docs/ux/react-reveal",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React-Simple-Animate",
+    href: "/docs/ux/react-simple-animate",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "TiltJS",
+    href: "/docs/ux/tiltjs",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Rough Notation",
+    href: "/docs/ux/rough-notation",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "tsParticles",
+    href: "/docs/ux/tsparticles",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Particles.js",
+    href: "/docs/ux/particles.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "mo.js",
+    href: "/docs/ux/mo.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Lightbox2",
+    href: "/docs/ux/lightbox2",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Slick",
+    href: "/docs/ux/slick",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Barba.js",
+    href: "/docs/ux/barba.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Locomotive Scroll",
+    href: "/docs/ux/locomotive-scroll",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Owl Carousel",
+    href: "/docs/ux/owl-carousel",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "SwiperJS",
+    href: "/docs/ux/swiperjs",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Splide",
+    href: "/docs/ux/splide",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Simple Parallax",
+    href: "/docs/ux/simple-parallax",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Kute.js",
+    href: "/docs/ux/kute.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Granim.js",
+    href: "/docs/ux/granim.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Popmotion",
+    href: "/docs/ux/popmotion",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Vivus",
+    href: "/docs/ux/vivus",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Typed.js",
+    href: "/docs/ux/typed.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Progress Bar JS",
+    href: "/docs/ux/progress-bar-js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "AnimeJS",
+    href: "/docs/ux/animejs",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "AniJS",
+    href: "/docs/ux/anijs",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Remotion",
+    href: "/docs/ux/remotion",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Greensock",
+    href: "/docs/ux/greensock",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "VelocityJS",
+    href: "/docs/ux/velocityjs",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Lax.js",
+    href: "/docs/ux/lax.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Rellax.js",
+    href: "/docs/ux/rellax.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "three.js",
+    href: "/docs/ux/three.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "wow.js",
+    href: "/docs/ux/wow.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Chocolat.js",
+    href: "/docs/ux/chocolat.js",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+
+  {
+    title: "multiselect.js",
+    href: "/docs/ux/multiselect.js",
+    description: "Multiselect Dropdown List With Checkboxes",
+    items: [],
+  },
+  {
+    title: "multiselect",
+    href: "/docs/ux/multiselect",
+    description: "Multiple Select With Dropdown List",
+    items: [],
+  },
+  {
+    title: "confetti.js",
+    href: "/docs/ux/confetti.js",
+    description: "Confetti Falling Animation In Pure JavaScript",
+    items: [],
+  },
+  {
+    title: "Lightense.js",
+    href: "/docs/ux/lightense.js",
+    description: "Medium.com Like Image Zoom Library",
+    items: [],
+  },
+  {
+    title: "SelectPure",
+    href: "/docs/ux/selectpure",
+    description: "Elegant Multi-Select Component With Autocomplete",
+    items: [],
+  },
+  {
+    title: "Drawflow",
+    href: "/docs/ux/drawflow",
+    description: "Drag And Drop Flowchart Builder",
+    items: [],
+  },
+  {
+    title: "Carousel.js",
+    href: "/docs/ux/carousel.js",
+    description: "Flip Through Elements In A 3D Space",
+    items: [],
+  },
+  {
+    title: "js-image-zoom",
+    href: "/docs/ux/js-image-zoom",
+    description: "Zoom Image On Hover",
+    items: [],
+  },
+  {
+    title: "Enchanter",
+    href: "/docs/ux/enchanter",
+    description: "Create A Multi-Step Form In Bootstrap 5",
+    items: [],
+  },
+  {
+    title: "json-view",
+    href: "/docs/ux/json-view",
+    description: "Render JSON Data As A Tree View",
+    items: [],
+  },
+  {
+    title: "vanillaSelectBox",
+    href: "/docs/ux/vanillaselectbox",
+    description: "Custom Single/Multi Select In Pure JavaScript",
+    items: [],
+  },
+  {
+    title: "Virtual Select",
+    href: "/docs/ux/virtual-select",
+    description: "High Performance Select Box JavaScript Library",
+    items: [],
+  },
+  {
+    title: "Shadow.css",
+    href: "/docs/ux/shadow.css",
+    description: "Elegant Box Shadows In Pure CSS",
+    items: [],
+  },
+  {
+    title: "Choices.js",
+    href: "/docs/ux/choices.js",
+    description:
+      "Customizable Select Box & Input Field Enhancement Library",
+    items: [],
+  },
+  {
+    title: "StPageFlip",
+    href: "/docs/ux/stpageflip",
+    description: "Realistic Book Page Flip Animation In JavaScript",
+    items: [],
+  },
+  {
+    title: "Party.js",
+    href: "/docs/ux/party.js",
+    description: "🎉 Simple Celebrate Confetti Animation In JavaScript",
+    items: [],
+  },
+  {
+    title: "EasyQRCodeJS",
+    href: "/docs/ux/easyqrcodejs",
+    description: "QR Code Generator With Logo And Title Support",
+    items: [],
+  },
+  {
+    title: "Tags.js",
+    href: "/docs/ux/tags.js",
+    description: "Easy Tags Input Component For Bootstrap 5/4",
+    items: [],
+  },
+  {
+    title: "fireworks-js",
+    href: "/docs/ux/fireworks-js",
+    description: "Firework Animation With JavaScript And Canvas",
+    items: [],
+  },
+  {
+    title: "tui.calendar",
+    href: "/docs/ux/tui.calendar",
+    description: "Full-featured Calendar JavaScript Library",
+    items: [],
+  },
+  {
+    title: "treeMaker",
+    href: "/docs/ux/treemaker",
+    description: "Render Family/Organization Tree From JSON",
+    items: [],
+  },
+  {
+    title: "Animated Counter",
+    href: "/docs/ux/animated-counter",
+    description: "Number Countup Animation With Vanilla JavaScript",
+    items: [],
+  },
+  {
+    title: "Gauge.js",
+    href: "/docs/ux/gauge.js",
+    description: "Customizable Gauge Library With JavaScript And Canvas",
+    items: [],
+  },
+  {
+    title: "Caleandar.js",
+    href: "/docs/ux/caleandar.js",
+    description: "Create A Simple Event Calendar With JavaScript",
+    items: [],
+  },
+  {
+    title: "bs5-lightbox.js",
+    href: "/docs/ux/bs5-lightbox.js",
+    description: "Feature-rich Lightbox Gallery Based On Bootstrap 5",
+    items: [],
+  },
+  {
+    title: "MCDatepicker",
+    href: "/docs/ux/mcdatepicker",
+    description: "Beautiful Date Picker Component",
+    items: [],
+  },
+  {
+    title: "Cute Alert",
+    href: "/docs/ux/cute-alert",
+    description: "Elegant Alert/Confirm/Toast Dialog Box In JavaScript",
+    items: [],
+  },
+  {
+    title: "locomotive-scroll",
+    href: "/docs/ux/locomotive-scroll",
+    description: "Animate Elements On Scroll With Parallax Effect",
+    items: [],
+  },
+  {
+    title: "flatpickr",
+    href: "/docs/ux/flatpickr",
+    description: "Flat Style JavaScript Date Picker",
+    items: [],
+  },
+  {
+    title: "long-press-event",
+    href: "/docs/ux/long-press-event",
+    description: "Handle Long Press/Tap Event In JavaScript",
+    items: [],
+  },
+  {
+    title: "Treejs",
+    href: "/docs/ux/treejs",
+    description: "Dynamic Tree View With Checkboxes",
+    items: [],
+  },
+  {
+    title: "elder-carousel",
+    href: "/docs/ux/elder-carousel",
+    description: "Infinite Multi-slide Carousel In Pure JavaScript",
+    items: [],
+  },
+  {
+    title: "Just-validate",
+    href: "/docs/ux/just-validate",
+    description: "Custom HTML5 Form Validator In Vanilla JavaScript",
+    items: [],
+  },
+  {
+    title: "ScrollFade.js",
+    href: "/docs/ux/scrollfade.js",
+    description: "Fade In/Out Elements On Scroll",
+    items: [],
+  },
+  {
+    title: "slim-select",
+    href: "/docs/ux/slim-select",
+    description: "Multi-select Dropdown Component For JavaScript",
+    items: [],
+  },
+  {
+    title: "lightGallery",
+    href: "/docs/ux/lightgallery",
+    description:
+      "Responsive Lightbox Gallery With Pure JavaScript And CSS3",
+    items: [],
+  },
+  {
+    title: "toast.js",
+    href: "/docs/ux/toast.js",
+    description: "Super Simple JavaScript Message Toaster",
+    items: [],
+  },
+  {
+    title: "fstdropdown",
+    href: "/docs/ux/fstdropdown",
+    description: "Bootstrap Style Searchable Dropdown Plugin",
+    items: [],
+  },
+  {
+    title: "tree.js",
+    href: "/docs/ux/tree.js",
+    description: "Simple Folder Tree With JSON And JavaScript",
+    items: [],
+  },
+  {
+    title: "Treeselect",
+    href: "/docs/ux/treeselect",
+    description:
+      "Multi-Select Box With Tree Structured Data Dropdown List",
+    items: [],
+  },
+  {
+    title: "SVG Gauge",
+    href: "/docs/ux/svg-gauge",
+    description: "Create Animated Gauges With JavaScript",
+    items: [],
+  },
+  {
+    title: "Countdown.js",
+    href: "/docs/ux/countdown.js",
+    description: "Easy Datetime Countdown Timer",
+    items: [],
+  },
+  {
+    title: "Color Calendar",
+    href: "/docs/ux/color-calendar",
+    description: "Customizable Event Calendar With Month/Year Selection",
+    items: [],
+  },
+  {
+    title: "Coloris.js",
+    href: "/docs/ux/coloris.js",
+    description: "Accessible Color Picker",
+    items: [],
+  },
+  {
+    title: "snow.js",
+    href: "/docs/ux/snow.js",
+    description: "Configurable Snow Falling Effects In JavaScript",
+    items: [],
+  },
+  {
+    title: "Paginator.js",
+    href: "/docs/ux/paginator.js",
+    description: "Simple Table Paginator In Pure JavaScript",
+    items: [],
+  },
+  {
+    title: "SimpleBar",
+    href: "/docs/ux/simplebar",
+    description: "Performant Custom Scrollbar JavaScript Library",
+    items: [],
+  },
+  {
+    title: "ReadMore.js",
+    href: "/docs/ux/readmore.js",
+    description: "Read More / Read Less Functionality In Pure JavaScript",
+    items: [],
+  },
+  {
+    title: "Bootstrap Steps",
+    href: "/docs/ux/bootstrap-steps",
+    description: "Linear Step-by-Step Flow",
+    items: [],
+  },
+]
+let uxs = [
+  {
+    title:"Ar and Vr",
+    description:"This section provides information about Ar and Vr.",
+    href:"/docs/ux/ar-and-vr",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Motionjs",
+    description:"This section provides information about Motionjs.",
+    href:"/docs/ux/motionjs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Framer Motion",
+    description:"This section provides information about Framer Motion.",
+    href:"/docs/ux/framer-motion",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Threejs",
+    description:"This section provides information about Threejs.",
+    href:"/docs/ux/threejs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Unreal Engine",
+    description:"This section provides information about Unreal Engine.",
+    href:"/docs/ux/unreal-engine",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Unity Engine",
+    description:"This section provides information about Unity Engine.",
+    href:"/docs/ux/unity-engine",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Blendar",
+    description:"This section provides information about Blendar.",
+    href:"/docs/ux/blendar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Maya",
+    description:"This section provides information about Maya.",
+    href:"/docs/ux/maya",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"360Deg",
+    description:"This section provides information about 360Deg.",
+    href:"/docs/ux/360deg",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"WebAssembly",
+    description:"This section provides information about WebAssembly.",
+    href:"/docs/ux/webassembly",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React Spring",
+    description:"This section provides information about React Spring.",
+    href:"/docs/ux/react-spring",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React Motion",
+    description:"This section provides information about React Motion.",
+    href:"/docs/ux/react-motion",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Framer Motion",
+    description:"This section provides information about Framer Motion.",
+    href:"/docs/ux/framer-motion",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"GSAP (GreenSock Animation Platform)",
+    description:"This section provides information about GSAP (GreenSock Animation Platform).",
+    href:"/docs/ux/gsap-(greensock-animation-platform)",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React Transition Group",
+    description:"This section provides information about React Transition Group.",
+    href:"/docs/ux/react-transition-group",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React Move",
+    description:"This section provides information about React Move.",
+    href:"/docs/ux/react-move",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React-Flip-Toolkit",
+    description:"This section provides information about React-Flip-Toolkit.",
+    href:"/docs/ux/react-flip-toolkit",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React-Reveal",
+    description:"This section provides information about React-Reveal.",
+    href:"/docs/ux/react-reveal",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"React-Simple-Animate",
+    description:"This section provides information about React-Simple-Animate.",
+    href:"/docs/ux/react-simple-animate",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"TiltJS",
+    description:"This section provides information about TiltJS.",
+    href:"/docs/ux/tiltjs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Rough Notation",
+    description:"This section provides information about Rough Notation.",
+    href:"/docs/ux/rough-notation",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"TsParticles",
+    description:"This section provides information about tsParticles.",
+    href:"/docs/ux/tsparticles",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Particles.js",
+    description:"This section provides information about Particles.js.",
+    href:"/docs/ux/particles.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Mo.js",
+    description:"This section provides information about mo.js.",
+    href:"/docs/ux/mo.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Lightbox2",
+    description:"This section provides information about Lightbox2.",
+    href:"/docs/ux/lightbox2",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Slick",
+    description:"This section provides information about Slick.",
+    href:"/docs/ux/slick",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Barba.js",
+    description:"This section provides information about Barba.js.",
+    href:"/docs/ux/barba.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Locomotive Scroll",
+    description:"This section provides information about Locomotive Scroll.",
+    href:"/docs/ux/locomotive-scroll",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Owl Carousel",
+    description:"This section provides information about Owl Carousel.",
+    href:"/docs/ux/owl-carousel",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"SwiperJS",
+    description:"This section provides information about SwiperJS.",
+    href:"/docs/ux/swiperjs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Splide",
+    description:"This section provides information about Splide.",
+    href:"/docs/ux/splide",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Simple Parallax",
+    description:"This section provides information about Simple Parallax.",
+    href:"/docs/ux/simple-parallax",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Kute.js",
+    description:"This section provides information about Kute.js.",
+    href:"/docs/ux/kute.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Granim.js",
+    description:"This section provides information about Granim.js.",
+    href:"/docs/ux/granim.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Popmotion",
+    description:"This section provides information about Popmotion.",
+    href:"/docs/ux/popmotion",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Vivus",
+    description:"This section provides information about Vivus.",
+    href:"/docs/ux/vivus",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Typed.js",
+    description:"This section provides information about Typed.js.",
+    href:"/docs/ux/typed.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Progress Bar JS",
+    description:"This section provides information about Progress Bar JS.",
+    href:"/docs/ux/progress-bar-js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"AnimeJS",
+    description:"This section provides information about AnimeJS.",
+    href:"/docs/ux/animejs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"AniJS",
+    description:"This section provides information about AniJS.",
+    href:"/docs/ux/anijs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Remotion",
+    description:"This section provides information about Remotion.",
+    href:"/docs/ux/remotion",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Greensock",
+    description:"This section provides information about Greensock.",
+    href:"/docs/ux/greensock",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"VelocityJS",
+    description:"This section provides information about VelocityJS.",
+    href:"/docs/ux/velocityjs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Lax.js",
+    description:"This section provides information about Lax.js.",
+    href:"/docs/ux/lax.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Rellax.js",
+    description:"This section provides information about Rellax.js.",
+    href:"/docs/ux/rellax.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Three.js",
+    description:"This section provides information about three.js.",
+    href:"/docs/ux/three.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Wow.js",
+    description:"This section provides information about wow.js.",
+    href:"/docs/ux/wow.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Chocolat.js",
+    description:"This section provides information about Chocolat.js.",
+    href:"/docs/ux/chocolat.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Multiselect.js",
+    description:"This section provides information about multiselect.js.",
+    href:"/docs/ux/multiselect.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Multiselect",
+    description:"This section provides information about multiselect.",
+    href:"/docs/ux/multiselect",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Confetti.js",
+    description:"This section provides information about confetti.js.",
+    href:"/docs/ux/confetti.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Lightense.js",
+    description:"This section provides information about Lightense.js.",
+    href:"/docs/ux/lightense.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"SelectPure",
+    description:"This section provides information about SelectPure.",
+    href:"/docs/ux/selectpure",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Drawflow",
+    description:"This section provides information about Drawflow.",
+    href:"/docs/ux/drawflow",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Carousel.js",
+    description:"This section provides information about Carousel.js.",
+    href:"/docs/ux/carousel.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Js-image-zoom",
+    description:"This section provides information about js-image-zoom.",
+    href:"/docs/ux/js-image-zoom",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Enchanter",
+    description:"This section provides information about Enchanter.",
+    href:"/docs/ux/enchanter",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Json-view",
+    description:"This section provides information about json-view.",
+    href:"/docs/ux/json-view",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"VanillaSelectBox",
+    description:"This section provides information about vanillaSelectBox.",
+    href:"/docs/ux/vanillaselectbox",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Virtual Select",
+    description:"This section provides information about Virtual Select.",
+    href:"/docs/ux/virtual-select",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Shadow.css",
+    description:"This section provides information about Shadow.css.",
+    href:"/docs/ux/shadow.css",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Choices.js",
+    description:"This section provides information about Choices.js.",
+    href:"/docs/ux/choices.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"StPageFlip",
+    description:"This section provides information about StPageFlip.",
+    href:"/docs/ux/stpageflip",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Party.js",
+    description:"This section provides information about Party.js.",
+    href:"/docs/ux/party.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"EasyQRCodeJS",
+    description:"This section provides information about EasyQRCodeJS.",
+    href:"/docs/ux/easyqrcodejs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tags.js",
+    description:"This section provides information about Tags.js.",
+    href:"/docs/ux/tags.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Fireworks-js",
+    description:"This section provides information about fireworks-js.",
+    href:"/docs/ux/fireworks-js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tui.calendar",
+    description:"This section provides information about tui.calendar.",
+    href:"/docs/ux/tui.calendar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"TreeMaker",
+    description:"This section provides information about treeMaker.",
+    href:"/docs/ux/treemaker",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Animated Counter",
+    description:"This section provides information about Animated Counter.",
+    href:"/docs/ux/animated-counter",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Gauge.js",
+    description:"This section provides information about Gauge.js.",
+    href:"/docs/ux/gauge.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Caleandar.js",
+    description:"This section provides information about Caleandar.js.",
+    href:"/docs/ux/caleandar.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Bs5-lightbox.js",
+    description:"This section provides information about bs5-lightbox.js.",
+    href:"/docs/ux/bs5-lightbox.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"MCDatepicker",
+    description:"This section provides information about MCDatepicker.",
+    href:"/docs/ux/mcdatepicker",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Cute Alert",
+    description:"This section provides information about Cute Alert.",
+    href:"/docs/ux/cute-alert",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Locomotive-scroll",
+    description:"This section provides information about locomotive-scroll.",
+    href:"/docs/ux/locomotive-scroll",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Flatpickr",
+    description:"This section provides information about flatpickr.",
+    href:"/docs/ux/flatpickr",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Long-press-event",
+    description:"This section provides information about long-press-event.",
+    href:"/docs/ux/long-press-event",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Treejs",
+    description:"This section provides information about Treejs.",
+    href:"/docs/ux/treejs",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Elder-carousel",
+    description:"This section provides information about elder-carousel.",
+    href:"/docs/ux/elder-carousel",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Just-validate",
+    description:"This section provides information about Just-validate.",
+    href:"/docs/ux/just-validate",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"ScrollFade.js",
+    description:"This section provides information about ScrollFade.js.",
+    href:"/docs/ux/scrollfade.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Slim-select",
+    description:"This section provides information about slim-select.",
+    href:"/docs/ux/slim-select",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"LightGallery",
+    description:"This section provides information about lightGallery.",
+    href:"/docs/ux/lightgallery",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Toast.js",
+    description:"This section provides information about toast.js.",
+    href:"/docs/ux/toast.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Fstdropdown",
+    description:"This section provides information about fstdropdown.",
+    href:"/docs/ux/fstdropdown",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Tree.js",
+    description:"This section provides information about tree.js.",
+    href:"/docs/ux/tree.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Treeselect",
+    description:"This section provides information about Treeselect.",
+    href:"/docs/ux/treeselect",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"SVG Gauge",
+    description:"This section provides information about SVG Gauge.",
+    href:"/docs/ux/svg-gauge",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Countdown.js",
+    description:"This section provides information about Countdown.js.",
+    href:"/docs/ux/countdown.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Color Calendar",
+    description:"This section provides information about Color Calendar.",
+    href:"/docs/ux/color-calendar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Coloris.js",
+    description:"This section provides information about Coloris.js.",
+    href:"/docs/ux/coloris.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Snow.js",
+    description:"This section provides information about snow.js.",
+    href:"/docs/ux/snow.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Paginator.js",
+    description:"This section provides information about Paginator.js.",
+    href:"/docs/ux/paginator.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"SimpleBar",
+    description:"This section provides information about SimpleBar.",
+    href:"/docs/ux/simplebar",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"ReadMore.js",
+    description:"This section provides information about ReadMore.js.",
+    href:"/docs/ux/readmore.js",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Bootstrap Steps",
+    description:"This section provides information about Bootstrap Steps.",
+    href:"/docs/ux/bootstrap-steps",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let ai = [
+  {
+    title: "Huggingface",
+    href: "/docs/ai/huggingface",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Openai",
+    href: "/docs/ai/openai",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Meta",
+    href: "/docs/ai/meta",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Google",
+    href: "/docs/ai/google",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Chatgpt",
+    href: "/docs/ai/chatgpt",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Lanchain",
+    href: "/docs/ai/lanchain",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Stable Diffution",
+    href: "/docs/ai/stable-diffution",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Midjourney",
+    href: "/docs/ai/midjourney",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Leanardoai",
+    href: "/docs/ai/learnardoai",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Clipdrop",
+    href: "/docs/ai/clipdrop",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Wonder Dynamics",
+    href: "/docs/ai/wonder-dynamics",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Skyboxai",
+    href: "/docs/ai/skyboxai",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Viam",
+    href: "/docs/ai/viam",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let ais = [
+  {
+    title:"Huggingface",
+    href:"/docs/ai/huggingface",
+    description:"This section provides information about Huggingface.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Openai",
+    href:"/docs/ai/openai",
+    description:"This section provides information about Openai.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Meta",
+    href:"/docs/ai/meta",
+    description:"This section provides information about Meta.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Google",
+    href:"/docs/ai/google",
+    description:"This section provides information about Google.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Chatgpt",
+    href:"/docs/ai/chatgpt",
+    description:"This section provides information about Chatgpt.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Lanchain",
+    href:"/docs/ai/lanchain",
+    description:"This section provides information about Lanchain.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Stable Diffution",
+    href:"/docs/ai/stable-diffution",
+    description:"This section provides information about Stable Diffution.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Midjourney",
+    href:"/docs/ai/midjourney",
+    description:"This section provides information about Midjourney.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Leanardoai",
+    href:"/docs/ai/learnardoai",
+    description:"This section provides information about Leanardoai.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Clipdrop",
+    href:"/docs/ai/clipdrop",
+    description:"This section provides information about Clipdrop.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Wonder Dynamics",
+    href:"/docs/ai/wonder-dynamics",
+    description:"This section provides information about Wonder Dynamics.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Skyboxai",
+    href:"/docs/ai/skyboxai",
+    description:"This section provides information about Skyboxai.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+
+  {
+    title:"Viam",
+    href:"/docs/ai/viam",
+    description:"This section provides information about Viam.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let database = [
+  {
+    title: "Mysql",
+    href: "/docs/database/mysql",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Postgresql",
+    href: "/docs/database/postgresql",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Mongodb",
+    href: "/docs/database/mongodb",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Redis",
+    href: "/docs/database/redis",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Yugabyte",
+    href: "/docs/database/yugabyte",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Neon",
+    href: "/docs/database/neon",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Cockrockdb",
+    href: "/docs/database/cockrockdb",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Xata",
+    href: "/docs/database/xata",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "8base",
+    href: "/docs/database/8base",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Edgedb",
+    href: "/docs/database/edgedb",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Fuana",
+    href: "/docs/database/fuana",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Memgraph",
+    href: "/docs/database/memgraph",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Planetscale",
+    href: "/docs/database/planetscale",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Postgresql",
+    href: "/docs/database/postgresql",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Mindsdb",
+    href: "/docs/database/mindsdb",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Pocketbase",
+    href: "/docs/database/pocketbase",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Firebase",
+    href: "/docs/database/firebase",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dynomodb",
+    href: "/docs/database/dynomodb",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Superbase",
+    href: "/docs/database/superbase",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Keydb + Neo4j",
+    href: "/docs/database/keydb-plus-neo4j",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dolt + Gun",
+    href: "/docs/database/dolt-plus-gun",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Meilisearch + Algoria",
+    href: "/docs/database/meilisearch-plus-algoria",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Casandra + Hasura",
+    href: "/docs/database/casandr-plus-hasura",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Nhost + Appwrite",
+    href: "/docs/database/nhost-plus-appwrite",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let databases = [
+  {
+    title:"Mysql",
+    href:"/docs/database/mysql",
+    description:"This section provides information about Mysql.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Postgresql",
+    href:"/docs/database/postgresql",
+    description:"This section provides information about Postgresql.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Mongodb",
+    href:"/docs/database/mongodb",
+    description:"This section provides information about Mongodb.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Redis",
+    href:"/docs/database/redis",
+    description:"This section provides information about Redis.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Yugabyte",
+    href:"/docs/database/yugabyte",
+    description:"This section provides information about Yugabyte.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Neon",
+    href:"/docs/database/neon",
+    description:"This section provides information about Neon.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Cockrockdb",
+    href:"/docs/database/cockrockdb",
+    description:"This section provides information about Cockrockdb.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Xata",
+    href:"/docs/database/xata",
+    description:"This section provides information about Xata.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"8base",
+    href:"/docs/database/8base",
+    description:"This section provides information about 8base.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Edgedb",
+    href:"/docs/database/edgedb",
+    description:"This section provides information about Edgedb.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Fuana",
+    href:"/docs/database/fuana",
+    description:"This section provides information about Fuana.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Memgraph",
+    href:"/docs/database/memgraph",
+    description:"This section provides information about Memgraph.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Planetscale",
+    href:"/docs/database/planetscale",
+    description:"This section provides information about Planetscale.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Postgresql",
+    href:"/docs/database/postgresql",
+    description:"This section provides information about Postgresql.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Mindsdb",
+    href:"/docs/database/mindsdb",
+    description:"This section provides information about Mindsdb.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Pocketbase",
+    href:"/docs/database/pocketbase",
+    description:"This section provides information about Pocketbase.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Firebase",
+    href:"/docs/database/firebase",
+    description:"This section provides information about Firebase.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Dynomodb",
+    href:"/docs/database/dynomodb",
+    description:"This section provides information about Dynomodb.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Superbase",
+    href:"/docs/database/superbase",
+    description:"This section provides information about Superbase.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Keydb + Neo4j",
+    href:"/docs/database/keydb-plus-neo4j",
+    description:"This section provides information about Keydb + Neo4j.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Dolt + Gun",
+    href:"/docs/database/dolt-plus-gun",
+    description:"This section provides information about Dolt + Gun.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Meilisearch + Algoria",
+    href:"/docs/database/meilisearch-plus-algoria",
+    description:"This section provides information about Meilisearch + Algoria.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Casandra + Hasura",
+    href:"/docs/database/casandr-plus-hasura",
+    description:"This section provides information about Casandra + Hasura.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Nhost + Appwrite",
+    href:"/docs/database/nhost-plus-appwrite",
+    description:"This section provides information about Nhost + Appwrite.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let backend = [
+  {
+    title: "Django",
+    href: "/docs/backend/django",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Express",
+    href: "/docs/backend/express",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Laravel",
+    href: "/docs/backend/laravel",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Go",
+    href: "/docs/backend/go",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Rust",
+    href: "/docs/backend/rust",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Spring",
+    href: "/docs/backend/spring",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Ruby On Rails",
+    href: "/docs/backend/ruby-on-rails",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Flask",
+    href: "/docs/backend/rflask",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let backends = [
+  {
+    title:"Django",
+    href:"/docs/backend/django",
+    description:"This section provides information about Django.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Express",
+    href:"/docs/backend/express",
+    description:"This section provides information about Express.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Laravel",
+    href:"/docs/backend/laravel",
+    description:"This section provides information about Laravel.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Go",
+    href:"/docs/backend/go",
+    description:"This section provides information about Go.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Rust",
+    href:"/docs/backend/rust",
+    description:"This section provides information about Rust.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Spring",
+    href:"/docs/backend/spring",
+    description:"This section provides information about Spring.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Ruby On Rails",
+    href:"/docs/backend/ruby-on-rails",
+    description:"This section provides information about Ruby On Rails.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Flask",
+    href:"/docs/backend/rflask",
+    description:"This section provides information about Flask.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let hosting_platform = [
+  {
+    title: "Vercel",
+    href: "/docs/hosting/vercel",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Google Cloud",
+    href: "/docs/hosting/google-cloud",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Aws",
+    href: "/docs/hosting/aws",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Github Pages",
+    href: "/docs/hosting/github-pages",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Digital Ocean",
+    href: "/docs/hosting/digital-ocean",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Netlify",
+    href: "/docs/hosting/netlify",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Rendar",
+    href: "/docs/hosting/Rendar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Firebase",
+    href: "/docs/hosting/firebase",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Railway",
+    href: "/docs/hosting/railway",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Superbase",
+    href: "/docs/hosting/superbase",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Back4app",
+    href: "/docs/hosting/back4app",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Cyclick",
+    href: "/docs/hosting/cyclick",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Fly",
+    href: "/docs/hosting/fly",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let hosting_platforms =[
+  {
+    title:"Vercel",
+    href:"/docs/hosting/vercel",
+    description:"This section provides information about Vercel.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Google Cloud",
+    href:"/docs/hosting/google-cloud",
+    description:"This section provides information about Google Cloud.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Aws",
+    href:"/docs/hosting/aws",
+    description:"This section provides information about Aws.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Github Pages",
+    href:"/docs/hosting/github-pages",
+    description:"This section provides information about Github Pages.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Digital Ocean",
+    href:"/docs/hosting/digital-ocean",
+    description:"This section provides information about Digital Ocean.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Netlify",
+    href:"/docs/hosting/netlify",
+    description:"This section provides information about Netlify.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Rendar",
+    href:"/docs/hosting/Rendar",
+    description:"This section provides information about Rendar.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Firebase",
+    href:"/docs/hosting/firebase",
+    description:"This section provides information about Firebase.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Railway",
+    href:"/docs/hosting/railway",
+    description:"This section provides information about Railway.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Superbase",
+    href:"/docs/hosting/superbase",
+    description:"This section provides information about Superbase.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Back4app",
+    href:"/docs/hosting/back4app",
+    description:"This section provides information about Back4app.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Cyclick",
+    href:"/docs/hosting/cyclick",
+    description:"This section provides information about Cyclick.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Fly",
+    href:"/docs/hosting/fly",
+    description:"This section provides information about Fly.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let testing_library = [
+  {
+    title: "Selinium",
+    href: "/docs/test/selinium",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Circleci",
+    href: "/docs/test/circleci",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Jest",
+    href: "/docs/test/jest",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+
+  {
+    title: "Chai",
+    href: "/docs/passports/chai",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Mocha",
+    href: "/docs/passports/mocha",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Karma",
+    href: "/docs/passports/karma",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Jasmine",
+    href: "/docs/passports/jasmine",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "Enzyme",
+    href: "/docs/passports/enzyme",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+  {
+    title: "React-Testing-Library",
+    href: "/docs/passports/react-testing-library",
+    description: "Not Provided(coming soon)",
+    items: [],
+  },
+]
+let testing_libraries = [
+  {
+    title:"Selinium",
+    href:"/docs/test/selinium",
+    description:"This section provides information about Selinium.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Circleci",
+    href:"/docs/test/circleci",
+    description:"This section provides information about Circleci.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Jest",
+    href:"/docs/test/jest",
+    description:"This section provides information about Jest.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Chai",
+    href:"/docs/passports/chai",
+    description:"This section provides information about Chai.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Mocha",
+    href:"/docs/passports/mocha",
+    description:"This section provides information about Mocha.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Karma",
+    href:"/docs/passports/karma",
+    description:"This section provides information about Karma.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Jasmine",
+    href:"/docs/passports/jasmine",
+    description:"This section provides information about Jasmine.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Enzyme",
+    href:"/docs/passports/enzyme",
+    description:"This section provides information about Enzyme.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"React-Testing-Library",
+    href:"/docs/passports/react-testing-library",
+    description:"This section provides information about React-Testing-Library.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let packages = [
+  {
+    title: "Npm",
+    href: "/docs/packages/npm",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Deno",
+    href: "/docs/packages/deno",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Burn",
+    href: "/docs/packages/burn",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Pip",
+    href: "/docs/packages/pip",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Docker",
+    href: "/docs/packages/Docker",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Go",
+    href: "/docs/packages/go",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Maven",
+    href: "/docs/packages/maven",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let packageses = [
+  {
+    title:"Npm",
+    href:"/docs/packages/npm",
+    description:"This section provides information about Npm.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Deno",
+    href:"/docs/packages/deno",
+    description:"This section provides information about Deno.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Burn",
+    href:"/docs/packages/burn",
+    description:"This section provides information about Burn.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Pip",
+    href:"/docs/packages/pip",
+    description:"This section provides information about Pip.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Docker",
+    href:"/docs/packages/Docker",
+    description:"This section provides information about Docker.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Go",
+    href:"/docs/packages/go",
+    description:"This section provides information about Go.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Maven",
+    href:"/docs/packages/maven",
+    description:"This section provides information about Maven.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let other = [
+  {
+    title: "Prisma",
+    href: "/docs/others/prisma",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Graphql",
+    href: "/docs/others/graphql",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
+let others = [
+  {
+    title:"Prisma",
+    href:"/docs/others/prisma",
+    description:"This section provides information about Prisma.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+  {
+    title:"Graphql",
+    href:"/docs/others/graphql",
+    description:"This section provides information about Graphql.",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
 // templates.forEach((item)=>{
 //   let arr = [];
 //   let title = `${item.querySelector('.small').innerText} - ${item.querySelector('.card-title').innerText}`;
@@ -53291,7 +56596,7 @@ let ui = [
 //   },`;
 //   console.log(arr)
 // });
-ui.forEach((item)=>{
+other.forEach((item)=>{
   let arr = [];
   let title = item.title.charAt(0).toUpperCase() + item.title.slice(1);
   let description = `This section provides information about ${item.title}.`;
@@ -53299,10 +56604,11 @@ ui.forEach((item)=>{
   let web_url = `https://dx-emon-sumon-shohan.vercel.app/`;
   let href = item.href;
 
-  arr = `{
+  arr = 
+  `  {
     title:"${title}",
-    description:"${description}",
     href:"${href}",
+    description:"${description}",
     website_url:"${web_url}",
     github_repo:"${github_repo}",
     items:[]
