@@ -15,6 +15,8 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 
+import { buttonVariants } from "./ui"
+
 interface DocsConfig {
   mainNav: MainNavItem[]
   sidebarNav: SidebarNavItem[]
@@ -106,24 +108,6 @@ export function DocsSidebarNavItems({
       }
     }
 
-    // const interval = setInterval(() => {
-    //   const randomIndex = Math.floor(Math.random() * emojis.length)
-    //   setEmoji(emojis[randomIndex])
-    // }, 30000)
-    // return () => clearInterval(interval)
-
-    // const fetchRandomEmoji = async () => {
-    //   const response = await axios.get("https://api.api-ninjas.com/v1/emoji", {
-    //     headers: {
-    //       "X-Api-Key": "vocMEyG2QBwkfbPiD/pNug==3TPtJy5c4bUr1Fhy",
-    //     },
-    //   })
-    //   const emojis = response.data
-    //   const randomIndex = Math.floor(Math.random() * emojis.length)
-    //   setEmoji(emojis[randomIndex].character)
-    // }
-    // fetchRandomEmoji()
-
     fetchDescriptions()
   }, [descriptions, emojis, items])
 
@@ -135,26 +119,6 @@ export function DocsSidebarNavItems({
 
     return result
   }
-
-  // const RandomEmojiGenerator: React.FC = () => {
-  //   const [emoji, setEmoji] = useState<string>('');
-
-  //   useEffect(() => {
-  //     const fetchRandomEmoji = async () => {
-  //       const response = await axios.get('https://api.api-ninjas.com/v1/emoji', {
-  //         headers: {
-  //           'X-Api-Key': 'YOUR_API_KEY'
-  //         }
-  //       });
-  //       const emojis = response.data;
-  //       const randomIndex = Math.floor(Math.random() * emojis.length);
-  //       setEmoji(emojis[randomIndex].character);
-  //     };
-  //     fetchRandomEmoji();
-  //   }, []);
-
-  //   return <div>{emoji}</div>;
-  // };
 
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -189,9 +153,123 @@ export function DocsSidebarNavItems({
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent>
-                {/* {descriptions[item.title]} */}
-                {emoji + item.description}
+              <HoverCardContent className="p-2 w-[360px]">
+                <div className="details flex item-center w-full flex-col space-y-1 ">
+                  <div className="details_description flex items-center justify-center">
+                    {item.description}
+                  </div>
+                  <div className="details_actions flex items-center justify-center flex-row w-full ">
+                    {/* <div
+                      className={cn(
+                        buttonVariants({
+                          variant: "ghost",
+                        }),
+                        "website_url "
+                      )}
+                    >
+                      {item.website_url}
+                    </div> */}
+                    {item.website_url ? (
+                      <Link
+                        key={index}
+                        href={item.website_url}
+                        target={item.external ? "_blank" : ""}
+                        rel={item.external ? "noreferrer" : ""}
+                        className={cn(
+                          buttonVariants({
+                            variant: "ghost",
+                          }),
+                          "website_url"
+                        )}
+                      >
+                        Website
+                      </Link>
+                    ) : (
+                      ""
+                    )}
+
+                    {item.appStore && item.playStore && item.webStore ? (
+                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-1">
+                        <Link
+                          key={index}
+                          href={item.appStore}
+                          target={item.external ? "_blank" : ""}
+                          rel={item.external ? "noreferrer" : ""}
+                          className={cn(
+                            buttonVariants({
+                              variant: "link",
+                            }),
+                            "appStore"
+                          )}
+                        >
+                          AppStore
+                        </Link>
+                        <Link
+                          key={index}
+                          href={item.playStore}
+                          target={item.external ? "_blank" : ""}
+                          rel={item.external ? "noreferrer" : ""}
+                          className={cn(
+                            buttonVariants({
+                              variant: "secondary",
+                            }),
+                            "playStore"
+                          )}
+                        >
+                          PlayStore
+                        </Link>
+                        <Link
+                          key={index}
+                          href={item.webStore}
+                          target={item.external ? "_blank" : ""}
+                          rel={item.external ? "noreferrer" : ""}
+                          className={cn(
+                            buttonVariants({
+                              variant: "destructive",
+                            }),
+                            "webStore"
+                          )}
+                        >
+                          WebStore
+                        </Link>
+                      </div>
+                    ) : (
+                      <div className="more_actions_empty flex-1"></div>
+                    )}
+                    {item.download &&
+                    item.star &&
+                    item.version &&
+                    item.updated ? (
+                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-1">
+                        <h6 className="download">{item.download}</h6>
+                        <h6 className="star">{item.star}</h6>
+                        <h6 className="version">{item.version}</h6>
+                        <h6 className="updated">{item.updated}</h6>
+                      </div>
+                    ) : (
+                      <div className="more_actions_empty flex-1"></div>
+                    )}
+
+                    {item.github_repo ? (
+                      <Link
+                        key={index}
+                        href={item.github_repo}
+                        target={item.external ? "_blank" : ""}
+                        rel={item.external ? "noreferrer" : ""}
+                        className={cn(
+                          buttonVariants({
+                            variant: "outline",
+                          }),
+                          "github_repo"
+                        )}
+                      >
+                        Github
+                      </Link>
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                </div>
               </HoverCardContent>
             </HoverCard>
           </Link>
@@ -229,79 +307,3 @@ export function DocsSidebarNavItems({
     </div>
   ) : null
 }
-
-// export function DocsSidebarNavItems({
-//   items,
-//   pathname,
-// }: DocsSidebarNavItemsProps) {
-//   function logoLetter(title: string): string {
-//     let text = title;
-//     let firstLetter = text.charAt(0).toUpperCase();
-//     let lastLetter = text.charAt(text.length - 1).toUpperCase();
-//     let result = firstLetter + lastLetter;
-
-//     return result;
-//   }
-
-//   return items?.length ? (
-//     <div className="grid grid-flow-row auto-rows-max text-sm">
-//       {items.map((item, index) =>
-//         item.href && !item.disabled ? (
-//           <Link
-//             key={index}
-//             href={item.href}
-//             className={cn(
-//               "group flex w-full items-center rounded-md border border-transparent px-2 pt-1 hover:underline",
-//               item.disabled && "cursor-not-allowed opacity-60",
-//               pathname === item.href
-//                 ? "font-medium text-foreground"
-//                 : "text-muted-foreground"
-//             )}
-//             target={item.external ? "_blank" : ""}
-//             rel={item.external ? "noreferrer" : ""}
-//           >
-//             <HoverCard>
-//               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-//                 <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] text-center text-[12.5px]">
-//                   <AvatarImage
-//                     src={`https://logo.clearbit.com/${item.title}.com`}
-//                   />
-//                   <AvatarFallback>
-//                     {item.title ? logoLetter(item.title) : 'Dx'}
-//                   </AvatarFallback>
-//                 </Avatar>
-//                 {item.title}
-//               </HoverCardTrigger>
-//               <HoverCardContent>{item.description}</HoverCardContent>
-//             </HoverCard>
-//           </Link>
-//         ) : (
-//           <span
-//             key={index}
-//             className={cn(
-//               "flex w-full cursor-not-allowed items-center rounded-md p-2 text-muted-foreground hover:underline",
-//               item.disabled && "cursor-not-allowed opacity-60"
-//             )}
-//           >
-//             <HoverCard>
-//               <HoverCardTrigger>
-//                 <span className="ml-2 rounded-md bg-muted px-1.5 py-0.5 text-xs leading-none text-muted-foreground no-underline group-hover:no-underline">
-//                   Allhamdulilla
-//                 </span>
-//               </HoverCardTrigger>
-//               <HoverCardContent>{item.description}</HoverCardContent>
-//             </HoverCard>
-//             {item.label && (
-//               <HoverCard>
-//                 <HoverCardTrigger>
-//                   {/* Render your label here */}
-//                 </HoverCardTrigger>
-//                 {/* Render label-related content here */}
-//               </HoverCard>
-//             )}
-//           </span>
-//         )
-//       )}
-//     </div>
-//   ) : null;
-// }
