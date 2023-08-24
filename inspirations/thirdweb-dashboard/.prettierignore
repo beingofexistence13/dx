@@ -1,0 +1,11 @@
+# folders
+artifacts/
+cache/
+coverage/
+dist/
+node_modules/
+typechain/
+.next/
+
+# files
+coverage.json
