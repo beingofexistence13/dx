@@ -153,22 +153,12 @@ export function DocsSidebarNavItems({
                 </Avatar>
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent className="p-2 w-[360px]">
+              <HoverCardContent className="p-5 w-[360px] h-[400px]">
                 <div className="details flex item-center w-full flex-col space-y-1 ">
                   <div className="details_description flex items-center justify-center">
                     {item.description}
                   </div>
                   <div className="details_actions flex items-center justify-center flex-row w-full ">
-                    {/* <div
-                      className={cn(
-                        buttonVariants({
-                          variant: "ghost",
-                        }),
-                        "website_url "
-                      )}
-                    >
-                      {item.website_url}
-                    </div> */}
                     {item.website_url ? (
                       <Link
                         key={index}
@@ -177,7 +167,7 @@ export function DocsSidebarNavItems({
                         rel={item.external ? "noreferrer" : ""}
                         className={cn(
                           buttonVariants({
-                            variant: "ghost",
+                            variant: "secondary",
                           }),
                           "website_url"
                         )}
@@ -211,7 +201,7 @@ export function DocsSidebarNavItems({
                           rel={item.external ? "noreferrer" : ""}
                           className={cn(
                             buttonVariants({
-                              variant: "secondary",
+                              variant: "ghost",
                             }),
                             "playStore"
                           )}
