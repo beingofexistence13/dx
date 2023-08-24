@@ -52132,7 +52132,7 @@ let programming_languages = [{title: "A# .NET",href:"https://en.wikipedia.org/wi
 
 
 
-let template = [{title:"angular"},
+let Installation = [{title:"angular"},
 {title:"brunch"},
 {title:"docusaurus-2"},
 {title:"ember"},
@@ -52176,7 +52176,7 @@ let template = [{title:"angular"},
 {title:"vitepress"},
 {title:"zola"},
 ]
-let templates = [
+let Installations = [
   {
     title:"Angular",
     description:"Angular is one of the most popular frontend framework!!!",
@@ -52522,6 +52522,757 @@ let templates = [
     items:[]
   },
 ]
+let getting_started = [
+  {
+      title: "Introduction",
+      description: "👋 Welcome to the Introduction section! Here you will find an overview of the documentation and what you can expect to learn."
+  },
+  {
+      title: "Installation",
+      description: "🔧 Ready to get started? The Installation section provides step-by-step instructions on how to set up the software."
+  },
+  {
+      title: "Theming",
+      description: "🎨 Want to customize the look and feel of the software? The Theming section provides information on how to apply your own styles and themes."
+  },
+  {
+      title: "Dark mode",
+      description: "🌙 Prefer a darker interface? The Dark mode section provides information on how to enable and use the dark mode feature."
+  },
+  {
+      title: "CLI",
+      description: "💻 Are you a command line user? The CLI section provides information on how to use the command line interface to interact with the software."
+  },
+  {
+      title: "Typography",
+      description: "✍️ Want to learn more about the typography used in the software? The Typography section provides information on the fonts, sizes, and styles used."
+  },
+  {
+      title: "Figma",
+      description: "🖌️ Are you a designer using Figma? The Figma section provides information on how to use the software with Figma."
+  },
+  {
+      title: "Spline",
+      description: "📈 Interested in data visualization? The Spline section provides information on how to use the software with Spline to create beautiful charts and graphs."
+  },
+  {
+      title: "Changelog",
+      description: "📝 Want to stay up-to-date with the latest changes and updates? The Changelog section provides a detailed log of all changes made to the software."
+  },
+  {
+      title: "About",
+      description: "❓ Curious about the people behind the software? The About section provides information on the team, their vision, and their goals."
+  }
+]
+let getting_starteds = [
+  {
+    title:"Introduction",
+    description:"👋 Welcome to the Introduction section! Here you will find an overview of the documentation and what you can expect to learn.",
+    href:"docs/getting-started/Introduction",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Installation",
+    description:"🔧 Ready to get started? The Installation section provides step-by-step instructions on how to set up the software.",
+    href:"docs/getting-started/Installation",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Theming",
+    description:"🎨 Want to customize the look and feel of the software? The Theming section provides information on how to apply your own styles and themes.",
+    href:"docs/getting-started/Theming",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Dark mode",
+    description:"🌙 Prefer a darker interface? The Dark mode section provides information on how to enable and use the dark mode feature.",
+    href:"docs/getting-started/Dark mode",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"CLI",
+    description:"💻 Are you a command line user? The CLI section provides information on how to use the command line interface to interact with the software.",
+    href:"docs/getting-started/CLI",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Typography",
+    description:"✍️ Want to learn more about the typography used in the software? The Typography section provides information on the fonts, sizes, and styles used.",
+    href:"docs/getting-started/Typography",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Figma",
+    description:"🖌️ Are you a designer using Figma? The Figma section provides information on how to use the software with Figma.",
+    href:"docs/getting-started/Figma",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Spline",
+    description:"📈 Interested in data visualization? The Spline section provides information on how to use the software with Spline to create beautiful charts and graphs.",
+    href:"docs/getting-started/Spline",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"Changelog",
+    description:"📝 Want to stay up-to-date with the latest changes and updates? The Changelog section provides a detailed log of all changes made to the software.",
+    href:"docs/getting-started/Changelog",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+{
+    title:"About",
+    description:"❓ Curious about the people behind the software? The About section provides information on the team, their vision, and their goals.",
+    href:"docs/getting-started/About",
+    website_url:"https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo:"https://github.com/beingofexistence",
+    items:[]
+  },
+]
+let ui = [
+  {
+    title: "Friday",
+    href: "/docs/ui/friday",
+    items: [],
+    description: "Not Provided (coming soon)",
+  },
+  {
+    title: "Hello Mode",
+    href: "/docs/ui/hello-mode",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Multiverse",
+    href: "/docs/ui/multiverse",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Navbar",
+    href: "/docs/ui/navbar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Blockchain Status",
+    href: "/docs/ui/blockchain-status",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Activitybar",
+    href: "/docs/ui/activitybar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Primary Sidebar",
+    href: "/docs/ui/primary-sidebar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Secondary Sidebar",
+    href: "/docs/ui/secondary-sidebar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Bottombar",
+    href: "/docs/ui/bottombar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dockbar",
+    href: "/docs/ui/dockbar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Video Player",
+    href: "/docs/ui/video-player",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Hello 3d",
+    href: "/docs/ui/hello-3d",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Theme",
+    href: "/docs/ui/theme",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Keyboard Shortcuts",
+    href: "/docs/ui/keyboard-shortcuts",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Search",
+    href: "/docs/ui/search",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Command Palette",
+    href: "/docs/ui/command-palette",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Footer",
+    href: "/docs/ui/footer",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "According",
+    href: "/docs/ui/according",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Alert",
+    href: "/docs/ui/alert",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Alert Dialog",
+    href: "/docs/ui/alert-dialog",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Aspect Ratio",
+    href: "/docs/ui/aspect-ratio",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Avatar",
+    href: "/docs/ui/avatar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Badge",
+    href: "/docs/ui/badge",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Button",
+    href: "/docs/ui/button",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Calendar",
+    href: "/docs/ui/calendar",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Card",
+    href: "/docs/ui/card",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Checkbox",
+    href: "/docs/ui/checkbox",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Collapsible",
+    href: "/docs/ui/collapsible",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Combobox",
+    href: "/docs/ui/combobox",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Context Menu",
+    href: "/docs/ui/context-menu",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Data Table",
+    href: "/docs/ui/data-table",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dialog",
+    href: "/docs/ui/dialog",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dropdown Menu",
+    href: "/docs/ui/dropdown-menu",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Form",
+    href: "/docs/ui/form",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Hover Card",
+    href: "/docs/ui/hover-card",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Input",
+    href: "/docs/ui/input",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Label",
+    href: "/docs/ui/label",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Popover",
+    href: "/docs/ui/popover",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Progress",
+    href: "/docs/ui/progress",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Radio Group",
+    href: "/docs/ui/radio-group",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Scroll Area",
+    href: "/docs/ui/scroll-area",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Select",
+    href: "/docs/ui/select",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Separator",
+    href: "/docs/ui/separator",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Sheet",
+    href: "/docs/ui/sheet",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Skeleton",
+    href: "/docs/ui/skeleton",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Slider",
+    href: "/docs/ui/slider",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Switch",
+    href: "/docs/ui/switch",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Table",
+    href: "/docs/ui/table",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Tabs",
+    href: "/docs/ui/tabs",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Textarea",
+    href: "/docs/ui/textarea",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Toast",
+    href: "/docs/ui/toast",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Toggle",
+    href: "/docs/ui/toggle",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Tooltip",
+    href: "/docs/ui/tooltip",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Text",
+    href: "/docs/ui/text",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Charts",
+    href: "/docs/ui/charts",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Pagination",
+    href: "/docs/ui/pagination",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Breadcrumbs",
+    href: "/docs/ui/breadcrumbs",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Chat Bubble",
+    href: "/docs/ui/chat-bubble",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Date and Time Picker",
+    href: "/docs/ui/date-and-time-picker",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+
+  {
+    title: "Stacked Lists",
+    href: "/docs/ui/stacked-lists",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Feeds",
+    href: "/docs/ui/feeds",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Feildset",
+    href: "/docs/ui/feildset",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "States",
+    href: "/docs/ui/states",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Action Panels",
+    href: "/docs/ui/action-panels",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Checkout Form",
+    href: "/docs/ui/checkout-form",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Reviews",
+    href: "/docs/ui/reviews",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Order Summaries",
+    href: "/docs/ui/order-summaries",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Order History",
+    href: "/docs/ui/order-history",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Incentives",
+    href: "/docs/ui/incentives",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Box",
+    href: "/docs/ui/box",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Callout",
+    href: "/docs/ui/callout",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Datapoint",
+    href: "/docs/ui/datapoint",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Masonary",
+    href: "/docs/ui/masonary",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Overlay Panels",
+    href: "/docs/ui/overlay-panels",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Table Of Contents",
+    href: "/docs/ui/table-of-contents",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Float Button",
+    href: "/docs/ui/float-button",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Autocomplete",
+    href: "/docs/ui/autocomplete",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Cascader",
+    href: "/docs/ui/cascader",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Color Picker",
+    href: "/docs/ui/color-picker",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Mentions",
+    href: "/docs/ui/mentions",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Rate",
+    href: "/docs/ui/rate",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Carosel",
+    href: "/docs/ui/carosel",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Transfer",
+    href: "/docs/ui/transfer",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Tag",
+    href: "/docs/ui/tag",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "QR Code",
+    href: "/docs/ui/qr-code",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Statics",
+    href: "/docs/ui/statics",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Timeline",
+    href: "/docs/ui/timeline",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Tour",
+    href: "/docs/ui/tour",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Skeleton",
+    href: "/docs/ui/skeleton",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Affix",
+    href: "/docs/ui/affix",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Segmented",
+    href: "/docs/ui/segmented",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Tree",
+    href: "/docs/ui/tree",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Steps",
+    href: "/docs/ui/steps",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Rail",
+    href: "/docs/ui/rail",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Dimmer",
+    href: "/docs/ui/dimmer",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Portal",
+    href: "/docs/ui/portal",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Range Selector",
+    href: "/docs/ui/range-selector",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Emoji Feedback",
+    href: "/docs/ui/emojif-feedback",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "World Map",
+    href: "/docs/ui/world-map",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Meter",
+    href: "/docs/ui/meter",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "College",
+    href: "/docs/ui/college",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Material Ui",
+    href: "/docs/ui/material-ui",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Nextui",
+    href: "/docs/ui/nextui",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+  {
+    title: "Background Color",
+    href: "/docs/ui/background-color",
+    items: [],
+    description: "Not Provided(coming soon)",
+  },
+]
 // templates.forEach((item)=>{
 //   let arr = [];
 //   let title = `${item.querySelector('.small').innerText} - ${item.querySelector('.card-title').innerText}`;
@@ -52540,13 +53291,13 @@ let templates = [
 //   },`;
 //   console.log(arr)
 // });
-templates.forEach((item)=>{
+ui.forEach((item)=>{
   let arr = [];
   let title = item.title.charAt(0).toUpperCase() + item.title.slice(1);
-  let description = `${item.title.charAt(0).toUpperCase() + item.title.slice(1)} is one of the most popular frontend framework!!!`;
-  let github_repo = `https://github.com/${item.title}`;
-  let web_url = `https://${item.title}.com`;
-  let href = `docs/installation/${item.title}`;
+  let description = `This section provides information about ${item.title}.`;
+  let github_repo = `https://github.com/beingofexistence`;
+  let web_url = `https://dx-emon-sumon-shohan.vercel.app/`;
+  let href = item.href;
 
   arr = `{
     title:"${title}",

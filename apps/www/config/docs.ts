@@ -42,71 +42,103 @@ export const docsConfig: DocsConfig = {
     },
   ],
   sidebarNav: [
+    // Getting Started
     {
       title: "Getting Started",
       items: [
         {
           title: "Introduction",
-          href: "/docs",
+          description:
+            "👋 Welcome to the Introduction section! Here you will find an overview of the documentation and what you can expect to learn.",
+          href: "docs/getting-started/Introduction",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Installation",
-          href: "/docs/installation",
+          description:
+            "🔧 Ready to get started? The Installation section provides step-by-step instructions on how to set up the software.",
+          href: "docs/getting-started/Installation",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Theming",
-          href: "/docs/theming",
+          description:
+            "🎨 Want to customize the look and feel of the software? The Theming section provides information on how to apply your own styles and themes.",
+          href: "docs/getting-started/Theming",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Dark mode",
-          href: "/docs/dark-mode",
+          description:
+            "🌙 Prefer a darker interface? The Dark mode section provides information on how to enable and use the dark mode feature.",
+          href: "docs/getting-started/Dark mode",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "CLI",
-          href: "/docs/cli",
+          description:
+            "💻 Are you a command line user? The CLI section provides information on how to use the command line interface to interact with the software.",
+          href: "docs/getting-started/CLI",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Typography",
-          href: "/docs/ui/typography",
+          description:
+            "✍️ Want to learn more about the typography used in the software? The Typography section provides information on the fonts, sizes, and styles used.",
+          href: "docs/getting-started/Typography",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Figma",
-          href: "/docs/figma",
+          description:
+            "🖌️ Are you a designer using Figma? The Figma section provides information on how to use the software with Figma.",
+          href: "docs/getting-started/Figma",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Spline",
-          href: "/docs/spline",
+          description:
+            "📈 Interested in data visualization? The Spline section provides information on how to use the software with Spline to create beautiful charts and graphs.",
+          href: "docs/getting-started/Spline",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "Changelog",
-          href: "/docs/changelog",
+          description:
+            "📝 Want to stay up-to-date with the latest changes and updates? The Changelog section provides a detailed log of all changes made to the software.",
+          href: "docs/getting-started/Changelog",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
         {
           title: "About",
-          href: "/docs/about",
+          description:
+            "❓ Curious about the people behind the software? The About section provides information on the team, their vision, and their goals.",
+          href: "docs/getting-started/About",
+          website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+          github_repo: "https://github.com/beingofexistence",
           items: [],
-          description: "Not Provided(coming soon)",
         },
       ],
     },
+    // Installation
     {
       title: "Installation",
       items: [
@@ -488,6 +520,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Ui
     {
       title: "Ui",
       items: [
@@ -1118,6 +1151,7 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    // Ux
     {
       title: "Ux",
       items: [
