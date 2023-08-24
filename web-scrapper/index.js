@@ -52012,17 +52012,17 @@ let programming_languages = [{title: "A# .NET",href:"https://en.wikipedia.org/wi
 {title: "ZPL",href:"https://en.wikipedia.org/wiki/ZPL_(programming_language)",description: "ZPL is one of the most popular in the world",website_url: "https://undefined.com", github_repo: "https://github.com/zpl",items: [],},
 {title: "Q (programming language from Kx Systems)",href:"https://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)",description: "Q (programming language from Kx Systems) is one of the most popular in the world",website_url: "https://undefined.com", github_repo: "https://github.com/q-(programming-language-from-kx-systems)",items: [],},
 ]
-programming_languages.map((statergies, index) => {
-  let github_title_formated = statergies.title
-  .replace(/\s+/g, "-")
-  .toLowerCase()
-  let desctiption = `${statergies.title} is one of the most popular in the world`;
+// programming_languages.map((statergies, index) => {
+//   let github_title_formated = statergies.title
+//   .replace(/\s+/g, "-")
+//   .toLowerCase()
+//   let desctiption = `${statergies.title} is one of the most popular in the world`;
 
 
-  let result = `{title: "${statergies.title}",href:"${statergies.href}",description: "${desctiption}",website_url: "https://${statergies.github_title_formated}.com", github_repo: "${`https://github.com/${github_title_formated}`}",items: [],},`
-  console.log(result)
+//   let result = `{title: "${statergies.title}",href:"${statergies.href}",description: "${desctiption}",website_url: "https://${statergies.github_title_formated}.com", github_repo: "${`https://github.com/${github_title_formated}`}",items: [],},`
+//   console.log(result)
 
-})
+// })
 // codeBeauty.map((statergies, index) => {
 //   // setTimeout(() => {
 //   //   let title_formated = statergies.title.replace(/\s+/g, "-")
@@ -52125,21 +52125,428 @@ programming_languages.map((statergies, index) => {
 //       })
 //   }, index * 5) // delay of 1 second
 // })
-console.log(programming_languages.length)
+// console.log(programming_languages.length)
 
 
 
 
 
 
+let template = [{title:"angular"},
+{title:"brunch"},
+{title:"docusaurus-2"},
+{title:"ember"},
+{title:"hexo"},
+{title:"hydrogen-2"},
+{title:"jekyll"},
+{title:"nextjs"},
+{title:"parcel"},
+{title:"saber"},
+{title:"scully"},
+{title:"storybook"},
+{title:"sveltekit-1"},
+{title:"umijs"},
+{title:"vue"},
+{title:"astro"},
+{title:"create-react-app"},
+{title:"dojo"},
+{title:"gatsby"},
+{title:"hugo"},
+{title:"ionic-angular"},
+{title:"nuxtjs"},
+{title:"polymer"},
+{title:"redwoodjs"},
+{title:"sanity"},
+{title:"solidstart"},
+{title:"svelte"},
+{title:"vite"},
+{title:"vuepress"},
+{title:"blitzjs"},
+{title:"docusaurus"},
+{title:"eleventy"},
+{title:"gridsome"},
+{title:"hydrogen"},
+{title:"ionic-react"},
+{title:"middleman"},
+{title:"preact"},
+{title:"remix"},
+{title:"sapper"},
+{title:"stencil"},
+{title:"sveltekit"},
+{title:"vitepress"},
+{title:"zola"},
+]
+let templates = [
+  {
+    title:"Angular",
+    description:"Angular is one of the most popular frontend framework!!!",
+    href:"docs/installation/angular",
+    website_url:"https://angular.com",
+    github_repo:"https://github.com/angular",
+    items:[]
+  },
+{
+    title:"Brunch",
+    description:"Brunch is one of the most popular frontend framework!!!",
+    href:"docs/installation/brunch",
+    website_url:"https://brunch.com",
+    github_repo:"https://github.com/brunch",
+    items:[]
+  },
+{
+    title:"Docusaurus-2",
+    description:"Docusaurus-2 is one of the most popular frontend framework!!!",
+    href:"docs/installation/docusaurus-2",
+    website_url:"https://docusaurus-2.com",
+    github_repo:"https://github.com/docusaurus-2",
+    items:[]
+  },
+{
+    title:"Ember",
+    description:"Ember is one of the most popular frontend framework!!!",
+    href:"docs/installation/ember",
+    website_url:"https://ember.com",
+    github_repo:"https://github.com/ember",
+    items:[]
+  },
+{
+    title:"Hexo",
+    description:"Hexo is one of the most popular frontend framework!!!",
+    href:"docs/installation/hexo",
+    website_url:"https://hexo.com",
+    github_repo:"https://github.com/hexo",
+    items:[]
+  },
+{
+    title:"Hydrogen-2",
+    description:"Hydrogen-2 is one of the most popular frontend framework!!!",
+    href:"docs/installation/hydrogen-2",
+    website_url:"https://hydrogen-2.com",
+    github_repo:"https://github.com/hydrogen-2",
+    items:[]
+  },
+{
+    title:"Jekyll",
+    description:"Jekyll is one of the most popular frontend framework!!!",
+    href:"docs/installation/jekyll",
+    website_url:"https://jekyll.com",
+    github_repo:"https://github.com/jekyll",
+    items:[]
+  },
+{
+    title:"Nextjs",
+    description:"Nextjs is one of the most popular frontend framework!!!",
+    href:"docs/installation/nextjs",
+    website_url:"https://nextjs.com",
+    github_repo:"https://github.com/nextjs",
+    items:[]
+  },
+{
+    title:"Parcel",
+    description:"Parcel is one of the most popular frontend framework!!!",
+    href:"docs/installation/parcel",
+    website_url:"https://parcel.com",
+    github_repo:"https://github.com/parcel",
+    items:[]
+  },
+{
+    title:"Saber",
+    description:"Saber is one of the most popular frontend framework!!!",
+    href:"docs/installation/saber",
+    website_url:"https://saber.com",
+    github_repo:"https://github.com/saber",
+    items:[]
+  },
+{
+    title:"Scully",
+    description:"Scully is one of the most popular frontend framework!!!",
+    href:"docs/installation/scully",
+    website_url:"https://scully.com",
+    github_repo:"https://github.com/scully",
+    items:[]
+  },
+{
+    title:"Storybook",
+    description:"Storybook is one of the most popular frontend framework!!!",
+    href:"docs/installation/storybook",
+    website_url:"https://storybook.com",
+    github_repo:"https://github.com/storybook",
+    items:[]
+  },
+{
+    title:"Sveltekit-1",
+    description:"Sveltekit-1 is one of the most popular frontend framework!!!",
+    href:"docs/installation/sveltekit-1",
+    website_url:"https://sveltekit-1.com",
+    github_repo:"https://github.com/sveltekit-1",
+    items:[]
+  },
+{
+    title:"Umijs",
+    description:"Umijs is one of the most popular frontend framework!!!",
+    href:"docs/installation/umijs",
+    website_url:"https://umijs.com",
+    github_repo:"https://github.com/umijs",
+    items:[]
+  },
+{
+    title:"Vue",
+    description:"Vue is one of the most popular frontend framework!!!",
+    href:"docs/installation/vue",
+    website_url:"https://vue.com",
+    github_repo:"https://github.com/vue",
+    items:[]
+  },
+{
+    title:"Astro",
+    description:"Astro is one of the most popular frontend framework!!!",
+    href:"docs/installation/astro",
+    website_url:"https://astro.com",
+    github_repo:"https://github.com/astro",
+    items:[]
+  },
+{
+    title:"Create-react-app",
+    description:"Create-react-app is one of the most popular frontend framework!!!",
+    href:"docs/installation/create-react-app",
+    website_url:"https://create-react-app.com",
+    github_repo:"https://github.com/create-react-app",
+    items:[]
+  },
+{
+    title:"Dojo",
+    description:"Dojo is one of the most popular frontend framework!!!",
+    href:"docs/installation/dojo",
+    website_url:"https://dojo.com",
+    github_repo:"https://github.com/dojo",
+    items:[]
+  },
+{
+    title:"Gatsby",
+    description:"Gatsby is one of the most popular frontend framework!!!",
+    href:"docs/installation/gatsby",
+    website_url:"https://gatsby.com",
+    github_repo:"https://github.com/gatsby",
+    items:[]
+  },
+{
+    title:"Hugo",
+    description:"Hugo is one of the most popular frontend framework!!!",
+    href:"docs/installation/hugo",
+    website_url:"https://hugo.com",
+    github_repo:"https://github.com/hugo",
+    items:[]
+  },
+{
+    title:"Ionic-angular",
+    description:"Ionic-angular is one of the most popular frontend framework!!!",
+    href:"docs/installation/ionic-angular",
+    website_url:"https://ionic-angular.com",
+    github_repo:"https://github.com/ionic-angular",
+    items:[]
+  },
+{
+    title:"Nuxtjs",
+    description:"Nuxtjs is one of the most popular frontend framework!!!",
+    href:"docs/installation/nuxtjs",
+    website_url:"https://nuxtjs.com",
+    github_repo:"https://github.com/nuxtjs",
+    items:[]
+  },
+{
+    title:"Polymer",
+    description:"Polymer is one of the most popular frontend framework!!!",
+    href:"docs/installation/polymer",
+    website_url:"https://polymer.com",
+    github_repo:"https://github.com/polymer",
+    items:[]
+  },
+{
+    title:"Redwoodjs",
+    description:"Redwoodjs is one of the most popular frontend framework!!!",
+    href:"docs/installation/redwoodjs",
+    website_url:"https://redwoodjs.com",
+    github_repo:"https://github.com/redwoodjs",
+    items:[]
+  },
+{
+    title:"Sanity",
+    description:"Sanity is one of the most popular frontend framework!!!",
+    href:"docs/installation/sanity",
+    website_url:"https://sanity.com",
+    github_repo:"https://github.com/sanity",
+    items:[]
+  },
+{
+    title:"Solidstart",
+    description:"Solidstart is one of the most popular frontend framework!!!",
+    href:"docs/installation/solidstart",
+    website_url:"https://solidstart.com",
+    github_repo:"https://github.com/solidstart",
+    items:[]
+  },
+{
+    title:"Svelte",
+    description:"Svelte is one of the most popular frontend framework!!!",
+    href:"docs/installation/svelte",
+    website_url:"https://svelte.com",
+    github_repo:"https://github.com/svelte",
+    items:[]
+  },
+{
+    title:"Vite",
+    description:"Vite is one of the most popular frontend framework!!!",
+    href:"docs/installation/vite",
+    website_url:"https://vite.com",
+    github_repo:"https://github.com/vite",
+    items:[]
+  },
+{
+    title:"Vuepress",
+    description:"Vuepress is one of the most popular frontend framework!!!",
+    href:"docs/installation/vuepress",
+    website_url:"https://vuepress.com",
+    github_repo:"https://github.com/vuepress",
+    items:[]
+  },
+{
+    title:"Blitzjs",
+    description:"Blitzjs is one of the most popular frontend framework!!!",
+    href:"docs/installation/blitzjs",
+    website_url:"https://blitzjs.com",
+    github_repo:"https://github.com/blitzjs",
+    items:[]
+  },
+{
+    title:"Docusaurus",
+    description:"Docusaurus is one of the most popular frontend framework!!!",
+    href:"docs/installation/docusaurus",
+    website_url:"https://docusaurus.com",
+    github_repo:"https://github.com/docusaurus",
+    items:[]
+  },
+{
+    title:"Eleventy",
+    description:"Eleventy is one of the most popular frontend framework!!!",
+    href:"docs/installation/eleventy",
+    website_url:"https://eleventy.com",
+    github_repo:"https://github.com/eleventy",
+    items:[]
+  },
+{
+    title:"Gridsome",
+    description:"Gridsome is one of the most popular frontend framework!!!",
+    href:"docs/installation/gridsome",
+    website_url:"https://gridsome.com",
+    github_repo:"https://github.com/gridsome",
+    items:[]
+  },
+{
+    title:"Hydrogen",
+    description:"Hydrogen is one of the most popular frontend framework!!!",
+    href:"docs/installation/hydrogen",
+    website_url:"https://hydrogen.com",
+    github_repo:"https://github.com/hydrogen",
+    items:[]
+  },
+{
+    title:"Ionic-react",
+    description:"Ionic-react is one of the most popular frontend framework!!!",
+    href:"docs/installation/ionic-react",
+    website_url:"https://ionic-react.com",
+    github_repo:"https://github.com/ionic-react",
+    items:[]
+  },
+{
+    title:"Middleman",
+    description:"Middleman is one of the most popular frontend framework!!!",
+    href:"docs/installation/middleman",
+    website_url:"https://middleman.com",
+    github_repo:"https://github.com/middleman",
+    items:[]
+  },
+{
+    title:"Preact",
+    description:"Preact is one of the most popular frontend framework!!!",
+    href:"docs/installation/preact",
+    website_url:"https://preact.com",
+    github_repo:"https://github.com/preact",
+    items:[]
+  },
+{
+    title:"Remix",
+    description:"Remix is one of the most popular frontend framework!!!",
+    href:"docs/installation/remix",
+    website_url:"https://remix.com",
+    github_repo:"https://github.com/remix",
+    items:[]
+  },
+{
+    title:"Sapper",
+    description:"Sapper is one of the most popular frontend framework!!!",
+    href:"docs/installation/sapper",
+    website_url:"https://sapper.com",
+    github_repo:"https://github.com/sapper",
+    items:[]
+  },
+{
+    title:"Stencil",
+    description:"Stencil is one of the most popular frontend framework!!!",
+    href:"docs/installation/stencil",
+    website_url:"https://stencil.com",
+    github_repo:"https://github.com/stencil",
+    items:[]
+  },
+{
+    title:"Sveltekit",
+    description:"Sveltekit is one of the most popular frontend framework!!!",
+    href:"docs/installation/sveltekit",
+    website_url:"https://sveltekit.com",
+    github_repo:"https://github.com/sveltekit",
+    items:[]
+  },
+{
+    title:"Vitepress",
+    description:"Vitepress is one of the most popular frontend framework!!!",
+    href:"docs/installation/vitepress",
+    website_url:"https://vitepress.com",
+    github_repo:"https://github.com/vitepress",
+    items:[]
+  },
+{
+    title:"Zola",
+    description:"Zola is one of the most popular frontend framework!!!",
+    href:"docs/installation/zola",
+    website_url:"https://zola.com",
+    github_repo:"https://github.com/zola",
+    items:[]
+  },
+]
+// templates.forEach((item)=>{
+//   let arr = [];
+//   let title = `${item.querySelector('.small').innerText} - ${item.querySelector('.card-title').innerText}`;
+//   let description = item.querySelector('.card-text').innerText;
+//   let github_repo = item.querySelector('.btn-light').href;
+//   let web_url = item.querySelector('.btn-primary').href;
+//   let href = `docs/bucketlist/${item.querySelector('.card-title').innerText.replace(/\s+/g, "-").toLowerCase()}`;
 
-code_converter.forEach((names)=>{
+//   arr = `{
+//     title:"${title}",
+//     description:"${description}",
+//     href:"${href}",
+//     website_url:"${web_url}",
+//     github_repo:"${github_repo}",
+//     items:[]
+//   },`;
+//   console.log(arr)
+// });
+templates.forEach((item)=>{
   let arr = [];
-  let title = `${names.querySelector('.small').innerText} - ${names.querySelector('.card-title').innerText}`;
-  let description = names.querySelector('.card-text').innerText;
-  let github_repo = names.querySelector('.btn-light').href;
-  let web_url = names.querySelector('.btn-primary').href;
-  let href = `docs/bucketlist/${names.querySelector('.card-title').innerText.replace(/\s+/g, "-").toLowerCase()}`;
+  let title = item.title.charAt(0).toUpperCase() + item.title.slice(1);
+  let description = `${item.title.charAt(0).toUpperCase() + item.title.slice(1)} is one of the most popular frontend framework!!!`;
+  let github_repo = `https://github.com/${item.title}`;
+  let web_url = `https://${item.title}.com`;
+  let href = `docs/installation/${item.title}`;
 
   arr = `{
     title:"${title}",
