@@ -213,7 +213,7 @@ export function DocsSidebarNavItems({
                 </Avatar> */}
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent className="p-8 w-[450px] h-[150px]">
+              <HoverCardContent className="p-8 w-[450px] h-[200px]">
                 <div className="details flex item-center w-full flex-col space-y-3 ">
                   <div className="details_description flex items-center justify-center mb-1">
                     {item.description}
@@ -284,7 +284,7 @@ export function DocsSidebarNavItems({
                         </Link>
                       </div>
                     ) : (
-                      <div className="more_actions_empty flex-1"></div>
+                      <div className="more_actions_empty"></div>
                     )}
                     {item.download &&
                     item.star &&
@@ -297,7 +297,7 @@ export function DocsSidebarNavItems({
                         <h6 className="updated">{item.updated}</h6>
                       </div>
                     ) : (
-                      <div className="more_actions_empty flex-1"></div>
+                      <div className="more_actions_empty"></div>
                     )}
 
                     {item.github_repo ? (
