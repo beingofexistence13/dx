@@ -48659,10 +48659,11 @@ sidebarNav.forEach((navItem) => {
     } else {
       // console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
       const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}.jpg`
+      const search = `${item.title.replace(/\s/g, "").toLowerCase()}`
 
       axios
         .get(
-          `https://api.unsplash.com/search/photos?page=1&query=${filePath}&client_id=qe5fLlQ2pPL2yOe7TRhizSXadW3h_TWAnyPyzktLbBU`
+          `https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
         )
         .then((res) => {
           let photos = res.data.results
@@ -48675,7 +48676,7 @@ sidebarNav.forEach((navItem) => {
           })
         })
         .catch((err) => {
-          console.error(err)
+          console.error(`Error: ${item.title}`)
         })
     }
   })
