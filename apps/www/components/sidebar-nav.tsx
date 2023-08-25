@@ -239,18 +239,13 @@ export function DocsSidebarNavItems({
                     )}
 
                     {item.appStore && item.playStore && item.webStore ? (
-                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-1">
+                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-3">
                         <Link
                           key={index}
                           href={item.appStore}
                           target={item.external ? "_blank" : ""}
                           rel={item.external ? "noreferrer" : ""}
-                          className={cn(
-                            buttonVariants({
-                              variant: "link",
-                            }),
-                            "appStore"
-                          )}
+                          className="appStore hover:underline"
                         >
                           AppStore
                         </Link>
@@ -259,12 +254,7 @@ export function DocsSidebarNavItems({
                           href={item.playStore}
                           target={item.external ? "_blank" : ""}
                           rel={item.external ? "noreferrer" : ""}
-                          className={cn(
-                            buttonVariants({
-                              variant: "ghost",
-                            }),
-                            "playStore"
-                          )}
+                          className="playStore hover:underline"
                         >
                           PlayStore
                         </Link>
@@ -273,12 +263,7 @@ export function DocsSidebarNavItems({
                           href={item.webStore}
                           target={item.external ? "_blank" : ""}
                           rel={item.external ? "noreferrer" : ""}
-                          className={cn(
-                            buttonVariants({
-                              variant: "destructive",
-                            }),
-                            "webStore"
-                          )}
+                          className="webStore hover:underline"
                         >
                           WebStore
                         </Link>
@@ -290,11 +275,11 @@ export function DocsSidebarNavItems({
                     item.star &&
                     item.version &&
                     item.updated ? (
-                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-1">
-                        <h6 className="download">{item.download}</h6>
-                        <h6 className="star">{item.star}</h6>
-                        <h6 className="version">{item.version}</h6>
-                        <h6 className="updated">{item.updated}</h6>
+                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-3">
+                        <h6 className="download hover:underline">{item.download}</h6>
+                        <h6 className="star hover:underline ">{item.star}</h6>
+                        <h6 className="version hover:underline ">{item.version}</h6>
+                        <h6 className="updated hover:underline">{item.updated}</h6>
                       </div>
                     ) : (
                       <div className="more_actions_empty"></div>
