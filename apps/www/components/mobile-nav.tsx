@@ -64,12 +64,12 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="pr-0">
-        <Accordion type="multiple" className="w-full">
+      <SheetContent side="left" className="pr-0 w-full">
+        <Accordion type="multiple" className="w-full px-5">
           <div className="flex flex-col space-y-3">
             <AccordionItem value="products">
               <AccordionTrigger>All Products</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-row items-center justify-between">
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
                 {products.map(
                   (item) =>
                     item.href && (
@@ -98,9 +98,9 @@ export function MobileNav() {
             </AccordionItem>
           </div>
           <div className="flex flex-col space-y-3">
-            <AccordionItem value="products">
+            <AccordionItem value="more">
               <AccordionTrigger>More</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-row items-center justify-between">
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
                 {more.map(
                   (item) =>
                     item.href && (
@@ -127,9 +127,9 @@ export function MobileNav() {
             </AccordionItem>
           </div>
           <div className="flex flex-col space-y-3">
-            <AccordionItem value="products">
+            <AccordionItem value="main-navitem">
               <AccordionTrigger>Main NavItems</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-row items-center justify-between">
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
                 {docsConfig.mainNav.map(
                   (item) =>
                     item.href && (
