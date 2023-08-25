@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/hover-card"
 import { buttonVariants } from "./ui"
 import { MouseEvent } from 'react';
+import Image from "next/image"
 
 // Image Download
 interface Image {
@@ -178,19 +179,36 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] ronded-full flex items-center justify-center ">
+                  <Image
+                  src="docs/metamask.png"
+                  height={25}
+                  width={25}
+                  fill={true}
+                  sizes="(max-width: 30px) 100vw"
+                  quality={100}
+                  priority={true}
+                  placeholder="blur"
+                  style={{objectFit: "contain"}}
+                  loading="lazy"
+                  blurDataURL="docs/oix.png"
+                  alt={item.title ? logoLetter(item.title) : "Dx"}
+                  />
+
+                </div>
+                {/* <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
                   <AvatarImage
                     src="metamask.png"
                   />
                   <AvatarFallback>
                     {item.title ? logoLetter(item.title) : "Dx"}
                   </AvatarFallback>
-                </Avatar>
+                </Avatar> */}
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent className="p-5 w-[360px] h-[400px]">
-                <div className="details flex item-center w-full flex-col space-y-1 ">
-                  <div className="details_description flex items-center justify-center">
+              <HoverCardContent className="p-8 w-[360px] h-[250px]">
+                <div className="details flex item-center w-full flex-col space-y-3 ">
+                  <div className="details_description flex items-center justify-center mb-3">
                     {item.description}
                   </div>
                   <div className="details_actions flex items-center justify-center flex-row w-full ">
