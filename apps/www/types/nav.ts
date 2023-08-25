@@ -2,8 +2,9 @@ import { Icons } from "@/components/icons"
 
 export interface NavItem {
   title: string
+  website_url: string
+  github_repo: string
   description?: string
-  website_url?: string
   appStore?: string
   playStore?: string
   webStore?: string
@@ -13,7 +14,6 @@ export interface NavItem {
   updated?: string
   logo?: string
   github_repository?: string
-  github_repo?: string
   href?: string
   disabled?: boolean
   external?: boolean
