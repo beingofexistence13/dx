@@ -183,17 +183,15 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] ronded-full flex items-center justify-center ">
+                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                   <Image
-                    src="/docs/metamask.png"
+                    src={item.logo ? `/docs/${item.title.replace(/\s/g,"").toLowerCase()}.png` : ""}
                     height={25}
                     width={25}
                     sizes="(max-width: 30px) 100vw"
                     quality={100}
-        
                     style={{ objectFit: "contain" }}
                     loading="lazy"
-      
                     alt={item.title ? logoLetter(item.title) : "Dx"}
                   />
                 </div>
