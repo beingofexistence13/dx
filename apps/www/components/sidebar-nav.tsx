@@ -213,7 +213,7 @@ export function DocsSidebarNavItems({
                 </Avatar> */}
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent className="p-8 w-[500px] h-auto">
+              <HoverCardContent className="p-8 w-[700px] h-auto">
                 <div className="details flex item-center w-full flex-col space-y-3 ">
                   <div className="details_description flex items-center justify-center mb-1">
                     {item.description}
