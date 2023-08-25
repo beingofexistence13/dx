@@ -90,12 +90,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-          <Providers>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <SiteLayout />
-              <main className="flex-1">{children}</main>
-            </ThemeProvider>
-          </Providers>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <Providers>
+              <main className="flex-1">
+                <SiteLayout />
+                {children}
+              </main>
+            </Providers>
+          </ThemeProvider>
         </body>
       </html>
     </>
