@@ -14,8 +14,52 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-
 import { buttonVariants } from "./ui"
+import { MouseEvent } from 'react';
+
+// Image Download
+interface Image {
+  url: string;
+  title: string;
+}
+
+function downloadImages(images: Image[]) {
+  images.forEach((image) => {
+    fetch(image.url)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = image.title;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(() => console.error('An error occurred while downloading the image:', image.url));
+  });
+}
+
+// Example usage:
+const images: Image[] = [
+  { url: 'https://example.com/image1.jpg', title: 'Image 1' },
+  { url: 'https://example.com/image2.jpg', title: 'Image 2' },
+];
+
+function Home() {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    downloadImages(images);
+  };
+
+  return (
+    <>
+      <button onClick={handleClick}>Download Images</button>
+    </>
+  );
+}
+
 
 interface DocsConfig {
   mainNav: MainNavItem[]
@@ -51,10 +95,6 @@ interface Item {
   external?: boolean
   label?: string
 }
-// interface DocsSidebarNavItemsProps {
-//   items: SidebarNavItem[];
-//   pathname: string | null
-// }
 interface DocsSidebarNavItemsProps {
   items: SidebarNavItem[]
   pathname: string | null
@@ -64,7 +104,6 @@ export function DocsSidebarNavItems({
   items,
   pathname,
 }: DocsSidebarNavItemsProps) {
-  // const [descriptions, setDescriptions] = useState({});
   const [descriptions, setDescriptions] = useState<{ [key: string]: any }>({})
   const [emoji, setEmoji] = useState<string>("")
   const emojis = useMemo(
