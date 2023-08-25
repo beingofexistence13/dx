@@ -10,7 +10,12 @@ axios.get("https://api.unsplash.com/search/photos?page=1&query=cats&client_id=qe
   const photos = res.data.results;
   // const randomIndex = Math.floor(Math.random() * photos.length);
   // const photo = photos[randomIndex];
-  console.log(res.data.results);
+  // console.log(res.data.results.urls);
+  // photos.forEach(element => {
+  //   console.log(element.urls.small)
+  // });
+  console.log(photos[0].urls.small)
+
 })
 .catch(err => {
   console.error(err);
