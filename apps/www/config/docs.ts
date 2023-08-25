@@ -7365,6 +7365,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-bearer",
           href: "docs/hack(passports)/http-bearer",
+          logo: "https://logo.clearbit.com/http-bearer",
           description:
             "This http-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7378,6 +7379,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-oauth",
           href: "docs/hack(passports)/google-oauth",
+          logo: "https://logo.clearbit.com/google-oauth",
           description:
             "This google-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7391,6 +7393,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "twitter",
           href: "docs/hack(passports)/twitter",
+          logo: "https://logo.clearbit.com/twitter",
           description:
             "This twitter passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7404,6 +7407,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "facebook",
           href: "docs/hack(passports)/facebook",
+          logo: "https://logo.clearbit.com/facebook",
           description:
             "This facebook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7417,6 +7421,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "openid-client",
           href: "docs/hack(passports)/openid-client",
+          logo: "https://logo.clearbit.com/openid-client",
           description:
             "This openid-client passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7430,6 +7435,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "auth0",
           href: "docs/hack(passports)/auth0",
+          logo: "https://logo.clearbit.com/auth0",
           description:
             "This auth0 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7443,6 +7449,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth2",
           href: "docs/hack(passports)/oauth2",
+          logo: "https://logo.clearbit.com/oauth2",
           description:
             "This oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7456,6 +7463,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "jwt",
           href: "docs/hack(passports)/jwt",
+          logo: "https://logo.clearbit.com/jwt",
           description:
             "This jwt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7469,6 +7477,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth1",
           href: "docs/hack(passports)/oauth1",
+          logo: "https://logo.clearbit.com/oauth1",
           description:
             "This oauth1 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7482,6 +7491,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "saml",
           href: "docs/hack(passports)/saml",
+          logo: "https://logo.clearbit.com/saml",
           description:
             "This saml passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7495,6 +7505,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "local",
           href: "docs/hack(passports)/local",
+          logo: "https://logo.clearbit.com/local",
           description:
             "This local passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7508,6 +7519,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth",
           href: "docs/hack(passports)/oauth",
+          logo: "https://logo.clearbit.com/oauth",
           description:
             "This oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7521,6 +7533,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http",
           href: "docs/hack(passports)/http",
+          logo: "https://logo.clearbit.com/http",
           description:
             "This http passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7534,6 +7547,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "custom",
           href: "docs/hack(passports)/custom",
+          logo: "https://logo.clearbit.com/custom",
           description:
             "This custom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7547,6 +7561,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "github2",
           href: "docs/hack(passports)/github2",
+          logo: "https://logo.clearbit.com/github2",
           description:
             "This github2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7560,6 +7575,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-oauth20",
           href: "docs/hack(passports)/google-oauth20",
+          logo: "https://logo.clearbit.com/google-oauth20",
           description:
             "This google-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7573,6 +7589,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "azure-ad",
           href: "docs/hack(passports)/azure-ad",
+          logo: "https://logo.clearbit.com/azure-ad",
           description:
             "This azure-ad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7587,6 +7604,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "github",
           href: "docs/hack(passports)/github",
+          logo: "https://logo.clearbit.com/github",
           description:
             "This github passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7600,6 +7618,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-oauth2",
           href: "docs/hack(passports)/google-oauth2",
+          logo: "https://logo.clearbit.com/google-oauth2",
           description:
             "This google-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7613,6 +7632,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "microsoft",
           href: "docs/hack(passports)/microsoft",
+          logo: "https://logo.clearbit.com/microsoft",
           description:
             "This microsoft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7626,6 +7646,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "apple",
           href: "docs/hack(passports)/apple",
+          logo: "https://logo.clearbit.com/apple",
           description:
             "This apple passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7639,6 +7660,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gitlab2",
           href: "docs/hack(passports)/gitlab2",
+          logo: "https://logo.clearbit.com/gitlab2",
           description:
             "This gitlab2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7652,6 +7674,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "anonymous",
           href: "docs/hack(passports)/anonymous",
+          logo: "https://logo.clearbit.com/anonymous",
           description:
             "This anonymous passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7665,6 +7688,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bitbucket-oauth2",
           href: "docs/hack(passports)/bitbucket-oauth2",
+          logo: "https://logo.clearbit.com/bitbucket-oauth2",
           description:
             "This bitbucket-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7678,6 +7702,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "openidconnect",
           href: "docs/hack(passports)/openidconnect",
+          logo: "https://logo.clearbit.com/openidconnect",
           description:
             "This openidconnect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7691,6 +7716,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "okta-oauth",
           href: "docs/hack(passports)/okta-oauth",
+          logo: "https://logo.clearbit.com/okta-oauth",
           description:
             "This okta-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7704,6 +7730,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "totp",
           href: "docs/hack(passports)/totp",
+          logo: "https://logo.clearbit.com/totp",
           description:
             "This totp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7717,6 +7744,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth2-client-password",
           href: "docs/hack(passports)/oauth2-client-password",
+          logo: "https://logo.clearbit.com/oauth2-client-password",
           description:
             "This oauth2-client-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7730,6 +7758,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ldapauth",
           href: "docs/hack(passports)/ldapauth",
+          logo: "https://logo.clearbit.com/ldapauth",
           description:
             "This ldapauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7743,6 +7772,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ping",
           href: "docs/hack(passports)/ping",
+          logo: "https://logo.clearbit.com/ping",
           description:
             "This ping passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7756,6 +7786,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cookie",
           href: "docs/hack(passports)/cookie",
+          logo: "https://logo.clearbit.com/cookie",
           description:
             "This cookie passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7769,6 +7800,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "line",
           href: "docs/hack(passports)/line",
+          logo: "https://logo.clearbit.com/line",
           description:
             "This line passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7782,6 +7814,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "slack",
           href: "docs/hack(passports)/slack",
+          logo: "https://logo.clearbit.com/slack",
           description:
             "This slack passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7795,6 +7828,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "linkedin-oauth2",
           href: "docs/hack(passports)/linkedin-oauth2",
+          logo: "https://logo.clearbit.com/linkedin-oauth2",
           description:
             "This linkedin-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7808,6 +7842,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "steam",
           href: "docs/hack(passports)/steam",
+          logo: "https://logo.clearbit.com/steam",
           description:
             "This steam passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7821,6 +7856,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "forcedotcom",
           href: "docs/hack(passports)/forcedotcom",
+          logo: "https://logo.clearbit.com/forcedotcom",
           description:
             "This forcedotcom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7834,6 +7870,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-one-tap",
           href: "docs/hack(passports)/google-one-tap",
+          logo: "https://logo.clearbit.com/google-one-tap",
           description:
             "This google-one-tap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7847,6 +7884,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-oauth1",
           href: "docs/hack(passports)/google-oauth1",
+          logo: "https://logo.clearbit.com/google-oauth1",
           description:
             "This google-oauth1 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7860,6 +7898,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "magic",
           href: "docs/hack(passports)/magic",
+          logo: "https://logo.clearbit.com/magic",
           description:
             "This magic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7873,6 +7912,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "client-cert",
           href: "docs/hack(passports)/client-cert",
+          logo: "https://logo.clearbit.com/client-cert",
           description:
             "This client-cert passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7886,6 +7926,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "linkedin",
           href: "docs/hack(passports)/linkedin",
+          logo: "https://logo.clearbit.com/linkedin",
           description:
             "This linkedin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7899,6 +7940,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "spotify",
           href: "docs/hack(passports)/spotify",
+          logo: "https://logo.clearbit.com/spotify",
           description:
             "This spotify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7912,6 +7954,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "naver",
           href: "docs/hack(passports)/naver",
+          logo: "https://logo.clearbit.com/naver",
           description:
             "This naver passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7925,6 +7968,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wsfed-saml2",
           href: "docs/hack(passports)/wsfed-saml2",
+          logo: "https://logo.clearbit.com/wsfed-saml2",
           description:
             "This wsfed-saml2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7938,6 +7982,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "2fa-totp",
           href: "docs/hack(passports)/2fa-totp",
+          logo: "https://logo.clearbit.com/2fa-totp",
           description:
             "This 2fa-totp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7951,6 +7996,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "atlassian-oauth",
           href: "docs/hack(passports)/atlassian-oauth",
+          logo: "https://logo.clearbit.com/atlassian-oauth",
           description:
             "This atlassian-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7965,6 +8011,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "discord",
           href: "docs/hack(passports)/discord",
+          logo: "https://logo.clearbit.com/discord",
           description:
             "This discord passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7978,6 +8025,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "unique-token",
           href: "docs/hack(passports)/unique-token",
+          logo: "https://logo.clearbit.com/unique-token",
           description:
             "This unique-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -7991,6 +8039,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "azure-ad-oauth2",
           href: "docs/hack(passports)/azure-ad-oauth2",
+          logo: "https://logo.clearbit.com/azure-ad-oauth2",
           description:
             "This azure-ad-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8004,6 +8053,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "openid",
           href: "docs/hack(passports)/openid",
+          logo: "https://logo.clearbit.com/openid",
           description:
             "This openid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8017,6 +8067,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-header-strategy",
           href: "docs/hack(passports)/http-header-strategy",
+          logo: "https://logo.clearbit.com/http-header-strategy",
           description:
             "This http-header-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8030,6 +8081,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "auth-token",
           href: "docs/hack(passports)/auth-token",
+          logo: "https://logo.clearbit.com/auth-token",
           description:
             "This auth-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8043,6 +8095,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "instagram",
           href: "docs/hack(passports)/instagram",
+          logo: "https://logo.clearbit.com/instagram",
           description:
             "This instagram passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8056,6 +8109,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "kakao",
           href: "docs/hack(passports)/kakao",
+          logo: "https://logo.clearbit.com/kakao",
           description:
             "This kakao passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8069,6 +8123,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "slack-oauth2",
           href: "docs/hack(passports)/slack-oauth2",
+          logo: "https://logo.clearbit.com/slack-oauth2",
           description:
             "This slack-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8082,6 +8137,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "magic-login",
           href: "docs/hack(passports)/magic-login",
+          logo: "https://logo.clearbit.com/magic-login",
           description:
             "This magic-login passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8095,6 +8151,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-oidc",
           href: "docs/hack(passports)/google-oidc",
+          logo: "https://logo.clearbit.com/google-oidc",
           description:
             "This google-oidc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8108,6 +8165,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "amazon",
           href: "docs/hack(passports)/amazon",
+          logo: "https://logo.clearbit.com/amazon",
           description:
             "This amazon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8121,6 +8179,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "docusign",
           href: "docs/hack(passports)/docusign",
+          logo: "https://logo.clearbit.com/docusign",
           description:
             "This docusign passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8134,6 +8193,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google",
           href: "docs/hack(passports)/google",
+          logo: "https://logo.clearbit.com/google",
           description:
             "This google passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8147,6 +8207,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "activedirectory",
           href: "docs/hack(passports)/activedirectory",
+          logo: "https://logo.clearbit.com/activedirectory",
           description:
             "This activedirectory passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8160,6 +8221,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "trusted-header",
           href: "docs/hack(passports)/trusted-header",
+          logo: "https://logo.clearbit.com/trusted-header",
           description:
             "This trusted-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8173,6 +8235,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "appleid",
           href: "docs/hack(passports)/appleid",
+          logo: "https://logo.clearbit.com/appleid",
           description:
             "This appleid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8186,6 +8249,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "vkontakte",
           href: "docs/hack(passports)/vkontakte",
+          logo: "https://logo.clearbit.com/vkontakte",
           description:
             "This vkontakte passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8199,6 +8263,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "zendesk",
           href: "docs/hack(passports)/zendesk",
+          logo: "https://logo.clearbit.com/zendesk",
           description:
             "This zendesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8212,6 +8277,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "accesstoken",
           href: "docs/hack(passports)/accesstoken",
+          logo: "https://logo.clearbit.com/accesstoken",
           description:
             "This accesstoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8225,6 +8291,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "42",
           href: "docs/hack(passports)/42",
+          logo: "https://logo.clearbit.com/42",
           description:
             "This 42 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8238,6 +8305,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "orcid",
           href: "docs/hack(passports)/orcid",
+          logo: "https://logo.clearbit.com/orcid",
           description:
             "This orcid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8251,6 +8319,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "shopify",
           href: "docs/hack(passports)/shopify",
+          logo: "https://logo.clearbit.com/shopify",
           description:
             "This shopify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8264,6 +8333,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "jwt-cookiecombo",
           href: "docs/hack(passports)/jwt-cookiecombo",
+          logo: "https://logo.clearbit.com/jwt-cookiecombo",
           description:
             "This jwt-cookiecombo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8277,6 +8347,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "intercom",
           href: "docs/hack(passports)/intercom",
+          logo: "https://logo.clearbit.com/intercom",
           description:
             "This intercom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8290,6 +8361,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "json",
           href: "docs/hack(passports)/json",
+          logo: "https://logo.clearbit.com/json",
           description:
             "This json passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8303,6 +8375,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "remember-me",
           href: "docs/hack(passports)/remember-me",
+          logo: "https://logo.clearbit.com/remember-me",
           description:
             "This remember-me passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8316,6 +8389,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "windowslive",
           href: "docs/hack(passports)/windowslive",
+          logo: "https://logo.clearbit.com/windowslive",
           description:
             "This windowslive passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8329,6 +8403,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hash",
           href: "docs/hack(passports)/hash",
+          logo: "https://logo.clearbit.com/hash",
           description:
             "This hash passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8342,6 +8417,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dropbox-oauth2",
           href: "docs/hack(passports)/dropbox-oauth2",
+          logo: "https://logo.clearbit.com/dropbox-oauth2",
           description:
             "This dropbox-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8355,6 +8431,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "magic-link",
           href: "docs/hack(passports)/magic-link",
+          logo: "https://logo.clearbit.com/magic-link",
           description:
             "This magic-link passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8368,6 +8445,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pinterest",
           href: "docs/hack(passports)/pinterest",
+          logo: "https://logo.clearbit.com/pinterest",
           description:
             "This pinterest passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8381,6 +8459,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mail",
           href: "docs/hack(passports)/mail",
+          logo: "https://logo.clearbit.com/mail",
           description:
             "This mail passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8394,6 +8473,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "windowsauth",
           href: "docs/hack(passports)/windowsauth",
+          logo: "https://logo.clearbit.com/windowsauth",
           description:
             "This windowsauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8407,6 +8487,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "asana",
           href: "docs/hack(passports)/asana",
+          logo: "https://logo.clearbit.com/asana",
           description:
             "This asana passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8420,6 +8501,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stripe",
           href: "docs/hack(passports)/stripe",
+          logo: "https://logo.clearbit.com/stripe",
           description:
             "This stripe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8433,6 +8515,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-oauth",
           href: "docs/hack(passports)/http-oauth",
+          logo: "https://logo.clearbit.com/http-oauth",
           description:
             "This http-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8446,6 +8529,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "youtube-v3",
           href: "docs/hack(passports)/youtube-v3",
+          logo: "https://logo.clearbit.com/youtube-v3",
           description:
             "This youtube-v3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8459,6 +8543,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "deezer",
           href: "docs/hack(passports)/deezer",
+          logo: "https://logo.clearbit.com/deezer",
           description:
             "This deezer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8472,6 +8557,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "azure-oauth2",
           href: "docs/hack(passports)/azure-oauth2",
+          logo: "https://logo.clearbit.com/azure-oauth2",
           description:
             "This azure-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8485,6 +8571,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hubspot",
           href: "docs/hack(passports)/hubspot",
+          logo: "https://logo.clearbit.com/hubspot",
           description:
             "This hubspot passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8498,6 +8585,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "smartsheet",
           href: "docs/hack(passports)/smartsheet",
+          logo: "https://logo.clearbit.com/smartsheet",
           description:
             "This smartsheet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8511,6 +8599,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "foursquare",
           href: "docs/hack(passports)/foursquare",
+          logo: "https://logo.clearbit.com/foursquare",
           description:
             "This foursquare passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8524,6 +8613,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mixcloud",
           href: "docs/hack(passports)/mixcloud",
+          logo: "https://logo.clearbit.com/mixcloud",
           description:
             "This mixcloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8537,6 +8627,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "appfigures",
           href: "docs/hack(passports)/appfigures",
+          logo: "https://logo.clearbit.com/appfigures",
           description:
             "This appfigures passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8550,6 +8641,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fitbit",
           href: "docs/hack(passports)/fitbit",
+          logo: "https://logo.clearbit.com/fitbit",
           description:
             "This fitbit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8563,6 +8655,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "meetup-oauth2",
           href: "docs/hack(passports)/meetup-oauth2",
+          logo: "https://logo.clearbit.com/meetup-oauth2",
           description:
             "This meetup-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8576,6 +8669,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth2-meetup",
           href: "docs/hack(passports)/oauth2-meetup",
+          logo: "https://logo.clearbit.com/oauth2-meetup",
           description:
             "This oauth2-meetup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8589,6 +8683,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "arcgis",
           href: "docs/hack(passports)/arcgis",
+          logo: "https://logo.clearbit.com/arcgis",
           description:
             "This arcgis passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8602,6 +8697,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "publickey",
           href: "docs/hack(passports)/publickey",
+          logo: "https://logo.clearbit.com/publickey",
           description:
             "This publickey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8615,6 +8711,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "client-certificate",
           href: "docs/hack(passports)/client-certificate",
+          logo: "https://logo.clearbit.com/client-certificate",
           description:
             "This client-certificate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8628,6 +8725,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dropbox",
           href: "docs/hack(passports)/dropbox",
+          logo: "https://logo.clearbit.com/dropbox",
           description:
             "This dropbox passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8641,6 +8739,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "imgur",
           href: "docs/hack(passports)/imgur",
+          logo: "https://logo.clearbit.com/imgur",
           description:
             "This imgur passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8654,6 +8753,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "qq",
           href: "docs/hack(passports)/qq",
+          logo: "https://logo.clearbit.com/qq",
           description:
             "This qq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8667,6 +8767,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "zoho-crm",
           href: "docs/hack(passports)/zoho-crm",
+          logo: "https://logo.clearbit.com/zoho-crm",
           description:
             "This zoho-crm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8680,6 +8781,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "flickr",
           href: "docs/hack(passports)/flickr",
+          logo: "https://logo.clearbit.com/flickr",
           description:
             "This flickr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8693,6 +8795,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "soundcloud",
           href: "docs/hack(passports)/soundcloud",
+          logo: "https://logo.clearbit.com/soundcloud",
           description:
             "This soundcloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8706,6 +8809,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cisco-spark",
           href: "docs/hack(passports)/cisco-spark",
+          logo: "https://logo.clearbit.com/cisco-spark",
           description:
             "This cisco-spark passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8719,6 +8823,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "smartthings",
           href: "docs/hack(passports)/smartthings",
+          logo: "https://logo.clearbit.com/smartthings",
           description:
             "This smartthings passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8732,6 +8837,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "local-htpasswd",
           href: "docs/hack(passports)/local-htpasswd",
+          logo: "https://logo.clearbit.com/local-htpasswd",
           description:
             "This local-htpasswd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8745,6 +8851,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "onshape",
           href: "docs/hack(passports)/onshape",
+          logo: "https://logo.clearbit.com/onshape",
           description:
             "This onshape passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8758,6 +8865,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "coinbase",
           href: "docs/hack(passports)/coinbase",
+          logo: "https://logo.clearbit.com/coinbase",
           description:
             "This coinbase passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8771,6 +8879,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hmac",
           href: "docs/hack(passports)/hmac",
+          logo: "https://logo.clearbit.com/hmac",
           description:
             "This hmac passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8784,6 +8893,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mercadolibre",
           href: "docs/hack(passports)/mercadolibre",
+          logo: "https://logo.clearbit.com/mercadolibre",
           description:
             "This mercadolibre passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8797,6 +8907,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eventbrite-oauth",
           href: "docs/hack(passports)/eventbrite-oauth",
+          logo: "https://logo.clearbit.com/eventbrite-oauth",
           description:
             "This eventbrite-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8810,6 +8921,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth2-jwt-bearer",
           href: "docs/hack(passports)/oauth2-jwt-bearer",
+          logo: "https://logo.clearbit.com/oauth2-jwt-bearer",
           description:
             "This oauth2-jwt-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8823,6 +8935,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "citrix",
           href: "docs/hack(passports)/citrix",
+          logo: "https://logo.clearbit.com/citrix",
           description:
             "This citrix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8836,6 +8949,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wordpress",
           href: "docs/hack(passports)/wordpress",
+          logo: "https://logo.clearbit.com/wordpress",
           description:
             "This wordpress passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8849,6 +8963,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sharepoint",
           href: "docs/hack(passports)/sharepoint",
+          logo: "https://logo.clearbit.com/sharepoint",
           description:
             "This sharepoint passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8862,6 +8977,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stack-exchange",
           href: "docs/hack(passports)/stack-exchange",
+          logo: "https://logo.clearbit.com/stack-exchange",
           description:
             "This stack-exchange passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8875,6 +8991,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "intuit-oauth",
           href: "docs/hack(passports)/intuit-oauth",
+          logo: "https://logo.clearbit.com/intuit-oauth",
           description:
             "This intuit-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8888,6 +9005,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "raven",
           href: "docs/hack(passports)/raven",
+          logo: "https://logo.clearbit.com/raven",
           description:
             "This raven passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8901,6 +9019,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tequila",
           href: "docs/hack(passports)/tequila",
+          logo: "https://logo.clearbit.com/tequila",
           description:
             "This tequila passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8914,6 +9033,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "office365-oauth2",
           href: "docs/hack(passports)/office365-oauth2",
+          logo: "https://logo.clearbit.com/office365-oauth2",
           description:
             "This office365-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8927,6 +9047,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sheknows",
           href: "docs/hack(passports)/sheknows",
+          logo: "https://logo.clearbit.com/sheknows",
           description:
             "This sheknows passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8940,6 +9061,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "jawbone",
           href: "docs/hack(passports)/jawbone",
+          logo: "https://logo.clearbit.com/jawbone",
           description:
             "This jawbone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8953,6 +9075,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "draugiem",
           href: "docs/hack(passports)/draugiem",
+          logo: "https://logo.clearbit.com/draugiem",
           description:
             "This draugiem passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8966,6 +9089,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "verify",
           href: "docs/hack(passports)/verify",
+          logo: "https://logo.clearbit.com/verify",
           description:
             "This verify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8979,6 +9103,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lnurl-auth",
           href: "docs/hack(passports)/lnurl-auth",
+          logo: "https://logo.clearbit.com/lnurl-auth",
           description:
             "This lnurl-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -8992,6 +9117,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "daum-oauth2",
           href: "docs/hack(passports)/daum-oauth2",
+          logo: "https://logo.clearbit.com/daum-oauth2",
           description:
             "This daum-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9005,6 +9131,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dailymotion",
           href: "docs/hack(passports)/dailymotion",
+          logo: "https://logo.clearbit.com/dailymotion",
           description:
             "This dailymotion passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9018,6 +9145,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "weixin",
           href: "docs/hack(passports)/weixin",
+          logo: "https://logo.clearbit.com/weixin",
           description:
             "This weixin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9031,6 +9159,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "vk-strategy",
           href: "docs/hack(passports)/vk-strategy",
+          logo: "https://logo.clearbit.com/vk-strategy",
           description:
             "This vk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9044,6 +9173,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "yahoo",
           href: "docs/hack(passports)/yahoo",
+          logo: "https://logo.clearbit.com/yahoo",
           description:
             "This yahoo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9057,6 +9187,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "paypal",
           href: "docs/hack(passports)/paypal",
+          logo: "https://logo.clearbit.com/paypal",
           description:
             "This paypal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9070,6 +9201,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "deviantart",
           href: "docs/hack(passports)/deviantart",
+          logo: "https://logo.clearbit.com/deviantart",
           description:
             "This deviantart passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9083,6 +9215,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bufferapp",
           href: "docs/hack(passports)/bufferapp",
+          logo: "https://logo.clearbit.com/bufferapp",
           description:
             "This bufferapp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9096,6 +9229,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dribbble",
           href: "docs/hack(passports)/dribbble",
+          logo: "https://logo.clearbit.com/dribbble",
           description:
             "This dribbble passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9109,6 +9243,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "maltio",
           href: "docs/hack(passports)/maltio",
+          logo: "https://logo.clearbit.com/maltio",
           description:
             "This maltio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9122,6 +9257,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gitlab",
           href: "docs/hack(passports)/gitlab",
+          logo: "https://logo.clearbit.com/gitlab",
           description:
             "This gitlab passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9135,6 +9271,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "weixin-enterprise",
           href: "docs/hack(passports)/weixin-enterprise",
+          logo: "https://logo.clearbit.com/weixin-enterprise",
           description:
             "This weixin-enterprise passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9148,6 +9285,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "youtube",
           href: "docs/hack(passports)/youtube",
+          logo: "https://logo.clearbit.com/youtube",
           description:
             "This youtube passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9161,6 +9299,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dataporten",
           href: "docs/hack(passports)/dataporten",
+          logo: "https://logo.clearbit.com/dataporten",
           description:
             "This dataporten passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9174,6 +9313,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "vimeo",
           href: "docs/hack(passports)/vimeo",
+          logo: "https://logo.clearbit.com/vimeo",
           description:
             "This vimeo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9187,6 +9327,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "drupal",
           href: "docs/hack(passports)/drupal",
+          logo: "https://logo.clearbit.com/drupal",
           description:
             "This drupal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9200,6 +9341,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hawk",
           href: "docs/hack(passports)/hawk",
+          logo: "https://logo.clearbit.com/hawk",
           description:
             "This hawk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9213,6 +9355,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "constantcontact",
           href: "docs/hack(passports)/constantcontact",
+          logo: "https://logo.clearbit.com/constantcontact",
           description:
             "This constantcontact passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9226,6 +9369,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "line2",
           href: "docs/hack(passports)/line2",
+          logo: "https://logo.clearbit.com/line2",
           description:
             "This line2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9239,6 +9383,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "campaignmonitor",
           href: "docs/hack(passports)/campaignmonitor",
+          logo: "https://logo.clearbit.com/campaignmonitor",
           description:
             "This campaignmonitor passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9252,6 +9397,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "anonym-uuid",
           href: "docs/hack(passports)/anonym-uuid",
+          logo: "https://logo.clearbit.com/anonym-uuid",
           description:
             "This anonym-uuid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9265,6 +9411,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mastodon",
           href: "docs/hack(passports)/mastodon",
+          logo: "https://logo.clearbit.com/mastodon",
           description:
             "This mastodon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9278,6 +9425,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bitbucket-oauth20",
           href: "docs/hack(passports)/bitbucket-oauth20",
+          logo: "https://logo.clearbit.com/bitbucket-oauth20",
           description:
             "This bitbucket-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9291,6 +9439,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-custom-bearer",
           href: "docs/hack(passports)/http-custom-bearer",
+          logo: "https://logo.clearbit.com/http-custom-bearer",
           description:
             "This http-custom-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9304,6 +9453,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "predix-oauth",
           href: "docs/hack(passports)/predix-oauth",
+          logo: "https://logo.clearbit.com/predix-oauth",
           description:
             "This predix-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9317,6 +9467,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fido2-webauthn",
           href: "docs/hack(passports)/fido2-webauthn",
+          logo: "https://logo.clearbit.com/fido2-webauthn",
           description:
             "This fido2-webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9330,6 +9481,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lti",
           href: "docs/hack(passports)/lti",
+          logo: "https://logo.clearbit.com/lti",
           description:
             "This lti passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9343,6 +9495,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "xero",
           href: "docs/hack(passports)/xero",
+          logo: "https://logo.clearbit.com/xero",
           description:
             "This xero passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9356,6 +9509,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "local-token",
           href: "docs/hack(passports)/local-token",
+          logo: "https://logo.clearbit.com/local-token",
           description:
             "This local-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9369,6 +9523,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "snapchat",
           href: "docs/hack(passports)/snapchat",
+          logo: "https://logo.clearbit.com/snapchat",
           description:
             "This snapchat passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9382,6 +9537,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "heroku-addon",
           href: "docs/hack(passports)/heroku-addon",
+          logo: "https://logo.clearbit.com/heroku-addon",
           description:
             "This heroku-addon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9395,6 +9551,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "outlook",
           href: "docs/hack(passports)/outlook",
+          logo: "https://logo.clearbit.com/outlook",
           description:
             "This outlook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9408,6 +9565,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nest",
           href: "docs/hack(passports)/nest",
+          logo: "https://logo.clearbit.com/nest",
           description:
             "This nest passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9421,6 +9579,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "odnoklassniki",
           href: "docs/hack(passports)/odnoklassniki",
+          logo: "https://logo.clearbit.com/odnoklassniki",
           description:
             "This odnoklassniki passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9434,6 +9593,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wechat",
           href: "docs/hack(passports)/wechat",
+          logo: "https://logo.clearbit.com/wechat",
           description:
             "This wechat passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9447,6 +9607,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ibmid-oauth2",
           href: "docs/hack(passports)/ibmid-oauth2",
+          logo: "https://logo.clearbit.com/ibmid-oauth2",
           description:
             "This ibmid-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9460,6 +9621,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "twitch",
           href: "docs/hack(passports)/twitch",
+          logo: "https://logo.clearbit.com/twitch",
           description:
             "This twitch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9473,6 +9635,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bluemix",
           href: "docs/hack(passports)/bluemix",
+          logo: "https://logo.clearbit.com/bluemix",
           description:
             "This bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9486,6 +9649,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "yandex",
           href: "docs/hack(passports)/yandex",
+          logo: "https://logo.clearbit.com/yandex",
           description:
             "This yandex passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9499,6 +9663,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ping-oauth2",
           href: "docs/hack(passports)/ping-oauth2",
+          logo: "https://logo.clearbit.com/ping-oauth2",
           description:
             "This ping-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9512,6 +9677,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "localapikey",
           href: "docs/hack(passports)/localapikey",
+          logo: "https://logo.clearbit.com/localapikey",
           description:
             "This localapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9525,6 +9691,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth2-resource-owner-password",
           href: "docs/hack(passports)/oauth2-resource-owner-password",
+          logo: "https://logo.clearbit.com/oauth2-resource-owner-password",
           description:
             "This oauth2-resource-owner-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9539,6 +9706,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mailchimp",
           href: "docs/hack(passports)/mailchimp",
+          logo: "https://logo.clearbit.com/mailchimp",
           description:
             "This mailchimp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9552,6 +9720,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "line-auth",
           href: "docs/hack(passports)/line-auth",
+          logo: "https://logo.clearbit.com/line-auth",
           description:
             "This line-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9565,6 +9734,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "podio",
           href: "docs/hack(passports)/podio",
+          logo: "https://logo.clearbit.com/podio",
           description:
             "This podio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9578,6 +9748,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "37signals",
           href: "docs/hack(passports)/37signals",
+          logo: "https://logo.clearbit.com/37signals",
           description:
             "This 37signals passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9591,6 +9762,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bnet",
           href: "docs/hack(passports)/bnet",
+          logo: "https://logo.clearbit.com/bnet",
           description:
             "This bnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9604,6 +9776,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "httpapikey",
           href: "docs/hack(passports)/httpapikey",
+          logo: "https://logo.clearbit.com/httpapikey",
           description:
             "This httpapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9617,6 +9790,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "reddit",
           href: "docs/hack(passports)/reddit",
+          logo: "https://logo.clearbit.com/reddit",
           description:
             "This reddit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9630,6 +9804,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "trakt",
           href: "docs/hack(passports)/trakt",
+          logo: "https://logo.clearbit.com/trakt",
           description:
             "This trakt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9643,6 +9818,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tumblr",
           href: "docs/hack(passports)/tumblr",
+          logo: "https://logo.clearbit.com/tumblr",
           description:
             "This tumblr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9656,6 +9832,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "echosign",
           href: "docs/hack(passports)/echosign",
+          logo: "https://logo.clearbit.com/echosign",
           description:
             "This echosign passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9669,6 +9846,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "xing",
           href: "docs/hack(passports)/xing",
+          logo: "https://logo.clearbit.com/xing",
           description:
             "This xing passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9682,6 +9860,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "adobe-oauth2",
           href: "docs/hack(passports)/adobe-oauth2",
+          logo: "https://logo.clearbit.com/adobe-oauth2",
           description:
             "This adobe-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9695,6 +9874,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-bearer-base64",
           href: "docs/hack(passports)/http-bearer-base64",
+          logo: "https://logo.clearbit.com/http-bearer-base64",
           description:
             "This http-bearer-base64 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9708,6 +9888,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "trello",
           href: "docs/hack(passports)/trello",
+          logo: "https://logo.clearbit.com/trello",
           description:
             "This trello passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9721,6 +9902,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "box",
           href: "docs/hack(passports)/box",
+          logo: "https://logo.clearbit.com/box",
           description:
             "This box passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9734,6 +9916,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "google-plus",
           href: "docs/hack(passports)/google-plus",
+          logo: "https://logo.clearbit.com/google-plus",
           description:
             "This google-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9747,6 +9930,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "did-auth",
           href: "docs/hack(passports)/did-auth",
+          logo: "https://logo.clearbit.com/did-auth",
           description:
             "This did-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9760,6 +9944,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ethereum-siwe",
           href: "docs/hack(passports)/ethereum-siwe",
+          logo: "https://logo.clearbit.com/ethereum-siwe",
           description:
             "This ethereum-siwe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9773,6 +9958,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "web3",
           href: "docs/hack(passports)/web3",
+          logo: "https://logo.clearbit.com/web3",
           description:
             "This web3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9786,6 +9972,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "json-custom",
           href: "docs/hack(passports)/json-custom",
+          logo: "https://logo.clearbit.com/json-custom",
           description:
             "This json-custom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9799,6 +9986,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bitbucket",
           href: "docs/hack(passports)/bitbucket",
+          logo: "https://logo.clearbit.com/bitbucket",
           description:
             "This bitbucket passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9812,6 +10000,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "strava-oauth2",
           href: "docs/hack(passports)/strava-oauth2",
+          logo: "https://logo.clearbit.com/strava-oauth2",
           description:
             "This strava-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9825,6 +10014,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ghost",
           href: "docs/hack(passports)/ghost",
+          logo: "https://logo.clearbit.com/ghost",
           description:
             "This ghost passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9838,6 +10028,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ok-strategy",
           href: "docs/hack(passports)/ok-strategy",
+          logo: "https://logo.clearbit.com/ok-strategy",
           description:
             "This ok-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9851,6 +10042,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fitbit-oauth2",
           href: "docs/hack(passports)/fitbit-oauth2",
+          logo: "https://logo.clearbit.com/fitbit-oauth2",
           description:
             "This fitbit-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9864,6 +10056,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "telegram",
           href: "docs/hack(passports)/telegram",
+          logo: "https://logo.clearbit.com/telegram",
           description:
             "This telegram passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9877,6 +10070,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "yammer",
           href: "docs/hack(passports)/yammer",
+          logo: "https://logo.clearbit.com/yammer",
           description:
             "This yammer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9890,6 +10084,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "vso",
           href: "docs/hack(passports)/vso",
+          logo: "https://logo.clearbit.com/vso",
           description:
             "This vso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9903,6 +10098,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "passportjs-header",
           href: "docs/hack(passports)/passportjs-header",
+          logo: "https://logo.clearbit.com/passportjs-header",
           description:
             "This passportjs-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9916,6 +10112,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "headhunter",
           href: "docs/hack(passports)/headhunter",
+          logo: "https://logo.clearbit.com/headhunter",
           description:
             "This headhunter passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9929,6 +10126,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "meetup",
           href: "docs/hack(passports)/meetup",
+          logo: "https://logo.clearbit.com/meetup",
           description:
             "This meetup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9942,6 +10140,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "strava",
           href: "docs/hack(passports)/strava",
+          logo: "https://logo.clearbit.com/strava",
           description:
             "This strava passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9955,6 +10154,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pocket",
           href: "docs/hack(passports)/pocket",
+          logo: "https://logo.clearbit.com/pocket",
           description:
             "This pocket passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9968,6 +10168,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "outlook2",
           href: "docs/hack(passports)/outlook2",
+          logo: "https://logo.clearbit.com/outlook2",
           description:
             "This outlook2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9981,6 +10182,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "clever-passport",
           href: "docs/hack(passports)/clever-passport",
+          logo: "https://logo.clearbit.com/clever-passport",
           description:
             "This clever-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -9994,6 +10196,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "authtkt",
           href: "docs/hack(passports)/authtkt",
+          logo: "https://logo.clearbit.com/authtkt",
           description:
             "This authtkt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10007,6 +10210,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ethereum",
           href: "docs/hack(passports)/ethereum",
+          logo: "https://logo.clearbit.com/ethereum",
           description:
             "This ethereum passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10020,6 +10224,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "yahoo-oauth",
           href: "docs/hack(passports)/yahoo-oauth",
+          logo: "https://logo.clearbit.com/yahoo-oauth",
           description:
             "This yahoo-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10033,6 +10238,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bitly",
           href: "docs/hack(passports)/bitly",
+          logo: "https://logo.clearbit.com/bitly",
           description:
             "This bitly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10046,6 +10252,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lastfm",
           href: "docs/hack(passports)/lastfm",
+          logo: "https://logo.clearbit.com/lastfm",
           description:
             "This lastfm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10059,6 +10266,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wca",
           href: "docs/hack(passports)/wca",
+          logo: "https://logo.clearbit.com/wca",
           description:
             "This wca passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10072,6 +10280,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "undefined",
           href: "docs/hack(passports)/undefined",
+          logo: "https://logo.clearbit.com/undefined",
           description:
             "This undefined passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10085,6 +10294,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "heroku",
           href: "docs/hack(passports)/heroku",
+          logo: "https://logo.clearbit.com/heroku",
           description:
             "This heroku passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10098,6 +10308,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "instant2fa",
           href: "docs/hack(passports)/instant2fa",
+          logo: "https://logo.clearbit.com/instant2fa",
           description:
             "This instant2fa passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10111,6 +10322,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "saml-too",
           href: "docs/hack(passports)/saml-too",
+          logo: "https://logo.clearbit.com/saml-too",
           description:
             "This saml-too passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10124,6 +10336,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sina",
           href: "docs/hack(passports)/sina",
+          logo: "https://logo.clearbit.com/sina",
           description:
             "This sina passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10137,6 +10350,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "weibo",
           href: "docs/hack(passports)/weibo",
+          logo: "https://logo.clearbit.com/weibo",
           description:
             "This weibo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10150,6 +10364,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "paypal-oauth",
           href: "docs/hack(passports)/paypal-oauth",
+          logo: "https://logo.clearbit.com/paypal-oauth",
           description:
             "This paypal-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10163,6 +10378,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "digitalocean",
           href: "docs/hack(passports)/digitalocean",
+          logo: "https://logo.clearbit.com/digitalocean",
           description:
             "This digitalocean passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10176,6 +10392,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "indieauth",
           href: "docs/hack(passports)/indieauth",
+          logo: "https://logo.clearbit.com/indieauth",
           description:
             "This indieauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10189,6 +10406,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "waad",
           href: "docs/hack(passports)/waad",
+          logo: "https://logo.clearbit.com/waad",
           description:
             "This waad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10202,6 +10420,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nexon",
           href: "docs/hack(passports)/nexon",
+          logo: "https://logo.clearbit.com/nexon",
           description:
             "This nexon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10215,6 +10434,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "borchk",
           href: "docs/hack(passports)/borchk",
+          logo: "https://logo.clearbit.com/borchk",
           description:
             "This borchk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10228,6 +10448,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "basecamp",
           href: "docs/hack(passports)/basecamp",
+          logo: "https://logo.clearbit.com/basecamp",
           description:
             "This basecamp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10241,6 +10462,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ustream",
           href: "docs/hack(passports)/ustream",
+          logo: "https://logo.clearbit.com/ustream",
           description:
             "This ustream passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10254,6 +10476,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "iucas",
           href: "docs/hack(passports)/iucas",
+          logo: "https://logo.clearbit.com/iucas",
           description:
             "This iucas passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10267,6 +10490,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "thingiverse",
           href: "docs/hack(passports)/thingiverse",
+          logo: "https://logo.clearbit.com/thingiverse",
           description:
             "This thingiverse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10280,6 +10504,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "taccounts-oauth2",
           href: "docs/hack(passports)/taccounts-oauth2",
+          logo: "https://logo.clearbit.com/taccounts-oauth2",
           description:
             "This taccounts-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10293,6 +10518,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "namely",
           href: "docs/hack(passports)/namely",
+          logo: "https://logo.clearbit.com/namely",
           description:
             "This namely passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10306,6 +10532,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ufshib",
           href: "docs/hack(passports)/ufshib",
+          logo: "https://logo.clearbit.com/ufshib",
           description:
             "This ufshib passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10319,6 +10546,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "veritone",
           href: "docs/hack(passports)/veritone",
+          logo: "https://logo.clearbit.com/veritone",
           description:
             "This veritone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10332,6 +10560,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "persona",
           href: "docs/hack(passports)/persona",
+          logo: "https://logo.clearbit.com/persona",
           description:
             "This persona passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10345,6 +10574,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "23andme",
           href: "docs/hack(passports)/23andme",
+          logo: "https://logo.clearbit.com/23andme",
           description:
             "This 23andme passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10358,6 +10588,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "twitchtv",
           href: "docs/hack(passports)/twitchtv",
+          logo: "https://logo.clearbit.com/twitchtv",
           description:
             "This twitchtv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10371,6 +10602,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "workwell",
           href: "docs/hack(passports)/workwell",
+          logo: "https://logo.clearbit.com/workwell",
           description:
             "This workwell passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10384,6 +10616,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "keystone",
           href: "docs/hack(passports)/keystone",
+          logo: "https://logo.clearbit.com/keystone",
           description:
             "This keystone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10397,6 +10630,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ldsauth",
           href: "docs/hack(passports)/ldsauth",
+          logo: "https://logo.clearbit.com/ldsauth",
           description:
             "This ldsauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10410,6 +10644,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-signature",
           href: "docs/hack(passports)/http-signature",
+          logo: "https://logo.clearbit.com/http-signature",
           description:
             "This http-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10424,6 +10659,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mymlh",
           href: "docs/hack(passports)/mymlh",
+          logo: "https://logo.clearbit.com/mymlh",
           description:
             "This mymlh passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10437,6 +10673,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stackexchange",
           href: "docs/hack(passports)/stackexchange",
+          logo: "https://logo.clearbit.com/stackexchange",
           description:
             "This stackexchange passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10450,6 +10687,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "clevercloud",
           href: "docs/hack(passports)/clevercloud",
+          logo: "https://logo.clearbit.com/clevercloud",
           description:
             "This clevercloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10463,6 +10701,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "coursera-oauth",
           href: "docs/hack(passports)/coursera-oauth",
+          logo: "https://logo.clearbit.com/coursera-oauth",
           description:
             "This coursera-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10476,6 +10715,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ibm-connections-cloud",
           href: "docs/hack(passports)/ibm-connections-cloud",
+          logo: "https://logo.clearbit.com/ibm-connections-cloud",
           description:
             "This ibm-connections-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10489,6 +10729,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hackid",
           href: "docs/hack(passports)/hackid",
+          logo: "https://logo.clearbit.com/hackid",
           description:
             "This hackid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10502,6 +10743,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "line-v2",
           href: "docs/hack(passports)/line-v2",
+          logo: "https://logo.clearbit.com/line-v2",
           description:
             "This line-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10515,6 +10757,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "uber-v2",
           href: "docs/hack(passports)/uber-v2",
+          logo: "https://logo.clearbit.com/uber-v2",
           description:
             "This uber-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10528,6 +10771,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "identityua",
           href: "docs/hack(passports)/identityua",
+          logo: "https://logo.clearbit.com/identityua",
           description:
             "This identityua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10541,6 +10785,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "square",
           href: "docs/hack(passports)/square",
+          logo: "https://logo.clearbit.com/square",
           description:
             "This square passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10554,6 +10799,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "groupme",
           href: "docs/hack(passports)/groupme",
+          logo: "https://logo.clearbit.com/groupme",
           description:
             "This groupme passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10567,6 +10813,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ssqsignon",
           href: "docs/hack(passports)/ssqsignon",
+          logo: "https://logo.clearbit.com/ssqsignon",
           description:
             "This ssqsignon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10580,6 +10827,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ehealth",
           href: "docs/hack(passports)/ehealth",
+          logo: "https://logo.clearbit.com/ehealth",
           description:
             "This ehealth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10593,6 +10841,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gowalla",
           href: "docs/hack(passports)/gowalla",
+          logo: "https://logo.clearbit.com/gowalla",
           description:
             "This gowalla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10606,6 +10855,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "signature",
           href: "docs/hack(passports)/signature",
+          logo: "https://logo.clearbit.com/signature",
           description:
             "This signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10619,6 +10869,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "automatic",
           href: "docs/hack(passports)/automatic",
+          logo: "https://logo.clearbit.com/automatic",
           description:
             "This automatic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10632,6 +10883,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nextengine",
           href: "docs/hack(passports)/nextengine",
+          logo: "https://logo.clearbit.com/nextengine",
           description:
             "This nextengine passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10645,6 +10897,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dd",
           href: "docs/hack(passports)/dd",
+          logo: "https://logo.clearbit.com/dd",
           description:
             "This dd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10658,6 +10911,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "delivery.com",
           href: "docs/hack(passports)/delivery.com",
+          logo: "https://logo.clearbit.com/delivery.com",
           description:
             "This delivery.com passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10671,6 +10925,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "jd-credit",
           href: "docs/hack(passports)/jd-credit",
+          logo: "https://logo.clearbit.com/jd-credit",
           description:
             "This jd-credit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10684,6 +10939,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "octoblu",
           href: "docs/hack(passports)/octoblu",
+          logo: "https://logo.clearbit.com/octoblu",
           description:
             "This octoblu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10697,6 +10953,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "monarch",
           href: "docs/hack(passports)/monarch",
+          logo: "https://logo.clearbit.com/monarch",
           description:
             "This monarch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10710,6 +10967,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "privakey",
           href: "docs/hack(passports)/privakey",
+          logo: "https://logo.clearbit.com/privakey",
           description:
             "This privakey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10723,6 +10981,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "exact",
           href: "docs/hack(passports)/exact",
+          logo: "https://logo.clearbit.com/exact",
           description:
             "This exact passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10736,6 +10995,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "shutterstock-oauth2",
           href: "docs/hack(passports)/shutterstock-oauth2",
+          logo: "https://logo.clearbit.com/shutterstock-oauth2",
           description:
             "This shutterstock-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10749,6 +11009,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tradier",
           href: "docs/hack(passports)/tradier",
+          logo: "https://logo.clearbit.com/tradier",
           description:
             "This tradier passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10762,6 +11023,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "node-freeagent2",
           href: "docs/hack(passports)/node-freeagent2",
+          logo: "https://logo.clearbit.com/node-freeagent2",
           description:
             "This node-freeagent2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10775,6 +11037,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "yj",
           href: "docs/hack(passports)/yj",
+          logo: "https://logo.clearbit.com/yj",
           description:
             "This yj passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10788,6 +11051,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "daccount",
           href: "docs/hack(passports)/daccount",
+          logo: "https://logo.clearbit.com/daccount",
           description:
             "This daccount passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10801,6 +11065,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mailru",
           href: "docs/hack(passports)/mailru",
+          logo: "https://logo.clearbit.com/mailru",
           description:
             "This mailru passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10814,6 +11079,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "goodreads",
           href: "docs/hack(passports)/goodreads",
+          logo: "https://logo.clearbit.com/goodreads",
           description:
             "This goodreads passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10827,6 +11093,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stormpath",
           href: "docs/hack(passports)/stormpath",
+          logo: "https://logo.clearbit.com/stormpath",
           description:
             "This stormpath passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10840,6 +11107,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "familysearch",
           href: "docs/hack(passports)/familysearch",
+          logo: "https://logo.clearbit.com/familysearch",
           description:
             "This familysearch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10853,6 +11121,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "jive",
           href: "docs/hack(passports)/jive",
+          logo: "https://logo.clearbit.com/jive",
           description:
             "This jive passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10866,6 +11135,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mondo-oauth2",
           href: "docs/hack(passports)/mondo-oauth2",
+          logo: "https://logo.clearbit.com/mondo-oauth2",
           description:
             "This mondo-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10879,6 +11149,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oneauth",
           href: "docs/hack(passports)/oneauth",
+          logo: "https://logo.clearbit.com/oneauth",
           description:
             "This oneauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10892,6 +11163,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lds",
           href: "docs/hack(passports)/lds",
+          logo: "https://logo.clearbit.com/lds",
           description:
             "This lds passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10905,6 +11177,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "rdio-oauth2",
           href: "docs/hack(passports)/rdio-oauth2",
+          logo: "https://logo.clearbit.com/rdio-oauth2",
           description:
             "This rdio-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10918,6 +11191,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "citrix2",
           href: "docs/hack(passports)/citrix2",
+          logo: "https://logo.clearbit.com/citrix2",
           description:
             "This citrix2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10931,6 +11205,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "intuit",
           href: "docs/hack(passports)/intuit",
+          logo: "https://logo.clearbit.com/intuit",
           description:
             "This intuit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10944,6 +11219,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "uwshib",
           href: "docs/hack(passports)/uwshib",
+          logo: "https://logo.clearbit.com/uwshib",
           description:
             "This uwshib passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10957,6 +11233,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "idn",
           href: "docs/hack(passports)/idn",
+          logo: "https://logo.clearbit.com/idn",
           description:
             "This idn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10970,6 +11247,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "abakus",
           href: "docs/hack(passports)/abakus",
+          logo: "https://logo.clearbit.com/abakus",
           description:
             "This abakus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10983,6 +11261,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cloudfoundry",
           href: "docs/hack(passports)/cloudfoundry",
+          logo: "https://logo.clearbit.com/cloudfoundry",
           description:
             "This cloudfoundry passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -10996,6 +11275,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eve",
           href: "docs/hack(passports)/eve",
+          logo: "https://logo.clearbit.com/eve",
           description:
             "This eve passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11009,6 +11289,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ionisx",
           href: "docs/hack(passports)/ionisx",
+          logo: "https://logo.clearbit.com/ionisx",
           description:
             "This ionisx passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11022,6 +11303,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "disqus",
           href: "docs/hack(passports)/disqus",
+          logo: "https://logo.clearbit.com/disqus",
           description:
             "This disqus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11035,6 +11317,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "basecrm",
           href: "docs/hack(passports)/basecrm",
+          logo: "https://logo.clearbit.com/basecrm",
           description:
             "This basecrm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11048,6 +11331,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dailycred",
           href: "docs/hack(passports)/dailycred",
+          logo: "https://logo.clearbit.com/dailycred",
           description:
             "This dailycred passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11061,6 +11345,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tiendanube",
           href: "docs/hack(passports)/tiendanube",
+          logo: "https://logo.clearbit.com/tiendanube",
           description:
             "This tiendanube passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11074,6 +11359,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "surveymonkey",
           href: "docs/hack(passports)/surveymonkey",
+          logo: "https://logo.clearbit.com/surveymonkey",
           description:
             "This surveymonkey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11087,6 +11373,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "userapp",
           href: "docs/hack(passports)/userapp",
+          logo: "https://logo.clearbit.com/userapp",
           description:
             "This userapp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11100,6 +11387,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tidal",
           href: "docs/hack(passports)/tidal",
+          logo: "https://logo.clearbit.com/tidal",
           description:
             "This tidal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11113,6 +11401,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eveonline",
           href: "docs/hack(passports)/eveonline",
+          logo: "https://logo.clearbit.com/eveonline",
           description:
             "This eveonline passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11126,6 +11415,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gumroad",
           href: "docs/hack(passports)/gumroad",
+          logo: "https://logo.clearbit.com/gumroad",
           description:
             "This gumroad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11139,6 +11429,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lds-connect",
           href: "docs/hack(passports)/lds-connect",
+          logo: "https://logo.clearbit.com/lds-connect",
           description:
             "This lds-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11152,6 +11443,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "civic",
           href: "docs/hack(passports)/civic",
+          logo: "https://logo.clearbit.com/civic",
           description:
             "This civic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11165,6 +11457,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stanford",
           href: "docs/hack(passports)/stanford",
+          logo: "https://logo.clearbit.com/stanford",
           description:
             "This stanford passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11178,6 +11471,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "opentoken",
           href: "docs/hack(passports)/opentoken",
+          logo: "https://logo.clearbit.com/opentoken",
           description:
             "This opentoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11191,6 +11485,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "metocean",
           href: "docs/hack(passports)/metocean",
+          logo: "https://logo.clearbit.com/metocean",
           description:
             "This metocean passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11204,6 +11499,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "justintv",
           href: "docs/hack(passports)/justintv",
+          logo: "https://logo.clearbit.com/justintv",
           description:
             "This justintv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11217,6 +11513,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pnoi",
           href: "docs/hack(passports)/pnoi",
+          logo: "https://logo.clearbit.com/pnoi",
           description:
             "This pnoi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11230,6 +11527,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oauth3",
           href: "docs/hack(passports)/oauth3",
+          logo: "https://logo.clearbit.com/oauth3",
           description:
             "This oauth3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11243,6 +11541,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stocktwits",
           href: "docs/hack(passports)/stocktwits",
+          logo: "https://logo.clearbit.com/stocktwits",
           description:
             "This stocktwits passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11256,6 +11555,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wix-app",
           href: "docs/hack(passports)/wix-app",
+          logo: "https://logo.clearbit.com/wix-app",
           description:
             "This wix-app passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11269,6 +11569,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sharefile",
           href: "docs/hack(passports)/sharefile",
+          logo: "https://logo.clearbit.com/sharefile",
           description:
             "This sharefile passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11282,6 +11583,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "anyexercise",
           href: "docs/hack(passports)/anyexercise",
+          logo: "https://logo.clearbit.com/anyexercise",
           description:
             "This anyexercise passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11295,6 +11597,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bypass-strategy",
           href: "docs/hack(passports)/bypass-strategy",
+          logo: "https://logo.clearbit.com/bypass-strategy",
           description:
             "This bypass-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11308,6 +11611,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wink",
           href: "docs/hack(passports)/wink",
+          logo: "https://logo.clearbit.com/wink",
           description:
             "This wink passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11321,6 +11625,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "approveapi",
           href: "docs/hack(passports)/approveapi",
+          logo: "https://logo.clearbit.com/approveapi",
           description:
             "This approveapi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11334,6 +11639,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "apptrack",
           href: "docs/hack(passports)/apptrack",
+          logo: "https://logo.clearbit.com/apptrack",
           description:
             "This apptrack passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11347,6 +11653,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "artycles",
           href: "docs/hack(passports)/artycles",
+          logo: "https://logo.clearbit.com/artycles",
           description:
             "This artycles passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11360,6 +11667,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "coola",
           href: "docs/hack(passports)/coola",
+          logo: "https://logo.clearbit.com/coola",
           description:
             "This coola passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11373,6 +11681,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "assetorium",
           href: "docs/hack(passports)/assetorium",
+          logo: "https://logo.clearbit.com/assetorium",
           description:
             "This assetorium passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11386,6 +11695,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dropbox-business",
           href: "docs/hack(passports)/dropbox-business",
+          logo: "https://logo.clearbit.com/dropbox-business",
           description:
             "This dropbox-business passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11399,6 +11709,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "authtoken",
           href: "docs/hack(passports)/authtoken",
+          logo: "https://logo.clearbit.com/authtoken",
           description:
             "This authtoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11412,6 +11723,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fido2",
           href: "docs/hack(passports)/fido2",
+          logo: "https://logo.clearbit.com/fido2",
           description:
             "This fido2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11425,6 +11737,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "crudr",
           href: "docs/hack(passports)/crudr",
+          logo: "https://logo.clearbit.com/crudr",
           description:
             "This crudr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11438,6 +11751,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fanfou",
           href: "docs/hack(passports)/fanfou",
+          logo: "https://logo.clearbit.com/fanfou",
           description:
             "This fanfou passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11451,6 +11765,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "honeywell",
           href: "docs/hack(passports)/honeywell",
+          logo: "https://logo.clearbit.com/honeywell",
           description:
             "This honeywell passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11464,6 +11779,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "rightsignature",
           href: "docs/hack(passports)/rightsignature",
+          logo: "https://logo.clearbit.com/rightsignature",
           description:
             "This rightsignature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11477,6 +11793,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "learningstudio",
           href: "docs/hack(passports)/learningstudio",
+          logo: "https://logo.clearbit.com/learningstudio",
           description:
             "This learningstudio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11490,6 +11807,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ibm-connections-oauth",
           href: "docs/hack(passports)/ibm-connections-oauth",
+          logo: "https://logo.clearbit.com/ibm-connections-oauth",
           description:
             "This ibm-connections-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11503,6 +11821,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "kuali",
           href: "docs/hack(passports)/kuali",
+          logo: "https://logo.clearbit.com/kuali",
           description:
             "This kuali passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11516,6 +11835,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nuwe",
           href: "docs/hack(passports)/nuwe",
+          logo: "https://logo.clearbit.com/nuwe",
           description:
             "This nuwe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11529,6 +11849,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "passwordless",
           href: "docs/hack(passports)/passwordless",
+          logo: "https://logo.clearbit.com/passwordless",
           description:
             "This passwordless passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11542,6 +11863,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "kerberos",
           href: "docs/hack(passports)/kerberos",
+          logo: "https://logo.clearbit.com/kerberos",
           description:
             "This kerberos passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11555,6 +11877,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "latch",
           href: "docs/hack(passports)/latch",
+          logo: "https://logo.clearbit.com/latch",
           description:
             "This latch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11569,6 +11892,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sitegate",
           href: "docs/hack(passports)/sitegate",
+          logo: "https://logo.clearbit.com/sitegate",
           description:
             "This sitegate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11582,6 +11906,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "thegrid",
           href: "docs/hack(passports)/thegrid",
+          logo: "https://logo.clearbit.com/thegrid",
           description:
             "This thegrid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11595,6 +11920,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "runkeeper",
           href: "docs/hack(passports)/runkeeper",
+          logo: "https://logo.clearbit.com/runkeeper",
           description:
             "This runkeeper passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11608,6 +11934,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "passport_eloqua",
           href: "docs/hack(passports)/passport_eloqua",
+          logo: "https://logo.clearbit.com/passport_eloqua",
           description:
             "This passport_eloqua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11622,6 +11949,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "openstreetmap",
           href: "docs/hack(passports)/openstreetmap",
+          logo: "https://logo.clearbit.com/openstreetmap",
           description:
             "This openstreetmap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11635,6 +11963,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "weibonew",
           href: "docs/hack(passports)/weibonew",
+          logo: "https://logo.clearbit.com/weibonew",
           description:
             "This weibonew passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11648,6 +11977,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hotp",
           href: "docs/hack(passports)/hotp",
+          logo: "https://logo.clearbit.com/hotp",
           description:
             "This hotp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11661,6 +11991,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "descope",
           href: "docs/hack(passports)/descope",
+          logo: "https://logo.clearbit.com/descope",
           description:
             "This descope passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11674,6 +12005,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cloudfoundry-openidconnect",
           href: "docs/hack(passports)/cloudfoundry-openidconnect",
+          logo: "https://logo.clearbit.com/cloudfoundry-openidconnect",
           description:
             "This cloudfoundry-openidconnect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11688,6 +12020,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lds-io",
           href: "docs/hack(passports)/lds-io",
+          logo: "https://logo.clearbit.com/lds-io",
           description:
             "This lds-io passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11701,6 +12034,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "rakuten",
           href: "docs/hack(passports)/rakuten",
+          logo: "https://logo.clearbit.com/rakuten",
           description:
             "This rakuten passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11714,6 +12048,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "assembla",
           href: "docs/hack(passports)/assembla",
+          logo: "https://logo.clearbit.com/assembla",
           description:
             "This assembla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11727,6 +12062,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ses",
           href: "docs/hack(passports)/ses",
+          logo: "https://logo.clearbit.com/ses",
           description:
             "This ses passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11740,6 +12076,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sharepoint-addin",
           href: "docs/hack(passports)/sharepoint-addin",
+          logo: "https://logo.clearbit.com/sharepoint-addin",
           description:
             "This sharepoint-addin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11753,6 +12090,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "unilogin",
           href: "docs/hack(passports)/unilogin",
+          logo: "https://logo.clearbit.com/unilogin",
           description:
             "This unilogin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11766,6 +12104,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lyft",
           href: "docs/hack(passports)/lyft",
+          logo: "https://logo.clearbit.com/lyft",
           description:
             "This lyft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11779,6 +12118,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "baidu",
           href: "docs/hack(passports)/baidu",
+          logo: "https://logo.clearbit.com/baidu",
           description:
             "This baidu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11792,6 +12132,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "predix",
           href: "docs/hack(passports)/predix",
+          logo: "https://logo.clearbit.com/predix",
           description:
             "This predix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11805,6 +12146,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "supinfo",
           href: "docs/hack(passports)/supinfo",
+          logo: "https://logo.clearbit.com/supinfo",
           description:
             "This supinfo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11818,6 +12160,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "trademe",
           href: "docs/hack(passports)/trademe",
+          logo: "https://logo.clearbit.com/trademe",
           description:
             "This trademe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11831,6 +12174,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "digital-signature",
           href: "docs/hack(passports)/digital-signature",
+          logo: "https://logo.clearbit.com/digital-signature",
           description:
             "This digital-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11844,6 +12188,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "warwick-sso-oauth",
           href: "docs/hack(passports)/warwick-sso-oauth",
+          logo: "https://logo.clearbit.com/warwick-sso-oauth",
           description:
             "This warwick-sso-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11858,6 +12203,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "everyplay",
           href: "docs/hack(passports)/everyplay",
+          logo: "https://logo.clearbit.com/everyplay",
           description:
             "This everyplay passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11871,6 +12217,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "edmodo",
           href: "docs/hack(passports)/edmodo",
+          logo: "https://logo.clearbit.com/edmodo",
           description:
             "This edmodo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11884,6 +12231,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "feedly",
           href: "docs/hack(passports)/feedly",
+          logo: "https://logo.clearbit.com/feedly",
           description:
             "This feedly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11897,6 +12245,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "freshbooks",
           href: "docs/hack(passports)/freshbooks",
+          logo: "https://logo.clearbit.com/freshbooks",
           description:
             "This freshbooks passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11910,6 +12259,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "beatsmusic",
           href: "docs/hack(passports)/beatsmusic",
+          logo: "https://logo.clearbit.com/beatsmusic",
           description:
             "This beatsmusic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11923,6 +12273,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "authentiq",
           href: "docs/hack(passports)/authentiq",
+          logo: "https://logo.clearbit.com/authentiq",
           description:
             "This authentiq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11936,6 +12287,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "aol",
           href: "docs/hack(passports)/aol",
+          logo: "https://logo.clearbit.com/aol",
           description:
             "This aol passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11949,6 +12301,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bong",
           href: "docs/hack(passports)/bong",
+          logo: "https://logo.clearbit.com/bong",
           description:
             "This bong passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11962,6 +12315,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "appc",
           href: "docs/hack(passports)/appc",
+          logo: "https://logo.clearbit.com/appc",
           description:
             "This appc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11975,6 +12329,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "geeklist",
           href: "docs/hack(passports)/geeklist",
+          logo: "https://logo.clearbit.com/geeklist",
           description:
             "This geeklist passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -11988,6 +12343,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "chalkable-oauth2",
           href: "docs/hack(passports)/chalkable-oauth2",
+          logo: "https://logo.clearbit.com/chalkable-oauth2",
           description:
             "This chalkable-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12001,6 +12357,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "heroku-sso",
           href: "docs/hack(passports)/heroku-sso",
+          logo: "https://logo.clearbit.com/heroku-sso",
           description:
             "This heroku-sso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12014,6 +12371,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "moves",
           href: "docs/hack(passports)/moves",
+          logo: "https://logo.clearbit.com/moves",
           description:
             "This moves passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12027,6 +12385,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "idsus",
           href: "docs/hack(passports)/idsus",
+          logo: "https://logo.clearbit.com/idsus",
           description:
             "This idsus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12040,6 +12399,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nopassword",
           href: "docs/hack(passports)/nopassword",
+          logo: "https://logo.clearbit.com/nopassword",
           description:
             "This nopassword passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12053,6 +12413,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "misfit",
           href: "docs/hack(passports)/misfit",
+          logo: "https://logo.clearbit.com/misfit",
           description:
             "This misfit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12066,6 +12427,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "netatmo",
           href: "docs/hack(passports)/netatmo",
+          logo: "https://logo.clearbit.com/netatmo",
           description:
             "This netatmo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12079,6 +12441,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "stash",
           href: "docs/hack(passports)/stash",
+          logo: "https://logo.clearbit.com/stash",
           description:
             "This stash passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12092,6 +12455,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "punwave",
           href: "docs/hack(passports)/punwave",
+          logo: "https://logo.clearbit.com/punwave",
           description:
             "This punwave passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12105,6 +12469,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oschina",
           href: "docs/hack(passports)/oschina",
+          logo: "https://logo.clearbit.com/oschina",
           description:
             "This oschina passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12118,6 +12483,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nyu",
           href: "docs/hack(passports)/nyu",
+          logo: "https://logo.clearbit.com/nyu",
           description:
             "This nyu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12131,6 +12497,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tistory",
           href: "docs/hack(passports)/tistory",
+          logo: "https://logo.clearbit.com/tistory",
           description:
             "This tistory passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12144,6 +12511,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "acuity-oauth2",
           href: "docs/hack(passports)/acuity-oauth2",
+          logo: "https://logo.clearbit.com/acuity-oauth2",
           description:
             "This acuity-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12157,6 +12525,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ibm-connections-basic",
           href: "docs/hack(passports)/ibm-connections-basic",
+          logo: "https://logo.clearbit.com/ibm-connections-basic",
           description:
             "This ibm-connections-basic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12170,6 +12539,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "akera",
           href: "docs/hack(passports)/akera",
+          logo: "https://logo.clearbit.com/akera",
           description:
             "This akera passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12183,6 +12553,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "untappd",
           href: "docs/hack(passports)/untappd",
+          logo: "https://logo.clearbit.com/untappd",
           description:
             "This untappd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12196,6 +12567,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "authing",
           href: "docs/hack(passports)/authing",
+          logo: "https://logo.clearbit.com/authing",
           description:
             "This authing passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12209,6 +12581,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "brightspace-auth",
           href: "docs/hack(passports)/brightspace-auth",
+          logo: "https://logo.clearbit.com/brightspace-auth",
           description:
             "This brightspace-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12222,6 +12595,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "authic",
           href: "docs/hack(passports)/authic",
+          logo: "https://logo.clearbit.com/authic",
           description:
             "This authic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12235,6 +12609,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "andyet",
           href: "docs/hack(passports)/andyet",
+          logo: "https://logo.clearbit.com/andyet",
           description:
             "This andyet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12248,6 +12623,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "liondesk",
           href: "docs/hack(passports)/liondesk",
+          logo: "https://logo.clearbit.com/liondesk",
           description:
             "This liondesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12261,6 +12637,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "edmodo-api",
           href: "docs/hack(passports)/edmodo-api",
+          logo: "https://logo.clearbit.com/edmodo-api",
           description:
             "This edmodo-api passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12274,6 +12651,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "digg",
           href: "docs/hack(passports)/digg",
+          logo: "https://logo.clearbit.com/digg",
           description:
             "This digg passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12287,6 +12665,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "azure-store",
           href: "docs/hack(passports)/azure-store",
+          logo: "https://logo.clearbit.com/azure-store",
           description:
             "This azure-store passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12300,6 +12679,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mentalvein",
           href: "docs/hack(passports)/mentalvein",
+          logo: "https://logo.clearbit.com/mentalvein",
           description:
             "This mentalvein passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12313,6 +12693,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dedicated-bluemix",
           href: "docs/hack(passports)/dedicated-bluemix",
+          logo: "https://logo.clearbit.com/dedicated-bluemix",
           description:
             "This dedicated-bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12326,6 +12707,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mojeid",
           href: "docs/hack(passports)/mojeid",
+          logo: "https://logo.clearbit.com/mojeid",
           description:
             "This mojeid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12339,6 +12721,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ohloh",
           href: "docs/hack(passports)/ohloh",
+          logo: "https://logo.clearbit.com/ohloh",
           description:
             "This ohloh passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12352,6 +12735,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "picplz",
           href: "docs/hack(passports)/picplz",
+          logo: "https://logo.clearbit.com/picplz",
           description:
             "This picplz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12365,6 +12749,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "allplayers",
           href: "docs/hack(passports)/allplayers",
+          logo: "https://logo.clearbit.com/allplayers",
           description:
             "This allplayers passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12378,6 +12763,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "playlyfe",
           href: "docs/hack(passports)/playlyfe",
+          logo: "https://logo.clearbit.com/playlyfe",
           description:
             "This playlyfe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12391,6 +12777,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "netflix",
           href: "docs/hack(passports)/netflix",
+          logo: "https://logo.clearbit.com/netflix",
           description:
             "This netflix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12404,6 +12791,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "1time",
           href: "docs/hack(passports)/1time",
+          logo: "https://logo.clearbit.com/1time",
           description:
             "This 1time passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12417,6 +12805,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "underarmour",
           href: "docs/hack(passports)/underarmour",
+          logo: "https://logo.clearbit.com/underarmour",
           description:
             "This underarmour passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12430,6 +12819,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "topcoder",
           href: "docs/hack(passports)/topcoder",
+          logo: "https://logo.clearbit.com/topcoder",
           description:
             "This topcoder passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12443,6 +12833,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "voice-it",
           href: "docs/hack(passports)/voice-it",
+          logo: "https://logo.clearbit.com/voice-it",
           description:
             "This voice-it passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12456,6 +12847,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sense",
           href: "docs/hack(passports)/sense",
+          logo: "https://logo.clearbit.com/sense",
           description:
             "This sense passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12469,6 +12861,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "att-alpha",
           href: "docs/hack(passports)/att-alpha",
+          logo: "https://logo.clearbit.com/att-alpha",
           description:
             "This att-alpha passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12482,6 +12875,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "proz",
           href: "docs/hack(passports)/proz",
+          logo: "https://logo.clearbit.com/proz",
           description:
             "This proz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12495,6 +12889,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "webauthn",
           href: "docs/hack(passports)/webauthn",
+          logo: "https://logo.clearbit.com/webauthn",
           description:
             "This webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12508,6 +12903,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "accountkit",
           href: "docs/hack(passports)/accountkit",
+          logo: "https://logo.clearbit.com/accountkit",
           description:
             "This accountkit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12521,6 +12917,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "heroku-passport",
           href: "docs/hack(passports)/heroku-passport",
+          logo: "https://logo.clearbit.com/heroku-passport",
           description:
             "This heroku-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12534,6 +12931,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "slice",
           href: "docs/hack(passports)/slice",
+          logo: "https://logo.clearbit.com/slice",
           description:
             "This slice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12547,6 +12945,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "xmpp",
           href: "docs/hack(passports)/xmpp",
+          logo: "https://logo.clearbit.com/xmpp",
           description:
             "This xmpp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12560,6 +12959,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "atlassian-crowd",
           href: "docs/hack(passports)/atlassian-crowd",
+          logo: "https://logo.clearbit.com/atlassian-crowd",
           description:
             "This atlassian-crowd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12574,6 +12974,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "avalon",
           href: "docs/hack(passports)/avalon",
+          logo: "https://logo.clearbit.com/avalon",
           description:
             "This avalon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12587,6 +12988,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "addressix-oauth2",
           href: "docs/hack(passports)/addressix-oauth2",
+          logo: "https://logo.clearbit.com/addressix-oauth2",
           description:
             "This addressix-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12600,6 +13002,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "amigame",
           href: "docs/hack(passports)/amigame",
+          logo: "https://logo.clearbit.com/amigame",
           description:
             "This amigame passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12613,6 +13016,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bamboohr",
           href: "docs/hack(passports)/bamboohr",
+          logo: "https://logo.clearbit.com/bamboohr",
           description:
             "This bamboohr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12626,6 +13030,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "beatport",
           href: "docs/hack(passports)/beatport",
+          logo: "https://logo.clearbit.com/beatport",
           description:
             "This beatport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12639,6 +13044,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "concur",
           href: "docs/hack(passports)/concur",
+          logo: "https://logo.clearbit.com/concur",
           description:
             "This concur passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12652,6 +13058,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "animexx",
           href: "docs/hack(passports)/animexx",
+          logo: "https://logo.clearbit.com/animexx",
           description:
             "This animexx passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12665,6 +13072,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cloudvisio",
           href: "docs/hack(passports)/cloudvisio",
+          logo: "https://logo.clearbit.com/cloudvisio",
           description:
             "This cloudvisio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12678,6 +13086,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "bitauth",
           href: "docs/hack(passports)/bitauth",
+          logo: "https://logo.clearbit.com/bitauth",
           description:
             "This bitauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12691,6 +13100,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "coding-oauth",
           href: "docs/hack(passports)/coding-oauth",
+          logo: "https://logo.clearbit.com/coding-oauth",
           description:
             "This coding-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12704,6 +13114,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "chiiv",
           href: "docs/hack(passports)/chiiv",
+          logo: "https://logo.clearbit.com/chiiv",
           description:
             "This chiiv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12717,6 +13128,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "comicsgl",
           href: "docs/hack(passports)/comicsgl",
+          logo: "https://logo.clearbit.com/comicsgl",
           description:
             "This comicsgl passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12730,6 +13142,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "deskcom",
           href: "docs/hack(passports)/deskcom",
+          logo: "https://logo.clearbit.com/deskcom",
           description:
             "This deskcom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12743,6 +13156,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dice",
           href: "docs/hack(passports)/dice",
+          logo: "https://logo.clearbit.com/dice",
           description:
             "This dice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12756,6 +13170,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "douban",
           href: "docs/hack(passports)/douban",
+          logo: "https://logo.clearbit.com/douban",
           description:
             "This douban passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12769,6 +13184,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "estimote-cloud",
           href: "docs/hack(passports)/estimote-cloud",
+          logo: "https://logo.clearbit.com/estimote-cloud",
           description:
             "This estimote-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12782,6 +13198,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "costlocker",
           href: "docs/hack(passports)/costlocker",
+          logo: "https://logo.clearbit.com/costlocker",
           description:
             "This costlocker passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12795,6 +13212,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "encored-enertalk",
           href: "docs/hack(passports)/encored-enertalk",
+          logo: "https://logo.clearbit.com/encored-enertalk",
           description:
             "This encored-enertalk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12808,6 +13226,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eipsk-strategy",
           href: "docs/hack(passports)/eipsk-strategy",
+          logo: "https://logo.clearbit.com/eipsk-strategy",
           description:
             "This eipsk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12821,6 +13240,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hackerverse",
           href: "docs/hack(passports)/hackerverse",
+          logo: "https://logo.clearbit.com/hackerverse",
           description:
             "This hackerverse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12834,6 +13254,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "distimo",
           href: "docs/hack(passports)/distimo",
+          logo: "https://logo.clearbit.com/distimo",
           description:
             "This distimo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12847,6 +13268,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "meituan",
           href: "docs/hack(passports)/meituan",
+          logo: "https://logo.clearbit.com/meituan",
           description:
             "This meituan passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12860,6 +13282,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nationbuilder",
           href: "docs/hack(passports)/nationbuilder",
+          logo: "https://logo.clearbit.com/nationbuilder",
           description:
             "This nationbuilder passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12873,6 +13296,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "scarecrow",
           href: "docs/hack(passports)/scarecrow",
+          logo: "https://logo.clearbit.com/scarecrow",
           description:
             "This scarecrow passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12886,6 +13310,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "singly",
           href: "docs/hack(passports)/singly",
+          logo: "https://logo.clearbit.com/singly",
           description:
             "This singly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12899,6 +13324,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "lims",
           href: "docs/hack(passports)/lims",
+          logo: "https://logo.clearbit.com/lims",
           description:
             "This lims passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12912,6 +13338,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "payco",
           href: "docs/hack(passports)/payco",
+          logo: "https://logo.clearbit.com/payco",
           description:
             "This payco passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12925,6 +13352,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "redgate",
           href: "docs/hack(passports)/redgate",
+          logo: "https://logo.clearbit.com/redgate",
           description:
             "This redgate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12938,6 +13366,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tibbr",
           href: "docs/hack(passports)/tibbr",
+          logo: "https://logo.clearbit.com/tibbr",
           description:
             "This tibbr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12951,6 +13380,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "thinkful",
           href: "docs/hack(passports)/thinkful",
+          logo: "https://logo.clearbit.com/thinkful",
           description:
             "This thinkful passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12964,6 +13394,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "planningcenter-oauth2",
           href: "docs/hack(passports)/planningcenter-oauth2",
+          logo: "https://logo.clearbit.com/planningcenter-oauth2",
           description:
             "This planningcenter-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12977,6 +13408,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "versionone",
           href: "docs/hack(passports)/versionone",
+          logo: "https://logo.clearbit.com/versionone",
           description:
             "This versionone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -12990,6 +13422,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "hmac-aws4",
           href: "docs/hack(passports)/hmac-aws4",
+          logo: "https://logo.clearbit.com/hmac-aws4",
           description:
             "This hmac-aws4 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13003,6 +13436,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wargaming",
           href: "docs/hack(passports)/wargaming",
+          logo: "https://logo.clearbit.com/wargaming",
           description:
             "This wargaming passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13016,6 +13450,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tqq",
           href: "docs/hack(passports)/tqq",
+          logo: "https://logo.clearbit.com/tqq",
           description:
             "This tqq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13029,6 +13464,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pixiv",
           href: "docs/hack(passports)/pixiv",
+          logo: "https://logo.clearbit.com/pixiv",
           description:
             "This pixiv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13042,6 +13478,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "zero",
           href: "docs/hack(passports)/zero",
+          logo: "https://logo.clearbit.com/zero",
           description:
             "This zero passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13055,6 +13492,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "withings",
           href: "docs/hack(passports)/withings",
+          logo: "https://logo.clearbit.com/withings",
           description:
             "This withings passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13068,6 +13506,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "500px",
           href: "docs/hack(passports)/500px",
+          logo: "https://logo.clearbit.com/500px",
           description:
             "This 500px passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13081,6 +13520,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "applywithlinkedin",
           href: "docs/hack(passports)/applywithlinkedin",
+          logo: "https://logo.clearbit.com/applywithlinkedin",
           description:
             "This applywithlinkedin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13094,6 +13534,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "evernote",
           href: "docs/hack(passports)/evernote",
+          logo: "https://logo.clearbit.com/evernote",
           description:
             "This evernote passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13107,6 +13548,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "venmo",
           href: "docs/hack(passports)/venmo",
+          logo: "https://logo.clearbit.com/venmo",
           description:
             "This venmo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13120,6 +13562,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dapp-web3",
           href: "docs/hack(passports)/dapp-web3",
+          logo: "https://logo.clearbit.com/dapp-web3",
           description:
             "This dapp-web3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13133,6 +13576,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tmobileid",
           href: "docs/hack(passports)/tmobileid",
+          logo: "https://logo.clearbit.com/tmobileid",
           description:
             "This tmobileid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13146,6 +13590,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dwolla",
           href: "docs/hack(passports)/dwolla",
+          logo: "https://logo.clearbit.com/dwolla",
           description:
             "This dwolla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13159,6 +13604,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "weixin-plus",
           href: "docs/hack(passports)/weixin-plus",
+          logo: "https://logo.clearbit.com/weixin-plus",
           description:
             "This weixin-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13172,6 +13618,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "parse",
           href: "docs/hack(passports)/parse",
+          logo: "https://logo.clearbit.com/parse",
           description:
             "This parse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13185,6 +13632,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sqrl",
           href: "docs/hack(passports)/sqrl",
+          logo: "https://logo.clearbit.com/sqrl",
           description:
             "This sqrl passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13198,6 +13646,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "angellist",
           href: "docs/hack(passports)/angellist",
+          logo: "https://logo.clearbit.com/angellist",
           description:
             "This angellist passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13211,6 +13660,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "browserid",
           href: "docs/hack(passports)/browserid",
+          logo: "https://logo.clearbit.com/browserid",
           description:
             "This browserid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13224,6 +13674,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "dowjones",
           href: "docs/hack(passports)/dowjones",
+          logo: "https://logo.clearbit.com/dowjones",
           description:
             "This dowjones passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13237,6 +13688,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "earthmaps",
           href: "docs/hack(passports)/earthmaps",
+          logo: "https://logo.clearbit.com/earthmaps",
           description:
             "This earthmaps passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13250,6 +13702,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eloqua",
           href: "docs/hack(passports)/eloqua",
+          logo: "https://logo.clearbit.com/eloqua",
           description:
             "This eloqua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13263,6 +13716,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gocollab",
           href: "docs/hack(passports)/gocollab",
+          logo: "https://logo.clearbit.com/gocollab",
           description:
             "This gocollab passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13276,6 +13730,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "globelabs",
           href: "docs/hack(passports)/globelabs",
+          logo: "https://logo.clearbit.com/globelabs",
           description:
             "This globelabs passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13289,6 +13744,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "flic",
           href: "docs/hack(passports)/flic",
+          logo: "https://logo.clearbit.com/flic",
           description:
             "This flic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13302,6 +13758,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "frontwinner",
           href: "docs/hack(passports)/frontwinner",
+          logo: "https://logo.clearbit.com/frontwinner",
           description:
             "This frontwinner passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13315,6 +13772,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "http-encrypted-token",
           href: "docs/hack(passports)/http-encrypted-token",
+          logo: "https://logo.clearbit.com/http-encrypted-token",
           description:
             "This http-encrypted-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13328,6 +13786,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "infotjenester",
           href: "docs/hack(passports)/infotjenester",
+          logo: "https://logo.clearbit.com/infotjenester",
           description:
             "This infotjenester passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13341,6 +13800,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "humanapi",
           href: "docs/hack(passports)/humanapi",
+          logo: "https://logo.clearbit.com/humanapi",
           description:
             "This humanapi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13354,6 +13814,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "makerpass",
           href: "docs/hack(passports)/makerpass",
+          logo: "https://logo.clearbit.com/makerpass",
           description:
             "This makerpass passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13367,6 +13828,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ktt",
           href: "docs/hack(passports)/ktt",
+          logo: "https://logo.clearbit.com/ktt",
           description:
             "This ktt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13380,6 +13842,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "rdio",
           href: "docs/hack(passports)/rdio",
+          logo: "https://logo.clearbit.com/rdio",
           description:
             "This rdio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13393,6 +13856,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "readability",
           href: "docs/hack(passports)/readability",
+          logo: "https://logo.clearbit.com/readability",
           description:
             "This readability passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13406,6 +13870,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wechat-work",
           href: "docs/hack(passports)/wechat-work",
+          logo: "https://logo.clearbit.com/wechat-work",
           description:
             "This wechat-work passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13419,6 +13884,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "statusnet",
           href: "docs/hack(passports)/statusnet",
+          logo: "https://logo.clearbit.com/statusnet",
           description:
             "This statusnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13432,6 +13898,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tripit",
           href: "docs/hack(passports)/tripit",
+          logo: "https://logo.clearbit.com/tripit",
           description:
             "This tripit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13445,6 +13912,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "geoloqi",
           href: "docs/hack(passports)/geoloqi",
+          logo: "https://logo.clearbit.com/geoloqi",
           description:
             "This geoloqi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13458,6 +13926,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "drchrono",
           href: "docs/hack(passports)/drchrono",
+          logo: "https://logo.clearbit.com/drchrono",
           description:
             "This drchrono passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13471,6 +13940,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tixte-passport",
           href: "docs/hack(passports)/tixte-passport",
+          logo: "https://logo.clearbit.com/tixte-passport",
           description:
             "This tixte-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13484,6 +13954,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "renren",
           href: "docs/hack(passports)/renren",
+          logo: "https://logo.clearbit.com/renren",
           description:
             "This renren passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13497,6 +13968,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "appdotnet",
           href: "docs/hack(passports)/appdotnet",
+          logo: "https://logo.clearbit.com/appdotnet",
           description:
             "This appdotnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13510,6 +13982,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "suzuri",
           href: "docs/hack(passports)/suzuri",
+          logo: "https://logo.clearbit.com/suzuri",
           description:
             "This suzuri passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13523,6 +13996,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "eyeem",
           href: "docs/hack(passports)/eyeem",
+          logo: "https://logo.clearbit.com/eyeem",
           description:
             "This eyeem passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13536,6 +14010,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nus-openid",
           href: "docs/hack(passports)/nus-openid",
+          logo: "https://logo.clearbit.com/nus-openid",
           description:
             "This nus-openid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13549,6 +14024,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pop3",
           href: "docs/hack(passports)/pop3",
+          logo: "https://logo.clearbit.com/pop3",
           description:
             "This pop3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13562,6 +14038,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "smugmug",
           href: "docs/hack(passports)/smugmug",
+          logo: "https://logo.clearbit.com/smugmug",
           description:
             "This smugmug passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13575,6 +14052,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "myusa",
           href: "docs/hack(passports)/myusa",
+          logo: "https://logo.clearbit.com/myusa",
           description:
             "This myusa passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13588,6 +14066,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ifmosso",
           href: "docs/hack(passports)/ifmosso",
+          logo: "https://logo.clearbit.com/ifmosso",
           description:
             "This ifmosso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13601,6 +14080,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fellowshipone",
           href: "docs/hack(passports)/fellowshipone",
+          logo: "https://logo.clearbit.com/fellowshipone",
           description:
             "This fellowshipone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13614,6 +14094,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "replicated",
           href: "docs/hack(passports)/replicated",
+          logo: "https://logo.clearbit.com/replicated",
           description:
             "This replicated passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13627,6 +14108,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "behance",
           href: "docs/hack(passports)/behance",
+          logo: "https://logo.clearbit.com/behance",
           description:
             "This behance passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13640,6 +14122,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "tozny-auth",
           href: "docs/hack(passports)/tozny-auth",
+          logo: "https://logo.clearbit.com/tozny-auth",
           description:
             "This tozny-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13653,6 +14136,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "taobao2",
           href: "docs/hack(passports)/taobao2",
+          logo: "https://logo.clearbit.com/taobao2",
           description:
             "This taobao2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13666,6 +14150,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "fido2-nojwk",
           href: "docs/hack(passports)/fido2-nojwk",
+          logo: "https://logo.clearbit.com/fido2-nojwk",
           description:
             "This fido2-nojwk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13679,6 +14164,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "me2day",
           href: "docs/hack(passports)/me2day",
+          logo: "https://logo.clearbit.com/me2day",
           description:
             "This me2day passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13692,6 +14178,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mediawiki-oauth",
           href: "docs/hack(passports)/mediawiki-oauth",
+          logo: "https://logo.clearbit.com/mediawiki-oauth",
           description:
             "This mediawiki-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13705,6 +14192,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "onscribe",
           href: "docs/hack(passports)/onscribe",
+          logo: "https://logo.clearbit.com/onscribe",
           description:
             "This onscribe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13718,6 +14206,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mapmyfitness",
           href: "docs/hack(passports)/mapmyfitness",
+          logo: "https://logo.clearbit.com/mapmyfitness",
           description:
             "This mapmyfitness passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13731,6 +14220,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nate",
           href: "docs/hack(passports)/nate",
+          logo: "https://logo.clearbit.com/nate",
           description:
             "This nate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13744,6 +14234,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mixi",
           href: "docs/hack(passports)/mixi",
+          logo: "https://logo.clearbit.com/mixi",
           description:
             "This mixi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13757,6 +14248,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "odesk",
           href: "docs/hack(passports)/odesk",
+          logo: "https://logo.clearbit.com/odesk",
           description:
             "This odesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13770,6 +14262,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "medoauth",
           href: "docs/hack(passports)/medoauth",
+          logo: "https://logo.clearbit.com/medoauth",
           description:
             "This medoauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13783,6 +14276,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oneuser",
           href: "docs/hack(passports)/oneuser",
+          logo: "https://logo.clearbit.com/oneuser",
           description:
             "This oneuser passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13796,6 +14290,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "mercadolibre-2",
           href: "docs/hack(passports)/mercadolibre-2",
+          logo: "https://logo.clearbit.com/mercadolibre-2",
           description:
             "This mercadolibre-2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13809,6 +14304,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "passprint",
           href: "docs/hack(passports)/passprint",
+          logo: "https://logo.clearbit.com/passprint",
           description:
             "This passprint passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13822,6 +14318,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "open-humans",
           href: "docs/hack(passports)/open-humans",
+          logo: "https://logo.clearbit.com/open-humans",
           description:
             "This open-humans passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13835,6 +14332,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oneprofile",
           href: "docs/hack(passports)/oneprofile",
+          logo: "https://logo.clearbit.com/oneprofile",
           description:
             "This oneprofile passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13848,6 +14346,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "polkaspots",
           href: "docs/hack(passports)/polkaspots",
+          logo: "https://logo.clearbit.com/polkaspots",
           description:
             "This polkaspots passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13861,6 +14360,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "teamsnap",
           href: "docs/hack(passports)/teamsnap",
+          logo: "https://logo.clearbit.com/teamsnap",
           description:
             "This teamsnap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13874,6 +14374,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "nuclearhub",
           href: "docs/hack(passports)/nuclearhub",
+          logo: "https://logo.clearbit.com/nuclearhub",
           description:
             "This nuclearhub passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13887,6 +14388,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ppige-npdc",
           href: "docs/hack(passports)/ppige-npdc",
+          logo: "https://logo.clearbit.com/ppige-npdc",
           description:
             "This ppige-npdc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13900,6 +14402,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "renren-new",
           href: "docs/hack(passports)/renren-new",
+          logo: "https://logo.clearbit.com/renren-new",
           description:
             "This renren-new passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13913,6 +14416,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "oz",
           href: "docs/hack(passports)/oz",
+          logo: "https://logo.clearbit.com/oz",
           description:
             "This oz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13926,6 +14430,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ultraauth",
           href: "docs/hack(passports)/ultraauth",
+          logo: "https://logo.clearbit.com/ultraauth",
           description:
             "This ultraauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13939,6 +14444,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "cloudup",
           href: "docs/hack(passports)/cloudup",
+          logo: "https://logo.clearbit.com/cloudup",
           description:
             "This cloudup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13952,6 +14458,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "headerapikey",
           href: "docs/hack(passports)/headerapikey",
+          logo: "https://logo.clearbit.com/headerapikey",
           description:
             "This headerapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13965,6 +14472,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "webmaker",
           href: "docs/hack(passports)/webmaker",
+          logo: "https://logo.clearbit.com/webmaker",
           description:
             "This webmaker passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13978,6 +14486,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "monzo",
           href: "docs/hack(passports)/monzo",
+          logo: "https://logo.clearbit.com/monzo",
           description:
             "This monzo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -13991,6 +14500,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "infusionsoft",
           href: "docs/hack(passports)/infusionsoft",
+          logo: "https://logo.clearbit.com/infusionsoft",
           description:
             "This infusionsoft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14004,6 +14514,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "windowslive-contacts",
           href: "docs/hack(passports)/windowslive-contacts",
+          logo: "https://logo.clearbit.com/windowslive-contacts",
           description:
             "This windowslive-contacts passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14017,6 +14528,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "gitbook",
           href: "docs/hack(passports)/gitbook",
+          logo: "https://logo.clearbit.com/gitbook",
           description:
             "This gitbook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14030,6 +14542,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "phantauth",
           href: "docs/hack(passports)/phantauth",
+          logo: "https://logo.clearbit.com/phantauth",
           description:
             "This phantauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14043,6 +14556,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "redbooth",
           href: "docs/hack(passports)/redbooth",
+          logo: "https://logo.clearbit.com/redbooth",
           description:
             "This redbooth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14056,6 +14570,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "pocket2",
           href: "docs/hack(passports)/pocket2",
+          logo: "https://logo.clearbit.com/pocket2",
           description:
             "This pocket2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14069,6 +14584,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "restogram-oauth2",
           href: "docs/hack(passports)/restogram-oauth2",
+          logo: "https://logo.clearbit.com/restogram-oauth2",
           description:
             "This restogram-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14082,6 +14598,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "product-hunt",
           href: "docs/hack(passports)/product-hunt",
+          logo: "https://logo.clearbit.com/product-hunt",
           description:
             "This product-hunt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14095,6 +14612,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "sbhs",
           href: "docs/hack(passports)/sbhs",
+          logo: "https://logo.clearbit.com/sbhs",
           description:
             "This sbhs passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14108,6 +14626,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "socius",
           href: "docs/hack(passports)/socius",
+          logo: "https://logo.clearbit.com/socius",
           description:
             "This socius passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14121,6 +14640,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "slidefuse",
           href: "docs/hack(passports)/slidefuse",
+          logo: "https://logo.clearbit.com/slidefuse",
           description:
             "This slidefuse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14134,6 +14654,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "txssc",
           href: "docs/hack(passports)/txssc",
+          logo: "https://logo.clearbit.com/txssc",
           description:
             "This txssc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14147,6 +14668,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "taobao",
           href: "docs/hack(passports)/taobao",
+          logo: "https://logo.clearbit.com/taobao",
           description:
             "This taobao passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14160,6 +14682,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "rescour",
           href: "docs/hack(passports)/rescour",
+          logo: "https://logo.clearbit.com/rescour",
           description:
             "This rescour passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14173,6 +14696,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "torchlite",
           href: "docs/hack(passports)/torchlite",
+          logo: "https://logo.clearbit.com/torchlite",
           description:
             "This torchlite passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14186,6 +14710,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "unichar",
           href: "docs/hack(passports)/unichar",
+          logo: "https://logo.clearbit.com/unichar",
           description:
             "This unichar passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14199,6 +14724,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ubersmith",
           href: "docs/hack(passports)/ubersmith",
+          logo: "https://logo.clearbit.com/ubersmith",
           description:
             "This ubersmith passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14212,6 +14738,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "uber",
           href: "docs/hack(passports)/uber",
+          logo: "https://logo.clearbit.com/uber",
           description:
             "This uber passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14225,6 +14752,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "uservoice",
           href: "docs/hack(passports)/uservoice",
+          logo: "https://logo.clearbit.com/uservoice",
           description:
             "This uservoice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14238,6 +14766,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "urlship",
           href: "docs/hack(passports)/urlship",
+          logo: "https://logo.clearbit.com/urlship",
           description:
             "This urlship passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14251,6 +14780,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "vivokey",
           href: "docs/hack(passports)/vivokey",
+          logo: "https://logo.clearbit.com/vivokey",
           description:
             "This vivokey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14264,6 +14794,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "ucoz",
           href: "docs/hack(passports)/ucoz",
+          logo: "https://logo.clearbit.com/ucoz",
           description:
             "This ucoz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14277,6 +14808,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wanliu",
           href: "docs/hack(passports)/wanliu",
+          logo: "https://logo.clearbit.com/wanliu",
           description:
             "This wanliu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14290,6 +14822,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wevision",
           href: "docs/hack(passports)/wevision",
+          logo: "https://logo.clearbit.com/wevision",
           description:
             "This wevision passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14303,6 +14836,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "zengine",
           href: "docs/hack(passports)/zengine",
+          logo: "https://logo.clearbit.com/zengine",
           description:
             "This zengine passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14316,6 +14850,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "wechat-auth",
           href: "docs/hack(passports)/wechat-auth",
+          logo: "https://logo.clearbit.com/wechat-auth",
           description:
             "This wechat-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14329,6 +14864,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "atlassian-connect",
           href: "docs/hack(passports)/atlassian-connect",
+          logo: "https://logo.clearbit.com/atlassian-connect",
           description:
             "This atlassian-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14342,6 +14878,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "npm",
           href: "docs/hack(passports)/npm",
+          logo: "https://logo.clearbit.com/npm",
           description:
             "This npm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14355,6 +14892,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "faceit",
           href: "docs/hack(passports)/faceit",
+          logo: "https://logo.clearbit.com/faceit",
           description:
             "This faceit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
@@ -14368,6 +14906,7 @@ export const docsConfig: DocsConfig = {
         {
           title: "w3auth",
           href: "docs/hack(passports)/w3auth",
+          logo: "https://logo.clearbit.com/w3auth",
           description:
             "This w3auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
           website_url: "https://www.passportjs.org/",
