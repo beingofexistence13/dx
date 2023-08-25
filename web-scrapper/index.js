@@ -1,19 +1,15 @@
-import fs from 'fs';
-import { get } from 'https';
+const Unsplash = require('unsplash-js').default;
+const fetch = require('node-fetch');
+global.fetch = fetch;
 
-const download = (url, path, callback) => {
-  get(url, (res) => {
-    const fileStream = fs.createWriteStream(path);
-    res.pipe(fileStream);
-    fileStream.on('finish', () => {
-      fileStream.close(callback);
-    });
+const unsplash = new Unsplash({ accessKey: "_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk" });
+
+unsplash.search.photos("dogs", 1, 10)
+  .then(res => res.json())
+  .then(json => {
+    const photos = json.results;
+    const randomIndex = Math.floor(Math.random() * photos.length);
+    const photo = photos[randomIndex];
+    console.log(photo.urls.regular);
   });
-}
-
-const url = 'https://images.unsplash.com/photo-1606787947360-4181fe0ab58c';
-const path = '/path/to/save/image.jpg';
-
-download(url, path, () => {
-  console.log('Image downloaded!');
-});
+c
