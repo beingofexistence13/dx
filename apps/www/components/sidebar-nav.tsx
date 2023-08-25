@@ -188,7 +188,7 @@ export function DocsSidebarNavItems({
                     <Image
                       src={`/docs/${item.title
                         .replace(/\s/g, "")
-                        .toLowerCase()}.png`}
+                        .toLowerCase()}.jpg`}
                       height={25}
                       width={25}
                       sizes="(max-width: 30px) 100vw"
