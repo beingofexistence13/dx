@@ -190,10 +190,10 @@ export function DocsSidebarNavItems({
                     width={25}
                     sizes="(max-width: 30px) 100vw"
                     quality={100}
-                    placeholder="blur"
+        
                     style={{ objectFit: "contain" }}
                     loading="lazy"
-                    blurDataURL="docs/oix.png"
+      
                     alt={item.title ? logoLetter(item.title) : "Dx"}
                   />
                 </div>
