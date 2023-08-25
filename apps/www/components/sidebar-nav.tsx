@@ -180,11 +180,7 @@ export function DocsSidebarNavItems({
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
                 <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
                   <AvatarImage
-                    src={
-                      item.logo
-                        ? item.logo
-                        : `https://logo.clearbit.com/${item.title}.com`
-                    }
+                    src="metamask.png"
                   />
                   <AvatarFallback>
                     {item.title ? logoLetter(item.title) : "Dx"}
