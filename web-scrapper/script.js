@@ -78506,4 +78506,16498 @@ let bucket_list = [
   {
     title: "Programming Languages - Eta",
     description: "Functional Programming Language For The Jvm.",
-    href: "do
+    href: "docs/bucketlist/eta",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sfischer13/awesome-eta",
+    github_repo: "https://github.com/sfischer13/awesome-eta",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Idris",
+    description:
+      "General Purpose Pure Functional Programming Language With Dependent Types Influenced By Haskell And Ml.",
+    href: "docs/bucketlist/idris",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/joaomilho/awesome-idris",
+    github_repo: "https://github.com/joaomilho/awesome-idris",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Ada/SPARK",
+    description:
+      "Modern Programming Language Designed For Large, Long-Lived Apps Where Reliability And Efficiency Are Essential.",
+    href: "docs/bucketlist/ada/spark",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ohenley/awesome-ada",
+    github_repo: "https://github.com/ohenley/awesome-ada",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Q#",
+    description:
+      "Domain-Specific Programming Language Used For Expressing Quantum Algorithms.",
+    href: "docs/bucketlist/q#",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ebraminio/awesome-qsharp",
+    github_repo: "https://github.com/ebraminio/awesome-qsharp",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Imba",
+    description:
+      "Programming Language Inspired By Ruby And Python And Compiles To Performant Javascript.",
+    href: "docs/bucketlist/imba",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/koolamusic/awesome-imba",
+    github_repo: "https://github.com/koolamusic/awesome-imba",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Vala",
+    description:
+      "Programming Language Designed To Take Full Advantage Of The Glib And Gnome Ecosystems, While Preserving The Speed Of C Code.",
+    href: "docs/bucketlist/vala",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/desiderantes/awesome-vala",
+    github_repo: "https://github.com/desiderantes/awesome-vala",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Coq",
+    description:
+      "Formal Language And Environment For Programming And Specification Which Facilitates Interactive Development Of Machine-Checked Proofs.",
+    href: "docs/bucketlist/coq",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/coq-community/awesome-coq",
+    github_repo: "https://github.com/coq-community/awesome-coq",
+    items: [],
+  },
+  {
+    title: "Programming Languages - V",
+    description:
+      "Simple, Fast, Safe, Compiled Language For Developing Maintainable Software.",
+    href: "docs/bucketlist/v",
+    website_url: "https://awesome.digitalbunker.dev/awesome/vlang/awesome-v",
+    github_repo: "https://github.com/vlang/awesome-v",
+    items: [],
+  },
+  {
+    title: "Front-End Development - ES6 Tools",
+    description: "No description available.",
+    href: "docs/bucketlist/es6-tools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/addyosmani/es6-tools",
+    github_repo: "https://github.com/addyosmani/es6-tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Performance Optimization",
+    description: "No description available.",
+    href: "docs/bucketlist/web-performance-optimization",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davidsonfellipe/awesome-wpo",
+    github_repo: "https://github.com/davidsonfellipe/awesome-wpo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Tools",
+    description: "No description available.",
+    href: "docs/bucketlist/web-tools",
+    website_url: "https://awesome.digitalbunker.dev/awesome/lvwzhen/tools",
+    github_repo: "https://github.com/lvwzhen/tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - CSS",
+    description:
+      "Style Sheet Language That Specifies How Html Elements Are Displayed On Screen.",
+    href: "docs/bucketlist/css",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-css-group/awesome-css",
+    github_repo: "https://github.com/awesome-css-group/awesome-css",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Critical-Path Tools",
+    description: "No description available.",
+    href: "docs/bucketlist/critical-path-tools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/addyosmani/critical-path-css-tools",
+    github_repo: "https://github.com/addyosmani/critical-path-css-tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Scalability",
+    description: "No description available.",
+    href: "docs/bucketlist/scalability",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davidtheclark/scalable-css-reading-list",
+    github_repo: "https://github.com/davidtheclark/scalable-css-reading-list",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Must-Watch Talks",
+    description: "No description available.",
+    href: "docs/bucketlist/must-watch-talks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/must-watch-css",
+    github_repo: "https://github.com/AllThingsSmitty/must-watch-css",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Protips",
+    description: "No description available.",
+    href: "docs/bucketlist/protips",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/css-protips",
+    github_repo: "https://github.com/AllThingsSmitty/css-protips",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Frameworks",
+    description: "No description available.",
+    href: "docs/bucketlist/frameworks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/troxler/awesome-css-frameworks",
+    github_repo: "https://github.com/troxler/awesome-css-frameworks",
+    items: [],
+  },
+  {
+    title: "Front-End Development - React",
+    description: "App Framework.",
+    href: "docs/bucketlist/react",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/enaqx/awesome-react",
+    github_repo: "https://github.com/enaqx/awesome-react",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Relay",
+    description: "Framework For Building Data-Driven React Apps.",
+    href: "docs/bucketlist/relay",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/expede/awesome-relay",
+    github_repo: "https://github.com/expede/awesome-relay",
+    items: [],
+  },
+  {
+    title: "Front-End Development - React Hooks",
+    description:
+      "A New Feature That Lets You Use State And Other React Features Without Writing A Class.",
+    href: "docs/bucketlist/react-hooks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/glauberfc/awesome-react-hooks",
+    github_repo: "https://github.com/glauberfc/awesome-react-hooks",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Components",
+    description: "No description available.",
+    href: "docs/bucketlist/web-components",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mateusortiz/webcomponents-the-right-way",
+    github_repo: "https://github.com/mateusortiz/webcomponents-the-right-way",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Polymer",
+    description: "Javascript Library To Develop Web Components.",
+    href: "docs/bucketlist/polymer",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Granze/awesome-polymer",
+    github_repo: "https://github.com/Granze/awesome-polymer",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Angular",
+    description: "App Framework.",
+    href: "docs/bucketlist/angular",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PatrickJS/awesome-angular",
+    github_repo: "https://github.com/PatrickJS/awesome-angular",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Backbone",
+    description: "App Framework.",
+    href: "docs/bucketlist/backbone",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sadcitizen/awesome-backbone",
+    github_repo: "https://github.com/sadcitizen/awesome-backbone",
+    items: [],
+  },
+  {
+    title: "Front-End Development - HTML5",
+    description: "Markup Language Used For Websites & Web Apps.",
+    href: "docs/bucketlist/html5",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/diegocard/awesome-html5",
+    github_repo: "https://github.com/diegocard/awesome-html5",
+    items: [],
+  },
+  {
+    title: "Front-End Development - SVG",
+    description: "Xml-Based Vector Image Format.",
+    href: "docs/bucketlist/svg",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/willianjusten/awesome-svg",
+    github_repo: "https://github.com/willianjusten/awesome-svg",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Canvas",
+    description: "No description available.",
+    href: "docs/bucketlist/canvas",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/raphamorim/awesome-canvas",
+    github_repo: "https://github.com/raphamorim/awesome-canvas",
+    items: [],
+  },
+  {
+    title: "Front-End Development - KnockoutJS",
+    description: "Javascript Library.",
+    href: "docs/bucketlist/knockoutjs",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dnbard/awesome-knockout",
+    github_repo: "https://github.com/dnbard/awesome-knockout",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Dojo Toolkit",
+    description: "Javascript Toolkit.",
+    href: "docs/bucketlist/dojo-toolkit",
+    website_url: "https://awesome.digitalbunker.dev/awesome/petk/awesome-dojo",
+    github_repo: "https://github.com/petk/awesome-dojo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Inspiration",
+    description: "No description available.",
+    href: "docs/bucketlist/inspiration",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/NoahBuscher/Inspire",
+    github_repo: "https://github.com/NoahBuscher/Inspire",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ember",
+    description: "App Framework.",
+    href: "docs/bucketlist/ember",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ember-community-russia/awesome-ember",
+    github_repo: "https://github.com/ember-community-russia/awesome-ember",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Android UI",
+    description: "No description available.",
+    href: "docs/bucketlist/android-ui",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wasabeef/awesome-android-ui",
+    github_repo: "https://github.com/wasabeef/awesome-android-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - iOS UI",
+    description: "No description available.",
+    href: "docs/bucketlist/ios-ui",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cjwirth/awesome-ios-ui",
+    github_repo: "https://github.com/cjwirth/awesome-ios-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Meteor",
+    description: "No description available.",
+    href: "docs/bucketlist/meteor",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Urigo/awesome-meteor",
+    github_repo: "https://github.com/Urigo/awesome-meteor",
+    items: [],
+  },
+  {
+    title: "Front-End Development - BEM",
+    description: "No description available.",
+    href: "docs/bucketlist/bem",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sturobson/BEM-resources",
+    github_repo: "https://github.com/sturobson/BEM-resources",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Flexbox",
+    description: "No description available.",
+    href: "docs/bucketlist/flexbox",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/afonsopacifer/awesome-flexbox",
+    github_repo: "https://github.com/afonsopacifer/awesome-flexbox",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Typography",
+    description: "No description available.",
+    href: "docs/bucketlist/web-typography",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/deanhume/typography",
+    github_repo: "https://github.com/deanhume/typography",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Accessibility",
+    description: "No description available.",
+    href: "docs/bucketlist/web-accessibility",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brunopulis/awesome-a11y",
+    github_repo: "https://github.com/brunopulis/awesome-a11y",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Material Design",
+    description: "No description available.",
+    href: "docs/bucketlist/material-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sachin1092/awesome-material",
+    github_repo: "https://github.com/sachin1092/awesome-material",
+    items: [],
+  },
+  {
+    title: "Front-End Development - D3",
+    description:
+      "Library For Producing Dynamic, Interactive Data Visualizations.",
+    href: "docs/bucketlist/d3",
+    website_url: "https://awesome.digitalbunker.dev/awesome/wbkd/awesome-d3",
+    github_repo: "https://github.com/wbkd/awesome-d3",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Emails",
+    description: "No description available.",
+    href: "docs/bucketlist/emails",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jonathandion/awesome-emails",
+    github_repo: "https://github.com/jonathandion/awesome-emails",
+    items: [],
+  },
+  {
+    title: "Front-End Development - jQuery",
+    description: "Easy To Use Javascript Library For Dom Manipulation.",
+    href: "docs/bucketlist/jquery",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/petk/awesome-jquery",
+    github_repo: "https://github.com/petk/awesome-jquery",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Tips",
+    description: "No description available.",
+    href: "docs/bucketlist/tips",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/jquery-tips-everyone-should-know",
+    github_repo:
+      "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Audio",
+    description: "No description available.",
+    href: "docs/bucketlist/web-audio",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/notthetup/awesome-webaudio",
+    github_repo: "https://github.com/notthetup/awesome-webaudio",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Offline-First",
+    description: "No description available.",
+    href: "docs/bucketlist/offline-first",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pazguille/offline-first",
+    github_repo: "https://github.com/pazguille/offline-first",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Static Website Services",
+    description: "No description available.",
+    href: "docs/bucketlist/static-website-services",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agarrharr/awesome-static-website-services",
+    github_repo: "https://github.com/agarrharr/awesome-static-website-services",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Cycle.js",
+    description: "Functional And Reactive Javascript Framework.",
+    href: "docs/bucketlist/cycle.js",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cyclejs-community/awesome-cyclejs",
+    github_repo: "https://github.com/cyclejs-community/awesome-cyclejs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Text Editing",
+    description: "No description available.",
+    href: "docs/bucketlist/text-editing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dok/awesome-text-editing",
+    github_repo: "https://github.com/dok/awesome-text-editing",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Motion UI Design",
+    description: "No description available.",
+    href: "docs/bucketlist/motion-ui-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fliptheweb/motion-ui-design",
+    github_repo: "https://github.com/fliptheweb/motion-ui-design",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Vue.js",
+    description: "App Framework.",
+    href: "docs/bucketlist/vue.js",
+    website_url: "https://awesome.digitalbunker.dev/awesome/vuejs/awesome-vue",
+    github_repo: "https://github.com/vuejs/awesome-vue",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Marionette.js",
+    description: "App Framework.",
+    href: "docs/bucketlist/marionette.js",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sadcitizen/awesome-marionette",
+    github_repo: "https://github.com/sadcitizen/awesome-marionette",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Aurelia",
+    description: "App Framework.",
+    href: "docs/bucketlist/aurelia",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aurelia-contrib/awesome-aurelia",
+    github_repo: "https://github.com/aurelia-contrib/awesome-aurelia",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Charting",
+    description: "No description available.",
+    href: "docs/bucketlist/charting",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zingchart/awesome-charting",
+    github_repo: "https://github.com/zingchart/awesome-charting",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ionic Framework 2",
+    description: "No description available.",
+    href: "docs/bucketlist/ionic-framework-2",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/candelibas/awesome-ionic",
+    github_repo: "https://github.com/candelibas/awesome-ionic",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Chrome DevTools",
+    description: "No description available.",
+    href: "docs/bucketlist/chrome-devtools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ChromeDevTools/awesome-chrome-devtools",
+    github_repo: "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - PostCSS",
+    description: "Css Tool.",
+    href: "docs/bucketlist/postcss",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jdrgomes/awesome-postcss",
+    github_repo: "https://github.com/jdrgomes/awesome-postcss",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Draft.js",
+    description: "Rich Text Editor Framework For React.",
+    href: "docs/bucketlist/draft.js",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nikgraf/awesome-draft-js",
+    github_repo: "https://github.com/nikgraf/awesome-draft-js",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Service Workers",
+    description: "No description available.",
+    href: "docs/bucketlist/service-workers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-service-workers",
+    github_repo: "https://github.com/TalAter/awesome-service-workers",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Progressive Web Apps",
+    description: "No description available.",
+    href: "docs/bucketlist/progressive-web-apps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-progressive-web-apps",
+    github_repo: "https://github.com/TalAter/awesome-progressive-web-apps",
+    items: [],
+  },
+  {
+    title: "Front-End Development - choo",
+    description: "App Framework.",
+    href: "docs/bucketlist/choo",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/choojs/awesome-choo",
+    github_repo: "https://github.com/choojs/awesome-choo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Redux",
+    description: "State Container For Javascript Apps.",
+    href: "docs/bucketlist/redux",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brillout/awesome-redux",
+    github_repo: "https://github.com/brillout/awesome-redux",
+    items: [],
+  },
+  {
+    title: "Front-End Development - webpack",
+    description: "Module Bundler.",
+    href: "docs/bucketlist/webpack",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/webpack-contrib/awesome-webpack",
+    github_repo: "https://github.com/webpack-contrib/awesome-webpack",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Browserify",
+    description: "Module Bundler.",
+    href: "docs/bucketlist/browserify",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/browserify/awesome-browserify",
+    github_repo: "https://github.com/browserify/awesome-browserify",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Sass",
+    description: "Css Preprocessor.",
+    href: "docs/bucketlist/sass",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Famolus/awesome-sass",
+    github_repo: "https://github.com/Famolus/awesome-sass",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ant Design",
+    description: "Enterprise-Class Ui Design Language.",
+    href: "docs/bucketlist/ant-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/websemantics/awesome-ant-design",
+    github_repo: "https://github.com/websemantics/awesome-ant-design",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Less",
+    description: "Css Preprocessor.",
+    href: "docs/bucketlist/less",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/LucasBassetti/awesome-less",
+    github_repo: "https://github.com/LucasBassetti/awesome-less",
+    items: [],
+  },
+  {
+    title: "Front-End Development - WebGL",
+    description: "Javascript Api For Rendering 3D Graphics.",
+    href: "docs/bucketlist/webgl",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sjfricke/awesome-webgl",
+    github_repo: "https://github.com/sjfricke/awesome-webgl",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Preact",
+    description: "App Framework.",
+    href: "docs/bucketlist/preact",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/preactjs/awesome-preact",
+    github_repo: "https://github.com/preactjs/awesome-preact",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Progressive Enhancement",
+    description: "No description available.",
+    href: "docs/bucketlist/progressive-enhancement",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jbmoelker/progressive-enhancement-resources",
+    github_repo:
+      "https://github.com/jbmoelker/progressive-enhancement-resources",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Next.js",
+    description: "Framework For Server-Rendered React Apps.",
+    href: "docs/bucketlist/next.js",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unicodeveloper/awesome-nextjs",
+    github_repo: "https://github.com/unicodeveloper/awesome-nextjs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Hyperapp",
+    description: "Tiny Javascript Library For Building Web Apps.",
+    href: "docs/bucketlist/hyperapp",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jorgebucaran/awesome-hyperapp",
+    github_repo: "https://github.com/jorgebucaran/awesome-hyperapp",
+    items: [],
+  },
+  {
+    title: "Front-End Development - lit-html",
+    description: "Html Templating Library For Javascript.",
+    href: "docs/bucketlist/lit-html",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/web-padawan/awesome-lit-html",
+    github_repo: "https://github.com/web-padawan/awesome-lit-html",
+    items: [],
+  },
+  {
+    title: "Front-End Development - JAMstack",
+    description:
+      "Modern Web Development Architecture Based On Client-Side Javascript, Reusable Apis, And Prebuilt Markup.",
+    href: "docs/bucketlist/jamstack",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/automata/awesome-jamstack",
+    github_repo: "https://github.com/automata/awesome-jamstack",
+    items: [],
+  },
+  {
+    title: "Front-End Development - WordPress-Gatsby",
+    description:
+      "Web Development Technology Stack With Wordpress As A Back End And Gatsby As A Front End.",
+    href: "docs/bucketlist/wordpress-gatsby",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/henrikwirth/awesome-wordpress-gatsby",
+    github_repo: "https://github.com/henrikwirth/awesome-wordpress-gatsby",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Mobile Web Development",
+    description: "Creating A Great Mobile Web Experience.",
+    href: "docs/bucketlist/mobile-web-development",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/myshov/awesome-mobile-web-development",
+    github_repo: "https://github.com/myshov/awesome-mobile-web-development",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Storybook",
+    description: "Development Environment For Ui Components.",
+    href: "docs/bucketlist/storybook",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lauthieb/awesome-storybook",
+    github_repo: "https://github.com/lauthieb/awesome-storybook",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Blazor",
+    description:
+      ".Net Web Framework Using C#/Razor And Html That Runs In The Browser With Webassembly.",
+    href: "docs/bucketlist/blazor",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AdrienTorris/awesome-blazor",
+    github_repo: "https://github.com/AdrienTorris/awesome-blazor",
+    items: [],
+  },
+  {
+    title: "Front-End Development - PageSpeed Metrics",
+    description: "Metrics To Help Understand Page Speed And User Experience.",
+    href: "docs/bucketlist/pagespeed-metrics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/palfi-ltd/awesome-pagespeed-metrics",
+    github_repo: "https://github.com/palfi-ltd/awesome-pagespeed-metrics",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Tailwind CSS",
+    description: "Utility-First Css Framework For Rapid Ui Development.",
+    href: "docs/bucketlist/tailwind-css",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aniftyco/awesome-tailwindcss",
+    github_repo: "https://github.com/aniftyco/awesome-tailwindcss",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Seed",
+    description: "Rust Framework For Creating Web Apps Running In Webassembly.",
+    href: "docs/bucketlist/seed",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/seed-rs/awesome-seed-rs",
+    github_repo: "https://github.com/seed-rs/awesome-seed-rs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Performance Budget",
+    description:
+      "Techniques To Ensure Certain Performance Metrics For A Website.",
+    href: "docs/bucketlist/web-performance-budget",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pajaydev/awesome-web-performance-budget",
+    github_repo: "https://github.com/pajaydev/awesome-web-performance-budget",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Animation",
+    description: "Animations In The Browser With Javascript, Css, Svg, Etc.",
+    href: "docs/bucketlist/web-animation",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sergey-pimenov/awesome-web-animation",
+    github_repo: "https://github.com/sergey-pimenov/awesome-web-animation",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Yew",
+    description:
+      "Rust Framework Inspired By Elm And React For Creating Multi-Threaded Frontend Web Apps With Webassembly.",
+    href: "docs/bucketlist/yew",
+    website_url: "https://awesome.digitalbunker.dev/awesome/jetli/awesome-yew",
+    github_repo: "https://github.com/jetli/awesome-yew",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Material-UI",
+    description:
+      "Material Design React Components For Faster And Easier Web Development.",
+    href: "docs/bucketlist/material-ui",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nadunindunil/awesome-material-ui",
+    github_repo: "https://github.com/nadunindunil/awesome-material-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Building Blocks for Web Apps",
+    description: "Standalone Features To Be Integrated Into Web Apps.",
+    href: "docs/bucketlist/building-blocks-for-web-apps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/componently-com/awesome-building-blocks-for-web-apps",
+    github_repo:
+      "https://github.com/componently-com/awesome-building-blocks-for-web-apps",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Svelte",
+    description: "App Framework.",
+    href: "docs/bucketlist/svelte",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TheComputerM/awesome-svelte",
+    github_repo: "https://github.com/TheComputerM/awesome-svelte",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Design systems",
+    description:
+      "Collection Of Reusable Components, Guided By Rules That Ensure Consistency And Speed.",
+    href: "docs/bucketlist/design-systems",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/klaufel/awesome-design-systems",
+    github_repo: "https://github.com/klaufel/awesome-design-systems",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Flask",
+    description: "Python Framework.",
+    href: "docs/bucketlist/flask",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mjhea0/awesome-flask",
+    github_repo: "https://github.com/mjhea0/awesome-flask",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Docker",
+    description: "No description available.",
+    href: "docs/bucketlist/docker",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/veggiemonk/awesome-docker",
+    github_repo: "https://github.com/veggiemonk/awesome-docker",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vagrant",
+    description: "Automation Virtual Machine Environment.",
+    href: "docs/bucketlist/vagrant",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iJackUA/awesome-vagrant",
+    github_repo: "https://github.com/iJackUA/awesome-vagrant",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Pyramid",
+    description: "Python Framework.",
+    href: "docs/bucketlist/pyramid",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/uralbash/awesome-pyramid",
+    github_repo: "https://github.com/uralbash/awesome-pyramid",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Play1 Framework",
+    description: "No description available.",
+    href: "docs/bucketlist/play1-framework",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PerfectCarl/awesome-play1",
+    github_repo: "https://github.com/PerfectCarl/awesome-play1",
+    items: [],
+  },
+  {
+    title: "Back-End Development - CakePHP",
+    description: "Php Framework.",
+    href: "docs/bucketlist/cakephp",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/friendsofcake/awesome-cakephp",
+    github_repo: "https://github.com/friendsofcake/awesome-cakephp",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Symfony",
+    description: "Php Framework.",
+    href: "docs/bucketlist/symfony",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sitepoint-editors/awesome-symfony",
+    github_repo: "https://github.com/sitepoint-editors/awesome-symfony",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Education",
+    description: "No description available.",
+    href: "docs/bucketlist/education",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pehapkari/awesome-symfony-education",
+    github_repo: "https://github.com/pehapkari/awesome-symfony-education",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Laravel",
+    description: "Php Framework.",
+    href: "docs/bucketlist/laravel",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chiraggude/awesome-laravel",
+    github_repo: "https://github.com/chiraggude/awesome-laravel",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Education",
+    description: "No description available.",
+    href: "docs/bucketlist/education",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fukuball/Awesome-Laravel-Education",
+    github_repo: "https://github.com/fukuball/Awesome-Laravel-Education",
+    items: [],
+  },
+  {
+    title: "Back-End Development - TALL Stack",
+    description:
+      "Full-Stack Development Solution Featuring Libraries Built By The Laravel Community.",
+    href: "docs/bucketlist/tall-stack",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/blade-ui-kit/awesome-tall-stack",
+    github_repo: "https://github.com/blade-ui-kit/awesome-tall-stack",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Rails",
+    description: "Web App Framework For Ruby.",
+    href: "docs/bucketlist/rails",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gramantin/awesome-rails",
+    github_repo: "https://github.com/gramantin/awesome-rails",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Gems",
+    description: "Packages.",
+    href: "docs/bucketlist/gems",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hothero/awesome-rails-gem",
+    github_repo: "https://github.com/hothero/awesome-rails-gem",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Phalcon",
+    description: "Php Framework.",
+    href: "docs/bucketlist/phalcon",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/phalcon/awesome-phalcon",
+    github_repo: "https://github.com/phalcon/awesome-phalcon",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Useful `.htaccess` Snippets",
+    description: "No description available.",
+    href: "docs/bucketlist/useful-`.htaccess`-snippets",
+    website_url: "https://awesome.digitalbunker.dev/awesome/phanan/htaccess",
+    github_repo: "https://github.com/phanan/htaccess",
+    items: [],
+  },
+  {
+    title: "Back-End Development - nginx",
+    description: "Web Server.",
+    href: "docs/bucketlist/nginx",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fcambus/nginx-resources",
+    github_repo: "https://github.com/fcambus/nginx-resources",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Dropwizard",
+    description: "Java Framework.",
+    href: "docs/bucketlist/dropwizard",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stve/awesome-dropwizard",
+    github_repo: "https://github.com/stve/awesome-dropwizard",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Kubernetes",
+    description:
+      "Open-Source Platform That Automates Linux Container Operations.",
+    href: "docs/bucketlist/kubernetes",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ramitsurana/awesome-kubernetes",
+    github_repo: "https://github.com/ramitsurana/awesome-kubernetes",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Lumen",
+    description: "Php Micro-Framework.",
+    href: "docs/bucketlist/lumen",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unicodeveloper/awesome-lumen",
+    github_repo: "https://github.com/unicodeveloper/awesome-lumen",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Serverless Framework",
+    description: "Serverless Computing And Serverless Architectures.",
+    href: "docs/bucketlist/serverless-framework",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pmuens/awesome-serverless",
+    github_repo: "https://github.com/pmuens/awesome-serverless",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Apache Wicket",
+    description: "Java Web App Framework.",
+    href: "docs/bucketlist/apache-wicket",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PhantomYdn/awesome-wicket",
+    github_repo: "https://github.com/PhantomYdn/awesome-wicket",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vert.x",
+    description: "Toolkit For Building Reactive Apps On The Jvm.",
+    href: "docs/bucketlist/vert.x",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vert-x3/vertx-awesome",
+    github_repo: "https://github.com/vert-x3/vertx-awesome",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Terraform",
+    description: "Tool For Building, Changing, And Versioning Infrastructure.",
+    href: "docs/bucketlist/terraform",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shuaibiyy/awesome-terraform",
+    github_repo: "https://github.com/shuaibiyy/awesome-terraform",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vapor",
+    description: "Server-Side Development In Swift.",
+    href: "docs/bucketlist/vapor",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Cellane/awesome-vapor",
+    github_repo: "https://github.com/Cellane/awesome-vapor",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Dash",
+    description: "Python Web App Framework.",
+    href: "docs/bucketlist/dash",
+    website_url: "https://awesome.digitalbunker.dev/awesome/ucg8j/awesome-dash",
+    github_repo: "https://github.com/ucg8j/awesome-dash",
+    items: [],
+  },
+  {
+    title: "Back-End Development - FastAPI",
+    description: "Python Web App Framework.",
+    href: "docs/bucketlist/fastapi",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mjhea0/awesome-fastapi",
+    github_repo: "https://github.com/mjhea0/awesome-fastapi",
+    items: [],
+  },
+  {
+    title: "Back-End Development - CDK",
+    description:
+      "Open-Source Software Development Framework For Defining Cloud Infrastructure In Code.",
+    href: "docs/bucketlist/cdk",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kolomied/awesome-cdk",
+    github_repo: "https://github.com/kolomied/awesome-cdk",
+    items: [],
+  },
+  {
+    title: "Computer Science - University Courses",
+    description: "No description available.",
+    href: "docs/bucketlist/university-courses",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/prakhar1989/awesome-courses",
+    github_repo: "https://github.com/prakhar1989/awesome-courses",
+    items: [],
+  },
+  {
+    title: "Computer Science - Data Science",
+    description: "No description available.",
+    href: "docs/bucketlist/data-science",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/academic/awesome-datascience",
+    github_repo: "https://github.com/academic/awesome-datascience",
+    items: [],
+  },
+  {
+    title: "Computer Science - Tutorials",
+    description: "No description available.",
+    href: "docs/bucketlist/tutorials",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/siboehm/awesome-learn-datascience",
+    github_repo: "https://github.com/siboehm/awesome-learn-datascience",
+    items: [],
+  },
+  {
+    title: "Computer Science - Machine Learning",
+    description: "No description available.",
+    href: "docs/bucketlist/machine-learning",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/josephmisiti/awesome-machine-learning",
+    github_repo: "https://github.com/josephmisiti/awesome-machine-learning",
+    items: [],
+  },
+  {
+    title: "Computer Science - Tutorials",
+    description: "No description available.",
+    href: "docs/bucketlist/tutorials",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ujjwalkarn/Machine-Learning-Tutorials",
+    github_repo: "https://github.com/ujjwalkarn/Machine-Learning-Tutorials",
+    items: [],
+  },
+  {
+    title: "Computer Science - ML with Ruby",
+    description:
+      "Learning, Implementing, And Applying Machine Learning Using Ruby.",
+    href: "docs/bucketlist/ml-with-ruby",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arbox/machine-learning-with-ruby",
+    github_repo: "https://github.com/arbox/machine-learning-with-ruby",
+    items: [],
+  },
+  {
+    title: "Computer Science - Core ML Models",
+    description: "Models For Apple'S Machine Learning Framework.",
+    href: "docs/bucketlist/core-ml-models",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/likedan/Awesome-CoreML-Models",
+    github_repo: "https://github.com/likedan/Awesome-CoreML-Models",
+    items: [],
+  },
+  {
+    title: "Computer Science - H2O",
+    description:
+      "Open Source Distributed Machine Learning Platform Written In Java With Apis In R, Python, And Scala.",
+    href: "docs/bucketlist/h2o",
+    website_url: "https://awesome.digitalbunker.dev/awesome/h2oai/awesome-h2o",
+    github_repo: "https://github.com/h2oai/awesome-h2o",
+    items: [],
+  },
+  {
+    title: "Computer Science - Software Engineering for Machine Learning",
+    description: "From Experiment To Production-Level Machine Learning.",
+    href: "docs/bucketlist/software-engineering-for-machine-learning",
+    website_url: "https://awesome.digitalbunker.dev/awesome/SE-ML/awesome-seml",
+    github_repo: "https://github.com/SE-ML/awesome-seml",
+    items: [],
+  },
+  {
+    title: "Computer Science - AI in Finance",
+    description: "Solving Problems In Finance With Machine Learning.",
+    href: "docs/bucketlist/ai-in-finance",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/georgezouq/awesome-ai-in-finance",
+    github_repo: "https://github.com/georgezouq/awesome-ai-in-finance",
+    items: [],
+  },
+  {
+    title: "Computer Science - Speech and Natural Language Processing",
+    description: "No description available.",
+    href: "docs/bucketlist/speech-and-natural-language-processing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/edobashira/speech-language-processing",
+    github_repo: "https://github.com/edobashira/speech-language-processing",
+    items: [],
+  },
+  {
+    title: "Computer Science - Spanish",
+    description: "No description available.",
+    href: "docs/bucketlist/spanish",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dav009/awesome-spanish-nlp",
+    github_repo: "https://github.com/dav009/awesome-spanish-nlp",
+    items: [],
+  },
+  {
+    title: "Computer Science - NLP with Ruby",
+    description: "No description available.",
+    href: "docs/bucketlist/nlp-with-ruby",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arbox/nlp-with-ruby",
+    github_repo: "https://github.com/arbox/nlp-with-ruby",
+    items: [],
+  },
+  {
+    title: "Computer Science - Question Answering",
+    description:
+      "The Science Of Asking And Answering In Natural Language With A Machine.",
+    href: "docs/bucketlist/question-answering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/seriousran/awesome-qa",
+    github_repo: "https://github.com/seriousran/awesome-qa",
+    items: [],
+  },
+  {
+    title: "Computer Science - Natural Language Generation",
+    description:
+      "Generation Of Text Used In Data To Text, Conversational Agents, And Narrative Generation Applications.",
+    href: "docs/bucketlist/natural-language-generation",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tokenmill/awesome-nlg",
+    github_repo: "https://github.com/tokenmill/awesome-nlg",
+    items: [],
+  },
+  {
+    title: "Computer Science - Linguistics",
+    description: "No description available.",
+    href: "docs/bucketlist/linguistics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/theimpossibleastronaut/awesome-linguistics",
+    github_repo:
+      "https://github.com/theimpossibleastronaut/awesome-linguistics",
+    items: [],
+  },
+  {
+    title: "Computer Science - Cryptography",
+    description: "No description available.",
+    href: "docs/bucketlist/cryptography",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sobolevn/awesome-cryptography",
+    github_repo: "https://github.com/sobolevn/awesome-cryptography",
+    items: [],
+  },
+  {
+    title: "Computer Science - Papers",
+    description: "Theory Basics For Using Cryptography By Non-Cryptographers.",
+    href: "docs/bucketlist/papers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pFarb/awesome-crypto-papers",
+    github_repo: "https://github.com/pFarb/awesome-crypto-papers",
+    items: [],
+  },
+  {
+    title: "Computer Science - Computer Vision",
+    description: "No description available.",
+    href: "docs/bucketlist/computer-vision",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jbhuang0604/awesome-computer-vision",
+    github_repo: "https://github.com/jbhuang0604/awesome-computer-vision",
+    items: [],
+  },
+  {
+    title: "Computer Science - Deep Learning",
+    description: "Neural Networks.",
+    href: "docs/bucketlist/deep-learning",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ChristosChristofidis/awesome-deep-learning",
+    github_repo:
+      "https://github.com/ChristosChristofidis/awesome-deep-learning",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow",
+    description: "Library For Machine Intelligence.",
+    href: "docs/bucketlist/tensorflow",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jtoy/awesome-tensorflow",
+    github_repo: "https://github.com/jtoy/awesome-tensorflow",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow.js",
+    description:
+      "Webgl-Accelerated Machine Learning Javascript Library For Training And Deploying Models.",
+    href: "docs/bucketlist/tensorflow.js",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aaronhma/awesome-tensorflow-js",
+    github_repo: "https://github.com/aaronhma/awesome-tensorflow-js",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow Lite",
+    description:
+      "Framework That Optimizes Tensorflow Models For On-Device Machine Learning.",
+    href: "docs/bucketlist/tensorflow-lite",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/margaretmz/awesome-tensorflow-lite",
+    github_repo: "https://github.com/margaretmz/awesome-tensorflow-lite",
+    items: [],
+  },
+  {
+    title: "Computer Science - Papers",
+    description: "The Most Cited Deep Learning Papers.",
+    href: "docs/bucketlist/papers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/terryum/awesome-deep-learning-papers",
+    github_repo: "https://github.com/terryum/awesome-deep-learning-papers",
+    items: [],
+  },
+  {
+    title: "Computer Science - Education",
+    description: "No description available.",
+    href: "docs/bucketlist/education",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/guillaume-chevalier/awesome-deep-learning-resources",
+    github_repo:
+      "https://github.com/guillaume-chevalier/awesome-deep-learning-resources",
+    items: [],
+  },
+  {
+    title: "Computer Science - Deep Vision",
+    description: "No description available.",
+    href: "docs/bucketlist/deep-vision",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kjw0612/awesome-deep-vision",
+    github_repo: "https://github.com/kjw0612/awesome-deep-vision",
+    items: [],
+  },
+  {
+    title: "Computer Science - Open Source Society University",
+    description: "No description available.",
+    href: "docs/bucketlist/open-source-society-university",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ossu/computer-science",
+    github_repo: "https://github.com/ossu/computer-science",
+    items: [],
+  },
+  {
+    title: "Computer Science - Functional Programming",
+    description: "No description available.",
+    href: "docs/bucketlist/functional-programming",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lucasviola/awesome-functional-programming",
+    github_repo: "https://github.com/lucasviola/awesome-functional-programming",
+    items: [],
+  },
+  {
+    title: "Computer Science - Empirical Software Engineering",
+    description: "Evidence-Based Research On Software Systems.",
+    href: "docs/bucketlist/empirical-software-engineering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dspinellis/awesome-msr",
+    github_repo: "https://github.com/dspinellis/awesome-msr",
+    items: [],
+  },
+  {
+    title: "Computer Science - Static Analysis & Code Quality",
+    description: "No description available.",
+    href: "docs/bucketlist/static-analysis-&-code-quality",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/analysis-tools-dev/static-analysis",
+    github_repo: "https://github.com/analysis-tools-dev/static-analysis",
+    items: [],
+  },
+  {
+    title: "Computer Science - Information Retrieval",
+    description: "Learn To Develop Your Own Search Engine.",
+    href: "docs/bucketlist/information-retrieval",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/harpribot/awesome-information-retrieval",
+    github_repo: "https://github.com/harpribot/awesome-information-retrieval",
+    items: [],
+  },
+  {
+    title: "Computer Science - Quantum Computing",
+    description:
+      "Computing Which Utilizes Quantum Mechanics And Qubits On Quantum Computers.",
+    href: "docs/bucketlist/quantum-computing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/desireevl/awesome-quantum-computing",
+    github_repo: "https://github.com/desireevl/awesome-quantum-computing",
+    items: [],
+  },
+  {
+    title: "Big Data - Big Data",
+    description: "No description available.",
+    href: "docs/bucketlist/big-data",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/onurakpolat/awesome-bigdata",
+    github_repo: "https://github.com/onurakpolat/awesome-bigdata",
+    items: [],
+  },
+  {
+    title: "Big Data - Public Datasets",
+    description: "No description available.",
+    href: "docs/bucketlist/public-datasets",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesomedata/awesome-public-datasets",
+    github_repo: "https://github.com/awesomedata/awesome-public-datasets",
+    items: [],
+  },
+  {
+    title: "Big Data - Hadoop",
+    description:
+      "Framework For Distributed Storage And Processing Of Very Large Data Sets.",
+    href: "docs/bucketlist/hadoop",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/youngwookim/awesome-hadoop",
+    github_repo: "https://github.com/youngwookim/awesome-hadoop",
+    items: [],
+  },
+  {
+    title: "Big Data - Data Engineering",
+    description: "No description available.",
+    href: "docs/bucketlist/data-engineering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/igorbarinov/awesome-data-engineering",
+    github_repo: "https://github.com/igorbarinov/awesome-data-engineering",
+    items: [],
+  },
+  {
+    title: "Big Data - Streaming",
+    description: "No description available.",
+    href: "docs/bucketlist/streaming",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/manuzhang/awesome-streaming",
+    github_repo: "https://github.com/manuzhang/awesome-streaming",
+    items: [],
+  },
+  {
+    title: "Big Data - Apache Spark",
+    description: "Unified Engine For Large-Scale Data Processing.",
+    href: "docs/bucketlist/apache-spark",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-spark/awesome-spark",
+    github_repo: "https://github.com/awesome-spark/awesome-spark",
+    items: [],
+  },
+  {
+    title: "Big Data - Qlik",
+    description:
+      "Business Intelligence Platform For Data Visualization, Analytics, And Reporting Apps.",
+    href: "docs/bucketlist/qlik",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ambster-public/awesome-qlik",
+    github_repo: "https://github.com/ambster-public/awesome-qlik",
+    items: [],
+  },
+  {
+    title: "Big Data - Splunk",
+    description:
+      "Platform For Searching, Monitoring, And Analyzing Structured And Unstructured Machine-Generated Big Data In Real-Time.",
+    href: "docs/bucketlist/splunk",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sduff/awesome-splunk",
+    github_repo: "https://github.com/sduff/awesome-splunk",
+    items: [],
+  },
+  {
+    title: "Theory - Papers We Love",
+    description: "No description available.",
+    href: "docs/bucketlist/papers-we-love",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/papers-we-love/papers-we-love",
+    github_repo: "https://github.com/papers-we-love/papers-we-love",
+    items: [],
+  },
+  {
+    title: "Theory - Talks",
+    description: "No description available.",
+    href: "docs/bucketlist/talks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/JanVanRyswyck/awesome-talks",
+    github_repo: "https://github.com/JanVanRyswyck/awesome-talks",
+    items: [],
+  },
+  {
+    title: "Theory - Algorithms",
+    description: "No description available.",
+    href: "docs/bucketlist/algorithms",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tayllan/awesome-algorithms",
+    github_repo: "https://github.com/tayllan/awesome-algorithms",
+    items: [],
+  },
+  {
+    title: "Theory - Education",
+    description: "Learning And Practicing.",
+    href: "docs/bucketlist/education",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gaerae/awesome-algorithms-education",
+    github_repo: "https://github.com/gaerae/awesome-algorithms-education",
+    items: [],
+  },
+  {
+    title: "Theory - Algorithm Visualizations",
+    description: "No description available.",
+    href: "docs/bucketlist/algorithm-visualizations",
+    website_url: "https://awesome.digitalbunker.dev/awesome/enjalot/algovis",
+    github_repo: "https://github.com/enjalot/algovis",
+    items: [],
+  },
+  {
+    title: "Theory - Artificial Intelligence",
+    description: "No description available.",
+    href: "docs/bucketlist/artificial-intelligence",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/owainlewis/awesome-artificial-intelligence",
+    github_repo:
+      "https://github.com/owainlewis/awesome-artificial-intelligence",
+    items: [],
+  },
+  {
+    title: "Theory - Search Engine Optimization",
+    description: "No description available.",
+    href: "docs/bucketlist/search-engine-optimization",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/marcobiedermann/search-engine-optimization",
+    github_repo:
+      "https://github.com/marcobiedermann/search-engine-optimization",
+    items: [],
+  },
+  {
+    title: "Theory - Competitive Programming",
+    description: "No description available.",
+    href: "docs/bucketlist/competitive-programming",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lnishan/awesome-competitive-programming",
+    github_repo: "https://github.com/lnishan/awesome-competitive-programming",
+    items: [],
+  },
+  {
+    title: "Theory - Math",
+    description: "No description available.",
+    href: "docs/bucketlist/math",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rossant/awesome-math",
+    github_repo: "https://github.com/rossant/awesome-math",
+    items: [],
+  },
+  {
+    title: "Theory - Recursion Schemes",
+    description: "Traversing Nested Data Structures.",
+    href: "docs/bucketlist/recursion-schemes",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/passy/awesome-recursion-schemes",
+    github_repo: "https://github.com/passy/awesome-recursion-schemes",
+    items: [],
+  },
+  {
+    title: "Books - Free Programming Books",
+    description: "No description available.",
+    href: "docs/bucketlist/free-programming-books",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/EbookFoundation/free-programming-books",
+    github_repo: "https://github.com/EbookFoundation/free-programming-books",
+    items: [],
+  },
+  {
+    title: "Books - Free Software Testing Books",
+    description: "No description available.",
+    href: "docs/bucketlist/free-software-testing-books",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ligurio/awesome-software-quality",
+    github_repo: "https://github.com/ligurio/awesome-software-quality",
+    items: [],
+  },
+  {
+    title: "Books - Go Books",
+    description: "No description available.",
+    href: "docs/bucketlist/go-books",
+    website_url: "https://awesome.digitalbunker.dev/awesome/dariubs/GoBooks",
+    github_repo: "https://github.com/dariubs/GoBooks",
+    items: [],
+  },
+  {
+    title: "Books - R Books",
+    description: "No description available.",
+    href: "docs/bucketlist/r-books",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RomanTsegelskyi/rbooks",
+    github_repo: "https://github.com/RomanTsegelskyi/rbooks",
+    items: [],
+  },
+  {
+    title: "Books - Mind Expanding Books",
+    description: "No description available.",
+    href: "docs/bucketlist/mind-expanding-books",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hackerkid/Mind-Expanding-Books",
+    github_repo: "https://github.com/hackerkid/Mind-Expanding-Books",
+    items: [],
+  },
+  {
+    title: "Books - Book Authoring",
+    description: "No description available.",
+    href: "docs/bucketlist/book-authoring",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-book-authoring",
+    github_repo: "https://github.com/TalAter/awesome-book-authoring",
+    items: [],
+  },
+  {
+    title: "Books - Elixir Books",
+    description: "No description available.",
+    href: "docs/bucketlist/elixir-books",
+    website_url: "https://awesome.digitalbunker.dev/awesome/sger/ElixirBooks",
+    github_repo: "https://github.com/sger/ElixirBooks",
+    items: [],
+  },
+  {
+    title: "Editors - Sublime Text",
+    description: "No description available.",
+    href: "docs/bucketlist/sublime-text",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dreikanter/sublime-bookmarks",
+    github_repo: "https://github.com/dreikanter/sublime-bookmarks",
+    items: [],
+  },
+  {
+    title: "Editors - Vim",
+    description: "No description available.",
+    href: "docs/bucketlist/vim",
+    website_url: "https://awesome.digitalbunker.dev/awesome/mhinz/vim-galore",
+    github_repo: "https://github.com/mhinz/vim-galore",
+    items: [],
+  },
+  {
+    title: "Editors - Emacs",
+    description: "No description available.",
+    href: "docs/bucketlist/emacs",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/emacs-tw/awesome-emacs",
+    github_repo: "https://github.com/emacs-tw/awesome-emacs",
+    items: [],
+  },
+  {
+    title: "Editors - Atom",
+    description: "Open-Source And Hackable Text Editor.",
+    href: "docs/bucketlist/atom",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mehcode/awesome-atom",
+    github_repo: "https://github.com/mehcode/awesome-atom",
+    items: [],
+  },
+  {
+    title: "Editors - Visual Studio Code",
+    description: "Cross-Platform Open-Source Text Editor.",
+    href: "docs/bucketlist/visual-studio-code",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/viatsko/awesome-vscode",
+    github_repo: "https://github.com/viatsko/awesome-vscode",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Development",
+    description: "No description available.",
+    href: "docs/bucketlist/game-development",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ellisonleao/magictools",
+    github_repo: "https://github.com/ellisonleao/magictools",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Talks",
+    description: "No description available.",
+    href: "docs/bucketlist/game-talks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hzoo/awesome-gametalks",
+    github_repo: "https://github.com/hzoo/awesome-gametalks",
+    items: [],
+  },
+  {
+    title: "Gaming - Godot",
+    description: "Game Engine.",
+    href: "docs/bucketlist/godot",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Calinou/awesome-godot",
+    github_repo: "https://github.com/Calinou/awesome-godot",
+    items: [],
+  },
+  {
+    title: "Gaming - Open Source Games",
+    description: "No description available.",
+    href: "docs/bucketlist/open-source-games",
+    website_url: "https://awesome.digitalbunker.dev/awesome/leereilly/games",
+    github_repo: "https://github.com/leereilly/games",
+    items: [],
+  },
+  {
+    title: "Gaming - Unity",
+    description: "Game Engine.",
+    href: "docs/bucketlist/unity",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RyanNielson/awesome-unity",
+    github_repo: "https://github.com/RyanNielson/awesome-unity",
+    items: [],
+  },
+  {
+    title: "Gaming - Chess",
+    description: "No description available.",
+    href: "docs/bucketlist/chess",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hkirat/awesome-chess",
+    github_repo: "https://github.com/hkirat/awesome-chess",
+    items: [],
+  },
+  {
+    title: "Gaming - LÖVE",
+    description: "Game Engine.",
+    href: "docs/bucketlist/löve",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/love2d-community/awesome-love2d",
+    github_repo: "https://github.com/love2d-community/awesome-love2d",
+    items: [],
+  },
+  {
+    title: "Gaming - PICO-8",
+    description: "Fantasy Console.",
+    href: "docs/bucketlist/pico-8",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pico-8/awesome-PICO-8",
+    github_repo: "https://github.com/pico-8/awesome-PICO-8",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Boy Development",
+    description: "No description available.",
+    href: "docs/bucketlist/game-boy-development",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gbdev/awesome-gbdev",
+    github_repo: "https://github.com/gbdev/awesome-gbdev",
+    items: [],
+  },
+  {
+    title: "Gaming - Construct 2",
+    description: "Game Engine.",
+    href: "docs/bucketlist/construct-2",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/WebCreationClub/awesome-construct",
+    github_repo: "https://github.com/WebCreationClub/awesome-construct",
+    items: [],
+  },
+  {
+    title: "Gaming - Gideros",
+    description: "Game Engine.",
+    href: "docs/bucketlist/gideros",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stetso/awesome-gideros",
+    github_repo: "https://github.com/stetso/awesome-gideros",
+    items: [],
+  },
+  {
+    title: "Gaming - Minecraft",
+    description: "Sandbox Video Game.",
+    href: "docs/bucketlist/minecraft",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bs-community/awesome-minecraft",
+    github_repo: "https://github.com/bs-community/awesome-minecraft",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Datasets",
+    description: "Materials And Datasets For Artificial Intelligence In Games.",
+    href: "docs/bucketlist/game-datasets",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/leomaurodesenv/game-datasets",
+    github_repo: "https://github.com/leomaurodesenv/game-datasets",
+    items: [],
+  },
+  {
+    title: "Gaming - Haxe Game Development",
+    description:
+      "A High-Level Strongly Typed Programming Language Used To Produce Cross-Platform Native Code.",
+    href: "docs/bucketlist/haxe-game-development",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Dvergar/awesome-haxe-gamedev",
+    github_repo: "https://github.com/Dvergar/awesome-haxe-gamedev",
+    items: [],
+  },
+  {
+    title: "Gaming - libGDX",
+    description: "Java Game Framework.",
+    href: "docs/bucketlist/libgdx",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rafaskb/awesome-libgdx",
+    github_repo: "https://github.com/rafaskb/awesome-libgdx",
+    items: [],
+  },
+  {
+    title: "Gaming - PlayCanvas",
+    description: "Game Engine.",
+    href: "docs/bucketlist/playcanvas",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/playcanvas/awesome-playcanvas",
+    github_repo: "https://github.com/playcanvas/awesome-playcanvas",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Remakes",
+    description: "Actively Maintained Open-Source Game Remakes.",
+    href: "docs/bucketlist/game-remakes",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/radek-sprta/awesome-game-remakes",
+    github_repo: "https://github.com/radek-sprta/awesome-game-remakes",
+    items: [],
+  },
+  {
+    title: "Gaming - Flame",
+    description: "Game Engine For Flutter.",
+    href: "docs/bucketlist/flame",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/flame-engine/awesome-flame",
+    github_repo: "https://github.com/flame-engine/awesome-flame",
+    items: [],
+  },
+  {
+    title: "Gaming - Discord Communities",
+    description: "Chat With Friends And Communities.",
+    href: "docs/bucketlist/discord-communities",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mhxion/awesome-discord-communities",
+    github_repo: "https://github.com/mhxion/awesome-discord-communities",
+    items: [],
+  },
+  {
+    title: "Gaming - CHIP-8",
+    description: "Virtual Computer Game Machine From The 70S.",
+    href: "docs/bucketlist/chip-8",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tobiasvl/awesome-chip-8",
+    github_repo: "https://github.com/tobiasvl/awesome-chip-8",
+    items: [],
+  },
+  {
+    title: "Gaming - Games of Coding",
+    description: "Learn A Programming Language By Making Games.",
+    href: "docs/bucketlist/games-of-coding",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/michelpereira/awesome-games-of-coding",
+    github_repo: "https://github.com/michelpereira/awesome-games-of-coding",
+    items: [],
+  },
+  {
+    title: "Development Environment - Quick Look Plugins",
+    description: "For Macos.",
+    href: "docs/bucketlist/quick-look-plugins",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/quick-look-plugins",
+    github_repo: "https://github.com/sindresorhus/quick-look-plugins",
+    items: [],
+  },
+  {
+    title: "Development Environment - Dev Env",
+    description: "No description available.",
+    href: "docs/bucketlist/dev-env",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jondot/awesome-devenv",
+    github_repo: "https://github.com/jondot/awesome-devenv",
+    items: [],
+  },
+  {
+    title: "Development Environment - Dotfiles",
+    description: "No description available.",
+    href: "docs/bucketlist/dotfiles",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/webpro/awesome-dotfiles",
+    github_repo: "https://github.com/webpro/awesome-dotfiles",
+    items: [],
+  },
+  {
+    title: "Development Environment - Shell",
+    description: "No description available.",
+    href: "docs/bucketlist/shell",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alebcay/awesome-shell",
+    github_repo: "https://github.com/alebcay/awesome-shell",
+    items: [],
+  },
+  {
+    title: "Development Environment - Fish",
+    description: "User-Friendly Shell.",
+    href: "docs/bucketlist/fish",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jorgebucaran/awesome-fish",
+    github_repo: "https://github.com/jorgebucaran/awesome-fish",
+    items: [],
+  },
+  {
+    title: "Development Environment - Command-Line Apps",
+    description: "No description available.",
+    href: "docs/bucketlist/command-line-apps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agarrharr/awesome-cli-apps",
+    github_repo: "https://github.com/agarrharr/awesome-cli-apps",
+    items: [],
+  },
+  {
+    title: "Development Environment - ZSH Plugins",
+    description: "No description available.",
+    href: "docs/bucketlist/zsh-plugins",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unixorn/awesome-zsh-plugins",
+    github_repo: "https://github.com/unixorn/awesome-zsh-plugins",
+    items: [],
+  },
+  {
+    title: "Development Environment - GitHub",
+    description: "Hosting Service For Git Repositories.",
+    href: "docs/bucketlist/github",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/phillipadsmith/awesome-github",
+    github_repo: "https://github.com/phillipadsmith/awesome-github",
+    items: [],
+  },
+  {
+    title: "Development Environment - Browser Extensions",
+    description: "No description available.",
+    href: "docs/bucketlist/browser-extensions",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stefanbuck/awesome-browser-extensions-for-github",
+    github_repo:
+      "https://github.com/stefanbuck/awesome-browser-extensions-for-github",
+    items: [],
+  },
+  {
+    title: "Development Environment - Cheat Sheet",
+    description: "No description available.",
+    href: "docs/bucketlist/cheat-sheet",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tiimgreen/github-cheat-sheet",
+    github_repo: "https://github.com/tiimgreen/github-cheat-sheet",
+    items: [],
+  },
+  {
+    title: "Development Environment - Pinned Gists",
+    description: "Dynamic Pinned Gists For Your Github Profile.",
+    href: "docs/bucketlist/pinned-gists",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matchai/awesome-pinned-gists",
+    github_repo: "https://github.com/matchai/awesome-pinned-gists",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Cheat Sheet & Git Flow",
+    description: "No description available.",
+    href: "docs/bucketlist/git-cheat-sheet-&-git-flow",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arslanbilal/git-cheat-sheet",
+    github_repo: "https://github.com/arslanbilal/git-cheat-sheet",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Tips",
+    description: "No description available.",
+    href: "docs/bucketlist/git-tips",
+    website_url: "https://awesome.digitalbunker.dev/awesome/git-tips/tips",
+    github_repo: "https://github.com/git-tips/tips",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Add-ons",
+    description: "Enhance The `Git` Cli.",
+    href: "docs/bucketlist/git-add-ons",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stevemao/awesome-git-addons",
+    github_repo: "https://github.com/stevemao/awesome-git-addons",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Hooks",
+    description: "Scripts For Automating Tasks During `Git` Workflows.",
+    href: "docs/bucketlist/git-hooks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/compscilauren/awesome-git-hooks",
+    github_repo: "https://github.com/compscilauren/awesome-git-hooks",
+    items: [],
+  },
+  {
+    title: "Development Environment - SSH",
+    description: "No description available.",
+    href: "docs/bucketlist/ssh",
+    website_url: "https://awesome.digitalbunker.dev/awesome/moul/awesome-ssh",
+    github_repo: "https://github.com/moul/awesome-ssh",
+    items: [],
+  },
+  {
+    title: "Development Environment - FOSS for Developers",
+    description: "No description available.",
+    href: "docs/bucketlist/foss-for-developers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tvvocold/FOSS-for-Dev",
+    github_repo: "https://github.com/tvvocold/FOSS-for-Dev",
+    items: [],
+  },
+  {
+    title: "Development Environment - Hyper",
+    description: "Cross-Platform Terminal App Built On Web Technologies.",
+    href: "docs/bucketlist/hyper",
+    website_url: "https://awesome.digitalbunker.dev/awesome/bnb/awesome-hyper",
+    github_repo: "https://github.com/bnb/awesome-hyper",
+    items: [],
+  },
+  {
+    title: "Development Environment - PowerShell",
+    description: "Cross-Platform Object-Oriented Shell.",
+    href: "docs/bucketlist/powershell",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/janikvonrotz/awesome-powershell",
+    github_repo: "https://github.com/janikvonrotz/awesome-powershell",
+    items: [],
+  },
+  {
+    title: "Development Environment - Alfred Workflows",
+    description: "Productivity App For Macos.",
+    href: "docs/bucketlist/alfred-workflows",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/derimagia/awesome-alfred-workflows",
+    github_repo: "https://github.com/derimagia/awesome-alfred-workflows",
+    items: [],
+  },
+  {
+    title: "Development Environment - Terminals Are Sexy",
+    description: "No description available.",
+    href: "docs/bucketlist/terminals-are-sexy",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/k4m4/terminals-are-sexy",
+    github_repo: "https://github.com/k4m4/terminals-are-sexy",
+    items: [],
+  },
+  {
+    title: "Development Environment - GitHub Actions",
+    description:
+      "Create Tasks To Automate Your Workflow And Share Them With Others On Github.",
+    href: "docs/bucketlist/github-actions",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdras/awesome-actions",
+    github_repo: "https://github.com/sdras/awesome-actions",
+    items: [],
+  },
+  {
+    title: "Entertainment - Science Fiction",
+    description: "Scifi.",
+    href: "docs/bucketlist/science-fiction",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-scifi",
+    github_repo: "https://github.com/sindresorhus/awesome-scifi",
+    items: [],
+  },
+  {
+    title: "Entertainment - Fantasy",
+    description: "No description available.",
+    href: "docs/bucketlist/fantasy",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RichardLitt/awesome-fantasy",
+    github_repo: "https://github.com/RichardLitt/awesome-fantasy",
+    items: [],
+  },
+  {
+    title: "Entertainment - Podcasts",
+    description: "No description available.",
+    href: "docs/bucketlist/podcasts",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ayr-ton/awesome-geek-podcasts",
+    github_repo: "https://github.com/ayr-ton/awesome-geek-podcasts",
+    items: [],
+  },
+  {
+    title: "Entertainment - Email Newsletters",
+    description: "No description available.",
+    href: "docs/bucketlist/email-newsletters",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zudochkin/awesome-newsletters",
+    github_repo: "https://github.com/zudochkin/awesome-newsletters",
+    items: [],
+  },
+  {
+    title: "Entertainment - IT Quotes",
+    description: "No description available.",
+    href: "docs/bucketlist/it-quotes",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/victorlaerte/awesome-it-quotes",
+    github_repo: "https://github.com/victorlaerte/awesome-it-quotes",
+    items: [],
+  },
+  {
+    title: "Databases - Database",
+    description: "No description available.",
+    href: "docs/bucketlist/database",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/numetriclabz/awesome-db",
+    github_repo: "https://github.com/numetriclabz/awesome-db",
+    items: [],
+  },
+  {
+    title: "Databases - MySQL",
+    description: "No description available.",
+    href: "docs/bucketlist/mysql",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shlomi-noach/awesome-mysql",
+    github_repo: "https://github.com/shlomi-noach/awesome-mysql",
+    items: [],
+  },
+  {
+    title: "Databases - SQLAlchemy",
+    description: "No description available.",
+    href: "docs/bucketlist/sqlalchemy",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dahlia/awesome-sqlalchemy",
+    github_repo: "https://github.com/dahlia/awesome-sqlalchemy",
+    items: [],
+  },
+  {
+    title: "Databases - InfluxDB",
+    description: "No description available.",
+    href: "docs/bucketlist/influxdb",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mark-rushakoff/awesome-influxdb",
+    github_repo: "https://github.com/mark-rushakoff/awesome-influxdb",
+    items: [],
+  },
+  {
+    title: "Databases - Neo4j",
+    description: "No description available.",
+    href: "docs/bucketlist/neo4j",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/neueda/awesome-neo4j",
+    github_repo: "https://github.com/neueda/awesome-neo4j",
+    items: [],
+  },
+  {
+    title: "Databases - MongoDB",
+    description: "Nosql Database.",
+    href: "docs/bucketlist/mongodb",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ramnes/awesome-mongodb",
+    github_repo: "https://github.com/ramnes/awesome-mongodb",
+    items: [],
+  },
+  {
+    title: "Databases - RethinkDB",
+    description: "No description available.",
+    href: "docs/bucketlist/rethinkdb",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/d3viant0ne/awesome-rethinkdb",
+    github_repo: "https://github.com/d3viant0ne/awesome-rethinkdb",
+    items: [],
+  },
+  {
+    title: "Databases - TinkerPop",
+    description: "Graph Computing Framework.",
+    href: "docs/bucketlist/tinkerpop",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mohataher/awesome-tinkerpop",
+    github_repo: "https://github.com/mohataher/awesome-tinkerpop",
+    items: [],
+  },
+  {
+    title: "Databases - PostgreSQL",
+    description: "Object-Relational Database.",
+    href: "docs/bucketlist/postgresql",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dhamaniasad/awesome-postgres",
+    github_repo: "https://github.com/dhamaniasad/awesome-postgres",
+    items: [],
+  },
+  {
+    title: "Databases - CouchDB",
+    description: "Document-Oriented Nosql Database.",
+    href: "docs/bucketlist/couchdb",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/quangv/awesome-couchdb",
+    github_repo: "https://github.com/quangv/awesome-couchdb",
+    items: [],
+  },
+  {
+    title: "Databases - HBase",
+    description: "Distributed, Scalable, Big Data Store.",
+    href: "docs/bucketlist/hbase",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rayokota/awesome-hbase",
+    github_repo: "https://github.com/rayokota/awesome-hbase",
+    items: [],
+  },
+  {
+    title: "Databases - NoSQL Guides",
+    description:
+      "Help On Using Non-Relational, Distributed, Open-Source, And Horizontally Scalable Databases.",
+    href: "docs/bucketlist/nosql-guides",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/erictleung/awesome-nosql-guides",
+    github_repo: "https://github.com/erictleung/awesome-nosql-guides",
+    items: [],
+  },
+  {
+    title: "Databases - Contexture",
+    description:
+      "Abstracts Queries/Filters And Results/Aggregations From Different Backing Data Stores Like Elasticsearch And Mongodb.",
+    href: "docs/bucketlist/contexture",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ltchris/awesome-contexture",
+    github_repo: "https://github.com/ltchris/awesome-contexture",
+    items: [],
+  },
+  {
+    title: "Databases - Database Tools",
+    description: "Everything That Makes Working With Databases Easier.",
+    href: "docs/bucketlist/database-tools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mgramin/awesome-db-tools",
+    github_repo: "https://github.com/mgramin/awesome-db-tools",
+    items: [],
+  },
+  {
+    title: "Media - Creative Commons Media",
+    description: "No description available.",
+    href: "docs/bucketlist/creative-commons-media",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shime/creative-commons-media",
+    github_repo: "https://github.com/shime/creative-commons-media",
+    items: [],
+  },
+  {
+    title: "Media - Fonts",
+    description: "No description available.",
+    href: "docs/bucketlist/fonts",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brabadu/awesome-fonts",
+    github_repo: "https://github.com/brabadu/awesome-fonts",
+    items: [],
+  },
+  {
+    title: "Media - Codeface",
+    description: "Text Editor Fonts.",
+    href: "docs/bucketlist/codeface",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chrissimpkins/codeface",
+    github_repo: "https://github.com/chrissimpkins/codeface",
+    items: [],
+  },
+  {
+    title: "Media - Stock Resources",
+    description: "No description available.",
+    href: "docs/bucketlist/stock-resources",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/neutraltone/awesome-stock-resources",
+    github_repo: "https://github.com/neutraltone/awesome-stock-resources",
+    items: [],
+  },
+  {
+    title: "Media - GIF",
+    description: "Image Format Known For Animated Images.",
+    href: "docs/bucketlist/gif",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davisonio/awesome-gif",
+    github_repo: "https://github.com/davisonio/awesome-gif",
+    items: [],
+  },
+  {
+    title: "Media - Music",
+    description: "No description available.",
+    href: "docs/bucketlist/music",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ciconia/awesome-music",
+    github_repo: "https://github.com/ciconia/awesome-music",
+    items: [],
+  },
+  {
+    title: "Media - Open Source Documents",
+    description: "No description available.",
+    href: "docs/bucketlist/open-source-documents",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hubtee/awesome-opensource-documents",
+    github_repo: "https://github.com/hubtee/awesome-opensource-documents",
+    items: [],
+  },
+  {
+    title: "Media - Audio Visualization",
+    description: "No description available.",
+    href: "docs/bucketlist/audio-visualization",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/willianjusten/awesome-audio-visualization",
+    github_repo: "https://github.com/willianjusten/awesome-audio-visualization",
+    items: [],
+  },
+  {
+    title: "Media - Broadcasting",
+    description: "No description available.",
+    href: "docs/bucketlist/broadcasting",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ebu/awesome-broadcasting",
+    github_repo: "https://github.com/ebu/awesome-broadcasting",
+    items: [],
+  },
+  {
+    title: "Media - Pixel Art",
+    description: "Pixel-Level Digital Art.",
+    href: "docs/bucketlist/pixel-art",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Siilwyn/awesome-pixel-art",
+    github_repo: "https://github.com/Siilwyn/awesome-pixel-art",
+    items: [],
+  },
+  {
+    title: "Media - FFmpeg",
+    description:
+      "Cross-Platform Solution To Record, Convert And Stream Audio And Video.",
+    href: "docs/bucketlist/ffmpeg",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/transitive-bullshit/awesome-ffmpeg",
+    github_repo: "https://github.com/transitive-bullshit/awesome-ffmpeg",
+    items: [],
+  },
+  {
+    title: "Media - Icons",
+    description: "Downloadable Svg/Png/Font Icon Projects.",
+    href: "docs/bucketlist/icons",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/notlmn/awesome-icons",
+    github_repo: "https://github.com/notlmn/awesome-icons",
+    items: [],
+  },
+  {
+    title: "Media - Audiovisual",
+    description: "Lighting, Audio And Video In Professional Environments.",
+    href: "docs/bucketlist/audiovisual",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stingalleman/awesome-audiovisual",
+    github_repo: "https://github.com/stingalleman/awesome-audiovisual",
+    items: [],
+  },
+  {
+    title: "Learn - CLI Workshoppers",
+    description: "Interactive Tutorials.",
+    href: "docs/bucketlist/cli-workshoppers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/therebelrobot/awesome-workshopper",
+    github_repo: "https://github.com/therebelrobot/awesome-workshopper",
+    items: [],
+  },
+  {
+    title: "Learn - Learn to Program",
+    description: "No description available.",
+    href: "docs/bucketlist/learn-to-program",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/karlhorky/learn-to-program",
+    github_repo: "https://github.com/karlhorky/learn-to-program",
+    items: [],
+  },
+  {
+    title: "Learn - Speaking",
+    description: "No description available.",
+    href: "docs/bucketlist/speaking",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matteofigus/awesome-speaking",
+    github_repo: "https://github.com/matteofigus/awesome-speaking",
+    items: [],
+  },
+  {
+    title: "Learn - Tech Videos",
+    description: "No description available.",
+    href: "docs/bucketlist/tech-videos",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lucasviola/awesome-tech-videos",
+    github_repo: "https://github.com/lucasviola/awesome-tech-videos",
+    items: [],
+  },
+  {
+    title: "Learn - Dive into Machine Learning",
+    description: "No description available.",
+    href: "docs/bucketlist/dive-into-machine-learning",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hangtwenty/dive-into-machine-learning",
+    github_repo: "https://github.com/hangtwenty/dive-into-machine-learning",
+    items: [],
+  },
+  {
+    title: "Learn - Computer History",
+    description: "No description available.",
+    href: "docs/bucketlist/computer-history",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/watson/awesome-computer-history",
+    github_repo: "https://github.com/watson/awesome-computer-history",
+    items: [],
+  },
+  {
+    title: "Learn - Programming for Kids",
+    description: "No description available.",
+    href: "docs/bucketlist/programming-for-kids",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/HollyAdele/awesome-programming-for-kids",
+    github_repo: "https://github.com/HollyAdele/awesome-programming-for-kids",
+    items: [],
+  },
+  {
+    title: "Learn - Educational Games",
+    description: "Learn While Playing.",
+    href: "docs/bucketlist/educational-games",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/yrgo/awesome-educational-games",
+    github_repo: "https://github.com/yrgo/awesome-educational-games",
+    items: [],
+  },
+  {
+    title: "Learn - JavaScript Learning",
+    description: "No description available.",
+    href: "docs/bucketlist/javascript-learning",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/micromata/awesome-javascript-learning",
+    github_repo: "https://github.com/micromata/awesome-javascript-learning",
+    items: [],
+  },
+  {
+    title: "Learn - CSS Learning",
+    description: "Mainly About Css – The Language And The Modules.",
+    href: "docs/bucketlist/css-learning",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/micromata/awesome-css-learning",
+    github_repo: "https://github.com/micromata/awesome-css-learning",
+    items: [],
+  },
+  {
+    title: "Learn - Product Management",
+    description: "Learn How To Be A Better Product Manager.",
+    href: "docs/bucketlist/product-management",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dend/awesome-product-management",
+    github_repo: "https://github.com/dend/awesome-product-management",
+    items: [],
+  },
+  {
+    title: "Learn - Roadmaps",
+    description:
+      "Gives You A Clear Route To Improve Your Knowledge And Skills.",
+    href: "docs/bucketlist/roadmaps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/liuchong/awesome-roadmaps",
+    github_repo: "https://github.com/liuchong/awesome-roadmaps",
+    items: [],
+  },
+  {
+    title: "Learn - YouTubers",
+    description:
+      "Watch Video Tutorials From Youtubers That Teach You About Technology.",
+    href: "docs/bucketlist/youtubers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/JoseDeFreitas/awesome-youtubers",
+    github_repo: "https://github.com/JoseDeFreitas/awesome-youtubers",
+    items: [],
+  },
+  {
+    title: "Security - Application Security",
+    description: "No description available.",
+    href: "docs/bucketlist/application-security",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/paragonie/awesome-appsec",
+    github_repo: "https://github.com/paragonie/awesome-appsec",
+    items: [],
+  },
+  {
+    title: "Security - Security",
+    description: "No description available.",
+    href: "docs/bucketlist/security",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sbilly/awesome-security",
+    github_repo: "https://github.com/sbilly/awesome-security",
+    items: [],
+  },
+  {
+    title: "Security - CTF",
+    description: "Capture The Flag.",
+    href: "docs/bucketlist/ctf",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/apsdehal/awesome-ctf",
+    github_repo: "https://github.com/apsdehal/awesome-ctf",
+    items: [],
+  },
+  {
+    title: "Security - Malware Analysis",
+    description: "No description available.",
+    href: "docs/bucketlist/malware-analysis",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rshipp/awesome-malware-analysis",
+    github_repo: "https://github.com/rshipp/awesome-malware-analysis",
+    items: [],
+  },
+  {
+    title: "Security - Android Security",
+    description: "No description available.",
+    href: "docs/bucketlist/android-security",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ashishb/android-security-awesome",
+    github_repo: "https://github.com/ashishb/android-security-awesome",
+    items: [],
+  },
+  {
+    title: "Security - Hacking",
+    description: "No description available.",
+    href: "docs/bucketlist/hacking",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/carpedm20/awesome-hacking",
+    github_repo: "https://github.com/carpedm20/awesome-hacking",
+    items: [],
+  },
+  {
+    title: "Security - Honeypots",
+    description:
+      "Deception Trap, Designed To Entice An Attacker Into Attempting To Compromise The Information Systems In An Organization.",
+    href: "docs/bucketlist/honeypots",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/paralax/awesome-honeypots",
+    github_repo: "https://github.com/paralax/awesome-honeypots",
+    items: [],
+  },
+  {
+    title: "Security - Incident Response",
+    description: "No description available.",
+    href: "docs/bucketlist/incident-response",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/meirwah/awesome-incident-response",
+    github_repo: "https://github.com/meirwah/awesome-incident-response",
+    items: [],
+  },
+  {
+    title: "Security - Vehicle Security and Car Hacking",
+    description: "No description available.",
+    href: "docs/bucketlist/vehicle-security-and-car-hacking",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jaredthecoder/awesome-vehicle-security",
+    github_repo: "https://github.com/jaredthecoder/awesome-vehicle-security",
+    items: [],
+  },
+  {
+    title: "Security - Web Security",
+    description: "Security Of Web Apps & Services.",
+    href: "docs/bucketlist/web-security",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/qazbnm456/awesome-web-security",
+    github_repo: "https://github.com/qazbnm456/awesome-web-security",
+    items: [],
+  },
+  {
+    title: "Security - Lockpicking",
+    description:
+      "The Art Of Unlocking A Lock By Manipulating Its Components Without The Key.",
+    href: "docs/bucketlist/lockpicking",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fabacab/awesome-lockpicking",
+    github_repo: "https://github.com/fabacab/awesome-lockpicking",
+    items: [],
+  },
+  {
+    title: "Security - Cybersecurity Blue Team",
+    description:
+      "Groups Of Individuals Who Identify Security Flaws In Information Technology Systems.",
+    href: "docs/bucketlist/cybersecurity-blue-team",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fabacab/awesome-cybersecurity-blueteam",
+    github_repo: "https://github.com/fabacab/awesome-cybersecurity-blueteam",
+    items: [],
+  },
+  {
+    title: "Security - Fuzzing",
+    description:
+      "Automated Software Testing Technique That Involves Feeding Pseudo-Randomly Generated Input Data.",
+    href: "docs/bucketlist/fuzzing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cpuu/awesome-fuzzing",
+    github_repo: "https://github.com/cpuu/awesome-fuzzing",
+    items: [],
+  },
+  {
+    title: "Security - Embedded and IoT Security",
+    description: "No description available.",
+    href: "docs/bucketlist/embedded-and-iot-security",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fkie-cad/awesome-embedded-and-iot-security",
+    github_repo:
+      "https://github.com/fkie-cad/awesome-embedded-and-iot-security",
+    items: [],
+  },
+  {
+    title: "Security - GDPR",
+    description:
+      "Regulation On Data Protection And Privacy For All Individuals Within Eu.",
+    href: "docs/bucketlist/gdpr",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bakke92/awesome-gdpr",
+    github_repo: "https://github.com/bakke92/awesome-gdpr",
+    items: [],
+  },
+  {
+    title: "Security - DevSecOps",
+    description: "No description available.",
+    href: "docs/bucketlist/devsecops",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TaptuIT/awesome-devsecops",
+    github_repo: "https://github.com/TaptuIT/awesome-devsecops",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Umbraco",
+    description: "No description available.",
+    href: "docs/bucketlist/umbraco",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/umbraco-community/awesome-umbraco",
+    github_repo: "https://github.com/umbraco-community/awesome-umbraco",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Refinery CMS",
+    description: "Ruby On Rails Cms.",
+    href: "docs/bucketlist/refinery-cms",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/refinerycms-contrib/awesome-refinerycms",
+    github_repo: "https://github.com/refinerycms-contrib/awesome-refinerycms",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Wagtail",
+    description: "Django Cms Focused On Flexibility And User Experience.",
+    href: "docs/bucketlist/wagtail",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/springload/awesome-wagtail",
+    github_repo: "https://github.com/springload/awesome-wagtail",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Textpattern",
+    description: "Lightweight Php-Based Cms.",
+    href: "docs/bucketlist/textpattern",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/drmonkeyninja/awesome-textpattern",
+    github_repo: "https://github.com/drmonkeyninja/awesome-textpattern",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Drupal",
+    description: "Extensible Php-Based Cms.",
+    href: "docs/bucketlist/drupal",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nirgn975/awesome-drupal",
+    github_repo: "https://github.com/nirgn975/awesome-drupal",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Craft CMS",
+    description: "Content-First Cms.",
+    href: "docs/bucketlist/craft-cms",
+    website_url: "https://awesome.digitalbunker.dev/awesome/craftcms/awesome",
+    github_repo: "https://github.com/craftcms/awesome",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Sitecore",
+    description:
+      ".Net Digital Marketing Platform That Combines Cms With Tools For Managing Multiple Websites.",
+    href: "docs/bucketlist/sitecore",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MartinMiles/Awesome-Sitecore",
+    github_repo: "https://github.com/MartinMiles/Awesome-Sitecore",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Silverstripe CMS",
+    description: "Php Mvc Framework That Serves As A Classic Or Headless Cms.",
+    href: "docs/bucketlist/silverstripe-cms",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wernerkrauss/awesome-silverstripe-cms",
+    github_repo: "https://github.com/wernerkrauss/awesome-silverstripe-cms",
+    items: [],
+  },
+  {
+    title: "Hardware - Robotics",
+    description: "No description available.",
+    href: "docs/bucketlist/robotics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Kiloreux/awesome-robotics",
+    github_repo: "https://github.com/Kiloreux/awesome-robotics",
+    items: [],
+  },
+  {
+    title: "Hardware - Internet of Things",
+    description: "No description available.",
+    href: "docs/bucketlist/internet-of-things",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/HQarroum/awesome-iot",
+    github_repo: "https://github.com/HQarroum/awesome-iot",
+    items: [],
+  },
+  {
+    title: "Hardware - Electronics",
+    description: "For Electronic Engineers And Hobbyists.",
+    href: "docs/bucketlist/electronics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kitspace/awesome-electronics",
+    github_repo: "https://github.com/kitspace/awesome-electronics",
+    items: [],
+  },
+  {
+    title: "Hardware - Bluetooth Beacons",
+    description: "No description available.",
+    href: "docs/bucketlist/bluetooth-beacons",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rabschi/awesome-beacon",
+    github_repo: "https://github.com/rabschi/awesome-beacon",
+    items: [],
+  },
+  {
+    title: "Hardware - Electric Guitar Specifications",
+    description: "Checklist For Building Your Own Electric Guitar.",
+    href: "docs/bucketlist/electric-guitar-specifications",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gitfrage/guitarspecs",
+    github_repo: "https://github.com/gitfrage/guitarspecs",
+    items: [],
+  },
+  {
+    title: "Hardware - Plotters",
+    description:
+      "Computer-Controlled Drawing Machines And Other Visual Art Robots.",
+    href: "docs/bucketlist/plotters",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/beardicus/awesome-plotters",
+    github_repo: "https://github.com/beardicus/awesome-plotters",
+    items: [],
+  },
+  {
+    title: "Hardware - Robotic Tooling",
+    description: "Free And Open Tools For Professional Robotic Development.",
+    href: "docs/bucketlist/robotic-tooling",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/protontypes/awesome-robotic-tooling",
+    github_repo: "https://github.com/protontypes/awesome-robotic-tooling",
+    items: [],
+  },
+  {
+    title: "Hardware - LIDAR",
+    description:
+      "Sensor For Measuring Distances By Illuminating The Target With Laser Light.",
+    href: "docs/bucketlist/lidar",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/szenergy/awesome-lidar",
+    github_repo: "https://github.com/szenergy/awesome-lidar",
+    items: [],
+  },
+  {
+    title: "Business - Open Companies",
+    description: "No description available.",
+    href: "docs/bucketlist/open-companies",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/opencompany/awesome-open-company",
+    github_repo: "https://github.com/opencompany/awesome-open-company",
+    items: [],
+  },
+  {
+    title: "Business - Places to Post Your Startup",
+    description: "No description available.",
+    href: "docs/bucketlist/places-to-post-your-startup",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mmccaff/PlacesToPostYourStartup",
+    github_repo: "https://github.com/mmccaff/PlacesToPostYourStartup",
+    items: [],
+  },
+  {
+    title: "Business - OKR Methodology",
+    description: "Goal Setting & Communication Best Practices.",
+    href: "docs/bucketlist/okr-methodology",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/domenicosolazzo/awesome-okr",
+    github_repo: "https://github.com/domenicosolazzo/awesome-okr",
+    items: [],
+  },
+  {
+    title: "Business - Leading and Managing",
+    description:
+      "Leading People And Being A Manager In A Technology Company/Environment.",
+    href: "docs/bucketlist/leading-and-managing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/LappleApple/awesome-leading-and-managing",
+    github_repo: "https://github.com/LappleApple/awesome-leading-and-managing",
+    items: [],
+  },
+  {
+    title: "Business - Indie",
+    description: "Independent Developer Businesses.",
+    href: "docs/bucketlist/indie",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mezod/awesome-indie",
+    github_repo: "https://github.com/mezod/awesome-indie",
+    items: [],
+  },
+  {
+    title: "Business - Tools of the Trade",
+    description: "Tools Used By Companies On Hacker News.",
+    href: "docs/bucketlist/tools-of-the-trade",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cjbarber/ToolsOfTheTrade",
+    github_repo: "https://github.com/cjbarber/ToolsOfTheTrade",
+    items: [],
+  },
+  {
+    title: "Business - Clean Tech",
+    description: "Fighting Climate Change With Technology.",
+    href: "docs/bucketlist/clean-tech",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nglgzz/awesome-clean-tech",
+    github_repo: "https://github.com/nglgzz/awesome-clean-tech",
+    items: [],
+  },
+  {
+    title: "Business - Wardley Maps",
+    description:
+      "Provides High Situational Awareness To Help Improve Strategic Planning And Decision Making.",
+    href: "docs/bucketlist/wardley-maps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wardley-maps-community/awesome-wardley-maps",
+    github_repo:
+      "https://github.com/wardley-maps-community/awesome-wardley-maps",
+    items: [],
+  },
+  {
+    title: "Business - Social Enterprise",
+    description:
+      "Building An Organization Primarily Focused On Social Impact That Is At Least Partially Self-Funded.",
+    href: "docs/bucketlist/social-enterprise",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RayBB/awesome-social-enterprise",
+    github_repo: "https://github.com/RayBB/awesome-social-enterprise",
+    items: [],
+  },
+  {
+    title: "Business - Engineering Team Management",
+    description:
+      "How To Transition From Software Development To Engineering Management.",
+    href: "docs/bucketlist/engineering-team-management",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kdeldycke/awesome-engineering-team-management",
+    github_repo:
+      "https://github.com/kdeldycke/awesome-engineering-team-management",
+    items: [],
+  },
+  {
+    title: "Work - Slack",
+    description: "Team Collaboration.",
+    href: "docs/bucketlist/slack",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matiassingers/awesome-slack",
+    github_repo: "https://github.com/matiassingers/awesome-slack",
+    items: [],
+  },
+  {
+    title: "Work - Communities",
+    description: "No description available.",
+    href: "docs/bucketlist/communities",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/filipelinhares/awesome-slack",
+    github_repo: "https://github.com/filipelinhares/awesome-slack",
+    items: [],
+  },
+  {
+    title: "Work - Remote Jobs",
+    description: "No description available.",
+    href: "docs/bucketlist/remote-jobs",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lukasz-madon/awesome-remote-job",
+    github_repo: "https://github.com/lukasz-madon/awesome-remote-job",
+    items: [],
+  },
+  {
+    title: "Work - Productivity",
+    description: "No description available.",
+    href: "docs/bucketlist/productivity",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jyguyomarch/awesome-productivity",
+    github_repo: "https://github.com/jyguyomarch/awesome-productivity",
+    items: [],
+  },
+  {
+    title: "Work - Niche Job Boards",
+    description: "No description available.",
+    href: "docs/bucketlist/niche-job-boards",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tramcar/awesome-job-boards",
+    github_repo: "https://github.com/tramcar/awesome-job-boards",
+    items: [],
+  },
+  {
+    title: "Work - Programming Interviews",
+    description: "No description available.",
+    href: "docs/bucketlist/programming-interviews",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MaximAbramchuck/awesome-interview-questions",
+    github_repo:
+      "https://github.com/MaximAbramchuck/awesome-interview-questions",
+    items: [],
+  },
+  {
+    title: "Work - Code Review",
+    description: "Reviewing Code.",
+    href: "docs/bucketlist/code-review",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/joho/awesome-code-review",
+    github_repo: "https://github.com/joho/awesome-code-review",
+    items: [],
+  },
+  {
+    title: "Work - Creative Technology",
+    description:
+      "Businesses & Groups That Specialize In Combining Computing, Design, Art, And User Experience.",
+    href: "docs/bucketlist/creative-technology",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/j0hnm4r5/awesome-creative-technology",
+    github_repo: "https://github.com/j0hnm4r5/awesome-creative-technology",
+    items: [],
+  },
+  {
+    title: "Networking - Software-Defined Networking",
+    description: "No description available.",
+    href: "docs/bucketlist/software-defined-networking",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdnds-tw/awesome-sdn",
+    github_repo: "https://github.com/sdnds-tw/awesome-sdn",
+    items: [],
+  },
+  {
+    title: "Networking - Network Analysis",
+    description: "No description available.",
+    href: "docs/bucketlist/network-analysis",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/briatte/awesome-network-analysis",
+    github_repo: "https://github.com/briatte/awesome-network-analysis",
+    items: [],
+  },
+  {
+    title: "Networking - PCAPTools",
+    description: "No description available.",
+    href: "docs/bucketlist/pcaptools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/caesar0301/awesome-pcaptools",
+    github_repo: "https://github.com/caesar0301/awesome-pcaptools",
+    items: [],
+  },
+  {
+    title: "Networking - Real-Time Communications",
+    description:
+      "Network Protocols For Near Simultaneous Exchange Of Media And Data.",
+    href: "docs/bucketlist/real-time-communications",
+    website_url: "https://awesome.digitalbunker.dev/awesome/rtckit/awesome-rtc",
+    github_repo: "https://github.com/rtckit/awesome-rtc",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Bitcoin",
+    description: "Bitcoin Services And Tools For Software Developers.",
+    href: "docs/bucketlist/bitcoin",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/igorbarinov/awesome-bitcoin",
+    github_repo: "https://github.com/igorbarinov/awesome-bitcoin",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Ripple",
+    description: "Open Source Distributed Settlement Network.",
+    href: "docs/bucketlist/ripple",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vhpoet/awesome-ripple",
+    github_repo: "https://github.com/vhpoet/awesome-ripple",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Non-Financial Blockchain",
+    description: "Non-Financial Blockchain Applications.",
+    href: "docs/bucketlist/non-financial-blockchain",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/machinomy/awesome-non-financial-blockchain",
+    github_repo:
+      "https://github.com/machinomy/awesome-non-financial-blockchain",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Mastodon",
+    description: "Open Source Decentralized Microblogging Network.",
+    href: "docs/bucketlist/mastodon",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tleb/awesome-mastodon",
+    github_repo: "https://github.com/tleb/awesome-mastodon",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Ethereum",
+    description:
+      "Distributed Computing Platform For Smart Contract Development.",
+    href: "docs/bucketlist/ethereum",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ttumiel/Awesome-Ethereum",
+    github_repo: "https://github.com/ttumiel/Awesome-Ethereum",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Blockchain AI",
+    description:
+      "Blockchain Projects For Artificial Intelligence And Machine Learning.",
+    href: "docs/bucketlist/blockchain-ai",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/steven2358/awesome-blockchain-ai",
+    github_repo: "https://github.com/steven2358/awesome-blockchain-ai",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - EOSIO",
+    description:
+      "A Decentralized Operating System Supporting Industrial-Scale Apps.",
+    href: "docs/bucketlist/eosio",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DanailMinchev/awesome-eosio",
+    github_repo: "https://github.com/DanailMinchev/awesome-eosio",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Corda",
+    description: "Open Source Blockchain Platform Designed For Business.",
+    href: "docs/bucketlist/corda",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chainstack/awesome-corda",
+    github_repo: "https://github.com/chainstack/awesome-corda",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Waves",
+    description:
+      "Open Source Blockchain Platform And Development Toolset For Web 3.0 Apps And Decentralized Solutions.",
+    href: "docs/bucketlist/waves",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/msmolyakov/awesome-waves",
+    github_repo: "https://github.com/msmolyakov/awesome-waves",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Substrate",
+    description:
+      "Framework For Writing Scalable, Upgradeable Blockchains In Rust.",
+    href: "docs/bucketlist/substrate",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/substrate-developer-hub/awesome-substrate",
+    github_repo: "https://github.com/substrate-developer-hub/awesome-substrate",
+    items: [],
+  },
+  {
+    title: "Higher Education - Computational Neuroscience",
+    description:
+      "A Multidisciplinary Science Which Uses Computational Approaches To Study The Nervous System.",
+    href: "docs/bucketlist/computational-neuroscience",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/eselkin/awesome-computational-neuroscience",
+    github_repo:
+      "https://github.com/eselkin/awesome-computational-neuroscience",
+    items: [],
+  },
+  {
+    title: "Higher Education - Digital History",
+    description: "Computer-Aided Scientific Investigation Of History.",
+    href: "docs/bucketlist/digital-history",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/maehr/awesome-digital-history",
+    github_repo: "https://github.com/maehr/awesome-digital-history",
+    items: [],
+  },
+  {
+    title: "Higher Education - Scientific Writing",
+    description:
+      "Distraction-Free Scientific Writing With Markdown, Restructuredtext And Jupyter Notebooks.",
+    href: "docs/bucketlist/scientific-writing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/writing-resources/awesome-scientific-writing",
+    github_repo:
+      "https://github.com/writing-resources/awesome-scientific-writing",
+    items: [],
+  },
+  {
+    title: "Higher Education - Sustainable Technology",
+    description:
+      "Open Technology Sustaining Stable Climate, Energy Supply, And Vital Natural Resources.",
+    href: "docs/bucketlist/sustainable-technology",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/protontypes/awesome-sustainable-technology",
+    github_repo:
+      "https://github.com/protontypes/awesome-sustainable-technology",
+    items: [],
+  },
+  {
+    title: "Events - Creative Tech Events",
+    description:
+      "Events Around The Globe For Creative Coding, Tech, Design, Music, Arts And Cool Stuff.",
+    href: "docs/bucketlist/creative-tech-events",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/danvoyce/awesome-creative-tech-events",
+    github_repo: "https://github.com/danvoyce/awesome-creative-tech-events",
+    items: [],
+  },
+  {
+    title: "Events - Events in Italy",
+    description: "Tech-Related Events In Italy.",
+    href: "docs/bucketlist/events-in-italy",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ildoc/awesome-italy-events",
+    github_repo: "https://github.com/ildoc/awesome-italy-events",
+    items: [],
+  },
+  {
+    title: "Events - Events in the Netherlands",
+    description: "Tech-Related Events In The Netherlands.",
+    href: "docs/bucketlist/events-in-the-netherlands",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awkward/awesome-netherlands-events",
+    github_repo: "https://github.com/awkward/awesome-netherlands-events",
+    items: [],
+  },
+  {
+    title: "Testing - Testing",
+    description: "Software Testing.",
+    href: "docs/bucketlist/testing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TheJambo/awesome-testing",
+    github_repo: "https://github.com/TheJambo/awesome-testing",
+    items: [],
+  },
+  {
+    title: "Testing - Visual Regression Testing",
+    description: "Ensures Changes Did Not Break The Functionality Or Style.",
+    href: "docs/bucketlist/visual-regression-testing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mojoaxel/awesome-regression-testing",
+    github_repo: "https://github.com/mojoaxel/awesome-regression-testing",
+    items: [],
+  },
+  {
+    title: "Testing - Selenium",
+    description: "Open-Source Browser Automation Framework And Ecosystem.",
+    href: "docs/bucketlist/selenium",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/christian-bromann/awesome-selenium",
+    github_repo: "https://github.com/christian-bromann/awesome-selenium",
+    items: [],
+  },
+  {
+    title: "Testing - Appium",
+    description: "Test Automation Tool For Apps.",
+    href: "docs/bucketlist/appium",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/SrinivasanTarget/awesome-appium",
+    github_repo: "https://github.com/SrinivasanTarget/awesome-appium",
+    items: [],
+  },
+  {
+    title: "Testing - TAP",
+    description: "Test Anything Protocol.",
+    href: "docs/bucketlist/tap",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-tap",
+    github_repo: "https://github.com/sindresorhus/awesome-tap",
+    items: [],
+  },
+  {
+    title: "Testing - JMeter",
+    description: "Load Testing And Performance Measurement Tool.",
+    href: "docs/bucketlist/jmeter",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aliesbelik/awesome-jmeter",
+    github_repo: "https://github.com/aliesbelik/awesome-jmeter",
+    items: [],
+  },
+  {
+    title: "Testing - k6",
+    description:
+      "Open-Source, Developer-Centric Performance Monitoring And Load Testing Solution.",
+    href: "docs/bucketlist/k6",
+    website_url: "https://awesome.digitalbunker.dev/awesome/k6io/awesome-k6",
+    github_repo: "https://github.com/k6io/awesome-k6",
+    items: [],
+  },
+  {
+    title: "Testing - Playwright",
+    description:
+      "Node.Js Library To Automate Chromium, Firefox And Webkit With A Single Api.",
+    href: "docs/bucketlist/playwright",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mxschmitt/awesome-playwright",
+    github_repo: "https://github.com/mxschmitt/awesome-playwright",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - JSON",
+    description: "Text Based Data Interchange Format.",
+    href: "docs/bucketlist/json",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/burningtree/awesome-json",
+    github_repo: "https://github.com/burningtree/awesome-json",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - GeoJSON",
+    description: "No description available.",
+    href: "docs/bucketlist/geojson",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tmcw/awesome-geojson",
+    github_repo: "https://github.com/tmcw/awesome-geojson",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Datasets",
+    description: "No description available.",
+    href: "docs/bucketlist/datasets",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jdorfman/awesome-json-datasets",
+    github_repo: "https://github.com/jdorfman/awesome-json-datasets",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - CSV",
+    description:
+      "A Text File Format That Stores Tabular Data And Uses A Comma To Separate Values.",
+    href: "docs/bucketlist/csv",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/secretGeek/awesomeCSV",
+    github_repo: "https://github.com/secretGeek/awesomeCSV",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Discounts for Student Developers",
+    description: "No description available.",
+    href: "docs/bucketlist/discounts-for-student-developers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AchoArnold/discount-for-student-dev",
+    github_repo: "https://github.com/AchoArnold/discount-for-student-dev",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Radio",
+    description: "No description available.",
+    href: "docs/bucketlist/radio",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kyleterry/awesome-radio",
+    github_repo: "https://github.com/kyleterry/awesome-radio",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Awesome",
+    description: "Recursion Illustrated.",
+    href: "docs/bucketlist/awesome",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome",
+    github_repo: "https://github.com/sindresorhus/awesome",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Analytics",
+    description: "No description available.",
+    href: "docs/bucketlist/analytics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/onurakpolat/awesome-analytics",
+    github_repo: "https://github.com/onurakpolat/awesome-analytics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - REST",
+    description: "No description available.",
+    href: "docs/bucketlist/rest",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/marmelab/awesome-rest",
+    github_repo: "https://github.com/marmelab/awesome-rest",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Continuous Integration and Continuous Delivery",
+    description: "No description available.",
+    href: "docs/bucketlist/continuous-integration-and-continuous-delivery",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cicdops/awesome-ciandcd",
+    github_repo: "https://github.com/cicdops/awesome-ciandcd",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Services Engineering",
+    description: "No description available.",
+    href: "docs/bucketlist/services-engineering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mmcgrana/services-engineering",
+    github_repo: "https://github.com/mmcgrana/services-engineering",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Free for Developers",
+    description: "No description available.",
+    href: "docs/bucketlist/free-for-developers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ripienaar/free-for-dev",
+    github_repo: "https://github.com/ripienaar/free-for-dev",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Answers",
+    description: "Stack Overflow, Quora, Etc.",
+    href: "docs/bucketlist/answers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cyberglot/awesome-answers",
+    github_repo: "https://github.com/cyberglot/awesome-answers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Sketch",
+    description: "Design App For Macos.",
+    href: "docs/bucketlist/sketch",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/diessica/awesome-sketch",
+    github_repo: "https://github.com/diessica/awesome-sketch",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Boilerplate Projects",
+    description: "No description available.",
+    href: "docs/bucketlist/boilerplate-projects",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/melvin0008/awesome-projects-boilerplates",
+    github_repo: "https://github.com/melvin0008/awesome-projects-boilerplates",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Readme",
+    description: "No description available.",
+    href: "docs/bucketlist/readme",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matiassingers/awesome-readme",
+    github_repo: "https://github.com/matiassingers/awesome-readme",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Design and Development Guides",
+    description: "No description available.",
+    href: "docs/bucketlist/design-and-development-guides",
+    website_url: "https://awesome.digitalbunker.dev/awesome/NARKOZ/guides",
+    github_repo: "https://github.com/NARKOZ/guides",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Engineering Blogs",
+    description: "No description available.",
+    href: "docs/bucketlist/software-engineering-blogs",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kilimchoi/engineering-blogs",
+    github_repo: "https://github.com/kilimchoi/engineering-blogs",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Self Hosted",
+    description: "No description available.",
+    href: "docs/bucketlist/self-hosted",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-selfhosted/awesome-selfhosted",
+    github_repo: "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - FOSS Production Apps",
+    description: "No description available.",
+    href: "docs/bucketlist/foss-production-apps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DataDaoDe/awesome-foss-apps",
+    github_repo: "https://github.com/DataDaoDe/awesome-foss-apps",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Gulp",
+    description: "Task Runner.",
+    href: "docs/bucketlist/gulp",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alferov/awesome-gulp",
+    github_repo: "https://github.com/alferov/awesome-gulp",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - AMA",
+    description: "Ask Me Anything.",
+    href: "docs/bucketlist/ama",
+    website_url: "https://awesome.digitalbunker.dev/awesome/sindresorhus/amas",
+    github_repo: "https://github.com/sindresorhus/amas",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Answers",
+    description: "No description available.",
+    href: "docs/bucketlist/answers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stoeffel/awesome-ama-answers",
+    github_repo: "https://github.com/stoeffel/awesome-ama-answers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Photography",
+    description: "No description available.",
+    href: "docs/bucketlist/open-source-photography",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ibaaj/awesome-OpenSourcePhotography",
+    github_repo: "https://github.com/ibaaj/awesome-OpenSourcePhotography",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - OpenGL",
+    description: "Cross-Platform Api For Rendering 2D And 3D Graphics.",
+    href: "docs/bucketlist/opengl",
+    website_url: "https://awesome.digitalbunker.dev/awesome/eug/awesome-opengl",
+    github_repo: "https://github.com/eug/awesome-opengl",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - GraphQL",
+    description: "No description available.",
+    href: "docs/bucketlist/graphql",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chentsulin/awesome-graphql",
+    github_repo: "https://github.com/chentsulin/awesome-graphql",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Transit",
+    description: "No description available.",
+    href: "docs/bucketlist/transit",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/CUTR-at-USF/awesome-transit",
+    github_repo: "https://github.com/CUTR-at-USF/awesome-transit",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Research Tools",
+    description: "No description available.",
+    href: "docs/bucketlist/research-tools",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/emptymalei/awesome-research",
+    github_repo: "https://github.com/emptymalei/awesome-research",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Data Visualization",
+    description: "No description available.",
+    href: "docs/bucketlist/data-visualization",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fasouto/awesome-dataviz",
+    github_repo: "https://github.com/fasouto/awesome-dataviz",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Microservices",
+    description: "No description available.",
+    href: "docs/bucketlist/microservices",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mfornos/awesome-microservices",
+    github_repo: "https://github.com/mfornos/awesome-microservices",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Unicode",
+    description: "Unicode Standards, Quirks, Packages And Resources.",
+    href: "docs/bucketlist/unicode",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Wisdom/Awesome-Unicode",
+    github_repo: "https://github.com/Wisdom/Awesome-Unicode",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Code Points",
+    description: "No description available.",
+    href: "docs/bucketlist/code-points",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Codepoints/awesome-codepoints",
+    github_repo: "https://github.com/Codepoints/awesome-codepoints",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Beginner-Friendly Projects",
+    description: "No description available.",
+    href: "docs/bucketlist/beginner-friendly-projects",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MunGell/awesome-for-beginners",
+    github_repo: "https://github.com/MunGell/awesome-for-beginners",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Katas",
+    description: "No description available.",
+    href: "docs/bucketlist/katas",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gamontal/awesome-katas",
+    github_repo: "https://github.com/gamontal/awesome-katas",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Tools for Activism",
+    description: "No description available.",
+    href: "docs/bucketlist/tools-for-activism",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/drewrwilson/toolsforactivism",
+    github_repo: "https://github.com/drewrwilson/toolsforactivism",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Citizen Science",
+    description: "For Community-Based And Non-Institutional Scientists.",
+    href: "docs/bucketlist/citizen-science",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dylanrees/citizen-science",
+    github_repo: "https://github.com/dylanrees/citizen-science",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - MQTT",
+    description: "Internet Of Things Connectivity Protocol.",
+    href: "docs/bucketlist/mqtt",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hobbyquaker/awesome-mqtt",
+    github_repo: "https://github.com/hobbyquaker/awesome-mqtt",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Hacking Spots",
+    description: "No description available.",
+    href: "docs/bucketlist/hacking-spots",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/daviddias/awesome-hacking-locations",
+    github_repo: "https://github.com/daviddias/awesome-hacking-locations",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - For Girls",
+    description: "No description available.",
+    href: "docs/bucketlist/for-girls",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cristianoliveira/awesome4girls",
+    github_repo: "https://github.com/cristianoliveira/awesome4girls",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Vorpal",
+    description: "Node.Js Cli Framework.",
+    href: "docs/bucketlist/vorpal",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vorpaljs/awesome-vorpal",
+    github_repo: "https://github.com/vorpaljs/awesome-vorpal",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Vulkan",
+    description: "Low-Overhead, Cross-Platform 3D Graphics And Compute Api.",
+    href: "docs/bucketlist/vulkan",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vinjn/awesome-vulkan",
+    github_repo: "https://github.com/vinjn/awesome-vulkan",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - LaTeX",
+    description: "Typesetting Language.",
+    href: "docs/bucketlist/latex",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/egeerardyn/awesome-LaTeX",
+    github_repo: "https://github.com/egeerardyn/awesome-LaTeX",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Economics",
+    description: "An Economist'S Starter Kit.",
+    href: "docs/bucketlist/economics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/antontarasenko/awesome-economics",
+    github_repo: "https://github.com/antontarasenko/awesome-economics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Funny Markov Chains",
+    description: "No description available.",
+    href: "docs/bucketlist/funny-markov-chains",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sublimino/awesome-funny-markov",
+    github_repo: "https://github.com/sublimino/awesome-funny-markov",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bioinformatics",
+    description: "No description available.",
+    href: "docs/bucketlist/bioinformatics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/danielecook/Awesome-Bioinformatics",
+    github_repo: "https://github.com/danielecook/Awesome-Bioinformatics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Cheminformatics",
+    description: "Informatics Techniques Applied To Problems In Chemistry.",
+    href: "docs/bucketlist/cheminformatics",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hsiaoyi0504/awesome-cheminformatics",
+    github_repo: "https://github.com/hsiaoyi0504/awesome-cheminformatics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Colorful",
+    description: "Choose Your Next Color Scheme.",
+    href: "docs/bucketlist/colorful",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Siddharth11/Colorful",
+    github_repo: "https://github.com/Siddharth11/Colorful",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Steam",
+    description: "Digital Distribution Platform.",
+    href: "docs/bucketlist/steam",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/scholtzm/awesome-steam",
+    github_repo: "https://github.com/scholtzm/awesome-steam",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bots",
+    description: "Building Bots.",
+    href: "docs/bucketlist/bots",
+    website_url: "https://awesome.digitalbunker.dev/awesome/hackerkid/bots",
+    github_repo: "https://github.com/hackerkid/bots",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Site Reliability Engineering",
+    description: "No description available.",
+    href: "docs/bucketlist/site-reliability-engineering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dastergon/awesome-sre",
+    github_repo: "https://github.com/dastergon/awesome-sre",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Empathy in Engineering",
+    description:
+      "Building And Promoting More Compassionate Engineering Cultures.",
+    href: "docs/bucketlist/empathy-in-engineering",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/KimberlyMunoz/empathy-in-engineering",
+    github_repo: "https://github.com/KimberlyMunoz/empathy-in-engineering",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - DTrace",
+    description: "Dynamic Tracing Framework.",
+    href: "docs/bucketlist/dtrace",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xen0l/awesome-dtrace",
+    github_repo: "https://github.com/xen0l/awesome-dtrace",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Userscripts",
+    description: "Enhance Your Browsing Experience.",
+    href: "docs/bucketlist/userscripts",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brunocvcunha/awesome-userscripts",
+    github_repo: "https://github.com/brunocvcunha/awesome-userscripts",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Pokémon",
+    description: "Pokémon And Pokémon Go.",
+    href: "docs/bucketlist/pokémon",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tobiasbueschel/awesome-pokemon",
+    github_repo: "https://github.com/tobiasbueschel/awesome-pokemon",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - ChatOps",
+    description: "Managing Technical And Business Operations Through A Chat.",
+    href: "docs/bucketlist/chatops",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/exAspArk/awesome-chatops",
+    github_repo: "https://github.com/exAspArk/awesome-chatops",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Falsehood",
+    description: "Falsehoods Programmers Believe In.",
+    href: "docs/bucketlist/falsehood",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kdeldycke/awesome-falsehood",
+    github_repo: "https://github.com/kdeldycke/awesome-falsehood",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Domain-Driven Design",
+    description:
+      "Software Development Approach For Complex Needs By Connecting The Implementation To An Evolving Model.",
+    href: "docs/bucketlist/domain-driven-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/heynickc/awesome-ddd",
+    github_repo: "https://github.com/heynickc/awesome-ddd",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Quantified Self",
+    description: "Self-Tracking Through Technology.",
+    href: "docs/bucketlist/quantified-self",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/woop/awesome-quantified-self",
+    github_repo: "https://github.com/woop/awesome-quantified-self",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - SaltStack",
+    description: "Python-Based Config Management System.",
+    href: "docs/bucketlist/saltstack",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hbokh/awesome-saltstack",
+    github_repo: "https://github.com/hbokh/awesome-saltstack",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Design",
+    description: "For Digital Designers.",
+    href: "docs/bucketlist/web-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nicolesaidy/awesome-web-design",
+    github_repo: "https://github.com/nicolesaidy/awesome-web-design",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Creative Coding",
+    description:
+      "Programming Something Expressive Instead Of Something Functional.",
+    href: "docs/bucketlist/creative-coding",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/terkelg/awesome-creative-coding",
+    github_repo: "https://github.com/terkelg/awesome-creative-coding",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - No-Login Web Apps",
+    description: "Web Apps That Work Without Login.",
+    href: "docs/bucketlist/no-login-web-apps",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aviaryan/awesome-no-login-web-apps",
+    github_repo: "https://github.com/aviaryan/awesome-no-login-web-apps",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Free Software",
+    description: "Free As In Freedom.",
+    href: "docs/bucketlist/free-software",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-free-software",
+    github_repo: "https://github.com/johnjago/awesome-free-software",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Framer",
+    description: "Prototyping Interactive Ui Designs.",
+    href: "docs/bucketlist/framer",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/podo/awesome-framer",
+    github_repo: "https://github.com/podo/awesome-framer",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Markdown",
+    description: "Markup Language.",
+    href: "docs/bucketlist/markdown",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/BubuAnabelas/awesome-markdown",
+    github_repo: "https://github.com/BubuAnabelas/awesome-markdown",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Dev Fun",
+    description: "Funny Developer Projects.",
+    href: "docs/bucketlist/dev-fun",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mislavcimpersak/awesome-dev-fun",
+    github_repo: "https://github.com/mislavcimpersak/awesome-dev-fun",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Healthcare",
+    description:
+      "Open Source Healthcare Software For Facilities, Providers, Developers, Policy Experts, And Researchers.",
+    href: "docs/bucketlist/healthcare",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kakoni/awesome-healthcare",
+    github_repo: "https://github.com/kakoni/awesome-healthcare",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Magento 2",
+    description: "Open Source Ecommerce Built With Php.",
+    href: "docs/bucketlist/magento-2",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DavidLambauer/awesome-magento2",
+    github_repo: "https://github.com/DavidLambauer/awesome-magento2",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - TikZ",
+    description: "Graph Drawing Packages For Tex/Latex/Context.",
+    href: "docs/bucketlist/tikz",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xiaohanyu/awesome-tikz",
+    github_repo: "https://github.com/xiaohanyu/awesome-tikz",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Neuroscience",
+    description: "Study Of The Nervous System And Brain.",
+    href: "docs/bucketlist/neuroscience",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/analyticalmonk/awesome-neuroscience",
+    github_repo: "https://github.com/analyticalmonk/awesome-neuroscience",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ad-Free",
+    description: "Ad-Free Alternatives.",
+    href: "docs/bucketlist/ad-free",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-ad-free",
+    github_repo: "https://github.com/johnjago/awesome-ad-free",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Esolangs",
+    description:
+      "Programming Languages Designed For Experimentation Or As Jokes Rather Than Actual Use.",
+    href: "docs/bucketlist/esolangs",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/angrykoala/awesome-esolangs",
+    github_repo: "https://github.com/angrykoala/awesome-esolangs",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Prometheus",
+    description: "Open-Source Monitoring System.",
+    href: "docs/bucketlist/prometheus",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/roaldnefs/awesome-prometheus",
+    github_repo: "https://github.com/roaldnefs/awesome-prometheus",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Homematic",
+    description: "Smart Home Devices.",
+    href: "docs/bucketlist/homematic",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/homematic-community/awesome-homematic",
+    github_repo: "https://github.com/homematic-community/awesome-homematic",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ledger",
+    description: "Double-Entry Accounting On The Command-Line.",
+    href: "docs/bucketlist/ledger",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sfischer13/awesome-ledger",
+    github_repo: "https://github.com/sfischer13/awesome-ledger",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Monetization",
+    description:
+      "A Free Open Web Standard Service That Allows You To Send Money Directly In Your Browser.",
+    href: "docs/bucketlist/web-monetization",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/thomasbnt/awesome-web-monetization",
+    github_repo: "https://github.com/thomasbnt/awesome-web-monetization",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Uncopyright",
+    description: "Public Domain Works.",
+    href: "docs/bucketlist/uncopyright",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-uncopyright",
+    github_repo: "https://github.com/johnjago/awesome-uncopyright",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Crypto Currency Tools & Algorithms",
+    description:
+      "Digital Currency Where Encryption Is Used To Regulate The Generation Of Units And Verify Transfers.",
+    href: "docs/bucketlist/crypto-currency-tools-&-algorithms",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Zheaoli/awesome-coins",
+    github_repo: "https://github.com/Zheaoli/awesome-coins",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Diversity",
+    description: "Creating A More Inclusive And Diverse Tech Community.",
+    href: "docs/bucketlist/diversity",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/folkswhocode/awesome-diversity",
+    github_repo: "https://github.com/folkswhocode/awesome-diversity",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Supporters",
+    description:
+      "Companies That Offer Their Tools And Services For Free To Open Source Projects.",
+    href: "docs/bucketlist/open-source-supporters",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zachflower/awesome-open-source-supporters",
+    github_repo: "https://github.com/zachflower/awesome-open-source-supporters",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Design Principles",
+    description: "Create Better And More Consistent Designs And Experiences.",
+    href: "docs/bucketlist/design-principles",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/robinstickel/awesome-design-principles",
+    github_repo: "https://github.com/robinstickel/awesome-design-principles",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Theravada",
+    description: "Teachings From The Theravada Buddhist Tradition.",
+    href: "docs/bucketlist/theravada",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-theravada",
+    github_repo: "https://github.com/johnjago/awesome-theravada",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - inspectIT",
+    description: "Open Source Java App Performance Management Tool.",
+    href: "docs/bucketlist/inspectit",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/inspectit-labs/awesome-inspectit",
+    github_repo: "https://github.com/inspectit-labs/awesome-inspectit",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Maintainers",
+    description: "The Experience Of Being An Open Source Maintainer.",
+    href: "docs/bucketlist/open-source-maintainers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nayafia/awesome-maintainers",
+    github_repo: "https://github.com/nayafia/awesome-maintainers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Calculators",
+    description: "Calculators For Every Platform.",
+    href: "docs/bucketlist/calculators",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xxczaki/awesome-calculators",
+    github_repo: "https://github.com/xxczaki/awesome-calculators",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Captcha",
+    description:
+      "A Type Of Challenge–Response Test Used In Computing To Determine Whether Or Not The User Is Human.",
+    href: "docs/bucketlist/captcha",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ZYSzys/awesome-captcha",
+    github_repo: "https://github.com/ZYSzys/awesome-captcha",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Jupyter",
+    description:
+      "Create And Share Documents That Contain Code, Equations, Visualizations And Narrative Text.",
+    href: "docs/bucketlist/jupyter",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/markusschanta/awesome-jupyter",
+    github_repo: "https://github.com/markusschanta/awesome-jupyter",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - FIRST Robotics Competition",
+    description: "International High School Robotics Championship.",
+    href: "docs/bucketlist/first-robotics-competition",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/andrewda/awesome-frc",
+    github_repo: "https://github.com/andrewda/awesome-frc",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Humane Technology",
+    description: "Open Source Projects That Help Improve Society.",
+    href: "docs/bucketlist/humane-technology",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/humanetech-community/awesome-humane-tech",
+    github_repo: "https://github.com/humanetech-community/awesome-humane-tech",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Speakers",
+    description:
+      "Conference And Meetup Speakers In The Programming And Design Community.",
+    href: "docs/bucketlist/speakers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/karlhorky/awesome-speakers",
+    github_repo: "https://github.com/karlhorky/awesome-speakers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Board Games",
+    description: "Table-Top Gaming Fun For All.",
+    href: "docs/bucketlist/board-games",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/edm00se/awesome-board-games",
+    github_repo: "https://github.com/edm00se/awesome-board-games",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Patreons",
+    description:
+      "Fund Individual Programmers Or The Development Of Open Source Projects.",
+    href: "docs/bucketlist/software-patreons",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/uraimo/awesome-software-patreons",
+    github_repo: "https://github.com/uraimo/awesome-software-patreons",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Parasite",
+    description: "Parasites And Host-Pathogen Interactions.",
+    href: "docs/bucketlist/parasite",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ecohealthalliance/awesome-parasite",
+    github_repo: "https://github.com/ecohealthalliance/awesome-parasite",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Food",
+    description: "Food-Related Projects On Github.",
+    href: "docs/bucketlist/food",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jzarca01/awesome-food",
+    github_repo: "https://github.com/jzarca01/awesome-food",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Mental Health",
+    description:
+      "Mental Health Awareness And Self-Care In The Software Industry.",
+    href: "docs/bucketlist/mental-health",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dreamingechoes/awesome-mental-health",
+    github_repo: "https://github.com/dreamingechoes/awesome-mental-health",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bitcoin Payment Processors",
+    description: "Start Accepting Bitcoin.",
+    href: "docs/bucketlist/bitcoin-payment-processors",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alexk111/awesome-bitcoin-payment-processors",
+    github_repo:
+      "https://github.com/alexk111/awesome-bitcoin-payment-processors",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Scientific Computing",
+    description: "Solving Complex Scientific Problems Using Computers.",
+    href: "docs/bucketlist/scientific-computing",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nschloe/awesome-scientific-computing",
+    github_repo: "https://github.com/nschloe/awesome-scientific-computing",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Amazon Sellers",
+    description: "No description available.",
+    href: "docs/bucketlist/amazon-sellers",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ScaleLeap/awesome-amazon-seller",
+    github_repo: "https://github.com/ScaleLeap/awesome-amazon-seller",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Agriculture",
+    description: "Open Source Technology For Farming And Gardening.",
+    href: "docs/bucketlist/agriculture",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/beaorn/awesome-agriculture",
+    github_repo: "https://github.com/beaorn/awesome-agriculture",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Product Design",
+    description: "Design A Product From The Initial Concept To Production.",
+    href: "docs/bucketlist/product-design",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/teoga/awesome-product-design",
+    github_repo: "https://github.com/teoga/awesome-product-design",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Prisma",
+    description: "Turn Your Database Into A Graphql Api.",
+    href: "docs/bucketlist/prisma",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/catalinmiron/awesome-prisma",
+    github_repo: "https://github.com/catalinmiron/awesome-prisma",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Architecture",
+    description: "The Discipline Of Designing And Building Software.",
+    href: "docs/bucketlist/software-architecture",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/simskij/awesome-software-architecture",
+    github_repo: "https://github.com/simskij/awesome-software-architecture",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Connectivity Data and Reports",
+    description:
+      "Better Understand Who Has Access To Telecommunication And Internet Infrastructure And On What Terms.",
+    href: "docs/bucketlist/connectivity-data-and-reports",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stevesong/awesome-connectivity-info",
+    github_repo: "https://github.com/stevesong/awesome-connectivity-info",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Stacks",
+    description: "Tech Stacks For Building Different Apps And Features.",
+    href: "docs/bucketlist/stacks",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stackshareio/awesome-stacks",
+    github_repo: "https://github.com/stackshareio/awesome-stacks",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Cytodata",
+    description:
+      "Image-Based Profiling Of Biological Phenotypes For Computational Biologists.",
+    href: "docs/bucketlist/cytodata",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cytodata/awesome-cytodata",
+    github_repo: "https://github.com/cytodata/awesome-cytodata",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - IRC",
+    description: "Open Source Messaging Protocol.",
+    href: "docs/bucketlist/irc",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davisonio/awesome-irc",
+    github_repo: "https://github.com/davisonio/awesome-irc",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Advertising",
+    description: "Advertising And Programmatic Media For Websites.",
+    href: "docs/bucketlist/advertising",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cenoura/awesome-ads",
+    github_repo: "https://github.com/cenoura/awesome-ads",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Earth",
+    description: "Find Ways To Resolve The Climate Crisis.",
+    href: "docs/bucketlist/earth",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/philsturgeon/awesome-earth",
+    github_repo: "https://github.com/philsturgeon/awesome-earth",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Naming",
+    description: "Naming Things In Computer Science Done Right.",
+    href: "docs/bucketlist/naming",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gruhn/awesome-naming",
+    github_repo: "https://github.com/gruhn/awesome-naming",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Biomedical Information Extraction",
+    description:
+      "How To Extract Information From Unstructured Biomedical Data And Text.",
+    href: "docs/bucketlist/biomedical-information-extraction",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/caufieldjh/awesome-bioie",
+    github_repo: "https://github.com/caufieldjh/awesome-bioie",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Archiving",
+    description: "An Effort To Preserve The Web For Future Generations.",
+    href: "docs/bucketlist/web-archiving",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iipc/awesome-web-archiving",
+    github_repo: "https://github.com/iipc/awesome-web-archiving",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - WP-CLI",
+    description: "Command-Line Interface For Wordpress.",
+    href: "docs/bucketlist/wp-cli",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/schlessera/awesome-wp-cli",
+    github_repo: "https://github.com/schlessera/awesome-wp-cli",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Credit Modeling",
+    description: "Methods For Classifying Credit Applicants Into Risk Classes.",
+    href: "docs/bucketlist/credit-modeling",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mourarthur/awesome-credit-modeling",
+    github_repo: "https://github.com/mourarthur/awesome-credit-modeling",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ansible",
+    description:
+      "A Python-Based, Open Source It Configuration Management And Automation Platform.",
+    href: "docs/bucketlist/ansible",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/KeyboardInterrupt/awesome-ansible",
+    github_repo: "https://github.com/KeyboardInterrupt/awesome-ansible",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Biological Visualizations",
+    description: "Interactive Visualization Of Biological Data On The Web.",
+    href: "docs/bucketlist/biological-visualizations",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/keller-mark/awesome-biological-visualizations",
+    github_repo:
+      "https://github.com/keller-mark/awesome-biological-visualizations",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Veganism",
+    description: "Making The Plant-Based Lifestyle Easy And Accessible.",
+    href: "docs/bucketlist/veganism",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdassow/awesome-veganism",
+    github_repo: "https://github.com/sdassow/awesome-veganism",
+    items: [],
+  },
+]
+let bucket_lists = [
+  {
+    title: "Platforms - Node.js",
+    href: "docs/bucketlist/node.js",
+    description:
+      "Async Non-Blocking Event-Driven Javascript Runtime Built On Chrome'S V8 Javascript Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-nodejs",
+    github_repo: "https://github.com/sindresorhus/awesome-nodejs",
+    items: [],
+  },
+  {
+    title: "Platforms - Cross-Platform",
+    href: "docs/bucketlist/cross-platform",
+    description: "Writing Cross-Platform Code On Node.Js.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bcoe/awesome-cross-platform-nodejs",
+    github_repo: "https://github.com/bcoe/awesome-cross-platform-nodejs",
+    items: [],
+  },
+  {
+    title: "Platforms - Frontend Development",
+    href: "docs/bucketlist/frontend-development",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dypsilon/frontend-dev-bookmarks",
+    github_repo: "https://github.com/dypsilon/frontend-dev-bookmarks",
+    items: [],
+  },
+  {
+    title: "Platforms - iOS",
+    href: "docs/bucketlist/ios",
+    description: "Mobile Operating System For Apple Phones And Tablets.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/vsouza/awesome-ios",
+    github_repo: "https://github.com/vsouza/awesome-ios",
+    items: [],
+  },
+  {
+    title: "Platforms - Android",
+    href: "docs/bucketlist/android",
+    description: "Mobile Operating System Developed By Google.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/JStumpp/awesome-android",
+    github_repo: "https://github.com/JStumpp/awesome-android",
+    items: [],
+  },
+  {
+    title: "Platforms - IoT & Hybrid Apps",
+    href: "docs/bucketlist/iot-&-hybrid-apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/weblancaster/awesome-IoT-hybrid",
+    github_repo: "https://github.com/weblancaster/awesome-IoT-hybrid",
+    items: [],
+  },
+  {
+    title: "Platforms - Electron",
+    href: "docs/bucketlist/electron",
+    description:
+      "Cross-Platform Native Desktop Apps Using Javascript/Html/Css.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-electron",
+    github_repo: "https://github.com/sindresorhus/awesome-electron",
+    items: [],
+  },
+  {
+    title: "Platforms - Cordova",
+    href: "docs/bucketlist/cordova",
+    description: "Javascript Api For Hybrid Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/busterc/awesome-cordova",
+    github_repo: "https://github.com/busterc/awesome-cordova",
+    items: [],
+  },
+  {
+    title: "Platforms - React Native",
+    href: "docs/bucketlist/react-native",
+    description:
+      "Javascript Framework For Writing Natively Rendering Mobile Apps For Ios And Android.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jondot/awesome-react-native",
+    github_repo: "https://github.com/jondot/awesome-react-native",
+    items: [],
+  },
+  {
+    title: "Platforms - Xamarin",
+    href: "docs/bucketlist/xamarin",
+    description: "Mobile App Development Ide, Testing, And Distribution.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/XamSome/awesome-xamarin",
+    github_repo: "https://github.com/XamSome/awesome-xamarin",
+    items: [],
+  },
+  {
+    title: "Platforms - Linux",
+    href: "docs/bucketlist/linux",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aleksandar-todorovic/awesome-linux",
+    github_repo: "https://github.com/aleksandar-todorovic/awesome-linux",
+    items: [],
+  },
+  {
+    title: "Platforms - Containers",
+    href: "docs/bucketlist/containers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Friz-zy/awesome-linux-containers",
+    github_repo: "https://github.com/Friz-zy/awesome-linux-containers",
+    items: [],
+  },
+  {
+    title: "Platforms - eBPF",
+    href: "docs/bucketlist/ebpf",
+    description:
+      "Virtual Machine That Allows You To Write More Efficient And Powerful Tracing And Monitoring For Linux Systems.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zoidbergwill/awesome-ebpf",
+    github_repo: "https://github.com/zoidbergwill/awesome-ebpf",
+    items: [],
+  },
+  {
+    title: "Platforms - Arch-based Projects",
+    href: "docs/bucketlist/arch-based-projects",
+    description: "Linux Distributions And Projects Based On Arch Linux.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PandaFoss/Awesome-Arch",
+    github_repo: "https://github.com/PandaFoss/Awesome-Arch",
+    items: [],
+  },
+  {
+    title: "Platforms - macOS",
+    href: "docs/bucketlist/macos",
+    description: "Operating System For Apple'S Mac Computers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iCHAIT/awesome-macOS",
+    github_repo: "https://github.com/iCHAIT/awesome-macOS",
+    items: [],
+  },
+  {
+    title: "Platforms - Command-Line",
+    href: "docs/bucketlist/command-line",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/herrbischoff/awesome-macos-command-line",
+    github_repo: "https://github.com/herrbischoff/awesome-macos-command-line",
+    items: [],
+  },
+  {
+    title: "Platforms - Screensavers",
+    href: "docs/bucketlist/screensavers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agarrharr/awesome-macos-screensavers",
+    github_repo: "https://github.com/agarrharr/awesome-macos-screensavers",
+    items: [],
+  },
+  {
+    title: "Platforms - Apps",
+    href: "docs/bucketlist/apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jaywcjlove/awesome-mac",
+    github_repo: "https://github.com/jaywcjlove/awesome-mac",
+    items: [],
+  },
+  {
+    title: "Platforms - Open Source Apps",
+    href: "docs/bucketlist/open-source-apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/serhii-londar/open-source-mac-os-apps",
+    github_repo: "https://github.com/serhii-londar/open-source-mac-os-apps",
+    items: [],
+  },
+  {
+    title: "Platforms - watchOS",
+    href: "docs/bucketlist/watchos",
+    description: "Operating System For The Apple Watch.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/yenchenlin/awesome-watchos",
+    github_repo: "https://github.com/yenchenlin/awesome-watchos",
+    items: [],
+  },
+  {
+    title: "Platforms - JVM",
+    href: "docs/bucketlist/jvm",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/deephacks/awesome-jvm",
+    github_repo: "https://github.com/deephacks/awesome-jvm",
+    items: [],
+  },
+  {
+    title: "Platforms - Salesforce",
+    href: "docs/bucketlist/salesforce",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mailtoharshit/awesome-salesforce",
+    github_repo: "https://github.com/mailtoharshit/awesome-salesforce",
+    items: [],
+  },
+  {
+    title: "Platforms - Amazon Web Services",
+    href: "docs/bucketlist/amazon-web-services",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/donnemartin/awesome-aws",
+    github_repo: "https://github.com/donnemartin/awesome-aws",
+    items: [],
+  },
+  {
+    title: "Platforms - Windows",
+    href: "docs/bucketlist/windows",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Awesome-Windows/Awesome",
+    github_repo: "https://github.com/Awesome-Windows/Awesome",
+    items: [],
+  },
+  {
+    title: "Platforms - IPFS",
+    href: "docs/bucketlist/ipfs",
+    description: "P2P Hypermedia Protocol.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/ipfs/awesome-ipfs",
+    github_repo: "https://github.com/ipfs/awesome-ipfs",
+    items: [],
+  },
+  {
+    title: "Platforms - Fuse",
+    href: "docs/bucketlist/fuse",
+    description: "Mobile Development Tools.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fuse-compound/awesome-fuse",
+    github_repo: "https://github.com/fuse-compound/awesome-fuse",
+    items: [],
+  },
+  {
+    title: "Platforms - Heroku",
+    href: "docs/bucketlist/heroku",
+    description: "Cloud Platform As A Service.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ianstormtaylor/awesome-heroku",
+    github_repo: "https://github.com/ianstormtaylor/awesome-heroku",
+    items: [],
+  },
+  {
+    title: "Platforms - Raspberry Pi",
+    href: "docs/bucketlist/raspberry-pi",
+    description:
+      "Credit Card-Sized Computer Aimed At Teaching Kids Programming, But Capable Of A Lot More.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/thibmaek/awesome-raspberry-pi",
+    github_repo: "https://github.com/thibmaek/awesome-raspberry-pi",
+    items: [],
+  },
+  {
+    title: "Platforms - Qt",
+    href: "docs/bucketlist/qt",
+    description: "Cross-Platform Gui App Framework.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/JesseTG/awesome-qt",
+    github_repo: "https://github.com/JesseTG/awesome-qt",
+    items: [],
+  },
+  {
+    title: "Platforms - WebExtensions",
+    href: "docs/bucketlist/webextensions",
+    description: "Cross-Browser Extension System.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fregante/Awesome-WebExtensions",
+    github_repo: "https://github.com/fregante/Awesome-WebExtensions",
+    items: [],
+  },
+  {
+    title: "Platforms - RubyMotion",
+    href: "docs/bucketlist/rubymotion",
+    description:
+      "Write Cross-Platform Native Apps For Ios, Android, Macos, Tvos, And Watchos In Ruby.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/motion-open-source/awesome-rubymotion",
+    github_repo: "https://github.com/motion-open-source/awesome-rubymotion",
+    items: [],
+  },
+  {
+    title: "Platforms - Smart TV",
+    href: "docs/bucketlist/smart-tv",
+    description: "Create Apps For Different Tv Platforms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vitalets/awesome-smart-tv",
+    github_repo: "https://github.com/vitalets/awesome-smart-tv",
+    items: [],
+  },
+  {
+    title: "Platforms - GNOME",
+    href: "docs/bucketlist/gnome",
+    description: "Simple And Distraction-Free Desktop Environment For Linux.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Kazhnuz/awesome-gnome",
+    github_repo: "https://github.com/Kazhnuz/awesome-gnome",
+    items: [],
+  },
+  {
+    title: "Platforms - KDE",
+    href: "docs/bucketlist/kde",
+    description:
+      "A Free Software Community Dedicated To Creating An Open And User-Friendly Computing Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/francoism90/awesome-kde",
+    github_repo: "https://github.com/francoism90/awesome-kde",
+    items: [],
+  },
+  {
+    title: "Platforms - .NET",
+    href: "docs/bucketlist/.net",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/quozd/awesome-dotnet",
+    github_repo: "https://github.com/quozd/awesome-dotnet",
+    items: [],
+  },
+  {
+    title: "Platforms - Core",
+    href: "docs/bucketlist/core",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/thangchung/awesome-dotnet-core",
+    github_repo: "https://github.com/thangchung/awesome-dotnet-core",
+    items: [],
+  },
+  {
+    title: "Platforms - Roslyn",
+    href: "docs/bucketlist/roslyn",
+    description:
+      "Open-Source Compilers And Code Analysis Apis For C# And Vb.Net Languages.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ironcev/awesome-roslyn",
+    github_repo: "https://github.com/ironcev/awesome-roslyn",
+    items: [],
+  },
+  {
+    title: "Platforms - Amazon Alexa",
+    href: "docs/bucketlist/amazon-alexa",
+    description: "Virtual Home Assistant.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/miguelmota/awesome-amazon-alexa",
+    github_repo: "https://github.com/miguelmota/awesome-amazon-alexa",
+    items: [],
+  },
+  {
+    title: "Platforms - DigitalOcean",
+    href: "docs/bucketlist/digitalocean",
+    description: "Cloud Computing Platform Designed For Developers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jonleibowitz/awesome-digitalocean",
+    github_repo: "https://github.com/jonleibowitz/awesome-digitalocean",
+    items: [],
+  },
+  {
+    title: "Platforms - Flutter",
+    href: "docs/bucketlist/flutter",
+    description:
+      "Google'S Mobile Sdk For Building Native Ios And Android Apps From A Single Codebase Written In Dart.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Solido/awesome-flutter",
+    github_repo: "https://github.com/Solido/awesome-flutter",
+    items: [],
+  },
+  {
+    title: "Platforms - Home Assistant",
+    href: "docs/bucketlist/home-assistant",
+    description:
+      "Open Source Home Automation That Puts Local Control And Privacy First.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/frenck/awesome-home-assistant",
+    github_repo: "https://github.com/frenck/awesome-home-assistant",
+    items: [],
+  },
+  {
+    title: "Platforms - IBM Cloud",
+    href: "docs/bucketlist/ibm-cloud",
+    description: "Cloud Platform For Developers And Companies.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/victorshinya/awesome-ibmcloud",
+    github_repo: "https://github.com/victorshinya/awesome-ibmcloud",
+    items: [],
+  },
+  {
+    title: "Platforms - Firebase",
+    href: "docs/bucketlist/firebase",
+    description: "App Development Platform Built On Google Cloud Platform.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jthegedus/awesome-firebase",
+    github_repo: "https://github.com/jthegedus/awesome-firebase",
+    items: [],
+  },
+  {
+    title: "Platforms - Robot Operating System 2.0",
+    href: "docs/bucketlist/robot-operating-system-2.0",
+    description:
+      "Set Of Software Libraries And Tools That Help You Build Robot Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fkromer/awesome-ros2",
+    github_repo: "https://github.com/fkromer/awesome-ros2",
+    items: [],
+  },
+  {
+    title: "Platforms - Adafruit IO",
+    href: "docs/bucketlist/adafruit-io",
+    description: "Visualize And Store Data From Any Device.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/adafruit/awesome-adafruitio",
+    github_repo: "https://github.com/adafruit/awesome-adafruitio",
+    items: [],
+  },
+  {
+    title: "Platforms - Cloudflare",
+    href: "docs/bucketlist/cloudflare",
+    description: "Cdn, Dns, Ddos Protection, And Security For Your Site.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/irazasyed/awesome-cloudflare",
+    github_repo: "https://github.com/irazasyed/awesome-cloudflare",
+    items: [],
+  },
+  {
+    title: "Platforms - Actions on Google",
+    href: "docs/bucketlist/actions-on-google",
+    description: "Developer Platform For Google Assistant.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ravirupareliya/awesome-actions-on-google",
+    github_repo: "https://github.com/ravirupareliya/awesome-actions-on-google",
+    items: [],
+  },
+  {
+    title: "Platforms - ESP",
+    href: "docs/bucketlist/esp",
+    description:
+      "Low-Cost Microcontrollers With Wifi And Broad Iot Applications.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agucova/awesome-esp",
+    github_repo: "https://github.com/agucova/awesome-esp",
+    items: [],
+  },
+  {
+    title: "Platforms - Deno",
+    href: "docs/bucketlist/deno",
+    description:
+      "A Secure Runtime For Javascript And Typescript That Uses V8 And Is Built In Rust.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/denolib/awesome-deno",
+    github_repo: "https://github.com/denolib/awesome-deno",
+    items: [],
+  },
+  {
+    title: "Platforms - DOS",
+    href: "docs/bucketlist/dos",
+    description:
+      "Operating System For X86-Based Personal Computers That Was Popular During The 1980S And Early 1990S.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/balintkissdev/awesome-dos",
+    github_repo: "https://github.com/balintkissdev/awesome-dos",
+    items: [],
+  },
+  {
+    title: "Programming Languages - JavaScript",
+    href: "docs/bucketlist/javascript",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sorrycc/awesome-javascript",
+    github_repo: "https://github.com/sorrycc/awesome-javascript",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Promises",
+    href: "docs/bucketlist/promises",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wbinnssmith/awesome-promises",
+    github_repo: "https://github.com/wbinnssmith/awesome-promises",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Standard Style",
+    href: "docs/bucketlist/standard-style",
+    description: "Style Guide And Linter.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/standard/awesome-standard",
+    github_repo: "https://github.com/standard/awesome-standard",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Must Watch Talks",
+    href: "docs/bucketlist/must-watch-talks",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bolshchikov/js-must-watch",
+    github_repo: "https://github.com/bolshchikov/js-must-watch",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Tips",
+    href: "docs/bucketlist/tips",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/loverajoel/jstips",
+    github_repo: "https://github.com/loverajoel/jstips",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Network Layer",
+    href: "docs/bucketlist/network-layer",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Kikobeats/awesome-network-js",
+    github_repo: "https://github.com/Kikobeats/awesome-network-js",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Micro npm Packages",
+    href: "docs/bucketlist/micro-npm-packages",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/parro-it/awesome-micro-npm-packages",
+    github_repo: "https://github.com/parro-it/awesome-micro-npm-packages",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Mad Science npm Packages",
+    href: "docs/bucketlist/mad-science-npm-packages",
+    description: "Impossible Sounding Projects That Exist.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/feross/awesome-mad-science",
+    github_repo: "https://github.com/feross/awesome-mad-science",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Maintenance Modules",
+    href: "docs/bucketlist/maintenance-modules",
+    description: "For Npm Packages.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/maxogden/maintenance-modules",
+    github_repo: "https://github.com/maxogden/maintenance-modules",
+    items: [],
+  },
+  {
+    title: "Programming Languages - npm",
+    href: "docs/bucketlist/npm",
+    description: "Package Manager.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-npm",
+    github_repo: "https://github.com/sindresorhus/awesome-npm",
+    items: [],
+  },
+  {
+    title: "Programming Languages - AVA",
+    href: "docs/bucketlist/ava",
+    description: "Test Runner.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/avajs/awesome-ava",
+    github_repo: "https://github.com/avajs/awesome-ava",
+    items: [],
+  },
+  {
+    title: "Programming Languages - ESLint",
+    href: "docs/bucketlist/eslint",
+    description: "Linter.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dustinspecker/awesome-eslint",
+    github_repo: "https://github.com/dustinspecker/awesome-eslint",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Functional Programming",
+    href: "docs/bucketlist/functional-programming",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stoeffel/awesome-fp-js",
+    github_repo: "https://github.com/stoeffel/awesome-fp-js",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Observables",
+    href: "docs/bucketlist/observables",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-observables",
+    github_repo: "https://github.com/sindresorhus/awesome-observables",
+    items: [],
+  },
+  {
+    title: "Programming Languages - npm scripts",
+    href: "docs/bucketlist/npm-scripts",
+    description: "Task Runner.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RyanZim/awesome-npm-scripts",
+    github_repo: "https://github.com/RyanZim/awesome-npm-scripts",
+    items: [],
+  },
+  {
+    title: "Programming Languages - 30 Seconds of Code",
+    href: "docs/bucketlist/30-seconds-of-code",
+    description: "Code Snippets You Can Understand In 30 Seconds.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/30-seconds/30-seconds-of-code",
+    github_repo: "https://github.com/30-seconds/30-seconds-of-code",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Ponyfills",
+    href: "docs/bucketlist/ponyfills",
+    description: "Like Polyfills But Without Overriding Native Apis.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Richienb/awesome-ponyfills",
+    github_repo: "https://github.com/Richienb/awesome-ponyfills",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Swift",
+    href: "docs/bucketlist/swift",
+    description:
+      "Apple'S Compiled Programming Language That Is Secure, Modern, Programmer-Friendly, And Fast.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matteocrippa/awesome-swift",
+    github_repo: "https://github.com/matteocrippa/awesome-swift",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Education",
+    href: "docs/bucketlist/education",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hsavit1/Awesome-Swift-Education",
+    github_repo: "https://github.com/hsavit1/Awesome-Swift-Education",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Playgrounds",
+    href: "docs/bucketlist/playgrounds",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/uraimo/Awesome-Swift-Playgrounds",
+    github_repo: "https://github.com/uraimo/Awesome-Swift-Playgrounds",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Python",
+    href: "docs/bucketlist/python",
+    description:
+      "General-Purpose Programming Language Designed For Readability.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vinta/awesome-python",
+    github_repo: "https://github.com/vinta/awesome-python",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Asyncio",
+    href: "docs/bucketlist/asyncio",
+    description: "Asynchronous I/O In Python 3.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/timofurrer/awesome-asyncio",
+    github_repo: "https://github.com/timofurrer/awesome-asyncio",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Scientific Audio",
+    href: "docs/bucketlist/scientific-audio",
+    description: "Scientific Research In Audio/Music.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/faroit/awesome-python-scientific-audio",
+    github_repo: "https://github.com/faroit/awesome-python-scientific-audio",
+    items: [],
+  },
+  {
+    title: "Programming Languages - CircuitPython",
+    href: "docs/bucketlist/circuitpython",
+    description: "A Version Of Python For Microcontrollers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/adafruit/awesome-circuitpython",
+    github_repo: "https://github.com/adafruit/awesome-circuitpython",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Data Science",
+    href: "docs/bucketlist/data-science",
+    description: "Data Analysis And Machine Learning.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/krzjoa/awesome-python-data-science",
+    github_repo: "https://github.com/krzjoa/awesome-python-data-science",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Typing",
+    href: "docs/bucketlist/typing",
+    description: "Optional Static Typing For Python.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/typeddjango/awesome-python-typing",
+    github_repo: "https://github.com/typeddjango/awesome-python-typing",
+    items: [],
+  },
+  {
+    title: "Programming Languages - MicroPython",
+    href: "docs/bucketlist/micropython",
+    description:
+      "A Lean And Efficient Implementation Of Python 3 For Microcontrollers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mcauser/awesome-micropython",
+    github_repo: "https://github.com/mcauser/awesome-micropython",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Rust",
+    href: "docs/bucketlist/rust",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rust-unofficial/awesome-rust",
+    github_repo: "https://github.com/rust-unofficial/awesome-rust",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Haskell",
+    href: "docs/bucketlist/haskell",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/krispo/awesome-haskell",
+    github_repo: "https://github.com/krispo/awesome-haskell",
+    items: [],
+  },
+  {
+    title: "Programming Languages - PureScript",
+    href: "docs/bucketlist/purescript",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/passy/awesome-purescript",
+    github_repo: "https://github.com/passy/awesome-purescript",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Go",
+    href: "docs/bucketlist/go",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/avelino/awesome-go",
+    github_repo: "https://github.com/avelino/awesome-go",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Scala",
+    href: "docs/bucketlist/scala",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lauris/awesome-scala",
+    github_repo: "https://github.com/lauris/awesome-scala",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Scala Native",
+    href: "docs/bucketlist/scala-native",
+    description: "Optimizing Ahead-Of-Time Compiler For Scala Based On Llvm.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tindzk/awesome-scala-native",
+    github_repo: "https://github.com/tindzk/awesome-scala-native",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Ruby",
+    href: "docs/bucketlist/ruby",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/markets/awesome-ruby",
+    github_repo: "https://github.com/markets/awesome-ruby",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Clojure",
+    href: "docs/bucketlist/clojure",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/razum2um/awesome-clojure",
+    github_repo: "https://github.com/razum2um/awesome-clojure",
+    items: [],
+  },
+  {
+    title: "Programming Languages - ClojureScript",
+    href: "docs/bucketlist/clojurescript",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hantuzun/awesome-clojurescript",
+    github_repo: "https://github.com/hantuzun/awesome-clojurescript",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Elixir",
+    href: "docs/bucketlist/elixir",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/h4cc/awesome-elixir",
+    github_repo: "https://github.com/h4cc/awesome-elixir",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Elm",
+    href: "docs/bucketlist/elm",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/sporto/awesome-elm",
+    github_repo: "https://github.com/sporto/awesome-elm",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Erlang",
+    href: "docs/bucketlist/erlang",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/drobakowski/awesome-erlang",
+    github_repo: "https://github.com/drobakowski/awesome-erlang",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Julia",
+    href: "docs/bucketlist/julia",
+    description:
+      "High-Level Dynamic Programming Language Designed To Address The Needs Of High-Performance Numerical Analysis And Computational Science.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/svaksha/Julia.jl",
+    github_repo: "https://github.com/svaksha/Julia.jl",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Lua",
+    href: "docs/bucketlist/lua",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/LewisJEllis/awesome-lua",
+    github_repo: "https://github.com/LewisJEllis/awesome-lua",
+    items: [],
+  },
+  {
+    title: "Programming Languages - C",
+    href: "docs/bucketlist/c",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aleksandar-todorovic/awesome-c",
+    github_repo: "https://github.com/aleksandar-todorovic/awesome-c",
+    items: [],
+  },
+  {
+    title: "Programming Languages - C/C++",
+    href: "docs/bucketlist/c/c++",
+    description:
+      "General-Purpose Language With A Bias Toward System Programming And Embedded, Resource-Constrained Software.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fffaraz/awesome-cpp",
+    github_repo: "https://github.com/fffaraz/awesome-cpp",
+    items: [],
+  },
+  {
+    title: "Programming Languages - R",
+    href: "docs/bucketlist/r",
+    description:
+      "Functional Programming Language And Environment For Statistical Computing And Graphics.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/qinwf/awesome-R",
+    github_repo: "https://github.com/qinwf/awesome-R",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Learning",
+    href: "docs/bucketlist/learning",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iamericfletcher/awesome-r-learning-resources",
+    github_repo:
+      "https://github.com/iamericfletcher/awesome-r-learning-resources",
+    items: [],
+  },
+  {
+    title: "Programming Languages - D",
+    href: "docs/bucketlist/d",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zhaopuming/awesome-d",
+    github_repo: "https://github.com/zhaopuming/awesome-d",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Common Lisp",
+    href: "docs/bucketlist/common-lisp",
+    description:
+      "Powerful Dynamic Multiparadigm Language That Facilitates Iterative And Interactive Development.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/CodyReichert/awesome-cl",
+    github_repo: "https://github.com/CodyReichert/awesome-cl",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Learning",
+    href: "docs/bucketlist/learning",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/GustavBertram/awesome-common-lisp-learning",
+    github_repo:
+      "https://github.com/GustavBertram/awesome-common-lisp-learning",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Perl",
+    href: "docs/bucketlist/perl",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hachiojipm/awesome-perl",
+    github_repo: "https://github.com/hachiojipm/awesome-perl",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Groovy",
+    href: "docs/bucketlist/groovy",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kdabir/awesome-groovy",
+    github_repo: "https://github.com/kdabir/awesome-groovy",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Dart",
+    href: "docs/bucketlist/dart",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/yissachar/awesome-dart",
+    github_repo: "https://github.com/yissachar/awesome-dart",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Java",
+    href: "docs/bucketlist/java",
+    description:
+      "Popular Secure Object-Oriented Language Designed For Flexibility To Write Once",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/akullpp/awesome-java",
+    github_repo: "https://github.com/akullpp/awesome-java",
+    items: [],
+  },
+  {
+    title: "Programming Languages - RxJava",
+    href: "docs/bucketlist/rxjava",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/eleventigers/awesome-rxjava",
+    github_repo: "https://github.com/eleventigers/awesome-rxjava",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Kotlin",
+    href: "docs/bucketlist/kotlin",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/KotlinBy/awesome-kotlin",
+    github_repo: "https://github.com/KotlinBy/awesome-kotlin",
+    items: [],
+  },
+  {
+    title: "Programming Languages - OCaml",
+    href: "docs/bucketlist/ocaml",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ocaml-community/awesome-ocaml",
+    github_repo: "https://github.com/ocaml-community/awesome-ocaml",
+    items: [],
+  },
+  {
+    title: "Programming Languages - ColdFusion",
+    href: "docs/bucketlist/coldfusion",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/seancoyne/awesome-coldfusion",
+    github_repo: "https://github.com/seancoyne/awesome-coldfusion",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Fortran",
+    href: "docs/bucketlist/fortran",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rabbiabram/awesome-fortran",
+    github_repo: "https://github.com/rabbiabram/awesome-fortran",
+    items: [],
+  },
+  {
+    title: "Programming Languages - PHP",
+    href: "docs/bucketlist/php",
+    description: "Server-Side Scripting Language.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/ziadoz/awesome-php",
+    github_repo: "https://github.com/ziadoz/awesome-php",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Composer",
+    href: "docs/bucketlist/composer",
+    description: "Package Manager.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jakoch/awesome-composer",
+    github_repo: "https://github.com/jakoch/awesome-composer",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Pascal",
+    href: "docs/bucketlist/pascal",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Fr0sT-Brutal/awesome-pascal",
+    github_repo: "https://github.com/Fr0sT-Brutal/awesome-pascal",
+    items: [],
+  },
+  {
+    title: "Programming Languages - AutoHotkey",
+    href: "docs/bucketlist/autohotkey",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ahkscript/awesome-AutoHotkey",
+    github_repo: "https://github.com/ahkscript/awesome-AutoHotkey",
+    items: [],
+  },
+  {
+    title: "Programming Languages - AutoIt",
+    href: "docs/bucketlist/autoit",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/J2TeaM/awesome-AutoIt",
+    github_repo: "https://github.com/J2TeaM/awesome-AutoIt",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Crystal",
+    href: "docs/bucketlist/crystal",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/veelenga/awesome-crystal",
+    github_repo: "https://github.com/veelenga/awesome-crystal",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Frege",
+    href: "docs/bucketlist/frege",
+    description: "Haskell For The Jvm.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sfischer13/awesome-frege",
+    github_repo: "https://github.com/sfischer13/awesome-frege",
+    items: [],
+  },
+  {
+    title: "Programming Languages - CMake",
+    href: "docs/bucketlist/cmake",
+    description: "Build, Test, And Package Software.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/onqtam/awesome-cmake",
+    github_repo: "https://github.com/onqtam/awesome-cmake",
+    items: [],
+  },
+  {
+    title: "Programming Languages - ActionScript 3",
+    href: "docs/bucketlist/actionscript-3",
+    description: "Object-Oriented Language Targeting Adobe Air.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/robinrodricks/awesome-actionscript3",
+    github_repo: "https://github.com/robinrodricks/awesome-actionscript3",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Eta",
+    href: "docs/bucketlist/eta",
+    description: "Functional Programming Language For The Jvm.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sfischer13/awesome-eta",
+    github_repo: "https://github.com/sfischer13/awesome-eta",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Idris",
+    href: "docs/bucketlist/idris",
+    description:
+      "General Purpose Pure Functional Programming Language With Dependent Types Influenced By Haskell And Ml.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/joaomilho/awesome-idris",
+    github_repo: "https://github.com/joaomilho/awesome-idris",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Ada/SPARK",
+    href: "docs/bucketlist/ada/spark",
+    description:
+      "Modern Programming Language Designed For Large, Long-Lived Apps Where Reliability And Efficiency Are Essential.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ohenley/awesome-ada",
+    github_repo: "https://github.com/ohenley/awesome-ada",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Q#",
+    href: "docs/bucketlist/q#",
+    description:
+      "Domain-Specific Programming Language Used For Expressing Quantum Algorithms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ebraminio/awesome-qsharp",
+    github_repo: "https://github.com/ebraminio/awesome-qsharp",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Imba",
+    href: "docs/bucketlist/imba",
+    description:
+      "Programming Language Inspired By Ruby And Python And Compiles To Performant Javascript.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/koolamusic/awesome-imba",
+    github_repo: "https://github.com/koolamusic/awesome-imba",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Vala",
+    href: "docs/bucketlist/vala",
+    description:
+      "Programming Language Designed To Take Full Advantage Of The Glib And Gnome Ecosystems, While Preserving The Speed Of C Code.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/desiderantes/awesome-vala",
+    github_repo: "https://github.com/desiderantes/awesome-vala",
+    items: [],
+  },
+  {
+    title: "Programming Languages - Coq",
+    href: "docs/bucketlist/coq",
+    description:
+      "Formal Language And Environment For Programming And Specification Which Facilitates Interactive Development Of Machine-Checked Proofs.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/coq-community/awesome-coq",
+    github_repo: "https://github.com/coq-community/awesome-coq",
+    items: [],
+  },
+  {
+    title: "Programming Languages - V",
+    href: "docs/bucketlist/v",
+    description:
+      "Simple, Fast, Safe, Compiled Language For Developing Maintainable Software.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/vlang/awesome-v",
+    github_repo: "https://github.com/vlang/awesome-v",
+    items: [],
+  },
+  {
+    title: "Front-End Development - ES6 Tools",
+    href: "docs/bucketlist/es6-tools",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/addyosmani/es6-tools",
+    github_repo: "https://github.com/addyosmani/es6-tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Performance Optimization",
+    href: "docs/bucketlist/web-performance-optimization",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davidsonfellipe/awesome-wpo",
+    github_repo: "https://github.com/davidsonfellipe/awesome-wpo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Tools",
+    href: "docs/bucketlist/web-tools",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/lvwzhen/tools",
+    github_repo: "https://github.com/lvwzhen/tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - CSS",
+    href: "docs/bucketlist/css",
+    description:
+      "Style Sheet Language That Specifies How Html Elements Are Displayed On Screen.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-css-group/awesome-css",
+    github_repo: "https://github.com/awesome-css-group/awesome-css",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Critical-Path Tools",
+    href: "docs/bucketlist/critical-path-tools",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/addyosmani/critical-path-css-tools",
+    github_repo: "https://github.com/addyosmani/critical-path-css-tools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Scalability",
+    href: "docs/bucketlist/scalability",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davidtheclark/scalable-css-reading-list",
+    github_repo: "https://github.com/davidtheclark/scalable-css-reading-list",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Must-Watch Talks",
+    href: "docs/bucketlist/must-watch-talks",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/must-watch-css",
+    github_repo: "https://github.com/AllThingsSmitty/must-watch-css",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Protips",
+    href: "docs/bucketlist/protips",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/css-protips",
+    github_repo: "https://github.com/AllThingsSmitty/css-protips",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Frameworks",
+    href: "docs/bucketlist/frameworks",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/troxler/awesome-css-frameworks",
+    github_repo: "https://github.com/troxler/awesome-css-frameworks",
+    items: [],
+  },
+  {
+    title: "Front-End Development - React",
+    href: "docs/bucketlist/react",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/enaqx/awesome-react",
+    github_repo: "https://github.com/enaqx/awesome-react",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Relay",
+    href: "docs/bucketlist/relay",
+    description: "Framework For Building Data-Driven React Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/expede/awesome-relay",
+    github_repo: "https://github.com/expede/awesome-relay",
+    items: [],
+  },
+  {
+    title: "Front-End Development - React Hooks",
+    href: "docs/bucketlist/react-hooks",
+    description:
+      "A New Feature That Lets You Use State And Other React Features Without Writing A Class.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/glauberfc/awesome-react-hooks",
+    github_repo: "https://github.com/glauberfc/awesome-react-hooks",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Components",
+    href: "docs/bucketlist/web-components",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mateusortiz/webcomponents-the-right-way",
+    github_repo: "https://github.com/mateusortiz/webcomponents-the-right-way",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Polymer",
+    href: "docs/bucketlist/polymer",
+    description: "Javascript Library To Develop Web Components.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Granze/awesome-polymer",
+    github_repo: "https://github.com/Granze/awesome-polymer",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Angular",
+    href: "docs/bucketlist/angular",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PatrickJS/awesome-angular",
+    github_repo: "https://github.com/PatrickJS/awesome-angular",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Backbone",
+    href: "docs/bucketlist/backbone",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sadcitizen/awesome-backbone",
+    github_repo: "https://github.com/sadcitizen/awesome-backbone",
+    items: [],
+  },
+  {
+    title: "Front-End Development - HTML5",
+    href: "docs/bucketlist/html5",
+    description: "Markup Language Used For Websites & Web Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/diegocard/awesome-html5",
+    github_repo: "https://github.com/diegocard/awesome-html5",
+    items: [],
+  },
+  {
+    title: "Front-End Development - SVG",
+    href: "docs/bucketlist/svg",
+    description: "Xml-Based Vector Image Format.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/willianjusten/awesome-svg",
+    github_repo: "https://github.com/willianjusten/awesome-svg",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Canvas",
+    href: "docs/bucketlist/canvas",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/raphamorim/awesome-canvas",
+    github_repo: "https://github.com/raphamorim/awesome-canvas",
+    items: [],
+  },
+  {
+    title: "Front-End Development - KnockoutJS",
+    href: "docs/bucketlist/knockoutjs",
+    description: "Javascript Library.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dnbard/awesome-knockout",
+    github_repo: "https://github.com/dnbard/awesome-knockout",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Dojo Toolkit",
+    href: "docs/bucketlist/dojo-toolkit",
+    description: "Javascript Toolkit.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/petk/awesome-dojo",
+    github_repo: "https://github.com/petk/awesome-dojo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Inspiration",
+    href: "docs/bucketlist/inspiration",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/NoahBuscher/Inspire",
+    github_repo: "https://github.com/NoahBuscher/Inspire",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ember",
+    href: "docs/bucketlist/ember",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ember-community-russia/awesome-ember",
+    github_repo: "https://github.com/ember-community-russia/awesome-ember",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Android UI",
+    href: "docs/bucketlist/android-ui",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wasabeef/awesome-android-ui",
+    github_repo: "https://github.com/wasabeef/awesome-android-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - iOS UI",
+    href: "docs/bucketlist/ios-ui",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cjwirth/awesome-ios-ui",
+    github_repo: "https://github.com/cjwirth/awesome-ios-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Meteor",
+    href: "docs/bucketlist/meteor",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Urigo/awesome-meteor",
+    github_repo: "https://github.com/Urigo/awesome-meteor",
+    items: [],
+  },
+  {
+    title: "Front-End Development - BEM",
+    href: "docs/bucketlist/bem",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sturobson/BEM-resources",
+    github_repo: "https://github.com/sturobson/BEM-resources",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Flexbox",
+    href: "docs/bucketlist/flexbox",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/afonsopacifer/awesome-flexbox",
+    github_repo: "https://github.com/afonsopacifer/awesome-flexbox",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Typography",
+    href: "docs/bucketlist/web-typography",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/deanhume/typography",
+    github_repo: "https://github.com/deanhume/typography",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Accessibility",
+    href: "docs/bucketlist/web-accessibility",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brunopulis/awesome-a11y",
+    github_repo: "https://github.com/brunopulis/awesome-a11y",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Material Design",
+    href: "docs/bucketlist/material-design",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sachin1092/awesome-material",
+    github_repo: "https://github.com/sachin1092/awesome-material",
+    items: [],
+  },
+  {
+    title: "Front-End Development - D3",
+    href: "docs/bucketlist/d3",
+    description:
+      "Library For Producing Dynamic, Interactive Data Visualizations.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/wbkd/awesome-d3",
+    github_repo: "https://github.com/wbkd/awesome-d3",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Emails",
+    href: "docs/bucketlist/emails",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jonathandion/awesome-emails",
+    github_repo: "https://github.com/jonathandion/awesome-emails",
+    items: [],
+  },
+  {
+    title: "Front-End Development - jQuery",
+    href: "docs/bucketlist/jquery",
+    description: "Easy To Use Javascript Library For Dom Manipulation.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/petk/awesome-jquery",
+    github_repo: "https://github.com/petk/awesome-jquery",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Tips",
+    href: "docs/bucketlist/tips",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AllThingsSmitty/jquery-tips-everyone-should-know",
+    github_repo:
+      "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Audio",
+    href: "docs/bucketlist/web-audio",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/notthetup/awesome-webaudio",
+    github_repo: "https://github.com/notthetup/awesome-webaudio",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Offline-First",
+    href: "docs/bucketlist/offline-first",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pazguille/offline-first",
+    github_repo: "https://github.com/pazguille/offline-first",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Static Website Services",
+    href: "docs/bucketlist/static-website-services",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agarrharr/awesome-static-website-services",
+    github_repo: "https://github.com/agarrharr/awesome-static-website-services",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Cycle.js",
+    href: "docs/bucketlist/cycle.js",
+    description: "Functional And Reactive Javascript Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cyclejs-community/awesome-cyclejs",
+    github_repo: "https://github.com/cyclejs-community/awesome-cyclejs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Text Editing",
+    href: "docs/bucketlist/text-editing",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dok/awesome-text-editing",
+    github_repo: "https://github.com/dok/awesome-text-editing",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Motion UI Design",
+    href: "docs/bucketlist/motion-ui-design",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fliptheweb/motion-ui-design",
+    github_repo: "https://github.com/fliptheweb/motion-ui-design",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Vue.js",
+    href: "docs/bucketlist/vue.js",
+    description: "App Framework.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/vuejs/awesome-vue",
+    github_repo: "https://github.com/vuejs/awesome-vue",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Marionette.js",
+    href: "docs/bucketlist/marionette.js",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sadcitizen/awesome-marionette",
+    github_repo: "https://github.com/sadcitizen/awesome-marionette",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Aurelia",
+    href: "docs/bucketlist/aurelia",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aurelia-contrib/awesome-aurelia",
+    github_repo: "https://github.com/aurelia-contrib/awesome-aurelia",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Charting",
+    href: "docs/bucketlist/charting",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zingchart/awesome-charting",
+    github_repo: "https://github.com/zingchart/awesome-charting",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ionic Framework 2",
+    href: "docs/bucketlist/ionic-framework-2",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/candelibas/awesome-ionic",
+    github_repo: "https://github.com/candelibas/awesome-ionic",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Chrome DevTools",
+    href: "docs/bucketlist/chrome-devtools",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ChromeDevTools/awesome-chrome-devtools",
+    github_repo: "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+    items: [],
+  },
+  {
+    title: "Front-End Development - PostCSS",
+    href: "docs/bucketlist/postcss",
+    description: "Css Tool.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jdrgomes/awesome-postcss",
+    github_repo: "https://github.com/jdrgomes/awesome-postcss",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Draft.js",
+    href: "docs/bucketlist/draft.js",
+    description: "Rich Text Editor Framework For React.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nikgraf/awesome-draft-js",
+    github_repo: "https://github.com/nikgraf/awesome-draft-js",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Service Workers",
+    href: "docs/bucketlist/service-workers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-service-workers",
+    github_repo: "https://github.com/TalAter/awesome-service-workers",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Progressive Web Apps",
+    href: "docs/bucketlist/progressive-web-apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-progressive-web-apps",
+    github_repo: "https://github.com/TalAter/awesome-progressive-web-apps",
+    items: [],
+  },
+  {
+    title: "Front-End Development - choo",
+    href: "docs/bucketlist/choo",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/choojs/awesome-choo",
+    github_repo: "https://github.com/choojs/awesome-choo",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Redux",
+    href: "docs/bucketlist/redux",
+    description: "State Container For Javascript Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brillout/awesome-redux",
+    github_repo: "https://github.com/brillout/awesome-redux",
+    items: [],
+  },
+  {
+    title: "Front-End Development - webpack",
+    href: "docs/bucketlist/webpack",
+    description: "Module Bundler.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/webpack-contrib/awesome-webpack",
+    github_repo: "https://github.com/webpack-contrib/awesome-webpack",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Browserify",
+    href: "docs/bucketlist/browserify",
+    description: "Module Bundler.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/browserify/awesome-browserify",
+    github_repo: "https://github.com/browserify/awesome-browserify",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Sass",
+    href: "docs/bucketlist/sass",
+    description: "Css Preprocessor.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Famolus/awesome-sass",
+    github_repo: "https://github.com/Famolus/awesome-sass",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Ant Design",
+    href: "docs/bucketlist/ant-design",
+    description: "Enterprise-Class Ui Design Language.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/websemantics/awesome-ant-design",
+    github_repo: "https://github.com/websemantics/awesome-ant-design",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Less",
+    href: "docs/bucketlist/less",
+    description: "Css Preprocessor.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/LucasBassetti/awesome-less",
+    github_repo: "https://github.com/LucasBassetti/awesome-less",
+    items: [],
+  },
+  {
+    title: "Front-End Development - WebGL",
+    href: "docs/bucketlist/webgl",
+    description: "Javascript Api For Rendering 3D Graphics.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sjfricke/awesome-webgl",
+    github_repo: "https://github.com/sjfricke/awesome-webgl",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Preact",
+    href: "docs/bucketlist/preact",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/preactjs/awesome-preact",
+    github_repo: "https://github.com/preactjs/awesome-preact",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Progressive Enhancement",
+    href: "docs/bucketlist/progressive-enhancement",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jbmoelker/progressive-enhancement-resources",
+    github_repo:
+      "https://github.com/jbmoelker/progressive-enhancement-resources",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Next.js",
+    href: "docs/bucketlist/next.js",
+    description: "Framework For Server-Rendered React Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unicodeveloper/awesome-nextjs",
+    github_repo: "https://github.com/unicodeveloper/awesome-nextjs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Hyperapp",
+    href: "docs/bucketlist/hyperapp",
+    description: "Tiny Javascript Library For Building Web Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jorgebucaran/awesome-hyperapp",
+    github_repo: "https://github.com/jorgebucaran/awesome-hyperapp",
+    items: [],
+  },
+  {
+    title: "Front-End Development - lit-html",
+    href: "docs/bucketlist/lit-html",
+    description: "Html Templating Library For Javascript.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/web-padawan/awesome-lit-html",
+    github_repo: "https://github.com/web-padawan/awesome-lit-html",
+    items: [],
+  },
+  {
+    title: "Front-End Development - JAMstack",
+    href: "docs/bucketlist/jamstack",
+    description:
+      "Modern Web Development Architecture Based On Client-Side Javascript, Reusable Apis, And Prebuilt Markup.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/automata/awesome-jamstack",
+    github_repo: "https://github.com/automata/awesome-jamstack",
+    items: [],
+  },
+  {
+    title: "Front-End Development - WordPress-Gatsby",
+    href: "docs/bucketlist/wordpress-gatsby",
+    description:
+      "Web Development Technology Stack With Wordpress As A Back End And Gatsby As A Front End.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/henrikwirth/awesome-wordpress-gatsby",
+    github_repo: "https://github.com/henrikwirth/awesome-wordpress-gatsby",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Mobile Web Development",
+    href: "docs/bucketlist/mobile-web-development",
+    description: "Creating A Great Mobile Web Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/myshov/awesome-mobile-web-development",
+    github_repo: "https://github.com/myshov/awesome-mobile-web-development",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Storybook",
+    href: "docs/bucketlist/storybook",
+    description: "Development Environment For Ui Components.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lauthieb/awesome-storybook",
+    github_repo: "https://github.com/lauthieb/awesome-storybook",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Blazor",
+    href: "docs/bucketlist/blazor",
+    description:
+      ".Net Web Framework Using C#/Razor And Html That Runs In The Browser With Webassembly.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AdrienTorris/awesome-blazor",
+    github_repo: "https://github.com/AdrienTorris/awesome-blazor",
+    items: [],
+  },
+  {
+    title: "Front-End Development - PageSpeed Metrics",
+    href: "docs/bucketlist/pagespeed-metrics",
+    description: "Metrics To Help Understand Page Speed And User Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/palfi-ltd/awesome-pagespeed-metrics",
+    github_repo: "https://github.com/palfi-ltd/awesome-pagespeed-metrics",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Tailwind CSS",
+    href: "docs/bucketlist/tailwind-css",
+    description: "Utility-First Css Framework For Rapid Ui Development.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aniftyco/awesome-tailwindcss",
+    github_repo: "https://github.com/aniftyco/awesome-tailwindcss",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Seed",
+    href: "docs/bucketlist/seed",
+    description: "Rust Framework For Creating Web Apps Running In Webassembly.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/seed-rs/awesome-seed-rs",
+    github_repo: "https://github.com/seed-rs/awesome-seed-rs",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Performance Budget",
+    href: "docs/bucketlist/web-performance-budget",
+    description:
+      "Techniques To Ensure Certain Performance Metrics For A Website.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pajaydev/awesome-web-performance-budget",
+    github_repo: "https://github.com/pajaydev/awesome-web-performance-budget",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Web Animation",
+    href: "docs/bucketlist/web-animation",
+    description: "Animations In The Browser With Javascript, Css, Svg, Etc.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sergey-pimenov/awesome-web-animation",
+    github_repo: "https://github.com/sergey-pimenov/awesome-web-animation",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Yew",
+    href: "docs/bucketlist/yew",
+    description:
+      "Rust Framework Inspired By Elm And React For Creating Multi-Threaded Frontend Web Apps With Webassembly.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/jetli/awesome-yew",
+    github_repo: "https://github.com/jetli/awesome-yew",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Material-UI",
+    href: "docs/bucketlist/material-ui",
+    description:
+      "Material Design React Components For Faster And Easier Web Development.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nadunindunil/awesome-material-ui",
+    github_repo: "https://github.com/nadunindunil/awesome-material-ui",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Building Blocks for Web Apps",
+    href: "docs/bucketlist/building-blocks-for-web-apps",
+    description: "Standalone Features To Be Integrated Into Web Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/componently-com/awesome-building-blocks-for-web-apps",
+    github_repo:
+      "https://github.com/componently-com/awesome-building-blocks-for-web-apps",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Svelte",
+    href: "docs/bucketlist/svelte",
+    description: "App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TheComputerM/awesome-svelte",
+    github_repo: "https://github.com/TheComputerM/awesome-svelte",
+    items: [],
+  },
+  {
+    title: "Front-End Development - Design systems",
+    href: "docs/bucketlist/design-systems",
+    description:
+      "Collection Of Reusable Components, Guided By Rules That Ensure Consistency And Speed.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/klaufel/awesome-design-systems",
+    github_repo: "https://github.com/klaufel/awesome-design-systems",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Flask",
+    href: "docs/bucketlist/flask",
+    description: "Python Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mjhea0/awesome-flask",
+    github_repo: "https://github.com/mjhea0/awesome-flask",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Docker",
+    href: "docs/bucketlist/docker",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/veggiemonk/awesome-docker",
+    github_repo: "https://github.com/veggiemonk/awesome-docker",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vagrant",
+    href: "docs/bucketlist/vagrant",
+    description: "Automation Virtual Machine Environment.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iJackUA/awesome-vagrant",
+    github_repo: "https://github.com/iJackUA/awesome-vagrant",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Pyramid",
+    href: "docs/bucketlist/pyramid",
+    description: "Python Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/uralbash/awesome-pyramid",
+    github_repo: "https://github.com/uralbash/awesome-pyramid",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Play1 Framework",
+    href: "docs/bucketlist/play1-framework",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PerfectCarl/awesome-play1",
+    github_repo: "https://github.com/PerfectCarl/awesome-play1",
+    items: [],
+  },
+  {
+    title: "Back-End Development - CakePHP",
+    href: "docs/bucketlist/cakephp",
+    description: "Php Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/friendsofcake/awesome-cakephp",
+    github_repo: "https://github.com/friendsofcake/awesome-cakephp",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Symfony",
+    href: "docs/bucketlist/symfony",
+    description: "Php Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sitepoint-editors/awesome-symfony",
+    github_repo: "https://github.com/sitepoint-editors/awesome-symfony",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Education",
+    href: "docs/bucketlist/education",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pehapkari/awesome-symfony-education",
+    github_repo: "https://github.com/pehapkari/awesome-symfony-education",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Laravel",
+    href: "docs/bucketlist/laravel",
+    description: "Php Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chiraggude/awesome-laravel",
+    github_repo: "https://github.com/chiraggude/awesome-laravel",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Education",
+    href: "docs/bucketlist/education",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fukuball/Awesome-Laravel-Education",
+    github_repo: "https://github.com/fukuball/Awesome-Laravel-Education",
+    items: [],
+  },
+  {
+    title: "Back-End Development - TALL Stack",
+    href: "docs/bucketlist/tall-stack",
+    description:
+      "Full-Stack Development Solution Featuring Libraries Built By The Laravel Community.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/blade-ui-kit/awesome-tall-stack",
+    github_repo: "https://github.com/blade-ui-kit/awesome-tall-stack",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Rails",
+    href: "docs/bucketlist/rails",
+    description: "Web App Framework For Ruby.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gramantin/awesome-rails",
+    github_repo: "https://github.com/gramantin/awesome-rails",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Gems",
+    href: "docs/bucketlist/gems",
+    description: "Packages.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hothero/awesome-rails-gem",
+    github_repo: "https://github.com/hothero/awesome-rails-gem",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Phalcon",
+    href: "docs/bucketlist/phalcon",
+    description: "Php Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/phalcon/awesome-phalcon",
+    github_repo: "https://github.com/phalcon/awesome-phalcon",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Useful `.htaccess` Snippets",
+    href: "docs/bucketlist/useful-`.htaccess`-snippets",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/phanan/htaccess",
+    github_repo: "https://github.com/phanan/htaccess",
+    items: [],
+  },
+  {
+    title: "Back-End Development - nginx",
+    href: "docs/bucketlist/nginx",
+    description: "Web Server.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fcambus/nginx-resources",
+    github_repo: "https://github.com/fcambus/nginx-resources",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Dropwizard",
+    href: "docs/bucketlist/dropwizard",
+    description: "Java Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stve/awesome-dropwizard",
+    github_repo: "https://github.com/stve/awesome-dropwizard",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Kubernetes",
+    href: "docs/bucketlist/kubernetes",
+    description:
+      "Open-Source Platform That Automates Linux Container Operations.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ramitsurana/awesome-kubernetes",
+    github_repo: "https://github.com/ramitsurana/awesome-kubernetes",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Lumen",
+    href: "docs/bucketlist/lumen",
+    description: "Php Micro-Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unicodeveloper/awesome-lumen",
+    github_repo: "https://github.com/unicodeveloper/awesome-lumen",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Serverless Framework",
+    href: "docs/bucketlist/serverless-framework",
+    description: "Serverless Computing And Serverless Architectures.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pmuens/awesome-serverless",
+    github_repo: "https://github.com/pmuens/awesome-serverless",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Apache Wicket",
+    href: "docs/bucketlist/apache-wicket",
+    description: "Java Web App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/PhantomYdn/awesome-wicket",
+    github_repo: "https://github.com/PhantomYdn/awesome-wicket",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vert.x",
+    href: "docs/bucketlist/vert.x",
+    description: "Toolkit For Building Reactive Apps On The Jvm.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vert-x3/vertx-awesome",
+    github_repo: "https://github.com/vert-x3/vertx-awesome",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Terraform",
+    href: "docs/bucketlist/terraform",
+    description: "Tool For Building, Changing, And Versioning Infrastructure.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shuaibiyy/awesome-terraform",
+    github_repo: "https://github.com/shuaibiyy/awesome-terraform",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Vapor",
+    href: "docs/bucketlist/vapor",
+    description: "Server-Side Development In Swift.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Cellane/awesome-vapor",
+    github_repo: "https://github.com/Cellane/awesome-vapor",
+    items: [],
+  },
+  {
+    title: "Back-End Development - Dash",
+    href: "docs/bucketlist/dash",
+    description: "Python Web App Framework.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/ucg8j/awesome-dash",
+    github_repo: "https://github.com/ucg8j/awesome-dash",
+    items: [],
+  },
+  {
+    title: "Back-End Development - FastAPI",
+    href: "docs/bucketlist/fastapi",
+    description: "Python Web App Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mjhea0/awesome-fastapi",
+    github_repo: "https://github.com/mjhea0/awesome-fastapi",
+    items: [],
+  },
+  {
+    title: "Back-End Development - CDK",
+    href: "docs/bucketlist/cdk",
+    description:
+      "Open-Source Software Development Framework For Defining Cloud Infrastructure In Code.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kolomied/awesome-cdk",
+    github_repo: "https://github.com/kolomied/awesome-cdk",
+    items: [],
+  },
+  {
+    title: "Computer Science - University Courses",
+    href: "docs/bucketlist/university-courses",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/prakhar1989/awesome-courses",
+    github_repo: "https://github.com/prakhar1989/awesome-courses",
+    items: [],
+  },
+  {
+    title: "Computer Science - Data Science",
+    href: "docs/bucketlist/data-science",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/academic/awesome-datascience",
+    github_repo: "https://github.com/academic/awesome-datascience",
+    items: [],
+  },
+  {
+    title: "Computer Science - Tutorials",
+    href: "docs/bucketlist/tutorials",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/siboehm/awesome-learn-datascience",
+    github_repo: "https://github.com/siboehm/awesome-learn-datascience",
+    items: [],
+  },
+  {
+    title: "Computer Science - Machine Learning",
+    href: "docs/bucketlist/machine-learning",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/josephmisiti/awesome-machine-learning",
+    github_repo: "https://github.com/josephmisiti/awesome-machine-learning",
+    items: [],
+  },
+  {
+    title: "Computer Science - Tutorials",
+    href: "docs/bucketlist/tutorials",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ujjwalkarn/Machine-Learning-Tutorials",
+    github_repo: "https://github.com/ujjwalkarn/Machine-Learning-Tutorials",
+    items: [],
+  },
+  {
+    title: "Computer Science - ML with Ruby",
+    href: "docs/bucketlist/ml-with-ruby",
+    description:
+      "Learning, Implementing, And Applying Machine Learning Using Ruby.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arbox/machine-learning-with-ruby",
+    github_repo: "https://github.com/arbox/machine-learning-with-ruby",
+    items: [],
+  },
+  {
+    title: "Computer Science - Core ML Models",
+    href: "docs/bucketlist/core-ml-models",
+    description: "Models For Apple'S Machine Learning Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/likedan/Awesome-CoreML-Models",
+    github_repo: "https://github.com/likedan/Awesome-CoreML-Models",
+    items: [],
+  },
+  {
+    title: "Computer Science - H2O",
+    href: "docs/bucketlist/h2o",
+    description:
+      "Open Source Distributed Machine Learning Platform Written In Java With Apis In R, Python, And Scala.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/h2oai/awesome-h2o",
+    github_repo: "https://github.com/h2oai/awesome-h2o",
+    items: [],
+  },
+  {
+    title: "Computer Science - Software Engineering for Machine Learning",
+    href: "docs/bucketlist/software-engineering-for-machine-learning",
+    description: "From Experiment To Production-Level Machine Learning.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/SE-ML/awesome-seml",
+    github_repo: "https://github.com/SE-ML/awesome-seml",
+    items: [],
+  },
+  {
+    title: "Computer Science - AI in Finance",
+    href: "docs/bucketlist/ai-in-finance",
+    description: "Solving Problems In Finance With Machine Learning.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/georgezouq/awesome-ai-in-finance",
+    github_repo: "https://github.com/georgezouq/awesome-ai-in-finance",
+    items: [],
+  },
+  {
+    title: "Computer Science - Speech and Natural Language Processing",
+    href: "docs/bucketlist/speech-and-natural-language-processing",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/edobashira/speech-language-processing",
+    github_repo: "https://github.com/edobashira/speech-language-processing",
+    items: [],
+  },
+  {
+    title: "Computer Science - Spanish",
+    href: "docs/bucketlist/spanish",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dav009/awesome-spanish-nlp",
+    github_repo: "https://github.com/dav009/awesome-spanish-nlp",
+    items: [],
+  },
+  {
+    title: "Computer Science - NLP with Ruby",
+    href: "docs/bucketlist/nlp-with-ruby",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arbox/nlp-with-ruby",
+    github_repo: "https://github.com/arbox/nlp-with-ruby",
+    items: [],
+  },
+  {
+    title: "Computer Science - Question Answering",
+    href: "docs/bucketlist/question-answering",
+    description:
+      "The Science Of Asking And Answering In Natural Language With A Machine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/seriousran/awesome-qa",
+    github_repo: "https://github.com/seriousran/awesome-qa",
+    items: [],
+  },
+  {
+    title: "Computer Science - Natural Language Generation",
+    href: "docs/bucketlist/natural-language-generation",
+    description:
+      "Generation Of Text Used In Data To Text, Conversational Agents, And Narrative Generation Applications.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tokenmill/awesome-nlg",
+    github_repo: "https://github.com/tokenmill/awesome-nlg",
+    items: [],
+  },
+  {
+    title: "Computer Science - Linguistics",
+    href: "docs/bucketlist/linguistics",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/theimpossibleastronaut/awesome-linguistics",
+    github_repo:
+      "https://github.com/theimpossibleastronaut/awesome-linguistics",
+    items: [],
+  },
+  {
+    title: "Computer Science - Cryptography",
+    href: "docs/bucketlist/cryptography",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sobolevn/awesome-cryptography",
+    github_repo: "https://github.com/sobolevn/awesome-cryptography",
+    items: [],
+  },
+  {
+    title: "Computer Science - Papers",
+    href: "docs/bucketlist/papers",
+    description: "Theory Basics For Using Cryptography By Non-Cryptographers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pFarb/awesome-crypto-papers",
+    github_repo: "https://github.com/pFarb/awesome-crypto-papers",
+    items: [],
+  },
+  {
+    title: "Computer Science - Computer Vision",
+    href: "docs/bucketlist/computer-vision",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jbhuang0604/awesome-computer-vision",
+    github_repo: "https://github.com/jbhuang0604/awesome-computer-vision",
+    items: [],
+  },
+  {
+    title: "Computer Science - Deep Learning",
+    href: "docs/bucketlist/deep-learning",
+    description: "Neural Networks.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ChristosChristofidis/awesome-deep-learning",
+    github_repo:
+      "https://github.com/ChristosChristofidis/awesome-deep-learning",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow",
+    href: "docs/bucketlist/tensorflow",
+    description: "Library For Machine Intelligence.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jtoy/awesome-tensorflow",
+    github_repo: "https://github.com/jtoy/awesome-tensorflow",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow.js",
+    href: "docs/bucketlist/tensorflow.js",
+    description:
+      "Webgl-Accelerated Machine Learning Javascript Library For Training And Deploying Models.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aaronhma/awesome-tensorflow-js",
+    github_repo: "https://github.com/aaronhma/awesome-tensorflow-js",
+    items: [],
+  },
+  {
+    title: "Computer Science - TensorFlow Lite",
+    href: "docs/bucketlist/tensorflow-lite",
+    description:
+      "Framework That Optimizes Tensorflow Models For On-Device Machine Learning.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/margaretmz/awesome-tensorflow-lite",
+    github_repo: "https://github.com/margaretmz/awesome-tensorflow-lite",
+    items: [],
+  },
+  {
+    title: "Computer Science - Papers",
+    href: "docs/bucketlist/papers",
+    description: "The Most Cited Deep Learning Papers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/terryum/awesome-deep-learning-papers",
+    github_repo: "https://github.com/terryum/awesome-deep-learning-papers",
+    items: [],
+  },
+  {
+    title: "Computer Science - Education",
+    href: "docs/bucketlist/education",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/guillaume-chevalier/awesome-deep-learning-resources",
+    github_repo:
+      "https://github.com/guillaume-chevalier/awesome-deep-learning-resources",
+    items: [],
+  },
+  {
+    title: "Computer Science - Deep Vision",
+    href: "docs/bucketlist/deep-vision",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kjw0612/awesome-deep-vision",
+    github_repo: "https://github.com/kjw0612/awesome-deep-vision",
+    items: [],
+  },
+  {
+    title: "Computer Science - Open Source Society University",
+    href: "docs/bucketlist/open-source-society-university",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ossu/computer-science",
+    github_repo: "https://github.com/ossu/computer-science",
+    items: [],
+  },
+  {
+    title: "Computer Science - Functional Programming",
+    href: "docs/bucketlist/functional-programming",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lucasviola/awesome-functional-programming",
+    github_repo: "https://github.com/lucasviola/awesome-functional-programming",
+    items: [],
+  },
+  {
+    title: "Computer Science - Empirical Software Engineering",
+    href: "docs/bucketlist/empirical-software-engineering",
+    description: "Evidence-Based Research On Software Systems.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dspinellis/awesome-msr",
+    github_repo: "https://github.com/dspinellis/awesome-msr",
+    items: [],
+  },
+  {
+    title: "Computer Science - Static Analysis & Code Quality",
+    href: "docs/bucketlist/static-analysis-&-code-quality",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/analysis-tools-dev/static-analysis",
+    github_repo: "https://github.com/analysis-tools-dev/static-analysis",
+    items: [],
+  },
+  {
+    title: "Computer Science - Information Retrieval",
+    href: "docs/bucketlist/information-retrieval",
+    description: "Learn To Develop Your Own Search Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/harpribot/awesome-information-retrieval",
+    github_repo: "https://github.com/harpribot/awesome-information-retrieval",
+    items: [],
+  },
+  {
+    title: "Computer Science - Quantum Computing",
+    href: "docs/bucketlist/quantum-computing",
+    description:
+      "Computing Which Utilizes Quantum Mechanics And Qubits On Quantum Computers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/desireevl/awesome-quantum-computing",
+    github_repo: "https://github.com/desireevl/awesome-quantum-computing",
+    items: [],
+  },
+  {
+    title: "Big Data - Big Data",
+    href: "docs/bucketlist/big-data",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/onurakpolat/awesome-bigdata",
+    github_repo: "https://github.com/onurakpolat/awesome-bigdata",
+    items: [],
+  },
+  {
+    title: "Big Data - Public Datasets",
+    href: "docs/bucketlist/public-datasets",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesomedata/awesome-public-datasets",
+    github_repo: "https://github.com/awesomedata/awesome-public-datasets",
+    items: [],
+  },
+  {
+    title: "Big Data - Hadoop",
+    href: "docs/bucketlist/hadoop",
+    description:
+      "Framework For Distributed Storage And Processing Of Very Large Data Sets.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/youngwookim/awesome-hadoop",
+    github_repo: "https://github.com/youngwookim/awesome-hadoop",
+    items: [],
+  },
+  {
+    title: "Big Data - Data Engineering",
+    href: "docs/bucketlist/data-engineering",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/igorbarinov/awesome-data-engineering",
+    github_repo: "https://github.com/igorbarinov/awesome-data-engineering",
+    items: [],
+  },
+  {
+    title: "Big Data - Streaming",
+    href: "docs/bucketlist/streaming",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/manuzhang/awesome-streaming",
+    github_repo: "https://github.com/manuzhang/awesome-streaming",
+    items: [],
+  },
+  {
+    title: "Big Data - Apache Spark",
+    href: "docs/bucketlist/apache-spark",
+    description: "Unified Engine For Large-Scale Data Processing.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-spark/awesome-spark",
+    github_repo: "https://github.com/awesome-spark/awesome-spark",
+    items: [],
+  },
+  {
+    title: "Big Data - Qlik",
+    href: "docs/bucketlist/qlik",
+    description:
+      "Business Intelligence Platform For Data Visualization, Analytics, And Reporting Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ambster-public/awesome-qlik",
+    github_repo: "https://github.com/ambster-public/awesome-qlik",
+    items: [],
+  },
+  {
+    title: "Big Data - Splunk",
+    href: "docs/bucketlist/splunk",
+    description:
+      "Platform For Searching, Monitoring, And Analyzing Structured And Unstructured Machine-Generated Big Data In Real-Time.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sduff/awesome-splunk",
+    github_repo: "https://github.com/sduff/awesome-splunk",
+    items: [],
+  },
+  {
+    title: "Theory - Papers We Love",
+    href: "docs/bucketlist/papers-we-love",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/papers-we-love/papers-we-love",
+    github_repo: "https://github.com/papers-we-love/papers-we-love",
+    items: [],
+  },
+  {
+    title: "Theory - Talks",
+    href: "docs/bucketlist/talks",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/JanVanRyswyck/awesome-talks",
+    github_repo: "https://github.com/JanVanRyswyck/awesome-talks",
+    items: [],
+  },
+  {
+    title: "Theory - Algorithms",
+    href: "docs/bucketlist/algorithms",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tayllan/awesome-algorithms",
+    github_repo: "https://github.com/tayllan/awesome-algorithms",
+    items: [],
+  },
+  {
+    title: "Theory - Education",
+    href: "docs/bucketlist/education",
+    description: "Learning And Practicing.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gaerae/awesome-algorithms-education",
+    github_repo: "https://github.com/gaerae/awesome-algorithms-education",
+    items: [],
+  },
+  {
+    title: "Theory - Algorithm Visualizations",
+    href: "docs/bucketlist/algorithm-visualizations",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/enjalot/algovis",
+    github_repo: "https://github.com/enjalot/algovis",
+    items: [],
+  },
+  {
+    title: "Theory - Artificial Intelligence",
+    href: "docs/bucketlist/artificial-intelligence",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/owainlewis/awesome-artificial-intelligence",
+    github_repo:
+      "https://github.com/owainlewis/awesome-artificial-intelligence",
+    items: [],
+  },
+  {
+    title: "Theory - Search Engine Optimization",
+    href: "docs/bucketlist/search-engine-optimization",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/marcobiedermann/search-engine-optimization",
+    github_repo:
+      "https://github.com/marcobiedermann/search-engine-optimization",
+    items: [],
+  },
+  {
+    title: "Theory - Competitive Programming",
+    href: "docs/bucketlist/competitive-programming",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lnishan/awesome-competitive-programming",
+    github_repo: "https://github.com/lnishan/awesome-competitive-programming",
+    items: [],
+  },
+  {
+    title: "Theory - Math",
+    href: "docs/bucketlist/math",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rossant/awesome-math",
+    github_repo: "https://github.com/rossant/awesome-math",
+    items: [],
+  },
+  {
+    title: "Theory - Recursion Schemes",
+    href: "docs/bucketlist/recursion-schemes",
+    description: "Traversing Nested Data Structures.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/passy/awesome-recursion-schemes",
+    github_repo: "https://github.com/passy/awesome-recursion-schemes",
+    items: [],
+  },
+  {
+    title: "Books - Free Programming Books",
+    href: "docs/bucketlist/free-programming-books",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/EbookFoundation/free-programming-books",
+    github_repo: "https://github.com/EbookFoundation/free-programming-books",
+    items: [],
+  },
+  {
+    title: "Books - Free Software Testing Books",
+    href: "docs/bucketlist/free-software-testing-books",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ligurio/awesome-software-quality",
+    github_repo: "https://github.com/ligurio/awesome-software-quality",
+    items: [],
+  },
+  {
+    title: "Books - Go Books",
+    href: "docs/bucketlist/go-books",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/dariubs/GoBooks",
+    github_repo: "https://github.com/dariubs/GoBooks",
+    items: [],
+  },
+  {
+    title: "Books - R Books",
+    href: "docs/bucketlist/r-books",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RomanTsegelskyi/rbooks",
+    github_repo: "https://github.com/RomanTsegelskyi/rbooks",
+    items: [],
+  },
+  {
+    title: "Books - Mind Expanding Books",
+    href: "docs/bucketlist/mind-expanding-books",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hackerkid/Mind-Expanding-Books",
+    github_repo: "https://github.com/hackerkid/Mind-Expanding-Books",
+    items: [],
+  },
+  {
+    title: "Books - Book Authoring",
+    href: "docs/bucketlist/book-authoring",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TalAter/awesome-book-authoring",
+    github_repo: "https://github.com/TalAter/awesome-book-authoring",
+    items: [],
+  },
+  {
+    title: "Books - Elixir Books",
+    href: "docs/bucketlist/elixir-books",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/sger/ElixirBooks",
+    github_repo: "https://github.com/sger/ElixirBooks",
+    items: [],
+  },
+  {
+    title: "Editors - Sublime Text",
+    href: "docs/bucketlist/sublime-text",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dreikanter/sublime-bookmarks",
+    github_repo: "https://github.com/dreikanter/sublime-bookmarks",
+    items: [],
+  },
+  {
+    title: "Editors - Vim",
+    href: "docs/bucketlist/vim",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/mhinz/vim-galore",
+    github_repo: "https://github.com/mhinz/vim-galore",
+    items: [],
+  },
+  {
+    title: "Editors - Emacs",
+    href: "docs/bucketlist/emacs",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/emacs-tw/awesome-emacs",
+    github_repo: "https://github.com/emacs-tw/awesome-emacs",
+    items: [],
+  },
+  {
+    title: "Editors - Atom",
+    href: "docs/bucketlist/atom",
+    description: "Open-Source And Hackable Text Editor.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mehcode/awesome-atom",
+    github_repo: "https://github.com/mehcode/awesome-atom",
+    items: [],
+  },
+  {
+    title: "Editors - Visual Studio Code",
+    href: "docs/bucketlist/visual-studio-code",
+    description: "Cross-Platform Open-Source Text Editor.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/viatsko/awesome-vscode",
+    github_repo: "https://github.com/viatsko/awesome-vscode",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Development",
+    href: "docs/bucketlist/game-development",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ellisonleao/magictools",
+    github_repo: "https://github.com/ellisonleao/magictools",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Talks",
+    href: "docs/bucketlist/game-talks",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hzoo/awesome-gametalks",
+    github_repo: "https://github.com/hzoo/awesome-gametalks",
+    items: [],
+  },
+  {
+    title: "Gaming - Godot",
+    href: "docs/bucketlist/godot",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Calinou/awesome-godot",
+    github_repo: "https://github.com/Calinou/awesome-godot",
+    items: [],
+  },
+  {
+    title: "Gaming - Open Source Games",
+    href: "docs/bucketlist/open-source-games",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/leereilly/games",
+    github_repo: "https://github.com/leereilly/games",
+    items: [],
+  },
+  {
+    title: "Gaming - Unity",
+    href: "docs/bucketlist/unity",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RyanNielson/awesome-unity",
+    github_repo: "https://github.com/RyanNielson/awesome-unity",
+    items: [],
+  },
+  {
+    title: "Gaming - Chess",
+    href: "docs/bucketlist/chess",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hkirat/awesome-chess",
+    github_repo: "https://github.com/hkirat/awesome-chess",
+    items: [],
+  },
+  {
+    title: "Gaming - LÖVE",
+    href: "docs/bucketlist/löve",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/love2d-community/awesome-love2d",
+    github_repo: "https://github.com/love2d-community/awesome-love2d",
+    items: [],
+  },
+  {
+    title: "Gaming - PICO-8",
+    href: "docs/bucketlist/pico-8",
+    description: "Fantasy Console.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/pico-8/awesome-PICO-8",
+    github_repo: "https://github.com/pico-8/awesome-PICO-8",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Boy Development",
+    href: "docs/bucketlist/game-boy-development",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gbdev/awesome-gbdev",
+    github_repo: "https://github.com/gbdev/awesome-gbdev",
+    items: [],
+  },
+  {
+    title: "Gaming - Construct 2",
+    href: "docs/bucketlist/construct-2",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/WebCreationClub/awesome-construct",
+    github_repo: "https://github.com/WebCreationClub/awesome-construct",
+    items: [],
+  },
+  {
+    title: "Gaming - Gideros",
+    href: "docs/bucketlist/gideros",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stetso/awesome-gideros",
+    github_repo: "https://github.com/stetso/awesome-gideros",
+    items: [],
+  },
+  {
+    title: "Gaming - Minecraft",
+    href: "docs/bucketlist/minecraft",
+    description: "Sandbox Video Game.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bs-community/awesome-minecraft",
+    github_repo: "https://github.com/bs-community/awesome-minecraft",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Datasets",
+    href: "docs/bucketlist/game-datasets",
+    description: "Materials And Datasets For Artificial Intelligence In Games.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/leomaurodesenv/game-datasets",
+    github_repo: "https://github.com/leomaurodesenv/game-datasets",
+    items: [],
+  },
+  {
+    title: "Gaming - Haxe Game Development",
+    href: "docs/bucketlist/haxe-game-development",
+    description:
+      "A High-Level Strongly Typed Programming Language Used To Produce Cross-Platform Native Code.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Dvergar/awesome-haxe-gamedev",
+    github_repo: "https://github.com/Dvergar/awesome-haxe-gamedev",
+    items: [],
+  },
+  {
+    title: "Gaming - libGDX",
+    href: "docs/bucketlist/libgdx",
+    description: "Java Game Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rafaskb/awesome-libgdx",
+    github_repo: "https://github.com/rafaskb/awesome-libgdx",
+    items: [],
+  },
+  {
+    title: "Gaming - PlayCanvas",
+    href: "docs/bucketlist/playcanvas",
+    description: "Game Engine.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/playcanvas/awesome-playcanvas",
+    github_repo: "https://github.com/playcanvas/awesome-playcanvas",
+    items: [],
+  },
+  {
+    title: "Gaming - Game Remakes",
+    href: "docs/bucketlist/game-remakes",
+    description: "Actively Maintained Open-Source Game Remakes.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/radek-sprta/awesome-game-remakes",
+    github_repo: "https://github.com/radek-sprta/awesome-game-remakes",
+    items: [],
+  },
+  {
+    title: "Gaming - Flame",
+    href: "docs/bucketlist/flame",
+    description: "Game Engine For Flutter.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/flame-engine/awesome-flame",
+    github_repo: "https://github.com/flame-engine/awesome-flame",
+    items: [],
+  },
+  {
+    title: "Gaming - Discord Communities",
+    href: "docs/bucketlist/discord-communities",
+    description: "Chat With Friends And Communities.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mhxion/awesome-discord-communities",
+    github_repo: "https://github.com/mhxion/awesome-discord-communities",
+    items: [],
+  },
+  {
+    title: "Gaming - CHIP-8",
+    href: "docs/bucketlist/chip-8",
+    description: "Virtual Computer Game Machine From The 70S.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tobiasvl/awesome-chip-8",
+    github_repo: "https://github.com/tobiasvl/awesome-chip-8",
+    items: [],
+  },
+  {
+    title: "Gaming - Games of Coding",
+    href: "docs/bucketlist/games-of-coding",
+    description: "Learn A Programming Language By Making Games.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/michelpereira/awesome-games-of-coding",
+    github_repo: "https://github.com/michelpereira/awesome-games-of-coding",
+    items: [],
+  },
+  {
+    title: "Development Environment - Quick Look Plugins",
+    href: "docs/bucketlist/quick-look-plugins",
+    description: "For Macos.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/quick-look-plugins",
+    github_repo: "https://github.com/sindresorhus/quick-look-plugins",
+    items: [],
+  },
+  {
+    title: "Development Environment - Dev Env",
+    href: "docs/bucketlist/dev-env",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jondot/awesome-devenv",
+    github_repo: "https://github.com/jondot/awesome-devenv",
+    items: [],
+  },
+  {
+    title: "Development Environment - Dotfiles",
+    href: "docs/bucketlist/dotfiles",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/webpro/awesome-dotfiles",
+    github_repo: "https://github.com/webpro/awesome-dotfiles",
+    items: [],
+  },
+  {
+    title: "Development Environment - Shell",
+    href: "docs/bucketlist/shell",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alebcay/awesome-shell",
+    github_repo: "https://github.com/alebcay/awesome-shell",
+    items: [],
+  },
+  {
+    title: "Development Environment - Fish",
+    href: "docs/bucketlist/fish",
+    description: "User-Friendly Shell.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jorgebucaran/awesome-fish",
+    github_repo: "https://github.com/jorgebucaran/awesome-fish",
+    items: [],
+  },
+  {
+    title: "Development Environment - Command-Line Apps",
+    href: "docs/bucketlist/command-line-apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/agarrharr/awesome-cli-apps",
+    github_repo: "https://github.com/agarrharr/awesome-cli-apps",
+    items: [],
+  },
+  {
+    title: "Development Environment - ZSH Plugins",
+    href: "docs/bucketlist/zsh-plugins",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/unixorn/awesome-zsh-plugins",
+    github_repo: "https://github.com/unixorn/awesome-zsh-plugins",
+    items: [],
+  },
+  {
+    title: "Development Environment - GitHub",
+    href: "docs/bucketlist/github",
+    description: "Hosting Service For Git Repositories.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/phillipadsmith/awesome-github",
+    github_repo: "https://github.com/phillipadsmith/awesome-github",
+    items: [],
+  },
+  {
+    title: "Development Environment - Browser Extensions",
+    href: "docs/bucketlist/browser-extensions",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stefanbuck/awesome-browser-extensions-for-github",
+    github_repo:
+      "https://github.com/stefanbuck/awesome-browser-extensions-for-github",
+    items: [],
+  },
+  {
+    title: "Development Environment - Cheat Sheet",
+    href: "docs/bucketlist/cheat-sheet",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tiimgreen/github-cheat-sheet",
+    github_repo: "https://github.com/tiimgreen/github-cheat-sheet",
+    items: [],
+  },
+  {
+    title: "Development Environment - Pinned Gists",
+    href: "docs/bucketlist/pinned-gists",
+    description: "Dynamic Pinned Gists For Your Github Profile.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matchai/awesome-pinned-gists",
+    github_repo: "https://github.com/matchai/awesome-pinned-gists",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Cheat Sheet & Git Flow",
+    href: "docs/bucketlist/git-cheat-sheet-&-git-flow",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/arslanbilal/git-cheat-sheet",
+    github_repo: "https://github.com/arslanbilal/git-cheat-sheet",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Tips",
+    href: "docs/bucketlist/git-tips",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/git-tips/tips",
+    github_repo: "https://github.com/git-tips/tips",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Add-ons",
+    href: "docs/bucketlist/git-add-ons",
+    description: "Enhance The `Git` Cli.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stevemao/awesome-git-addons",
+    github_repo: "https://github.com/stevemao/awesome-git-addons",
+    items: [],
+  },
+  {
+    title: "Development Environment - Git Hooks",
+    href: "docs/bucketlist/git-hooks",
+    description: "Scripts For Automating Tasks During `Git` Workflows.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/compscilauren/awesome-git-hooks",
+    github_repo: "https://github.com/compscilauren/awesome-git-hooks",
+    items: [],
+  },
+  {
+    title: "Development Environment - SSH",
+    href: "docs/bucketlist/ssh",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/moul/awesome-ssh",
+    github_repo: "https://github.com/moul/awesome-ssh",
+    items: [],
+  },
+  {
+    title: "Development Environment - FOSS for Developers",
+    href: "docs/bucketlist/foss-for-developers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tvvocold/FOSS-for-Dev",
+    github_repo: "https://github.com/tvvocold/FOSS-for-Dev",
+    items: [],
+  },
+  {
+    title: "Development Environment - Hyper",
+    href: "docs/bucketlist/hyper",
+    description: "Cross-Platform Terminal App Built On Web Technologies.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/bnb/awesome-hyper",
+    github_repo: "https://github.com/bnb/awesome-hyper",
+    items: [],
+  },
+  {
+    title: "Development Environment - PowerShell",
+    href: "docs/bucketlist/powershell",
+    description: "Cross-Platform Object-Oriented Shell.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/janikvonrotz/awesome-powershell",
+    github_repo: "https://github.com/janikvonrotz/awesome-powershell",
+    items: [],
+  },
+  {
+    title: "Development Environment - Alfred Workflows",
+    href: "docs/bucketlist/alfred-workflows",
+    description: "Productivity App For Macos.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/derimagia/awesome-alfred-workflows",
+    github_repo: "https://github.com/derimagia/awesome-alfred-workflows",
+    items: [],
+  },
+  {
+    title: "Development Environment - Terminals Are Sexy",
+    href: "docs/bucketlist/terminals-are-sexy",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/k4m4/terminals-are-sexy",
+    github_repo: "https://github.com/k4m4/terminals-are-sexy",
+    items: [],
+  },
+  {
+    title: "Development Environment - GitHub Actions",
+    href: "docs/bucketlist/github-actions",
+    description:
+      "Create Tasks To Automate Your Workflow And Share Them With Others On Github.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdras/awesome-actions",
+    github_repo: "https://github.com/sdras/awesome-actions",
+    items: [],
+  },
+  {
+    title: "Entertainment - Science Fiction",
+    href: "docs/bucketlist/science-fiction",
+    description: "Scifi.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-scifi",
+    github_repo: "https://github.com/sindresorhus/awesome-scifi",
+    items: [],
+  },
+  {
+    title: "Entertainment - Fantasy",
+    href: "docs/bucketlist/fantasy",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RichardLitt/awesome-fantasy",
+    github_repo: "https://github.com/RichardLitt/awesome-fantasy",
+    items: [],
+  },
+  {
+    title: "Entertainment - Podcasts",
+    href: "docs/bucketlist/podcasts",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ayr-ton/awesome-geek-podcasts",
+    github_repo: "https://github.com/ayr-ton/awesome-geek-podcasts",
+    items: [],
+  },
+  {
+    title: "Entertainment - Email Newsletters",
+    href: "docs/bucketlist/email-newsletters",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zudochkin/awesome-newsletters",
+    github_repo: "https://github.com/zudochkin/awesome-newsletters",
+    items: [],
+  },
+  {
+    title: "Entertainment - IT Quotes",
+    href: "docs/bucketlist/it-quotes",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/victorlaerte/awesome-it-quotes",
+    github_repo: "https://github.com/victorlaerte/awesome-it-quotes",
+    items: [],
+  },
+  {
+    title: "Databases - Database",
+    href: "docs/bucketlist/database",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/numetriclabz/awesome-db",
+    github_repo: "https://github.com/numetriclabz/awesome-db",
+    items: [],
+  },
+  {
+    title: "Databases - MySQL",
+    href: "docs/bucketlist/mysql",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shlomi-noach/awesome-mysql",
+    github_repo: "https://github.com/shlomi-noach/awesome-mysql",
+    items: [],
+  },
+  {
+    title: "Databases - SQLAlchemy",
+    href: "docs/bucketlist/sqlalchemy",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dahlia/awesome-sqlalchemy",
+    github_repo: "https://github.com/dahlia/awesome-sqlalchemy",
+    items: [],
+  },
+  {
+    title: "Databases - InfluxDB",
+    href: "docs/bucketlist/influxdb",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mark-rushakoff/awesome-influxdb",
+    github_repo: "https://github.com/mark-rushakoff/awesome-influxdb",
+    items: [],
+  },
+  {
+    title: "Databases - Neo4j",
+    href: "docs/bucketlist/neo4j",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/neueda/awesome-neo4j",
+    github_repo: "https://github.com/neueda/awesome-neo4j",
+    items: [],
+  },
+  {
+    title: "Databases - MongoDB",
+    href: "docs/bucketlist/mongodb",
+    description: "Nosql Database.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ramnes/awesome-mongodb",
+    github_repo: "https://github.com/ramnes/awesome-mongodb",
+    items: [],
+  },
+  {
+    title: "Databases - RethinkDB",
+    href: "docs/bucketlist/rethinkdb",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/d3viant0ne/awesome-rethinkdb",
+    github_repo: "https://github.com/d3viant0ne/awesome-rethinkdb",
+    items: [],
+  },
+  {
+    title: "Databases - TinkerPop",
+    href: "docs/bucketlist/tinkerpop",
+    description: "Graph Computing Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mohataher/awesome-tinkerpop",
+    github_repo: "https://github.com/mohataher/awesome-tinkerpop",
+    items: [],
+  },
+  {
+    title: "Databases - PostgreSQL",
+    href: "docs/bucketlist/postgresql",
+    description: "Object-Relational Database.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dhamaniasad/awesome-postgres",
+    github_repo: "https://github.com/dhamaniasad/awesome-postgres",
+    items: [],
+  },
+  {
+    title: "Databases - CouchDB",
+    href: "docs/bucketlist/couchdb",
+    description: "Document-Oriented Nosql Database.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/quangv/awesome-couchdb",
+    github_repo: "https://github.com/quangv/awesome-couchdb",
+    items: [],
+  },
+  {
+    title: "Databases - HBase",
+    href: "docs/bucketlist/hbase",
+    description: "Distributed, Scalable, Big Data Store.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rayokota/awesome-hbase",
+    github_repo: "https://github.com/rayokota/awesome-hbase",
+    items: [],
+  },
+  {
+    title: "Databases - NoSQL Guides",
+    href: "docs/bucketlist/nosql-guides",
+    description:
+      "Help On Using Non-Relational, Distributed, Open-Source, And Horizontally Scalable Databases.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/erictleung/awesome-nosql-guides",
+    github_repo: "https://github.com/erictleung/awesome-nosql-guides",
+    items: [],
+  },
+  {
+    title: "Databases - Contexture",
+    href: "docs/bucketlist/contexture",
+    description:
+      "Abstracts Queries/Filters And Results/Aggregations From Different Backing Data Stores Like Elasticsearch And Mongodb.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ltchris/awesome-contexture",
+    github_repo: "https://github.com/ltchris/awesome-contexture",
+    items: [],
+  },
+  {
+    title: "Databases - Database Tools",
+    href: "docs/bucketlist/database-tools",
+    description: "Everything That Makes Working With Databases Easier.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mgramin/awesome-db-tools",
+    github_repo: "https://github.com/mgramin/awesome-db-tools",
+    items: [],
+  },
+  {
+    title: "Media - Creative Commons Media",
+    href: "docs/bucketlist/creative-commons-media",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/shime/creative-commons-media",
+    github_repo: "https://github.com/shime/creative-commons-media",
+    items: [],
+  },
+  {
+    title: "Media - Fonts",
+    href: "docs/bucketlist/fonts",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brabadu/awesome-fonts",
+    github_repo: "https://github.com/brabadu/awesome-fonts",
+    items: [],
+  },
+  {
+    title: "Media - Codeface",
+    href: "docs/bucketlist/codeface",
+    description: "Text Editor Fonts.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chrissimpkins/codeface",
+    github_repo: "https://github.com/chrissimpkins/codeface",
+    items: [],
+  },
+  {
+    title: "Media - Stock Resources",
+    href: "docs/bucketlist/stock-resources",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/neutraltone/awesome-stock-resources",
+    github_repo: "https://github.com/neutraltone/awesome-stock-resources",
+    items: [],
+  },
+  {
+    title: "Media - GIF",
+    href: "docs/bucketlist/gif",
+    description: "Image Format Known For Animated Images.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davisonio/awesome-gif",
+    github_repo: "https://github.com/davisonio/awesome-gif",
+    items: [],
+  },
+  {
+    title: "Media - Music",
+    href: "docs/bucketlist/music",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ciconia/awesome-music",
+    github_repo: "https://github.com/ciconia/awesome-music",
+    items: [],
+  },
+  {
+    title: "Media - Open Source Documents",
+    href: "docs/bucketlist/open-source-documents",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hubtee/awesome-opensource-documents",
+    github_repo: "https://github.com/hubtee/awesome-opensource-documents",
+    items: [],
+  },
+  {
+    title: "Media - Audio Visualization",
+    href: "docs/bucketlist/audio-visualization",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/willianjusten/awesome-audio-visualization",
+    github_repo: "https://github.com/willianjusten/awesome-audio-visualization",
+    items: [],
+  },
+  {
+    title: "Media - Broadcasting",
+    href: "docs/bucketlist/broadcasting",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ebu/awesome-broadcasting",
+    github_repo: "https://github.com/ebu/awesome-broadcasting",
+    items: [],
+  },
+  {
+    title: "Media - Pixel Art",
+    href: "docs/bucketlist/pixel-art",
+    description: "Pixel-Level Digital Art.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Siilwyn/awesome-pixel-art",
+    github_repo: "https://github.com/Siilwyn/awesome-pixel-art",
+    items: [],
+  },
+  {
+    title: "Media - FFmpeg",
+    href: "docs/bucketlist/ffmpeg",
+    description:
+      "Cross-Platform Solution To Record, Convert And Stream Audio And Video.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/transitive-bullshit/awesome-ffmpeg",
+    github_repo: "https://github.com/transitive-bullshit/awesome-ffmpeg",
+    items: [],
+  },
+  {
+    title: "Media - Icons",
+    href: "docs/bucketlist/icons",
+    description: "Downloadable Svg/Png/Font Icon Projects.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/notlmn/awesome-icons",
+    github_repo: "https://github.com/notlmn/awesome-icons",
+    items: [],
+  },
+  {
+    title: "Media - Audiovisual",
+    href: "docs/bucketlist/audiovisual",
+    description: "Lighting, Audio And Video In Professional Environments.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stingalleman/awesome-audiovisual",
+    github_repo: "https://github.com/stingalleman/awesome-audiovisual",
+    items: [],
+  },
+  {
+    title: "Learn - CLI Workshoppers",
+    href: "docs/bucketlist/cli-workshoppers",
+    description: "Interactive Tutorials.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/therebelrobot/awesome-workshopper",
+    github_repo: "https://github.com/therebelrobot/awesome-workshopper",
+    items: [],
+  },
+  {
+    title: "Learn - Learn to Program",
+    href: "docs/bucketlist/learn-to-program",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/karlhorky/learn-to-program",
+    github_repo: "https://github.com/karlhorky/learn-to-program",
+    items: [],
+  },
+  {
+    title: "Learn - Speaking",
+    href: "docs/bucketlist/speaking",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matteofigus/awesome-speaking",
+    github_repo: "https://github.com/matteofigus/awesome-speaking",
+    items: [],
+  },
+  {
+    title: "Learn - Tech Videos",
+    href: "docs/bucketlist/tech-videos",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lucasviola/awesome-tech-videos",
+    github_repo: "https://github.com/lucasviola/awesome-tech-videos",
+    items: [],
+  },
+  {
+    title: "Learn - Dive into Machine Learning",
+    href: "docs/bucketlist/dive-into-machine-learning",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hangtwenty/dive-into-machine-learning",
+    github_repo: "https://github.com/hangtwenty/dive-into-machine-learning",
+    items: [],
+  },
+  {
+    title: "Learn - Computer History",
+    href: "docs/bucketlist/computer-history",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/watson/awesome-computer-history",
+    github_repo: "https://github.com/watson/awesome-computer-history",
+    items: [],
+  },
+  {
+    title: "Learn - Programming for Kids",
+    href: "docs/bucketlist/programming-for-kids",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/HollyAdele/awesome-programming-for-kids",
+    github_repo: "https://github.com/HollyAdele/awesome-programming-for-kids",
+    items: [],
+  },
+  {
+    title: "Learn - Educational Games",
+    href: "docs/bucketlist/educational-games",
+    description: "Learn While Playing.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/yrgo/awesome-educational-games",
+    github_repo: "https://github.com/yrgo/awesome-educational-games",
+    items: [],
+  },
+  {
+    title: "Learn - JavaScript Learning",
+    href: "docs/bucketlist/javascript-learning",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/micromata/awesome-javascript-learning",
+    github_repo: "https://github.com/micromata/awesome-javascript-learning",
+    items: [],
+  },
+  {
+    title: "Learn - CSS Learning",
+    href: "docs/bucketlist/css-learning",
+    description: "Mainly About Css – The Language And The Modules.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/micromata/awesome-css-learning",
+    github_repo: "https://github.com/micromata/awesome-css-learning",
+    items: [],
+  },
+  {
+    title: "Learn - Product Management",
+    href: "docs/bucketlist/product-management",
+    description: "Learn How To Be A Better Product Manager.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dend/awesome-product-management",
+    github_repo: "https://github.com/dend/awesome-product-management",
+    items: [],
+  },
+  {
+    title: "Learn - Roadmaps",
+    href: "docs/bucketlist/roadmaps",
+    description:
+      "Gives You A Clear Route To Improve Your Knowledge And Skills.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/liuchong/awesome-roadmaps",
+    github_repo: "https://github.com/liuchong/awesome-roadmaps",
+    items: [],
+  },
+  {
+    title: "Learn - YouTubers",
+    href: "docs/bucketlist/youtubers",
+    description:
+      "Watch Video Tutorials From Youtubers That Teach You About Technology.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/JoseDeFreitas/awesome-youtubers",
+    github_repo: "https://github.com/JoseDeFreitas/awesome-youtubers",
+    items: [],
+  },
+  {
+    title: "Security - Application Security",
+    href: "docs/bucketlist/application-security",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/paragonie/awesome-appsec",
+    github_repo: "https://github.com/paragonie/awesome-appsec",
+    items: [],
+  },
+  {
+    title: "Security - Security",
+    href: "docs/bucketlist/security",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sbilly/awesome-security",
+    github_repo: "https://github.com/sbilly/awesome-security",
+    items: [],
+  },
+  {
+    title: "Security - CTF",
+    href: "docs/bucketlist/ctf",
+    description: "Capture The Flag.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/apsdehal/awesome-ctf",
+    github_repo: "https://github.com/apsdehal/awesome-ctf",
+    items: [],
+  },
+  {
+    title: "Security - Malware Analysis",
+    href: "docs/bucketlist/malware-analysis",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rshipp/awesome-malware-analysis",
+    github_repo: "https://github.com/rshipp/awesome-malware-analysis",
+    items: [],
+  },
+  {
+    title: "Security - Android Security",
+    href: "docs/bucketlist/android-security",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ashishb/android-security-awesome",
+    github_repo: "https://github.com/ashishb/android-security-awesome",
+    items: [],
+  },
+  {
+    title: "Security - Hacking",
+    href: "docs/bucketlist/hacking",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/carpedm20/awesome-hacking",
+    github_repo: "https://github.com/carpedm20/awesome-hacking",
+    items: [],
+  },
+  {
+    title: "Security - Honeypots",
+    href: "docs/bucketlist/honeypots",
+    description:
+      "Deception Trap, Designed To Entice An Attacker Into Attempting To Compromise The Information Systems In An Organization.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/paralax/awesome-honeypots",
+    github_repo: "https://github.com/paralax/awesome-honeypots",
+    items: [],
+  },
+  {
+    title: "Security - Incident Response",
+    href: "docs/bucketlist/incident-response",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/meirwah/awesome-incident-response",
+    github_repo: "https://github.com/meirwah/awesome-incident-response",
+    items: [],
+  },
+  {
+    title: "Security - Vehicle Security and Car Hacking",
+    href: "docs/bucketlist/vehicle-security-and-car-hacking",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jaredthecoder/awesome-vehicle-security",
+    github_repo: "https://github.com/jaredthecoder/awesome-vehicle-security",
+    items: [],
+  },
+  {
+    title: "Security - Web Security",
+    href: "docs/bucketlist/web-security",
+    description: "Security Of Web Apps & Services.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/qazbnm456/awesome-web-security",
+    github_repo: "https://github.com/qazbnm456/awesome-web-security",
+    items: [],
+  },
+  {
+    title: "Security - Lockpicking",
+    href: "docs/bucketlist/lockpicking",
+    description:
+      "The Art Of Unlocking A Lock By Manipulating Its Components Without The Key.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fabacab/awesome-lockpicking",
+    github_repo: "https://github.com/fabacab/awesome-lockpicking",
+    items: [],
+  },
+  {
+    title: "Security - Cybersecurity Blue Team",
+    href: "docs/bucketlist/cybersecurity-blue-team",
+    description:
+      "Groups Of Individuals Who Identify Security Flaws In Information Technology Systems.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fabacab/awesome-cybersecurity-blueteam",
+    github_repo: "https://github.com/fabacab/awesome-cybersecurity-blueteam",
+    items: [],
+  },
+  {
+    title: "Security - Fuzzing",
+    href: "docs/bucketlist/fuzzing",
+    description:
+      "Automated Software Testing Technique That Involves Feeding Pseudo-Randomly Generated Input Data.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cpuu/awesome-fuzzing",
+    github_repo: "https://github.com/cpuu/awesome-fuzzing",
+    items: [],
+  },
+  {
+    title: "Security - Embedded and IoT Security",
+    href: "docs/bucketlist/embedded-and-iot-security",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fkie-cad/awesome-embedded-and-iot-security",
+    github_repo:
+      "https://github.com/fkie-cad/awesome-embedded-and-iot-security",
+    items: [],
+  },
+  {
+    title: "Security - GDPR",
+    href: "docs/bucketlist/gdpr",
+    description:
+      "Regulation On Data Protection And Privacy For All Individuals Within Eu.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/bakke92/awesome-gdpr",
+    github_repo: "https://github.com/bakke92/awesome-gdpr",
+    items: [],
+  },
+  {
+    title: "Security - DevSecOps",
+    href: "docs/bucketlist/devsecops",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TaptuIT/awesome-devsecops",
+    github_repo: "https://github.com/TaptuIT/awesome-devsecops",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Umbraco",
+    href: "docs/bucketlist/umbraco",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/umbraco-community/awesome-umbraco",
+    github_repo: "https://github.com/umbraco-community/awesome-umbraco",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Refinery CMS",
+    href: "docs/bucketlist/refinery-cms",
+    description: "Ruby On Rails Cms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/refinerycms-contrib/awesome-refinerycms",
+    github_repo: "https://github.com/refinerycms-contrib/awesome-refinerycms",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Wagtail",
+    href: "docs/bucketlist/wagtail",
+    description: "Django Cms Focused On Flexibility And User Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/springload/awesome-wagtail",
+    github_repo: "https://github.com/springload/awesome-wagtail",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Textpattern",
+    href: "docs/bucketlist/textpattern",
+    description: "Lightweight Php-Based Cms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/drmonkeyninja/awesome-textpattern",
+    github_repo: "https://github.com/drmonkeyninja/awesome-textpattern",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Drupal",
+    href: "docs/bucketlist/drupal",
+    description: "Extensible Php-Based Cms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nirgn975/awesome-drupal",
+    github_repo: "https://github.com/nirgn975/awesome-drupal",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Craft CMS",
+    href: "docs/bucketlist/craft-cms",
+    description: "Content-First Cms.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/craftcms/awesome",
+    github_repo: "https://github.com/craftcms/awesome",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Sitecore",
+    href: "docs/bucketlist/sitecore",
+    description:
+      ".Net Digital Marketing Platform That Combines Cms With Tools For Managing Multiple Websites.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MartinMiles/Awesome-Sitecore",
+    github_repo: "https://github.com/MartinMiles/Awesome-Sitecore",
+    items: [],
+  },
+  {
+    title: "Content Management Systems - Silverstripe CMS",
+    href: "docs/bucketlist/silverstripe-cms",
+    description: "Php Mvc Framework That Serves As A Classic Or Headless Cms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wernerkrauss/awesome-silverstripe-cms",
+    github_repo: "https://github.com/wernerkrauss/awesome-silverstripe-cms",
+    items: [],
+  },
+  {
+    title: "Hardware - Robotics",
+    href: "docs/bucketlist/robotics",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Kiloreux/awesome-robotics",
+    github_repo: "https://github.com/Kiloreux/awesome-robotics",
+    items: [],
+  },
+  {
+    title: "Hardware - Internet of Things",
+    href: "docs/bucketlist/internet-of-things",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/HQarroum/awesome-iot",
+    github_repo: "https://github.com/HQarroum/awesome-iot",
+    items: [],
+  },
+  {
+    title: "Hardware - Electronics",
+    href: "docs/bucketlist/electronics",
+    description: "For Electronic Engineers And Hobbyists.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kitspace/awesome-electronics",
+    github_repo: "https://github.com/kitspace/awesome-electronics",
+    items: [],
+  },
+  {
+    title: "Hardware - Bluetooth Beacons",
+    href: "docs/bucketlist/bluetooth-beacons",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/rabschi/awesome-beacon",
+    github_repo: "https://github.com/rabschi/awesome-beacon",
+    items: [],
+  },
+  {
+    title: "Hardware - Electric Guitar Specifications",
+    href: "docs/bucketlist/electric-guitar-specifications",
+    description: "Checklist For Building Your Own Electric Guitar.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gitfrage/guitarspecs",
+    github_repo: "https://github.com/gitfrage/guitarspecs",
+    items: [],
+  },
+  {
+    title: "Hardware - Plotters",
+    href: "docs/bucketlist/plotters",
+    description:
+      "Computer-Controlled Drawing Machines And Other Visual Art Robots.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/beardicus/awesome-plotters",
+    github_repo: "https://github.com/beardicus/awesome-plotters",
+    items: [],
+  },
+  {
+    title: "Hardware - Robotic Tooling",
+    href: "docs/bucketlist/robotic-tooling",
+    description: "Free And Open Tools For Professional Robotic Development.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/protontypes/awesome-robotic-tooling",
+    github_repo: "https://github.com/protontypes/awesome-robotic-tooling",
+    items: [],
+  },
+  {
+    title: "Hardware - LIDAR",
+    href: "docs/bucketlist/lidar",
+    description:
+      "Sensor For Measuring Distances By Illuminating The Target With Laser Light.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/szenergy/awesome-lidar",
+    github_repo: "https://github.com/szenergy/awesome-lidar",
+    items: [],
+  },
+  {
+    title: "Business - Open Companies",
+    href: "docs/bucketlist/open-companies",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/opencompany/awesome-open-company",
+    github_repo: "https://github.com/opencompany/awesome-open-company",
+    items: [],
+  },
+  {
+    title: "Business - Places to Post Your Startup",
+    href: "docs/bucketlist/places-to-post-your-startup",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mmccaff/PlacesToPostYourStartup",
+    github_repo: "https://github.com/mmccaff/PlacesToPostYourStartup",
+    items: [],
+  },
+  {
+    title: "Business - OKR Methodology",
+    href: "docs/bucketlist/okr-methodology",
+    description: "Goal Setting & Communication Best Practices.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/domenicosolazzo/awesome-okr",
+    github_repo: "https://github.com/domenicosolazzo/awesome-okr",
+    items: [],
+  },
+  {
+    title: "Business - Leading and Managing",
+    href: "docs/bucketlist/leading-and-managing",
+    description:
+      "Leading People And Being A Manager In A Technology Company/Environment.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/LappleApple/awesome-leading-and-managing",
+    github_repo: "https://github.com/LappleApple/awesome-leading-and-managing",
+    items: [],
+  },
+  {
+    title: "Business - Indie",
+    href: "docs/bucketlist/indie",
+    description: "Independent Developer Businesses.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mezod/awesome-indie",
+    github_repo: "https://github.com/mezod/awesome-indie",
+    items: [],
+  },
+  {
+    title: "Business - Tools of the Trade",
+    href: "docs/bucketlist/tools-of-the-trade",
+    description: "Tools Used By Companies On Hacker News.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cjbarber/ToolsOfTheTrade",
+    github_repo: "https://github.com/cjbarber/ToolsOfTheTrade",
+    items: [],
+  },
+  {
+    title: "Business - Clean Tech",
+    href: "docs/bucketlist/clean-tech",
+    description: "Fighting Climate Change With Technology.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nglgzz/awesome-clean-tech",
+    github_repo: "https://github.com/nglgzz/awesome-clean-tech",
+    items: [],
+  },
+  {
+    title: "Business - Wardley Maps",
+    href: "docs/bucketlist/wardley-maps",
+    description:
+      "Provides High Situational Awareness To Help Improve Strategic Planning And Decision Making.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/wardley-maps-community/awesome-wardley-maps",
+    github_repo:
+      "https://github.com/wardley-maps-community/awesome-wardley-maps",
+    items: [],
+  },
+  {
+    title: "Business - Social Enterprise",
+    href: "docs/bucketlist/social-enterprise",
+    description:
+      "Building An Organization Primarily Focused On Social Impact That Is At Least Partially Self-Funded.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/RayBB/awesome-social-enterprise",
+    github_repo: "https://github.com/RayBB/awesome-social-enterprise",
+    items: [],
+  },
+  {
+    title: "Business - Engineering Team Management",
+    href: "docs/bucketlist/engineering-team-management",
+    description:
+      "How To Transition From Software Development To Engineering Management.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kdeldycke/awesome-engineering-team-management",
+    github_repo:
+      "https://github.com/kdeldycke/awesome-engineering-team-management",
+    items: [],
+  },
+  {
+    title: "Work - Slack",
+    href: "docs/bucketlist/slack",
+    description: "Team Collaboration.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matiassingers/awesome-slack",
+    github_repo: "https://github.com/matiassingers/awesome-slack",
+    items: [],
+  },
+  {
+    title: "Work - Communities",
+    href: "docs/bucketlist/communities",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/filipelinhares/awesome-slack",
+    github_repo: "https://github.com/filipelinhares/awesome-slack",
+    items: [],
+  },
+  {
+    title: "Work - Remote Jobs",
+    href: "docs/bucketlist/remote-jobs",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/lukasz-madon/awesome-remote-job",
+    github_repo: "https://github.com/lukasz-madon/awesome-remote-job",
+    items: [],
+  },
+  {
+    title: "Work - Productivity",
+    href: "docs/bucketlist/productivity",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jyguyomarch/awesome-productivity",
+    github_repo: "https://github.com/jyguyomarch/awesome-productivity",
+    items: [],
+  },
+  {
+    title: "Work - Niche Job Boards",
+    href: "docs/bucketlist/niche-job-boards",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tramcar/awesome-job-boards",
+    github_repo: "https://github.com/tramcar/awesome-job-boards",
+    items: [],
+  },
+  {
+    title: "Work - Programming Interviews",
+    href: "docs/bucketlist/programming-interviews",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MaximAbramchuck/awesome-interview-questions",
+    github_repo:
+      "https://github.com/MaximAbramchuck/awesome-interview-questions",
+    items: [],
+  },
+  {
+    title: "Work - Code Review",
+    href: "docs/bucketlist/code-review",
+    description: "Reviewing Code.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/joho/awesome-code-review",
+    github_repo: "https://github.com/joho/awesome-code-review",
+    items: [],
+  },
+  {
+    title: "Work - Creative Technology",
+    href: "docs/bucketlist/creative-technology",
+    description:
+      "Businesses & Groups That Specialize In Combining Computing, Design, Art, And User Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/j0hnm4r5/awesome-creative-technology",
+    github_repo: "https://github.com/j0hnm4r5/awesome-creative-technology",
+    items: [],
+  },
+  {
+    title: "Networking - Software-Defined Networking",
+    href: "docs/bucketlist/software-defined-networking",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdnds-tw/awesome-sdn",
+    github_repo: "https://github.com/sdnds-tw/awesome-sdn",
+    items: [],
+  },
+  {
+    title: "Networking - Network Analysis",
+    href: "docs/bucketlist/network-analysis",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/briatte/awesome-network-analysis",
+    github_repo: "https://github.com/briatte/awesome-network-analysis",
+    items: [],
+  },
+  {
+    title: "Networking - PCAPTools",
+    href: "docs/bucketlist/pcaptools",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/caesar0301/awesome-pcaptools",
+    github_repo: "https://github.com/caesar0301/awesome-pcaptools",
+    items: [],
+  },
+  {
+    title: "Networking - Real-Time Communications",
+    href: "docs/bucketlist/real-time-communications",
+    description:
+      "Network Protocols For Near Simultaneous Exchange Of Media And Data.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/rtckit/awesome-rtc",
+    github_repo: "https://github.com/rtckit/awesome-rtc",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Bitcoin",
+    href: "docs/bucketlist/bitcoin",
+    description: "Bitcoin Services And Tools For Software Developers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/igorbarinov/awesome-bitcoin",
+    github_repo: "https://github.com/igorbarinov/awesome-bitcoin",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Ripple",
+    href: "docs/bucketlist/ripple",
+    description: "Open Source Distributed Settlement Network.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vhpoet/awesome-ripple",
+    github_repo: "https://github.com/vhpoet/awesome-ripple",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Non-Financial Blockchain",
+    href: "docs/bucketlist/non-financial-blockchain",
+    description: "Non-Financial Blockchain Applications.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/machinomy/awesome-non-financial-blockchain",
+    github_repo:
+      "https://github.com/machinomy/awesome-non-financial-blockchain",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Mastodon",
+    href: "docs/bucketlist/mastodon",
+    description: "Open Source Decentralized Microblogging Network.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tleb/awesome-mastodon",
+    github_repo: "https://github.com/tleb/awesome-mastodon",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Ethereum",
+    href: "docs/bucketlist/ethereum",
+    description:
+      "Distributed Computing Platform For Smart Contract Development.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ttumiel/Awesome-Ethereum",
+    github_repo: "https://github.com/ttumiel/Awesome-Ethereum",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Blockchain AI",
+    href: "docs/bucketlist/blockchain-ai",
+    description:
+      "Blockchain Projects For Artificial Intelligence And Machine Learning.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/steven2358/awesome-blockchain-ai",
+    github_repo: "https://github.com/steven2358/awesome-blockchain-ai",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - EOSIO",
+    href: "docs/bucketlist/eosio",
+    description:
+      "A Decentralized Operating System Supporting Industrial-Scale Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DanailMinchev/awesome-eosio",
+    github_repo: "https://github.com/DanailMinchev/awesome-eosio",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Corda",
+    href: "docs/bucketlist/corda",
+    description: "Open Source Blockchain Platform Designed For Business.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chainstack/awesome-corda",
+    github_repo: "https://github.com/chainstack/awesome-corda",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Waves",
+    href: "docs/bucketlist/waves",
+    description:
+      "Open Source Blockchain Platform And Development Toolset For Web 3.0 Apps And Decentralized Solutions.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/msmolyakov/awesome-waves",
+    github_repo: "https://github.com/msmolyakov/awesome-waves",
+    items: [],
+  },
+  {
+    title: "Decentralized Systems - Substrate",
+    href: "docs/bucketlist/substrate",
+    description:
+      "Framework For Writing Scalable, Upgradeable Blockchains In Rust.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/substrate-developer-hub/awesome-substrate",
+    github_repo: "https://github.com/substrate-developer-hub/awesome-substrate",
+    items: [],
+  },
+  {
+    title: "Higher Education - Computational Neuroscience",
+    href: "docs/bucketlist/computational-neuroscience",
+    description:
+      "A Multidisciplinary Science Which Uses Computational Approaches To Study The Nervous System.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/eselkin/awesome-computational-neuroscience",
+    github_repo:
+      "https://github.com/eselkin/awesome-computational-neuroscience",
+    items: [],
+  },
+  {
+    title: "Higher Education - Digital History",
+    href: "docs/bucketlist/digital-history",
+    description: "Computer-Aided Scientific Investigation Of History.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/maehr/awesome-digital-history",
+    github_repo: "https://github.com/maehr/awesome-digital-history",
+    items: [],
+  },
+  {
+    title: "Higher Education - Scientific Writing",
+    href: "docs/bucketlist/scientific-writing",
+    description:
+      "Distraction-Free Scientific Writing With Markdown, Restructuredtext And Jupyter Notebooks.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/writing-resources/awesome-scientific-writing",
+    github_repo:
+      "https://github.com/writing-resources/awesome-scientific-writing",
+    items: [],
+  },
+  {
+    title: "Higher Education - Sustainable Technology",
+    href: "docs/bucketlist/sustainable-technology",
+    description:
+      "Open Technology Sustaining Stable Climate, Energy Supply, And Vital Natural Resources.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/protontypes/awesome-sustainable-technology",
+    github_repo:
+      "https://github.com/protontypes/awesome-sustainable-technology",
+    items: [],
+  },
+  {
+    title: "Events - Creative Tech Events",
+    href: "docs/bucketlist/creative-tech-events",
+    description:
+      "Events Around The Globe For Creative Coding, Tech, Design, Music, Arts And Cool Stuff.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/danvoyce/awesome-creative-tech-events",
+    github_repo: "https://github.com/danvoyce/awesome-creative-tech-events",
+    items: [],
+  },
+  {
+    title: "Events - Events in Italy",
+    href: "docs/bucketlist/events-in-italy",
+    description: "Tech-Related Events In Italy.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ildoc/awesome-italy-events",
+    github_repo: "https://github.com/ildoc/awesome-italy-events",
+    items: [],
+  },
+  {
+    title: "Events - Events in the Netherlands",
+    href: "docs/bucketlist/events-in-the-netherlands",
+    description: "Tech-Related Events In The Netherlands.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awkward/awesome-netherlands-events",
+    github_repo: "https://github.com/awkward/awesome-netherlands-events",
+    items: [],
+  },
+  {
+    title: "Testing - Testing",
+    href: "docs/bucketlist/testing",
+    description: "Software Testing.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/TheJambo/awesome-testing",
+    github_repo: "https://github.com/TheJambo/awesome-testing",
+    items: [],
+  },
+  {
+    title: "Testing - Visual Regression Testing",
+    href: "docs/bucketlist/visual-regression-testing",
+    description: "Ensures Changes Did Not Break The Functionality Or Style.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mojoaxel/awesome-regression-testing",
+    github_repo: "https://github.com/mojoaxel/awesome-regression-testing",
+    items: [],
+  },
+  {
+    title: "Testing - Selenium",
+    href: "docs/bucketlist/selenium",
+    description: "Open-Source Browser Automation Framework And Ecosystem.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/christian-bromann/awesome-selenium",
+    github_repo: "https://github.com/christian-bromann/awesome-selenium",
+    items: [],
+  },
+  {
+    title: "Testing - Appium",
+    href: "docs/bucketlist/appium",
+    description: "Test Automation Tool For Apps.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/SrinivasanTarget/awesome-appium",
+    github_repo: "https://github.com/SrinivasanTarget/awesome-appium",
+    items: [],
+  },
+  {
+    title: "Testing - TAP",
+    href: "docs/bucketlist/tap",
+    description: "Test Anything Protocol.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-tap",
+    github_repo: "https://github.com/sindresorhus/awesome-tap",
+    items: [],
+  },
+  {
+    title: "Testing - JMeter",
+    href: "docs/bucketlist/jmeter",
+    description: "Load Testing And Performance Measurement Tool.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aliesbelik/awesome-jmeter",
+    github_repo: "https://github.com/aliesbelik/awesome-jmeter",
+    items: [],
+  },
+  {
+    title: "Testing - k6",
+    href: "docs/bucketlist/k6",
+    description:
+      "Open-Source, Developer-Centric Performance Monitoring And Load Testing Solution.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/k6io/awesome-k6",
+    github_repo: "https://github.com/k6io/awesome-k6",
+    items: [],
+  },
+  {
+    title: "Testing - Playwright",
+    href: "docs/bucketlist/playwright",
+    description:
+      "Node.Js Library To Automate Chromium, Firefox And Webkit With A Single Api.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mxschmitt/awesome-playwright",
+    github_repo: "https://github.com/mxschmitt/awesome-playwright",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - JSON",
+    href: "docs/bucketlist/json",
+    description: "Text Based Data Interchange Format.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/burningtree/awesome-json",
+    github_repo: "https://github.com/burningtree/awesome-json",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - GeoJSON",
+    href: "docs/bucketlist/geojson",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tmcw/awesome-geojson",
+    github_repo: "https://github.com/tmcw/awesome-geojson",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Datasets",
+    href: "docs/bucketlist/datasets",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jdorfman/awesome-json-datasets",
+    github_repo: "https://github.com/jdorfman/awesome-json-datasets",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - CSV",
+    href: "docs/bucketlist/csv",
+    description:
+      "A Text File Format That Stores Tabular Data And Uses A Comma To Separate Values.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/secretGeek/awesomeCSV",
+    github_repo: "https://github.com/secretGeek/awesomeCSV",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Discounts for Student Developers",
+    href: "docs/bucketlist/discounts-for-student-developers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/AchoArnold/discount-for-student-dev",
+    github_repo: "https://github.com/AchoArnold/discount-for-student-dev",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Radio",
+    href: "docs/bucketlist/radio",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kyleterry/awesome-radio",
+    github_repo: "https://github.com/kyleterry/awesome-radio",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Awesome",
+    href: "docs/bucketlist/awesome",
+    description: "Recursion Illustrated.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome",
+    github_repo: "https://github.com/sindresorhus/awesome",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Analytics",
+    href: "docs/bucketlist/analytics",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/onurakpolat/awesome-analytics",
+    github_repo: "https://github.com/onurakpolat/awesome-analytics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - REST",
+    href: "docs/bucketlist/rest",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/marmelab/awesome-rest",
+    github_repo: "https://github.com/marmelab/awesome-rest",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Continuous Integration and Continuous Delivery",
+    href: "docs/bucketlist/continuous-integration-and-continuous-delivery",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cicdops/awesome-ciandcd",
+    github_repo: "https://github.com/cicdops/awesome-ciandcd",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Services Engineering",
+    href: "docs/bucketlist/services-engineering",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mmcgrana/services-engineering",
+    github_repo: "https://github.com/mmcgrana/services-engineering",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Free for Developers",
+    href: "docs/bucketlist/free-for-developers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ripienaar/free-for-dev",
+    github_repo: "https://github.com/ripienaar/free-for-dev",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Answers",
+    href: "docs/bucketlist/answers",
+    description: "Stack Overflow, Quora, Etc.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cyberglot/awesome-answers",
+    github_repo: "https://github.com/cyberglot/awesome-answers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Sketch",
+    href: "docs/bucketlist/sketch",
+    description: "Design App For Macos.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/diessica/awesome-sketch",
+    github_repo: "https://github.com/diessica/awesome-sketch",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Boilerplate Projects",
+    href: "docs/bucketlist/boilerplate-projects",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/melvin0008/awesome-projects-boilerplates",
+    github_repo: "https://github.com/melvin0008/awesome-projects-boilerplates",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Readme",
+    href: "docs/bucketlist/readme",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/matiassingers/awesome-readme",
+    github_repo: "https://github.com/matiassingers/awesome-readme",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Design and Development Guides",
+    href: "docs/bucketlist/design-and-development-guides",
+    description: "No description available.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/NARKOZ/guides",
+    github_repo: "https://github.com/NARKOZ/guides",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Engineering Blogs",
+    href: "docs/bucketlist/software-engineering-blogs",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kilimchoi/engineering-blogs",
+    github_repo: "https://github.com/kilimchoi/engineering-blogs",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Self Hosted",
+    href: "docs/bucketlist/self-hosted",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/awesome-selfhosted/awesome-selfhosted",
+    github_repo: "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - FOSS Production Apps",
+    href: "docs/bucketlist/foss-production-apps",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DataDaoDe/awesome-foss-apps",
+    github_repo: "https://github.com/DataDaoDe/awesome-foss-apps",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Gulp",
+    href: "docs/bucketlist/gulp",
+    description: "Task Runner.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alferov/awesome-gulp",
+    github_repo: "https://github.com/alferov/awesome-gulp",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - AMA",
+    href: "docs/bucketlist/ama",
+    description: "Ask Me Anything.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/sindresorhus/amas",
+    github_repo: "https://github.com/sindresorhus/amas",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Answers",
+    href: "docs/bucketlist/answers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stoeffel/awesome-ama-answers",
+    github_repo: "https://github.com/stoeffel/awesome-ama-answers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Photography",
+    href: "docs/bucketlist/open-source-photography",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ibaaj/awesome-OpenSourcePhotography",
+    github_repo: "https://github.com/ibaaj/awesome-OpenSourcePhotography",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - OpenGL",
+    href: "docs/bucketlist/opengl",
+    description: "Cross-Platform Api For Rendering 2D And 3D Graphics.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/eug/awesome-opengl",
+    github_repo: "https://github.com/eug/awesome-opengl",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - GraphQL",
+    href: "docs/bucketlist/graphql",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/chentsulin/awesome-graphql",
+    github_repo: "https://github.com/chentsulin/awesome-graphql",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Transit",
+    href: "docs/bucketlist/transit",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/CUTR-at-USF/awesome-transit",
+    github_repo: "https://github.com/CUTR-at-USF/awesome-transit",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Research Tools",
+    href: "docs/bucketlist/research-tools",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/emptymalei/awesome-research",
+    github_repo: "https://github.com/emptymalei/awesome-research",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Data Visualization",
+    href: "docs/bucketlist/data-visualization",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/fasouto/awesome-dataviz",
+    github_repo: "https://github.com/fasouto/awesome-dataviz",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Microservices",
+    href: "docs/bucketlist/microservices",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mfornos/awesome-microservices",
+    github_repo: "https://github.com/mfornos/awesome-microservices",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Unicode",
+    href: "docs/bucketlist/unicode",
+    description: "Unicode Standards, Quirks, Packages And Resources.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Wisdom/Awesome-Unicode",
+    github_repo: "https://github.com/Wisdom/Awesome-Unicode",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Code Points",
+    href: "docs/bucketlist/code-points",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Codepoints/awesome-codepoints",
+    github_repo: "https://github.com/Codepoints/awesome-codepoints",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Beginner-Friendly Projects",
+    href: "docs/bucketlist/beginner-friendly-projects",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/MunGell/awesome-for-beginners",
+    github_repo: "https://github.com/MunGell/awesome-for-beginners",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Katas",
+    href: "docs/bucketlist/katas",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gamontal/awesome-katas",
+    github_repo: "https://github.com/gamontal/awesome-katas",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Tools for Activism",
+    href: "docs/bucketlist/tools-for-activism",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/drewrwilson/toolsforactivism",
+    github_repo: "https://github.com/drewrwilson/toolsforactivism",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Citizen Science",
+    href: "docs/bucketlist/citizen-science",
+    description: "For Community-Based And Non-Institutional Scientists.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dylanrees/citizen-science",
+    github_repo: "https://github.com/dylanrees/citizen-science",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - MQTT",
+    href: "docs/bucketlist/mqtt",
+    description: "Internet Of Things Connectivity Protocol.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hobbyquaker/awesome-mqtt",
+    github_repo: "https://github.com/hobbyquaker/awesome-mqtt",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Hacking Spots",
+    href: "docs/bucketlist/hacking-spots",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/daviddias/awesome-hacking-locations",
+    github_repo: "https://github.com/daviddias/awesome-hacking-locations",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - For Girls",
+    href: "docs/bucketlist/for-girls",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cristianoliveira/awesome4girls",
+    github_repo: "https://github.com/cristianoliveira/awesome4girls",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Vorpal",
+    href: "docs/bucketlist/vorpal",
+    description: "Node.Js Cli Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vorpaljs/awesome-vorpal",
+    github_repo: "https://github.com/vorpaljs/awesome-vorpal",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Vulkan",
+    href: "docs/bucketlist/vulkan",
+    description: "Low-Overhead, Cross-Platform 3D Graphics And Compute Api.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/vinjn/awesome-vulkan",
+    github_repo: "https://github.com/vinjn/awesome-vulkan",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - LaTeX",
+    href: "docs/bucketlist/latex",
+    description: "Typesetting Language.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/egeerardyn/awesome-LaTeX",
+    github_repo: "https://github.com/egeerardyn/awesome-LaTeX",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Economics",
+    href: "docs/bucketlist/economics",
+    description: "An Economist'S Starter Kit.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/antontarasenko/awesome-economics",
+    github_repo: "https://github.com/antontarasenko/awesome-economics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Funny Markov Chains",
+    href: "docs/bucketlist/funny-markov-chains",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sublimino/awesome-funny-markov",
+    github_repo: "https://github.com/sublimino/awesome-funny-markov",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bioinformatics",
+    href: "docs/bucketlist/bioinformatics",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/danielecook/Awesome-Bioinformatics",
+    github_repo: "https://github.com/danielecook/Awesome-Bioinformatics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Cheminformatics",
+    href: "docs/bucketlist/cheminformatics",
+    description: "Informatics Techniques Applied To Problems In Chemistry.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hsiaoyi0504/awesome-cheminformatics",
+    github_repo: "https://github.com/hsiaoyi0504/awesome-cheminformatics",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Colorful",
+    href: "docs/bucketlist/colorful",
+    description: "Choose Your Next Color Scheme.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Siddharth11/Colorful",
+    github_repo: "https://github.com/Siddharth11/Colorful",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Steam",
+    href: "docs/bucketlist/steam",
+    description: "Digital Distribution Platform.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/scholtzm/awesome-steam",
+    github_repo: "https://github.com/scholtzm/awesome-steam",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bots",
+    href: "docs/bucketlist/bots",
+    description: "Building Bots.",
+    website_url: "https://awesome.digitalbunker.dev/awesome/hackerkid/bots",
+    github_repo: "https://github.com/hackerkid/bots",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Site Reliability Engineering",
+    href: "docs/bucketlist/site-reliability-engineering",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dastergon/awesome-sre",
+    github_repo: "https://github.com/dastergon/awesome-sre",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Empathy in Engineering",
+    href: "docs/bucketlist/empathy-in-engineering",
+    description:
+      "Building And Promoting More Compassionate Engineering Cultures.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/KimberlyMunoz/empathy-in-engineering",
+    github_repo: "https://github.com/KimberlyMunoz/empathy-in-engineering",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - DTrace",
+    href: "docs/bucketlist/dtrace",
+    description: "Dynamic Tracing Framework.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xen0l/awesome-dtrace",
+    github_repo: "https://github.com/xen0l/awesome-dtrace",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Userscripts",
+    href: "docs/bucketlist/userscripts",
+    description: "Enhance Your Browsing Experience.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/brunocvcunha/awesome-userscripts",
+    github_repo: "https://github.com/brunocvcunha/awesome-userscripts",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Pokémon",
+    href: "docs/bucketlist/pokémon",
+    description: "Pokémon And Pokémon Go.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/tobiasbueschel/awesome-pokemon",
+    github_repo: "https://github.com/tobiasbueschel/awesome-pokemon",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - ChatOps",
+    href: "docs/bucketlist/chatops",
+    description: "Managing Technical And Business Operations Through A Chat.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/exAspArk/awesome-chatops",
+    github_repo: "https://github.com/exAspArk/awesome-chatops",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Falsehood",
+    href: "docs/bucketlist/falsehood",
+    description: "Falsehoods Programmers Believe In.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kdeldycke/awesome-falsehood",
+    github_repo: "https://github.com/kdeldycke/awesome-falsehood",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Domain-Driven Design",
+    href: "docs/bucketlist/domain-driven-design",
+    description:
+      "Software Development Approach For Complex Needs By Connecting The Implementation To An Evolving Model.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/heynickc/awesome-ddd",
+    github_repo: "https://github.com/heynickc/awesome-ddd",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Quantified Self",
+    href: "docs/bucketlist/quantified-self",
+    description: "Self-Tracking Through Technology.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/woop/awesome-quantified-self",
+    github_repo: "https://github.com/woop/awesome-quantified-self",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - SaltStack",
+    href: "docs/bucketlist/saltstack",
+    description: "Python-Based Config Management System.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/hbokh/awesome-saltstack",
+    github_repo: "https://github.com/hbokh/awesome-saltstack",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Design",
+    href: "docs/bucketlist/web-design",
+    description: "For Digital Designers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nicolesaidy/awesome-web-design",
+    github_repo: "https://github.com/nicolesaidy/awesome-web-design",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Creative Coding",
+    href: "docs/bucketlist/creative-coding",
+    description:
+      "Programming Something Expressive Instead Of Something Functional.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/terkelg/awesome-creative-coding",
+    github_repo: "https://github.com/terkelg/awesome-creative-coding",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - No-Login Web Apps",
+    href: "docs/bucketlist/no-login-web-apps",
+    description: "Web Apps That Work Without Login.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/aviaryan/awesome-no-login-web-apps",
+    github_repo: "https://github.com/aviaryan/awesome-no-login-web-apps",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Free Software",
+    href: "docs/bucketlist/free-software",
+    description: "Free As In Freedom.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-free-software",
+    github_repo: "https://github.com/johnjago/awesome-free-software",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Framer",
+    href: "docs/bucketlist/framer",
+    description: "Prototyping Interactive Ui Designs.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/podo/awesome-framer",
+    github_repo: "https://github.com/podo/awesome-framer",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Markdown",
+    href: "docs/bucketlist/markdown",
+    description: "Markup Language.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/BubuAnabelas/awesome-markdown",
+    github_repo: "https://github.com/BubuAnabelas/awesome-markdown",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Dev Fun",
+    href: "docs/bucketlist/dev-fun",
+    description: "Funny Developer Projects.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mislavcimpersak/awesome-dev-fun",
+    github_repo: "https://github.com/mislavcimpersak/awesome-dev-fun",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Healthcare",
+    href: "docs/bucketlist/healthcare",
+    description:
+      "Open Source Healthcare Software For Facilities, Providers, Developers, Policy Experts, And Researchers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/kakoni/awesome-healthcare",
+    github_repo: "https://github.com/kakoni/awesome-healthcare",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Magento 2",
+    href: "docs/bucketlist/magento-2",
+    description: "Open Source Ecommerce Built With Php.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/DavidLambauer/awesome-magento2",
+    github_repo: "https://github.com/DavidLambauer/awesome-magento2",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - TikZ",
+    href: "docs/bucketlist/tikz",
+    description: "Graph Drawing Packages For Tex/Latex/Context.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xiaohanyu/awesome-tikz",
+    github_repo: "https://github.com/xiaohanyu/awesome-tikz",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Neuroscience",
+    href: "docs/bucketlist/neuroscience",
+    description: "Study Of The Nervous System And Brain.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/analyticalmonk/awesome-neuroscience",
+    github_repo: "https://github.com/analyticalmonk/awesome-neuroscience",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ad-Free",
+    href: "docs/bucketlist/ad-free",
+    description: "Ad-Free Alternatives.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-ad-free",
+    github_repo: "https://github.com/johnjago/awesome-ad-free",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Esolangs",
+    href: "docs/bucketlist/esolangs",
+    description:
+      "Programming Languages Designed For Experimentation Or As Jokes Rather Than Actual Use.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/angrykoala/awesome-esolangs",
+    github_repo: "https://github.com/angrykoala/awesome-esolangs",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Prometheus",
+    href: "docs/bucketlist/prometheus",
+    description: "Open-Source Monitoring System.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/roaldnefs/awesome-prometheus",
+    github_repo: "https://github.com/roaldnefs/awesome-prometheus",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Homematic",
+    href: "docs/bucketlist/homematic",
+    description: "Smart Home Devices.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/homematic-community/awesome-homematic",
+    github_repo: "https://github.com/homematic-community/awesome-homematic",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ledger",
+    href: "docs/bucketlist/ledger",
+    description: "Double-Entry Accounting On The Command-Line.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sfischer13/awesome-ledger",
+    github_repo: "https://github.com/sfischer13/awesome-ledger",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Monetization",
+    href: "docs/bucketlist/web-monetization",
+    description:
+      "A Free Open Web Standard Service That Allows You To Send Money Directly In Your Browser.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/thomasbnt/awesome-web-monetization",
+    github_repo: "https://github.com/thomasbnt/awesome-web-monetization",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Uncopyright",
+    href: "docs/bucketlist/uncopyright",
+    description: "Public Domain Works.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-uncopyright",
+    github_repo: "https://github.com/johnjago/awesome-uncopyright",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Crypto Currency Tools & Algorithms",
+    href: "docs/bucketlist/crypto-currency-tools-&-algorithms",
+    description:
+      "Digital Currency Where Encryption Is Used To Regulate The Generation Of Units And Verify Transfers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/Zheaoli/awesome-coins",
+    github_repo: "https://github.com/Zheaoli/awesome-coins",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Diversity",
+    href: "docs/bucketlist/diversity",
+    description: "Creating A More Inclusive And Diverse Tech Community.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/folkswhocode/awesome-diversity",
+    github_repo: "https://github.com/folkswhocode/awesome-diversity",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Supporters",
+    href: "docs/bucketlist/open-source-supporters",
+    description:
+      "Companies That Offer Their Tools And Services For Free To Open Source Projects.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/zachflower/awesome-open-source-supporters",
+    github_repo: "https://github.com/zachflower/awesome-open-source-supporters",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Design Principles",
+    href: "docs/bucketlist/design-principles",
+    description: "Create Better And More Consistent Designs And Experiences.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/robinstickel/awesome-design-principles",
+    github_repo: "https://github.com/robinstickel/awesome-design-principles",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Theravada",
+    href: "docs/bucketlist/theravada",
+    description: "Teachings From The Theravada Buddhist Tradition.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/johnjago/awesome-theravada",
+    github_repo: "https://github.com/johnjago/awesome-theravada",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - inspectIT",
+    href: "docs/bucketlist/inspectit",
+    description: "Open Source Java App Performance Management Tool.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/inspectit-labs/awesome-inspectit",
+    github_repo: "https://github.com/inspectit-labs/awesome-inspectit",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Open Source Maintainers",
+    href: "docs/bucketlist/open-source-maintainers",
+    description: "The Experience Of Being An Open Source Maintainer.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nayafia/awesome-maintainers",
+    github_repo: "https://github.com/nayafia/awesome-maintainers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Calculators",
+    href: "docs/bucketlist/calculators",
+    description: "Calculators For Every Platform.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/xxczaki/awesome-calculators",
+    github_repo: "https://github.com/xxczaki/awesome-calculators",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Captcha",
+    href: "docs/bucketlist/captcha",
+    description:
+      "A Type Of Challenge–Response Test Used In Computing To Determine Whether Or Not The User Is Human.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ZYSzys/awesome-captcha",
+    github_repo: "https://github.com/ZYSzys/awesome-captcha",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Jupyter",
+    href: "docs/bucketlist/jupyter",
+    description:
+      "Create And Share Documents That Contain Code, Equations, Visualizations And Narrative Text.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/markusschanta/awesome-jupyter",
+    github_repo: "https://github.com/markusschanta/awesome-jupyter",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - FIRST Robotics Competition",
+    href: "docs/bucketlist/first-robotics-competition",
+    description: "International High School Robotics Championship.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/andrewda/awesome-frc",
+    github_repo: "https://github.com/andrewda/awesome-frc",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Humane Technology",
+    href: "docs/bucketlist/humane-technology",
+    description: "Open Source Projects That Help Improve Society.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/humanetech-community/awesome-humane-tech",
+    github_repo: "https://github.com/humanetech-community/awesome-humane-tech",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Speakers",
+    href: "docs/bucketlist/speakers",
+    description:
+      "Conference And Meetup Speakers In The Programming And Design Community.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/karlhorky/awesome-speakers",
+    github_repo: "https://github.com/karlhorky/awesome-speakers",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Board Games",
+    href: "docs/bucketlist/board-games",
+    description: "Table-Top Gaming Fun For All.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/edm00se/awesome-board-games",
+    github_repo: "https://github.com/edm00se/awesome-board-games",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Patreons",
+    href: "docs/bucketlist/software-patreons",
+    description:
+      "Fund Individual Programmers Or The Development Of Open Source Projects.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/uraimo/awesome-software-patreons",
+    github_repo: "https://github.com/uraimo/awesome-software-patreons",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Parasite",
+    href: "docs/bucketlist/parasite",
+    description: "Parasites And Host-Pathogen Interactions.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ecohealthalliance/awesome-parasite",
+    github_repo: "https://github.com/ecohealthalliance/awesome-parasite",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Food",
+    href: "docs/bucketlist/food",
+    description: "Food-Related Projects On Github.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/jzarca01/awesome-food",
+    github_repo: "https://github.com/jzarca01/awesome-food",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Mental Health",
+    href: "docs/bucketlist/mental-health",
+    description:
+      "Mental Health Awareness And Self-Care In The Software Industry.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/dreamingechoes/awesome-mental-health",
+    github_repo: "https://github.com/dreamingechoes/awesome-mental-health",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Bitcoin Payment Processors",
+    href: "docs/bucketlist/bitcoin-payment-processors",
+    description: "Start Accepting Bitcoin.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/alexk111/awesome-bitcoin-payment-processors",
+    github_repo:
+      "https://github.com/alexk111/awesome-bitcoin-payment-processors",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Scientific Computing",
+    href: "docs/bucketlist/scientific-computing",
+    description: "Solving Complex Scientific Problems Using Computers.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/nschloe/awesome-scientific-computing",
+    github_repo: "https://github.com/nschloe/awesome-scientific-computing",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Amazon Sellers",
+    href: "docs/bucketlist/amazon-sellers",
+    description: "No description available.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/ScaleLeap/awesome-amazon-seller",
+    github_repo: "https://github.com/ScaleLeap/awesome-amazon-seller",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Agriculture",
+    href: "docs/bucketlist/agriculture",
+    description: "Open Source Technology For Farming And Gardening.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/beaorn/awesome-agriculture",
+    github_repo: "https://github.com/beaorn/awesome-agriculture",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Product Design",
+    href: "docs/bucketlist/product-design",
+    description: "Design A Product From The Initial Concept To Production.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/teoga/awesome-product-design",
+    github_repo: "https://github.com/teoga/awesome-product-design",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Prisma",
+    href: "docs/bucketlist/prisma",
+    description: "Turn Your Database Into A Graphql Api.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/catalinmiron/awesome-prisma",
+    github_repo: "https://github.com/catalinmiron/awesome-prisma",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Software Architecture",
+    href: "docs/bucketlist/software-architecture",
+    description: "The Discipline Of Designing And Building Software.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/simskij/awesome-software-architecture",
+    github_repo: "https://github.com/simskij/awesome-software-architecture",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Connectivity Data and Reports",
+    href: "docs/bucketlist/connectivity-data-and-reports",
+    description:
+      "Better Understand Who Has Access To Telecommunication And Internet Infrastructure And On What Terms.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stevesong/awesome-connectivity-info",
+    github_repo: "https://github.com/stevesong/awesome-connectivity-info",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Stacks",
+    href: "docs/bucketlist/stacks",
+    description: "Tech Stacks For Building Different Apps And Features.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/stackshareio/awesome-stacks",
+    github_repo: "https://github.com/stackshareio/awesome-stacks",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Cytodata",
+    href: "docs/bucketlist/cytodata",
+    description:
+      "Image-Based Profiling Of Biological Phenotypes For Computational Biologists.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cytodata/awesome-cytodata",
+    github_repo: "https://github.com/cytodata/awesome-cytodata",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - IRC",
+    href: "docs/bucketlist/irc",
+    description: "Open Source Messaging Protocol.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/davisonio/awesome-irc",
+    github_repo: "https://github.com/davisonio/awesome-irc",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Advertising",
+    href: "docs/bucketlist/advertising",
+    description: "Advertising And Programmatic Media For Websites.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/cenoura/awesome-ads",
+    github_repo: "https://github.com/cenoura/awesome-ads",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Earth",
+    href: "docs/bucketlist/earth",
+    description: "Find Ways To Resolve The Climate Crisis.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/philsturgeon/awesome-earth",
+    github_repo: "https://github.com/philsturgeon/awesome-earth",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Naming",
+    href: "docs/bucketlist/naming",
+    description: "Naming Things In Computer Science Done Right.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/gruhn/awesome-naming",
+    github_repo: "https://github.com/gruhn/awesome-naming",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Biomedical Information Extraction",
+    href: "docs/bucketlist/biomedical-information-extraction",
+    description:
+      "How To Extract Information From Unstructured Biomedical Data And Text.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/caufieldjh/awesome-bioie",
+    github_repo: "https://github.com/caufieldjh/awesome-bioie",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Web Archiving",
+    href: "docs/bucketlist/web-archiving",
+    description: "An Effort To Preserve The Web For Future Generations.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/iipc/awesome-web-archiving",
+    github_repo: "https://github.com/iipc/awesome-web-archiving",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - WP-CLI",
+    href: "docs/bucketlist/wp-cli",
+    description: "Command-Line Interface For Wordpress.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/schlessera/awesome-wp-cli",
+    github_repo: "https://github.com/schlessera/awesome-wp-cli",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Credit Modeling",
+    href: "docs/bucketlist/credit-modeling",
+    description: "Methods For Classifying Credit Applicants Into Risk Classes.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/mourarthur/awesome-credit-modeling",
+    github_repo: "https://github.com/mourarthur/awesome-credit-modeling",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Ansible",
+    href: "docs/bucketlist/ansible",
+    description:
+      "A Python-Based, Open Source It Configuration Management And Automation Platform.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/KeyboardInterrupt/awesome-ansible",
+    github_repo: "https://github.com/KeyboardInterrupt/awesome-ansible",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Biological Visualizations",
+    href: "docs/bucketlist/biological-visualizations",
+    description: "Interactive Visualization Of Biological Data On The Web.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/keller-mark/awesome-biological-visualizations",
+    github_repo:
+      "https://github.com/keller-mark/awesome-biological-visualizations",
+    items: [],
+  },
+  {
+    title: "Miscellaneous - Veganism",
+    href: "docs/bucketlist/veganism",
+    description: "Making The Plant-Based Lifestyle Easy And Accessible.",
+    website_url:
+      "https://awesome.digitalbunker.dev/awesome/sdassow/awesome-veganism",
+    github_repo: "https://github.com/sdassow/awesome-veganism",
+    items: [],
+  },
+]
+let passport = [
+  {
+    title: "http-bearer",
+    href: "docs/hack(passports)/http-bearer",
+    description:
+      "This http-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/http-bearer",
+    download: "186,267",
+    star: "943",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "google-oauth",
+    href: "docs/hack(passports)/google-oauth",
+    description:
+      "This google-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/google-oauth",
+    download: "49,365",
+    star: "753",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "twitter",
+    href: "docs/hack(passports)/twitter",
+    description:
+      "This twitter passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/twitter",
+    download: "32,480",
+    star: "466",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "facebook",
+    href: "docs/hack(passports)/facebook",
+    description:
+      "This facebook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/facebook",
+    download: "113,373",
+    star: "1279",
+    version: "3.0.0",
+    updated: "2 months ago",
+    items: [],
+  },
+  {
+    title: "openid-client",
+    href: "docs/hack(passports)/openid-client",
+    description:
+      "This openid-client passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/panva/node-openid-client",
+    download: "1,369,102",
+    star: "1544",
+    version: "5.4.3",
+    updated: "4 hours ago",
+    items: [],
+  },
+  {
+    title: "auth0",
+    href: "docs/hack(passports)/auth0",
+    description:
+      "This auth0 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/auth0",
+    download: "50,388",
+    star: "278",
+    version: "1.4.3",
+    updated: "a month ago",
+    items: [],
+  },
+  {
+    title: "oauth2",
+    href: "docs/hack(passports)/oauth2",
+    description:
+      "This oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/oauth2",
+    download: "524,928",
+    star: "570",
+    version: "1.7.0",
+    updated: "4 months ago",
+    items: [],
+  },
+  {
+    title: "jwt",
+    href: "docs/hack(passports)/jwt",
+    description:
+      "This jwt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mikenicholson/jwt",
+    download: "782,576",
+    star: "1908",
+    version: "4.0.1",
+    updated: "2 months ago",
+    items: [],
+  },
+  {
+    title: "oauth1",
+    href: "docs/hack(passports)/oauth1",
+    description:
+      "This oauth1 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/oauth1",
+    download: "172,556",
+    star: "23",
+    version: "1.3.0",
+    updated: "4 months ago",
+    items: [],
+  },
+  {
+    title: "saml",
+    href: "docs/hack(passports)/saml",
+    description:
+      "This saml passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/node-saml/saml",
+    download: "150,060",
+    star: "817",
+    version: "3.2.4",
+    updated: "8 months ago",
+    items: [],
+  },
+  {
+    title: "local",
+    href: "docs/hack(passports)/local",
+    description:
+      "This local passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/local",
+    download: "670,722",
+    star: "2661",
+    version: "1.0.0",
+    updated: "2 months ago",
+    items: [],
+  },
+  {
+    title: "oauth",
+    href: "docs/hack(passports)/oauth",
+    description:
+      "This oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/oauth",
+    download: "122,077",
+    star: "118",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http",
+    href: "docs/hack(passports)/http",
+    description:
+      "This http passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/http",
+    download: "107,062",
+    star: "267",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "custom",
+    href: "docs/hack(passports)/custom",
+    description:
+      "This custom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mbell8903/custom",
+    download: "99,007",
+    star: "101",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "github2",
+    href: "docs/hack(passports)/github2",
+    description:
+      "This github2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cfsghost/github",
+    download: "46,220",
+    star: "236",
+    version: "0.1.12",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "google-oauth20",
+    href: "docs/hack(passports)/google-oauth20",
+    description:
+      "This google-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/google-oauth2",
+    download: "244,219",
+    star: "764",
+    version: "2.0.0",
+    updated: "2 months ago",
+    items: [],
+  },
+  {
+    title: "azure-ad",
+    href: "docs/hack(passports)/azure-ad",
+    description:
+      "This azure-ad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+    download: "107,392",
+    star: "3083",
+    version: "4.3.5",
+    updated: "3 months ago",
+    items: [],
+  },
+  {
+    title: "github",
+    href: "docs/hack(passports)/github",
+    description:
+      "This github passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/github",
+    download: "35,891",
+    star: "529",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "google-oauth2",
+    href: "docs/hack(passports)/google-oauth2",
+    description:
+      "This google-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mstade/google-oauth2",
+    download: "33,588",
+    star: "92",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "microsoft",
+    href: "docs/hack(passports)/microsoft",
+    description:
+      "This microsoft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/seanfisher/microsoft",
+    download: "34,931",
+    star: "35",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "apple",
+    href: "docs/hack(passports)/apple",
+    description:
+      "This apple passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ananay/apple",
+    download: "33,297",
+    star: "129",
+    version: "2.0.2",
+    updated: "5 months ago",
+    items: [],
+  },
+  {
+    title: "gitlab2",
+    href: "docs/hack(passports)/gitlab2",
+    description:
+      "This gitlab2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/fh1ch/gitlab2",
+    download: "32,389",
+    star: "37",
+    version: "5.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "anonymous",
+    href: "docs/hack(passports)/anonymous",
+    description:
+      "This anonymous passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/anonymous",
+    download: "32,514",
+    star: "59",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bitbucket-oauth2",
+    href: "docs/hack(passports)/bitbucket-oauth2",
+    description:
+      "This bitbucket-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/bithound/bitbucket-oauth2",
+    download: "27,510",
+    star: "20",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "openidconnect",
+    href: "docs/hack(passports)/openidconnect",
+    description:
+      "This openidconnect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/openidconnect",
+    download: "25,611",
+    star: "179",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "okta-oauth",
+    href: "docs/hack(passports)/okta-oauth",
+    description:
+      "This okta-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/fischerdan/okta-oauth",
+    download: "18,785",
+    star: "4",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "totp",
+    href: "docs/hack(passports)/totp",
+    description:
+      "This totp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/totp",
+    download: "20,867",
+    star: "146",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oauth2-client-password",
+    href: "docs/hack(passports)/oauth2-client-password",
+    description:
+      "This oauth2-client-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/oauth2-client-password",
+    download: "43,371",
+    star: "96",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ldapauth",
+    href: "docs/hack(passports)/ldapauth",
+    description:
+      "This ldapauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/vesse/ldapauth",
+    download: "16,205",
+    star: "306",
+    version: "3.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ping",
+    href: "docs/hack(passports)/ping",
+    description:
+      "This ping passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/athieme/ping",
+    download: "13,941",
+    star: "13",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "cookie",
+    href: "docs/hack(passports)/cookie",
+    description:
+      "This cookie passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/rojo2/cookie",
+    download: "12,025",
+    star: "12",
+    version: "1.0.9",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "line",
+    href: "docs/hack(passports)/line",
+    description:
+      "This line passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nitzo/line",
+    download: "13,360",
+    star: "12",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "slack",
+    href: "docs/hack(passports)/slack",
+    description:
+      "This slack passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mjpearson/slack",
+    download: "9,888",
+    star: "103",
+    version: "0.0.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "linkedin-oauth2",
+    href: "docs/hack(passports)/linkedin-oauth2",
+    description:
+      "This linkedin-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/linkedin-oauth2",
+    download: "14,468",
+    star: "114",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "steam",
+    href: "docs/hack(passports)/steam",
+    description:
+      "This steam passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/liamcurry/steam",
+    download: "8,695",
+    star: "319",
+    version: "1.0.18",
+    updated: "18 days ago",
+    items: [],
+  },
+  {
+    title: "forcedotcom",
+    href: "docs/hack(passports)/forcedotcom",
+    description:
+      "This forcedotcom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/joshbirk/forcedotcom",
+    download: "9,809",
+    star: "36",
+    version: "0.2.0",
+    updated: "10 months ago",
+    items: [],
+  },
+  {
+    title: "google-one-tap",
+    href: "docs/hack(passports)/google-one-tap",
+    description:
+      "This google-one-tap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Genially/google-one-tap",
+    download: "14,967",
+    star: "18",
+    version: "1.0.1",
+    updated: "a month ago",
+    items: [],
+  },
+  {
+    title: "google-oauth1",
+    href: "docs/hack(passports)/google-oauth1",
+    description:
+      "This google-oauth1 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/google-oauth1",
+    download: "45,771",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "magic",
+    href: "docs/hack(passports)/magic",
+    description:
+      "This magic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/magiclabs/magic",
+    download: "1,745",
+    star: "40",
+    version: "1.0.0",
+    updated: "16 days ago",
+    items: [],
+  },
+  {
+    title: "client-cert",
+    href: "docs/hack(passports)/client-cert",
+    description:
+      "This client-cert passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ripjar/client-cert",
+    download: "1,730",
+    star: "40",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "linkedin",
+    href: "docs/hack(passports)/linkedin",
+    description:
+      "This linkedin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/linkedin",
+    download: "1,523",
+    star: "141",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "spotify",
+    href: "docs/hack(passports)/spotify",
+    description:
+      "This spotify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/JMPerez/spotify",
+    download: "1,363",
+    star: "313",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "naver",
+    href: "docs/hack(passports)/naver",
+    description:
+      "This naver passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/naver/naver",
+    download: "1,447",
+    star: "37",
+    version: "1.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wsfed-saml2",
+    href: "docs/hack(passports)/wsfed-saml2",
+    description:
+      "This wsfed-saml2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/wsfed-saml2",
+    download: "1,318",
+    star: "47",
+    version: "4.6.3",
+    updated: "4 months ago",
+    items: [],
+  },
+  {
+    title: "2fa-totp",
+    href: "docs/hack(passports)/2fa-totp",
+    description:
+      "This 2fa-totp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ilich/2fa-totp",
+    download: "1,845",
+    star: "36",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "atlassian-oauth",
+    href: "docs/hack(passports)/atlassian-oauth",
+    description:
+      "This atlassian-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://bitbucket.org/knecht_andreas/atlassian-oauth.git",
+    download: "7,864",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "discord",
+    href: "docs/hack(passports)/discord",
+    description:
+      "This discord passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nicholastay/discord",
+    download: "8,367",
+    star: "174",
+    version: "0.1.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "unique-token",
+    href: "docs/hack(passports)/unique-token",
+    description:
+      "This unique-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/lughino/unique-token",
+    download: "7,636",
+    star: "37",
+    version: "3.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "azure-ad-oauth2",
+    href: "docs/hack(passports)/azure-ad-oauth2",
+    description:
+      "This azure-ad-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/azure-ad-oauth2",
+    download: "6,209",
+    star: "59",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "openid",
+    href: "docs/hack(passports)/openid",
+    description:
+      "This openid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/openid",
+    download: "6,154",
+    star: "98",
+    version: "0.4.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-header-strategy",
+    href: "docs/hack(passports)/http-header-strategy",
+    description:
+      "This http-header-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/FengYuHe/http-header-strategy",
+    download: "5,286",
+    star: "1",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "auth-token",
+    href: "docs/hack(passports)/auth-token",
+    description:
+      "This auth-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mbell8903/auth-token",
+    download: "5,194",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "instagram",
+    href: "docs/hack(passports)/instagram",
+    description:
+      "This instagram passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/instagram",
+    download: "3,864",
+    star: "172",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "kakao",
+    href: "docs/hack(passports)/kakao",
+    description:
+      "This kakao passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/rotoshine/kakao",
+    download: "3,300",
+    star: "47",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "slack-oauth2",
+    href: "docs/hack(passports)/slack-oauth2",
+    description:
+      "This slack-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nmaves/slack-oauth2",
+    download: "3,165",
+    star: "17",
+    version: "1.2.0",
+    updated: "25 days ago",
+    items: [],
+  },
+  {
+    title: "magic-login",
+    href: "docs/hack(passports)/magic-login",
+    description:
+      "This magic-login passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "google-oidc",
+    href: "docs/hack(passports)/google-oidc",
+    description:
+      "This google-oidc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/google-openidconnect",
+    download: "2,984",
+    star: "11",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "amazon",
+    href: "docs/hack(passports)/amazon",
+    description:
+      "This amazon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/amazon",
+    download: "2,737",
+    star: "37",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "docusign",
+    href: "docs/hack(passports)/docusign",
+    description:
+      "This docusign passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/docusign/docusign",
+    download: "2,927",
+    star: "7",
+    version: "1.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "google",
+    href: "docs/hack(passports)/google",
+    description:
+      "This google passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/google",
+    download: "3,089",
+    star: "147",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "activedirectory",
+    href: "docs/hack(passports)/activedirectory",
+    description:
+      "This activedirectory passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/bhoriuchi/activedirectory",
+    download: "2,463",
+    star: "28",
+    version: "1.4.0",
+    updated: "4 months ago",
+    items: [],
+  },
+  {
+    title: "trusted-header",
+    href: "docs/hack(passports)/trusted-header",
+    description:
+      "This trusted-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ripjar/trusted-header",
+    download: "2,247",
+    star: "6",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "appleid",
+    href: "docs/hack(passports)/appleid",
+    description:
+      "This appleid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Techofficer/apple",
+    download: "2,027",
+    star: "6",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "vkontakte",
+    href: "docs/hack(passports)/vkontakte",
+    description:
+      "This vkontakte passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/stevebest/vkontakte",
+    download: "2,090",
+    star: "145",
+    version: "0.5.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "zendesk",
+    href: "docs/hack(passports)/zendesk",
+    description:
+      "This zendesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/zendesk/zendesk",
+    download: "2,061",
+    star: "7",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "accesstoken",
+    href: "docs/hack(passports)/accesstoken",
+    description:
+      "This accesstoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nanogiants/accesstoken",
+    download: "1,102",
+    star: "14",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "42",
+    href: "docs/hack(passports)/42",
+    description:
+      "This 42 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/pandark/42",
+    download: "998",
+    star: "35",
+    version: "1.2.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "orcid",
+    href: "docs/hack(passports)/orcid",
+    description:
+      "This orcid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/hubgit/orcid",
+    download: "1,048",
+    star: "3",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "shopify",
+    href: "docs/hack(passports)/shopify",
+    description:
+      "This shopify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/danteata/shopify",
+    download: "993",
+    star: "26",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "jwt-cookiecombo",
+    href: "docs/hack(passports)/jwt-cookiecombo",
+    description:
+      "This jwt-cookiecombo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/codebarista/jwt-cookiecombo",
+    download: "962",
+    star: "31",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "intercom",
+    href: "docs/hack(passports)/intercom",
+    description:
+      "This intercom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/intercom/intercom",
+    download: "1,125",
+    star: "8",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "json",
+    href: "docs/hack(passports)/json",
+    description:
+      "This json passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/JamesMGreene/json",
+    download: "1,132",
+    star: "9",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "remember-me",
+    href: "docs/hack(passports)/remember-me",
+    description:
+      "This remember-me passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/remember-me",
+    download: "1,191",
+    star: "218",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "windowslive",
+    href: "docs/hack(passports)/windowslive",
+    description:
+      "This windowslive passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/windowslive",
+    download: "879",
+    star: "34",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hash",
+    href: "docs/hack(passports)/hash",
+    description:
+      "This hash passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/yuri-karadzhov/hash",
+    download: "868",
+    star: "39",
+    version: "0.6.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dropbox-oauth2",
+    href: "docs/hack(passports)/dropbox-oauth2",
+    description:
+      "This dropbox-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/florianheinemann/dropbox-oauth2",
+    download: "850",
+    star: "31",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "magic-link",
+    href: "docs/hack(passports)/magic-link",
+    description:
+      "This magic-link passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/vinialbano/magic-link",
+    download: "878",
+    star: "58",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pinterest",
+    href: "docs/hack(passports)/pinterest",
+    description:
+      "This pinterest passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/analog-nico/pinterest",
+    download: "733",
+    star: "14",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mail",
+    href: "docs/hack(passports)/mail",
+    description:
+      "This mail passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/stan-ros/mailru",
+    download: "578",
+    star: "2",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "windowsauth",
+    href: "docs/hack(passports)/windowsauth",
+    description:
+      "This windowsauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/windowsauth",
+    download: "552",
+    star: "175",
+    version: "3.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "asana",
+    href: "docs/hack(passports)/asana",
+    description:
+      "This asana passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nickls/asana",
+    download: "941",
+    star: "4",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stripe",
+    href: "docs/hack(passports)/stripe",
+    description:
+      "This stripe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mathisonian/stripe",
+    download: "545",
+    star: "11",
+    version: "0.2.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-oauth",
+    href: "docs/hack(passports)/http-oauth",
+    description:
+      "This http-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/http-oauth",
+    download: "536",
+    star: "70",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "youtube-v3",
+    href: "docs/hack(passports)/youtube-v3",
+    description:
+      "This youtube-v3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/yanatan16/youtube-v3",
+    download: "944",
+    star: "30",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "deezer",
+    href: "docs/hack(passports)/deezer",
+    description:
+      "This deezer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/krachot/deezer",
+    download: "503",
+    star: "3",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "azure-oauth2",
+    href: "docs/hack(passports)/azure-oauth2",
+    description:
+      "This azure-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/AndrewKeig/azure-oauth2",
+    download: "498",
+    star: "15",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hubspot",
+    href: "docs/hack(passports)/hubspot",
+    description:
+      "This hubspot passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/brainflake/hubspot",
+    download: "47",
+    star: "5",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "smartsheet",
+    href: "docs/hack(passports)/smartsheet",
+    description:
+      "This smartsheet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/smartsheet",
+    download: "45",
+    star: "2",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "foursquare",
+    href: "docs/hack(passports)/foursquare",
+    description:
+      "This foursquare passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/foursquare",
+    download: "45",
+    star: "22",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mixcloud",
+    href: "docs/hack(passports)/mixcloud",
+    description:
+      "This mixcloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mjpearson/mixcloud",
+    download: "42",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "appfigures",
+    href: "docs/hack(passports)/appfigures",
+    description:
+      "This appfigures passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/SpiderStrategies/appfigures",
+    download: "40",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fitbit",
+    href: "docs/hack(passports)/fitbit",
+    description:
+      "This fitbit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/fitbit",
+    download: "39",
+    star: "32",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "meetup-oauth2",
+    href: "docs/hack(passports)/meetup-oauth2",
+    description:
+      "This meetup-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/joewoodhouse/meetup-oauth2",
+    download: "41",
+    star: "6",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oauth2-meetup",
+    href: "docs/hack(passports)/oauth2-meetup",
+    description:
+      "This oauth2-meetup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/zenvisuals/oauth2-meetup",
+    download: "38",
+    star: "0",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "arcgis",
+    href: "docs/hack(passports)/arcgis",
+    description:
+      "This arcgis passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DavidSpriggs/arcgis",
+    download: "37",
+    star: "10",
+    version: "0.1.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "publickey",
+    href: "docs/hack(passports)/publickey",
+    description:
+      "This publickey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/timfpark/publickey",
+    download: "36",
+    star: "13",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "client-certificate",
+    href: "docs/hack(passports)/client-certificate",
+    description:
+      "This client-certificate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ripple/client-certificate",
+    download: "37",
+    star: "13",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dropbox",
+    href: "docs/hack(passports)/dropbox",
+    description:
+      "This dropbox passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/dropbox",
+    download: "35",
+    star: "30",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "imgur",
+    href: "docs/hack(passports)/imgur",
+    description:
+      "This imgur passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mindfreakthemon/imgur",
+    download: "36",
+    star: "6",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "qq",
+    href: "docs/hack(passports)/qq",
+    description:
+      "This qq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/qdsang/qq",
+    download: "35",
+    star: "33",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "zoho-crm",
+    href: "docs/hack(passports)/zoho-crm",
+    description:
+      "This zoho-crm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sidrmsh/zoho-crm",
+    download: "35",
+    star: "2",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "flickr",
+    href: "docs/hack(passports)/flickr",
+    description:
+      "This flickr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/johnnyhalife/flickr",
+    download: "32",
+    star: "9",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "soundcloud",
+    href: "docs/hack(passports)/soundcloud",
+    description:
+      "This soundcloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/soundcloud",
+    download: "33",
+    star: "38",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "cisco-spark",
+    href: "docs/hack(passports)/cisco-spark",
+    description:
+      "This cisco-spark passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/bmoyroud/cisco-spark.git",
+    download: "31",
+    star: "0",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "smartthings",
+    href: "docs/hack(passports)/smartthings",
+    description:
+      "This smartthings passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jeff-blaisdell/smartthings",
+    download: "29",
+    star: "6",
+    version: "0.3.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "local-htpasswd",
+    href: "docs/hack(passports)/local-htpasswd",
+    description:
+      "This local-htpasswd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/morungos/local-htpasswd",
+    download: "27",
+    star: "3",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "onshape",
+    href: "docs/hack(passports)/onshape",
+    description:
+      "This onshape passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/onshape/onshape",
+    download: "29",
+    star: "4",
+    version: "1.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "coinbase",
+    href: "docs/hack(passports)/coinbase",
+    description:
+      "This coinbase passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/idris/coinbase",
+    download: "19",
+    star: "13",
+    version: "0.1.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hmac",
+    href: "docs/hack(passports)/hmac",
+    description:
+      "This hmac passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chatter/hmac",
+    download: "28",
+    star: "7",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mercadolibre",
+    href: "docs/hack(passports)/mercadolibre",
+    description:
+      "This mercadolibre passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sdurandeu/mercadolibre",
+    download: "20",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eventbrite-oauth",
+    href: "docs/hack(passports)/eventbrite-oauth",
+    description:
+      "This eventbrite-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/jamplify/eventbrite-oauth.git",
+    download: "23",
+    star: "0",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oauth2-jwt-bearer",
+    href: "docs/hack(passports)/oauth2-jwt-bearer",
+    description:
+      "This oauth2-jwt-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/xtuple/oauth2-jwt-bearer.git",
+    download: "23",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "citrix",
+    href: "docs/hack(passports)/citrix",
+    description:
+      "This citrix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/citrix",
+    download: "26",
+    star: "1",
+    version: "2.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wordpress",
+    href: "docs/hack(passports)/wordpress",
+    description:
+      "This wordpress passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mjpearson/wordpress",
+    download: "26",
+    star: "22",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sharepoint",
+    href: "docs/hack(passports)/sharepoint",
+    description:
+      "This sharepoint passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/QuePort/sharepoint",
+    download: "19",
+    star: "35",
+    version: "0.2.12",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stack-exchange",
+    href: "docs/hack(passports)/stack-exchange",
+    description:
+      "This stack-exchange passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/acruxray/stack-exchange",
+    download: "19",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "intuit-oauth",
+    href: "docs/hack(passports)/intuit-oauth",
+    description:
+      "This intuit-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/intuit-oauth",
+    download: "18",
+    star: "15",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "raven",
+    href: "docs/hack(passports)/raven",
+    description:
+      "This raven passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ForbesLindesay/raven",
+    download: "17",
+    star: "2",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tequila",
+    href: "docs/hack(passports)/tequila",
+    description:
+      "This tequila passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git+ssh://git@gitlab.com/epfl-isasfsd/tequila.git",
+    download: "19",
+    star: "0",
+    version: "1.0.4",
+    updated: "6 months ago",
+    items: [],
+  },
+  {
+    title: "office365-oauth2",
+    href: "docs/hack(passports)/office365-oauth2",
+    description:
+      "This office365-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Burke9077/office365-oauth2",
+    download: "17",
+    star: "3",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sheknows",
+    href: "docs/hack(passports)/sheknows",
+    description:
+      "This sheknows passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/penske-media-corp/sheknows",
+    download: "18",
+    star: "0",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "jawbone",
+    href: "docs/hack(passports)/jawbone",
+    description:
+      "This jawbone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/kiwiai/jawbone",
+    download: "17",
+    star: "0",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "draugiem",
+    href: "docs/hack(passports)/draugiem",
+    description:
+      "This draugiem passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/EriksRemess/draugiem",
+    download: "15",
+    star: "0",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "verify",
+    href: "docs/hack(passports)/verify",
+    description:
+      "This verify passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/alphagov/verify",
+    download: "15",
+    star: "15",
+    version: "2.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lnurl-auth",
+    href: "docs/hack(passports)/lnurl-auth",
+    description:
+      "This lnurl-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chill117/lnurl-auth",
+    download: "15",
+    star: "38",
+    version: "1.5.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "daum-oauth2",
+    href: "docs/hack(passports)/daum-oauth2",
+    description:
+      "This daum-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/myungcheol/daum-oauth2",
+    download: "15",
+    star: "1",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dailymotion",
+    href: "docs/hack(passports)/dailymotion",
+    description:
+      "This dailymotion passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/OtaK/dailymotion",
+    download: "14",
+    star: "2",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "weixin",
+    href: "docs/hack(passports)/weixin",
+    description:
+      "This weixin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/wyntau/weixin",
+    download: "13",
+    star: "138",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "vk-strategy",
+    href: "docs/hack(passports)/vk-strategy",
+    description:
+      "This vk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dvpnt/vk-strategy",
+    download: "13",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "yahoo",
+    href: "docs/hack(passports)/yahoo",
+    description:
+      "This yahoo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/yahoo",
+    download: "12",
+    star: "4",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "paypal",
+    href: "docs/hack(passports)/paypal",
+    description:
+      "This paypal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/paypal",
+    download: "12",
+    star: "10",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "deviantart",
+    href: "docs/hack(passports)/deviantart",
+    description:
+      "This deviantart passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/lablayers/deviantart",
+    download: "11",
+    star: "7",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bufferapp",
+    href: "docs/hack(passports)/bufferapp",
+    description:
+      "This bufferapp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sebastiendb/bufferapp",
+    download: "11",
+    star: "3",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dribbble",
+    href: "docs/hack(passports)/dribbble",
+    description:
+      "This dribbble passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sebabelmar/dribbble",
+    download: "11",
+    star: "3",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "maltio",
+    href: "docs/hack(passports)/maltio",
+    description:
+      "This maltio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/homebrewing/maltio",
+    download: "11",
+    star: "2",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "gitlab",
+    href: "docs/hack(passports)/gitlab",
+    description:
+      "This gitlab passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "weixin-enterprise",
+    href: "docs/hack(passports)/weixin-enterprise",
+    description:
+      "This weixin-enterprise passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/lee715/weixin-enterprise",
+    download: "11",
+    star: "0",
+    version: "1.1.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "youtube",
+    href: "docs/hack(passports)/youtube",
+    description:
+      "This youtube passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jozzhart/youtube",
+    download: "10",
+    star: "8",
+    version: "0.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dataporten",
+    href: "docs/hack(passports)/dataporten",
+    description:
+      "This dataporten passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Uninett/dataporten",
+    download: "10",
+    star: "2",
+    version: "1.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "vimeo",
+    href: "docs/hack(passports)/vimeo",
+    description:
+      "This vimeo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/vimeo",
+    download: "10",
+    star: "5",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "drupal",
+    href: "docs/hack(passports)/drupal",
+    description:
+      "This drupal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/mixmarket/drupal.git",
+    download: "10",
+    star: "0",
+    version: "0.3.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hawk",
+    href: "docs/hack(passports)/hawk",
+    description:
+      "This hawk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jfromaniello/hawk",
+    download: "9",
+    star: "22",
+    version: "4.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "constantcontact",
+    href: "docs/hack(passports)/constantcontact",
+    description:
+      "This constantcontact passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/brainflake/constantcontact",
+    download: "9",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "line2",
+    href: "docs/hack(passports)/line2",
+    description:
+      "This line2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/madeinfree/line2",
+    download: "8",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "campaignmonitor",
+    href: "docs/hack(passports)/campaignmonitor",
+    description:
+      "This campaignmonitor passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/brainflake/campaignmonitor",
+    download: "9",
+    star: "2",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "anonym-uuid",
+    href: "docs/hack(passports)/anonym-uuid",
+    description:
+      "This anonym-uuid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nash403/anonym-uuid",
+    download: "252",
+    star: "3",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mastodon",
+    href: "docs/hack(passports)/mastodon",
+    description:
+      "This mastodon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/techfeed/mastodon",
+    download: "9",
+    star: "5",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bitbucket-oauth20",
+    href: "docs/hack(passports)/bitbucket-oauth20",
+    description:
+      "This bitbucket-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/saintedlama/bitbucket-oauth2",
+    download: "307",
+    star: "6",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-custom-bearer",
+    href: "docs/hack(passports)/http-custom-bearer",
+    description:
+      "This http-custom-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/wwwslinger/http-custom-bearer",
+    download: "297",
+    star: "1",
+    version: "1.0.15",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "predix-oauth",
+    href: "docs/hack(passports)/predix-oauth",
+    description:
+      "This predix-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/PredixDev/predix-oauth",
+    download: "276",
+    star: "5",
+    version: "0.1.55",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fido2-webauthn",
+    href: "docs/hack(passports)/fido2-webauthn",
+    description:
+      "This fido2-webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/webauthn",
+    download: "236",
+    star: "22",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lti",
+    href: "docs/hack(passports)/lti",
+    description:
+      "This lti passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/civitaslearning/lti",
+    download: "228",
+    star: "26",
+    version: "0.0.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "xero",
+    href: "docs/hack(passports)/xero",
+    description:
+      "This xero passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/xero",
+    download: "217",
+    star: "6",
+    version: "1.0.0-a",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "local-token",
+    href: "docs/hack(passports)/local-token",
+    description:
+      "This local-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/pferretti/local-token.git",
+    download: "157",
+    star: "0",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "snapchat",
+    href: "docs/hack(passports)/snapchat",
+    description:
+      "This snapchat passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Snapchat/snapchat",
+    download: "202",
+    star: "36",
+    version: "1.0.0",
+    updated: "9 months ago",
+    items: [],
+  },
+  {
+    title: "heroku-addon",
+    href: "docs/hack(passports)/heroku-addon",
+    description:
+      "This heroku-addon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/heroku-addon",
+    download: "173",
+    star: "6",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "outlook",
+    href: "docs/hack(passports)/outlook",
+    description:
+      "This outlook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/clocked0ne/outlook",
+    download: "464",
+    star: "14",
+    version: "3.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nest",
+    href: "docs/hack(passports)/nest",
+    description:
+      "This nest passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nestlabs/nest",
+    download: "460",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "odnoklassniki",
+    href: "docs/hack(passports)/odnoklassniki",
+    description:
+      "This odnoklassniki passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ozon1234/odnoklassniki",
+    download: "392",
+    star: "9",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wechat",
+    href: "docs/hack(passports)/wechat",
+    description:
+      "This wechat passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/liangyali/wechat",
+    download: "454",
+    star: "155",
+    version: "2.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ibmid-oauth2",
+    href: "docs/hack(passports)/ibmid-oauth2",
+    description:
+      "This ibmid-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/osipov/ibmid-oauth2",
+    download: "331",
+    star: "14",
+    version: "0.0.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "twitch",
+    href: "docs/hack(passports)/twitch",
+    description:
+      "This twitch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Schmoopiie/twitch",
+    download: "344",
+    star: "48",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bluemix",
+    href: "docs/hack(passports)/bluemix",
+    description:
+      "This bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/m1nhhoang/bluemix",
+    download: "435",
+    star: "0",
+    version: "0.1.2-b",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "yandex",
+    href: "docs/hack(passports)/yandex",
+    description:
+      "This yandex passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/gurugray/yandex",
+    download: "319",
+    star: "19",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ping-oauth2",
+    href: "docs/hack(passports)/ping-oauth2",
+    description:
+      "This ping-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Bayer-Group/ping-oauth2",
+    download: "442",
+    star: "5",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "localapikey",
+    href: "docs/hack(passports)/localapikey",
+    description:
+      "This localapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cholalabs/localapikey",
+    download: "909",
+    star: "164",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oauth2-resource-owner-password",
+    href: "docs/hack(passports)/oauth2-resource-owner-password",
+    description:
+      "This oauth2-resource-owner-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://github.com/coolaj86/oauth2-resource-owner-password",
+    download: "312",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mailchimp",
+    href: "docs/hack(passports)/mailchimp",
+    description:
+      "This mailchimp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/brainflake/mailchimp",
+    download: "315",
+    star: "9",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "line-auth",
+    href: "docs/hack(passports)/line-auth",
+    description:
+      "This line-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/IvanWei/line-auth",
+    download: "553",
+    star: "31",
+    version: "0.2.9",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "podio",
+    href: "docs/hack(passports)/podio",
+    description:
+      "This podio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mjpearson/podio",
+    download: "49",
+    star: "1",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "37signals",
+    href: "docs/hack(passports)/37signals",
+    description:
+      "This 37signals passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/37signals",
+    download: "47",
+    star: "6",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bnet",
+    href: "docs/hack(passports)/bnet",
+    description:
+      "This bnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Blizzard/bnet",
+    download: "147",
+    star: "192",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "httpapikey",
+    href: "docs/hack(passports)/httpapikey",
+    description:
+      "This httpapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/p0wdrdotcom/httpapikey",
+    download: "174",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "reddit",
+    href: "docs/hack(passports)/reddit",
+    description:
+      "This reddit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Slotos/reddit",
+    download: "182",
+    star: "47",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "trakt",
+    href: "docs/hack(passports)/trakt",
+    description:
+      "This trakt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/alexperrault/trakt",
+    download: "193",
+    star: "2",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tumblr",
+    href: "docs/hack(passports)/tumblr",
+    description:
+      "This tumblr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/tumblr",
+    download: "136",
+    star: "30",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "echosign",
+    href: "docs/hack(passports)/echosign",
+    description:
+      "This echosign passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/joewoodhouse/echosign",
+    download: "109",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "xing",
+    href: "docs/hack(passports)/xing",
+    description:
+      "This xing passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/bachp/xing",
+    download: "151",
+    star: "12",
+    version: "0.1.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "adobe-oauth2",
+    href: "docs/hack(passports)/adobe-oauth2",
+    description:
+      "This adobe-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/adobe/adobe-oauth2",
+    download: "102",
+    star: "11",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-bearer-base64",
+    href: "docs/hack(passports)/http-bearer-base64",
+    description:
+      "This http-bearer-base64 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auralon/http-bearer-base64",
+    download: "170",
+    star: "2",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "trello",
+    href: "docs/hack(passports)/trello",
+    description:
+      "This trello passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/fuwaneko/trello",
+    download: "116",
+    star: "12",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "box",
+    href: "docs/hack(passports)/box",
+    description:
+      "This box passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/bluedge/box",
+    download: "112",
+    star: "13",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "google-plus",
+    href: "docs/hack(passports)/google-plus",
+    description:
+      "This google-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sqrrrl/google-plus",
+    download: "198",
+    star: "31",
+    version: "0.5.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "did-auth",
+    href: "docs/hack(passports)/did-auth",
+    description:
+      "This did-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/energywebfoundation/did-auth",
+    download: "109",
+    star: "14",
+    version: "2.0.0",
+    updated: "7 days ago",
+    items: [],
+  },
+  {
+    title: "ethereum-siwe",
+    href: "docs/hack(passports)/ethereum-siwe",
+    description:
+      "This ethereum-siwe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/ethereum",
+    download: "98",
+    star: "15",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "web3",
+    href: "docs/hack(passports)/web3",
+    description:
+      "This web3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/coopermaruyama/web3",
+    download: "92",
+    star: "30",
+    version: "0.1.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "json-custom",
+    href: "docs/hack(passports)/json-custom",
+    description:
+      "This json-custom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/JamesMGreene/json-custom",
+    download: "132",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bitbucket",
+    href: "docs/hack(passports)/bitbucket",
+    description:
+      "This bitbucket passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/bitbucket",
+    download: "91",
+    star: "26",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "strava-oauth2",
+    href: "docs/hack(passports)/strava-oauth2",
+    description:
+      "This strava-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/millsy/strava",
+    download: "88",
+    star: "32",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ghost",
+    href: "docs/hack(passports)/ghost",
+    description:
+      "This ghost passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/TryGhost/ghost",
+    download: "10",
+    star: "8",
+    version: "2.3.1",
+    updated: "10 days ago",
+    items: [],
+  },
+  {
+    title: "ok-strategy",
+    href: "docs/hack(passports)/ok-strategy",
+    description:
+      "This ok-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dvpnt/ok-strategy",
+    download: "206",
+    star: "4",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fitbit-oauth2",
+    href: "docs/hack(passports)/fitbit-oauth2",
+    description:
+      "This fitbit-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/thegameofcode/fitbit-oauth2",
+    download: "104",
+    star: "29",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "telegram",
+    href: "docs/hack(passports)/telegram",
+    description:
+      "This telegram passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/TelegramPassport/js",
+    download: "56",
+    star: "31",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "yammer",
+    href: "docs/hack(passports)/yammer",
+    description:
+      "This yammer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/yammer",
+    download: "81",
+    star: "11",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "vso",
+    href: "docs/hack(passports)/vso",
+    description:
+      "This vso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/hallipr/vso",
+    download: "87",
+    star: "2",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "passportjs-header",
+    href: "docs/hack(passports)/passportjs-header",
+    description:
+      "This passportjs-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chrisns/passportjs-header",
+    download: "80",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "headhunter",
+    href: "docs/hack(passports)/headhunter",
+    description:
+      "This headhunter passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/getlot/headhunter",
+    download: "92",
+    star: "0",
+    version: "0.1.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "meetup",
+    href: "docs/hack(passports)/meetup",
+    description:
+      "This meetup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/meetup",
+    download: "67",
+    star: "15",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "strava",
+    href: "docs/hack(passports)/strava",
+    description:
+      "This strava passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/derrickpelletier/strava",
+    download: "69",
+    star: "12",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pocket",
+    href: "docs/hack(passports)/pocket",
+    description:
+      "This pocket passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Siedrix/pocket",
+    download: "79",
+    star: "21",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "outlook2",
+    href: "docs/hack(passports)/outlook2",
+    description:
+      "This outlook2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/meirbank/outlook",
+    download: "66",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "clever-passport",
+    href: "docs/hack(passports)/clever-passport",
+    description:
+      "This clever-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/milanmdev/clever-passport",
+    download: "80",
+    star: "1",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "authtkt",
+    href: "docs/hack(passports)/authtkt",
+    description:
+      "This authtkt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/optilude/authtkt",
+    download: "58",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ethereum",
+    href: "docs/hack(passports)/ethereum",
+    description:
+      "This ethereum passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/io84team/ethereum",
+    download: "58",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "yahoo-oauth",
+    href: "docs/hack(passports)/yahoo-oauth",
+    description:
+      "This yahoo-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/yahoo-oauth",
+    download: "53",
+    star: "19",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bitly",
+    href: "docs/hack(passports)/bitly",
+    description:
+      "This bitly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dreadjr/bitly",
+    download: "53",
+    star: "5",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lastfm",
+    href: "docs/hack(passports)/lastfm",
+    description:
+      "This lastfm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/kizzlebot/lastfm",
+    download: "52",
+    star: "3",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wca",
+    href: "docs/hack(passports)/wca",
+    description:
+      "This wca passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "undefined",
+    href: "docs/hack(passports)/undefined",
+    description:
+      "This undefined passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "heroku",
+    href: "docs/hack(passports)/heroku",
+    description:
+      "This heroku passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "instant2fa",
+    href: "docs/hack(passports)/instant2fa",
+    description:
+      "This instant2fa passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "saml-too",
+    href: "docs/hack(passports)/saml-too",
+    description:
+      "This saml-too passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "sina",
+    href: "docs/hack(passports)/sina",
+    description:
+      "This sina passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "weibo",
+    href: "docs/hack(passports)/weibo",
+    description:
+      "This weibo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xinbenlv/weibo",
+    download: "7",
+    star: "72",
+    version: "1.0.0-beta.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "paypal-oauth",
+    href: "docs/hack(passports)/paypal-oauth",
+    description:
+      "This paypal-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/paypal-oauth",
+    download: "7",
+    star: "28",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "digitalocean",
+    href: "docs/hack(passports)/digitalocean",
+    description:
+      "This digitalocean passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/harbur/digitalocean",
+    download: "7",
+    star: "4",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "indieauth",
+    href: "docs/hack(passports)/indieauth",
+    description:
+      "This indieauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mko/indieauth",
+    download: "4",
+    star: "2",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "waad",
+    href: "docs/hack(passports)/waad",
+    description:
+      "This waad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ColinEdwardRhodes/waad",
+    download: "4",
+    star: "3",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nexon",
+    href: "docs/hack(passports)/nexon",
+    description:
+      "This nexon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mamsori/nexon",
+    download: "4",
+    star: "2",
+    version: "1.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "borchk",
+    href: "docs/hack(passports)/borchk",
+    description:
+      "This borchk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DBCDK/borchk",
+    download: "4",
+    star: "0",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "basecamp",
+    href: "docs/hack(passports)/basecamp",
+    description:
+      "This basecamp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/janbaykara/basecamp",
+    download: "4",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ustream",
+    href: "docs/hack(passports)/ustream",
+    description:
+      "This ustream passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/superpan/ustream",
+    download: "4",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "iucas",
+    href: "docs/hack(passports)/iucas",
+    description:
+      "This iucas passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/soichih/iucas",
+    download: "4",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "thingiverse",
+    href: "docs/hack(passports)/thingiverse",
+    description:
+      "This thingiverse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/AlisamfP/thingiverse",
+    download: "4",
+    star: "0",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "taccounts-oauth2",
+    href: "docs/hack(passports)/taccounts-oauth2",
+    description:
+      "This taccounts-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Telefonica/taccounts-oauth2",
+    download: "4",
+    star: "1",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "namely",
+    href: "docs/hack(passports)/namely",
+    description:
+      "This namely passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mykabam/namely",
+    download: "4",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ufshib",
+    href: "docs/hack(passports)/ufshib",
+    description:
+      "This ufshib passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/crohead13/ufshib",
+    download: "4",
+    star: "0",
+    version: "0.1.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "veritone",
+    href: "docs/hack(passports)/veritone",
+    description:
+      "This veritone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/veritone/veritone-sdk",
+    download: "3",
+    star: "18",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "persona",
+    href: "docs/hack(passports)/persona",
+    description:
+      "This persona passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/persona",
+    download: "3",
+    star: "19",
+    version: "0.2.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "23andme",
+    href: "docs/hack(passports)/23andme",
+    description:
+      "This 23andme passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mko/23andme",
+    download: "3",
+    star: "5",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "twitchtv",
+    href: "docs/hack(passports)/twitchtv",
+    description:
+      "This twitchtv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/johnkernke/twitchtv",
+    download: "3",
+    star: "36",
+    version: "0.1.4",
+    updated: "6 months ago",
+    items: [],
+  },
+  {
+    title: "workwell",
+    href: "docs/hack(passports)/workwell",
+    description:
+      "This workwell passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/emathieu13/workwell",
+    download: "3",
+    star: "8",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "keystone",
+    href: "docs/hack(passports)/keystone",
+    description:
+      "This keystone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/eddywashere/keystone",
+    download: "3",
+    star: "22",
+    version: "0.2.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ldsauth",
+    href: "docs/hack(passports)/ldsauth",
+    description:
+      "This ldsauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/LDSorg/lds-io",
+    download: "3",
+    star: "5",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-signature",
+    href: "docs/hack(passports)/http-signature",
+    description:
+      "This http-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://github.com/interledger-deprecated/http-signature",
+    download: "3",
+    star: "5",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mymlh",
+    href: "docs/hack(passports)/mymlh",
+    description:
+      "This mymlh passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DonutsInBelly/mymlh",
+    download: "3",
+    star: "4",
+    version: "2.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stackexchange",
+    href: "docs/hack(passports)/stackexchange",
+    description:
+      "This stackexchange passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/geNAZt/stackexchange",
+    download: "3",
+    star: "4",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "clevercloud",
+    href: "docs/hack(passports)/clevercloud",
+    description:
+      "This clevercloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Redsmin/clevercloud",
+    download: "3",
+    star: "3",
+    version: "0.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "coursera-oauth",
+    href: "docs/hack(passports)/coursera-oauth",
+    description:
+      "This coursera-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/flipflopapp/coursera-oauth",
+    download: "3",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ibm-connections-cloud",
+    href: "docs/hack(passports)/ibm-connections-cloud",
+    description:
+      "This ibm-connections-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/benkroeger/ibm-connections-cloud",
+    download: "3",
+    star: "2",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hackid",
+    href: "docs/hack(passports)/hackid",
+    description:
+      "This hackid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/HackBerkeley/hackid",
+    download: "3",
+    star: "2",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "line-v2",
+    href: "docs/hack(passports)/line-v2",
+    description:
+      "This line-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/piggyman007/line-v2",
+    download: "3",
+    star: "2",
+    version: "3.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "uber-v2",
+    href: "docs/hack(passports)/uber-v2",
+    description:
+      "This uber-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/girliemac/uber-v2",
+    download: "3",
+    star: "3",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "identityua",
+    href: "docs/hack(passports)/identityua",
+    description:
+      "This identityua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/poliveira89/identityua",
+    download: "3",
+    star: "2",
+    version: "1.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "square",
+    href: "docs/hack(passports)/square",
+    description:
+      "This square passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/square",
+    download: "4",
+    star: "3",
+    version: "2.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "groupme",
+    href: "docs/hack(passports)/groupme",
+    description:
+      "This groupme passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/andrewwiik/groupme",
+    download: "3",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ssqsignon",
+    href: "docs/hack(passports)/ssqsignon",
+    description:
+      "This ssqsignon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ssqsignon/ssqsignon",
+    download: "3",
+    star: "2",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ehealth",
+    href: "docs/hack(passports)/ehealth",
+    description:
+      "This ehealth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ShawnSpooner/eHealth",
+    download: "3",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "gowalla",
+    href: "docs/hack(passports)/gowalla",
+    description:
+      "This gowalla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/gowalla",
+    download: "3",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "signature",
+    href: "docs/hack(passports)/signature",
+    description:
+      "This signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dlochrie/signature",
+    download: "3",
+    star: "1",
+    version: "0.1.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "automatic",
+    href: "docs/hack(passports)/automatic",
+    description:
+      "This automatic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/automatic/automatic.git",
+    download: "3",
+    star: "0",
+    version: "1.2.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nextengine",
+    href: "docs/hack(passports)/nextengine",
+    description:
+      "This nextengine passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Leko/nextengine",
+    download: "3",
+    star: "1",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dd",
+    href: "docs/hack(passports)/dd",
+    description:
+      "This dd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git@bitbucket.org:18techs/dd.git",
+    download: "3",
+    star: "0",
+    version: "0.1.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "delivery.com",
+    href: "docs/hack(passports)/delivery.com",
+    description:
+      "This delivery.com passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jihokoo/delivery.com",
+    download: "3",
+    star: "0",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "jd-credit",
+    href: "docs/hack(passports)/jd-credit",
+    description:
+      "This jd-credit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mackwan84/jd-credit",
+    download: "3",
+    star: "0",
+    version: "1.2.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "octoblu",
+    href: "docs/hack(passports)/octoblu",
+    description:
+      "This octoblu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/octoblu",
+    download: "3",
+    star: "0",
+    version: "3.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "monarch",
+    href: "docs/hack(passports)/monarch",
+    description:
+      "This monarch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/monarchapis/monarch",
+    download: "3",
+    star: "0",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "privakey",
+    href: "docs/hack(passports)/privakey",
+    description:
+      "This privakey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git+https://github.com/privakey/privakey.git",
+    download: "3",
+    star: "0",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "exact",
+    href: "docs/hack(passports)/exact",
+    description:
+      "This exact passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/exact",
+    download: "3",
+    star: "0",
+    version: "0.1.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "shutterstock-oauth2",
+    href: "docs/hack(passports)/shutterstock-oauth2",
+    description:
+      "This shutterstock-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/shutterstock/shutterstock-oauth2",
+    download: "3",
+    star: "0",
+    version: "1.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tradier",
+    href: "docs/hack(passports)/tradier",
+    description:
+      "This tradier passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tradier/tradier",
+    download: "7",
+    star: "13",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "node-freeagent2",
+    href: "docs/hack(passports)/node-freeagent2",
+    description:
+      "This node-freeagent2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/JoeStanton/node-freeagent2",
+    download: "7",
+    star: "7",
+    version: "0.0.11",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "yj",
+    href: "docs/hack(passports)/yj",
+    description:
+      "This yj passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Lewuathe/yj",
+    download: "7",
+    star: "11",
+    version: "1.0.9",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "daccount",
+    href: "docs/hack(passports)/daccount",
+    description:
+      "This daccount passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/daccount",
+    download: "7",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mailru",
+    href: "docs/hack(passports)/mailru",
+    description:
+      "This mailru passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tiberule/mailru",
+    download: "7",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "goodreads",
+    href: "docs/hack(passports)/goodreads",
+    description:
+      "This goodreads passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/goodreads",
+    download: "5",
+    star: "21",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stormpath",
+    href: "docs/hack(passports)/stormpath",
+    description:
+      "This stormpath passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/stormpath/stormpath",
+    download: "6",
+    star: "35",
+    version: "0.2.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "familysearch",
+    href: "docs/hack(passports)/familysearch",
+    description:
+      "This familysearch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/familysearch",
+    download: "6",
+    star: "6",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "jive",
+    href: "docs/hack(passports)/jive",
+    description:
+      "This jive passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/aldricHCK/oauth-jive.git",
+    download: "6",
+    star: "0",
+    version: "0.0.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mondo-oauth2",
+    href: "docs/hack(passports)/mondo-oauth2",
+    description:
+      "This mondo-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/timReynolds/mondo-oauth2",
+    download: "6",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oneauth",
+    href: "docs/hack(passports)/oneauth",
+    description:
+      "This oneauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/coding-blocks/oneauth",
+    download: "6",
+    star: "2",
+    version: "1.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lds",
+    href: "docs/hack(passports)/lds",
+    description:
+      "This lds passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/LDSorg/lds-io",
+    download: "6",
+    star: "5",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "rdio-oauth2",
+    href: "docs/hack(passports)/rdio-oauth2",
+    description:
+      "This rdio-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/rdio-oauth2",
+    download: "6",
+    star: "0",
+    version: "1.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "citrix2",
+    href: "docs/hack(passports)/citrix2",
+    description:
+      "This citrix2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/kenbell/citrix.git",
+    download: "6",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "intuit",
+    href: "docs/hack(passports)/intuit",
+    description:
+      "This intuit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/intuit",
+    download: "5",
+    star: "10",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "uwshib",
+    href: "docs/hack(passports)/uwshib",
+    description:
+      "This uwshib passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/drstearns/uwshib",
+    download: "5",
+    star: "25",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "idn",
+    href: "docs/hack(passports)/idn",
+    description:
+      "This idn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tusbar/idn",
+    download: "5",
+    star: "4",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "abakus",
+    href: "docs/hack(passports)/abakus",
+    description:
+      "This abakus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/webkom/abakus",
+    download: "5",
+    star: "3",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "cloudfoundry",
+    href: "docs/hack(passports)/cloudfoundry",
+    description:
+      "This cloudfoundry passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/rajaraodv/cloudfoundry",
+    download: "5",
+    star: "13",
+    version: "0.1.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eve",
+    href: "docs/hack(passports)/eve",
+    description:
+      "This eve passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/muradaliyev/eve",
+    download: "5",
+    star: "3",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ionisx",
+    href: "docs/hack(passports)/ionisx",
+    description:
+      "This ionisx passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/IONISx/ionisx",
+    download: "5",
+    star: "0",
+    version: "1.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "disqus",
+    href: "docs/hack(passports)/disqus",
+    description:
+      "This disqus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/andreycrane/disqus.git",
+    download: "5",
+    star: "0",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "basecrm",
+    href: "docs/hack(passports)/basecrm",
+    description:
+      "This basecrm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/reydelleon/basecrm",
+    download: "5",
+    star: "0",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dailycred",
+    href: "docs/hack(passports)/dailycred",
+    description:
+      "This dailycred passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/hstove/dailycred.git",
+    download: "5",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tiendanube",
+    href: "docs/hack(passports)/tiendanube",
+    description:
+      "This tiendanube passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/andreskir/tiendanube",
+    download: "5",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "surveymonkey",
+    href: "docs/hack(passports)/surveymonkey",
+    description:
+      "This surveymonkey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "userapp",
+    href: "docs/hack(passports)/userapp",
+    description:
+      "This userapp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/userapp-io/userapp",
+    download: "4",
+    star: "22",
+    version: "1.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tidal",
+    href: "docs/hack(passports)/tidal",
+    description:
+      "This tidal passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git+https://github.com/tidal-engineering/tidal.git",
+    download: "5",
+    star: "0",
+    version: "0.4.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eveonline",
+    href: "docs/hack(passports)/eveonline",
+    description:
+      "This eveonline passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mbrennan/eveonline",
+    download: "4",
+    star: "11",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "gumroad",
+    href: "docs/hack(passports)/gumroad",
+    description:
+      "This gumroad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/SamyPesse/gumroad",
+    download: "4",
+    star: "7",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lds-connect",
+    href: "docs/hack(passports)/lds-connect",
+    description:
+      "This lds-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/LDSorg/lds-io",
+    download: "4",
+    star: "5",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "civic",
+    href: "docs/hack(passports)/civic",
+    description:
+      "This civic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/SpringRole/civic",
+    download: "4",
+    star: "5",
+    version: "1.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stanford",
+    href: "docs/hack(passports)/stanford",
+    description:
+      "This stanford passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/scottylogan/stanford",
+    download: "4",
+    star: "4",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "opentoken",
+    href: "docs/hack(passports)/opentoken",
+    description:
+      "This opentoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/73rhodes/opentoken",
+    download: "5",
+    star: "4",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "metocean",
+    href: "docs/hack(passports)/metocean",
+    description:
+      "This metocean passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/metocean/metocean",
+    download: "2",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "justintv",
+    href: "docs/hack(passports)/justintv",
+    description:
+      "This justintv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/justintv",
+    download: "2",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pnoi",
+    href: "docs/hack(passports)/pnoi",
+    description:
+      "This pnoi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/pnoi/passport",
+    download: "2",
+    star: "1",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oauth3",
+    href: "docs/hack(passports)/oauth3",
+    description:
+      "This oauth3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/OAuth3/node-oauth3",
+    download: "2",
+    star: "1",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stocktwits",
+    href: "docs/hack(passports)/stocktwits",
+    description:
+      "This stocktwits passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/simov/stocktwits",
+    download: "2",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wix-app",
+    href: "docs/hack(passports)/wix-app",
+    description:
+      "This wix-app passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/maxkoryukov/wix-app",
+    download: "2",
+    star: "1",
+    version: "1.0.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sharefile",
+    href: "docs/hack(passports)/sharefile",
+    description:
+      "This sharefile passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/sharefile",
+    download: "2",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "anyexercise",
+    href: "docs/hack(passports)/anyexercise",
+    description:
+      "This anyexercise passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git@git.sankuai.com/~wangshijun/meituan.git",
+    download: "2",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bypass-strategy",
+    href: "docs/hack(passports)/bypass-strategy",
+    description:
+      "This bypass-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/bypasslane/bypass-strategy",
+    download: "2",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wink",
+    href: "docs/hack(passports)/wink",
+    description:
+      "This wink passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tuddman/wink",
+    download: "2",
+    star: "1",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "approveapi",
+    href: "docs/hack(passports)/approveapi",
+    description:
+      "This approveapi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "apptrack",
+    href: "docs/hack(passports)/apptrack",
+    description:
+      "This apptrack passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/apptrack/passport",
+    download: "2",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "artycles",
+    href: "docs/hack(passports)/artycles",
+    description:
+      "This artycles passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/artycles/passport",
+    download: "2",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "coola",
+    href: "docs/hack(passports)/coola",
+    description:
+      "This coola passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cooladata/coola",
+    download: "2",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "assetorium",
+    href: "docs/hack(passports)/assetorium",
+    description:
+      "This assetorium passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/assetorium/passport",
+    download: "2",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dropbox-business",
+    href: "docs/hack(passports)/dropbox-business",
+    description:
+      "This dropbox-business passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/yawhide/dropbox-business",
+    download: "2",
+    star: "0",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "authtoken",
+    href: "docs/hack(passports)/authtoken",
+    description:
+      "This authtoken passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/horiuchi/authtoken",
+    download: "2",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fido2",
+    href: "docs/hack(passports)/fido2",
+    description:
+      "This fido2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "crudr",
+    href: "docs/hack(passports)/crudr",
+    description:
+      "This crudr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/crudr-api/passport",
+    download: "2",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fanfou",
+    href: "docs/hack(passports)/fanfou",
+    description:
+      "This fanfou passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/didikeke/fanfou",
+    download: "2",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "honeywell",
+    href: "docs/hack(passports)/honeywell",
+    description:
+      "This honeywell passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Nibbler999/honeywell",
+    download: "2",
+    star: "0",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "rightsignature",
+    href: "docs/hack(passports)/rightsignature",
+    description:
+      "This rightsignature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/AlisamfP/rightsignature",
+    download: "2",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "learningstudio",
+    href: "docs/hack(passports)/learningstudio",
+    description:
+      "This learningstudio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/PearsonAPI/learningstudio.git",
+    download: "2",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ibm-connections-oauth",
+    href: "docs/hack(passports)/ibm-connections-oauth",
+    description:
+      "This ibm-connections-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/benkroeger/ibm-connections-oauth",
+    download: "2",
+    star: "0",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "kuali",
+    href: "docs/hack(passports)/kuali",
+    description:
+      "This kuali passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/KualiCo/kuali",
+    download: "2",
+    star: "0",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nuwe",
+    href: "docs/hack(passports)/nuwe",
+    description:
+      "This nuwe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nuwehq/nuwe",
+    download: "2",
+    star: "0",
+    version: "2.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "passwordless",
+    href: "docs/hack(passports)/passwordless",
+    description:
+      "This passwordless passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "kerberos",
+    href: "docs/hack(passports)/kerberos",
+    description:
+      "This kerberos passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/joshuah/kerberos.git",
+    download: "2",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "latch",
+    href: "docs/hack(passports)/latch",
+    description:
+      "This latch passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "git://github.com/elevenpaths/latch-plugin-passportjs.git",
+    download: "2",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sitegate",
+    href: "docs/hack(passports)/sitegate",
+    description:
+      "This sitegate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sitegate/sitegate",
+    download: "3",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "thegrid",
+    href: "docs/hack(passports)/thegrid",
+    description:
+      "This thegrid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/the-grid/thegrid",
+    download: "3",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "runkeeper",
+    href: "docs/hack(passports)/runkeeper",
+    description:
+      "This runkeeper passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/runkeeper",
+    download: "2",
+    star: "18",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "passport_eloqua",
+    href: "docs/hack(passports)/passport_eloqua",
+    description:
+      "This passport_eloqua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "git+ssh://git@github.com/bedrockdata/passport_eloqua.git",
+    download: "3",
+    star: "0",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "openstreetmap",
+    href: "docs/hack(passports)/openstreetmap",
+    description:
+      "This openstreetmap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/openstreetmap",
+    download: "2",
+    star: "9",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "weibonew",
+    href: "docs/hack(passports)/weibonew",
+    description:
+      "This weibonew passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xinbenlv/weibo",
+    download: "2",
+    star: "72",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hotp",
+    href: "docs/hack(passports)/hotp",
+    description:
+      "This hotp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/hotp",
+    download: "2",
+    star: "11",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "descope",
+    href: "docs/hack(passports)/descope",
+    description:
+      "This descope passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/descope/descope",
+    download: "2",
+    star: "7",
+    version: "1.0.0",
+    updated: "2 months ago",
+    items: [],
+  },
+  {
+    title: "cloudfoundry-openidconnect",
+    href: "docs/hack(passports)/cloudfoundry-openidconnect",
+    description:
+      "This cloudfoundry-openidconnect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://github.com/rajaraodv/cloudfoundry-openidconnect",
+    download: "2",
+    star: "5",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lds-io",
+    href: "docs/hack(passports)/lds-io",
+    description:
+      "This lds-io passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/LDSorg/lds-io",
+    download: "2",
+    star: "5",
+    version: "2.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "rakuten",
+    href: "docs/hack(passports)/rakuten",
+    description:
+      "This rakuten passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/gologo13/rakuten",
+    download: "2",
+    star: "7",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "assembla",
+    href: "docs/hack(passports)/assembla",
+    description:
+      "This assembla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/maxcoto/assembla",
+    download: "2",
+    star: "3",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ses",
+    href: "docs/hack(passports)/ses",
+    description:
+      "This ses passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mtso/ses",
+    download: "2",
+    star: "3",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sharepoint-addin",
+    href: "docs/hack(passports)/sharepoint-addin",
+    description:
+      "This sharepoint-addin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/s-KaiNet/sharepoint-addin",
+    download: "2",
+    star: "3",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "unilogin",
+    href: "docs/hack(passports)/unilogin",
+    description:
+      "This unilogin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DBCDK/unilogin",
+    download: "2",
+    star: "5",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lyft",
+    href: "docs/hack(passports)/lyft",
+    description:
+      "This lyft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/girliemac/lyft",
+    download: "2",
+    star: "3",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "baidu",
+    href: "docs/hack(passports)/baidu",
+    description:
+      "This baidu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xiaoao/baidu",
+    download: "2",
+    star: "3",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "predix",
+    href: "docs/hack(passports)/predix",
+    description:
+      "This predix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/combsco/predix",
+    download: "2",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "supinfo",
+    href: "docs/hack(passports)/supinfo",
+    description:
+      "This supinfo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/vincentpeyrouse/supinfo",
+    download: "2",
+    star: "2",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "trademe",
+    href: "docs/hack(passports)/trademe",
+    description:
+      "This trademe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dupesnduds/trademe",
+    download: "2",
+    star: "2",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "digital-signature",
+    href: "docs/hack(passports)/digital-signature",
+    description:
+      "This digital-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/johnhenry/digital-signature",
+    download: "2",
+    star: "2",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "warwick-sso-oauth",
+    href: "docs/hack(passports)/warwick-sso-oauth",
+    description:
+      "This warwick-sso-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "https://github.com/UniversityofWarwick/warwick-sso-oauth",
+    download: "2",
+    star: "2",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "everyplay",
+    href: "docs/hack(passports)/everyplay",
+    description:
+      "This everyplay passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Everyplay/everyplay",
+    download: "2",
+    star: "2",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "edmodo",
+    href: "docs/hack(passports)/edmodo",
+    description:
+      "This edmodo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/zaption/edmodo",
+    download: "2",
+    star: "1",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "feedly",
+    href: "docs/hack(passports)/feedly",
+    description:
+      "This feedly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/may215/feedly",
+    download: "2",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "freshbooks",
+    href: "docs/hack(passports)/freshbooks",
+    description:
+      "This freshbooks passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/MichaelJCole/freshbooks",
+    download: "2",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "beatsmusic",
+    href: "docs/hack(passports)/beatsmusic",
+    description:
+      "This beatsmusic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/datmark/beatsmusic",
+    download: "2",
+    star: "1",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "authentiq",
+    href: "docs/hack(passports)/authentiq",
+    description:
+      "This authentiq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/AuthentiqID/authentiq",
+    download: "1",
+    star: "2",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "aol",
+    href: "docs/hack(passports)/aol",
+    description:
+      "This aol passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/aol",
+    download: "1",
+    star: "2",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bong",
+    href: "docs/hack(passports)/bong",
+    description:
+      "This bong passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/junmer/bong",
+    download: "1",
+    star: "2",
+    version: "0.1.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "appc",
+    href: "docs/hack(passports)/appc",
+    description:
+      "This appc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/appcelerator-archive/appc",
+    download: "1",
+    star: "2",
+    version: "0.2.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "geeklist",
+    href: "docs/hack(passports)/geeklist",
+    description:
+      "This geeklist passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sebastiendb/geeklist",
+    download: "1",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "chalkable-oauth2",
+    href: "docs/hack(passports)/chalkable-oauth2",
+    description:
+      "This chalkable-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/headlessme/chalkable-oauth2",
+    download: "1",
+    star: "2",
+    version: "0.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "heroku-sso",
+    href: "docs/hack(passports)/heroku-sso",
+    description:
+      "This heroku-sso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/camshaft/heroku-sso",
+    download: "1",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "moves",
+    href: "docs/hack(passports)/moves",
+    description:
+      "This moves passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/billglover/moves",
+    download: "1",
+    star: "2",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "idsus",
+    href: "docs/hack(passports)/idsus",
+    description:
+      "This idsus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/saviogl/idsus",
+    download: "1",
+    star: "2",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nopassword",
+    href: "docs/hack(passports)/nopassword",
+    description:
+      "This nopassword passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/sylis/nopassword",
+    download: "1",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "misfit",
+    href: "docs/hack(passports)/misfit",
+    description:
+      "This misfit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cquartier/misfit",
+    download: "1",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "netatmo",
+    href: "docs/hack(passports)/netatmo",
+    description:
+      "This netatmo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Nibbler999/netatmo",
+    download: "1",
+    star: "2",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "stash",
+    href: "docs/hack(passports)/stash",
+    description:
+      "This stash passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/reinbach/stash",
+    download: "1",
+    star: "2",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "punwave",
+    href: "docs/hack(passports)/punwave",
+    description:
+      "This punwave passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/punwave/punwave",
+    download: "1",
+    star: "2",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oschina",
+    href: "docs/hack(passports)/oschina",
+    description:
+      "This oschina passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ilivebox/oschina",
+    download: "1",
+    star: "2",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nyu",
+    href: "docs/hack(passports)/nyu",
+    description:
+      "This nyu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nyuadsg/nyu",
+    download: "1",
+    star: "2",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tistory",
+    href: "docs/hack(passports)/tistory",
+    description:
+      "This tistory passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/saltfactory/tistory",
+    download: "1",
+    star: "2",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "acuity-oauth2",
+    href: "docs/hack(passports)/acuity-oauth2",
+    description:
+      "This acuity-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Nimblr/acuity-oauth2",
+    download: "1",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ibm-connections-basic",
+    href: "docs/hack(passports)/ibm-connections-basic",
+    description:
+      "This ibm-connections-basic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/benkroeger/ibm-connections-basic",
+    download: "1",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "akera",
+    href: "docs/hack(passports)/akera",
+    description:
+      "This akera passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/akera-io/akera",
+    download: "1",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "untappd",
+    href: "docs/hack(passports)/untappd",
+    description:
+      "This untappd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/shuhei/untappd",
+    download: "1",
+    star: "2",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "authing",
+    href: "docs/hack(passports)/authing",
+    description:
+      "This authing passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/willin/authing",
+    download: "1",
+    star: "1",
+    version: "0.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "brightspace-auth",
+    href: "docs/hack(passports)/brightspace-auth",
+    description:
+      "This brightspace-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Brightspace/brightspace-auth",
+    download: "1",
+    star: "1",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "authic",
+    href: "docs/hack(passports)/authic",
+    description:
+      "This authic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/authic/authic",
+    download: "1",
+    star: "1",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "andyet",
+    href: "docs/hack(passports)/andyet",
+    description:
+      "This andyet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/andyet/andyet",
+    download: "1",
+    star: "1",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "liondesk",
+    href: "docs/hack(passports)/liondesk",
+    description:
+      "This liondesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chrux/liondesk",
+    download: "1",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "edmodo-api",
+    href: "docs/hack(passports)/edmodo-api",
+    description:
+      "This edmodo-api passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Coggle/edmodo-api",
+    download: "1",
+    star: "1",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "digg",
+    href: "docs/hack(passports)/digg",
+    description:
+      "This digg passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/digg",
+    download: "1",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "azure-store",
+    href: "docs/hack(passports)/azure-store",
+    description:
+      "This azure-store passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/auth0/azure-store",
+    download: "1",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mentalvein",
+    href: "docs/hack(passports)/mentalvein",
+    description:
+      "This mentalvein passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mentalvein/passport",
+    download: "1",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dedicated-bluemix",
+    href: "docs/hack(passports)/dedicated-bluemix",
+    description:
+      "This dedicated-bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/colbycolby/dedicated-bluemix",
+    download: "1",
+    star: "1",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mojeid",
+    href: "docs/hack(passports)/mojeid",
+    description:
+      "This mojeid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xmikus01/mojeid",
+    download: "1",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ohloh",
+    href: "docs/hack(passports)/ohloh",
+    description:
+      "This ohloh passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/ohloh",
+    download: "1",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "picplz",
+    href: "docs/hack(passports)/picplz",
+    description:
+      "This picplz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/picplz",
+    download: "1",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "allplayers",
+    href: "docs/hack(passports)/allplayers",
+    description:
+      "This allplayers passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/allplayers/allplayers.git",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "playlyfe",
+    href: "docs/hack(passports)/playlyfe",
+    description:
+      "This playlyfe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/playlyfe/playlyfe",
+    download: "1",
+    star: "1",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "netflix",
+    href: "docs/hack(passports)/netflix",
+    description:
+      "This netflix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/netflix",
+    download: "1",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "1time",
+    href: "docs/hack(passports)/1time",
+    description:
+      "This 1time passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cornelltech/1Time",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "underarmour",
+    href: "docs/hack(passports)/underarmour",
+    description:
+      "This underarmour passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/JasonSanford/underarmour",
+    download: "1",
+    star: "1",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "topcoder",
+    href: "docs/hack(passports)/topcoder",
+    description:
+      "This topcoder passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/appirio-tech/topcoder",
+    download: "1",
+    star: "1",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "voice-it",
+    href: "docs/hack(passports)/voice-it",
+    description:
+      "This voice-it passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/iszak/voice-it",
+    download: "1",
+    star: "1",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sense",
+    href: "docs/hack(passports)/sense",
+    description:
+      "This sense passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mrquincle/sense",
+    download: "1",
+    star: "1",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "att-alpha",
+    href: "docs/hack(passports)/att-alpha",
+    description:
+      "This att-alpha passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/att-innovate/att-alpha",
+    download: "1",
+    star: "0",
+    version: "0.1.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "proz",
+    href: "docs/hack(passports)/proz",
+    description:
+      "This proz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/codervince/proz",
+    download: "1",
+    star: "1",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "webauthn",
+    href: "docs/hack(passports)/webauthn",
+    description:
+      "This webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/webauthn-open-source/webauthn",
+    download: "1",
+    star: "1",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "accountkit",
+    href: "docs/hack(passports)/accountkit",
+    description:
+      "This accountkit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/BrettThePark/accountkit",
+    download: "1",
+    star: "0",
+    version: "2.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "heroku-passport",
+    href: "docs/hack(passports)/heroku-passport",
+    description:
+      "This heroku-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jeffandersen/heroku-passport.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "slice",
+    href: "docs/hack(passports)/slice",
+    description:
+      "This slice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/rustinpc/slice",
+    download: "1",
+    star: "1",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "xmpp",
+    href: "docs/hack(passports)/xmpp",
+    description:
+      "This xmpp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/surevine/xmpp",
+    download: "1",
+    star: "1",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "atlassian-crowd",
+    href: "docs/hack(passports)/atlassian-crowd",
+    description:
+      "This atlassian-crowd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo:
+      "git+https://bitbucket.org/knecht_andreas/atlassian-crowd.git",
+    download: "1",
+    star: "0",
+    version: "0.0.8",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "avalon",
+    href: "docs/hack(passports)/avalon",
+    description:
+      "This avalon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/abembecker/avalon",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "addressix-oauth2",
+    href: "docs/hack(passports)/addressix-oauth2",
+    description:
+      "This addressix-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/addressix/addressix-oauth2",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "amigame",
+    href: "docs/hack(passports)/amigame",
+    description:
+      "This amigame passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/amigame-api/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bamboohr",
+    href: "docs/hack(passports)/bamboohr",
+    description:
+      "This bamboohr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/thinkerous/bamboohr",
+    download: "1",
+    star: "0",
+    version: "0.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "beatport",
+    href: "docs/hack(passports)/beatport",
+    description:
+      "This beatport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/fastman/beatport",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "concur",
+    href: "docs/hack(passports)/concur",
+    description:
+      "This concur passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/concur/concur.git",
+    download: "1",
+    star: "0",
+    version: "0.2.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "animexx",
+    href: "docs/hack(passports)/animexx",
+    description:
+      "This animexx passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/SargoDarya/animexx",
+    download: "1",
+    star: "0",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "cloudvisio",
+    href: "docs/hack(passports)/cloudvisio",
+    description:
+      "This cloudvisio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/cloudvisio/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "bitauth",
+    href: "docs/hack(passports)/bitauth",
+    description:
+      "This bitauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/bitpay/bitauth.git",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "coding-oauth",
+    href: "docs/hack(passports)/coding-oauth",
+    description:
+      "This coding-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chrisyer/coding-oauth",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "chiiv",
+    href: "docs/hack(passports)/chiiv",
+    description:
+      "This chiiv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chiiv/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "comicsgl",
+    href: "docs/hack(passports)/comicsgl",
+    description:
+      "This comicsgl passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/comicsgl/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "deskcom",
+    href: "docs/hack(passports)/deskcom",
+    description:
+      "This deskcom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Mistat/deskcom",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dice",
+    href: "docs/hack(passports)/dice",
+    description:
+      "This dice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/esabelhaus/dice",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "douban",
+    href: "docs/hack(passports)/douban",
+    description:
+      "This douban passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ktmud/douban",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "estimote-cloud",
+    href: "docs/hack(passports)/estimote-cloud",
+    description:
+      "This estimote-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/estimote-cloud",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "costlocker",
+    href: "docs/hack(passports)/costlocker",
+    description:
+      "This costlocker passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/karelskopek/costlocker",
+    download: "1",
+    star: "0",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "encored-enertalk",
+    href: "docs/hack(passports)/encored-enertalk",
+    description:
+      "This encored-enertalk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mooyoul/encored-enertalk",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eipsk-strategy",
+    href: "docs/hack(passports)/eipsk-strategy",
+    description:
+      "This eipsk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dvpnt/eipsk-strategy",
+    download: "1",
+    star: "0",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hackerverse",
+    href: "docs/hack(passports)/hackerverse",
+    description:
+      "This hackerverse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "http://github.com/hackverse/hackerverse.git",
+    download: "1",
+    star: "0",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "distimo",
+    href: "docs/hack(passports)/distimo",
+    description:
+      "This distimo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/tsabolov/distimo.git",
+    download: "1",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "meituan",
+    href: "docs/hack(passports)/meituan",
+    description:
+      "This meituan passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "nationbuilder",
+    href: "docs/hack(passports)/nationbuilder",
+    description:
+      "This nationbuilder passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/msyea/nationbuilder",
+    download: "2",
+    star: "0",
+    version: "1.0.6",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "scarecrow",
+    href: "docs/hack(passports)/scarecrow",
+    description:
+      "This scarecrow passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/abstractj/scarecrow.git",
+    download: "2",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "singly",
+    href: "docs/hack(passports)/singly",
+    description:
+      "This singly passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/Singly/singly.git",
+    download: "2",
+    star: "0",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "lims",
+    href: "docs/hack(passports)/lims",
+    description:
+      "This lims passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/taoyuan/lims",
+    download: "2",
+    star: "0",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "payco",
+    href: "docs/hack(passports)/payco",
+    description:
+      "This payco passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/egg-/payco",
+    download: "2",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "redgate",
+    href: "docs/hack(passports)/redgate",
+    description:
+      "This redgate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ForbesLindesay/redgate",
+    download: "2",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tibbr",
+    href: "docs/hack(passports)/tibbr",
+    description:
+      "This tibbr passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/aldricHck/tibbr.git",
+    download: "2",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "thinkful",
+    href: "docs/hack(passports)/thinkful",
+    description:
+      "This thinkful passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Thinkful/thinkful",
+    download: "2",
+    star: "0",
+    version: "0.0.0-beta.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "planningcenter-oauth2",
+    href: "docs/hack(passports)/planningcenter-oauth2",
+    description:
+      "This planningcenter-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/glena/planningcenter-oauth2",
+    download: "2",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "versionone",
+    href: "docs/hack(passports)/versionone",
+    description:
+      "This versionone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/versionone/versionone.git",
+    download: "2",
+    star: "0",
+    version: "0.1.7",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "hmac-aws4",
+    href: "docs/hack(passports)/hmac-aws4",
+    description:
+      "This hmac-aws4 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/npm/security-holder",
+    download: "1",
+    star: "142",
+    version: "0.0.1-security",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wargaming",
+    href: "docs/hack(passports)/wargaming",
+    description:
+      "This wargaming passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "tqq",
+    href: "docs/hack(passports)/tqq",
+    description:
+      "This tqq passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/heroicyang/tqq",
+    download: "1",
+    star: "27",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pixiv",
+    href: "docs/hack(passports)/pixiv",
+    description:
+      "This pixiv passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/pixiv/pixiv",
+    download: "1",
+    star: "14",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "zero",
+    href: "docs/hack(passports)/zero",
+    description:
+      "This zero passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/nickbalestra/zero",
+    download: "1",
+    star: "33",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "withings",
+    href: "docs/hack(passports)/withings",
+    description:
+      "This withings passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mko/withings",
+    download: "1",
+    star: "9",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "500px",
+    href: "docs/hack(passports)/500px",
+    description:
+      "This 500px passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jeremybenaim/500px",
+    download: "1",
+    star: "25",
+    version: "0.2.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "applywithlinkedin",
+    href: "docs/hack(passports)/applywithlinkedin",
+    description:
+      "This applywithlinkedin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/linkedin",
+    download: "1",
+    star: "141",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "evernote",
+    href: "docs/hack(passports)/evernote",
+    description:
+      "This evernote passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/evernote",
+    download: "1",
+    star: "15",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "venmo",
+    href: "docs/hack(passports)/venmo",
+    description:
+      "This venmo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jihokoo/venmo",
+    download: "1",
+    star: "13",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dapp-web3",
+    href: "docs/hack(passports)/dapp-web3",
+    description:
+      "This dapp-web3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/psychobunny/dapp-web3",
+    download: "1",
+    star: "9",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tmobileid",
+    href: "docs/hack(passports)/tmobileid",
+    description:
+      "This tmobileid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tmobile/tmobileid",
+    download: "1",
+    star: "11",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dwolla",
+    href: "docs/hack(passports)/dwolla",
+    description:
+      "This dwolla passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/dwolla",
+    download: "1",
+    star: "9",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "weixin-plus",
+    href: "docs/hack(passports)/weixin-plus",
+    description:
+      "This weixin-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/lutaoact/weixin-plus",
+    download: "1",
+    star: "13",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "parse",
+    href: "docs/hack(passports)/parse",
+    description:
+      "This parse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/malikov/parse",
+    download: "1",
+    star: "11",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sqrl",
+    href: "docs/hack(passports)/sqrl",
+    description:
+      "This sqrl passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/erikmav/sqrl",
+    download: "1",
+    star: "9",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "angellist",
+    href: "docs/hack(passports)/angellist",
+    description:
+      "This angellist passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/angellist",
+    download: "1",
+    star: "8",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "browserid",
+    href: "docs/hack(passports)/browserid",
+    description:
+      "This browserid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/browserid",
+    download: "1",
+    star: "53",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "dowjones",
+    href: "docs/hack(passports)/dowjones",
+    description:
+      "This dowjones passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dowjones/dowjones",
+    download: "1",
+    star: "0",
+    version: "0.2.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "earthmaps",
+    href: "docs/hack(passports)/earthmaps",
+    description:
+      "This earthmaps passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/earthmaps/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eloqua",
+    href: "docs/hack(passports)/eloqua",
+    description:
+      "This eloqua passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/watsoncj/eloqua",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "gocollab",
+    href: "docs/hack(passports)/gocollab",
+    description:
+      "This gocollab passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/gocollab/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "globelabs",
+    href: "docs/hack(passports)/globelabs",
+    description:
+      "This globelabs passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/globelabs/globelabs",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "flic",
+    href: "docs/hack(passports)/flic",
+    description:
+      "This flic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/flic",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "frontwinner",
+    href: "docs/hack(passports)/frontwinner",
+    description:
+      "This frontwinner passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/leizongmin/frontwinner.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "http-encrypted-token",
+    href: "docs/hack(passports)/http-encrypted-token",
+    description:
+      "This http-encrypted-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dowjones/http-encrypted-token",
+    download: "1",
+    star: "0",
+    version: "1.2.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "infotjenester",
+    href: "docs/hack(passports)/infotjenester",
+    description:
+      "This infotjenester passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/itasdesk/infotjenester",
+    download: "1",
+    star: "0",
+    version: "1.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "humanapi",
+    href: "docs/hack(passports)/humanapi",
+    description:
+      "This humanapi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/humanapi/humanapi",
+    download: "1",
+    star: "8",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "makerpass",
+    href: "docs/hack(passports)/makerpass",
+    description:
+      "This makerpass passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git+ssh://git@github.com/makerpass/makerpass.git",
+    download: "1",
+    star: "0",
+    version: "2.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ktt",
+    href: "docs/hack(passports)/ktt",
+    description:
+      "This ktt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ktt-ol/ktt",
+    download: "1",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "rdio",
+    href: "docs/hack(passports)/rdio",
+    description:
+      "This rdio passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/rdio",
+    download: "1",
+    star: "6",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "readability",
+    href: "docs/hack(passports)/readability",
+    description:
+      "This readability passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/readability",
+    download: "1",
+    star: "4",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wechat-work",
+    href: "docs/hack(passports)/wechat-work",
+    description:
+      "This wechat-work passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/harryhan1989/wechat-work",
+    download: "1",
+    star: "8",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "statusnet",
+    href: "docs/hack(passports)/statusnet",
+    description:
+      "This statusnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/zoowar/statusnet",
+    download: "1",
+    star: "4",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tripit",
+    href: "docs/hack(passports)/tripit",
+    description:
+      "This tripit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/tripit",
+    download: "1",
+    star: "4",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "geoloqi",
+    href: "docs/hack(passports)/geoloqi",
+    description:
+      "This geoloqi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/geoloqi",
+    download: "1",
+    star: "4",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "drchrono",
+    href: "docs/hack(passports)/drchrono",
+    description:
+      "This drchrono passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Nimblr/drchrono",
+    download: "1",
+    star: "5",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tixte-passport",
+    href: "docs/hack(passports)/tixte-passport",
+    description:
+      "This tixte-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tixte/tixte-passport",
+    download: "1",
+    star: "4",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "renren",
+    href: "docs/hack(passports)/renren",
+    description:
+      "This renren passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xinbenlv/renren",
+    download: "1",
+    star: "5",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "appdotnet",
+    href: "docs/hack(passports)/appdotnet",
+    description:
+      "This appdotnet passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mko/appdotnet",
+    download: "1",
+    star: "3",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "suzuri",
+    href: "docs/hack(passports)/suzuri",
+    description:
+      "This suzuri passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/kitak/suzuri",
+    download: "1",
+    star: "4",
+    version: "1.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "eyeem",
+    href: "docs/hack(passports)/eyeem",
+    description:
+      "This eyeem passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/elmariachi111/eyeem",
+    download: "1",
+    star: "3",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nus-openid",
+    href: "docs/hack(passports)/nus-openid",
+    description:
+      "This nus-openid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/lauweijie/nus-openid",
+    download: "1",
+    star: "3",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pop3",
+    href: "docs/hack(passports)/pop3",
+    description:
+      "This pop3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/chunkai1312/pop3",
+    download: "1",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "smugmug",
+    href: "docs/hack(passports)/smugmug",
+    description:
+      "This smugmug passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/smugmug",
+    download: "1",
+    star: "4",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "myusa",
+    href: "docs/hack(passports)/myusa",
+    description:
+      "This myusa passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Innovation-Toolkit/myusa",
+    download: "1",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ifmosso",
+    href: "docs/hack(passports)/ifmosso",
+    description:
+      "This ifmosso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/meefik/ifmosso",
+    download: "1",
+    star: "3",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fellowshipone",
+    href: "docs/hack(passports)/fellowshipone",
+    description:
+      "This fellowshipone passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/hairyhenderson/fellowshipone",
+    download: "1",
+    star: "3",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "replicated",
+    href: "docs/hack(passports)/replicated",
+    description:
+      "This replicated passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ekristen/replicated",
+    download: "1",
+    star: "3",
+    version: "1.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "behance",
+    href: "docs/hack(passports)/behance",
+    description:
+      "This behance passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/metacommunications/behance",
+    download: "1",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "tozny-auth",
+    href: "docs/hack(passports)/tozny-auth",
+    description:
+      "This tozny-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/tozny/sdk-node",
+    download: "1",
+    star: "3",
+    version: "1.3.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "taobao2",
+    href: "docs/hack(passports)/taobao2",
+    description:
+      "This taobao2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/richarddzh/taobao",
+    download: "1",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "fido2-nojwk",
+    href: "docs/hack(passports)/fido2-nojwk",
+    description:
+      "This fido2-nojwk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "me2day",
+    href: "docs/hack(passports)/me2day",
+    description:
+      "This me2day passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/outsideris/me2day",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mediawiki-oauth",
+    href: "docs/hack(passports)/mediawiki-oauth",
+    description:
+      "This mediawiki-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "onscribe",
+    href: "docs/hack(passports)/onscribe",
+    description:
+      "This onscribe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/onscribe/passport",
+    download: "1",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mapmyfitness",
+    href: "docs/hack(passports)/mapmyfitness",
+    description:
+      "This mapmyfitness passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/patbonecrusher/mapmyfitness",
+    download: "1",
+    star: "0",
+    version: "1.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nate",
+    href: "docs/hack(passports)/nate",
+    description:
+      "This nate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/pukapukan/nate",
+    download: "1",
+    star: "0",
+    version: "0.1.9",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mixi",
+    href: "docs/hack(passports)/mixi",
+    description:
+      "This mixi passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://fumito_ito@bitbucket.org/fumito_ito/mixi.git",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "odesk",
+    href: "docs/hack(passports)/odesk",
+    description:
+      "This odesk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/dglittle/odesk",
+    download: "1",
+    star: "0",
+    version: "0.0.10",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "medoauth",
+    href: "docs/hack(passports)/medoauth",
+    description:
+      "This medoauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/guruward/medoauth",
+    download: "1",
+    star: "0",
+    version: "0.0.9",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oneuser",
+    href: "docs/hack(passports)/oneuser",
+    description:
+      "This oneuser passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/i-tengfei/oneuser",
+    download: "1",
+    star: "0",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "mercadolibre-2",
+    href: "docs/hack(passports)/mercadolibre-2",
+    description:
+      "This mercadolibre-2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/andreskir/mercadolibre",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "passprint",
+    href: "docs/hack(passports)/passprint",
+    description:
+      "This passprint passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DFTinc/passprint",
+    download: "1",
+    star: "0",
+    version: "0.1.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "open-humans",
+    href: "docs/hack(passports)/open-humans",
+    description:
+      "This open-humans passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/OpenHumans/open-humans",
+    download: "1",
+    star: "0",
+    version: "5.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oneprofile",
+    href: "docs/hack(passports)/oneprofile",
+    description:
+      "This oneprofile passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/StubHubLabs/node-oneprofile.git",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "polkaspots",
+    href: "docs/hack(passports)/polkaspots",
+    description:
+      "This polkaspots passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/PolkaSpots/polkaspots",
+    download: "1",
+    star: "0",
+    version: "1.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "teamsnap",
+    href: "docs/hack(passports)/teamsnap",
+    description:
+      "This teamsnap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/7elephants/teamsnap",
+    download: "1",
+    star: "0",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "nuclearhub",
+    href: "docs/hack(passports)/nuclearhub",
+    description:
+      "This nuclearhub passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/elisee/nuclearhub",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ppige-npdc",
+    href: "docs/hack(passports)/ppige-npdc",
+    description:
+      "This ppige-npdc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/isogeo/ppige-npdc.git",
+    download: "1",
+    star: "0",
+    version: "0.2.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "renren-new",
+    href: "docs/hack(passports)/renren-new",
+    description:
+      "This renren-new passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/xr/renren-new",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "oz",
+    href: "docs/hack(passports)/oz",
+    description:
+      "This oz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/oz/oz",
+    download: "1",
+    star: "0",
+    version: "0.3.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ultraauth",
+    href: "docs/hack(passports)/ultraauth",
+    description:
+      "This ultraauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/ultraauth/ultraauth.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "cloudup",
+    href: "docs/hack(passports)/cloudup",
+    description:
+      "This cloudup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/stephenlacy/cloudup",
+    download: "0",
+    star: "1",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "headerapikey",
+    href: "docs/hack(passports)/headerapikey",
+    description:
+      "This headerapikey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/hydra-newmedia/headerapikey.git",
+    download: "0",
+    star: "0",
+    version: "1.0.3",
+    updated: "2 years ago",
+    items: [],
+  },
+  {
+    title: "webmaker",
+    href: "docs/hack(passports)/webmaker",
+    description:
+      "This webmaker passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/mozilla/webmaker",
+    download: "0",
+    star: "1",
+    version: "1.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "monzo",
+    href: "docs/hack(passports)/monzo",
+    description:
+      "This monzo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "infusionsoft",
+    href: "docs/hack(passports)/infusionsoft",
+    description:
+      "This infusionsoft passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "windowslive-contacts",
+    href: "docs/hack(passports)/windowslive-contacts",
+    description:
+      "This windowslive-contacts passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "gitbook",
+    href: "docs/hack(passports)/gitbook",
+    description:
+      "This gitbook passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/GitbookIO/gitbook.git",
+    download: "0",
+    star: "0",
+    version: "1.0.0",
+    updated: "4 months ago",
+    items: [],
+  },
+  {
+    title: "phantauth",
+    href: "docs/hack(passports)/phantauth",
+    description:
+      "This phantauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/phantauth/phantauth",
+    download: "0",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "redbooth",
+    href: "docs/hack(passports)/redbooth",
+    description:
+      "This redbooth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/redbooth",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "pocket2",
+    href: "docs/hack(passports)/pocket2",
+    description:
+      "This pocket2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/techfeed/pocket2",
+    download: "0",
+    star: "0",
+    version: "0.3.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "restogram-oauth2",
+    href: "docs/hack(passports)/restogram-oauth2",
+    description:
+      "This restogram-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "product-hunt",
+    href: "docs/hack(passports)/product-hunt",
+    description:
+      "This product-hunt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/allotropyio/product-hunt.git",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "sbhs",
+    href: "docs/hack(passports)/sbhs",
+    description:
+      "This sbhs passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Inexistante/sbhs.git",
+    download: "1",
+    star: "0",
+    version: "0.0.5",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "socius",
+    href: "docs/hack(passports)/socius",
+    description:
+      "This socius passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://bitbucket.org/sociuslive/socius.git",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "slidefuse",
+    href: "docs/hack(passports)/slidefuse",
+    description:
+      "This slidefuse passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/jaredhanson/passport",
+    download: "0",
+    star: "0",
+    version: "0.0.1",
+    updated: "yesterday",
+    items: [],
+  },
+  {
+    title: "txssc",
+    href: "docs/hack(passports)/txssc",
+    description:
+      "This txssc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "http://github.com/txssc/txssc.git",
+    download: "1",
+    star: "0",
+    version: "0.1.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "taobao",
+    href: "docs/hack(passports)/taobao",
+    description:
+      "This taobao passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/coderpp/taobao.git",
+    download: "1",
+    star: "0",
+    version: "0.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "rescour",
+    href: "docs/hack(passports)/rescour",
+    description:
+      "This rescour passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/REscour/rescour",
+    download: "1",
+    star: "0",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "torchlite",
+    href: "docs/hack(passports)/torchlite",
+    description:
+      "This torchlite passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/torchlite/torchlite.git",
+    download: "1",
+    star: "0",
+    version: "1.0.4",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "unichar",
+    href: "docs/hack(passports)/unichar",
+    description:
+      "This unichar passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/unichar/passport",
+    download: "1",
+    star: "0",
+    version: "0.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ubersmith",
+    href: "docs/hack(passports)/ubersmith",
+    description:
+      "This ubersmith passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/johann8384/ubersmith",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "uber",
+    href: "docs/hack(passports)/uber",
+    description:
+      "This uber passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/allotropyio/uber.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "uservoice",
+    href: "docs/hack(passports)/uservoice",
+    description:
+      "This uservoice passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/octoblu/uservoice",
+    download: "1",
+    star: "0",
+    version: "1.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "urlship",
+    href: "docs/hack(passports)/urlship",
+    description:
+      "This urlship passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/urlship/urlship.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "vivokey",
+    href: "docs/hack(passports)/vivokey",
+    description:
+      "This vivokey passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/thunderblaster/vivokey",
+    download: "1",
+    star: "0",
+    version: "0.0.2",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "ucoz",
+    href: "docs/hack(passports)/ucoz",
+    description:
+      "This ucoz passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/l0gd0g/ucoz",
+    download: "1",
+    star: "0",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wanliu",
+    href: "docs/hack(passports)/wanliu",
+    description:
+      "This wanliu passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/hysios/wanliu",
+    download: "1",
+    star: "0",
+    version: "0.0.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wevision",
+    href: "docs/hack(passports)/wevision",
+    description:
+      "This wevision passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://bitbucket.org/themobilefirm/wevision.git",
+    download: "1",
+    star: "0",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "zengine",
+    href: "docs/hack(passports)/zengine",
+    description:
+      "This zengine passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/ZengineHQ/zengine",
+    download: "1",
+    star: "0",
+    version: "0.1.3",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "wechat-auth",
+    href: "docs/hack(passports)/wechat-auth",
+    description:
+      "This wechat-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git://github.com/danywheeler/wechat-auth.git",
+    download: "1",
+    star: "0",
+    version: "0.0.1",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "atlassian-connect",
+    href: "docs/hack(passports)/atlassian-connect",
+    description:
+      "This atlassian-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/DanielHreben/atlassian-connect",
+    download: "0",
+    star: "3",
+    version: "1.0.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "npm",
+    href: "docs/hack(passports)/npm",
+    description:
+      "This npm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/godaddy/npm",
+    download: "0",
+    star: "2",
+    version: "2.0.0",
+    updated: "9 months ago",
+    items: [],
+  },
+  {
+    title: "faceit",
+    href: "docs/hack(passports)/faceit",
+    description:
+      "This faceit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "https://github.com/Technoblazed/faceit",
+    download: "0",
+    star: "6",
+    version: "1.1.0",
+    updated: "a year ago",
+    items: [],
+  },
+  {
+    title: "w3auth",
+    href: "docs/hack(passports)/w3auth",
+    description:
+      "This w3auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!",
+    website_url: "https://www.passportjs.org/",
+    github_repo: "git@github.rtp.raleigh.ibm.com:kmdeland-us/w3auth.git",
+    download: "1",
+    star: "0",
+    version: "0.0.8",
+    updated: "a year ago",
+    items: [],
+  },
+]
+const mergedArray = passport.map((item) => {
+  const logoItem = old_passport_statergies.find(
+    (firstItem) => firstItem.title === item.title
+  )
+  const { title, href, ...rest } = item
+  return { title, href, logo: logoItem?.logo, ...rest }
+})
+console.dir(mergedArray, { maxArrayLength: null })
+console.log(cosmos_dapps_details.length)
