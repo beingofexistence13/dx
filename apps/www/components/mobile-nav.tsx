@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { ViewVerticalIcon } from "@radix-ui/react-icons"
@@ -19,6 +20,12 @@ import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "./ui"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MobileNav() {
@@ -58,6 +65,28 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="pr-0">
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It comes with default styles that matches the other
+              components&apos; aesthetic.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It's animated by default, but you can disable it if you
+              prefer.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
         <MobileLink
           href="/"
           className="flex items-center"
@@ -173,7 +202,7 @@ export function MobileNav() {
                           >
                             <HoverCard>
                               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                                <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
+                                {/* <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
                                   <AvatarImage
                                     src={
                                       item.logo
@@ -184,7 +213,34 @@ export function MobileNav() {
                                   <AvatarFallback>
                                     {item.title ? logoLetter(item.title) : "Dx"}
                                   </AvatarFallback>
-                                </Avatar>
+                                </Avatar> */}
+                                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                                  {item.logo ? (
+                                    <Image
+                                      src={`/docs/${item.title
+                                        .replace(/\s/g, "")
+                                        .toLowerCase()}.png`}
+                                      height={25}
+                                      width={25}
+                                      sizes="(max-width: 30px) 100vw"
+                                      quality={100}
+                                      style={{ objectFit: "contain" }}
+                                      loading="lazy"
+                                      alt={
+                                        item.title
+                                          ? logoLetter(item.title)
+                                          : "Dx"
+                                      }
+                                    />
+                                  ) : (
+                                    <div className="item-logo-fallback">
+                                      {item.title
+                                        ? logoLetter(item.title)
+                                        : "Dx"}
+                                    </div>
+                                  )}
+                                </div>
+
                                 {item.title}
                               </HoverCardTrigger>
                               <HoverCardContent>
