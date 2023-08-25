@@ -213,12 +213,12 @@ export function DocsSidebarNavItems({
                 </Avatar> */}
                 {item.title}
               </HoverCardTrigger>
-              <HoverCardContent className="p-8 w-auto h-auto">
+              <HoverCardContent className="p-8 w-[400px] h-auto">
                 <div className="details flex item-center w-full flex-col space-y-3 ">
                   <div className="details_description flex items-center justify-center mb-1">
                     {item.description}
                   </div>
-                  <div className="details_actions flex items-center justify-center flex-row w-full ">
+                  <div className="details_actions flex items-center justify-between flex-row w-full ">
                     {item.website_url ? (
                       <Link
                         key={index}
