@@ -48658,7 +48658,7 @@ sidebarNav.forEach((navItem) => {
       console.log(`${item.title} logo is already downloadeded!!!`)
     } else {
       // console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
-      const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}.jpg`
+      const filePath = `${item.title.replace(/\s/g, "-").toLowerCase()}.jpg`
       const search = `${item.title.replace(/\s/g, "").toLowerCase()}`
 
       axios
