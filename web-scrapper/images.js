@@ -17,7 +17,7 @@ const download = (url, filePath, callback) => {
 }
 
 const url = 'https://images.unsplash.com/photo-1606787947360-4181fe0ab58c';
-const filePath = '/path/to/save/image.jpg';
+const filePath = 'image.jpg';
 
 download(url, filePath, () => {
   console.log('Image downloaded!');
