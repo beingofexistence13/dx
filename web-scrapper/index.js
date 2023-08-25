@@ -1,21 +1,19 @@
 import fs from 'fs';
-import https from 'https';
+import { get } from 'https';
 
-function downloadImage(url, filepath) {
-  return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      if (res.statusCode === 200) {
-        res.pipe(fs.createWriteStream(filepath))
-          .on('error', reject)
-          .once('close', () => resolve(filepath));
-      } else {
-        res.resume();
-        reject(new Error(`Request Failed With a Status Code: ${res.statusCode}`));
-      }
+const download = (url, path, callback) => {
+  get(url, (res) => {
+    const fileStream = fs.createWriteStream(path);
+    res.pipe(fileStream);
+    fileStream.on('finish', () => {
+      fileStream.close(callback);
     });
   });
 }
 
-downloadImage('https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Lenna_%28test_image%29.png/440px-Lenna_%28test_image%29.png', 'lena.png')
-  .then(console.log)
-  .catch(console.error);
+const url = 'https://images.unsplash.com/photo-1606787947360-4181fe0ab58c';
+const path = '/path/to/save/image.jpg';
+
+download(url, path, () => {
+  console.log('Image downloaded!');
+});
