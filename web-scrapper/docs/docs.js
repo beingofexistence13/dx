@@ -5024,7 +5024,7 @@ const sidebarNav = [
         title: "Nufinetes",
         href: "docs/hack(evm-wallets)/nufinetes",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bb6c1ca-4196-4ba3-ece2-c3d335e1f800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Nufinetes - Multi-Chain Crypto Wallet",
+        description: "Multi-Chain Crypto Wallet",
         website_url: "https://www.nufinetes.com/",
         github_repo: "https://github.com/nufinetes",
         appStore: "https://apps.apple.com/us/app/nufinetes/id1609562349",
@@ -5113,7 +5113,7 @@ const sidebarNav = [
         href: "docs/hack(evm-wallets)/bitski",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/94d94cb5-a94f-47cf-70e6-fe8d3f1c3700?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "The wallet for everyone - The convenience of a hot wallet; The security of a cold wallet.",
+          "The wallet for The convenience of a hot wallet; The security of a cold wallet.",
         website_url: "https://bitski.com/",
         github_repo: "https://github.com/bitski",
         appStore: "https://apps.apple.com/us/app/bitski-wallet/id1587199538",
@@ -5322,7 +5322,7 @@ const sidebarNav = [
         href: "docs/hack(evm-wallets)/konio",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/028c7760-a1af-43ea-7ac7-8b811712b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Native Koinos Wallet - The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
+          "Native Koinos The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
         website_url: "https://konio.io/",
         github_repo: "https://github.com/konio",
         appStore: "https://apps.apple.com/app/konio/id6453561342",
@@ -15024,7 +15024,7 @@ const sidebarNav = [
         title: "Proof of Visit",
         href: "docs/hack(evm-dapps)/proofofvisit",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c763ef2f-fb24-4249-09f1-b45920825c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Proof of X - Blockchain as a New Medium for Art",
+        description: "Proof of Blockchain as a New Medium for Art",
         website_url: "https://pox.exhibit.website/",
         github_repo: "https://github.com/proofofvisit",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -15049,11 +15049,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Signals - Crypto",
+        title: "Crypto",
         href: "docs/hack(evm-dapps)/signals-crypto",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e43d6517-5946-4dae-f0ba-5c77500cbe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Signals - Crypto Try Catch Error",
-        website_url: "https://Signals - Crypto.com",
+        description: "Crypto Try Catch Error",
+        website_url: "https://Crypto.com",
         github_repo: "https://github.com/signals-crypto",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -15148,11 +15148,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Embraced - Pandora",
+        title: "Pandora",
         href: "docs/hack(evm-dapps)/embraced-pandora",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f848ab21-d263-47bf-e842-505a662cc000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Embraced - Pandora Try Catch Error",
-        website_url: "https://Embraced - Pandora.com",
+        description: "Pandora Try Catch Error",
+        website_url: "https://Pandora.com",
         github_repo: "https://github.com/embraced-pandora",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -15205,11 +15205,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Snap-shack - Cyberbrokers",
+        title: "Cyberbrokers",
         href: "docs/hack(evm-dapps)/snap-shack-cyberbrokers",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bfc1b1e1-5fcb-4f9e-5809-e87402f35900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Snap-shack - Cyberbrokers Try Catch Error",
-        website_url: "https://Snap-shack - Cyberbrokers.com",
+        description: "Cyberbrokers Try Catch Error",
+        website_url: "https://Cyberbrokers.com",
         github_repo: "https://github.com/snap-shack-cyberbrokers",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -15406,11 +15406,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "DEEPSPACE - Outpost",
+        title: "Outpost",
         href: "docs/hack(evm-dapps)/deepspace-outpost",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/54d6935e-f65f-4637-d763-88b3c5c4d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "DEEPSPACE - Outpost Try Catch Error",
-        website_url: "https://DEEPSPACE - Outpost.com",
+        description: "Outpost Try Catch Error",
+        website_url: "https://Outpost.com",
         github_repo: "https://github.com/deepspace-outpost",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -15929,7 +15929,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/hyperxfund",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/946144b6-93c3-4564-01de-1d19b0cdde00?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Decentralized Venture Fund - Powered by $HPX deflationary token",
+          "Decentralized Venture Powered by $HPX deflationary token",
         website_url: "https://hyperx100.com/",
         github_repo: "https://github.com/hyperxfund",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -16201,7 +16201,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/elastosnameservice",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/38cb3365-3491-4e63-b0be-411d01ccb600?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Elastos Name Service - Building Identity on blockchain with ELA domains",
+          "Elastos Name Building Identity on blockchain with ELA domains",
         website_url: "https://eladomains.xyz/",
         github_repo: "https://github.com/elastosnameservice",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -18064,7 +18064,7 @@ const sidebarNav = [
         title: "ESF Tools",
         href: "docs/hack(evm-dapps)/esftools",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4e0981d1-9fb6-4f43-5659-f7ff89c98f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "ESF Tools - The first Subdomain management platform.",
+        description: "ESF The first Subdomain management platform.",
         website_url: "https://esf.tools/",
         github_repo: "https://github.com/esftools",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -18117,11 +18117,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Sneakmart - Metakicks",
+        title: "Metakicks",
         href: "docs/hack(evm-dapps)/sneakmart-metakicks",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5108b088-4f48-4b54-27fc-154e76338100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Sneakmart - Metakicks Try Catch Error",
-        website_url: "https://Sneakmart - Metakicks.com",
+        description: "Metakicks Try Catch Error",
+        website_url: "https://Metakicks.com",
         github_repo: "https://github.com/sneakmart-metakicks",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -18343,11 +18343,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Apeiron - Marketplace",
+        title: "Marketplace",
         href: "docs/hack(evm-dapps)/apeiron-marketplace",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ec6e2c7a-6218-419f-33c5-7e38e5a8d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Apeiron - Marketplace Try Catch Error",
-        website_url: "https://Apeiron - Marketplace.com",
+        description: "Marketplace Try Catch Error",
+        website_url: "https://Marketplace.com",
         github_repo: "https://github.com/apeiron-marketplace",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -18357,11 +18357,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gangster All Star - Bounties",
+        title: "Gangster All Bounties",
         href: "docs/hack(evm-dapps)/gangsterallstar-bounties",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40501a49-11a2-43e3-6d9a-16f0e2224100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Gangster All Star - Bounties Try Catch Error",
-        website_url: "https://Gangster All Star - Bounties.com",
+        description: "Gangster All Bounties Try Catch Error",
+        website_url: "https://Gangster All Bounties.com",
         github_repo: "https://github.com/gangsterallstar-bounties",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -18597,11 +18597,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "KoinX - Production",
+        title: "Production",
         href: "docs/hack(evm-dapps)/koinx-production",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "KoinX - Production Try Catch Error",
-        website_url: "https://KoinX - Production.com",
+        description: "Production Try Catch Error",
+        website_url: "https://Production.com",
         github_repo: "https://github.com/koinx-production",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -19069,7 +19069,7 @@ const sidebarNav = [
         title: "OneLottery",
         href: "docs/hack(evm-dapps)/onelottery",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f186052-4a32-4b1d-725a-aac1a5bd3d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "OneLottery - A fair and just blockchain lottery.",
+        description: "A fair and just blockchain lottery.",
         website_url: "https://onelot.io/",
         github_repo: "https://github.com/onelottery",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19843,11 +19843,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "C2E - Click To Earn!",
+        title: "Click To Earn!",
         href: "docs/hack(evm-dapps)/c2e-clicktoearn!",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a691e55-cbcf-4049-0d48-0771ac796800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "C2E - Click To Earn! Try Catch Error",
-        website_url: "https://C2E - Click To Earn!.com",
+        description: "Click To Earn! Try Catch Error",
+        website_url: "https://Click To Earn!.com",
         github_repo: "https://github.com/c2e-clicktoearn!",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -20472,7 +20472,7 @@ const sidebarNav = [
         title: "Loop2Earn",
         href: "docs/hack(evm-dapps)/loop2earn",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e0305629-d6ad-4e3c-501f-8fe7b1afcd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "LOOP2 - The game of lifeGet more energy with less effort",
+        description: "The game of lifeGet more energy with less effort",
         website_url: "https://loop2earn.com/",
         github_repo: "https://github.com/loop2earn",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20689,7 +20689,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/metalink",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8581ffd5-7cd6-43ed-bb96-c12fb89ea300?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Metalink - The Best Place To Track And Talk NFTsTrack your NFT portfolio value and floor prices on the go",
+          "The Best Place To Track And Talk NFTsTrack your NFT portfolio value and floor prices on the go",
         website_url: "https://metalink.com/",
         github_repo: "https://github.com/metalink",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20950,7 +20950,7 @@ const sidebarNav = [
         title: "DopamineApp",
         href: "docs/hack(evm-dapps)/dopamineapp",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Finance - Media - Entertainment for Crypto.",
+        description: "Entertainment for Crypto.",
         website_url: "https://dopamineapp.com/",
         github_repo: "https://github.com/dopamineapp",
         appStore:
@@ -21983,7 +21983,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/birdievip",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d4780c39-86e3-4b63-4895-d874f87c5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "VIP pass claim for Birdie - consolidating legacy assets under 1 token",
+          "VIP pass claim for consolidating legacy assets under 1 token",
         website_url: "https://web3birdie.io/",
         github_repo: "https://github.com/birdievip",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21998,7 +21998,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/wizarre",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d8cb375c-884c-43d7-c5ef-f96cf5eff100?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Wizarre - summon new Wizards, trade and earn in a new staking map",
+          "summon new Wizards, trade and earn in a new staking map",
         website_url: "https://wizarre.io/",
         github_repo: "https://github.com/wizarre",
         appStore:
@@ -22088,7 +22088,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/degame",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "DeGame - No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+          "No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
         website_url: "https://degame.com/",
         github_repo: "https://github.com/degame",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22203,7 +22203,7 @@ const sidebarNav = [
         title: "Valha Widget",
         href: "docs/hack(evm-dapps)/valhawidget",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4692016a-597d-4a8d-7534-2ecc2b54cb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "DeFi Widget - Access DeFi in one place",
+        description: "DeFi Access DeFi in one place",
         website_url: "https://valha.xyz/",
         github_repo: "https://github.com/valhawidget",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22248,7 +22248,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/uxuyprotocol",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0db35545-440c-49ba-b772-dd13c2270400?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Introducing the UXUY protocol - the cutting-edge cross-chain liquidity aggregation protocol that takes your trading to the next level.",
+          "Introducing the UXUY the cutting-edge cross-chain liquidity aggregation protocol that takes your trading to the next level.",
         website_url: "https://uxuy.io/",
         github_repo: "https://github.com/uxuyprotocol",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22905,7 +22905,7 @@ const sidebarNav = [
         href: "docs/hack(evm-dapps)/xdcweb3domains",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37ed685b-5f7d-44bf-5e65-fdf422bac100?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "Building Identity on blockchain with .xdc domains - buy once use forever.",
+          "Building Identity on blockchain with .xdc buy once use forever.",
         website_url: "https://xdcdomains.xyz/",
         github_repo: "https://github.com/xdcweb3domains",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -23314,7 +23314,7 @@ const sidebarNav = [
         title: "REKTMODE",
         href: "docs/hack(evm-dapps)/rektmode",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6847439c-cce2-4595-617d-980eefafd300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "REKTMODE - Compete In Any Game And Win Rewards",
+        description: "Compete In Any Game And Win Rewards",
         website_url: "https://rektmode.gg/",
         github_repo: "https://github.com/rektmode",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -24736,11 +24736,11 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "KoinX - Production",
+        title: "Production",
         href: "docs/blockchains(solana-dapps)/koinx-production",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "KoinX - Production Try Catch Error",
-        website_url: "https://KoinX - Production.com",
+        description: "Production Try Catch Error",
+        website_url: "https://Production.com",
         github_repo: "https://github.com/koinx-production",
         appStore: "https://apps.apple.com/app/id1456732565/",
         playStore:
@@ -24784,7 +24784,7 @@ const sidebarNav = [
         href: "docs/blockchains(solana-dapps)/degame",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
         description:
-          "DeGame - No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+          "No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
         website_url: "https://degame.com/",
         github_repo: "https://github.com/degame",
         appStore: "https://apps.apple.com/app/id1456732565/",
@@ -24843,7 +24843,7 @@ const sidebarNav = [
         title: "DopamineApp",
         href: "docs/blockchains(solana-dapps)/dopamineapp",
         logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-        description: "Finance - Media - Entertainment for Crypto.",
+        description: "Entertainment for Crypto.",
         website_url: "https://dopamineapp.com/",
         github_repo: "https://github.com/dopamineapp",
         appStore:
@@ -25870,7 +25870,7 @@ const sidebarNav = [
     github_repo: "https://github.com/beingofexistence",
     items: [
       {
-        title: "Platforms - Node.js",
+        title: "Node.js",
         href: "docs/bucketlist/node.js",
         description:
           "Async Non-Blocking Event-Driven Javascript Runtime Built On Chrome'S V8 Javascript Engine.",
@@ -25880,7 +25880,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Cross-Platform",
+        title: "Cross-Platform",
         href: "docs/bucketlist/cross-platform",
         description: "Writing Cross-Platform Code On Node.Js.",
         website_url:
@@ -25889,7 +25889,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Frontend Development",
+        title: "Frontend Development",
         href: "docs/bucketlist/frontend-development",
         description: "No description available.",
         website_url:
@@ -25898,7 +25898,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - iOS",
+        title: "iOS",
         href: "docs/bucketlist/ios",
         description: "Mobile Operating System For Apple Phones And Tablets.",
         website_url:
@@ -25907,7 +25907,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Android",
+        title: "Android",
         href: "docs/bucketlist/android",
         description: "Mobile Operating System Developed By Google.",
         website_url:
@@ -25916,7 +25916,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - IoT & Hybrid Apps",
+        title: "IoT & Hybrid Apps",
         href: "docs/bucketlist/iot-&-hybrid-apps",
         description: "No description available.",
         website_url:
@@ -25925,7 +25925,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Electron",
+        title: "Electron",
         href: "docs/bucketlist/electron",
         description:
           "Cross-Platform Native Desktop Apps Using Javascript/Html/Css.",
@@ -25935,7 +25935,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Cordova",
+        title: "Cordova",
         href: "docs/bucketlist/cordova",
         description: "Javascript Api For Hybrid Apps.",
         website_url:
@@ -25944,7 +25944,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - React Native",
+        title: "React Native",
         href: "docs/bucketlist/react-native",
         description:
           "Javascript Framework For Writing Natively Rendering Mobile Apps For Ios And Android.",
@@ -25954,7 +25954,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Xamarin",
+        title: "Xamarin",
         href: "docs/bucketlist/xamarin",
         description: "Mobile App Development Ide, Testing, And Distribution.",
         website_url:
@@ -25963,7 +25963,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Linux",
+        title: "Linux",
         href: "docs/bucketlist/linux",
         description: "No description available.",
         website_url:
@@ -25972,7 +25972,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Containers",
+        title: "Containers",
         href: "docs/bucketlist/containers",
         description: "No description available.",
         website_url:
@@ -25981,7 +25981,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - eBPF",
+        title: "eBPF",
         href: "docs/bucketlist/ebpf",
         description:
           "Virtual Machine That Allows You To Write More Efficient And Powerful Tracing And Monitoring For Linux Systems.",
@@ -25991,7 +25991,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Arch-based Projects",
+        title: "Arch-based Projects",
         href: "docs/bucketlist/arch-based-projects",
         description: "Linux Distributions And Projects Based On Arch Linux.",
         website_url:
@@ -26000,7 +26000,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - macOS",
+        title: "macOS",
         href: "docs/bucketlist/macos",
         description: "Operating System For Apple'S Mac Computers.",
         website_url:
@@ -26009,7 +26009,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Command-Line",
+        title: "Command-Line",
         href: "docs/bucketlist/command-line",
         description: "No description available.",
         website_url:
@@ -26019,7 +26019,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Screensavers",
+        title: "Screensavers",
         href: "docs/bucketlist/screensavers",
         description: "No description available.",
         website_url:
@@ -26028,7 +26028,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Apps",
+        title: "Apps",
         href: "docs/bucketlist/apps",
         description: "No description available.",
         website_url:
@@ -26037,7 +26037,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Open Source Apps",
+        title: "Open Source Apps",
         href: "docs/bucketlist/open-source-apps",
         description: "No description available.",
         website_url:
@@ -26046,7 +26046,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - watchOS",
+        title: "watchOS",
         href: "docs/bucketlist/watchos",
         description: "Operating System For The Apple Watch.",
         website_url:
@@ -26055,7 +26055,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - JVM",
+        title: "JVM",
         href: "docs/bucketlist/jvm",
         description: "No description available.",
         website_url:
@@ -26064,7 +26064,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Salesforce",
+        title: "Salesforce",
         href: "docs/bucketlist/salesforce",
         description: "No description available.",
         website_url:
@@ -26073,7 +26073,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Amazon Web Services",
+        title: "Amazon Web Services",
         href: "docs/bucketlist/amazon-web-services",
         description: "No description available.",
         website_url:
@@ -26082,7 +26082,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Windows",
+        title: "Windows",
         href: "docs/bucketlist/windows",
         description: "No description available.",
         website_url:
@@ -26091,7 +26091,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - IPFS",
+        title: "IPFS",
         href: "docs/bucketlist/ipfs",
         description: "P2P Hypermedia Protocol.",
         website_url:
@@ -26100,7 +26100,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Fuse",
+        title: "Fuse",
         href: "docs/bucketlist/fuse",
         description: "Mobile Development Tools.",
         website_url:
@@ -26109,7 +26109,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Heroku",
+        title: "Heroku",
         href: "docs/bucketlist/heroku",
         description: "Cloud Platform As A Service.",
         website_url:
@@ -26118,7 +26118,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Raspberry Pi",
+        title: "Raspberry Pi",
         href: "docs/bucketlist/raspberry-pi",
         description:
           "Credit Card-Sized Computer Aimed At Teaching Kids Programming, But Capable Of A Lot More.",
@@ -26128,7 +26128,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Qt",
+        title: "Qt",
         href: "docs/bucketlist/qt",
         description: "Cross-Platform Gui App Framework.",
         website_url:
@@ -26137,7 +26137,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - WebExtensions",
+        title: "WebExtensions",
         href: "docs/bucketlist/webextensions",
         description: "Cross-Browser Extension System.",
         website_url:
@@ -26146,7 +26146,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - RubyMotion",
+        title: "RubyMotion",
         href: "docs/bucketlist/rubymotion",
         description:
           "Write Cross-Platform Native Apps For Ios, Android, Macos, Tvos, And Watchos In Ruby.",
@@ -26156,7 +26156,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Smart TV",
+        title: "Smart TV",
         href: "docs/bucketlist/smart-tv",
         description: "Create Apps For Different Tv Platforms.",
         website_url:
@@ -26165,7 +26165,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - GNOME",
+        title: "GNOME",
         href: "docs/bucketlist/gnome",
         description:
           "Simple And Distraction-Free Desktop Environment For Linux.",
@@ -26175,7 +26175,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - KDE",
+        title: "KDE",
         href: "docs/bucketlist/kde",
         description:
           "A Free Software Community Dedicated To Creating An Open And User-Friendly Computing Experience.",
@@ -26185,7 +26185,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - .NET",
+        title: ".NET",
         href: "docs/bucketlist/.net",
         description: "No description available.",
         website_url:
@@ -26194,7 +26194,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Core",
+        title: "Core",
         href: "docs/bucketlist/core",
         description: "No description available.",
         website_url:
@@ -26203,7 +26203,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Roslyn",
+        title: "Roslyn",
         href: "docs/bucketlist/roslyn",
         description:
           "Open-Source Compilers And Code Analysis Apis For C# And Vb.Net Languages.",
@@ -26213,7 +26213,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Amazon Alexa",
+        title: "Amazon Alexa",
         href: "docs/bucketlist/amazon-alexa",
         description: "Virtual Home Assistant.",
         website_url:
@@ -26222,7 +26222,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - DigitalOcean",
+        title: "DigitalOcean",
         href: "docs/bucketlist/digitalocean",
         description: "Cloud Computing Platform Designed For Developers.",
         website_url:
@@ -26231,7 +26231,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Flutter",
+        title: "Flutter",
         href: "docs/bucketlist/flutter",
         description:
           "Google'S Mobile Sdk For Building Native Ios And Android Apps From A Single Codebase Written In Dart.",
@@ -26241,7 +26241,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Home Assistant",
+        title: "Home Assistant",
         href: "docs/bucketlist/home-assistant",
         description:
           "Open Source Home Automation That Puts Local Control And Privacy First.",
@@ -26251,7 +26251,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - IBM Cloud",
+        title: "IBM Cloud",
         href: "docs/bucketlist/ibm-cloud",
         description: "Cloud Platform For Developers And Companies.",
         website_url:
@@ -26260,7 +26260,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Firebase",
+        title: "Firebase",
         href: "docs/bucketlist/firebase",
         description: "App Development Platform Built On Google Cloud Platform.",
         website_url:
@@ -26269,7 +26269,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Robot Operating System 2.0",
+        title: "Robot Operating System 2.0",
         href: "docs/bucketlist/robot-operating-system-2.0",
         description:
           "Set Of Software Libraries And Tools That Help You Build Robot Apps.",
@@ -26279,7 +26279,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Adafruit IO",
+        title: "Adafruit IO",
         href: "docs/bucketlist/adafruit-io",
         description: "Visualize And Store Data From Any Device.",
         website_url:
@@ -26288,7 +26288,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Cloudflare",
+        title: "Cloudflare",
         href: "docs/bucketlist/cloudflare",
         description: "Cdn, Dns, Ddos Protection, And Security For Your Site.",
         website_url:
@@ -26297,7 +26297,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Actions on Google",
+        title: "Actions on Google",
         href: "docs/bucketlist/actions-on-google",
         description: "Developer Platform For Google Assistant.",
         website_url:
@@ -26307,7 +26307,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - ESP",
+        title: "ESP",
         href: "docs/bucketlist/esp",
         description:
           "Low-Cost Microcontrollers With Wifi And Broad Iot Applications.",
@@ -26317,7 +26317,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - Deno",
+        title: "Deno",
         href: "docs/bucketlist/deno",
         description:
           "A Secure Runtime For Javascript And Typescript That Uses V8 And Is Built In Rust.",
@@ -26327,7 +26327,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Platforms - DOS",
+        title: "DOS",
         href: "docs/bucketlist/dos",
         description:
           "Operating System For X86-Based Personal Computers That Was Popular During The 1980S And Early 1990S.",
@@ -26337,7 +26337,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - JavaScript",
+        title: "Programming JavaScript",
         href: "docs/bucketlist/javascript",
         description: "No description available.",
         website_url:
@@ -26346,7 +26346,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Promises",
+        title: "Programming Promises",
         href: "docs/bucketlist/promises",
         description: "No description available.",
         website_url:
@@ -26355,7 +26355,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Standard Style",
+        title: "Programming Standard Style",
         href: "docs/bucketlist/standard-style",
         description: "Style Guide And Linter.",
         website_url:
@@ -26364,7 +26364,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Must Watch Talks",
+        title: "Programming Must Watch Talks",
         href: "docs/bucketlist/must-watch-talks",
         description: "No description available.",
         website_url:
@@ -26373,7 +26373,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Tips",
+        title: "Programming Tips",
         href: "docs/bucketlist/tips",
         description: "No description available.",
         website_url:
@@ -26382,7 +26382,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Network Layer",
+        title: "Programming Network Layer",
         href: "docs/bucketlist/network-layer",
         description: "No description available.",
         website_url:
@@ -26391,7 +26391,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Micro npm Packages",
+        title: "Programming Micro npm Packages",
         href: "docs/bucketlist/micro-npm-packages",
         description: "No description available.",
         website_url:
@@ -26400,7 +26400,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Mad Science npm Packages",
+        title: "Programming Mad Science npm Packages",
         href: "docs/bucketlist/mad-science-npm-packages",
         description: "Impossible Sounding Projects That Exist.",
         website_url:
@@ -26409,7 +26409,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Maintenance Modules",
+        title: "Programming Maintenance Modules",
         href: "docs/bucketlist/maintenance-modules",
         description: "For Npm Packages.",
         website_url:
@@ -26418,7 +26418,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - npm",
+        title: "Programming npm",
         href: "docs/bucketlist/npm",
         description: "Package Manager.",
         website_url:
@@ -26427,7 +26427,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - AVA",
+        title: "Programming AVA",
         href: "docs/bucketlist/ava",
         description: "Test Runner.",
         website_url:
@@ -26436,7 +26436,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - ESLint",
+        title: "Programming ESLint",
         href: "docs/bucketlist/eslint",
         description: "Linter.",
         website_url:
@@ -26445,7 +26445,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Functional Programming",
+        title: "Programming Functional Programming",
         href: "docs/bucketlist/functional-programming",
         description: "No description available.",
         website_url:
@@ -26454,7 +26454,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Observables",
+        title: "Programming Observables",
         href: "docs/bucketlist/observables",
         description: "No description available.",
         website_url:
@@ -26463,7 +26463,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - npm scripts",
+        title: "Programming npm scripts",
         href: "docs/bucketlist/npm-scripts",
         description: "Task Runner.",
         website_url:
@@ -26472,7 +26472,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - 30 Seconds of Code",
+        title: "Programming 30 Seconds of Code",
         href: "docs/bucketlist/30-seconds-of-code",
         description: "Code Snippets You Can Understand In 30 Seconds.",
         website_url:
@@ -26481,7 +26481,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Ponyfills",
+        title: "Programming Ponyfills",
         href: "docs/bucketlist/ponyfills",
         description: "Like Polyfills But Without Overriding Native Apis.",
         website_url:
@@ -26490,7 +26490,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Swift",
+        title: "Programming Swift",
         href: "docs/bucketlist/swift",
         description:
           "Apple'S Compiled Programming Language That Is Secure, Modern, Programmer-Friendly, And Fast.",
@@ -26500,7 +26500,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Education",
+        title: "Programming Education",
         href: "docs/bucketlist/education",
         description: "No description available.",
         website_url:
@@ -26509,7 +26509,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Playgrounds",
+        title: "Programming Playgrounds",
         href: "docs/bucketlist/playgrounds",
         description: "No description available.",
         website_url:
@@ -26518,7 +26518,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Python",
+        title: "Programming Python",
         href: "docs/bucketlist/python",
         description:
           "General-Purpose Programming Language Designed For Readability.",
@@ -26528,7 +26528,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Asyncio",
+        title: "Programming Asyncio",
         href: "docs/bucketlist/asyncio",
         description: "Asynchronous I/O In Python 3.",
         website_url:
@@ -26537,7 +26537,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Scientific Audio",
+        title: "Programming Scientific Audio",
         href: "docs/bucketlist/scientific-audio",
         description: "Scientific Research In Audio/Music.",
         website_url:
@@ -26547,7 +26547,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - CircuitPython",
+        title: "Programming CircuitPython",
         href: "docs/bucketlist/circuitpython",
         description: "A Version Of Python For Microcontrollers.",
         website_url:
@@ -26556,7 +26556,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Data Science",
+        title: "Programming Data Science",
         href: "docs/bucketlist/data-science",
         description: "Data Analysis And Machine Learning.",
         website_url:
@@ -26565,7 +26565,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Typing",
+        title: "Programming Typing",
         href: "docs/bucketlist/typing",
         description: "Optional Static Typing For Python.",
         website_url:
@@ -26574,7 +26574,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - MicroPython",
+        title: "Programming MicroPython",
         href: "docs/bucketlist/micropython",
         description:
           "A Lean And Efficient Implementation Of Python 3 For Microcontrollers.",
@@ -26584,7 +26584,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Rust",
+        title: "Programming Rust",
         href: "docs/bucketlist/rust",
         description: "No description available.",
         website_url:
@@ -26593,7 +26593,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Haskell",
+        title: "Programming Haskell",
         href: "docs/bucketlist/haskell",
         description: "No description available.",
         website_url:
@@ -26602,7 +26602,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - PureScript",
+        title: "Programming PureScript",
         href: "docs/bucketlist/purescript",
         description: "No description available.",
         website_url:
@@ -26611,7 +26611,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Go",
+        title: "Programming Go",
         href: "docs/bucketlist/go",
         description: "No description available.",
         website_url:
@@ -26620,7 +26620,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Scala",
+        title: "Programming Scala",
         href: "docs/bucketlist/scala",
         description: "No description available.",
         website_url:
@@ -26629,7 +26629,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Scala Native",
+        title: "Programming Scala Native",
         href: "docs/bucketlist/scala-native",
         description:
           "Optimizing Ahead-Of-Time Compiler For Scala Based On Llvm.",
@@ -26639,7 +26639,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Ruby",
+        title: "Programming Ruby",
         href: "docs/bucketlist/ruby",
         description: "No description available.",
         website_url:
@@ -26648,7 +26648,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Clojure",
+        title: "Programming Clojure",
         href: "docs/bucketlist/clojure",
         description: "No description available.",
         website_url:
@@ -26657,7 +26657,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - ClojureScript",
+        title: "Programming ClojureScript",
         href: "docs/bucketlist/clojurescript",
         description: "No description available.",
         website_url:
@@ -26666,7 +26666,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Elixir",
+        title: "Programming Elixir",
         href: "docs/bucketlist/elixir",
         description: "No description available.",
         website_url:
@@ -26675,7 +26675,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Elm",
+        title: "Programming Elm",
         href: "docs/bucketlist/elm",
         description: "No description available.",
         website_url:
@@ -26684,7 +26684,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Erlang",
+        title: "Programming Erlang",
         href: "docs/bucketlist/erlang",
         description: "No description available.",
         website_url:
@@ -26693,7 +26693,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Julia",
+        title: "Programming Julia",
         href: "docs/bucketlist/julia",
         description:
           "High-Level Dynamic Programming Language Designed To Address The Needs Of High-Performance Numerical Analysis And Computational Science.",
@@ -26703,7 +26703,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Lua",
+        title: "Programming Lua",
         href: "docs/bucketlist/lua",
         description: "No description available.",
         website_url:
@@ -26712,7 +26712,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - C",
+        title: "Programming C",
         href: "docs/bucketlist/c",
         description: "No description available.",
         website_url:
@@ -26721,7 +26721,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - C/C++",
+        title: "Programming C/C++",
         href: "docs/bucketlist/c/c++",
         description:
           "General-Purpose Language With A Bias Toward System Programming And Embedded, Resource-Constrained Software.",
@@ -26731,7 +26731,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - R",
+        title: "Programming R",
         href: "docs/bucketlist/r",
         description:
           "Functional Programming Language And Environment For Statistical Computing And Graphics.",
@@ -26741,7 +26741,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Learning",
+        title: "Programming Learning",
         href: "docs/bucketlist/learning",
         description: "No description available.",
         website_url:
@@ -26751,7 +26751,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - D",
+        title: "Programming D",
         href: "docs/bucketlist/d",
         description: "No description available.",
         website_url:
@@ -26760,7 +26760,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Common Lisp",
+        title: "Programming Common Lisp",
         href: "docs/bucketlist/common-lisp",
         description:
           "Powerful Dynamic Multiparadigm Language That Facilitates Iterative And Interactive Development.",
@@ -26770,7 +26770,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Learning",
+        title: "Programming Learning",
         href: "docs/bucketlist/learning",
         description: "No description available.",
         website_url:
@@ -26780,7 +26780,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Perl",
+        title: "Programming Perl",
         href: "docs/bucketlist/perl",
         description: "No description available.",
         website_url:
@@ -26789,7 +26789,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Groovy",
+        title: "Programming Groovy",
         href: "docs/bucketlist/groovy",
         description: "No description available.",
         website_url:
@@ -26798,7 +26798,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Dart",
+        title: "Programming Dart",
         href: "docs/bucketlist/dart",
         description: "No description available.",
         website_url:
@@ -26807,7 +26807,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Java",
+        title: "Programming Java",
         href: "docs/bucketlist/java",
         description:
           "Popular Secure Object-Oriented Language Designed For Flexibility To Write Once",
@@ -26817,7 +26817,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - RxJava",
+        title: "Programming RxJava",
         href: "docs/bucketlist/rxjava",
         description: "No description available.",
         website_url:
@@ -26826,7 +26826,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Kotlin",
+        title: "Programming Kotlin",
         href: "docs/bucketlist/kotlin",
         description: "No description available.",
         website_url:
@@ -26835,7 +26835,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - OCaml",
+        title: "Programming OCaml",
         href: "docs/bucketlist/ocaml",
         description: "No description available.",
         website_url:
@@ -26844,7 +26844,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - ColdFusion",
+        title: "Programming ColdFusion",
         href: "docs/bucketlist/coldfusion",
         description: "No description available.",
         website_url:
@@ -26853,7 +26853,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Fortran",
+        title: "Programming Fortran",
         href: "docs/bucketlist/fortran",
         description: "No description available.",
         website_url:
@@ -26862,7 +26862,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - PHP",
+        title: "Programming PHP",
         href: "docs/bucketlist/php",
         description: "Server-Side Scripting Language.",
         website_url:
@@ -26871,7 +26871,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Composer",
+        title: "Programming Composer",
         href: "docs/bucketlist/composer",
         description: "Package Manager.",
         website_url:
@@ -26880,7 +26880,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Pascal",
+        title: "Programming Pascal",
         href: "docs/bucketlist/pascal",
         description: "No description available.",
         website_url:
@@ -26889,7 +26889,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - AutoHotkey",
+        title: "Programming AutoHotkey",
         href: "docs/bucketlist/autohotkey",
         description: "No description available.",
         website_url:
@@ -26898,7 +26898,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - AutoIt",
+        title: "Programming AutoIt",
         href: "docs/bucketlist/autoit",
         description: "No description available.",
         website_url:
@@ -26907,7 +26907,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Crystal",
+        title: "Programming Crystal",
         href: "docs/bucketlist/crystal",
         description: "No description available.",
         website_url:
@@ -26916,7 +26916,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Frege",
+        title: "Programming Frege",
         href: "docs/bucketlist/frege",
         description: "Haskell For The Jvm.",
         website_url:
@@ -26925,7 +26925,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - CMake",
+        title: "Programming CMake",
         href: "docs/bucketlist/cmake",
         description: "Build, Test, And Package Software.",
         website_url:
@@ -26934,7 +26934,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - ActionScript 3",
+        title: "Programming ActionScript 3",
         href: "docs/bucketlist/actionscript-3",
         description: "Object-Oriented Language Targeting Adobe Air.",
         website_url:
@@ -26943,7 +26943,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Eta",
+        title: "Programming Eta",
         href: "docs/bucketlist/eta",
         description: "Functional Programming Language For The Jvm.",
         website_url:
@@ -26952,7 +26952,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Idris",
+        title: "Programming Idris",
         href: "docs/bucketlist/idris",
         description:
           "General Purpose Pure Functional Programming Language With Dependent Types Influenced By Haskell And Ml.",
@@ -26962,7 +26962,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Ada/SPARK",
+        title: "Programming Ada/SPARK",
         href: "docs/bucketlist/ada/spark",
         description:
           "Modern Programming Language Designed For Large, Long-Lived Apps Where Reliability And Efficiency Are Essential.",
@@ -26972,7 +26972,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Q#",
+        title: "Programming Q#",
         href: "docs/bucketlist/q#",
         description:
           "Domain-Specific Programming Language Used For Expressing Quantum Algorithms.",
@@ -26982,7 +26982,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Imba",
+        title: "Programming Imba",
         href: "docs/bucketlist/imba",
         description:
           "Programming Language Inspired By Ruby And Python And Compiles To Performant Javascript.",
@@ -26992,7 +26992,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Vala",
+        title: "Programming Vala",
         href: "docs/bucketlist/vala",
         description:
           "Programming Language Designed To Take Full Advantage Of The Glib And Gnome Ecosystems, While Preserving The Speed Of C Code.",
@@ -27002,7 +27002,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - Coq",
+        title: "Programming Coq",
         href: "docs/bucketlist/coq",
         description:
           "Formal Language And Environment For Programming And Specification Which Facilitates Interactive Development Of Machine-Checked Proofs.",
@@ -27012,7 +27012,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Programming Languages - V",
+        title: "Programming V",
         href: "docs/bucketlist/v",
         description:
           "Simple, Fast, Safe, Compiled Language For Developing Maintainable Software.",
@@ -27022,7 +27022,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - ES6 Tools",
+        title: "Front-End ES6 Tools",
         href: "docs/bucketlist/es6-tools",
         description: "No description available.",
         website_url:
@@ -27031,7 +27031,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Performance Optimization",
+        title: "Front-End Web Performance Optimization",
         href: "docs/bucketlist/web-performance-optimization",
         description: "No description available.",
         website_url:
@@ -27040,7 +27040,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Tools",
+        title: "Front-End Web Tools",
         href: "docs/bucketlist/web-tools",
         description: "No description available.",
         website_url: "https://awesome.digitalbunker.dev/awesome/lvwzhen/tools",
@@ -27048,7 +27048,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - CSS",
+        title: "Front-End CSS",
         href: "docs/bucketlist/css",
         description:
           "Style Sheet Language That Specifies How Html Elements Are Displayed On Screen.",
@@ -27058,7 +27058,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Critical-Path Tools",
+        title: "Front-End Critical-Path Tools",
         href: "docs/bucketlist/critical-path-tools",
         description: "No description available.",
         website_url:
@@ -27067,7 +27067,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Scalability",
+        title: "Front-End Scalability",
         href: "docs/bucketlist/scalability",
         description: "No description available.",
         website_url:
@@ -27077,7 +27077,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Must-Watch Talks",
+        title: "Front-End Must-Watch Talks",
         href: "docs/bucketlist/must-watch-talks",
         description: "No description available.",
         website_url:
@@ -27086,7 +27086,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Protips",
+        title: "Front-End Protips",
         href: "docs/bucketlist/protips",
         description: "No description available.",
         website_url:
@@ -27095,7 +27095,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Frameworks",
+        title: "Front-End Frameworks",
         href: "docs/bucketlist/frameworks",
         description: "No description available.",
         website_url:
@@ -27104,7 +27104,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - React",
+        title: "Front-End React",
         href: "docs/bucketlist/react",
         description: "App Framework.",
         website_url:
@@ -27113,7 +27113,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Relay",
+        title: "Front-End Relay",
         href: "docs/bucketlist/relay",
         description: "Framework For Building Data-Driven React Apps.",
         website_url:
@@ -27122,7 +27122,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - React Hooks",
+        title: "Front-End React Hooks",
         href: "docs/bucketlist/react-hooks",
         description:
           "A New Feature That Lets You Use State And Other React Features Without Writing A Class.",
@@ -27132,7 +27132,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Components",
+        title: "Front-End Web Components",
         href: "docs/bucketlist/web-components",
         description: "No description available.",
         website_url:
@@ -27142,7 +27142,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Polymer",
+        title: "Front-End Polymer",
         href: "docs/bucketlist/polymer",
         description: "Javascript Library To Develop Web Components.",
         website_url:
@@ -27151,7 +27151,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Angular",
+        title: "Front-End Angular",
         href: "docs/bucketlist/angular",
         description: "App Framework.",
         website_url:
@@ -27160,7 +27160,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Backbone",
+        title: "Front-End Backbone",
         href: "docs/bucketlist/backbone",
         description: "App Framework.",
         website_url:
@@ -27169,7 +27169,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - HTML5",
+        title: "Front-End HTML5",
         href: "docs/bucketlist/html5",
         description: "Markup Language Used For Websites & Web Apps.",
         website_url:
@@ -27178,7 +27178,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - SVG",
+        title: "Front-End SVG",
         href: "docs/bucketlist/svg",
         description: "Xml-Based Vector Image Format.",
         website_url:
@@ -27187,7 +27187,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Canvas",
+        title: "Front-End Canvas",
         href: "docs/bucketlist/canvas",
         description: "No description available.",
         website_url:
@@ -27196,7 +27196,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - KnockoutJS",
+        title: "Front-End KnockoutJS",
         href: "docs/bucketlist/knockoutjs",
         description: "Javascript Library.",
         website_url:
@@ -27205,7 +27205,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Dojo Toolkit",
+        title: "Front-End Dojo Toolkit",
         href: "docs/bucketlist/dojo-toolkit",
         description: "Javascript Toolkit.",
         website_url:
@@ -27214,7 +27214,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Inspiration",
+        title: "Front-End Inspiration",
         href: "docs/bucketlist/inspiration",
         description: "No description available.",
         website_url:
@@ -27223,7 +27223,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Ember",
+        title: "Front-End Ember",
         href: "docs/bucketlist/ember",
         description: "App Framework.",
         website_url:
@@ -27232,7 +27232,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Android UI",
+        title: "Front-End Android UI",
         href: "docs/bucketlist/android-ui",
         description: "No description available.",
         website_url:
@@ -27241,7 +27241,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - iOS UI",
+        title: "Front-End iOS UI",
         href: "docs/bucketlist/ios-ui",
         description: "No description available.",
         website_url:
@@ -27250,7 +27250,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Meteor",
+        title: "Front-End Meteor",
         href: "docs/bucketlist/meteor",
         description: "No description available.",
         website_url:
@@ -27259,7 +27259,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - BEM",
+        title: "Front-End BEM",
         href: "docs/bucketlist/bem",
         description: "No description available.",
         website_url:
@@ -27268,7 +27268,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Flexbox",
+        title: "Front-End Flexbox",
         href: "docs/bucketlist/flexbox",
         description: "No description available.",
         website_url:
@@ -27277,7 +27277,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Typography",
+        title: "Front-End Web Typography",
         href: "docs/bucketlist/web-typography",
         description: "No description available.",
         website_url:
@@ -27286,7 +27286,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Accessibility",
+        title: "Front-End Web Accessibility",
         href: "docs/bucketlist/web-accessibility",
         description: "No description available.",
         website_url:
@@ -27295,7 +27295,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Material Design",
+        title: "Front-End Material Design",
         href: "docs/bucketlist/material-design",
         description: "No description available.",
         website_url:
@@ -27304,7 +27304,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - D3",
+        title: "Front-End D3",
         href: "docs/bucketlist/d3",
         description:
           "Library For Producing Dynamic, Interactive Data Visualizations.",
@@ -27314,7 +27314,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Emails",
+        title: "Front-End Emails",
         href: "docs/bucketlist/emails",
         description: "No description available.",
         website_url:
@@ -27323,7 +27323,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - jQuery",
+        title: "Front-End jQuery",
         href: "docs/bucketlist/jquery",
         description: "Easy To Use Javascript Library For Dom Manipulation.",
         website_url:
@@ -27332,7 +27332,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Tips",
+        title: "Front-End Tips",
         href: "docs/bucketlist/tips",
         description: "No description available.",
         website_url:
@@ -27342,7 +27342,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Audio",
+        title: "Front-End Web Audio",
         href: "docs/bucketlist/web-audio",
         description: "No description available.",
         website_url:
@@ -27351,7 +27351,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Offline-First",
+        title: "Front-End Offline-First",
         href: "docs/bucketlist/offline-first",
         description: "No description available.",
         website_url:
@@ -27360,7 +27360,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Static Website Services",
+        title: "Front-End Static Website Services",
         href: "docs/bucketlist/static-website-services",
         description: "No description available.",
         website_url:
@@ -27370,7 +27370,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Cycle.js",
+        title: "Front-End Cycle.js",
         href: "docs/bucketlist/cycle.js",
         description: "Functional And Reactive Javascript Framework.",
         website_url:
@@ -27379,7 +27379,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Text Editing",
+        title: "Front-End Text Editing",
         href: "docs/bucketlist/text-editing",
         description: "No description available.",
         website_url:
@@ -27388,7 +27388,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Motion UI Design",
+        title: "Front-End Motion UI Design",
         href: "docs/bucketlist/motion-ui-design",
         description: "No description available.",
         website_url:
@@ -27397,7 +27397,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Vue.js",
+        title: "Front-End Vue.js",
         href: "docs/bucketlist/vue.js",
         description: "App Framework.",
         website_url:
@@ -27406,7 +27406,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Marionette.js",
+        title: "Front-End Marionette.js",
         href: "docs/bucketlist/marionette.js",
         description: "App Framework.",
         website_url:
@@ -27415,7 +27415,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Aurelia",
+        title: "Front-End Aurelia",
         href: "docs/bucketlist/aurelia",
         description: "App Framework.",
         website_url:
@@ -27424,7 +27424,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Charting",
+        title: "Front-End Charting",
         href: "docs/bucketlist/charting",
         description: "No description available.",
         website_url:
@@ -27433,7 +27433,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Ionic Framework 2",
+        title: "Front-End Ionic Framework 2",
         href: "docs/bucketlist/ionic-framework-2",
         description: "No description available.",
         website_url:
@@ -27442,7 +27442,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Chrome DevTools",
+        title: "Front-End Chrome DevTools",
         href: "docs/bucketlist/chrome-devtools",
         description: "No description available.",
         website_url:
@@ -27452,7 +27452,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - PostCSS",
+        title: "Front-End PostCSS",
         href: "docs/bucketlist/postcss",
         description: "Css Tool.",
         website_url:
@@ -27461,7 +27461,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Draft.js",
+        title: "Front-End Draft.js",
         href: "docs/bucketlist/draft.js",
         description: "Rich Text Editor Framework For React.",
         website_url:
@@ -27470,7 +27470,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Service Workers",
+        title: "Front-End Service Workers",
         href: "docs/bucketlist/service-workers",
         description: "No description available.",
         website_url:
@@ -27479,7 +27479,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Progressive Web Apps",
+        title: "Front-End Progressive Web Apps",
         href: "docs/bucketlist/progressive-web-apps",
         description: "No description available.",
         website_url:
@@ -27488,7 +27488,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - choo",
+        title: "Front-End choo",
         href: "docs/bucketlist/choo",
         description: "App Framework.",
         website_url:
@@ -27497,7 +27497,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Redux",
+        title: "Front-End Redux",
         href: "docs/bucketlist/redux",
         description: "State Container For Javascript Apps.",
         website_url:
@@ -27506,7 +27506,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - webpack",
+        title: "Front-End webpack",
         href: "docs/bucketlist/webpack",
         description: "Module Bundler.",
         website_url:
@@ -27515,7 +27515,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Browserify",
+        title: "Front-End Browserify",
         href: "docs/bucketlist/browserify",
         description: "Module Bundler.",
         website_url:
@@ -27524,7 +27524,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Sass",
+        title: "Front-End Sass",
         href: "docs/bucketlist/sass",
         description: "Css Preprocessor.",
         website_url:
@@ -27533,7 +27533,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Ant Design",
+        title: "Front-End Ant Design",
         href: "docs/bucketlist/ant-design",
         description: "Enterprise-Class Ui Design Language.",
         website_url:
@@ -27542,7 +27542,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Less",
+        title: "Front-End Less",
         href: "docs/bucketlist/less",
         description: "Css Preprocessor.",
         website_url:
@@ -27551,7 +27551,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - WebGL",
+        title: "Front-End WebGL",
         href: "docs/bucketlist/webgl",
         description: "Javascript Api For Rendering 3D Graphics.",
         website_url:
@@ -27560,7 +27560,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Preact",
+        title: "Front-End Preact",
         href: "docs/bucketlist/preact",
         description: "App Framework.",
         website_url:
@@ -27569,7 +27569,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Progressive Enhancement",
+        title: "Front-End Progressive Enhancement",
         href: "docs/bucketlist/progressive-enhancement",
         description: "No description available.",
         website_url:
@@ -27579,7 +27579,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Next.js",
+        title: "Front-End Next.js",
         href: "docs/bucketlist/next.js",
         description: "Framework For Server-Rendered React Apps.",
         website_url:
@@ -27588,7 +27588,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Hyperapp",
+        title: "Front-End Hyperapp",
         href: "docs/bucketlist/hyperapp",
         description: "Tiny Javascript Library For Building Web Apps.",
         website_url:
@@ -27597,7 +27597,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - lit-html",
+        title: "Front-End lit-html",
         href: "docs/bucketlist/lit-html",
         description: "Html Templating Library For Javascript.",
         website_url:
@@ -27606,7 +27606,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - JAMstack",
+        title: "Front-End JAMstack",
         href: "docs/bucketlist/jamstack",
         description:
           "Modern Web Development Architecture Based On Client-Side Javascript, Reusable Apis, And Prebuilt Markup.",
@@ -27616,7 +27616,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - WordPress-Gatsby",
+        title: "Front-End WordPress-Gatsby",
         href: "docs/bucketlist/wordpress-gatsby",
         description:
           "Web Development Technology Stack With Wordpress As A Back End And Gatsby As A Front End.",
@@ -27626,7 +27626,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Mobile Web Development",
+        title: "Front-End Mobile Web Development",
         href: "docs/bucketlist/mobile-web-development",
         description: "Creating A Great Mobile Web Experience.",
         website_url:
@@ -27635,7 +27635,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Storybook",
+        title: "Front-End Storybook",
         href: "docs/bucketlist/storybook",
         description: "Development Environment For Ui Components.",
         website_url:
@@ -27644,7 +27644,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Blazor",
+        title: "Front-End Blazor",
         href: "docs/bucketlist/blazor",
         description:
           ".Net Web Framework Using C#/Razor And Html That Runs In The Browser With Webassembly.",
@@ -27654,7 +27654,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - PageSpeed Metrics",
+        title: "Front-End PageSpeed Metrics",
         href: "docs/bucketlist/pagespeed-metrics",
         description:
           "Metrics To Help Understand Page Speed And User Experience.",
@@ -27664,7 +27664,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Tailwind CSS",
+        title: "Front-End Tailwind CSS",
         href: "docs/bucketlist/tailwind-css",
         description: "Utility-First Css Framework For Rapid Ui Development.",
         website_url:
@@ -27673,7 +27673,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Seed",
+        title: "Front-End Seed",
         href: "docs/bucketlist/seed",
         description:
           "Rust Framework For Creating Web Apps Running In Webassembly.",
@@ -27683,7 +27683,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Performance Budget",
+        title: "Front-End Web Performance Budget",
         href: "docs/bucketlist/web-performance-budget",
         description:
           "Techniques To Ensure Certain Performance Metrics For A Website.",
@@ -27694,7 +27694,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Web Animation",
+        title: "Front-End Web Animation",
         href: "docs/bucketlist/web-animation",
         description:
           "Animations In The Browser With Javascript, Css, Svg, Etc.",
@@ -27704,7 +27704,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Yew",
+        title: "Front-End Yew",
         href: "docs/bucketlist/yew",
         description:
           "Rust Framework Inspired By Elm And React For Creating Multi-Threaded Frontend Web Apps With Webassembly.",
@@ -27714,7 +27714,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Material-UI",
+        title: "Front-End Material-UI",
         href: "docs/bucketlist/material-ui",
         description:
           "Material Design React Components For Faster And Easier Web Development.",
@@ -27724,7 +27724,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Building Blocks for Web Apps",
+        title: "Front-End Building Blocks for Web Apps",
         href: "docs/bucketlist/building-blocks-for-web-apps",
         description: "Standalone Features To Be Integrated Into Web Apps.",
         website_url:
@@ -27734,7 +27734,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Svelte",
+        title: "Front-End Svelte",
         href: "docs/bucketlist/svelte",
         description: "App Framework.",
         website_url:
@@ -27743,7 +27743,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Front-End Development - Design systems",
+        title: "Front-End Design systems",
         href: "docs/bucketlist/design-systems",
         description:
           "Collection Of Reusable Components, Guided By Rules That Ensure Consistency And Speed.",
@@ -27753,7 +27753,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Flask",
+        title: "Back-End Flask",
         href: "docs/bucketlist/flask",
         description: "Python Framework.",
         website_url:
@@ -27762,7 +27762,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Docker",
+        title: "Back-End Docker",
         href: "docs/bucketlist/docker",
         description: "No description available.",
         website_url:
@@ -27771,7 +27771,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Vagrant",
+        title: "Back-End Vagrant",
         href: "docs/bucketlist/vagrant",
         description: "Automation Virtual Machine Environment.",
         website_url:
@@ -27780,7 +27780,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Pyramid",
+        title: "Back-End Pyramid",
         href: "docs/bucketlist/pyramid",
         description: "Python Framework.",
         website_url:
@@ -27789,7 +27789,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Play1 Framework",
+        title: "Back-End Play1 Framework",
         href: "docs/bucketlist/play1-framework",
         description: "No description available.",
         website_url:
@@ -27798,7 +27798,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - CakePHP",
+        title: "Back-End CakePHP",
         href: "docs/bucketlist/cakephp",
         description: "Php Framework.",
         website_url:
@@ -27807,7 +27807,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Symfony",
+        title: "Back-End Symfony",
         href: "docs/bucketlist/symfony",
         description: "Php Framework.",
         website_url:
@@ -27816,7 +27816,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Education",
+        title: "Back-End Education",
         href: "docs/bucketlist/education",
         description: "No description available.",
         website_url:
@@ -27825,7 +27825,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Laravel",
+        title: "Back-End Laravel",
         href: "docs/bucketlist/laravel",
         description: "Php Framework.",
         website_url:
@@ -27834,7 +27834,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Education",
+        title: "Back-End Education",
         href: "docs/bucketlist/education",
         description: "No description available.",
         website_url:
@@ -27843,7 +27843,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - TALL Stack",
+        title: "Back-End TALL Stack",
         href: "docs/bucketlist/tall-stack",
         description:
           "Full-Stack Development Solution Featuring Libraries Built By The Laravel Community.",
@@ -27853,7 +27853,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Rails",
+        title: "Back-End Rails",
         href: "docs/bucketlist/rails",
         description: "Web App Framework For Ruby.",
         website_url:
@@ -27862,7 +27862,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Gems",
+        title: "Back-End Gems",
         href: "docs/bucketlist/gems",
         description: "Packages.",
         website_url:
@@ -27871,7 +27871,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Phalcon",
+        title: "Back-End Phalcon",
         href: "docs/bucketlist/phalcon",
         description: "Php Framework.",
         website_url:
@@ -27880,7 +27880,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Useful `.htaccess` Snippets",
+        title: "Back-End Useful `.htaccess` Snippets",
         href: "docs/bucketlist/useful-`.htaccess`-snippets",
         description: "No description available.",
         website_url:
@@ -27889,7 +27889,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - nginx",
+        title: "Back-End nginx",
         href: "docs/bucketlist/nginx",
         description: "Web Server.",
         website_url:
@@ -27898,7 +27898,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Dropwizard",
+        title: "Back-End Dropwizard",
         href: "docs/bucketlist/dropwizard",
         description: "Java Framework.",
         website_url:
@@ -27907,7 +27907,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Kubernetes",
+        title: "Back-End Kubernetes",
         href: "docs/bucketlist/kubernetes",
         description:
           "Open-Source Platform That Automates Linux Container Operations.",
@@ -27917,7 +27917,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Lumen",
+        title: "Back-End Lumen",
         href: "docs/bucketlist/lumen",
         description: "Php Micro-Framework.",
         website_url:
@@ -27926,7 +27926,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Serverless Framework",
+        title: "Back-End Serverless Framework",
         href: "docs/bucketlist/serverless-framework",
         description: "Serverless Computing And Serverless Architectures.",
         website_url:
@@ -27935,7 +27935,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Apache Wicket",
+        title: "Back-End Apache Wicket",
         href: "docs/bucketlist/apache-wicket",
         description: "Java Web App Framework.",
         website_url:
@@ -27944,7 +27944,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Vert.x",
+        title: "Back-End Vert.x",
         href: "docs/bucketlist/vert.x",
         description: "Toolkit For Building Reactive Apps On The Jvm.",
         website_url:
@@ -27953,7 +27953,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Terraform",
+        title: "Back-End Terraform",
         href: "docs/bucketlist/terraform",
         description:
           "Tool For Building, Changing, And Versioning Infrastructure.",
@@ -27963,7 +27963,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Vapor",
+        title: "Back-End Vapor",
         href: "docs/bucketlist/vapor",
         description: "Server-Side Development In Swift.",
         website_url:
@@ -27972,7 +27972,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - Dash",
+        title: "Back-End Dash",
         href: "docs/bucketlist/dash",
         description: "Python Web App Framework.",
         website_url:
@@ -27981,7 +27981,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - FastAPI",
+        title: "Back-End FastAPI",
         href: "docs/bucketlist/fastapi",
         description: "Python Web App Framework.",
         website_url:
@@ -27990,7 +27990,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Back-End Development - CDK",
+        title: "Back-End CDK",
         href: "docs/bucketlist/cdk",
         description:
           "Open-Source Software Development Framework For Defining Cloud Infrastructure In Code.",
@@ -28000,7 +28000,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - University Courses",
+        title: "Computer University Courses",
         href: "docs/bucketlist/university-courses",
         description: "No description available.",
         website_url:
@@ -28009,7 +28009,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Data Science",
+        title: "Computer Data Science",
         href: "docs/bucketlist/data-science",
         description: "No description available.",
         website_url:
@@ -28018,7 +28018,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Tutorials",
+        title: "Computer Tutorials",
         href: "docs/bucketlist/tutorials",
         description: "No description available.",
         website_url:
@@ -28027,7 +28027,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Machine Learning",
+        title: "Computer Machine Learning",
         href: "docs/bucketlist/machine-learning",
         description: "No description available.",
         website_url:
@@ -28036,7 +28036,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Tutorials",
+        title: "Computer Tutorials",
         href: "docs/bucketlist/tutorials",
         description: "No description available.",
         website_url:
@@ -28045,7 +28045,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - ML with Ruby",
+        title: "Computer ML with Ruby",
         href: "docs/bucketlist/ml-with-ruby",
         description:
           "Learning, Implementing, And Applying Machine Learning Using Ruby.",
@@ -28055,7 +28055,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Core ML Models",
+        title: "Computer Core ML Models",
         href: "docs/bucketlist/core-ml-models",
         description: "Models For Apple'S Machine Learning Framework.",
         website_url:
@@ -28064,7 +28064,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - H2O",
+        title: "Computer H2O",
         href: "docs/bucketlist/h2o",
         description:
           "Open Source Distributed Machine Learning Platform Written In Java With Apis In R, Python, And Scala.",
@@ -28074,7 +28074,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Software Engineering for Machine Learning",
+        title: "Computer Software Engineering for Machine Learning",
         href: "docs/bucketlist/software-engineering-for-machine-learning",
         description: "From Experiment To Production-Level Machine Learning.",
         website_url:
@@ -28083,7 +28083,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - AI in Finance",
+        title: "Computer AI in Finance",
         href: "docs/bucketlist/ai-in-finance",
         description: "Solving Problems In Finance With Machine Learning.",
         website_url:
@@ -28092,7 +28092,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Speech and Natural Language Processing",
+        title: "Computer Speech and Natural Language Processing",
         href: "docs/bucketlist/speech-and-natural-language-processing",
         description: "No description available.",
         website_url:
@@ -28101,7 +28101,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Spanish",
+        title: "Computer Spanish",
         href: "docs/bucketlist/spanish",
         description: "No description available.",
         website_url:
@@ -28110,7 +28110,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - NLP with Ruby",
+        title: "Computer NLP with Ruby",
         href: "docs/bucketlist/nlp-with-ruby",
         description: "No description available.",
         website_url:
@@ -28119,7 +28119,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Question Answering",
+        title: "Computer Question Answering",
         href: "docs/bucketlist/question-answering",
         description:
           "The Science Of Asking And Answering In Natural Language With A Machine.",
@@ -28129,7 +28129,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Natural Language Generation",
+        title: "Computer Natural Language Generation",
         href: "docs/bucketlist/natural-language-generation",
         description:
           "Generation Of Text Used In Data To Text, Conversational Agents, And Narrative Generation Applications.",
@@ -28139,7 +28139,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Linguistics",
+        title: "Computer Linguistics",
         href: "docs/bucketlist/linguistics",
         description: "No description available.",
         website_url:
@@ -28149,7 +28149,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Cryptography",
+        title: "Computer Cryptography",
         href: "docs/bucketlist/cryptography",
         description: "No description available.",
         website_url:
@@ -28158,7 +28158,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Papers",
+        title: "Computer Papers",
         href: "docs/bucketlist/papers",
         description:
           "Theory Basics For Using Cryptography By Non-Cryptographers.",
@@ -28168,7 +28168,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Computer Vision",
+        title: "Computer Computer Vision",
         href: "docs/bucketlist/computer-vision",
         description: "No description available.",
         website_url:
@@ -28177,7 +28177,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Deep Learning",
+        title: "Computer Deep Learning",
         href: "docs/bucketlist/deep-learning",
         description: "Neural Networks.",
         website_url:
@@ -28187,7 +28187,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - TensorFlow",
+        title: "Computer TensorFlow",
         href: "docs/bucketlist/tensorflow",
         description: "Library For Machine Intelligence.",
         website_url:
@@ -28196,7 +28196,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - TensorFlow.js",
+        title: "Computer TensorFlow.js",
         href: "docs/bucketlist/tensorflow.js",
         description:
           "Webgl-Accelerated Machine Learning Javascript Library For Training And Deploying Models.",
@@ -28206,7 +28206,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - TensorFlow Lite",
+        title: "Computer TensorFlow Lite",
         href: "docs/bucketlist/tensorflow-lite",
         description:
           "Framework That Optimizes Tensorflow Models For On-Device Machine Learning.",
@@ -28216,7 +28216,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Papers",
+        title: "Computer Papers",
         href: "docs/bucketlist/papers",
         description: "The Most Cited Deep Learning Papers.",
         website_url:
@@ -28225,7 +28225,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Education",
+        title: "Computer Education",
         href: "docs/bucketlist/education",
         description: "No description available.",
         website_url:
@@ -28235,7 +28235,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Deep Vision",
+        title: "Computer Deep Vision",
         href: "docs/bucketlist/deep-vision",
         description: "No description available.",
         website_url:
@@ -28244,7 +28244,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Open Source Society University",
+        title: "Computer Open Source Society University",
         href: "docs/bucketlist/open-source-society-university",
         description: "No description available.",
         website_url:
@@ -28253,7 +28253,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Functional Programming",
+        title: "Computer Functional Programming",
         href: "docs/bucketlist/functional-programming",
         description: "No description available.",
         website_url:
@@ -28263,7 +28263,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Empirical Software Engineering",
+        title: "Computer Empirical Software Engineering",
         href: "docs/bucketlist/empirical-software-engineering",
         description: "Evidence-Based Research On Software Systems.",
         website_url:
@@ -28272,7 +28272,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Static Analysis & Code Quality",
+        title: "Computer Static Analysis & Code Quality",
         href: "docs/bucketlist/static-analysis-&-code-quality",
         description: "No description available.",
         website_url:
@@ -28281,7 +28281,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Information Retrieval",
+        title: "Computer Information Retrieval",
         href: "docs/bucketlist/information-retrieval",
         description: "Learn To Develop Your Own Search Engine.",
         website_url:
@@ -28291,7 +28291,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Computer Science - Quantum Computing",
+        title: "Computer Quantum Computing",
         href: "docs/bucketlist/quantum-computing",
         description:
           "Computing Which Utilizes Quantum Mechanics And Qubits On Quantum Computers.",
@@ -28301,7 +28301,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Big Data",
+        title: "Big Big Data",
         href: "docs/bucketlist/big-data",
         description: "No description available.",
         website_url:
@@ -28310,7 +28310,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Public Datasets",
+        title: "Big Public Datasets",
         href: "docs/bucketlist/public-datasets",
         description: "No description available.",
         website_url:
@@ -28319,7 +28319,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Hadoop",
+        title: "Big Hadoop",
         href: "docs/bucketlist/hadoop",
         description:
           "Framework For Distributed Storage And Processing Of Very Large Data Sets.",
@@ -28329,7 +28329,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Data Engineering",
+        title: "Big Data Engineering",
         href: "docs/bucketlist/data-engineering",
         description: "No description available.",
         website_url:
@@ -28338,7 +28338,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Streaming",
+        title: "Big Streaming",
         href: "docs/bucketlist/streaming",
         description: "No description available.",
         website_url:
@@ -28347,7 +28347,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Apache Spark",
+        title: "Big Apache Spark",
         href: "docs/bucketlist/apache-spark",
         description: "Unified Engine For Large-Scale Data Processing.",
         website_url:
@@ -28356,7 +28356,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Qlik",
+        title: "Big Qlik",
         href: "docs/bucketlist/qlik",
         description:
           "Business Intelligence Platform For Data Visualization, Analytics, And Reporting Apps.",
@@ -28366,7 +28366,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Big Data - Splunk",
+        title: "Big Splunk",
         href: "docs/bucketlist/splunk",
         description:
           "Platform For Searching, Monitoring, And Analyzing Structured And Unstructured Machine-Generated Big Data In Real-Time.",
@@ -28376,7 +28376,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Papers We Love",
+        title: "Papers We Love",
         href: "docs/bucketlist/papers-we-love",
         description: "No description available.",
         website_url:
@@ -28385,7 +28385,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Talks",
+        title: "Talks",
         href: "docs/bucketlist/talks",
         description: "No description available.",
         website_url:
@@ -28394,7 +28394,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Algorithms",
+        title: "Algorithms",
         href: "docs/bucketlist/algorithms",
         description: "No description available.",
         website_url:
@@ -28403,7 +28403,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Education",
+        title: "Education",
         href: "docs/bucketlist/education",
         description: "Learning And Practicing.",
         website_url:
@@ -28412,7 +28412,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Algorithm Visualizations",
+        title: "Algorithm Visualizations",
         href: "docs/bucketlist/algorithm-visualizations",
         description: "No description available.",
         website_url:
@@ -28421,7 +28421,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Artificial Intelligence",
+        title: "Artificial Intelligence",
         href: "docs/bucketlist/artificial-intelligence",
         description: "No description available.",
         website_url:
@@ -28431,7 +28431,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Search Engine Optimization",
+        title: "Search Engine Optimization",
         href: "docs/bucketlist/search-engine-optimization",
         description: "No description available.",
         website_url:
@@ -28441,7 +28441,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Competitive Programming",
+        title: "Competitive Programming",
         href: "docs/bucketlist/competitive-programming",
         description: "No description available.",
         website_url:
@@ -28451,7 +28451,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Math",
+        title: "Math",
         href: "docs/bucketlist/math",
         description: "No description available.",
         website_url:
@@ -28460,7 +28460,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Theory - Recursion Schemes",
+        title: "Recursion Schemes",
         href: "docs/bucketlist/recursion-schemes",
         description: "Traversing Nested Data Structures.",
         website_url:
@@ -28469,7 +28469,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Free Programming Books",
+        title: "Free Programming Books",
         href: "docs/bucketlist/free-programming-books",
         description: "No description available.",
         website_url:
@@ -28479,7 +28479,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Free Software Testing Books",
+        title: "Free Software Testing Books",
         href: "docs/bucketlist/free-software-testing-books",
         description: "No description available.",
         website_url:
@@ -28488,7 +28488,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Go Books",
+        title: "Go Books",
         href: "docs/bucketlist/go-books",
         description: "No description available.",
         website_url:
@@ -28497,7 +28497,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - R Books",
+        title: "R Books",
         href: "docs/bucketlist/r-books",
         description: "No description available.",
         website_url:
@@ -28506,7 +28506,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Mind Expanding Books",
+        title: "Mind Expanding Books",
         href: "docs/bucketlist/mind-expanding-books",
         description: "No description available.",
         website_url:
@@ -28515,7 +28515,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Book Authoring",
+        title: "Book Authoring",
         href: "docs/bucketlist/book-authoring",
         description: "No description available.",
         website_url:
@@ -28524,7 +28524,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Books - Elixir Books",
+        title: "Elixir Books",
         href: "docs/bucketlist/elixir-books",
         description: "No description available.",
         website_url:
@@ -28533,7 +28533,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Editors - Sublime Text",
+        title: "Sublime Text",
         href: "docs/bucketlist/sublime-text",
         description: "No description available.",
         website_url:
@@ -28542,7 +28542,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Editors - Vim",
+        title: "Vim",
         href: "docs/bucketlist/vim",
         description: "No description available.",
         website_url:
@@ -28551,7 +28551,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Editors - Emacs",
+        title: "Emacs",
         href: "docs/bucketlist/emacs",
         description: "No description available.",
         website_url:
@@ -28560,7 +28560,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Editors - Atom",
+        title: "Atom",
         href: "docs/bucketlist/atom",
         description: "Open-Source And Hackable Text Editor.",
         website_url:
@@ -28569,7 +28569,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Editors - Visual Studio Code",
+        title: "Visual Studio Code",
         href: "docs/bucketlist/visual-studio-code",
         description: "Cross-Platform Open-Source Text Editor.",
         website_url:
@@ -28578,7 +28578,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Game Development",
+        title: "Game Development",
         href: "docs/bucketlist/game-development",
         description: "No description available.",
         website_url:
@@ -28587,7 +28587,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Game Talks",
+        title: "Game Talks",
         href: "docs/bucketlist/game-talks",
         description: "No description available.",
         website_url:
@@ -28596,7 +28596,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Godot",
+        title: "Godot",
         href: "docs/bucketlist/godot",
         description: "Game Engine.",
         website_url:
@@ -28605,7 +28605,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Open Source Games",
+        title: "Open Source Games",
         href: "docs/bucketlist/open-source-games",
         description: "No description available.",
         website_url:
@@ -28614,7 +28614,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Unity",
+        title: "Unity",
         href: "docs/bucketlist/unity",
         description: "Game Engine.",
         website_url:
@@ -28623,7 +28623,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Chess",
+        title: "Chess",
         href: "docs/bucketlist/chess",
         description: "No description available.",
         website_url:
@@ -28632,7 +28632,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - LÖVE",
+        title: "LÖVE",
         href: "docs/bucketlist/löve",
         description: "Game Engine.",
         website_url:
@@ -28641,7 +28641,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - PICO-8",
+        title: "PICO-8",
         href: "docs/bucketlist/pico-8",
         description: "Fantasy Console.",
         website_url:
@@ -28650,7 +28650,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Game Boy Development",
+        title: "Game Boy Development",
         href: "docs/bucketlist/game-boy-development",
         description: "No description available.",
         website_url:
@@ -28659,7 +28659,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Construct 2",
+        title: "Construct 2",
         href: "docs/bucketlist/construct-2",
         description: "Game Engine.",
         website_url:
@@ -28668,7 +28668,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Gideros",
+        title: "Gideros",
         href: "docs/bucketlist/gideros",
         description: "Game Engine.",
         website_url:
@@ -28677,7 +28677,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Minecraft",
+        title: "Minecraft",
         href: "docs/bucketlist/minecraft",
         description: "Sandbox Video Game.",
         website_url:
@@ -28686,7 +28686,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Game Datasets",
+        title: "Game Datasets",
         href: "docs/bucketlist/game-datasets",
         description:
           "Materials And Datasets For Artificial Intelligence In Games.",
@@ -28696,7 +28696,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Haxe Game Development",
+        title: "Haxe Game Development",
         href: "docs/bucketlist/haxe-game-development",
         description:
           "A High-Level Strongly Typed Programming Language Used To Produce Cross-Platform Native Code.",
@@ -28706,7 +28706,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - libGDX",
+        title: "libGDX",
         href: "docs/bucketlist/libgdx",
         description: "Java Game Framework.",
         website_url:
@@ -28715,7 +28715,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - PlayCanvas",
+        title: "PlayCanvas",
         href: "docs/bucketlist/playcanvas",
         description: "Game Engine.",
         website_url:
@@ -28724,7 +28724,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Game Remakes",
+        title: "Game Remakes",
         href: "docs/bucketlist/game-remakes",
         description: "Actively Maintained Open-Source Game Remakes.",
         website_url:
@@ -28733,7 +28733,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Flame",
+        title: "Flame",
         href: "docs/bucketlist/flame",
         description: "Game Engine For Flutter.",
         website_url:
@@ -28742,7 +28742,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Discord Communities",
+        title: "Discord Communities",
         href: "docs/bucketlist/discord-communities",
         description: "Chat With Friends And Communities.",
         website_url:
@@ -28751,7 +28751,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - CHIP-8",
+        title: "CHIP-8",
         href: "docs/bucketlist/chip-8",
         description: "Virtual Computer Game Machine From The 70S.",
         website_url:
@@ -28760,7 +28760,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Gaming - Games of Coding",
+        title: "Games of Coding",
         href: "docs/bucketlist/games-of-coding",
         description: "Learn A Programming Language By Making Games.",
         website_url:
@@ -28769,7 +28769,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Quick Look Plugins",
+        title: "Development Quick Look Plugins",
         href: "docs/bucketlist/quick-look-plugins",
         description: "For Macos.",
         website_url:
@@ -28778,7 +28778,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Dev Env",
+        title: "Development Dev Env",
         href: "docs/bucketlist/dev-env",
         description: "No description available.",
         website_url:
@@ -28787,7 +28787,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Dotfiles",
+        title: "Development Dotfiles",
         href: "docs/bucketlist/dotfiles",
         description: "No description available.",
         website_url:
@@ -28796,7 +28796,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Shell",
+        title: "Development Shell",
         href: "docs/bucketlist/shell",
         description: "No description available.",
         website_url:
@@ -28805,7 +28805,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Fish",
+        title: "Development Fish",
         href: "docs/bucketlist/fish",
         description: "User-Friendly Shell.",
         website_url:
@@ -28814,7 +28814,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Command-Line Apps",
+        title: "Development Command-Line Apps",
         href: "docs/bucketlist/command-line-apps",
         description: "No description available.",
         website_url:
@@ -28823,7 +28823,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - ZSH Plugins",
+        title: "Development ZSH Plugins",
         href: "docs/bucketlist/zsh-plugins",
         description: "No description available.",
         website_url:
@@ -28832,7 +28832,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - GitHub",
+        title: "Development GitHub",
         href: "docs/bucketlist/github",
         description: "Hosting Service For Git Repositories.",
         website_url:
@@ -28841,7 +28841,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Browser Extensions",
+        title: "Development Browser Extensions",
         href: "docs/bucketlist/browser-extensions",
         description: "No description available.",
         website_url:
@@ -28851,7 +28851,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Cheat Sheet",
+        title: "Development Cheat Sheet",
         href: "docs/bucketlist/cheat-sheet",
         description: "No description available.",
         website_url:
@@ -28860,7 +28860,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Pinned Gists",
+        title: "Development Pinned Gists",
         href: "docs/bucketlist/pinned-gists",
         description: "Dynamic Pinned Gists For Your Github Profile.",
         website_url:
@@ -28869,7 +28869,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Git Cheat Sheet & Git Flow",
+        title: "Development Git Cheat Sheet & Git Flow",
         href: "docs/bucketlist/git-cheat-sheet-&-git-flow",
         description: "No description available.",
         website_url:
@@ -28878,7 +28878,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Git Tips",
+        title: "Development Git Tips",
         href: "docs/bucketlist/git-tips",
         description: "No description available.",
         website_url: "https://awesome.digitalbunker.dev/awesome/git-tips/tips",
@@ -28886,7 +28886,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Git Add-ons",
+        title: "Development Git Add-ons",
         href: "docs/bucketlist/git-add-ons",
         description: "Enhance The `Git` Cli.",
         website_url:
@@ -28895,7 +28895,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Git Hooks",
+        title: "Development Git Hooks",
         href: "docs/bucketlist/git-hooks",
         description: "Scripts For Automating Tasks During `Git` Workflows.",
         website_url:
@@ -28904,7 +28904,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - SSH",
+        title: "Development SSH",
         href: "docs/bucketlist/ssh",
         description: "No description available.",
         website_url:
@@ -28913,7 +28913,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - FOSS for Developers",
+        title: "Development FOSS for Developers",
         href: "docs/bucketlist/foss-for-developers",
         description: "No description available.",
         website_url:
@@ -28922,7 +28922,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Hyper",
+        title: "Development Hyper",
         href: "docs/bucketlist/hyper",
         description: "Cross-Platform Terminal App Built On Web Technologies.",
         website_url:
@@ -28931,7 +28931,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - PowerShell",
+        title: "Development PowerShell",
         href: "docs/bucketlist/powershell",
         description: "Cross-Platform Object-Oriented Shell.",
         website_url:
@@ -28940,7 +28940,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Alfred Workflows",
+        title: "Development Alfred Workflows",
         href: "docs/bucketlist/alfred-workflows",
         description: "Productivity App For Macos.",
         website_url:
@@ -28949,7 +28949,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - Terminals Are Sexy",
+        title: "Development Terminals Are Sexy",
         href: "docs/bucketlist/terminals-are-sexy",
         description: "No description available.",
         website_url:
@@ -28958,7 +28958,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Development Environment - GitHub Actions",
+        title: "Development GitHub Actions",
         href: "docs/bucketlist/github-actions",
         description:
           "Create Tasks To Automate Your Workflow And Share Them With Others On Github.",
@@ -28968,7 +28968,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Entertainment - Science Fiction",
+        title: "Science Fiction",
         href: "docs/bucketlist/science-fiction",
         description: "Scifi.",
         website_url:
@@ -28977,7 +28977,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Entertainment - Fantasy",
+        title: "Fantasy",
         href: "docs/bucketlist/fantasy",
         description: "No description available.",
         website_url:
@@ -28986,7 +28986,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Entertainment - Podcasts",
+        title: "Podcasts",
         href: "docs/bucketlist/podcasts",
         description: "No description available.",
         website_url:
@@ -28995,7 +28995,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Entertainment - Email Newsletters",
+        title: "Email Newsletters",
         href: "docs/bucketlist/email-newsletters",
         description: "No description available.",
         website_url:
@@ -29004,7 +29004,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Entertainment - IT Quotes",
+        title: "IT Quotes",
         href: "docs/bucketlist/it-quotes",
         description: "No description available.",
         website_url:
@@ -29013,7 +29013,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - Database",
+        title: "Database",
         href: "docs/bucketlist/database",
         description: "No description available.",
         website_url:
@@ -29022,7 +29022,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - MySQL",
+        title: "MySQL",
         href: "docs/bucketlist/mysql",
         description: "No description available.",
         website_url:
@@ -29031,7 +29031,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - SQLAlchemy",
+        title: "SQLAlchemy",
         href: "docs/bucketlist/sqlalchemy",
         description: "No description available.",
         website_url:
@@ -29040,7 +29040,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - InfluxDB",
+        title: "InfluxDB",
         href: "docs/bucketlist/influxdb",
         description: "No description available.",
         website_url:
@@ -29049,7 +29049,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - Neo4j",
+        title: "Neo4j",
         href: "docs/bucketlist/neo4j",
         description: "No description available.",
         website_url:
@@ -29058,7 +29058,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - MongoDB",
+        title: "MongoDB",
         href: "docs/bucketlist/mongodb",
         description: "Nosql Database.",
         website_url:
@@ -29067,7 +29067,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - RethinkDB",
+        title: "RethinkDB",
         href: "docs/bucketlist/rethinkdb",
         description: "No description available.",
         website_url:
@@ -29076,7 +29076,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - TinkerPop",
+        title: "TinkerPop",
         href: "docs/bucketlist/tinkerpop",
         description: "Graph Computing Framework.",
         website_url:
@@ -29085,7 +29085,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - PostgreSQL",
+        title: "PostgreSQL",
         href: "docs/bucketlist/postgresql",
         description: "Object-Relational Database.",
         website_url:
@@ -29094,7 +29094,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - CouchDB",
+        title: "CouchDB",
         href: "docs/bucketlist/couchdb",
         description: "Document-Oriented Nosql Database.",
         website_url:
@@ -29103,7 +29103,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - HBase",
+        title: "HBase",
         href: "docs/bucketlist/hbase",
         description: "Distributed, Scalable, Big Data Store.",
         website_url:
@@ -29112,7 +29112,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - NoSQL Guides",
+        title: "NoSQL Guides",
         href: "docs/bucketlist/nosql-guides",
         description:
           "Help On Using Non-Relational, Distributed, Open-Source, And Horizontally Scalable Databases.",
@@ -29122,7 +29122,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - Contexture",
+        title: "Contexture",
         href: "docs/bucketlist/contexture",
         description:
           "Abstracts Queries/Filters And Results/Aggregations From Different Backing Data Stores Like Elasticsearch And Mongodb.",
@@ -29132,7 +29132,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Databases - Database Tools",
+        title: "Database Tools",
         href: "docs/bucketlist/database-tools",
         description: "Everything That Makes Working With Databases Easier.",
         website_url:
@@ -29141,7 +29141,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Creative Commons Media",
+        title: "Creative Commons Media",
         href: "docs/bucketlist/creative-commons-media",
         description: "No description available.",
         website_url:
@@ -29150,7 +29150,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Fonts",
+        title: "Fonts",
         href: "docs/bucketlist/fonts",
         description: "No description available.",
         website_url:
@@ -29159,7 +29159,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Codeface",
+        title: "Codeface",
         href: "docs/bucketlist/codeface",
         description: "Text Editor Fonts.",
         website_url:
@@ -29168,7 +29168,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Stock Resources",
+        title: "Stock Resources",
         href: "docs/bucketlist/stock-resources",
         description: "No description available.",
         website_url:
@@ -29177,7 +29177,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - GIF",
+        title: "GIF",
         href: "docs/bucketlist/gif",
         description: "Image Format Known For Animated Images.",
         website_url:
@@ -29186,7 +29186,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Music",
+        title: "Music",
         href: "docs/bucketlist/music",
         description: "No description available.",
         website_url:
@@ -29195,7 +29195,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Open Source Documents",
+        title: "Open Source Documents",
         href: "docs/bucketlist/open-source-documents",
         description: "No description available.",
         website_url:
@@ -29204,7 +29204,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Audio Visualization",
+        title: "Audio Visualization",
         href: "docs/bucketlist/audio-visualization",
         description: "No description available.",
         website_url:
@@ -29214,7 +29214,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Broadcasting",
+        title: "Broadcasting",
         href: "docs/bucketlist/broadcasting",
         description: "No description available.",
         website_url:
@@ -29223,7 +29223,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Pixel Art",
+        title: "Pixel Art",
         href: "docs/bucketlist/pixel-art",
         description: "Pixel-Level Digital Art.",
         website_url:
@@ -29232,7 +29232,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - FFmpeg",
+        title: "FFmpeg",
         href: "docs/bucketlist/ffmpeg",
         description:
           "Cross-Platform Solution To Record, Convert And Stream Audio And Video.",
@@ -29242,7 +29242,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Icons",
+        title: "Icons",
         href: "docs/bucketlist/icons",
         description: "Downloadable Svg/Png/Font Icon Projects.",
         website_url:
@@ -29251,7 +29251,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Media - Audiovisual",
+        title: "Audiovisual",
         href: "docs/bucketlist/audiovisual",
         description: "Lighting, Audio And Video In Professional Environments.",
         website_url:
@@ -29260,7 +29260,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - CLI Workshoppers",
+        title: "CLI Workshoppers",
         href: "docs/bucketlist/cli-workshoppers",
         description: "Interactive Tutorials.",
         website_url:
@@ -29269,7 +29269,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Learn to Program",
+        title: "Learn to Program",
         href: "docs/bucketlist/learn-to-program",
         description: "No description available.",
         website_url:
@@ -29278,7 +29278,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Speaking",
+        title: "Speaking",
         href: "docs/bucketlist/speaking",
         description: "No description available.",
         website_url:
@@ -29287,7 +29287,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Tech Videos",
+        title: "Tech Videos",
         href: "docs/bucketlist/tech-videos",
         description: "No description available.",
         website_url:
@@ -29296,7 +29296,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Dive into Machine Learning",
+        title: "Dive into Machine Learning",
         href: "docs/bucketlist/dive-into-machine-learning",
         description: "No description available.",
         website_url:
@@ -29305,7 +29305,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Computer History",
+        title: "Computer History",
         href: "docs/bucketlist/computer-history",
         description: "No description available.",
         website_url:
@@ -29314,7 +29314,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Programming for Kids",
+        title: "Programming for Kids",
         href: "docs/bucketlist/programming-for-kids",
         description: "No description available.",
         website_url:
@@ -29324,7 +29324,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Educational Games",
+        title: "Educational Games",
         href: "docs/bucketlist/educational-games",
         description: "Learn While Playing.",
         website_url:
@@ -29333,7 +29333,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - JavaScript Learning",
+        title: "JavaScript Learning",
         href: "docs/bucketlist/javascript-learning",
         description: "No description available.",
         website_url:
@@ -29342,7 +29342,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - CSS Learning",
+        title: "CSS Learning",
         href: "docs/bucketlist/css-learning",
         description: "Mainly About Css – The Language And The Modules.",
         website_url:
@@ -29351,7 +29351,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Product Management",
+        title: "Product Management",
         href: "docs/bucketlist/product-management",
         description: "Learn How To Be A Better Product Manager.",
         website_url:
@@ -29360,7 +29360,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - Roadmaps",
+        title: "Roadmaps",
         href: "docs/bucketlist/roadmaps",
         description:
           "Gives You A Clear Route To Improve Your Knowledge And Skills.",
@@ -29370,7 +29370,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Learn - YouTubers",
+        title: "YouTubers",
         href: "docs/bucketlist/youtubers",
         description:
           "Watch Video Tutorials From Youtubers That Teach You About Technology.",
@@ -29380,7 +29380,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Application Security",
+        title: "Application Security",
         href: "docs/bucketlist/application-security",
         description: "No description available.",
         website_url:
@@ -29389,7 +29389,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Security",
+        title: "Security",
         href: "docs/bucketlist/security",
         description: "No description available.",
         website_url:
@@ -29398,7 +29398,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - CTF",
+        title: "CTF",
         href: "docs/bucketlist/ctf",
         description: "Capture The Flag.",
         website_url:
@@ -29407,7 +29407,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Malware Analysis",
+        title: "Malware Analysis",
         href: "docs/bucketlist/malware-analysis",
         description: "No description available.",
         website_url:
@@ -29416,7 +29416,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Android Security",
+        title: "Android Security",
         href: "docs/bucketlist/android-security",
         description: "No description available.",
         website_url:
@@ -29425,7 +29425,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Hacking",
+        title: "Hacking",
         href: "docs/bucketlist/hacking",
         description: "No description available.",
         website_url:
@@ -29434,7 +29434,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Honeypots",
+        title: "Honeypots",
         href: "docs/bucketlist/honeypots",
         description:
           "Deception Trap, Designed To Entice An Attacker Into Attempting To Compromise The Information Systems In An Organization.",
@@ -29444,7 +29444,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Incident Response",
+        title: "Incident Response",
         href: "docs/bucketlist/incident-response",
         description: "No description available.",
         website_url:
@@ -29453,7 +29453,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Vehicle Security and Car Hacking",
+        title: "Vehicle Security and Car Hacking",
         href: "docs/bucketlist/vehicle-security-and-car-hacking",
         description: "No description available.",
         website_url:
@@ -29463,7 +29463,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Web Security",
+        title: "Web Security",
         href: "docs/bucketlist/web-security",
         description: "Security Of Web Apps & Services.",
         website_url:
@@ -29472,7 +29472,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Lockpicking",
+        title: "Lockpicking",
         href: "docs/bucketlist/lockpicking",
         description:
           "The Art Of Unlocking A Lock By Manipulating Its Components Without The Key.",
@@ -29482,7 +29482,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Cybersecurity Blue Team",
+        title: "Cybersecurity Blue Team",
         href: "docs/bucketlist/cybersecurity-blue-team",
         description:
           "Groups Of Individuals Who Identify Security Flaws In Information Technology Systems.",
@@ -29493,7 +29493,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Fuzzing",
+        title: "Fuzzing",
         href: "docs/bucketlist/fuzzing",
         description:
           "Automated Software Testing Technique That Involves Feeding Pseudo-Randomly Generated Input Data.",
@@ -29503,7 +29503,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - Embedded and IoT Security",
+        title: "Embedded and IoT Security",
         href: "docs/bucketlist/embedded-and-iot-security",
         description: "No description available.",
         website_url:
@@ -29513,7 +29513,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - GDPR",
+        title: "GDPR",
         href: "docs/bucketlist/gdpr",
         description:
           "Regulation On Data Protection And Privacy For All Individuals Within Eu.",
@@ -29523,7 +29523,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Security - DevSecOps",
+        title: "DevSecOps",
         href: "docs/bucketlist/devsecops",
         description: "No description available.",
         website_url:
@@ -29532,7 +29532,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Umbraco",
+        title: "Content Management Umbraco",
         href: "docs/bucketlist/umbraco",
         description: "No description available.",
         website_url:
@@ -29541,7 +29541,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Refinery CMS",
+        title: "Content Management Refinery CMS",
         href: "docs/bucketlist/refinery-cms",
         description: "Ruby On Rails Cms.",
         website_url:
@@ -29551,7 +29551,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Wagtail",
+        title: "Content Management Wagtail",
         href: "docs/bucketlist/wagtail",
         description: "Django Cms Focused On Flexibility And User Experience.",
         website_url:
@@ -29560,7 +29560,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Textpattern",
+        title: "Content Management Textpattern",
         href: "docs/bucketlist/textpattern",
         description: "Lightweight Php-Based Cms.",
         website_url:
@@ -29569,7 +29569,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Drupal",
+        title: "Content Management Drupal",
         href: "docs/bucketlist/drupal",
         description: "Extensible Php-Based Cms.",
         website_url:
@@ -29578,7 +29578,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Craft CMS",
+        title: "Content Management Craft CMS",
         href: "docs/bucketlist/craft-cms",
         description: "Content-First Cms.",
         website_url:
@@ -29587,7 +29587,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Sitecore",
+        title: "Content Management Sitecore",
         href: "docs/bucketlist/sitecore",
         description:
           ".Net Digital Marketing Platform That Combines Cms With Tools For Managing Multiple Websites.",
@@ -29597,7 +29597,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Content Management Systems - Silverstripe CMS",
+        title: "Content Management Silverstripe CMS",
         href: "docs/bucketlist/silverstripe-cms",
         description:
           "Php Mvc Framework That Serves As A Classic Or Headless Cms.",
@@ -29607,7 +29607,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Robotics",
+        title: "Robotics",
         href: "docs/bucketlist/robotics",
         description: "No description available.",
         website_url:
@@ -29616,7 +29616,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Internet of Things",
+        title: "Internet of Things",
         href: "docs/bucketlist/internet-of-things",
         description: "No description available.",
         website_url:
@@ -29625,7 +29625,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Electronics",
+        title: "Electronics",
         href: "docs/bucketlist/electronics",
         description: "For Electronic Engineers And Hobbyists.",
         website_url:
@@ -29634,7 +29634,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Bluetooth Beacons",
+        title: "Bluetooth Beacons",
         href: "docs/bucketlist/bluetooth-beacons",
         description: "No description available.",
         website_url:
@@ -29643,7 +29643,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Electric Guitar Specifications",
+        title: "Electric Guitar Specifications",
         href: "docs/bucketlist/electric-guitar-specifications",
         description: "Checklist For Building Your Own Electric Guitar.",
         website_url:
@@ -29652,7 +29652,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Plotters",
+        title: "Plotters",
         href: "docs/bucketlist/plotters",
         description:
           "Computer-Controlled Drawing Machines And Other Visual Art Robots.",
@@ -29662,7 +29662,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - Robotic Tooling",
+        title: "Robotic Tooling",
         href: "docs/bucketlist/robotic-tooling",
         description:
           "Free And Open Tools For Professional Robotic Development.",
@@ -29672,7 +29672,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Hardware - LIDAR",
+        title: "LIDAR",
         href: "docs/bucketlist/lidar",
         description:
           "Sensor For Measuring Distances By Illuminating The Target With Laser Light.",
@@ -29682,7 +29682,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Open Companies",
+        title: "Open Companies",
         href: "docs/bucketlist/open-companies",
         description: "No description available.",
         website_url:
@@ -29691,7 +29691,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Places to Post Your Startup",
+        title: "Places to Post Your Startup",
         href: "docs/bucketlist/places-to-post-your-startup",
         description: "No description available.",
         website_url:
@@ -29700,7 +29700,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - OKR Methodology",
+        title: "OKR Methodology",
         href: "docs/bucketlist/okr-methodology",
         description: "Goal Setting & Communication Best Practices.",
         website_url:
@@ -29709,7 +29709,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Leading and Managing",
+        title: "Leading and Managing",
         href: "docs/bucketlist/leading-and-managing",
         description:
           "Leading People And Being A Manager In A Technology Company/Environment.",
@@ -29720,7 +29720,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Indie",
+        title: "Indie",
         href: "docs/bucketlist/indie",
         description: "Independent Developer Businesses.",
         website_url:
@@ -29729,7 +29729,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Tools of the Trade",
+        title: "Tools of the Trade",
         href: "docs/bucketlist/tools-of-the-trade",
         description: "Tools Used By Companies On Hacker News.",
         website_url:
@@ -29738,7 +29738,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Clean Tech",
+        title: "Clean Tech",
         href: "docs/bucketlist/clean-tech",
         description: "Fighting Climate Change With Technology.",
         website_url:
@@ -29747,7 +29747,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Wardley Maps",
+        title: "Wardley Maps",
         href: "docs/bucketlist/wardley-maps",
         description:
           "Provides High Situational Awareness To Help Improve Strategic Planning And Decision Making.",
@@ -29758,7 +29758,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Social Enterprise",
+        title: "Social Enterprise",
         href: "docs/bucketlist/social-enterprise",
         description:
           "Building An Organization Primarily Focused On Social Impact That Is At Least Partially Self-Funded.",
@@ -29768,7 +29768,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Business - Engineering Team Management",
+        title: "Engineering Team Management",
         href: "docs/bucketlist/engineering-team-management",
         description:
           "How To Transition From Software Development To Engineering Management.",
@@ -29779,7 +29779,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Slack",
+        title: "Slack",
         href: "docs/bucketlist/slack",
         description: "Team Collaboration.",
         website_url:
@@ -29788,7 +29788,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Communities",
+        title: "Communities",
         href: "docs/bucketlist/communities",
         description: "No description available.",
         website_url:
@@ -29797,7 +29797,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Remote Jobs",
+        title: "Remote Jobs",
         href: "docs/bucketlist/remote-jobs",
         description: "No description available.",
         website_url:
@@ -29806,7 +29806,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Productivity",
+        title: "Productivity",
         href: "docs/bucketlist/productivity",
         description: "No description available.",
         website_url:
@@ -29815,7 +29815,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Niche Job Boards",
+        title: "Niche Job Boards",
         href: "docs/bucketlist/niche-job-boards",
         description: "No description available.",
         website_url:
@@ -29824,7 +29824,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Programming Interviews",
+        title: "Programming Interviews",
         href: "docs/bucketlist/programming-interviews",
         description: "No description available.",
         website_url:
@@ -29834,7 +29834,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Code Review",
+        title: "Code Review",
         href: "docs/bucketlist/code-review",
         description: "Reviewing Code.",
         website_url:
@@ -29843,7 +29843,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Work - Creative Technology",
+        title: "Creative Technology",
         href: "docs/bucketlist/creative-technology",
         description:
           "Businesses & Groups That Specialize In Combining Computing, Design, Art, And User Experience.",
@@ -29853,7 +29853,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Networking - Software-Defined Networking",
+        title: "Software-Defined Networking",
         href: "docs/bucketlist/software-defined-networking",
         description: "No description available.",
         website_url:
@@ -29862,7 +29862,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Networking - Network Analysis",
+        title: "Network Analysis",
         href: "docs/bucketlist/network-analysis",
         description: "No description available.",
         website_url:
@@ -29871,7 +29871,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Networking - PCAPTools",
+        title: "PCAPTools",
         href: "docs/bucketlist/pcaptools",
         description: "No description available.",
         website_url:
@@ -29880,7 +29880,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Networking - Real-Time Communications",
+        title: "Real-Time Communications",
         href: "docs/bucketlist/real-time-communications",
         description:
           "Network Protocols For Near Simultaneous Exchange Of Media And Data.",
@@ -29890,7 +29890,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Bitcoin",
+        title: "Decentralized Bitcoin",
         href: "docs/bucketlist/bitcoin",
         description: "Bitcoin Services And Tools For Software Developers.",
         website_url:
@@ -29899,7 +29899,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Ripple",
+        title: "Decentralized Ripple",
         href: "docs/bucketlist/ripple",
         description: "Open Source Distributed Settlement Network.",
         website_url:
@@ -29908,7 +29908,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Non-Financial Blockchain",
+        title: "Decentralized Non-Financial Blockchain",
         href: "docs/bucketlist/non-financial-blockchain",
         description: "Non-Financial Blockchain Applications.",
         website_url:
@@ -29918,7 +29918,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Mastodon",
+        title: "Decentralized Mastodon",
         href: "docs/bucketlist/mastodon",
         description: "Open Source Decentralized Microblogging Network.",
         website_url:
@@ -29927,7 +29927,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Ethereum",
+        title: "Decentralized Ethereum",
         href: "docs/bucketlist/ethereum",
         description:
           "Distributed Computing Platform For Smart Contract Development.",
@@ -29937,7 +29937,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Blockchain AI",
+        title: "Decentralized Blockchain AI",
         href: "docs/bucketlist/blockchain-ai",
         description:
           "Blockchain Projects For Artificial Intelligence And Machine Learning.",
@@ -29947,7 +29947,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - EOSIO",
+        title: "Decentralized EOSIO",
         href: "docs/bucketlist/eosio",
         description:
           "A Decentralized Operating System Supporting Industrial-Scale Apps.",
@@ -29957,7 +29957,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Corda",
+        title: "Decentralized Corda",
         href: "docs/bucketlist/corda",
         description: "Open Source Blockchain Platform Designed For Business.",
         website_url:
@@ -29966,7 +29966,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Waves",
+        title: "Decentralized Waves",
         href: "docs/bucketlist/waves",
         description:
           "Open Source Blockchain Platform And Development Toolset For Web 3.0 Apps And Decentralized Solutions.",
@@ -29976,7 +29976,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Decentralized Systems - Substrate",
+        title: "Decentralized Substrate",
         href: "docs/bucketlist/substrate",
         description:
           "Framework For Writing Scalable, Upgradeable Blockchains In Rust.",
@@ -29987,7 +29987,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Higher Education - Computational Neuroscience",
+        title: "Higher Computational Neuroscience",
         href: "docs/bucketlist/computational-neuroscience",
         description:
           "A Multidisciplinary Science Which Uses Computational Approaches To Study The Nervous System.",
@@ -29998,7 +29998,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Higher Education - Digital History",
+        title: "Higher Digital History",
         href: "docs/bucketlist/digital-history",
         description: "Computer-Aided Scientific Investigation Of History.",
         website_url:
@@ -30007,7 +30007,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Higher Education - Scientific Writing",
+        title: "Higher Scientific Writing",
         href: "docs/bucketlist/scientific-writing",
         description:
           "Distraction-Free Scientific Writing With Markdown, Restructuredtext And Jupyter Notebooks.",
@@ -30018,7 +30018,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Higher Education - Sustainable Technology",
+        title: "Higher Sustainable Technology",
         href: "docs/bucketlist/sustainable-technology",
         description:
           "Open Technology Sustaining Stable Climate, Energy Supply, And Vital Natural Resources.",
@@ -30029,7 +30029,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Events - Creative Tech Events",
+        title: "Creative Tech Events",
         href: "docs/bucketlist/creative-tech-events",
         description:
           "Events Around The Globe For Creative Coding, Tech, Design, Music, Arts And Cool Stuff.",
@@ -30039,7 +30039,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Events - Events in Italy",
+        title: "Events in Italy",
         href: "docs/bucketlist/events-in-italy",
         description: "Tech-Related Events In Italy.",
         website_url:
@@ -30048,7 +30048,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Events - Events in the Netherlands",
+        title: "Events in the Netherlands",
         href: "docs/bucketlist/events-in-the-netherlands",
         description: "Tech-Related Events In The Netherlands.",
         website_url:
@@ -30057,7 +30057,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - Testing",
+        title: "Testing",
         href: "docs/bucketlist/testing",
         description: "Software Testing.",
         website_url:
@@ -30066,7 +30066,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - Visual Regression Testing",
+        title: "Visual Regression Testing",
         href: "docs/bucketlist/visual-regression-testing",
         description:
           "Ensures Changes Did Not Break The Functionality Or Style.",
@@ -30076,7 +30076,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - Selenium",
+        title: "Selenium",
         href: "docs/bucketlist/selenium",
         description: "Open-Source Browser Automation Framework And Ecosystem.",
         website_url:
@@ -30085,7 +30085,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - Appium",
+        title: "Appium",
         href: "docs/bucketlist/appium",
         description: "Test Automation Tool For Apps.",
         website_url:
@@ -30094,7 +30094,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - TAP",
+        title: "TAP",
         href: "docs/bucketlist/tap",
         description: "Test Anything Protocol.",
         website_url:
@@ -30103,7 +30103,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - JMeter",
+        title: "JMeter",
         href: "docs/bucketlist/jmeter",
         description: "Load Testing And Performance Measurement Tool.",
         website_url:
@@ -30112,7 +30112,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - k6",
+        title: "k6",
         href: "docs/bucketlist/k6",
         description:
           "Open-Source, Developer-Centric Performance Monitoring And Load Testing Solution.",
@@ -30122,7 +30122,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Testing - Playwright",
+        title: "Playwright",
         href: "docs/bucketlist/playwright",
         description:
           "Node.Js Library To Automate Chromium, Firefox And Webkit With A Single Api.",
@@ -30132,7 +30132,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - JSON",
+        title: "JSON",
         href: "docs/bucketlist/json",
         description: "Text Based Data Interchange Format.",
         website_url:
@@ -30141,7 +30141,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - GeoJSON",
+        title: "GeoJSON",
         href: "docs/bucketlist/geojson",
         description: "No description available.",
         website_url:
@@ -30150,7 +30150,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Datasets",
+        title: "Datasets",
         href: "docs/bucketlist/datasets",
         description: "No description available.",
         website_url:
@@ -30159,7 +30159,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - CSV",
+        title: "CSV",
         href: "docs/bucketlist/csv",
         description:
           "A Text File Format That Stores Tabular Data And Uses A Comma To Separate Values.",
@@ -30169,7 +30169,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Discounts for Student Developers",
+        title: "Discounts for Student Developers",
         href: "docs/bucketlist/discounts-for-student-developers",
         description: "No description available.",
         website_url:
@@ -30178,7 +30178,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Radio",
+        title: "Radio",
         href: "docs/bucketlist/radio",
         description: "No description available.",
         website_url:
@@ -30187,7 +30187,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Awesome",
+        title: "Awesome",
         href: "docs/bucketlist/awesome",
         description: "Recursion Illustrated.",
         website_url:
@@ -30196,7 +30196,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Analytics",
+        title: "Analytics",
         href: "docs/bucketlist/analytics",
         description: "No description available.",
         website_url:
@@ -30205,7 +30205,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - REST",
+        title: "REST",
         href: "docs/bucketlist/rest",
         description: "No description available.",
         website_url:
@@ -30214,7 +30214,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Continuous Integration and Continuous Delivery",
+        title: "Continuous Integration and Continuous Delivery",
         href: "docs/bucketlist/continuous-integration-and-continuous-delivery",
         description: "No description available.",
         website_url:
@@ -30223,7 +30223,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Services Engineering",
+        title: "Services Engineering",
         href: "docs/bucketlist/services-engineering",
         description: "No description available.",
         website_url:
@@ -30232,7 +30232,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Free for Developers",
+        title: "Free for Developers",
         href: "docs/bucketlist/free-for-developers",
         description: "No description available.",
         website_url:
@@ -30241,7 +30241,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Answers",
+        title: "Answers",
         href: "docs/bucketlist/answers",
         description: "Stack Overflow, Quora, Etc.",
         website_url:
@@ -30250,7 +30250,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Sketch",
+        title: "Sketch",
         href: "docs/bucketlist/sketch",
         description: "Design App For Macos.",
         website_url:
@@ -30259,7 +30259,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Boilerplate Projects",
+        title: "Boilerplate Projects",
         href: "docs/bucketlist/boilerplate-projects",
         description: "No description available.",
         website_url:
@@ -30269,7 +30269,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Readme",
+        title: "Readme",
         href: "docs/bucketlist/readme",
         description: "No description available.",
         website_url:
@@ -30278,7 +30278,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Design and Development Guides",
+        title: "Design and Development Guides",
         href: "docs/bucketlist/design-and-development-guides",
         description: "No description available.",
         website_url: "https://awesome.digitalbunker.dev/awesome/NARKOZ/guides",
@@ -30286,7 +30286,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Software Engineering Blogs",
+        title: "Software Engineering Blogs",
         href: "docs/bucketlist/software-engineering-blogs",
         description: "No description available.",
         website_url:
@@ -30295,7 +30295,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Self Hosted",
+        title: "Self Hosted",
         href: "docs/bucketlist/self-hosted",
         description: "No description available.",
         website_url:
@@ -30304,7 +30304,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - FOSS Production Apps",
+        title: "FOSS Production Apps",
         href: "docs/bucketlist/foss-production-apps",
         description: "No description available.",
         website_url:
@@ -30313,7 +30313,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Gulp",
+        title: "Gulp",
         href: "docs/bucketlist/gulp",
         description: "Task Runner.",
         website_url:
@@ -30322,7 +30322,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - AMA",
+        title: "AMA",
         href: "docs/bucketlist/ama",
         description: "Ask Me Anything.",
         website_url:
@@ -30331,7 +30331,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Answers",
+        title: "Answers",
         href: "docs/bucketlist/answers",
         description: "No description available.",
         website_url:
@@ -30340,7 +30340,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Open Source Photography",
+        title: "Open Source Photography",
         href: "docs/bucketlist/open-source-photography",
         description: "No description available.",
         website_url:
@@ -30349,7 +30349,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - OpenGL",
+        title: "OpenGL",
         href: "docs/bucketlist/opengl",
         description: "Cross-Platform Api For Rendering 2D And 3D Graphics.",
         website_url:
@@ -30358,7 +30358,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - GraphQL",
+        title: "GraphQL",
         href: "docs/bucketlist/graphql",
         description: "No description available.",
         website_url:
@@ -30367,7 +30367,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Transit",
+        title: "Transit",
         href: "docs/bucketlist/transit",
         description: "No description available.",
         website_url:
@@ -30376,7 +30376,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Research Tools",
+        title: "Research Tools",
         href: "docs/bucketlist/research-tools",
         description: "No description available.",
         website_url:
@@ -30385,7 +30385,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Data Visualization",
+        title: "Data Visualization",
         href: "docs/bucketlist/data-visualization",
         description: "No description available.",
         website_url:
@@ -30394,7 +30394,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Microservices",
+        title: "Microservices",
         href: "docs/bucketlist/microservices",
         description: "No description available.",
         website_url:
@@ -30403,7 +30403,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Unicode",
+        title: "Unicode",
         href: "docs/bucketlist/unicode",
         description: "Unicode Standards, Quirks, Packages And Resources.",
         website_url:
@@ -30412,7 +30412,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Code Points",
+        title: "Code Points",
         href: "docs/bucketlist/code-points",
         description: "No description available.",
         website_url:
@@ -30421,7 +30421,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Beginner-Friendly Projects",
+        title: "Beginner-Friendly Projects",
         href: "docs/bucketlist/beginner-friendly-projects",
         description: "No description available.",
         website_url:
@@ -30430,7 +30430,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Katas",
+        title: "Katas",
         href: "docs/bucketlist/katas",
         description: "No description available.",
         website_url:
@@ -30439,7 +30439,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Tools for Activism",
+        title: "Tools for Activism",
         href: "docs/bucketlist/tools-for-activism",
         description: "No description available.",
         website_url:
@@ -30448,7 +30448,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Citizen Science",
+        title: "Citizen Science",
         href: "docs/bucketlist/citizen-science",
         description: "For Community-Based And Non-Institutional Scientists.",
         website_url:
@@ -30457,7 +30457,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - MQTT",
+        title: "MQTT",
         href: "docs/bucketlist/mqtt",
         description: "Internet Of Things Connectivity Protocol.",
         website_url:
@@ -30466,7 +30466,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Hacking Spots",
+        title: "Hacking Spots",
         href: "docs/bucketlist/hacking-spots",
         description: "No description available.",
         website_url:
@@ -30475,7 +30475,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - For Girls",
+        title: "For Girls",
         href: "docs/bucketlist/for-girls",
         description: "No description available.",
         website_url:
@@ -30484,7 +30484,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Vorpal",
+        title: "Vorpal",
         href: "docs/bucketlist/vorpal",
         description: "Node.Js Cli Framework.",
         website_url:
@@ -30493,7 +30493,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Vulkan",
+        title: "Vulkan",
         href: "docs/bucketlist/vulkan",
         description:
           "Low-Overhead, Cross-Platform 3D Graphics And Compute Api.",
@@ -30503,7 +30503,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - LaTeX",
+        title: "LaTeX",
         href: "docs/bucketlist/latex",
         description: "Typesetting Language.",
         website_url:
@@ -30512,7 +30512,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Economics",
+        title: "Economics",
         href: "docs/bucketlist/economics",
         description: "An Economist'S Starter Kit.",
         website_url:
@@ -30521,7 +30521,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Funny Markov Chains",
+        title: "Funny Markov Chains",
         href: "docs/bucketlist/funny-markov-chains",
         description: "No description available.",
         website_url:
@@ -30530,7 +30530,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Bioinformatics",
+        title: "Bioinformatics",
         href: "docs/bucketlist/bioinformatics",
         description: "No description available.",
         website_url:
@@ -30539,7 +30539,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Cheminformatics",
+        title: "Cheminformatics",
         href: "docs/bucketlist/cheminformatics",
         description: "Informatics Techniques Applied To Problems In Chemistry.",
         website_url:
@@ -30548,7 +30548,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Colorful",
+        title: "Colorful",
         href: "docs/bucketlist/colorful",
         description: "Choose Your Next Color Scheme.",
         website_url:
@@ -30557,7 +30557,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Steam",
+        title: "Steam",
         href: "docs/bucketlist/steam",
         description: "Digital Distribution Platform.",
         website_url:
@@ -30566,7 +30566,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Bots",
+        title: "Bots",
         href: "docs/bucketlist/bots",
         description: "Building Bots.",
         website_url: "https://awesome.digitalbunker.dev/awesome/hackerkid/bots",
@@ -30574,7 +30574,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Site Reliability Engineering",
+        title: "Site Reliability Engineering",
         href: "docs/bucketlist/site-reliability-engineering",
         description: "No description available.",
         website_url:
@@ -30583,7 +30583,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Empathy in Engineering",
+        title: "Empathy in Engineering",
         href: "docs/bucketlist/empathy-in-engineering",
         description:
           "Building And Promoting More Compassionate Engineering Cultures.",
@@ -30593,7 +30593,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - DTrace",
+        title: "DTrace",
         href: "docs/bucketlist/dtrace",
         description: "Dynamic Tracing Framework.",
         website_url:
@@ -30602,7 +30602,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Userscripts",
+        title: "Userscripts",
         href: "docs/bucketlist/userscripts",
         description: "Enhance Your Browsing Experience.",
         website_url:
@@ -30611,7 +30611,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Pokémon",
+        title: "Pokémon",
         href: "docs/bucketlist/pokémon",
         description: "Pokémon And Pokémon Go.",
         website_url:
@@ -30620,7 +30620,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - ChatOps",
+        title: "ChatOps",
         href: "docs/bucketlist/chatops",
         description:
           "Managing Technical And Business Operations Through A Chat.",
@@ -30630,7 +30630,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Falsehood",
+        title: "Falsehood",
         href: "docs/bucketlist/falsehood",
         description: "Falsehoods Programmers Believe In.",
         website_url:
@@ -30639,7 +30639,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Domain-Driven Design",
+        title: "Domain-Driven Design",
         href: "docs/bucketlist/domain-driven-design",
         description:
           "Software Development Approach For Complex Needs By Connecting The Implementation To An Evolving Model.",
@@ -30649,7 +30649,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Quantified Self",
+        title: "Quantified Self",
         href: "docs/bucketlist/quantified-self",
         description: "Self-Tracking Through Technology.",
         website_url:
@@ -30658,7 +30658,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - SaltStack",
+        title: "SaltStack",
         href: "docs/bucketlist/saltstack",
         description: "Python-Based Config Management System.",
         website_url:
@@ -30667,7 +30667,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Web Design",
+        title: "Web Design",
         href: "docs/bucketlist/web-design",
         description: "For Digital Designers.",
         website_url:
@@ -30676,7 +30676,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Creative Coding",
+        title: "Creative Coding",
         href: "docs/bucketlist/creative-coding",
         description:
           "Programming Something Expressive Instead Of Something Functional.",
@@ -30686,7 +30686,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - No-Login Web Apps",
+        title: "No-Login Web Apps",
         href: "docs/bucketlist/no-login-web-apps",
         description: "Web Apps That Work Without Login.",
         website_url:
@@ -30695,7 +30695,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Free Software",
+        title: "Free Software",
         href: "docs/bucketlist/free-software",
         description: "Free As In Freedom.",
         website_url:
@@ -30704,7 +30704,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Framer",
+        title: "Framer",
         href: "docs/bucketlist/framer",
         description: "Prototyping Interactive Ui Designs.",
         website_url:
@@ -30713,7 +30713,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Markdown",
+        title: "Markdown",
         href: "docs/bucketlist/markdown",
         description: "Markup Language.",
         website_url:
@@ -30722,7 +30722,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Dev Fun",
+        title: "Dev Fun",
         href: "docs/bucketlist/dev-fun",
         description: "Funny Developer Projects.",
         website_url:
@@ -30731,7 +30731,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Healthcare",
+        title: "Healthcare",
         href: "docs/bucketlist/healthcare",
         description:
           "Open Source Healthcare Software For Facilities, Providers, Developers, Policy Experts, And Researchers.",
@@ -30741,7 +30741,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Magento 2",
+        title: "Magento 2",
         href: "docs/bucketlist/magento-2",
         description: "Open Source Ecommerce Built With Php.",
         website_url:
@@ -30750,7 +30750,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - TikZ",
+        title: "TikZ",
         href: "docs/bucketlist/tikz",
         description: "Graph Drawing Packages For Tex/Latex/Context.",
         website_url:
@@ -30759,7 +30759,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Neuroscience",
+        title: "Neuroscience",
         href: "docs/bucketlist/neuroscience",
         description: "Study Of The Nervous System And Brain.",
         website_url:
@@ -30768,7 +30768,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Ad-Free",
+        title: "Ad-Free",
         href: "docs/bucketlist/ad-free",
         description: "Ad-Free Alternatives.",
         website_url:
@@ -30777,7 +30777,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Esolangs",
+        title: "Esolangs",
         href: "docs/bucketlist/esolangs",
         description:
           "Programming Languages Designed For Experimentation Or As Jokes Rather Than Actual Use.",
@@ -30787,7 +30787,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Prometheus",
+        title: "Prometheus",
         href: "docs/bucketlist/prometheus",
         description: "Open-Source Monitoring System.",
         website_url:
@@ -30796,7 +30796,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Homematic",
+        title: "Homematic",
         href: "docs/bucketlist/homematic",
         description: "Smart Home Devices.",
         website_url:
@@ -30805,7 +30805,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Ledger",
+        title: "Ledger",
         href: "docs/bucketlist/ledger",
         description: "Double-Entry Accounting On The Command-Line.",
         website_url:
@@ -30814,7 +30814,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Web Monetization",
+        title: "Web Monetization",
         href: "docs/bucketlist/web-monetization",
         description:
           "A Free Open Web Standard Service That Allows You To Send Money Directly In Your Browser.",
@@ -30824,7 +30824,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Uncopyright",
+        title: "Uncopyright",
         href: "docs/bucketlist/uncopyright",
         description: "Public Domain Works.",
         website_url:
@@ -30833,7 +30833,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Crypto Currency Tools & Algorithms",
+        title: "Crypto Currency Tools & Algorithms",
         href: "docs/bucketlist/crypto-currency-tools-&-algorithms",
         description:
           "Digital Currency Where Encryption Is Used To Regulate The Generation Of Units And Verify Transfers.",
@@ -30843,7 +30843,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Diversity",
+        title: "Diversity",
         href: "docs/bucketlist/diversity",
         description: "Creating A More Inclusive And Diverse Tech Community.",
         website_url:
@@ -30852,7 +30852,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Open Source Supporters",
+        title: "Open Source Supporters",
         href: "docs/bucketlist/open-source-supporters",
         description:
           "Companies That Offer Their Tools And Services For Free To Open Source Projects.",
@@ -30863,7 +30863,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Design Principles",
+        title: "Design Principles",
         href: "docs/bucketlist/design-principles",
         description:
           "Create Better And More Consistent Designs And Experiences.",
@@ -30874,7 +30874,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Theravada",
+        title: "Theravada",
         href: "docs/bucketlist/theravada",
         description: "Teachings From The Theravada Buddhist Tradition.",
         website_url:
@@ -30883,7 +30883,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - inspectIT",
+        title: "inspectIT",
         href: "docs/bucketlist/inspectit",
         description: "Open Source Java App Performance Management Tool.",
         website_url:
@@ -30892,7 +30892,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Open Source Maintainers",
+        title: "Open Source Maintainers",
         href: "docs/bucketlist/open-source-maintainers",
         description: "The Experience Of Being An Open Source Maintainer.",
         website_url:
@@ -30901,7 +30901,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Calculators",
+        title: "Calculators",
         href: "docs/bucketlist/calculators",
         description: "Calculators For Every Platform.",
         website_url:
@@ -30910,7 +30910,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Captcha",
+        title: "Captcha",
         href: "docs/bucketlist/captcha",
         description:
           "A Type Of Challenge–Response Test Used In Computing To Determine Whether Or Not The User Is Human.",
@@ -30920,7 +30920,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Jupyter",
+        title: "Jupyter",
         href: "docs/bucketlist/jupyter",
         description:
           "Create And Share Documents That Contain Code, Equations, Visualizations And Narrative Text.",
@@ -30930,7 +30930,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - FIRST Robotics Competition",
+        title: "FIRST Robotics Competition",
         href: "docs/bucketlist/first-robotics-competition",
         description: "International High School Robotics Championship.",
         website_url:
@@ -30939,7 +30939,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Humane Technology",
+        title: "Humane Technology",
         href: "docs/bucketlist/humane-technology",
         description: "Open Source Projects That Help Improve Society.",
         website_url:
@@ -30949,7 +30949,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Speakers",
+        title: "Speakers",
         href: "docs/bucketlist/speakers",
         description:
           "Conference And Meetup Speakers In The Programming And Design Community.",
@@ -30959,7 +30959,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Board Games",
+        title: "Board Games",
         href: "docs/bucketlist/board-games",
         description: "Table-Top Gaming Fun For All.",
         website_url:
@@ -30968,7 +30968,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Software Patreons",
+        title: "Software Patreons",
         href: "docs/bucketlist/software-patreons",
         description:
           "Fund Individual Programmers Or The Development Of Open Source Projects.",
@@ -30978,7 +30978,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Parasite",
+        title: "Parasite",
         href: "docs/bucketlist/parasite",
         description: "Parasites And Host-Pathogen Interactions.",
         website_url:
@@ -30987,7 +30987,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Food",
+        title: "Food",
         href: "docs/bucketlist/food",
         description: "Food-Related Projects On Github.",
         website_url:
@@ -30996,7 +30996,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Mental Health",
+        title: "Mental Health",
         href: "docs/bucketlist/mental-health",
         description:
           "Mental Health Awareness And Self-Care In The Software Industry.",
@@ -31006,7 +31006,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Bitcoin Payment Processors",
+        title: "Bitcoin Payment Processors",
         href: "docs/bucketlist/bitcoin-payment-processors",
         description: "Start Accepting Bitcoin.",
         website_url:
@@ -31016,7 +31016,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Scientific Computing",
+        title: "Scientific Computing",
         href: "docs/bucketlist/scientific-computing",
         description: "Solving Complex Scientific Problems Using Computers.",
         website_url:
@@ -31025,7 +31025,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Amazon Sellers",
+        title: "Amazon Sellers",
         href: "docs/bucketlist/amazon-sellers",
         description: "No description available.",
         website_url:
@@ -31034,7 +31034,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Agriculture",
+        title: "Agriculture",
         href: "docs/bucketlist/agriculture",
         description: "Open Source Technology For Farming And Gardening.",
         website_url:
@@ -31043,7 +31043,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Product Design",
+        title: "Product Design",
         href: "docs/bucketlist/product-design",
         description: "Design A Product From The Initial Concept To Production.",
         website_url:
@@ -31052,7 +31052,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Prisma",
+        title: "Prisma",
         href: "docs/bucketlist/prisma",
         description: "Turn Your Database Into A Graphql Api.",
         website_url:
@@ -31061,7 +31061,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Software Architecture",
+        title: "Software Architecture",
         href: "docs/bucketlist/software-architecture",
         description: "The Discipline Of Designing And Building Software.",
         website_url:
@@ -31070,7 +31070,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Connectivity Data and Reports",
+        title: "Connectivity Data and Reports",
         href: "docs/bucketlist/connectivity-data-and-reports",
         description:
           "Better Understand Who Has Access To Telecommunication And Internet Infrastructure And On What Terms.",
@@ -31080,7 +31080,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Stacks",
+        title: "Stacks",
         href: "docs/bucketlist/stacks",
         description: "Tech Stacks For Building Different Apps And Features.",
         website_url:
@@ -31089,7 +31089,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Cytodata",
+        title: "Cytodata",
         href: "docs/bucketlist/cytodata",
         description:
           "Image-Based Profiling Of Biological Phenotypes For Computational Biologists.",
@@ -31099,7 +31099,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - IRC",
+        title: "IRC",
         href: "docs/bucketlist/irc",
         description: "Open Source Messaging Protocol.",
         website_url:
@@ -31108,7 +31108,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Advertising",
+        title: "Advertising",
         href: "docs/bucketlist/advertising",
         description: "Advertising And Programmatic Media For Websites.",
         website_url:
@@ -31117,7 +31117,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Earth",
+        title: "Earth",
         href: "docs/bucketlist/earth",
         description: "Find Ways To Resolve The Climate Crisis.",
         website_url:
@@ -31126,7 +31126,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Naming",
+        title: "Naming",
         href: "docs/bucketlist/naming",
         description: "Naming Things In Computer Science Done Right.",
         website_url:
@@ -31135,7 +31135,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Biomedical Information Extraction",
+        title: "Biomedical Information Extraction",
         href: "docs/bucketlist/biomedical-information-extraction",
         description:
           "How To Extract Information From Unstructured Biomedical Data And Text.",
@@ -31145,7 +31145,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Web Archiving",
+        title: "Web Archiving",
         href: "docs/bucketlist/web-archiving",
         description: "An Effort To Preserve The Web For Future Generations.",
         website_url:
@@ -31154,7 +31154,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - WP-CLI",
+        title: "WP-CLI",
         href: "docs/bucketlist/wp-cli",
         description: "Command-Line Interface For Wordpress.",
         website_url:
@@ -31163,7 +31163,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Credit Modeling",
+        title: "Credit Modeling",
         href: "docs/bucketlist/credit-modeling",
         description:
           "Methods For Classifying Credit Applicants Into Risk Classes.",
@@ -31173,7 +31173,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Ansible",
+        title: "Ansible",
         href: "docs/bucketlist/ansible",
         description:
           "A Python-Based, Open Source It Configuration Management And Automation Platform.",
@@ -31183,7 +31183,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Biological Visualizations",
+        title: "Biological Visualizations",
         href: "docs/bucketlist/biological-visualizations",
         description: "Interactive Visualization Of Biological Data On The Web.",
         website_url:
@@ -31193,7 +31193,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "Miscellaneous - Veganism",
+        title: "Veganism",
         href: "docs/bucketlist/veganism",
         description: "Making The Plant-Based Lifestyle Easy And Accessible.",
         website_url:
@@ -48520,10 +48520,10 @@ const sidebarNav = [
       },
       {
         title:
-          "Turn Website into App - Convert your website into an app for Android and iOS. Updates automatically.",
+          "Turn Website into Convert your website into an app for Android and iOS. Updates automatically.",
         href: "https://webtoapp.design/?utm_source=cssportal&utm_medium=banner&utm_campaign=cssportal_banner",
         description:
-          "This Turn Website into App - Convert your website into an app for Android and iOS. Updates automatically. generator is one of the hard work from cssPortal",
+          "This Turn Website into Convert your website into an app for Android and iOS. Updates automatically. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/turnwebsiteintoapp-convertyourwebsiteintoanappforandroidandios.updatesautomatically.",
@@ -48531,10 +48531,10 @@ const sidebarNav = [
       },
       {
         title:
-          "Unicode Characters & Emojis - Search all Unicode characters and emojis plus other tools.",
+          "Unicode Characters & Search all Unicode characters and emojis plus other tools.",
         href: "https://www.charactercodes.net/",
         description:
-          "This Unicode Characters & Emojis - Search all Unicode characters and emojis plus other tools. generator is one of the hard work from cssPortal",
+          "This Unicode Characters & Search all Unicode characters and emojis plus other tools. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/unicodecharacters&emojis-searchallunicodecharactersandemojisplusothertools.",
@@ -48542,10 +48542,10 @@ const sidebarNav = [
       },
       {
         title:
-          "Learn Wordpress - Wordpress hosting. Theme and plugin reviews. Wordpress development tips.",
+          "Learn Wordpress hosting. Theme and plugin reviews. Wordpress development tips.",
         href: "https://zuziko.com/",
         description:
-          "This Learn Wordpress - Wordpress hosting. Theme and plugin reviews. Wordpress development tips. generator is one of the hard work from cssPortal",
+          "This Learn Wordpress hosting. Theme and plugin reviews. Wordpress development tips. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/learnwordpress-wordpresshosting.themeandpluginreviews.wordpressdevelopmenttips.",
@@ -48553,10 +48553,10 @@ const sidebarNav = [
       },
       {
         title:
-          "Templatic - Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips.",
+          "Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips.",
         href: "https://www.templatic.com/",
         description:
-          "This Templatic - Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips. generator is one of the hard work from cssPortal",
+          "This Wordpress Themes, Cloud Hosting, Backups and Webmaster Tips. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/templatic-wordpressthemes,cloudhosting,backupsandwebmastertips.",
@@ -48564,10 +48564,10 @@ const sidebarNav = [
       },
       {
         title:
-          "A2 Web Hosting - Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting.",
+          "A2 Web Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting.",
         href: "https://www.a2hosting.com/web-hosting?utm_campaign=grassroots&utm_medium=nner&utm_source=cssportal.com",
         description:
-          "This A2 Web Hosting - Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting. generator is one of the hard work from cssPortal",
+          "This A2 Web Shared hosting, Reseller hosting, Cloud hosting, Dedicated hosting. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/a2webhosting-sharedhosting,resellerhosting,cloudhosting,dedicatedhosting.",
@@ -48575,20 +48575,20 @@ const sidebarNav = [
       },
       {
         title:
-          "Online Password Manager - Access your passwords from any computer, no need to remember all of your passwords.",
+          "Online Password Access your passwords from any computer, no need to remember all of your passwords.",
         href: "https://www.passwordpal.net/",
         description:
-          "This Online Password Manager - Access your passwords from any computer, no need to remember all of your passwords. generator is one of the hard work from cssPortal",
+          "This Online Password Access your passwords from any computer, no need to remember all of your passwords. generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/onlinepasswordmanager-accessyourpasswordsfromanycomputer,noneedtorememberallofyourpasswords.",
         items: [],
       },
       {
-        title: "Advertise Here - Advertise your company and products here!",
+        title: "Advertise Advertise your company and products here!",
         href: "https://www.cssportal.com/advertise.php",
         description:
-          "This Advertise Here - Advertise your company and products here! generator is one of the hard work from cssPortal",
+          "This Advertise Advertise your company and products here! generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
         github_repo:
           "https://github.com/advertisehere-advertiseyourcompanyandproductshere!",
@@ -48660,11 +48660,9 @@ sidebarNav.forEach((navItem) => {
       // console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
       const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}.jpg`
       const search = `${item.title.replace(/\s/g, "-").toLowerCase()}`
-let unplash = `https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
+      let unplash = `https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
       axios
-        .get(
-          `https://logo.clearbit.com/${search}.com`
-        )
+        .get(`https://logo.clearbit.com/${search}.com`)
         .then((res) => {
           let photos = res.data.results
           let url = photos[0].urls.small
@@ -48676,7 +48674,9 @@ let unplash = `https://api.unsplash.com/search/photos?page=1&query=${search}&cli
           })
         })
         .catch((err) => {
-          console.error(`Error: ${item.title}`)
+      const search = `${item.title.replace(/\s/g, "-").toLowerCase()}`
+
+          console.error(`Error: ${search}`)
         })
     }
   })
