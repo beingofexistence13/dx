@@ -94997,7 +94997,7 @@ const mergedArray = passport.map((item) => {
     (firstItem) => firstItem.title === item.title
   )
   const { title, href, ...rest } = item
-  return { title, href, logo: `https://logo.clearbit.com/${title.replace(/\s/g,"").toLowerCase()}`, ...rest }
+  return { title, href, logo: `https://logo.clearbit.com/${title.replace(/\s/g,"").toLowerCase()}.com`, ...rest }
 })
 console.dir(mergedArray, { maxArrayLength: null })
 console.log(passport.length)
