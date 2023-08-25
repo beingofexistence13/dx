@@ -1,21 +1,9 @@
 import axios from 'axios';
 
-const accessKey = "YOUR_ACCESS_KEY";
-const query = "dogs";
-const page = 1;
-const perPage = 10;
-
 axios.get("https://api.unsplash.com/search/photos?page=1&query=cats&client_id=qe5fLlQ2pPL2yOe7TRhizSXadW3h_TWAnyPyzktLbBU")
 .then(res => {
   const photos = res.data.results;
-  // const randomIndex = Math.floor(Math.random() * photos.length);
-  // const photo = photos[randomIndex];
-  // console.log(res.data.results.urls);
-  // photos.forEach(element => {
-  //   console.log(element.urls.small)
-  // });
   console.log(photos[0].urls.small)
-
 })
 .catch(err => {
   console.error(err);
