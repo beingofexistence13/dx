@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { MouseEvent, useEffect, useMemo, useState } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import axios from "axios"
@@ -14,14 +15,13 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+
 import { buttonVariants } from "./ui"
-import { MouseEvent } from 'react';
-import Image from "next/image"
 
 // Image Download
 interface Image {
-  url: string;
-  title: string;
+  url: string
+  title: string
 }
 
 function downloadImages(images: Image[]) {
@@ -29,38 +29,42 @@ function downloadImages(images: Image[]) {
     fetch(image.url)
       .then((response) => response.blob())
       .then((blob) => {
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.style.display = 'none';
-        a.href = url;
-        a.download = image.title;
-        document.body.appendChild(a);
-        a.click();
-        window.URL.revokeObjectURL(url);
+        const url = window.URL.createObjectURL(blob)
+        const a = document.createElement("a")
+        a.style.display = "none"
+        a.href = url
+        a.download = image.title
+        document.body.appendChild(a)
+        a.click()
+        window.URL.revokeObjectURL(url)
       })
-      .catch(() => console.error('An error occurred while downloading the image:', image.url));
-  });
+      .catch(() =>
+        console.error(
+          "An error occurred while downloading the image:",
+          image.url
+        )
+      )
+  })
 }
 
 // Example usage:
 const images: Image[] = [
-  { url: 'https://example.com/image1.jpg', title: 'Image 1' },
-  { url: 'https://example.com/image2.jpg', title: 'Image 2' },
-];
+  { url: "https://example.com/image1.jpg", title: "Image 1" },
+  { url: "https://example.com/image2.jpg", title: "Image 2" },
+]
 
 function Home() {
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault();
-    downloadImages(images);
-  };
+    event.preventDefault()
+    downloadImages(images)
+  }
 
   return (
     <>
       <button onClick={handleClick}>Download Images</button>
     </>
-  );
+  )
 }
-
 
 interface DocsConfig {
   mainNav: MainNavItem[]
@@ -181,20 +185,17 @@ export function DocsSidebarNavItems({
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
                 <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] ronded-full flex items-center justify-center ">
                   <Image
-                  src="docs/metamask.png"
-                  height={25}
-                  width={25}
-                  fill={true}
-                  sizes="(max-width: 30px) 100vw"
-                  quality={100}
-                  priority={true}
-                  placeholder="blur"
-                  style={{objectFit: "contain"}}
-                  loading="lazy"
-                  blurDataURL="docs/oix.png"
-                  alt={item.title ? logoLetter(item.title) : "Dx"}
+                    src="/docs/metamask.png"
+                    height={25}
+                    width={25}
+                    sizes="(max-width: 30px) 100vw"
+                    quality={100}
+                    placeholder="blur"
+                    style={{ objectFit: "contain" }}
+                    loading="lazy"
+                    blurDataURL="docs/oix.png"
+                    alt={item.title ? logoLetter(item.title) : "Dx"}
                   />
-
                 </div>
                 {/* <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
                   <AvatarImage
