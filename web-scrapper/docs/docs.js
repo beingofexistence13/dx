@@ -48660,10 +48660,10 @@ sidebarNav.forEach((navItem) => {
       // console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
       const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}.jpg`
       const search = `${item.title.replace(/\s/g, "-").toLowerCase()}`
-
+let unplash = `https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
       axios
         .get(
-          `https://api.unsplash.com/search/photos?page=1&query=${search}&client_id=_AdFcnEst-tD7ACzxbMpUMzlFiXS4tpD7WQoAeRo8Bk`
+          `https://logo.clearbit.com/${search}.com`
         )
         .then((res) => {
           let photos = res.data.results
