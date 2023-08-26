@@ -48389,7 +48389,7 @@ const download = (url, filePath, callback) => {
 //     }
 //   });
 // });
-product.forEach((item) => {
+more.forEach((item) => {
       const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
       download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
         console.log(`${item.title} logo is downloadeded!!!`);
