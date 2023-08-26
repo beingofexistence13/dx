@@ -165,8 +165,8 @@ export function DocsSidebarNavItems({
   }
   function transformString(str: string): string {
     return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
-      return firstLetter.toUpperCase() + restOfWord.toLowerCase();
-    });
+      return firstLetter.toUpperCase() + restOfWord.toLowerCase()
+    })
   }
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
@@ -188,51 +188,20 @@ export function DocsSidebarNavItems({
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
                 <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                  {/* {item.logo ? (
-                    <Image
+                  <Avatar className="h-[25px] w-[25px] rounded-sm">
+                    <AvatarImage
                       src={`/docs/${item.title
                         .replace(/\s/g, "")
                         .toLowerCase()}.jpg`}
-                      height={25}
-                      width={25}
-                      sizes="(max-width: 30px) 100vw"
-                      quality={100}
-                      style={{ objectFit: "contain" }}
-                      loading="lazy"
-                      alt={item.title ? logoLetter(item.title) : "Dx"}
+                      alt="Dx"
                     />
-                  ) : (
-                    <div className="item-logo-fallback">
+                    <AvatarFallback>
                       {item.title ? logoLetter(item.title) : "Dx"}
-                    </div>
-                  )} */}
-                  {item.logo ? (
-                    <Avatar className="h-[25px] w-[25px]">
-                      <AvatarImage
-                        src={`/docs/${item.title
-                          .replace(/\s/g, "")
-                          .toLowerCase()}.jpg`}
-                        alt="Dx"
-                      />
-                      <AvatarFallback>
-                        {item.title ? logoLetter(item.title) : "Dx"}
-                      </AvatarFallback>
-                    </Avatar>
-                  ) : (
-                    <div className="item-logo-fallback">
-                      {item.title ? logoLetter(item.title) : "Dx"}
-                    </div>
-                  )}
+                    </AvatarFallback>
+                  </Avatar>
                 </div>
-                {/* <Avatar className="rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px]">
-                  <AvatarImage
-                    src="metamask.png"
-                  />
-                  <AvatarFallback>
-                    {item.title ? logoLetter(item.title) : "Dx"}
-                  </AvatarFallback>
-                </Avatar> */}
-                {transformString(item.title.replace(/-/g," "))}
+
+                {transformString(item.title.replace(/-/g, " "))}
               </HoverCardTrigger>
               <HoverCardContent className="p-8 w-[700px] h-auto">
                 <div className="details flex item-center w-full flex-col space-y-3 ">

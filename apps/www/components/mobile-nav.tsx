@@ -100,7 +100,17 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                {item.title ? logoLetter(item.title) : "Dx"}
+                                <Avatar className="h-[25px] w-[25px] rounded-sm">
+                                  <AvatarImage
+                                    src={`/docs/${item.title
+                                      .replace(/\s/g, "")
+                                      .toLowerCase()}.jpg`}
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback>
+                                    {item.title ? logoLetter(item.title) : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
                               </div>
                             </div>
                           </div>
@@ -136,7 +146,17 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                {item.title ? logoLetter(item.title) : "Dx"}
+                                <Avatar className="h-[25px] w-[25px] rounded-sm">
+                                  <AvatarImage
+                                    src={`/docs/${item.title
+                                      .replace(/\s/g, "")
+                                      .toLowerCase()}.jpg`}
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback>
+                                    {item.title ? logoLetter(item.title) : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
                               </div>
                             </div>
                           </div>
@@ -172,7 +192,17 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                {item.title ? logoLetter(item.title) : "Dx"}
+                                <Avatar className="h-[25px] w-[25px] rounded-sm">
+                                  <AvatarImage
+                                    src={`/docs/${item.title
+                                      .replace(/\s/g, "")
+                                      .toLowerCase()}.jpg`}
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback>
+                                    {item.title ? logoLetter(item.title) : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
                               </div>
                             </div>
                           </div>
@@ -211,27 +241,19 @@ export function MobileNav() {
                                 <div className="w-full flex flex-row items-center justify-between h-12">
                                   <div className="products-logo">
                                     <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lg flex items-center justify-center ">
-                                      {item.logo ? (
-                                        <Avatar className="h-[25px] w-[25px] rounded-sm">
-                                          <AvatarImage
-                                            src={`/docs/${item.title
-                                              .replace(/\s/g, "")
-                                              .toLowerCase()}.jpg`}
-                                            alt="Dx"
-                                          />
-                                          <AvatarFallback>
-                                            {item.title
-                                              ? logoLetter(item.title)
-                                              : "Dx"}
-                                          </AvatarFallback>
-                                        </Avatar>
-                                      ) : (
-                                        <div className="item-logo-fallback">
+                                      <Avatar className="h-[25px] w-[25px] rounded-sm">
+                                        <AvatarImage
+                                          src={`/docs/${item.title
+                                            .replace(/\s/g, "")
+                                            .toLowerCase()}.jpg`}
+                                          alt="Dx"
+                                        />
+                                        <AvatarFallback>
                                           {item.title
                                             ? logoLetter(item.title)
                                             : "Dx"}
-                                        </div>
-                                      )}
+                                        </AvatarFallback>
+                                      </Avatar>
                                     </div>
                                   </div>
                                   <div className="products-title flex-1 items-center justify-center">
