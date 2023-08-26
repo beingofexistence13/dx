@@ -25,6 +25,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
 } from "./ui"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
@@ -441,9 +445,134 @@ export function MobileNav() {
                                       {item.title}
                                     </MobileLink>
                                   </div>
-                                  <div className="main-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                                    <Icons.moreHorizental className="h-4 w-4" />
-                                  </div>
+                                  <DropdownMenu>
+                                    <DropdownMenuTrigger asChild>
+                                      <div className="main-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                                        <Icons.moreHorizental className="h-4 w-4" />
+                                      </div>
+                                    </DropdownMenuTrigger>
+                                    <DropdownMenuContent align="end">
+                                      <DropdownMenuItem>Light</DropdownMenuItem>
+                                      {item.website_url ? (
+                                        <DropdownMenuItem>
+                                          <Link
+                                            key={index}
+                                            href={item.website_url}
+                                            target={
+                                              item.external ? "_blank" : ""
+                                            }
+                                            rel={
+                                              item.external ? "noreferrer" : ""
+                                            }
+                                          >
+                                            Website
+                                          </Link>
+                                        </DropdownMenuItem>
+                                      ) : (
+                                        ""
+                                      )}
+
+                                      {item.appStore &&
+                                      item.playStore &&
+                                      item.webStore ? (
+                                        <div>
+                                          <DropdownMenuItem>
+                                            <Link
+                                              key={index}
+                                              href={item.appStore}
+                                              target={
+                                                item.external ? "_blank" : ""
+                                              }
+                                              rel={
+                                                item.external
+                                                  ? "noreferrer"
+                                                  : ""
+                                              }
+                                              className="appStore hover:underline"
+                                            >
+                                              AppStore
+                                            </Link>
+                                          </DropdownMenuItem>
+                                          <DropdownMenuItem>
+                                            <Link
+                                              key={index}
+                                              href={item.playStore}
+                                              target={
+                                                item.external ? "_blank" : ""
+                                              }
+                                              rel={
+                                                item.external
+                                                  ? "noreferrer"
+                                                  : ""
+                                              }
+                                              className="playStore hover:underline"
+                                            >
+                                              PlayStore
+                                            </Link>
+                                          </DropdownMenuItem>
+                                          <DropdownMenuItem>
+                                            <Link
+                                              key={index}
+                                              href={item.webStore}
+                                              target={
+                                                item.external ? "_blank" : ""
+                                              }
+                                              rel={
+                                                item.external
+                                                  ? "noreferrer"
+                                                  : ""
+                                              }
+                                              className="webStore hover:underline"
+                                            >
+                                              WebStore
+                                            </Link>
+                                          </DropdownMenuItem>
+                                        </div>
+                                      ) : (
+                                        ""
+                                      )}
+                                      {item.download &&
+                                      item.star &&
+                                      item.version &&
+                                      item.updated ? (
+                                        <div>
+                                          <DropdownMenuItem>
+                                            {item.download}
+                                          </DropdownMenuItem>
+                                          <DropdownMenuItem>
+                                            {item.star}
+                                          </DropdownMenuItem>
+                                          <DropdownMenuItem>
+                                            {item.version}
+                                          </DropdownMenuItem>
+                                          <DropdownMenuItem>
+                                            {item.updated}
+                                          </DropdownMenuItem>
+                                        </div>
+                                      ) : (
+                                        ""
+                                      )}
+
+                                      {item.github_repo ? (
+                                        <DropdownMenuItem>
+                                          <Link
+                                            key={index}
+                                            href={item.github_repo}
+                                            target={
+                                              item.external ? "_blank" : ""
+                                            }
+                                            rel={
+                                              item.external ? "noreferrer" : ""
+                                            }
+                                          >
+                                            Github
+                                          </Link>
+                                        </DropdownMenuItem>
+                                      ) : (
+                                        ""
+                                      )}
+                                    </DropdownMenuContent>
+                                  </DropdownMenu>
                                 </div>
                               ) : (
                                 item.title
