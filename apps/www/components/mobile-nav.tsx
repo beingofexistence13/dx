@@ -451,7 +451,7 @@ export function MobileNav() {
                                     </DropdownMenuTrigger>
                                     <DropdownMenuContent align="end">
                                       {item.website_url ? (
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem className="flex items-center justify-center">
                                           <Link
                                             key={index}
                                             href={item.website_url}
@@ -473,7 +473,7 @@ export function MobileNav() {
                                       item.playStore &&
                                       item.webStore ? (
                                         <div>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem  className="flex items-center justify-center">
                                             <Link
                                               key={index}
                                               href={item.appStore}
@@ -490,7 +490,7 @@ export function MobileNav() {
                                               AppStore
                                             </Link>
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem  className="flex items-center justify-center">
                                             <Link
                                               key={index}
                                               href={item.playStore}
@@ -507,7 +507,7 @@ export function MobileNav() {
                                               PlayStore
                                             </Link>
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             <Link
                                               key={index}
                                               href={item.webStore}
@@ -533,16 +533,16 @@ export function MobileNav() {
                                       item.version &&
                                       item.updated ? (
                                         <div>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem  className="flex items-center justify-center">
                                             Downloads({item.download})
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             Stars({item.star})
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             Version({item.version})
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem>
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             Updated({item.updated})
                                           </DropdownMenuItem>
                                         </div>
@@ -551,7 +551,7 @@ export function MobileNav() {
                                       )}
 
                                       {item.github_repo ? (
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem className="flex items-center justify-center">
                                           <Link
                                             key={index}
                                             href={item.github_repo}
