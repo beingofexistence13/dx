@@ -204,7 +204,7 @@ export function SiteHeader() {
         <MainNav />
         <MobileNav />
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
-          <Avatar className="lg:hidden">
+          <Avatar {...pressProps} ref={ref} className="lg:hidden">
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
@@ -367,7 +367,7 @@ export function SiteHeader() {
           </nav>
         </div>
       </div>
-      <div
+      {/* <div
         {...pressProps}
         ref={ref}
         style={{
@@ -380,7 +380,7 @@ export function SiteHeader() {
         }}
       >
         Press me
-      </div>
+      </div> */}
     </header>
   )
 }
