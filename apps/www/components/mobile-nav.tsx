@@ -77,7 +77,7 @@ export function MobileNav() {
           <span className="ml-3 font-bold">{siteConfig.name}</span>
         </MobileLink>
 
-        <ScrollArea className="mt-2 h-[100vh] pb-20 ">
+        <ScrollArea className="mt-2 h-[100vh] pb-32 ">
           {/* <div className="flex flex-col space-y-3 text-[#73737a]">
             {products.map(
               (item) =>
@@ -394,9 +394,9 @@ export function MobileNav() {
             <div className="flex flex-col space-y-3">
               {docsConfig.sidebarNav.map((item, index) => (
                 <div key={index} className="flex flex-col space-y-3">
-                  <AccordionItem value="main-navitem">
+                  <AccordionItem value={item.title}>
                     <AccordionTrigger>{item.title}</AccordionTrigger>
-                    <AccordionContent className="w-full flex flex-row items-center justify-between">
+                    <AccordionContent className="w-full">
                       {item?.items?.length &&
                         item?.items?.map((item) => (
                           <React.Fragment key={item.href}>
@@ -404,7 +404,7 @@ export function MobileNav() {
                               (item.href ? (
                                 <div className="w-full flex flex-row items-center justify-between h-12">
                                   <div className="products-logo">
-                                    <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                                    <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lg flex items-center justify-center ">
                                       {item.logo ? (
                                         <Image
                                           src={`/docs/${item.title
@@ -456,7 +456,7 @@ export function MobileNav() {
               ))}
             </div>
           </Accordion>
-          <h5 className="flex w-full items-center justify-center text-center h-24">
+          <h5 className="flex w-full items-start justify-center mt-8 h-[5000px]">
             Build By Sumon & Loved By You!!!
           </h5>
         </ScrollArea>
