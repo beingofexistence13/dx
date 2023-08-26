@@ -5,22 +5,11 @@ import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { ViewVerticalIcon } from "@radix-ui/react-icons"
-
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card"
 import { Icons } from "@/components/icons"
-import { Button } from "@/registry/new-york/ui/button"
-import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
-import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
-
-import ImageWithFallback from "./imageFallback"
 import {
   Accordion,
   AccordionContent,
@@ -30,8 +19,15 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  Avatar, 
+  AvatarFallback, 
+  AvatarImage,
+  Button,
+  ScrollArea,
+  Sheet, 
+  SheetContent, 
+  SheetTrigger
 } from "./ui"
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
@@ -43,14 +39,17 @@ export function MobileNav() {
     let result = firstLetter + lastLetter
     return result
   }
+  
   function transformString(str: string): string {
     return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
       return firstLetter.toUpperCase() + restOfWord.toLowerCase();
     });
   }
+  
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
+        
         <Button
           variant="ghost"
           className="nav-toggles h-24 px-2 py-5 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
@@ -73,7 +72,8 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="sheetLeft pr-0">
+      <SheetContent side="left" className="sheetLeft p-0">
+        
         <MobileLink
           href="/"
           className="flex items-center"
@@ -88,7 +88,8 @@ export function MobileNav() {
 
         <ScrollArea className="mt-2 h-[100vh] pb-32 ">
           <Accordion type="multiple" className="w-full pr-6">
-            {/* // Products */}
+            
+            {/* Products */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="products">
                 <AccordionTrigger>All Products</AccordionTrigger>
@@ -123,6 +124,8 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
+            
+            {/* More */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="more">
                 <AccordionTrigger>More</AccordionTrigger>
@@ -157,6 +160,8 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
+            
+            {/* Extra NavItem */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="extra-navitems">
                 <AccordionTrigger>Extra NavItems</AccordionTrigger>
@@ -191,69 +196,8 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
-            {/* // More */}
-            {/* <div className="flex flex-col space-y-3">
-              <AccordionItem value="more">
-                <AccordionTrigger>More</AccordionTrigger>
-                <AccordionContent className="w-full flex flex-col items-center justify-between">
-                  {more.map(
-                    (item) =>
-                      item.href && (
-                        <MobileLink
-                          key={item.href}
-                          href={item.href}
-                          onOpenChange={setOpen}
-                        >
-                          <div className="more-logo">
-                            <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                              <div className="item-logo-fallback">
-                                {item.title ? logoLetter(item.title) : "Dx"}
-                              </div>
-                            </div>
-                          </div>
-                          <div className="more-title flex-1">{item.title}</div>
-                          <div className="more-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                            <Icons.moreHorizental className="h-4 w-4" />
-                          </div>
-                        </MobileLink>
-                      )
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            </div> */}
-            {/* // Extra NavItems */}
-            {/* <div className="flex flex-col space-y-3">
-              <AccordionItem value="extra-navitem">
-                <AccordionTrigger>Extra NavItems</AccordionTrigger>
-                <AccordionContent className="w-full flex flex-col items-center justify-between">
-                  {docsConfig.mainNav.map(
-                    (item) =>
-                      item.href && (
-                        <MobileLink
-                          key={item.href}
-                          href={item.href}
-                          onOpenChange={setOpen}
-                        >
-                          <div className="extra-navitem-logo">
-                            <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                              <div className="item-logo-fallback">
-                                {item.title ? logoLetter(item.title) : "Dx"}
-                              </div>
-                            </div>
-                          </div>
-                          <div className="extra-navitem-title flex-1">
-                            {item.title}
-                          </div>
-                          <div className="extra-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                            <Icons.moreHorizental className="h-4 w-4" />
-                          </div>
-                        </MobileLink>
-                      )
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            </div> */}
-            {/* // Main NavItems */}
+            
+            {/* Main NavItems */}
             <div className="flex flex-col space-y-3">
               {docsConfig.sidebarNav.map((item, index) => (
                 <div key={index} className="flex flex-col space-y-3">
@@ -269,7 +213,7 @@ export function MobileNav() {
                                   <div className="products-logo">
                                     <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lg flex items-center justify-center ">
                                       {item.logo ? (
-                                        <Avatar className="h-[25px] w-[25px]">
+                                        <Avatar className="h-[25px] w-[25px] rounded-sm">
                                           <AvatarImage
                                             src={`/docs/${item.title
                                               .replace(/\s/g, "")
@@ -446,24 +390,6 @@ export function MobileNav() {
               <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            {/* <Image
-      {...rest}
-      src={imgSrc}
-      onError={() => {
-        setImgSrc(fallbackSrc);
-      }}     />*/}
-            {/* <ImageWithFallback
-              src={`/metamask.jpg`}
-              fallbackSrc={"/docs/metamask.jpg"}
-              height={25}
-              width={25}
-              sizes="(max-width: 30px) 100vw"
-              quality={100}
-              style={{ objectFit: "contain" }}
-              loading="lazy"
-              alt={"Dx"}
-
-            /> */}
           </h5>
         </ScrollArea>
       </SheetContent>
