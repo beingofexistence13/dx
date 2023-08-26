@@ -43,7 +43,11 @@ export function MobileNav() {
     let result = firstLetter + lastLetter
     return result
   }
-
+  function transformString(str: string): string {
+    return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
+      return firstLetter.toUpperCase() + restOfWord.toLowerCase();
+    });
+  }
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -440,7 +444,7 @@ export function MobileNav() {
                                       onOpenChange={setOpen}
                                       className="w-full flex flex-row items-center justify-center"
                                     >
-                                      {item.title}
+                                      {transformString(item.title.replace(/-/g," "))}
                                     </MobileLink>
                                   </div>
                                   <DropdownMenu>

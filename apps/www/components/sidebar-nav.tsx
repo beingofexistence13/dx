@@ -163,7 +163,11 @@ export function DocsSidebarNavItems({
 
     return result
   }
-
+  function transformString(str: string): string {
+    return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
+      return firstLetter.toUpperCase() + restOfWord.toLowerCase();
+    });
+  }
   return items?.length ? (
     <div className="grid grid-flow-row auto-rows-max text-sm">
       {items.map((item, index) =>
@@ -228,7 +232,7 @@ export function DocsSidebarNavItems({
                     {item.title ? logoLetter(item.title) : "Dx"}
                   </AvatarFallback>
                 </Avatar> */}
-                {item.title}
+                {transformString(item.title.replace(/-/g," "))}
               </HoverCardTrigger>
               <HoverCardContent className="p-8 w-[700px] h-auto">
                 <div className="details flex item-center w-full flex-col space-y-3 ">
