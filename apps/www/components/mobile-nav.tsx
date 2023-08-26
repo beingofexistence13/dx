@@ -70,7 +70,7 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          <Avatar className="ml-5 font-bold">
+          <Avatar className=" font-bold">
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
@@ -224,7 +224,7 @@ export function MobileNav() {
               </div>
             ))}
           </div> */}
-          <Accordion type="multiple" className="w-full pr-5">
+          <Accordion type="multiple" className="w-full pr-6">
             {/* // Products */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="products">
@@ -382,6 +382,9 @@ export function MobileNav() {
               ))}
             </div>
           </Accordion>
+          <h5 className="flex w-full items-center justify-center text-center h-24">
+            Build By Sumon & Loved By You!!!
+          </h5>
         </ScrollArea>
       </SheetContent>
     </Sheet>
