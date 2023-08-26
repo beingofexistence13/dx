@@ -1,9 +1,11 @@
 "use client"
 
-import React from "react"
+import React, { useRef } from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
+import { usePress } from "react-aria"
+import { any } from "zod"
 
 import { siteConfig } from "@/config/site"
 import { socialMediaConfig } from "@/config/social-media"
@@ -188,6 +190,13 @@ import {
 
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+  const { pressProps } = usePress({
+    onPressStart: (event) => console.log("onPressStart:", event.pointerType),
+    onPressEnd: (event) => console.log("onPressEnd:", event.pointerType),
+    onPress: (event) => console.log("onPress:", event.pointerType),
+    onPressUp: (event) => console.log("onPressUp:", event.pointerType),
+  })
 
   return (
     <header className="navbar supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
@@ -357,6 +366,20 @@ export function SiteHeader() {
             </Dialog>
           </nav>
         </div>
+      </div>
+      <div
+        {...pressProps}
+        ref={ref}
+        style={{
+          width: 100,
+          height: 100,
+          backgroundColor: "lightgray",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        Press me
       </div>
     </header>
   )

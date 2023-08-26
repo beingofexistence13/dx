@@ -348,3 +348,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 /* .backdrop-blur-sm {
   display: none !important;
 } */
+.sheetLeft{
+  width: 100% !important;
+}
