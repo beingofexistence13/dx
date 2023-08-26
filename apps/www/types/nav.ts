@@ -2,6 +2,8 @@ import { Icons } from "@/components/icons"
 
 export interface NavItem {
   title: string
+  length?: string
+  map?: any
   website_url?: string
   github_repo?: string
   description?: string
