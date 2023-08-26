@@ -48359,7 +48359,52 @@ const sidebarNav = [
     description: "Some Examples to ues this",
   },
 ]
-
+const mainNav = [
+  {
+    title: "Documentation",
+    href: "/docs",
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+  },
+  {
+    title: "Components",
+    href: "/docs/ui/accordion",
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+  },
+  {
+    title: "Examples",
+    href: "/examples",
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+  },
+  {
+    title: "Figma",
+    href: "/docs/figma",
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+  },
+  {
+    title: "GitHub",
+    href: "https://github.com/beingofexistence/dx",
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+    external: true,
+  },
+  {
+    title: "Twitter",
+    href: "https://twitter.com/beingofexistence",
+    external: true,
+    description: "Not Provided(coming soon)",
+    website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+    github_repo: "https://github.com/beingofexistence",
+  },
+]
 
 const download = (url, filePath, callback) => {
   const dir = path.dirname(filePath);
@@ -48389,7 +48434,7 @@ const download = (url, filePath, callback) => {
 //     }
 //   });
 // });
-more.forEach((item) => {
+mainNav.forEach((item) => {
       const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
       download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
         console.log(`${item.title} logo is downloadeded!!!`);
