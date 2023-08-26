@@ -7317,7 +7317,7 @@ const sidebarNav = [
         {
           title: 'http-bearer',
           href: 'docs/hack(passports)/http-bearer',
-          logo: 'https://logo.clearbit.com/http-bearer.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/http-bearer',
@@ -7330,7 +7330,7 @@ const sidebarNav = [
         {
           title: 'google-oauth',
           href: 'docs/hack(passports)/google-oauth',
-          logo: 'https://logo.clearbit.com/google-oauth.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/google-oauth',
@@ -7369,7 +7369,7 @@ const sidebarNav = [
         {
           title: 'openid-client',
           href: 'docs/hack(passports)/openid-client',
-          logo: 'https://logo.clearbit.com/openid-client.com',
+          logo: 'https://logo.clearbit.com/openid.com',
           description: 'This openid-client passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/panva/node-openid-client',
@@ -7512,7 +7512,7 @@ const sidebarNav = [
         {
           title: 'google-oauth20',
           href: 'docs/hack(passports)/google-oauth20',
-          logo: 'https://logo.clearbit.com/google-oauth20.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/google-oauth2',
@@ -7525,7 +7525,7 @@ const sidebarNav = [
         {
           title: 'azure-ad',
           href: 'docs/hack(passports)/azure-ad',
-          logo: 'https://logo.clearbit.com/azure-ad.com',
+          logo: 'https://logo.clearbit.com/azure.com',
           description: 'This azure-ad passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/AzureAD/microsoft-authentication-library-for-js',
@@ -7551,7 +7551,7 @@ const sidebarNav = [
         {
           title: 'google-oauth2',
           href: 'docs/hack(passports)/google-oauth2',
-          logo: 'https://logo.clearbit.com/google-oauth2.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/mstade/google-oauth2',
@@ -7616,7 +7616,7 @@ const sidebarNav = [
         {
           title: 'bitbucket-oauth2',
           href: 'docs/hack(passports)/bitbucket-oauth2',
-          logo: 'https://logo.clearbit.com/bitbucket-oauth2.com',
+          logo: 'https://logo.clearbit.com/bitbucket.com',
           description: 'This bitbucket-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/bithound/bitbucket-oauth2',
@@ -7642,7 +7642,7 @@ const sidebarNav = [
         {
           title: 'okta-oauth',
           href: 'docs/hack(passports)/okta-oauth',
-          logo: 'https://logo.clearbit.com/okta-oauth.com',
+          logo: 'https://logo.clearbit.com/okta.com',
           description: 'This okta-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/fischerdan/okta-oauth',
@@ -7668,7 +7668,7 @@ const sidebarNav = [
         {
           title: 'oauth2-client-password',
           href: 'docs/hack(passports)/oauth2-client-password',
-          logo: 'https://logo.clearbit.com/oauth2-client-password.com',
+          logo: 'https://logo.clearbit.com/oauth2.com',
           description: 'This oauth2-client-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/oauth2-client-password',
@@ -7746,7 +7746,7 @@ const sidebarNav = [
         {
           title: 'linkedin-oauth2',
           href: 'docs/hack(passports)/linkedin-oauth2',
-          logo: 'https://logo.clearbit.com/linkedin-oauth2.com',
+          logo: 'https://logo.clearbit.com/linkedin.com',
           description: 'This linkedin-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auth0/linkedin-oauth2',
@@ -7785,7 +7785,7 @@ const sidebarNav = [
         {
           title: 'google-one-tap',
           href: 'docs/hack(passports)/google-one-tap',
-          logo: 'https://logo.clearbit.com/google-one-tap.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-one-tap passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Genially/google-one-tap',
@@ -7798,7 +7798,7 @@ const sidebarNav = [
         {
           title: 'google-oauth1',
           href: 'docs/hack(passports)/google-oauth1',
-          logo: 'https://logo.clearbit.com/google-oauth1.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-oauth1 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/google-oauth1',
@@ -7824,7 +7824,7 @@ const sidebarNav = [
         {
           title: 'client-cert',
           href: 'docs/hack(passports)/client-cert',
-          logo: 'https://logo.clearbit.com/client-cert.com',
+          logo: 'https://logo.clearbit.com/client.com',
           description: 'This client-cert passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/ripjar/client-cert',
@@ -7876,7 +7876,7 @@ const sidebarNav = [
         {
           title: 'wsfed-saml2',
           href: 'docs/hack(passports)/wsfed-saml2',
-          logo: 'https://logo.clearbit.com/wsfed-saml2.com',
+          logo: 'https://logo.clearbit.com/wsfed.com',
           description: 'This wsfed-saml2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auth0/wsfed-saml2',
@@ -7889,7 +7889,7 @@ const sidebarNav = [
         {
           title: '2fa-totp',
           href: 'docs/hack(passports)/2fa-totp',
-          logo: 'https://logo.clearbit.com/2fa-totp.com',
+          logo: 'https://logo.clearbit.com/2fa.com',
           description: 'This 2fa-totp passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/ilich/2fa-totp',
@@ -7902,7 +7902,7 @@ const sidebarNav = [
         {
           title: 'atlassian-oauth',
           href: 'docs/hack(passports)/atlassian-oauth',
-          logo: 'https://logo.clearbit.com/atlassian-oauth.com',
+          logo: 'https://logo.clearbit.com/atlassian.com',
           description: 'This atlassian-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://bitbucket.org/knecht_andreas/atlassian-oauth.git',
@@ -7928,7 +7928,7 @@ const sidebarNav = [
         {
           title: 'unique-token',
           href: 'docs/hack(passports)/unique-token',
-          logo: 'https://logo.clearbit.com/unique-token.com',
+          logo: 'https://logo.clearbit.com/unique.com',
           description: 'This unique-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/lughino/unique-token',
@@ -7941,7 +7941,7 @@ const sidebarNav = [
         {
           title: 'azure-ad-oauth2',
           href: 'docs/hack(passports)/azure-ad-oauth2',
-          logo: 'https://logo.clearbit.com/azure-ad-oauth2.com',
+          logo: 'https://logo.clearbit.com/azure.com',
           description: 'This azure-ad-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auth0/azure-ad-oauth2',
@@ -7967,7 +7967,7 @@ const sidebarNav = [
         {
           title: 'http-header-strategy',
           href: 'docs/hack(passports)/http-header-strategy',
-          logo: 'https://logo.clearbit.com/http-header-strategy.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-header-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/FengYuHe/http-header-strategy',
@@ -7980,7 +7980,7 @@ const sidebarNav = [
         {
           title: 'auth-token',
           href: 'docs/hack(passports)/auth-token',
-          logo: 'https://logo.clearbit.com/auth-token.com',
+          logo: 'https://logo.clearbit.com/auth.com',
           description: 'This auth-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/mbell8903/auth-token',
@@ -8019,7 +8019,7 @@ const sidebarNav = [
         {
           title: 'slack-oauth2',
           href: 'docs/hack(passports)/slack-oauth2',
-          logo: 'https://logo.clearbit.com/slack-oauth2.com',
+          logo: 'https://logo.clearbit.com/slack.com',
           description: 'This slack-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/nmaves/slack-oauth2',
@@ -8032,7 +8032,7 @@ const sidebarNav = [
         {
           title: 'magic-login',
           href: 'docs/hack(passports)/magic-login',
-          logo: 'https://logo.clearbit.com/magic-login.com',
+          logo: 'https://logo.clearbit.com/magic.com',
           description: 'This magic-login passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -8045,7 +8045,7 @@ const sidebarNav = [
         {
           title: 'google-oidc',
           href: 'docs/hack(passports)/google-oidc',
-          logo: 'https://logo.clearbit.com/google-oidc.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-oidc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/google-openidconnect',
@@ -8110,7 +8110,7 @@ const sidebarNav = [
         {
           title: 'trusted-header',
           href: 'docs/hack(passports)/trusted-header',
-          logo: 'https://logo.clearbit.com/trusted-header.com',
+          logo: 'https://logo.clearbit.com/trusted.com',
           description: 'This trusted-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/ripjar/trusted-header',
@@ -8212,12 +8212,12 @@ const sidebarNav = [
           items: []
         },
         {
-          title: 'jwt-cookiecombo',
-          href: 'docs/hack(passports)/jwt-cookiecombo',
-          logo: 'https://logo.clearbit.com/jwt-cookiecombo.com',
-          description: 'This jwt-cookiecombo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
+          title: 'jwt.combo',
+          href: 'docs/hack(passports)/jwt.combo',
+          logo: 'https://logo.clearbit.com/jwt.com',
+          description: 'This jwt.combo passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
-          github_repo: 'https://github.com/codebarista/jwt-cookiecombo',
+          github_repo: 'https://github.com/codebarista/jwt.combo',
           download: '962',
           star: '31',
           version: '1.0.5',
@@ -8253,7 +8253,7 @@ const sidebarNav = [
         {
           title: 'remember-me',
           href: 'docs/hack(passports)/remember-me',
-          logo: 'https://logo.clearbit.com/remember-me.com',
+          logo: 'https://logo.clearbit.com/remember.com',
           description: 'This remember-me passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/remember-me',
@@ -8292,7 +8292,7 @@ const sidebarNav = [
         {
           title: 'dropbox-oauth2',
           href: 'docs/hack(passports)/dropbox-oauth2',
-          logo: 'https://logo.clearbit.com/dropbox-oauth2.com',
+          logo: 'https://logo.clearbit.com/dropbox.com',
           description: 'This dropbox-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/florianheinemann/dropbox-oauth2',
@@ -8305,7 +8305,7 @@ const sidebarNav = [
         {
           title: 'magic-link',
           href: 'docs/hack(passports)/magic-link',
-          logo: 'https://logo.clearbit.com/magic-link.com',
+          logo: 'https://logo.clearbit.com/magic.com',
           description: 'This magic-link passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/vinialbano/magic-link',
@@ -8383,7 +8383,7 @@ const sidebarNav = [
         {
           title: 'http-oauth',
           href: 'docs/hack(passports)/http-oauth',
-          logo: 'https://logo.clearbit.com/http-oauth.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/http-oauth',
@@ -8396,7 +8396,7 @@ const sidebarNav = [
         {
           title: 'youtube-v3',
           href: 'docs/hack(passports)/youtube-v3',
-          logo: 'https://logo.clearbit.com/youtube-v3.com',
+          logo: 'https://logo.clearbit.com/youtube.com',
           description: 'This youtube-v3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/yanatan16/youtube-v3',
@@ -8422,7 +8422,7 @@ const sidebarNav = [
         {
           title: 'azure-oauth2',
           href: 'docs/hack(passports)/azure-oauth2',
-          logo: 'https://logo.clearbit.com/azure-oauth2.com',
+          logo: 'https://logo.clearbit.com/azure.com',
           description: 'This azure-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/AndrewKeig/azure-oauth2',
@@ -8513,7 +8513,7 @@ const sidebarNav = [
         {
           title: 'meetup-oauth2',
           href: 'docs/hack(passports)/meetup-oauth2',
-          logo: 'https://logo.clearbit.com/meetup-oauth2.com',
+          logo: 'https://logo.clearbit.com/meetup.com',
           description: 'This meetup-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/joewoodhouse/meetup-oauth2',
@@ -8526,7 +8526,7 @@ const sidebarNav = [
         {
           title: 'oauth2-meetup',
           href: 'docs/hack(passports)/oauth2-meetup',
-          logo: 'https://logo.clearbit.com/oauth2-meetup.com',
+          logo: 'https://logo.clearbit.com/oauth2.com',
           description: 'This oauth2-meetup passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/zenvisuals/oauth2-meetup',
@@ -8565,7 +8565,7 @@ const sidebarNav = [
         {
           title: 'client-certificate',
           href: 'docs/hack(passports)/client-certificate',
-          logo: 'https://logo.clearbit.com/client-certificate.com',
+          logo: 'https://logo.clearbit.com/client.com',
           description: 'This client-certificate passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/ripple/client-certificate',
@@ -8617,7 +8617,7 @@ const sidebarNav = [
         {
           title: 'zoho-crm',
           href: 'docs/hack(passports)/zoho-crm',
-          logo: 'https://logo.clearbit.com/zoho-crm.com',
+          logo: 'https://logo.clearbit.com/zoho.com',
           description: 'This zoho-crm passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/sidrmsh/zoho-crm',
@@ -8656,7 +8656,7 @@ const sidebarNav = [
         {
           title: 'cisco-spark',
           href: 'docs/hack(passports)/cisco-spark',
-          logo: 'https://logo.clearbit.com/cisco-spark.com',
+          logo: 'https://logo.clearbit.com/cisco.com',
           description: 'This cisco-spark passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/bmoyroud/cisco-spark.git',
@@ -8682,7 +8682,7 @@ const sidebarNav = [
         {
           title: 'local-htpasswd',
           href: 'docs/hack(passports)/local-htpasswd',
-          logo: 'https://logo.clearbit.com/local-htpasswd.com',
+          logo: 'https://logo.clearbit.com/local.com',
           description: 'This local-htpasswd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/morungos/local-htpasswd',
@@ -8747,7 +8747,7 @@ const sidebarNav = [
         {
           title: 'eventbrite-oauth',
           href: 'docs/hack(passports)/eventbrite-oauth',
-          logo: 'https://logo.clearbit.com/eventbrite-oauth.com',
+          logo: 'https://logo.clearbit.com/eventbrite.com',
           description: 'This eventbrite-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/jamplify/eventbrite-oauth.git',
@@ -8760,7 +8760,7 @@ const sidebarNav = [
         {
           title: 'oauth2-jwt-bearer',
           href: 'docs/hack(passports)/oauth2-jwt-bearer',
-          logo: 'https://logo.clearbit.com/oauth2-jwt-bearer.com',
+          logo: 'https://logo.clearbit.com/oauth2.com',
           description: 'This oauth2-jwt-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/xtuple/oauth2-jwt-bearer.git',
@@ -8812,7 +8812,7 @@ const sidebarNav = [
         {
           title: 'stack-exchange',
           href: 'docs/hack(passports)/stack-exchange',
-          logo: 'https://logo.clearbit.com/stack-exchange.com',
+          logo: 'https://logo.clearbit.com/stack.com',
           description: 'This stack-exchange passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/acruxray/stack-exchange',
@@ -8825,7 +8825,7 @@ const sidebarNav = [
         {
           title: 'intuit-oauth',
           href: 'docs/hack(passports)/intuit-oauth',
-          logo: 'https://logo.clearbit.com/intuit-oauth.com',
+          logo: 'https://logo.clearbit.com/intuit.com',
           description: 'This intuit-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/intuit-oauth',
@@ -8864,7 +8864,7 @@ const sidebarNav = [
         {
           title: 'office365-oauth2',
           href: 'docs/hack(passports)/office365-oauth2',
-          logo: 'https://logo.clearbit.com/office365-oauth2.com',
+          logo: 'https://logo.clearbit.com/office365.com',
           description: 'This office365-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Burke9077/office365-oauth2',
@@ -8929,7 +8929,7 @@ const sidebarNav = [
         {
           title: 'lnurl-auth',
           href: 'docs/hack(passports)/lnurl-auth',
-          logo: 'https://logo.clearbit.com/lnurl-auth.com',
+          logo: 'https://logo.clearbit.com/lnurl.com',
           description: 'This lnurl-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/chill117/lnurl-auth',
@@ -8942,7 +8942,7 @@ const sidebarNav = [
         {
           title: 'daum-oauth2',
           href: 'docs/hack(passports)/daum-oauth2',
-          logo: 'https://logo.clearbit.com/daum-oauth2.com',
+          logo: 'https://logo.clearbit.com/daum.com',
           description: 'This daum-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/myungcheol/daum-oauth2',
@@ -8981,7 +8981,7 @@ const sidebarNav = [
         {
           title: 'vk-strategy',
           href: 'docs/hack(passports)/vk-strategy',
-          logo: 'https://logo.clearbit.com/vk-strategy.com',
+          logo: 'https://logo.clearbit.com/vk.com',
           description: 'This vk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/dvpnt/vk-strategy',
@@ -9085,7 +9085,7 @@ const sidebarNav = [
         {
           title: 'weixin-enterprise',
           href: 'docs/hack(passports)/weixin-enterprise',
-          logo: 'https://logo.clearbit.com/weixin-enterprise.com',
+          logo: 'https://logo.clearbit.com/weixin.com',
           description: 'This weixin-enterprise passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/lee715/weixin-enterprise',
@@ -9202,7 +9202,7 @@ const sidebarNav = [
         {
           title: 'anonym-uuid',
           href: 'docs/hack(passports)/anonym-uuid',
-          logo: 'https://logo.clearbit.com/anonym-uuid.com',
+          logo: 'https://logo.clearbit.com/anonym.com',
           description: 'This anonym-uuid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/nash403/anonym-uuid',
@@ -9228,7 +9228,7 @@ const sidebarNav = [
         {
           title: 'bitbucket-oauth20',
           href: 'docs/hack(passports)/bitbucket-oauth20',
-          logo: 'https://logo.clearbit.com/bitbucket-oauth20.com',
+          logo: 'https://logo.clearbit.com/bitbucket.com',
           description: 'This bitbucket-oauth20 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/saintedlama/bitbucket-oauth2',
@@ -9241,7 +9241,7 @@ const sidebarNav = [
         {
           title: 'http-custom-bearer',
           href: 'docs/hack(passports)/http-custom-bearer',
-          logo: 'https://logo.clearbit.com/http-custom-bearer.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-custom-bearer passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/wwwslinger/http-custom-bearer',
@@ -9254,7 +9254,7 @@ const sidebarNav = [
         {
           title: 'predix-oauth',
           href: 'docs/hack(passports)/predix-oauth',
-          logo: 'https://logo.clearbit.com/predix-oauth.com',
+          logo: 'https://logo.clearbit.com/predix.com',
           description: 'This predix-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/PredixDev/predix-oauth',
@@ -9267,7 +9267,7 @@ const sidebarNav = [
         {
           title: 'fido2-webauthn',
           href: 'docs/hack(passports)/fido2-webauthn',
-          logo: 'https://logo.clearbit.com/fido2-webauthn.com',
+          logo: 'https://logo.clearbit.com/fido2.com',
           description: 'This fido2-webauthn passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/webauthn',
@@ -9306,7 +9306,7 @@ const sidebarNav = [
         {
           title: 'local-token',
           href: 'docs/hack(passports)/local-token',
-          logo: 'https://logo.clearbit.com/local-token.com',
+          logo: 'https://logo.clearbit.com/local.com',
           description: 'This local-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/pferretti/local-token.git',
@@ -9332,7 +9332,7 @@ const sidebarNav = [
         {
           title: 'heroku-addon',
           href: 'docs/hack(passports)/heroku-addon',
-          logo: 'https://logo.clearbit.com/heroku-addon.com',
+          logo: 'https://logo.clearbit.com/heroku.com',
           description: 'This heroku-addon passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auth0/heroku-addon',
@@ -9397,7 +9397,7 @@ const sidebarNav = [
         {
           title: 'ibmid-oauth2',
           href: 'docs/hack(passports)/ibmid-oauth2',
-          logo: 'https://logo.clearbit.com/ibmid-oauth2.com',
+          logo: 'https://logo.clearbit.com/ibmid.com',
           description: 'This ibmid-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/osipov/ibmid-oauth2',
@@ -9449,7 +9449,7 @@ const sidebarNav = [
         {
           title: 'ping-oauth2',
           href: 'docs/hack(passports)/ping-oauth2',
-          logo: 'https://logo.clearbit.com/ping-oauth2.com',
+          logo: 'https://logo.clearbit.com/ping.com',
           description: 'This ping-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Bayer-Group/ping-oauth2',
@@ -9475,7 +9475,7 @@ const sidebarNav = [
         {
           title: 'oauth2-resource-owner-password',
           href: 'docs/hack(passports)/oauth2-resource-owner-password',
-          logo: 'https://logo.clearbit.com/oauth2-resource-owner-password.com',
+          logo: 'https://logo.clearbit.com/oauth2.com',
           description: 'This oauth2-resource-owner-password passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/coolaj86/oauth2-resource-owner-password',
@@ -9501,7 +9501,7 @@ const sidebarNav = [
         {
           title: 'line-auth',
           href: 'docs/hack(passports)/line-auth',
-          logo: 'https://logo.clearbit.com/line-auth.com',
+          logo: 'https://logo.clearbit.com/line.com',
           description: 'This line-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/IvanWei/line-auth',
@@ -9631,7 +9631,7 @@ const sidebarNav = [
         {
           title: 'adobe-oauth2',
           href: 'docs/hack(passports)/adobe-oauth2',
-          logo: 'https://logo.clearbit.com/adobe-oauth2.com',
+          logo: 'https://logo.clearbit.com/adobe.com',
           description: 'This adobe-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/adobe/adobe-oauth2',
@@ -9644,7 +9644,7 @@ const sidebarNav = [
         {
           title: 'http-bearer-base64',
           href: 'docs/hack(passports)/http-bearer-base64',
-          logo: 'https://logo.clearbit.com/http-bearer-base64.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-bearer-base64 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auralon/http-bearer-base64',
@@ -9683,7 +9683,7 @@ const sidebarNav = [
         {
           title: 'google-plus',
           href: 'docs/hack(passports)/google-plus',
-          logo: 'https://logo.clearbit.com/google-plus.com',
+          logo: 'https://logo.clearbit.com/google.com',
           description: 'This google-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/sqrrrl/google-plus',
@@ -9696,7 +9696,7 @@ const sidebarNav = [
         {
           title: 'did-auth',
           href: 'docs/hack(passports)/did-auth',
-          logo: 'https://logo.clearbit.com/did-auth.com',
+          logo: 'https://logo.clearbit.com/did.com',
           description: 'This did-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/energywebfoundation/did-auth',
@@ -9709,7 +9709,7 @@ const sidebarNav = [
         {
           title: 'ethereum-siwe',
           href: 'docs/hack(passports)/ethereum-siwe',
-          logo: 'https://logo.clearbit.com/ethereum-siwe.com',
+          logo: 'https://logo.clearbit.com/ethereum.com',
           description: 'This ethereum-siwe passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/ethereum',
@@ -9735,7 +9735,7 @@ const sidebarNav = [
         {
           title: 'json-custom',
           href: 'docs/hack(passports)/json-custom',
-          logo: 'https://logo.clearbit.com/json-custom.com',
+          logo: 'https://logo.clearbit.com/json.com',
           description: 'This json-custom passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/JamesMGreene/json-custom',
@@ -9761,7 +9761,7 @@ const sidebarNav = [
         {
           title: 'strava-oauth2',
           href: 'docs/hack(passports)/strava-oauth2',
-          logo: 'https://logo.clearbit.com/strava-oauth2.com',
+          logo: 'https://logo.clearbit.com/strava.com',
           description: 'This strava-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/millsy/strava',
@@ -9787,7 +9787,7 @@ const sidebarNav = [
         {
           title: 'ok-strategy',
           href: 'docs/hack(passports)/ok-strategy',
-          logo: 'https://logo.clearbit.com/ok-strategy.com',
+          logo: 'https://logo.clearbit.com/ok.com',
           description: 'This ok-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/dvpnt/ok-strategy',
@@ -9800,7 +9800,7 @@ const sidebarNav = [
         {
           title: 'fitbit-oauth2',
           href: 'docs/hack(passports)/fitbit-oauth2',
-          logo: 'https://logo.clearbit.com/fitbit-oauth2.com',
+          logo: 'https://logo.clearbit.com/fitbit.com',
           description: 'This fitbit-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/thegameofcode/fitbit-oauth2',
@@ -9852,7 +9852,7 @@ const sidebarNav = [
         {
           title: 'passportjs-header',
           href: 'docs/hack(passports)/passportjs-header',
-          logo: 'https://logo.clearbit.com/passportjs-header.com',
+          logo: 'https://logo.clearbit.com/passportjs.com',
           description: 'This passportjs-header passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/chrisns/passportjs-header',
@@ -9930,7 +9930,7 @@ const sidebarNav = [
         {
           title: 'clever-passport',
           href: 'docs/hack(passports)/clever-passport',
-          logo: 'https://logo.clearbit.com/clever-passport.com',
+          logo: 'https://logo.clearbit.com/clever.com',
           description: 'This clever-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/milanmdev/clever-passport',
@@ -9969,7 +9969,7 @@ const sidebarNav = [
         {
           title: 'yahoo-oauth',
           href: 'docs/hack(passports)/yahoo-oauth',
-          logo: 'https://logo.clearbit.com/yahoo-oauth.com',
+          logo: 'https://logo.clearbit.com/yahoo.com',
           description: 'This yahoo-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/yahoo-oauth',
@@ -10060,7 +10060,7 @@ const sidebarNav = [
         {
           title: 'saml-too',
           href: 'docs/hack(passports)/saml-too',
-          logo: 'https://logo.clearbit.com/saml-too.com',
+          logo: 'https://logo.clearbit.com/saml.com',
           description: 'This saml-too passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -10099,7 +10099,7 @@ const sidebarNav = [
         {
           title: 'paypal-oauth',
           href: 'docs/hack(passports)/paypal-oauth',
-          logo: 'https://logo.clearbit.com/paypal-oauth.com',
+          logo: 'https://logo.clearbit.com/paypal.com',
           description: 'This paypal-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/paypal-oauth',
@@ -10229,7 +10229,7 @@ const sidebarNav = [
         {
           title: 'taccounts-oauth2',
           href: 'docs/hack(passports)/taccounts-oauth2',
-          logo: 'https://logo.clearbit.com/taccounts-oauth2.com',
+          logo: 'https://logo.clearbit.com/taccounts.com',
           description: 'This taccounts-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Telefonica/taccounts-oauth2',
@@ -10359,7 +10359,7 @@ const sidebarNav = [
         {
           title: 'http-signature',
           href: 'docs/hack(passports)/http-signature',
-          logo: 'https://logo.clearbit.com/http-signature.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/interledger-deprecated/http-signature',
@@ -10411,7 +10411,7 @@ const sidebarNav = [
         {
           title: 'coursera-oauth',
           href: 'docs/hack(passports)/coursera-oauth',
-          logo: 'https://logo.clearbit.com/coursera-oauth.com',
+          logo: 'https://logo.clearbit.com/coursera.com',
           description: 'This coursera-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/flipflopapp/coursera-oauth',
@@ -10424,7 +10424,7 @@ const sidebarNav = [
         {
           title: 'ibm-connections-cloud',
           href: 'docs/hack(passports)/ibm-connections-cloud',
-          logo: 'https://logo.clearbit.com/ibm-connections-cloud.com',
+          logo: 'https://logo.clearbit.com/ibm.com',
           description: 'This ibm-connections-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/benkroeger/ibm-connections-cloud',
@@ -10450,7 +10450,7 @@ const sidebarNav = [
         {
           title: 'line-v2',
           href: 'docs/hack(passports)/line-v2',
-          logo: 'https://logo.clearbit.com/line-v2.com',
+          logo: 'https://logo.clearbit.com/line.com',
           description: 'This line-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/piggyman007/line-v2',
@@ -10463,7 +10463,7 @@ const sidebarNav = [
         {
           title: 'uber-v2',
           href: 'docs/hack(passports)/uber-v2',
-          logo: 'https://logo.clearbit.com/uber-v2.com',
+          logo: 'https://logo.clearbit.com/uber.com',
           description: 'This uber-v2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/girliemac/uber-v2',
@@ -10619,7 +10619,7 @@ const sidebarNav = [
         {
           title: 'jd-credit',
           href: 'docs/hack(passports)/jd-credit',
-          logo: 'https://logo.clearbit.com/jd-credit.com',
+          logo: 'https://logo.clearbit.com/jd.com',
           description: 'This jd-credit passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/mackwan84/jd-credit',
@@ -10684,7 +10684,7 @@ const sidebarNav = [
         {
           title: 'shutterstock-oauth2',
           href: 'docs/hack(passports)/shutterstock-oauth2',
-          logo: 'https://logo.clearbit.com/shutterstock-oauth2.com',
+          logo: 'https://logo.clearbit.com/shutterstock.com',
           description: 'This shutterstock-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/shutterstock/shutterstock-oauth2',
@@ -10710,7 +10710,7 @@ const sidebarNav = [
         {
           title: 'node-freeagent2',
           href: 'docs/hack(passports)/node-freeagent2',
-          logo: 'https://logo.clearbit.com/node-freeagent2.com',
+          logo: 'https://logo.clearbit.com/node.com',
           description: 'This node-freeagent2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/JoeStanton/node-freeagent2',
@@ -10814,7 +10814,7 @@ const sidebarNav = [
         {
           title: 'mondo-oauth2',
           href: 'docs/hack(passports)/mondo-oauth2',
-          logo: 'https://logo.clearbit.com/mondo-oauth2.com',
+          logo: 'https://logo.clearbit.com/mondo.com',
           description: 'This mondo-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/timReynolds/mondo-oauth2',
@@ -10853,7 +10853,7 @@ const sidebarNav = [
         {
           title: 'rdio-oauth2',
           href: 'docs/hack(passports)/rdio-oauth2',
-          logo: 'https://logo.clearbit.com/rdio-oauth2.com',
+          logo: 'https://logo.clearbit.com/rdio.com',
           description: 'This rdio-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/octoblu/rdio-oauth2',
@@ -11087,7 +11087,7 @@ const sidebarNav = [
         {
           title: 'lds-connect',
           href: 'docs/hack(passports)/lds-connect',
-          logo: 'https://logo.clearbit.com/lds-connect.com',
+          logo: 'https://logo.clearbit.com/lds.com',
           description: 'This lds-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/LDSorg/lds-io',
@@ -11204,7 +11204,7 @@ const sidebarNav = [
         {
           title: 'wix-app',
           href: 'docs/hack(passports)/wix-app',
-          logo: 'https://logo.clearbit.com/wix-app.com',
+          logo: 'https://logo.clearbit.com/wix.com',
           description: 'This wix-app passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/maxkoryukov/wix-app',
@@ -11243,7 +11243,7 @@ const sidebarNav = [
         {
           title: 'bypass-strategy',
           href: 'docs/hack(passports)/bypass-strategy',
-          logo: 'https://logo.clearbit.com/bypass-strategy.com',
+          logo: 'https://logo.clearbit.com/bypass.com',
           description: 'This bypass-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/bypasslane/bypass-strategy',
@@ -11334,7 +11334,7 @@ const sidebarNav = [
         {
           title: 'dropbox-business',
           href: 'docs/hack(passports)/dropbox-business',
-          logo: 'https://logo.clearbit.com/dropbox-business.com',
+          logo: 'https://logo.clearbit.com/dropbox.com',
           description: 'This dropbox-business passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/yawhide/dropbox-business',
@@ -11438,7 +11438,7 @@ const sidebarNav = [
         {
           title: 'ibm-connections-oauth',
           href: 'docs/hack(passports)/ibm-connections-oauth',
-          logo: 'https://logo.clearbit.com/ibm-connections-oauth.com',
+          logo: 'https://logo.clearbit.com/ibm.com',
           description: 'This ibm-connections-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/benkroeger/ibm-connections-oauth',
@@ -11620,7 +11620,7 @@ const sidebarNav = [
         {
           title: 'cloudfoundry-openidconnect',
           href: 'docs/hack(passports)/cloudfoundry-openidconnect',
-          logo: 'https://logo.clearbit.com/cloudfoundry-openidconnect.com',
+          logo: 'https://logo.clearbit.com/cloudfoundry.com',
           description: 'This cloudfoundry-openidconnect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/rajaraodv/cloudfoundry-openidconnect',
@@ -11633,7 +11633,7 @@ const sidebarNav = [
         {
           title: 'lds-io',
           href: 'docs/hack(passports)/lds-io',
-          logo: 'https://logo.clearbit.com/lds-io.com',
+          logo: 'https://logo.clearbit.com/lds.com',
           description: 'This lds-io passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/LDSorg/lds-io',
@@ -11685,7 +11685,7 @@ const sidebarNav = [
         {
           title: 'sharepoint-addin',
           href: 'docs/hack(passports)/sharepoint-addin',
-          logo: 'https://logo.clearbit.com/sharepoint-addin.com',
+          logo: 'https://logo.clearbit.com/sharepoint.com',
           description: 'This sharepoint-addin passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/s-KaiNet/sharepoint-addin',
@@ -11776,7 +11776,7 @@ const sidebarNav = [
         {
           title: 'digital-signature',
           href: 'docs/hack(passports)/digital-signature',
-          logo: 'https://logo.clearbit.com/digital-signature.com',
+          logo: 'https://logo.clearbit.com/digital.com',
           description: 'This digital-signature passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/johnhenry/digital-signature',
@@ -11789,7 +11789,7 @@ const sidebarNav = [
         {
           title: 'warwick-sso-oauth',
           href: 'docs/hack(passports)/warwick-sso-oauth',
-          logo: 'https://logo.clearbit.com/warwick-sso-oauth.com',
+          logo: 'https://logo.clearbit.com/warwick.com',
           description: 'This warwick-sso-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/UniversityofWarwick/warwick-sso-oauth',
@@ -11932,7 +11932,7 @@ const sidebarNav = [
         {
           title: 'chalkable-oauth2',
           href: 'docs/hack(passports)/chalkable-oauth2',
-          logo: 'https://logo.clearbit.com/chalkable-oauth2.com',
+          logo: 'https://logo.clearbit.com/chalkable.com',
           description: 'This chalkable-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/headlessme/chalkable-oauth2',
@@ -11945,7 +11945,7 @@ const sidebarNav = [
         {
           title: 'heroku-sso',
           href: 'docs/hack(passports)/heroku-sso',
-          logo: 'https://logo.clearbit.com/heroku-sso.com',
+          logo: 'https://logo.clearbit.com/heroku.com',
           description: 'This heroku-sso passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/camshaft/heroku-sso',
@@ -12088,7 +12088,7 @@ const sidebarNav = [
         {
           title: 'acuity-oauth2',
           href: 'docs/hack(passports)/acuity-oauth2',
-          logo: 'https://logo.clearbit.com/acuity-oauth2.com',
+          logo: 'https://logo.clearbit.com/acuity.com',
           description: 'This acuity-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Nimblr/acuity-oauth2',
@@ -12101,7 +12101,7 @@ const sidebarNav = [
         {
           title: 'ibm-connections-basic',
           href: 'docs/hack(passports)/ibm-connections-basic',
-          logo: 'https://logo.clearbit.com/ibm-connections-basic.com',
+          logo: 'https://logo.clearbit.com/ibm.com',
           description: 'This ibm-connections-basic passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/benkroeger/ibm-connections-basic',
@@ -12153,7 +12153,7 @@ const sidebarNav = [
         {
           title: 'brightspace-auth',
           href: 'docs/hack(passports)/brightspace-auth',
-          logo: 'https://logo.clearbit.com/brightspace-auth.com',
+          logo: 'https://logo.clearbit.com/brightspace.com',
           description: 'This brightspace-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Brightspace/brightspace-auth',
@@ -12205,7 +12205,7 @@ const sidebarNav = [
         {
           title: 'edmodo-api',
           href: 'docs/hack(passports)/edmodo-api',
-          logo: 'https://logo.clearbit.com/edmodo-api.com',
+          logo: 'https://logo.clearbit.com/edmodo.com',
           description: 'This edmodo-api passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/Coggle/edmodo-api',
@@ -12231,7 +12231,7 @@ const sidebarNav = [
         {
           title: 'azure-store',
           href: 'docs/hack(passports)/azure-store',
-          logo: 'https://logo.clearbit.com/azure-store.com',
+          logo: 'https://logo.clearbit.com/azure.com',
           description: 'This azure-store passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/auth0/azure-store',
@@ -12257,7 +12257,7 @@ const sidebarNav = [
         {
           title: 'dedicated-bluemix',
           href: 'docs/hack(passports)/dedicated-bluemix',
-          logo: 'https://logo.clearbit.com/dedicated-bluemix.com',
+          logo: 'https://logo.clearbit.com/dedicated.com',
           description: 'This dedicated-bluemix passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/colbycolby/dedicated-bluemix',
@@ -12387,7 +12387,7 @@ const sidebarNav = [
         {
           title: 'voice-it',
           href: 'docs/hack(passports)/voice-it',
-          logo: 'https://logo.clearbit.com/voice-it.com',
+          logo: 'https://logo.clearbit.com/voice.com',
           description: 'This voice-it passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/iszak/voice-it',
@@ -12413,7 +12413,7 @@ const sidebarNav = [
         {
           title: 'att-alpha',
           href: 'docs/hack(passports)/att-alpha',
-          logo: 'https://logo.clearbit.com/att-alpha.com',
+          logo: 'https://logo.clearbit.com/att.com',
           description: 'This att-alpha passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/att-innovate/att-alpha',
@@ -12465,7 +12465,7 @@ const sidebarNav = [
         {
           title: 'heroku-passport',
           href: 'docs/hack(passports)/heroku-passport',
-          logo: 'https://logo.clearbit.com/heroku-passport.com',
+          logo: 'https://logo.clearbit.com/heroku.com',
           description: 'This heroku-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jeffandersen/heroku-passport.git',
@@ -12504,7 +12504,7 @@ const sidebarNav = [
         {
           title: 'atlassian-crowd',
           href: 'docs/hack(passports)/atlassian-crowd',
-          logo: 'https://logo.clearbit.com/atlassian-crowd.com',
+          logo: 'https://logo.clearbit.com/atlassian.com',
           description: 'This atlassian-crowd passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git+https://bitbucket.org/knecht_andreas/atlassian-crowd.git',
@@ -12530,7 +12530,7 @@ const sidebarNav = [
         {
           title: 'addressix-oauth2',
           href: 'docs/hack(passports)/addressix-oauth2',
-          logo: 'https://logo.clearbit.com/addressix-oauth2.com',
+          logo: 'https://logo.clearbit.com/addressix.com',
           description: 'This addressix-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/addressix/addressix-oauth2',
@@ -12634,7 +12634,7 @@ const sidebarNav = [
         {
           title: 'coding-oauth',
           href: 'docs/hack(passports)/coding-oauth',
-          logo: 'https://logo.clearbit.com/coding-oauth.com',
+          logo: 'https://logo.clearbit.com/coding.com',
           description: 'This coding-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/chrisyer/coding-oauth',
@@ -12712,7 +12712,7 @@ const sidebarNav = [
         {
           title: 'estimote-cloud',
           href: 'docs/hack(passports)/estimote-cloud',
-          logo: 'https://logo.clearbit.com/estimote-cloud.com',
+          logo: 'https://logo.clearbit.com/estimote.com',
           description: 'This estimote-cloud passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/octoblu/estimote-cloud',
@@ -12738,7 +12738,7 @@ const sidebarNav = [
         {
           title: 'encored-enertalk',
           href: 'docs/hack(passports)/encored-enertalk',
-          logo: 'https://logo.clearbit.com/encored-enertalk.com',
+          logo: 'https://logo.clearbit.com/encored.com',
           description: 'This encored-enertalk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/mooyoul/encored-enertalk',
@@ -12751,7 +12751,7 @@ const sidebarNav = [
         {
           title: 'eipsk-strategy',
           href: 'docs/hack(passports)/eipsk-strategy',
-          logo: 'https://logo.clearbit.com/eipsk-strategy.com',
+          logo: 'https://logo.clearbit.com/eipsk.com',
           description: 'This eipsk-strategy passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/dvpnt/eipsk-strategy',
@@ -12907,7 +12907,7 @@ const sidebarNav = [
         {
           title: 'planningcenter-oauth2',
           href: 'docs/hack(passports)/planningcenter-oauth2',
-          logo: 'https://logo.clearbit.com/planningcenter-oauth2.com',
+          logo: 'https://logo.clearbit.com/planningcenter.com',
           description: 'This planningcenter-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/glena/planningcenter-oauth2',
@@ -12933,7 +12933,7 @@ const sidebarNav = [
         {
           title: 'hmac-aws4',
           href: 'docs/hack(passports)/hmac-aws4',
-          logo: 'https://logo.clearbit.com/hmac-aws4.com',
+          logo: 'https://logo.clearbit.com/hmac.com',
           description: 'This hmac-aws4 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/npm/security-holder',
@@ -13063,7 +13063,7 @@ const sidebarNav = [
         {
           title: 'dapp-web3',
           href: 'docs/hack(passports)/dapp-web3',
-          logo: 'https://logo.clearbit.com/dapp-web3.com',
+          logo: 'https://logo.clearbit.com/dapp.com',
           description: 'This dapp-web3 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/psychobunny/dapp-web3',
@@ -13102,7 +13102,7 @@ const sidebarNav = [
         {
           title: 'weixin-plus',
           href: 'docs/hack(passports)/weixin-plus',
-          logo: 'https://logo.clearbit.com/weixin-plus.com',
+          logo: 'https://logo.clearbit.com/weixin.com',
           description: 'This weixin-plus passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/lutaoact/weixin-plus',
@@ -13258,7 +13258,7 @@ const sidebarNav = [
         {
           title: 'http-encrypted-token',
           href: 'docs/hack(passports)/http-encrypted-token',
-          logo: 'https://logo.clearbit.com/http-encrypted-token.com',
+          logo: 'https://logo.clearbit.com/http.com',
           description: 'This http-encrypted-token passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/dowjones/http-encrypted-token',
@@ -13349,7 +13349,7 @@ const sidebarNav = [
         {
           title: 'wechat-work',
           href: 'docs/hack(passports)/wechat-work',
-          logo: 'https://logo.clearbit.com/wechat-work.com',
+          logo: 'https://logo.clearbit.com/wechat.com',
           description: 'This wechat-work passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/harryhan1989/wechat-work',
@@ -13414,7 +13414,7 @@ const sidebarNav = [
         {
           title: 'tixte-passport',
           href: 'docs/hack(passports)/tixte-passport',
-          logo: 'https://logo.clearbit.com/tixte-passport.com',
+          logo: 'https://logo.clearbit.com/tixte.com',
           description: 'This tixte-passport passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/tixte/tixte-passport',
@@ -13479,7 +13479,7 @@ const sidebarNav = [
         {
           title: 'nus-openid',
           href: 'docs/hack(passports)/nus-openid',
-          logo: 'https://logo.clearbit.com/nus-openid.com',
+          logo: 'https://logo.clearbit.com/nus.com',
           description: 'This nus-openid passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/lauweijie/nus-openid',
@@ -13583,7 +13583,7 @@ const sidebarNav = [
         {
           title: 'tozny-auth',
           href: 'docs/hack(passports)/tozny-auth',
-          logo: 'https://logo.clearbit.com/tozny-auth.com',
+          logo: 'https://logo.clearbit.com/tozny.com',
           description: 'This tozny-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/tozny/sdk-node',
@@ -13609,7 +13609,7 @@ const sidebarNav = [
         {
           title: 'fido2-nojwk',
           href: 'docs/hack(passports)/fido2-nojwk',
-          logo: 'https://logo.clearbit.com/fido2-nojwk.com',
+          logo: 'https://logo.clearbit.com/fido2.com',
           description: 'This fido2-nojwk passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -13635,7 +13635,7 @@ const sidebarNav = [
         {
           title: 'mediawiki-oauth',
           href: 'docs/hack(passports)/mediawiki-oauth',
-          logo: 'https://logo.clearbit.com/mediawiki-oauth.com',
+          logo: 'https://logo.clearbit.com/mediawiki.com',
           description: 'This mediawiki-oauth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -13739,7 +13739,7 @@ const sidebarNav = [
         {
           title: 'mercadolibre-2',
           href: 'docs/hack(passports)/mercadolibre-2',
-          logo: 'https://logo.clearbit.com/mercadolibre-2.com',
+          logo: 'https://logo.clearbit.com/mercadolibre.com',
           description: 'This mercadolibre-2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/andreskir/mercadolibre',
@@ -13765,7 +13765,7 @@ const sidebarNav = [
         {
           title: 'open-humans',
           href: 'docs/hack(passports)/open-humans',
-          logo: 'https://logo.clearbit.com/open-humans.com',
+          logo: 'https://logo.clearbit.com/open.com',
           description: 'This open-humans passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/OpenHumans/open-humans',
@@ -13830,7 +13830,7 @@ const sidebarNav = [
         {
           title: 'ppige-npdc',
           href: 'docs/hack(passports)/ppige-npdc',
-          logo: 'https://logo.clearbit.com/ppige-npdc.com',
+          logo: 'https://logo.clearbit.com/ppige.com',
           description: 'This ppige-npdc passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/isogeo/ppige-npdc.git',
@@ -13843,7 +13843,7 @@ const sidebarNav = [
         {
           title: 'renren-new',
           href: 'docs/hack(passports)/renren-new',
-          logo: 'https://logo.clearbit.com/renren-new.com',
+          logo: 'https://logo.clearbit.com/renren.com',
           description: 'This renren-new passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/xr/renren-new',
@@ -13947,7 +13947,7 @@ const sidebarNav = [
         {
           title: 'windowslive-contacts',
           href: 'docs/hack(passports)/windowslive-contacts',
-          logo: 'https://logo.clearbit.com/windowslive-contacts.com',
+          logo: 'https://logo.clearbit.com/windowslive.com',
           description: 'This windowslive-contacts passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -14012,7 +14012,7 @@ const sidebarNav = [
         {
           title: 'restogram-oauth2',
           href: 'docs/hack(passports)/restogram-oauth2',
-          logo: 'https://logo.clearbit.com/restogram-oauth2.com',
+          logo: 'https://logo.clearbit.com/restogram.com',
           description: 'This restogram-oauth2 passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/jaredhanson/passport',
@@ -14025,7 +14025,7 @@ const sidebarNav = [
         {
           title: 'product-hunt',
           href: 'docs/hack(passports)/product-hunt',
-          logo: 'https://logo.clearbit.com/product-hunt.com',
+          logo: 'https://logo.clearbit.com/product.com',
           description: 'This product-hunt passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/allotropyio/product-hunt.git',
@@ -14259,7 +14259,7 @@ const sidebarNav = [
         {
           title: 'wechat-auth',
           href: 'docs/hack(passports)/wechat-auth',
-          logo: 'https://logo.clearbit.com/wechat-auth.com',
+          logo: 'https://logo.clearbit.com/wechat.com',
           description: 'This wechat-auth passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'git://github.com/danywheeler/wechat-auth.git',
@@ -14272,7 +14272,7 @@ const sidebarNav = [
         {
           title: 'atlassian-connect',
           href: 'docs/hack(passports)/atlassian-connect',
-          logo: 'https://logo.clearbit.com/atlassian-connect.com',
+          logo: 'https://logo.clearbit.com/atlassian.com',
           description: 'This atlassian-connect passport statergy is quite popular amoung developers but it is recommended to checkout the github repo in order to use it!!!',
           website_url: 'https://www.passportjs.org/',
           github_repo: 'https://github.com/DanielHreben/atlassian-connect',
@@ -48228,7 +48228,7 @@ sidebarNav.forEach((navItem) => {
       const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
       download(item.logo, filePath, () => {
         // console.log(`${item.title} image downloaded!`);
-        console.log(`${navItem.items.title}'${item.title} logo is downloadeded!!!`);
+        console.log(`${item.title} logo is downloadeded!!!`);
 
       });
         // console.log(`${navItem.items.title}'${item.title} image can be downloadeded!`);      

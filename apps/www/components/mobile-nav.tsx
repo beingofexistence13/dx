@@ -420,11 +420,7 @@ export function MobileNav() {
                                           quality={100}
                                           style={{ objectFit: "contain" }}
                                           loading="lazy"
-                                          alt={
-                                            item.title
-                                              ? logoLetter(item.title)
-                                              : "Dx"
-                                          }
+                                          alt={"Dx"}
                                         />
                                       ) : (
                                         <div className="item-logo-fallback">
@@ -452,7 +448,6 @@ export function MobileNav() {
                                       </div>
                                     </DropdownMenuTrigger>
                                     <DropdownMenuContent align="end">
-                                      <DropdownMenuItem>Light</DropdownMenuItem>
                                       {item.website_url ? (
                                         <DropdownMenuItem>
                                           <Link
@@ -537,16 +532,16 @@ export function MobileNav() {
                                       item.updated ? (
                                         <div>
                                           <DropdownMenuItem>
-                                            {item.download}
+                                            Downloads({item.download})
                                           </DropdownMenuItem>
                                           <DropdownMenuItem>
-                                            {item.star}
+                                            Stars({item.star})
                                           </DropdownMenuItem>
                                           <DropdownMenuItem>
-                                            {item.version}
+                                            Version({item.version})
                                           </DropdownMenuItem>
                                           <DropdownMenuItem>
-                                            {item.updated}
+                                            Updated({item.updated})
                                           </DropdownMenuItem>
                                         </div>
                                       ) : (
