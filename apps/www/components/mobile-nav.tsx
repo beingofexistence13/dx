@@ -5,28 +5,30 @@ import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { ViewVerticalIcon } from "@radix-ui/react-icons"
+
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-  Avatar, 
-  AvatarFallback, 
-  AvatarImage,
-  Button,
   ScrollArea,
-  Sheet, 
-  SheetContent, 
-  SheetTrigger
+  Sheet,
+  SheetContent,
+  SheetTrigger,
 } from "./ui"
 
 export function MobileNav() {
@@ -39,17 +41,16 @@ export function MobileNav() {
     let result = firstLetter + lastLetter
     return result
   }
-  
+
   function transformString(str: string): string {
     return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
-      return firstLetter.toUpperCase() + restOfWord.toLowerCase();
-    });
+      return firstLetter.toUpperCase() + restOfWord.toLowerCase()
+    })
   }
-  
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        
         <Button
           variant="ghost"
           className="nav-toggles h-24 px-2 py-5 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
@@ -73,7 +74,6 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="sheetLeft p-0">
-        
         <MobileLink
           href="/"
           className="flex items-center"
@@ -88,7 +88,6 @@ export function MobileNav() {
 
         <ScrollArea className="mt-2 h-[100vh] pb-32 ">
           <Accordion type="multiple" className="w-full pr-6">
-            
             {/* Products */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="products">
@@ -124,7 +123,7 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
-            
+
             {/* More */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="more">
@@ -160,7 +159,7 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
-            
+
             {/* Extra NavItem */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="extra-navitems">
@@ -196,7 +195,7 @@ export function MobileNav() {
                 </AccordionContent>
               </AccordionItem>
             </div>
-            
+
             {/* Main NavItems */}
             <div className="flex flex-col space-y-3">
               {docsConfig.sidebarNav.map((item, index) => (
@@ -242,7 +241,9 @@ export function MobileNav() {
                                       onOpenChange={setOpen}
                                       className="w-full flex flex-row items-center justify-center"
                                     >
-                                      {transformString(item.title.replace(/-/g," "))}
+                                      {transformString(
+                                        item.title.replace(/-/g, " ")
+                                      )}
                                     </MobileLink>
                                   </div>
                                   <DropdownMenu>
@@ -275,7 +276,7 @@ export function MobileNav() {
                                       item.playStore &&
                                       item.webStore ? (
                                         <div>
-                                          <DropdownMenuItem  className="flex items-center justify-center">
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             <Link
                                               key={index}
                                               href={item.appStore}
@@ -292,7 +293,7 @@ export function MobileNav() {
                                               AppStore
                                             </Link>
                                           </DropdownMenuItem>
-                                          <DropdownMenuItem  className="flex items-center justify-center">
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             <Link
                                               key={index}
                                               href={item.playStore}
@@ -335,7 +336,7 @@ export function MobileNav() {
                                       item.version &&
                                       item.updated ? (
                                         <div>
-                                          <DropdownMenuItem  className="flex items-center justify-center">
+                                          <DropdownMenuItem className="flex items-center justify-center">
                                             Downloads({item.download})
                                           </DropdownMenuItem>
                                           <DropdownMenuItem className="flex items-center justify-center">
