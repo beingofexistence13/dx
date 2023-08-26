@@ -20,6 +20,7 @@ import { Button } from "@/registry/new-york/ui/button"
 import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/registry/new-york/ui/sheet"
 
+import ImageWithFallback from "./imageFallback"
 import {
   Accordion,
   AccordionContent,
@@ -410,18 +411,19 @@ export function MobileNav() {
                                   <div className="products-logo">
                                     <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lg flex items-center justify-center ">
                                       {item.logo ? (
-                                        <Image
-                                          src={`/docs/${item.title
-                                            .replace(/\s/g, "")
-                                            .toLowerCase()}.jpg`}
-                                          height={25}
-                                          width={25}
-                                          sizes="(max-width: 30px) 100vw"
-                                          quality={100}
-                                          style={{ objectFit: "contain" }}
-                                          loading="lazy"
-                                          alt={"Dx"}
-                                        />
+                                        <Avatar className="h-[25px] w-[25px]">
+                                          <AvatarImage
+                                            src={`/docs/${item.title
+                                              .replace(/\s/g, "")
+                                              .toLowerCase()}.jpg`}
+                                            alt="Dx"
+                                          />
+                                          <AvatarFallback>
+                                            {item.title
+                                              ? logoLetter(item.title)
+                                              : "Dx"}
+                                          </AvatarFallback>
+                                        </Avatar>
                                       ) : (
                                         <div className="item-logo-fallback">
                                           {item.title
@@ -582,6 +584,28 @@ export function MobileNav() {
           </Accordion>
           <h5 className="flex w-full items-start justify-center mt-8 h-[5000px]">
             Build By Sumon & Loved By You!!!
+            <Avatar>
+              <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
+              <AvatarFallback>CN</AvatarFallback>
+            </Avatar>
+            {/* <Image
+      {...rest}
+      src={imgSrc}
+      onError={() => {
+        setImgSrc(fallbackSrc);
+      }}     />*/}
+            {/* <ImageWithFallback
+              src={`/metamask.jpg`}
+              fallbackSrc={"/docs/metamask.jpg"}
+              height={25}
+              width={25}
+              sizes="(max-width: 30px) 100vw"
+              quality={100}
+              style={{ objectFit: "contain" }}
+              loading="lazy"
+              alt={"Dx"}
+
+            /> */}
           </h5>
         </ScrollArea>
       </SheetContent>

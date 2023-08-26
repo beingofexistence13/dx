@@ -184,7 +184,7 @@ export function DocsSidebarNavItems({
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
                 <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                  {item.logo ? (
+                  {/* {item.logo ? (
                     <Image
                       src={`/docs/${item.title
                         .replace(/\s/g, "")
@@ -197,6 +197,23 @@ export function DocsSidebarNavItems({
                       loading="lazy"
                       alt={item.title ? logoLetter(item.title) : "Dx"}
                     />
+                  ) : (
+                    <div className="item-logo-fallback">
+                      {item.title ? logoLetter(item.title) : "Dx"}
+                    </div>
+                  )} */}
+                  {item.logo ? (
+                    <Avatar className="h-[25px] w-[25px]">
+                      <AvatarImage
+                        src={`/docs/${item.title
+                          .replace(/\s/g, "")
+                          .toLowerCase()}.jpg`}
+                        alt="Dx"
+                      />
+                      <AvatarFallback>
+                        {item.title ? logoLetter(item.title) : "Dx"}
+                      </AvatarFallback>
+                    </Avatar>
                   ) : (
                     <div className="item-logo-fallback">
                       {item.title ? logoLetter(item.title) : "Dx"}
@@ -276,10 +293,16 @@ export function DocsSidebarNavItems({
                     item.version &&
                     item.updated ? (
                       <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-3">
-                        <h6 className="download hover:underline">{item.download}</h6>
+                        <h6 className="download hover:underline">
+                          {item.download}
+                        </h6>
                         <h6 className="star hover:underline ">{item.star}</h6>
-                        <h6 className="version hover:underline ">{item.version}</h6>
-                        <h6 className="updated hover:underline">{item.updated}</h6>
+                        <h6 className="version hover:underline ">
+                          {item.version}
+                        </h6>
+                        <h6 className="updated hover:underline">
+                          {item.updated}
+                        </h6>
                       </div>
                     ) : (
                       <div className="more_actions_empty"></div>
