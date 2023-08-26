@@ -65,164 +65,7 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="pr-0 w-full">
-        <Accordion type="multiple" className="w-full px-5">
-          // Products
-          <div className="flex flex-col space-y-3">
-            <AccordionItem value="products">
-              <AccordionTrigger>All Products</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-col items-center justify-between">
-                {products.map(
-                  (item) =>
-                    item.href && (
-                      <MobileLink
-                        key={item.href}
-                        href={item.href}
-                        onOpenChange={setOpen}
-                      >
-                        <div className="products-logo">
-                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                            <div className="item-logo-fallback">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </div>
-                          </div>
-                        </div>
-                        <div className="products-title flex-1">
-                          {item.title}
-                        </div>
-                        <div className="products-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                          <Icons.moreHorizental className="h-4 w-4" />
-                        </div>
-                      </MobileLink>
-                    )
-                )}
-              </AccordionContent>
-            </AccordionItem>
-          </div>
-          // More
-          <div className="flex flex-col space-y-3">
-            <AccordionItem value="more">
-              <AccordionTrigger>More</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-col items-center justify-between">
-                {more.map(
-                  (item) =>
-                    item.href && (
-                      <MobileLink
-                        key={item.href}
-                        href={item.href}
-                        onOpenChange={setOpen}
-                      >
-                        <div className="more-logo">
-                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                            <div className="item-logo-fallback">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </div>
-                          </div>
-                        </div>
-                        <div className="more-title flex-1">{item.title}</div>
-                        <div className="more-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                          <Icons.moreHorizental className="h-4 w-4" />
-                        </div>
-                      </MobileLink>
-                    )
-                )}
-              </AccordionContent>
-            </AccordionItem>
-          </div>
-          // Extra NavItems
-          <div className="flex flex-col space-y-3">
-            <AccordionItem value="extra-navitem">
-              <AccordionTrigger>Extra NavItems</AccordionTrigger>
-              <AccordionContent className="w-full flex flex-col items-center justify-between">
-                {docsConfig.mainNav.map(
-                  (item) =>
-                    item.href && (
-                      <MobileLink
-                        key={item.href}
-                        href={item.href}
-                        onOpenChange={setOpen}
-                      >
-                        <div className="extra-navitem-logo">
-                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                            <div className="item-logo-fallback">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </div>
-                          </div>
-                        </div>
-                        <div className="extra-navitem-title flex-1">
-                          {item.title}
-                        </div>
-                        <div className="extra-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                          <Icons.moreHorizental className="h-4 w-4" />
-                        </div>
-                      </MobileLink>
-                    )
-                )}
-              </AccordionContent>
-            </AccordionItem>
-          </div>
-          // Main NavItems
-          <div className="flex flex-col space-y-3">
-            {docsConfig.sidebarNav.map((item, index) => (
-              <div key={index} className="flex flex-col space-y-3">
-                {item?.items?.length &&
-                  item.items.map((item) => (
-                    <React.Fragment key={item.href}>
-                      {!item.disabled &&
-                        (item.href ? (
-                          <MobileLink
-                            href={item.href}
-                            onOpenChange={setOpen}
-                            className="text-muted-foreground"
-                          >
-                            <AccordionItem value="main-navitem">
-                              <AccordionTrigger>{item.title}</AccordionTrigger>
-                              <AccordionContent className="w-full flex flex-row items-center justify-between">
-                                <div className="products-logo">
-                                  <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
-                                    {item.logo ? (
-                                      <Image
-                                        src={`/docs/${item.title
-                                          .replace(/\s/g, "")
-                                          .toLowerCase()}.jpg`}
-                                        height={25}
-                                        width={25}
-                                        sizes="(max-width: 30px) 100vw"
-                                        quality={100}
-                                        style={{ objectFit: "contain" }}
-                                        loading="lazy"
-                                        alt={
-                                          item.title
-                                            ? logoLetter(item.title)
-                                            : "Dx"
-                                        }
-                                      />
-                                    ) : (
-                                      <div className="item-logo-fallback">
-                                        {item.title
-                                          ? logoLetter(item.title)
-                                          : "Dx"}
-                                      </div>
-                                    )}
-                                  </div>
-                                </div>
-                                <div className="main-navitem-title flex-1">
-                                  {item.title}
-                                </div>
-                                <div className="main-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
-                                  <Icons.moreHorizental className="h-4 w-4" />
-                                </div>
-                              </AccordionContent>
-                            </AccordionItem>
-                          </MobileLink>
-                        ) : (
-                          item.title
-                        ))}
-                    </React.Fragment>
-                  ))}
-              </div>
-            ))}
-          </div>
-        </Accordion>
+
 
         <MobileLink
           href="/"
@@ -237,7 +80,7 @@ export function MobileNav() {
         </MobileLink>
 
         <ScrollArea className="mt-2 h-[100vh] pb-20 pl-6">
-          <div className="flex flex-col space-y-3 text-[#73737a]">
+          {/* <div className="flex flex-col space-y-3 text-[#73737a]">
             {products.map(
               (item) =>
                 item.href && (
@@ -382,7 +225,165 @@ export function MobileNav() {
                   ))}
               </div>
             ))}
+          </div> */}
+                  <Accordion type="multiple" className="w-full px-5">
+          {/* // Products */}
+          <div className="flex flex-col space-y-3">
+            <AccordionItem value="products">
+              <AccordionTrigger>All Products</AccordionTrigger>
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
+                {products.map(
+                  (item) =>
+                    item.href && (
+                      <MobileLink
+                        key={item.href}
+                        href={item.href}
+                        onOpenChange={setOpen}
+                      >
+                        <div className="products-logo">
+                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="item-logo-fallback">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </div>
+                          </div>
+                        </div>
+                        <div className="products-title flex-1">
+                          {item.title}
+                        </div>
+                        <div className="products-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <Icons.moreHorizental className="h-4 w-4" />
+                        </div>
+                      </MobileLink>
+                    )
+                )}
+              </AccordionContent>
+            </AccordionItem>
           </div>
+          {/* // More */}
+          <div className="flex flex-col space-y-3">
+            <AccordionItem value="more">
+              <AccordionTrigger>More</AccordionTrigger>
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
+                {more.map(
+                  (item) =>
+                    item.href && (
+                      <MobileLink
+                        key={item.href}
+                        href={item.href}
+                        onOpenChange={setOpen}
+                      >
+                        <div className="more-logo">
+                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="item-logo-fallback">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </div>
+                          </div>
+                        </div>
+                        <div className="more-title flex-1">{item.title}</div>
+                        <div className="more-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <Icons.moreHorizental className="h-4 w-4" />
+                        </div>
+                      </MobileLink>
+                    )
+                )}
+              </AccordionContent>
+            </AccordionItem>
+          </div>
+          {/* // Extra NavItems */}
+          <div className="flex flex-col space-y-3">
+            <AccordionItem value="extra-navitem">
+              <AccordionTrigger>Extra NavItems</AccordionTrigger>
+              <AccordionContent className="w-full flex flex-col items-center justify-between">
+                {docsConfig.mainNav.map(
+                  (item) =>
+                    item.href && (
+                      <MobileLink
+                        key={item.href}
+                        href={item.href}
+                        onOpenChange={setOpen}
+                      >
+                        <div className="extra-navitem-logo">
+                          <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="item-logo-fallback">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </div>
+                          </div>
+                        </div>
+                        <div className="extra-navitem-title flex-1">
+                          {item.title}
+                        </div>
+                        <div className="extra-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <Icons.moreHorizental className="h-4 w-4" />
+                        </div>
+                      </MobileLink>
+                    )
+                )}
+              </AccordionContent>
+            </AccordionItem>
+          </div>
+          {/* // Main NavItems */}
+          <div className="flex flex-col space-y-3">
+            {docsConfig.sidebarNav.map((item, index) => (
+              <div key={index} className="flex flex-col space-y-3">
+                {item?.items?.length &&
+                  item.items.map((item) => (
+                    <React.Fragment key={item.href}>
+                      {!item.disabled &&
+                        (item.href ? (
+                          <MobileLink
+                            href={item.href}
+                            onOpenChange={setOpen}
+                            className="text-muted-foreground"
+                          >
+                            <AccordionItem value="main-navitem">
+                              <AccordionTrigger>{item.title}</AccordionTrigger>
+                              <AccordionContent className="w-full flex flex-row items-center justify-between">
+                                <div className="products-logo">
+                                  <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                                    {item.logo ? (
+                                      <Image
+                                        src={`/docs/${item.title
+                                          .replace(/\s/g, "")
+                                          .toLowerCase()}.jpg`}
+                                        height={25}
+                                        width={25}
+                                        sizes="(max-width: 30px) 100vw"
+                                        quality={100}
+                                        style={{ objectFit: "contain" }}
+                                        loading="lazy"
+                                        alt={
+                                          item.title
+                                            ? logoLetter(item.title)
+                                            : "Dx"
+                                        }
+                                      />
+                                    ) : (
+                                      <div className="item-logo-fallback">
+                                        {item.title
+                                          ? logoLetter(item.title)
+                                          : "Dx"}
+                                      </div>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="main-navitem-title flex-1">
+                                  {item.title}
+                                </div>
+                                <div className="main-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                                  <Icons.moreHorizental className="h-4 w-4" />
+                                </div>
+                              </AccordionContent>
+                            </AccordionItem>
+                          </MobileLink>
+                        ) : (
+                          item.title
+                        ))}
+                    </React.Fragment>
+                  ))}
+              </div>
+            ))}
+          </div>
+        </Accordion>
         </ScrollArea>
       </SheetContent>
     </Sheet>
