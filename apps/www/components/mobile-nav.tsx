@@ -73,21 +73,21 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="sheetLeft p-0">
+      <SheetContent side="left" className="sheetLeft px-10">
         <MobileLink
           href="/"
-          className="flex items-center"
+          className="flex items-center justify-center p-0 m-0 py-1 mr-3 border rounded-md "
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <span className="ml-3 font-bold">{siteConfig.name}</span>
+          <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
 
         <ScrollArea className="mt-2 h-[100vh] pb-32 ">
-          <Accordion type="multiple" className="w-full pr-6">
+          <Accordion type="multiple" className="w-full">
             {/* Products */}
             <div className="flex flex-col space-y-3">
               <AccordionItem value="products">

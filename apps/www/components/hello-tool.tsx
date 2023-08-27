@@ -131,43 +131,43 @@ export function HelloTool() {
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>10</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>9</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>8</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] md:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>7</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] md:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>6</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>5</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/user-one.jpg" alt="@shadcn" />
-          <AvatarFallback>1</AvatarFallback>
+          <AvatarFallback>4</AvatarFallback>
         </Avatar>
         <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-two.jpg" alt="@shadcn" />
-          <AvatarFallback>2</AvatarFallback>
-        </Avatar>
-        <Avatar className=" h-[30px] w-[30px]">
-          <AvatarImage src="/user-three.jpg" alt="@shadcn" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
         <Avatar className=" h-[30px] w-[30px]">
+          <AvatarImage src="/user-three.jpg" alt="@shadcn" />
+          <AvatarFallback>2</AvatarFallback>
+        </Avatar>
+        <Avatar className=" h-[30px] w-[30px]">
           <AvatarImage src="/user-four.jpg" alt="@shadcn" />
-          <AvatarFallback>4</AvatarFallback>
+          <AvatarFallback>1</AvatarFallback>
         </Avatar>
 
         {/* Dialog */}
