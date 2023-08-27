@@ -130,31 +130,31 @@ export function HelloTool() {
       {/* Users */}
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/chainswap-x-force-by-deadpool.jpeg" alt="@shadcn" />
           <AvatarFallback>10</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@shadcn" />
           <AvatarFallback>9</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/naruto.jpg" alt="@shadcn" />
           <AvatarFallback>8</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] md:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@shadcn" />
           <AvatarFallback>7</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] md:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/night-shy.jpeg" alt="@shadcn" />
           <AvatarFallback>6</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/curse-king-sukuna.png" alt="@shadcn" />
           <AvatarFallback>5</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/user-one.jpg" alt="@shadcn" />
+          <AvatarImage src="/nezuukoo-chaaannn.png" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
         <Avatar className=" h-[30px] w-[30px]">
