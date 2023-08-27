@@ -48847,20 +48847,20 @@ const download = (url, filePath, callback) => {
 
 sidebarNav.forEach((navItem) => {
   navItem.items.forEach((item) => {
-    // if (item.logo) {
-    //   const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
-    //   download(item.logo, filePath, () => {
-    //     console.log(`${item.title} logo is downloadeded!!!`);
+    if (item.logo) {
+      const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
+      download(item.logo, filePath, () => {
+        console.log(`${item.title} logo is downloadeded!!!`);
 
-    //   });
+      });
 
-    // } else {
-    //   console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
-    // }
-    const filePath = `${item.title.replace(/\s/g, "-").toLowerCase()}.jpg`
-    download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
-      console.log(`${item.title} logo is downloadeded!!!`)
-    })
+    } else {
+      console.log(`No logo found called ${item.title} in ${navItem.items.title}`);
+    }
+    // const filePath = `${item.title.replace(/\s/g, "-").toLowerCase()}.jpg`
+    // download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
+    //   console.log(`${item.title} logo is downloadeded!!!`)
+    // })
   })
 })
 // mainNav.forEach((item) => {
