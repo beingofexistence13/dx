@@ -200,7 +200,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   background-color: var(--scrollbar-track);
 }
 
-*::-webkit-scrollbar-track:hover {
+*::-webkit-scrollbar-track {
   background-color: var(--scrollbar-track-hover);
   border-left: 1.5px solid var(--scrollbar-track-border);
   border-right: 1px solid var(--scrollbar-track-border);
@@ -216,7 +216,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   background-color: var(--scrollbar-thumb);
 }
 
-*::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-thumb-hover);
   border-radius: 14px;
 }
