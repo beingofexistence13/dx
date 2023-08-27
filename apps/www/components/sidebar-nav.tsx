@@ -193,7 +193,7 @@ export function DocsSidebarNavItems({
                       src={
                         item.logo
                           ? `/docs/${item.title
-                              .replace(/'s/g, "-")
+                              .replace(/\s/g, "-")
                               .toLowerCase()}.jpg`
                           : ""
                       }
