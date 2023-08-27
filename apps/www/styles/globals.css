@@ -228,15 +228,15 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .navbar {
   animation: ranbow-glow 10s linear infinite;
-  background: rgba( 255, 255, 255, 0 );
-  backdrop-filter: blur( 9px );
-  -webkit-backdrop-filter: blur( 9px );
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
 
   /* border-bottom: 2px solid yellow; */
   min-width: 100%;
 }
-.nav-toggles{
- height: 35px !important;
+.nav-toggles {
+  height: 35px !important;
 }
 .rainbow-text {
   display: flex;
@@ -281,10 +281,10 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 .devMode {
   animation: ranbow-glow 10s linear infinite;
-  background: rgba( 255, 255, 255, 0 );
+  background: rgba(255, 255, 255, 0);
   box-shadow: 0 8px 32px 0 red;
-  backdrop-filter: blur( 9px );
-  -webkit-backdrop-filter: blur( 9px );
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   padding: 0 !important;
   margin: 0 !important;
   height: 50px !important;
@@ -321,9 +321,11 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   min-height: 100px !important;
   height: 100px !important;
 }
-  .mobile-scroll::before {
- display: none;
-  }
+.mobile-scroll .scrollbar_thumnb {
+  display: none;
+  min-height: 100px !important;
+  height: 100px !important;
+}
 .scrollbar_thumnb::before {
   content: "";
   position: absolute;
@@ -351,6 +353,6 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 /* .backdrop-blur-sm {
   display: none !important;
 } */
-.sheetLeft{
+.sheetLeft {
   width: 100% !important;
 }

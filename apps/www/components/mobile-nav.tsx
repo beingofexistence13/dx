@@ -73,10 +73,10 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="sheetLeft">
+      <SheetContent side="left" className="sheetLeft p-0 m-0">
         <MobileLink
           href="/"
-          className="flex items-center justify-center p-10 m-0 py-1 mr-3 border rounded-md hover:bg-[--code-foreground]"
+          className="flex items-center justify-center p-10 mx-10 mt-5 py-1 border rounded-md hover:bg-[--code-foreground]"
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
@@ -86,7 +86,7 @@ export function MobileNav() {
           <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
 
-        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-32 px-7 ">
+        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-0 px-10 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
             <div className="flex flex-col space-y-3">
@@ -381,7 +381,7 @@ export function MobileNav() {
               ))}
             </div>
           </Accordion>
-          <h5 className="flex w-full items-start justify-center mt-8 h-[500px]">
+          <h5 className="flex w-full items-start justify-center mt-8 h-[250px]">
             Build By Sumon & Loved By You!!!
             <Avatar>
               <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
