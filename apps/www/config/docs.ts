@@ -2406,7 +2406,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/ledgerlive",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7f416de-aa03-4c5e-3280-ab49269aef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Web3 Wallet from the company that produced the world's most secure crypto hardware device.",
+            "Web3 Wallet from the company that produced the world -> most secure crypto hardware device.",
           website_url: "https://www.ledger.com/ledger-live",
           github_repo: "https://github.com/ledgerlive",
           appStore: "https://itunes.apple.com/app/id1361671700",
@@ -2837,7 +2837,7 @@ export const docsConfig: DocsConfig = {
           title: "Huddln",
           href: "docs/hack(evm-wallets)/huddln",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ba1571c-10c4-4284-b438-04dac27cb700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Web3's social gateway",
+          description: "Web3 -> social gateway",
           website_url: "https://www.huddln.io/",
           github_repo: "https://github.com/huddln",
           appStore:
@@ -2925,7 +2925,7 @@ export const docsConfig: DocsConfig = {
           title: "Cobalt Wallet",
           href: "docs/hack(evm-wallets)/cobaltwallet",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/29d914e5-9daa-4342-33cd-169155c5a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Horizen's EVM wallet",
+          description: "Horizen -> EVM wallet",
           website_url: "https://www.horizen.io/",
           github_repo: "https://github.com/cobaltwallet",
           appStore:
@@ -2969,7 +2969,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/copiosa",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cae1be94-9f53-4eba-b915-f6e381d5a500?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The Copiosa Wallet is more than just a digital wallet, it's an innovative tool that makes managing cryptocurrencies easy and secure",
+            "The Copiosa Wallet is more than just a digital wallet, it -> an innovative tool that makes managing cryptocurrencies easy and secure",
           website_url: "https://copiosa.io/",
           github_repo: "https://github.com/copiosa",
           appStore:
@@ -3555,7 +3555,7 @@ export const docsConfig: DocsConfig = {
           title: "Burrito Wallet",
           href: "docs/hack(evm-wallets)/burritowallet",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7eec7187-3f48-4fda-53bb-b0ad55749a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Let's wrap it up with Burrito Wallet!",
+          description: "Let -> wrap it up with Burrito Wallet!",
           website_url: "https://burritowallet.com/",
           github_repo: "https://github.com/burritowallet",
           appStore: "https://apps.apple.com/app/burrito-wallet/id6449563083",
@@ -3632,7 +3632,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/neftiwallet",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1f812dec-be3d-446c-52f7-a79eb0dd5400?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The platform's NFT WALLET allows storing of the NFTs securely on the blockchain.",
+            "The platform -> NFT WALLET allows storing of the NFTs securely on the blockchain.",
           website_url: "https://neftipedia.com/",
           github_repo: "https://github.com/neftiwallet",
           appStore:
@@ -3784,7 +3784,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/aktionariat",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6d18e8ea-b536-4038-c5bf-94a499d5a400?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "A fully automated, blockchain-based market tool. Embedded in your company's website.",
+            "A fully automated, blockchain-based market tool. Embedded in your company -> website.",
           website_url: "https://aktionariat.com/",
           github_repo: "https://github.com/aktionariat",
           appStore: "https://apps.apple.com/ch/app/aktionariat/id1518326813",
@@ -3920,7 +3920,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/aton",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2e85f1d1-f498-4cae-bb54-1d40614ee300?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "ATON is a safe and easy to use mobile wallet, and the first one that supports PlatON's network.",
+            "ATON is a safe and easy to use mobile wallet, and the first one that supports PlatON -> network.",
           website_url: "https://www.platon.network/en/wallet",
           github_repo: "https://github.com/aton",
           appStore:
@@ -4327,7 +4327,7 @@ export const docsConfig: DocsConfig = {
           title: "Paper",
           href: "docs/hack(evm-wallets)/paper",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37d7a10f-d94d-4a56-c30e-267e8afbd500?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Connect an app's embedded wallet powered by Paper.",
+          description: "Connect an app -> embedded wallet powered by Paper.",
           website_url: "https://withpaper.com/",
           github_repo: "https://github.com/paper",
           appStore: "https://withpaper.com/wallet",
@@ -5118,7 +5118,7 @@ export const docsConfig: DocsConfig = {
           title: "Nufinetes",
           href: "docs/hack(evm-wallets)/nufinetes",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bb6c1ca-4196-4ba3-ece2-c3d335e1f800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Nufinete's Multi-Chain Crypto Wallet",
+          description: "Nufinete -> Multi-Chain Crypto Wallet",
           website_url: "https://www.nufinetes.com/",
           github_repo: "https://github.com/nufinetes",
           appStore: "https://apps.apple.com/us/app/nufinetes/id1609562349",
@@ -5207,7 +5207,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/bitski",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/94d94cb5-a94f-47cf-70e6-fe8d3f1c3700?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The wallet for everyone's The convenience of a hot wallet; The security of a cold wallet.",
+            "The wallet for everyone -> The convenience of a hot wallet; The security of a cold wallet.",
           website_url: "https://bitski.com/",
           github_repo: "https://github.com/bitski",
           appStore: "https://apps.apple.com/us/app/bitski-wallet/id1587199538",
@@ -5418,7 +5418,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/konio",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/028c7760-a1af-43ea-7ac7-8b811712b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Native Koinos Wallet's The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
+            "Native Koinos Wallet -> The first multi-platform native wallet for Koinos the first zero fee oriented towards web3 development",
           website_url: "https://konio.io/",
           github_repo: "https://github.com/konio",
           appStore: "https://apps.apple.com/app/konio/id6453561342",
@@ -6046,7 +6046,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-wallets)/internetmoneywallet",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/204b2240-5ce4-4996-6ec4-f06a22726900?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "EVM Wallet. Connect to All EVM Chains. First Tokenized Crypto Wallet of It's Kind. ",
+            "EVM Wallet. Connect to All EVM Chains. First Tokenized Crypto Wallet of It -> Kind. ",
           website_url: "https://internetmoney.io/",
           github_repo: "https://github.com/internetmoneywallet",
           appStore: "https://apps.apple.com/us/app/id1641771042",
@@ -6578,7 +6578,7 @@ export const docsConfig: DocsConfig = {
           title: "Burrito Wallet",
           href: "docs/blockchains(solana-wallets)/burritowallet",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7eec7187-3f48-4fda-53bb-b0ad55749a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Let's wrap it up with Burrito Wallet!",
+          description: "Let -> wrap it up with Burrito Wallet!",
           website_url: "https://burritowallet.com/",
           github_repo: "https://github.com/burritowallet",
           appStore: "https://apps.apple.com/app/burrito-wallet/id6449563083",
@@ -14485,7 +14485,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/opensea",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c441b686-1a37-4976-c56c-f18d62167f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "OpenSea is the world's first and largest web3 marketplace for NFTs and crypto collectibles.",
+            "OpenSea is the world -> first and largest web3 marketplace for NFTs and crypto collectibles.",
           website_url: "https://opensea.io/",
           github_repo: "https://github.com/opensea",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -14589,7 +14589,7 @@ export const docsConfig: DocsConfig = {
           title: "Proof of Visit",
           href: "docs/hack(evm-dapps)/proofofvisit",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c763ef2f-fb24-4249-09f1-b45920825c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Proof of X's Blockchain as a New Medium for Art",
+          description: "Proof of X -> Blockchain as a New Medium for Art",
           website_url: "https://pox.exhibit.website/",
           github_repo: "https://github.com/proofofvisit",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -14614,11 +14614,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Signal's Crypto",
+          title: "Signal -> Crypto",
           href: "docs/hack(evm-dapps)/signals-crypto",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e43d6517-5946-4dae-f0ba-5c77500cbe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Signal's Crypto Try Catch Error",
-          website_url: "https://Signal's Crypto.com",
+          description: "Signal -> Crypto Try Catch Error",
+          website_url: "https://Signal -> Crypto.com",
           github_repo: "https://github.com/signals-crypto",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -14628,11 +14628,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Loopop!'s IN LOVE & LOVE-IN",
+          title: "Loopop! -> IN LOVE & LOVE-IN",
           href: "docs/hack(evm-dapps)/loopop!-inlove&love-in",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64f02531-1c5a-4bff-4e0d-d1b4cdf4fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Loopop!'s IN LOVE & LOVE-IN Try Catch Error",
-          website_url: "https://Loopop!'s IN LOVE & LOVE-IN.com",
+          description: "Loopop! -> IN LOVE & LOVE-IN Try Catch Error",
+          website_url: "https://Loopop! -> IN LOVE & LOVE-IN.com",
           github_repo: "https://github.com/loopop!-inlove&love-in",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -14684,11 +14684,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Loopop!'s IN LOVE & LOVE-IN",
+          title: "Loopop! -> IN LOVE & LOVE-IN",
           href: "docs/hack(evm-dapps)/loopop!-inlove&love-in",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64f02531-1c5a-4bff-4e0d-d1b4cdf4fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Loopop!'s IN LOVE & LOVE-IN Try Catch Error",
-          website_url: "https://Loopop!'s IN LOVE & LOVE-IN.com",
+          description: "Loopop! -> IN LOVE & LOVE-IN Try Catch Error",
+          website_url: "https://Loopop! -> IN LOVE & LOVE-IN.com",
           github_repo: "https://github.com/loopop!-inlove&love-in",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -14713,11 +14713,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Embraced's Pandora",
+          title: "Embraced -> Pandora",
           href: "docs/hack(evm-dapps)/embraced-pandora",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f848ab21-d263-47bf-e842-505a662cc000?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Embraced's Pandora Try Catch Error",
-          website_url: "https://Embraced's Pandora.com",
+          description: "Embraced -> Pandora Try Catch Error",
+          website_url: "https://Embraced -> Pandora.com",
           github_repo: "https://github.com/embraced-pandora",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -14770,11 +14770,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Snap-shack's Cyberbrokers",
+          title: "Snap-shack -> Cyberbrokers",
           href: "docs/hack(evm-dapps)/snap-shack-cyberbrokers",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bfc1b1e1-5fcb-4f9e-5809-e87402f35900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Snap-shack's Cyberbrokers Try Catch Error",
-          website_url: "https://Snap-shack's Cyberbrokers.com",
+          description: "Snap-shack -> Cyberbrokers Try Catch Error",
+          website_url: "https://Snap-shack -> Cyberbrokers.com",
           github_repo: "https://github.com/snap-shack-cyberbrokers",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -14971,11 +14971,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "DEEPSPACE's Outpost",
+          title: "DEEPSPACE -> Outpost",
           href: "docs/hack(evm-dapps)/deepspace-outpost",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/54d6935e-f65f-4637-d763-88b3c5c4d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "DEEPSPACE's Outpost Try Catch Error",
-          website_url: "https://DEEPSPACE's Outpost.com",
+          description: "DEEPSPACE -> Outpost Try Catch Error",
+          website_url: "https://DEEPSPACE -> Outpost.com",
           github_repo: "https://github.com/deepspace-outpost",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -15494,7 +15494,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/hyperxfund",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/946144b6-93c3-4564-01de-1d19b0cdde00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Decentralized Venture Fund's Powered by $HPX deflationary token",
+            "Decentralized Venture Fund -> Powered by $HPX deflationary token",
           website_url: "https://hyperx100.com/",
           github_repo: "https://github.com/hyperxfund",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -15767,7 +15767,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/elastosnameservice",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/38cb3365-3491-4e63-b0be-411d01ccb600?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Elastos Name Service's Building Identity on blockchain with ELA domains",
+            "Elastos Name Service -> Building Identity on blockchain with ELA domains",
           website_url: "https://eladomains.xyz/",
           github_repo: "https://github.com/elastosnameservice",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -16684,7 +16684,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/sparkswap",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6937b24b-acc9-4196-116a-280b31edd800?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "SparkSwap is part of SparkPoint's decentralized finance ecosystem called SparkDeFi. Continuous development and improvements are ongoing",
+            "SparkSwap is part of SparkPoint -> decentralized finance ecosystem called SparkDeFi. Continuous development and improvements are ongoing",
           website_url: "https://srk.finance/",
           github_repo: "https://github.com/sparkswap",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -17530,7 +17530,7 @@ export const docsConfig: DocsConfig = {
           title: "cointool",
           href: "docs/hack(evm-dapps)/cointool",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/16fedc28-750c-4a2b-f995-a4ffc961e900?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "cointool.app It's an online crypto toolbox",
+          description: "cointool.app It -> an online crypto toolbox",
           website_url: "https://cointool.app/",
           github_repo: "https://github.com/cointool",
           appStore:
@@ -17631,7 +17631,7 @@ export const docsConfig: DocsConfig = {
           title: "ESF Tools",
           href: "docs/hack(evm-dapps)/esftools",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4e0981d1-9fb6-4f43-5659-f7ff89c98f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "ESF Tool's The first Subdomain management platform.",
+          description: "ESF Tool -> The first Subdomain management platform.",
           website_url: "https://esf.tools/",
           github_repo: "https://github.com/esftools",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -17684,11 +17684,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Sneakmart's Metakicks",
+          title: "Sneakmart -> Metakicks",
           href: "docs/hack(evm-dapps)/sneakmart-metakicks",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5108b088-4f48-4b54-27fc-154e76338100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Sneakmart's Metakicks Try Catch Error",
-          website_url: "https://Sneakmart's Metakicks.com",
+          description: "Sneakmart -> Metakicks Try Catch Error",
+          website_url: "https://Sneakmart -> Metakicks.com",
           github_repo: "https://github.com/sneakmart-metakicks",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -17910,11 +17910,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Apeiron's Marketplace",
+          title: "Apeiron -> Marketplace",
           href: "docs/hack(evm-dapps)/apeiron-marketplace",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ec6e2c7a-6218-419f-33c5-7e38e5a8d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Apeiron's Marketplace Try Catch Error",
-          website_url: "https://Apeiron's Marketplace.com",
+          description: "Apeiron -> Marketplace Try Catch Error",
+          website_url: "https://Apeiron -> Marketplace.com",
           github_repo: "https://github.com/apeiron-marketplace",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -17924,11 +17924,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gangster All Star's Bounties",
+          title: "Gangster All Star -> Bounties",
           href: "docs/hack(evm-dapps)/gangsterallstar-bounties",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40501a49-11a2-43e3-6d9a-16f0e2224100?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Gangster All Star's Bounties Try Catch Error",
-          website_url: "https://Gangster All Star's Bounties.com",
+          description: "Gangster All Star -> Bounties Try Catch Error",
+          website_url: "https://Gangster All Star -> Bounties.com",
           github_repo: "https://github.com/gangsterallstar-bounties",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -18110,7 +18110,7 @@ export const docsConfig: DocsConfig = {
           title: "Covalent",
           href: "docs/hack(evm-dapps)/covalent",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a04a1f9-bf25-4c8d-b1a6-5901e11d0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Covalent Network's Staking Dashboard",
+          description: "Covalent Network -> Staking Dashboard",
           website_url: "https://covalenthq.com/",
           github_repo: "https://github.com/covalent",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -18164,11 +18164,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "KoinX's Production",
+          title: "KoinX -> Production",
           href: "docs/hack(evm-dapps)/koinx-production",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "KoinX's Production Try Catch Error",
-          website_url: "https://KoinX's Production.com",
+          description: "KoinX -> Production Try Catch Error",
+          website_url: "https://KoinX -> Production.com",
           github_repo: "https://github.com/koinx-production",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -18636,7 +18636,7 @@ export const docsConfig: DocsConfig = {
           title: "OneLottery",
           href: "docs/hack(evm-dapps)/onelottery",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f186052-4a32-4b1d-725a-aac1a5bd3d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "OneLottery's A fair and just blockchain lottery.",
+          description: "OneLottery -> A fair and just blockchain lottery.",
           website_url: "https://onelot.io/",
           github_repo: "https://github.com/onelottery",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19241,7 +19241,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/ramses",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9e5e7797-a483-4ea1-069f-c4d9682c7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "RAMSES is a ve(3,3) DEX that masterfully adapts Andre Cronje's initial vision of Solidly. ",
+            "RAMSES is a ve(3,3) DEX that masterfully adapts Andre Cronje -> initial vision of Solidly. ",
           website_url: "https://ramses.exchange/",
           github_repo: "https://github.com/ramses",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19256,7 +19256,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/xfai",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b5a8157c-8d1d-47f0-a067-6cfc527b5900?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The ultimate automated trading platform for DeFi. Get the best swaps & rewards through Xfai's entangled liquidity pools.",
+            "The ultimate automated trading platform for DeFi. Get the best swaps & rewards through Xfai -> entangled liquidity pools.",
           website_url: "https://xfai.com/",
           github_repo: "https://github.com/xfai",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19284,7 +19284,7 @@ export const docsConfig: DocsConfig = {
           title: "Startmining",
           href: "docs/hack(evm-dapps)/startmining",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a41a177c-4d58-46ca-a7a4-24180071dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Startmining's dashboard website",
+          description: "Startmining -> dashboard website",
           website_url: "https://startmining.io/",
           github_repo: "https://github.com/startmining",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19411,11 +19411,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "C2E's Click To Earn!",
+          title: "C2E -> Click To Earn!",
           href: "docs/hack(evm-dapps)/c2e-clicktoearn!",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a691e55-cbcf-4049-0d48-0771ac796800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "C2E's Click To Earn! Try Catch Error",
-          website_url: "https://C2E's Click To Earn!.com",
+          description: "C2E -> Click To Earn! Try Catch Error",
+          website_url: "https://C2E -> Click To Earn!.com",
           github_repo: "https://github.com/c2e-clicktoearn!",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -19632,7 +19632,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/box",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40db6c25-e203-40ef-bb51-40e42c4d2000?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Meet Bitzing🚀's the Web3 NFT e-Commerce platform. Enjoy Mystery Boxes and Listake. Join us!",
+            "Meet Bitzing🚀 -> the Web3 NFT e-Commerce platform. Enjoy Mystery Boxes and Listake. Join us!",
           website_url: "https://www.bitzing.io/",
           github_repo: "https://github.com/box",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -19794,7 +19794,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/polymarket",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fdec2e00-e9b7-433c-c0e0-ae92ea69dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Polymarket is an information markets platform that lets you trade on the world's most highly-debated topics.",
+            "Polymarket is an information markets platform that lets you trade on the world -> most highly-debated topics.",
           website_url: "https://polymarket.com/",
           github_repo: "https://github.com/polymarket",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20043,7 +20043,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/loop2earn",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e0305629-d6ad-4e3c-501f-8fe7b1afcd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "LOOP2's The game of lifeGet more energy with less effort",
+            "LOOP2 -> The game of lifeGet more energy with less effort",
           website_url: "https://loop2earn.com/",
           github_repo: "https://github.com/loop2earn",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20231,7 +20231,7 @@ export const docsConfig: DocsConfig = {
           title: "BRX by Breathonics",
           href: "docs/hack(evm-dapps)/brxbybreathonics",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/55c70d22-d025-4bfd-f552-80510b411700?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "World's best rest and reward app",
+          description: "World -> best rest and reward app",
           website_url: "https://breathonics.com/",
           github_repo: "https://github.com/brxbybreathonics",
           appStore: "https://apps.apple.com/app/id1482262589",
@@ -20260,7 +20260,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/metalink",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8581ffd5-7cd6-43ed-bb96-c12fb89ea300?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Metalink's The Best Place To Track And Talk NFTsTrack your NFT portfolio value and floor prices on the go",
+            "Metalink -> The Best Place To Track And Talk NFTsTrack your NFT portfolio value and floor prices on the go",
           website_url: "https://metalink.com/",
           github_repo: "https://github.com/metalink",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20493,7 +20493,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/vault",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a32c26f-4427-43ac-6fcc-e955443b7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Protect, send and receive ERC-20 tokens and NFTs, and connect to the ecosystem's most popular dapps.",
+            "Protect, send and receive ERC-20 tokens and NFTs, and connect to the ecosystem -> most popular dapps.",
           website_url: "http://vault1213.kirobo.me/",
           github_repo: "https://github.com/vault",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -20522,7 +20522,7 @@ export const docsConfig: DocsConfig = {
           title: "DopamineApp",
           href: "docs/hack(evm-dapps)/dopamineapp",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Finance's Media's Entertainment for Crypto.",
+          description: "Finance -> Media -> Entertainment for Crypto.",
           website_url: "https://dopamineapp.com/",
           github_repo: "https://github.com/dopamineapp",
           appStore:
@@ -20595,7 +20595,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/theremade",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9f77498-2f86-4d34-4397-a342e89d9b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "THE REMADE is the world's first wearable art brand from Metaverse that integrates virtual and reality goods.",
+            "THE REMADE is the world -> first wearable art brand from Metaverse that integrates virtual and reality goods.",
           website_url: "https://www.theremade.io/",
           github_repo: "https://github.com/theremade",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21203,7 +21203,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/tokenclaimdashboard",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c475b33b-91c0-4f73-aba0-b3a803a17b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Propchain's token dApp provides claiming features for vested PROPC tokens, as well as additional features like staking.",
+            "Propchain -> token dApp provides claiming features for vested PROPC tokens, as well as additional features like staking.",
           website_url: "https://www.propchain.io/",
           github_repo: "https://github.com/tokenclaimdashboard",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21556,7 +21556,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/birdievip",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d4780c39-86e3-4b63-4895-d874f87c5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "VIP pass claim for Birdie's consolidating legacy assets under 1 token",
+            "VIP pass claim for Birdie -> consolidating legacy assets under 1 token",
           website_url: "https://web3birdie.io/",
           github_repo: "https://github.com/birdievip",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21571,7 +21571,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/wizarre",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d8cb375c-884c-43d7-c5ef-f96cf5eff100?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Wizarre's summon new Wizards, trade and earn in a new staking map",
+            "Wizarre -> summon new Wizards, trade and earn in a new staking map",
           website_url: "https://wizarre.io/",
           github_repo: "https://github.com/wizarre",
           appStore:
@@ -21661,7 +21661,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/degame",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "DeGame's No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+            "DeGame -> No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
           website_url: "https://degame.com/",
           github_repo: "https://github.com/degame",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21776,7 +21776,7 @@ export const docsConfig: DocsConfig = {
           title: "Valha Widget",
           href: "docs/hack(evm-dapps)/valhawidget",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4692016a-597d-4a8d-7534-2ecc2b54cb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "DeFi Widget's Access DeFi in one place",
+          description: "DeFi Widget -> Access DeFi in one place",
           website_url: "https://valha.xyz/",
           github_repo: "https://github.com/valhawidget",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -21821,7 +21821,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/uxuyprotocol",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0db35545-440c-49ba-b772-dd13c2270400?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Introducing the UXUY protocol's the cutting-edge cross-chain liquidity aggregation protocol that takes your trading to the next level.",
+            "Introducing the UXUY protocol -> the cutting-edge cross-chain liquidity aggregation protocol that takes your trading to the next level.",
           website_url: "https://uxuy.io/",
           github_repo: "https://github.com/uxuyprotocol",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22213,7 +22213,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/tripleconfirmation",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/034a31d1-5c61-4847-1c9e-20a446148500?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The world's first fully managed, non-custodial, automated, directional, censorship resistant trading service",
+            "The world -> first fully managed, non-custodial, automated, directional, censorship resistant trading service",
           website_url: "https://tripleconfirmation.com/",
           github_repo: "https://github.com/tripleconfirmation",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22434,7 +22434,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/mychance",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/98cbdae4-984b-40e3-2a27-cbfaa4777300?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "My-Chance is the world's first global prize-bond system. It is a DSE (decentralised social enterprise).",
+            "My-Chance is the world -> first global prize-bond system. It is a DSE (decentralised social enterprise).",
           website_url: "https://my-chance.io/",
           github_repo: "https://github.com/mychance",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22449,7 +22449,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/fusestakingdapp",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/06d97d32-7327-4b23-b57e-50a46844fc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "The Staking Dapp enables users to participate in the Fuse network's consensus by staking FUSE tokens. ",
+            "The Staking Dapp enables users to participate in the Fuse network -> consensus by staking FUSE tokens. ",
           website_url: "https://fuse.io/",
           github_repo: "https://github.com/fusestakingdapp",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22479,7 +22479,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/xdcweb3domains",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37ed685b-5f7d-44bf-5e65-fdf422bac100?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Building Identity on blockchain with .xdc domain's buy once use forever.",
+            "Building Identity on blockchain with .xdc domain -> buy once use forever.",
           website_url: "https://xdcdomains.xyz/",
           github_repo: "https://github.com/xdcweb3domains",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -22888,7 +22888,7 @@ export const docsConfig: DocsConfig = {
           title: "REKTMODE",
           href: "docs/hack(evm-dapps)/rektmode",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6847439c-cce2-4595-617d-980eefafd300?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "REKTMODE's Compete In Any Game And Win Rewards",
+          description: "REKTMODE -> Compete In Any Game And Win Rewards",
           website_url: "https://rektmode.gg/",
           github_repo: "https://github.com/rektmode",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -23309,7 +23309,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/hack(evm-dapps)/fuzion",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a2f8e3c0-a0fd-4714-eaf4-fa7ca3e29000?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "Let's connect capital with ideas. PILOT seamlessly integrates into Kujira's ecosystem, combining our ideas and experience.",
+            "Let -> connect capital with ideas. PILOT seamlessly integrates into Kujira -> ecosystem, combining our ideas and experience.",
           website_url: "https://fuzion.app/",
           github_repo: "https://github.com/fuzion",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -23323,7 +23323,7 @@ export const docsConfig: DocsConfig = {
           title: "singularLab",
           href: "docs/hack(evm-dapps)/singularlab",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/662dd79b-a7ec-4007-9730-5e4ec3193800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Singularlab is the blockchain's NFT liquidity protocol",
+          description: "Singularlab is the blockchain -> NFT liquidity protocol",
           website_url: "https://singularlabs.xyz/",
           github_repo: "https://github.com/singularlab",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -24311,11 +24311,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "KoinX's Production",
+          title: "KoinX -> Production",
           href: "docs/blockchains(solana-dapps)/koinx-production",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "KoinX's Production Try Catch Error",
-          website_url: "https://KoinX's Production.com",
+          description: "KoinX -> Production Try Catch Error",
+          website_url: "https://KoinX -> Production.com",
           github_repo: "https://github.com/koinx-production",
           appStore: "https://apps.apple.com/app/id1456732565/",
           playStore:
@@ -24359,7 +24359,7 @@ export const docsConfig: DocsConfig = {
           href: "docs/blockchains(solana-dapps)/degame",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
           description:
-            "DeGame's No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+            "DeGame -> No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
           website_url: "https://degame.com/",
           github_repo: "https://github.com/degame",
           appStore: "https://apps.apple.com/app/id1456732565/",
@@ -24418,7 +24418,7 @@ export const docsConfig: DocsConfig = {
           title: "DopamineApp",
           href: "docs/blockchains(solana-dapps)/dopamineapp",
           logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
-          description: "Finance's Media's Entertainment for Crypto.",
+          description: "Finance -> Media -> Entertainment for Crypto.",
           website_url: "https://dopamineapp.com/",
           github_repo: "https://github.com/dopamineapp",
           appStore:
@@ -25446,17 +25446,17 @@ export const docsConfig: DocsConfig = {
       github_repo: "https://github.com/beingofexistence",
       items: [
         {
-          title: "Platform's Node.js",
+          title: "Platform -> Node.js",
           href: "docs/bucketlist/node.js",
           description:
-            "Async Non-Blocking Event-Driven Javascript Runtime Built On Chrome'S V8 Javascript Engine.",
+            "Async Non-Blocking Event-Driven Javascript Runtime Built On Chrome -> V8 Javascript Engine.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/sindresorhus/awesome-nodejs",
           github_repo: "https://github.com/sindresorhus/awesome-nodejs",
           items: [],
         },
         {
-          title: "Platform's Cross-Platform",
+          title: "Platform -> Cross-Platform",
           href: "docs/bucketlist/cross-platform",
           description: "Writing Cross-Platform Code On Node.Js.",
           website_url:
@@ -25465,7 +25465,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Frontend Development",
+          title: "Platform -> Frontend Development",
           href: "docs/bucketlist/frontend-development",
           description: "No description available.",
           website_url:
@@ -25474,7 +25474,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's iOS",
+          title: "Platform -> iOS",
           href: "docs/bucketlist/ios",
           description: "Mobile Operating System For Apple Phones And Tablets.",
           website_url:
@@ -25483,7 +25483,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Android",
+          title: "Platform -> Android",
           href: "docs/bucketlist/android",
           description: "Mobile Operating System Developed By Google.",
           website_url:
@@ -25492,7 +25492,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's IoT & Hybrid Apps",
+          title: "Platform -> IoT & Hybrid Apps",
           href: "docs/bucketlist/iot-&-hybrid-apps",
           description: "No description available.",
           website_url:
@@ -25501,7 +25501,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Electron",
+          title: "Platform -> Electron",
           href: "docs/bucketlist/electron",
           description:
             "Cross-Platform Native Desktop Apps Using Javascript/Html/Css.",
@@ -25511,7 +25511,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Cordova",
+          title: "Platform -> Cordova",
           href: "docs/bucketlist/cordova",
           description: "Javascript Api For Hybrid Apps.",
           website_url:
@@ -25520,7 +25520,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's React Native",
+          title: "Platform -> React Native",
           href: "docs/bucketlist/react-native",
           description:
             "Javascript Framework For Writing Natively Rendering Mobile Apps For Ios And Android.",
@@ -25530,7 +25530,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Xamarin",
+          title: "Platform -> Xamarin",
           href: "docs/bucketlist/xamarin",
           description: "Mobile App Development Ide, Testing, And Distribution.",
           website_url:
@@ -25539,7 +25539,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Linux",
+          title: "Platform -> Linux",
           href: "docs/bucketlist/linux",
           description: "No description available.",
           website_url:
@@ -25548,7 +25548,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Containers",
+          title: "Platform -> Containers",
           href: "docs/bucketlist/containers",
           description: "No description available.",
           website_url:
@@ -25557,7 +25557,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's eBPF",
+          title: "Platform -> eBPF",
           href: "docs/bucketlist/ebpf",
           description:
             "Virtual Machine That Allows You To Write More Efficient And Powerful Tracing And Monitoring For Linux Systems.",
@@ -25567,7 +25567,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Arch-based Projects",
+          title: "Platform -> Arch-based Projects",
           href: "docs/bucketlist/arch-based-projects",
           description: "Linux Distributions And Projects Based On Arch Linux.",
           website_url:
@@ -25576,16 +25576,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's macOS",
+          title: "Platform -> macOS",
           href: "docs/bucketlist/macos",
-          description: "Operating System For Apple'S Mac Computers.",
+          description: "Operating System For Apple -> Mac Computers.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/iCHAIT/awesome-macOS",
           github_repo: "https://github.com/iCHAIT/awesome-macOS",
           items: [],
         },
         {
-          title: "Platform's Command-Line",
+          title: "Platform -> Command-Line",
           href: "docs/bucketlist/command-line",
           description: "No description available.",
           website_url:
@@ -25595,7 +25595,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Screensavers",
+          title: "Platform -> Screensavers",
           href: "docs/bucketlist/screensavers",
           description: "No description available.",
           website_url:
@@ -25605,7 +25605,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Apps",
+          title: "Platform -> Apps",
           href: "docs/bucketlist/apps",
           description: "No description available.",
           website_url:
@@ -25614,7 +25614,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Open Source Apps",
+          title: "Platform -> Open Source Apps",
           href: "docs/bucketlist/open-source-apps",
           description: "No description available.",
           website_url:
@@ -25624,7 +25624,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's watchOS",
+          title: "Platform -> watchOS",
           href: "docs/bucketlist/watchos",
           description: "Operating System For The Apple Watch.",
           website_url:
@@ -25633,7 +25633,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's JVM",
+          title: "Platform -> JVM",
           href: "docs/bucketlist/jvm",
           description: "No description available.",
           website_url:
@@ -25642,7 +25642,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Salesforce",
+          title: "Platform -> Salesforce",
           href: "docs/bucketlist/salesforce",
           description: "No description available.",
           website_url:
@@ -25651,7 +25651,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Amazon Web Services",
+          title: "Platform -> Amazon Web Services",
           href: "docs/bucketlist/amazon-web-services",
           description: "No description available.",
           website_url:
@@ -25660,7 +25660,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Windows",
+          title: "Platform -> Windows",
           href: "docs/bucketlist/windows",
           description: "No description available.",
           website_url:
@@ -25669,7 +25669,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's IPFS",
+          title: "Platform -> IPFS",
           href: "docs/bucketlist/ipfs",
           description: "P2P Hypermedia Protocol.",
           website_url:
@@ -25678,7 +25678,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Fuse",
+          title: "Platform -> Fuse",
           href: "docs/bucketlist/fuse",
           description: "Mobile Development Tools.",
           website_url:
@@ -25687,7 +25687,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Heroku",
+          title: "Platform -> Heroku",
           href: "docs/bucketlist/heroku",
           description: "Cloud Platform As A Service.",
           website_url:
@@ -25696,7 +25696,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Raspberry Pi",
+          title: "Platform -> Raspberry Pi",
           href: "docs/bucketlist/raspberry-pi",
           description:
             "Credit Card-Sized Computer Aimed At Teaching Kids Programming, But Capable Of A Lot More.",
@@ -25706,7 +25706,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Qt",
+          title: "Platform -> Qt",
           href: "docs/bucketlist/qt",
           description: "Cross-Platform Gui App Framework.",
           website_url:
@@ -25715,7 +25715,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's WebExtensions",
+          title: "Platform -> WebExtensions",
           href: "docs/bucketlist/webextensions",
           description: "Cross-Browser Extension System.",
           website_url:
@@ -25724,7 +25724,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's RubyMotion",
+          title: "Platform -> RubyMotion",
           href: "docs/bucketlist/rubymotion",
           description:
             "Write Cross-Platform Native Apps For Ios, Android, Macos, Tvos, And Watchos In Ruby.",
@@ -25735,7 +25735,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Smart TV",
+          title: "Platform -> Smart TV",
           href: "docs/bucketlist/smart-tv",
           description: "Create Apps For Different Tv Platforms.",
           website_url:
@@ -25744,7 +25744,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's GNOME",
+          title: "Platform -> GNOME",
           href: "docs/bucketlist/gnome",
           description:
             "Simple And Distraction-Free Desktop Environment For Linux.",
@@ -25754,7 +25754,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's KDE",
+          title: "Platform -> KDE",
           href: "docs/bucketlist/kde",
           description:
             "A Free Software Community Dedicated To Creating An Open And User-Friendly Computing Experience.",
@@ -25764,7 +25764,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's .NET",
+          title: "Platform -> .NET",
           href: "docs/bucketlist/.net",
           description: "No description available.",
           website_url:
@@ -25773,7 +25773,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Core",
+          title: "Platform -> Core",
           href: "docs/bucketlist/core",
           description: "No description available.",
           website_url:
@@ -25782,7 +25782,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Roslyn",
+          title: "Platform -> Roslyn",
           href: "docs/bucketlist/roslyn",
           description:
             "Open-Source Compilers And Code Analysis Apis For C# And Vb.Net Languages.",
@@ -25792,7 +25792,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Amazon Alexa",
+          title: "Platform -> Amazon Alexa",
           href: "docs/bucketlist/amazon-alexa",
           description: "Virtual Home Assistant.",
           website_url:
@@ -25801,7 +25801,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's DigitalOcean",
+          title: "Platform -> DigitalOcean",
           href: "docs/bucketlist/digitalocean",
           description: "Cloud Computing Platform Designed For Developers.",
           website_url:
@@ -25810,17 +25810,17 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Flutter",
+          title: "Platform -> Flutter",
           href: "docs/bucketlist/flutter",
           description:
-            "Google'S Mobile Sdk For Building Native Ios And Android Apps From A Single Codebase Written In Dart.",
+            "Google -> Mobile Sdk For Building Native Ios And Android Apps From A Single Codebase Written In Dart.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/Solido/awesome-flutter",
           github_repo: "https://github.com/Solido/awesome-flutter",
           items: [],
         },
         {
-          title: "Platform's Home Assistant",
+          title: "Platform -> Home Assistant",
           href: "docs/bucketlist/home-assistant",
           description:
             "Open Source Home Automation That Puts Local Control And Privacy First.",
@@ -25830,7 +25830,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's IBM Cloud",
+          title: "Platform -> IBM Cloud",
           href: "docs/bucketlist/ibm-cloud",
           description: "Cloud Platform For Developers And Companies.",
           website_url:
@@ -25839,7 +25839,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Firebase",
+          title: "Platform -> Firebase",
           href: "docs/bucketlist/firebase",
           description:
             "App Development Platform Built On Google Cloud Platform.",
@@ -25849,7 +25849,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Robot Operating System 2.0",
+          title: "Platform -> Robot Operating System 2.0",
           href: "docs/bucketlist/robot-operating-system-2.0",
           description:
             "Set Of Software Libraries And Tools That Help You Build Robot Apps.",
@@ -25859,7 +25859,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Adafruit IO",
+          title: "Platform -> Adafruit IO",
           href: "docs/bucketlist/adafruit-io",
           description: "Visualize And Store Data From Any Device.",
           website_url:
@@ -25868,7 +25868,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Cloudflare",
+          title: "Platform -> Cloudflare",
           href: "docs/bucketlist/cloudflare",
           description: "Cdn, Dns, Ddos Protection, And Security For Your Site.",
           website_url:
@@ -25877,7 +25877,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Actions on Google",
+          title: "Platform -> Actions on Google",
           href: "docs/bucketlist/actions-on-google",
           description: "Developer Platform For Google Assistant.",
           website_url:
@@ -25887,7 +25887,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's ESP",
+          title: "Platform -> ESP",
           href: "docs/bucketlist/esp",
           description:
             "Low-Cost Microcontrollers With Wifi And Broad Iot Applications.",
@@ -25897,7 +25897,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's Deno",
+          title: "Platform -> Deno",
           href: "docs/bucketlist/deno",
           description:
             "A Secure Runtime For Javascript And Typescript That Uses V8 And Is Built In Rust.",
@@ -25907,7 +25907,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Platform's DOS",
+          title: "Platform -> DOS",
           href: "docs/bucketlist/dos",
           description:
             "Operating System For X86-Based Personal Computers That Was Popular During The 1980S And Early 1990S.",
@@ -25917,7 +25917,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's JavaScript",
+          title: "Programming Language -> JavaScript",
           href: "docs/bucketlist/javascript",
           description: "No description available.",
           website_url:
@@ -25926,7 +25926,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Promises",
+          title: "Programming Language -> Promises",
           href: "docs/bucketlist/promises",
           description: "No description available.",
           website_url:
@@ -25935,7 +25935,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Standard Style",
+          title: "Programming Language -> Standard Style",
           href: "docs/bucketlist/standard-style",
           description: "Style Guide And Linter.",
           website_url:
@@ -25944,7 +25944,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Must Watch Talks",
+          title: "Programming Language -> Must Watch Talks",
           href: "docs/bucketlist/must-watch-talks",
           description: "No description available.",
           website_url:
@@ -25953,7 +25953,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Tips",
+          title: "Programming Language -> Tips",
           href: "docs/bucketlist/tips",
           description: "No description available.",
           website_url:
@@ -25962,7 +25962,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Network Layer",
+          title: "Programming Language -> Network Layer",
           href: "docs/bucketlist/network-layer",
           description: "No description available.",
           website_url:
@@ -25971,7 +25971,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Micro npm Packages",
+          title: "Programming Language -> Micro npm Packages",
           href: "docs/bucketlist/micro-npm-packages",
           description: "No description available.",
           website_url:
@@ -25980,7 +25980,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Mad Science npm Packages",
+          title: "Programming Language -> Mad Science npm Packages",
           href: "docs/bucketlist/mad-science-npm-packages",
           description: "Impossible Sounding Projects That Exist.",
           website_url:
@@ -25989,7 +25989,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Maintenance Modules",
+          title: "Programming Language -> Maintenance Modules",
           href: "docs/bucketlist/maintenance-modules",
           description: "For Npm Packages.",
           website_url:
@@ -25998,7 +25998,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's npm",
+          title: "Programming Language -> npm",
           href: "docs/bucketlist/npm",
           description: "Package Manager.",
           website_url:
@@ -26007,7 +26007,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's AVA",
+          title: "Programming Language -> AVA",
           href: "docs/bucketlist/ava",
           description: "Test Runner.",
           website_url:
@@ -26016,7 +26016,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's ESLint",
+          title: "Programming Language -> ESLint",
           href: "docs/bucketlist/eslint",
           description: "Linter.",
           website_url:
@@ -26025,7 +26025,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Functional Programming",
+          title: "Programming Language -> Functional Programming",
           href: "docs/bucketlist/functional-programming",
           description: "No description available.",
           website_url:
@@ -26034,7 +26034,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Observables",
+          title: "Programming Language -> Observables",
           href: "docs/bucketlist/observables",
           description: "No description available.",
           website_url:
@@ -26043,7 +26043,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's npm scripts",
+          title: "Programming Language -> npm scripts",
           href: "docs/bucketlist/npm-scripts",
           description: "Task Runner.",
           website_url:
@@ -26052,7 +26052,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's 30 Seconds of Code",
+          title: "Programming Language -> 30 Seconds of Code",
           href: "docs/bucketlist/30-seconds-of-code",
           description: "Code Snippets You Can Understand In 30 Seconds.",
           website_url:
@@ -26061,7 +26061,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Ponyfills",
+          title: "Programming Language -> Ponyfills",
           href: "docs/bucketlist/ponyfills",
           description: "Like Polyfills But Without Overriding Native Apis.",
           website_url:
@@ -26070,17 +26070,17 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Swift",
+          title: "Programming Language -> Swift",
           href: "docs/bucketlist/swift",
           description:
-            "Apple'S Compiled Programming Language That Is Secure, Modern, Programmer-Friendly, And Fast.",
+            "Apple -> Compiled Programming Language That Is Secure, Modern, Programmer-Friendly, And Fast.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/matteocrippa/awesome-swift",
           github_repo: "https://github.com/matteocrippa/awesome-swift",
           items: [],
         },
         {
-          title: "Programming Language's Education",
+          title: "Programming Language -> Education",
           href: "docs/bucketlist/education",
           description: "No description available.",
           website_url:
@@ -26089,7 +26089,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Playgrounds",
+          title: "Programming Language -> Playgrounds",
           href: "docs/bucketlist/playgrounds",
           description: "No description available.",
           website_url:
@@ -26098,7 +26098,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Python",
+          title: "Programming Language -> Python",
           href: "docs/bucketlist/python",
           description:
             "General-Purpose Programming Language Designed For Readability.",
@@ -26108,7 +26108,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Asyncio",
+          title: "Programming Language -> Asyncio",
           href: "docs/bucketlist/asyncio",
           description: "Asynchronous I/O In Python 3.",
           website_url:
@@ -26117,7 +26117,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Scientific Audio",
+          title: "Programming Language -> Scientific Audio",
           href: "docs/bucketlist/scientific-audio",
           description: "Scientific Research In Audio/Music.",
           website_url:
@@ -26127,7 +26127,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's CircuitPython",
+          title: "Programming Language -> CircuitPython",
           href: "docs/bucketlist/circuitpython",
           description: "A Version Of Python For Microcontrollers.",
           website_url:
@@ -26136,7 +26136,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Data Science",
+          title: "Programming Language -> Data Science",
           href: "docs/bucketlist/data-science",
           description: "Data Analysis And Machine Learning.",
           website_url:
@@ -26145,7 +26145,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Typing",
+          title: "Programming Language -> Typing",
           href: "docs/bucketlist/typing",
           description: "Optional Static Typing For Python.",
           website_url:
@@ -26154,7 +26154,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's MicroPython",
+          title: "Programming Language -> MicroPython",
           href: "docs/bucketlist/micropython",
           description:
             "A Lean And Efficient Implementation Of Python 3 For Microcontrollers.",
@@ -26164,7 +26164,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Rust",
+          title: "Programming Language -> Rust",
           href: "docs/bucketlist/rust",
           description: "No description available.",
           website_url:
@@ -26173,7 +26173,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Haskell",
+          title: "Programming Language -> Haskell",
           href: "docs/bucketlist/haskell",
           description: "No description available.",
           website_url:
@@ -26182,7 +26182,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's PureScript",
+          title: "Programming Language -> PureScript",
           href: "docs/bucketlist/purescript",
           description: "No description available.",
           website_url:
@@ -26191,7 +26191,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Go",
+          title: "Programming Language -> Go",
           href: "docs/bucketlist/go",
           description: "No description available.",
           website_url:
@@ -26200,7 +26200,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Scala",
+          title: "Programming Language -> Scala",
           href: "docs/bucketlist/scala",
           description: "No description available.",
           website_url:
@@ -26209,7 +26209,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Scala Native",
+          title: "Programming Language -> Scala Native",
           href: "docs/bucketlist/scala-native",
           description:
             "Optimizing Ahead-Of-Time Compiler For Scala Based On Llvm.",
@@ -26219,7 +26219,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Ruby",
+          title: "Programming Language -> Ruby",
           href: "docs/bucketlist/ruby",
           description: "No description available.",
           website_url:
@@ -26228,7 +26228,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Clojure",
+          title: "Programming Language -> Clojure",
           href: "docs/bucketlist/clojure",
           description: "No description available.",
           website_url:
@@ -26237,7 +26237,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's ClojureScript",
+          title: "Programming Language -> ClojureScript",
           href: "docs/bucketlist/clojurescript",
           description: "No description available.",
           website_url:
@@ -26246,7 +26246,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Elixir",
+          title: "Programming Language -> Elixir",
           href: "docs/bucketlist/elixir",
           description: "No description available.",
           website_url:
@@ -26255,7 +26255,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Elm",
+          title: "Programming Language -> Elm",
           href: "docs/bucketlist/elm",
           description: "No description available.",
           website_url:
@@ -26264,7 +26264,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Erlang",
+          title: "Programming Language -> Erlang",
           href: "docs/bucketlist/erlang",
           description: "No description available.",
           website_url:
@@ -26273,7 +26273,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Julia",
+          title: "Programming Language -> Julia",
           href: "docs/bucketlist/julia",
           description:
             "High-Level Dynamic Programming Language Designed To Address The Needs Of High-Performance Numerical Analysis And Computational Science.",
@@ -26283,7 +26283,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Lua",
+          title: "Programming Language -> Lua",
           href: "docs/bucketlist/lua",
           description: "No description available.",
           website_url:
@@ -26292,7 +26292,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's C",
+          title: "Programming Language -> C",
           href: "docs/bucketlist/c",
           description: "No description available.",
           website_url:
@@ -26301,7 +26301,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's C/C++",
+          title: "Programming Language -> C/C++",
           href: "docs/bucketlist/c/c++",
           description:
             "General-Purpose Language With A Bias Toward System Programming And Embedded, Resource-Constrained Software.",
@@ -26311,7 +26311,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's R",
+          title: "Programming Language -> R",
           href: "docs/bucketlist/r",
           description:
             "Functional Programming Language And Environment For Statistical Computing And Graphics.",
@@ -26321,7 +26321,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Learning",
+          title: "Programming Language -> Learning",
           href: "docs/bucketlist/learning",
           description: "No description available.",
           website_url:
@@ -26331,7 +26331,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's D",
+          title: "Programming Language -> D",
           href: "docs/bucketlist/d",
           description: "No description available.",
           website_url:
@@ -26340,7 +26340,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Common Lisp",
+          title: "Programming Language -> Common Lisp",
           href: "docs/bucketlist/common-lisp",
           description:
             "Powerful Dynamic Multiparadigm Language That Facilitates Iterative And Interactive Development.",
@@ -26350,7 +26350,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Learning",
+          title: "Programming Language -> Learning",
           href: "docs/bucketlist/learning",
           description: "No description available.",
           website_url:
@@ -26360,7 +26360,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Perl",
+          title: "Programming Language -> Perl",
           href: "docs/bucketlist/perl",
           description: "No description available.",
           website_url:
@@ -26369,7 +26369,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Groovy",
+          title: "Programming Language -> Groovy",
           href: "docs/bucketlist/groovy",
           description: "No description available.",
           website_url:
@@ -26378,7 +26378,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Dart",
+          title: "Programming Language -> Dart",
           href: "docs/bucketlist/dart",
           description: "No description available.",
           website_url:
@@ -26387,7 +26387,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Java",
+          title: "Programming Language -> Java",
           href: "docs/bucketlist/java",
           description:
             "Popular Secure Object-Oriented Language Designed For Flexibility To Write Once",
@@ -26397,7 +26397,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's RxJava",
+          title: "Programming Language -> RxJava",
           href: "docs/bucketlist/rxjava",
           description: "No description available.",
           website_url:
@@ -26406,7 +26406,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Kotlin",
+          title: "Programming Language -> Kotlin",
           href: "docs/bucketlist/kotlin",
           description: "No description available.",
           website_url:
@@ -26415,7 +26415,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's OCaml",
+          title: "Programming Language -> OCaml",
           href: "docs/bucketlist/ocaml",
           description: "No description available.",
           website_url:
@@ -26424,7 +26424,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's ColdFusion",
+          title: "Programming Language -> ColdFusion",
           href: "docs/bucketlist/coldfusion",
           description: "No description available.",
           website_url:
@@ -26433,7 +26433,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Fortran",
+          title: "Programming Language -> Fortran",
           href: "docs/bucketlist/fortran",
           description: "No description available.",
           website_url:
@@ -26442,7 +26442,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's PHP",
+          title: "Programming Language -> PHP",
           href: "docs/bucketlist/php",
           description: "Server-Side Scripting Language.",
           website_url:
@@ -26451,7 +26451,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Composer",
+          title: "Programming Language -> Composer",
           href: "docs/bucketlist/composer",
           description: "Package Manager.",
           website_url:
@@ -26460,7 +26460,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Pascal",
+          title: "Programming Language -> Pascal",
           href: "docs/bucketlist/pascal",
           description: "No description available.",
           website_url:
@@ -26469,7 +26469,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's AutoHotkey",
+          title: "Programming Language -> AutoHotkey",
           href: "docs/bucketlist/autohotkey",
           description: "No description available.",
           website_url:
@@ -26478,7 +26478,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's AutoIt",
+          title: "Programming Language -> AutoIt",
           href: "docs/bucketlist/autoit",
           description: "No description available.",
           website_url:
@@ -26487,7 +26487,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Crystal",
+          title: "Programming Language -> Crystal",
           href: "docs/bucketlist/crystal",
           description: "No description available.",
           website_url:
@@ -26496,7 +26496,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Frege",
+          title: "Programming Language -> Frege",
           href: "docs/bucketlist/frege",
           description: "Haskell For The Jvm.",
           website_url:
@@ -26505,7 +26505,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's CMake",
+          title: "Programming Language -> CMake",
           href: "docs/bucketlist/cmake",
           description: "Build, Test, And Package Software.",
           website_url:
@@ -26514,7 +26514,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's ActionScript 3",
+          title: "Programming Language -> ActionScript 3",
           href: "docs/bucketlist/actionscript-3",
           description: "Object-Oriented Language Targeting Adobe Air.",
           website_url:
@@ -26523,7 +26523,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Eta",
+          title: "Programming Language -> Eta",
           href: "docs/bucketlist/eta",
           description: "Functional Programming Language For The Jvm.",
           website_url:
@@ -26532,7 +26532,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Idris",
+          title: "Programming Language -> Idris",
           href: "docs/bucketlist/idris",
           description:
             "General Purpose Pure Functional Programming Language With Dependent Types Influenced By Haskell And Ml.",
@@ -26542,7 +26542,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Ada/SPARK",
+          title: "Programming Language -> Ada/SPARK",
           href: "docs/bucketlist/ada/spark",
           description:
             "Modern Programming Language Designed For Large, Long-Lived Apps Where Reliability And Efficiency Are Essential.",
@@ -26552,7 +26552,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Q#",
+          title: "Programming Language -> Q#",
           href: "docs/bucketlist/q#",
           description:
             "Domain-Specific Programming Language Used For Expressing Quantum Algorithms.",
@@ -26562,7 +26562,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Imba",
+          title: "Programming Language -> Imba",
           href: "docs/bucketlist/imba",
           description:
             "Programming Language Inspired By Ruby And Python And Compiles To Performant Javascript.",
@@ -26572,7 +26572,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Vala",
+          title: "Programming Language -> Vala",
           href: "docs/bucketlist/vala",
           description:
             "Programming Language Designed To Take Full Advantage Of The Glib And Gnome Ecosystems, While Preserving The Speed Of C Code.",
@@ -26582,7 +26582,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's Coq",
+          title: "Programming Language -> Coq",
           href: "docs/bucketlist/coq",
           description:
             "Formal Language And Environment For Programming And Specification Which Facilitates Interactive Development Of Machine-Checked Proofs.",
@@ -26592,7 +26592,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Programming Language's V",
+          title: "Programming Language -> V",
           href: "docs/bucketlist/v",
           description:
             "Simple, Fast, Safe, Compiled Language For Developing Maintainable Software.",
@@ -26602,7 +26602,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's ES6 Tools",
+          title: "Front-End Development -> ES6 Tools",
           href: "docs/bucketlist/es6-tools",
           description: "No description available.",
           website_url:
@@ -26611,7 +26611,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Performance Optimization",
+          title: "Front-End Development -> Web Performance Optimization",
           href: "docs/bucketlist/web-performance-optimization",
           description: "No description available.",
           website_url:
@@ -26620,7 +26620,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Tools",
+          title: "Front-End Development -> Web Tools",
           href: "docs/bucketlist/web-tools",
           description: "No description available.",
           website_url:
@@ -26629,7 +26629,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's CSS",
+          title: "Front-End Development -> CSS",
           href: "docs/bucketlist/css",
           description:
             "Style Sheet Language That Specifies How Html Elements Are Displayed On Screen.",
@@ -26639,7 +26639,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Critical-Path Tools",
+          title: "Front-End Development -> Critical-Path Tools",
           href: "docs/bucketlist/critical-path-tools",
           description: "No description available.",
           website_url:
@@ -26648,7 +26648,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Scalability",
+          title: "Front-End Development -> Scalability",
           href: "docs/bucketlist/scalability",
           description: "No description available.",
           website_url:
@@ -26658,7 +26658,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Must-Watch Talks",
+          title: "Front-End Development -> Must-Watch Talks",
           href: "docs/bucketlist/must-watch-talks",
           description: "No description available.",
           website_url:
@@ -26667,7 +26667,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Protips",
+          title: "Front-End Development -> Protips",
           href: "docs/bucketlist/protips",
           description: "No description available.",
           website_url:
@@ -26676,7 +26676,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Frameworks",
+          title: "Front-End Development -> Frameworks",
           href: "docs/bucketlist/frameworks",
           description: "No description available.",
           website_url:
@@ -26685,7 +26685,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's React",
+          title: "Front-End Development -> React",
           href: "docs/bucketlist/react",
           description: "App Framework.",
           website_url:
@@ -26694,7 +26694,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Relay",
+          title: "Front-End Development -> Relay",
           href: "docs/bucketlist/relay",
           description: "Framework For Building Data-Driven React Apps.",
           website_url:
@@ -26703,7 +26703,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's React Hooks",
+          title: "Front-End Development -> React Hooks",
           href: "docs/bucketlist/react-hooks",
           description:
             "A New Feature That Lets You Use State And Other React Features Without Writing A Class.",
@@ -26713,7 +26713,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Components",
+          title: "Front-End Development -> Web Components",
           href: "docs/bucketlist/web-components",
           description: "No description available.",
           website_url:
@@ -26723,7 +26723,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Polymer",
+          title: "Front-End Development -> Polymer",
           href: "docs/bucketlist/polymer",
           description: "Javascript Library To Develop Web Components.",
           website_url:
@@ -26732,7 +26732,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Angular",
+          title: "Front-End Development -> Angular",
           href: "docs/bucketlist/angular",
           description: "App Framework.",
           website_url:
@@ -26741,7 +26741,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Backbone",
+          title: "Front-End Development -> Backbone",
           href: "docs/bucketlist/backbone",
           description: "App Framework.",
           website_url:
@@ -26750,7 +26750,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's HTML5",
+          title: "Front-End Development -> HTML5",
           href: "docs/bucketlist/html5",
           description: "Markup Language Used For Websites & Web Apps.",
           website_url:
@@ -26759,7 +26759,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's SVG",
+          title: "Front-End Development -> SVG",
           href: "docs/bucketlist/svg",
           description: "Xml-Based Vector Image Format.",
           website_url:
@@ -26768,7 +26768,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Canvas",
+          title: "Front-End Development -> Canvas",
           href: "docs/bucketlist/canvas",
           description: "No description available.",
           website_url:
@@ -26777,7 +26777,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's KnockoutJS",
+          title: "Front-End Development -> KnockoutJS",
           href: "docs/bucketlist/knockoutjs",
           description: "Javascript Library.",
           website_url:
@@ -26786,7 +26786,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Dojo Toolkit",
+          title: "Front-End Development -> Dojo Toolkit",
           href: "docs/bucketlist/dojo-toolkit",
           description: "Javascript Toolkit.",
           website_url:
@@ -26795,7 +26795,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Inspiration",
+          title: "Front-End Development -> Inspiration",
           href: "docs/bucketlist/inspiration",
           description: "No description available.",
           website_url:
@@ -26804,7 +26804,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Ember",
+          title: "Front-End Development -> Ember",
           href: "docs/bucketlist/ember",
           description: "App Framework.",
           website_url:
@@ -26814,7 +26814,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Android UI",
+          title: "Front-End Development -> Android UI",
           href: "docs/bucketlist/android-ui",
           description: "No description available.",
           website_url:
@@ -26823,7 +26823,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's iOS UI",
+          title: "Front-End Development -> iOS UI",
           href: "docs/bucketlist/ios-ui",
           description: "No description available.",
           website_url:
@@ -26832,7 +26832,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Meteor",
+          title: "Front-End Development -> Meteor",
           href: "docs/bucketlist/meteor",
           description: "No description available.",
           website_url:
@@ -26841,7 +26841,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's BEM",
+          title: "Front-End Development -> BEM",
           href: "docs/bucketlist/bem",
           description: "No description available.",
           website_url:
@@ -26850,7 +26850,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Flexbox",
+          title: "Front-End Development -> Flexbox",
           href: "docs/bucketlist/flexbox",
           description: "No description available.",
           website_url:
@@ -26859,7 +26859,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Typography",
+          title: "Front-End Development -> Web Typography",
           href: "docs/bucketlist/web-typography",
           description: "No description available.",
           website_url:
@@ -26868,7 +26868,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Accessibility",
+          title: "Front-End Development -> Web Accessibility",
           href: "docs/bucketlist/web-accessibility",
           description: "No description available.",
           website_url:
@@ -26877,7 +26877,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Material Design",
+          title: "Front-End Development -> Material Design",
           href: "docs/bucketlist/material-design",
           description: "No description available.",
           website_url:
@@ -26886,7 +26886,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's D3",
+          title: "Front-End Development -> D3",
           href: "docs/bucketlist/d3",
           description:
             "Library For Producing Dynamic, Interactive Data Visualizations.",
@@ -26896,7 +26896,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Emails",
+          title: "Front-End Development -> Emails",
           href: "docs/bucketlist/emails",
           description: "No description available.",
           website_url:
@@ -26905,7 +26905,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's jQuery",
+          title: "Front-End Development -> jQuery",
           href: "docs/bucketlist/jquery",
           description: "Easy To Use Javascript Library For Dom Manipulation.",
           website_url:
@@ -26914,7 +26914,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Tips",
+          title: "Front-End Development -> Tips",
           href: "docs/bucketlist/tips",
           description: "No description available.",
           website_url:
@@ -26924,7 +26924,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Audio",
+          title: "Front-End Development -> Web Audio",
           href: "docs/bucketlist/web-audio",
           description: "No description available.",
           website_url:
@@ -26933,7 +26933,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Offline-First",
+          title: "Front-End Development -> Offline-First",
           href: "docs/bucketlist/offline-first",
           description: "No description available.",
           website_url:
@@ -26942,7 +26942,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Static Website Services",
+          title: "Front-End Development -> Static Website Services",
           href: "docs/bucketlist/static-website-services",
           description: "No description available.",
           website_url:
@@ -26952,7 +26952,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Cycle.js",
+          title: "Front-End Development -> Cycle.js",
           href: "docs/bucketlist/cycle.js",
           description: "Functional And Reactive Javascript Framework.",
           website_url:
@@ -26961,7 +26961,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Text Editing",
+          title: "Front-End Development -> Text Editing",
           href: "docs/bucketlist/text-editing",
           description: "No description available.",
           website_url:
@@ -26970,7 +26970,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Motion UI Design",
+          title: "Front-End Development -> Motion UI Design",
           href: "docs/bucketlist/motion-ui-design",
           description: "No description available.",
           website_url:
@@ -26979,7 +26979,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Vue.js",
+          title: "Front-End Development -> Vue.js",
           href: "docs/bucketlist/vue.js",
           description: "App Framework.",
           website_url:
@@ -26988,7 +26988,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Marionette.js",
+          title: "Front-End Development -> Marionette.js",
           href: "docs/bucketlist/marionette.js",
           description: "App Framework.",
           website_url:
@@ -26997,7 +26997,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Aurelia",
+          title: "Front-End Development -> Aurelia",
           href: "docs/bucketlist/aurelia",
           description: "App Framework.",
           website_url:
@@ -27006,7 +27006,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Charting",
+          title: "Front-End Development -> Charting",
           href: "docs/bucketlist/charting",
           description: "No description available.",
           website_url:
@@ -27015,7 +27015,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Ionic Framework 2",
+          title: "Front-End Development -> Ionic Framework 2",
           href: "docs/bucketlist/ionic-framework-2",
           description: "No description available.",
           website_url:
@@ -27024,7 +27024,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Chrome DevTools",
+          title: "Front-End Development -> Chrome DevTools",
           href: "docs/bucketlist/chrome-devtools",
           description: "No description available.",
           website_url:
@@ -27034,7 +27034,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's PostCSS",
+          title: "Front-End Development -> PostCSS",
           href: "docs/bucketlist/postcss",
           description: "Css Tool.",
           website_url:
@@ -27043,7 +27043,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Draft.js",
+          title: "Front-End Development -> Draft.js",
           href: "docs/bucketlist/draft.js",
           description: "Rich Text Editor Framework For React.",
           website_url:
@@ -27052,7 +27052,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Service Workers",
+          title: "Front-End Development -> Service Workers",
           href: "docs/bucketlist/service-workers",
           description: "No description available.",
           website_url:
@@ -27061,7 +27061,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Progressive Web Apps",
+          title: "Front-End Development -> Progressive Web Apps",
           href: "docs/bucketlist/progressive-web-apps",
           description: "No description available.",
           website_url:
@@ -27071,7 +27071,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's choo",
+          title: "Front-End Development -> choo",
           href: "docs/bucketlist/choo",
           description: "App Framework.",
           website_url:
@@ -27080,7 +27080,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Redux",
+          title: "Front-End Development -> Redux",
           href: "docs/bucketlist/redux",
           description: "State Container For Javascript Apps.",
           website_url:
@@ -27089,7 +27089,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's webpack",
+          title: "Front-End Development -> webpack",
           href: "docs/bucketlist/webpack",
           description: "Module Bundler.",
           website_url:
@@ -27098,7 +27098,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Browserify",
+          title: "Front-End Development -> Browserify",
           href: "docs/bucketlist/browserify",
           description: "Module Bundler.",
           website_url:
@@ -27107,7 +27107,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Sass",
+          title: "Front-End Development -> Sass",
           href: "docs/bucketlist/sass",
           description: "Css Preprocessor.",
           website_url:
@@ -27116,7 +27116,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Ant Design",
+          title: "Front-End Development -> Ant Design",
           href: "docs/bucketlist/ant-design",
           description: "Enterprise-Class Ui Design Language.",
           website_url:
@@ -27125,7 +27125,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Less",
+          title: "Front-End Development -> Less",
           href: "docs/bucketlist/less",
           description: "Css Preprocessor.",
           website_url:
@@ -27134,7 +27134,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's WebGL",
+          title: "Front-End Development -> WebGL",
           href: "docs/bucketlist/webgl",
           description: "Javascript Api For Rendering 3D Graphics.",
           website_url:
@@ -27143,7 +27143,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Preact",
+          title: "Front-End Development -> Preact",
           href: "docs/bucketlist/preact",
           description: "App Framework.",
           website_url:
@@ -27152,7 +27152,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Progressive Enhancement",
+          title: "Front-End Development -> Progressive Enhancement",
           href: "docs/bucketlist/progressive-enhancement",
           description: "No description available.",
           website_url:
@@ -27162,7 +27162,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Next.js",
+          title: "Front-End Development -> Next.js",
           href: "docs/bucketlist/next.js",
           description: "Framework For Server-Rendered React Apps.",
           website_url:
@@ -27171,7 +27171,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Hyperapp",
+          title: "Front-End Development -> Hyperapp",
           href: "docs/bucketlist/hyperapp",
           description: "Tiny Javascript Library For Building Web Apps.",
           website_url:
@@ -27180,7 +27180,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's lit-html",
+          title: "Front-End Development -> lit-html",
           href: "docs/bucketlist/lit-html",
           description: "Html Templating Library For Javascript.",
           website_url:
@@ -27189,7 +27189,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's JAMstack",
+          title: "Front-End Development -> JAMstack",
           href: "docs/bucketlist/jamstack",
           description:
             "Modern Web Development Architecture Based On Client-Side Javascript, Reusable Apis, And Prebuilt Markup.",
@@ -27199,7 +27199,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's WordPress-Gatsby",
+          title: "Front-End Development -> WordPress-Gatsby",
           href: "docs/bucketlist/wordpress-gatsby",
           description:
             "Web Development Technology Stack With Wordpress As A Back End And Gatsby As A Front End.",
@@ -27210,7 +27210,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Mobile Web Development",
+          title: "Front-End Development -> Mobile Web Development",
           href: "docs/bucketlist/mobile-web-development",
           description: "Creating A Great Mobile Web Experience.",
           website_url:
@@ -27220,7 +27220,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Storybook",
+          title: "Front-End Development -> Storybook",
           href: "docs/bucketlist/storybook",
           description: "Development Environment For Ui Components.",
           website_url:
@@ -27229,7 +27229,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Blazor",
+          title: "Front-End Development -> Blazor",
           href: "docs/bucketlist/blazor",
           description:
             ".Net Web Framework Using C#/Razor And Html That Runs In The Browser With Webassembly.",
@@ -27239,7 +27239,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's PageSpeed Metrics",
+          title: "Front-End Development -> PageSpeed Metrics",
           href: "docs/bucketlist/pagespeed-metrics",
           description:
             "Metrics To Help Understand Page Speed And User Experience.",
@@ -27249,7 +27249,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Tailwind CSS",
+          title: "Front-End Development -> Tailwind CSS",
           href: "docs/bucketlist/tailwind-css",
           description: "Utility-First Css Framework For Rapid Ui Development.",
           website_url:
@@ -27258,7 +27258,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Seed",
+          title: "Front-End Development -> Seed",
           href: "docs/bucketlist/seed",
           description:
             "Rust Framework For Creating Web Apps Running In Webassembly.",
@@ -27268,7 +27268,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Performance Budget",
+          title: "Front-End Development -> Web Performance Budget",
           href: "docs/bucketlist/web-performance-budget",
           description:
             "Techniques To Ensure Certain Performance Metrics For A Website.",
@@ -27279,7 +27279,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Web Animation",
+          title: "Front-End Development -> Web Animation",
           href: "docs/bucketlist/web-animation",
           description:
             "Animations In The Browser With Javascript, Css, Svg, Etc.",
@@ -27290,7 +27290,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Yew",
+          title: "Front-End Development -> Yew",
           href: "docs/bucketlist/yew",
           description:
             "Rust Framework Inspired By Elm And React For Creating Multi-Threaded Frontend Web Apps With Webassembly.",
@@ -27300,7 +27300,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Material-UI",
+          title: "Front-End Development -> Material-UI",
           href: "docs/bucketlist/material-ui",
           description:
             "Material Design React Components For Faster And Easier Web Development.",
@@ -27310,7 +27310,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Building Blocks for Web Apps",
+          title: "Front-End Development -> Building Blocks for Web Apps",
           href: "docs/bucketlist/building-blocks-for-web-apps",
           description: "Standalone Features To Be Integrated Into Web Apps.",
           website_url:
@@ -27320,7 +27320,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Svelte",
+          title: "Front-End Development -> Svelte",
           href: "docs/bucketlist/svelte",
           description: "App Framework.",
           website_url:
@@ -27329,7 +27329,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Front-End Development's Design systems",
+          title: "Front-End Development -> Design systems",
           href: "docs/bucketlist/design-systems",
           description:
             "Collection Of Reusable Components, Guided By Rules That Ensure Consistency And Speed.",
@@ -27339,7 +27339,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Flask",
+          title: "Back-End Development -> Flask",
           href: "docs/bucketlist/flask",
           description: "Python Framework.",
           website_url:
@@ -27348,7 +27348,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Docker",
+          title: "Back-End Development -> Docker",
           href: "docs/bucketlist/docker",
           description: "No description available.",
           website_url:
@@ -27357,7 +27357,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Vagrant",
+          title: "Back-End Development -> Vagrant",
           href: "docs/bucketlist/vagrant",
           description: "Automation Virtual Machine Environment.",
           website_url:
@@ -27366,7 +27366,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Pyramid",
+          title: "Back-End Development -> Pyramid",
           href: "docs/bucketlist/pyramid",
           description: "Python Framework.",
           website_url:
@@ -27375,7 +27375,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Play1 Framework",
+          title: "Back-End Development -> Play1 Framework",
           href: "docs/bucketlist/play1-framework",
           description: "No description available.",
           website_url:
@@ -27384,7 +27384,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's CakePHP",
+          title: "Back-End Development -> CakePHP",
           href: "docs/bucketlist/cakephp",
           description: "Php Framework.",
           website_url:
@@ -27393,7 +27393,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Symfony",
+          title: "Back-End Development -> Symfony",
           href: "docs/bucketlist/symfony",
           description: "Php Framework.",
           website_url:
@@ -27402,7 +27402,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Education",
+          title: "Back-End Development -> Education",
           href: "docs/bucketlist/education",
           description: "No description available.",
           website_url:
@@ -27411,7 +27411,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Laravel",
+          title: "Back-End Development -> Laravel",
           href: "docs/bucketlist/laravel",
           description: "Php Framework.",
           website_url:
@@ -27420,7 +27420,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Education",
+          title: "Back-End Development -> Education",
           href: "docs/bucketlist/education",
           description: "No description available.",
           website_url:
@@ -27429,7 +27429,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's TALL Stack",
+          title: "Back-End Development -> TALL Stack",
           href: "docs/bucketlist/tall-stack",
           description:
             "Full-Stack Development Solution Featuring Libraries Built By The Laravel Community.",
@@ -27439,7 +27439,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Rails",
+          title: "Back-End Development -> Rails",
           href: "docs/bucketlist/rails",
           description: "Web App Framework For Ruby.",
           website_url:
@@ -27448,7 +27448,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Gems",
+          title: "Back-End Development -> Gems",
           href: "docs/bucketlist/gems",
           description: "Packages.",
           website_url:
@@ -27457,7 +27457,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Phalcon",
+          title: "Back-End Development -> Phalcon",
           href: "docs/bucketlist/phalcon",
           description: "Php Framework.",
           website_url:
@@ -27466,7 +27466,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Useful `.htaccess` Snippets",
+          title: "Back-End Development -> Useful `.htaccess` Snippets",
           href: "docs/bucketlist/useful-`.htaccess`-snippets",
           description: "No description available.",
           website_url:
@@ -27475,7 +27475,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's nginx",
+          title: "Back-End Development -> nginx",
           href: "docs/bucketlist/nginx",
           description: "Web Server.",
           website_url:
@@ -27484,7 +27484,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Dropwizard",
+          title: "Back-End Development -> Dropwizard",
           href: "docs/bucketlist/dropwizard",
           description: "Java Framework.",
           website_url:
@@ -27493,7 +27493,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Kubernetes",
+          title: "Back-End Development -> Kubernetes",
           href: "docs/bucketlist/kubernetes",
           description:
             "Open-Source Platform That Automates Linux Container Operations.",
@@ -27503,7 +27503,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Lumen",
+          title: "Back-End Development -> Lumen",
           href: "docs/bucketlist/lumen",
           description: "Php Micro-Framework.",
           website_url:
@@ -27512,7 +27512,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Serverless Framework",
+          title: "Back-End Development -> Serverless Framework",
           href: "docs/bucketlist/serverless-framework",
           description: "Serverless Computing And Serverless Architectures.",
           website_url:
@@ -27521,7 +27521,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Apache Wicket",
+          title: "Back-End Development -> Apache Wicket",
           href: "docs/bucketlist/apache-wicket",
           description: "Java Web App Framework.",
           website_url:
@@ -27530,7 +27530,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Vert.x",
+          title: "Back-End Development -> Vert.x",
           href: "docs/bucketlist/vert.x",
           description: "Toolkit For Building Reactive Apps On The Jvm.",
           website_url:
@@ -27539,7 +27539,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Terraform",
+          title: "Back-End Development -> Terraform",
           href: "docs/bucketlist/terraform",
           description:
             "Tool For Building, Changing, And Versioning Infrastructure.",
@@ -27549,7 +27549,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Vapor",
+          title: "Back-End Development -> Vapor",
           href: "docs/bucketlist/vapor",
           description: "Server-Side Development In Swift.",
           website_url:
@@ -27558,7 +27558,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's Dash",
+          title: "Back-End Development -> Dash",
           href: "docs/bucketlist/dash",
           description: "Python Web App Framework.",
           website_url:
@@ -27567,7 +27567,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's FastAPI",
+          title: "Back-End Development -> FastAPI",
           href: "docs/bucketlist/fastapi",
           description: "Python Web App Framework.",
           website_url:
@@ -27576,7 +27576,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Back-End Development's CDK",
+          title: "Back-End Development -> CDK",
           href: "docs/bucketlist/cdk",
           description:
             "Open-Source Software Development Framework For Defining Cloud Infrastructure In Code.",
@@ -27586,7 +27586,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's University Courses",
+          title: "Computer Science -> University Courses",
           href: "docs/bucketlist/university-courses",
           description: "No description available.",
           website_url:
@@ -27595,7 +27595,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Data Science",
+          title: "Computer Science -> Data Science",
           href: "docs/bucketlist/data-science",
           description: "No description available.",
           website_url:
@@ -27604,7 +27604,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Tutorials",
+          title: "Computer Science -> Tutorials",
           href: "docs/bucketlist/tutorials",
           description: "No description available.",
           website_url:
@@ -27613,7 +27613,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Machine Learning",
+          title: "Computer Science -> Machine Learning",
           href: "docs/bucketlist/machine-learning",
           description: "No description available.",
           website_url:
@@ -27623,7 +27623,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Tutorials",
+          title: "Computer Science -> Tutorials",
           href: "docs/bucketlist/tutorials",
           description: "No description available.",
           website_url:
@@ -27633,7 +27633,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's ML with Ruby",
+          title: "Computer Science -> ML with Ruby",
           href: "docs/bucketlist/ml-with-ruby",
           description:
             "Learning, Implementing, And Applying Machine Learning Using Ruby.",
@@ -27643,16 +27643,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Core ML Models",
+          title: "Computer Science -> Core ML Models",
           href: "docs/bucketlist/core-ml-models",
-          description: "Models For Apple'S Machine Learning Framework.",
+          description: "Models For Apple -> Machine Learning Framework.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/likedan/Awesome-CoreML-Models",
           github_repo: "https://github.com/likedan/Awesome-CoreML-Models",
           items: [],
         },
         {
-          title: "Computer Science's H2O",
+          title: "Computer Science -> H2O",
           href: "docs/bucketlist/h2o",
           description:
             "Open Source Distributed Machine Learning Platform Written In Java With Apis In R, Python, And Scala.",
@@ -27662,7 +27662,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Software Engineering for Machine Learning",
+          title: "Computer Science -> Software Engineering for Machine Learning",
           href: "docs/bucketlist/software-engineering-for-machine-learning",
           description: "From Experiment To Production-Level Machine Learning.",
           website_url:
@@ -27671,7 +27671,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's AI in Finance",
+          title: "Computer Science -> AI in Finance",
           href: "docs/bucketlist/ai-in-finance",
           description: "Solving Problems In Finance With Machine Learning.",
           website_url:
@@ -27680,7 +27680,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Speech and Natural Language Processing",
+          title: "Computer Science -> Speech and Natural Language Processing",
           href: "docs/bucketlist/speech-and-natural-language-processing",
           description: "No description available.",
           website_url:
@@ -27690,7 +27690,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Spanish",
+          title: "Computer Science -> Spanish",
           href: "docs/bucketlist/spanish",
           description: "No description available.",
           website_url:
@@ -27699,7 +27699,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's NLP with Ruby",
+          title: "Computer Science -> NLP with Ruby",
           href: "docs/bucketlist/nlp-with-ruby",
           description: "No description available.",
           website_url:
@@ -27708,7 +27708,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Question Answering",
+          title: "Computer Science -> Question Answering",
           href: "docs/bucketlist/question-answering",
           description:
             "The Science Of Asking And Answering In Natural Language With A Machine.",
@@ -27718,7 +27718,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Natural Language Generation",
+          title: "Computer Science -> Natural Language Generation",
           href: "docs/bucketlist/natural-language-generation",
           description:
             "Generation Of Text Used In Data To Text, Conversational Agents, And Narrative Generation Applications.",
@@ -27728,7 +27728,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Linguistics",
+          title: "Computer Science -> Linguistics",
           href: "docs/bucketlist/linguistics",
           description: "No description available.",
           website_url:
@@ -27738,7 +27738,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Cryptography",
+          title: "Computer Science -> Cryptography",
           href: "docs/bucketlist/cryptography",
           description: "No description available.",
           website_url:
@@ -27747,7 +27747,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Papers",
+          title: "Computer Science -> Papers",
           href: "docs/bucketlist/papers",
           description:
             "Theory Basics For Using Cryptography By Non-Cryptographers.",
@@ -27757,7 +27757,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Computer Vision",
+          title: "Computer Science -> Computer Vision",
           href: "docs/bucketlist/computer-vision",
           description: "No description available.",
           website_url:
@@ -27766,7 +27766,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Deep Learning",
+          title: "Computer Science -> Deep Learning",
           href: "docs/bucketlist/deep-learning",
           description: "Neural Networks.",
           website_url:
@@ -27776,7 +27776,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's TensorFlow",
+          title: "Computer Science -> TensorFlow",
           href: "docs/bucketlist/tensorflow",
           description: "Library For Machine Intelligence.",
           website_url:
@@ -27785,7 +27785,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's TensorFlow.js",
+          title: "Computer Science -> TensorFlow.js",
           href: "docs/bucketlist/tensorflow.js",
           description:
             "Webgl-Accelerated Machine Learning Javascript Library For Training And Deploying Models.",
@@ -27795,7 +27795,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's TensorFlow Lite",
+          title: "Computer Science -> TensorFlow Lite",
           href: "docs/bucketlist/tensorflow-lite",
           description:
             "Framework That Optimizes Tensorflow Models For On-Device Machine Learning.",
@@ -27805,7 +27805,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Papers",
+          title: "Computer Science -> Papers",
           href: "docs/bucketlist/papers",
           description: "The Most Cited Deep Learning Papers.",
           website_url:
@@ -27815,7 +27815,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Education",
+          title: "Computer Science -> Education",
           href: "docs/bucketlist/education",
           description: "No description available.",
           website_url:
@@ -27825,7 +27825,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Deep Vision",
+          title: "Computer Science -> Deep Vision",
           href: "docs/bucketlist/deep-vision",
           description: "No description available.",
           website_url:
@@ -27834,7 +27834,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Open Source Society University",
+          title: "Computer Science -> Open Source Society University",
           href: "docs/bucketlist/open-source-society-university",
           description: "No description available.",
           website_url:
@@ -27843,7 +27843,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Functional Programming",
+          title: "Computer Science -> Functional Programming",
           href: "docs/bucketlist/functional-programming",
           description: "No description available.",
           website_url:
@@ -27853,7 +27853,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Empirical Software Engineering",
+          title: "Computer Science -> Empirical Software Engineering",
           href: "docs/bucketlist/empirical-software-engineering",
           description: "Evidence-Based Research On Software Systems.",
           website_url:
@@ -27862,7 +27862,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Static Analysis & Code Quality",
+          title: "Computer Science -> Static Analysis & Code Quality",
           href: "docs/bucketlist/static-analysis-&-code-quality",
           description: "No description available.",
           website_url:
@@ -27871,7 +27871,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Information Retrieval",
+          title: "Computer Science -> Information Retrieval",
           href: "docs/bucketlist/information-retrieval",
           description: "Learn To Develop Your Own Search Engine.",
           website_url:
@@ -27881,7 +27881,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Computer Science's Quantum Computing",
+          title: "Computer Science -> Quantum Computing",
           href: "docs/bucketlist/quantum-computing",
           description:
             "Computing Which Utilizes Quantum Mechanics And Qubits On Quantum Computers.",
@@ -27891,7 +27891,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Big Data",
+          title: "Big Data -> Big Data",
           href: "docs/bucketlist/big-data",
           description: "No description available.",
           website_url:
@@ -27900,7 +27900,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Public Datasets",
+          title: "Big Data -> Public Datasets",
           href: "docs/bucketlist/public-datasets",
           description: "No description available.",
           website_url:
@@ -27909,7 +27909,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Hadoop",
+          title: "Big Data -> Hadoop",
           href: "docs/bucketlist/hadoop",
           description:
             "Framework For Distributed Storage And Processing Of Very Large Data Sets.",
@@ -27919,7 +27919,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Data Engineering",
+          title: "Big Data -> Data Engineering",
           href: "docs/bucketlist/data-engineering",
           description: "No description available.",
           website_url:
@@ -27929,7 +27929,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Streaming",
+          title: "Big Data -> Streaming",
           href: "docs/bucketlist/streaming",
           description: "No description available.",
           website_url:
@@ -27938,7 +27938,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Apache Spark",
+          title: "Big Data -> Apache Spark",
           href: "docs/bucketlist/apache-spark",
           description: "Unified Engine For Large-Scale Data Processing.",
           website_url:
@@ -27947,7 +27947,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Qlik",
+          title: "Big Data -> Qlik",
           href: "docs/bucketlist/qlik",
           description:
             "Business Intelligence Platform For Data Visualization, Analytics, And Reporting Apps.",
@@ -27957,7 +27957,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Big Data's Splunk",
+          title: "Big Data -> Splunk",
           href: "docs/bucketlist/splunk",
           description:
             "Platform For Searching, Monitoring, And Analyzing Structured And Unstructured Machine-Generated Big Data In Real-Time.",
@@ -27967,7 +27967,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Papers We Love",
+          title: "Theory -> Papers We Love",
           href: "docs/bucketlist/papers-we-love",
           description: "No description available.",
           website_url:
@@ -27976,7 +27976,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Talks",
+          title: "Theory -> Talks",
           href: "docs/bucketlist/talks",
           description: "No description available.",
           website_url:
@@ -27985,7 +27985,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Algorithms",
+          title: "Theory -> Algorithms",
           href: "docs/bucketlist/algorithms",
           description: "No description available.",
           website_url:
@@ -27994,7 +27994,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Education",
+          title: "Theory -> Education",
           href: "docs/bucketlist/education",
           description: "Learning And Practicing.",
           website_url:
@@ -28003,7 +28003,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Algorithm Visualizations",
+          title: "Theory -> Algorithm Visualizations",
           href: "docs/bucketlist/algorithm-visualizations",
           description: "No description available.",
           website_url:
@@ -28012,7 +28012,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Artificial Intelligence",
+          title: "Theory -> Artificial Intelligence",
           href: "docs/bucketlist/artificial-intelligence",
           description: "No description available.",
           website_url:
@@ -28022,7 +28022,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Search Engine Optimization",
+          title: "Theory -> Search Engine Optimization",
           href: "docs/bucketlist/search-engine-optimization",
           description: "No description available.",
           website_url:
@@ -28032,7 +28032,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Competitive Programming",
+          title: "Theory -> Competitive Programming",
           href: "docs/bucketlist/competitive-programming",
           description: "No description available.",
           website_url:
@@ -28042,7 +28042,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Math",
+          title: "Theory -> Math",
           href: "docs/bucketlist/math",
           description: "No description available.",
           website_url:
@@ -28051,7 +28051,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Theory's Recursion Schemes",
+          title: "Theory -> Recursion Schemes",
           href: "docs/bucketlist/recursion-schemes",
           description: "Traversing Nested Data Structures.",
           website_url:
@@ -28060,7 +28060,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Free Programming Books",
+          title: "Book -> Free Programming Books",
           href: "docs/bucketlist/free-programming-books",
           description: "No description available.",
           website_url:
@@ -28070,7 +28070,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Free Software Testing Books",
+          title: "Book -> Free Software Testing Books",
           href: "docs/bucketlist/free-software-testing-books",
           description: "No description available.",
           website_url:
@@ -28079,7 +28079,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Go Books",
+          title: "Book -> Go Books",
           href: "docs/bucketlist/go-books",
           description: "No description available.",
           website_url:
@@ -28088,7 +28088,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's R Books",
+          title: "Book -> R Books",
           href: "docs/bucketlist/r-books",
           description: "No description available.",
           website_url:
@@ -28097,7 +28097,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Mind Expanding Books",
+          title: "Book -> Mind Expanding Books",
           href: "docs/bucketlist/mind-expanding-books",
           description: "No description available.",
           website_url:
@@ -28106,7 +28106,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Book Authoring",
+          title: "Book -> Book Authoring",
           href: "docs/bucketlist/book-authoring",
           description: "No description available.",
           website_url:
@@ -28115,7 +28115,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Book's Elixir Books",
+          title: "Book -> Elixir Books",
           href: "docs/bucketlist/elixir-books",
           description: "No description available.",
           website_url:
@@ -28124,7 +28124,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Editor's Sublime Text",
+          title: "Editor -> Sublime Text",
           href: "docs/bucketlist/sublime-text",
           description: "No description available.",
           website_url:
@@ -28133,7 +28133,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Editor's Vim",
+          title: "Editor -> Vim",
           href: "docs/bucketlist/vim",
           description: "No description available.",
           website_url:
@@ -28142,7 +28142,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Editor's Emacs",
+          title: "Editor -> Emacs",
           href: "docs/bucketlist/emacs",
           description: "No description available.",
           website_url:
@@ -28151,7 +28151,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Editor's Atom",
+          title: "Editor -> Atom",
           href: "docs/bucketlist/atom",
           description: "Open-Source And Hackable Text Editor.",
           website_url:
@@ -28160,7 +28160,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Editor's Visual Studio Code",
+          title: "Editor -> Visual Studio Code",
           href: "docs/bucketlist/visual-studio-code",
           description: "Cross-Platform Open-Source Text Editor.",
           website_url:
@@ -28169,7 +28169,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Game Development",
+          title: "Gaming -> Game Development",
           href: "docs/bucketlist/game-development",
           description: "No description available.",
           website_url:
@@ -28178,7 +28178,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Game Talks",
+          title: "Gaming -> Game Talks",
           href: "docs/bucketlist/game-talks",
           description: "No description available.",
           website_url:
@@ -28187,7 +28187,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Godot",
+          title: "Gaming -> Godot",
           href: "docs/bucketlist/godot",
           description: "Game Engine.",
           website_url:
@@ -28196,7 +28196,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Open Source Games",
+          title: "Gaming -> Open Source Games",
           href: "docs/bucketlist/open-source-games",
           description: "No description available.",
           website_url:
@@ -28205,7 +28205,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Unity",
+          title: "Gaming -> Unity",
           href: "docs/bucketlist/unity",
           description: "Game Engine.",
           website_url:
@@ -28214,7 +28214,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Chess",
+          title: "Gaming -> Chess",
           href: "docs/bucketlist/chess",
           description: "No description available.",
           website_url:
@@ -28223,7 +28223,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's LÖVE",
+          title: "Gaming -> LÖVE",
           href: "docs/bucketlist/löve",
           description: "Game Engine.",
           website_url:
@@ -28232,7 +28232,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's PICO-8",
+          title: "Gaming -> PICO-8",
           href: "docs/bucketlist/pico-8",
           description: "Fantasy Console.",
           website_url:
@@ -28241,7 +28241,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Game Boy Development",
+          title: "Gaming -> Game Boy Development",
           href: "docs/bucketlist/game-boy-development",
           description: "No description available.",
           website_url:
@@ -28250,7 +28250,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Construct 2",
+          title: "Gaming -> Construct 2",
           href: "docs/bucketlist/construct-2",
           description: "Game Engine.",
           website_url:
@@ -28259,7 +28259,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Gideros",
+          title: "Gaming -> Gideros",
           href: "docs/bucketlist/gideros",
           description: "Game Engine.",
           website_url:
@@ -28268,7 +28268,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Minecraft",
+          title: "Gaming -> Minecraft",
           href: "docs/bucketlist/minecraft",
           description: "Sandbox Video Game.",
           website_url:
@@ -28277,7 +28277,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Game Datasets",
+          title: "Gaming -> Game Datasets",
           href: "docs/bucketlist/game-datasets",
           description:
             "Materials And Datasets For Artificial Intelligence In Games.",
@@ -28287,7 +28287,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Haxe Game Development",
+          title: "Gaming -> Haxe Game Development",
           href: "docs/bucketlist/haxe-game-development",
           description:
             "A High-Level Strongly Typed Programming Language Used To Produce Cross-Platform Native Code.",
@@ -28297,7 +28297,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's libGDX",
+          title: "Gaming -> libGDX",
           href: "docs/bucketlist/libgdx",
           description: "Java Game Framework.",
           website_url:
@@ -28306,7 +28306,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's PlayCanvas",
+          title: "Gaming -> PlayCanvas",
           href: "docs/bucketlist/playcanvas",
           description: "Game Engine.",
           website_url:
@@ -28315,7 +28315,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Game Remakes",
+          title: "Gaming -> Game Remakes",
           href: "docs/bucketlist/game-remakes",
           description: "Actively Maintained Open-Source Game Remakes.",
           website_url:
@@ -28324,7 +28324,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Flame",
+          title: "Gaming -> Flame",
           href: "docs/bucketlist/flame",
           description: "Game Engine For Flutter.",
           website_url:
@@ -28333,7 +28333,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Discord Communities",
+          title: "Gaming -> Discord Communities",
           href: "docs/bucketlist/discord-communities",
           description: "Chat With Friends And Communities.",
           website_url:
@@ -28342,7 +28342,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's CHIP-8",
+          title: "Gaming -> CHIP-8",
           href: "docs/bucketlist/chip-8",
           description: "Virtual Computer Game Machine From The 70S.",
           website_url:
@@ -28351,7 +28351,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Gaming's Games of Coding",
+          title: "Gaming -> Games of Coding",
           href: "docs/bucketlist/games-of-coding",
           description: "Learn A Programming Language By Making Games.",
           website_url:
@@ -28361,7 +28361,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Quick Look Plugins",
+          title: "Development Environment -> Quick Look Plugins",
           href: "docs/bucketlist/quick-look-plugins",
           description: "For Macos.",
           website_url:
@@ -28370,7 +28370,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Dev Env",
+          title: "Development Environment -> Dev Env",
           href: "docs/bucketlist/dev-env",
           description: "No description available.",
           website_url:
@@ -28379,7 +28379,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Dotfiles",
+          title: "Development Environment -> Dotfiles",
           href: "docs/bucketlist/dotfiles",
           description: "No description available.",
           website_url:
@@ -28388,7 +28388,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Shell",
+          title: "Development Environment -> Shell",
           href: "docs/bucketlist/shell",
           description: "No description available.",
           website_url:
@@ -28397,7 +28397,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Fish",
+          title: "Development Environment -> Fish",
           href: "docs/bucketlist/fish",
           description: "User-Friendly Shell.",
           website_url:
@@ -28406,7 +28406,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Command-Line Apps",
+          title: "Development Environment -> Command-Line Apps",
           href: "docs/bucketlist/command-line-apps",
           description: "No description available.",
           website_url:
@@ -28415,7 +28415,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's ZSH Plugins",
+          title: "Development Environment -> ZSH Plugins",
           href: "docs/bucketlist/zsh-plugins",
           description: "No description available.",
           website_url:
@@ -28424,7 +28424,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's GitHub",
+          title: "Development Environment -> GitHub",
           href: "docs/bucketlist/github",
           description: "Hosting Service For Git Repositories.",
           website_url:
@@ -28433,7 +28433,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Browser Extensions",
+          title: "Development Environment -> Browser Extensions",
           href: "docs/bucketlist/browser-extensions",
           description: "No description available.",
           website_url:
@@ -28443,7 +28443,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Cheat Sheet",
+          title: "Development Environment -> Cheat Sheet",
           href: "docs/bucketlist/cheat-sheet",
           description: "No description available.",
           website_url:
@@ -28452,7 +28452,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Pinned Gists",
+          title: "Development Environment -> Pinned Gists",
           href: "docs/bucketlist/pinned-gists",
           description: "Dynamic Pinned Gists For Your Github Profile.",
           website_url:
@@ -28461,7 +28461,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Git Cheat Sheet & Git Flow",
+          title: "Development Environment -> Git Cheat Sheet & Git Flow",
           href: "docs/bucketlist/git-cheat-sheet-&-git-flow",
           description: "No description available.",
           website_url:
@@ -28470,7 +28470,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Git Tips",
+          title: "Development Environment -> Git Tips",
           href: "docs/bucketlist/git-tips",
           description: "No description available.",
           website_url:
@@ -28479,7 +28479,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Git Add-ons",
+          title: "Development Environment -> Git Add-ons",
           href: "docs/bucketlist/git-add-ons",
           description: "Enhance The `Git` Cli.",
           website_url:
@@ -28488,7 +28488,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Git Hooks",
+          title: "Development Environment -> Git Hooks",
           href: "docs/bucketlist/git-hooks",
           description: "Scripts For Automating Tasks During `Git` Workflows.",
           website_url:
@@ -28497,7 +28497,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's SSH",
+          title: "Development Environment -> SSH",
           href: "docs/bucketlist/ssh",
           description: "No description available.",
           website_url:
@@ -28506,7 +28506,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's FOSS for Developers",
+          title: "Development Environment -> FOSS for Developers",
           href: "docs/bucketlist/foss-for-developers",
           description: "No description available.",
           website_url:
@@ -28515,7 +28515,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Hyper",
+          title: "Development Environment -> Hyper",
           href: "docs/bucketlist/hyper",
           description: "Cross-Platform Terminal App Built On Web Technologies.",
           website_url:
@@ -28524,7 +28524,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's PowerShell",
+          title: "Development Environment -> PowerShell",
           href: "docs/bucketlist/powershell",
           description: "Cross-Platform Object-Oriented Shell.",
           website_url:
@@ -28533,7 +28533,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Alfred Workflows",
+          title: "Development Environment -> Alfred Workflows",
           href: "docs/bucketlist/alfred-workflows",
           description: "Productivity App For Macos.",
           website_url:
@@ -28542,7 +28542,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's Terminals Are Sexy",
+          title: "Development Environment -> Terminals Are Sexy",
           href: "docs/bucketlist/terminals-are-sexy",
           description: "No description available.",
           website_url:
@@ -28551,7 +28551,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Development Environment's GitHub Actions",
+          title: "Development Environment -> GitHub Actions",
           href: "docs/bucketlist/github-actions",
           description:
             "Create Tasks To Automate Your Workflow And Share Them With Others On Github.",
@@ -28561,7 +28561,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Entertainment's Science Fiction",
+          title: "Entertainment -> Science Fiction",
           href: "docs/bucketlist/science-fiction",
           description: "Scifi.",
           website_url:
@@ -28570,7 +28570,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Entertainment's Fantasy",
+          title: "Entertainment -> Fantasy",
           href: "docs/bucketlist/fantasy",
           description: "No description available.",
           website_url:
@@ -28579,7 +28579,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Entertainment's Podcasts",
+          title: "Entertainment -> Podcasts",
           href: "docs/bucketlist/podcasts",
           description: "No description available.",
           website_url:
@@ -28588,7 +28588,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Entertainment's Email Newsletters",
+          title: "Entertainment -> Email Newsletters",
           href: "docs/bucketlist/email-newsletters",
           description: "No description available.",
           website_url:
@@ -28597,7 +28597,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Entertainment's IT Quotes",
+          title: "Entertainment -> IT Quotes",
           href: "docs/bucketlist/it-quotes",
           description: "No description available.",
           website_url:
@@ -28606,7 +28606,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's Database",
+          title: "Database -> Database",
           href: "docs/bucketlist/database",
           description: "No description available.",
           website_url:
@@ -28615,7 +28615,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's MySQL",
+          title: "Database -> MySQL",
           href: "docs/bucketlist/mysql",
           description: "No description available.",
           website_url:
@@ -28624,7 +28624,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's SQLAlchemy",
+          title: "Database -> SQLAlchemy",
           href: "docs/bucketlist/sqlalchemy",
           description: "No description available.",
           website_url:
@@ -28633,7 +28633,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's InfluxDB",
+          title: "Database -> InfluxDB",
           href: "docs/bucketlist/influxdb",
           description: "No description available.",
           website_url:
@@ -28642,7 +28642,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's Neo4j",
+          title: "Database -> Neo4j",
           href: "docs/bucketlist/neo4j",
           description: "No description available.",
           website_url:
@@ -28651,7 +28651,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's MongoDB",
+          title: "Database -> MongoDB",
           href: "docs/bucketlist/mongodb",
           description: "Nosql Database.",
           website_url:
@@ -28660,7 +28660,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's RethinkDB",
+          title: "Database -> RethinkDB",
           href: "docs/bucketlist/rethinkdb",
           description: "No description available.",
           website_url:
@@ -28669,7 +28669,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's TinkerPop",
+          title: "Database -> TinkerPop",
           href: "docs/bucketlist/tinkerpop",
           description: "Graph Computing Framework.",
           website_url:
@@ -28678,7 +28678,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's PostgreSQL",
+          title: "Database -> PostgreSQL",
           href: "docs/bucketlist/postgresql",
           description: "Object-Relational Database.",
           website_url:
@@ -28687,7 +28687,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's CouchDB",
+          title: "Database -> CouchDB",
           href: "docs/bucketlist/couchdb",
           description: "Document-Oriented Nosql Database.",
           website_url:
@@ -28696,7 +28696,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's HBase",
+          title: "Database -> HBase",
           href: "docs/bucketlist/hbase",
           description: "Distributed, Scalable, Big Data Store.",
           website_url:
@@ -28705,7 +28705,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's NoSQL Guides",
+          title: "Database -> NoSQL Guides",
           href: "docs/bucketlist/nosql-guides",
           description:
             "Help On Using Non-Relational, Distributed, Open-Source, And Horizontally Scalable Databases.",
@@ -28715,7 +28715,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's Contexture",
+          title: "Database -> Contexture",
           href: "docs/bucketlist/contexture",
           description:
             "Abstracts Queries/Filters And Results/Aggregations From Different Backing Data Stores Like Elasticsearch And Mongodb.",
@@ -28725,7 +28725,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Database's Database Tools",
+          title: "Database -> Database Tools",
           href: "docs/bucketlist/database-tools",
           description: "Everything That Makes Working With Databases Easier.",
           website_url:
@@ -28734,7 +28734,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Creative Commons Media",
+          title: "Media -> Creative Commons Media",
           href: "docs/bucketlist/creative-commons-media",
           description: "No description available.",
           website_url:
@@ -28743,7 +28743,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Fonts",
+          title: "Media -> Fonts",
           href: "docs/bucketlist/fonts",
           description: "No description available.",
           website_url:
@@ -28752,7 +28752,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Codeface",
+          title: "Media -> Codeface",
           href: "docs/bucketlist/codeface",
           description: "Text Editor Fonts.",
           website_url:
@@ -28761,7 +28761,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Stock Resources",
+          title: "Media -> Stock Resources",
           href: "docs/bucketlist/stock-resources",
           description: "No description available.",
           website_url:
@@ -28770,7 +28770,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's GIF",
+          title: "Media -> GIF",
           href: "docs/bucketlist/gif",
           description: "Image Format Known For Animated Images.",
           website_url:
@@ -28779,7 +28779,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Music",
+          title: "Media -> Music",
           href: "docs/bucketlist/music",
           description: "No description available.",
           website_url:
@@ -28788,7 +28788,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Open Source Documents",
+          title: "Media -> Open Source Documents",
           href: "docs/bucketlist/open-source-documents",
           description: "No description available.",
           website_url:
@@ -28797,7 +28797,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Audio Visualization",
+          title: "Media -> Audio Visualization",
           href: "docs/bucketlist/audio-visualization",
           description: "No description available.",
           website_url:
@@ -28807,7 +28807,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Broadcasting",
+          title: "Media -> Broadcasting",
           href: "docs/bucketlist/broadcasting",
           description: "No description available.",
           website_url:
@@ -28816,7 +28816,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Pixel Art",
+          title: "Media -> Pixel Art",
           href: "docs/bucketlist/pixel-art",
           description: "Pixel-Level Digital Art.",
           website_url:
@@ -28825,7 +28825,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's FFmpeg",
+          title: "Media -> FFmpeg",
           href: "docs/bucketlist/ffmpeg",
           description:
             "Cross-Platform Solution To Record, Convert And Stream Audio And Video.",
@@ -28835,7 +28835,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Icons",
+          title: "Media -> Icons",
           href: "docs/bucketlist/icons",
           description: "Downloadable Svg/Png/Font Icon Projects.",
           website_url:
@@ -28844,7 +28844,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Media's Audiovisual",
+          title: "Media -> Audiovisual",
           href: "docs/bucketlist/audiovisual",
           description:
             "Lighting, Audio And Video In Professional Environments.",
@@ -28854,7 +28854,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's CLI Workshoppers",
+          title: "Learn -> CLI Workshoppers",
           href: "docs/bucketlist/cli-workshoppers",
           description: "Interactive Tutorials.",
           website_url:
@@ -28863,7 +28863,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Learn to Program",
+          title: "Learn -> Learn to Program",
           href: "docs/bucketlist/learn-to-program",
           description: "No description available.",
           website_url:
@@ -28872,7 +28872,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Speaking",
+          title: "Learn -> Speaking",
           href: "docs/bucketlist/speaking",
           description: "No description available.",
           website_url:
@@ -28881,7 +28881,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Tech Videos",
+          title: "Learn -> Tech Videos",
           href: "docs/bucketlist/tech-videos",
           description: "No description available.",
           website_url:
@@ -28890,7 +28890,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Dive into Machine Learning",
+          title: "Learn -> Dive into Machine Learning",
           href: "docs/bucketlist/dive-into-machine-learning",
           description: "No description available.",
           website_url:
@@ -28900,7 +28900,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Computer History",
+          title: "Learn -> Computer History",
           href: "docs/bucketlist/computer-history",
           description: "No description available.",
           website_url:
@@ -28909,7 +28909,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Programming for Kids",
+          title: "Learn -> Programming for Kids",
           href: "docs/bucketlist/programming-for-kids",
           description: "No description available.",
           website_url:
@@ -28919,7 +28919,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Educational Games",
+          title: "Learn -> Educational Games",
           href: "docs/bucketlist/educational-games",
           description: "Learn While Playing.",
           website_url:
@@ -28928,7 +28928,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's JavaScript Learning",
+          title: "Learn -> JavaScript Learning",
           href: "docs/bucketlist/javascript-learning",
           description: "No description available.",
           website_url:
@@ -28938,7 +28938,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's CSS Learning",
+          title: "Learn -> CSS Learning",
           href: "docs/bucketlist/css-learning",
           description: "Mainly About Css – The Language And The Modules.",
           website_url:
@@ -28947,7 +28947,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Product Management",
+          title: "Learn -> Product Management",
           href: "docs/bucketlist/product-management",
           description: "Learn How To Be A Better Product Manager.",
           website_url:
@@ -28956,7 +28956,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's Roadmaps",
+          title: "Learn -> Roadmaps",
           href: "docs/bucketlist/roadmaps",
           description:
             "Gives You A Clear Route To Improve Your Knowledge And Skills.",
@@ -28966,7 +28966,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Learn's YouTubers",
+          title: "Learn -> YouTubers",
           href: "docs/bucketlist/youtubers",
           description:
             "Watch Video Tutorials From Youtubers That Teach You About Technology.",
@@ -28976,7 +28976,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Application Security",
+          title: "Security -> Application Security",
           href: "docs/bucketlist/application-security",
           description: "No description available.",
           website_url:
@@ -28985,7 +28985,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Security",
+          title: "Security -> Security",
           href: "docs/bucketlist/security",
           description: "No description available.",
           website_url:
@@ -28994,7 +28994,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's CTF",
+          title: "Security -> CTF",
           href: "docs/bucketlist/ctf",
           description: "Capture The Flag.",
           website_url:
@@ -29003,7 +29003,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Malware Analysis",
+          title: "Security -> Malware Analysis",
           href: "docs/bucketlist/malware-analysis",
           description: "No description available.",
           website_url:
@@ -29012,7 +29012,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Android Security",
+          title: "Security -> Android Security",
           href: "docs/bucketlist/android-security",
           description: "No description available.",
           website_url:
@@ -29021,7 +29021,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Hacking",
+          title: "Security -> Hacking",
           href: "docs/bucketlist/hacking",
           description: "No description available.",
           website_url:
@@ -29030,7 +29030,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Honeypots",
+          title: "Security -> Honeypots",
           href: "docs/bucketlist/honeypots",
           description:
             "Deception Trap, Designed To Entice An Attacker Into Attempting To Compromise The Information Systems In An Organization.",
@@ -29040,7 +29040,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Incident Response",
+          title: "Security -> Incident Response",
           href: "docs/bucketlist/incident-response",
           description: "No description available.",
           website_url:
@@ -29049,7 +29049,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Vehicle Security and Car Hacking",
+          title: "Security -> Vehicle Security and Car Hacking",
           href: "docs/bucketlist/vehicle-security-and-car-hacking",
           description: "No description available.",
           website_url:
@@ -29059,7 +29059,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Web Security",
+          title: "Security -> Web Security",
           href: "docs/bucketlist/web-security",
           description: "Security Of Web Apps & Services.",
           website_url:
@@ -29068,7 +29068,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Lockpicking",
+          title: "Security -> Lockpicking",
           href: "docs/bucketlist/lockpicking",
           description:
             "The Art Of Unlocking A Lock By Manipulating Its Components Without The Key.",
@@ -29078,7 +29078,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Cybersecurity Blue Team",
+          title: "Security -> Cybersecurity Blue Team",
           href: "docs/bucketlist/cybersecurity-blue-team",
           description:
             "Groups Of Individuals Who Identify Security Flaws In Information Technology Systems.",
@@ -29089,7 +29089,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Fuzzing",
+          title: "Security -> Fuzzing",
           href: "docs/bucketlist/fuzzing",
           description:
             "Automated Software Testing Technique That Involves Feeding Pseudo-Randomly Generated Input Data.",
@@ -29099,7 +29099,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's Embedded and IoT Security",
+          title: "Security -> Embedded and IoT Security",
           href: "docs/bucketlist/embedded-and-iot-security",
           description: "No description available.",
           website_url:
@@ -29109,7 +29109,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's GDPR",
+          title: "Security -> GDPR",
           href: "docs/bucketlist/gdpr",
           description:
             "Regulation On Data Protection And Privacy For All Individuals Within Eu.",
@@ -29119,7 +29119,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Security's DevSecOps",
+          title: "Security -> DevSecOps",
           href: "docs/bucketlist/devsecops",
           description: "No description available.",
           website_url:
@@ -29128,7 +29128,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Umbraco",
+          title: "Content Management System -> Umbraco",
           href: "docs/bucketlist/umbraco",
           description: "No description available.",
           website_url:
@@ -29137,7 +29137,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Refinery CMS",
+          title: "Content Management System -> Refinery CMS",
           href: "docs/bucketlist/refinery-cms",
           description: "Ruby On Rails Cms.",
           website_url:
@@ -29147,7 +29147,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Wagtail",
+          title: "Content Management System -> Wagtail",
           href: "docs/bucketlist/wagtail",
           description: "Django Cms Focused On Flexibility And User Experience.",
           website_url:
@@ -29156,7 +29156,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Textpattern",
+          title: "Content Management System -> Textpattern",
           href: "docs/bucketlist/textpattern",
           description: "Lightweight Php-Based Cms.",
           website_url:
@@ -29165,7 +29165,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Drupal",
+          title: "Content Management System -> Drupal",
           href: "docs/bucketlist/drupal",
           description: "Extensible Php-Based Cms.",
           website_url:
@@ -29174,7 +29174,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Craft CMS",
+          title: "Content Management System -> Craft CMS",
           href: "docs/bucketlist/craft-cms",
           description: "Content-First Cms.",
           website_url:
@@ -29183,7 +29183,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Sitecore",
+          title: "Content Management System -> Sitecore",
           href: "docs/bucketlist/sitecore",
           description:
             ".Net Digital Marketing Platform That Combines Cms With Tools For Managing Multiple Websites.",
@@ -29193,7 +29193,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Content Management System's Silverstripe CMS",
+          title: "Content Management System -> Silverstripe CMS",
           href: "docs/bucketlist/silverstripe-cms",
           description:
             "Php Mvc Framework That Serves As A Classic Or Headless Cms.",
@@ -29204,7 +29204,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Robotics",
+          title: "Hardware -> Robotics",
           href: "docs/bucketlist/robotics",
           description: "No description available.",
           website_url:
@@ -29213,7 +29213,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Internet of Things",
+          title: "Hardware -> Internet of Things",
           href: "docs/bucketlist/internet-of-things",
           description: "No description available.",
           website_url:
@@ -29222,7 +29222,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Electronics",
+          title: "Hardware -> Electronics",
           href: "docs/bucketlist/electronics",
           description: "For Electronic Engineers And Hobbyists.",
           website_url:
@@ -29231,7 +29231,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Bluetooth Beacons",
+          title: "Hardware -> Bluetooth Beacons",
           href: "docs/bucketlist/bluetooth-beacons",
           description: "No description available.",
           website_url:
@@ -29240,7 +29240,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Electric Guitar Specifications",
+          title: "Hardware -> Electric Guitar Specifications",
           href: "docs/bucketlist/electric-guitar-specifications",
           description: "Checklist For Building Your Own Electric Guitar.",
           website_url:
@@ -29249,7 +29249,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Plotters",
+          title: "Hardware -> Plotters",
           href: "docs/bucketlist/plotters",
           description:
             "Computer-Controlled Drawing Machines And Other Visual Art Robots.",
@@ -29259,7 +29259,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's Robotic Tooling",
+          title: "Hardware -> Robotic Tooling",
           href: "docs/bucketlist/robotic-tooling",
           description:
             "Free And Open Tools For Professional Robotic Development.",
@@ -29269,7 +29269,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Hardware's LIDAR",
+          title: "Hardware -> LIDAR",
           href: "docs/bucketlist/lidar",
           description:
             "Sensor For Measuring Distances By Illuminating The Target With Laser Light.",
@@ -29279,7 +29279,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Open Companies",
+          title: "Busines -> Open Companies",
           href: "docs/bucketlist/open-companies",
           description: "No description available.",
           website_url:
@@ -29288,7 +29288,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Places to Post Your Startup",
+          title: "Busines -> Places to Post Your Startup",
           href: "docs/bucketlist/places-to-post-your-startup",
           description: "No description available.",
           website_url:
@@ -29297,7 +29297,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's OKR Methodology",
+          title: "Busines -> OKR Methodology",
           href: "docs/bucketlist/okr-methodology",
           description: "Goal Setting & Communication Best Practices.",
           website_url:
@@ -29306,7 +29306,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Leading and Managing",
+          title: "Busines -> Leading and Managing",
           href: "docs/bucketlist/leading-and-managing",
           description:
             "Leading People And Being A Manager In A Technology Company/Environment.",
@@ -29317,7 +29317,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Indie",
+          title: "Busines -> Indie",
           href: "docs/bucketlist/indie",
           description: "Independent Developer Businesses.",
           website_url:
@@ -29326,7 +29326,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Tools of the Trade",
+          title: "Busines -> Tools of the Trade",
           href: "docs/bucketlist/tools-of-the-trade",
           description: "Tools Used By Companies On Hacker News.",
           website_url:
@@ -29335,7 +29335,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Clean Tech",
+          title: "Busines -> Clean Tech",
           href: "docs/bucketlist/clean-tech",
           description: "Fighting Climate Change With Technology.",
           website_url:
@@ -29344,7 +29344,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Wardley Maps",
+          title: "Busines -> Wardley Maps",
           href: "docs/bucketlist/wardley-maps",
           description:
             "Provides High Situational Awareness To Help Improve Strategic Planning And Decision Making.",
@@ -29355,7 +29355,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Social Enterprise",
+          title: "Busines -> Social Enterprise",
           href: "docs/bucketlist/social-enterprise",
           description:
             "Building An Organization Primarily Focused On Social Impact That Is At Least Partially Self-Funded.",
@@ -29365,7 +29365,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Busines's Engineering Team Management",
+          title: "Busines -> Engineering Team Management",
           href: "docs/bucketlist/engineering-team-management",
           description:
             "How To Transition From Software Development To Engineering Management.",
@@ -29376,7 +29376,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Slack",
+          title: "Work -> Slack",
           href: "docs/bucketlist/slack",
           description: "Team Collaboration.",
           website_url:
@@ -29385,7 +29385,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Communities",
+          title: "Work -> Communities",
           href: "docs/bucketlist/communities",
           description: "No description available.",
           website_url:
@@ -29394,7 +29394,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Remote Jobs",
+          title: "Work -> Remote Jobs",
           href: "docs/bucketlist/remote-jobs",
           description: "No description available.",
           website_url:
@@ -29403,7 +29403,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Productivity",
+          title: "Work -> Productivity",
           href: "docs/bucketlist/productivity",
           description: "No description available.",
           website_url:
@@ -29412,7 +29412,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Niche Job Boards",
+          title: "Work -> Niche Job Boards",
           href: "docs/bucketlist/niche-job-boards",
           description: "No description available.",
           website_url:
@@ -29421,7 +29421,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Programming Interviews",
+          title: "Work -> Programming Interviews",
           href: "docs/bucketlist/programming-interviews",
           description: "No description available.",
           website_url:
@@ -29431,7 +29431,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Code Review",
+          title: "Work -> Code Review",
           href: "docs/bucketlist/code-review",
           description: "Reviewing Code.",
           website_url:
@@ -29440,7 +29440,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Work's Creative Technology",
+          title: "Work -> Creative Technology",
           href: "docs/bucketlist/creative-technology",
           description:
             "Businesses & Groups That Specialize In Combining Computing, Design, Art, And User Experience.",
@@ -29451,7 +29451,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Networking's Software-Defined Networking",
+          title: "Networking -> Software-Defined Networking",
           href: "docs/bucketlist/software-defined-networking",
           description: "No description available.",
           website_url:
@@ -29460,7 +29460,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Networking's Network Analysis",
+          title: "Networking -> Network Analysis",
           href: "docs/bucketlist/network-analysis",
           description: "No description available.",
           website_url:
@@ -29469,7 +29469,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Networking's PCAPTools",
+          title: "Networking -> PCAPTools",
           href: "docs/bucketlist/pcaptools",
           description: "No description available.",
           website_url:
@@ -29478,7 +29478,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Networking's Real-Time Communications",
+          title: "Networking -> Real-Time Communications",
           href: "docs/bucketlist/real-time-communications",
           description:
             "Network Protocols For Near Simultaneous Exchange Of Media And Data.",
@@ -29488,7 +29488,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Bitcoin",
+          title: "Decentralized System -> Bitcoin",
           href: "docs/bucketlist/bitcoin",
           description: "Bitcoin Services And Tools For Software Developers.",
           website_url:
@@ -29497,7 +29497,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Ripple",
+          title: "Decentralized System -> Ripple",
           href: "docs/bucketlist/ripple",
           description: "Open Source Distributed Settlement Network.",
           website_url:
@@ -29506,7 +29506,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Non-Financial Blockchain",
+          title: "Decentralized System -> Non-Financial Blockchain",
           href: "docs/bucketlist/non-financial-blockchain",
           description: "Non-Financial Blockchain Applications.",
           website_url:
@@ -29516,7 +29516,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Mastodon",
+          title: "Decentralized System -> Mastodon",
           href: "docs/bucketlist/mastodon",
           description: "Open Source Decentralized Microblogging Network.",
           website_url:
@@ -29525,7 +29525,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Ethereum",
+          title: "Decentralized System -> Ethereum",
           href: "docs/bucketlist/ethereum",
           description:
             "Distributed Computing Platform For Smart Contract Development.",
@@ -29535,7 +29535,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Blockchain AI",
+          title: "Decentralized System -> Blockchain AI",
           href: "docs/bucketlist/blockchain-ai",
           description:
             "Blockchain Projects For Artificial Intelligence And Machine Learning.",
@@ -29545,7 +29545,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's EOSIO",
+          title: "Decentralized System -> EOSIO",
           href: "docs/bucketlist/eosio",
           description:
             "A Decentralized Operating System Supporting Industrial-Scale Apps.",
@@ -29555,7 +29555,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Corda",
+          title: "Decentralized System -> Corda",
           href: "docs/bucketlist/corda",
           description: "Open Source Blockchain Platform Designed For Business.",
           website_url:
@@ -29564,7 +29564,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Waves",
+          title: "Decentralized System -> Waves",
           href: "docs/bucketlist/waves",
           description:
             "Open Source Blockchain Platform And Development Toolset For Web 3.0 Apps And Decentralized Solutions.",
@@ -29574,7 +29574,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Decentralized System's Substrate",
+          title: "Decentralized System -> Substrate",
           href: "docs/bucketlist/substrate",
           description:
             "Framework For Writing Scalable, Upgradeable Blockchains In Rust.",
@@ -29585,7 +29585,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Higher Education's Computational Neuroscience",
+          title: "Higher Education -> Computational Neuroscience",
           href: "docs/bucketlist/computational-neuroscience",
           description:
             "A Multidisciplinary Science Which Uses Computational Approaches To Study The Nervous System.",
@@ -29596,7 +29596,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Higher Education's Digital History",
+          title: "Higher Education -> Digital History",
           href: "docs/bucketlist/digital-history",
           description: "Computer-Aided Scientific Investigation Of History.",
           website_url:
@@ -29605,7 +29605,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Higher Education's Scientific Writing",
+          title: "Higher Education -> Scientific Writing",
           href: "docs/bucketlist/scientific-writing",
           description:
             "Distraction-Free Scientific Writing With Markdown, Restructuredtext And Jupyter Notebooks.",
@@ -29616,7 +29616,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Higher Education's Sustainable Technology",
+          title: "Higher Education -> Sustainable Technology",
           href: "docs/bucketlist/sustainable-technology",
           description:
             "Open Technology Sustaining Stable Climate, Energy Supply, And Vital Natural Resources.",
@@ -29627,7 +29627,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Event's Creative Tech Events",
+          title: "Event -> Creative Tech Events",
           href: "docs/bucketlist/creative-tech-events",
           description:
             "Events Around The Globe For Creative Coding, Tech, Design, Music, Arts And Cool Stuff.",
@@ -29638,7 +29638,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Event's Events in Italy",
+          title: "Event -> Events in Italy",
           href: "docs/bucketlist/events-in-italy",
           description: "Tech-Related Events In Italy.",
           website_url:
@@ -29647,7 +29647,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Event's Events in the Netherlands",
+          title: "Event -> Events in the Netherlands",
           href: "docs/bucketlist/events-in-the-netherlands",
           description: "Tech-Related Events In The Netherlands.",
           website_url:
@@ -29656,7 +29656,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's Testing",
+          title: "Testing -> Testing",
           href: "docs/bucketlist/testing",
           description: "Software Testing.",
           website_url:
@@ -29665,7 +29665,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's Visual Regression Testing",
+          title: "Testing -> Visual Regression Testing",
           href: "docs/bucketlist/visual-regression-testing",
           description:
             "Ensures Changes Did Not Break The Functionality Or Style.",
@@ -29675,7 +29675,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's Selenium",
+          title: "Testing -> Selenium",
           href: "docs/bucketlist/selenium",
           description:
             "Open-Source Browser Automation Framework And Ecosystem.",
@@ -29685,7 +29685,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's Appium",
+          title: "Testing -> Appium",
           href: "docs/bucketlist/appium",
           description: "Test Automation Tool For Apps.",
           website_url:
@@ -29694,7 +29694,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's TAP",
+          title: "Testing -> TAP",
           href: "docs/bucketlist/tap",
           description: "Test Anything Protocol.",
           website_url:
@@ -29703,7 +29703,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's JMeter",
+          title: "Testing -> JMeter",
           href: "docs/bucketlist/jmeter",
           description: "Load Testing And Performance Measurement Tool.",
           website_url:
@@ -29712,7 +29712,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's k6",
+          title: "Testing -> k6",
           href: "docs/bucketlist/k6",
           description:
             "Open-Source, Developer-Centric Performance Monitoring And Load Testing Solution.",
@@ -29722,7 +29722,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Testing's Playwright",
+          title: "Testing -> Playwright",
           href: "docs/bucketlist/playwright",
           description:
             "Node.Js Library To Automate Chromium, Firefox And Webkit With A Single Api.",
@@ -29732,7 +29732,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's JSON",
+          title: "Miscellaneou -> JSON",
           href: "docs/bucketlist/json",
           description: "Text Based Data Interchange Format.",
           website_url:
@@ -29741,7 +29741,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's GeoJSON",
+          title: "Miscellaneou -> GeoJSON",
           href: "docs/bucketlist/geojson",
           description: "No description available.",
           website_url:
@@ -29750,7 +29750,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Datasets",
+          title: "Miscellaneou -> Datasets",
           href: "docs/bucketlist/datasets",
           description: "No description available.",
           website_url:
@@ -29759,7 +29759,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's CSV",
+          title: "Miscellaneou -> CSV",
           href: "docs/bucketlist/csv",
           description:
             "A Text File Format That Stores Tabular Data And Uses A Comma To Separate Values.",
@@ -29769,7 +29769,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Discounts for Student Developers",
+          title: "Miscellaneou -> Discounts for Student Developers",
           href: "docs/bucketlist/discounts-for-student-developers",
           description: "No description available.",
           website_url:
@@ -29778,7 +29778,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Radio",
+          title: "Miscellaneou -> Radio",
           href: "docs/bucketlist/radio",
           description: "No description available.",
           website_url:
@@ -29787,7 +29787,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Awesome",
+          title: "Miscellaneou -> Awesome",
           href: "docs/bucketlist/awesome",
           description: "Recursion Illustrated.",
           website_url:
@@ -29796,7 +29796,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Analytics",
+          title: "Miscellaneou -> Analytics",
           href: "docs/bucketlist/analytics",
           description: "No description available.",
           website_url:
@@ -29805,7 +29805,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's REST",
+          title: "Miscellaneou -> REST",
           href: "docs/bucketlist/rest",
           description: "No description available.",
           website_url:
@@ -29815,7 +29815,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title:
-            "Miscellaneou's Continuous Integration and Continuous Delivery",
+            "Miscellaneou -> Continuous Integration and Continuous Delivery",
           href: "docs/bucketlist/continuous-integration-and-continuous-delivery",
           description: "No description available.",
           website_url:
@@ -29824,7 +29824,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Services Engineering",
+          title: "Miscellaneou -> Services Engineering",
           href: "docs/bucketlist/services-engineering",
           description: "No description available.",
           website_url:
@@ -29833,7 +29833,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Free for Developers",
+          title: "Miscellaneou -> Free for Developers",
           href: "docs/bucketlist/free-for-developers",
           description: "No description available.",
           website_url:
@@ -29842,7 +29842,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Answers",
+          title: "Miscellaneou -> Answers",
           href: "docs/bucketlist/answers",
           description: "Stack Overflow, Quora, Etc.",
           website_url:
@@ -29851,7 +29851,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Sketch",
+          title: "Miscellaneou -> Sketch",
           href: "docs/bucketlist/sketch",
           description: "Design App For Macos.",
           website_url:
@@ -29860,7 +29860,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Boilerplate Projects",
+          title: "Miscellaneou -> Boilerplate Projects",
           href: "docs/bucketlist/boilerplate-projects",
           description: "No description available.",
           website_url:
@@ -29870,7 +29870,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Readme",
+          title: "Miscellaneou -> Readme",
           href: "docs/bucketlist/readme",
           description: "No description available.",
           website_url:
@@ -29879,7 +29879,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Design and Development Guides",
+          title: "Miscellaneou -> Design and Development Guides",
           href: "docs/bucketlist/design-and-development-guides",
           description: "No description available.",
           website_url:
@@ -29888,7 +29888,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Software Engineering Blogs",
+          title: "Miscellaneou -> Software Engineering Blogs",
           href: "docs/bucketlist/software-engineering-blogs",
           description: "No description available.",
           website_url:
@@ -29897,7 +29897,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Self Hosted",
+          title: "Miscellaneou -> Self Hosted",
           href: "docs/bucketlist/self-hosted",
           description: "No description available.",
           website_url:
@@ -29907,7 +29907,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's FOSS Production Apps",
+          title: "Miscellaneou -> FOSS Production Apps",
           href: "docs/bucketlist/foss-production-apps",
           description: "No description available.",
           website_url:
@@ -29916,7 +29916,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Gulp",
+          title: "Miscellaneou -> Gulp",
           href: "docs/bucketlist/gulp",
           description: "Task Runner.",
           website_url:
@@ -29925,7 +29925,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's AMA",
+          title: "Miscellaneou -> AMA",
           href: "docs/bucketlist/ama",
           description: "Ask Me Anything.",
           website_url:
@@ -29934,7 +29934,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Answers",
+          title: "Miscellaneou -> Answers",
           href: "docs/bucketlist/answers",
           description: "No description available.",
           website_url:
@@ -29943,7 +29943,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Open Source Photography",
+          title: "Miscellaneou -> Open Source Photography",
           href: "docs/bucketlist/open-source-photography",
           description: "No description available.",
           website_url:
@@ -29952,7 +29952,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's OpenGL",
+          title: "Miscellaneou -> OpenGL",
           href: "docs/bucketlist/opengl",
           description: "Cross-Platform Api For Rendering 2D And 3D Graphics.",
           website_url:
@@ -29961,7 +29961,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's GraphQL",
+          title: "Miscellaneou -> GraphQL",
           href: "docs/bucketlist/graphql",
           description: "No description available.",
           website_url:
@@ -29970,7 +29970,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Transit",
+          title: "Miscellaneou -> Transit",
           href: "docs/bucketlist/transit",
           description: "No description available.",
           website_url:
@@ -29979,7 +29979,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Research Tools",
+          title: "Miscellaneou -> Research Tools",
           href: "docs/bucketlist/research-tools",
           description: "No description available.",
           website_url:
@@ -29988,7 +29988,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Data Visualization",
+          title: "Miscellaneou -> Data Visualization",
           href: "docs/bucketlist/data-visualization",
           description: "No description available.",
           website_url:
@@ -29997,7 +29997,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Microservices",
+          title: "Miscellaneou -> Microservices",
           href: "docs/bucketlist/microservices",
           description: "No description available.",
           website_url:
@@ -30006,7 +30006,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Unicode",
+          title: "Miscellaneou -> Unicode",
           href: "docs/bucketlist/unicode",
           description: "Unicode Standards, Quirks, Packages And Resources.",
           website_url:
@@ -30015,7 +30015,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Code Points",
+          title: "Miscellaneou -> Code Points",
           href: "docs/bucketlist/code-points",
           description: "No description available.",
           website_url:
@@ -30024,7 +30024,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Beginner-Friendly Projects",
+          title: "Miscellaneou -> Beginner-Friendly Projects",
           href: "docs/bucketlist/beginner-friendly-projects",
           description: "No description available.",
           website_url:
@@ -30033,7 +30033,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Katas",
+          title: "Miscellaneou -> Katas",
           href: "docs/bucketlist/katas",
           description: "No description available.",
           website_url:
@@ -30042,7 +30042,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Tools for Activism",
+          title: "Miscellaneou -> Tools for Activism",
           href: "docs/bucketlist/tools-for-activism",
           description: "No description available.",
           website_url:
@@ -30051,7 +30051,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Citizen Science",
+          title: "Miscellaneou -> Citizen Science",
           href: "docs/bucketlist/citizen-science",
           description: "For Community-Based And Non-Institutional Scientists.",
           website_url:
@@ -30060,7 +30060,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's MQTT",
+          title: "Miscellaneou -> MQTT",
           href: "docs/bucketlist/mqtt",
           description: "Internet Of Things Connectivity Protocol.",
           website_url:
@@ -30069,7 +30069,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Hacking Spots",
+          title: "Miscellaneou -> Hacking Spots",
           href: "docs/bucketlist/hacking-spots",
           description: "No description available.",
           website_url:
@@ -30078,7 +30078,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's For Girls",
+          title: "Miscellaneou -> For Girls",
           href: "docs/bucketlist/for-girls",
           description: "No description available.",
           website_url:
@@ -30087,7 +30087,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Vorpal",
+          title: "Miscellaneou -> Vorpal",
           href: "docs/bucketlist/vorpal",
           description: "Node.Js Cli Framework.",
           website_url:
@@ -30096,7 +30096,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Vulkan",
+          title: "Miscellaneou -> Vulkan",
           href: "docs/bucketlist/vulkan",
           description:
             "Low-Overhead, Cross-Platform 3D Graphics And Compute Api.",
@@ -30106,7 +30106,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's LaTeX",
+          title: "Miscellaneou -> LaTeX",
           href: "docs/bucketlist/latex",
           description: "Typesetting Language.",
           website_url:
@@ -30115,16 +30115,16 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Economics",
+          title: "Miscellaneou -> Economics",
           href: "docs/bucketlist/economics",
-          description: "An Economist'S Starter Kit.",
+          description: "An Economist -> Starter Kit.",
           website_url:
             "https://awesome.digitalbunker.dev/awesome/antontarasenko/awesome-economics",
           github_repo: "https://github.com/antontarasenko/awesome-economics",
           items: [],
         },
         {
-          title: "Miscellaneou's Funny Markov Chains",
+          title: "Miscellaneou -> Funny Markov Chains",
           href: "docs/bucketlist/funny-markov-chains",
           description: "No description available.",
           website_url:
@@ -30133,7 +30133,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Bioinformatics",
+          title: "Miscellaneou -> Bioinformatics",
           href: "docs/bucketlist/bioinformatics",
           description: "No description available.",
           website_url:
@@ -30142,7 +30142,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Cheminformatics",
+          title: "Miscellaneou -> Cheminformatics",
           href: "docs/bucketlist/cheminformatics",
           description:
             "Informatics Techniques Applied To Problems In Chemistry.",
@@ -30152,7 +30152,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Colorful",
+          title: "Miscellaneou -> Colorful",
           href: "docs/bucketlist/colorful",
           description: "Choose Your Next Color Scheme.",
           website_url:
@@ -30161,7 +30161,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Steam",
+          title: "Miscellaneou -> Steam",
           href: "docs/bucketlist/steam",
           description: "Digital Distribution Platform.",
           website_url:
@@ -30170,7 +30170,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Bots",
+          title: "Miscellaneou -> Bots",
           href: "docs/bucketlist/bots",
           description: "Building Bots.",
           website_url:
@@ -30179,7 +30179,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Site Reliability Engineering",
+          title: "Miscellaneou -> Site Reliability Engineering",
           href: "docs/bucketlist/site-reliability-engineering",
           description: "No description available.",
           website_url:
@@ -30188,7 +30188,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Empathy in Engineering",
+          title: "Miscellaneou -> Empathy in Engineering",
           href: "docs/bucketlist/empathy-in-engineering",
           description:
             "Building And Promoting More Compassionate Engineering Cultures.",
@@ -30199,7 +30199,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's DTrace",
+          title: "Miscellaneou -> DTrace",
           href: "docs/bucketlist/dtrace",
           description: "Dynamic Tracing Framework.",
           website_url:
@@ -30208,7 +30208,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Userscripts",
+          title: "Miscellaneou -> Userscripts",
           href: "docs/bucketlist/userscripts",
           description: "Enhance Your Browsing Experience.",
           website_url:
@@ -30217,7 +30217,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Pokémon",
+          title: "Miscellaneou -> Pokémon",
           href: "docs/bucketlist/pokémon",
           description: "Pokémon And Pokémon Go.",
           website_url:
@@ -30226,7 +30226,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's ChatOps",
+          title: "Miscellaneou -> ChatOps",
           href: "docs/bucketlist/chatops",
           description:
             "Managing Technical And Business Operations Through A Chat.",
@@ -30236,7 +30236,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Falsehood",
+          title: "Miscellaneou -> Falsehood",
           href: "docs/bucketlist/falsehood",
           description: "Falsehoods Programmers Believe In.",
           website_url:
@@ -30245,7 +30245,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Domain-Driven Design",
+          title: "Miscellaneou -> Domain-Driven Design",
           href: "docs/bucketlist/domain-driven-design",
           description:
             "Software Development Approach For Complex Needs By Connecting The Implementation To An Evolving Model.",
@@ -30255,7 +30255,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Quantified Self",
+          title: "Miscellaneou -> Quantified Self",
           href: "docs/bucketlist/quantified-self",
           description: "Self-Tracking Through Technology.",
           website_url:
@@ -30264,7 +30264,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's SaltStack",
+          title: "Miscellaneou -> SaltStack",
           href: "docs/bucketlist/saltstack",
           description: "Python-Based Config Management System.",
           website_url:
@@ -30273,7 +30273,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Web Design",
+          title: "Miscellaneou -> Web Design",
           href: "docs/bucketlist/web-design",
           description: "For Digital Designers.",
           website_url:
@@ -30282,7 +30282,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Creative Coding",
+          title: "Miscellaneou -> Creative Coding",
           href: "docs/bucketlist/creative-coding",
           description:
             "Programming Something Expressive Instead Of Something Functional.",
@@ -30292,7 +30292,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's No-Login Web Apps",
+          title: "Miscellaneou -> No-Login Web Apps",
           href: "docs/bucketlist/no-login-web-apps",
           description: "Web Apps That Work Without Login.",
           website_url:
@@ -30301,7 +30301,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Free Software",
+          title: "Miscellaneou -> Free Software",
           href: "docs/bucketlist/free-software",
           description: "Free As In Freedom.",
           website_url:
@@ -30310,7 +30310,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Framer",
+          title: "Miscellaneou -> Framer",
           href: "docs/bucketlist/framer",
           description: "Prototyping Interactive Ui Designs.",
           website_url:
@@ -30319,7 +30319,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Markdown",
+          title: "Miscellaneou -> Markdown",
           href: "docs/bucketlist/markdown",
           description: "Markup Language.",
           website_url:
@@ -30328,7 +30328,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Dev Fun",
+          title: "Miscellaneou -> Dev Fun",
           href: "docs/bucketlist/dev-fun",
           description: "Funny Developer Projects.",
           website_url:
@@ -30337,7 +30337,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Healthcare",
+          title: "Miscellaneou -> Healthcare",
           href: "docs/bucketlist/healthcare",
           description:
             "Open Source Healthcare Software For Facilities, Providers, Developers, Policy Experts, And Researchers.",
@@ -30347,7 +30347,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Magento 2",
+          title: "Miscellaneou -> Magento 2",
           href: "docs/bucketlist/magento-2",
           description: "Open Source Ecommerce Built With Php.",
           website_url:
@@ -30356,7 +30356,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's TikZ",
+          title: "Miscellaneou -> TikZ",
           href: "docs/bucketlist/tikz",
           description: "Graph Drawing Packages For Tex/Latex/Context.",
           website_url:
@@ -30365,7 +30365,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Neuroscience",
+          title: "Miscellaneou -> Neuroscience",
           href: "docs/bucketlist/neuroscience",
           description: "Study Of The Nervous System And Brain.",
           website_url:
@@ -30374,7 +30374,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Ad-Free",
+          title: "Miscellaneou -> Ad-Free",
           href: "docs/bucketlist/ad-free",
           description: "Ad-Free Alternatives.",
           website_url:
@@ -30383,7 +30383,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Esolangs",
+          title: "Miscellaneou -> Esolangs",
           href: "docs/bucketlist/esolangs",
           description:
             "Programming Languages Designed For Experimentation Or As Jokes Rather Than Actual Use.",
@@ -30393,7 +30393,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Prometheus",
+          title: "Miscellaneou -> Prometheus",
           href: "docs/bucketlist/prometheus",
           description: "Open-Source Monitoring System.",
           website_url:
@@ -30402,7 +30402,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Homematic",
+          title: "Miscellaneou -> Homematic",
           href: "docs/bucketlist/homematic",
           description: "Smart Home Devices.",
           website_url:
@@ -30412,7 +30412,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Ledger",
+          title: "Miscellaneou -> Ledger",
           href: "docs/bucketlist/ledger",
           description: "Double-Entry Accounting On The Command-Line.",
           website_url:
@@ -30421,7 +30421,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Web Monetization",
+          title: "Miscellaneou -> Web Monetization",
           href: "docs/bucketlist/web-monetization",
           description:
             "A Free Open Web Standard Service That Allows You To Send Money Directly In Your Browser.",
@@ -30431,7 +30431,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Uncopyright",
+          title: "Miscellaneou -> Uncopyright",
           href: "docs/bucketlist/uncopyright",
           description: "Public Domain Works.",
           website_url:
@@ -30440,7 +30440,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Crypto Currency Tools & Algorithms",
+          title: "Miscellaneou -> Crypto Currency Tools & Algorithms",
           href: "docs/bucketlist/crypto-currency-tools-&-algorithms",
           description:
             "Digital Currency Where Encryption Is Used To Regulate The Generation Of Units And Verify Transfers.",
@@ -30450,7 +30450,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Diversity",
+          title: "Miscellaneou -> Diversity",
           href: "docs/bucketlist/diversity",
           description: "Creating A More Inclusive And Diverse Tech Community.",
           website_url:
@@ -30459,7 +30459,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Open Source Supporters",
+          title: "Miscellaneou -> Open Source Supporters",
           href: "docs/bucketlist/open-source-supporters",
           description:
             "Companies That Offer Their Tools And Services For Free To Open Source Projects.",
@@ -30470,7 +30470,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Design Principles",
+          title: "Miscellaneou -> Design Principles",
           href: "docs/bucketlist/design-principles",
           description:
             "Create Better And More Consistent Designs And Experiences.",
@@ -30481,7 +30481,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Theravada",
+          title: "Miscellaneou -> Theravada",
           href: "docs/bucketlist/theravada",
           description: "Teachings From The Theravada Buddhist Tradition.",
           website_url:
@@ -30490,7 +30490,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's inspectIT",
+          title: "Miscellaneou -> inspectIT",
           href: "docs/bucketlist/inspectit",
           description: "Open Source Java App Performance Management Tool.",
           website_url:
@@ -30499,7 +30499,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Open Source Maintainers",
+          title: "Miscellaneou -> Open Source Maintainers",
           href: "docs/bucketlist/open-source-maintainers",
           description: "The Experience Of Being An Open Source Maintainer.",
           website_url:
@@ -30508,7 +30508,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Calculators",
+          title: "Miscellaneou -> Calculators",
           href: "docs/bucketlist/calculators",
           description: "Calculators For Every Platform.",
           website_url:
@@ -30517,7 +30517,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Captcha",
+          title: "Miscellaneou -> Captcha",
           href: "docs/bucketlist/captcha",
           description:
             "A Type Of Challenge–Response Test Used In Computing To Determine Whether Or Not The User Is Human.",
@@ -30527,7 +30527,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Jupyter",
+          title: "Miscellaneou -> Jupyter",
           href: "docs/bucketlist/jupyter",
           description:
             "Create And Share Documents That Contain Code, Equations, Visualizations And Narrative Text.",
@@ -30537,7 +30537,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's FIRST Robotics Competition",
+          title: "Miscellaneou -> FIRST Robotics Competition",
           href: "docs/bucketlist/first-robotics-competition",
           description: "International High School Robotics Championship.",
           website_url:
@@ -30546,7 +30546,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Humane Technology",
+          title: "Miscellaneou -> Humane Technology",
           href: "docs/bucketlist/humane-technology",
           description: "Open Source Projects That Help Improve Society.",
           website_url:
@@ -30556,7 +30556,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Speakers",
+          title: "Miscellaneou -> Speakers",
           href: "docs/bucketlist/speakers",
           description:
             "Conference And Meetup Speakers In The Programming And Design Community.",
@@ -30566,7 +30566,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Board Games",
+          title: "Miscellaneou -> Board Games",
           href: "docs/bucketlist/board-games",
           description: "Table-Top Gaming Fun For All.",
           website_url:
@@ -30575,7 +30575,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Software Patreons",
+          title: "Miscellaneou -> Software Patreons",
           href: "docs/bucketlist/software-patreons",
           description:
             "Fund Individual Programmers Or The Development Of Open Source Projects.",
@@ -30585,7 +30585,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Parasite",
+          title: "Miscellaneou -> Parasite",
           href: "docs/bucketlist/parasite",
           description: "Parasites And Host-Pathogen Interactions.",
           website_url:
@@ -30594,7 +30594,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Food",
+          title: "Miscellaneou -> Food",
           href: "docs/bucketlist/food",
           description: "Food-Related Projects On Github.",
           website_url:
@@ -30603,7 +30603,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Mental Health",
+          title: "Miscellaneou -> Mental Health",
           href: "docs/bucketlist/mental-health",
           description:
             "Mental Health Awareness And Self-Care In The Software Industry.",
@@ -30614,7 +30614,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Bitcoin Payment Processors",
+          title: "Miscellaneou -> Bitcoin Payment Processors",
           href: "docs/bucketlist/bitcoin-payment-processors",
           description: "Start Accepting Bitcoin.",
           website_url:
@@ -30624,7 +30624,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Scientific Computing",
+          title: "Miscellaneou -> Scientific Computing",
           href: "docs/bucketlist/scientific-computing",
           description: "Solving Complex Scientific Problems Using Computers.",
           website_url:
@@ -30634,7 +30634,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Amazon Sellers",
+          title: "Miscellaneou -> Amazon Sellers",
           href: "docs/bucketlist/amazon-sellers",
           description: "No description available.",
           website_url:
@@ -30643,7 +30643,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Agriculture",
+          title: "Miscellaneou -> Agriculture",
           href: "docs/bucketlist/agriculture",
           description: "Open Source Technology For Farming And Gardening.",
           website_url:
@@ -30652,7 +30652,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Product Design",
+          title: "Miscellaneou -> Product Design",
           href: "docs/bucketlist/product-design",
           description:
             "Design A Product From The Initial Concept To Production.",
@@ -30662,7 +30662,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Prisma",
+          title: "Miscellaneou -> Prisma",
           href: "docs/bucketlist/prisma",
           description: "Turn Your Database Into A Graphql Api.",
           website_url:
@@ -30671,7 +30671,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Software Architecture",
+          title: "Miscellaneou -> Software Architecture",
           href: "docs/bucketlist/software-architecture",
           description: "The Discipline Of Designing And Building Software.",
           website_url:
@@ -30681,7 +30681,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Connectivity Data and Reports",
+          title: "Miscellaneou -> Connectivity Data and Reports",
           href: "docs/bucketlist/connectivity-data-and-reports",
           description:
             "Better Understand Who Has Access To Telecommunication And Internet Infrastructure And On What Terms.",
@@ -30691,7 +30691,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Stacks",
+          title: "Miscellaneou -> Stacks",
           href: "docs/bucketlist/stacks",
           description: "Tech Stacks For Building Different Apps And Features.",
           website_url:
@@ -30700,7 +30700,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Cytodata",
+          title: "Miscellaneou -> Cytodata",
           href: "docs/bucketlist/cytodata",
           description:
             "Image-Based Profiling Of Biological Phenotypes For Computational Biologists.",
@@ -30710,7 +30710,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's IRC",
+          title: "Miscellaneou -> IRC",
           href: "docs/bucketlist/irc",
           description: "Open Source Messaging Protocol.",
           website_url:
@@ -30719,7 +30719,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Advertising",
+          title: "Miscellaneou -> Advertising",
           href: "docs/bucketlist/advertising",
           description: "Advertising And Programmatic Media For Websites.",
           website_url:
@@ -30728,7 +30728,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Earth",
+          title: "Miscellaneou -> Earth",
           href: "docs/bucketlist/earth",
           description: "Find Ways To Resolve The Climate Crisis.",
           website_url:
@@ -30737,7 +30737,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Naming",
+          title: "Miscellaneou -> Naming",
           href: "docs/bucketlist/naming",
           description: "Naming Things In Computer Science Done Right.",
           website_url:
@@ -30746,7 +30746,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Biomedical Information Extraction",
+          title: "Miscellaneou -> Biomedical Information Extraction",
           href: "docs/bucketlist/biomedical-information-extraction",
           description:
             "How To Extract Information From Unstructured Biomedical Data And Text.",
@@ -30756,7 +30756,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Web Archiving",
+          title: "Miscellaneou -> Web Archiving",
           href: "docs/bucketlist/web-archiving",
           description: "An Effort To Preserve The Web For Future Generations.",
           website_url:
@@ -30765,7 +30765,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's WP-CLI",
+          title: "Miscellaneou -> WP-CLI",
           href: "docs/bucketlist/wp-cli",
           description: "Command-Line Interface For Wordpress.",
           website_url:
@@ -30774,7 +30774,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Credit Modeling",
+          title: "Miscellaneou -> Credit Modeling",
           href: "docs/bucketlist/credit-modeling",
           description:
             "Methods For Classifying Credit Applicants Into Risk Classes.",
@@ -30784,7 +30784,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Ansible",
+          title: "Miscellaneou -> Ansible",
           href: "docs/bucketlist/ansible",
           description:
             "A Python-Based, Open Source It Configuration Management And Automation Platform.",
@@ -30794,7 +30794,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Biological Visualizations",
+          title: "Miscellaneou -> Biological Visualizations",
           href: "docs/bucketlist/biological-visualizations",
           description:
             "Interactive Visualization Of Biological Data On The Web.",
@@ -30805,7 +30805,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Miscellaneou's Veganism",
+          title: "Miscellaneou -> Veganism",
           href: "docs/bucketlist/veganism",
           description: "Making The Plant-Based Lifestyle Easy And Accessible.",
           website_url:
@@ -31119,10 +31119,10 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "App Inventor for Android's visual block language",
+          title: "App Inventor for Android -> visual block language",
           href: "https://en.wikipedia.org/wiki/App_Inventor_for_Android_(programming_language)",
           description:
-            "App Inventor for Android's visual block language is one of the most popular in the world",
+            "App Inventor for Android -> visual block language is one of the most popular in the world",
           website_url: "https://undefined.com",
           github_repo:
             "https://github.com/app-inventor-for-android's-visual-block-language",
@@ -32015,10 +32015,10 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "DASL (Datapoint's Advanced Systems Language)",
+          title: "DASL (Datapoint -> Advanced Systems Language)",
           href: "https://en.wikipedia.org/wiki/Datapoint%27s_Advanced_Systems_Language",
           description:
-            "DASL (Datapoint's Advanced Systems Language) is one of the most popular in the world",
+            "DASL (Datapoint -> Advanced Systems Language) is one of the most popular in the world",
           website_url: "https://undefined.com",
           github_repo:
             "https://github.com/dasl-(datapoint's-advanced-systems-language)",

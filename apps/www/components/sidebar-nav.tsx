@@ -165,7 +165,8 @@ export function DocsSidebarNavItems({
   }
   function transformString(str: string): string {
     return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
-      return firstLetter.toUpperCase() + restOfWord.toLowerCase()
+      let titleName = firstLetter.toUpperCase() + restOfWord.toLowerCase()
+      return titleName.replace(/[\w-]+'S/g, "")
     })
   }
   return items?.length ? (

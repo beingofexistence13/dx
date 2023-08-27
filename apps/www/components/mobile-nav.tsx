@@ -44,7 +44,8 @@ export function MobileNav() {
 
   function transformString(str: string): string {
     return str.replace(/\b(\w)(\w*)\b/g, (match, firstLetter, restOfWord) => {
-      return firstLetter.toUpperCase() + restOfWord.toLowerCase()
+      let titleName = firstLetter.toUpperCase() + restOfWord.toLowerCase()
+      return titleName
     })
   }
 
@@ -76,7 +77,7 @@ export function MobileNav() {
       <SheetContent side="left" className="sheetLeft p-0 m-0">
         <MobileLink
           href="/"
-          className="flex items-center justify-center p-10 mx-10 mt-5 py-1 border rounded-md hover:bg-[--code-foreground]"
+          className="flex items-center justify-center p-10 mx-8 mt-5 py-1 border rounded-md hover:bg-[--code-foreground]"
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
@@ -86,7 +87,7 @@ export function MobileNav() {
           <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
 
-        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-0 px-10 ">
+        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-0 px-8 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
             <div className="flex flex-col space-y-3">
@@ -238,7 +239,7 @@ export function MobileNav() {
                                       className="w-full flex flex-row items-center justify-center"
                                     >
                                       {transformString(
-                                        item.title.replace(/-/g, " ")
+                                        item.title.replace(/'S/g, "")
                                       )}
                                     </MobileLink>
                                   </div>
