@@ -1,11 +1,6 @@
-/* eslint-disable import/no-import-module-exports */
 import express from 'express';
-// const serverless = require("serverless-http");
-// eslint-disable-next-line import/no-extraneous-dependencies
-import serverless from 'serverless-http';
 import cors from 'cors';
 
-// eslint-disable-next-line import/no-import-module-exports
 import connectDB from './mongodb/connect.js';
 import postRoutes from './routes/postRoutes.js';
 import dalleRoutes from './routes/dalleRoutes.js';
@@ -40,17 +35,3 @@ const startServer = async () => {
 };
 
 startServer();
-
-// const app = express();
-const router = express.Router();
-
-router.get('/', (req, res) => {
-  res.json({
-    hello: 'hi!',
-  });
-});
-
-app.use('/.netlify/functions/api', router);
-
-// module.exports = app;
-// module.exports.handler = serverless(app);
