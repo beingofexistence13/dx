@@ -86,7 +86,7 @@ export function MobileNav() {
           <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
 
-        <ScrollArea className="mt-2 h-[100vh] pb-32 px-10 ">
+        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-32 px-7 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
             <div className="flex flex-col space-y-3">
