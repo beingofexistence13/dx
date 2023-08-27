@@ -13,7 +13,6 @@ export default function NotFound() {
     if (typeof window !== "undefined") {
       const origin =
         typeof window !== "undefined" ? window.location.href : "gfdg"
-      // const inputString = "https://3000-beingofexistence-dx-efyw4mjsj19.ws-us104.gitpod.io/dgdfsgfdsc";
       const regex = /\/([^/]+)$;/ // Matches the last word after the last '/' character
       const regex2 = /.[\w-]+,/g // Matches the last word after the last '/' character
       const regex3 = /[\w-]+/g // Matches the last word after the last '/' character
@@ -37,7 +36,7 @@ export default function NotFound() {
         }
 
         const targetPage = parts.pop() // Get the last part as the target page
-        const parameters = parts.join("->") // Join the remaining parts with "~" as parameters
+        const parameters = parts.join(" -> ") // Join the remaining parts with "~" as parameters
 
         return `parameter ${parameters} has no page such as ${targetPage} in it`
       }

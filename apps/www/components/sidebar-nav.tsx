@@ -188,7 +188,7 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lgfeat flex items-center justify-center ">
                   <Avatar className="h-[25px] w-[25px] rounded-sm">
                     <AvatarImage
                       src={
