@@ -73,10 +73,10 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="sheetLeft px-10">
+      <SheetContent side="left" className="sheetLeft">
         <MobileLink
           href="/"
-          className="flex items-center justify-center p-0 m-0 py-1 mr-3 border rounded-md hover:bg-[--code-foreground]"
+          className="flex items-center justify-center p-10 m-0 py-1 mr-3 border rounded-md hover:bg-[--code-foreground]"
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
@@ -89,7 +89,7 @@ export function MobileNav() {
         <ScrollArea className="mt-2 h-[100vh] pb-32 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 p-10">
               <AccordionItem value="products">
                 <AccordionTrigger>All Products</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -125,7 +125,7 @@ export function MobileNav() {
             </div>
 
             {/* More */}
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 p-10">
               <AccordionItem value="more">
                 <AccordionTrigger>More</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -161,7 +161,7 @@ export function MobileNav() {
             </div>
 
             {/* Extra NavItem */}
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 p-10">
               <AccordionItem value="extra-navitems">
                 <AccordionTrigger>Extra NavItems</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -197,7 +197,7 @@ export function MobileNav() {
             </div>
 
             {/* Main NavItems */}
-            <div className="flex flex-col space-y-3">
+            <div className="flex flex-col space-y-3 p-10">
               {docsConfig.sidebarNav.map((item, index) => (
                 <div key={index} className="flex flex-col space-y-3">
                   <AccordionItem value={item.title}>
@@ -381,7 +381,7 @@ export function MobileNav() {
               ))}
             </div>
           </Accordion>
-          <h5 className="flex w-full items-start justify-center mt-8 h-[5000px]">
+          <h5 className="flex w-full items-start justify-center mt-8 h-[500px]">
             Build By Sumon & Loved By You!!!
             <Avatar>
               <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
