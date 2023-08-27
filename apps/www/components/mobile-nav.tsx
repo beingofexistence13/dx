@@ -102,12 +102,7 @@ export function MobileNav() {
                               <div className="item-logo-fallback">
                                 <Avatar className="h-[25px] w-[25px] rounded-sm">
                                   <AvatarImage
-                                    src={`/docs/${item.title
-                                      .replace(/\s\s\s/g, " ")
-                                      .replace(/\s\s/g, " ")
-                                      .replace(/\s/g, "-")
-                                      .replace(/'s/g, "-")
-                                      .toLowerCase()}.jpg`}
+                                    src={``}
                                     alt="Dx"
                                   />
                                   <AvatarFallback>
@@ -151,12 +146,7 @@ export function MobileNav() {
                               <div className="item-logo-fallback">
                                 <Avatar className="h-[25px] w-[25px] rounded-sm">
                                   <AvatarImage
-                                    src={`/docs/${item.title
-                                      .replace(/\s\s\s/g, " ")
-                                      .replace(/\s\s/g, " ")
-                                      .replace(/\s/g, "-")
-                                      .replace(/'s/g, "-")
-                                      .toLowerCase()}.jpg`}
+                                    src={``}
                                     alt="Dx"
                                   />
                                   <AvatarFallback>
@@ -200,12 +190,7 @@ export function MobileNav() {
                               <div className="item-logo-fallback">
                                 <Avatar className="h-[25px] w-[25px] rounded-sm">
                                   <AvatarImage
-                                    src={`/docs/${item.title
-                                      .replace(/\s\s\s/g, " ")
-                                      .replace(/\s\s/g, " ")
-                                      .replace(/\s/g, "-")
-                                      .replace(/'s/g, "-")
-                                      .toLowerCase()}.jpg`}
+                                    src={``}
                                     alt="Dx"
                                   />
                                   <AvatarFallback>
