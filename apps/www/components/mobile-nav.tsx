@@ -76,7 +76,7 @@ export function MobileNav() {
       <SheetContent side="left" className="sheetLeft px-10">
         <MobileLink
           href="/"
-          className="flex items-center justify-center p-0 m-0 py-1 mr-3 border rounded-md "
+          className="flex items-center justify-center p-0 m-0 py-1 mr-3 border rounded-md hover:bg-[--code-foreground]"
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
