@@ -48848,7 +48848,7 @@ const download = (url, filePath, callback) => {
 sidebarNav.forEach((navItem) => {
   navItem.items.forEach((item) => {
     if (item.logo) {
-      const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
+      const filePath = `${item.title.replace(/\s/g,"-").toLowerCase()}.jpg`;
       download(item.logo, filePath, () => {
         console.log(`${item.title} logo is downloadeded!!!`);
 

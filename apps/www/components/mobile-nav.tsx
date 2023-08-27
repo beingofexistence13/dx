@@ -100,15 +100,7 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                <Avatar className="h-[25px] w-[25px] rounded-sm">
-                                  <AvatarImage
-                                    src={``}
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback>
-                                    {item.title ? logoLetter(item.title) : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
+                                {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
                             </div>
                           </div>
@@ -144,15 +136,7 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                <Avatar className="h-[25px] w-[25px] rounded-sm">
-                                  <AvatarImage
-                                    src={``}
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback>
-                                    {item.title ? logoLetter(item.title) : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
+                                {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
                             </div>
                           </div>
@@ -188,15 +172,7 @@ export function MobileNav() {
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
-                                <Avatar className="h-[25px] w-[25px] rounded-sm">
-                                  <AvatarImage
-                                    src={``}
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback>
-                                    {item.title ? logoLetter(item.title) : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
+                                {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
                             </div>
                           </div>
@@ -240,9 +216,6 @@ export function MobileNav() {
                                           src={
                                             item.logo
                                               ? `/docs/${item.title
-                                                  .replace(/\s\s\s/g, " ")
-                                                  .replace(/\s\s/g, " ")
-                                                  .replace(/\s/g, "-")
                                                   .replace(/'s/g, "-")
                                                   .toLowerCase()}.jpg`
                                               : ""

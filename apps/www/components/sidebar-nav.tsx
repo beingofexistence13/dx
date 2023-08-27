@@ -193,9 +193,6 @@ export function DocsSidebarNavItems({
                       src={
                         item.logo
                           ? `/docs/${item.title
-                              .replace(/\s\s\s/g, " ")
-                              .replace(/\s\s/g, " ")
-                              .replace(/\s/g, "-")
                               .replace(/'s/g, "-")
                               .toLowerCase()}.jpg`
                           : ""
@@ -210,7 +207,7 @@ export function DocsSidebarNavItems({
 
                 {transformString(item.title.replace(/-/g, " "))}
               </HoverCardTrigger>
-              <HoverCardContent className="p-8 w-[700px] h-auto">
+              <HoverCardContent className="p-8 w-[450px] h-auto">
                 <div className="details flex item-center w-full flex-col space-y-3 ">
                   <div className="details_description flex items-center justify-center mb-1">
                     {item.description}
