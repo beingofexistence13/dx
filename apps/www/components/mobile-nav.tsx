@@ -89,7 +89,7 @@ export function MobileNav() {
         <ScrollArea className="mt-2 h-[100vh] pb-32 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
-            <div className="flex flex-col space-y-3 p-10">
+            <div className="flex flex-col space-y-3 px-10">
               <AccordionItem value="products">
                 <AccordionTrigger>All Products</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -125,7 +125,7 @@ export function MobileNav() {
             </div>
 
             {/* More */}
-            <div className="flex flex-col space-y-3 p-10">
+            <div className="flex flex-col space-y-3 px-10">
               <AccordionItem value="more">
                 <AccordionTrigger>More</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -161,7 +161,7 @@ export function MobileNav() {
             </div>
 
             {/* Extra NavItem */}
-            <div className="flex flex-col space-y-3 p-10">
+            <div className="flex flex-col space-y-3 px-10">
               <AccordionItem value="extra-navitems">
                 <AccordionTrigger>Extra NavItems</AccordionTrigger>
                 <AccordionContent className="w-full ">
@@ -197,7 +197,7 @@ export function MobileNav() {
             </div>
 
             {/* Main NavItems */}
-            <div className="flex flex-col space-y-3 p-10">
+            <div className="flex flex-col space-y-3 px-10">
               {docsConfig.sidebarNav.map((item, index) => (
                 <div key={index} className="flex flex-col space-y-3">
                   <AccordionItem value={item.title}>
