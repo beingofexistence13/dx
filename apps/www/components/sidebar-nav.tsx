@@ -190,7 +190,16 @@ export function DocsSidebarNavItems({
                 <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                   <Avatar className="h-[25px] w-[25px] rounded-sm">
                     <AvatarImage
-                      src={`/docs/${item.title.replace(/\s\s\s/g, " ").replace(/\s\s/g, " ").replace(/\s/g, "-").replace(/'s/g, "-").toLowerCase()}.jpg`}
+                      src={
+                        item.logo
+                          ? `/docs/${item.title
+                              .replace(/\s\s\s/g, " ")
+                              .replace(/\s\s/g, " ")
+                              .replace(/\s/g, "-")
+                              .replace(/'s/g, "-")
+                              .toLowerCase()}.jpg`
+                          : ""
+                      }
                       alt="Dx"
                     />
                     <AvatarFallback>
