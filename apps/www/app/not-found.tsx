@@ -83,7 +83,7 @@ export default function NotFound() {
 
   console.log(urls)
   return (
-    <div className="flex min-h-screen w-full items-center justify-center border-r">
+    <div className="flex min-h-screen w-full items-center justify-center border-r px-[10%]">
       <div className="flex flex-col items-center justify-center">
         <div className="m-0 rounded-md border p-5 text-lg font-bold">
           {`This ${urls} maybe it 
