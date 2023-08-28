@@ -102,6 +102,7 @@ export const Icons = {
           height="411.237"
           filterUnits="userSpaceOnUse"
           color-interpolation-filters="sRGB"
+          
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feBlend
