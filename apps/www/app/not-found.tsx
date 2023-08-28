@@ -32,7 +32,7 @@ export default function NotFound() {
         const parts = input.split("/") // Split the input string by "/"
 
         if (parts.length < 2) {
-          return "Invalid input format"
+          return input
         }
 
         const targetPage = parts.pop() // Get the last part as the target page
