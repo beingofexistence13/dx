@@ -203,7 +203,7 @@ export default function Hack() {
           <TabsTrigger value="hackUp">HackUp</TabsTrigger>
         </TabsList>
         <TabsContent value="hackIn">
-          <Card>
+          {/* <Card>
             <CardHeader>
               <CardTitle>HackIn</CardTitle>
               <CardDescription>
@@ -224,7 +224,8 @@ export default function Hack() {
             <CardFooter>
               <Button>Save changes</Button>
             </CardFooter>
-          </Card>
+          </Card> */}
+          
         </TabsContent>
         <TabsContent value="hackUp">
           <Card>
