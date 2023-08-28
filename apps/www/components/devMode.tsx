@@ -253,10 +253,10 @@ export function DevMode() {
   const HelloToolSelector = useSelector(
     (state: any) => state.helloTool.isHelloTool
   )
-  
-  if (typeof window !== "undefined") {
-    console.log("Allhamdhulilla")
-  }
+
+  // if (typeof window !== "undefined") {
+  //   console.log("Allhamdhulilla")
+  // }
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
