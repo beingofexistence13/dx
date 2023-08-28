@@ -21,7 +21,7 @@ import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 import { Providers } from "./provider"
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://acme.com'),
+  metadataBase: new URL("https://acme.com"),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
