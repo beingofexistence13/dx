@@ -8,8 +8,8 @@ export default function DashboardLayout({
   return (
     <>
       <section>{children}</section>
-      <Script src="dat-gui.js" />
-      <Script src="script.js" />
+      <Script src="dat-gui.js"/>
+      <Script src="script.js"/>
       <Script>
         {`window.ga =
         window.ga ||
