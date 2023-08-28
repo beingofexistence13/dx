@@ -27,7 +27,7 @@ export default function NotFound() {
       // Replace the input string with the matched pattern
       const result = origin.replace(/^(https:\/\/[^/]+)\//g, "")
 
-      console.log(result)
+      // console.log(result)
 
       const generateErrorMessage = (input: string) => {
         const parts = input.split("/") // Split the input string by "/"
@@ -45,12 +45,12 @@ export default function NotFound() {
 
       const errorMessage = generateErrorMessage(result)
 
-      console.log(errorMessage)
+      // console.log(errorMessage)
       setPageDetails(errorMessage)
     }
   }, [])
 
-  console.log(pageDetails)
+  // console.log(pageDetails)
   return (
     <div className="flex min-h-screen w-full items-center justify-center border-r px-[10%]">
       <div className="flex flex-col items-center justify-center">
