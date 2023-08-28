@@ -3,11 +3,12 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 
+import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui"
 
 export default function NotFound() {
-  const [urls, setUrls] = useState("Not Found")
+  const [pageDetails, setPageDetails] = useState("Not Found")
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -32,29 +33,29 @@ export default function NotFound() {
         const parts = input.split("/") // Split the input string by "/"
 
         if (parts.length < 2) {
-          return input
+          return `There is no page such as ${input} in ${siteConfig.name}!!!`
         }
 
         const targetPage = parts.pop() // Get the last part as the target page
         const parameters = parts.join(" -> ") // Join the remaining parts with "~" as parameters
 
-        return `parameter ${parameters} has no page such as ${targetPage} in it`
+        return `This parameter ${parameters} has no page such as ${targetPage} in it maybe it 
+        is in devlopment(coming soon!!!)`
       }
 
       const errorMessage = generateErrorMessage(result)
 
       console.log(errorMessage)
-      setUrls(errorMessage)
+      setPageDetails(errorMessage)
     }
   }, [])
 
-  console.log(urls)
+  console.log(pageDetails)
   return (
     <div className="flex min-h-screen w-full items-center justify-center border-r px-[10%]">
       <div className="flex flex-col items-center justify-center">
         <div className="m-0 rounded-md border p-5 text-lg font-bold">
-          {`This ${urls} maybe it 
-      is in devlopment(coming soon!!!)`}
+          {pageDetails}
         </div>
         <div className="flex h-full w-full items-end justify-between pt-3">
           <Link href="/" className={cn(buttonVariants({ variant: "outline" }))}>
