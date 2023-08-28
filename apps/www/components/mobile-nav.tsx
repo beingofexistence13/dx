@@ -384,10 +384,10 @@ export function MobileNav() {
           </Accordion>
           <h5 className="flex w-full items-start justify-center mt-8 h-[250px]">
             Build By Sumon & Loved By You!!!
-            <Avatar>
+            {/* <Avatar>
               <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
               <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
+            </Avatar> */}
           </h5>
         </ScrollArea>
       </SheetContent>
