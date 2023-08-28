@@ -188,6 +188,9 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
+import Hack from "./hack"
+import SocialMedias from "./socialMedia"
+
 export function SiteHeader() {
   const [open, setOpen] = React.useState(false)
   const ref = useRef<HTMLDivElement>(null)
@@ -212,7 +215,139 @@ export function SiteHeader() {
             <CommandMenu />
           </div>
           <nav className="flex items-center">
-            <Dialog>
+            <SocialMedias />
+            <ModeToggle />
+            <Hack />
+          </nav>
+        </div>
+      </div>
+    </header>
+  )
+}
+
+// interface SocialMediaProps extends LinkProps {
+//   onOpenChange?: (open: boolean) => void
+//   children: React.ReactNode
+//   className?: string
+// }
+// function SocialMedia({
+//   href,
+//   onOpenChange,
+//   className,
+//   children,
+//   ...props
+// }: SocialMediaProps) {
+//   const router = useRouter()
+//   return (
+//     <Link
+//       href={href}
+//       onClick={() => {
+//         router.push(href.toString())
+//         onOpenChange?.(false)
+//       }}
+//       className={cn(
+//         buttonVariants({
+//           variant: "ghost",
+//         }),
+//         " flex h-[75px] items-center justify-center rounded-md border"
+//       )}
+//       {...props}
+//     >
+//       {children}
+//     </Link>
+//   )
+// }
+{
+  /* <Dialog>
+              <DialogTrigger asChild>
+                <div
+                  className={cn(
+                    buttonVariants({
+                      variant: "ghost",
+                    }),
+                    "nav-toggles social-media w-9 px-0"
+                  )}
+                >
+                  <Icons.hack className="h-4 w-4 fill-current" />
+                  <span className="sr-only">HackIn</span>
+                </div>
+              </DialogTrigger>
+              <DialogContent className="hack flex items-center rounded-md p-3">
+                <Tabs defaultValue="hackIn" className="w-full ">
+                  <TabsList className="mx-auto grid w-full grid-cols-2">
+                    <TabsTrigger value="hackIn">HackIn</TabsTrigger>
+                    <TabsTrigger value="hackUp">HackUp</TabsTrigger>
+                  </TabsList>
+                  <TabsContent value="hackIn">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>HackIn</CardTitle>
+                        <CardDescription>
+                          Make changes to your account here. Click save when
+                          youre done.
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="name">Name</Label>
+                          <Input id="name" defaultValue="Pedro Duarte" />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="username">Username</Label>
+                          <Input id="username" defaultValue="@peduarte" />
+                        </div>
+                      </CardContent>
+                      <CardFooter>
+                        <Button>Save changes</Button>
+                      </CardFooter>
+                    </Card>
+                  </TabsContent>
+                  <TabsContent value="hackUp">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>HackUp</CardTitle>
+                        <CardDescription>
+                          Change your password here. After saving, youll be
+                          logged out.
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent className="space-y-2">
+                        <div className="space-y-1">
+                          <Label htmlFor="current">Current password</Label>
+                          <Input id="current" type="password" />
+                        </div>
+                        <div className="space-y-1">
+                          <Label htmlFor="new">New password</Label>
+                          <Input id="new" type="password" />
+                        </div>
+                      </CardContent>
+                      <CardFooter>
+                        <Button>Save password</Button>
+                      </CardFooter>
+                    </Card>
+                  </TabsContent>
+                </Tabs>
+              </DialogContent>
+            </Dialog> */
+}
+{
+  /* <div
+        {...pressProps}
+        ref={ref}
+        style={{
+          width: 100,
+          height: 100,
+          backgroundColor: "lightgray",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        Press me
+      </div> */
+}
+{
+  /* <Dialog>
               <DialogTrigger asChild>
                 <div
                   className={cn(
@@ -289,134 +424,5 @@ export function SiteHeader() {
                   </DialogHeader>
                 </Tabs>
               </DialogContent>
-            </Dialog>
-
-            <ModeToggle />
-
-            <Dialog>
-              <DialogTrigger asChild>
-                <div
-                  className={cn(
-                    buttonVariants({
-                      variant: "ghost",
-                    }),
-                    "nav-toggles social-media w-9 px-0"
-                  )}
-                >
-                  <Icons.hack className="h-4 w-4 fill-current" />
-                  <span className="sr-only">HackIn</span>
-                </div>
-              </DialogTrigger>
-              <DialogContent className="hack flex items-center rounded-md p-3">
-                <Tabs defaultValue="hackIn" className="w-full ">
-                  <TabsList className="mx-auto grid w-full grid-cols-2">
-                    <TabsTrigger value="hackIn">HackIn</TabsTrigger>
-                    <TabsTrigger value="hackUp">HackUp</TabsTrigger>
-                  </TabsList>
-                  <TabsContent value="hackIn">
-                    <Card>
-                      <CardHeader>
-                        <CardTitle>HackIn</CardTitle>
-                        <CardDescription>
-                          Make changes to your account here. Click save when
-                          youre done.
-                        </CardDescription>
-                      </CardHeader>
-                      <CardContent className="space-y-2">
-                        <div className="space-y-1">
-                          <Label htmlFor="name">Name</Label>
-                          <Input id="name" defaultValue="Pedro Duarte" />
-                        </div>
-                        <div className="space-y-1">
-                          <Label htmlFor="username">Username</Label>
-                          <Input id="username" defaultValue="@peduarte" />
-                        </div>
-                      </CardContent>
-                      <CardFooter>
-                        <Button>Save changes</Button>
-                      </CardFooter>
-                    </Card>
-                  </TabsContent>
-                  <TabsContent value="hackUp">
-                    <Card>
-                      <CardHeader>
-                        <CardTitle>HackUp</CardTitle>
-                        <CardDescription>
-                          Change your password here. After saving, youll be
-                          logged out.
-                        </CardDescription>
-                      </CardHeader>
-                      <CardContent className="space-y-2">
-                        <div className="space-y-1">
-                          <Label htmlFor="current">Current password</Label>
-                          <Input id="current" type="password" />
-                        </div>
-                        <div className="space-y-1">
-                          <Label htmlFor="new">New password</Label>
-                          <Input id="new" type="password" />
-                        </div>
-                      </CardContent>
-                      <CardFooter>
-                        <Button>Save password</Button>
-                      </CardFooter>
-                    </Card>
-                  </TabsContent>
-                </Tabs>
-              </DialogContent>
-            </Dialog>
-          </nav>
-        </div>
-      </div>
-      {/* <div
-        {...pressProps}
-        ref={ref}
-        style={{
-          width: 100,
-          height: 100,
-          backgroundColor: "lightgray",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        Press me
-      </div> */}
-    </header>
-  )
-}
-
-//
-
-interface SocialMediaProps extends LinkProps {
-  onOpenChange?: (open: boolean) => void
-  children: React.ReactNode
-  className?: string
-}
-
-function SocialMedia({
-  href,
-  onOpenChange,
-  className,
-  children,
-  ...props
-}: SocialMediaProps) {
-  const router = useRouter()
-  return (
-    <Link
-      href={href}
-      onClick={() => {
-        router.push(href.toString())
-        onOpenChange?.(false)
-      }}
-      className={cn(
-        buttonVariants({
-          variant: "ghost",
-        }),
-        " flex h-[75px] items-center justify-center rounded-md border"
-      )}
-      {...props}
-    >
-      {children}
-    </Link>
-  )
+            </Dialog> */
 }
