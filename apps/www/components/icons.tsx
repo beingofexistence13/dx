@@ -101,10 +101,10 @@ export const Icons = {
           width="354.47"
           height="411.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-          
+          colorInterpolationFilters="sRGB"
+
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -123,9 +123,9 @@ export const Icons = {
           width="559"
           height="568.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -144,9 +144,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -165,9 +165,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -186,9 +186,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -207,9 +207,9 @@ export const Icons = {
           width="370"
           height="370"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
           <feComposite
             in2="SourceAlpha"
@@ -248,9 +248,9 @@ export const Icons = {
           width="112.135"
           height="230.62"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="9" />
           <feComposite
             in2="SourceAlpha"
@@ -271,9 +271,9 @@ export const Icons = {
           width="110.21"
           height="221.336"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="9" />
           <feComposite
             in2="SourceAlpha"
@@ -295,9 +295,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_104_63"
@@ -307,9 +307,9 @@ export const Icons = {
           y2="87.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_104_63"
@@ -319,9 +319,9 @@ export const Icons = {
           y2="164.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_104_63"
@@ -331,9 +331,9 @@ export const Icons = {
           y2="172.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_104_63"
@@ -343,9 +343,9 @@ export const Icons = {
           y2="204.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_104_63"
@@ -355,9 +355,9 @@ export const Icons = {
           y2="-6.59742"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_104_63"
@@ -367,9 +367,9 @@ export const Icons = {
           y2="103.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_104_63"
@@ -379,9 +379,9 @@ export const Icons = {
           y2="38.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_104_63"
@@ -391,9 +391,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_104_63"
@@ -403,9 +403,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_104_63"
@@ -415,9 +415,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_104_63"
@@ -427,9 +427,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_104_63"
@@ -439,9 +439,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_104_63"
@@ -451,9 +451,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_104_63"
@@ -463,9 +463,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_104_63"
@@ -475,8 +475,8 @@ export const Icons = {
           y2="320.467"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.2" />
-          <stop offset="1" stop-color="white" stop-opacity="0.49" />
+          <stop stopColor="white" stopOpacity="0.2" />
+          <stop offset="1" stopColor="white" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_104_63"
@@ -486,8 +486,8 @@ export const Icons = {
           y2="284.497"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.2" />
-          <stop offset="1" stop-color="white" stop-opacity="0.49" />
+          <stop stopColor="white" stopOpacity="0.2" />
+          <stop offset="1" stopColor="white" stopOpacity="0.49" />
         </linearGradient>
       </defs>
     </svg>
@@ -592,9 +592,9 @@ export const Icons = {
           width="354.47"
           height="411.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -613,9 +613,9 @@ export const Icons = {
           width="559"
           height="568.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -634,9 +634,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -655,9 +655,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -676,9 +676,9 @@ export const Icons = {
           width="346.036"
           height="357.237"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -697,9 +697,9 @@ export const Icons = {
           width="370"
           height="370"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="2" />
           <feComposite
             in2="SourceAlpha"
@@ -738,9 +738,9 @@ export const Icons = {
           width="112.135"
           height="230.62"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="9" />
           <feComposite
             in2="SourceAlpha"
@@ -761,9 +761,9 @@ export const Icons = {
           width="110.21"
           height="221.336"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="9" />
           <feComposite
             in2="SourceAlpha"
@@ -785,9 +785,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_104_63"
@@ -797,9 +797,9 @@ export const Icons = {
           y2="87.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_104_63"
@@ -809,9 +809,9 @@ export const Icons = {
           y2="164.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_104_63"
@@ -821,9 +821,9 @@ export const Icons = {
           y2="172.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_104_63"
@@ -833,9 +833,9 @@ export const Icons = {
           y2="204.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_104_63"
@@ -845,9 +845,9 @@ export const Icons = {
           y2="-6.59742"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_104_63"
@@ -857,9 +857,9 @@ export const Icons = {
           y2="103.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_104_63"
@@ -869,9 +869,9 @@ export const Icons = {
           y2="38.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_104_63"
@@ -881,9 +881,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_104_63"
@@ -893,9 +893,9 @@ export const Icons = {
           y2="33.4026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_104_63"
@@ -905,9 +905,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_104_63"
@@ -917,9 +917,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_104_63"
@@ -929,9 +929,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_104_63"
@@ -941,9 +941,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_104_63"
@@ -953,9 +953,9 @@ export const Icons = {
           y2="-91.1113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7C00FF" />
-          <stop offset="0.52" stop-color="#FF6700" />
-          <stop offset="1" stop-color="#FFD400" />
+          <stop stopColor="#7C00FF" />
+          <stop offset="0.52" stopColor="#FF6700" />
+          <stop offset="1" stopColor="#FFD400" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_104_63"
@@ -965,8 +965,8 @@ export const Icons = {
           y2="320.467"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.2" />
-          <stop offset="1" stop-color="white" stop-opacity="0.49" />
+          <stop stopColor="white" stopOpacity="0.2" />
+          <stop offset="1" stopColor="white" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_104_63"
@@ -976,8 +976,8 @@ export const Icons = {
           y2="284.497"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.2" />
-          <stop offset="1" stop-color="white" stop-opacity="0.49" />
+          <stop stopColor="white" stopOpacity="0.2" />
+          <stop offset="1" stopColor="white" stopOpacity="0.49" />
         </linearGradient>
       </defs>
     </svg>
@@ -992,12 +992,12 @@ export const Icons = {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      stroke-width="1.5"
+      strokeWidth="1.5"
       stroke="currentColor"
     >
       <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         d="M3.75 9h16.5m-16.5 6.75h16.5"
       />
     </svg>
@@ -1010,9 +1010,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <circle cx="12" cy="12" r="1" />
       <circle cx="19" cy="12" r="1" />
@@ -1027,9 +1027,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <circle cx="12" cy="5" r="3" />
       <line x1="12" x2="12" y1="22" y2="8" />
@@ -1044,9 +1044,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />
       <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" />
@@ -1060,9 +1060,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z" />
       <path d="m14 7 3 3" />
@@ -1082,9 +1082,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
       <path d="M5 3v4" />
@@ -1101,9 +1101,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="m18 16 4-4-4-4" />
       <path d="m6 8-4 4 4 4" />
@@ -1119,9 +1119,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4" />
       <path d="M3 5v14a2 2 0 0 0 2 2h16v-5" />
@@ -1136,9 +1136,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="m17 11-5-5-5 5" />
       <path d="m17 18-5-5-5 5" />
@@ -1152,9 +1152,9 @@ export const Icons = {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="m6 9 6 6 6-6" />
     </svg>

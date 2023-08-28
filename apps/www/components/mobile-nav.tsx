@@ -95,9 +95,9 @@ export function MobileNav() {
                 <AccordionTrigger>All Products</AccordionTrigger>
                 <AccordionContent className="w-full ">
                   {products.map(
-                    (item) =>
+                    (item,index) =>
                       item.href && (
-                        <div className="w-full flex flex-row items-center justify-between h-12">
+                        <div key={index} className="w-full flex flex-row items-center justify-between h-12">
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
@@ -131,9 +131,9 @@ export function MobileNav() {
                 <AccordionTrigger>More</AccordionTrigger>
                 <AccordionContent className="w-full ">
                   {more.map(
-                    (item) =>
+                    (item,index) =>
                       item.href && (
-                        <div className="w-full flex flex-row items-center justify-between h-12">
+                        <div key={index} className="w-full flex flex-row items-center justify-between h-12">
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
@@ -167,9 +167,9 @@ export function MobileNav() {
                 <AccordionTrigger>Extra NavItems</AccordionTrigger>
                 <AccordionContent className="w-full ">
                   {docsConfig.mainNav.map(
-                    (item) =>
+                    (item,index) =>
                       item.href && (
-                        <div className="w-full flex flex-row items-center justify-between h-12">
+                        <div key={index} className="w-full flex flex-row items-center justify-between h-12">
                           <div className="products-logo">
                             <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
                               <div className="item-logo-fallback">
