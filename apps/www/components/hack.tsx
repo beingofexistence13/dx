@@ -270,23 +270,6 @@ export default function Hack({ ...props }: DialogProps) {
               </div>
             </div>
             <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
-              {/* <div className="tab-header w-[95%] h-[35px] flex items-center justify-start space-y-2 ">
-                <div className="help  flex items-center justify-center rounded-xl border">
-                  <Icons.circleDashed className="h-4 w-4 fill-current" />
-                </div>
-                <div className="speaker  flex items-center justify-center rounded-xl border">
-                  <Icons.speaker className="h-4 w-4 fill-current" />
-                </div>
-                <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center">
-                  Tips made job easy!!!
-                </div>
-                <div className="hack-setting">
-                  <Icons.hackSetting className="h-4 w-4 fill-current" />
-                </div>
-                <div className="close  flex items-center justify-center rounded-xl border">
-                  <Icons.close className="h-4 w-4 fill-current" />
-                </div>
-              </div> */}
               <TabsList className="mx-auto grid w-full grid-cols-2 ">
                 <TabsTrigger value="hackIn">HackIn</TabsTrigger>
                 <TabsTrigger value="hackUp">HackUp</TabsTrigger>
