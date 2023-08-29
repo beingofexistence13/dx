@@ -237,8 +237,8 @@ export default function Hack({ ...props }: DialogProps) {
       </div>
       {fluidSimulation ? (
         <div className=" fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
-          <div className="hack-container py-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
-            <div
+          <div className="hack-container py-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-[500px] space-y-3">
+            {/* <div
               className={cn(
                 buttonVariants({
                   variant: "ghost",
@@ -248,10 +248,26 @@ export default function Hack({ ...props }: DialogProps) {
               onClick={() => setFluidSimulation(false)}
             >
               <Icons.close className="h-4 w-4 fill-current" />
+            </div> */}
+            <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
+              <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                <Icons.circleDashed className="h-4 w-4 fill-current" />
+              </div>
+              <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                <Icons.speaker className="h-4 w-4 fill-current" />
+              </div>
+              <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center">
+                Tips made job easy!!!
+              </div>
+              <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                <Icons.hackSetting className="h-4 w-4 fill-current" />
+              </div>
+              <div className="close h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                <Icons.close className="h-4 w-4 fill-current" />
+              </div>
             </div>
-
-            <Tabs defaultValue="hackIn" className="w-full">
-              <div className="tab-header w-[95%] h-[50px] flex items-center justify-start space-y-2 ">
+            <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
+              {/* <div className="tab-header w-[95%] h-[35px] flex items-center justify-start space-y-2 ">
                 <div className="help w-[30] h-[30px] flex items-center justify-center rounded-xl border">
                   <Icons.circleDashed className="h-4 w-4 fill-current" />
                 </div>
@@ -267,28 +283,24 @@ export default function Hack({ ...props }: DialogProps) {
                 <div className="close w-[30] h-[30px] flex items-center justify-center rounded-xl border">
                   <Icons.close className="h-4 w-4 fill-current" />
                 </div>
-              </div>
+              </div> */}
               <TabsList className="mx-auto grid w-full grid-cols-2 ">
                 <TabsTrigger value="hackIn">HackIn</TabsTrigger>
                 <TabsTrigger value="hackUp">HackUp</TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
                 {/* HackIn Search */}
-                <div className="hackIn-searchbar mx-auto rounded-xl border relative w-[95%] h-[50px] p-1 space-x-2">
-                  {/* <input type="search" name="" id="" /> */}
-                  <Button
-                    variant="outline"
-                    className={cn(
-                      "relative w-max justify-start pr-12 text-sm text-muted-foreground md:w-40 lg:w-64"
-                    )}
+                <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
+                  <div
+                    className="text-sm text-muted-foreground flex items-center space-x-2 w-full p-1"
                     onClick={() => setOpen(true)}
                     {...props}
                   >
-                    <div className="search w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                    <div className="search w-[30] h-[30px] flex items-center justify-center rounded-xl border ">
                       <Icons.search className="h-4 w-4 fill-current" />
                     </div>
-                    <span className="hidden w-auto lg:inline-flex">
-                      Search wallets and social medias to hackIn
+                    <span className="flex-1 w-full ">
+                      Search wallets and social medias
                     </span>
                     <div className="chatgpt w-[30] h-[30px] flex items-center justify-center rounded-xl border">
                       <Icons.chatgpt className="h-4 w-4 fill-current" />
@@ -299,10 +311,7 @@ export default function Hack({ ...props }: DialogProps) {
                     <div className="media w-[30] h-[30px] flex items-center justify-center rounded-xl border">
                       <Icons.media className="h-4 w-4 fill-current" />
                     </div>
-                    {/* <kbd className="pointer-events-none absolute right-1.5 top-1.5 flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100">
-                      <span className="text-xs">S</span>
-                    </kbd> */}
-                  </Button>
+                  </div>
                   <CommandDialog open={open} onOpenChange={setOpen}>
                     <CommandInput placeholder="Type a command or search..." />
                     <CommandList>
@@ -370,7 +379,7 @@ export default function Hack({ ...props }: DialogProps) {
                   </CommandDialog>
                 </div>
                 {/* Emain and Password */}
-                <div className="email-and-password">
+                {/* <div className="email-and-password">
                   <Input
                     placeholder="Enter your Email"
                     value={value}
@@ -407,7 +416,7 @@ export default function Hack({ ...props }: DialogProps) {
                     className="max-w-xs"
                     isClearable
                   />
-                </div>
+                </div> */}
               </TabsContent>
               <TabsContent value="hackUp">
                 <Card>
