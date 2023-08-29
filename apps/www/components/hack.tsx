@@ -3,6 +3,7 @@
 import * as React from "react"
 import Script from "next/script"
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons"
+import { X } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { cn } from "@/lib/utils"
@@ -184,7 +185,7 @@ export default function Hack() {
   const [fluidSimulation, setFluidSimulation] = React.useState(false)
   return (
     <div>
-      {/* <div
+      <div
         onClick={() => setFluidSimulation(true)}
         className={cn(
           buttonVariants({
@@ -193,105 +194,162 @@ export default function Hack() {
           "nav-toggles social-media w-9 px-0"
         )}
       >
-        {fluidSimulation ? (
-          <>
-            <canvas className="fluid-simulation-container"></canvas>
-            <Script src="dat-gui.js" />
-            <Script src="script.js" />
-            <Script>
-              {`window.ga =
-              window.ga ||
-              function () {
-                ;(ga.q = ga.q || []).push(arguments)
-              }
-            ga.l = +new Date()
-            ga("create", "UA-105392568-1", "auto")
-            ga("send", "pageview")`}
-            </Script>
-          </>
-        ) : (
-          ""
-        )}
-
         <Icons.hack className="h-4 w-4 fill-current" />
-      </div> */}
-    <Dialog>
-      <DialogTrigger asChild>
-        <div
-          onClick={() => setFluidSimulation(true)}
-          className={cn(
-            buttonVariants({
-              variant: "ghost",
-            }),
-            "nav-toggles social-media w-9 px-0"
-          )}
-        >
-          {fluidSimulation ? (
-            <>
-              <canvas className="fluid-simulation-container"></canvas>
-              {/* <Script src="dat-gui.js" /> */}
-              {/* <Script src="script.js" />
-              <Script>
-                {`window.ga =
-              window.ga ||
-              function () {
-                ;(ga.q = ga.q || []).push(arguments)
-              }
-            ga.l = +new Date()
-            ga("create", "UA-105392568-1", "auto")
-            ga("send", "pageview")`}
-              </Script> */}
-            </>
-          ) : (
-            ""
-          )}
-
-          <Icons.hack className="h-4 w-4 fill-current" />
-        </div>
-      </DialogTrigger>
-      <DialogContent className="hack flex items-center rounded-md p-3">
-        <Tabs defaultValue="hackIn" className="w-full ">
-          <TabsList className="mx-auto grid w-full grid-cols-2">
-            <TabsTrigger value="hackIn">HackIn</TabsTrigger>
-            <TabsTrigger value="hackUp">HackUp</TabsTrigger>
-          </TabsList>
-          <TabsContent value="hackIn">
+      </div>
+      {fluidSimulation ? (
+        <div className="glassmorphisum fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
+          <div className="hack-container glassmorphisum flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
             <div
-              className="close-fluid-simulation"
+              // className={cn(
+              //   buttonVariants({
+              //     variant: "ghost",
+              //   }),
+              //   "nav-toggles social-media p-5"
+              // )}
               onClick={() => setFluidSimulation(false)}
             >
-              close-fluid-simulation
+              <Icons.close className="h-4 w-4 fill-current" />
             </div>
-          </TabsContent>
-          <TabsContent value="hackUp">
-            <Card>
-              <CardHeader>
-                <CardTitle>HackUp</CardTitle>
-                <CardDescription>
-                  Change your password here. After saving, youll be logged out.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <div className="space-y-1">
-                  <Label htmlFor="current">Current password</Label>
-                  <Input id="current" type="password" />
-                </div>
-                <div className="space-y-1">
-                  <Label htmlFor="new">New password</Label>
-                  <Input id="new" type="password" />
-                </div>
-              </CardContent>
-              <CardFooter>
-                <Button>Save password</Button>
-              </CardFooter>
-            </Card>
-          </TabsContent>
-        </Tabs>
-      </DialogContent>
-    </Dialog>
+            <Tabs defaultValue="hackIn" className="w-full p-5">
+              <TabsList className="mx-auto grid w-full grid-cols-2 h-[50px] px-2 py-0">
+                <TabsTrigger value="hackIn-tab min-h-full p-0">HackIn</TabsTrigger>
+                <TabsTrigger value="hackUp-tab min-h-full p-0">HackUp</TabsTrigger>
+              </TabsList>
+              <TabsContent value="hackIn">
+                {/* <div
+                    className="close-fluid-simulation"
+                    onClick={() => setFluidSimulation(false)}
+                  >
+                    close-fluid-simulation
+                  </div> */}
+                <Card>
+                  <CardHeader>
+                    <CardTitle>HackIn</CardTitle>
+                    <CardDescription>
+                      Change your password here. After saving, youll be logged
+                      out.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    <div className="space-y-1">
+                      <Label htmlFor="current">Current password</Label>
+                      <Input id="current" type="password" />
+                    </div>
+                    <div className="space-y-1">
+                      <Label htmlFor="new">New password</Label>
+                      <Input id="new" type="password" />
+                    </div>
+                  </CardContent>
+                  <CardFooter>
+                    <Button>Save password</Button>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+              <TabsContent value="hackUp">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>HackUp</CardTitle>
+                    <CardDescription>
+                      Change your password here. After saving, youll be logged
+                      out.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    <div className="space-y-1">
+                      <Label htmlFor="current">Current password</Label>
+                      <Input id="current" type="password" />
+                    </div>
+                    <div className="space-y-1">
+                      <Label htmlFor="new">New password</Label>
+                      <Input id="new" type="password" />
+                    </div>
+                  </CardContent>
+                  <CardFooter>
+                    <Button>Save password</Button>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+            </Tabs>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
-
   )
 }
 
+// <Dialog>
+// <DialogTrigger asChild>
+//   <div
+//     onClick={() => setFluidSimulation(true)}
+//     className={cn(
+//       buttonVariants({
+//         variant: "ghost",
+//       }),
+//       "nav-toggles social-media w-9 px-0"
+//     )}
+//   >
+//     {fluidSimulation ? (
+//       <>
+//         <canvas className="fluid-simulation-container"></canvas>
+//         <Script src="dat-gui.js" />
+//         <Script src="script.js" />
+//         <Script>
+//           {`window.ga =
+//         window.ga ||
+//         function () {
+//           ;(ga.q = ga.q || []).push(arguments)
+//         }
+//       ga.l = +new Date()
+//       ga("create", "UA-105392568-1", "auto")
+//       ga("send", "pageview")`}
+//         </Script>
+//       </>
+//     ) : (
+//       ""
+//     )}
 
+//     <Icons.hack className="h-4 w-4 fill-current" />
+//   </div>
+// </DialogTrigger>
+// <DialogContent className="hack flex items-center rounded-md p-3">
+//   <Tabs defaultValue="hackIn" className="w-full ">
+//     <TabsList className="mx-auto grid w-full grid-cols-2">
+//       <TabsTrigger value="hackIn">HackIn</TabsTrigger>
+//       <TabsTrigger value="hackUp">HackUp</TabsTrigger>
+//     </TabsList>
+//     <TabsContent value="hackIn">
+//       <div
+//         className="close-fluid-simulation"
+//         onClick={() => setFluidSimulation(false)}
+//       >
+//         close-fluid-simulation
+//       </div>
+//     </TabsContent>
+//     <TabsContent value="hackUp">
+//       <Card>
+//         <CardHeader>
+//           <CardTitle>HackUp</CardTitle>
+//           <CardDescription>
+//             Change your password here. After saving, youll be logged out.
+//           </CardDescription>
+//         </CardHeader>
+//         <CardContent className="space-y-2">
+//           <div className="space-y-1">
+//             <Label htmlFor="current">Current password</Label>
+//             <Input id="current" type="password" />
+//           </div>
+//           <div className="space-y-1">
+//             <Label htmlFor="new">New password</Label>
+//             <Input id="new" type="password" />
+//           </div>
+//         </CardContent>
+//         <CardFooter>
+//           <Button>Save password</Button>
+//         </CardFooter>
+//       </Card>
+//     </TabsContent>
+//   </Tabs>
+// </DialogContent>
+// </Dialog>

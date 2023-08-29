@@ -102,7 +102,6 @@ export const Icons = {
           height="411.237"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
-
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
@@ -1000,6 +999,22 @@ export const Icons = {
         strokeLinejoin="round"
         d="M3.75 9h16.5m-16.5 6.75h16.5"
       />
+    </svg>
+  ),
+  close: (props: IconProps) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M18 6 6 18" />
+      <path d="m6 6 12 12" />
     </svg>
   ),
   moreHorizental: (props: IconProps) => (
