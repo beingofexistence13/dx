@@ -1,11 +1,19 @@
 "use client"
 
 import * as React from "react"
-import Script from "next/script"
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons"
-import { X } from "lucide-react"
+import { useRouter } from "next/navigation"
+import { Input } from "@nextui-org/react"
+import { DialogProps } from "@radix-ui/react-alert-dialog"
+import {
+  CircleIcon,
+  FileIcon,
+  LaptopIcon,
+  MoonIcon,
+  SunIcon,
+} from "@radix-ui/react-icons"
 import { useTheme } from "next-themes"
 
+import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 import {
@@ -98,7 +106,6 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-  Input,
   Label,
   Menubar,
   MenubarCheckboxItem,
@@ -181,8 +188,40 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
-export default function Hack() {
+export default function Hack({ ...props }: DialogProps) {
+  const [isVisible, setIsVisible] = React.useState(false)
+  const toggleVisibility = () => setIsVisible(!isVisible)
   const [fluidSimulation, setFluidSimulation] = React.useState(false)
+  const router = useRouter()
+  const [open, setOpen] = React.useState(false)
+  const { setTheme } = useTheme()
+  const [value, setValue] = React.useState("junior2nextui.org")
+  const validateEmail = (value: string) =>
+    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i)
+
+  const validationState = React.useMemo(() => {
+    if (value === "") return undefined
+
+    return validateEmail(value) ? "valid" : "invalid"
+  }, [value])
+
+  React.useEffect(() => {
+    const down = (e: KeyboardEvent) => {
+      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        setOpen((open) => !open)
+      }
+    }
+
+    document.addEventListener("keydown", down)
+    return () => document.removeEventListener("keydown", down)
+  }, [])
+
+  const runCommand = React.useCallback((command: () => unknown) => {
+    setOpen(false)
+    command()
+  }, [])
+
   return (
     <div>
       <div
@@ -198,100 +237,177 @@ export default function Hack() {
       </div>
       {fluidSimulation ? (
         <div className=" fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
-          <div className="hack-container p-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
+          <div className="hack-container py-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
             <div
-              // className={cn(
-              //   buttonVariants({
-              //     variant: "ghost",
-              //   }),
-              //   "nav-toggles social-media p-5"
-              // )}
+              className={cn(
+                buttonVariants({
+                  variant: "ghost",
+                }),
+                "nav-toggles social-media p-5"
+              )}
               onClick={() => setFluidSimulation(false)}
             >
               <Icons.close className="h-4 w-4 fill-current" />
             </div>
-            {/* <Tabs defaultValue="hackIn" className="w-full p-5">
-              <TabsList className="mx-auto grid w-full grid-cols-2 h-[50px] px-2 py-0">
-                <TabsTrigger value="hackIn-tab min-h-full p-0">HackIn</TabsTrigger>
-                <TabsTrigger value="hackUp-tab min-h-full p-0">HackUp</TabsTrigger>
-              </TabsList>
-              <TabsContent value="hackIn">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>HackIn</CardTitle>
-                    <CardDescription>
-                      Change your password here. After saving, youll be logged
-                      out.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <div className="space-y-1">
-                      <Label htmlFor="current">Current password</Label>
-                      <Input id="current" type="password" />
-                    </div>
-                    <div className="space-y-1">
-                      <Label htmlFor="new">New password</Label>
-                      <Input id="new" type="password" />
-                    </div>
-                  </CardContent>
-                  <CardFooter>
-                    <Button>Save password</Button>
-                  </CardFooter>
-                </Card>
-              </TabsContent>
-              <TabsContent value="hackUp">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>HackUp</CardTitle>
-                    <CardDescription>
-                      Change your password here. After saving, youll be logged
-                      out.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <div className="space-y-1">
-                      <Label htmlFor="current">Current password</Label>
-                      <Input id="current" type="password" />
-                    </div>
-                    <div className="space-y-1">
-                      <Label htmlFor="new">New password</Label>
-                      <Input id="new" type="password" />
-                    </div>
-                  </CardContent>
-                  <CardFooter>
-                    <Button>Save password</Button>
-                  </CardFooter>
-                </Card>
-              </TabsContent>
-            </Tabs> */}
+
             <Tabs defaultValue="hackIn" className="w-full">
+              <div className="tab-header w-[95%] h-[50px] flex items-center justify-start space-y-2 ">
+                <div className="help w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                  <Icons.circleDashed className="h-4 w-4 fill-current" />
+                </div>
+                <div className="speaker w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                  <Icons.speaker className="h-4 w-4 fill-current" />
+                </div>
+                <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center">
+                  Tips made job easy!!!
+                </div>
+                <div className="hack-setting">
+                  <Icons.hackSetting className="h-4 w-4 fill-current" />
+                </div>
+                <div className="close w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                  <Icons.close className="h-4 w-4 fill-current" />
+                </div>
+              </div>
               <TabsList className="mx-auto grid w-full grid-cols-2 ">
                 <TabsTrigger value="hackIn">HackIn</TabsTrigger>
                 <TabsTrigger value="hackUp">HackUp</TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>HackIn</CardTitle>
-                    <CardDescription>
-                      Make changes to your account here. Click save when youre
-                      done.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <div className="space-y-1">
-                      <Label htmlFor="name">Name</Label>
-                      <Input id="name" defaultValue="Pedro Duarte" />
+                {/* HackIn Search */}
+                <div className="hackIn-searchbar mx-auto rounded-xl border relative w-[95%] h-[50px] p-1 space-x-2">
+                  {/* <input type="search" name="" id="" /> */}
+                  <Button
+                    variant="outline"
+                    className={cn(
+                      "relative w-max justify-start pr-12 text-sm text-muted-foreground md:w-40 lg:w-64"
+                    )}
+                    onClick={() => setOpen(true)}
+                    {...props}
+                  >
+                    <div className="search w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                      <Icons.search className="h-4 w-4 fill-current" />
                     </div>
-                    <div className="space-y-1">
-                      <Label htmlFor="username">Username</Label>
-                      <Input id="username" defaultValue="@peduarte" />
+                    <span className="hidden w-auto lg:inline-flex">
+                      Search wallets and social medias to hackIn
+                    </span>
+                    <div className="chatgpt w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                      <Icons.chatgpt className="h-4 w-4 fill-current" />
                     </div>
-                  </CardContent>
-                  <CardFooter>
-                    <Button>Save changes</Button>
-                  </CardFooter>
-                </Card>
+                    <div className="mic">
+                      <Icons.mic className="h-4 w-4 fill-current" />
+                    </div>
+                    <div className="media w-[30] h-[30px] flex items-center justify-center rounded-xl border">
+                      <Icons.media className="h-4 w-4 fill-current" />
+                    </div>
+                    {/* <kbd className="pointer-events-none absolute right-1.5 top-1.5 flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100">
+                      <span className="text-xs">S</span>
+                    </kbd> */}
+                  </Button>
+                  <CommandDialog open={open} onOpenChange={setOpen}>
+                    <CommandInput placeholder="Type a command or search..." />
+                    <CommandList>
+                      <CommandEmpty>No results found.</CommandEmpty>
+                      <CommandGroup heading="Links">
+                        {docsConfig.mainNav
+                          .filter((navitem) => !navitem.external)
+                          .map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <FileIcon className="mr-2 h-4 w-4" />
+                              {navItem.title}
+                            </CommandItem>
+                          ))}
+                      </CommandGroup>
+                      {/* {docsConfig.sidebarNav.map((group) => (
+                        <CommandGroup key={group.title} heading={group.title}>
+                          {group.items.map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <div className="mr-2 flex h-4 w-4 items-center justify-center">
+                                <CircleIcon className="h-3 w-3" />
+                              </div>
+                              {navItem.title}
+                            </CommandItem>
+                          ))}
+                        </CommandGroup>
+                      ))} */}
+                      <CommandSeparator />
+                      <CommandGroup heading="Theme">
+                        <CommandItem
+                          onSelect={() => runCommand(() => setTheme("light"))}
+                        >
+                          <SunIcon className="mr-2 h-4 w-4" />
+                          Light
+                        </CommandItem>
+                        <CommandItem
+                          onSelect={() => runCommand(() => setTheme("dark"))}
+                        >
+                          <MoonIcon className="mr-2 h-4 w-4" />
+                          Dark
+                        </CommandItem>
+                        <CommandItem
+                          onSelect={() => runCommand(() => setTheme("system"))}
+                        >
+                          <LaptopIcon className="mr-2 h-4 w-4" />
+                          System
+                        </CommandItem>
+                      </CommandGroup>
+                    </CommandList>
+                  </CommandDialog>
+                </div>
+                {/* Emain and Password */}
+                <div className="email-and-password">
+                  <Input
+                    placeholder="Enter your Email"
+                    value={value}
+                    type="email"
+                    variant="bordered"
+                    color={validationState === "invalid" ? "danger" : "success"}
+                    errorMessage={
+                      validationState === "invalid" &&
+                      "Please enter a valid email"
+                    }
+                    validationState={validationState}
+                    onValueChange={setValue}
+                    className="max-w-xs"
+                    onClear={() => console.log("input cleared")}
+                    isClearable
+                  />
+                  <Input
+                    variant="bordered"
+                    placeholder="Enter your password"
+                    endContent={
+                      <button
+                        className="focus:outline-none"
+                        type="button"
+                        onClick={toggleVisibility}
+                      >
+                        {isVisible ? (
+                          <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                        ) : (
+                          <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                        )}
+                      </button>
+                    }
+                    type={isVisible ? "text" : "password"}
+                    className="max-w-xs"
+                    isClearable
+                  />
+                </div>
               </TabsContent>
               <TabsContent value="hackUp">
                 <Card>
@@ -326,78 +442,3 @@ export default function Hack() {
     </div>
   )
 }
-
-// <Dialog>
-// <DialogTrigger asChild>
-//   <div
-//     onClick={() => setFluidSimulation(true)}
-//     className={cn(
-//       buttonVariants({
-//         variant: "ghost",
-//       }),
-//       "nav-toggles social-media w-9 px-0"
-//     )}
-//   >
-//     {fluidSimulation ? (
-//       <>
-//         <canvas className="fluid-simulation-container"></canvas>
-//         <Script src="dat-gui.js" />
-//         <Script src="script.js" />
-//         <Script>
-//           {`window.ga =
-//         window.ga ||
-//         function () {
-//           ;(ga.q = ga.q || []).push(arguments)
-//         }
-//       ga.l = +new Date()
-//       ga("create", "UA-105392568-1", "auto")
-//       ga("send", "pageview")`}
-//         </Script>
-//       </>
-//     ) : (
-//       ""
-//     )}
-
-//     <Icons.hack className="h-4 w-4 fill-current" />
-//   </div>
-// </DialogTrigger>
-// <DialogContent className="hack flex items-center rounded-md p-3">
-//   <Tabs defaultValue="hackIn" className="w-full ">
-//     <TabsList className="mx-auto grid w-full grid-cols-2">
-//       <TabsTrigger value="hackIn">HackIn</TabsTrigger>
-//       <TabsTrigger value="hackUp">HackUp</TabsTrigger>
-//     </TabsList>
-//     <TabsContent value="hackIn">
-//       <div
-//         className="close-fluid-simulation"
-//         onClick={() => setFluidSimulation(false)}
-//       >
-//         close-fluid-simulation
-//       </div>
-//     </TabsContent>
-//     <TabsContent value="hackUp">
-//       <Card>
-//         <CardHeader>
-//           <CardTitle>HackUp</CardTitle>
-//           <CardDescription>
-//             Change your password here. After saving, youll be logged out.
-//           </CardDescription>
-//         </CardHeader>
-//         <CardContent className="space-y-2">
-//           <div className="space-y-1">
-//             <Label htmlFor="current">Current password</Label>
-//             <Input id="current" type="password" />
-//           </div>
-//           <div className="space-y-1">
-//             <Label htmlFor="new">New password</Label>
-//             <Input id="new" type="password" />
-//           </div>
-//         </CardContent>
-//         <CardFooter>
-//           <Button>Save password</Button>
-//         </CardFooter>
-//       </Card>
-//     </TabsContent>
-//   </Tabs>
-// </DialogContent>
-// </Dialog>

@@ -19,7 +19,8 @@ import { Alert, AlertDescription, AlertTitle, Toaster } from "@/components/ui"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
-import { Providers } from "./provider"
+import { Nextui } from "./nextui"
+import { Redux } from "./redux"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
@@ -93,12 +94,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Providers>
-              <main className="flex-1">
-                <SiteLayout />
-                {children}
-              </main>
-            </Providers>
+            <Redux>
+              <Nextui>
+                <main className="flex-1">
+                  <SiteLayout />
+                  {children}
+                </main>
+              </Nextui>
+            </Redux>
           </ThemeProvider>
           <Script src="script.js" strategy="beforeInteractive" />
         </body>

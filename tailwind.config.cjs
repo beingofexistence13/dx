@@ -1,10 +1,15 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme")
 const { fontFamily } = require("tailwindcss/defaultTheme")
+const { nextui } = require("@nextui-org/react")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
+  content: [
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -73,10 +78,11 @@ module.exports = {
       },
     },
     screens: {
-      '2xs': {'max': '400px'},
-      'xs': {'min': '400px','max': '640px'},
+      "2xs": { max: "400px" },
+      xs: { min: "400px", max: "640px" },
       ...defaultTheme.screens,
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  darkMode: "class",
+  plugins: [require("tailwindcss-animate"), nextui()],
 }
