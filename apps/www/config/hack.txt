@@ -11924,15 +11924,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
       
-
-
-
-
-
-
-
-
-        
         {
           title: "Spot",
           href: "docs/blockchains(solana-wallets)/spot",
@@ -12530,13 +12521,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
       
-
-
-
-
-
-
-
         {
           title: "Omni",
           href: "docs/hack(cosmos-wallets)/omni",
