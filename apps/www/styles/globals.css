@@ -49,6 +49,7 @@ html {
 
     --radius: 0.5rem;
 
+    /* --chatgpt: rgb(0, 0, 0) (255, 0, 0); */
     --code: rgb(0, 0, 0) (255, 0, 0);
     --code-foreground: #f4f4f5;
     --code--highlighted: rgb(240, 240, 240);
@@ -376,17 +377,16 @@ canvas {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+svg {
+
+  max-width: 35px !important;
+  max-height: 35px !important;
+}
 
 
-
-
-
-
-
-
-svg{
-  fill: yellow !important;
+.chatgpt {
+  fill: red !important;
   color: red !important;
-  max-width: 24px !important;
-  max-height: 24px !important;
+  max-width: 25px !important;
+  max-height: 25px !important;
 }
