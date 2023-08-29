@@ -243,24 +243,25 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   align-items: center;
   justify-content: center;
 }
-
-.navbar button,
+.nav-toggles,
 .navbar .docs,
 .navbar .social-media,
-.navbar ul * {
+.navbar ul:hover,
+.navbar ul li,
+.navbar ul,
+.navbar ul a {
   background: transparent !important;
 }
-
-.navbar button:hover,
+.nav-toggles:hover,
 .navbar .social-media:hover,
 .navbar .docs:hover,
 .navbar ul li:hover {
-  background: rgba(255, 255, 255, 0) !important;
   box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px !important;
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
 .navbar a.docs {
@@ -344,12 +345,12 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 .devMode-content {
   z-index: 100000000000;
 }
-.hack {
+/* .hack {
   width: 380px !important;
-}
-.hack svg {
+} */
+/* .hack svg {
   display: none !important;
-}
+} */
 /* .backdrop-blur-sm {
   display: none !important;
 } */
@@ -368,10 +369,9 @@ canvas {
 }
 
 .glassmorphisum {
-  background: rgba( 255, 255, 255, 0 );
-  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }

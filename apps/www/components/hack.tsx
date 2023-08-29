@@ -191,14 +191,14 @@ export default function Hack() {
           buttonVariants({
             variant: "ghost",
           }),
-          "nav-toggles social-media w-9 px-0"
+          "  w-9 px-0"
         )}
       >
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
       {fluidSimulation ? (
-        <div className="glassmorphisum fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
-          <div className="hack-container glassmorphisum flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
+        <div className=" fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
+          <div className="hack-container p-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-auto">
             <div
               // className={cn(
               //   buttonVariants({
@@ -210,18 +210,12 @@ export default function Hack() {
             >
               <Icons.close className="h-4 w-4 fill-current" />
             </div>
-            <Tabs defaultValue="hackIn" className="w-full p-5">
+            {/* <Tabs defaultValue="hackIn" className="w-full p-5">
               <TabsList className="mx-auto grid w-full grid-cols-2 h-[50px] px-2 py-0">
                 <TabsTrigger value="hackIn-tab min-h-full p-0">HackIn</TabsTrigger>
                 <TabsTrigger value="hackUp-tab min-h-full p-0">HackUp</TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
-                {/* <div
-                    className="close-fluid-simulation"
-                    onClick={() => setFluidSimulation(false)}
-                  >
-                    close-fluid-simulation
-                  </div> */}
                 <Card>
                   <CardHeader>
                     <CardTitle>HackIn</CardTitle>
@@ -242,6 +236,60 @@ export default function Hack() {
                   </CardContent>
                   <CardFooter>
                     <Button>Save password</Button>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+              <TabsContent value="hackUp">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>HackUp</CardTitle>
+                    <CardDescription>
+                      Change your password here. After saving, youll be logged
+                      out.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    <div className="space-y-1">
+                      <Label htmlFor="current">Current password</Label>
+                      <Input id="current" type="password" />
+                    </div>
+                    <div className="space-y-1">
+                      <Label htmlFor="new">New password</Label>
+                      <Input id="new" type="password" />
+                    </div>
+                  </CardContent>
+                  <CardFooter>
+                    <Button>Save password</Button>
+                  </CardFooter>
+                </Card>
+              </TabsContent>
+            </Tabs> */}
+            <Tabs defaultValue="hackIn" className="w-full">
+              <TabsList className="mx-auto grid w-full grid-cols-2 ">
+                <TabsTrigger value="hackIn">HackIn</TabsTrigger>
+                <TabsTrigger value="hackUp">HackUp</TabsTrigger>
+              </TabsList>
+              <TabsContent value="hackIn">
+                <Card>
+                  <CardHeader>
+                    <CardTitle>HackIn</CardTitle>
+                    <CardDescription>
+                      Make changes to your account here. Click save when youre
+                      done.
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    <div className="space-y-1">
+                      <Label htmlFor="name">Name</Label>
+                      <Input id="name" defaultValue="Pedro Duarte" />
+                    </div>
+                    <div className="space-y-1">
+                      <Label htmlFor="username">Username</Label>
+                      <Input id="username" defaultValue="@peduarte" />
+                    </div>
+                  </CardContent>
+                  <CardFooter>
+                    <Button>Save changes</Button>
                   </CardFooter>
                 </Card>
               </TabsContent>

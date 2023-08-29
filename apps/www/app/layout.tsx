@@ -100,7 +100,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </main>
             </Providers>
           </ThemeProvider>
-          <Script src="script.js" strategy="lazyOnload" />
+          <Script src="script.js" strategy="beforeInteractive" />
         </body>
       </html>
     </>
