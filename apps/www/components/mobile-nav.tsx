@@ -1,11 +1,8 @@
 "use client"
 
 import * as React from "react"
-import Image from "next/image"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-import { ViewVerticalIcon } from "@radix-ui/react-icons"
-
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
 import { siteConfig } from "@/config/site"

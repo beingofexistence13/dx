@@ -382,13 +382,15 @@ canvas {
   max-width: 35px !important;
   max-height: 35px !important;
 } */
-svg {
+.hack-container svg {
   color: var(--code) !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
 }
 
 .chatgpt svg {
   fill: var(--code) !important;
   color: var(--code) !important;
-  max-width: 20px !important;
-  max-height: 20px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
 }
