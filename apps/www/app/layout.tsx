@@ -1,24 +1,11 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
-import { Terminal } from "lucide-react"
-import { useSelector } from "react-redux"
-
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
-import { Analytics } from "@/components/analytics"
-import { DevMode } from "@/components/devMode"
-import { HelloTool } from "@/components/hello-tool"
 import { ThemeProvider } from "@/components/providers"
-import { SiteFooter } from "@/components/site-footer"
-import { SiteHeader } from "@/components/site-header"
 import SiteLayout from "@/components/site-layout"
-import { TailwindIndicator } from "@/components/tailwind-indicator"
-import { Alert, AlertDescription, AlertTitle, Toaster } from "@/components/ui"
-import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
-import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
-
 import { Nextui } from "./nextui"
 import { Redux } from "./redux"
 
@@ -93,16 +80,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Redux>
-              <Nextui>
+          <Nextui>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+              <Redux>
                 <main className="flex-1">
                   <SiteLayout />
                   {children}
                 </main>
-              </Nextui>
-            </Redux>
-          </ThemeProvider>
+              </Redux>
+            </ThemeProvider>
+          </Nextui>
           <Script src="script.js" strategy="beforeInteractive" />
         </body>
       </html>

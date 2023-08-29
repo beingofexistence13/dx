@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
+import { Button } from "@nextui-org/button"
 import { Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import {
@@ -38,7 +39,6 @@ import {
   AvatarFallback,
   AvatarImage,
   Badge,
-  Button,
   Calendar,
   Card,
   CardContent,
@@ -237,7 +237,7 @@ export default function Hack({ ...props }: DialogProps) {
       </div>
       {fluidSimulation ? (
         <div className=" fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
-          <div className="hack-container py-3 flex flex-col items-center justify-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-[500px] space-y-3">
+          <div className="hack-container py-3 flex flex-col items-center border rounded-md max-w-[90%] w-[500px] z-[100000000000000000000] h-[500px] space-y-3">
             {/* <div
               className={cn(
                 buttonVariants({
@@ -291,12 +291,12 @@ export default function Hack({ ...props }: DialogProps) {
               <TabsContent value="hackIn">
                 {/* HackIn Search */}
                 <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
-                  <div
-                    className="text-sm text-muted-foreground flex items-center space-x-2 w-full p-1"
-                    onClick={() => setOpen(true)}
-                    {...props}
-                  >
-                    <div className="search w-[30] h-[30px] flex items-center justify-center rounded-xl border ">
+                  <div className="text-sm text-muted-foreground flex items-center space-x-2 w-full px-5">
+                    <div
+                      onClick={() => setOpen(true)}
+                      {...props}
+                      className="search w-[30] h-[30px] flex items-center justify-center rounded-xl border "
+                    >
                       <Icons.search className="h-4 w-4 fill-current" />
                     </div>
                     <span className="flex-1 w-full ">
@@ -379,7 +379,8 @@ export default function Hack({ ...props }: DialogProps) {
                   </CommandDialog>
                 </div>
                 {/* Emain and Password */}
-                {/* <div className="email-and-password">
+                {/* <div className="
+                email-and-password">
                   <Input
                     placeholder="Enter your Email"
                     value={value}
@@ -417,6 +418,7 @@ export default function Hack({ ...props }: DialogProps) {
                     isClearable
                   />
                 </div> */}
+                {/* <Button color="danger">Danger</Button> */}
               </TabsContent>
               <TabsContent value="hackUp">
                 <Card>
