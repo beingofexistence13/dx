@@ -130,7 +130,10 @@ export function HelloTool() {
       {/* Users */}
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/chainswap-x-force-by-deadpool.jpeg" alt="@shadcn" />
+          <AvatarImage
+            src="/chainswap-x-force-by-deadpool.jpeg"
+            alt="@shadcn"
+          />
           <AvatarFallback>10</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">

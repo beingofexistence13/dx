@@ -19,7 +19,9 @@ export function NavigationMenuDropdown() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Products</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="nav-toggles">
+            Products
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid h-[500px] w-[400px] gap-3 overflow-x-scroll p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {products.map((component) => (
@@ -36,7 +38,9 @@ export function NavigationMenuDropdown() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Features</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="nav-toggles">
+            Features
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -69,7 +73,9 @@ export function NavigationMenuDropdown() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>More</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="nav-toggles">
+            More
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {more.map((component) => (

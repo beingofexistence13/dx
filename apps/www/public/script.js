@@ -109,12 +109,12 @@ if (canvas) {
       formatR = getSupportedFormat(gl, gl.RGBA, gl.RGBA, halfFloatTexType)
     }
 
-    ga(
-      "send",
-      "event",
-      isWebGL2 ? "webgl2" : "webgl",
-      formatRGBA == null ? "not supported" : "supported"
-    )
+    // ga(
+    //   "send",
+    //   "event",
+    //   isWebGL2 ? "webgl2" : "webgl",
+    //   formatRGBA == null ? "not supported" : "supported"
+    //)
 
     return {
       gl,

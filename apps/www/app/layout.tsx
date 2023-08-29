@@ -1,5 +1,6 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
+import Script from "next/script"
 import { Terminal } from "lucide-react"
 import { useSelector } from "react-redux"
 
@@ -87,7 +88,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
+            "min-h-screen bg-background font-sans antialiased overflow-hidden",
             fontSans.variable
           )}
         >
@@ -99,6 +100,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </main>
             </Providers>
           </ThemeProvider>
+          <Script src="script.js" strategy="beforeInteractive" />
         </body>
       </html>
     </>
