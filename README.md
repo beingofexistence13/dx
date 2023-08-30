@@ -1,7 +1,11 @@
 # Dx!!!
 
+
+
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/logo.svg" width="160"/>
+<a href="https://dx-black.vercel.app/">
+    <img src="https://github.com/beingofexistence/dx/blob/master/logo.svg" width="300"/>
+</a>
 </div>
 
 # OpenSource Cloning / Stealling
@@ -14,9 +18,7 @@ So, moral of this story no.. of this descritption.. I mean Novel stated above is
 and Dx is one of the most precius one!!!(LOL)
 
 <!-- # beingofexistence/dx # inspirations folder problem solved
-<a href="https://dx-black.vercel.app/">
 
-</a>
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 ![hero](apps/www/public/og.jpg) -->
 
