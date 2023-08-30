@@ -90,7 +90,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Redux>
             </ThemeProvider>
           </Nextui>
-          <Script src="script.js" strategy="beforeInteractive" />
+          {/* <Script src="script.js" strategy="beforeInteractive" /> */}
         </body>
       </html>
     </>
