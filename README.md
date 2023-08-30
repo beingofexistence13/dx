@@ -1,13 +1,11 @@
 # Dx!!!
 
 <div align="center">
-<a href="https://dx-emon-sumon-shohan.vercel.app/">
     <img src="https://cdn.jsdelivr.net/gh/beingofexistence/dx/logo.svg" width="160"/>
-</a>
 </div>
 
 # OpenSource Cloning / Stealling
-Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes data fetced automaticlly and this repoes is used probably in the best way possible after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer ---> DX Native -I know such a uniqe name\I know I best at naming things\[And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
+Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer ---> DX Native -I know such a uniqe name\I know I best at naming things\[And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
 And many things are already maded by cool programmers.I can make it but it will littery take me months doing so.Most imporatant thing is that I donot like to build the wheel again and again in this way nothing is going to be better cause we donot live 
 forever.But if you thing that this is unfair then look up to 
 inspirations
@@ -16,7 +14,9 @@ So, moral of this story no.. of this descritption.. I mean Novel stated above is
 and Dx is one of the most precius one!!!(LOL)
 
 <!-- # beingofexistence/dx # inspirations folder problem solved
+<a href="https://dx-black.vercel.app/">
 
+</a>
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 ![hero](apps/www/public/og.jpg) -->
 
