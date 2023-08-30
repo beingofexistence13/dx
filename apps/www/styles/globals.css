@@ -411,3 +411,7 @@ canvas {
   background-color: transparent !important;
   color: transparent !important;
 }
+*{
+user-select: none !important;
+
+}

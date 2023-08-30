@@ -87,6 +87,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   <SiteLayout />
                   {children}
                 </main>
+                <Script src="./script.js"/>
               </Redux>
             </ThemeProvider>
           </Nextui>

@@ -233,9 +233,12 @@ export default function Hack({ ...props }: DialogProps) {
       >
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
-      <Script id="fluid-simulation">
-        {`"use strict"
+      {/* <Script id="testing">
+        {`console.log("Next script op bolta")`}
+      </Script> */}
 
+      {/* <Script id="fluid-simulation">
+        {`
 const canvas = document.querySelector(".fluid-simulation-container")
 
 if (canvas) {
@@ -2018,14 +2021,13 @@ if (canvas) {
   console.log("There is no canvas")
 }
 
-console.log("Hello Ui page!!!")
-`}
-      </Script>
+console.log("Hello Ui page!!!")`}
+      </Script> */}
 
       {fluidSimulation ? (
         <div className="fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center min-h-screen min-w-full">
           <canvas className="fluid-simulation-container"></canvas>
-          <div className="hack-container pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] z-[100000000000000000000] space-y-3 h-auto">
+          <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] z-[100000000000000000000] space-y-3 h-auto">
             <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
               <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                 <Icons.circleDashed className="h-4 w-4 fill-current" />
