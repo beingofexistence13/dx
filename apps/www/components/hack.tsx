@@ -383,7 +383,7 @@ export default function Hack({ ...props }: DialogProps) {
                   {docsConfig.passport.map((item, index) => (
                     <div
                       key={index}
-                      className="items-logo-container h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                      className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
                     >
                       <Avatar className="h-[27px] w-[27px] rounded-sm">
                         <AvatarImage
@@ -417,7 +417,7 @@ export default function Hack({ ...props }: DialogProps) {
                   {docsConfig.wallet.map((item, index) => (
                     <div
                       key={index}
-                      className="items-logo-container h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                      className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
                     >
                       <Avatar className="h-[27px] w-[27px] rounded-sm">
                         <AvatarImage

@@ -228,7 +228,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 
 .navbar {
-  animation: ranbow-glow 10s linear infinite;
+  /* animation: ranbow-glow 10s linear infinite; */
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
@@ -269,7 +269,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   height: 50px;
   width: 50px;
 }
-
+/* 
 @keyframes ranbow-glow {
   0%,
   100% {
@@ -279,7 +279,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   50% {
     filter: hue-rotate(360deg);
   }
-}
+} */
 
 .devMode {
   animation: ranbow-glow 10s linear infinite;
@@ -395,9 +395,16 @@ canvas {
   max-height: 16px !important;
 }
 
-.hack-container *,.hackIn-connect-container,.hackIn-connect-container *{
+/* .hack-container *,.hackIn-connect-container,.hackIn-connect-container *{
   animation: none !important;
   box-shadow: none !important;
   background-color: transparent !important;
-  /* color: transparent !important; */
+  color: transparent !important;
+} */
+.hack-container span img{
+  /* display: none; */
+  animation: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  color: transparent !important;
 }
