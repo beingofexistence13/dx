@@ -6,8 +6,8 @@
 </a>
 </div>
 
-# OpenSource Cloning / Stealing
-Dx has used mnany other opensource github repoes in it.This is not waste of time cause that repoes data fetced automaticlly and this repoes is used probably in best after their repective owerns.I used other repoes cause Dx aims to do a lot of things.
+# OpenSource Cloning / Stealling
+Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes data fetced automaticlly and this repoes is used probably in the best way possible after their repective owerns.I used other repoes cause Dx aims to do a lot of things around besides up down and every way WWW INTERNET stuffts(not native cause that problem has its own solution guess the uniqe would be,,,okay okay.. donot bottheer ---> DX native -I know such a uniqe name\I know I am genius and best at naming thigs\[And I am too lazy so donot expect me to put logo or link to that website here]).
 And somethings are already maded by cool programmers.I can make it but it will littery take me months doing so.Most imporatant thing is that I donot like to build the wheel again and again in this way nothing is going to be better cause we donot live 
 forever.But if you thing that this is unfair then look up to 
 inspirations
@@ -15,11 +15,11 @@ folder and delete your respective reposetry to gain access to your own products!
 So, moral of this story no.. of this descritption.. I mean Novel stated above is --- OpenSource conrtibution is good for your health(Donot ask me how??)
 and helping Dx is one of the most precius one!!!(LOL)
 
-<!-- # beingofexistence/dx -->
-# inspirations folder problem solved
+<!-- # beingofexistence/dx # inspirations folder problem solved
 
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
-![hero](apps/www/public/og.jpg)
+![hero](apps/www/public/og.jpg) -->
+
 
 ## Documentation
 
