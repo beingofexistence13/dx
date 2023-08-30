@@ -240,7 +240,7 @@ export default function Hack({ ...props }: DialogProps) {
       {fluidSimulation ? (
         <div className="fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center min-h-screen min-w-full">
           <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./script.js" />
+          <Script src="./fluid-simulation.js" />
 
           <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] z-[100000000000000000000] space-y-3 h-auto">
             <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
