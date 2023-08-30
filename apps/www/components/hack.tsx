@@ -396,7 +396,7 @@ export default function Hack({ ...props }: DialogProps) {
                           }
                           alt="Dx"
                         />
-                        <AvatarFallback>
+                        <AvatarFallback className="glassmorphisum">
                           {item.title ? logoLetter(item.title) : "Dx"}
                         </AvatarFallback>
                       </Avatar>
@@ -419,7 +419,7 @@ export default function Hack({ ...props }: DialogProps) {
                       key={index}
                       className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
                     >
-                      <Avatar className="glassmorphisum h-[27px] w-[27px] rounded-sm">
+                      <Avatar className="h-[27px] w-[27px] rounded-sm">
                         <AvatarImage
                           src={
                             item.logo
@@ -430,7 +430,7 @@ export default function Hack({ ...props }: DialogProps) {
                           }
                           alt="Dx"
                         />
-                        <AvatarFallback>
+                        <AvatarFallback className="glassmorphisum">
                           {item.title ? logoLetter(item.title) : "Dx"}
                         </AvatarFallback>
                       </Avatar>
