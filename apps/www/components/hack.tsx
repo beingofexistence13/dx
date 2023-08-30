@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
-// import { Button } from "@nextui-org/button"
 import { Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
@@ -227,20 +226,12 @@ export default function Hack({ ...props }: DialogProps) {
 
   return (
     <div>
-      <div
-        onClick={() => setFluidSimulation(true)}
-        className={cn(
-          buttonVariants({
-            variant: "ghost",
-          }),
-          "  w-9 px-0"
-        )}
-      >
+      <div onClick={() => setFluidSimulation(true)} className="nav-toggles h-[35px] w-[35px] flex items-center justify-center">
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
       {fluidSimulation ? (
         <div className=" fixed top-0 left-0 flex items-center justify-center min-h-screen min-w-full p-10 ">
-          <div className="hack-container py-3.5 px-1 flex flex-col items-center border rounded-md max-w-[90%] w-[450px] z-[100000000000000000000] h-[500px] space-y-3 ">
+          <div className="hack-container pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[90%] w-[425px] z-[100000000000000000000] h-[500px] space-y-3 h-auto">
             {/* <div
               className={cn(
                 buttonVariants({
@@ -265,7 +256,10 @@ export default function Hack({ ...props }: DialogProps) {
               <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                 <Icons.hackSetting className="h-4 w-4 fill-current" />
               </div>
-              <div className="close h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+              <div
+                onClick={() => setFluidSimulation(false)}
+                className="close h-[35px] w-[35px] flex items-center justify-center rounded-full border"
+              >
                 <Icons.close className="h-4 w-4 fill-current" />
               </div>
             </div>
@@ -286,7 +280,7 @@ export default function Hack({ ...props }: DialogProps) {
                       <Icons.search className="h-4 w-4 fill-current" />
                     </div>
                     <span className="flex-1 w-full ">
-                      Search wallets and social medias
+                      wallets & social medias
                     </span>
                     <div className="chatgpt  flex items-center justify-center rounded-full border p-2">
                       <Icons.chatgpt className="h-4 w-4 fill-current" />
@@ -320,26 +314,6 @@ export default function Hack({ ...props }: DialogProps) {
                             </CommandItem>
                           ))}
                       </CommandGroup>
-                      {/* {docsConfig.sidebarNav.map((group) => (
-                        <CommandGroup key={group.title} heading={group.title}>
-                          {group.items.map((navItem) => (
-                            <CommandItem
-                              key={navItem.href}
-                              value={navItem.title}
-                              onSelect={() => {
-                                runCommand(() =>
-                                  router.push(navItem.href as string)
-                                )
-                              }}
-                            >
-                              <div className="mr-2 flex h-4 w-4 items-center justify-center">
-                                <CircleIcon className="h-3 w-3" />
-                              </div>
-                              {navItem.title}
-                            </CommandItem>
-                          ))}
-                        </CommandGroup>
-                      ))} */}
                       <CommandSeparator />
                       <CommandGroup heading="Theme">
                         <CommandItem
@@ -405,7 +379,7 @@ export default function Hack({ ...props }: DialogProps) {
                   />
                 </div> */}
                 {/* Social Media */}
-                <div className="h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
+                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
                   {docsConfig.passport.map((item, index) => (
                     <div
                       key={index}
@@ -439,7 +413,7 @@ export default function Hack({ ...props }: DialogProps) {
                   <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                 </div>
                 {/* Wallet */}
-                <div className="h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
+                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
                   {docsConfig.wallet.map((item, index) => (
                     <div
                       key={index}
