@@ -1,0 +1,653 @@
+/* @import url(./variables.css); */
+@import url(../../variable.css);
+
+
+
+
+
+
+/* Main Css Start */
+.mobile_landscaper{
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: bold;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    width: 100%;
+    height: 100%;
+    
+    
+    z-index: 1000;
+}
+.pnt_it1 ion-icon[name="close"],
+#pnt_it5 ion-icon[name="sunny"] {
+    display: none;
+}
+/* .navbar ul::before,
+.navbar ul::after {
+    
+    animation: hue_rotate 20s linear infinite;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+    background-size: 400%;
+    border-radius: 15px;
+    
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;    
+} */
+
+#navbar,
+.navbar {
+
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border-color);
+    background: var(--glass-bg);
+
+    height: var(--navbar-h);
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding: 0 3%;
+    
+    z-index: 100;
+}
+
+#navbar_ul,
+.navbar_ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+    
+
+    height: 75px;
+    min-width: 100%;
+
+    z-index: 100;
+    
+}
+
+.navbar_left,
+.navbar_center,
+.navbar_right{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 3%;
+    
+    /* height: 80px; */
+    width: 100%;
+}
+.navbar_right{
+    
+    justify-content: right;
+    /* background: red; */
+    
+}    
+.navbar_left{
+    
+    justify-content: left;
+    /* background: red; */
+    column-gap: 2.5%;
+}    
+
+.pnt_li,.navbar_li{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.pnt_it,
+.navbar_li_div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--primary-bg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 35px;
+    width: 35px;
+
+}
+#pnt_it5.active ion-icon[name="sunny"] {
+    display: block;
+}
+
+#pnt_it5.active ion-icon[name="moon"] {
+    display: none;
+}
+.pnt_it1.active ion-icon[name="close"] {
+    display: block;
+}
+
+.pnt_it1.active ion-icon[name="menu"] {
+    display: none;
+}
+
+#navbar .btn {
+
+    border: var(--border-color);
+
+}
+.menu-nav{
+    border-radius: 20px;
+}
+/* Main Css End */
+
+
+
+    /* Notifications */
+    .notifications-container {
+        display: none;
+    }
+    .notifications-container.show {
+        display: grid;
+        background: var(--primary-bg);
+        position: relative;
+        top: 70px;
+        right: 0;
+        margin-inline: auto;
+        z-index: 10000;
+    }
+    .notifications-container.show .drop__card {
+        background: var(--primary1o1-bg);
+    }
+    .notifications-toggler.close ion-icon[name="notifications"] {
+        display: none;
+    }
+    .notifications-toggler.close ion-icon[name="close"] {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New starting!!! */
+
+.blockchain_balance_nav,
+.blockchain_address_nav {
+    
+    /* background: green; */
+    display: grid;
+    grid: 1fr / 1fr 2fr 1fr;
+    place-items: center;
+    border-radius: 10px;
+    border: var(--border-color-sm);
+    padding: 10px;
+    
+    height: 50px;
+    width: 200px;
+    display: none;
+    
+}
+.blockchain_address_wallet,
+.blockchain_provider_name{
+    
+    background: #0015FF;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 15px;
+    width: 15px;
+    
+}
+.blockchain_balance,
+.blockchain_address,.blockchain_address{
+    
+    white-space: nowrap;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+}
+.blockchain_address_network{
+    
+    background: #00FF9C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 12px;
+    width: 12px;
+}
+.logo_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.logo {
+
+    height: 35px;
+    width: 35px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.logo_text {
+
+    font-size: 900px;
+    font-style: bold;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+/* All childrens */
+.navbar_list{
+    
+    position: relative;
+    
+}
+.navbar_list:hover {
+    border-radius: 15px;
+    
+}
+.navbar_list:hover > *{
+    border-radius: 15px;
+}
+.navbar_list:hover>*::before,
+.navbar_list:hover>*::after {
+    
+    animation: hue_rotate 20s linear infinite;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+    background-size: 400%;
+    border-radius: 15px;
+    
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;    
+}
+
+@keyframes hue_rotate{
+    0%{
+        background-position: 0 0;
+        
+    }
+    50%{
+        background-position: 400% 0;
+        
+    }
+    100%{
+        background-position: 0 0;
+        
+    }
+    
+}
+.navbar_list:hover>*::after{
+    
+    filter: blur(30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mobile */
+.add_list,.search_list,.logo_container{
+    display: none;
+}
+.web3 > *{
+    max-width: 119px;
+    border: none;
+    height: 40px;
+    display: grid;
+}
+
+.web3{
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: var(--border-color-sm);
+    flex-direction: column;
+    
+    height: 40px;
+    width: 120px;
+    
+}
+.pnt_it{
+    max-height: 40px;
+    max-width: 40px 
+}
+
+
+
+
+
+/* Desktop */
+@media(min-width:900px) {
+    .mobile_landscaper{
+        
+        display: none;
+    }
+    
+    
+    .notifications-container {
+        display: none;
+        position: fixed;
+        top: 70px;
+        right: 55px;
+        margin: 0;
+    }
+    .notifications-container.show {
+        display: grid;
+        background: var(--primary-bg);
+        position: fixed;
+        top: 70px;
+        left: 80px;
+        margin: 0;
+        z-index: 10;
+    }
+    .notifications-container.show .drop__card {
+        background: var(--primary1o1-bg);
+    }
+    #navbar,
+    .navbar {
+        height: 90px;
+    }
+    .pc {
+        display: block;
+    }
+    .mb {
+        display: none;
+    }
+    #pnt-lg {
+        
+        width: 40px;
+        height: 40px;
+    }
+    #pnt-lg img {
+        height: 30px;
+        width: 30px;
+    }    
+    #navbar_ul,
+    .navbar_ul {
+        display: grid;
+        grid: 1fr / 1.5fr auto 1.5fr;
+        position: relative;
+    }
+    .web3{
+        
+        display: none;
+    }
+    .blockchain_balance_nav,
+    .blockchain_address_nav{
+        display: grid;
+    }
+    .pnt_it{
+        min-height: 50px;
+        min-width: 50px 
+    }
+    .add_list,.search_list,.logo_container{
+        display: block;
+    }
+    .logo_container{
+        display: flex;
+    }
+    .navbar{
+        
+        z-index: 10000;
+    }
+    
+
+}
+
+
+@media(min-width:360px) and (max-width:900px){
+    .N{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: red;
+        
+        padding: 0 10px;
+        height: 60px;
+        
+        
+        min-width: 360px;
+    }
+    .navbar_ul{
+        
+        /* background: red; */
+        
+        display: grid;
+        grid: 150px 50px 150px;
+        
+        max-height: 50px;
+        width: 100%;
+    }
+    .navbar_left{
+       min-width: 150px;
+    }
+    .navbar_center{
+        
+        width: 50px;
+        
+    }
+    .navbar_right{
+        
+        width: 150px;
+        
+    }
+    .navbar_ul > *{
+        
+        /* border: 1px solid #0015FF; */
+        
+        height: 100%;
+        
+    }
+    
+}
+
+
+.menu_list > *{
+    
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.player_banner,.profile_banner{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 150px;
+    /* height: 35px; */
+}
+/* .player_banner::before,
+.player_banner::after {
+    
+    
+    animation: hue_rotate 20s linear infinite;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+    background-size: 400%;
+    border-radius: 15px;
+    
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;    
+    z-index: 5;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NT {
+    
+    opacity: 0;
+    visibility: hidden;
+    background: #2A2A2F;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-1px);
+    transition: all 0.5s linear;
+
+    position: absolute;
+    top: 75px;
+    right: -25%;
+
+    padding: 15px;
+    margin-bottom: 50px;
+
+    min-width: 70px;
+    min-height: 25px;
+    
+    
+    display: none;
+    
+    z-index: 10000;
+}
+
+.pnt_li:hover .NT {
+
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.pnt_li:hover .NT::before {
+
+    content: "";
+    background: #2A2A2F;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    left: 30%;
+    top: -2px;
+    transform: rotate(45deg) translateY(-50%);
+
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media (orientation: landscape) {
+
+
+    .mobile_landscaper{
+        
+        display: none;
+    }
+
+
+}
+
+
+                                                                                                                                        

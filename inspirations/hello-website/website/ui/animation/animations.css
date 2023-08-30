@@ -1,0 +1,63 @@
+@import url(./variables.css);
+
+/* #pnt_it1:hover{
+    
+    background: red;
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 50px;
+    width: 50px;
+} */
+
+#pnt_it1.active ion-icon[name="menu"]{
+    
+    display: none;
+}
+#pnt_it1.active ion-icon[name="close"]{
+    
+
+    display: block;
+}
+
+
+
+/* #pnt_it1:hover ion-icon[name="menu"]{
+    
+    background: red;
+    display: none;
+} */
+/* #pnt_it1:hover ion-icon[name="close"]{
+    
+    background: red;
+    display: none;
+    display: block;
+} */
+
+
+
+
+
+#pnt_it4:hover{
+    
+    /* background: red; */
+    
+}
+@keyframes menuPopup {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% { transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+}

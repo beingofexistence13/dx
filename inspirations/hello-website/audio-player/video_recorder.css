@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Averia Serif Libre", cursive;
+  background-color: var(--third);
+}
+
+:root {
+  --color: #303f9f;
+  --third: #5c6bc0;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--color);
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+}
+nav h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+button,
+a {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.8rem;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+  background-color: var(--color);
+  transition: background 0.5s ease;
+}
+button:hover,
+a:hover {
+  background-color: #3f51b5;
+}
+
+main {
+  width: 100%;
+  padding: 1rem 0;
+}
+main .video_wrapper {
+  width: 80%;
+  height: auto;
+  margin: 2rem auto;
+}
+main .video_wrapper div {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .video_wrapper div h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+main .video_wrapper div strong {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--color);
+  animation: fade 1s infinite;
+}
+@keyframes fade {
+  0% {
+    opacity: 0.9;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+main .video_wrapper span {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+main .video_wrapper span video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.secondVideo {
+  margin-top: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+main .video_wrapper .btn {
+  background-color: transparent;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .video_wrapper .btn button {
+  padding: 1rem;
+  width: 48%;
+}
+
+.secondVideo a {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.hide {
+  display: none;
+}

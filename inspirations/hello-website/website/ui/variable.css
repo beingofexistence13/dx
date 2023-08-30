@@ -1,0 +1,244 @@
+
+/* Theme */
+body.light {
+    --icon-color: hsla(217, 0%, 0%, 1);
+    --glass-bg: rgba(255, 255, 255, 0.3);
+    --body-bg: hsla(0, 0%, 100%, 1);
+    --primary-bg: hsla(233, 100%, 97%, 1);
+    --border-color: 1.5px solid #EAEAEA;
+    --sidebar-bg: hsla(217, 0%, 100%, 1);
+    --border-color-sm: 2px solid #EAEAEA;
+
+
+
+
+    --muted-color: #6C757D;
+    --select-color: #6E58C3;
+}
+
+body {
+    --glass-bg: rgba(0, 0, 0, 0.26);
+    --icon-color: hsla(217, 0%, 100%, 1);
+    --body-bg: hsla(217, 0%, 0%, 1);
+    --primary-bg: hsla(217, 9%, 9%, 1);
+    --border-color: 1.5px solid hsla(0, 0%, 9%, 1);
+    --sidebar-bg: hsla(217, 0%, 0%, 1);
+    --border-color-sm: 2px solid hsla(0, 0%, 9%, 1);
+
+    --muted-color: #8895A1;
+    --select-color: #69E588;
+
+}
+
+:root{
+    
+    
+    --X-bg: #0015FF;
+}
+
+/* Mobile Portrait */
+@media(min-width:360px) and (max-width: 900px) {
+    :root{
+        
+        
+        
+        /* Height */
+        --navbar-h: 55px;
+        --wn-h: 50px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /* Sidebar */
+        --sidebar-w: 0px;
+        /* PN */
+        --navbar_profile_container_left: 15px;
+        --navbar_profile_container_top: calc(50vh - 250px);
+        --navbar_profile_container_width: 330px;
+        
+        
+        
+        /* Height variables */
+        --M-h: 100vh;
+        --N-h: 60px;
+        --S-h: 100vh;
+        --BN-h: 0px;
+        --SN-h: 50px;
+        --CU-h: 0px;
+        
+        /* Width variables */
+        --M-w: 100%;
+        --N-w: 100%;
+        --S-w: 0px;
+        --BN-w: 0px;
+        --SN-w: 100%;
+        --CU-w: 0px;
+        
+        
+        
+        
+        
+        
+        /* Position variables */
+        --S-t: 60px;
+        
+        
+        
+        /* Default color variables */
+        --default-caintainer-color: #D7DAFF;
+        --default-item-color: #0013FF;
+        
+    }
+
+}
+/* Mobile Landscape */
+@media (orientation: landscape) {
+    
+    :root{
+        
+        
+        /* Height */
+        --navbar-h: 35px;
+        --wn-h: 25px;
+        
+    }
+    
+    
+    
+    
+    
+    
+}
+/* All Desktop */
+@media(min-width:900px){
+    
+    :root{
+        
+        
+        
+        /* Height */
+        --navbar-h: 85px;
+        --wn-h: 80px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /* Position variables */
+        --S-t: 90px;
+        /* Height variables */
+        --M-h: 100vh;
+        --N-h: 60px;
+        --S-h: 100vh;
+        --BN-h: 0px;
+        --SN-h: 50px;
+        --CU-h: 0px;
+        
+        /* Width variables */
+        --M-w: 100%;
+        --N-w: 100%;
+        --S-w: 0px;
+        --BN-w: 0px;
+        --SN-w: 100%;
+        --CU-w: 0px;
+        /* Navbar */
+        
+        /* Sidebar */
+        --sidebar-w: 85px;
+        /* navbar_profile_container */
+        --navbar_profile_container_left: calc(100% - 355px);
+        --navbar_profile_container_top: calc(var(--navbar-h) + 10px);
+        
+    }
+    body.light{
+        --border-color: 3px solid #E7E9FA;
+    }
+    body{
+        --border-color: 3px solid hsla(0, 0%, 9%, 1);
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    
+    --thailand-color: #8D4AFF;
+    --thailand-bg: #484848;
+}

@@ -1,0 +1,236 @@
+
+*{
+    color: #FFFFFF;
+}
+
+@keyframes Mesh{
+    0%{
+        background-color:#ffd199;
+        background-image:
+            radial-gradient(at 39% 99%, hsla(195,72%,64%,1) 0px, transparent 50%),
+            radial-gradient(at 42% 3%, hsla(341,95%,68%,1) 0px, transparent 50%),
+            radial-gradient(at 28% 55%, hsla(245,83%,61%,1) 0px, transparent 50%),
+            radial-gradient(at 44% 48%, hsla(262,76%,69%,1) 0px, transparent 50%),
+            radial-gradient(at 13% 5%, hsla(213,88%,69%,1) 0px, transparent 50%),
+            radial-gradient(at 3% 15%, hsla(328,99%,73%,1) 0px, transparent 50%),
+            radial-gradient(at 97% 6%, hsla(304,81%,77%,1) 0px, transparent 50%);
+        
+        filter: hue-rotate(0deg) brightness(1) contrast(1);
+        
+    }
+    100%{
+        
+        filter: hue-rotate(360deg);
+        
+    }
+    
+}
+/* .hackIn{
+    
+    animation: Mesh 10s ease-out infinite;
+    background-color:#ffd199;
+    background-image:
+        radial-gradient(at 39% 99%, hsla(195,72%,64%,1) 0px, transparent 50%),
+        radial-gradient(at 42% 3%, hsla(341,95%,68%,1) 0px, transparent 50%),
+        radial-gradient(at 28% 55%, hsla(245,83%,61%,1) 0px, transparent 50%),
+        radial-gradient(at 44% 48%, hsla(262,76%,69%,1) 0px, transparent 50%),
+        radial-gradient(at 13% 5%, hsla(213,88%,69%,1) 0px, transparent 50%),
+        radial-gradient(at 3% 15%, hsla(328,99%,73%,1) 0px, transparent 50%),
+        radial-gradient(at 97% 6%, hsla(304,81%,77%,1) 0px, transparent 50%);
+
+
+
+} */
+.hackIn{
+    
+    background: #101218;
+}
+
+#thefile {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  background: #FFFFFF;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+  width: 90%;
+  height: 50vh;
+}
+
+/* audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+} */
+main,body,h1{
+    margin: 0;
+    padding: 0;
+}
+.hackIn{
+    
+    min-height: 100vh;
+    width: 100%;
+}
+.hackIn{
+    
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+@media(min-width:360px) and (max-width: 900px){
+    
+    *{
+        
+        max-width: 360px;
+     
+    }
+    
+}
+
+
+
+.hackIn_header{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: bold;
+    
+    width: 100%;
+    height: 25vh;
+}
+.hackIn_songs_visualizer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    
+    height: 500px;
+    width: 100%;
+}
+.hackIn svg{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 auto;
+    
+    height: 350px;
+    width: 300px;
+}
+.hackIn_canvas{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100%;
+    width: 100%;
+}
+.hackIn_songs_selecter{
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    background: #010A1B;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    height: 100px;
+    width: 100%;
+    
+    z-index: 1000;
+}
+/* .song_selector_input{
+    
+    height: 50px;
+    
+} */
+.hackIn{
+    
+    padding-bottom: 100px;
+}
+.hackIn_song_header{
+    
+    text-align: center;
+    font-size: 1rem;
+    
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media(min-width:360px) and (max-width: 900px){
+    
+    *{
+        
+        /* background: green; */
+        
+        max-width: 360px;
+        
+    }
+    
+}
+/* //////////////////////////// O_o Desktop Start ////////////////////// */
+@media(min-width:900px){
+    *{
+        
+        /* background: yellow; */
+    }
+    
+}
+
+
+
+
+/* //////////////////////////// O_o Desktop End ////////////////////// */
+/* xl Desktop */
+/* @media(min-width:900px){
+    *{
+        
+        background: red;
+    }
+    
+} */

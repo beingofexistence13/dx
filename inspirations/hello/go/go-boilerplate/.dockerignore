@@ -1,4 +1,0 @@
-.git/
-vendor/*
-!vendor/vendor.json
-.env

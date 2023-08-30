@@ -1,0 +1,2044 @@
+*{
+    
+    /* outline: 1px solid #0015FF; */
+}
+:root{
+    
+    --thailand-color: #8D4AFF;
+    --thailand-bg: #332C40;
+}
+
+.madarchod_thailand_launch_button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .madarchod_thailand_launch_button_item{
+    
+    background: red !important;
+} */
+.freefire_sidebar_left,
+.freefire_sidebar_right{
+    
+    display: none;
+}
+
+.pnt_it5,.pnt_tt,.connect_wallet{
+    background: #4B4B4B;
+}
+.madarchod_thailand_welcome{
+    
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 5rem;
+    
+    min-height: auto;
+    width: 100%;
+}
+.madarchod_thailand_welcome > *{
+    width: 100%;
+}
+.madarchod_thailand_welcome_top{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    
+    height: 170px;
+    
+}
+.madarchod_thailand_welcome_top h1{
+    
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: bold;
+    
+}
+.madarchod_thailand_welcome_center{
+    
+    display: grid;
+    grid: 1fr / 1fr 2fr 1fr;
+    
+    height: 350px;
+    width: 85%;
+    
+    
+}
+.madarchod_thailand_welcome_center > *{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.madarchod_thailand_welcome_center_left_big{
+    
+    justify-content: left;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+    border-right: 5px solid #000000;
+    
+}
+.madarchod_thailand_welcome_center_center_big{
+    
+    
+}
+.madarchod_thailand_welcome_center_right_big{
+    
+    justify-content: right;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+    border-left: 5px solid #000000;
+    
+}
+.madarchod_thailand_welcome_center_left_small{
+    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+    height: 50%;
+    width: 50%;    
+}
+.madarchod_thailand_welcome_center_center_small{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;    
+    border: 5px solid #000000;
+
+    height: 150px;
+    width: 150px;    
+}
+.madarchod_thailand_welcome_center_right_small{
+    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+    border-left: 5px solid #000000;
+
+    height: 50%;
+    width: 50%;
+}
+
+
+.madarchod_thailand_welcome_bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 70px;
+    
+}
+.madarchod_thailand_welcome_bottom_launch_button{
+    
+    background: var(--thailand-color);
+    text-align: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 60px;
+    width: 200px;
+}
+.madarchod_thailand_launch_button_container{
+    
+    
+    background: var(--thailand-color);
+    
+}
+
+
+.version{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+    height: 50px;
+    width: 100px;
+}
+.version_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+    height: 50px;
+    width: 200px;
+    
+}
+.navbar{
+    
+    background: #202224;
+}
+
+
+
+
+
+
+.player_container{
+    
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.player_name_container{
+    
+    
+    -webkit-box-shadow: 3px 3px 16px 5px #8D4AFF; 
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background: #272727;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    position: relative;
+    
+    padding: 2rem;
+    
+    height: 350px;
+    width: 550px;
+    
+}
+.continue_container{
+    
+    background: var(--thailand-color);    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -180px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 200px;
+    width: 200px;
+    
+    z-index: -100;
+    
+}
+.continue_container > *{
+    
+    font-style: bold;
+    font-weight: 900;
+    font-size: 1.3rem;
+    
+    position: absolute;
+    bottom: 20px;
+    left: 75% !important;
+    transform: translate(-50%,-50%);
+    
+    
+    width: 100%;
+    
+    
+}
+
+.player_name_container > h2{
+    
+    font-size: 25px;
+    font-weight: 900;
+    font-style: bold;
+    
+    height: 100px;
+    width: 100%;
+    
+}
+
+.player_name_container ion-icon{
+    
+    font-size: 10px;
+    font-weight: 900;
+    font-style: bold;
+    
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    
+    
+    height: 30px;
+    width: 50px;
+}
+.player_name{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    padding: 0 1rem;
+    
+    height: 50px;
+    width: 300px;
+    
+}
+.player_name:hover{
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #8700FF
+}
+
+.player_name input{
+    
+    background: transparent;
+    
+    height: 100%;
+    width: 100%;
+}
+.player_name h2{
+    
+    font-size: 15px;
+    background: #272727;
+    
+    position: absolute;
+    left: 1rem;
+    top: -10px;
+    
+    width: auto;
+    
+}
+.connect_wallet{
+    
+    background: #4B4B4B;
+}
+.navbar{
+    
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    
+}
+
+
+
+
+
+
+
+@media(min-width:360px) and (max-width: 900px) {
+    
+    
+    .navbar{
+        
+        height: 80px;
+    }
+    .madarchod_thailand_welcome_center{
+        
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 25px;
+        
+    }
+    .madarchod_thailand_welcome_center_right_big {
+        
+        align-items: flex-end;
+        justify-content: center;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        border-bottom: none;
+        border-top: 5px solid #000000;
+        border-left: 5px solid #000000;
+        border-right: 5px solid #000000;
+        
+    }
+    .madarchod_thailand_welcome_center_center_big {}
+    .madarchod_thailand_welcome_center_left_big {
+        
+        align-items: flex-start;
+        justify-content: center;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        border-top: none;
+        border-bottom: 5px solid #000000;
+        border-left: 5px solid #000000;
+        border-right: 5px solid #000000;
+        
+    }
+    .madarchod_thailand_welcome_center_right_small {
+        
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        border-bottom: none;
+        border-top: 5px solid #000000;
+        border-left: 5px solid #000000;
+        border-right: 5px solid #000000;
+        
+        height: 50%;
+        width: 50%;
+    }
+    .madarchod_thailand_welcome_center_center_small {
+        
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 5px solid #000000;
+        
+        height: 150px;
+        width: 150px;
+    }
+    .madarchod_thailand_welcome_center_left_small {
+        
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        border-top: none;
+        border-bottom: 5px solid #000000;
+        border-left: 5px solid #000000;
+        border-right: 5px solid #000000;
+        
+        height: 50%;
+        width: 50%;
+    }    
+    .madarchod_thailand_launch_button_item{
+        
+        text-align: center;
+    }
+    .player_name_container{
+        
+        
+        max-width: 350px;
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+/* Body used */
+body,
+main,
+main > *{
+    
+    background: #202224;
+    
+}
+.connect_wallet,.balance_list{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    width: 150px;
+}
+
+
+.blockchain_address{
+    
+    
+    width: 99%;
+    
+}
+
+.potla_poda_logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Settings Page */
+.settings_container_big{
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.settings_container{
+    
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    background: #2C2E46;
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    place-items: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    
+    padding: 1rem;
+    
+    height: 350px;
+    width: 700px;
+    
+    z-index: 1;
+}
+.settings_container .continue_container{
+    
+    z-index: 0;
+}
+
+.settings_container > *{
+    
+    
+    height: 80px;
+    width: 100%;
+}
+.settings_container_left{
+    
+    margin-top: 4rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.settings_container_right{
+    
+    margin-top: 4rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 25px;
+}
+.dropdown{
+    
+    background: #1D1E2E;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    
+    height: 50px;
+    width: 250px;
+}
+.dropdown_select{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 25px;
+    
+    padding: 0 1.5rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 100%;
+    width: 100%;
+}
+.dropdown_select ion-icon{
+    
+    position: absolute;
+    right: 1.5rem;
+}
+
+.dropdown_select:hover,.dropdown_menu > *:hover{
+    
+    background: #111112;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+.dropdown.active ion-icon{
+    
+    transform: rotate(180deg);
+    transition: all 0.2s linear;
+    
+}
+.dropdown_menu{
+    
+    background: #2D2E33;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    position: absolute;
+    top: 70px;
+    left: 0;
+    
+    width: 100px;
+    height: auto;
+}
+.dropdown_menu > *{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    height: 50px;
+    width: 100%;
+}
+    
+   
+.blockchain_dropdown{
+    
+    width: 70px;
+}
+.blockchain_dropdown .dropdown_menu{
+    
+    
+    left: 7px;
+    
+    width: 60px;
+}
+.dropdown_menu > *:hover{
+    
+    background: #9200FF;
+    
+}  
+.dropdown_menu:hover ion-icon{
+    
+    color: red;
+}
+
+.dropdown_menu{
+    display: none;
+}
+.dropdown.active > .dropdown_menu{
+    
+    display: flex;
+    
+}
+.setting_free{
+    
+    font-size: 0.7rem;
+    font-weight: 900;
+    font-style: italic;
+    
+    position: absolute;
+    bottom: 60px;
+    
+}
+.setting_header{
+
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 900;
+    font-style: bold;
+    
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    
+    width: 100%;
+}
+.game_player_count{
+    
+    
+}
+.settings_container_left{
+    
+    justify-content: left;
+}
+.settings_container .continue_container{
+    
+    
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 300px;
+    width: 300px;
+    
+    z-index: 0 !important;
+}
+.network_img,.network .dropdown_menu > *{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    /* margin: 0 auto; */
+    
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    
+}
+.network{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    margin: 0;
+    
+    width: 70px;
+    
+    
+}
+    
+    
+.network > .dropdown_select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+}
+.network .dropdown_menu{
+    
+    padding: 1rem 0.5rem;
+    
+}
+@media(min-width:360px) and (max-width: 900px) {
+    .blockchain_address{
+        
+        width: 95%;
+    }
+    .settings_container_big{
+        
+        overflow-x: hidden;
+        overflow-y: auto;
+        
+        padding-top: 0.5rem;
+        
+        height: 70vh;
+        width: 90%;
+        
+    }
+    .settings_container{
+        
+        overflow-y: auto;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        margin: 0 auto;
+        
+        padding-bottom: 5rem;
+        
+        height: auto;
+        max-width: 98%;
+       
+    } 
+    .settings_container > *{
+        
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        margin: 0;
+        padding: 0;
+        
+        height: auto;
+    }
+    .dropdown_select{
+        
+        min-height: 50px;
+    } 
+    .setting_free{
+        
+        bottom: -50px;
+    }
+    .dropdown_menu{
+        
+        position: relative;
+        
+        z-index: 10000;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nft Page */
+.nft_container{
+    
+    background: #1A1A1A;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    
+    padding: 0;
+    
+    height: 500px;
+    width: 800px;
+}
+.nft_container > h1{
+    
+    font-size: 35px;
+    font-weight: 900;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100px;
+    
+}
+
+.nft_container_small{
+    
+    border: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    position: absolute;
+    top: 265px;
+    
+    margin: 0;
+    
+    height: 400px;
+    width: 100%;
+}
+.nft_container_small:hover{
+    
+    border: none;
+}
+
+.nfts{
+    
+    box-shadow: #000000 0px 3px 8px;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-left: 2rem;
+    
+    height: 350px;
+    min-width: 200px;
+}
+.nfts > *{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.nfts_top{
+    
+    background: #8D4AFF;
+    border-radius: 7px;
+    
+    padding: 1rem;
+    
+    height: 300px;
+    
+}
+.nfts_top > h1{
+    
+    font-size: 1.2rem;
+    font-style: bold;
+    font-weight: 900;
+    
+    height: 60px;
+    width: 100%;
+}
+.nfts_top_details{
+    
+    
+    border: 1px solid #000000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    
+    position: relative;
+    
+    padding: 0.3rem;
+    
+    height: 250px;
+    width: 100%;
+    
+}
+.nfts_top_details img{
+    
+    border-radius: 50%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: 100px;
+    width: 65%;
+}
+
+.nfts_top_details_bottom{
+    
+    text-align: center;
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    
+    height: 30px;
+    width: 100%;
+    
+}
+.nfts_top_details_bottom > *{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nfts_bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 50px;
+}
+.nfts_choose_button{
+    
+    font-size: 10px;
+    border-radius: 10px;
+    background: #902AFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 30px;
+    width: 120px;
+    
+}
+.nft_name{
+    
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    
+    padding: 0.3rem;
+    height: auto;
+}
+
+
+
+
+.matchmaking_center_logo{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100%;
+    width: 100%;
+}
+.matchmaking_center_logo img{
+    
+    border-radius: 50%;
+    
+    
+    height: 80px;
+    width: 80px;
+}
+.matchup_nfts{
+    
+    border: 1px solid #000000;
+    background: #8D4AFF;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: grid;
+    grid: 0.7fr 3fr 0.7fr / 1fr;
+    
+    padding: 10px 0;
+    
+    min-height: 170px;
+    width: 130px;
+    
+}
+.matchup_nfts_center_img{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 85px;
+    width: 95px;
+}
+.matchup_nfts > *{
+    
+    background: #8D4AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 25px;
+    
+    width: 100%;
+}
+
+
+
+.green .matchup_nfts,.green .matchup_nfts > *{
+    
+    background: #49FFAA;
+}
+.matchup_details{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    width: 150px;
+    height: 50px;
+    
+    z-index: 1000;
+}
+.version_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    bottom: 0;
+    left: 80%;
+    
+    width: 150px;
+    height: 50px;
+    
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+/* Desktop deleted for some time */
+    .matchup_container{
+        
+        display: grid;
+        grid: minmax(700px,85%) / 1fr 3fr 1fr;
+        place-items: center;
+        
+        padding: 15vh 2.5%;
+        
+        height: 100vh;
+        width: 100%;
+    }
+    .matchup_container > *{
+        
+        height: 50vh;
+        width: 100%;
+    }
+    .matchup_left_container,.matchup_right_container{
+        
+        display: grid;
+        grid: 50px auto 50px / 1fr;
+        grid-gap: 25px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        
+        position: relative;
+        
+        padding: 1rem;
+        
+        height: 40vh;
+    }
+    .purple{
+        box-shadow: 3px 3px 16px 5px #8D4AFF;    
+        
+        
+    }
+    .green{
+        box-shadow: 3px 3px 16px 5px #48FF46;    
+        
+        
+    }
+    .matchup_left_right_icon_container,.matchup_left_right_text_container{
+        
+        font-size: 1.3rem;
+        font-style: bold;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        
+    }
+    .matchup_left_right_container{
+        
+        
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 25px;
+        
+        
+        height: 100%;
+        width: 100%;
+        
+    }
+    .matchup_dkgame_container{
+        
+        display: grid;
+        grid: 70px auto 70px / 1fr;
+        
+    }
+    .matchup_dkgame_container > *{
+        
+        height: 100%;
+        width: 100%;
+    }
+    .play_button_container,.game_detail_matchup{
+        
+        font-size: 1.5rem;
+        font-weight: 900;
+        font-style: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .play_button{
+        
+        background: #A03DFF;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 125px;
+        height: 50px;
+    }
+    .battlebol_game_container{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0 1rem;
+        
+        min-height: 300px;
+        width: 100%;
+    }
+    .battlebol_game_big{
+        
+        position: relative;
+        
+    }
+    .battlebol_game_small{
+        
+        overflow-x: auto;
+        overflow-y: hidden;
+        border-radius: 35px;
+        border: 5px solid #8700FF;
+        
+        position: relative;
+        
+        height: 225px;
+        width: 425px;
+    }
+    /* Working on colors */
+    .battlebol_game_line_container{
+        
+        background: #2B0064;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 40px;
+        
+        height: 100%;
+        min-width: 1000px;
+    }
+    .battlebol_game_line_container > *{
+        
+        background: #6022B2;
+        
+        width: 40px;
+        height: 100%;
+    }
+    .battlebol_game_left_big{
+        
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        
+        position: absolute;
+        left: 42px;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        
+        height: 65%;
+        width: 85px;
+    }
+    .battlebol_game_right_big{
+        
+        justify-content: right;
+        
+        left: calc(100% - 45px);
+    }
+    .battlebol_game_left_small{
+        
+        
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+        height: 55%;
+        width: 50px;
+        
+    }
+    /* Developing */
+    .battlebol_game_center_circle{
+        
+        border: 3px solid #8700FF;
+        border-radius: 50%;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+        
+        height: 80px;
+        width: 80px;
+        
+    }
+    .battlebol_game_center_line{
+        
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+        height: 100%;
+        width: 3px;
+        
+        
+    }
+    .battlebol_game_dots_left{
+        
+        
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%,-50%);
+        
+        width: 30%;
+        height: 80%;
+    }
+    .player_dot_goulkeeper{
+        
+        background: #3DFFA8;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        
+        height: 15px;
+        width: 15px;
+    }
+    .player_dot_midfield_right{
+        
+        background: #3DBBFF;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        transform: translate(-50%,-50%);
+        
+        height: 15px;
+        width: 15px;
+        
+        
+    }
+    .player_dot_midfield_left{
+        
+        
+        background: #FF3D75;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        position: absolute;
+        top: 20%;
+        left: 80%;
+        transform: translate(-50%,-50%);
+        
+        height: 15px;
+        width: 15px;
+        
+    }
+    .battlebol_game_dots_right{
+        
+        
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        
+        width: 30%;
+        height: 50%;
+    }
+    .battlebol_game_dots_right .player_dot_goulkeeper{
+        
+        background: #3DFFA8;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        
+        height: 15px;
+        width: 15px;
+    }
+    .battlebol_game_dots_left > *{
+        
+        background: #8D4AFF;
+    }
+     .battlebol_game_dots_right > *{
+        
+        background: #48FF46;
+    }
+   
+
+/* Mobile Portrait */
+@media(min-width:360px) and (max-width: 900px) {
+
+    .nft_container {
+        
+        width: 350px;
+    }
+    .battle_bol_mb {
+        
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: none;
+        outline: none;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        margin-top: 81px;
+        
+        height: 99vh;
+        min-width: 100%;
+        max-width: 360px;
+        
+    }
+    .battle_bol_mb>* {
+        
+        position: relative;
+        
+        max-width: 325px;
+    }
+    .matchup_container{
+        
+        display: grid;
+        grid: 1fr 3fr 1fr / 1fr;
+        place-items: center;
+        
+        padding: 2vh 0;
+        
+        height: 130vh;
+        width: 100%;
+    }
+    .matchup_dkgame_container{
+        
+        height: 100vh;
+    }
+    
+    .battlebol_game_container{
+        
+        max-width: 360px;
+        min-height: 500px;
+        
+    }
+    .battlebol_game_container > *{
+        
+        transform: rotate(90deg);
+        
+    }
+    
+    .battlebol_game_small{
+        
+        background: green;
+        
+        height: 320px;
+        
+    }
+    .matchup_left_right_container{
+        
+        
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 25px;
+        
+        
+        height: 100%;
+        width: 315px;
+        
+    }
+    .matchup_left_container,.matchup_right_container{
+        
+        border-radius: 0;
+        
+        height: 350px;
+        
+    }
+    .matchup_left_right_icon_container,.matchup_left_right_text_container{
+        
+        background: #322F33;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        
+    }
+    .matchup_left_right_icon_container:hover,.matchup_left_right_text_container:hover{
+        
+        background: #000000;
+    }
+    
+    .game_vs_detals_left{
+        
+        display: none;
+    }
+
+}
+.play_button:hover{
+    
+    background: #000000;
+    
+}
+.main_container{
+    
+    margin-top: 1.5rem;
+    
+}
+.version_container{
+
+    left: calc(100% - 160px) ;
+}
+
+
+
+
+
+
+
+
+
+/* Play */
+.game_status_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+}
+.game_status{
+    
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 7px;
+    justify-content: space-between;
+    
+    position: relative;
+    
+    padding: 0 1.3rem;
+    
+    height: 50px;
+    width: 350px;
+    
+}
+.game_status_center_container{
+    
+    background: #212121;
+    font-size: 1rem;
+    font-style: bold;
+    font-weight: 900;
+    box-shadow: 3px 3px 16px 5px #000000;    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 80px;
+    width: 80px;
+}
+.game_status_left_container,.game_status_right_container{
+    
+    font-size: 0.7rem;
+    font-style: bold;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: left;
+    
+    height: 100%;
+    width: 100%;
+}
+.game_status_right_container{
+    
+    justify-content: right;
+}
+.game_status_left_dot{
+    
+    background: #8D4AFF;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    height: 30px;
+    width: 30px;
+}
+.game_status_right_container .game_status_left_dot{
+    
+    background: #4CFF6E;
+}
+
+
+
+
+
+    .play_page .battlebol_game_left_small {
+        
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+        height: 65%;
+        width: 65%;
+        
+    }
+    .play_page .battlebol_game_right_big .battlebol_game_left_small {
+        
+        border: 3px solid #24FF40;
+        
+    }
+    .play_page .battlebol_game_center_img{
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(180deg);
+    
+    height: 25px;
+    width: 25px;
+    
+}
+
+
+
+/* Desktop mode */
+@media(min-width: 900px){
+    
+    
+    .play_page .battlebol_game_container{
+        
+        
+        height: 75vh;
+        min-height: 800px;
+    }
+    .play_page .battlebol_game_container{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0 1rem;
+        
+        min-height: 500px;
+        width: 100%;
+    }
+    .play_page .battlebol_game_small{
+        
+        overflow-x: auto;
+        overflow-y: hidden;
+        border-radius: 35px;
+        border: 5px solid #8700FF;
+        
+        position: relative;
+        
+        height: 350px;
+        width: 700px;
+    }
+    .play_page .battlebol_game_left_big{
+        
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        
+        height: 65%;
+        width: 20%;
+    }
+    .play_page .battlebol_game_right_big{
+        
+        justify-content: right;
+        
+        left: calc(100% - 10%);
+    }
+    .play_page .battlebol_game_left_small{
+        
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 3px solid #8700FF;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+        height: 55%;
+        width: 55%;
+        
+    }
+    .play_page .battlebol_game_right_big .battlebol_game_left_small{
+        
+        border: 3px solid #24FF40;
+        
+    }
+    .play_page .game_vs_detals_left{
+        
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        font-size: 1.25rem;
+        font-weight: 900;
+        font-style: bold;
+        background: #2B2F2C;
+        transform: rotate(90deg);
+        writing-mode: vertical-lr;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        left: -10%;
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(180deg);
+        
+        padding: 1rem;
+        
+        height: auto;
+        width: 50px;
+    }
+    .play_page .game_vs_detals_right{
+        
+        
+        transform: translate(-50%,-50%) rotate(0deg);
+        
+        left: 110%;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+.rematch_container_big{
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    min-height: 100vh;
+    min-width: 100%;
+    
+    z-index: 100000;
+}
+.rematch_container_small{
+    
+    background: #272727;
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    
+    height: 25vh;
+    width: 70%;
+    
+    position: relative;
+    
+    min-width: 325px;
+    min-height: 300px;
+    
+}
+.rematch_timer{
+    
+    font-size: 6.5em;
+    font-weight: 900;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height: auto;
+    
+}
+.rematch_container_small > *{
+    
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+}
+.rematch_intro{
+    
+    font-size: 2.5em;
+    font-weight: 900;
+    font-style: bold;
+    justify-content: center;
+    
+    margin-top: 20%;
+    
+    height: 60px;
+}
+.rematch_buttons_container{
+    
+    flex-direction: row;
+    column-gap: 25px;
+    justify-content: space-evenly;
+    
+    padding: 0 1rem;
+    
+    height: 60px;
+}
+.rematch_no{
+    
+    box-shadow: 3px 3px 16px 5px #000000;    
+    background: #363636;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 45px;
+    width: 125px;
+}
+.rematch_no:hover{
+    
+    background: #000000;
+    box-shadow: 3px 3px 16px 5px #000000;    
+    
+}
+.rematch_yes{
+    
+    box-shadow: 3px 3px 16px 5px #9200FF;    
+    background: #9200FF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 45px;
+    width: 125px;
+    
+}
+.rematch_yes:hover{
+    
+    box-shadow: 3px 3px 16px 5px #000000;    
+    background-color: #000000;
+}
+.rematch_bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    padding: 0 1rem;
+    
+    height: 50px;
+}
+.rematch_checkbox_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    
+    
+    height: 40px;
+}
+.purple_wins{
+    
+    background: #8D4AFF;
+    box-shadow: 3px 3px 16px 5px #8D4AFF;    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: contrast(180%);
+    
+    
+    height: 350px;
+    width: 350px;
+}
+.purple_wins > *{
+    
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-style: bold;
+    font-weight: 900;
+}
+.green_wins{
+    
+    box-shadow: 3px 3px 16px 5px #52FF7A;    
+    background: #52FF7A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Buttons Design */
+.play_button,.madarchod_thailand_welcome_bottom_launch_button{
+    
+    
+    box-shadow: 3px 3px 16px 5px #9200FF;    
+    background: #9200FF;
+    
+}
+.play_button:hover,
+.madarchod_thailand_welcome_bottom_launch_button:hover{
+    
+    box-shadow: 3px 3px 16px 5px #000000;    
+    background: #000000;
+    
+    
+}
