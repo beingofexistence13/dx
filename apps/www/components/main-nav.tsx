@@ -16,7 +16,7 @@ export function MainNav() {
   return (
     <div className="hidden lg:flex">
       <Link href="/" className="flex items-center space-x-2 pr-2 ">
-        <Icons.logo className="h-6 w-6" />
+        <Icons.logo className="navbar-logo-icon h-6 w-6" />
         <span className="hidden font-bold sm:inline-block rounded-lg p-2 px-5 hover:bg-[--code-foreground] ">
           {siteConfig.name}
         </span>

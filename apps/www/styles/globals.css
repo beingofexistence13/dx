@@ -257,6 +257,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 .navbar .social-media:hover,
 .navbar .docs:hover,
 .navbar ul li:hover {
+  animation: ranbow-glow 10s linear infinite;
   box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   backdrop-filter: blur(20px);
@@ -269,7 +270,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   height: 50px;
   width: 50px;
 }
-/* 
+
 @keyframes ranbow-glow {
   0%,
   100% {
@@ -279,8 +280,10 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   50% {
     filter: hue-rotate(360deg);
   }
-} */
-
+}
+.navbar-logo-icon {
+  animation: ranbow-glow 10s linear infinite;
+}
 .devMode {
   animation: ranbow-glow 10s linear infinite;
   background: rgba(255, 255, 255, 0);
@@ -401,7 +404,7 @@ canvas {
   background-color: transparent !important;
   color: transparent !important;
 } */
-.hack-container span img{
+.hack-container span img {
   /* display: none; */
   animation: none !important;
   box-shadow: none !important;
