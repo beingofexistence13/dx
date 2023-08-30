@@ -1,0 +1,37 @@
+[package]
+name = "rust-web-boilerplate"
+version = "0.1.0"
+authors = ["Sven-Hendrik Haase <svenstaro@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rust_web_boilerplate"
+path = "src/lib.rs"
+
+[dependencies]
+uuid = { version = "0.8", features = ["serde", "v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+argon2rs = "0.2"
+rocket = "0.4"
+diesel = { version = "1.4", features = ["postgres", "uuidv07", "chrono", "serde_json"] }
+dotenv = "0.15"
+serde = "1"
+serde_json = "1"
+serde_derive = "1"
+validator = "0.16"
+validator_derive = "0.16"
+ring = "0.13"
+rand = "0.7"
+
+[dev-dependencies]
+quickcheck = "0.9"
+speculate = "0.1"
+parking_lot = { version = "0.12", features = ["nightly"] }
+
+[dependencies.rocket_contrib]
+version = "0.4"
+default-features = false
+features = ["json", "diesel_postgres_pool"]
+
+[features]
+default = []

@@ -1,0 +1,127 @@
+/* *{
+} */
+
+
+.freefire_sidebar_left,.freefire_sidebar_right{
+    
+    background: var(--primary-bg);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: calc(50% - 150px);
+    left: 0;
+    
+    padding: 1rem;
+    
+    height: 300px;
+    width: 80px;
+    
+    
+    z-index: 1000;
+}
+.FSLU,.FSRU{
+    
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+
+    position: relative;
+    /* padding: 0.5rem 0; */
+
+    
+}
+.FSLUL,.FSRUL{
+    
+    
+    /* background: #0015FF; */
+    
+    
+}
+.FSLULI,.FSRULI{
+    
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 900;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FSLULT{
+    
+    opacity: 0;
+    visibility: hidden;
+    background: #2A2A2F;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-10px);
+    transition: all 0.5s linear;
+    
+    position: absolute;
+    left: 50px;
+    
+    padding: 15px;
+    margin-bottom: 50px;
+    
+    min-width: 70px;
+    min-height: 35px;
+    
+    
+    z-index: 100;
+}
+.FSLUL:hover .FSLULT{
+    
+    
+    opacity: 1;
+    visibility: visible;
+    
+}
+.FSLUL:hover .FSLULT::before {
+    
+    content: "";
+    background: #2A2A2F;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    top: 45%;
+    left: -10px;
+    transform: rotate(45deg) translateY(-50%);
+    
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,806 @@
+@import url(../../variable.css);
+
+
+
+
+
+
+.WN{
+    
+    
+    background: var(--glass-bg);
+    border-bottom: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 3rem;
+    
+    height: 80px;
+    width: 100%;
+    
+    z-index: 2;
+}
+.WNU{
+    
+    background: transparent;
+    display: grid;
+    grid: 1fr / 150px auto 150px;
+    grid-gap: 10px;
+    
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+
+
+.WNU > *{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    
+}
+/* .WNUL{
+    
+    justify-content: left;
+} */
+.WNULC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.WNUC > *{
+    /* display: none; */
+}
+.WNUC{
+    
+    color: var(--muted-color);
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+    
+}
+.WNUC > *:hover{
+    
+    color: var(--select-color);
+    font-weight: 900;
+    font-style: bold;
+    transform: scale(1);
+    
+}
+/* .WNUR{
+    
+    justify-content: right;
+} */
+.WNURC{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+    
+    
+    /* max-height: 50px; */
+    /* max-width: 50px; */
+}
+.WNURCB{
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 1px solid rgba(255, 255, 255, 1);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    
+    
+    width: 100px;
+    height: 35px;
+    
+}
+.WNURCI{
+    
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+.welcome > *{
+    
+    /* position: static; */
+}
+.intro{
+    
+    font-size: 5rem;
+    font-style: bold;
+    font-weight: 900;
+    background-color:#c999ff;
+    background-image:
+    radial-gradient(at 23% 26%, hsla(1990640,92%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 70%, hsla(1300640,80%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 35% 84%, hsla(210640,84%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 39% 11%, hsla(2150640,93%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 69%, hsla(230640,78%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 24% 67%, hsla(530640,70%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 84% 10%, hsla(270640,66%,70%,1) 0px, transparent 50%);    
+    filter: brightness(120%);
+    /* filter: contrast(181%); */    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    /* border-bottom-left-radius: 25px; */
+    /* border-bottom-right-radius: 25px; */
+
+    /* padding-top: 5rem; */
+    
+    min-height: 150vh;
+    width: 100%;
+
+}
+.IT{
+    
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    min-height: 100px;
+    width: 100%;
+    
+    
+}
+.smT{
+    
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+.IB{
+
+    color: #FFFFFF;
+    border: var(--border-color);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    
+    height: 50px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.how_to_use{
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.how_to_use_guide{
+    
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    
+    height: 97.5%;
+    width: 90%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mesh_bg,.join_container_big{
+    
+    
+    background: #FFFFFF;
+    width: 100%;
+    
+    min-height: auto;
+}
+.blur_bg,.join_container_small{
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    /* border: 1px solid rgba(255, 255, 255, 1); */    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    
+    padding: 1rem;
+    
+    width: 100%;    
+    height: 100%;
+}
+
+
+
+
+
+
+
+.join_container_big{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 330px;
+    width: 100%;
+    /* filter: contrast(150%); */  
+    
+}
+.join_container_small{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: contrast(110%);  
+
+    
+    width: 100%;
+}
+.join{
+    
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: bold;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color:#c999ff;
+    background-image:
+    radial-gradient(at 23% 26%, hsla(1990640,92%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 70%, hsla(1300640,80%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 35% 84%, hsla(210640,84%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 39% 11%, hsla(2150640,93%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 69%, hsla(230640,78%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 24% 67%, hsla(530640,70%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 84% 10%, hsla(270640,66%,70%,1) 0px, transparent 50%);    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: contrast(150%);  
+    
+    height: 250px;
+    width: 85%;
+    
+    z-index: 100000;
+    
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    
+    
+    color: #FFFFFF;
+    border-top: var(--border-color);
+    background-color:#c999ff;
+    background-image:
+    radial-gradient(at 23% 26%, hsla(1990640,92%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 70%, hsla(1300640,80%,62%,1) 0px, transparent 50%),
+    radial-gradient(at 35% 84%, hsla(210640,84%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 39% 11%, hsla(2150640,93%,63%,1) 0px, transparent 50%),
+    radial-gradient(at 88% 69%, hsla(230640,78%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 24% 67%, hsla(530640,70%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 84% 10%, hsla(270640,66%,70%,1) 0px, transparent 50%);    
+    display: grid;
+    grid: 1fr 50px / 1fr;
+    filter: contrast(150%);    
+    
+    padding: 2.5rem;
+    
+    height: 350px;
+    width: 100%;
+}
+.footer *{
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.FT{
+    
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    
+    
+    width: 100%;
+    height: auto;
+}
+.FTL{
+    
+    color: #FFFFFF;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    
+}
+.FTR{
+    
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+    
+}
+.FTLE{
+
+    font-size: 15px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.9px);
+    -webkit-backdrop-filter: blur(11.9px);
+    border: 1px solid rgba(255, 255, 255, 1);    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 30px;
+    
+    padding: 30px;
+    
+    width: 250px;
+    height: 50px;
+}
+.FTLE > input{
+    
+    color: #FFFFFF;
+    width: 100px;
+    color: #6C7385;
+    
+}
+.FTLEB{
+    
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: mediumpurple;
+    text-align: center;
+    border-radius: 15px;
+    width: 70px;
+    height: 40px;
+}
+.FB{
+    
+    
+    border-top: var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    width: 100%;
+}
+.ff{
+    
+    font-size: 1.8rem;
+    font-style: bold;
+    font-weight: 900;
+    
+}
+
+
+
+
+
+    
+
+
+
+
+
+/* Theme */
+body {
+    --icon-color: #FFFFFF;
+    --glass-bg: rgba(255, 255, 255, 0.3);
+    --body-bg: hsla(0, 0%, 100%, 1);
+    --primary-bg: hsla(233, 100%, 97%, 1);
+    --border-color: 1.5px solid #EAEAEA;
+    --sidebar-bg: hsla(217, 0%, 100%, 1);
+    --border-color-sm: 2px solid #EAEAEA;
+
+
+
+
+    --muted-color: #6C757D;
+    --select-color: #6E58C3;
+}
+
+body.light {
+    --glass-bg: rgba(0, 0, 0, 1);
+    --icon-color: hsla(217, 0%, 100%, 1);
+    --body-bg: hsla(217, 0%, 0%, 1);
+    --primary-bg: hsla(217, 9%, 9%, 1);
+    --border-color: 1.5px solid hsla(0, 0%, 9%, 1);
+    --sidebar-bg: hsla(217, 0%, 0%, 1);
+    --border-color-sm: 2px solid hsla(0, 0%, 9%, 1);
+
+    --muted-color: #8895A1;
+    --select-color: #69E588;
+
+}
+
+
+.welcome_service{
+    
+    color: #E2E4FE;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: left;
+    
+    border: var(--border-color);
+    
+    /* border: 2px solid  transparent; */
+    /* border-image: linear-gradient(45deg, #0015FF,#00FFEB,#00FF36,#FF00BA,#FFDE00); */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+    padding: 1rem;
+    /* margin-inline: 0 auto; */
+    
+    min-height: 100px;
+    width: 90%;
+    
+}
+.welcome_service > *{
+    color: #9779FF;
+}
+
+.welcome_service h1{
+    
+    font-size: 45px;
+    font-style: bold;
+    font-weight: 900;
+}
+
+
+    body{
+        --border-color: 3px solid #E7E9FA;
+    }
+    body.light{
+        --border-color: 3px solid hsla(0, 0%, 9%, 1);
+        
+    }
+
+
+.IT{
+
+
+        background-color: rgba(86, 77, 144, 1);
+        background-image: radial-gradient(at 96% 6%, rgb(96, 165, 250) 0, transparent 61%), radial-gradient(at 5% 80%, rgb(234, 179, 8) 0, transparent 84%), radial-gradient(at 15% 78%, rgb(253, 186, 116) 0, transparent 41%), radial-gradient(at 76% 59%, rgb(96, 165, 250) 0, transparent 84%), radial-gradient(at 100% 100%, rgb(250, 250, 250) 0, transparent 38%), radial-gradient(at 60% 52%, rgb(88, 28, 135) 0, transparent 61%);
+       
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+}
+
+
+
+
+
+
+.how_to_use{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    row-gap: 10px;
+    
+    min-height: 700px;
+    /* margin-top: 3rem; */
+}
+.how_to_use_text{
+    
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: bold;
+    
+    width: 100%;
+    /* min-height: 100px; */
+    /* height: auto; */
+}
+.how_to_use_guide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 auto;
+    
+    height: 550px;
+}
+.how_to_use_guide_img{
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+    min-width: 90%;
+    height: 500px;
+}
+
+
+
+
+
+main{
+    padding: 0 ;
+    margin: 0 ;
+
+ 
+}
+
+
+
+.intro{
+    
+    padding-top: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:360px) and (max-width: 900px){
+    
+    /* Mobile */
+    .WN{
+        padding: 0;
+        height: 50px;
+        
+    }
+    .WNU{
+        grid: 1fr / 170px auto 170px;
+        
+        
+    }
+    /* Mb */
+    .WNUCA{
+        
+        display: none;
+    }
+    .WN{
+        border: none;
+        
+    }
+    .join{
+        
+        
+        font-size: 2.5rem;
+        
+        
+        height: 150px;
+        width: 100%;
+    }
+    .WNU{
+        
+        background: #FFFFFF;
+        
+    }
+    .WNU *{
+        color: #000000;
+    }
+    
+    .intro{
+        
+        padding-top: 60px;
+        
+    }
+    .smT{
+        text-align: center;
+    }
+    .IT{
+        
+        font-size: 3.6rem;
+    }
+    .how_to_use_text{
+        font-size: 1.5rem;
+    }
+    .blur_bg,.join_container_small{
+        
+        border-radius: 0px;
+        
+    }
+    .how_to_use{
+        
+        
+        padding: 1rem;
+        
+        min-height: auto;
+        height: auto;
+        width: 100%;
+        
+    }
+    .how_to_use_guide{
+        
+        padding: 1rem;
+        
+        height: auto;
+        width: 95%;
+    }
+    .how_to_use_guide_img{
+        
+        height: 200px;
+        width: 300px;
+        
+    }
+    
+    /* Mb */
+    .footer {
+        
+        height: auto;
+        min-height: 100vh;
+        
+        padding: 15px;
+        
+    }
+    .footer h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer,
+    .FT,
+    .FT>* {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+        
+        
+        max-width: 360px;
+        width: 100%;
+    }
+    .FT {}
+    .FBT {
+        
+        margin: 0 auto;
+    }    
+    .join_container_big{
+        
+        height: 225px;
+    }
+    .join_container_small{
+        
+        height: 200px;
+    }
+    
+    
+    
+    
+    
+}

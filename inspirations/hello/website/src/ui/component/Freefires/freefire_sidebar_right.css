@@ -1,0 +1,46 @@
+/* *{
+
+    background: red;
+} */
+
+
+
+
+
+/* .freefire_sidebar_right{
+    
+    right: 0;
+} */
+
+
+
+
+/* *{
+    
+    background: red;
+} */
+
+
+.freefire_sidebar_right{
+    
+    
+    left: calc(100% - 80px);
+}
+
+
+
+
+
+.freefire_sidebar_right .FSLULT{
+    
+    left: -100px;
+}
+
+
+
+
+.freefire_sidebar_right .FSLUL:hover .FSLULT::before {
+
+
+    left: calc(100% - 16px);
+}

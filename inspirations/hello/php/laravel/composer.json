@@ -1,0 +1,73 @@
+{
+    "name": "treblle/laravel-api-boilerplate",
+    "type": "project",
+    "description": "Kick-start you next Laravel based API with this awesome boilerplate",
+    "keywords": ["api", "boilerplate", "template", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "composer/semver": "^3.2",
+        "fruitcake/laravel-cors": "^2.0.5",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.0",
+        "laravel/sanctum": "^2.14",
+        "laravel/tinker": "^2.7",
+        "treblle/treblle-laravel": "^2.6"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/sail": "^1.0.1",
+        "lemaur/toolbox": "^3.0",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php artisan ide-helper:generate",
+            "@php artisan ide-helper:meta"
+        ],
+        "post-root-package-install": "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+        "post-create-project-cmd": "@php artisan key:generate --ansi",
+        "models": "@php artisan ide-helper:models --write",
+        "analyse": "./vendor/bin/phpstan analyse --memory-limit=2G",
+        "refactor": "./vendor/bin/rector process",
+        "format": "./vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "test": "./vendor/bin/pest",
+        "test:fast": "./vendor/bin/pest --parallel",
+        "test:coverage": "./vendor/bin/pest --coverage --min=100 --coverage-html=.coverage --coverage-clover=coverage.xml",
+        "test:mutation": "XDEBUG_MODE=coverage ./vendor/bin/infection --test-framework=pest --show-mutations"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravel/dusk"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

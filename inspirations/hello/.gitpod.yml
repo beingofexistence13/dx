@@ -1,0 +1,19 @@
+# Commands to start on workspace startup
+tasks:
+  - name: Website
+    init: cd website && npm install --force
+    command: npm run dev
+
+  # - name: Mobile App
+  #   init: cd mobile-apps && yarn install
+  #   command: yarn expo start --web
+
+
+
+  # - name: App
+  #   init: cd mobile-apps && yarn add @expo/webpack-config@^0.17.0 react-native@0.69.6
+  #   command: yarn expo start --web 
+
+  # - name: Djange
+  #   init: cd django && pip install -r requirements.txt
+  #   command: python manage.py runserver 

@@ -1,0 +1,4 @@
+development:
+  driver: postgres
+  open: $DB_URL
+  dsn: $DB_URL

@@ -1,0 +1,46 @@
+.landingNavbar__container {
+
+
+    height: 55px;
+    background: rgba(0, 119, 255, 0);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+
+    display: flex !important;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+/* .vercel-tittle {
+
+    font-size: 5rem;
+} */
+
+.connect {
+
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+.connect:hover{
+
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}

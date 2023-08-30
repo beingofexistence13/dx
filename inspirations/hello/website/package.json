@@ -1,0 +1,32 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "@react-three/drei": "^9.69.2",
+    "@react-three/fiber": "^8.13.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "next": "13.4.3",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "styled-components": "^6.0.0-rc.2",
+    "styled-icons": "^10.47.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  }
+}

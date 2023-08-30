@@ -1,0 +1,184 @@
+/* Navbar Container */
+.navbar-glassmorphisum {
+  background: rgba(255, 255, 255, 0);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.icon__container {
+
+  max-height: 30px;
+  max-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background: rgba(255, 255, 255, 0.05);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glasshover:hover {
+  background: rgba(255, 255, 255, 0);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.center__content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.center__content .search__container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 82.5%;
+  min-width: 220px;
+}
+
+.center__content .search__container input {
+  flex: 1;
+  font-size: 0.8rem;
+  color: red;
+}
+
+.center__content .search__container svg:nth-child(1) {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.center__content .search__container {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 0.25rem 0.7rem;
+}
+
+
+
+.blockchain_balance_nav:hover,
+.blockchain_address_nav:hover {
+  border: none;
+}
+
+.blockchain_balance_nav,
+.blockchain_address_nav {
+
+  display: grid;
+  grid: 1fr / 1fr 70px 1fr;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 10px;
+
+  height: 35px;
+  width: 150px;
+
+}
+
+.blockchain_address_wallet,
+.blockchain_provider_name {
+
+  background: #0015FF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  height: 15px;
+  width: 15px;
+
+}
+
+.blockchain_balance,
+.blockchain_address,
+.blockchain_address {
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  width: 50px;
+}
+
+.blockchain_address_network {
+
+  background: #00FF9C;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  height: 12px;
+  width: 12px;
+}
+
+
+.navbar_list:hover::before,
+.navbar_list:hover::after {
+
+  overflow: hidden;
+  animation: hue_rotate 20s linear infinite;
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+  background-size: 400%;
+  border-radius: 15px;
+
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+}
+
+@keyframes hue_rotate {
+  0% {
+    background-position: 0 0;
+
+  }
+
+  50% {
+    background-position: 400% 0;
+
+  }
+
+  100% {
+    background-position: 0 0;
+
+  }
+
+}
+
+.navbar_list:hover::after {
+
+  filter: blur(30px);
+}
+/* 
+.web3>* {
+  max-width: 119px;
+  border: none;
+  height: 40px;
+  display: grid;
+}
+
+.web3 {
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  border: var(--border-color-sm);
+  flex-direction: column;
+
+  height: 40px;
+  width: 120px;
+
+} */

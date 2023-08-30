@@ -1,0 +1,38 @@
+*{
+
+    /* background: red; */
+    margin: 0;
+    padding: 0;
+
+}
+/* Okay let use some variables in css only few!!! */
+:root{
+    
+    --navbar__height: 25px;
+    --navbar__width: 25px;
+}
+
+
+
+
+.navbar{
+
+    background: #000000;
+    max-height: 30px !important;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.sidebar{
+
+    min-height: 100vh;
+    width: 40px;
+
+    border-right: 1px solid rgb(34, 30, 30);
+
+    margin-top: var(--navbar__height);
+}

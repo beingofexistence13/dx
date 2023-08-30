@@ -1,0 +1,46 @@
+/* .navbar__container,.sidebar__container,.applebar__container,.bottombar__container{
+
+    display: none;
+
+} */
+
+
+
+
+
+
+
+/* body,.main,main{
+
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+/* .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 300px;
+    width: 500px;
+
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+
+
+}
+.element{
+
+    height: 100px;
+    width: 100px;
+
+    background: red;
+    border-radius: 50%;
+} */
