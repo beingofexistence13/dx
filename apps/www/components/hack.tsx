@@ -344,9 +344,8 @@ export default function Hack({ ...props }: DialogProps) {
                 email-and-password"
                 >
                   <Input
-                    placeholder="Enter your Email"
-                    value={value}
                     type="email"
+                    placeholder="Enter your email"
                     variant="bordered"
                     className="w-full"
                     onClear={() => console.log("input cleared")}
@@ -400,8 +399,7 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto">
-                  </div>
+                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                   <span className="divider-title">or</span>
                   <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                 </div>

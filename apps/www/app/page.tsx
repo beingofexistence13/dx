@@ -8,10 +8,9 @@ import { Snippet } from "@nextui-org/snippet"
 import { button as buttonStyles } from "@nextui-org/theme"
 
 import { siteConfig } from "@/config/site"
-import { GithubIcon } from "@/components/icons" 
+import { Button } from "@/components/ui/button"
+import { GithubIcon } from "@/components/icons"
 import { subtitle, title } from "@/components/primitives"
-import { Button } from "@/components/ui/button";
- 
 
 export default function Home() {
   return (
@@ -23,19 +22,16 @@ export default function Home() {
         <h1 className={title()}>
           websites regardless of your design experience.
         </h1>
-        <h2 className={subtitle({ class: "mt-4" })}>
+        {/* <h2 className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
-        </h2>
-		<Button>Shadcn/ui with Nextui</Button>
-
-
-
+        </h2> */}
+        <Button>Shadcn/ui with Nextui</Button>
       </div>
-      <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
+      {/* <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
         <Input type="email" label="Email" />
         <Input type="email" label="Email" placeholder="Enter your email" />
-      </div>
-
+      </div> */}
+      {/* 
       <div className="flex gap-3">
         <Link
           isExternal
@@ -58,15 +54,15 @@ export default function Home() {
           <GithubIcon size={20} />
           GitHub
         </Link>
-      </div>
+      </div> */}
 
-      <div className="mt-8">
+      {/* <div className="mt-8">
         <Snippet hideSymbol hideCopyButton variant="flat">
           <span>
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
-      </div>
+      </div> */}
     </section>
   )
 }
