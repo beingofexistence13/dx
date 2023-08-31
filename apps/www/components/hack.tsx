@@ -270,10 +270,10 @@ export default function Hack({ ...props }: DialogProps) {
             </div>
             <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
               <TabsList className="glassmorphisum hoverGlassmorphisum mx-auto grid w-full grid-cols-2 ">
-                <TabsTrigger value="hackIn" className="hackTabTriggers">
+                <TabsTrigger value="hackIn" className="glassmorphisum border-none hackTabTriggers">
                   HackIn
                 </TabsTrigger>
-                <TabsTrigger value="hackUp" className="hackTabTriggers">
+                <TabsTrigger value="hackUp" className="glassmorphisum border-none hackTabTriggers">
                   HackUp
                 </TabsTrigger>
               </TabsList>
