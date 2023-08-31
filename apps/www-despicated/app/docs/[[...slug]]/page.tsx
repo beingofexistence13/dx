@@ -7,7 +7,7 @@ import Link from "next/link"
 import { ChevronRightIcon } from "@radix-ui/react-icons"
 import Balancer from "react-wrap-balancer"
 
-import { siteConfig } from "@/config/website"
+import { siteConfig } from "@/config/site"
 import { getTableOfContents } from "@/lib/toc"
 import { absoluteUrl, cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"

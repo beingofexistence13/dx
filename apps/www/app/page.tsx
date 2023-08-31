@@ -1,103 +1,72 @@
 "use client"
 
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowRightIcon } from "@radix-ui/react-icons"
-import { useSelector } from "react-redux"
+import NextLink from "next/link"
+import { Code } from "@nextui-org/code"
+import { Link } from "@nextui-org/link"
+import { Input } from "@nextui-org/react"
+import { Snippet } from "@nextui-org/snippet"
+import { button as buttonStyles } from "@nextui-org/theme"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-import MaterialUIDescription from "@/components/desciption-generator"
-import { ExamplesNav } from "@/components/examples-nav"
-import { Icons } from "@/components/icons"
-import {
-  PageHeader,
-  PageHeaderDescription,
-  PageHeaderHeading,
-} from "@/components/page-header"
-import { SiteHeader } from "@/components/site-header"
-import Todo from "@/components/todo"
-import { Button } from "@/components/ui"
-import { buttonVariants } from "@/registry/new-york/ui/button"
-import { Separator } from "@/registry/new-york/ui/separator"
-import DashboardPage from "./examples/dashboard/page"
-import { Input } from "@nextui-org/react"
+import { GithubIcon } from "@/components/icons" 
+import { subtitle, title } from "@/components/primitives"
+import { Button } from "@/components/ui/button";
+ 
 
-export default function IndexPage() {
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
-
+export default function Home() {
   return (
-    <div>
-      {DevModeSelector ? (
-        ""
-      ) : (
-        <div className="container relative">
-          <PageHeader className=" ">
-            <Link
-              href="/docs/changelog"
-              className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium"
-            >
-              🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-              <span className="sm:hidden">
-                Make your Web Devlopmemt flawless with beingofexistence/dx
-              </span>
-              <span className="hidden sm:inline">
-                I am BeingOfExistence(Sumon brother of Shohan and Emon)
-              </span>
-              <ArrowRightIcon className="ml-1 h-4 w-4" />
-            </Link>
-            <PageHeaderHeading>
-              Build your dreamed component library.
-            </PageHeaderHeading>
-            <PageHeaderDescription>
-              Beautifully designed components and developer resources that you
-              can use into your Websites. Accessible. Customizable. Open Source.
-            </PageHeaderDescription>
-            <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
-              <Link href="/ui" className={cn(buttonVariants())}>
-                Ui
-              </Link>
-              <Link
-                target="_blank"
-                rel="noreferrer"
-                href={siteConfig.links.github}
-                className={cn(buttonVariants({ variant: "outline" }))}
-              >
-                <Icons.gitHub className="mr-2 h-4 w-4" />
-                GitHub
-              </Link>
-            </div>
-          </PageHeader>
-          <MaterialUIDescription />
-          <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
+    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+      <div className="inline-block max-w-lg text-center justify-center">
+        <h1 className={title()}>Make&nbsp;</h1>
+        <h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
+        <br />
+        <h1 className={title()}>
+          websites regardless of your design experience.
+        </h1>
+        <h2 className={subtitle({ class: "mt-4" })}>
+          Beautiful, fast and modern React UI library.
+        </h2>
+		<Button>Shadcn/ui with Nextui</Button>
+
+
+
+      </div>
+      <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
         <Input type="email" label="Email" />
         <Input type="email" label="Email" placeholder="Enter your email" />
       </div>
-          {/* 
-          <ExamplesNav className="[&>a:first-child]:text-primary" />
-          <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
-            <Image
-              src="/examples/dashboard-light.png"
-              width={1280}
-              height={866}
-              alt="Dashboard"
-              className="block dark:hidden"
-            />
-            <Image
-              src="/examples/dashboard-dark.png"
-              width={1280}
-              height={866}
-              alt="Dashboard"
-              className="hidden dark:block"
-            />
-          </section> */}
-          {/* <section className="hidden md:block">
-            <div className="overflow-hidden rounded-lg border bg-background shadow">
-              <DashboardPage />
-            </div>
-          </section> */}
-        </div>
-      )}
-    </div>
+
+      <div className="flex gap-3">
+        <Link
+          isExternal
+          as={NextLink}
+          href={siteConfig.links.docs}
+          className={buttonStyles({
+            color: "primary",
+            radius: "full",
+            variant: "shadow",
+          })}
+        >
+          Documentation
+        </Link>
+        <Link
+          isExternal
+          as={NextLink}
+          className={buttonStyles({ variant: "bordered", radius: "full" })}
+          href={siteConfig.links.github}
+        >
+          <GithubIcon size={20} />
+          GitHub
+        </Link>
+      </div>
+
+      <div className="mt-8">
+        <Snippet hideSymbol hideCopyButton variant="flat">
+          <span>
+            Get started by editing <Code color="primary">app/page.tsx</Code>
+          </span>
+        </Snippet>
+      </div>
+    </section>
   )
 }

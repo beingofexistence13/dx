@@ -239,8 +239,8 @@ export default function Hack({ ...props }: DialogProps) {
 
       {fluidSimulation ? (
         <div className="fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center min-h-screen min-w-full">
-          {/* <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./fluid-simulation.js" /> */}
+          <canvas className="fluid-simulation-container"></canvas>
+          <Script src="./fluid-simulation.js" />
 
           <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] z-[100000000000000000000] space-y-3 h-auto">
             <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
@@ -339,16 +339,21 @@ export default function Hack({ ...props }: DialogProps) {
                   </CommandDialog>
                 </div>
                 {/* Emain and Password */}
-                <div
-                  className="
-                email-and-password"
-                >
+                {/* <div className="
+                email-and-password">
                   <Input
                     placeholder="Enter your Email"
                     value={value}
                     type="email"
                     variant="bordered"
-                    className="w-full"
+                    color={validationState === "invalid" ? "danger" : "success"}
+                    errorMessage={
+                      validationState === "invalid" &&
+                      "Please enter a valid email"
+                    }
+                    validationState={validationState}
+                    onValueChange={setValue}
+                    className="max-w-xs"
                     onClear={() => console.log("input cleared")}
                     isClearable
                   />
@@ -369,10 +374,10 @@ export default function Hack({ ...props }: DialogProps) {
                       </button>
                     }
                     type={isVisible ? "text" : "password"}
-                    className="w-full"
+                    className="max-w-xs"
                     isClearable
                   />
-                </div>
+                </div> */}
                 {/* Social Media */}
                 <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
                   {docsConfig.passport.map((item, index) => (
@@ -391,7 +396,7 @@ export default function Hack({ ...props }: DialogProps) {
                           }
                           alt="Dx"
                         />
-                        <AvatarFallback className="glassmorphisum border-none">
+                        <AvatarFallback className="glassmorphisum">
                           {item.title ? logoLetter(item.title) : "Dx"}
                         </AvatarFallback>
                       </Avatar>
@@ -401,6 +406,8 @@ export default function Hack({ ...props }: DialogProps) {
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
                   <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto">
+                    {/* <div className="divider w-full border-b"></div>
+                    <div className="divider w-full border-b"></div> */}
                   </div>
                   <span className="divider-title">or</span>
                   <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
@@ -423,7 +430,7 @@ export default function Hack({ ...props }: DialogProps) {
                           }
                           alt="Dx"
                         />
-                        <AvatarFallback className="glassmorphisum  border-none">
+                        <AvatarFallback className="glassmorphisum">
                           {item.title ? logoLetter(item.title) : "Dx"}
                         </AvatarFallback>
                       </Avatar>
