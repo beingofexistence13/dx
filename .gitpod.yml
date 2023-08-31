@@ -5,12 +5,12 @@ tasks:
           pnpm run build
       command: |
           pnpm run dev
-    - name: Nextui
-      init: |
-          cd inspirations && cd www && pnpm install
-          pnpm run build
-      command: |
-          pnpm run dev
+    # - name: Nextui
+    #   init: |
+    #       cd inspirations && cd www && pnpm install
+    #       pnpm run build
+    #   command: |
+    #       pnpm run dev
     # - name: terminalflow-typescript
     #   init: |
     #       cd packages && cd terminalflow && pnpm install
