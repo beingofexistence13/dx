@@ -1,4 +1,6 @@
 packages:
   - "apps/www"
-  - "inspirations/nextui-demo"
-
+  # - "inspirations/nextui-demo"
+  # "workspaces": [
+  #   "apps/*"
+  # ],

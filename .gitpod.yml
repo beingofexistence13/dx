@@ -1,7 +1,13 @@
 tasks:
     - name: frontend
       init: |
-          cd apps && cd www && pnpm install
+          pnpm install && cd apps && cd www && pnpm install
+          pnpm run build
+      command: |
+          pnpm run dev
+    - name: Nextui
+      init: |
+          cd inspirations && cd www && pnpm install
           pnpm run build
       command: |
           pnpm run dev
