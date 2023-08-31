@@ -192,12 +192,17 @@ export default function Hack({ ...props }: DialogProps) {
   const { setTheme } = useTheme()
   const [value, setValue] = React.useState("")
   const validateEmail = (value: string) =>
-    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i)
+    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
+
+  const validatePhoneNumber = (value: string) =>
+    value.match(/^\d{3}-\d{3}-\d{4}$/)
 
   const validationState = React.useMemo(() => {
     if (value === "") return undefined
 
-    return validateEmail(value) ? "valid" : "invalid"
+    return validateEmail(value) || validatePhoneNumber(value)
+      ? "valid"
+      : "invalid"
   }, [value])
 
   React.useEffect(() => {
@@ -264,9 +269,13 @@ export default function Hack({ ...props }: DialogProps) {
               </div>
             </div>
             <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
-              <TabsList className="mx-auto grid w-full grid-cols-2 ">
-                <TabsTrigger value="hackIn">HackIn</TabsTrigger>
-                <TabsTrigger value="hackUp">HackUp</TabsTrigger>
+              <TabsList className="glassmorphisum hoverGlassmorphisum mx-auto grid w-full grid-cols-2 ">
+                <TabsTrigger value="hackIn" className="hackTabTriggers">
+                  HackIn
+                </TabsTrigger>
+                <TabsTrigger value="hackUp" className="hackTabTriggers">
+                  HackUp
+                </TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
                 {/* HackIn Search */}
@@ -346,7 +355,7 @@ export default function Hack({ ...props }: DialogProps) {
                   <Input
                     value={value}
                     type="email"
-                    placeholder="Enter your Email"
+                    placeholder="Enter your Email or Phone Number"
                     variant="bordered"
                     color={validationState === "invalid" ? "danger" : "success"}
                     errorMessage={
@@ -434,13 +443,42 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   ))}
                 </div>
-                <div className="hackIn-footer w-full mt-5 flex items-center justify-between">
+                {/* Friday Factor */}
+                <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2 mt-3">
+                  <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                    Friday
+                  </div>
+                  <div className="qr-code glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                    QR Code
+                  </div>
+                  <div className="authenticator glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                    Authenticator
+                  </div>
+                  <div className="face glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                    Face
+                  </div>
+                </div>
+                {/* Footer */}
+                <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                   <Button>Continue as Guest</Button>
                   <Button variant="outline">Confrom</Button>
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <h1>HackUp</h1>
+                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row p-3 space-x-3 bg-red-400">
+                  {/* Web2 */}
+                  <div className="web2 h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-yellow-600">
+                    Web2
+                  </div>
+                  {/* Web3 */}
+                  <div className="web3 h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-green-600">
+                    Web3
+                  </div>
+                  {/* Friday Factor */}
+                  <div className="friday-factor h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-pink-600">
+                    Friday Factor
+                  </div>
+                </div>
               </TabsContent>
             </Tabs>
           </div>
