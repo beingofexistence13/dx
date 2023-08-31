@@ -1,5 +1,5 @@
 packages:
   - "apps/www"
-  - "apps/nextui-shadcn-demo"
+  # - "apps/nextui-shadcn-demo"
   # - "inspirations/nextui-demo"
   # - "inspirations/nextui-shadcn-demo"
