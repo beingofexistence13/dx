@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation"
 import { usePress } from "react-aria"
 import { any } from "zod"
 
-import { siteConfig } from "@/config/site"
+import { siteConfig } from "@/config/website"
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 import { CommandMenu } from "@/components/command-menu"

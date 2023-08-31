@@ -2,7 +2,7 @@ import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
 
-import { siteConfig } from "@/config/site"
+import { siteConfig } from "@/config/website"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/providers"
