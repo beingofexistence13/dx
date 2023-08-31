@@ -1,0 +1,33 @@
+OrderHistory: 📦 Keep track of all your past orders and purchases with ease.
+Incentives: 💰 Get rewarded for your loyalty with our incentive program.
+Box: 🎁 A simple and elegant container for all your content.
+Callout: 📣 Highlight important information with our eye-catching callout feature.
+Datapoint: 📊 Visualize your data with our powerful datapoint tool.
+Masonary: 🧱 Create beautiful layouts with our flexible masonry grid system.
+OverlayPanels: 🖼️ Add depth to your design with our overlay panels feature.
+TableOfContents: 📑 Easily navigate long documents with our table of contents tool.
+FloatButton: 🎈 Add a touch of whimsy to your design with our float button feature.
+Autocomplete: 🔍 Save time and effort with our autocomplete tool.
+Cascader: 🌳 Navigate complex hierarchies with ease using our cascader feature.
+ColorPicker: 🎨 Choose the perfect color for your design with our color picker tool.
+Mentions: 💬 Keep the conversation going with our mentions feature.
+Rate: ⭐️ Let your users rate and review your content with our rate tool.
+Carosel: 🎠 Showcase your content in style with our carousel feature.
+Transfer: 🔁 Move items between lists with ease using our transfer tool.
+Tag: 🏷️ Organize and categorize your content with our tag feature.
+QRCode: 📱 Quickly share information using our QR code tool.
+Statics: 📈 Keep track of important metrics with our statistics feature.
+Timeline: ⏳ Visualize events over time with our timeline tool.
+Tour: 👀 Guide your users through your content with our tour feature.
+Skeleton: 💀 Create a seamless loading experience with our skeleton tool.
+Affix: 📌 Keep important content in view with our affix feature.
+Segmented: 🔪 Divide and conquer your content with our segmented tool.
+Tree: 🌲 Navigate complex hierarchies with ease using our tree feature.
+Steps: 👣 Guide your users through a process with our steps tool.
+Rail: 🚂 Keep your content on track with our rail feature.
+Dimmer: 💡 Control the brightness of your content with our dimmer tool.
+Portal: 🚪 Transport your users to new worlds with our portal feature.
+
+
+
+
