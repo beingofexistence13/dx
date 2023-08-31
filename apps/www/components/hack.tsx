@@ -346,7 +346,7 @@ export default function Hack({ ...props }: DialogProps) {
                   <Input
                     value={value}
                     type="email"
-                    label="Email"
+                    placeholder="Enter your Email"
                     variant="bordered"
                     color={validationState === "invalid" ? "danger" : "success"}
                     errorMessage={
