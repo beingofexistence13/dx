@@ -8,7 +8,7 @@ import { Snippet } from "@nextui-org/snippet"
 import { button as buttonStyles } from "@nextui-org/theme"
 
 import { siteConfig } from "@/config/site"
-import { GithubIcon } from "@/components/icons"
+import { GithubIcon } from "@/components/icons" 
 import { subtitle, title } from "@/components/primitives"
 
 export default function Home() {
