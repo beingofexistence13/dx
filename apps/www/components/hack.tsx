@@ -347,7 +347,7 @@ export default function Hack({ ...props }: DialogProps) {
                     type="email"
                     placeholder="Enter your email"
                     variant="bordered"
-                    className="w-full"
+                    className="w-full mt-3"
                     onClear={() => console.log("input cleared")}
                     isClearable
                   />
@@ -368,7 +368,7 @@ export default function Hack({ ...props }: DialogProps) {
                       </button>
                     }
                     type={isVisible ? "text" : "password"}
-                    className="w-full"
+                    className="w-full mt-3"
                     isClearable
                   />
                 </div>
