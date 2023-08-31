@@ -190,7 +190,7 @@ export default function Hack({ ...props }: DialogProps) {
   const router = useRouter()
   const [open, setOpen] = React.useState(false)
   const { setTheme } = useTheme()
-  const [value, setValue] = React.useState("junior2nextui.org")
+  const [value, setValue] = React.useState("")
   const validateEmail = (value: string) =>
     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i)
 
@@ -344,12 +344,18 @@ export default function Hack({ ...props }: DialogProps) {
                 email-and-password"
                 >
                   <Input
+                    value={value}
                     type="email"
-                    placeholder="Enter your email"
+                    label="Email"
                     variant="bordered"
+                    color={validationState === "invalid" ? "danger" : "success"}
+                    errorMessage={
+                      validationState === "invalid" &&
+                      "Please enter a valid email"
+                    }
+                    validationState={validationState}
+                    onValueChange={setValue}
                     className="w-full mt-3"
-                    onClear={() => console.log("input cleared")}
-                    isClearable
                   />
                   <Input
                     variant="bordered"
@@ -434,28 +440,7 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>HackUp</CardTitle>
-                    <CardDescription>
-                      Change your password here. After saving, youll be logged
-                      out.
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <div className="space-y-1">
-                      <Label htmlFor="current">Current password</Label>
-                      <Input id="current" type="password" />
-                    </div>
-                    <div className="space-y-1">
-                      <Label htmlFor="new">New password</Label>
-                      <Input id="new" type="password" />
-                    </div>
-                  </CardContent>
-                  <CardFooter>
-                    <Button>Save password</Button>
-                  </CardFooter>
-                </Card>
+                <h1>HackUp</h1>
               </TabsContent>
             </Tabs>
           </div>

@@ -25,7 +25,7 @@ export default function Home() {
         {/* <h2 className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
         </h2> */}
-        <Button>Shadcn/ui with Nextui</Button>
+        {/* <Button>Shadcn/ui with Nextui</Button> */}
       </div>
       {/* <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
         <Input type="email" label="Email" />

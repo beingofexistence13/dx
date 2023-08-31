@@ -56,9 +56,7 @@
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     
 }
-.NDPCG{
-    
-}
+
 .NDPCGD{
     
     background: var(--body-bg);
@@ -223,9 +221,7 @@
     
     font-style: bold;
 }
-.NDPCGDTCE{
-    
-}
+
 .NDPCGDTCA{
     
     display: none;
@@ -296,9 +292,7 @@
     width: 45px;
 }
 /* ul NDPCGDB */
-.NDPCGDB{
-    
-}
+
 .NDPCGDBL{
     display: grid;
     grid: 1fr / 45px 1fr;
@@ -501,9 +495,7 @@
     
     /* height: 55px; */
 }
-.NDPCGFBTTLT > *{
-    
-}
+
 
 .NDPCGFBTTR{
     display: flex;
@@ -585,7 +577,7 @@
 }
 .NDPCGDTTT{
     
-    font-family: 'Titan One', cursive;
+    /* font-family: 'Titan One', cursive; */
     display: flex;
     align-items: center;
     justify-content: left;
@@ -606,8 +598,7 @@
 /* Desktop */
 @media(min-width:900px) {
 
-    .NDPCGD {
-    }
+
 
     .NDPC{
         
