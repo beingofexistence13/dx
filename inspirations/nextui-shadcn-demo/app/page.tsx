@@ -10,6 +10,8 @@ import { button as buttonStyles } from "@nextui-org/theme"
 import { siteConfig } from "@/config/site"
 import { GithubIcon } from "@/components/icons" 
 import { subtitle, title } from "@/components/primitives"
+import { Button } from "@/components/ui/button";
+ 
 
 export default function Home() {
   return (
@@ -24,6 +26,10 @@ export default function Home() {
         <h2 className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
         </h2>
+		<Button>Shadcn/ui with Nextui</Button>
+
+
+
       </div>
       <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
         <Input type="email" label="Email" />
