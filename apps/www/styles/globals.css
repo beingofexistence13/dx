@@ -401,23 +401,29 @@ canvas {
 * {
   user-select: none !important;
 }
-
-.hoverGlassmorphisum:hover{
+/* .hoverGlassmorphisum:hover{
   background: rgba(255, 255, 255, 0.077);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-/* .hackTabTriggers:hover {
-  color: var(--violet-11);
-}
+} */
 .hackTabTriggers[data-state='active'] {
-  color: var(--violet-11);
-  box-shadow: inset 0 -1px 0 0 currentColor, 0 1px 0 0 currentColor;
+  animation: ranbow-glow 10s linear infinite;
+  box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid var(--code--highlighted);
 }
-.hackTabTriggers :focus {
+/* .hackTabList{
+
+  height: 50px !important;
+
+} */
+/* .hackTabTriggers :focus {
   position: relative;
   box-shadow: 0 0 0 2px black;
 } */

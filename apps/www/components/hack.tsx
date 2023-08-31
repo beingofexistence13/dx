@@ -269,11 +269,11 @@ export default function Hack({ ...props }: DialogProps) {
               </div>
             </div>
             <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
-              <TabsList className="glassmorphisum mx-auto grid w-full grid-cols-2 ">
-                <TabsTrigger value="hackIn" className="glassmorphisum border-none hackTabTriggers">
+              <TabsList className="hackTabList glassmorphisum mx-auto grid w-full grid-cols-2">
+                <TabsTrigger value="hackIn" className="hackTabTriggers">
                   HackIn
                 </TabsTrigger>
-                <TabsTrigger value="hackUp" className="glassmorphisum border-none hackTabTriggers">
+                <TabsTrigger value="hackUp" className="hackTabTriggers">
                   HackUp
                 </TabsTrigger>
               </TabsList>
@@ -360,11 +360,12 @@ export default function Hack({ ...props }: DialogProps) {
                     color={validationState === "invalid" ? "danger" : "success"}
                     errorMessage={
                       validationState === "invalid" &&
-                      "Please enter a valid email"
+                      "Please enter a valid email or phone number"
                     }
                     validationState={validationState}
                     onValueChange={setValue}
                     className="w-full mt-3"
+                    isClearable
                   />
                   <Input
                     variant="bordered"
@@ -384,7 +385,6 @@ export default function Hack({ ...props }: DialogProps) {
                     }
                     type={isVisible ? "text" : "password"}
                     className="w-full mt-3"
-                    isClearable
                   />
                 </div>
                 {/* Social Media */}
