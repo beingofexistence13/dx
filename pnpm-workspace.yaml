@@ -1,4 +1,4 @@
 packages:
   - "apps/www"
-  - "inspirations/nextui-demo"
-  - "inspirations/nextui-shadcn-demo"
+  # - "inspirations/nextui-demo"
+  # - "inspirations/nextui-shadcn-demo"
