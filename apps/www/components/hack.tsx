@@ -369,152 +369,78 @@ export default function Hack({ ...props }: DialogProps) {
                   <CommandInput placeholder="Type a command or search..." />
                   <CommandList>
                     <CommandEmpty>No results found.</CommandEmpty>
-                    {/* <CommandGroup heading="Suggestions">
-                      <CommandItem>
-                        <Calendar className="mr-2 h-4 w-4" />
-                        <span>Calendar</span>
-                      </CommandItem>
-                      <CommandItem>
-                        <Smile className="mr-2 h-4 w-4" />
-                        <span>Search Emoji</span>
-                      </CommandItem>
-                      <CommandItem>
-                        <Calculator className="mr-2 h-4 w-4" />
-                        <span>Calculator</span>
-                      </CommandItem>
-                    </CommandGroup> */}
-                    <CommandGroup heading="web2">
-                      {docsConfig.passport.map((item, index) => (
-                        <CommandItem key={index}>
-                          <Avatar className="h-[27px] w-[27px] rounded-sm">
-                            <AvatarImage
-                              src={
-                                item.logo
-                                  ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
-                                  : ""
-                              }
-                              alt="Dx"
-                            />
-                            <AvatarFallback className="glassmorphisum border-none">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </AvatarFallback>
-                          </Avatar>
-                        <span className="ml-3">{item.title}</span>
-
-                        </CommandItem>
-                      ))}
+                    <CommandGroup heading="Social Medias">
+                      {docsConfig.passport
+                        .filter((navitem) => !navitem.external)
+                        .map((navItem) => (
+                          <CommandItem
+                            key={navItem.href}
+                            value={navItem.title}
+                            onSelect={() => {
+                              runCommand(() =>
+                                router.push(navItem.href as string)
+                              )
+                            }}
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  navItem.logo
+                                    ? `/docs/${navItem.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
+                              />
+                              <AvatarFallback className="glassmorphisum border-none">
+                                {navItem.title
+                                  ? logoLetter(navItem.title)
+                                  : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                            <span className="ml-3">{navItem.title}</span>
+                          </CommandItem>
+                        ))}
                     </CommandGroup>
-                    <CommandGroup heading="web2">
-                      {docsConfig.passport.map((item, index) => (
-                        <CommandItem key={index}>
-                          <Avatar className="glassmorphisum h-[27px] w-[27px] rounded-sm">
-                            <AvatarImage
-                              src={
-                                item.logo
-                                  ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
-                                  : ""
-                              }
-                              alt="Dx"
-                            />
-                            <AvatarFallback className="glassmorphisum border-none">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </AvatarFallback>
-                          </Avatar>
-                        </CommandItem>
-                      ))}
+                    <CommandGroup heading="Blockchain Wallets">
+                      {docsConfig.passport
+                        .filter((navitem) => !navitem.external)
+                        .map((navItem) => (
+                          <CommandItem
+                            key={navItem.href}
+                            value={navItem.title}
+                            onSelect={() => {
+                              runCommand(() =>
+                                router.push(navItem.href as string)
+                              )
+                            }}
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  navItem.logo
+                                    ? `/docs/${navItem.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
+                              />
+                              <AvatarFallback className="glassmorphisum border-none">
+                                {navItem.title
+                                  ? logoLetter(navItem.title)
+                                  : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                            <span className="ml-3">{navItem.title}</span>
+                          </CommandItem>
+                        ))}
                     </CommandGroup>
-
-                    <CommandSeparator />
-                    {/* <CommandGroup heading="Settings">
-                      <CommandItem>
-                        <User className="mr-2 h-4 w-4" />
-                        <span>Profile</span>
-                        <CommandShortcut>⌘P</CommandShortcut>
-                      </CommandItem>
-                      <CommandItem>
-                        <CreditCard className="mr-2 h-4 w-4" />
-                        <span>Billing</span>
-                        <CommandShortcut>⌘B</CommandShortcut>
-                      </CommandItem>
-                      <CommandItem>
-                        <Settings className="mr-2 h-4 w-4" />
-                        <span>Settings</span>
-                        <CommandShortcut>⌘S</CommandShortcut>
-                      </CommandItem>
-                    </CommandGroup> */}
                   </CommandList>
                 </Command>
-                {/* <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
-                  <div className="text-sm text-muted-foreground flex items-center space-x-2 w-full px-3">
-                    <div
-                      onClick={() => setOpen(true)}
-                      {...props}
-                      className="search  flex items-center justify-center rounded-full border p-2"
-                    >
-                      <Icons.search className="h-4 w-4 fill-current" />
-                    </div>
-                    <div className="chatgpt  flex items-center justify-center rounded-full border p-2">
-                      <Icons.chatgpt className="h-4 w-4 fill-current" />
-                    </div>
-                    <div className="mic  flex items-center justify-center  rounded-full border p-2">
-                      <Icons.mic className="h-4 w-4 fill-current" />
-                    </div>
-                    <div className="media  flex items-center justify-center rounded-full border p-2">
-                      <Icons.media className="h-4 w-4 fill-current" />
-                    </div>
-                  </div>
-                  <CommandDialog open={open} onOpenChange={setOpen}>
-                    <CommandInput placeholder="Type a command or search..." />
-                    <CommandList>
-                      <CommandEmpty>No results found.</CommandEmpty>
-                      <CommandGroup heading="Links">
-                        {docsConfig.mainNav
-                          .filter((navitem) => !navitem.external)
-                          .map((navItem) => (
-                            <CommandItem
-                              key={navItem.href}
-                              value={navItem.title}
-                              onSelect={() => {
-                                runCommand(() =>
-                                  router.push(navItem.href as string)
-                                )
-                              }}
-                            >
-                              <FileIcon className="mr-2 h-4 w-4" />
-                              {navItem.title}
-                            </CommandItem>
-                          ))}
-                      </CommandGroup>
-                      <CommandSeparator />
-                      <CommandGroup heading="Theme">
-                        <CommandItem
-                          onSelect={() => runCommand(() => setTheme("light"))}
-                        >
-                          <SunIcon className="mr-2 h-4 w-4" />
-                          Light
-                        </CommandItem>
-                        <CommandItem
-                          onSelect={() => runCommand(() => setTheme("dark"))}
-                        >
-                          <MoonIcon className="mr-2 h-4 w-4" />
-                          Dark
-                        </CommandItem>
-                        <CommandItem
-                          onSelect={() => runCommand(() => setTheme("system"))}
-                        >
-                          <LaptopIcon className="mr-2 h-4 w-4" />
-                          System
-                        </CommandItem>
-                      </CommandGroup>
-                    </CommandList>
-                  </CommandDialog>
-                </div> */}
                 {/* Social Media */}
-                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
+                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
                   {docsConfig.passport.map((item, index) => (
                     <div
                       key={index}
@@ -594,10 +520,6 @@ export default function Hack({ ...props }: DialogProps) {
                 <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
                   {/* Personal Details */}
                   <form className="web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col">
-                    {/* <div className="grid w-full max-w-sm items-center gap-1.5 mb-3">
-                      <Label htmlFor="picture">Choose your Avatar</Label>
-                      <InputShadcnUi id="picture" type="file" />
-                    </div> */}
                     <div className="w-full flex items-center justify-between border ronded-md text-sm">
                       <input
                         type="file"
@@ -697,9 +619,133 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </form>
 
-                  {/* Web3 */}
+                  {/* Connect */}
                   <div className="web3 h-[300px] min-w-full  rounded-sm flex justify-center items-center">
-                    Web3
+                    {/* HackUp Search */}
+                    <Command className="rounded-lg border shadow-md">
+                      <CommandInput placeholder="Type a command or search..." />
+                      <CommandList>
+                        <CommandEmpty>No results found.</CommandEmpty>
+                        <CommandGroup heading="Social Medias">
+                          {docsConfig.passport
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
+                        <CommandGroup heading="Blockchain Wallets">
+                          {docsConfig.passport
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
+                      </CommandList>
+                    </Command>
+                    {/* Social Media */}
+                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
+                      {docsConfig.passport.map((item, index) => (
+                        <div
+                          key={index}
+                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                        >
+                          <Avatar className="h-[27px] w-[27px] rounded-sm">
+                            <AvatarImage
+                              src={
+                                item.logo
+                                  ? `/docs/${item.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
+                            <AvatarFallback className="glassmorphisum border-none">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </AvatarFallback>
+                          </Avatar>
+                        </div>
+                      ))}
+                    </div>
+                    {/* Wallet */}
+                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
+                      {docsConfig.wallet.map((item, index) => (
+                        <div
+                          key={index}
+                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                        >
+                          <Avatar className="h-[27px] w-[27px] rounded-sm">
+                            <AvatarImage
+                              src={
+                                item.logo
+                                  ? `/docs/${item.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
+                            <AvatarFallback className="glassmorphisum  border-none">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </AvatarFallback>
+                          </Avatar>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   {/* Friday Factor */}
                   <div className="friday-factor h-[300px] min-w-full rounded-sm flex justify-center items-center bg-pink-600">
