@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
+import { InputShadcnUi } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 export function DialogDemo() {
@@ -29,13 +29,13 @@ export function DialogDemo() {
             <Label htmlFor="name" className="text-right">
               Name
             </Label>
-            <Input id="name" value="Pedro Duarte" className="col-span-3" />
+            <InputShadcnUi id="name" value="Pedro Duarte" className="col-span-3" />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
               Username
             </Label>
-            <Input id="username" value="@peduarte" className="col-span-3" />
+            <InputShadcnUi id="username" value="@peduarte" className="col-span-3" />
           </div>
         </div>
         <DialogFooter>

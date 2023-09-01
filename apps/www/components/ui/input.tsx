@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
 
-const ShadcnInput = React.forwardRef<HTMLInputElement, InputProps>(
+const InputShadcnUi = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, ...props }, ref) => {
     return (
       <input
@@ -20,6 +20,6 @@ const ShadcnInput = React.forwardRef<HTMLInputElement, InputProps>(
     )
   }
 )
-ShadcnInput.displayName = "ShadcnInput"
+InputShadcnUi.displayName = "InputShadcnUi"
 
-export { ShadcnInput }
+export { InputShadcnUi }

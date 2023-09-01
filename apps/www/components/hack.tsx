@@ -101,6 +101,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
+  InputShadcnUi,
   Label,
   Menubar,
   MenubarCheckboxItem,
@@ -143,7 +144,6 @@ import {
   SelectTrigger,
   SelectValue,
   Separator,
-  ShadcnInput,
   Skeleton,
   Slider,
   Switch,
@@ -194,13 +194,25 @@ export default function Hack({ ...props }: DialogProps) {
   const [value, setValue] = React.useState("")
   const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = React.useState("")
   const [number, setNumber] = React.useState("")
+  const [file, setFile] = React.useState<File | null>(null)
+  const fileInputRef = React.useRef<HTMLInputElement>(null)
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const files = event.target.files
+    if (files) {
+      setFile(files[0])
+    }
+  }
+  const handleButtonClick = () => {
+    if (fileInputRef.current) {
+      fileInputRef.current.click()
+    }
+  }
   const validatePhoneNumber = (value: string) => {
     const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
     return regex.test(value)
   }
   const validationPhoneNumberState = React.useMemo(() => {
     if (number === "") return undefined
-
     return validatePhoneNumber(number) ? "valid" : "invalid"
   }, [number])
   const validateEmailPlus = (value: string) =>
@@ -355,9 +367,16 @@ export default function Hack({ ...props }: DialogProps) {
                     >
                       <Icons.search className="h-4 w-4 fill-current" />
                     </div>
-                    <span className="flex-1 w-full ">
+                    {/* <span className="flex-1 w-full ">
                       wallets & social medias
-                    </span>
+                    </span> */}
+                    <Input
+                      type="search"
+                      placeholder="wallets & social medias"
+                      variant="bordered"
+                      className="w-full"
+                      isClearable
+                    />
                     <div className="chatgpt  flex items-center justify-center rounded-full border p-2">
                       <Icons.chatgpt className="h-4 w-4 fill-current" />
                     </div>
@@ -493,11 +512,23 @@ export default function Hack({ ...props }: DialogProps) {
               </TabsContent>
               <TabsContent value="hackUp">
                 <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
-                  {/* Web2 */}
+                  {/* Personal Details */}
                   <form className="web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col">
-                    <div className="grid w-full max-w-sm items-center gap-1.5 mb-3">
+                    {/* <div className="grid w-full max-w-sm items-center gap-1.5 mb-3">
                       <Label htmlFor="picture">Choose your Avatar</Label>
-                      <ShadcnInput id="picture" type="file" />
+                      <InputShadcnUi id="picture" type="file" />
+                    </div> */}
+                    <div className="w-full flex items-center justify-between border ronded-md text-sm">
+                      <input
+                        type="file"
+                        style={{ display: "none" }}
+                        ref={fileInputRef}
+                        onChange={handleFileChange}
+                      />
+                      <Button onClick={handleButtonClick}>
+                        Choose Your Avatar
+                      </Button>
+                      {file && <p>Selected file: {file.name}</p>}
                     </div>
                     <Input
                       type="search"
@@ -605,75 +636,3 @@ export default function Hack({ ...props }: DialogProps) {
     </div>
   )
 }
-
-// function App() {
-//   const [number, setNumber] = React.useState("")
-
-//   const validatePhoneNumber = (value: string) => {
-//     const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-//     return regex.test(value)
-//   }
-
-//   const validationPhoneNumberState = React.useMemo(() => {
-//     if (number === "") return undefined
-
-//     return validatePhoneNumber(number) ? "valid" : "invalid"
-//   }, [number])
-
-//   return (
-//     <Input
-//       value={number}
-//       type="tel"
-//       label="Phone Number"
-//       variant="bordered"
-//       color={validationPhoneNumberState === "invalid" ? "danger" : "success"}
-//       errorMessage={
-//         validationPhoneNumberState === "invalid" &&
-//         "Please enter a valid phone number"
-//       }
-//       validationState={validationPhoneNumberState}
-//       onValueChange={setNumber}
-//       className="max-w-xs"
-//     />
-//   )
-// }
-
-// function App() {
-//   const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = React.useState("")
-
-//   const validateEmailPlus = (value: string) =>
-//     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
-
-//   const validatePhoneNumberPlus = (value: string) => {
-//     const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-//     return regex.test(value)
-//   }
-
-//   const validationEmailAndPhoneNumbberState = React.useMemo(() => {
-//     if (emailAndPhoneNumbber === "") return undefined
-
-//     return validateEmailPlus(emailAndPhoneNumbber) ||
-//       validatePhoneNumberPlus(emailAndPhoneNumbber)
-//       ? "valid"
-//       : "invalid"
-//   }, [emailAndPhoneNumbber])
-
-//   return (
-//     <Input
-//       value={emailAndPhoneNumbber}
-//       type="text"
-//       label="Email or Phone Number"
-//       variant="bordered"
-//       color={
-//         validationEmailAndPhoneNumbberState === "invalid" ? "danger" : "success"
-//       }
-//       errorMessage={
-//         validationEmailAndPhoneNumbberState === "invalid" &&
-//         "Please enter a valid email or phone number"
-//       }
-//       validationState={validationEmailAndPhoneNumbberState}
-//       onValueChange={setEmailAndPhoneNumbber}
-//       className="max-w-xs"
-//     />
-//   )
-// }
