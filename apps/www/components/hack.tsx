@@ -6,6 +6,14 @@ import Script from "next/script"
 import { Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
+import {
+  Calculator,
+  Calendar,
+  CreditCard,
+  Settings,
+  Smile,
+  User,
+} from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { docsConfig } from "@/config/docs"
@@ -34,7 +42,6 @@ import {
   AvatarImage,
   Badge,
   Button,
-  Calendar,
   Card,
   CardContent,
   CardDescription,
@@ -358,7 +365,45 @@ export default function Hack({ ...props }: DialogProps) {
                   <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                 </div>
                 {/* HackIn Search */}
-                <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
+                <Command className="rounded-lg border shadow-md">
+                  <CommandInput placeholder="Type a command or search..." />
+                  <CommandList>
+                    <CommandEmpty>No results found.</CommandEmpty>
+                    <CommandGroup heading="Suggestions">
+                      <CommandItem>
+                        <Calendar className="mr-2 h-4 w-4" />
+                        <span>Calendar</span>
+                      </CommandItem>
+                      <CommandItem>
+                        <Smile className="mr-2 h-4 w-4" />
+                        <span>Search Emoji</span>
+                      </CommandItem>
+                      <CommandItem>
+                        <Calculator className="mr-2 h-4 w-4" />
+                        <span>Calculator</span>
+                      </CommandItem>
+                    </CommandGroup>
+                    <CommandSeparator />
+                    <CommandGroup heading="Settings">
+                      <CommandItem>
+                        <User className="mr-2 h-4 w-4" />
+                        <span>Profile</span>
+                        <CommandShortcut>⌘P</CommandShortcut>
+                      </CommandItem>
+                      <CommandItem>
+                        <CreditCard className="mr-2 h-4 w-4" />
+                        <span>Billing</span>
+                        <CommandShortcut>⌘B</CommandShortcut>
+                      </CommandItem>
+                      <CommandItem>
+                        <Settings className="mr-2 h-4 w-4" />
+                        <span>Settings</span>
+                        <CommandShortcut>⌘S</CommandShortcut>
+                      </CommandItem>
+                    </CommandGroup>
+                  </CommandList>
+                </Command>
+                {/* <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
                   <div className="text-sm text-muted-foreground flex items-center space-x-2 w-full px-3">
                     <div
                       onClick={() => setOpen(true)}
@@ -367,16 +412,6 @@ export default function Hack({ ...props }: DialogProps) {
                     >
                       <Icons.search className="h-4 w-4 fill-current" />
                     </div>
-                    {/* <span className="flex-1 w-full ">
-                      wallets & social medias
-                    </span> */}
-                    <Input
-                      type="search"
-                      placeholder="wallets & social medias"
-                      variant="bordered"
-                      className="w-full"
-                      isClearable
-                    />
                     <div className="chatgpt  flex items-center justify-center rounded-full border p-2">
                       <Icons.chatgpt className="h-4 w-4 fill-current" />
                     </div>
@@ -432,7 +467,7 @@ export default function Hack({ ...props }: DialogProps) {
                       </CommandGroup>
                     </CommandList>
                   </CommandDialog>
-                </div>
+                </div> */}
                 {/* Social Media */}
                 <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
                   {docsConfig.passport.map((item, index) => (
