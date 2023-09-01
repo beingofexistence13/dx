@@ -295,6 +295,56 @@ export default function Hack({ ...props }: DialogProps) {
                 </TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
+                {/* Email and Password */}
+                <form
+                  className="
+                email-and-password"
+                >
+                  <Input
+                    value={emailAndPhoneNumbber}
+                    type="search"
+                    placeholder="Email or Phone Number"
+                    variant="bordered"
+                    color={
+                      validationEmailAndPhoneNumbberState === "invalid"
+                        ? "danger"
+                        : "success"
+                    }
+                    errorMessage={
+                      validationEmailAndPhoneNumbberState === "invalid" &&
+                      "Please enter a valid email or phone number"
+                    }
+                    validationState={validationEmailAndPhoneNumbberState}
+                    onValueChange={setEmailAndPhoneNumbber}
+                    className="w-full mt-3"
+                    isClearable
+                  />
+                  <Input
+                    variant="bordered"
+                    placeholder="Enter your password"
+                    endContent={
+                      <button
+                        className="focus:outline-none"
+                        type="button"
+                        onClick={toggleVisibility}
+                      >
+                        {isVisible ? (
+                          <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                        ) : (
+                          <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                        )}
+                      </button>
+                    }
+                    type={isVisible ? "text" : "password"}
+                    className="w-full mt-3"
+                  />
+                </form>
+                {/* Divider */}
+                <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <span className="divider-title">or</span>
+                  <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                </div>
                 {/* HackIn Search */}
                 <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">
                   <div className="text-sm text-muted-foreground flex items-center space-x-2 w-full px-3">
@@ -364,50 +414,6 @@ export default function Hack({ ...props }: DialogProps) {
                     </CommandList>
                   </CommandDialog>
                 </div>
-                {/* Emain and Password */}
-                <form
-                  className="
-                email-and-password"
-                >
-                  <Input
-                    value={emailAndPhoneNumbber}
-                    type="search"
-                    placeholder="Email or Phone Number"
-                    variant="bordered"
-                    color={
-                      validationEmailAndPhoneNumbberState === "invalid"
-                        ? "danger"
-                        : "success"
-                    }
-                    errorMessage={
-                      validationEmailAndPhoneNumbberState === "invalid" &&
-                      "Please enter a valid email or phone number"
-                    }
-                    validationState={validationEmailAndPhoneNumbberState}
-                    onValueChange={setEmailAndPhoneNumbber}
-                    className="w-full mt-3"
-                    isClearable
-                  />
-                  <Input
-                    variant="bordered"
-                    placeholder="Enter your password"
-                    endContent={
-                      <button
-                        className="focus:outline-none"
-                        type="button"
-                        onClick={toggleVisibility}
-                      >
-                        {isVisible ? (
-                          <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
-                        ) : (
-                          <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
-                        )}
-                      </button>
-                    }
-                    type={isVisible ? "text" : "password"}
-                    className="w-full mt-3"
-                  />
-                </form>
                 {/* Social Media */}
                 <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
                   {docsConfig.passport.map((item, index) => (
@@ -432,12 +438,6 @@ export default function Hack({ ...props }: DialogProps) {
                       </Avatar>
                     </div>
                   ))}
-                </div>
-                {/* Divider */}
-                <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
-                  <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                 </div>
                 {/* Wallet */}
                 <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
@@ -464,8 +464,14 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   ))}
                 </div>
+                {/* Divider */}
+                <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <span className="divider-title">or</span>
+                  <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                </div>
                 {/* Friday Factor */}
-                <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2 mt-3">
+                <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
                   <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
                     Friday
                   </div>
