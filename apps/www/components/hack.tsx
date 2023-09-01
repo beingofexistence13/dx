@@ -186,42 +186,48 @@ import {
 export default function Hack({ ...props }: DialogProps) {
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
-  const [fluidSimulation, setFluidSimulation] = React.useState(false)
+  const [fluidSimulation, setFluidSimulation] = React.useState(true)
   const router = useRouter()
   const [open, setOpen] = React.useState(false)
   const { setTheme } = useTheme()
   const [value, setValue] = React.useState("")
+  const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = React.useState("")
+  const [number, setNumber] = React.useState("")
+  const validatePhoneNumber = (value: string) => {
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+    return regex.test(value)
+  }
+  const validationPhoneNumberState = React.useMemo(() => {
+    if (number === "") return undefined
+
+    return validatePhoneNumber(number) ? "valid" : "invalid"
+  }, [number])
+  const validateEmailPlus = (value: string) =>
+    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
+  const validatePhoneNumberPlus = (value: string) => {
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+    return regex.test(value)
+  }
+  const validationEmailAndPhoneNumbberState = React.useMemo(() => {
+    if (emailAndPhoneNumbber === "") return undefined
+    return validateEmailPlus(emailAndPhoneNumbber) ||
+      validatePhoneNumberPlus(emailAndPhoneNumbber)
+      ? "valid"
+      : "invalid"
+  }, [emailAndPhoneNumbber])
+
   const validateEmail = (value: string) =>
     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
-
-  const validatePhoneNumber = (value: string) =>
-    value.match(/^\d{3}-\d{3}-\d{4}$/)
-
   const validationState = React.useMemo(() => {
     if (value === "") return undefined
-
     return validateEmail(value) || validatePhoneNumber(value)
       ? "valid"
       : "invalid"
   }, [value])
-
-  React.useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault()
-        setOpen((open) => !open)
-      }
-    }
-
-    document.addEventListener("keydown", down)
-    return () => document.removeEventListener("keydown", down)
-  }, [])
-
   const runCommand = React.useCallback((command: () => unknown) => {
     setOpen(false)
     command()
   }, [])
-
   function logoLetter(title: string): string {
     let text = title
     let firstLetter = text.charAt(0).toUpperCase()
@@ -229,6 +235,16 @@ export default function Hack({ ...props }: DialogProps) {
     let result = firstLetter + lastLetter
     return result
   }
+  React.useEffect(() => {
+    const down = (e: KeyboardEvent) => {
+      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        setOpen((open) => !open)
+      }
+    }
+    document.addEventListener("keydown", down)
+    return () => document.removeEventListener("keydown", down)
+  }, [])
 
   return (
     <div>
@@ -348,24 +364,29 @@ export default function Hack({ ...props }: DialogProps) {
                   </CommandDialog>
                 </div>
                 {/* Emain and Password */}
-                <div
+                <form
                   className="
                 email-and-password"
                 >
                   <Input
-                    value={value}
-                    type="email"
-                    placeholder="Enter your Email or Phone Number"
+                    value={emailAndPhoneNumbber}
+                    type="search"
+                    placeholder="Email or Phone Number"
                     variant="bordered"
-                    color={validationState === "invalid" ? "danger" : "success"}
+                    color={
+                      validationEmailAndPhoneNumbberState === "invalid"
+                        ? "danger"
+                        : "success"
+                    }
                     errorMessage={
-                      validationState === "invalid" &&
+                      validationEmailAndPhoneNumbberState === "invalid" &&
                       "Please enter a valid email or phone number"
                     }
-                    validationState={validationState}
-                    onValueChange={setValue}
+                    validationState={validationEmailAndPhoneNumbberState}
+                    onValueChange={setEmailAndPhoneNumbber}
                     className="w-full mt-3"
                     isClearable
+
                   />
                   <Input
                     variant="bordered"
@@ -386,7 +407,7 @@ export default function Hack({ ...props }: DialogProps) {
                     type={isVisible ? "text" : "password"}
                     className="w-full mt-3"
                   />
-                </div>
+                </form>
                 {/* Social Media */}
                 <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-3">
                   {docsConfig.passport.map((item, index) => (
@@ -465,17 +486,78 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row p-3 space-x-3 bg-red-400">
+                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row p-3 space-x-">
                   {/* Web2 */}
-                  <div className="web2 h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-yellow-600">
-                    Web2
-                  </div>
+                  <form className="web2 h-[300px] min-w-full rounded-sm flex justify-start items-center flex-col">
+                    <Input
+                      type="search"
+                      placeholder="Enter your Name"
+                      variant="bordered"
+                      className="w-full mt-3"
+                      isClearable
+                    />
+                    <Input
+                      value={value}
+                      type="email"
+                      placeholder="Enter your Email"
+                      variant="bordered"
+                      color={
+                        validationState === "invalid" ? "danger" : "success"
+                      }
+                      errorMessage={
+                        validationState === "invalid" &&
+                        "Please enter a valid email or phone number"
+                      }
+                      validationState={validationState}
+                      onValueChange={setValue}
+                      className="w-full mt-3"
+                      isClearable
+                    />
+                    <Input
+                      value={number}
+                      type="tel"
+                      placeholder="Phone Number"
+                      variant="bordered"
+                      color={
+                        validationPhoneNumberState === "invalid"
+                          ? "danger"
+                          : "success"
+                      }
+                      errorMessage={
+                        validationPhoneNumberState === "invalid" &&
+                        "Please enter a valid phone number"
+                      }
+                      validationState={validationPhoneNumberState}
+                      onValueChange={setNumber}
+                      className="w-full mt-3"
+                    />
+                    <Input
+                      variant="bordered"
+                      placeholder="Enter your password"
+                      endContent={
+                        <button
+                          className="focus:outline-none"
+                          type="button"
+                          onClick={toggleVisibility}
+                        >
+                          {isVisible ? (
+                            <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                          ) : (
+                            <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                          )}
+                        </button>
+                      }
+                      type={isVisible ? "text" : "password"}
+                      className="w-full mt-3"
+                    />
+                  </form>
+
                   {/* Web3 */}
-                  <div className="web3 h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-green-600">
+                  <div className="web3 h-[300px] min-w-full  rounded-sm flex justify-center items-center">
                     Web3
                   </div>
                   {/* Friday Factor */}
-                  <div className="friday-factor h-[300px] min-w-[300px] rounded-sm flex justify-center items-center bg-pink-600">
+                  <div className="friday-factor h-[300px] min-w-full rounded-sm flex justify-center items-center bg-pink-600">
                     Friday Factor
                   </div>
                 </div>
@@ -489,3 +571,75 @@ export default function Hack({ ...props }: DialogProps) {
     </div>
   )
 }
+
+// function App() {
+//   const [number, setNumber] = React.useState("")
+
+//   const validatePhoneNumber = (value: string) => {
+//     const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+//     return regex.test(value)
+//   }
+
+//   const validationPhoneNumberState = React.useMemo(() => {
+//     if (number === "") return undefined
+
+//     return validatePhoneNumber(number) ? "valid" : "invalid"
+//   }, [number])
+
+//   return (
+//     <Input
+//       value={number}
+//       type="tel"
+//       label="Phone Number"
+//       variant="bordered"
+//       color={validationPhoneNumberState === "invalid" ? "danger" : "success"}
+//       errorMessage={
+//         validationPhoneNumberState === "invalid" &&
+//         "Please enter a valid phone number"
+//       }
+//       validationState={validationPhoneNumberState}
+//       onValueChange={setNumber}
+//       className="max-w-xs"
+//     />
+//   )
+// }
+
+// function App() {
+//   const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = React.useState("")
+
+//   const validateEmailPlus = (value: string) =>
+//     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
+
+//   const validatePhoneNumberPlus = (value: string) => {
+//     const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+//     return regex.test(value)
+//   }
+
+//   const validationEmailAndPhoneNumbberState = React.useMemo(() => {
+//     if (emailAndPhoneNumbber === "") return undefined
+
+//     return validateEmailPlus(emailAndPhoneNumbber) ||
+//       validatePhoneNumberPlus(emailAndPhoneNumbber)
+//       ? "valid"
+//       : "invalid"
+//   }, [emailAndPhoneNumbber])
+
+//   return (
+//     <Input
+//       value={emailAndPhoneNumbber}
+//       type="text"
+//       label="Email or Phone Number"
+//       variant="bordered"
+//       color={
+//         validationEmailAndPhoneNumbberState === "invalid" ? "danger" : "success"
+//       }
+//       errorMessage={
+//         validationEmailAndPhoneNumbberState === "invalid" &&
+//         "Please enter a valid email or phone number"
+//       }
+//       validationState={validationEmailAndPhoneNumbberState}
+//       onValueChange={setEmailAndPhoneNumbber}
+//       className="max-w-xs"
+//     />
+//   )
+// }
