@@ -106,7 +106,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-import { Input } from "@/components/ui/input"
+import { ShadcnInput } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {
   Menubar,
@@ -295,7 +295,7 @@ export {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-  Input,
+  ShadcnInput,
   Label,
   Menubar,
   MenubarCheckboxItem,

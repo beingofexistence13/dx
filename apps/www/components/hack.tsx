@@ -143,6 +143,7 @@ import {
   SelectTrigger,
   SelectValue,
   Separator,
+  ShadcnInput,
   Skeleton,
   Slider,
   Switch,
@@ -386,7 +387,6 @@ export default function Hack({ ...props }: DialogProps) {
                     onValueChange={setEmailAndPhoneNumbber}
                     className="w-full mt-3"
                     isClearable
-
                   />
                   <Input
                     variant="bordered"
@@ -486,14 +486,18 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row p-3 space-x-">
+                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
                   {/* Web2 */}
-                  <form className="web2 h-[300px] min-w-full rounded-sm flex justify-start items-center flex-col">
+                  <form className="web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col">
+                    <div className="grid w-full max-w-sm items-center gap-1.5 mb-3">
+                      <Label htmlFor="picture">Choose your Avatar</Label>
+                      <ShadcnInput id="picture" type="file" />
+                    </div>
                     <Input
                       type="search"
                       placeholder="Enter your Name"
                       variant="bordered"
-                      className="w-full mt-3"
+                      className="w-full"
                       isClearable
                     />
                     <Input
@@ -516,7 +520,7 @@ export default function Hack({ ...props }: DialogProps) {
                     <Input
                       value={number}
                       type="tel"
-                      placeholder="Phone Number"
+                      placeholder="Enter your Phone Number"
                       variant="bordered"
                       color={
                         validationPhoneNumberState === "invalid"
@@ -550,6 +554,30 @@ export default function Hack({ ...props }: DialogProps) {
                       type={isVisible ? "text" : "password"}
                       className="w-full mt-3"
                     />
+                    <Input
+                      variant="bordered"
+                      placeholder="Confrom your password"
+                      endContent={
+                        <button
+                          className="focus:outline-none"
+                          type="button"
+                          onClick={toggleVisibility}
+                        >
+                          {isVisible ? (
+                            <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                          ) : (
+                            <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                          )}
+                        </button>
+                      }
+                      type={isVisible ? "text" : "password"}
+                      className="w-full mt-3"
+                    />
+                    {/* Footer */}
+                    <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <Button>Continue as Guest</Button>
+                      <Button variant="outline">Next</Button>
+                    </div>
                   </form>
 
                   {/* Web3 */}
