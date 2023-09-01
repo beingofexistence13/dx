@@ -369,7 +369,7 @@ export default function Hack({ ...props }: DialogProps) {
                   <CommandInput placeholder="Type a command or search..." />
                   <CommandList>
                     <CommandEmpty>No results found.</CommandEmpty>
-                    <CommandGroup heading="Suggestions">
+                    {/* <CommandGroup heading="Suggestions">
                       <CommandItem>
                         <Calendar className="mr-2 h-4 w-4" />
                         <span>Calendar</span>
@@ -382,9 +382,31 @@ export default function Hack({ ...props }: DialogProps) {
                         <Calculator className="mr-2 h-4 w-4" />
                         <span>Calculator</span>
                       </CommandItem>
+                    </CommandGroup> */}
+                    <CommandGroup heading="web2">
+                      {docsConfig.passport.map((item, index) => (
+                        <CommandItem key={index}>
+                          <Avatar className="glassmorphisum h-[27px] w-[27px] rounded-sm">
+                            <AvatarImage
+                              src={
+                                item.logo
+                                  ? `/docs/${item.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
+                            <AvatarFallback className="glassmorphisum border-none">
+                              {item.title ? logoLetter(item.title) : "Dx"}
+                            </AvatarFallback>
+                          </Avatar>
+                        </CommandItem>
+                      ))}
                     </CommandGroup>
+
                     <CommandSeparator />
-                    <CommandGroup heading="Settings">
+                    {/* <CommandGroup heading="Settings">
                       <CommandItem>
                         <User className="mr-2 h-4 w-4" />
                         <span>Profile</span>
@@ -400,7 +422,7 @@ export default function Hack({ ...props }: DialogProps) {
                         <span>Settings</span>
                         <CommandShortcut>⌘S</CommandShortcut>
                       </CommandItem>
-                    </CommandGroup>
+                    </CommandGroup> */}
                   </CommandList>
                 </Command>
                 {/* <div className="hackIn-searchbar rounded-2xl border w-full h-[50px] flex items-center m-0 ">

@@ -6,6 +6,7 @@ import { Command as CommandPrimitive } from "cmdk"
 import { Search } from "lucide-react"
 
 import { cn } from "@/lib/utils"
+import { Icons } from "@/components/icons"
 import { Dialog, DialogContent } from "@/registry/default/ui/dialog"
 
 const Command = React.forwardRef<
@@ -42,15 +43,28 @@ const CommandInput = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
 >(({ className, ...props }, ref) => (
   <div className="flex items-center border-b px-3" cmdk-input-wrapper="">
-    <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
-    <CommandPrimitive.Input
-      ref={ref}
-      className={cn(
-        "flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",
-        className
-      )}
-      {...props}
-    />
+    <div className="text-sm text-muted-foreground flex items-center space-x-2 w-full px-3">
+      <div className="search  flex items-center justify-center rounded-full border p-2">
+        <Icons.search className="h-4 w-4 fill-current" />
+      </div>
+      <CommandPrimitive.Input
+        ref={ref}
+        className={cn(
+          "flex flex-1 h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",
+          className
+        )}
+        {...props}
+      />
+      <div className="chatgpt  flex items-center justify-center rounded-full border p-2">
+        <Icons.chatgpt className="h-4 w-4 fill-current" />
+      </div>
+      <div className="mic  flex items-center justify-center  rounded-full border p-2">
+        <Icons.mic className="h-4 w-4 fill-current" />
+      </div>
+      <div className="media  flex items-center justify-center rounded-full border p-2">
+        <Icons.media className="h-4 w-4 fill-current" />
+      </div>
+    </div>
   </div>
 ))
 
@@ -89,7 +103,7 @@ const CommandGroup = React.forwardRef<
   <CommandPrimitive.Group
     ref={ref}
     className={cn(
-      "overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
+      "hackIn-connect-container text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
       className
     )}
     {...props}
@@ -117,7 +131,7 @@ const CommandItem = React.forwardRef<
   <CommandPrimitive.Item
     ref={ref}
     className={cn(
-      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+      "cursor-default select-none px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1",
       className
     )}
     {...props}
