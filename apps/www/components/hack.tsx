@@ -303,7 +303,7 @@ export default function Hack({ ...props }: DialogProps) {
                   <Input
                     value={emailAndPhoneNumbber}
                     type="search"
-                    placeholder="Email or Phone Number"
+                    placeholder="Enter Email or Phone Number"
                     variant="bordered"
                     color={
                       validationEmailAndPhoneNumbberState === "invalid"
