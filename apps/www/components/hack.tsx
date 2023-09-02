@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { useRouter } from "next/navigation"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import Script from "next/script"
 import { Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
@@ -191,6 +191,11 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
+import { generateChainData } from "../utils/fetch"
+import { AdBanner } from "./AdBanner"
+import Layout from "./Layout"
+import Chain from "./chain"
+
 export default function Hack({ ...props }: DialogProps) {
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
@@ -266,6 +271,62 @@ export default function Hack({ ...props }: DialogProps) {
     return () => document.removeEventListener("keydown", down)
   }, [])
 
+  // ChainList
+  interface Chain {
+    chain: any
+    chainId: any
+    nativeCurrency: any
+    name: string
+    title: string
+    network: string
+    // ...
+  }
+  const [chains, setChains] = React.useState<Chain[]>([])
+  React.useEffect(() => {
+    async function fetchData() {
+      const sortedChains = await generateChainData()
+      setChains(sortedChains)
+    }
+    fetchData()
+  }, [])
+  const searchParams = useSearchParams()
+  const testnets = searchParams ? searchParams.get("testnets") : ""
+  const testnet = searchParams ? searchParams.get("testnet") : ""
+  const search = searchParams ? searchParams.get("search") : ""
+  const includeTestnets =
+    (typeof testnets === "string" && testnets === "true") ||
+    (typeof testnet === "string" && testnet === "true")
+  const sortedChains = !includeTestnets
+    ? chains.filter((item) => {
+        const testnet =
+          item.name?.toLowerCase().includes("test") ||
+          item.title?.toLowerCase().includes("test") ||
+          item.network?.toLowerCase().includes("test")
+        const devnet =
+          item.name?.toLowerCase().includes("devnet") ||
+          item.title?.toLowerCase().includes("devnet") ||
+          item.network?.toLowerCase().includes("devnet")
+        return !testnet && !devnet
+      })
+    : chains
+  const filteredChains =
+    !search || typeof search !== "string" || search === ""
+      ? sortedChains
+      : sortedChains.filter((chain) => {
+          //filter
+          return (
+            chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+            chain.chainId
+              .toString()
+              .toLowerCase()
+              .includes(search.toLowerCase()) ||
+            chain.name.toLowerCase().includes(search.toLowerCase()) ||
+            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+              .toLowerCase()
+              .includes(search.toLowerCase())
+          )
+        })
+
   return (
     <div>
       <div
@@ -340,7 +401,7 @@ export default function Hack({ ...props }: DialogProps) {
                   />
                   <Input
                     variant="bordered"
-                    placeholder="Enter your password"
+                    placeholder="Enter Your Password"
                     endContent={
                       <button
                         className="focus:outline-none"
@@ -404,7 +465,7 @@ export default function Hack({ ...props }: DialogProps) {
                         ))}
                     </CommandGroup>
                     <CommandGroup heading="Blockchain Wallets">
-                      {docsConfig.passport
+                      {docsConfig.wallet
                         .filter((navitem) => !navitem.external)
                         .map((navItem) => (
                           <CommandItem
@@ -520,29 +581,29 @@ export default function Hack({ ...props }: DialogProps) {
                 <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
                   {/* Personal Details */}
                   <form className="web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col">
-                    <div className="w-full flex items-center justify-between border ronded-md text-sm">
+                    <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
                         style={{ display: "none" }}
                         ref={fileInputRef}
                         onChange={handleFileChange}
                       />
-                      <Button onClick={handleButtonClick}>
+                      <Button variant="link" onClick={handleButtonClick}>
                         Choose Your Avatar
                       </Button>
                       {file && <p>Selected file: {file.name}</p>}
                     </div>
                     <Input
                       type="search"
-                      placeholder="Enter your Name"
+                      placeholder="Enter Your Name"
                       variant="bordered"
-                      className="w-full"
+                      className="w-full mt-3"
                       isClearable
                     />
                     <Input
                       value={value}
                       type="email"
-                      placeholder="Enter your Email"
+                      placeholder="Enter Your Email"
                       variant="bordered"
                       color={
                         validationState === "invalid" ? "danger" : "success"
@@ -559,7 +620,7 @@ export default function Hack({ ...props }: DialogProps) {
                     <Input
                       value={number}
                       type="tel"
-                      placeholder="Enter your Phone Number"
+                      placeholder="Enter Your Phone Number"
                       variant="bordered"
                       color={
                         validationPhoneNumberState === "invalid"
@@ -576,7 +637,7 @@ export default function Hack({ ...props }: DialogProps) {
                     />
                     <Input
                       variant="bordered"
-                      placeholder="Enter your password"
+                      placeholder="Enter Your Password"
                       endContent={
                         <button
                           className="focus:outline-none"
@@ -595,7 +656,7 @@ export default function Hack({ ...props }: DialogProps) {
                     />
                     <Input
                       variant="bordered"
-                      placeholder="Confrom your password"
+                      placeholder="Confrom Your Password"
                       endContent={
                         <button
                           className="focus:outline-none"
@@ -618,9 +679,8 @@ export default function Hack({ ...props }: DialogProps) {
                       <Button variant="outline">Next</Button>
                     </div>
                   </form>
-
                   {/* Connect */}
-                  <div className="web3 h-[300px] min-w-full  rounded-sm flex justify-center items-center">
+                  <div className="web3 h-[300px] min-w-full  rounded-sm flex justify-start items-center flex-col space-y-3">
                     {/* HackUp Search */}
                     <Command className="rounded-lg border shadow-md">
                       <CommandInput placeholder="Type a command or search..." />
@@ -661,7 +721,7 @@ export default function Hack({ ...props }: DialogProps) {
                             ))}
                         </CommandGroup>
                         <CommandGroup heading="Blockchain Wallets">
-                          {docsConfig.passport
+                          {docsConfig.wallet
                             .filter((navitem) => !navitem.external)
                             .map((navItem) => (
                               <CommandItem
@@ -745,6 +805,34 @@ export default function Hack({ ...props }: DialogProps) {
                           </Avatar>
                         </div>
                       ))}
+                    </div>
+                    {/* Chainlist */}
+                    <div className="dark:text-[#B3B3B3] text-black grid gap-5 grid-cols-1 place-content-between pb-4 sm:pb-10 sm:grid-cols-[repeat(auto-fit,_calc(50%_-_15px))] 3xl:grid-cols-[repeat(auto-fit,_calc(33%_-_20px))] isolate grid-flow-dense">
+                      {filteredChains.map((chain, idx) => {
+                        if (idx === 2) {
+                          return (
+                            <React.Fragment
+                              key={JSON.stringify(chain) + "en" + "with-banner"}
+                            >
+                              <AdBanner />
+                              <Chain
+                                chain={chain}
+                                lang="en"
+                                buttonOnly={undefined}
+                              />
+                            </React.Fragment>
+                          )
+                        }
+
+                        return (
+                          <Chain
+                            chain={chain}
+                            key={JSON.stringify(chain) + "en"}
+                            lang="en"
+                            buttonOnly={undefined}
+                          />
+                        )
+                      })}
                     </div>
                   </div>
                   {/* Friday Factor */}

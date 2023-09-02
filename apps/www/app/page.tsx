@@ -32,7 +32,6 @@ export default function Home() {
     // ...
   }
   const [chains, setChains] = React.useState<Chain[]>([])
-
   React.useEffect(() => {
     async function fetchData() {
       const sortedChains = await generateChainData()
@@ -40,18 +39,13 @@ export default function Home() {
     }
     fetchData()
   }, [])
-  // const router = useRouter();
-  // const { testnets, testnet, search } = router.query;
-  const pathname = usePathname()
   const searchParams = useSearchParams()
   const testnets = searchParams ? searchParams.get("testnets") : ""
   const testnet = searchParams ? searchParams.get("testnet") : ""
   const search = searchParams ? searchParams.get("search") : ""
-
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") ||
     (typeof testnet === "string" && testnet === "true")
-
   const sortedChains = !includeTestnets
     ? chains.filter((item) => {
         const testnet =
@@ -65,7 +59,6 @@ export default function Home() {
         return !testnet && !devnet
       })
     : chains
-
   const filteredChains =
     !search || typeof search !== "string" || search === ""
       ? sortedChains
@@ -92,7 +85,7 @@ export default function Home() {
         <br />
       </div>
 
-      <Layout lang={undefined}>
+      {/* <Layout lang={undefined}>
         <React.Suspense fallback={<div className="h-screen"></div>}>
           <div className="dark:text-[#B3B3B3] text-black grid gap-5 grid-cols-1 place-content-between pb-4 sm:pb-10 sm:grid-cols-[repeat(auto-fit,_calc(50%_-_15px))] 3xl:grid-cols-[repeat(auto-fit,_calc(33%_-_20px))] isolate grid-flow-dense">
             {filteredChains.map((chain, idx) => {
@@ -118,7 +111,7 @@ export default function Home() {
             })}
           </div>
         </React.Suspense>
-      </Layout>
+      </Layout> */}
     </section>
   )
 }
