@@ -6,6 +6,7 @@ import Header from "../header";
 import { notTranslation as useTranslations } from "../../utils";
 import Logo from "./Logo";
 import { usePathname, useSearchParams } from 'next/navigation'
+import { subtitle, title } from "@/components/primitives"
 
 
 const toggleTheme = (e) => {
@@ -45,7 +46,8 @@ export default function Layout({ children, lang }) {
       <div className="dark:text-[#B3B3B3] text-black dark:bg-[#0D0D0D] bg-white relative h-full">
         <div className="p-5 sticky top-0 bottom-0 m-auto flex flex-col items-center gap-8 justify-center h-screen max-w-[480px] mx-auto">
           <figure className="lg:mr-auto">
-            <Logo />
+            {/* <Logo /> */}
+            <h1 className={title({ color: "violet" })}>Dx Chains&nbsp;</h1>
             <figcaption className="font-bold text-2xl">{t("help-info")}</figcaption>
           </figure>
 
@@ -106,7 +108,7 @@ export default function Layout({ children, lang }) {
             <span className="text-base font-medium">{t("view-source-code")}</span>
           </a>
 
-          <a className="flex items-center gap-2 mx-auto lg:ml-0" href="#" onClick={toggleTheme} id="theme-toggle">
+          {/* <a className="flex items-center gap-2 mx-auto lg:ml-0" href="#" onClick={toggleTheme} id="theme-toggle">
             <svg
               id="theme-toggle-dark-icon"
               className="w-5 h-5 hidden"
@@ -130,7 +132,7 @@ export default function Layout({ children, lang }) {
               ></path>
             </svg>
             <span className="text-base font-medium">{t("toggle-theme")}</span>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="dark:bg-[#181818] bg-[#f3f3f3] p-5 relative flex flex-col gap-5">
