@@ -13,7 +13,7 @@ import { useLlamaNodesRpcData } from "../../hooks/useLlamaNodesRpcData";
 import { FATHOM_DROPDOWN_EVENTS_ID } from "../../hooks/useAnalytics";
 import { useAccount, useRpcStore } from "../../stores";
 import { renderProviderText } from "../../utils";
-import { Tooltip } from "../../components/Tooltip";
+import { Tooltip } from "../Tooltip";
 
 export default function RPCList({ chain, lang }) {
   const [sortChains, setSorting] = useState(true);

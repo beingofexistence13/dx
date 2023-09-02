@@ -29,6 +29,9 @@ importers:
       '@manypkg/cli':
         specifier: ^0.20.0
         version: 0.20.0
+      '@nextui-org/theme':
+        specifier: 2.0.4
+        version: 2.0.4(tailwindcss@3.3.3)
       '@types/node':
         specifier: ^17.0.45
         version: 17.0.45
@@ -12564,6 +12567,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
 
   /file-uri-to-path@2.0.0:

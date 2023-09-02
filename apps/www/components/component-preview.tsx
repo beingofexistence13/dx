@@ -102,7 +102,7 @@ export function ComponentPreview({
               codeString && <CopyButton value={codeString} />
             )}
           </div>
-          <ThemeWrapper defaultTheme="zinc">
+          <ThemeWrapper>
             <div
               className={cn(
                 "preview flex min-h-[350px] w-full justify-center p-10",
