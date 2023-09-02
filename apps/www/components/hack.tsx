@@ -680,10 +680,10 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </form>
                   {/* Connect */}
-                  <div className="web3 h-[500px]">
+                  <div className="connect h-[650px] min-w-full flex justify-start items-center flex-col">
                     {/* HackUp Search */}
-                    <Command className="rounded-lg border shadow-md w-full flex justify-start items-center flex-col space-y-3 overflow-y-auto overflow-x-hidden">
-                      <CommandInput placeholder="Type a command or search..." />
+                    <Command className="rounded-lg border shadow-md h-[167.5px] w-full">
+                      <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
                         <CommandGroup heading="Social Medias">
@@ -754,91 +754,147 @@ export default function Hack({ ...props }: DialogProps) {
                               </CommandItem>
                             ))}
                         </CommandGroup>
+                        <CommandGroup heading="All">
+                          {docsConfig.sidebarNav
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
                       </CommandList>
                     </Command>
-                    {/* Social Media */}
-                    <div className="hackIn-connect-container  min-h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
-                      {docsConfig.passport.map((item, index) => (
-                        <div
-                          key={index}
-                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
-                        >
-                          <Avatar className="h-[27px] w-[27px] rounded-sm">
-                            <AvatarImage
-                              src={
-                                item.logo
-                                  ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
-                                  : ""
-                              }
-                              alt="Dx"
-                            />
-                            <AvatarFallback className="glassmorphisum border-none">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </AvatarFallback>
-                          </Avatar>
-                        </div>
-                      ))}
-                    </div>
-                    {/* Wallet */}
-                    <div className="hackIn-connect-container  min-h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
-                      {docsConfig.wallet.map((item, index) => (
-                        <div
-                          key={index}
-                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
-                        >
-                          <Avatar className="h-[27px] w-[27px] rounded-sm">
-                            <AvatarImage
-                              src={
-                                item.logo
-                                  ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
-                                  : ""
-                              }
-                              alt="Dx"
-                            />
-                            <AvatarFallback className="glassmorphisum  border-none">
-                              {item.title ? logoLetter(item.title) : "Dx"}
-                            </AvatarFallback>
-                          </Avatar>
-                        </div>
-                      ))}
-                    </div>
-                    {/* Chainlist */}
-                    <div className="dark:text-[#B3B3B3] text-black grid gap-5 grid-cols-1 place-content-between pb-4 sm:pb-10 sm:grid-cols-[repeat(auto-fit,_calc(50%_-_15px))] 3xl:grid-cols-[repeat(auto-fit,_calc(33%_-_20px))] isolate grid-flow-dense">
-                      {filteredChains.map((chain, idx) => {
-                        if (idx === 2) {
-                          return (
-                            <React.Fragment
-                              key={JSON.stringify(chain) + "en" + "with-banner"}
-                            >
-                              <AdBanner />
-                              <Chain
-                                chain={chain}
-                                lang="en"
-                                buttonOnly={undefined}
+                    <div className="max-h-[375px] w-full mx-auto overflow-y-auto overflow-x-hidden">
+                      {/* Social Media */}
+                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                        {docsConfig.passport.map((item, index) => (
+                          <div
+                            key={index}
+                            className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  item.logo
+                                    ? `/docs/${item.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
                               />
-                            </React.Fragment>
-                          )
-                        }
+                              <AvatarFallback className="glassmorphisum border-none">
+                                {item.title ? logoLetter(item.title) : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                          </div>
+                        ))}
+                      </div>
+                      {/* Wallet */}
+                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                        {docsConfig.wallet.map((item, index) => (
+                          <div
+                            key={index}
+                            className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  item.logo
+                                    ? `/docs/${item.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
+                              />
+                              <AvatarFallback className="glassmorphisum  border-none">
+                                {item.title ? logoLetter(item.title) : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                          </div>
+                        ))}
+                      </div>
+                      {/* Divider */}
+                      <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                        <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                        <span className="divider-title">
+                          wallets according chians
+                        </span>
+                        <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                      </div>
+                      {/* Chainlist */}
+                      <div className="dark:text-[#B3B3B3] text-black grid gap-1 grid-cols-1 place-content-between p-1 isolate grid-flow-dense">
+                        {filteredChains.map((chain, idx) => {
+                          if (idx === 2) {
+                            return (
+                              <React.Fragment
+                                key={
+                                  JSON.stringify(chain) + "en" + "with-banner"
+                                }
+                              >
+                                <AdBanner />
+                                <Chain
+                                  chain={chain}
+                                  lang="en"
+                                  buttonOnly={undefined}
+                                />
+                              </React.Fragment>
+                            )
+                          }
 
-                        return (
-                          <Chain
-                            chain={chain}
-                            key={JSON.stringify(chain) + "en"}
-                            lang="en"
-                            buttonOnly={undefined}
-                          />
-                        )
-                      })}
+                          return (
+                            <Chain
+                              chain={chain}
+                              key={JSON.stringify(chain) + "en"}
+                              lang="en"
+                              buttonOnly={undefined}
+                            />
+                          )
+                        })}
+                      </div>
+                    </div>
+                    <div className="border h-[50px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-3">
+                      <span className="text-green-400 text-sm">
+                        All Your Connects Will Appear Here
+                      </span>
+                    </div>
+                    {/* Footer */}
+                    <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <Button>Back</Button>
+                      <Button variant="outline">Next</Button>
                     </div>
                   </div>
                   {/* Friday Factor */}
-                  <div className="friday-factor h-[300px] min-w-full rounded-sm flex justify-center items-center bg-pink-600">
+                  {/* <div className="friday-factor h-[300px] min-w-full rounded-sm flex justify-center items-center bg-pink-600">
                     Friday Factor
-                  </div>
+                  </div> */}
                 </div>
               </TabsContent>
             </Tabs>
