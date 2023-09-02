@@ -2,15 +2,15 @@
 
 import { addDays } from "date-fns"
 
-import { Calendar } from "@/registry/default/ui/calendar"
-import { Card, CardContent } from "@/registry/default/ui/card"
+import { Calendar } from "@/registry/new-york/ui/calendar"
+import { Card, CardContent } from "@/registry/new-york/ui/card"
 
 const start = new Date(2023, 5, 5)
 
 export function CardsCalendar() {
   return (
-    <Card className="max-w-[280px]">
-      <CardContent className="p-0">
+    <Card className="max-w-[260px]">
+      <CardContent className="p-1">
         <Calendar
           numberOfMonths={1}
           mode="range"

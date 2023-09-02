@@ -10,7 +10,7 @@ Use the `init` command to initialize configuration and dependencies for a new pr
 The `init` command installs dependencies, adds the `cn` util, configures `tailwind.config.js`, and CSS variables for the project.
 
 ```bash
-npx beingofexistence-dx@latest init
+npx shadcn-ui@latest init
 ```
 
 You will be asked a few questions to configure `components.json`:
@@ -30,7 +30,7 @@ Are you using React Server Components? › no / yes
 ### Options
 
 ```txt
-Usage: beingofexistence-dx init [options]
+Usage: shadcn-ui init [options]
 
 initialize your project and install dependencies
 
@@ -45,7 +45,7 @@ Options:
 Use the `add` command to add components and dependencies to your project.
 
 ```bash
-npx beingofexistence-dx@latest add [component]
+npx shadcn-ui@latest add [component]
 ```
 
 You will be presented with a list of components to choose from:
@@ -68,7 +68,7 @@ Which components would you like to add? › Space to select. Return to submit.
 ### Options
 
 ```txt
-Usage: beingofexistence-dx add [options] [components...]
+Usage: shadcn-ui add [options] [components...]
 
 add a component to your project
 
@@ -90,7 +90,7 @@ You can use the diff command to check for updates against the registry.
 Run the following command to get a list of components that have updates available:
 
 ```bash
-npx beingofexistence-dx diff
+npx shadcn-ui diff
 ```
 
 ```txt
@@ -107,7 +107,7 @@ The following components have updates available:
 Then run `diff [component]` to see the changes:
 
 ```bash
-npx beingofexistence-dx diff alert
+npx shadcn-ui diff alert
 ```
 
 ```diff /pl-12/
@@ -120,7 +120,7 @@ const alertVariants = cva(
 ### Options
 
 ```txt
-Usage: beingofexistence-dx diff [options] [component]
+Usage: shadcn-ui diff [options] [component]
 
 check for updates against the registry
 

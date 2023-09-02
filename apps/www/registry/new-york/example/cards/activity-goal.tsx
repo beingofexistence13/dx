@@ -1,12 +1,12 @@
 "use client"
 
 import * as React from "react"
-import { Minus, Plus } from "lucide-react"
+import { MinusIcon, PlusIcon } from "@radix-ui/react-icons"
 import { useTheme } from "next-themes"
 import { Bar, BarChart, ResponsiveContainer } from "recharts"
 
 import { useConfig } from "@/hooks/use-config"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   Card,
   CardContent,
@@ -14,7 +14,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/new-york/ui/card"
 import { themes } from "@/registry/themes"
 
 const data = [
@@ -73,7 +73,7 @@ export function CardsActivityGoal() {
   return (
     <Card>
       <CardHeader className="pb-4">
-        <CardTitle className="text-base">Move Goal</CardTitle>
+        <CardTitle>Move Goal</CardTitle>
         <CardDescription>Set your daily activity goal.</CardDescription>
       </CardHeader>
       <CardContent className="pb-2">
@@ -85,7 +85,7 @@ export function CardsActivityGoal() {
             onClick={() => onClick(-10)}
             disabled={goal <= 200}
           >
-            <Minus className="h-4 w-4" />
+            <MinusIcon className="h-4 w-4" />
             <span className="sr-only">Decrease</span>
           </Button>
           <div className="flex-1 text-center">
@@ -101,7 +101,7 @@ export function CardsActivityGoal() {
             onClick={() => onClick(10)}
             disabled={goal >= 400}
           >
-            <Plus className="h-4 w-4" />
+            <PlusIcon className="h-4 w-4" />
             <span className="sr-only">Increase</span>
           </Button>
         </div>

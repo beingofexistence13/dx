@@ -1,19 +1,19 @@
 import * as React from "react"
-import { Check, Plus, Send } from "lucide-react"
+import { CheckIcon, PaperPlaneIcon, PlusIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/registry/default/ui/avatar"
-import { Button } from "@/registry/default/ui/button"
+} from "@/registry/new-york/ui/avatar"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/registry/default/ui/card"
+} from "@/registry/new-york/ui/card"
 import {
   Command,
   CommandEmpty,
@@ -21,7 +21,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
+} from "@/registry/new-york/ui/command"
 import {
   Dialog,
   DialogContent,
@@ -29,14 +29,14 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
+} from "@/registry/new-york/ui/dialog"
+import { Input } from "@/registry/new-york/ui/input"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/registry/default/ui/tooltip"
+} from "@/registry/new-york/ui/tooltip"
 
 const users = [
   {
@@ -90,6 +90,8 @@ export function CardsChat() {
       content: "I can't log in.",
     },
   ])
+  const [input, setInput] = React.useState("")
+  const inputLength = input.trim().length
 
   return (
     <>
@@ -114,7 +116,8 @@ export function CardsChat() {
                   className="ml-auto rounded-full"
                   onClick={() => setOpen(true)}
                 >
-                  <Plus className="h-4 w-4" />
+                  <PlusIcon className="h-4 w-4" />
+                  <span className="sr-only">New message</span>
                 </Button>
               </TooltipTrigger>
               <TooltipContent sideOffset={10}>New message</TooltipContent>
@@ -142,15 +145,15 @@ export function CardsChat() {
           <form
             onSubmit={(event) => {
               event.preventDefault()
+              if (inputLength === 0) return
               setMessages([
                 ...messages,
                 {
                   role: "user",
-                  content: event.currentTarget.message.value,
+                  content: input,
                 },
               ])
-
-              event.currentTarget.message.value = ""
+              setInput("")
             }}
             className="flex w-full items-center space-x-2"
           >
@@ -158,9 +161,12 @@ export function CardsChat() {
               id="message"
               placeholder="Type your message..."
               className="flex-1"
+              autoComplete="off"
+              value={input}
+              onChange={(event) => setInput(event.target.value)}
             />
-            <Button type="submit" size="icon">
-              <Send className="h-4 w-4" />
+            <Button type="submit" size="icon" disabled={inputLength === 0}>
+              <PaperPlaneIcon className="h-4 w-4" />
               <span className="sr-only">Send</span>
             </Button>
           </form>
@@ -175,7 +181,7 @@ export function CardsChat() {
               message.
             </DialogDescription>
           </DialogHeader>
-          <Command className="overflow-hidden rounded-t-none border-t">
+          <Command className="overflow-hidden rounded-t-none border-t bg-transparent">
             <CommandInput placeholder="Search user..." />
             <CommandList>
               <CommandEmpty>No users found.</CommandEmpty>
@@ -213,7 +219,7 @@ export function CardsChat() {
                       </p>
                     </div>
                     {selectedUsers.includes(user) ? (
-                      <Check className="ml-auto flex h-5 w-5 text-primary" />
+                      <CheckIcon className="ml-auto flex h-5 w-5 text-primary" />
                     ) : null}
                   </CommandItem>
                 ))}

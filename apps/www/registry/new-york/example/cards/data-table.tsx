@@ -19,15 +19,15 @@ import {
   useReactTable,
 } from "@tanstack/react-table"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Checkbox } from "@/registry/default/ui/checkbox"
+} from "@/registry/new-york/ui/card"
+import { Checkbox } from "@/registry/new-york/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -36,8 +36,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
-import { Input } from "@/registry/default/ui/input"
+} from "@/registry/new-york/ui/dropdown-menu"
+import { Input } from "@/registry/new-york/ui/input"
 import {
   Table,
   TableBody,
@@ -45,7 +45,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/registry/default/ui/table"
+} from "@/registry/new-york/ui/table"
 
 const data: Payment[] = [
   {

@@ -8,7 +8,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
+} from "@/registry/new-york/ui/card"
 import { themes } from "@/registry/themes"
 
 const data = [
