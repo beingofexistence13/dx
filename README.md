@@ -25,7 +25,7 @@ Accessible and customizable components that you can copy and paste into your app
 
 ## Documentation
 
-Visit [(https://ui-www-five.vercel.app/docs)] to view the documentation.
+<!-- Visit [(https://ui-www-five.vercel.app/docs)] to view the documentation. -->
 
 ## Licensec
 
