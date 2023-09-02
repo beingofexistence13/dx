@@ -1,3 +1,4 @@
+import {nextui} from '@nextui-org/theme'
 const defaultTheme = require("tailwindcss/defaultTheme")
 const { fontFamily } = require("tailwindcss/defaultTheme")
 
@@ -83,5 +84,5 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), nextui()],
 }

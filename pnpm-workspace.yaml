@@ -1,6 +1,6 @@
 packages:
   - "apps/www"
-  - "apps/despicated"
+  # - "apps/despicated"
   # - "apps/nextui-shadcn-demo"
   # - "inspirations/nextui-demo"
   # - "inspirations/nextui-shadcn-demo"
