@@ -1,5 +1,6 @@
 packages:
   - "apps/www"
+  # - "apps/nextui-tailwindcss-problem"
   # - "apps/despicated"
   # - "apps/nextui-shadcn-demo"
   # - "inspirations/nextui-demo"
