@@ -680,9 +680,9 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </form>
                   {/* Connect */}
-                  <div className="web3 h-[300px] min-w-full  rounded-sm flex justify-start items-center flex-col space-y-3">
+                  <div className="web3 h-[700px] min-w-full flex justify-start items-center flex-col space-y-3 overflow-y-auto overflow-x-hidden">
                     {/* HackUp Search */}
-                    <Command className="rounded-lg border shadow-md">
+                    <Command className="rounded-lg border shadow-md min-h-[100px]">
                       <CommandInput placeholder="Type a command or search..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
@@ -757,7 +757,7 @@ export default function Hack({ ...props }: DialogProps) {
                       </CommandList>
                     </Command>
                     {/* Social Media */}
-                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
+                    <div className="hackIn-connect-container  min-h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
                       {docsConfig.passport.map((item, index) => (
                         <div
                           key={index}
@@ -782,7 +782,7 @@ export default function Hack({ ...props }: DialogProps) {
                       ))}
                     </div>
                     {/* Wallet */}
-                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
+                    <div className="hackIn-connect-container  min-h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
                       {docsConfig.wallet.map((item, index) => (
                         <div
                           key={index}
