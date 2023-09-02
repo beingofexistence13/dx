@@ -578,9 +578,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
+                <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
                   {/* Personal Details */}
-                  <form className="web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col">
+                  <form className="h-[450px] web2 min-w-full rounded-sm flex justify-start items-center flex-col">
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
