@@ -107,7 +107,18 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.0.4",
     "vaul": "^0.2.0",
-    "zod": "^3.21.4"
+    "zod": "^3.21.4",
+
+    "@ariakit/react": "^0.2.12",
+    "@tanstack/react-query": "^4.19.1",
+    "encoding": "^0.1.13",
+    "ethers": "^5.7.2",
+    "fathom-client": "^3.5.0",
+    "next-intl": "^2.10.2",
+    "node-fetch": "^2.6.6",
+    "react-linkify": "^1.0.0-alpha",
+    "serve": "^14.1.2",
+    "zustand": "^4.1.5"
   },
   "devDependencies": {
     "@types/lodash.template": "^4.5.1",
@@ -141,7 +152,10 @@
     "unist-builder": "3.0.0",
     "unist-util-visit": "^4.1.2",
     "use-count-up": "3.0.1",
-    "vercel": "30.2.1"
+    "vercel": "30.2.1",
+
+    "dotenv": "^16.0.3"
+
   },
   "peerDependencies": {
     "esbuild": "^0.17.3"
