@@ -680,9 +680,9 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </form>
                   {/* Connect */}
-                  <div className="web3 h-[700px] min-w-full flex justify-start items-center flex-col space-y-3 overflow-y-auto overflow-x-hidden">
+                  <div className="web3 h-[500px]">
                     {/* HackUp Search */}
-                    <Command className="rounded-lg border shadow-md min-h-[100px]">
+                    <Command className="rounded-lg border shadow-md w-full flex justify-start items-center flex-col space-y-3 overflow-y-auto overflow-x-hidden">
                       <CommandInput placeholder="Type a command or search..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
