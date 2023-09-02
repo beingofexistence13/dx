@@ -1,3 +1,4 @@
+"use client"
 import { getAddress } from "ethers/lib/utils.js";
 import { useQuery } from "@tanstack/react-query";
 

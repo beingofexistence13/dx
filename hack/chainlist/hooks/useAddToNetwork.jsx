@@ -1,3 +1,7 @@
+"use client"
+
+
+
 import * as Fathom from "fathom-client";
 import { useMutation, QueryClient } from "@tanstack/react-query";
 import { FATHOM_EVENTS_ID, FATHOM_DROPDOWN_EVENTS_ID, FATHOM_NO_EVENTS_ID, CHAINS_MONITOR } from "./useAnalytics";

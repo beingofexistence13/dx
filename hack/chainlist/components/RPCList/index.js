@@ -1,3 +1,7 @@
+"use client"
+
+
+
 import { useEffect, useMemo, useState } from "react";
 import * as Fathom from "fathom-client";
 // import { useTranslations } from "next-intl";

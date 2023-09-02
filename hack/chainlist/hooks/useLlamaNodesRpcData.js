@@ -1,3 +1,6 @@
+"use client"
+
+
 import { useMemo } from "react";
 
 import { llamaNodesRpcs } from "../constants/llamaNodesRpcs";

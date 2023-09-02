@@ -1,3 +1,5 @@
+"use client"
+
 import { getAddress } from "ethers/lib/utils.js";
 import { useMutation, QueryClient } from "@tanstack/react-query";
 

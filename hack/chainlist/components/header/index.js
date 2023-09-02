@@ -1,5 +1,12 @@
+"use client"
+
+
+
+
+
+
 import * as React from "react";
-import { useRouter } from "next/router";
+import { usePathname, useSearchParams } from 'next/navigation'
 // import { useTranslations } from "next-intl";
 import { notTranslation as useTranslations } from "../../utils";
 import { formatAddress, getProvider, useDebounce } from "../../utils";
@@ -9,11 +16,10 @@ import useAccount from "../../hooks/useAccount";
 
 function Header({ lang, chainName }) {
   const t = useTranslations("Common", lang);
-
-  const router = useRouter();
-
-  const { testnets, testnet, search } = router.query;
-
+  const searchParams = useSearchParams();
+  const testnets = searchParams ? searchParams.get("testnets") : "";
+  const testnet = searchParams ? searchParams.get("testnet") : "";
+  const search = searchParams ? searchParams.get("search") : "";
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") || (typeof testnet === "string" && testnet === "true");
 

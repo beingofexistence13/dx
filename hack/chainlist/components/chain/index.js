@@ -1,7 +1,9 @@
+"use client"
+
 import * as React from "react";
 import RPCList from "../RPCList";
 import { renderProviderText } from "../../utils";
-import { useRouter } from "next/router";
+import { usePathname, useSearchParams } from 'next/navigation'
 import Link from "next/link";
 // import { useTranslations } from "next-intl";
 import { notTranslation as useTranslations } from "../../utils";
@@ -12,7 +14,7 @@ import useAddToNetwork from "../../hooks/useAddToNetwork";
 export default function Chain({ chain, buttonOnly, lang }) {
   const t = useTranslations("Common", lang);
 
-  const router = useRouter();
+  const pathname = usePathname()
 
   const icon = React.useMemo(() => {
     return chain.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg` : "/unknown-logo.png";
@@ -94,7 +96,7 @@ export default function Chain({ chain, buttonOnly, lang }) {
           {t(renderProviderText(address))}
         </button>
 
-        {(lang === "en" ? router.pathname === "/" : router.pathname === "/zh") && (
+        {(lang === "en" ? pathname === "/" : pathname === "/zh") && (
           <button
             className="w-full rounded-[50px] p-2 flex items-center mb-2 justify-center dark:hover:bg-[#0D0D0D] hover:bg-[#f6f6f6]"
             onClick={handleClick}

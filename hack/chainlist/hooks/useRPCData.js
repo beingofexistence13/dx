@@ -1,3 +1,7 @@
+"use client"
+
+
+
 import { useCallback } from "react";
 import { useQueries } from "@tanstack/react-query";
 import axios from "axios";

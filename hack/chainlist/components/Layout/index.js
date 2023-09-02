@@ -1,10 +1,12 @@
+"use client"
 import * as React from "react";
 import { useEffect } from "react";
 import Header from "../header";
 // import { useTranslations } from "next-intl";
 import { notTranslation as useTranslations } from "../../utils";
 import Logo from "./Logo";
-import { useRouter } from "next/router";
+import { usePathname, useSearchParams } from 'next/navigation'
+
 
 const toggleTheme = (e) => {
   e.preventDefault();
@@ -31,9 +33,10 @@ export default function Layout({ children, lang }) {
 
   const t = useTranslations("Common", lang);
 
-  const router = useRouter();
-
-  const { search } = router.query;
+  const searchParams = useSearchParams();
+  const testnets = searchParams ? searchParams.get("testnets") : "";
+  const testnet = searchParams ? searchParams.get("testnet") : "";
+  const search = searchParams ? searchParams.get("search") : "";
 
   const chainName = typeof search === "string" ? search : "";
 

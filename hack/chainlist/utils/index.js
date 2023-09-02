@@ -1,3 +1,7 @@
+"use client"
+
+
+
 import { useState, useEffect } from "react";
 import en from "../translations/en.json";
 import zh from "../translations/zh.json";

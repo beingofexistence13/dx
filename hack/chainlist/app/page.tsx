@@ -5,35 +5,40 @@ import Layout from "../components/Layout";
 import Chain from "../components/chain";
 import { generateChainData } from "../utils/fetch";
 import Head from "next/head";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/navigation";
+import { usePathname, useSearchParams } from 'next/navigation'
 import * as React from "react";
 
-export async function getStaticProps() {
-  const sortedChains = await generateChainData();
 
-  return {
-    props: {
-      chains: sortedChains,
-      // messages: (await import(`../translations/${locale}.json`)).default,
-    },
-    revalidate: 3600,
-  };
-}
 
-interface Chain {
-  chain: any;
-  chainId: any;
-  nativeCurrency: any;
-  // define the properties of a chain object here
-  name: string;
-  title: string;
-  network: string;
-  // ...
-}
 
-function Home({ chains }: { chains: Chain[] }) {
-  const router = useRouter();
-  const { testnets, testnet, search } = router.query;
+
+function Home() {
+  interface Chain {
+    chain: any;
+    chainId: any;
+    nativeCurrency: any;
+    name: string;
+    title: string;
+    network: string;
+    // ...
+  }
+  const [chains, setChains] = React.useState<Chain[]>([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const sortedChains = await generateChainData();
+      setChains(sortedChains);
+    }
+    fetchData();
+  }, []);
+  // const router = useRouter();
+  // const { testnets, testnet, search } = router.query;
+  const pathname = usePathname()
+  const searchParams = useSearchParams();
+  const testnets = searchParams ? searchParams.get("testnets") : "";
+  const testnet = searchParams ? searchParams.get("testnet") : "";
+  const search = searchParams ? searchParams.get("search") : "";
 
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") || (typeof testnet === "string" && testnet === "true");

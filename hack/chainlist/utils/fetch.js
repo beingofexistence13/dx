@@ -1,3 +1,7 @@
+"use client"
+
+
+
 import allExtraRpcs from "../constants/extraRpcs.js";
 import chainIds from "../constants/chainIds.json" assert { type: "json" };
 import fetch from "node-fetch"

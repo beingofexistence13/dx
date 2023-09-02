@@ -1,3 +1,6 @@
+"use client"
+
+
 import Linkify from 'react-linkify';
 import { Tooltip as AriaTooltip, TooltipAnchor, useTooltipStore } from '@ariakit/react/tooltip';
 
