@@ -9,28 +9,28 @@ import { usePathname, useSearchParams } from 'next/navigation'
 import { subtitle, title } from "@/components/primitives"
 
 
-const toggleTheme = (e) => {
-  e.preventDefault();
-  const element = document.body;
-  document.getElementById("theme-toggle-dark-icon").classList.toggle("hidden");
-  document.getElementById("theme-toggle-light-icon").classList.toggle("hidden");
-  const result = element.classList.toggle("dark");
-  localStorage.setItem("theme", result ? "dark" : "light");
-};
+// const toggleTheme = (e) => {
+//   e.preventDefault();
+//   const element = document.body;
+//   document.getElementById("theme-toggle-dark-icon").classList.toggle("hidden");
+//   document.getElementById("theme-toggle-light-icon").classList.toggle("hidden");
+//   const result = element.classList.toggle("dark");
+//   localStorage.setItem("theme", result ? "dark" : "light");
+// };
 
-const initTheme = () => {
-  const element = document.body;
-  if (element.classList.contains("dark")) {
-    document.getElementById("theme-toggle-light-icon").classList.remove("hidden");
-  } else {
-    document.getElementById("theme-toggle-dark-icon").classList.remove("hidden");
-  }
-};
+// const initTheme = () => {
+//   const element = document.body;
+//   if (element.classList.contains("dark")) {
+//     document.getElementById("theme-toggle-light-icon").classList.remove("hidden");
+//   } else {
+//     document.getElementById("theme-toggle-dark-icon").classList.remove("hidden");
+//   }
+// };
 
 export default function Layout({ children, lang }) {
-  useEffect(() => {
-    initTheme();
-  }, []);
+  // useEffect(() => {
+  //   initTheme();
+  // }, []);
 
   const t = useTranslations("Common", lang);
 
