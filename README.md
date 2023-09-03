@@ -1,6 +1,7 @@
 # Dx!!!
 
 
+gitpod 03/09/2023 Sunday
 
 <div align="center">
 <a href="https://dx-black.vercel.app/">
@@ -171,7 +172,7 @@ Dx Preview Deployment problem Solved!!!
 
 Dopamine Detox
 Sumon
-
+<!-- 
 <div align="center">
 	<a href="https://vshymanskyy.github.io/StandWithUkraine">
 		<img width="500" height="350" src="media/logo-ua.svg" alt="BeingOfExistence">
@@ -1118,4 +1119,4 @@ See the [Contributing Guidelines](./.github/CONTRIBUTING.md) for more details.
 Login Widget have some bugs
 My OpenAi freetier is over
 
-npx beingofexistence-dx@latest init
+npx beingofexistence-dx@latest init -->
