@@ -15,7 +15,13 @@ import {
   User,
 } from "lucide-react"
 import { useTheme } from "next-themes"
-
+import RPCList from "./RPCList";
+import { renderProviderText } from "../utils";
+// import { useTranslations } from "next-intl";
+import { notTranslation as useTranslations } from "../utils";
+import { useChain } from "../stores";
+import useAccount from "../hooks/useAccount";
+import useAddToNetwork from "../hooks/useAddToNetwork";
 import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
@@ -195,6 +201,7 @@ import { generateChainData } from "../utils/fetch"
 import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import Chain from "./chain"
+import Link from "next/link"
 
 export default function Hack({ ...props }: DialogProps) {
   const [isVisible, setIsVisible] = React.useState(false)
@@ -309,23 +316,8 @@ export default function Hack({ ...props }: DialogProps) {
         return !testnet && !devnet
       })
     : chains
-  const filteredChains =
-    !search || typeof search !== "string" || search === ""
-      ? sortedChains
-      : sortedChains.filter((chain) => {
-          //filter
-          return (
-            chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-            chain.chainId
-              .toString()
-              .toLowerCase()
-              .includes(search.toLowerCase()) ||
-            chain.name.toLowerCase().includes(search.toLowerCase()) ||
-            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
-              .toLowerCase()
-              .includes(search.toLowerCase())
-          )
-        })
+
+
 
   return (
     <div>
@@ -579,8 +571,7 @@ export default function Hack({ ...props }: DialogProps) {
               </TabsContent>
               <TabsContent value="hackUp">
                 <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
-                  {/* Personal Details */}
-                  <form className="h-[450px] web2 min-w-full rounded-sm flex justify-start items-center flex-col">
+                  {/* <form className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
@@ -588,7 +579,11 @@ export default function Hack({ ...props }: DialogProps) {
                         ref={fileInputRef}
                         onChange={handleFileChange}
                       />
-                      <Button variant="link" onClick={handleButtonClick}>
+                      <Button
+                        variant="link"
+                        onClick={handleButtonClick}
+                        className="text-muted-foreground"
+                      >
                         Choose Your Avatar
                       </Button>
                       {file && <p>Selected file: {file.name}</p>}
@@ -673,19 +668,128 @@ export default function Hack({ ...props }: DialogProps) {
                       type={isVisible ? "text" : "password"}
                       className="w-full mt-3"
                     />
-                    {/* Footer */}
+
+                    <textarea
+                      placeholder="Enter Your Bio"
+                      rows={4}
+                      className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
+                      defaultValue={""}
+                    />
+                    <textarea
+                      placeholder="Drop A Note For Your Profile Viewer"
+                      rows={4}
+                      className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
+                      defaultValue={""}
+                    />
+
+                    <div className="border h-[60px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-7 space-x-2">
+                      <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Avatar
+                      </span>
+                      <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Name
+                      </span>
+                      <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Email
+                      </span>
+                      <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Phone Number
+                      </span>
+                      <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Password
+                      </span>
+                    </div>
+
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Continue as Guest</Button>
                       <Button variant="outline">Next</Button>
                     </div>
-                  </form>
-                  {/* Connect */}
-                  <div className="connect h-[650px] min-w-full flex justify-start items-center flex-col">
-                    {/* HackUp Search */}
-                    <Command className="rounded-lg border shadow-md h-[167.5px] w-full">
+                  </form> */}
+
+                  <div className="connect h-[675px] min-w-full flex justify-start items-center flex-col">
+                    <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
+                        <CommandGroup heading="All">
+                          {docsConfig.sidebarNav
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
+                        <CommandGroup heading="Social Medias">
+                          {docsConfig.passport
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                        {/* <Link href={`/chain/${chain.chainId}`} prefetch={false} className="flex items-center mx-auto gap-2">
+          <img
+            src={icon}
+            width={26}
+            height={26}
+            className="rounded-full flex-shrink-0 flex relative"
+            alt={chain.name + " logo"}
+          />
+          <span className="text-xl font-semibold whitespace-nowrap overflow-hidden text-ellipsis relative top-[1px] dark:text-[#B3B3B3]">
+            {chain.name}
+          </span>
+        </Link> */}
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
                         <CommandGroup heading="Social Medias">
                           {docsConfig.passport
                             .filter((navitem) => !navitem.external)
@@ -754,44 +858,9 @@ export default function Hack({ ...props }: DialogProps) {
                               </CommandItem>
                             ))}
                         </CommandGroup>
-                        <CommandGroup heading="All">
-                          {docsConfig.sidebarNav
-                            .filter((navitem) => !navitem.external)
-                            .map((navItem) => (
-                              <CommandItem
-                                key={navItem.href}
-                                value={navItem.title}
-                                onSelect={() => {
-                                  runCommand(() =>
-                                    router.push(navItem.href as string)
-                                  )
-                                }}
-                              >
-                                <Avatar className="h-[27px] w-[27px] rounded-sm">
-                                  <AvatarImage
-                                    src={
-                                      navItem.logo
-                                        ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
-                                        : ""
-                                    }
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback className="glassmorphisum border-none">
-                                    {navItem.title
-                                      ? logoLetter(navItem.title)
-                                      : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
-                                <span className="ml-3">{navItem.title}</span>
-                              </CommandItem>
-                            ))}
-                        </CommandGroup>
                       </CommandList>
                     </Command>
                     <div className="max-h-[375px] w-full mx-auto overflow-y-auto overflow-x-hidden">
-                      {/* Social Media */}
                       <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
                         {docsConfig.passport.map((item, index) => (
                           <div
@@ -816,7 +885,7 @@ export default function Hack({ ...props }: DialogProps) {
                           </div>
                         ))}
                       </div>
-                      {/* Wallet */}
+
                       <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
                         {docsConfig.wallet.map((item, index) => (
                           <div
@@ -841,7 +910,7 @@ export default function Hack({ ...props }: DialogProps) {
                           </div>
                         ))}
                       </div>
-                      {/* Divider */}
+
                       <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
                         <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                         <span className="divider-title">
@@ -849,7 +918,7 @@ export default function Hack({ ...props }: DialogProps) {
                         </span>
                         <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
                       </div>
-                      {/* Chainlist */}
+
                       <div className="dark:text-[#B3B3B3] text-black grid gap-1 grid-cols-1 place-content-between p-1 isolate grid-flow-dense">
                         {filteredChains.map((chain, idx) => {
                           if (idx === 2) {
@@ -880,12 +949,12 @@ export default function Hack({ ...props }: DialogProps) {
                         })}
                       </div>
                     </div>
-                    <div className="border h-[50px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-3">
-                      <span className="text-green-400 text-sm">
-                        All Your Connects Will Appear Here
+
+                    <div className="border h-[60px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-7 space-x-2">
+                      <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        Avatar
                       </span>
                     </div>
-                    {/* Footer */}
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Back</Button>
                       <Button variant="outline">Next</Button>
