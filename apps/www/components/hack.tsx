@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import Script from "next/script"
 import { Input } from "@nextui-org/react"
@@ -15,13 +16,7 @@ import {
   User,
 } from "lucide-react"
 import { useTheme } from "next-themes"
-import RPCList from "./RPCList";
-import { renderProviderText } from "../utils";
-// import { useTranslations } from "next-intl";
-import { notTranslation as useTranslations } from "../utils";
-import { useChain } from "../stores";
-import useAccount from "../hooks/useAccount";
-import useAddToNetwork from "../hooks/useAddToNetwork";
+
 import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
@@ -197,11 +192,16 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
+import useAccount from "../hooks/useAccount"
+import useAddToNetwork from "../hooks/useAddToNetwork"
+import { useChain } from "../stores"
+// import { useTranslations } from "next-intl";
+import { renderProviderText, notTranslation as useTranslations } from "../utils"
 import { generateChainData } from "../utils/fetch"
 import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
+import RPCList from "./RPCList"
 import Chain from "./chain"
-import Link from "next/link"
 
 export default function Hack({ ...props }: DialogProps) {
   const [isVisible, setIsVisible] = React.useState(false)
@@ -283,6 +283,7 @@ export default function Hack({ ...props }: DialogProps) {
     chain: any
     chainId: any
     nativeCurrency: any
+    chainSlug:any
     name: string
     title: string
     network: string
@@ -303,20 +304,19 @@ export default function Hack({ ...props }: DialogProps) {
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") ||
     (typeof testnet === "string" && testnet === "true")
-    const sortedChains = !includeTestnets
+  const sortedChains = !includeTestnets
     ? chains.filter((item) => {
         const testnet =
           item.name?.toLowerCase().includes("test") ||
           item.title?.toLowerCase().includes("test") ||
-          item.network?.toLowerCase().includes("test");
+          item.network?.toLowerCase().includes("test")
         const devnet =
           item.name?.toLowerCase().includes("devnet") ||
           item.title?.toLowerCase().includes("devnet") ||
-          item.network?.toLowerCase().includes("devnet");
-        return !testnet && !devnet;
+          item.network?.toLowerCase().includes("devnet")
+        return !testnet && !devnet
       })
-    : chains;
-
+    : chains
   const filteredChains =
     !search || typeof search !== "string" || search === ""
       ? sortedChains
@@ -324,45 +324,39 @@ export default function Hack({ ...props }: DialogProps) {
           //filter
           return (
             chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-            chain.chainId.toString().toLowerCase().includes(search.toLowerCase()) ||
+            chain.chainId
+              .toString()
+              .toLowerCase()
+              .includes(search.toLowerCase()) ||
             chain.name.toLowerCase().includes(search.toLowerCase()) ||
-            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "").toLowerCase().includes(search.toLowerCase())
-          );
-        });
-// Chainlist Search
-// const t = useTranslations("Common", lang);
-// const pathname = usePathname()
-// const icon = React.useMemo(() => {
-//   return Chain.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg` : "/unknown-logo.png";
-// }, [chain]);
-// const chainId = useChain((state) => state.id);
-// const updateChain = useChain((state) => state.updateChain);
-// const handleClick = () => {
-//   if (chain.chainId === chainId) {
-//     updateChain(null);
-//   } else {
-//     updateChain(chain.chainId);
-//   }
-// };
-// const showAddlInfo = chain.chainId === chainId;
-// const { data: accountData } = useAccount();
-// const address = accountData?.address ?? null;
-// const { mutate: addToNetwork } = useAddToNetwork();
-// if (!chain) {
-//   return <></>;
-// }
-// if (buttonOnly) {
-//   return (
-//     <button
-//       className="border dark:border-[#171717] border-[#EAEAEA] px-4 py-2 rounded-[50px] dark:text-[#2F80ED] text-[#2F80ED] dark:hover:text-black hover:text-white dark:hover:bg-[#2F80ED] hover:bg-[#2F80ED] w-fit mx-auto"
-//       onClick={() => addToNetwork({ address, chain })}
-//     >
-//       {t(renderProviderText(address))}
-//     </button>
-//   );
-// }
+            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+              .toLowerCase()
+              .includes(search.toLowerCase())
+          )
+        })
 
-
+  // Chainlist Search
+  // const t = useTranslations("Common", "en");
+  // const pathname = usePathname()
+  // const icon = React.useMemo(() => {
+  //   return chains.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chains.chainSlug}.jpg` : "/unknown-logo.png";
+  // }, [chains]);
+  // const chainId = useChain((state) => state.id);
+  // const updateChain = useChain((state) => state.updateChain);
+  // const handleClick = () => {
+  //   if (chains.chainId === chainId) {
+  //     updateChain(null);
+  //   } else {
+  //     updateChain(chains.chainId);
+  //   }
+  // };
+  // const showAddlInfo = chains.chainId === chainId;
+  // const { data: accountData } = useAccount();
+  // const address = accountData?.address ?? null;
+  // const { mutate: addToNetwork } = useAddToNetwork();
+  // if (!chains) {
+  //   return <></>;
+  // }
 
   return (
     <div>
@@ -458,9 +452,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </form>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                 </div>
                 {/* HackIn Search */}
                 <Command className="rounded-lg border shadow-md">
@@ -589,9 +583,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                 </div>
                 {/* Friday Factor */}
                 <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
@@ -756,84 +750,58 @@ export default function Hack({ ...props }: DialogProps) {
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
-                        <CommandGroup heading="All">
-                          {docsConfig.sidebarNav
-                            .filter((navitem) => !navitem.external)
-                            .map((navItem) => (
-                              <CommandItem
-                                key={navItem.href}
-                                value={navItem.title}
-                                onSelect={() => {
-                                  runCommand(() =>
-                                    router.push(navItem.href as string)
-                                  )
-                                }}
-                              >
-                                <Avatar className="h-[27px] w-[27px] rounded-sm">
-                                  <AvatarImage
-                                    src={
-                                      navItem.logo
-                                        ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
-                                        : ""
-                                    }
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback className="glassmorphisum border-none">
-                                    {navItem.title
-                                      ? logoLetter(navItem.title)
-                                      : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
-                                <span className="ml-3">{navItem.title}</span>
-                              </CommandItem>
-                            ))}
+                        <CommandGroup heading="Chains">
+                          {filteredChains.map((chain) => (
+                            <CommandItem
+                              key={chain.chainId}
+                              value={chain.chainId}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(`/chain/${chain.chainId}`)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage src={chain.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg` : "/unknown-logo.png"} alt="Dx" />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {chain.name ? logoLetter(chain.name) : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{chain.name}</span>
+                            </CommandItem>
+                          ))}
                         </CommandGroup>
                         <CommandGroup heading="Social Medias">
-                          {docsConfig.passport
-                            .map((navItem) => (
-                              <CommandItem
-                                key={navItem.href}
-                                value={navItem.title}
-                                onSelect={() => {
-                                  runCommand(() =>
-                                    router.push(navItem.href as string)
-                                  )
-                                }}
-                              >
-                                        {/* <Link href={`/chain/${chain.chainId}`} prefetch={false} className="flex items-center mx-auto gap-2">
-          <img
-            src={icon}
-            width={26}
-            height={26}
-            className="rounded-full flex-shrink-0 flex relative"
-            alt={chain.name + " logo"}
-          />
-          <span className="text-xl font-semibold whitespace-nowrap overflow-hidden text-ellipsis relative top-[1px] dark:text-[#B3B3B3]">
-            {chain.name}
-          </span>
-        </Link> */}
-                                <Avatar className="h-[27px] w-[27px] rounded-sm">
-                                  <AvatarImage
-                                    src={
-                                      navItem.logo
-                                        ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
-                                        : ""
-                                    }
-                                    alt="Dx"
-                                  />
-                                  <AvatarFallback className="glassmorphisum border-none">
-                                    {navItem.title
-                                      ? logoLetter(navItem.title)
-                                      : "Dx"}
-                                  </AvatarFallback>
-                                </Avatar>
-                                <span className="ml-3">{navItem.title}</span>
-                              </CommandItem>
-                            ))}
+                          {docsConfig.passport.map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage
+                                  src={
+                                    navItem.logo
+                                      ? `/docs/${navItem.title
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
+                                      : ""
+                                  }
+                                  alt="Dx"
+                                />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {navItem.title
+                                    ? logoLetter(navItem.title)
+                                    : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{navItem.title}</span>
+                            </CommandItem>
+                          ))}
                         </CommandGroup>
                         <CommandGroup heading="Social Medias">
                           {docsConfig.passport
@@ -957,11 +925,11 @@ export default function Hack({ ...props }: DialogProps) {
                       </div>
 
                       <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                        <div className="left-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                        <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                         <span className="divider-title">
                           wallets according chians
                         </span>
-                        <div className="right-divider flex-1 h-[2.5px] bg-[--code-highlighted] w-full my-auto"></div>
+                        <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
                       </div>
 
                       <div className="dark:text-[#B3B3B3] text-black grid gap-1 grid-cols-1 place-content-between p-1 isolate grid-flow-dense">

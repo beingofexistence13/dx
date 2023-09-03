@@ -79,13 +79,13 @@ export default function Home() {
 
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-lg text-center justify-center">
+      {/* <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={title()}>Make&nbsp;</h1>
         <h1 className={title({ color: "violet" })}>Web beautiful&nbsp;</h1>
         <br />
-      </div>
+      </div> */}
 
-      {/* <Layout lang={undefined}>
+      <Layout lang={undefined}>
         <React.Suspense fallback={<div className="h-screen"></div>}>
           <div className="dark:text-[#B3B3B3] text-black grid gap-5 grid-cols-1 place-content-between pb-4 sm:pb-10 sm:grid-cols-[repeat(auto-fit,_calc(50%_-_15px))] 3xl:grid-cols-[repeat(auto-fit,_calc(33%_-_20px))] isolate grid-flow-dense">
             {filteredChains.map((chain, idx) => {
@@ -111,7 +111,7 @@ export default function Home() {
             })}
           </div>
         </React.Suspense>
-      </Layout> */}
+      </Layout>
     </section>
   )
 }

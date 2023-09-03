@@ -43,7 +43,7 @@ export default function Layout({ children, lang }) {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[40vw,_auto]">
-      <div className="dark:text-[#B3B3B3] text-black dark:bg-[#0D0D0D] bg-white relative h-full">
+      <div className="dark:text-[#B3B3B3] text-black relative h-full">
         <div className="p-5 sticky top-0 bottom-0 m-auto flex flex-col items-center gap-8 justify-center h-screen max-w-[480px] mx-auto">
           <figure className="lg:mr-auto">
             {/* <Logo /> */}
@@ -135,7 +135,7 @@ export default function Layout({ children, lang }) {
           </a> */}
         </div>
       </div>
-      <div className="dark:bg-[#181818] bg-[#f3f3f3] p-5 relative flex flex-col gap-5">
+      <div className="p-5 relative flex flex-col gap-5">
         <Header lang={lang} chainName={chainName} key={chainName + "header"} />
 
         {children}
