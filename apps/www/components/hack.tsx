@@ -396,7 +396,7 @@ export default function Hack({ ...props }: DialogProps) {
                 <Icons.close className="h-4 w-4 fill-current" />
               </div>
             </div>
-            <Tabs defaultValue="hackIn" className="w-[95%] space-y-3">
+            <Tabs defaultValue="hackUp" className="w-[95%] space-y-3">
               <TabsList className="hackTabList glassmorphisum mx-auto grid w-full grid-cols-2">
                 <TabsTrigger value="hackIn" className="hackTabTriggers">
                   HackIn
@@ -452,9 +452,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </form>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                 </div>
                 {/* HackIn Search */}
                 <Command className="rounded-lg border shadow-md">
@@ -583,9 +583,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                 </div>
                 {/* Friday Factor */}
                 <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
@@ -745,7 +745,7 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </form> */}
 
-                  <div className="connect h-[675px] min-w-full flex justify-start items-center flex-col">
+                  <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
@@ -873,7 +873,7 @@ export default function Hack({ ...props }: DialogProps) {
                         </CommandGroup>
                       </CommandList>
                     </Command>
-                    <div className="max-h-[375px] w-full mx-auto overflow-y-auto overflow-x-hidden">
+                    <div className="max-h-[450px] w-full mx-auto overflow-y-auto overflow-x-hidden">
                       <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
                         {docsConfig.passport.map((item, index) => (
                           <div
@@ -925,14 +925,14 @@ export default function Hack({ ...props }: DialogProps) {
                       </div>
 
                       <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                        <div className="left-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                        <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                         <span className="divider-title">
                           wallets according chians
                         </span>
-                        <div className="right-divider flex-1 h-[1px] bg-[--code] w-full my-auto"></div>
+                        <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
                       </div>
 
-                      <div className="dark:text-[#B3B3B3] text-black grid gap-1 grid-cols-1 place-content-between p-1 isolate grid-flow-dense">
+                      <div className="dark:text-[#B3B3B3] text-black h-[250px] w-[100%] overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row rounded-md space-x-3">
                         {filteredChains.map((chain, idx) => {
                           if (idx === 2) {
                             return (

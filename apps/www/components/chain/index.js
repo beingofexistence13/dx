@@ -56,7 +56,7 @@ export default function Chain({ chain, buttonOnly, lang }) {
 
   return (
     <>
-      <div className="shadow glassmorphisum hoverGlassmorphisum p-8 pb-0 rounded-[10px] flex flex-col gap-3 overflow-hidden">
+      <div className="shadow glassmorphisum min-w-full hoverGlassmorphisum p-8 pb-0 rounded-[10px] flex flex-col gap-3 overflow-hidden">
         <Link href={`/chain/${chain.chainId}`} prefetch={false} className="flex items-center mx-auto gap-2">
           <img
             src={icon}
