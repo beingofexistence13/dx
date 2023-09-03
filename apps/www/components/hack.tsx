@@ -303,19 +303,64 @@ export default function Hack({ ...props }: DialogProps) {
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") ||
     (typeof testnet === "string" && testnet === "true")
-  const sortedChains = !includeTestnets
+    const sortedChains = !includeTestnets
     ? chains.filter((item) => {
         const testnet =
           item.name?.toLowerCase().includes("test") ||
           item.title?.toLowerCase().includes("test") ||
-          item.network?.toLowerCase().includes("test")
+          item.network?.toLowerCase().includes("test");
         const devnet =
           item.name?.toLowerCase().includes("devnet") ||
           item.title?.toLowerCase().includes("devnet") ||
-          item.network?.toLowerCase().includes("devnet")
-        return !testnet && !devnet
+          item.network?.toLowerCase().includes("devnet");
+        return !testnet && !devnet;
       })
-    : chains
+    : chains;
+
+  const filteredChains =
+    !search || typeof search !== "string" || search === ""
+      ? sortedChains
+      : sortedChains.filter((chain) => {
+          //filter
+          return (
+            chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+            chain.chainId.toString().toLowerCase().includes(search.toLowerCase()) ||
+            chain.name.toLowerCase().includes(search.toLowerCase()) ||
+            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "").toLowerCase().includes(search.toLowerCase())
+          );
+        });
+// Chainlist Search
+// const t = useTranslations("Common", lang);
+// const pathname = usePathname()
+// const icon = React.useMemo(() => {
+//   return Chain.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg` : "/unknown-logo.png";
+// }, [chain]);
+// const chainId = useChain((state) => state.id);
+// const updateChain = useChain((state) => state.updateChain);
+// const handleClick = () => {
+//   if (chain.chainId === chainId) {
+//     updateChain(null);
+//   } else {
+//     updateChain(chain.chainId);
+//   }
+// };
+// const showAddlInfo = chain.chainId === chainId;
+// const { data: accountData } = useAccount();
+// const address = accountData?.address ?? null;
+// const { mutate: addToNetwork } = useAddToNetwork();
+// if (!chain) {
+//   return <></>;
+// }
+// if (buttonOnly) {
+//   return (
+//     <button
+//       className="border dark:border-[#171717] border-[#EAEAEA] px-4 py-2 rounded-[50px] dark:text-[#2F80ED] text-[#2F80ED] dark:hover:text-black hover:text-white dark:hover:bg-[#2F80ED] hover:bg-[#2F80ED] w-fit mx-auto"
+//       onClick={() => addToNetwork({ address, chain })}
+//     >
+//       {t(renderProviderText(address))}
+//     </button>
+//   );
+// }
 
 
 
