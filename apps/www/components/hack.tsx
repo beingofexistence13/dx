@@ -229,6 +229,7 @@ const FormSchema = z.object({
 })
 
 export default function Hack(this: any, { ...props }: DialogProps) {
+  const [marginLeft, setMarginLeft] = useState("")
   const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
   const [isQRCodeOpen, setIsQRCodeOpen] = React.useState(false)
@@ -630,10 +631,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
+                <div className="h-auto w-full overflow-y-hidden overflow-x-hidden flex justify-start items-center flex-row">
                   <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col"
+                    className={`h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col ml-[${marginLeft}]`}
                   >
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
@@ -793,7 +794,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Continue as Guest</Button>
-                      <Button variant="outline">Next</Button>
+                      <Button
+                        onClick={() => setMarginLeft("-386.19px")}
+                        variant="outline"
+                      >
+                        Next
+                      </Button>
                     </div>
                   </form>
                   {/* Connect */}
@@ -805,9 +811,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <CommandGroup heading="Blockchain Wallets">
                           {docsConfig.wallet
                             .filter((navitem) => !navitem.external)
-                            .map((navItem) => (
+                            .map((navItem, index) => (
                               <CommandItem
-                                key={navItem.href}
+                                key={index}
                                 value={navItem.title}
                                 onSelect={() => {
                                   runCommand(() =>
@@ -837,9 +843,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             ))}
                         </CommandGroup>
                         <CommandGroup heading="Chains">
-                          {filteredChains.map((chain) => (
+                          {filteredChains.map((chain, index) => (
                             <CommandItem
-                              key={chain.chainId}
+                              key={index}
                               value={chain.chainId}
                               onSelect={() => {
                                 runCommand(() =>
@@ -865,9 +871,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           ))}
                         </CommandGroup>
                         <CommandGroup heading="Social Medias">
-                          {docsConfig.passport.map((navItem) => (
+                          {docsConfig.passport.map((navItem, index) => (
                             <CommandItem
-                              key={navItem.href}
+                              key={index}
                               value={navItem.title}
                               onSelect={() => {
                                 runCommand(() =>
@@ -899,8 +905,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </CommandList>
                     </Command>
 
-                    <div className="max-h-[450px] w-full mx-auto overflow-y-auto overflow-x-hidden">
-                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                    <div className="max-h-[450px] w-full mx-auto overflow-y-auto overflow-x-auto">
+                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-hidden flex justify-start items-center flex-row border rounded-md mt-1.5">
                         {docsConfig.passport.map((item, index) => (
                           <div
                             key={index}
@@ -1017,8 +1023,15 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
 
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
-                      <Button>Back</Button>
-                      <Button variant="outline">Next</Button>
+                      <Button onClick={() => setMarginLeft("-386.19px")}>
+                        Back
+                      </Button>
+                      <Button
+                        onClick={() => setMarginLeft("-772.38px")}
+                        variant="outline"
+                      >
+                        Next
+                      </Button>
                     </div>
                   </div>
                   {/* Friday Factor */}
@@ -1189,8 +1202,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </div>
                         <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
                           <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Seed</span>
-                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">3.3</div>
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                              Seed
+                            </span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              3.3
+                            </div>
                           </div>
                           <div className="qrCode-slider w-full">
                             <Slider defaultValue={[33]} max={100} step={1} />
@@ -1198,8 +1215,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </div>
                         <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
                           <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Strength</span>
-                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">6.6</div>
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                              Strength
+                            </span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              6.6
+                            </div>
                           </div>
                           <div className="qrCode-slider w-full">
                             <Slider defaultValue={[66]} max={100} step={1} />
@@ -1207,8 +1228,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </div>
                         <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
                           <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Guidence Scale</span>
-                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">9.9</div>
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                              Guidence Scale
+                            </span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              9.9
+                            </div>
                           </div>
                           <div className="qrCode-slider w-full">
                             <Slider defaultValue={[99]} max={100} step={1} />
@@ -1402,7 +1427,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </Button>
                     </div>
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
-                      <Button>Back</Button>
+                      <Button onClick={() => setMarginLeft("-772.38px")}>
+                        Back
+                      </Button>
                       <Button variant="outline">Create Account</Button>
                     </div>
                   </div>

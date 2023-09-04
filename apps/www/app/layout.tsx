@@ -94,7 +94,7 @@ export default function RootLayout({
                 <SiteLayout />
                 {children}
               </main>
-              <Script src="./ux/globals.js" type="module" />
+              {/* <Script src="./ux/globals.js" type="module" /> */}
             </Query>
           </Redux>
         </Providers>
