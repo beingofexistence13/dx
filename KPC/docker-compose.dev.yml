@@ -1,0 +1,35 @@
+
+version: "3.5"
+
+networks:
+  proxy:
+    name: 'proxy'
+
+services:
+
+    dev:
+        image: node:13.11.0-alpine
+        container_name: sabuypay-api
+        expose:
+          - 3000
+        volumes:
+            - ./:/home/app:rw
+        working_dir: /home/app
+        restart: on-failure
+        command: npm run start
+        logging:
+            driver: "json-file"
+            options:
+                max-size: "1024m"
+        deploy:
+            resources: 
+                limits:
+                    cpus: '1'
+                    memory: 1G
+        
+    install:
+        image: node:13.11.0-alpine
+        volumes:
+            - ./:/home/app:rw
+        working_dir: /home/app
+        command: npm install
