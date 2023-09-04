@@ -675,29 +675,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       className="w-full mt-3"
                       isClearable
                     />
-                    {/* <Input
-                      value={number}
-                      type="tel"
-                      placeholder="Enter Your Phone Number"
-                      variant="bordered"
-                      color={
-                        validationPhoneNumberState === "invalid"
-                          ? "danger"
-                          : "success"
-                      }
-                      errorMessage={
-                        validationPhoneNumberState === "invalid" &&
-                        "Please enter a valid phone number"
-                      }
-                      validationState={validationPhoneNumberState}
-                      onValueChange={setNumber}
-                      className="w-full mt-3"
-                    /> */}
-                    {/* <PhoneInput
-                      country={"us"}
-                      value={this.state.phone}
-                      onChange={(phone) => this.setState({ phone })}
-                    /> */}
                     <PhoneInput
                       country={"us"}
                       value={phone}
@@ -820,7 +797,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                   </form>
                   {/* Connect */}
-                  {/* <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
+                  <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Chains,Medias..." />
                       <CommandList>
@@ -1043,9 +1020,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Button>Back</Button>
                       <Button variant="outline">Next</Button>
                     </div>
-                  </div> */}
+                  </div>
                   {/* Friday Factor */}
-                  {/* <div className="friday-factor h-[450px] overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
+                  <div className="friday-factor h-[450px] overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
                     <Collapsible
                       open={isFridayOpen}
                       onOpenChange={setIsFridayOpen}
@@ -1428,7 +1405,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Button>Back</Button>
                       <Button variant="outline">Create Account</Button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </TabsContent>
             </Tabs>
