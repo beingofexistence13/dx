@@ -1,19 +1,29 @@
 "use client"
 
 import * as React from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import Script from "next/script"
-import { Input } from "@nextui-org/react"
+import { Card, CardFooter, Image, Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import {
+  ArrowDownToLine,
   Calculator,
   Calendar,
+  Check,
+  ChevronsUpDown,
+  ClipboardCheck,
+  ClipboardCopy,
+  ClipboardList,
+  ClipboardPaste,
   CreditCard,
+  Plus,
   Settings,
   Smile,
   User,
+  X,
 } from "lucide-react"
 import { useTheme } from "next-themes"
 
@@ -43,10 +53,8 @@ import {
   AvatarImage,
   Badge,
   Button,
-  Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
   Checkbox,
@@ -202,8 +210,97 @@ import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
+import { AsYouType, parsePhoneNumber, getCountryCallingCode } from 'libphonenumber-js';
+
+// type Props = {
+//   onChange: (value: string) => void;
+// };
+
+// const PhoneInput: React.FC<Props> = ({ onChange }) => {
+//   const [value, setValue] = useState('');
+//   const [country, setCountry] = useState('US');
+
+//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     const asYouType = new AsYouType(country);
+//     const newValue = asYouType.input(event.target.value);
+//     setValue(newValue);
+//     onChange(newValue);
+//   };
+
+//   const handleCountryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+//     setCountry(event.target.value);
+//   };
+
+//   const isValid = () => {
+//     try {
+//       const phoneNumber = parsePhoneNumber(value, country);
+//       return phoneNumber?.isValid();
+//     } catch {
+//       return false;
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <select value={country} onChange={handleCountryChange}>
+//         {Object.keys(getCountryCallingCode).map((countryCode) => (
+//           <option key={countryCode} value={countryCode}>
+//             {countryCode}
+//           </option>
+//         ))}
+//       </select>
+//       <input type="tel" value={value} onChange={handleChange} />
+//       {isValid() ? '✅' : '❌'}
+//     </div>
+//   );
+// };
+
+
+// type Props = {
+//   onChange: (value: string) => void
+// }
+
+// const PhoneInput: React.FC = () => {
+//   const [value, setValue] = useState("")
+//   const [country, setCountry] = useState<CountryCode>("US")
+
+//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     const asYouType = new AsYouType(country)
+//     const newValue = asYouType.input(event.target.value)
+//     setValue(newValue)
+//     // onChange(newValue)
+//   }
+
+//   const handleCountryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+//     setCountry(event.target.value as CountryCode)
+//   }
+
+//   const isValid = () => {
+//     try {
+//       const phoneNumber = parsePhoneNumber(value, country)
+//       return phoneNumber?.isValid()
+//     } catch {
+//       return false
+//     }
+//   }
+
+//   return (
+//     <div>
+//       <select className="w-full 0 min-h-[100px] " value={country} onChange={handleCountryChange}>
+//         {Object.keys(getCountryCallingCode).map((countryCode) => (
+//           <option key={countryCode} value={countryCode}>
+//             {countryCode}
+//           </option>
+//         ))}
+//       </select>
+//       <input type="tel" value={value} onChange={handleChange} />
+//       {isValid() ? "✅" : "❌"}
+//     </div>
+//   )
+// }
 
 export default function Hack({ ...props }: DialogProps) {
+  const [isCollapsibleOpen, setIsCollapsibleOpen] = React.useState(false)
   const [pendingContent, setPendingContent] = React.useState(false)
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
@@ -745,7 +842,7 @@ export default function Hack({ ...props }: DialogProps) {
                       <Button variant="outline">Next</Button>
                     </div>
                   </form> */}
-{/* 
+                  {/* 
                   <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
@@ -1005,7 +1102,7 @@ export default function Hack({ ...props }: DialogProps) {
                   </div> */}
                   {/* Friday Factor */}
                   <div className="friday-factor h-auto min-w-full flex justify-start items-center flex-col">
-                    <Command className="rounded-lg border shadow-md h-[175px] w-full">
+                    {/* <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
@@ -1227,9 +1324,276 @@ export default function Hack({ ...props }: DialogProps) {
                           )
                         })}
                       </div>
-                    </div>
+                    </div> */}
+                    <Collapsible
+                      open={isCollapsibleOpen}
+                      onOpenChange={setIsCollapsibleOpen}
+                      className="w-[350px] space-y-2"
+                    >
+                      <div className="flex items-center justify-between space-x-4">
+                        <h4 className="text-sm font-semibold">
+                          Configure Friday
+                        </h4>
+                        <CollapsibleTrigger asChild>
+                          <Button variant="ghost" size="sm" className="w-9 p-0">
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </Button>
+                        </CollapsibleTrigger>
+                      </div>
+                      <Input
+                        variant="bordered"
+                        placeholder="Enter Your Assistance Name"
+                        endContent={
+                          <button
+                            className="focus:outline-none"
+                            type="button"
+                            onClick={toggleVisibility}
+                          >
+                            {isVisible ? <Check /> : <Plus />}
+                          </button>
+                        }
+                        type={isVisible ? "text" : "password"}
+                        className="w-full mt-3"
+                      />
+                      <CollapsibleContent className="space-y-2">
+                        <Input
+                          variant="bordered"
+                          placeholder="Connect Your Friday"
+                          endContent={
+                            <button
+                              className="focus:outline-none"
+                              type="button"
+                              onClick={toggleVisibility}
+                            >
+                              {isVisible ? (
+                                <ClipboardPaste />
+                              ) : (
+                                <ClipboardList />
+                              )}
+                            </button>
+                          }
+                          type={isVisible ? "text" : "password"}
+                          className="w-full mt-3"
+                        />
+                        <ContextMenu>
+                          <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm">
+                            <span className="text-xs p-5 text-center">
+                              Your Friday Recovary Code will Appear Here When
+                              You Will Create A New Assistence. You Might Need
+                              To Save This Recovary Code, In A Safe Place
+                            </span>
 
-                    <div className="relative border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
+                            <Button
+                              onClick={toggleVisibility}
+                              className="pending-clear absolute top-1 right-1 border p-3 rounded-full"
+                              variant="outline"
+                            >
+                              {isVisible ? (
+                                <ClipboardCheck />
+                              ) : (
+                                <ClipboardCopy />
+                              )}
+                            </Button>
+                          </ContextMenuTrigger>
+                          <ContextMenuContent className="w-64">
+                            <ContextMenuItem inset>
+                              Back
+                              <ContextMenuShortcut>⌘[</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuItem inset disabled>
+                              Forward
+                              <ContextMenuShortcut>⌘]</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuItem inset>
+                              Reload
+                              <ContextMenuShortcut>⌘R</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuSub>
+                              <ContextMenuSubTrigger inset>
+                                More Tools
+                              </ContextMenuSubTrigger>
+                              <ContextMenuSubContent className="w-48">
+                                <ContextMenuItem>
+                                  Save Page As...
+                                  <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
+                                </ContextMenuItem>
+                                <ContextMenuItem>
+                                  Create Shortcut...
+                                </ContextMenuItem>
+                                <ContextMenuItem>
+                                  Name Window...
+                                </ContextMenuItem>
+                                <ContextMenuSeparator />
+                                <ContextMenuItem>
+                                  Developer Tools
+                                </ContextMenuItem>
+                              </ContextMenuSubContent>
+                            </ContextMenuSub>
+                            <ContextMenuSeparator />
+                            <ContextMenuCheckboxItem checked>
+                              Show Bookmarks Bar
+                              <ContextMenuShortcut>⌘⇧B</ContextMenuShortcut>
+                            </ContextMenuCheckboxItem>
+                            <ContextMenuCheckboxItem>
+                              Show Full URLs
+                            </ContextMenuCheckboxItem>
+                            <ContextMenuSeparator />
+                            <ContextMenuRadioGroup value="pedro">
+                              <ContextMenuLabel inset>People</ContextMenuLabel>
+                              <ContextMenuSeparator />
+                              <ContextMenuRadioItem value="pedro">
+                                Pedro Duarte
+                              </ContextMenuRadioItem>
+                              <ContextMenuRadioItem value="colm">
+                                Colm Tuite
+                              </ContextMenuRadioItem>
+                            </ContextMenuRadioGroup>
+                          </ContextMenuContent>
+                        </ContextMenu>
+                      </CollapsibleContent>
+                    </Collapsible>
+                    <Collapsible
+                      open={isCollapsibleOpen}
+                      onOpenChange={setIsCollapsibleOpen}
+                      className="w-[350px] space-y-2"
+                    >
+                      <div className="flex items-center justify-between space-x-4 ">
+                        <h4 className="text-sm font-semibold">
+                          Configure QR Code
+                        </h4>
+                        <CollapsibleTrigger asChild>
+                          <Button variant="ghost" size="sm" className="w-9 p-0">
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </Button>
+                        </CollapsibleTrigger>
+                      </div>
+                      <Textarea placeholder="Type Your Prompt For QR Code." />
+
+                      <CollapsibleContent className="space-y-2">
+                        <Textarea placeholder="Type Your Negative Prompt For QR Code." />
+                        <div className="w-full flex items-center justify-between border rounded-xl text-sm">
+                          <input
+                            type="file"
+                            style={{ display: "none" }}
+                            ref={fileInputRef}
+                            onChange={handleFileChange}
+                          />
+                          <Button
+                            variant="link"
+                            onClick={handleButtonClick}
+                            className="text-muted-foreground"
+                          >
+                            Use An Image To Generate QR Code
+                          </Button>
+                          {file && <p>Selected file: {file.name}</p>}
+                        </div>
+                        <Card
+                          isFooterBlurred
+                          radius="lg"
+                          className="border-none min-h-[350px]"
+                        >
+                          <AspectRatio ratio={16 / 9}>
+                            <Image
+                              alt="Woman listing to music"
+                              className="object-cover"
+                              height={450}
+                              src="/qrcode.png"
+                              width={450}
+                            />
+                          </AspectRatio>
+
+                          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-3 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                            <p className="text-tiny text-white/80">
+                              Support Developers At Huggingfacfe.
+                            </p>
+                            <Button
+                              className="text-tiny text-white bg-black/20"
+                              variant="ghost"
+                            >
+                              Regenerate
+                            </Button>
+                          </CardFooter>
+                        </Card>
+                        {/* <PhoneInput onChange={function (value: string): void {
+                          throw new Error("Function not implemented.")
+                        } } /> */}
+                        {/* 
+                        <ContextMenu>
+                          <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm">
+                            <span className="text-xs p-5 text-center">
+                              Your QR Code will Appear Here When You Will Create
+                              A QR Code. You Might Need To Download This QR
+                              Code, In A Safe Place
+                            </span>
+
+                            <Button
+                              onClick={toggleVisibility}
+                              className="pending-clear absolute top-1 right-1 border p-3 rounded-full"
+                              variant="outline"
+                            >
+                              {isVisible ? <Check /> : <ArrowDownToLine />}
+                            </Button>
+                          </ContextMenuTrigger>
+                          <ContextMenuContent className="w-64">
+                            <ContextMenuItem inset>
+                              Back
+                              <ContextMenuShortcut>⌘[</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuItem inset disabled>
+                              Forward
+                              <ContextMenuShortcut>⌘]</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuItem inset>
+                              Reload
+                              <ContextMenuShortcut>⌘R</ContextMenuShortcut>
+                            </ContextMenuItem>
+                            <ContextMenuSub>
+                              <ContextMenuSubTrigger inset>
+                                More Tools
+                              </ContextMenuSubTrigger>
+                              <ContextMenuSubContent className="w-48">
+                                <ContextMenuItem>
+                                  Save Page As...
+                                  <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
+                                </ContextMenuItem>
+                                <ContextMenuItem>
+                                  Create Shortcut...
+                                </ContextMenuItem>
+                                <ContextMenuItem>
+                                  Name Window...
+                                </ContextMenuItem>
+                                <ContextMenuSeparator />
+                                <ContextMenuItem>
+                                  Developer Tools
+                                </ContextMenuItem>
+                              </ContextMenuSubContent>
+                            </ContextMenuSub>
+                            <ContextMenuSeparator />
+                            <ContextMenuCheckboxItem checked>
+                              Show Bookmarks Bar
+                              <ContextMenuShortcut>⌘⇧B</ContextMenuShortcut>
+                            </ContextMenuCheckboxItem>
+                            <ContextMenuCheckboxItem>
+                              Show Full URLs
+                            </ContextMenuCheckboxItem>
+                            <ContextMenuSeparator />
+                            <ContextMenuRadioGroup value="pedro">
+                              <ContextMenuLabel inset>People</ContextMenuLabel>
+                              <ContextMenuSeparator />
+                              <ContextMenuRadioItem value="pedro">
+                                Pedro Duarte
+                              </ContextMenuRadioItem>
+                              <ContextMenuRadioItem value="colm">
+                                Colm Tuite
+                              </ContextMenuRadioItem>
+                            </ContextMenuRadioGroup>
+                          </ContextMenuContent>
+                        </ContextMenu> */}
+                      </CollapsibleContent>
+                    </Collapsible>
+                    <div className="border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
                       {pendingContent ? (
                         <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
                           <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
@@ -1247,9 +1611,9 @@ export default function Hack({ ...props }: DialogProps) {
                           <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
                             Authenticator
                           </span>
-                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                          {/* <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
                             Face
-                          </span>
+                          </span> */}
                         </div>
                       )}
 
@@ -1261,13 +1625,12 @@ export default function Hack({ ...props }: DialogProps) {
                         <Icons.close className="h-4 w-4" />
                       </Button>
                     </div>
-
+{/* <PhoneInput /> */}
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Back</Button>
                       <Button variant="outline">Create Account</Button>
                     </div>
                   </div>
-
                 </div>
               </TabsContent>
             </Tabs>

@@ -141,7 +141,7 @@ export function HelloTool() {
           <AvatarFallback>9</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
-          <AvatarImage src="/naruto.jpg" alt="@shadcn" />
+          <AvatarImage src="/one-punch-man.png" alt="@shadcn" />
           <AvatarFallback>8</AvatarFallback>
         </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] md:flex">
