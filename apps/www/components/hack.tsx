@@ -204,6 +204,7 @@ import RPCList from "./RPCList"
 import Chain from "./chain"
 
 export default function Hack({ ...props }: DialogProps) {
+  const [pendingContent, setPendingContent] = React.useState(false)
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
   const [fluidSimulation, setFluidSimulation] = React.useState(true)
@@ -283,7 +284,7 @@ export default function Hack({ ...props }: DialogProps) {
     chain: any
     chainId: any
     nativeCurrency: any
-    chainSlug:any
+    chainSlug: any
     name: string
     title: string
     network: string
@@ -452,9 +453,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </form>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                 </div>
                 {/* HackIn Search */}
                 <Command className="rounded-lg border shadow-md">
@@ -583,9 +584,9 @@ export default function Hack({ ...props }: DialogProps) {
                 </div>
                 {/* Divider */}
                 <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                  <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                   <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                  <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                 </div>
                 {/* Friday Factor */}
                 <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
@@ -744,7 +745,7 @@ export default function Hack({ ...props }: DialogProps) {
                       <Button variant="outline">Next</Button>
                     </div>
                   </form> */}
-
+{/* 
                   <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
@@ -762,7 +763,14 @@ export default function Hack({ ...props }: DialogProps) {
                               }}
                             >
                               <Avatar className="h-[27px] w-[27px] rounded-sm">
-                                <AvatarImage src={chain.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg` : "/unknown-logo.png"} alt="Dx" />
+                                <AvatarImage
+                                  src={
+                                    chain.chainSlug
+                                      ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg`
+                                      : "/unknown-logo.png"
+                                  }
+                                  alt="Dx"
+                                />
                                 <AvatarFallback className="glassmorphisum border-none">
                                   {chain.name ? logoLetter(chain.name) : "Dx"}
                                 </AvatarFallback>
@@ -925,11 +933,11 @@ export default function Hack({ ...props }: DialogProps) {
                       </div>
 
                       <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                        <div className="left-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                        <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                         <span className="divider-title">
                           wallets according chians
                         </span>
-                        <div className="right-divider flex-1 h-[3px] bg-[--code-foreground] w-full my-auto"></div>
+                        <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                       </div>
 
                       <div className="dark:text-[#B3B3B3] text-black h-[250px] w-[100%] overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row rounded-md space-x-3">
@@ -963,20 +971,297 @@ export default function Hack({ ...props }: DialogProps) {
                       </div>
                     </div>
 
-                    <div className="border h-[60px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-7 space-x-2">
-                      <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
-                        Avatar
-                      </span>
+                    <div className="relative border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
+                      {pendingContent ? (
+                        <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Cleared
+                          </span>
+                        </div>
+                      ) : (
+                        <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Social Media
+                          </span>
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Wallet
+                          </span>
+                        </div>
+                      )}
+
+                      <Button
+                        onClick={() => setPendingContent(!pendingContent)}
+                        className="pending-clear border p-3 rounded-full"
+                        variant="outline"
+                      >
+                        <Icons.close className="h-4 w-4" />
+                      </Button>
                     </div>
+
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Back</Button>
                       <Button variant="outline">Next</Button>
                     </div>
-                  </div>
-                  {/* Friday Factor */}
-                  {/* <div className="friday-factor h-[300px] min-w-full rounded-sm flex justify-center items-center bg-pink-600">
-                    Friday Factor
                   </div> */}
+                  {/* Friday Factor */}
+                  <div className="friday-factor h-auto min-w-full flex justify-start items-center flex-col">
+                    <Command className="rounded-lg border shadow-md h-[175px] w-full">
+                      <CommandInput placeholder="Wallets,Medias,Chains..." />
+                      <CommandList>
+                        <CommandEmpty>No results found.</CommandEmpty>
+                        <CommandGroup heading="Chains">
+                          {filteredChains.map((chain) => (
+                            <CommandItem
+                              key={chain.chainId}
+                              value={chain.chainId}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(`/chain/${chain.chainId}`)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage
+                                  src={
+                                    chain.chainSlug
+                                      ? `https://icons.llamao.fi/icons/chains/rsz_${chain.chainSlug}.jpg`
+                                      : "/unknown-logo.png"
+                                  }
+                                  alt="Dx"
+                                />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {chain.name ? logoLetter(chain.name) : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{chain.name}</span>
+                            </CommandItem>
+                          ))}
+                        </CommandGroup>
+                        <CommandGroup heading="Social Medias">
+                          {docsConfig.passport.map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage
+                                  src={
+                                    navItem.logo
+                                      ? `/docs/${navItem.title
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
+                                      : ""
+                                  }
+                                  alt="Dx"
+                                />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {navItem.title
+                                    ? logoLetter(navItem.title)
+                                    : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{navItem.title}</span>
+                            </CommandItem>
+                          ))}
+                        </CommandGroup>
+                        <CommandGroup heading="Social Medias">
+                          {docsConfig.passport
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
+                        <CommandGroup heading="Blockchain Wallets">
+                          {docsConfig.wallet
+                            .filter((navitem) => !navitem.external)
+                            .map((navItem) => (
+                              <CommandItem
+                                key={navItem.href}
+                                value={navItem.title}
+                                onSelect={() => {
+                                  runCommand(() =>
+                                    router.push(navItem.href as string)
+                                  )
+                                }}
+                              >
+                                <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                  <AvatarImage
+                                    src={
+                                      navItem.logo
+                                        ? `/docs/${navItem.title
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
+                                        : ""
+                                    }
+                                    alt="Dx"
+                                  />
+                                  <AvatarFallback className="glassmorphisum border-none">
+                                    {navItem.title
+                                      ? logoLetter(navItem.title)
+                                      : "Dx"}
+                                  </AvatarFallback>
+                                </Avatar>
+                                <span className="ml-3">{navItem.title}</span>
+                              </CommandItem>
+                            ))}
+                        </CommandGroup>
+                      </CommandList>
+                    </Command>
+                    <div className="max-h-[450px] w-full mx-auto overflow-y-auto overflow-x-hidden">
+                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                        {docsConfig.passport.map((item, index) => (
+                          <div
+                            key={index}
+                            className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  item.logo
+                                    ? `/docs/${item.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
+                              />
+                              <AvatarFallback className="glassmorphisum border-none">
+                                {item.title ? logoLetter(item.title) : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                          </div>
+                        ))}
+                      </div>
+
+                      <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                        {docsConfig.wallet.map((item, index) => (
+                          <div
+                            key={index}
+                            className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          >
+                            <Avatar className="h-[27px] w-[27px] rounded-sm">
+                              <AvatarImage
+                                src={
+                                  item.logo
+                                    ? `/docs/${item.title
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
+                                    : ""
+                                }
+                                alt="Dx"
+                              />
+                              <AvatarFallback className="glassmorphisum  border-none">
+                                {item.title ? logoLetter(item.title) : "Dx"}
+                              </AvatarFallback>
+                            </Avatar>
+                          </div>
+                        ))}
+                      </div>
+
+                      <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                        <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                        <span className="divider-title">
+                          wallets according chians
+                        </span>
+                        <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                      </div>
+
+                      <div className="dark:text-[#B3B3B3] text-black h-[250px] w-[100%] overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row rounded-md space-x-3">
+                        {filteredChains.map((chain, idx) => {
+                          if (idx === 2) {
+                            return (
+                              <React.Fragment
+                                key={
+                                  JSON.stringify(chain) + "en" + "with-banner"
+                                }
+                              >
+                                <AdBanner />
+                                <Chain
+                                  chain={chain}
+                                  lang="en"
+                                  buttonOnly={undefined}
+                                />
+                              </React.Fragment>
+                            )
+                          }
+
+                          return (
+                            <Chain
+                              chain={chain}
+                              key={JSON.stringify(chain) + "en"}
+                              lang="en"
+                              buttonOnly={undefined}
+                            />
+                          )
+                        })}
+                      </div>
+                    </div>
+
+                    <div className="relative border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
+                      {pendingContent ? (
+                        <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Cleared
+                          </span>
+                        </div>
+                      ) : (
+                        <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Social Media
+                          </span>
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Wallet
+                          </span>
+                        </div>
+                      )}
+
+                      <Button
+                        onClick={() => setPendingContent(!pendingContent)}
+                        className="pending-clear border p-3 rounded-full"
+                        variant="outline"
+                      >
+                        <Icons.close className="h-4 w-4" />
+                      </Button>
+                    </div>
+
+                    <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <Button>Back</Button>
+                      <Button variant="outline">Create Account</Button>
+                    </div>
+                  </div>
+
                 </div>
               </TabsContent>
             </Tabs>
