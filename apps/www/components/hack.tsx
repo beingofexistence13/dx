@@ -9,6 +9,11 @@ import { Card, CardFooter, Image, Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import {
+  AsYouType,
+  getCountryCallingCode,
+  parsePhoneNumber,
+} from "libphonenumber-js"
+import {
   ArrowDownToLine,
   Calculator,
   Calendar,
@@ -210,7 +215,6 @@ import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
-import { AsYouType, parsePhoneNumber, getCountryCallingCode } from 'libphonenumber-js';
 
 // type Props = {
 //   onChange: (value: string) => void;
@@ -254,7 +258,6 @@ import { AsYouType, parsePhoneNumber, getCountryCallingCode } from 'libphonenumb
 //     </div>
 //   );
 // };
-
 
 // type Props = {
 //   onChange: (value: string) => void
@@ -300,7 +303,9 @@ import { AsYouType, parsePhoneNumber, getCountryCallingCode } from 'libphonenumb
 // }
 
 export default function Hack({ ...props }: DialogProps) {
-  const [isCollapsibleOpen, setIsCollapsibleOpen] = React.useState(false)
+  const [isFridayOpen, setIsFridayOpen] = React.useState(false)
+  const [isQRCodeOpen, setIsQRCodeOpen] = React.useState(false)
+  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = React.useState(false)
   const [pendingContent, setPendingContent] = React.useState(false)
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
@@ -1101,7 +1106,7 @@ export default function Hack({ ...props }: DialogProps) {
                     </div>
                   </div> */}
                   {/* Friday Factor */}
-                  <div className="friday-factor h-auto min-w-full flex justify-start items-center flex-col">
+                  <div className="friday-factor h-[450px] overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
                     {/* <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Medias,Chains..." />
                       <CommandList>
@@ -1326,9 +1331,9 @@ export default function Hack({ ...props }: DialogProps) {
                       </div>
                     </div> */}
                     <Collapsible
-                      open={isCollapsibleOpen}
-                      onOpenChange={setIsCollapsibleOpen}
-                      className="w-[350px] space-y-2"
+                      open={isFridayOpen}
+                      onOpenChange={setIsFridayOpen}
+                      className="w-full space-y-2"
                     >
                       <div className="flex items-center justify-between space-x-4">
                         <h4 className="text-sm font-semibold">
@@ -1454,9 +1459,9 @@ export default function Hack({ ...props }: DialogProps) {
                       </CollapsibleContent>
                     </Collapsible>
                     <Collapsible
-                      open={isCollapsibleOpen}
-                      onOpenChange={setIsCollapsibleOpen}
-                      className="w-[350px] space-y-2"
+                      open={isQRCodeOpen}
+                      onOpenChange={setIsQRCodeOpen}
+                      className="w-full space-y-2 mt-2"
                     >
                       <div className="flex items-center justify-between space-x-4 ">
                         <h4 className="text-sm font-semibold">
@@ -1516,83 +1521,136 @@ export default function Hack({ ...props }: DialogProps) {
                             </Button>
                           </CardFooter>
                         </Card>
-                        {/* <PhoneInput onChange={function (value: string): void {
-                          throw new Error("Function not implemented.")
-                        } } /> */}
-                        {/* 
-                        <ContextMenu>
-                          <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm">
-                            <span className="text-xs p-5 text-center">
-                              Your QR Code will Appear Here When You Will Create
-                              A QR Code. You Might Need To Download This QR
-                              Code, In A Safe Place
-                            </span>
-
-                            <Button
-                              onClick={toggleVisibility}
-                              className="pending-clear absolute top-1 right-1 border p-3 rounded-full"
-                              variant="outline"
-                            >
-                              {isVisible ? <Check /> : <ArrowDownToLine />}
-                            </Button>
-                          </ContextMenuTrigger>
-                          <ContextMenuContent className="w-64">
-                            <ContextMenuItem inset>
-                              Back
-                              <ContextMenuShortcut>⌘[</ContextMenuShortcut>
-                            </ContextMenuItem>
-                            <ContextMenuItem inset disabled>
-                              Forward
-                              <ContextMenuShortcut>⌘]</ContextMenuShortcut>
-                            </ContextMenuItem>
-                            <ContextMenuItem inset>
-                              Reload
-                              <ContextMenuShortcut>⌘R</ContextMenuShortcut>
-                            </ContextMenuItem>
-                            <ContextMenuSub>
-                              <ContextMenuSubTrigger inset>
-                                More Tools
-                              </ContextMenuSubTrigger>
-                              <ContextMenuSubContent className="w-48">
-                                <ContextMenuItem>
-                                  Save Page As...
-                                  <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
-                                </ContextMenuItem>
-                                <ContextMenuItem>
-                                  Create Shortcut...
-                                </ContextMenuItem>
-                                <ContextMenuItem>
-                                  Name Window...
-                                </ContextMenuItem>
-                                <ContextMenuSeparator />
-                                <ContextMenuItem>
-                                  Developer Tools
-                                </ContextMenuItem>
-                              </ContextMenuSubContent>
-                            </ContextMenuSub>
-                            <ContextMenuSeparator />
-                            <ContextMenuCheckboxItem checked>
-                              Show Bookmarks Bar
-                              <ContextMenuShortcut>⌘⇧B</ContextMenuShortcut>
-                            </ContextMenuCheckboxItem>
-                            <ContextMenuCheckboxItem>
-                              Show Full URLs
-                            </ContextMenuCheckboxItem>
-                            <ContextMenuSeparator />
-                            <ContextMenuRadioGroup value="pedro">
-                              <ContextMenuLabel inset>People</ContextMenuLabel>
-                              <ContextMenuSeparator />
-                              <ContextMenuRadioItem value="pedro">
-                                Pedro Duarte
-                              </ContextMenuRadioItem>
-                              <ContextMenuRadioItem value="colm">
-                                Colm Tuite
-                              </ContextMenuRadioItem>
-                            </ContextMenuRadioGroup>
-                          </ContextMenuContent>
-                        </ContextMenu> */}
                       </CollapsibleContent>
                     </Collapsible>
+                    <Collapsible
+                      open={isExtraSafetyOpen}
+                      onOpenChange={setIsExtraSafetyOpen}
+                      className="w-full space-y-2 mt-2"
+                    >
+                      <div className="flex items-center justify-between space-x-4 ">
+                        <h4 className="text-sm font-semibold">
+                          Configure Extra Safety
+                        </h4>
+                        <CollapsibleTrigger asChild>
+                          <Button variant="ghost" size="sm" className="w-9 p-0">
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </Button>
+                        </CollapsibleTrigger>
+                      </div>
+                      <form action="">
+                        <Input
+                          type="tel"
+                          placeholder="Type Your Authentication Code"
+                          variant="bordered"
+                          className="w-full mt-3"
+                        />
+                      </form>
+                      <CollapsibleContent className="space-y-2">
+                        <form>
+                          <Input
+                            value={emailAndPhoneNumbber}
+                            type="search"
+                            placeholder="Set A Recovary Email Or Phone Number"
+                            variant="bordered"
+                            color={
+                              validationEmailAndPhoneNumbberState === "invalid"
+                                ? "danger"
+                                : "success"
+                            }
+                            errorMessage={
+                              validationEmailAndPhoneNumbberState ===
+                                "invalid" &&
+                              "Set A Recovary Email Or Phone Number Proccess Crashed"
+                            }
+                            validationState={
+                              validationEmailAndPhoneNumbberState
+                            }
+                            onValueChange={setEmailAndPhoneNumbber}
+                            className="w-full mt-3"
+                            isClearable
+                          />
+                          <ContextMenu>
+                            <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm mt-3">
+                              <input
+                                type="file"
+                                style={{ display: "none" }}
+                                ref={fileInputRef}
+                                onChange={handleFileChange}
+                              />
+                              <Button
+                                variant="link"
+                                onClick={handleButtonClick}
+                                className="text-muted-foreground"
+                              >
+                                Choose Or Drop A Pic Of Yourself
+                              </Button>
+                              {file && <p>Selected file: {file.name}</p>}
+                            </ContextMenuTrigger>
+                            <ContextMenuContent className="w-64">
+                              <ContextMenuItem inset>
+                                Back
+                                <ContextMenuShortcut>⌘[</ContextMenuShortcut>
+                              </ContextMenuItem>
+                              <ContextMenuItem inset disabled>
+                                Forward
+                                <ContextMenuShortcut>⌘]</ContextMenuShortcut>
+                              </ContextMenuItem>
+                              <ContextMenuItem inset>
+                                Reload
+                                <ContextMenuShortcut>⌘R</ContextMenuShortcut>
+                              </ContextMenuItem>
+                              <ContextMenuSub>
+                                <ContextMenuSubTrigger inset>
+                                  More Tools
+                                </ContextMenuSubTrigger>
+                                <ContextMenuSubContent className="w-48">
+                                  <ContextMenuItem>
+                                    Save Page As...
+                                    <ContextMenuShortcut>
+                                      ⇧⌘S
+                                    </ContextMenuShortcut>
+                                  </ContextMenuItem>
+                                  <ContextMenuItem>
+                                    Create Shortcut...
+                                  </ContextMenuItem>
+                                  <ContextMenuItem>
+                                    Name Window...
+                                  </ContextMenuItem>
+                                  <ContextMenuSeparator />
+                                  <ContextMenuItem>
+                                    Developer Tools
+                                  </ContextMenuItem>
+                                </ContextMenuSubContent>
+                              </ContextMenuSub>
+                              <ContextMenuSeparator />
+                              <ContextMenuCheckboxItem checked>
+                                Show Bookmarks Bar
+                                <ContextMenuShortcut>⌘⇧B</ContextMenuShortcut>
+                              </ContextMenuCheckboxItem>
+                              <ContextMenuCheckboxItem>
+                                Show Full URLs
+                              </ContextMenuCheckboxItem>
+                              <ContextMenuSeparator />
+                              <ContextMenuRadioGroup value="pedro">
+                                <ContextMenuLabel inset>
+                                  People
+                                </ContextMenuLabel>
+                                <ContextMenuSeparator />
+                                <ContextMenuRadioItem value="pedro">
+                                  Pedro Duarte
+                                </ContextMenuRadioItem>
+                                <ContextMenuRadioItem value="colm">
+                                  Colm Tuite
+                                </ContextMenuRadioItem>
+                              </ContextMenuRadioGroup>
+                            </ContextMenuContent>
+                          </ContextMenu>
+                        </form>
+                      </CollapsibleContent>
+                    </Collapsible>
+
                     <div className="border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
                       {pendingContent ? (
                         <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
@@ -1625,7 +1683,6 @@ export default function Hack({ ...props }: DialogProps) {
                         <Icons.close className="h-4 w-4" />
                       </Button>
                     </div>
-{/* <PhoneInput /> */}
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <Button>Back</Button>
                       <Button variant="outline">Create Account</Button>
