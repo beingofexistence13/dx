@@ -1,10 +1,14 @@
 "use client"
 
 import * as React from "react"
+
+// import "@/styles/intlTelInput.css"
+// import "@/styles/demo.css"
 import Head from "next/head"
 import NextLink from "next/link"
 // import { useRouter } from "next/navigation";
 import { usePathname, useSearchParams } from "next/navigation"
+import Script from "next/script"
 import { Code } from "@nextui-org/code"
 import { Link } from "@nextui-org/link"
 import { Input } from "@nextui-org/react"
@@ -13,6 +17,7 @@ import { button as buttonStyles } from "@nextui-org/theme"
 
 import { siteConfig } from "@/config/site"
 import { Button } from "@/components/ui/button"
+import { CalendarForm } from "@/components/calendarForm"
 import { GithubIcon } from "@/components/icons"
 import { subtitle, title } from "@/components/primitives"
 
@@ -20,7 +25,6 @@ import { AdBanner } from "../components/AdBanner"
 import Layout from "../components/Layout"
 import Chain from "../components/chain"
 import { generateChainData } from "../utils/fetch"
-import { CalendarForm } from "@/components/calendarForm"
 
 export default function Home() {
   interface Chain {
@@ -114,6 +118,40 @@ export default function Home() {
         </React.Suspense>
       </Layout> */}
       {/* <CalendarForm /> */}
+      {/* <h1>International Telephone Input</h1>
+      <form>
+        <input id="phone" name="phone" type="tel" />
+        <button type="submit">Submit</button>
+      </form>
+      <Script src="./intl-tel-input-master/build/js/intlTelInput.js" />
+      <Script id="phoneNumnber">
+        {`      
+        let input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+          // allowDropdown: false,
+          // autoInsertDialCode: true,
+          // autoPlaceholder: "off",
+          // dropdownContainer: document.body,
+          // excludeCountries: ["us"],
+          // formatOnDisplay: false,
+          // geoIpLookup: function(callback) {
+          //   fetch("https://ipapi.co/json")
+          //     .then(function(res) { return res.json(); })
+          //     .then(function(data) { callback(data.country_code); })
+          //     .catch(function() { callback("us"); });
+          // },
+          // hiddenInput: "full_number",
+          // initialCountry: "auto",
+          // localizedCountries: { 'de': 'Deutschland' },
+          // nationalMode: false,
+          // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+          // placeholderNumberType: "MOBILE",
+          // preferredCountries: ['cn', 'jp'],
+          // separateDialCode: true,
+          // showFlags: false,
+          utilsScript: "intl-tel-input-master/build/js/utils.js"
+        });`}
+      </Script> */}
     </section>
   )
 }
