@@ -289,7 +289,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   padding: 0 !important;
   width: 350px !important;
 
-  z-index: 100000000000;
+  /* z-index: 100000000000; */
 }
 
 .devMode-content * {
@@ -330,12 +330,11 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   min-height: 100px;
 }
 
-.hello-tool,
+/* .hello-tool,
 .devMode,
 .devMode-container,
 .devMode-content {
-  z-index: 100000000000;
-}
+} */
 /* .hack {
     width: 380px !important;
   } */
@@ -356,7 +355,7 @@ canvas {
   left: 0 !important;
   min-width: 100% !important;
   min-height: 100vh !important;
-  z-index: 10000000000000000 !important;
+  /* z-index: 10000000000000000 !important; */
 }
 
 .glassmorphisum {

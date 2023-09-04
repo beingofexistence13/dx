@@ -5,9 +5,11 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import Script from "next/script"
+import { zodResolver } from "@hookform/resolvers/zod"
 import { Card, CardFooter, Image, Input } from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
+import { format } from "date-fns"
 import {
   AsYouType,
   getCountryCallingCode,
@@ -16,7 +18,7 @@ import {
 import {
   ArrowDownToLine,
   Calculator,
-  Calendar,
+  CalendarIcon,
   Check,
   ChevronsUpDown,
   ClipboardCheck,
@@ -31,6 +33,8 @@ import {
   X,
 } from "lucide-react"
 import { useTheme } from "next-themes"
+import { useForm } from "react-hook-form"
+import { z } from "zod"
 
 import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
@@ -58,6 +62,7 @@ import {
   AvatarImage,
   Badge,
   Button,
+  Calendar,
   CardContent,
   CardDescription,
   CardHeader,
@@ -216,91 +221,29 @@ import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
 
-// type Props = {
-//   onChange: (value: string) => void;
-// };
+const FormSchema = z.object({
+  dob: z.date({
+    required_error: "A date of birth is required.",
+  }),
+})
 
-// const PhoneInput: React.FC<Props> = ({ onChange }) => {
-//   const [value, setValue] = useState('');
-//   const [country, setCountry] = useState('US');
 
-//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-//     const asYouType = new AsYouType(country);
-//     const newValue = asYouType.input(event.target.value);
-//     setValue(newValue);
-//     onChange(newValue);
-//   };
 
-//   const handleCountryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-//     setCountry(event.target.value);
-//   };
 
-//   const isValid = () => {
-//     try {
-//       const phoneNumber = parsePhoneNumber(value, country);
-//       return phoneNumber?.isValid();
-//     } catch {
-//       return false;
-//     }
-//   };
 
-//   return (
-//     <div>
-//       <select value={country} onChange={handleCountryChange}>
-//         {Object.keys(getCountryCallingCode).map((countryCode) => (
-//           <option key={countryCode} value={countryCode}>
-//             {countryCode}
-//           </option>
-//         ))}
-//       </select>
-//       <input type="tel" value={value} onChange={handleChange} />
-//       {isValid() ? '✅' : '❌'}
-//     </div>
-//   );
-// };
 
-// type Props = {
-//   onChange: (value: string) => void
-// }
 
-// const PhoneInput: React.FC = () => {
-//   const [value, setValue] = useState("")
-//   const [country, setCountry] = useState<CountryCode>("US")
 
-//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-//     const asYouType = new AsYouType(country)
-//     const newValue = asYouType.input(event.target.value)
-//     setValue(newValue)
-//     // onChange(newValue)
-//   }
 
-//   const handleCountryChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-//     setCountry(event.target.value as CountryCode)
-//   }
 
-//   const isValid = () => {
-//     try {
-//       const phoneNumber = parsePhoneNumber(value, country)
-//       return phoneNumber?.isValid()
-//     } catch {
-//       return false
-//     }
-//   }
 
-//   return (
-//     <div>
-//       <select className="w-full 0 min-h-[100px] " value={country} onChange={handleCountryChange}>
-//         {Object.keys(getCountryCallingCode).map((countryCode) => (
-//           <option key={countryCode} value={countryCode}>
-//             {countryCode}
-//           </option>
-//         ))}
-//       </select>
-//       <input type="tel" value={value} onChange={handleChange} />
-//       {isValid() ? "✅" : "❌"}
-//     </div>
-//   )
-// }
+
+
+
+
+
+
+
 
 export default function Hack({ ...props }: DialogProps) {
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
@@ -437,29 +380,20 @@ export default function Hack({ ...props }: DialogProps) {
               .includes(search.toLowerCase())
           )
         })
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema),
+  })
 
-  // Chainlist Search
-  // const t = useTranslations("Common", "en");
-  // const pathname = usePathname()
-  // const icon = React.useMemo(() => {
-  //   return chains.chainSlug ? `https://icons.llamao.fi/icons/chains/rsz_${chains.chainSlug}.jpg` : "/unknown-logo.png";
-  // }, [chains]);
-  // const chainId = useChain((state) => state.id);
-  // const updateChain = useChain((state) => state.updateChain);
-  // const handleClick = () => {
-  //   if (chains.chainId === chainId) {
-  //     updateChain(null);
-  //   } else {
-  //     updateChain(chains.chainId);
-  //   }
-  // };
-  // const showAddlInfo = chains.chainId === chainId;
-  // const { data: accountData } = useAccount();
-  // const address = accountData?.address ?? null;
-  // const { mutate: addToNetwork } = useAddToNetwork();
-  // if (!chains) {
-  //   return <></>;
-  // }
+  function onSubmit(data: z.infer<typeof FormSchema>) {
+    toast({
+      title: "You submitted the following values:",
+      description: (
+        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+        </pre>
+      ),
+    })
+  }
 
   return (
     <div>
@@ -478,7 +412,7 @@ export default function Hack({ ...props }: DialogProps) {
           {/* <canvas className="fluid-simulation-container"></canvas>
           <Script src="./fluid-simulation.js" /> */}
 
-          <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] z-[100000000000000000000] space-y-3 h-auto">
+          <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
             <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
               <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                 <Icons.circleDashed className="h-4 w-4 fill-current" />
@@ -713,7 +647,7 @@ export default function Hack({ ...props }: DialogProps) {
               </TabsContent>
               <TabsContent value="hackUp">
                 <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
-                  {/* <form className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
+                  <form className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
@@ -810,15 +744,59 @@ export default function Hack({ ...props }: DialogProps) {
                       type={isVisible ? "text" : "password"}
                       className="w-full mt-3"
                     />
-
+                    <Form {...form}>
+                      <form
+                        onSubmit={form.handleSubmit(onSubmit)}
+                        className="w-full mt-3"
+                      >
+                        <FormField
+                          control={form.control}
+                          name="dob"
+                          render={({ field }) => (
+                            <FormItem className="flex flex-col">
+                              <Popover>
+                                <PopoverTrigger asChild>
+                                  <FormControl>
+                                    <Button
+                                      variant={"outline"}
+                                      className={cn(
+                                        "w-full text-left font-normal",
+                                        !field.value && "text-muted-foreground"
+                                      )}
+                                    >
+                                      {field.value ? (
+                                        format(field.value, "PPP")
+                                      ) : (
+                                        <span>Choose Your Birthday</span>
+                                      )}
+                                      <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                                    </Button>
+                                  </FormControl>
+                                </PopoverTrigger>
+                                <PopoverContent
+                                  className="w-auto p-0"
+                                  align="start"
+                                >
+                                  <Calendar
+                                    mode="single"
+                                    selected={field.value}
+                                    onSelect={field.onChange}
+                                    disabled={(date) =>
+                                      date > new Date() ||
+                                      date < new Date("1900-01-01")
+                                    }
+                                    initialFocus
+                                  />
+                                </PopoverContent>
+                              </Popover>
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+                      </form>
+                    </Form>
                     <textarea
                       placeholder="Enter Your Bio"
-                      rows={4}
-                      className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
-                      defaultValue={""}
-                    />
-                    <textarea
-                      placeholder="Drop A Note For Your Profile Viewer"
                       rows={4}
                       className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
                       defaultValue={""}
@@ -846,9 +824,9 @@ export default function Hack({ ...props }: DialogProps) {
                       <Button>Continue as Guest</Button>
                       <Button variant="outline">Next</Button>
                     </div>
-                  </form> */}
+                  </form>
                   {/* Connect */}
-                  <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
+                  {/* <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Chains,Medias..." />
                       <CommandList>
@@ -1071,7 +1049,7 @@ export default function Hack({ ...props }: DialogProps) {
                       <Button>Back</Button>
                       <Button variant="outline">Next</Button>
                     </div>
-                  </div>
+                  </div> */}
                   {/* Friday Factor */}
                   {/* <div className="friday-factor h-[450px] overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
                     <Collapsible
