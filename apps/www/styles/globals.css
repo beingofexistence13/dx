@@ -462,3 +462,7 @@ canvas {
   opacity: 0.5;
   color: red !important;
 } */
+.hackTabs *{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}

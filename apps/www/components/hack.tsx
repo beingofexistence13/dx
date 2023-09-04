@@ -229,6 +229,7 @@ const FormSchema = z.object({
 })
 
 export default function Hack(this: any, { ...props }: DialogProps) {
+  const [fluidSimulation, setFluidSimulation] = React.useState(false)
   const [marginLeft, setMarginLeft] = useState("")
   const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
@@ -237,7 +238,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [pendingContent, setPendingContent] = React.useState(false)
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
-  const [fluidSimulation, setFluidSimulation] = React.useState(true)
   const router = useRouter()
   const [open, setOpen] = React.useState(false)
   const { setTheme } = useTheme()
@@ -307,7 +307,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     }
     document.addEventListener("keydown", down)
     return () => document.removeEventListener("keydown", down)
-  }, [])
+    console.log(`The margin value is now ${marginLeft}px`)
+  }, [marginLeft])
 
   // ChainList
   interface Chain {
@@ -416,8 +417,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
       {fluidSimulation ? (
         <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center min-h-screen min-w-full">
-          {/* <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./fluid-simulation.js" /> */}
+          <canvas className="fluid-simulation-container"></canvas>
+          <Script src="./fluid-simulation.js" />
 
           <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
             <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
@@ -440,7 +441,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <Icons.close className="h-4 w-4 fill-current" />
               </div>
             </div>
-            <Tabs defaultValue="hackUp" className="w-[95%] space-y-3">
+            <Tabs
+              defaultValue="hackUp"
+              className="hackTabs w-[100%] space-y-3 h-[500px] overflow-y-auto overflow-x-hidden"
+            >
               <TabsList className="hackTabList glassmorphisum mx-auto grid w-full grid-cols-2">
                 <TabsTrigger value="hackIn" className="hackTabTriggers">
                   HackIn
@@ -450,13 +454,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
-                <div className="h-[500px] w-full overflow-y-auto overflow-x-hidden flex justify-start items-center flex-col">
+                <div className="h-auto w-full flex justify-start items-center flex-col">
                   {/* Email and Password */}
                   <form
                     className="
                 email-and-password"
                   >
                     <Input
+                      autoComplete="on"
                       value={emailAndPhoneNumbber}
                       type="search"
                       placeholder="Enter Email or Phone Number"
@@ -476,6 +481,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       isClearable
                     />
                     <Input
+                      autoComplete="on"
                       variant="bordered"
                       placeholder="Enter Your Password"
                       endContent={
@@ -665,10 +671,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="h-[500px] w-full overflow-y-auto overflow-x-hidden flex justify-start items-center flex-row">
+                <div className="h-auto w-full justify-start items-center flex-row space-x-3">
                   <form
+                    style={{ marginLeft: `${marginLeft}` }}
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className={`h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col ml-[${marginLeft}]`}
+                    className={`h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col`}
                   >
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
@@ -687,6 +694,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       {file && <p>Selected file: {file.name}</p>}
                     </div>
                     <Input
+                      autoComplete="on"
                       type="search"
                       placeholder="Enter Your Name"
                       variant="bordered"
@@ -694,6 +702,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       isClearable
                     />
                     <Input
+                      autoComplete="on"
                       value={value}
                       type="email"
                       placeholder="Enter Your Email"
@@ -716,6 +725,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       onChange={setPhone}
                     />
                     <Input
+                      autoComplete="on"
                       variant="bordered"
                       placeholder="Enter Your Password"
                       endContent={
@@ -735,6 +745,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       className="w-full mt-3"
                     />
                     <Input
+                      autoComplete="on"
                       variant="bordered"
                       placeholder="Confrom Your Password"
                       endContent={
@@ -948,7 +959,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </CommandList>
                     </Command>
 
-                    <div className="max-h-[450px] w-full mx-auto overflow-y-auto overflow-x-auto">
+                    <div className="h-[450px] w-full mx-auto overflow-y-auto overflow-x-auto">
                       <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-hidden flex justify-start items-center flex-row border rounded-md mt-1.5">
                         {docsConfig.passport.map((item, index) => (
                           <div
@@ -1081,7 +1092,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                   </div>
                   {/* Friday Factor */}
-                  <div className="friday-factor h-[450px] overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
+                  <div className="friday-factor h-auto overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
                     <Collapsible
                       open={isFridayOpen}
                       onOpenChange={setIsFridayOpen}
@@ -1104,6 +1115,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </div>
                       <form>
                         <Input
+                          autoComplete="on"
                           variant="bordered"
                           placeholder="Enter Your Assistance Name"
                           endContent={
@@ -1123,6 +1135,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <CollapsibleContent className="space-y-2">
                         <form>
                           <Input
+                            autoComplete="on"
                             variant="bordered"
                             placeholder="Connect Your Friday"
                             endContent={
@@ -1356,6 +1369,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </div>
                       <form action="">
                         <Input
+                          autoComplete="on"
                           type="tel"
                           placeholder="Type Your Authentication Code"
                           variant="bordered"
@@ -1365,6 +1379,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <CollapsibleContent className="space-y-2">
                         <form>
                           <Input
+                            autoComplete="on"
                             value={emailAndPhoneNumbber}
                             type="search"
                             placeholder="Set A Recovary Email Or Phone Number"
@@ -1498,7 +1513,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <ButtonShadcnUi
                         className="rounded-full"
-                        onClick={() => setMarginLeft("-772.38px")}
+                        onClick={() => setMarginLeft("-765px")}
                       >
                         Back
                       </ButtonShadcnUi>
