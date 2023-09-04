@@ -21,7 +21,7 @@ import {
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge, badgeVariants } from "@/components/ui/badge"
-import { ButtonShadcnUi, buttonVariants } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 import { Calendar } from "@/components/ui/calendar"
 import {
   Card,
