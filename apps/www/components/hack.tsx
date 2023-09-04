@@ -408,7 +408,7 @@ export default function Hack({ ...props }: DialogProps) {
       </Script> */}
 
       {fluidSimulation ? (
-        <div className="fixed top-0 left-0 bottom-0 right-0 flex items-center justify-center min-h-screen min-w-full">
+        <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center min-h-screen min-w-full">
           {/* <canvas className="fluid-simulation-container"></canvas>
           <Script src="./fluid-simulation.js" /> */}
 
@@ -647,7 +647,7 @@ export default function Hack({ ...props }: DialogProps) {
               </TabsContent>
               <TabsContent value="hackUp">
                 <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
-                  <form className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
+                  <form onSubmit={form.handleSubmit(onSubmit)} className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
@@ -745,8 +745,8 @@ export default function Hack({ ...props }: DialogProps) {
                       className="w-full mt-3"
                     />
                     <Form {...form}>
-                      <form
-                        onSubmit={form.handleSubmit(onSubmit)}
+                      <div
+                 
                         className="w-full mt-3"
                       >
                         <FormField
@@ -774,7 +774,7 @@ export default function Hack({ ...props }: DialogProps) {
                                   </FormControl>
                                 </PopoverTrigger>
                                 <PopoverContent
-                                  className="w-auto p-0"
+                                  className="w-auto p-0 z-[10000000000000000000000000000000]"
                                   align="start"
                                 >
                                   <Calendar
@@ -793,7 +793,7 @@ export default function Hack({ ...props }: DialogProps) {
                             </FormItem>
                           )}
                         />
-                      </form>
+                      </div>
                     </Form>
                     <textarea
                       placeholder="Enter Your Bio"
