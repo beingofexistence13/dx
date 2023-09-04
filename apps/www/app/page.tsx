@@ -20,6 +20,7 @@ import { AdBanner } from "../components/AdBanner"
 import Layout from "../components/Layout"
 import Chain from "../components/chain"
 import { generateChainData } from "../utils/fetch"
+import { CalendarForm } from "@/components/calendarForm"
 
 export default function Home() {
   interface Chain {
@@ -112,6 +113,7 @@ export default function Home() {
           </div>
         </React.Suspense>
       </Layout> */}
+      <CalendarForm />
     </section>
   )
 }
