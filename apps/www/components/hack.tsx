@@ -450,218 +450,222 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </TabsTrigger>
               </TabsList>
               <TabsContent value="hackIn">
-                {/* Email and Password */}
-                <form
-                  className="
+                <div className="h-[500px] w-full overflow-y-auto overflow-x-hidden flex justify-start items-center flex-col">
+                  {/* Email and Password */}
+                  <form
+                    className="
                 email-and-password"
-                >
-                  <Input
-                    value={emailAndPhoneNumbber}
-                    type="search"
-                    placeholder="Enter Email or Phone Number"
-                    variant="bordered"
-                    color={
-                      validationEmailAndPhoneNumbberState === "invalid"
-                        ? "danger"
-                        : "success"
-                    }
-                    errorMessage={
-                      validationEmailAndPhoneNumbberState === "invalid" &&
-                      "Please enter a valid email or phone number"
-                    }
-                    validationState={validationEmailAndPhoneNumbberState}
-                    onValueChange={setEmailAndPhoneNumbber}
-                    className="w-full mt-3"
-                    isClearable
-                  />
-                  <Input
-                    variant="bordered"
-                    placeholder="Enter Your Password"
-                    endContent={
-                      <button
-                        className="focus:outline-none"
-                        type="button"
-                        onClick={toggleVisibility}
-                      >
-                        {isVisible ? (
-                          <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
-                        ) : (
-                          <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
-                        )}
-                      </button>
-                    }
-                    type={isVisible ? "text" : "password"}
-                    className="w-full mt-3"
-                  />
-                </form>
-                {/* Divider */}
-                <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
-                  <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
-                </div>
-                {/* HackIn Search */}
-                <Command className="rounded-lg border shadow-md">
-                  <CommandInput placeholder="Type a command or search..." />
-                  <CommandList>
-                    <CommandEmpty>No results found.</CommandEmpty>
-                    <CommandGroup heading="Social Medias">
-                      {docsConfig.passport
-                        .filter((navitem) => !navitem.external)
-                        .map((navItem) => (
-                          <CommandItem
-                            key={navItem.href}
-                            value={navItem.title}
-                            onSelect={() => {
-                              runCommand(() =>
-                                router.push(navItem.href as string)
-                              )
-                            }}
-                          >
-                            <Avatar className="h-[27px] w-[27px] rounded-sm">
-                              <AvatarImage
-                                src={
-                                  navItem.logo
-                                    ? `/docs/${navItem.title
-                                        .replace(/\s/g, "-")
-                                        .toLowerCase()}.jpg`
-                                    : ""
-                                }
-                                alt="Dx"
-                              />
-                              <AvatarFallback className="glassmorphisum border-none">
-                                {navItem.title
-                                  ? logoLetter(navItem.title)
-                                  : "Dx"}
-                              </AvatarFallback>
-                            </Avatar>
-                            <span className="ml-3">{navItem.title}</span>
-                          </CommandItem>
-                        ))}
-                    </CommandGroup>
-                    <CommandGroup heading="Blockchain Wallets">
-                      {docsConfig.wallet
-                        .filter((navitem) => !navitem.external)
-                        .map((navItem) => (
-                          <CommandItem
-                            key={navItem.href}
-                            value={navItem.title}
-                            onSelect={() => {
-                              runCommand(() =>
-                                router.push(navItem.href as string)
-                              )
-                            }}
-                          >
-                            <Avatar className="h-[27px] w-[27px] rounded-sm">
-                              <AvatarImage
-                                src={
-                                  navItem.logo
-                                    ? `/docs/${navItem.title
-                                        .replace(/\s/g, "-")
-                                        .toLowerCase()}.jpg`
-                                    : ""
-                                }
-                                alt="Dx"
-                              />
-                              <AvatarFallback className="glassmorphisum border-none">
-                                {navItem.title
-                                  ? logoLetter(navItem.title)
-                                  : "Dx"}
-                              </AvatarFallback>
-                            </Avatar>
-                            <span className="ml-3">{navItem.title}</span>
-                          </CommandItem>
-                        ))}
-                    </CommandGroup>
-                  </CommandList>
-                </Command>
-                {/* Social Media */}
-                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
-                  {docsConfig.passport.map((item, index) => (
-                    <div
-                      key={index}
-                      className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
-                    >
-                      <Avatar className="h-[27px] w-[27px] rounded-sm">
-                        <AvatarImage
-                          src={
-                            item.logo
-                              ? `/docs/${item.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                              : ""
-                          }
-                          alt="Dx"
-                        />
-                        <AvatarFallback className="glassmorphisum border-none">
-                          {item.title ? logoLetter(item.title) : "Dx"}
-                        </AvatarFallback>
-                      </Avatar>
-                    </div>
-                  ))}
-                </div>
-                {/* Wallet */}
-                <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
-                  {docsConfig.wallet.map((item, index) => (
-                    <div
-                      key={index}
-                      className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
-                    >
-                      <Avatar className="h-[27px] w-[27px] rounded-sm">
-                        <AvatarImage
-                          src={
-                            item.logo
-                              ? `/docs/${item.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                              : ""
-                          }
-                          alt="Dx"
-                        />
-                        <AvatarFallback className="glassmorphisum  border-none">
-                          {item.title ? logoLetter(item.title) : "Dx"}
-                        </AvatarFallback>
-                      </Avatar>
-                    </div>
-                  ))}
-                </div>
-                {/* Divider */}
-                <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                  <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
-                  <span className="divider-title">or</span>
-                  <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
-                </div>
-                {/* Friday Factor */}
-                <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
-                  <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
-                    Friday
-                  </div>
-                  <div className="qr-code glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
-                    QR Code
-                  </div>
-                  <div className="authenticator glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
-                    Authenticator
-                  </div>
-                  <div className="face glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
-                    Face
-                  </div>
-                </div>
-                {/* Footer */}
-                <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
-                  <Button
-                    ref={buttonRef}
-                    disableRipple
-                    className="p-0 bg-[--code-foreground] max-w-[175px] relative border overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-background/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0"
-                    size="lg"
-                    onPress={handleConfetti}
                   >
-                    Continue as Guest
-                  </Button>
-                  <ButtonShadcnUi variant="outline">Confrom</ButtonShadcnUi>
+                    <Input
+                      value={emailAndPhoneNumbber}
+                      type="search"
+                      placeholder="Enter Email or Phone Number"
+                      variant="bordered"
+                      color={
+                        validationEmailAndPhoneNumbberState === "invalid"
+                          ? "danger"
+                          : "success"
+                      }
+                      errorMessage={
+                        validationEmailAndPhoneNumbberState === "invalid" &&
+                        "Please enter a valid email or phone number"
+                      }
+                      validationState={validationEmailAndPhoneNumbberState}
+                      onValueChange={setEmailAndPhoneNumbber}
+                      className="w-full mt-3"
+                      isClearable
+                    />
+                    <Input
+                      variant="bordered"
+                      placeholder="Enter Your Password"
+                      endContent={
+                        <button
+                          className="focus:outline-none"
+                          type="button"
+                          onClick={toggleVisibility}
+                        >
+                          {isVisible ? (
+                            <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                          ) : (
+                            <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                          )}
+                        </button>
+                      }
+                      type={isVisible ? "text" : "password"}
+                      className="w-full mt-3"
+                    />
+                  </form>
+                  {/* Divider */}
+                  <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                    <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                    <span className="divider-title">or</span>
+                    <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                  </div>
+                  {/* HackIn Search */}
+                  <Command className="rounded-lg border shadow-md">
+                    <CommandInput placeholder="Type a command or search..." />
+                    <CommandList>
+                      <CommandEmpty>No results found.</CommandEmpty>
+                      <CommandGroup heading="Social Medias">
+                        {docsConfig.passport
+                          .filter((navitem) => !navitem.external)
+                          .map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage
+                                  src={
+                                    navItem.logo
+                                      ? `/docs/${navItem.title
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
+                                      : ""
+                                  }
+                                  alt="Dx"
+                                />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {navItem.title
+                                    ? logoLetter(navItem.title)
+                                    : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{navItem.title}</span>
+                            </CommandItem>
+                          ))}
+                      </CommandGroup>
+                      <CommandGroup heading="Blockchain Wallets">
+                        {docsConfig.wallet
+                          .filter((navitem) => !navitem.external)
+                          .map((navItem) => (
+                            <CommandItem
+                              key={navItem.href}
+                              value={navItem.title}
+                              onSelect={() => {
+                                runCommand(() =>
+                                  router.push(navItem.href as string)
+                                )
+                              }}
+                            >
+                              <Avatar className="h-[27px] w-[27px] rounded-sm">
+                                <AvatarImage
+                                  src={
+                                    navItem.logo
+                                      ? `/docs/${navItem.title
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
+                                      : ""
+                                  }
+                                  alt="Dx"
+                                />
+                                <AvatarFallback className="glassmorphisum border-none">
+                                  {navItem.title
+                                    ? logoLetter(navItem.title)
+                                    : "Dx"}
+                                </AvatarFallback>
+                              </Avatar>
+                              <span className="ml-3">{navItem.title}</span>
+                            </CommandItem>
+                          ))}
+                      </CommandGroup>
+                    </CommandList>
+                  </Command>
+                  {/* Social Media */}
+                  <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
+                    {docsConfig.passport.map((item, index) => (
+                      <div
+                        key={index}
+                        className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                      >
+                        <Avatar className="h-[27px] w-[27px] rounded-sm">
+                          <AvatarImage
+                            src={
+                              item.logo
+                                ? `/docs/${item.title
+                                    .replace(/\s/g, "-")
+                                    .toLowerCase()}.jpg`
+                                : ""
+                            }
+                            alt="Dx"
+                          />
+                          <AvatarFallback className="glassmorphisum border-none">
+                            {item.title ? logoLetter(item.title) : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                      </div>
+                    ))}
+                  </div>
+                  {/* Wallet */}
+                  <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
+                    {docsConfig.wallet.map((item, index) => (
+                      <div
+                        key={index}
+                        className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                      >
+                        <Avatar className="h-[27px] w-[27px] rounded-sm">
+                          <AvatarImage
+                            src={
+                              item.logo
+                                ? `/docs/${item.title
+                                    .replace(/\s/g, "-")
+                                    .toLowerCase()}.jpg`
+                                : ""
+                            }
+                            alt="Dx"
+                          />
+                          <AvatarFallback className="glassmorphisum  border-none">
+                            {item.title ? logoLetter(item.title) : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                      </div>
+                    ))}
+                  </div>
+                  {/* Divider */}
+                  <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
+                    <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                    <span className="divider-title">or</span>
+                    <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                  </div>
+                  {/* Friday Factor */}
+                  <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
+                    <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      Friday
+                    </div>
+                    <div className="qr-code glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      QR Code
+                    </div>
+                    <div className="authenticator glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      Authenticator
+                    </div>
+                    <div className="face glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      Face
+                    </div>
+                  </div>
+                  {/* Footer */}
+                  <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                    <Button
+                      ref={buttonRef}
+                      disableRipple
+                      className="p-0 bg-[--code-foreground] max-w-[175px] relative border overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-background/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0"
+                      size="lg"
+                      onPress={handleConfetti}
+                    >
+                      Continue as Guest
+                    </Button>
+                    <ButtonShadcnUi className="rounded-full" variant="outline">
+                      Confrom
+                    </ButtonShadcnUi>
+                  </div>
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="h-auto w-full overflow-y-hidden overflow-x-hidden flex justify-start items-center flex-row">
+                <div className="h-[500px] w-full overflow-y-auto overflow-x-hidden flex justify-start items-center flex-row">
                   <form
                     onSubmit={form.handleSubmit(onSubmit)}
                     className={`h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col ml-[${marginLeft}]`}
@@ -835,6 +839,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <ButtonShadcnUi
                         onClick={() => setMarginLeft("-386.19px")}
                         variant="outline"
+                        className="rounded-full"
                       >
                         Next
                       </ButtonShadcnUi>
@@ -1067,6 +1072,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         Back
                       </ButtonShadcnUi>
                       <ButtonShadcnUi
+                        className="rounded-full"
                         onClick={() => setMarginLeft("-772.38px")}
                         variant="outline"
                       >
@@ -1315,12 +1321,15 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             <p className="text-tiny text-white/80">
                               Support Developers At Huggingfacfe.
                             </p>
-                            <ButtonShadcnUi
+                            <Button
                               className="text-tiny text-white bg-black/20"
-                              variant="ghost"
+                              variant="flat"
+                              color="default"
+                              radius="lg"
+                              size="sm"
                             >
                               Regenerate
-                            </ButtonShadcnUi>
+                            </Button>
                           </CardFooter>
                         </Card>
                       </CollapsibleContent>
@@ -1488,6 +1497,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                     <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                       <ButtonShadcnUi
+                        className="rounded-full"
                         onClick={() => setMarginLeft("-772.38px")}
                       >
                         Back
