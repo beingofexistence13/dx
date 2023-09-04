@@ -1,3 +1,4 @@
+import "react-phone-input-2/lib/style.css"
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"

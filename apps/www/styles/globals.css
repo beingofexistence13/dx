@@ -427,3 +427,38 @@ canvas {
   position: relative;
   box-shadow: 0 0 0 2px black;
 } */
+
+.react-tel-input {
+  margin-top: 10px !important;
+  background-color: transparent;
+  width: 100%;
+}
+.react-tel-input input {
+  width: 100% !important;
+  background: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: hsl(var(--muted-foreground)) !important;
+
+
+}
+.flag-dropdown,.flag-dropdown.opne,.flag-dropdown .selected-flag {
+  background: var(--code-foreground) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+.react-tel-input .country-list,.react-tel-input .country-list:hover{
+  background-color: var(--code-foreground) !important;
+}
+/* .react-tel-input .form-control::placeholder{
+  color: hsl(var(--muted)) !important;
+} */
+/* input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red !important;
+} */

@@ -34,6 +34,7 @@ import {
 } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useForm } from "react-hook-form"
+import PhoneInput from "react-phone-input-2"
 import { z } from "zod"
 
 import { docsConfig } from "@/config/docs"
@@ -227,25 +228,8 @@ const FormSchema = z.object({
   }),
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default function Hack({ ...props }: DialogProps) {
+export default function Hack(this: any, { ...props }: DialogProps) {
+  const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
   const [isQRCodeOpen, setIsQRCodeOpen] = React.useState(false)
   const [isExtraSafetyOpen, setIsExtraSafetyOpen] = React.useState(false)
@@ -647,7 +631,10 @@ export default function Hack({ ...props }: DialogProps) {
               </TabsContent>
               <TabsContent value="hackUp">
                 <div className="h-auto w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row">
-                  <form onSubmit={form.handleSubmit(onSubmit)} className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col">
+                  <form
+                    onSubmit={form.handleSubmit(onSubmit)}
+                    className="h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col"
+                  >
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
                         type="file"
@@ -688,7 +675,7 @@ export default function Hack({ ...props }: DialogProps) {
                       className="w-full mt-3"
                       isClearable
                     />
-                    <Input
+                    {/* <Input
                       value={number}
                       type="tel"
                       placeholder="Enter Your Phone Number"
@@ -705,6 +692,16 @@ export default function Hack({ ...props }: DialogProps) {
                       validationState={validationPhoneNumberState}
                       onValueChange={setNumber}
                       className="w-full mt-3"
+                    /> */}
+                    {/* <PhoneInput
+                      country={"us"}
+                      value={this.state.phone}
+                      onChange={(phone) => this.setState({ phone })}
+                    /> */}
+                    <PhoneInput
+                      country={"us"}
+                      value={phone}
+                      onChange={setPhone}
                     />
                     <Input
                       variant="bordered"
@@ -745,10 +742,7 @@ export default function Hack({ ...props }: DialogProps) {
                       className="w-full mt-3"
                     />
                     <Form {...form}>
-                      <div
-                 
-                        className="w-full mt-3"
-                      >
+                      <div className="w-full mt-3">
                         <FormField
                           control={form.control}
                           name="dob"
