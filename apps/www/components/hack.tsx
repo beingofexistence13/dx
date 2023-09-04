@@ -1239,10 +1239,16 @@ export default function Hack({ ...props }: DialogProps) {
                       ) : (
                         <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
                           <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
-                            Social Media
+                            Friday
                           </span>
                           <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
-                            Wallet
+                            QR Code
+                          </span>
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Authenticator
+                          </span>
+                          <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            Face
                           </span>
                         </div>
                       )}
