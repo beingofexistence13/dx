@@ -1494,6 +1494,34 @@ export default function Hack({ ...props }: DialogProps) {
                           </Button>
                           {file && <p>Selected file: {file.name}</p>}
                         </div>
+                        <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Seed</span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">3.3</div>
+                          </div>
+                          <div className="qrCode-slider w-full">
+                            <Slider defaultValue={[33]} max={100} step={1} />
+                          </div>
+                        </div>
+                        <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Strength</span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">6.6</div>
+                          </div>
+                          <div className="qrCode-slider w-full">
+                            <Slider defaultValue={[66]} max={100} step={1} />
+                          </div>
+                        </div>
+                        <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">Guidence Scale</span>
+                            <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">9.9</div>
+                          </div>
+                          <div className="qrCode-slider w-full">
+                            <Slider defaultValue={[99]} max={100} step={1} />
+                          </div>
+                        </div>
+
                         <Card
                           isFooterBlurred
                           radius="lg"
