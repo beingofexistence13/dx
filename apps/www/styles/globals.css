@@ -468,3 +468,23 @@ canvas {
  padding-left: 25px;
   padding-right: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,body{
+  min-height: 100vh !important;
+  min-width: 100% !important;
+}
