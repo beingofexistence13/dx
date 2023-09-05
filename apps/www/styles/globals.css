@@ -475,7 +475,7 @@ body {
   min-height: 100vh !important;
   min-width: 100% !important;
 }
-.hack {
+/* .hack {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
@@ -487,26 +487,7 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
 
 * {
   user-select: none;
@@ -616,8 +597,7 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .promo-header {
@@ -669,10 +649,16 @@ canvas {
   }
 }
 
-
-
-
-
-
-
-
+.hack > button {
+  border: 1px solid  hsl(var(--muted));
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  height: 37.5px;
+  width: 37.5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--code);
+}
