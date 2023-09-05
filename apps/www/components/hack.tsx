@@ -411,15 +411,22 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       >
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
-      {/* <Script id="testing">
-        {`console.log("Next script op bolta")`}
-      </Script> */}
+      <Script id="testing">
+        {`      window.ga =
+        window.ga ||
+        function () {
+          ;(ga.q = ga.q || []).push(arguments)
+        }
+      ga.l = +new Date()
+      ga("create", "UA-105392568-1", "auto")
+      ga("send", "pageview")`}
+      </Script>
 
       {fluidSimulation ? (
         <div className="hack min-h-screen min-w-screen">
           <canvas className="fluid-simulation-container"></canvas>
-          <Script  src="./fluid-simulation.js" />
-          <Script  src="./dat-gui.js" />
+          <Script src="./dat-gui.js" />
+          <Script src="./fluid-simulation.js" />
 
           <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
             <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5">
