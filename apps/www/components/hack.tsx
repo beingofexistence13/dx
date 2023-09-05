@@ -230,7 +230,7 @@ const FormSchema = z.object({
 
 export default function Hack(this: any, { ...props }: DialogProps) {
   const [fluidSimulation, setFluidSimulation] = React.useState(false)
-  const [marginLeft, setMarginLeft] = useState("")
+  const [marginLeft, setMarginLeft] = useState("-00px")
   const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
   const [isQRCodeOpen, setIsQRCodeOpen] = React.useState(false)
@@ -411,16 +411,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       >
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
-      <Script id="testing">
-        {`      window.ga =
-        window.ga ||
-        function () {
-          ;(ga.q = ga.q || []).push(arguments)
-        }
-      ga.l = +new Date()
-      ga("create", "UA-105392568-1", "auto")
-      ga("send", "pageview")`}
+      <Script id="console">
+        {`console.log("Op Bolta,fluid simulation is ${fluidSimulation}")
+        console.log("Op Bolta,fluid simulation is ${marginLeft}")
+        `}
       </Script>
+
 
       {fluidSimulation ? (
         <div className="hack min-h-screen min-w-screen">
