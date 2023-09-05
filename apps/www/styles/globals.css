@@ -441,17 +441,18 @@ canvas {
   border-radius: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
   color: hsl(var(--muted-foreground)) !important;
-
-
 }
-.flag-dropdown,.flag-dropdown.opne,.flag-dropdown .selected-flag {
+.flag-dropdown,
+.flag-dropdown.opne,
+.flag-dropdown .selected-flag {
   background: var(--code-foreground) !important;
   backdrop-filter: blur(20px) !important;
   -webkit-backdrop-filter: blur(20px) !important;
   border-radius: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
-.react-tel-input .country-list,.react-tel-input .country-list:hover{
+.react-tel-input .country-list,
+.react-tel-input .country-list:hover {
   background-color: var(--code-foreground) !important;
 }
 /* .react-tel-input .form-control::placeholder{
@@ -462,29 +463,27 @@ canvas {
   opacity: 0.5;
   color: red !important;
 } */
-.hackTabs > *{
+.hackTabs > * {
   /* background-color: red !important; */
 
- padding-left: 25px;
+  padding-left: 25px;
   padding-right: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html,body{
+html,
+body {
   min-height: 100vh !important;
   min-width: 100% !important;
+}
+.hack {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }

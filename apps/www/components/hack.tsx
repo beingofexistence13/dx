@@ -229,7 +229,7 @@ const FormSchema = z.object({
 })
 
 export default function Hack(this: any, { ...props }: DialogProps) {
-  const [fluidSimulation, setFluidSimulation] = React.useState(true)
+  const [fluidSimulation, setFluidSimulation] = React.useState(false)
   const [marginLeft, setMarginLeft] = useState("")
   const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
@@ -416,9 +416,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       </Script> */}
 
       {fluidSimulation ? (
-        <div className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          {/* <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./fluid-simulation.js" /> */}
+        <div className="hack min-h-screen min-w-screen">
+          <canvas className="fluid-simulation-container"></canvas>
+          <Script src="./fluid-simulation.js" />
 
           <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
             <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5">
@@ -443,7 +443,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
             </div>
             <Tabs
               defaultValue="hackUp"
-              className="hackTabs w-[100%] space-y-3 h-[500px] overflow-y-auto overflow-x-hidden"
+              className="hackTabs w-[100%] space-y-3 h-[400px] overflow-y-auto overflow-x-hidden lg:h-[500px]"
             >
               <TabsList className="hackTabList glassmorphisum mx-auto grid w-[90%] grid-cols-2">
                 <TabsTrigger value="hackIn" className="hackTabTriggers">
@@ -508,7 +508,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                   </div>
                   {/* HackIn Search */}
-                  <Command className="rounded-lg border shadow-md">
+                  <Command className="glassmorphisum rounded-lg border shadow-md">
                     <CommandInput placeholder="Type a command or search..." />
                     <CommandList>
                       <CommandEmpty>No results found.</CommandEmpty>
@@ -858,7 +858,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   </form>
                   {/* Connect */}
                   <div className="connect h-auto min-w-full flex justify-center items-start flex-col">
-                    <Command className="rounded-lg border shadow-md h-[175px] w-full">
+                    <Command className="glassmorphisum rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Chains,Medias..." />
                       <CommandList>
                         <CommandEmpty>No results found.</CommandEmpty>
