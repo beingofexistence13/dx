@@ -229,7 +229,7 @@ const FormSchema = z.object({
 })
 
 export default function Hack(this: any, { ...props }: DialogProps) {
-  const [fluidSimulation, setFluidSimulation] = React.useState(false)
+  const [fluidSimulation, setFluidSimulation] = React.useState(true)
   const [marginLeft, setMarginLeft] = useState("")
   const [phone, setPhone] = useState("")
   const [isFridayOpen, setIsFridayOpen] = React.useState(false)
@@ -417,11 +417,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
       {fluidSimulation ? (
         <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center min-h-screen min-w-full">
-          <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./fluid-simulation.js" />
+          {/* <canvas className="fluid-simulation-container"></canvas>
+          <Script src="./fluid-simulation.js" /> */}
 
-          <div className="hack-container glassmorphisum pt-5 pb-5 px-2 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
-            <div className="tab-header w-[95%] h-auto flex items-center justify-start space-x-1.5">
+          <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
+            <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5">
               <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                 <Icons.circleDashed className="h-4 w-4 fill-current" />
               </div>
@@ -445,7 +445,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
               defaultValue="hackUp"
               className="hackTabs w-[100%] space-y-3 h-[500px] overflow-y-auto overflow-x-hidden"
             >
-              <TabsList className="hackTabList glassmorphisum mx-auto grid w-full grid-cols-2">
+              <TabsList className="hackTabList glassmorphisum mx-auto grid w-[90%] grid-cols-2">
                 <TabsTrigger value="hackIn" className="hackTabTriggers">
                   HackIn
                 </TabsTrigger>
@@ -671,11 +671,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </div>
               </TabsContent>
               <TabsContent value="hackUp">
-                <div className="h-auto w-full justify-start items-center flex-row space-x-3">
+                <div className="h-auto w-full flex justify-center items-start flex-row space-x-5 overflow-hidden">
                   <form
                     style={{ marginLeft: `${marginLeft}` }}
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className={`h-auto web2 min-w-full rounded-sm flex justify-start items-center flex-col`}
+                    className={`web2 h-[650px] min-w-full rounded-sm flex justify-start items-center flex-col`}
                   >
                     <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                       <input
@@ -765,7 +765,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       className="w-full mt-3"
                     />
                     <Form {...form}>
-                      <div className="w-full mt-3">
+                      <div className="glassmorphisum w-full mt-3">
                         <FormField
                           control={form.control}
                           name="dob"
@@ -815,7 +815,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     <textarea
                       placeholder="Enter Your Bio"
                       rows={4}
-                      className="flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
+                      className="glassmorphisum flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
                       defaultValue={""}
                     />
 
@@ -857,7 +857,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                   </form>
                   {/* Connect */}
-                  <div className="connect h-auto min-w-full flex justify-start items-center flex-col">
+                  <div className="connect h-auto min-w-full flex justify-center items-start flex-col">
                     <Command className="rounded-lg border shadow-md h-[175px] w-full">
                       <CommandInput placeholder="Wallets,Chains,Medias..." />
                       <CommandList>
@@ -1092,7 +1092,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                   </div>
                   {/* Friday Factor */}
-                  <div className="friday-factor h-auto overflow-y-auto overflow-x-hidden min-w-full flex justify-start items-center flex-col">
+                  <div className="friday-factor h-auto min-w-full flex justify-center items-start flex-col">
                     <Collapsible
                       open={isFridayOpen}
                       onOpenChange={setIsFridayOpen}
@@ -1106,7 +1106,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0"
+                            className="w-9 p-0 border"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
@@ -1246,7 +1246,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0"
+                            className="w-9 p-0 border"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
@@ -1360,7 +1360,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0"
+                            className="w-9 p-0 border"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
