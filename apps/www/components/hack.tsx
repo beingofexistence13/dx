@@ -308,7 +308,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     document.addEventListener("keydown", down)
     return () => document.removeEventListener("keydown", down)
     console.log(`The margin value is now ${marginLeft}px`)
-    
   }, [marginLeft])
 
   // ChainList
@@ -413,16 +412,16 @@ export default function Hack(this: any, { ...props }: DialogProps) {
         <Icons.hack className="h-4 w-4 fill-current" />
       </div>
 
-
-
       {fluidSimulation ? (
         <div className="hack min-h-screen min-w-screen">
-          <canvas className="fluid-simulation-container"></canvas>
-          <Script src="./dat-gui.js" />
-          <Script src="./fluid-simulation.js" />
-          <Script id="console">
-        {`console.log("Op Bolta,fluid simulation is ${fluidSimulation}")`}
-      </Script>
+          {/* 
+            <canvas className="fluid-simulation-container"></canvas>
+            <Script src="./dat-gui.js" />
+            <Script src="./fluid-simulation.js" />
+            <Script id="console">
+              {`console.log("Op Bolta,fluid simulation is ${fluidSimulation}")`}
+            </Script> 
+          */}
           <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md max-w-[92.5%] w-[425px] space-y-3 h-auto">
             <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5">
               <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
@@ -435,7 +434,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 Tips are easy!!!
               </div>
               <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
-                <Icons.hackSetting className="h-4 w-4 fill-current" />
+                <Popover>
+                  <PopoverTrigger>
+                    <Icons.hackSetting className="h-4 w-4 fill-current" />
+                  </PopoverTrigger>
+                  <PopoverContent className="bg-red-500 z-[100000000000000000000000000000000000000000000000]">
+                    Place content for the popover here.
+                  </PopoverContent>
+                </Popover>
               </div>
               <div
                 onClick={() => setFluidSimulation(false)}
