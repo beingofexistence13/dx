@@ -4,11 +4,18 @@ import * as React from "react"
 import { useState } from "react"
 import { Suspense } from "react"
 import { useEffect } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import Script from "next/script"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { Button, Card, CardFooter, Image as ImageNext, Input } from "@nextui-org/react"
+import {
+  Button,
+  Card,
+  CardFooter,
+  Image as ImageNext,
+  Input,
+} from "@nextui-org/react"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import { format } from "date-fns"
@@ -223,7 +230,7 @@ import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
-import Image from "next/image"
+
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
 }
@@ -238,7 +245,9 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
       img.src = canvasRef.current.toDataURL()
       img.onload = () => {
         setIsLoading(false)
-        window.alert(`Canvas loaded in ${performance.now() - startTime} milliseconds`);
+        window.alert(
+          `Canvas loaded in ${performance.now() - startTime} milliseconds`
+        )
       }
     }
   }, [canvasRef])
@@ -270,7 +279,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [number, setNumber] = React.useState("")
   const [file, setFile] = React.useState<File | null>(null)
   const fileInputRef = React.useRef<HTMLInputElement>(null)
-  const canvasRef = React.useRef<HTMLCanvasElement>(null);
+  const canvasRef = React.useRef<HTMLCanvasElement>(null)
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
@@ -438,16 +447,16 @@ export default function Hack(this: any, { ...props }: DialogProps) {
             <Icons.hack className="h-4 w-4 fill-current" />
           </div>
         </DialogTrigger>
-        <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center p-0 m-0">
-          <CanvasLoader canvasRef={canvasRef} />
+        <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-2 xs:px-5 m-0">
+          {/* <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
-          <Script src="./fluid-simulation.js" />
+          <Script src="./fluid-simulation.js" /> */}
 
           {/* <Script id="console">
             {`console.log("Op Bolta,fluid simulation is")`}
           </Script> */}
           <Suspense fallback={<p>Loading Canvas...</p>}>
-            <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md w-[425px] max-w-[90%]  space-y-3 h-auto">
+            <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md w-[425px] max-w-[90%]  space-y-3 h-auto mx-auto">
               <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5 pr-[40px]">
                 <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Icons.circleDashed className="h-4 w-4 fill-current" />
@@ -491,10 +500,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <TabsContent value="hackIn">
                   <div className="h-auto w-full flex justify-start items-center flex-col">
                     {/* Email and Password */}
-                    <form
-                      className="
-                email-and-password"
-                    >
+                    <form className="email-and-password">
                       <Input
                         autoComplete="on"
                         value={emailAndPhoneNumbber}
