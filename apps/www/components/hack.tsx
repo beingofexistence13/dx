@@ -488,10 +488,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
           {/* <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
           <Script src="./fluid-simulation.js" /> */}
-    <video className="min-w-screen min-h-screen fixed top-0 left-0" autoPlay>
+    {/* <video className="min-w-screen min-h-screen" autoPlay controls>
       <source src="mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
 
-    </video>
+    </video> */}
 
           <Suspense fallback={<p>Loading Canvas...</p>}>
             <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md w-[425px] max-w-[90%]  space-y-3 h-auto mx-auto">
