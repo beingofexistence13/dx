@@ -649,16 +649,17 @@ canvas {
   }
 }
 
-.hack > button {
+/* .hack > button {
   border: 1px solid  hsl(var(--muted));
   position: absolute;
-  top: 20px;
-  right: 35px;
+  transform: translate(-50%,-50%);
+  top: 28.8%;
+  right: 34.5%;
   height: 37.5px;
   width: 37.5px;
   border-radius: 50%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   color: var(--code);
-}
+} */
