@@ -466,8 +466,8 @@ canvas {
 .hackTabs > * {
   /* background-color: red !important; */
 
-  padding-left: 25px;
-  padding-right: 25px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
 }
 
 html,

@@ -464,7 +464,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Icons.speaker className="h-4 w-4 fill-current" />
                 </div>
-                <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center">
+                <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center text-xs text-ellipsis">
                   Tips are easy!!!
                 </div>
                 <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
