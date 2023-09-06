@@ -703,7 +703,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
                     </div>
                     {/* Friday Factor */}
-                    <div className="friday-factor w-full h-auto grid grid-cols-2 gap-2">
+                    <div className="friday-factor w-full min-h-max grid grid-cols-2 gap-2">
                       <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
                         Friday
                       </div>
@@ -738,11 +738,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   </div>
                 </TabsContent>
                 <TabsContent value="hackUp">
-                  <div className="h-auto w-full flex justify-center items-start flex-row space-x-5 overflow-hidden">
+                  <div className="h-auto w-full flex justify-start items-start flex-row space-x-5 overflow-hidden">
+                    {/* Personal Details */}
                     <form
-                      // style={{ marginLeft: `${marginLeft}` }}
+                      style={{ marginLeft: `${marginLeft}` }}
                       onSubmit={form.handleSubmit(onSubmit)}
-                      className={`web2 h-[650px] min-w-full rounded-sm flex justify-start items-center flex-col`}
+                      className={`web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col`}
                     >
                       <div className="w-full flex items-center justify-between border rounded-xl text-sm">
                         <input
