@@ -152,7 +152,7 @@ export default function Home() {
         });`}
       </Script> */}
       <video
-        className="fixed top-0 left-0 w-[100%] min-h-screen rounded-2xl border"
+        className="glassmorphisum fixed top-0 left-0 w-[100%] min-h-screen border rounded-lg"
         autoPlay
         controls
       >
