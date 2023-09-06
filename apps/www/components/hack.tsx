@@ -39,6 +39,7 @@ import {
   CreditCard,
   Plus,
   Settings,
+  Settings2,
   Smile,
   User,
   X,
@@ -232,6 +233,28 @@ import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
+
+interface TypewriterProps {
+  text: string
+  delay: number
+}
+
+const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
+  const [currentText, setCurrentText] = useState("")
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    if (currentIndex < text.length) {
+      const timeout = setTimeout(() => {
+        setCurrentText((prevText) => prevText + text[currentIndex])
+        setCurrentIndex((prevIndex) => prevIndex + 1)
+      }, delay)
+      return () => clearTimeout(timeout)
+    }
+  }, [currentIndex, delay, text])
+
+  return <span>{currentText}</span>
+}
 
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
@@ -449,7 +472,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
             <Icons.hack className="h-4 w-4 fill-current" />
           </div>
         </DialogTrigger>
-        <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-2 xs:px-5 m-0">
+        <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-1 xs:px-3 m-0">
           {/* <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
           <Script src="./fluid-simulation.js" /> */}
@@ -466,21 +489,15 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Icons.speaker className="h-4 w-4 fill-current" />
                 </div>
-                <div className="tips flex-1 rounded-lg border h-[30px] flex items-center justify-center text-xs text-ellipsis">
-                  Tips are easy!!!
-                </div>
-                <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
-                  <Popover>
-                    <PopoverTrigger>
-                      {/* <Icons.hackSetting className="h-4 w-4 fill-current" /> */}
-                      <Cog />
-                    </PopoverTrigger>
-                    <PopoverContent className="bg-red-500 z-[100000000000000000000000000000000000000000000000]">
-                      Place content for the popover here.
-                    </PopoverContent>
-                  </Popover>
-                </div>
 
+                {/* <div id="scroll-container" className="flex-1 max-h-[30px] border">
+                  <div id="scroll-text">Tips: Try To Fill As Many Feilds As You Can For High Security</div>
+                </div> */}
+                <Typewriter text="Hello World!" delay={100} />
+
+                <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                  <Cog />
+                </div>
                 {/* <div
                   onClick={() => setFluidSimulation(false)}
                   className="close h-[35px] w-[35px] items-center justify-center rounded-full border hidden"
