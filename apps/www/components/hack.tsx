@@ -234,27 +234,41 @@ import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
 
+
 interface TypewriterProps {
-  text: string
-  delay: number
+  delay: number;
 }
 
-const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
-  const [currentText, setCurrentText] = useState("")
-  const [currentIndex, setCurrentIndex] = useState(0)
+const tips = [
+  'Tip 1: Fill all form fields efficiently.',
+  'Tip 2: Use autocomplete when possible.',
+  'Tip 3: Double-check your information before submitting.',
+  // Add more tips here...
+];
+
+const Typewriter: React.FC<TypewriterProps> = ({ delay }) => {
+  const [currentText, setCurrentText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Select a random tip from the array
+  const text = tips[Math.floor(Math.random() * tips.length)];
 
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
-        setCurrentText((prevText) => prevText + text[currentIndex])
-        setCurrentIndex((prevIndex) => prevIndex + 1)
-      }, delay)
-      return () => clearTimeout(timeout)
+        setCurrentText((prevText) => prevText + text[currentIndex]);
+        setCurrentIndex((prevIndex) => prevIndex + 1);
+      }, delay);
+      return () => clearTimeout(timeout);
     }
-  }, [currentIndex, delay, text])
+  }, [currentIndex, delay, text]);
 
-  return <span>{currentText}</span>
-}
+  return (
+    <div id="scroll-container" className="flex-1 h-[30px] overflow-hidden whitespace-nowrap overflow-x-scroll text-red-400 border">
+      <p id="scroll-text" className="text-xs">{currentText}</p>
+    </div>
+  );
+};
 
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
@@ -493,7 +507,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 {/* <div id="scroll-container" className="flex-1 max-h-[30px] border">
                   <div id="scroll-text">Tips: Try To Fill As Many Feilds As You Can For High Security</div>
                 </div> */}
-                <Typewriter text="Hello World!" delay={100} />
+                <Typewriter delay={50} />
 
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Cog />
