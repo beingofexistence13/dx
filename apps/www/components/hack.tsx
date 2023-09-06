@@ -253,8 +253,8 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
   }, [currentIndex, delay, text]);
 
   return (
-    <div className="flex-1 h-[30px] flex items-center justify-start overflow-hidden whitespace-nowrap border rounded-lg px-2">
-      <p className="text-xs">{currentText}</p>
+    <div id="scroll-container" className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3">
+      <p id="scroll-text" className="text-xs">{currentText}</p>
     </div>
   );
 };
