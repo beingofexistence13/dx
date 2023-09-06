@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-
 // import "@/styles/intlTelInput.css"
 // import "@/styles/demo.css"
 import Head from "next/head"
@@ -152,11 +151,17 @@ export default function Home() {
           utilsScript: "intl-tel-input-master/build/js/utils.js"
         });`}
       </Script> */}
-          <video className="w-[100%] min-h-screen rounded-2xl border" autoPlay>
-      <source src="mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
-      What is going on??
-
-    </video>
+      <video
+        className="fixed top-0 left-0 w-[100%] min-h-screen rounded-2xl border"
+        autoPlay
+        controls
+      >
+        <source
+          src="mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4"
+          type="video/mp4"
+        />
+        What is going on??
+      </video>
     </section>
   )
 }
