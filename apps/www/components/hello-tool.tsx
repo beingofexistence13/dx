@@ -101,7 +101,9 @@ export function HelloTool() {
             )}
           >
             {/* <Icons.inbox className="h-2 w-2" /> */}
-            <BrainCircuit />
+            {/* <BrainCircuit /> */}
+            <Icons.circleDashed className="h-4 w-4 fill-current" />
+
           </div>
         </MenubarTrigger>
         <MenubarContent>

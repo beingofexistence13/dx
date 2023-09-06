@@ -26,6 +26,7 @@ import {
 } from "libphonenumber-js"
 import {
   ArrowDownToLine,
+  BrainCircuit,
   Calculator,
   CalendarIcon,
   Check,
@@ -34,13 +35,13 @@ import {
   ClipboardCopy,
   ClipboardList,
   ClipboardPaste,
+  Cog,
   CreditCard,
   Plus,
   Settings,
   Smile,
   User,
   X,
-  Cog
 } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useForm } from "react-hook-form"
@@ -460,7 +461,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
             <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md w-[425px] max-w-[90%]  space-y-3 h-auto mx-auto">
               <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5 pr-[40px]">
                 <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
-                  <Icons.circleDashed className="h-4 w-4 fill-current" />
+                  <BrainCircuit />
                 </div>
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Icons.speaker className="h-4 w-4 fill-current" />
@@ -719,7 +720,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <TabsContent value="hackUp">
                   <div className="h-auto w-full flex justify-center items-start flex-row space-x-5 overflow-hidden">
                     <form
-                      style={{ marginLeft: `${marginLeft}` }}
+                      // style={{ marginLeft: `${marginLeft}` }}
                       onSubmit={form.handleSubmit(onSubmit)}
                       className={`web2 h-[650px] min-w-full rounded-sm flex justify-start items-center flex-col`}
                     >
