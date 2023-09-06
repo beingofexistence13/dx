@@ -282,9 +282,9 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
       img.src = canvasRef.current.toDataURL()
       img.onload = () => {
         setIsLoading(false)
-        window.alert(
-          `Canvas loaded in ${performance.now() - startTime} milliseconds`
-        )
+        // window.alert(
+        //   `Canvas loaded in ${performance.now() - startTime} milliseconds`
+        // )
       }
     }
   }, [canvasRef])
@@ -485,9 +485,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
           </div>
         </DialogTrigger>
         <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-1 xs:px-3 m-0">
-          {/* <CanvasLoader canvasRef={canvasRef} />
+          <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
-          <Script src="./fluid-simulation.js" /> */}
+          <Script src="./fluid-simulation.js" />
 
           {/* <Script id="console">
             {`console.log("Op Bolta,fluid simulation is")`}
@@ -503,8 +503,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </div>
 
                 <Typewriter
-                  text="Tips: Are Easy And Makes Jobs More Faster "
-                  delay={100}
+                  text="Tips: Are Easy And Makes Jobs More Faster"
+                  delay={125}
                 />
 
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
