@@ -26,6 +26,7 @@ import {
 } from "libphonenumber-js"
 import {
   ArrowDownToLine,
+  Bot,
   BrainCircuit,
   Calculator,
   CalendarIcon,
@@ -38,8 +39,10 @@ import {
   Cog,
   CreditCard,
   Plus,
+  QrCode,
   Settings,
   Settings2,
+  Shield,
   Smile,
   User,
   X,
@@ -233,31 +236,37 @@ import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
+
 interface TypewriterProps {
-  text: string;
-  delay: number;
+  text: string
+  delay: number
 }
 
 const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
-  const [currentText, setCurrentText] = useState('');
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentText, setCurrentText] = useState("")
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
-        setCurrentText((prevText) => prevText + text[currentIndex]);
-        setCurrentIndex((prevIndex) => prevIndex + 1);
-      }, delay);
-      return () => clearTimeout(timeout);
+        setCurrentText((prevText) => prevText + text[currentIndex])
+        setCurrentIndex((prevIndex) => prevIndex + 1)
+      }, delay)
+      return () => clearTimeout(timeout)
     }
-  }, [currentIndex, delay, text]);
+  }, [currentIndex, delay, text])
 
   return (
-    <div id="scroll-container" className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3">
-      <p id="scroll-text" className="text-xs">{currentText}</p>
+    <div
+      id="scroll-container"
+      className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3"
+    >
+      <p id="scroll-text" className="text-xs">
+        {currentText}
+      </p>
     </div>
-  );
-};
+  )
+}
 
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
@@ -493,23 +502,18 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   <Icons.speaker className="h-4 w-4 fill-current" />
                 </div>
 
-                {/* <div id="scroll-container" className="flex-1 max-h-[30px] border">
-                  <div id="scroll-text">Tips: Try To Fill As Many Feilds As You Can For High Security</div>
-                </div> */}
-                <Typewriter text="Tips: Are Easy And Makes Jobs More Faster " delay={100} />
+                <Typewriter
+                  text="Tips: Are Easy And Makes Jobs More Faster "
+                  delay={100}
+                />
 
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Cog />
                 </div>
-                {/* <div
-                  onClick={() => setFluidSimulation(false)}
-                  className="close h-[35px] w-[35px] items-center justify-center rounded-full border hidden"
-                >
-                  <Icons.close className="h-4 w-4 fill-current" />
-                </div> */}
+
               </div>
               <Tabs
-                defaultValue="hackUp"
+                defaultValue="hackIn"
                 className="hackTabs w-[100%] space-y-3 h-[400px] overflow-y-auto overflow-x-hidden lg:h-[500px]"
               >
                 <TabsList className="hackTabList glassmorphisum mx-auto grid w-[90%] grid-cols-2">
@@ -523,7 +527,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <TabsContent value="hackIn">
                   <div className="h-auto w-full flex justify-start items-center flex-col">
                     {/* Email and Password */}
-                    <form className="email-and-password">
+                    <form className="email-and-password w-full">
                       <Input
                         autoComplete="on"
                         value={emailAndPhoneNumbber}
@@ -738,7 +742,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   </div>
                 </TabsContent>
                 <TabsContent value="hackUp">
-                  <div className="h-auto w-full flex justify-start items-start flex-row space-x-5 overflow-hidden">
+                  <div className="h-auto w-full flex justify-start items-start flex-row overflow-hidden">
                     {/* Personal Details */}
                     <form
                       style={{ marginLeft: `${marginLeft}` }}
@@ -917,7 +921,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           Continue as Guest
                         </Button>
                         <ButtonShadcnUi
-                          onClick={() => setMarginLeft("-386.19px")}
+                          onClick={() => setMarginLeft("-100%")}
                           variant="outline"
                           className="rounded-full"
                         >
@@ -1146,14 +1150,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </div>
 
                       <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
-                        <ButtonShadcnUi
-                          onClick={() => setMarginLeft("-386.19px")}
-                        >
+                        <ButtonShadcnUi onClick={() => setMarginLeft("-00px")}>
                           Back
                         </ButtonShadcnUi>
                         <ButtonShadcnUi
                           className="rounded-full"
-                          onClick={() => setMarginLeft("-772.38px")}
+                          onClick={() => setMarginLeft("-200%")}
                           variant="outline"
                         >
                           Next
@@ -1168,7 +1170,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         className="w-full space-y-2"
                       >
                         <div className="flex items-center justify-between space-x-4">
-                          <h4 className="text-sm font-semibold">
+                          <h4 className="text-sm font-semibold flex items-center justify-center flex-row">
+                            <Bot className="mr-2" />
                             Configure Friday
                           </h4>
                           <CollapsibleTrigger asChild>
@@ -1312,7 +1315,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         className="w-full space-y-2 mt-2"
                       >
                         <div className="flex items-center justify-between space-x-4 ">
-                          <h4 className="text-sm font-semibold">
+                          <h4 className="text-sm font-semibold flex items-center justify-center flex-row">
+                            <QrCode className="mr-2"/>
                             Configure QR Code
                           </h4>
                           <CollapsibleTrigger asChild>
@@ -1426,7 +1430,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         className="w-full space-y-2 mt-2"
                       >
                         <div className="flex items-center justify-between space-x-4 ">
-                          <h4 className="text-sm font-semibold">
+                          <h4 className="text-sm font-semibold flex items-center justify-center flex-row">
+                            <Shield className="mr-2" />
                             Configure Extra Safety
                           </h4>
                           <CollapsibleTrigger asChild>
@@ -1587,7 +1592,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
                         <ButtonShadcnUi
                           className="rounded-full"
-                          onClick={() => setMarginLeft("-765px")}
+                          onClick={() => setMarginLeft("-100%")}
                         >
                           Back
                         </ButtonShadcnUi>
