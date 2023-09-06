@@ -40,6 +40,7 @@ import {
   Smile,
   User,
   X,
+  Cog
 } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useForm } from "react-hook-form"
@@ -470,7 +471,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <div className="hack-setting h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Popover>
                     <PopoverTrigger>
-                      <Icons.hackSetting className="h-4 w-4 fill-current" />
+                      {/* <Icons.hackSetting className="h-4 w-4 fill-current" /> */}
+                      <Cog />
                     </PopoverTrigger>
                     <PopoverContent className="bg-red-500 z-[100000000000000000000000000000000000000000000000]">
                       Place content for the popover here.
