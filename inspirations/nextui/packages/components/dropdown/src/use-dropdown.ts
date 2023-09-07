@@ -1,14 +1,16 @@
-import {Ref} from "react";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {PopoverProps} from "@nextui-org/popover";
+import type {MenuTriggerType} from "@react-types/menu";
+import type {Ref} from "react";
+
 import {useMenuTriggerState} from "@react-stately/menu";
-import {MenuTriggerType} from "@react-types/menu";
 import {useMenuTrigger} from "@react-aria/menu";
 import {dropdown} from "@nextui-org/theme";
 import {clsx} from "@nextui-org/shared-utils";
 import {ReactRef, mergeRefs} from "@nextui-org/react-utils";
-import {PopoverProps} from "@nextui-org/popover";
 import {useMemo, useRef} from "react";
 import {mergeProps} from "@react-aria/utils";
+import {MenuProps} from "@nextui-org/menu";
 
 interface Props extends HTMLNextUIProps<"div"> {
   /**
@@ -77,7 +79,7 @@ export function useDropdown(props: UseDropdownProps) {
     },
   });
 
-  const {menuTriggerProps, menuProps} = useMenuTrigger(
+  const {menuTriggerProps, menuProps} = useMenuTrigger<object>(
     {type, trigger, isDisabled},
     state,
     menuTriggerRef,
@@ -90,6 +92,15 @@ export function useDropdown(props: UseDropdownProps) {
       }),
     [className],
   );
+
+  const onMenuAction = (menuCloseOnSelect?: boolean) => {
+    if (menuCloseOnSelect !== undefined && !menuCloseOnSelect) {
+      return;
+    }
+    if (closeOnSelect) {
+      state.close();
+    }
+  };
 
   const getPopoverProps: PropGetter = (props = {}) => ({
     state,
@@ -122,21 +133,26 @@ export function useDropdown(props: UseDropdownProps) {
     };
   };
 
-  const getMenuProps: PropGetter = (props = {}, _ref: Ref<any> | null | undefined = null) => ({
-    ...mergeProps(menuProps, props),
-    ref: mergeRefs(_ref, menuRef),
-  });
+  const getMenuProps = (props?: Partial<MenuProps>, _ref: Ref<any> | null | undefined = null) => {
+    return {
+      ref: mergeRefs(_ref, menuRef),
+      menuProps,
+      ...mergeProps(props, {onAction: () => onMenuAction(props?.closeOnSelect)}),
+    } as MenuProps;
+  };
 
   return {
     Component,
+    menuRef,
+    menuProps,
     classNames,
     closeOnSelect,
     onClose: state.close,
     autoFocus: state.focusStrategy || true,
     disableAnimation,
     getPopoverProps,
-    getMenuTriggerProps,
     getMenuProps,
+    getMenuTriggerProps,
   };
 }
 

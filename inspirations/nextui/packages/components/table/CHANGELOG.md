@@ -1,5 +1,76 @@
 # @nextui-org/table
 
+## 2.0.20
+
+### Patch Changes
+
+- Updated dependencies [[`7c8341035`](https://github.com/nextui-org/nextui/commit/7c8341035dbdd120cd78221b3cabab2e40e7478d)]:
+  - @nextui-org/theme@2.1.6
+  - @nextui-org/checkbox@2.0.19
+  - @nextui-org/spacer@2.0.16
+
+## 2.0.19
+
+### Patch Changes
+
+- Updated dependencies [[`d61428d9e`](https://github.com/nextui-org/nextui/commit/d61428d9e6c1c0590593fb1f0136e226051b7e23), [`4db10a47e`](https://github.com/nextui-org/nextui/commit/4db10a47e96ad8315b5b96c2ff15574ac0fdeecc)]:
+  - @nextui-org/theme@2.1.5
+  - @nextui-org/spacer@2.0.15
+  - @nextui-org/system@2.0.7
+  - @nextui-org/checkbox@2.0.18
+
+## 2.0.18
+
+### Patch Changes
+
+- Updated dependencies [[`043b8420c`](https://github.com/nextui-org/nextui/commit/043b8420cfb659cbb6bb36404807ec3cc8ac8592), [`641bf0885`](https://github.com/nextui-org/nextui/commit/641bf0885b6af2d7f36f27d83716a441975a5ca5)]:
+  - @nextui-org/theme@2.1.4
+  - @nextui-org/system@2.0.6
+  - @nextui-org/checkbox@2.0.17
+  - @nextui-org/spacer@2.0.14
+
+## 2.0.17
+
+### Patch Changes
+
+- [#1303](https://github.com/nextui-org/nextui/pull/1303) [`290cce15b`](https://github.com/nextui-org/nextui/commit/290cce15be86273eea2c5e524d2a702b06b6d788) Thanks [@jguddas](https://github.com/jguddas)! - fix: show focus ring when table row is focused in read mode
+
+- Updated dependencies [[`5702287e5`](https://github.com/nextui-org/nextui/commit/5702287e5622a8f0a0326c7cc0c200808c7971a8)]:
+  - @nextui-org/theme@2.1.3
+  - @nextui-org/checkbox@2.0.16
+  - @nextui-org/spacer@2.0.13
+
+## 2.0.16
+
+### Patch Changes
+
+- [#1458](https://github.com/nextui-org/nextui/pull/1458) [`4e94c115`](https://github.com/nextui-org/nextui/commit/4e94c115281c2774424d687877e036a9af1bce01) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix dropdown trigger events and popover arrow styles
+
+- Updated dependencies [[`4e94c115`](https://github.com/nextui-org/nextui/commit/4e94c115281c2774424d687877e036a9af1bce01)]:
+  - @nextui-org/checkbox@2.0.15
+  - @nextui-org/spacer@2.0.12
+  - @nextui-org/theme@2.1.2
+
+## 2.0.15
+
+### Patch Changes
+
+- Updated dependencies [[`cc839cdd`](https://github.com/nextui-org/nextui/commit/cc839cdd1fd54931bfba137e2f9b5e8007a7e47d)]:
+  - @nextui-org/theme@2.1.1
+  - @nextui-org/checkbox@2.0.14
+  - @nextui-org/spacer@2.0.11
+
+## 2.0.14
+
+### Patch Changes
+
+- Updated dependencies [[`baec5502`](https://github.com/nextui-org/nextui/commit/baec55029de7f17ba84d3e6c8c98358fd1f2695e)]:
+  - @nextui-org/theme@2.1.0
+  - @nextui-org/shared-icons@2.0.3
+  - @nextui-org/checkbox@2.0.13
+  - @nextui-org/spacer@2.0.10
+  - @nextui-org/react-utils@2.0.7
+
 ## 2.0.13
 
 ### Patch Changes

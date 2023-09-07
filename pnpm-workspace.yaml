@@ -2,5 +2,5 @@ packages:
   - "apps/www"
   # - "apps/despicated"
   # - "apps/nextui-shadcn-demo"
-  # - "inspirations/nextui-demo"
+  - "inspirations/nextui/apps/docs"
   # - "inspirations/nextui-shadcn-demo"

@@ -1,5 +1,57 @@
 # @nextui-org/theme
 
+## 2.1.6
+
+### Patch Changes
+
+- [#1558](https://github.com/nextui-org/nextui/pull/1558) [`7c8341035`](https://github.com/nextui-org/nextui/commit/7c8341035dbdd120cd78221b3cabab2e40e7478d) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Pagination changeset
+
+## 2.1.5
+
+### Patch Changes
+
+- [#1555](https://github.com/nextui-org/nextui/pull/1555) [`d61428d9e`](https://github.com/nextui-org/nextui/commit/d61428d9e6c1c0590593fb1f0136e226051b7e23) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Tailwind variants upgraded to the latest version v0.1.14
+
+- [`4db10a47e`](https://github.com/nextui-org/nextui/commit/4db10a47e96ad8315b5b96c2ff15574ac0fdeecc) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Pagination changes reverted
+
+## 2.1.4
+
+### Patch Changes
+
+- [#1543](https://github.com/nextui-org/nextui/pull/1543) [`043b8420c`](https://github.com/nextui-org/nextui/commit/043b8420cfb659cbb6bb36404807ec3cc8ac8592) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix #1492 \n
+
+  - Select adn Input spaces fixed on helper wrapper
+  - New select wrapper added `mainWrapper` which contains the helperWrapper and the trigger slots
+  - Outside input with start content fixed
+
+## 2.1.3
+
+### Patch Changes
+
+- [#1501](https://github.com/nextui-org/nextui/pull/1501) [`5702287e5`](https://github.com/nextui-org/nextui/commit/5702287e5622a8f0a0326c7cc0c200808c7971a8) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix Popover/Tooltip arrow color
+
+## 2.1.2
+
+### Patch Changes
+
+- [#1458](https://github.com/nextui-org/nextui/pull/1458) [`4e94c115`](https://github.com/nextui-org/nextui/commit/4e94c115281c2774424d687877e036a9af1bce01) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix dropdown trigger events and popover arrow styles
+
+## 2.1.1
+
+### Patch Changes
+
+- [#1455](https://github.com/nextui-org/nextui/pull/1455) [`cc839cdd`](https://github.com/nextui-org/nextui/commit/cc839cdd1fd54931bfba137e2f9b5e8007a7e47d) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix select close when clicking the label
+
+## 2.1.0
+
+### Minor Changes
+
+- [#1313](https://github.com/nextui-org/nextui/pull/1313) [`baec5502`](https://github.com/nextui-org/nextui/commit/baec55029de7f17ba84d3e6c8c98358fd1f2695e) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - New components:
+
+  - Select
+  - Listbox
+  - ScrollShadow
+
 ## 2.0.5
 
 ### Patch Changes
