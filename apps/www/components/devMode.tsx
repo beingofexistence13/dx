@@ -237,162 +237,323 @@ export function DevMode() {
   }
 
   return (
-    <Dialog>
-      <DialogTrigger className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
-        <div
-          className={cn(
-            buttonVariants({
-              variant: "ghost",
-            }),
-            "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
-          )}
-        >
-          <Icons.devMode className="h-2 w-2" />
-        </div>
-      </DialogTrigger>
-      <DialogContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
-        <div className="devMode-header px-3 pt-3">
-          <Form {...form}>
-            <form
-              onSubmit={form.handleSubmit(onSubmit)}
-              className="w-full space-y-6"
-            >
-              <div>
-                <div className="space-y-4">
-                  <FormField
-                    control={form.control}
-                    name="dev_mode"
-                    render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm min-w-full">
-                        <div className="space-y-0.5">
-                          <FormLabel>Dev Mode</FormLabel>
-                          <FormDescription>
-                            This is only for developers who are working on
-                            components and want to develop them in a blank
-                            page!!!
-                          </FormDescription>
-                        </div>
-                        <FormControl>
-                          <Switch
-                            checked={field.value}
-                            onCheckedChange={field.onChange}
-                            onClick={() => {
-                              setDevMode(!DevMode)
-                              dispatch(updateDevMode(DevMode))
-                              toast({
-                                title: `DevMode is switch to ${!DevModeSelector}`,
-                                description:
-                                  "You Can Now Make Your Components Without Any Disturbance",
-                                action: (
-                                  <ToastAction altText="Goto schedule to undo">
-                                    Confirm
-                                  </ToastAction>
-                                ),
-                              })
-                            }}
-                          />
-                        </FormControl>
-                      </FormItem>
-                    )}
-                  />
-                  <FormField
-                    control={form.control}
-                    name="hello_tool"
-                    render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm w-full">
-                        <div className="space-y-0.5">
-                          <FormLabel>Hello Tool</FormLabel>
-                          <FormDescription>
-                            Hangouts with loved ones Seamlessly and spend
-                            momemts beyond Glass
-                          </FormDescription>
-                        </div>
-                        <FormControl>
-                          <Switch
-                            checked={field.value}
-                            onCheckedChange={field.onChange}
-                            onClick={() => {
-                              setHelloTool(!HelloTool)
-                              dispatch(updateHello(HelloTool))
-                              toast({
-                                title: `Hello Tool is  switch to ${HelloToolSelector}`,
-                                description:
-                                  "Enjoy Every Single Moments Of Your Existence",
-                                action: (
-                                  <ToastAction altText="Goto schedule to undo">
-                                    Confirm
-                                  </ToastAction>
-                                ),
-                              })
-                            }}
-                          />
-                        </FormControl>
-                      </FormItem>
-                    )}
-                  />
-                </div>
-              </div>
-            </form>
-          </Form>
-        </div>
-        <div className="horizantalDivider"></div>
-        <Form {...form}>
-          <form
-            onSubmit={form.handleSubmit(onSubmit)}
-            className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] overflow-x-hidden"
-          >
+    <Popover>
+    <PopoverTrigger asChild>
+    <div className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
+  <div
+    className={cn(
+      buttonVariants({
+        variant: "ghost",
+      }),
+      "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
+    )}
+  >
+    <Icons.devMode className="h-2 w-2" />
+  </div>
+</div>
+    </PopoverTrigger>
+    <PopoverContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
+    <div className="devMode-header px-3 pt-3">
+    <Form {...form}>
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="w-full space-y-6"
+      >
+        <div>
+          <div className="space-y-4">
             <FormField
               control={form.control}
-              name="items"
-              render={() => (
-                <FormItem>
-                  {items.map((item) => (
-                    <FormField
-                      key={item.id}
-                      control={form.control}
-                      name="items"
-                      render={({ field }) => {
-                        return (
-                          <FormItem
-                            key={item.id}
-                            className={cn(
-                              buttonVariants({
-                                variant: "ghost",
-                              }),
-                              "flex h-[25px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
-                            )}
-                          >
-                            <FormControl className="flex items-center justify-center">
-                              <Checkbox
-                                checked={field.value?.includes(item.id)}
-                                onCheckedChange={(checked) => {
-                                  return checked
-                                    ? field.onChange([...field.value, item.id])
-                                    : field.onChange(
-                                        field.value?.filter(
-                                          (value) => value !== item.id
-                                        )
-                                      )
-                                }}
-                              />
-                            </FormControl>
-                            <FormLabel className="flex items-center justify-center font-normal">
-                              {item.label}
-                            </FormLabel>
-                          </FormItem>
-                        )
+              name="dev_mode"
+              render={({ field }) => (
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm min-w-full">
+                  <div className="space-y-0.5">
+                    <FormLabel>Dev Mode</FormLabel>
+                    <FormDescription>
+                      This is only for developers who are working on
+                      components and want to develop them in a blank
+                      page!!!
+                    </FormDescription>
+                  </div>
+                  <FormControl>
+                    <Switch
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      onClick={() => {
+                        setDevMode(!DevMode)
+                        dispatch(updateDevMode(DevMode))
+                        toast({
+                          title: `DevMode is switch to ${!DevModeSelector}`,
+                          description:
+                            "You Can Now Make Your Components Without Any Disturbance",
+                          action: (
+                            <ToastAction altText="Goto schedule to undo">
+                              Confirm
+                            </ToastAction>
+                          ),
+                        })
                       }}
                     />
-                  ))}
-                  <FormMessage />
+                  </FormControl>
                 </FormItem>
               )}
             />
-            {/* <Button type="submit">Add to tasks</Button> */}
-            {/* <NavigationMenuDemo /> */}
-          </form>
-        </Form>
-      </DialogContent>
-    </Dialog>
+            <FormField
+              control={form.control}
+              name="hello_tool"
+              render={({ field }) => (
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm w-full">
+                  <div className="space-y-0.5">
+                    <FormLabel>Hello Tool</FormLabel>
+                    <FormDescription>
+                      Hangouts with loved ones Seamlessly and spend
+                      momemts beyond Glass
+                    </FormDescription>
+                  </div>
+                  <FormControl>
+                    <Switch
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      onClick={() => {
+                        setHelloTool(!HelloTool)
+                        dispatch(updateHello(HelloTool))
+                        toast({
+                          title: `Hello Tool is  switch to ${HelloToolSelector}`,
+                          description:
+                            "Enjoy Every Single Moments Of Your Existence",
+                          action: (
+                            <ToastAction altText="Goto schedule to undo">
+                              Confirm
+                            </ToastAction>
+                          ),
+                        })
+                      }}
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
+            />
+          </div>
+        </div>
+      </form>
+    </Form>
+  </div>
+  <div className="horizantalDivider"></div>
+  <Form {...form}>
+    <form
+      onSubmit={form.handleSubmit(onSubmit)}
+      className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] overflow-x-hidden"
+    >
+      <FormField
+        control={form.control}
+        name="items"
+        render={() => (
+          <FormItem>
+            {items.map((item) => (
+              <FormField
+                key={item.id}
+                control={form.control}
+                name="items"
+                render={({ field }) => {
+                  return (
+                    <FormItem
+                      key={item.id}
+                      className={cn(
+                        buttonVariants({
+                          variant: "ghost",
+                        }),
+                        "flex h-[25px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
+                      )}
+                    >
+                      <FormControl className="flex items-center justify-center">
+                        <Checkbox
+                          checked={field.value?.includes(item.id)}
+                          onCheckedChange={(checked) => {
+                            return checked
+                              ? field.onChange([...field.value, item.id])
+                              : field.onChange(
+                                  field.value?.filter(
+                                    (value) => value !== item.id
+                                  )
+                                )
+                          }}
+                        />
+                      </FormControl>
+                      <FormLabel className="flex items-center justify-center font-normal">
+                        {item.label}
+                      </FormLabel>
+                    </FormItem>
+                  )
+                }}
+              />
+            ))}
+            <FormMessage />
+          </FormItem>
+        )}
+      />
+      {/* <Button type="submit">Add to tasks</Button> */}
+      {/* <NavigationMenuDemo /> */}
+    </form>
+  </Form>
+    </PopoverContent>
+  </Popover>
   )
 }
+
+
+{/* <Dialog>
+<DialogTrigger className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
+  <div
+    className={cn(
+      buttonVariants({
+        variant: "ghost",
+      }),
+      "flex h-[50px] w-[50px] items-center justify-center rounded-full p-0"
+    )}
+  >
+    <Icons.devMode className="h-2 w-2" />
+  </div>
+</DialogTrigger>
+<DialogContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
+  <div className="devMode-header px-3 pt-3">
+    <Form {...form}>
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="w-full space-y-6"
+      >
+        <div>
+          <div className="space-y-4">
+            <FormField
+              control={form.control}
+              name="dev_mode"
+              render={({ field }) => (
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm min-w-full">
+                  <div className="space-y-0.5">
+                    <FormLabel>Dev Mode</FormLabel>
+                    <FormDescription>
+                      This is only for developers who are working on
+                      components and want to develop them in a blank
+                      page!!!
+                    </FormDescription>
+                  </div>
+                  <FormControl>
+                    <Switch
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      onClick={() => {
+                        setDevMode(!DevMode)
+                        dispatch(updateDevMode(DevMode))
+                        toast({
+                          title: `DevMode is switch to ${!DevModeSelector}`,
+                          description:
+                            "You Can Now Make Your Components Without Any Disturbance",
+                          action: (
+                            <ToastAction altText="Goto schedule to undo">
+                              Confirm
+                            </ToastAction>
+                          ),
+                        })
+                      }}
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="hello_tool"
+              render={({ field }) => (
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm w-full">
+                  <div className="space-y-0.5">
+                    <FormLabel>Hello Tool</FormLabel>
+                    <FormDescription>
+                      Hangouts with loved ones Seamlessly and spend
+                      momemts beyond Glass
+                    </FormDescription>
+                  </div>
+                  <FormControl>
+                    <Switch
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      onClick={() => {
+                        setHelloTool(!HelloTool)
+                        dispatch(updateHello(HelloTool))
+                        toast({
+                          title: `Hello Tool is  switch to ${HelloToolSelector}`,
+                          description:
+                            "Enjoy Every Single Moments Of Your Existence",
+                          action: (
+                            <ToastAction altText="Goto schedule to undo">
+                              Confirm
+                            </ToastAction>
+                          ),
+                        })
+                      }}
+                    />
+                  </FormControl>
+                </FormItem>
+              )}
+            />
+          </div>
+        </div>
+      </form>
+    </Form>
+  </div>
+  <div className="horizantalDivider"></div>
+  <Form {...form}>
+    <form
+      onSubmit={form.handleSubmit(onSubmit)}
+      className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] overflow-x-hidden"
+    >
+      <FormField
+        control={form.control}
+        name="items"
+        render={() => (
+          <FormItem>
+            {items.map((item) => (
+              <FormField
+                key={item.id}
+                control={form.control}
+                name="items"
+                render={({ field }) => {
+                  return (
+                    <FormItem
+                      key={item.id}
+                      className={cn(
+                        buttonVariants({
+                          variant: "ghost",
+                        }),
+                        "flex h-[25px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
+                      )}
+                    >
+                      <FormControl className="flex items-center justify-center">
+                        <Checkbox
+                          checked={field.value?.includes(item.id)}
+                          onCheckedChange={(checked) => {
+                            return checked
+                              ? field.onChange([...field.value, item.id])
+                              : field.onChange(
+                                  field.value?.filter(
+                                    (value) => value !== item.id
+                                  )
+                                )
+                          }}
+                        />
+                      </FormControl>
+                      <FormLabel className="flex items-center justify-center font-normal">
+                        {item.label}
+                      </FormLabel>
+                    </FormItem>
+                  )
+                }}
+              />
+            ))}
+            <FormMessage />
+          </FormItem>
+        )}
+      />
+      {/* <Button type="submit">Add to tasks</Button> */}
+      {/* <NavigationMenuDemo /> */}
+    </form>
+  </Form>
+</DialogContent>
+</Dialog> */}

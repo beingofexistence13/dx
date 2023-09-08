@@ -259,7 +259,6 @@ interface TypewriterProps {
   text: string
   delay: number
 }
-
 const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
   const [currentText, setCurrentText] = useState("")
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -285,11 +284,9 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
     </div>
   )
 }
-
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
 }
-
 const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
   const [isLoading, setIsLoading] = useState(true)
   const [startTime, setStartTime] = useState(performance.now())
@@ -313,7 +310,6 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
     </div>
   ) : null
 }
-
 const FormSchema = z.object({
   dob: z.date({
     required_error: "A date of birth is required.",
@@ -324,6 +320,9 @@ const FormSchema = z.object({
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
 })
+
+
+
 
 export default function Hack(this: any, { ...props }: DialogProps) {
   const [fluidSimulation, setFluidSimulation] = React.useState(false)
@@ -344,6 +343,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [file, setFile] = React.useState<File | null>(null)
   const fileInputRef = React.useRef<HTMLInputElement>(null)
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
+  const searchParams = useSearchParams()
+  const testnets = searchParams ? searchParams.get("testnets") : ""
+  const testnet = searchParams ? searchParams.get("testnet") : ""
+  const search = searchParams ? searchParams.get("search") : ""
   const [bloom, setBloom] = React.useState(false)
   const [sunrays, setSunrays] = React.useState(false)
   const [capture, setCapture] = React.useState(false)
@@ -380,7 +383,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       ? "valid"
       : "invalid"
   }, [emailAndPhoneNumbber])
-
   const validateEmail = (value: string) =>
     value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
   const validationState = React.useMemo(() => {
@@ -411,7 +413,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     return () => document.removeEventListener("keydown", down)
     console.log(`The margin value is now ${marginLeft}px`)
   }, [marginLeft])
-
   // ChainList
   interface Chain {
     chain: any
@@ -431,10 +432,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     }
     fetchData()
   }, [])
-  const searchParams = useSearchParams()
-  const testnets = searchParams ? searchParams.get("testnets") : ""
-  const testnet = searchParams ? searchParams.get("testnet") : ""
-  const search = searchParams ? searchParams.get("search") : ""
   const includeTestnets =
     (typeof testnets === "string" && testnets === "true") ||
     (typeof testnet === "string" && testnet === "true")
@@ -476,7 +473,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       hello_tool: true,
     },
   })
-
   function onSubmit(data: z.infer<typeof FormSchema>) {
     toast({
       title: "You submitted the following values:",
@@ -488,7 +484,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     })
   }
   const buttonRef = React.useRef<HTMLButtonElement | null>(null)
-
   const handleConfetti = async () => {
     const { clientWidth, clientHeight } = document.documentElement
     const boundingBox = buttonRef.current?.getBoundingClientRect?.()
@@ -511,6 +506,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     })
   }
 
+
+
+  
   return (
     <div>
       <Dialog>
