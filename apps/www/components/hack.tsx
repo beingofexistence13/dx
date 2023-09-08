@@ -279,7 +279,7 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
       id="scroll-container"
       className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3"
     >
-      <p id="scroll-text" className="text-xs">
+      <p id="scroll-text" className="text-md">
         {currentText}
       </p>
     </div>
@@ -543,285 +543,283 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Cog />
                     </div>
                   </PopoverTrigger>
-                  <PopoverContent className="w-auto h-auto">
-                    <div className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
-                      <h1 className="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
-                        Fluid Simulation Controller
-                      </h1>
-                      <div className="quality-container flex items-start justify-between w-full">
-                        <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
-                          Quality
-                        </span>
-                        <Select>
-                          <SelectTrigger className="w-[180px]">
-                            <SelectValue placeholder="Select a Quality" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectGroup>
-                              <SelectItem value="medium">High</SelectItem>
-                              <SelectItem value="medium">Medium</SelectItem>
-                              <SelectItem value="low">Low</SelectItem>
-                              <SelectItem value="very-low">Very Low</SelectItem>
-                            </SelectGroup>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                      <div className="simResolution-container flex items-start justify-between w-full">
-                        <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
-                          Sim Re..
-                        </span>
-                        <Select>
-                          <SelectTrigger className="w-[180px]">
-                            <SelectValue
-                              className="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
-                              placeholder="Select a Sim R.."
-                            />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectGroup>
-                              <SelectItem value="medium">32</SelectItem>
-                              <SelectItem value="medium">64</SelectItem>
-                              <SelectItem value="low">128</SelectItem>
-                              <SelectItem value="very-low">258</SelectItem>
-                            </SelectGroup>
-                          </SelectContent>
-                        </Select>
-                      </div>
-
-                      <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                        <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                          <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                            Density Diffution
-                          </span>
-                          <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                            2.0
-                          </div>
-                        </div>
-                        <div className="fluild-simulation-slider w-full">
-                          <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                        </div>
-                      </div>
-                      <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                        <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                          <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                            Velocity Diffution
-                          </span>
-                          <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                            2.0
-                          </div>
-                        </div>
-                        <div className="fluild-simulation-slider w-full">
-                          <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                        </div>
-                      </div>
-                      <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                        <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                          <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                            Pressure
-                          </span>
-                          <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                            2.0
-                          </div>
-                        </div>
-                        <div className="fluild-simulation-slider w-full">
-                          <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                        </div>
-                      </div>
-                      <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                        <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                          <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                            Velocity
-                          </span>
-                          <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                            2.0
-                          </div>
-                        </div>
-                        <div className="fluild-simulation-slider w-full">
-                          <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                        </div>
-                      </div>
-                      <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                        <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                          <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                            Splat Radius
-                          </span>
-                          <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                            2.0
-                          </div>
-                        </div>
-                        <div className="fluild-simulation-slider w-full">
-                          <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                        </div>
-                      </div>
-
-                      <Form {...form}>
-                        <form className="h-auto w-full">
-                          <FormField
-                            control={form.control}
-                            name="items"
-                            render={({ field }) => (
-                              <div className="space-y-3">
-                                {items.map((item) => (
-                                  <FormItem
-                                    key={item.id}
-                                    className={cn(
-                                      buttonVariants({
-                                        variant: "ghost",
-                                      }),
-                                      "flex h-[50px] flex-row items-center justify-between rounded-lg border"
-                                    )}
-                                  >
-                                    <FormLabel className="flex items-center justify-center font-normal">
-                                      {item.label}
-                                    </FormLabel>
-                                    <FormControl className="flex items-center justify-center m-0 p-0">
-                                      <Checkbox
-                                        checked={field.value?.includes(item.id)}
-                                        onCheckedChange={(checked) => {
-                                          return checked
-                                            ? field.onChange([
-                                                ...field.value,
-                                                item.id,
-                                              ])
-                                            : field.onChange(
-                                                field.value?.filter(
-                                                  (value) => value !== item.id
-                                                )
-                                              )
-                                        }}
-                                      />
-                                    </FormControl>
-                                  </FormItem>
-                                ))}
-                              </div>
-                            )}
-                          />
-                        </form>
-                      </Form>
-
-                      <Collapsible
-                        open={bloom}
-                        onOpenChange={setBloom}
-                        className="w-full space-y-2"
-                      >
-                        <div className="flex items-center justify-between px-1">
-                          <h4 className="text-sm font-semibold">Bloom</h4>
-                          <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
-                              variant="ghost"
-                              size="sm"
-                              className="w-9 p-0 border ronded-lg"
-                            >
-                              <ChevronsUpDown className="h-4 w-4" />
-                              <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
-                          </CollapsibleTrigger>
-                        </div>
-                        <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
-                          <h1>Enabled</h1>
-                          <Checkbox id="bloom" />
-                        </div>
-                        <CollapsibleContent className="space-y-2">
-                          <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                                Intensity
-                              </span>
-                              <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                                2.0
-                              </div>
-                            </div>
-                            <div className="fluild-simulation-slider w-full">
-                              <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                            </div>
-                          </div>
-                          <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                                Theshold
-                              </span>
-                              <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                                2.0
-                              </div>
-                            </div>
-                            <div className="fluild-simulation-slider w-full">
-                              <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                            </div>
-                          </div>
-                        </CollapsibleContent>
-                      </Collapsible>
-                      <Collapsible
-                        open={sunrays}
-                        onOpenChange={setSunrays}
-                        className="w-full space-y-2"
-                      >
-                        <div className="flex items-center justify-between px-1">
-                          <h4 className="text-sm font-semibold">Sunrays</h4>
-                          <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
-                              variant="ghost"
-                              size="sm"
-                              className="w-9 p-0 border ronded-lg"
-                            >
-                              <ChevronsUpDown className="h-4 w-4" />
-                              <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
-                          </CollapsibleTrigger>
-                        </div>
-                        <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
-                          <h1>Enabled</h1>
-                          <Checkbox id="sunrays" />
-                        </div>
-                        <CollapsibleContent className="space-y-2">
-                          <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
-                                Weight
-                              </span>
-                              <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
-                                2.0
-                              </div>
-                            </div>
-                            <div className="fluild-simulation-slider w-full">
-                              <Slider defaultValue={[2.0]} max={4} step={0.1} />
-                            </div>
-                          </div>
-                        </CollapsibleContent>
-                      </Collapsible>
-                      <Collapsible
-                        open={capture}
-                        onOpenChange={setCapture}
-                        className="w-full space-y-2"
-                      >
-                        <div className="flex items-center justify-between px-1">
-                          <h4 className="text-sm font-semibold">Capture</h4>
-                          <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
-                              variant="ghost"
-                              size="sm"
-                              className="w-9 p-0  border ronded-lg"
-                            >
-                              <ChevronsUpDown className="h-4 w-4" />
-                              <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
-                          </CollapsibleTrigger>
-                        </div>
-                        <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
-                          <h1>Transparent</h1>
-                          <Checkbox id="capture" />
-                        </div>
-
-                        <CollapsibleContent className="space-y-2">
-                          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
-                            <h1>Background Color</h1>
-                            <h1>(coming soon)</h1>
-                          </div>
-                          <div className="rounded-md border px-4 py-3 font-mono text-sm">
-                            Take A Screenshot
-                          </div>
-                        </CollapsibleContent>
-                      </Collapsible>
+                  <PopoverContent className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
+                    <h1 className="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
+                      Fluid Simulation Controller
+                    </h1>
+                    <div className="quality-container flex items-start justify-between w-full">
+                      <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+                        Quality
+                      </span>
+                      <Select>
+                        <SelectTrigger className="w-[180px]">
+                          <SelectValue placeholder="Select a Quality" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="medium">High</SelectItem>
+                            <SelectItem value="medium">Medium</SelectItem>
+                            <SelectItem value="low">Low</SelectItem>
+                            <SelectItem value="very-low">Very Low</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
                     </div>
+                    <div className="simResolution-container flex items-start justify-between w-full">
+                      <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+                        Sim Re..
+                      </span>
+                      <Select>
+                        <SelectTrigger className="w-[180px]">
+                          <SelectValue
+                            className="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
+                            placeholder="Select a Sim R.."
+                          />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="medium">32</SelectItem>
+                            <SelectItem value="medium">64</SelectItem>
+                            <SelectItem value="low">128</SelectItem>
+                            <SelectItem value="very-low">258</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                          Density Diffution
+                        </span>
+                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                          2.0
+                        </div>
+                      </div>
+                      <div className="fluild-simulation-slider w-full">
+                        <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                      </div>
+                    </div>
+                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                          Velocity Diffution
+                        </span>
+                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                          2.0
+                        </div>
+                      </div>
+                      <div className="fluild-simulation-slider w-full">
+                        <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                      </div>
+                    </div>
+                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                          Pressure
+                        </span>
+                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                          2.0
+                        </div>
+                      </div>
+                      <div className="fluild-simulation-slider w-full">
+                        <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                      </div>
+                    </div>
+                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                          Velocity
+                        </span>
+                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                          2.0
+                        </div>
+                      </div>
+                      <div className="fluild-simulation-slider w-full">
+                        <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                      </div>
+                    </div>
+                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                          Splat Radius
+                        </span>
+                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                          2.0
+                        </div>
+                      </div>
+                      <div className="fluild-simulation-slider w-full">
+                        <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                      </div>
+                    </div>
+
+                    <Form {...form}>
+                      <form className="h-auto w-full">
+                        <FormField
+                          control={form.control}
+                          name="items"
+                          render={({ field }) => (
+                            <div className="space-y-3">
+                              {items.map((item) => (
+                                <FormItem
+                                  key={item.id}
+                                  className={cn(
+                                    buttonVariants({
+                                      variant: "ghost",
+                                    }),
+                                    "flex h-[50px] flex-row items-center justify-between rounded-lg border"
+                                  )}
+                                >
+                                  <FormLabel className="flex items-center justify-center font-normal">
+                                    {item.label}
+                                  </FormLabel>
+                                  <FormControl className="flex items-center justify-center m-0 p-0">
+                                    <Checkbox
+                                      checked={field.value?.includes(item.id)}
+                                      onCheckedChange={(checked) => {
+                                        return checked
+                                          ? field.onChange([
+                                              ...field.value,
+                                              item.id,
+                                            ])
+                                          : field.onChange(
+                                              field.value?.filter(
+                                                (value) => value !== item.id
+                                              )
+                                            )
+                                      }}
+                                    />
+                                  </FormControl>
+                                </FormItem>
+                              ))}
+                            </div>
+                          )}
+                        />
+                      </form>
+                    </Form>
+
+                    <Collapsible
+                      open={bloom}
+                      onOpenChange={setBloom}
+                      className="w-full space-y-2"
+                    >
+                      <div className="flex items-center justify-between px-1">
+                        <h4 className="text-sm font-semibold">Bloom</h4>
+                        <CollapsibleTrigger asChild>
+                          <ButtonShadcnUi
+                            variant="ghost"
+                            size="sm"
+                            className="w-9 p-0 border ronded-lg"
+                          >
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </ButtonShadcnUi>
+                        </CollapsibleTrigger>
+                      </div>
+                      <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+                        <h1>Enabled</h1>
+                        <Checkbox id="bloom" />
+                      </div>
+                      <CollapsibleContent className="space-y-2">
+                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                              Intensity
+                            </span>
+                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              2.0
+                            </div>
+                          </div>
+                          <div className="fluild-simulation-slider w-full">
+                            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                          </div>
+                        </div>
+                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                              Theshold
+                            </span>
+                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              2.0
+                            </div>
+                          </div>
+                          <div className="fluild-simulation-slider w-full">
+                            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                          </div>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
+                    <Collapsible
+                      open={sunrays}
+                      onOpenChange={setSunrays}
+                      className="w-full space-y-2"
+                    >
+                      <div className="flex items-center justify-between px-1">
+                        <h4 className="text-sm font-semibold">Sunrays</h4>
+                        <CollapsibleTrigger asChild>
+                          <ButtonShadcnUi
+                            variant="ghost"
+                            size="sm"
+                            className="w-9 p-0 border ronded-lg"
+                          >
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </ButtonShadcnUi>
+                        </CollapsibleTrigger>
+                      </div>
+                      <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+                        <h1>Enabled</h1>
+                        <Checkbox id="sunrays" />
+                      </div>
+                      <CollapsibleContent className="space-y-2">
+                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                              Weight
+                            </span>
+                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              2.0
+                            </div>
+                          </div>
+                          <div className="fluild-simulation-slider w-full">
+                            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+                          </div>
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
+                    <Collapsible
+                      open={capture}
+                      onOpenChange={setCapture}
+                      className="w-full space-y-2"
+                    >
+                      <div className="flex items-center justify-between px-1">
+                        <h4 className="text-sm font-semibold">Capture</h4>
+                        <CollapsibleTrigger asChild>
+                          <ButtonShadcnUi
+                            variant="ghost"
+                            size="sm"
+                            className="w-9 p-0  border ronded-lg"
+                          >
+                            <ChevronsUpDown className="h-4 w-4" />
+                            <span className="sr-only">Toggle</span>
+                          </ButtonShadcnUi>
+                        </CollapsibleTrigger>
+                      </div>
+                      <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+                        <h1>Transparent</h1>
+                        <Checkbox id="capture" />
+                      </div>
+
+                      <CollapsibleContent className="space-y-2">
+                        <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+                          <h1>Background Color</h1>
+                          <h1>(coming soon)</h1>
+                        </div>
+                        <div className="rounded-md border px-4 py-3 font-mono text-sm">
+                          Take A Screenshot
+                        </div>
+                      </CollapsibleContent>
+                    </Collapsible>
                   </PopoverContent>
                 </Popover>
               </div>
@@ -1483,7 +1481,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         className="w-full space-y-2"
                       >
                         <div className="flex items-center justify-between space-x-4 px-1">
-                          <h4 className="text-xs font-semibold flex items-center justify-center flex-row">
+                          <h4 className="text-md font-semibold flex items-center justify-center flex-row">
                             <Bot className="mr-2" />
                             Configure Friday
                           </h4>
@@ -1543,7 +1541,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                           <ContextMenu>
                             <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm">
-                              <span className="text-xs p-5 text-center">
+                              <span className="text-md p-5 text-center">
                                 Your Friday Recovary Code will Appear Here When
                                 You Will Create A New Assistence. You Might Need
                                 To Save This Recovary Code, In A Safe Place
@@ -1628,7 +1626,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         className="w-full space-y-2 mt-2"
                       >
                         <div className="flex items-center justify-between space-x-4 ">
-                          <h4 className="text-xs font-semibold flex items-center justify-center flex-row">
+                          <h4 className="text-md font-semibold flex items-center justify-center flex-row">
                             <QrCode className="mr-2" />
                             Configure QR Code
                           </h4>
@@ -1670,7 +1668,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
                                 Seed
                               </span>
-                              <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                                 3.3
                               </div>
                             </div>
@@ -1683,7 +1681,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
                                 Strength
                               </span>
-                              <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                                 6.6
                               </div>
                             </div>
@@ -1696,7 +1694,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
                                 Guidence Scale
                               </span>
-                              <div className="qrCode-slider-rate bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                                 9.9
                               </div>
                             </div>
