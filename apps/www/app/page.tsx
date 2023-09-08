@@ -186,62 +186,7 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
-const FormSchema = z.object({
-  items: z.array(z.string()).refine((value) => value.some((item) => item), {
-    message: "You have to select at least one item.",
-  }),
-  dev_mode: z.boolean(),
-  hello_tool: z.boolean(),
-})
-export const items = [
-  {
-    label: "Shading",
-    id: "shading",
-  },
-  {
-    label: "Colorfull",
-    id: "colorfull",
-  },
-  {
-    label: "Paused",
-    id: "paused",
-  },
-  {
-    label: "Random Splates",
-    id: "randomSplates",
-  },
-] as const
 export default function Home() {
-  const [bloom, setBloom] = React.useState(false)
-  const [sunrays, setSunrays] = React.useState(false)
-  const [capture, setCapture] = React.useState(false)
-  const dispatch = useDispatch()
-  const { toast } = useToast()
-  const [DevMode, setDevMode] = React.useState(true)
-  const [HelloTool, setHelloTool] = React.useState(true)
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
-  const HelloToolSelector = useSelector(
-    (state: any) => state.helloTool.isHelloTool
-  )
-
-  const form = useForm<z.infer<typeof FormSchema>>({
-    resolver: zodResolver(FormSchema),
-    defaultValues: {
-      items: ["recents", "home"],
-      dev_mode: false,
-      hello_tool: true,
-    },
-  })
-  function onSubmit(data: z.infer<typeof FormSchema>) {
-    toast({
-      title: "You submitted the following values:",
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
-    })
-  }
 
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
