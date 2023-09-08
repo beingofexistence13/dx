@@ -324,15 +324,16 @@ export default function SocialMedias() {
               <TabsContent value="vlog" className="p-0">
                 <div className="grid grid-cols-2 justify-stretch gap-3">
                   {socialMediaConfig.platformVlog?.map(
-                    (item) =>
+                    (item, index) =>
                       item.href && (
                         <span
-                        className={cn(
-                          buttonVariants({
-                            variant: "ghost",
-                          }),
-                          " flex h-[75px] items-center justify-center rounded-md border"
-                        )}
+                          key={index}
+                          className={cn(
+                            buttonVariants({
+                              variant: "ghost",
+                            }),
+                            " flex h-[75px] items-center justify-center rounded-md border"
+                          )}
                         >
                           {item.title}
                         </span>
@@ -343,15 +344,16 @@ export default function SocialMedias() {
               <TabsContent value="gaming">
                 <div className="grid grid-cols-2 justify-stretch gap-3 ">
                   {socialMediaConfig.platformGaming?.map(
-                    (item) =>
+                    (item, index) =>
                       item.href && (
                         <span
-                        className={cn(
-                          buttonVariants({
-                            variant: "ghost",
-                          }),
-                          " flex h-[75px] items-center justify-center rounded-md border"
-                        )}
+                          key={index}
+                          className={cn(
+                            buttonVariants({
+                              variant: "ghost",
+                            }),
+                            " flex h-[75px] items-center justify-center rounded-md border"
+                          )}
                         >
                           {item.title}
                         </span>
@@ -362,15 +364,16 @@ export default function SocialMedias() {
               <TabsContent value="react">
                 <div className="grid grid-cols-2 justify-stretch gap-3 ">
                   {socialMediaConfig.platformReact?.map(
-                    (item) =>
+                    (item, index) =>
                       item.href && (
                         <span
-                        className={cn(
-                          buttonVariants({
-                            variant: "ghost",
-                          }),
-                          " flex h-[75px] items-center justify-center rounded-md border"
-                        )}
+                          key={index}
+                          className={cn(
+                            buttonVariants({
+                              variant: "ghost",
+                            }),
+                            " flex h-[75px] items-center justify-center rounded-md border"
+                          )}
                         >
                           {item.title}
                         </span>
