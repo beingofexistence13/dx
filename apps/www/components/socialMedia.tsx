@@ -217,7 +217,7 @@ const DialogContent = React.forwardRef<
     >
       <div className="relative max-w-[95%]">
         {children}
-        <DialogPrimitive.Close className="absolute h-[35px] w-[35px] flex items-center justify-center rounded-full border right-1 top-1.5 opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+        <DialogPrimitive.Close className="absolute h-[35px] w-[35px] flex items-center justify-center rounded-full border right-1 top-2 opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
           <X className="h-4 w-4" />
           <span className="sr-only">Close</span>
         </DialogPrimitive.Close>
@@ -326,13 +326,16 @@ export default function SocialMedias() {
                   {socialMediaConfig.platformVlog?.map(
                     (item) =>
                       item.href && (
-                        <SocialMedia
-                          key={item.href}
-                          href={item.href}
-                          onOpenChange={setOpen}
+                        <span
+                        className={cn(
+                          buttonVariants({
+                            variant: "ghost",
+                          }),
+                          " flex h-[75px] items-center justify-center rounded-md border"
+                        )}
                         >
                           {item.title}
-                        </SocialMedia>
+                        </span>
                       )
                   )}
                 </div>
@@ -342,13 +345,16 @@ export default function SocialMedias() {
                   {socialMediaConfig.platformGaming?.map(
                     (item) =>
                       item.href && (
-                        <SocialMedia
-                          key={item.href}
-                          href={item.href}
-                          onOpenChange={setOpen}
+                        <span
+                        className={cn(
+                          buttonVariants({
+                            variant: "ghost",
+                          }),
+                          " flex h-[75px] items-center justify-center rounded-md border"
+                        )}
                         >
                           {item.title}
-                        </SocialMedia>
+                        </span>
                       )
                   )}
                 </div>
@@ -358,13 +364,16 @@ export default function SocialMedias() {
                   {socialMediaConfig.platformReact?.map(
                     (item) =>
                       item.href && (
-                        <SocialMedia
-                          key={item.href}
-                          href={item.href}
-                          onOpenChange={setOpen}
+                        <span
+                        className={cn(
+                          buttonVariants({
+                            variant: "ghost",
+                          }),
+                          " flex h-[75px] items-center justify-center rounded-md border"
+                        )}
                         >
                           {item.title}
-                        </SocialMedia>
+                        </span>
                       )
                   )}
                 </div>
@@ -377,39 +386,34 @@ export default function SocialMedias() {
   )
 }
 
-interface SocialMediaProps extends LinkProps {
-  onOpenChange?: (open: boolean) => void
-  children: React.ReactNode
-  className?: string
-}
+// interface SocialMediaProps extends LinkProps {
+//   onOpenChange?: (open: boolean) => void
+//   children: React.ReactNode
+//   className?: string
+// }
 
-function SocialMedia({
-  href,
-  onOpenChange,
-  className,
-  children,
-  ...props
-}: SocialMediaProps) {
-  const router = useRouter()
-  return (
-    <Link
-      href={href}
-      onClick={() => {
-        router.push(href.toString())
-        onOpenChange?.(false)
-      }}
-      className={cn(
-        buttonVariants({
-          variant: "ghost",
-        }),
-        " flex h-[75px] items-center justify-center rounded-md border"
-      )}
-      {...props}
-    >
-      {children}
-    </Link>
-  )
-}
+// function SocialMedia({
+//   href,
+//   onOpenChange,
+//   className,
+//   children,
+//   ...props
+// }: SocialMediaProps) {
+//   const router = useRouter()
+//   return (
+//     <div
+// {cn(
+//         buttonVariants({
+//           variant: "ghost",
+//         }),
+//         " flex h-[75px] items-center justify-center rounded-md border"
+//       )}
+//       {...props}
+//     >
+//       {children}
+//     </div>
+//   )
+// }
 
 // "use client"
 
