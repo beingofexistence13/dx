@@ -133,7 +133,27 @@ export function HelloTool() {
       </MenubarMenu>
       {/* Users */}
       <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
+        <Avatar className=" hidden h-[30px] w-[30px] 2xl:flex">
+          <AvatarImage src="/user-15.webp" alt="@shadcn" />
+          <AvatarFallback>15</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] 2xl:flex">
+          <AvatarImage src="/user-14.webp" alt="@shadcn" />
+          <AvatarFallback>14</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] xl:flex">
+          <AvatarImage src="/user-13.webp" alt="@shadcn" />
+          <AvatarFallback>13</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] xl:flex">
+          <AvatarImage src="/user-12.webp" alt="@shadcn" />
+          <AvatarFallback>12</AvatarFallback>
+        </Avatar>
         <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+          <AvatarImage src="/user-11.webp" alt="@shadcn" />
+          <AvatarFallback>11</AvatarFallback>
+        </Avatar>
+        <Avatar className=" hidden h-[30px] w-[30px] md:flex">
           <AvatarImage
             src="/chainswap-x-force-by-deadpool.jpeg"
             alt="@shadcn"
