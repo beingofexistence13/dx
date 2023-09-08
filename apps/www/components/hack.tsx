@@ -289,7 +289,11 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
     }
   }, [canvasRef])
 
-  return isLoading ? <p>This canvas content is loading... please wait</p> : null
+  return isLoading ? (
+    <div className="image-container glassmorphisum fixed top-0 left-0 w-[100%] min-h-screen border rounded-lg">
+      <Image priority src="/night-shy.jpeg" fill alt="Sukuna" />
+    </div>
+  ) : null
 }
 
 const FormSchema = z.object({
@@ -485,10 +489,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
           </div>
         </DialogTrigger>
         <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-1 xs:px-3 m-0">
-          {/* <CanvasLoader canvasRef={canvasRef} />
+          <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
-          <Script src="./fluid-simulation.js" /> */}
-    {/* <video className="min-w-screen min-h-screen" autoPlay controls>
+          <Script src="./fluid-simulation.js" />
+
+          {/* <video className="min-w-screen min-h-screen" autoPlay controls>
       <source src="mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
 
     </video> */}
@@ -511,7 +516,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
                   <Cog />
                 </div>
-
               </div>
               <Tabs
                 defaultValue="hackIn"
@@ -584,7 +588,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <CommandGroup heading="Social Medias">
                           {docsConfig.passport
                             .filter((navitem) => !navitem.external)
-                            .map((navItem,index) => (
+                            .map((navItem, index) => (
                               <CommandItem
                                 key={index}
                                 value={navItem.title}
@@ -618,7 +622,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <CommandGroup heading="Blockchain Wallets">
                           {docsConfig.wallet
                             .filter((navitem) => !navitem.external)
-                            .map((navItem,index) => (
+                            .map((navItem, index) => (
                               <CommandItem
                                 key={index}
                                 value={navItem.title}
@@ -1317,7 +1321,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       >
                         <div className="flex items-center justify-between space-x-4 ">
                           <h4 className="text-sm font-semibold flex items-center justify-center flex-row">
-                            <QrCode className="mr-2"/>
+                            <QrCode className="mr-2" />
                             Configure QR Code
                           </h4>
                           <CollapsibleTrigger asChild>

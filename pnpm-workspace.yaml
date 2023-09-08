@@ -1,5 +1,6 @@
 packages:
   - "apps/www"
+  - "apps/ui/apps/www"
   # - "apps/taxonomy"
   # - "apps/despicated"
   # - "apps/nextui-shadcn-demo"

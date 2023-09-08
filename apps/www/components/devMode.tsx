@@ -195,46 +195,6 @@ InputShadcnUi,Label,
   type ToastProps,
 } from "@/components/ui"
 
-// import { useToast } from "@/registry/default/ui"
-
-// import {
-//   Avatar,
-//   AvatarFallback,
-//   AvatarImage,
-//   ContextMenu,
-//   ContextMenuContent,
-//   ContextMenuItem,
-//   ContextMenuTrigger,
-//   Dialog,
-//   DialogContent,
-//   DialogDescription,
-//   DialogFooter,
-//   DialogHeader,
-//   DialogTitle,
-//   DialogTrigger,
-//   Menubar,
-//   MenubarCheckboxItem,
-//   MenubarContent,
-//   MenubarItem,
-//   MenubarMenu,
-//   MenubarRadioGroup,
-//   MenubarRadioItem,
-//   MenubarSeparator,
-//   MenubarShortcut,
-//   MenubarSub,
-//   MenubarSubContent,
-//   MenubarSubTrigger,
-//   MenubarTrigger,
-//   Separator,
-//   Switch,
-//   Tabs,
-//   TabsContent,
-//   TabsList,
-//   TabsTrigger,
-//   ToastAction,
-//   buttonVariants,
-// } from "@/components/ui"
-
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: "You have to select at least one item.",
@@ -278,7 +238,7 @@ export function DevMode() {
 
   return (
     <Dialog>
-      <DialogTrigger className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000]">
+      <DialogTrigger className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
         <div
           className={cn(
             buttonVariants({
@@ -290,7 +250,7 @@ export function DevMode() {
           <Icons.devMode className="h-2 w-2" />
         </div>
       </DialogTrigger>
-      <DialogContent className="devMode-container flex h-[600px] flex-col rounded-sm">
+      <DialogContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
         <div className="devMode-header px-3 pt-3">
           <Form {...form}>
             <form
@@ -303,7 +263,7 @@ export function DevMode() {
                     control={form.control}
                     name="dev_mode"
                     render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
+                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm min-w-full">
                         <div className="space-y-0.5">
                           <FormLabel>Dev Mode</FormLabel>
                           <FormDescription>
@@ -339,7 +299,7 @@ export function DevMode() {
                     control={form.control}
                     name="hello_tool"
                     render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
+                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm w-full">
                         <div className="space-y-0.5">
                           <FormLabel>Hello Tool</FormLabel>
                           <FormDescription>
@@ -379,7 +339,7 @@ export function DevMode() {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="devMode-content h-[350px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] "
+            className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] overflow-x-hidden"
           >
             <FormField
               control={form.control}
