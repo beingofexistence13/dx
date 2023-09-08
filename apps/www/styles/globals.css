@@ -292,9 +292,9 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   /* z-index: 100000000000; */
 }
 
-.devMode-content * {
+/* .devMode-content * {
   margin-top: 0 !important;
-}
+} */
 
 .horizantalDivider {
   margin-top: 10px !important;

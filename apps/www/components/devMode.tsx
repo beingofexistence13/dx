@@ -1,9 +1,10 @@
 "use client"
 
-import React from "react"
+import React, { useEffect, useState } from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { zodResolver } from "@hookform/resolvers/zod"
+import { BrainCircuit } from "lucide-react"
 import { useForm } from "react-hook-form"
 import { useDispatch, useSelector } from "react-redux"
 import * as z from "zod"
@@ -203,6 +204,35 @@ const FormSchema = z.object({
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
 })
+interface TypewriterProps {
+  text: string
+  delay: number
+}
+const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
+  const [currentText, setCurrentText] = useState("")
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    if (currentIndex < text.length) {
+      const timeout = setTimeout(() => {
+        setCurrentText((prevText) => prevText + text[currentIndex])
+        setCurrentIndex((prevIndex) => prevIndex + 1)
+      }, delay)
+      return () => clearTimeout(timeout)
+    }
+  }, [currentIndex, delay, text])
+
+  return (
+    <div
+      id="scroll-container"
+      className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3"
+    >
+      <p id="scroll-text" className="text-md">
+        {currentText}
+      </p>
+    </div>
+  )
+}
 
 export function DevMode() {
   const dispatch = useDispatch()
@@ -264,6 +294,26 @@ export function DevMode() {
         </div>
       </PopoverTrigger>
       <PopoverContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
+        <div className="tab-header w-[100%] h-auto flex items-center justify-start space-x-1.5 py-2 px-3">
+          <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+            <BrainCircuit />
+          </div>
+          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+            <Icons.speaker className="h-4 w-4 fill-current" />
+          </div>
+
+          <Typewriter
+            text="Tips: Are Easy And Makes Jobs More Faster"
+            delay={125}
+          />
+          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+            <Icons.hackSetting className="h-4 w-4 fill-current" />
+          </div>
+          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+            <Icons.close className="h-4 w-4 fill-current" />
+          </div>
+        </div>
+
         <div className="devMode-header px-3 pt-3">
           <Form {...form}>
             <form
@@ -357,48 +407,38 @@ export function DevMode() {
             <FormField
               control={form.control}
               name="items"
-              render={() => (
-                <FormItem>
+              render={({ field }) => (
+                <div className="space-y-1">
                   {items.map((item) => (
-                    <FormField
+                    <FormItem
                       key={item.id}
-                      control={form.control}
-                      name="items"
-                      render={({ field }) => {
-                        return (
-                          <FormItem
-                            key={item.id}
-                            className={cn(
-                              buttonVariants({
-                                variant: "ghost",
-                              }),
-                              "flex h-[25px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
-                            )}
-                          >
-                            <FormControl className="flex items-center justify-center">
-                              <Checkbox
-                                checked={field.value?.includes(item.id)}
-                                onCheckedChange={(checked) => {
-                                  return checked
-                                    ? field.onChange([...field.value, item.id])
-                                    : field.onChange(
-                                        field.value?.filter(
-                                          (value) => value !== item.id
-                                        )
-                                      )
-                                }}
-                              />
-                            </FormControl>
-                            <FormLabel className="flex items-center justify-center font-normal">
-                              {item.label}
-                            </FormLabel>
-                          </FormItem>
-                        )
-                      }}
-                    />
+                      className={cn(
+                        buttonVariants({
+                          variant: "ghost",
+                        }),
+                        "flex h-[25px] flex-row items-center justify-start space-x-3 space-y-0 rounded-lg py-4 pl-2"
+                      )}
+                    >
+                      <FormControl className="flex items-center justify-center">
+                        <Checkbox
+                          checked={field.value?.includes(item.id)}
+                          onCheckedChange={(checked) => {
+                            return checked
+                              ? field.onChange([...field.value, item.id])
+                              : field.onChange(
+                                  field.value?.filter(
+                                    (value) => value !== item.id
+                                  )
+                                )
+                          }}
+                        />
+                      </FormControl>
+                      <FormLabel className="flex items-center justify-center font-normal">
+                        {item.label}
+                      </FormLabel>
+                    </FormItem>
                   ))}
-                  <FormMessage />
-                </FormItem>
+                </div>
               )}
             />
             {/* <Button type="submit">Add to tasks</Button> */}
