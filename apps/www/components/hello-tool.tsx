@@ -3,11 +3,13 @@
 import React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
+import { BrainCircuit } from "lucide-react"
 
 import { socialMediaConfig } from "@/config/social-media"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 
+import { DevMode } from "./devMode"
 import {
   Avatar,
   AvatarFallback,
@@ -43,7 +45,6 @@ import {
   TabsTrigger,
   buttonVariants,
 } from "./ui"
-import { BrainCircuit } from "lucide-react"
 
 export function HelloTool() {
   const [open, setOpen] = React.useState(false)
@@ -103,7 +104,6 @@ export function HelloTool() {
             {/* <Icons.inbox className="h-2 w-2" /> */}
             {/* <BrainCircuit /> */}
             <Icons.circleDashed className="h-4 w-4 fill-current" />
-
           </div>
         </MenubarTrigger>
         <MenubarContent>
@@ -266,7 +266,7 @@ export function HelloTool() {
         </Dialog>
       </div>
       {/* Sparkles */}
-      <MenubarMenu>
+      {/* <MenubarMenu>
         <MenubarTrigger>
           <div
             className={cn(
@@ -303,7 +303,11 @@ export function HelloTool() {
             Profile... <MenubarShortcut>⌘P</MenubarShortcut>
           </MenubarItem>
         </MenubarContent>
-      </MenubarMenu>
+      </MenubarMenu> */}
+
+      {/* DevMode */}
+      <DevMode />
+
       {/* Code */}
       <MenubarMenu>
         <MenubarTrigger>

@@ -240,7 +240,7 @@ export function DevMode() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <div className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
+        {/* <div className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
           <div
             className={cn(
               buttonVariants({
@@ -251,6 +251,16 @@ export function DevMode() {
           >
             <Icons.devMode className="h-2 w-2" />
           </div>
+        </div> */}
+        <div
+          className={cn(
+            buttonVariants({
+              variant: "ghost",
+            }),
+            "m-0 flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
+          )}
+        >
+          <Icons.devMode className="h-2 w-2" />
         </div>
       </PopoverTrigger>
       <PopoverContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
