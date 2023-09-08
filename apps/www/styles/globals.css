@@ -305,7 +305,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 }
 
 .social_media_container {
-  padding: 0 !important;
+  /* padding: 0 !important; */
   padding-top: 50px !important;
 }
 
