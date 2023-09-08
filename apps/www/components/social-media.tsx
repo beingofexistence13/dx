@@ -29,13 +29,21 @@ export function DialogDemo() {
             <Label htmlFor="name" className="text-right">
               Name
             </Label>
-            <InputShadcnUi id="name" value="Pedro Duarte" className="col-span-3" />
+            <InputShadcnUi
+              id="name"
+              value="Pedro Duarte"
+              className="col-span-3"
+            />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
               Username
             </Label>
-            <InputShadcnUi id="username" value="@peduarte" className="col-span-3" />
+            <InputShadcnUi
+              id="username"
+              value="@peduarte"
+              className="col-span-3"
+            />
           </div>
         </div>
         <DialogFooter>

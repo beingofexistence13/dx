@@ -7,8 +7,8 @@ import { useRouter } from "next/navigation"
 import { usePress } from "react-aria"
 import { any } from "zod"
 
-import { siteConfig } from "@/config/website"
 import { socialMediaConfig } from "@/config/social-media"
+import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"
 import { CommandMenu } from "@/components/command-menu"
 import { Icons } from "@/components/icons"
@@ -105,7 +105,8 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-InputShadcnUi,Label,
+  InputShadcnUi,
+  Label,
   Menubar,
   MenubarCheckboxItem,
   MenubarContent,

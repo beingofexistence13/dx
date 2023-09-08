@@ -1,9 +1,10 @@
+import * as React from "react"
+
 import {
   Alert,
   AlertDescription,
   AlertTitle,
 } from "@/registry/new-york/ui/alert"
-import * as React from "react";
 
 interface CalloutProps {
   icon?: string

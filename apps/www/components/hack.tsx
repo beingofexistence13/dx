@@ -321,9 +321,6 @@ const FormSchema = z.object({
   hello_tool: z.boolean(),
 })
 
-
-
-
 export default function Hack(this: any, { ...props }: DialogProps) {
   const [fluidSimulation, setFluidSimulation] = React.useState(false)
   const [marginLeft, setMarginLeft] = useState("-00px")
@@ -506,9 +503,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     })
   }
 
-
-
-  
   return (
     <div>
       <Dialog>
