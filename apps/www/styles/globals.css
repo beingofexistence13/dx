@@ -465,12 +465,9 @@ canvas {
   opacity: 0.5;
   color: red !important;
 } */
-.hackTabs > * {
-  /* background-color: red !important; */
+/* .hackTabs > * {
 
-  /* padding-left: 25px;
-  padding-right: 25px; */
-}
+} */
 
 html,
 body {
