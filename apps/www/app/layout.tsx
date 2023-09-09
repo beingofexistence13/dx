@@ -84,9 +84,19 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/base.css"
+      />
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar.css"
+      />
+
       <body
         className={cn(
-          "min-h-screen overflow-hidden bg-background font-sans antialiased",
+          "bg-background min-h-screen overflow-hidden font-sans antialiased",
           fontSans.variable
         )}
       >
@@ -106,6 +116,8 @@ export default function RootLayout({
                   </div>
                 </div>
               </main>
+              <Script src="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar-helpers.js" />
+              <Script src="./node_modules/preline/dist/preline.js" />
               {/* <Script src="./dat-gui.js" /> */}
               {/* <Script src="./ux/globals.js" type="module" /> */}
             </Query>

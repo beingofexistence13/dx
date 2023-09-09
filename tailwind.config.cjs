@@ -8,7 +8,10 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
+
+    'node_modules/preline/dist/*.js',
+    "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
     container: {
@@ -84,5 +87,16 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [require("tailwindcss-animate"), nextui()],
+  plugins: [
+    require("tailwindcss-animate"),
+    nextui(),
+    require("daisyui"),
+    require('preline/plugin'),
+    require("rippleui"),
+    require('@sira-ui/tailwind'),
+
+    
+    require("flowbite/plugin"),
+
+  ],
 }
