@@ -1,5 +1,6 @@
 {
   "name": "bun-beingofexistence-testing",
+  "license": "MIT",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
