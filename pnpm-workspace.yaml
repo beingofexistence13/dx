@@ -1,5 +1,5 @@
 packages:
-  - "apps/www"
+  # - "apps/www"
   # - "apps/ui/apps/www"
   # - "apps/taxonomy"
   # - "apps/despicated"
