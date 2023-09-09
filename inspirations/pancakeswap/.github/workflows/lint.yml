@@ -1,0 +1,55 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - develop
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v2.2.4
+      - name: Set up node@18
+        uses: actions/setup-node@v3
+        with:
+          cache: 'pnpm'
+          node-version: 18
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm i --ignore-scripts
+
+      - name: Get changed files
+        id: changed-files
+        uses: Ana06/get-changed-files@v2.1.0
+        with:
+          format: space-delimited
+          filter: |
+            **/*.ts
+            **/*.tsx
+            **/*.js
+            **/*.jsx
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run ESLint
+        run: pnpm lint:report ${{ steps.changed-files.outputs.added_modified }}
