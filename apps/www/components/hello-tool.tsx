@@ -50,7 +50,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool glassmorphisum fixed bottom-0 left-[50%] z-[100000000000000000000] flex h-auto w-full translate-x-[-50%] flex-row items-center justify-center border px-2 py-3 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:w-[360px] xs:rounded-2xl sm:bottom-3 sm:w-auto sm:rounded-2xl">
+    <Menubar className="hello-tool glassmorphisum fixed bottom-0 left-[50%] z-[100000000000000000000] flex h-auto w-full translate-x-[-50%] flex-row items-center justify-center border px-2 py-3 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl sm:bottom-3 sm:w-auto sm:rounded-2xl">
       {/* Magic */}
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
