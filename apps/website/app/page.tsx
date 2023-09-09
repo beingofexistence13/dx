@@ -1,113 +1,472 @@
-import Image from 'next/image'
+"use client"
+
+import * as React from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { ChevronsUpDown } from "lucide-react"
+import { useForm } from "react-hook-form"
+import { useDispatch, useSelector } from "react-redux"
+import * as z from "zod"
+
+// import { items } from "@/config/dev-mode"
+import { socialMediaConfig } from "@/config/social-media"
+import { cn } from "@/lib/utils"
+import { updateDevMode } from "@/hooks/slices/devModeSlice"
+import { updateHello } from "@/hooks/slices/helloToolSlice"
+import { Icons } from "@/components/icons"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Alert,
+  AlertDescription,
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+  AlertTitle,
+  AspectRatio,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Button as ButtonShadcnUi,
+  Calendar,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+  Checkbox,
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuGroup,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuPortal,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+  InputShadcnUi,
+  Label,
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarGroup,
+  MenubarItem,
+  MenubarLabel,
+  MenubarMenu,
+  MenubarPortal,
+  MenubarRadioGroup,
+  MenubarRadioItem,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Progress,
+  RadioGroup,
+  RadioGroupItem,
+  ScrollArea,
+  ScrollBar,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectSeparator,
+  SelectTrigger,
+  SelectValue,
+  Separator,
+  Skeleton,
+  Slider,
+  Switch,
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+  Toast,
+  ToastAction,
+  ToastClose,
+  ToastDescription,
+  ToastProvider,
+  ToastTitle,
+  ToastViewport,
+  Toaster,
+  Toggle,
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+  badgeVariants,
+  buttonVariants,
+  navigationMenuTriggerStyle,
+  toast,
+  toggleVariants,
+  useFormField,
+  useToast,
+  type ToastActionElement,
+  type ToastProps,
+} from "@/components/ui"
 
 export default function Home() {
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+      {/* <div className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
+        <h1 className="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
+          Fluid Simulation Controller
+        </h1>
+        <div className="quality-container flex items-start justify-between w-full">
+          <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+            Quality
+          </span>
+          <Select>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select a Quality" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="medium">High</SelectItem>
+                <SelectItem value="medium">Medium</SelectItem>
+                <SelectItem value="low">Low</SelectItem>
+                <SelectItem value="very-low">Very Low</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
         </div>
-      </div>
+        <div className="simResolution-container flex items-start justify-between w-full">
+          <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+            Sim Re..
+          </span>
+          <Select>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue
+                className="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
+                placeholder="Select a Sim R.."
+              />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectItem value="medium">32</SelectItem>
+                <SelectItem value="medium">64</SelectItem>
+                <SelectItem value="low">128</SelectItem>
+                <SelectItem value="very-low">258</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+        </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+              Density Diffution
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+              2.0
+            </div>
+          </div>
+          <div className="fluild-simulation-slider w-full">
+            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+          </div>
+        </div>
+        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+              Velocity Diffution
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+              2.0
+            </div>
+          </div>
+          <div className="fluild-simulation-slider w-full">
+            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+          </div>
+        </div>
+        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+              Pressure
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+              2.0
+            </div>
+          </div>
+          <div className="fluild-simulation-slider w-full">
+            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+          </div>
+        </div>
+        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+              Velocity
             </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+              2.0
+            </div>
+          </div>
+          <div className="fluild-simulation-slider w-full">
+            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+          </div>
+        </div>
+        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+              Splat Radius
+            </span>
+            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+              2.0
+            </div>
+          </div>
+          <div className="fluild-simulation-slider w-full">
+            <Slider defaultValue={[2.0]} max={4} step={0.1} />
+          </div>
+        </div>
+
+        <Form {...form}>
+          <form
+            className="h-auto w-full"
+          >
+            <FormField
+              control={form.control}
+              name="items"
+              render={({ field }) => (
+                <div className="space-y-3">
+                  {items.map((item) => (
+                    <FormItem
+                      key={item.id}
+                      className={cn(
+                        buttonVariants({
+                          variant: "ghost",
+                        }),
+                        "flex h-[50px] flex-row items-center justify-between rounded-lg border"
+                      )}
+                    >
+                      <FormLabel className="flex items-center justify-center font-normal">
+                        {item.label}
+                      </FormLabel>
+                      <FormControl className="flex items-center justify-center m-0 p-0">
+                        <Checkbox
+                          checked={field.value?.includes(item.id)}
+                          onCheckedChange={(checked) => {
+                            return checked
+                              ? field.onChange([...field.value, item.id])
+                              : field.onChange(
+                                  field.value?.filter(
+                                    (value) => value !== item.id
+                                  )
+                                )
+                          }}
+                        />
+                      </FormControl>
+                    </FormItem>
+                  ))}
+                </div>
+              )}
+            />
+          </form>
+        </Form>
+
+        <Collapsible
+          open={bloom}
+          onOpenChange={setBloom}
+          className="w-full space-y-2"
+        >
+          <div className="flex items-center justify-between px-1">
+            <h4 className="text-sm font-semibold">Bloom</h4>
+            <CollapsibleTrigger asChild>
+              <ButtonShadcnUi
+                variant="ghost"
+                size="sm"
+                className="w-9 p-0 border ronded-lg"
+              >
+                <ChevronsUpDown className="h-4 w-4" />
+                <span className="sr-only">Toggle</span>
+              </ButtonShadcnUi>
+            </CollapsibleTrigger>
+          </div>
+          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+            <h1>Enabled</h1>
+            <Checkbox id="bloom" />
+          </div>
+          <CollapsibleContent className="space-y-2">
+            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                  Intensity
+                </span>
+                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                  2.0
+                </div>
+              </div>
+              <div className="fluild-simulation-slider w-full">
+                <Slider defaultValue={[2.0]} max={4} step={0.1} />
+              </div>
+            </div>
+            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                  Theshold
+                </span>
+                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                  2.0
+                </div>
+              </div>
+              <div className="fluild-simulation-slider w-full">
+                <Slider defaultValue={[2.0]} max={4} step={0.1} />
+              </div>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
+        <Collapsible
+          open={sunrays}
+          onOpenChange={setSunrays}
+          className="w-full space-y-2"
+        >
+          <div className="flex items-center justify-between px-1">
+            <h4 className="text-sm font-semibold">Sunrays</h4>
+            <CollapsibleTrigger asChild>
+              <ButtonShadcnUi
+                variant="ghost"
+                size="sm"
+                className="w-9 p-0 border ronded-lg"
+              >
+                <ChevronsUpDown className="h-4 w-4" />
+                <span className="sr-only">Toggle</span>
+              </ButtonShadcnUi>
+            </CollapsibleTrigger>
+          </div>
+          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+            <h1>Enabled</h1>
+            <Checkbox id="sunrays" />
+          </div>
+          <CollapsibleContent className="space-y-2">
+            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                  Weight
+                </span>
+                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                  2.0
+                </div>
+              </div>
+              <div className="fluild-simulation-slider w-full">
+                <Slider defaultValue={[2.0]} max={4} step={0.1} />
+              </div>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
+        <Collapsible
+          open={capture}
+          onOpenChange={setCapture}
+          className="w-full space-y-2"
+        >
+          <div className="flex items-center justify-between px-1">
+            <h4 className="text-sm font-semibold">Capture</h4>
+            <CollapsibleTrigger asChild>
+              <ButtonShadcnUi
+                variant="ghost"
+                size="sm"
+                className="w-9 p-0  border ronded-lg"
+              >
+                <ChevronsUpDown className="h-4 w-4" />
+                <span className="sr-only">Toggle</span>
+              </ButtonShadcnUi>
+            </CollapsibleTrigger>
+          </div>
+          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+            <h1>Transparent</h1>
+            <Checkbox id="capture" />
+          </div>
+
+          <CollapsibleContent className="space-y-2">
+            <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+              <h1>Background Color</h1>
+              <h1>(coming soon)</h1>
+            </div>
+            <div className="rounded-md border px-4 py-3 font-mono text-sm">
+              Take A Screenshot
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
+      </div> */}
+    </section>
   )
 }
