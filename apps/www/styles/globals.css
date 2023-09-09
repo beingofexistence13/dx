@@ -224,6 +224,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
   /* border-bottom: 2px solid yellow; */
   min-width: 100%;
+  border-bottom: 1px solid var(--code-foreground) !important;
 }
 .nav-toggles {
   height: 35px !important;
