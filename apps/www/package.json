@@ -151,7 +151,7 @@
     "@types/canvas-confetti": "^1.6.1",
     "@types/lodash.template": "^4.5.1",
     "@types/react-color": "^3.0.6",
-    "daisyui": "latest",
+    "daisyui": "^3.7.3",
     "dayjs": "^1.11.9",
     "dinero.js": "2.0.0-alpha.8",
     "dotenv": "^16.0.3",

@@ -8,6 +8,9 @@
     "name": "beingofexistence",
     "url": "https://twitter.com/beingofexistence"
   },
+  "workspaces": [
+    "root-package-manager/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "build:cli": "turbo --filter=beingofexistence-dx build",

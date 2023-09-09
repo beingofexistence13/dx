@@ -1,7 +1,7 @@
 import "react-phone-input-2/lib/style.css"
 // primeract
-import "primereact/resources/themes/lara-light-indigo/theme.css"
-import "primereact/resources/primereact.min.css"
+// import "primereact/resources/themes/lara-light-indigo/theme.css"
+// import "primereact/resources/primereact.min.css"
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
@@ -102,7 +102,7 @@ export default function RootLayout({
 
       <body
         className={cn(
-          "bg-background min-h-screen overflow-hidden font-sans antialiased",
+          "min-h-screen overflow-hidden bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
@@ -114,16 +114,16 @@ export default function RootLayout({
                   <Mantine>
                     <main className="flex-1">
                       <SiteLayout />
-                      <div className="border-b">
+                      {/* <div className="border-b">
                         <div className="container flex-1 items-start lg:grid lg:grid-cols-[300px_minmax(0,1fr)] lg:gap-0 xl:grid-cols-[350px_minmax(0,1fr)]">
                           <aside className="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 border-r lg:sticky lg:block">
                             <ScrollArea className="h-full pr-5">
                               <DocsSidebarNav items={docsConfig.sidebarNav} />
                             </ScrollArea>
                           </aside>
-                          {children}
                         </div>
-                      </div>
+                      </div> */}
+                      {children}
                     </main>
                     <Script src="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar-helpers.js" />
                     <Script src="./node_modules/preline/dist/preline.js" />
