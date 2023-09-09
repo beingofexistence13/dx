@@ -1,7 +1,9 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import "react-phone-input-2/lib/style.css"
-// primeract
-// import "primereact/resources/themes/lara-light-indigo/theme.css"
-// import "primereact/resources/primereact.min.css"
+
+import "primereact/resources/themes/lara-light-indigo/theme.css"
+import "primereact/resources/primereact.min.css"
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
@@ -102,7 +104,7 @@ export default function RootLayout({
 
       <body
         className={cn(
-          "min-h-screen overflow-hidden bg-background font-sans antialiased",
+          "bg-background min-h-screen overflow-hidden font-sans antialiased",
           fontSans.variable
         )}
       >
