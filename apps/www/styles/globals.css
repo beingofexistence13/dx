@@ -712,3 +712,7 @@ canvas {
     transform: translateX(-100%);
   }
 }
+
+* {
+  color: var(--code) !important;
+}

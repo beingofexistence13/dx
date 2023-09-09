@@ -1,25 +1,16 @@
 /* eslint-disable tailwindcss/classnames-order */
 
 import "react-phone-input-2/lib/style.css"
-
 import "primereact/resources/themes/lara-light-indigo/theme.css"
 import "primereact/resources/primereact.min.css"
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
-import { Link } from "@nextui-org/link"
-import clsx from "clsx"
 
-import { docsConfig } from "@/config/docs"
 import { fontSans } from "@/config/fonts"
 import { siteConfig } from "@/config/website"
-// import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Navbar } from "@/components/navbar"
-import { ThemeProvider } from "@/components/providers"
-import { DocsSidebarNav } from "@/components/sidebar-nav"
 import SiteLayout from "@/components/site-layout"
-import { ScrollArea } from "@/registry/new-york/ui/scroll-area"
 
 import { Chakraui } from "./chakraui"
 import { Mantine } from "./mantine"
@@ -116,24 +107,17 @@ export default function RootLayout({
                   <Mantine>
                     <main className="flex-1">
                       <SiteLayout />
-                      {/* <div className="border-b">
-                        <div className="container flex-1 items-start lg:grid lg:grid-cols-[300px_minmax(0,1fr)] lg:gap-0 xl:grid-cols-[350px_minmax(0,1fr)]">
-                          <aside className="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 border-r lg:sticky lg:block">
-                            <ScrollArea className="h-full pr-5">
-                              <DocsSidebarNav items={docsConfig.sidebarNav} />
-                            </ScrollArea>
-                          </aside>
-                        </div>
-                      </div> */}
                       {children}
                     </main>
                     <Script src="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar-helpers.js" />
                     <Script src="./node_modules/preline/dist/preline.js" />
-                    {/* <Script src="./dat-gui.js" /> */}
-                    {/* <Script src="./ux/globals.js" type="module" /> */}
                   </Mantine>
                 </PrimeReact>
               </Chakraui>
+              {/* <main className="flex-1">
+                <SiteLayout />
+                {children}
+              </main> */}
             </Query>
           </Redux>
         </Providers>
