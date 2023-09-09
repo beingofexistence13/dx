@@ -276,7 +276,7 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
   return (
     <div
       id="scroll-container"
-      className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3"
+      className="flex h-[30px] flex-1 items-center justify-start overflow-x-auto overflow-y-hidden whitespace-nowrap rounded-lg border px-3"
     >
       <p id="scroll-text" className="text-md">
         {currentText}
@@ -305,7 +305,7 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
   }, [canvasRef])
 
   return isLoading ? (
-    <div className="image-container glassmorphisum fixed top-0 left-0 w-[100%] min-h-screen border rounded-lg">
+    <div className="image-container glassmorphisum fixed left-0 top-0 min-h-screen w-[100%] rounded-lg border">
       <Image priority src="/night-shy.jpeg" fill alt="Sukuna" />
     </div>
   ) : null
@@ -507,21 +507,21 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     <div>
       <Dialog>
         <DialogTrigger asChild>
-          <div className="nav-toggles h-[35px] w-[35px] flex items-center justify-center">
+          <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
             <Icons.hack className="h-4 w-4 fill-current" />
           </div>
         </DialogTrigger>
-        <DialogContent className="hack min-h-[100vh] min-w-[100%] border-0 flex items-center justify-center 2xs:px-1 xs:px-3 m-0">
+        <DialogContent className="hack m-0 flex min-h-[100vh] min-w-[100%] items-center justify-center border-0 2xs:px-1 xs:px-3">
           <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
           <Script src="./fluid-simulation.js" />
           <Suspense fallback={<p>Loading Canvas...</p>}>
-            <div className="hack-container glassmorphisum pt-5 pb-5 flex flex-col items-center border rounded-md w-[425px] max-w-[90%]  space-y-3 h-auto mx-auto">
-              <div className="tab-header w-[90%] h-auto flex items-center justify-start space-x-1.5 pr-[40px]">
-                <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+            <div className="hack-container glassmorphisum mx-auto flex h-auto w-[425px] max-w-[90%] flex-col items-center space-y-3 rounded-md  border py-5">
+              <div className="tab-header flex h-auto w-[90%] items-center justify-start space-x-1.5 pr-[40px]">
+                <div className="help flex h-[35px] w-[35px] items-center justify-center rounded-full border">
                   <BrainCircuit />
                 </div>
-                <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
                   <Icons.speaker className="h-4 w-4 fill-current" />
                 </div>
 
@@ -531,16 +531,16 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 />
                 <Popover>
                   <PopoverTrigger asChild>
-                    <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+                    <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
                       <Cog />
                     </div>
                   </PopoverTrigger>
-                  <PopoverContent className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
-                    <h1 className="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
+                  <PopoverContent className="fluid-simulation-container h-[500px] w-[360px] max-w-[90%] space-y-3 overflow-y-auto overflow-x-hidden rounded-lg border p-5">
+                    <h1 className="bold text-md flex h-[50px] w-full items-start justify-center rounded-lg p-3 hover:animate-bounce hover:items-center hover:bg-[--code-foreground]">
                       Fluid Simulation Controller
                     </h1>
-                    <div className="quality-container flex items-start justify-between w-full">
-                      <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+                    <div className="quality-container flex w-full items-start justify-between">
+                      <span className="rounded-md p-2 text-sm hover:bg-[--code-foreground]">
                         Quality
                       </span>
                       <Select>
@@ -557,14 +557,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </SelectContent>
                       </Select>
                     </div>
-                    <div className="simResolution-container flex items-start justify-between w-full">
-                      <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+                    <div className="simResolution-container flex w-full items-start justify-between">
+                      <span className="rounded-md p-2 text-sm hover:bg-[--code-foreground]">
                         Sim Re..
                       </span>
                       <Select>
                         <SelectTrigger className="w-[180px]">
                           <SelectValue
-                            className="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
+                            className="w-[150px] text-ellipsis whitespace-nowrap text-sm placeholder:text-red-600"
                             placeholder="Select a Sim R.."
                           />
                         </SelectTrigger>
@@ -579,12 +579,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </Select>
                     </div>
 
-                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                    <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                      <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                        <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                           Density Diffution
                         </span>
-                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                        <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                           2.0
                         </div>
                       </div>
@@ -592,12 +592,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Slider defaultValue={[2.0]} max={4} step={0.1} />
                       </div>
                     </div>
-                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                    <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                      <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                        <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                           Velocity Diffution
                         </span>
-                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                        <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                           2.0
                         </div>
                       </div>
@@ -605,12 +605,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Slider defaultValue={[2.0]} max={4} step={0.1} />
                       </div>
                     </div>
-                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                    <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                      <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                        <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                           Pressure
                         </span>
-                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                        <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                           2.0
                         </div>
                       </div>
@@ -618,12 +618,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Slider defaultValue={[2.0]} max={4} step={0.1} />
                       </div>
                     </div>
-                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                    <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                      <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                        <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                           Velocity
                         </span>
-                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                        <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                           2.0
                         </div>
                       </div>
@@ -631,12 +631,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Slider defaultValue={[2.0]} max={4} step={0.1} />
                       </div>
                     </div>
-                    <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                      <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                        <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                    <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                      <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                        <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                           Splat Radius
                         </span>
-                        <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                        <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                           2.0
                         </div>
                       </div>
@@ -665,7 +665,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   <FormLabel className="flex items-center justify-center font-normal">
                                     {item.label}
                                   </FormLabel>
-                                  <FormControl className="flex items-center justify-center m-0 p-0">
+                                  <FormControl className="m-0 flex items-center justify-center p-0">
                                     <Checkbox
                                       checked={field.value?.includes(item.id)}
                                       onCheckedChange={(checked) => {
@@ -701,7 +701,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0 border ronded-lg"
+                            className="ronded-lg w-9 border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
@@ -713,12 +713,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Checkbox id="bloom" />
                       </div>
                       <CollapsibleContent className="space-y-2">
-                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                        <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                          <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                            <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                               Intensity
                             </span>
-                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                            <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                               2.0
                             </div>
                           </div>
@@ -726,12 +726,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             <Slider defaultValue={[2.0]} max={4} step={0.1} />
                           </div>
                         </div>
-                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                        <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                          <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                            <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                               Theshold
                             </span>
-                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                            <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                               2.0
                             </div>
                           </div>
@@ -752,7 +752,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0 border ronded-lg"
+                            className="ronded-lg w-9 border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
@@ -764,12 +764,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Checkbox id="sunrays" />
                       </div>
                       <CollapsibleContent className="space-y-2">
-                        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+                        <div className="fluild-simulation-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                          <div className="fluild-simulation-slider-content flex w-full flex-row items-start justify-between">
+                            <span className="fluild-simulation-slider-title rounded-md text-sm hover:bg-[--code-highlighted]">
                               Weight
                             </span>
-                            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                            <div className="fluild-simulation-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                               2.0
                             </div>
                           </div>
@@ -790,7 +790,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <ButtonShadcnUi
                             variant="ghost"
                             size="sm"
-                            className="w-9 p-0  border ronded-lg"
+                            className="ronded-lg w-9  border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
@@ -817,7 +817,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
               </div>
               <Tabs
                 defaultValue="hackIn"
-                className="hackTabs w-[100%] space-y-3 h-[400px] overflow-y-auto overflow-x-hidden lg:h-[500px]"
+                className="hackTabs h-[400px] w-[100%] space-y-3 overflow-y-auto overflow-x-hidden lg:h-[500px]"
               >
                 <TabsList className="hackTabList glassmorphisum mx-auto grid w-[90%] grid-cols-2">
                   <TabsTrigger value="hackIn" className="hackTabTriggers">
@@ -828,7 +828,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   </TabsTrigger>
                 </TabsList>
                 <TabsContent value="hackIn">
-                  <div className="h-auto w-full flex justify-start items-center flex-col">
+                  <div className="flex h-auto w-full flex-col items-center justify-start">
                     {/* Email and Password */}
                     <form className="email-and-password w-full">
                       <Input
@@ -848,7 +848,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         }
                         validationState={validationEmailAndPhoneNumbberState}
                         onValueChange={setEmailAndPhoneNumbber}
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                         isClearable
                       />
                       <Input
@@ -862,21 +862,21 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
                             ) : (
-                              <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
                             )}
                           </button>
                         }
                         type={isVisible ? "text" : "password"}
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                       />
                     </form>
                     {/* Divider */}
-                    <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                      <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                    <div className="divider item-center mt-1 flex w-full flex-row justify-center space-x-3">
+                      <div className="left-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                       <span className="divider-title">or</span>
-                      <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                      <div className="right-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                     </div>
                     {/* HackIn Search */}
                     <Command className="glassmorphisum rounded-lg border shadow-md">
@@ -954,11 +954,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </CommandList>
                     </Command>
                     {/* Social Media */}
-                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1">
+                    <div className="hackIn-connect-container mt-1 flex h-[110px] w-full flex-wrap items-center justify-between overflow-y-auto overflow-x-hidden rounded-lg border p-2">
                       {docsConfig.passport.map((item, index) => (
                         <div
                           key={index}
-                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          className="m-1 flex h-[40px] w-[40px] items-center justify-center rounded-lg border text-center text-[12.5px]"
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -979,11 +979,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       ))}
                     </div>
                     {/* Wallet */}
-                    <div className="hackIn-connect-container h-[110px] w-full rounded-lg border flex flex-wrap p-2 items-center justify-between overflow-x-hidden overflow-y-auto mt-1.5">
+                    <div className="hackIn-connect-container mt-1.5 flex h-[110px] w-full flex-wrap items-center justify-between overflow-y-auto overflow-x-hidden rounded-lg border p-2">
                       {docsConfig.wallet.map((item, index) => (
                         <div
                           key={index}
-                          className="h-[40px] w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                          className="m-1 flex h-[40px] w-[40px] items-center justify-center rounded-lg border text-center text-[12.5px]"
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -1004,32 +1004,32 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       ))}
                     </div>
                     {/* Divider */}
-                    <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                      <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                    <div className="divider item-center mt-1 flex w-full flex-row justify-center space-x-3">
+                      <div className="left-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                       <span className="divider-title">or</span>
-                      <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                      <div className="right-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                     </div>
                     {/* Friday Factor */}
-                    <div className="friday-factor w-full min-h-max grid grid-cols-2 gap-2">
-                      <div className="friday glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                    <div className="friday-factor grid min-h-max w-full grid-cols-2 gap-2">
+                      <div className="friday glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
                         Friday
                       </div>
-                      <div className="qr-code glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      <div className="qr-code glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
                         QR Code
                       </div>
-                      <div className="authenticator glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      <div className="authenticator glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
                         Authenticator
                       </div>
-                      <div className="face glassmorphisum hoverGlassmorphisum w-full h-[50px] rounded-lg flex items-center justify-center">
+                      <div className="face glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
                         Face
                       </div>
                     </div>
                     {/* Footer */}
-                    <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                    <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
                       <Button
                         ref={buttonRef}
                         disableRipple
-                        className="p-0 bg-[--code-foreground] max-w-[175px] relative border overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-background/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0"
+                        className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                         size="lg"
                         onPress={handleConfetti}
                       >
@@ -1045,14 +1045,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   </div>
                 </TabsContent>
                 <TabsContent value="hackUp">
-                  <div className="h-auto w-full flex justify-start items-start flex-row overflow-hidden">
+                  <div className="flex h-auto w-full flex-row items-start justify-start overflow-hidden">
                     {/* Personal Details */}
                     <form
                       style={{ marginLeft: `${marginLeft}` }}
                       onSubmit={form.handleSubmit(onSubmit)}
-                      className={`web2 h-auto min-w-full rounded-sm flex justify-start items-center flex-col`}
+                      className={`web2 flex h-auto min-w-full flex-col items-center justify-start rounded-sm`}
                     >
-                      <div className="w-full flex items-center justify-between border rounded-xl text-sm">
+                      <div className="flex w-full items-center justify-between rounded-xl border text-sm">
                         <input
                           type="file"
                           style={{ display: "none" }}
@@ -1073,7 +1073,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         type="search"
                         placeholder="Enter Your Name"
                         variant="bordered"
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                         isClearable
                       />
                       <Input
@@ -1091,7 +1091,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         }
                         validationState={validationState}
                         onValueChange={setValue}
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                         isClearable
                       />
                       <PhoneInput
@@ -1110,14 +1110,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
                             ) : (
-                              <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
                             )}
                           </button>
                         }
                         type={isVisible ? "text" : "password"}
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                       />
                       <Input
                         autoComplete="on"
@@ -1130,17 +1130,17 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
                             ) : (
-                              <Icons.eyeClose className="text-2xl text-default-400 pointer-events-none" />
+                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
                             )}
                           </button>
                         }
                         type={isVisible ? "text" : "password"}
-                        className="w-full mt-3"
+                        className="mt-3 w-full"
                       />
                       <Form {...form}>
-                        <div className="glassmorphisum w-full mt-3">
+                        <div className="glassmorphisum mt-3 w-full">
                           <FormField
                             control={form.control}
                             name="dob"
@@ -1167,7 +1167,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     </FormControl>
                                   </PopoverTrigger>
                                   <PopoverContent
-                                    className="w-auto p-0 z-[10000000000000000000000000000000]"
+                                    className="z-[10000000000000000000000000000000] w-auto p-0"
                                     align="start"
                                   >
                                     <Calendar
@@ -1191,33 +1191,33 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <textarea
                         placeholder="Enter Your Bio"
                         rows={4}
-                        className="glassmorphisum flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none mt-3"
+                        className="glassmorphisum mt-3 flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none"
                         defaultValue={""}
                       />
 
-                      <div className="border h-[60px] rounded-xl w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row py-1.5 px-3 mt-7 space-x-2">
-                        <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                      <div className="mt-7 flex h-[60px] w-full flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden rounded-xl border px-3 py-1.5">
+                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Avatar
                         </span>
-                        <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Name
                         </span>
-                        <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Email
                         </span>
-                        <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Phone Number
                         </span>
-                        <span className="bg-red-200 text-red-600 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Password
                         </span>
                       </div>
 
-                      <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
                         <Button
                           ref={buttonRef}
                           disableRipple
-                          className="p-0 bg-[--code-foreground] max-w-[175px] relative border overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-background/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0"
+                          className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                           size="lg"
                           onPress={handleConfetti}
                         >
@@ -1233,8 +1233,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </div>
                     </form>
                     {/* Connect */}
-                    <div className="connect h-auto min-w-full flex justify-center items-start flex-col">
-                      <Command className="glassmorphisum rounded-lg border shadow-md h-[175px] w-full">
+                    <div className="connect flex h-auto min-w-full flex-col items-start justify-center">
+                      <Command className="glassmorphisum h-[175px] w-full rounded-lg border shadow-md">
                         <CommandInput placeholder="Wallets,Chains,Medias..." />
                         <CommandList>
                           <CommandEmpty>No results found.</CommandEmpty>
@@ -1335,12 +1335,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </CommandList>
                       </Command>
 
-                      <div className="h-[450px] w-full mx-auto overflow-y-auto overflow-x-auto">
-                        <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-hidden flex justify-start items-center flex-row border rounded-md mt-1.5">
+                      <div className="mx-auto h-[450px] w-full overflow-auto">
+                        <div className="hackIn-connect-container mt-1.5 flex h-[60px] w-full flex-row items-center justify-start overflow-hidden rounded-md border">
                           {docsConfig.passport.map((item, index) => (
                             <div
                               key={index}
-                              className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                              className="m-1 flex min-h-[40px] min-w-[40px] items-center justify-center rounded-lg border text-center text-[12.5px]"
                             >
                               <Avatar className="h-[27px] w-[27px] rounded-sm">
                                 <AvatarImage
@@ -1361,11 +1361,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           ))}
                         </div>
 
-                        <div className="hackIn-connect-container h-[60px] w-full overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row border rounded-md mt-1.5">
+                        <div className="hackIn-connect-container mt-1.5 flex h-[60px] w-full flex-row items-center justify-start overflow-x-auto overflow-y-hidden rounded-md border">
                           {docsConfig.wallet.map((item, index) => (
                             <div
                               key={index}
-                              className="min-h-[40px] min-w-[40px] border text-center text-[12.5px] rounded-lg flex items-center justify-center m-1"
+                              className="m-1 flex min-h-[40px] min-w-[40px] items-center justify-center rounded-lg border text-center text-[12.5px]"
                             >
                               <Avatar className="h-[27px] w-[27px] rounded-sm">
                                 <AvatarImage
@@ -1386,15 +1386,15 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           ))}
                         </div>
 
-                        <div className="divider w-full flex flex-row item-center justify-center space-x-3 mt-1">
-                          <div className="left-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                        <div className="divider item-center mt-1 flex w-full flex-row justify-center space-x-3">
+                          <div className="left-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                           <span className="divider-title">
                             wallets according chains
                           </span>
-                          <div className="right-divider flex-1 h-[2.5px]  rounded-lg bg-[--code-foreground] w-full my-auto"></div>
+                          <div className="right-divider my-auto h-[2.5px]  w-full flex-1 rounded-lg bg-[--code-foreground]"></div>
                         </div>
 
-                        <div className="dark:text-[#B3B3B3] text-black h-[250px] w-[100%] overflow-y-hidden overflow-x-auto flex justify-start items-center flex-row rounded-md space-x-3">
+                        <div className="flex h-[250px] w-[100%] flex-row items-center justify-start space-x-3 overflow-x-auto overflow-y-hidden rounded-md text-black dark:text-[#B3B3B3]">
                           {filteredChains.map((chain, idx) => {
                             if (idx === 2) {
                               return (
@@ -1425,19 +1425,19 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </div>
                       </div>
 
-                      <div className="border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
+                      <div className="mt-7 flex h-[60px] w-full  flex-row items-center justify-between rounded-xl border px-3 py-1.5 ">
                         {pendingContent ? (
-                          <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                          <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Cleared
                             </span>
                           </div>
                         ) : (
-                          <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                          <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Social Media
                             </span>
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Wallet
                             </span>
                           </div>
@@ -1445,14 +1445,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                         <ButtonShadcnUi
                           onClick={() => setPendingContent(!pendingContent)}
-                          className="pending-clear border p-3 rounded-full"
+                          className="pending-clear rounded-full border p-3"
                           variant="outline"
                         >
                           <Icons.close className="h-4 w-4" />
                         </ButtonShadcnUi>
                       </div>
 
-                      <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
                         <ButtonShadcnUi onClick={() => setMarginLeft("-00px")}>
                           Back
                         </ButtonShadcnUi>
@@ -1466,14 +1466,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       </div>
                     </div>
                     {/* Friday Factor */}
-                    <div className="friday-factor h-auto min-w-full flex justify-center items-start flex-col">
+                    <div className="friday-factor flex h-auto min-w-full flex-col items-start justify-center">
                       <Collapsible
                         open={isFridayOpen}
                         onOpenChange={setIsFridayOpen}
                         className="w-full space-y-2"
                       >
                         <div className="flex items-center justify-between space-x-4 px-1">
-                          <h4 className="text-md font-semibold flex items-center justify-center flex-row">
+                          <h4 className="text-md flex flex-row items-center justify-center font-semibold">
                             <Bot className="mr-2" />
                             Configure Friday
                           </h4>
@@ -1481,7 +1481,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             <ButtonShadcnUi
                               variant="ghost"
                               size="sm"
-                              className="w-9 p-0 border"
+                              className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
@@ -1503,7 +1503,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               </button>
                             }
                             type={isVisible ? "text" : "password"}
-                            className="w-full mt-3"
+                            className="mt-3 w-full"
                           />
                         </form>
 
@@ -1527,7 +1527,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 </button>
                               }
                               type={isVisible ? "text" : "password"}
-                              className="w-full mt-3"
+                              className="mt-3 w-full"
                             />
                           </form>
 
@@ -1541,7 +1541,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                               <ButtonShadcnUi
                                 onClick={toggleVisibility}
-                                className="pending-clear absolute top-1 right-1 border p-3 rounded-full"
+                                className="pending-clear absolute right-1 top-1 rounded-full border p-3"
                                 variant="outline"
                               >
                                 {isVisible ? (
@@ -1615,10 +1615,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Collapsible
                         open={isQRCodeOpen}
                         onOpenChange={setIsQRCodeOpen}
-                        className="w-full space-y-2 mt-2"
+                        className="mt-2 w-full space-y-2"
                       >
                         <div className="flex items-center justify-between space-x-4 ">
-                          <h4 className="text-md font-semibold flex items-center justify-center flex-row">
+                          <h4 className="text-md flex flex-row items-center justify-center font-semibold">
                             <QrCode className="mr-2" />
                             Configure QR Code
                           </h4>
@@ -1626,7 +1626,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             <ButtonShadcnUi
                               variant="ghost"
                               size="sm"
-                              className="w-9 p-0 border"
+                              className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
@@ -1637,7 +1637,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                         <CollapsibleContent className="space-y-2">
                           <Textarea placeholder="Type Your Negative Prompt For QR Code." />
-                          <div className="w-full flex items-center justify-between border rounded-xl text-sm">
+                          <div className="flex w-full items-center justify-between rounded-xl border text-sm">
                             <form>
                               <input
                                 type="file"
@@ -1655,12 +1655,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               {file && <p>Selected file: {file.name}</p>}
                             </form>
                           </div>
-                          <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                          <div className="qrCode-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                            <div className="qrCode-slider-content flex w-full flex-row items-start justify-between">
+                              <span className="qrCode-slider-title text-md rounded-md hover:bg-[--code-highlighted]">
                                 Seed
                               </span>
-                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                                 3.3
                               </div>
                             </div>
@@ -1668,12 +1668,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               <Slider defaultValue={[33]} max={100} step={1} />
                             </div>
                           </div>
-                          <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                          <div className="qrCode-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                            <div className="qrCode-slider-content flex w-full flex-row items-start justify-between">
+                              <span className="qrCode-slider-title text-md rounded-md hover:bg-[--code-highlighted]">
                                 Strength
                               </span>
-                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                                 6.6
                               </div>
                             </div>
@@ -1681,12 +1681,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               <Slider defaultValue={[66]} max={100} step={1} />
                             </div>
                           </div>
-                          <div className="qrCode-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-                            <div className="qrCode-slider-content flex items-start justify-between flex-row w-full">
-                              <span className="qrCode-slider-title text-md hover:bg-[--code-highlighted] rounded-md">
+                          <div className="qrCode-slider-conatainer mt-3 flex h-auto w-full flex-col items-center justify-between space-y-2 rounded-lg border p-3">
+                            <div className="qrCode-slider-content flex w-full flex-row items-start justify-between">
+                              <span className="qrCode-slider-title text-md rounded-md hover:bg-[--code-highlighted]">
                                 Guidence Scale
                               </span>
-                              <div className="qrCode-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                              <div className="qrCode-slider-rate rounded-xl bg-[--code-foreground] p-2.5 text-xs hover:bg-[--code-highlighted]">
                                 9.9
                               </div>
                             </div>
@@ -1698,7 +1698,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           <Card
                             isFooterBlurred
                             radius="lg"
-                            className="border-none min-h-[350px]"
+                            className="min-h-[350px] border-none"
                           >
                             <AspectRatio ratio={16 / 9}>
                               <ImageNext
@@ -1710,12 +1710,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               />
                             </AspectRatio>
 
-                            <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-3 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                            <CardFooter className="absolute bottom-3 z-10 ml-1 w-[calc(100%_-_8px)] justify-between overflow-hidden rounded-large border-1 border-white/20 py-1 shadow-small before:rounded-xl before:bg-white/10">
                               <p className="text-tiny text-white/80">
                                 Support Developers At Huggingfacfe.
                               </p>
                               <Button
-                                className="text-tiny text-white bg-black/20"
+                                className="bg-black/20 text-tiny text-white"
                                 variant="flat"
                                 color="default"
                                 radius="lg"
@@ -1730,10 +1730,10 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Collapsible
                         open={isExtraSafetyOpen}
                         onOpenChange={setIsExtraSafetyOpen}
-                        className="w-full space-y-2 mt-2"
+                        className="mt-2 w-full space-y-2"
                       >
                         <div className="flex items-center justify-between space-x-4 ">
-                          <h4 className="text-sm font-semibold flex items-center justify-center flex-row">
+                          <h4 className="flex flex-row items-center justify-center text-sm font-semibold">
                             <Shield className="mr-2" />
                             Configure Extra Safety
                           </h4>
@@ -1741,7 +1741,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             <ButtonShadcnUi
                               variant="ghost"
                               size="sm"
-                              className="w-9 p-0 border"
+                              className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
@@ -1754,7 +1754,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             type="tel"
                             placeholder="Type Your Authentication Code"
                             variant="bordered"
-                            className="w-full mt-3"
+                            className="mt-3 w-full"
                           />
                         </form>
                         <CollapsibleContent className="space-y-2">
@@ -1780,11 +1780,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 validationEmailAndPhoneNumbberState
                               }
                               onValueChange={setEmailAndPhoneNumbber}
-                              className="w-full mt-3"
+                              className="mt-3 w-full"
                               isClearable
                             />
                             <ContextMenu>
-                              <ContextMenuTrigger className="relative flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm mt-3">
+                              <ContextMenuTrigger className="relative mt-3 flex h-[150px] w-full items-center justify-center rounded-md border border-dashed text-sm">
                                 <input
                                   type="file"
                                   style={{ display: "none" }}
@@ -1863,22 +1863,22 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         </CollapsibleContent>
                       </Collapsible>
 
-                      <div className="border h-[60px] rounded-xl w-full  flex justify-between items-center flex-row py-1.5 px-3 mt-7 ">
+                      <div className="mt-7 flex h-[60px] w-full  flex-row items-center justify-between rounded-xl border px-3 py-1.5 ">
                         {pendingContent ? (
-                          <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                          <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Cleared
                             </span>
                           </div>
                         ) : (
-                          <div className="pending-content h-full w-full flex justify-start items-center flex-row flex-1 overflow-y-hidden overflow-x-auto space-x-2">
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                          <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Friday
                             </span>
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               QR Code
                             </span>
-                            <span className="bg-red-200 hover:bg-red-400 text-red-700 border-red-500 text-sm rounded-full flex items-center justify-center px-2 py-1 min-w-max border-3">
+                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Authenticator
                             </span>
                           </div>
@@ -1886,13 +1886,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
 
                         <ButtonShadcnUi
                           onClick={() => setPendingContent(!pendingContent)}
-                          className="pending-clear border p-3 rounded-full"
+                          className="pending-clear rounded-full border p-3"
                           variant="outline"
                         >
                           <Icons.close className="h-4 w-4" />
                         </ButtonShadcnUi>
                       </div>
-                      <div className="hackIn-footer w-full mt-3 flex items-center justify-between">
+                      <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
                         <ButtonShadcnUi
                           className="rounded-full"
                           onClick={() => setMarginLeft("-100%")}
@@ -1902,7 +1902,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Button
                           ref={buttonRef}
                           disableRipple
-                          className="p-0 bg-[--code-foreground] max-w-[175px] relative border overflow-visible rounded-full hover:-translate-y-1 px-12 shadow-xl after:content-[''] after:absolute after:rounded-full after:inset-0 after:bg-background/40 after:z-[-1] after:transition after:!duration-500 hover:after:scale-150 hover:after:opacity-0"
+                          className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                           size="lg"
                           onPress={handleConfetti}
                         >

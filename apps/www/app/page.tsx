@@ -187,7 +187,6 @@ import {
 } from "@/components/ui"
 
 export default function Home() {
-
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       {/* <div className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">

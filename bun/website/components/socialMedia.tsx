@@ -217,7 +217,7 @@ const DialogContent = React.forwardRef<
     >
       <div className="relative max-w-[95%]">
         {children}
-        <DialogPrimitive.Close className="absolute h-[35px] w-[35px] flex items-center justify-center rounded-full border right-1 top-2 opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
+        <DialogPrimitive.Close className="absolute right-1 top-2 flex h-[35px] w-[35px] items-center justify-center rounded-full border opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground">
           <X className="h-4 w-4" />
           <span className="sr-only">Close</span>
         </DialogPrimitive.Close>
@@ -310,7 +310,7 @@ export default function SocialMedias() {
           <span className="sr-only">Social Medias</span>
         </div>
       </DialogTrigger>
-      <DialogContent className="rounded-md max-w-[90%] sm:max-w-[375px] overflow-y-auto overflow-x-hidden flex flex-col items-center justify-start h-[500px] px-0 py-5">
+      <DialogContent className="flex h-[500px] max-w-[90%] flex-col items-center justify-start overflow-y-auto overflow-x-hidden rounded-md px-0 py-5 sm:max-w-[375px]">
         <Tabs defaultValue="vlog" className="">
           <DialogHeader>
             <DialogTitle>
@@ -320,7 +320,7 @@ export default function SocialMedias() {
                 <TabsTrigger value="react">React</TabsTrigger>
               </TabsList>
             </DialogTitle>
-            <DialogDescription className="social_media_container w-full h-auto p-0">
+            <DialogDescription className="social_media_container h-auto w-full p-0">
               <TabsContent value="vlog" className="p-0">
                 <div className="grid grid-cols-2 justify-stretch gap-3">
                   {socialMediaConfig.platformVlog?.map(

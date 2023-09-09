@@ -225,7 +225,7 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
   return (
     <div
       id="scroll-container"
-      className="flex-1 h-[30px] flex items-center justify-start overflow-y-hidden overflow-x-auto whitespace-nowrap border rounded-lg px-3"
+      className="flex h-[30px] flex-1 items-center justify-start overflow-x-auto overflow-y-hidden whitespace-nowrap rounded-lg border px-3"
     >
       <p id="scroll-text" className="text-md">
         {currentText}
@@ -293,12 +293,12 @@ export function DevMode() {
           <Icons.devMode className="h-2 w-2" />
         </div>
       </PopoverTrigger>
-      <PopoverContent className="devMode-container flex h-[500px] flex-col rounded-sm overflow-hidden items-center justify-start w-full">
-        <div className="tab-header w-[100%] h-auto flex items-center justify-start space-x-1.5 py-2 px-3">
-          <div className="help h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+      <PopoverContent className="devMode-container flex h-[500px] w-full flex-col items-center justify-start overflow-hidden rounded-sm">
+        <div className="tab-header flex h-auto w-[100%] items-center justify-start space-x-1.5 px-3 py-2">
+          <div className="help flex h-[35px] w-[35px] items-center justify-center rounded-full border">
             <BrainCircuit />
           </div>
-          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+          <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
             <Icons.speaker className="h-4 w-4 fill-current" />
           </div>
 
@@ -306,10 +306,10 @@ export function DevMode() {
             text="Tips: Are Easy And Makes Jobs More Faster"
             delay={125}
           />
-          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+          <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
             <Icons.hackSetting className="h-4 w-4 fill-current" />
           </div>
-          <div className="speaker h-[35px] w-[35px] flex items-center justify-center rounded-full border">
+          <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
             <Icons.close className="h-4 w-4 fill-current" />
           </div>
         </div>
@@ -326,7 +326,7 @@ export function DevMode() {
                     control={form.control}
                     name="dev_mode"
                     render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm min-w-full">
+                      <FormItem className="flex min-w-full flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
                           <FormLabel>Dev Mode</FormLabel>
                           <FormDescription>
@@ -362,7 +362,7 @@ export function DevMode() {
                     control={form.control}
                     name="hello_tool"
                     render={({ field }) => (
-                      <FormItem className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-sm w-full">
+                      <FormItem className="flex w-full flex-row items-center justify-between rounded-lg border p-3 shadow-sm">
                         <div className="space-y-0.5">
                           <FormLabel>Hello Tool</FormLabel>
                           <FormDescription>
@@ -402,7 +402,7 @@ export function DevMode() {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto pb-3 pl-2 pr-0 pt-[10px] overflow-x-hidden"
+            className="devMode-content h-[425px] w-full space-y-0 overflow-y-auto overflow-x-hidden pb-3 pl-2 pr-0 pt-[10px]"
           >
             <FormField
               control={form.control}

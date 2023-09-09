@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 export default function Logo() {
   return (
     <svg

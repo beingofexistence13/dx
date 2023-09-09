@@ -188,7 +188,7 @@ export function DocsSidebarNavItems({
           >
             <HoverCard>
               <HoverCardTrigger className="flex h-[35px] w-full items-center ">
-                <div className="items-logo-container rainbow-text mr-2 h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lgfeat flex items-center justify-center ">
+                <div className="items-logo-container rainbow-text rounded-lgfeat mr-2 flex h-[32.5px] w-[32.5px] items-center justify-center border text-center text-[12.5px] ">
                   <Avatar className="h-[25px] w-[25px] rounded-sm">
                     <AvatarImage
                       src={
@@ -208,12 +208,12 @@ export function DocsSidebarNavItems({
 
                 {transformString(item.title.replace(/-/g, " "))}
               </HoverCardTrigger>
-              <HoverCardContent className="p-8 w-[450px] h-auto">
-                <div className="details flex item-center w-full flex-col space-y-3 ">
-                  <div className="details_description flex items-center justify-center mb-1">
+              <HoverCardContent className="h-auto w-[450px] p-8">
+                <div className="details item-center flex w-full flex-col space-y-3 ">
+                  <div className="details_description mb-1 flex items-center justify-center">
                     {item.description}
                   </div>
-                  <div className="details_actions flex items-center justify-between flex-row w-full ">
+                  <div className="details_actions flex w-full flex-row items-center justify-between ">
                     {item.website_url ? (
                       <Link
                         key={index}
@@ -234,7 +234,7 @@ export function DocsSidebarNavItems({
                     )}
 
                     {item.appStore && item.playStore && item.webStore ? (
-                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-3">
+                      <div className="more_actions flex flex-1 flex-row items-center justify-center space-x-3">
                         <Link
                           key={index}
                           href={item.appStore}
@@ -270,7 +270,7 @@ export function DocsSidebarNavItems({
                     item.star &&
                     item.version &&
                     item.updated ? (
-                      <div className="more_actions flex-1 flex items-center justify-center flex-row space-x-3">
+                      <div className="more_actions flex flex-1 flex-row items-center justify-center space-x-3">
                         <h6 className="download hover:underline">
                           {item.download}
                         </h6>

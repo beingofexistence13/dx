@@ -72,10 +72,10 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="sheetLeft p-0 m-0">
+      <SheetContent side="left" className="sheetLeft m-0 p-0">
         <MobileLink
           href="/"
-          className="flex items-center justify-center p-10 mx-8 mt-5 py-1 border rounded-md hover:bg-[--code-foreground]"
+          className="mx-8 mt-5 flex items-center justify-center rounded-md border p-10 py-1 hover:bg-[--code-foreground]"
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
@@ -85,7 +85,7 @@ export function MobileNav() {
           <span className="font-bold">{siteConfig.name}</span>
         </MobileLink>
 
-        <ScrollArea className="mobile-scroll mt-2 h-[100vh] pb-0 px-8 ">
+        <ScrollArea className="mobile-scroll mt-2 h-[100vh] px-8 pb-0 ">
           <Accordion type="multiple" className="w-full">
             {/* Products */}
             <div className="flex flex-col space-y-3">
@@ -97,10 +97,10 @@ export function MobileNav() {
                       item.href && (
                         <div
                           key={index}
-                          className="w-full flex flex-row items-center justify-between h-12"
+                          className="flex h-12 w-full flex-row items-center justify-between"
                         >
                           <div className="products-logo">
-                            <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="items-logo-container rainbow-text flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px] ">
                               <div className="item-logo-fallback">
                                 {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
@@ -111,12 +111,12 @@ export function MobileNav() {
                               key={item.href}
                               href={item.href}
                               onOpenChange={setOpen}
-                              className="w-full flex flex-row items-center justify-center"
+                              className="flex w-full flex-row items-center justify-center"
                             >
                               {item.title}
                             </MobileLink>
                           </div>
-                          <div className="products-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <div className="products-action flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px]">
                             <Icons.moreHorizental className="h-4 w-4" />
                           </div>
                         </div>
@@ -136,10 +136,10 @@ export function MobileNav() {
                       item.href && (
                         <div
                           key={index}
-                          className="w-full flex flex-row items-center justify-between h-12"
+                          className="flex h-12 w-full flex-row items-center justify-between"
                         >
                           <div className="products-logo">
-                            <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="items-logo-container rainbow-text flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px] ">
                               <div className="item-logo-fallback">
                                 {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
@@ -150,12 +150,12 @@ export function MobileNav() {
                               key={item.href}
                               href={item.href}
                               onOpenChange={setOpen}
-                              className="w-full flex flex-row items-center justify-center"
+                              className="flex w-full flex-row items-center justify-center"
                             >
                               {item.title}
                             </MobileLink>
                           </div>
-                          <div className="products-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <div className="products-action flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px]">
                             <Icons.moreHorizental className="h-4 w-4" />
                           </div>
                         </div>
@@ -175,10 +175,10 @@ export function MobileNav() {
                       item.href && (
                         <div
                           key={index}
-                          className="w-full flex flex-row items-center justify-between h-12"
+                          className="flex h-12 w-full flex-row items-center justify-between"
                         >
                           <div className="products-logo">
-                            <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center ">
+                            <div className="items-logo-container rainbow-text flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px] ">
                               <div className="item-logo-fallback">
                                 {item.title ? logoLetter(item.title) : "Dx"}
                               </div>
@@ -189,12 +189,12 @@ export function MobileNav() {
                               key={item.href}
                               href={item.href}
                               onOpenChange={setOpen}
-                              className="w-full flex flex-row items-center justify-center"
+                              className="flex w-full flex-row items-center justify-center"
                             >
                               {item.title}
                             </MobileLink>
                           </div>
-                          <div className="products-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                          <div className="products-action flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px]">
                             <Icons.moreHorizental className="h-4 w-4" />
                           </div>
                         </div>
@@ -216,9 +216,9 @@ export function MobileNav() {
                           <React.Fragment key={item.href}>
                             {!item.disabled &&
                               (item.href ? (
-                                <div className="w-full flex flex-row items-center justify-between h-12">
+                                <div className="flex h-12 w-full flex-row items-center justify-between">
                                   <div className="products-logo">
-                                    <div className="items-logo-container rainbow-text h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-lg flex items-center justify-center ">
+                                    <div className="items-logo-container rainbow-text flex h-[32.5px] w-[32.5px] items-center justify-center rounded-lg border text-center text-[12.5px] ">
                                       <Avatar className="h-[25px] w-[25px] rounded-sm">
                                         <AvatarImage
                                           src={
@@ -243,7 +243,7 @@ export function MobileNav() {
                                       key={item.href}
                                       href={item.href}
                                       onOpenChange={setOpen}
-                                      className="w-full flex flex-row items-center justify-center"
+                                      className="flex w-full flex-row items-center justify-center"
                                     >
                                       {transformString(
                                         item.title.replace(/'S/g, "")
@@ -252,7 +252,7 @@ export function MobileNav() {
                                   </div>
                                   <DropdownMenu>
                                     <DropdownMenuTrigger asChild>
-                                      <div className="main-navitem-action h-[32.5px] w-[32.5px] border text-center text-[12.5px] rounded-full flex items-center justify-center">
+                                      <div className="main-navitem-action flex h-[32.5px] w-[32.5px] items-center justify-center rounded-full border text-center text-[12.5px]">
                                         <Icons.moreHorizental className="h-4 w-4" />
                                       </div>
                                     </DropdownMenuTrigger>
@@ -389,7 +389,7 @@ export function MobileNav() {
               ))}
             </div>
           </Accordion>
-          <h5 className="flex w-full items-start justify-center mt-8 h-[250px]">
+          <h5 className="mt-8 flex h-[250px] w-full items-start justify-center">
             Build By Sumon & Loved By You!!!
             {/* <Avatar>
               <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />

@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 import * as React from "react";
 import Head from "next/head";
 import Link from "next/link";

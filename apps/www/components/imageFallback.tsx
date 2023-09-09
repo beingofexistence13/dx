@@ -9,6 +9,7 @@ const ImageWithFallback = (props: any) => {
 
   return (
     <Image
+      alt={"hello"}
       {...rest}
       src={imgSrc}
       onError={() => {
