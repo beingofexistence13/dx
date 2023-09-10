@@ -6,7 +6,6 @@ import RPCList from "../RPCList";
 import { renderProviderText } from "../../utils";
 import { usePathname, useSearchParams } from 'next/navigation'
 import Link from "next/link";
-// import { useTranslations } from "next-intl";
 import { notTranslation as useTranslations } from "../../utils";
 import { useChain } from "../../stores";
 import useAccount from "../../hooks/useAccount";
