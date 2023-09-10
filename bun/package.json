@@ -11,6 +11,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "bun": "^1.0.0",
     "figlet": "^1.6.0"
   }
 }

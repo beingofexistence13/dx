@@ -1,7 +1,10 @@
-import fs from "fs"
-import { get } from "https"
-import path from "path"
+import { get } from 'http';
+import { Bun } from 'bun';
 
+interface NavItem {
+    title: string;
+    logo?: string;
+}
 const sidebarNav = [
   // Getting Started
   {
@@ -48832,28 +48835,48 @@ const mainNav = [
 ]
 
 
-interface NavItem {
-    title: string;
-    logo?: string;
-}
-
 const download = (url: string, filePath: string, callback: () => void) => {
-    const dir = path.dirname(filePath);
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
-    }
     get(url, (res) => {
-        const fileStream = fs.createWriteStream(filePath);
-        res.pipe(fileStream);
-        fileStream.on("finish", () => {
-            fileStream.close(callback);
+        let data = '';
+        res.on('data', (chunk) => data += chunk);
+        res.on('end', () => {
+            Bun.write(filePath, data).then(callback);
         });
     });
 };
-
 mainNav.forEach((item) => {
     const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
     download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
         console.log(`${item.title} logo is downloadeded!!!`);
     });
 });
+
+
+
+
+
+// interface NavItem {
+//     title: string;
+//     logo?: string;
+// }
+
+// const download = (url: string, filePath: string, callback: () => void) => {
+//     const dir = path.dirname(filePath);
+//     if (!fs.existsSync(dir)) {
+//         fs.mkdirSync(dir, { recursive: true });
+//     }
+//     get(url, (res) => {
+//         const fileStream = fs.createWriteStream(filePath);
+//         res.pipe(fileStream);
+//         fileStream.on("finish", () => {
+//             fileStream.close(callback);
+//         });
+//     });
+// };
+
+// mainNav.forEach((item) => {
+//     const filePath = `${item.title.replace(/\s/g,"").toLowerCase()}.jpg`;
+//     download(`https://logo.clearbit.com/${item.title}.com`, filePath, () => {
+//         console.log(`${item.title} logo is downloadeded!!!`);
+//     });
+// });
