@@ -1,5 +1,6 @@
 /* eslint-disable tailwindcss/classnames-order */
 import "@/styles/globals.css"
+import "@/public/three.js/files/main.css"
 import { Metadata } from "next"
 import Script from "next/script"
 
@@ -12,8 +13,8 @@ import SiteLayout from "@/components/site-layout"
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: "threejs-examples",
+    template: `%s - threejs-examples`,
   },
   description: siteConfig.description,
   keywords: [
@@ -73,16 +74,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/base.css"
-      />
-
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar.css"
-      />
-
       <body
         className={cn(
           "bg-background min-h-screen overflow-hidden font-sans antialiased",
