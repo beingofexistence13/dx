@@ -83,15 +83,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/base.css"
-      />
 
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar.css"
-      />
 
       <body
         className={cn(

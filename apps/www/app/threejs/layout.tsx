@@ -7,7 +7,6 @@ import Script from "next/script"
 import { fontSans } from "@/config/fonts"
 import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"
-import SiteLayout from "@/components/site-layout"
 
 
 export const metadata: Metadata = {
@@ -80,9 +79,9 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+      <Script src="three.js" />
+
         {children}
-        <Script src="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar-helpers.js" />
-        <Script src="./node_modules/preline/dist/preline.js" />
       </body>
     </html>
   )
