@@ -50771,7 +50771,7 @@ const dapp: Dapp[] = [
 //   downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${filePath}.jpg`, `${item.icon}.jpg`)
   
 // });
-dapp.forEach((item) => {
+wallet.forEach((item) => {
   const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}`;
   downloadImage(item.logo, `${filePath}.jpg`)
   
