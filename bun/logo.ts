@@ -50758,7 +50758,7 @@ const dapp: Dapp[] = [
   
 ];
 
-dapp.forEach((item) => {
+passport.forEach((item) => {
     
   const filePath = `${item.title.replace(/\s/g, "").replace(/\./g, "").toLowerCase()}`;
   downloadImage(item.logo, `${filePath}.jpg`)
