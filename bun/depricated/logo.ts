@@ -27726,14 +27726,15 @@ const dapps = [
 //   });
 // };
 
-blockchain.forEach((item) => {
-  const filePath = `${item.name.replace(/\s/g, "").toLowerCase()}.jpg`;
-  // download(`https://icons.llamao.fi/icons/chains/rsz_${item.icon}.jpg`, filePath, () => {
-  //   console.log(`${item.name} logo is downloadeded!!!`);
-  // });
-  downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${item.icon}.jpg`, filePath,);
+// blockchain.forEach((item) => {
+//   const filePath = `${item.name.replace(/\s/g, "").toLowerCase()}.jpg`;
+//   // download(`https://icons.llamao.fi/icons/chains/rsz_${item.icon}.jpg`, filePath, () => {
+//   //   console.log(`${item.name} logo is downloadeded!!!`);
+//   // });
+//   downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${item.icon}.jpg`, filePath,);
 
-});
+// });
+  downloadImage(`https://icons.llamao.fi/icons/chains/rsz_ethereum.jpg`, "ethereum.jpg",);
 
 
 
