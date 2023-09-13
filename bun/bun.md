@@ -1,1 +1,1 @@
-Blazing fast nodejs!!!
+bun init

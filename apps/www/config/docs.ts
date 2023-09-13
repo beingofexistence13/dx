@@ -2,58 +2,13 @@ import { MainNavItem, SidebarNavItem } from "types/nav"
 
 interface DocsConfig {
   mainNav: MainNavItem[]
+  dapp: SidebarNavItem[]
   passport: SidebarNavItem[]
   wallet: SidebarNavItem[]
   sidebarNav: SidebarNavItem[]
 }
 
 export const docsConfig: DocsConfig = {
-  mainNav: [
-    {
-      title: "Documentation",
-      href: "/docs",
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-    },
-    {
-      title: "Components",
-      href: "/docs/ui/accordion",
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-    },
-    {
-      title: "Examples",
-      href: "/examples",
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-    },
-    {
-      title: "Figma",
-      href: "/docs/figma",
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/beingofexistence/dx",
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-      external: true,
-    },
-    {
-      title: "Twitter",
-      href: "https://twitter.com/beingofexistence",
-      external: true,
-      description: "Not Provided(coming soon)",
-      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
-      github_repo: "https://github.com/beingofexistence",
-    },
-  ],
   passport: [
     {
       title: "http-bearer",
@@ -12695,6 +12650,10431 @@ export const docsConfig: DocsConfig = {
       items: [],
     },
   ],
+  dapp: [
+    
+      {
+        title: "NFTClue",
+        href: "docs/hack(evm-dapps)/nftclue",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e8b0bd29-5933-4d1b-aabf-9c70e9f71200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Uncover NFT market trend and Discover the top NFT prjects",
+        website_url: "https://nftclue.xyz/",
+        github_repo: "https://github.com/nftclue",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LlamaNotdes",
+        href: "docs/hack(evm-dapps)/llamanotdes",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e0239d64-ded7-4475-64f9-db9671318a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "LlamaNotdes Try Catch Error",
+        website_url: "https://LlamaNotdes.com",
+        github_repo: "https://github.com/llamanotdes",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PresaleWorld",
+        href: "docs/hack(evm-dapps)/presaleworld",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1c62c0bb-1910-4650-4b5e-3996b0241000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Launch your crypto to a global audience | Find new cryptos before they have launched | Market-first pool protection",
+        website_url: "https://presale.world/",
+        github_repo: "https://github.com/presaleworld",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeeLance",
+        href: "docs/hack(evm-dapps)/deelance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c75409d6-a93a-4478-7ee9-5ce37a6ee300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Deelance is a freelancing and Recruitment platform based on Web3.",
+        website_url: "https://deelance.com/",
+        github_repo: "https://github.com/deelance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DuckHub",
+        href: "docs/hack(evm-dapps)/duckhub",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/26abcd48-c480-40a1-5e9f-6e0d02a52700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Official home of DaVinci Duck Coin",
+        website_url: "https://duckhub.xyz/",
+        github_repo: "https://github.com/duckhub",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OpenBiSea",
+        href: "docs/hack(evm-dapps)/openbisea",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bc1e1eab-51e6-4a9c-9923-50ad934c3c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Game Studio(top #5) and Multi-chain NFT auctions (top #40) in all-in-one place to cut any NFT deal in a few clicks with a $200M fund in $OBS",
+        website_url: "https://app.openbisea.com/",
+        github_repo: "https://github.com/openbisea",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TEXAN",
+        href: "docs/hack(evm-dapps)/texan",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0f885df6-1659-48fc-1ac4-f5a1bc995f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The TEXAN Token is a new crypto endowment token which stands as a financial symbol of independence and self-determination!",
+        website_url: "https://texan.cc/",
+        github_repo: "https://github.com/texan",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OpenSea",
+        href: "docs/hack(evm-dapps)/opensea",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c441b686-1a37-4976-c56c-f18d62167f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "OpenSea is the world -> first and largest web3 marketplace for NFTs and crypto collectibles.",
+        website_url: "https://opensea.io/",
+        github_repo: "https://github.com/opensea",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Xplus Bridge",
+        href: "docs/hack(evm-dapps)/xplusbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/90e2b797-63fc-4bd1-3e0c-80bdedb03e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "XPLUS BRIDGE facilitates tokens transfer across blockchains.",
+        website_url: "https://xplus.com/",
+        github_repo: "https://github.com/xplusbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Uniswap",
+        href: "docs/hack(evm-dapps)/uniswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/32a77b79-ffe8-42c3-61a7-3e02e019ca00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The leading decentralized crypto trading protocol, governed by a global community.",
+        website_url: "https://uniswap.exchange/",
+        github_repo: "https://github.com/uniswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Unstoppable Domains",
+        href: "docs/hack(evm-dapps)/unstoppabledomains",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4725dda0-4471-4d0f-7adf-6bbe8b929c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your identity for Web3",
+        website_url: "https://unstoppabledomains.com/",
+        github_repo: "https://github.com/unstoppabledomains",
+        appStore:
+          "https://apps.apple.com/us/app/unstoppable-domains/id1544748602",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.unstoppabledomains.manager",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Firn Protocol",
+        href: "docs/hack(evm-dapps)/firnprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/24dddd0a-081f-47a9-912b-2b1281161e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Cryptographically secure private payment from first principles.",
+        website_url: "https://app.firn.cash/",
+        github_repo: "https://github.com/firnprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Equaminity",
+        href: "docs/hack(evm-dapps)/equaminity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/46979590-cfd3-467e-8c46-94f378761000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We are a legal and compliant capital allocation engine. Join a Community of future Web3 Investors and Entrepreneurs.",
+        website_url: "https://investhub.io/",
+        github_repo: "https://github.com/equaminity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Tokoin",
+        href: "docs/hack(evm-dapps)/tokoin",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fa6db10e-23bc-46f2-a48a-5cffda3c1200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A super token which is an integral part of all of Tokoin’s ecosystem.",
+        website_url: "https://tokoin.io/",
+        github_repo: "https://github.com/tokoin",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Proof of Visit",
+        href: "docs/hack(evm-dapps)/proofofvisit",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c763ef2f-fb24-4249-09f1-b45920825c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Proof of X -> Blockchain as a New Medium for Art",
+        website_url: "https://pox.exhibit.website/",
+        github_repo: "https://github.com/proofofvisit",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "centic",
+        href: "docs/hack(evm-dapps)/centic",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/636ade5a-5c0c-4474-c5ed-63efc172e000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Tracking and ranking all entities on Blockchain Space",
+        website_url: "https://centic.io/",
+        github_repo: "https://github.com/centic",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Signal -> Crypto",
+        href: "docs/hack(evm-dapps)/signals-crypto",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e43d6517-5946-4dae-f0ba-5c77500cbe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Signal -> Crypto Try Catch Error",
+        website_url: "https://Signal -> Crypto.com",
+        github_repo: "https://github.com/signals-crypto",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Loopop! -> IN LOVE & LOVE-IN",
+        href: "docs/hack(evm-dapps)/loopop!-inlove&love-in",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64f02531-1c5a-4bff-4e0d-d1b4cdf4fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Loopop! -> IN LOVE & LOVE-IN Try Catch Error",
+        website_url: "https://Loopop! -> IN LOVE & LOVE-IN.com",
+        github_repo: "https://github.com/loopop!-inlove&love-in",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bring.Bridge",
+        href: "docs/hack(evm-dapps)/bring.bridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c006472d-dbb4-4488-8151-951e634fcb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Bring.Bridge Try Catch Error",
+        website_url: "https://Bring.Bridge.com",
+        github_repo: "https://github.com/bring.bridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bring.Bridge",
+        href: "docs/hack(evm-dapps)/bring.bridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c006472d-dbb4-4488-8151-951e634fcb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Bring.Bridge Try Catch Error",
+        website_url: "https://Bring.Bridge.com",
+        github_repo: "https://github.com/bring.bridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "rhiNot.fi",
+        href: "docs/hack(evm-dapps)/rhinot.fi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/34c1c8ef-4b6e-4643-bd21-59dc1b157600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "rhiNot.fi Try Catch Error",
+        website_url: "https://rhiNot.fi.com",
+        github_repo: "https://github.com/rhinot.fi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Loopop! -> IN LOVE & LOVE-IN",
+        href: "docs/hack(evm-dapps)/loopop!-inlove&love-in",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64f02531-1c5a-4bff-4e0d-d1b4cdf4fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Loopop! -> IN LOVE & LOVE-IN Try Catch Error",
+        website_url: "https://Loopop! -> IN LOVE & LOVE-IN.com",
+        github_repo: "https://github.com/loopop!-inlove&love-in",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ETHRank",
+        href: "docs/hack(evm-dapps)/ethrank",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d7e41e1e-eab7-4e1b-e659-739f1a176100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "An open source achievement system and API for every Ethereum address",
+        website_url: "https://ethrank.io/",
+        github_repo: "https://github.com/ethrank",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Embraced -> Pandora",
+        href: "docs/hack(evm-dapps)/embraced-pandora",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f848ab21-d263-47bf-e842-505a662cc000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Embraced -> Pandora Try Catch Error",
+        website_url: "https://Embraced -> Pandora.com",
+        github_repo: "https://github.com/embraced-pandora",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MoonFit",
+        href: "docs/hack(evm-dapps)/moonfit",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0821c1a6-4d51-4407-39af-7f51e48bf500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "MoonFit is a Web3 & NFT Lifestyle App that promotes active living by rewarding users anytime they burn calories through physical activities.",
+        website_url: "https://moonfit.xyz/",
+        github_repo: "https://github.com/moonfit",
+        appStore: "https://testflight.apple.com/join/lfXF5Lbd",
+        playStore:
+          "https://play.google.com/store/apps/details?id=xyz.moonfit.app",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dHEDGE",
+        href: "docs/hack(evm-dapps)/dhedge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/61dab8e9-b690-47b3-e2b6-5cd37aa56d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized assets management",
+        website_url: "https://app.dhedge.org/",
+        github_repo: "https://github.com/dhedge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "swappin.gifts",
+        href: "docs/hack(evm-dapps)/swappin.gifts",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4cbf8c4b-2d77-4d50-770f-e04c33ee4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "swappin.gifts Try Catch Error",
+        website_url: "https://swappin.gifts.com",
+        github_repo: "https://github.com/swappin.gifts",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Snap-shack -> Cyberbrokers",
+        href: "docs/hack(evm-dapps)/snap-shack-cyberbrokers",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bfc1b1e1-5fcb-4f9e-5809-e87402f35900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Snap-shack -> Cyberbrokers Try Catch Error",
+        website_url: "https://Snap-shack -> Cyberbrokers.com",
+        github_repo: "https://github.com/snap-shack-cyberbrokers",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "A-NATION ",
+        href: "docs/hack(evm-dapps)/a-nation",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/57f20a3f-db39-4450-3ed7-3d5f9e233000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A-NATION  Try Catch Error",
+        website_url: "https://A-NATION .com",
+        github_repo: "https://github.com/a-nation",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Delta.theta",
+        href: "docs/hack(evm-dapps)/delta.theta",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/259af5fa-66e6-4bb5-f6f4-5a3711ba8e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Delta.theta Try Catch Error",
+        website_url: "https://Delta.theta.com",
+        github_repo: "https://github.com/delta.theta",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BuyWithCrypto",
+        href: "docs/hack(evm-dapps)/buywithcrypto",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5e9f0c86-896d-4197-9e27-540f5cab1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "BuyWithCrypto is an application that allows you to buy with cryptocurrencies.",
+        website_url: "https://www.buywithcrypto.fr/",
+        github_repo: "https://github.com/buywithcrypto",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.buywithcrypto.app",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Social Blocks",
+        href: "docs/hack(evm-dapps)/socialblocks",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e4daac55-fe61-4d75-3c46-12b6aa819f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Web3 Social Links",
+        website_url: "https://socialblocks.io/",
+        github_repo: "https://github.com/socialblocks",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "gm-dapp",
+        href: "docs/hack(evm-dapps)/gm-dapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/32b894e5-f91e-4fcd-6891-38d31fa6ba00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Get a gm every hour",
+        website_url: "https://gm.walletconnect.com/",
+        github_repo: "https://github.com/gm-dapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Quixotic",
+        href: "docs/hack(evm-dapps)/quixotic",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b26df0fb-8e79-4f70-4d33-3e4a3b633600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Discover, collect, and sell digital items on the largest NFT marketplace on Optimism",
+        website_url: "https://quixotic.io/",
+        github_repo: "https://github.com/quixotic",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "handle.fi",
+        href: "docs/hack(evm-dapps)/handle.fi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a1d4c89-4027-4898-4584-f5bd38bdc700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "handle.fi Try Catch Error",
+        website_url: "https://handle.fi.com",
+        github_repo: "https://github.com/handle.fi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeFund protocol",
+        href: "docs/hack(evm-dapps)/defundprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d25edcee-b598-46c2-223d-384ebe61e800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The next generation of decentralized fund protocol",
+        website_url: "https://defund.io/",
+        github_repo: "https://github.com/defundprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "oxalus",
+        href: "docs/hack(evm-dapps)/oxalus",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/443f0e59-3581-462d-3b60-94eb7072b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT social platform",
+        website_url: "https://oxalus.io/",
+        github_repo: "https://github.com/oxalus",
+        appStore: "https://apps.apple.com/vn/app/oxalus-wallet/id1620111723",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.oxalus.wallet",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "gm-dapp",
+        href: "docs/hack(evm-dapps)/gm-dapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/32b894e5-f91e-4fcd-6891-38d31fa6ba00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Get a gm every hour",
+        website_url: "https://gm.walletconnect.com/",
+        github_repo: "https://github.com/gm-dapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "White Red",
+        href: "docs/hack(evm-dapps)/whitered",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a83712f6-be74-483c-2bc0-4f9876311400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Simple Game",
+        website_url: "https://whitered.io/",
+        github_repo: "https://github.com/whitered",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BuyWithCrypto",
+        href: "docs/hack(evm-dapps)/buywithcrypto",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5e9f0c86-896d-4197-9e27-540f5cab1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "BuyWithCrypto is an application that allows you to buy with cryptocurrencies.",
+        website_url: "https://www.buywithcrypto.fr/",
+        github_repo: "https://github.com/buywithcrypto",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.buywithcrypto.app",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeFund protocol",
+        href: "docs/hack(evm-dapps)/defundprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d25edcee-b598-46c2-223d-384ebe61e800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The next generation of decentralized fund protocol",
+        website_url: "https://defund.io/",
+        github_repo: "https://github.com/defundprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DEEPSPACE -> Outpost",
+        href: "docs/hack(evm-dapps)/deepspace-outpost",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/54d6935e-f65f-4637-d763-88b3c5c4d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DEEPSPACE -> Outpost Try Catch Error",
+        website_url: "https://DEEPSPACE -> Outpost.com",
+        github_repo: "https://github.com/deepspace-outpost",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "defitact",
+        href: "docs/hack(evm-dapps)/defitact",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/002bb73b-3980-4272-144f-baacc1d80100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "visualize, analyze and manage your DeFi assets, NFTs and transactions through a highly intuitive and interactive interface.",
+        website_url: "https://www.defitact.com/",
+        github_repo: "https://github.com/defitact",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Furucombo",
+        href: "docs/hack(evm-dapps)/furucombo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5d0213c8-e6f2-45f4-574e-658b230c1100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Master DeFi like a Pro. The simplest way to optimize and manage your crypto.",
+        website_url: "https://furucombo.app/",
+        github_repo: "https://github.com/furucombo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Forest Knight",
+        href: "docs/hack(evm-dapps)/forestknight",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9299d79c-9050-489c-6e4d-58ca21900900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Free2Play Turn-Based-Strategy Game for Mobile",
+        website_url: "https://www.forestknight.io/",
+        github_repo: "https://github.com/forestknight",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.ChronoGames.Forest.Knight&hl=en&gl=US",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "T2T2",
+        href: "docs/hack(evm-dapps)/t2t2",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cbc788c1-ee9a-4ec0-8477-4a790d634100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "a scial dapp for web3 quest",
+        website_url: "https://www.t2t2.com/",
+        github_repo: "https://github.com/t2t2",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dHEDGE",
+        href: "docs/hack(evm-dapps)/dhedge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/61dab8e9-b690-47b3-e2b6-5cd37aa56d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized assets management",
+        website_url: "https://app.dhedge.org/",
+        github_repo: "https://github.com/dhedge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Forest Knight",
+        href: "docs/hack(evm-dapps)/forestknight",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9299d79c-9050-489c-6e4d-58ca21900900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Free2Play Turn-Based-Strategy Game for Mobile",
+        website_url: "https://www.forestknight.io/",
+        github_repo: "https://github.com/forestknight",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.ChronoGames.Forest.Knight&hl=en&gl=US",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Obligate",
+        href: "docs/hack(evm-dapps)/obligate",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6344b95c-f41f-4eef-42b6-655c58225400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "On-chain bonds for regulated DeFi",
+        website_url: "https://www.obligate.com/",
+        github_repo: "https://github.com/obligate",
+        appStore: "https://app.obligate.com/marketplace",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "oxalus",
+        href: "docs/hack(evm-dapps)/oxalus",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/443f0e59-3581-462d-3b60-94eb7072b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT social platform",
+        website_url: "https://oxalus.io/",
+        github_repo: "https://github.com/oxalus",
+        appStore: "https://apps.apple.com/vn/app/oxalus-wallet/id1620111723",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.oxalus.wallet",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "rsolv",
+        href: "docs/hack(evm-dapps)/rsolv",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/85d5aa64-bbb6-4e36-b84a-2383e9a23500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Solve the challenge and mint AI generated NFTs.",
+        website_url: "https://www.rsolv.xyz/",
+        github_repo: "https://github.com/rsolv",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Profit AI",
+        href: "docs/hack(evm-dapps)/profitai",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/abe6c7ae-2232-4508-ab53-f0184edc7900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Track All Profits Easier Than Ever",
+        website_url: "https://profitai.net/",
+        github_repo: "https://github.com/profitai",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Lens Claiming",
+        href: "docs/hack(evm-dapps)/lensclaiming",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4c9fc1b1-d3b9-4967-4d82-b3ae20594400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Official dApp for claiming Lens handles",
+        website_url: "https://claim.lens.xyz/",
+        github_repo: "https://github.com/lensclaiming",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OpenZoo",
+        href: "docs/hack(evm-dapps)/openzoo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/02dd1b47-814b-4a6d-b07b-21318cf15200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "OpenZoo is a user-friendly NFT Marketplace. Its protocol allows wide flexibility for artists and game creators.",
+        website_url: "https://zoo.one/",
+        github_repo: "https://github.com/openzoo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Origin Story",
+        href: "docs/hack(evm-dapps)/originstory",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8e447c12-ee5f-4816-abf1-9b32d350cc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Use the Origin Story dapp to stake your OGN to earn additional OGN and ETH rewards!",
+        website_url: "https://story.xyz/",
+        github_repo: "https://github.com/originstory",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "EvoVerses",
+        href: "docs/hack(evm-dapps)/evoverses",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6b01ae35-a747-4146-fd6a-564fc2e05800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "🗺 Game and DEX // ⚔️ Fight, rank and earn// 🗿 The Evos are waiting for you 👀// Discord: evoverses.com/discord",
+        website_url: "https://evoverses.com/",
+        github_repo: "https://github.com/evoverses",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Tengri.io",
+        href: "docs/hack(evm-dapps)/tengri.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f9f3be8-02ce-45fa-3230-dd19cc375600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Tengri.io Try Catch Error",
+        website_url: "https://Tengri.io.com",
+        github_repo: "https://github.com/tengri.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ColdStack",
+        href: "docs/hack(evm-dapps)/coldstack",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7cf55b42-3dd3-43f1-0a2d-efd2ba529a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized Storage Aggregator.",
+        website_url: "https://coldstack.io/",
+        github_repo: "https://github.com/coldstack",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SparkSwap Apps",
+        href: "docs/hack(evm-dapps)/sparkswapapps",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ec22b9bf-a23d-4000-0c27-b82e2648d500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "SparkSwap is your to-go Decentralized Finance platform. Your one-stop access DeFi platform",
+        website_url: "https://sparkswap.finance/",
+        github_repo: "https://github.com/sparkswapapps",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HashGuessers",
+        href: "docs/hack(evm-dapps)/hashguessers",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b7051db9-1d4f-4fe3-9241-f577d0cad400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Earn MATIC by guessing numbers. ",
+        website_url: "https://hashguessers.com/",
+        github_repo: "https://github.com/hashguessers",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Origin Dollar",
+        href: "docs/hack(evm-dapps)/origindollar",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/904c81d0-8dd6-41e0-64ec-4213917a6100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Use the Origin Dollar dapp to mint OUST, a fully transparent stablecoin that earns a yield from DeFi. ",
+        website_url: "https://ousd.com/",
+        github_repo: "https://github.com/origindollar",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ekta wallet web",
+        href: "docs/hack(evm-dapps)/ektawalletweb",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d292290e-580a-48b1-7ab0-f35fec878b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Ekta ERC-4337 blockchain wallet development",
+        website_url: "https://dev-msign.ekta.io/",
+        github_repo: "https://github.com/ektawalletweb",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Orbitum Space",
+        href: "docs/hack(evm-dapps)/orbitumspace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/61ac653b-0990-4407-d7f3-84a6551a1600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The decentralized forums platform",
+        website_url: "https://orbitum.space/",
+        github_repo: "https://github.com/orbitumspace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Moon Web3 Identity",
+        href: "docs/hack(evm-dapps)/moonweb3identity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4fe1501c-abb9-4efd-a914-807a2ecdab00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Moon Web3 Identity for you + your team",
+        website_url: "https://moons.money/",
+        github_repo: "https://github.com/moonweb3identity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "IDriss",
+        href: "docs/hack(evm-dapps)/idriss",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/323ee39c-ab38-4374-c313-a370e1a2ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "IDriss Try Catch Error",
+        website_url: "https://IDriss.com",
+        github_repo: "https://github.com/idriss",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Unlock Protocol",
+        href: "docs/hack(evm-dapps)/unlockprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/33559b57-ef50-4845-1368-2f7aca93cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Unlock is a protocol for membership that lets creators, brands and communities monetize using memberships!",
+        website_url: "https://unlock-protocol.com/",
+        github_repo: "https://github.com/unlockprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PASTELLE.SHOP",
+        href: "docs/hack(evm-dapps)/pastelle.shop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f2de0e75-5dbd-4cc7-dde5-a76ee48a2200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "PASTELLE.SHOP Try Catch Error",
+        website_url: "https://PASTELLE.SHOP.com",
+        github_repo: "https://github.com/pastelle.shop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HieSwap",
+        href: "docs/hack(evm-dapps)/hieswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6f972c32-92fd-42b6-050c-013106798e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "HieSwap is a cross-chain aggregation protocol that implements lightning cross-chain by deploying aggregators on multiple public chains",
+        website_url: "https://hieswap.com/",
+        github_repo: "https://github.com/hieswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Graflr",
+        href: "docs/hack(evm-dapps)/graflr",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/defebabe-7c57-4227-36d2-8da000812000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Connect with nearby fans, drop collectibles, sign fan photos and mint to NFTs.",
+        website_url: "https://www.graflr.com/",
+        github_repo: "https://github.com/graflr",
+        appStore: "https://apps.apple.com/us/app/graflr/id1467953199",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.fifthpint.graflr&hl=en_US&gl=US",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Graflr",
+        href: "docs/hack(evm-dapps)/graflr",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/defebabe-7c57-4227-36d2-8da000812000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Connect with nearby fans, drop collectibles, sign fan photos and mint to NFTs.",
+        website_url: "https://www.graflr.com/",
+        github_repo: "https://github.com/graflr",
+        appStore: "https://apps.apple.com/us/app/graflr/id1467953199",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.fifthpint.graflr&hl=en_US&gl=US",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ColdStack",
+        href: "docs/hack(evm-dapps)/coldstack",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7cf55b42-3dd3-43f1-0a2d-efd2ba529a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized Storage Aggregator.",
+        website_url: "https://coldstack.io/",
+        github_repo: "https://github.com/coldstack",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Liquifi",
+        href: "docs/hack(evm-dapps)/liquifi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f6895b1-65b0-4bcf-9960-65c90d345f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The fastest and easiest way to manage token distributions, compliance, and track vesting schedules.",
+        website_url: "https://liquifi.finance/",
+        github_repo: "https://github.com/liquifi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OpenTheta",
+        href: "docs/hack(evm-dapps)/opentheta",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8a7296f6-d66b-417e-cb81-9e94d92d1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "OpenTheta is a decentralised NFT marketplace on the Theta blockchain",
+        website_url: "https://opentheta.io/",
+        github_repo: "https://github.com/opentheta",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Genesis game",
+        href: "docs/hack(evm-dapps)/genesisgame",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5d8e8c94-7a81-42b6-d23f-8d42317b5000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Official genesis casino",
+        website_url: "https://genesis-game.io/",
+        github_repo: "https://github.com/genesisgame",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "WEB3JE",
+        href: "docs/hack(evm-dapps)/web3je",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/36ab8eb1-24e8-46a7-7765-0c840f0dc200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Web3 Jobs Explorer",
+        website_url: "https://www.web3-jobs-explorer.com/",
+        github_repo: "https://github.com/web3je",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yuzumax",
+        href: "docs/hack(evm-dapps)/yuzumax",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65d3228b-3973-4586-d38f-dc27c2a59a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Marketplace for goods",
+        website_url: "https://www.yuzumax.com/",
+        github_repo: "https://github.com/yuzumax",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HERE Stake",
+        href: "docs/hack(evm-dapps)/herestake",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c6d4992b-c10c-45aa-a0e4-8f2d060d5c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Liquid Staking for Near Protocol",
+        website_url: "https://my.herewallet.app/stake",
+        github_repo: "https://github.com/herestake",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HyperX Fund",
+        href: "docs/hack(evm-dapps)/hyperxfund",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/946144b6-93c3-4564-01de-1d19b0cdde00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Decentralized Venture Fund -> Powered by $HPX deflationary token",
+        website_url: "https://hyperx100.com/",
+        github_repo: "https://github.com/hyperxfund",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Increment Finance",
+        href: "docs/hack(evm-dapps)/incrementfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e72e0875-6f45-4384-2d21-ce89af35a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "All-in-one DeFi Platform on Flow Blockchain, AMM DEX, Lending, Liquid Staking",
+        website_url: "https://increment.fi/",
+        github_repo: "https://github.com/incrementfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "cryptonames",
+        href: "docs/hack(evm-dapps)/cryptonames",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4897b984-2bbf-4652-9927-08c3d4602d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ethereum domain marketplace",
+        website_url: "https://cryptonames.store/",
+        github_repo: "https://github.com/cryptonames",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "trace-gift",
+        href: "docs/hack(evm-dapps)/trace-gift",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/916c8480-a52d-4f4c-82b5-47cac8c84300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "platform to get a gift",
+        website_url: "https://reward.mytrc.me/",
+        github_repo: "https://github.com/trace-gift",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Kazm",
+        href: "docs/hack(evm-dapps)/kazm",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1061a625-4465-41f6-19a8-1f1c3f052400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The Web3 CRM",
+        website_url: "https://kazm.xyz/",
+        github_repo: "https://github.com/kazm",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Elemon",
+        href: "docs/hack(evm-dapps)/elemon",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/857717bb-ee58-4862-4e1d-01c8a6437c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Elemon Dapp",
+        website_url: "https://game.elemon.io/",
+        github_repo: "https://github.com/elemon",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "VirtueSekai",
+        href: "docs/hack(evm-dapps)/virtuesekai",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/270acc2c-5039-4163-9c61-757fd62c6f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "VirtueSekai NFT Project",
+        website_url: "https://virtuesekai.io/",
+        github_repo: "https://github.com/virtuesekai",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "elyfi-v2",
+        href: "docs/hack(evm-dapps)/elyfi-v2",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e70a022f-a3e0-46e5-fa2c-343cfe1f5e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ELYFI is a new defi platfrom that applies NFTs to connect real world assets",
+        website_url: "https://elyfi.world/",
+        github_repo: "https://github.com/elyfi-v2",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HieSwap",
+        href: "docs/hack(evm-dapps)/hieswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6f972c32-92fd-42b6-050c-013106798e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "HieSwap is a cross-chain aggregation protocol that implements lightning cross-chain by deploying aggregators on multiple public chains",
+        website_url: "https://hieswap.com/",
+        github_repo: "https://github.com/hieswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Unlock Protocol",
+        href: "docs/hack(evm-dapps)/unlockprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/33559b57-ef50-4845-1368-2f7aca93cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Unlock is a protocol for membership that lets creators, brands and communities monetize using memberships!",
+        website_url: "https://unlock-protocol.com/",
+        github_repo: "https://github.com/unlockprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Affine Defi",
+        href: "docs/hack(evm-dapps)/affinedefi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b4eb15e9-f4e9-489b-f320-3d5e52319a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Simple, Secure, & Sustainable DeFi Yield",
+        website_url: "https://affinedefi.com/",
+        github_repo: "https://github.com/affinedefi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Quick Intel",
+        href: "docs/hack(evm-dapps)/quickintel",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a201bc4a-c148-4ce7-b652-a3174ede0700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A multi-chain crypto safety and security tool.",
+        website_url: "https://quickintel.io/",
+        github_repo: "https://github.com/quickintel",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Comm",
+        href: "docs/hack(evm-dapps)/comm",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/01b10752-a572-4539-0feb-f0d5ac527700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Community chat app",
+        website_url: "https://comm.app/",
+        github_repo: "https://github.com/comm",
+        appStore: "https://apps.apple.com/us/app/comm-messenger/id1574433435",
+        playStore:
+          "https://play.google.com/store/apps/details?id=app.comm.android",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sensei Token",
+        href: "docs/hack(evm-dapps)/senseitoken",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ff2f3f6d-8cf9-4f19-9334-6c6ce925fb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A multi reward utility build on the Binance Smart Chain. Control your passive income by choosing who you earn as a reward. ",
+        website_url: "https://dapp.senseitoken.net/",
+        github_repo: "https://github.com/senseitoken",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "degen-zoo-frontend",
+        href: "docs/hack(evm-dapps)/degen-zoo-frontend",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/32d9600e-4b6c-46bf-d2b9-6c4ce09f6900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Degen Zoo",
+        website_url: "https://app.degenzoo.co/",
+        github_repo: "https://github.com/degen-zoo-frontend",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "payinloop",
+        href: "docs/hack(evm-dapps)/payinloop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/474da7a7-452e-4ab5-a398-82bb31eaa300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Pay your employees, Bulk USDT payments. ",
+        website_url: "https://www.payinloop.com/",
+        github_repo: "https://github.com/payinloop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Zapper",
+        href: "docs/hack(evm-dapps)/zapper",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/94b7adda-4a61-4895-17a7-1c6023ab4900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your Home to Web3",
+        website_url: "https://zapper.xyz/",
+        github_repo: "https://github.com/zapper",
+        appStore:
+          "https://apps.apple.com/us/app/zapper-your-home-to-web3/id1573293010",
+        playStore: "https://play.google.com/store/apps/details?id=com.zapper",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TraderDAO",
+        href: "docs/hack(evm-dapps)/traderdao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd2574fb-fcf7-4310-0d6f-ce56f6a64800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Proof Of Trade",
+        website_url: "https://beta.traderdao.ai/",
+        github_repo: "https://github.com/traderdao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Theta Rarity",
+        href: "docs/hack(evm-dapps)/thetararity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/320a77bc-9dd9-44fb-0309-7fc176e1e500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Theta Rarity is an NFT marketplace on the Theta network.",
+        website_url: "https://www.thetararity.com/",
+        github_repo: "https://github.com/thetararity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Elastos Name Service",
+        href: "docs/hack(evm-dapps)/elastosnameservice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/38cb3365-3491-4e63-b0be-411d01ccb600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Elastos Name Service -> Building Identity on blockchain with ELA domains",
+        website_url: "https://eladomains.xyz/",
+        github_repo: "https://github.com/elastosnameservice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Synthex",
+        href: "docs/hack(evm-dapps)/synthex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a85a803-5798-45b2-4fac-da08984b1600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Synthetics Protocol on Arbitrum",
+        website_url: "https://synthex.finance/",
+        github_repo: "https://github.com/synthex",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Oraqle",
+        href: "docs/hack(evm-dapps)/oraqle",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5256ba7e-78e2-4104-47ea-64fb08968200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Systematic NFT Investing",
+        website_url: "https://oraqle.xyz/",
+        github_repo: "https://github.com/oraqle",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mirror.xyz",
+        href: "docs/hack(evm-dapps)/mirror.xyz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/33417f93-e4c8-4296-d52c-2797c5133800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mirror.xyz Try Catch Error",
+        website_url: "https://Mirror.xyz.com",
+        github_repo: "https://github.com/mirror.xyz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Wild.xyz",
+        href: "docs/hack(evm-dapps)/wild.xyz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/28d0e845-1632-421f-3d1c-c9d66f072e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Wild.xyz Try Catch Error",
+        website_url: "https://Wild.xyz.com",
+        github_repo: "https://github.com/wild.xyz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Odos",
+        href: "docs/hack(evm-dapps)/odos",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/798758d9-0424-4213-59f0-077c4c82c000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The Optimial DEX Aggregator",
+        website_url: "https://www.odos.xyz/",
+        github_repo: "https://github.com/odos",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Galleria",
+        href: "docs/hack(evm-dapps)/galleria",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bdd8c4f-50d8-48ef-6d76-0b5fc97fec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The NFT Marketplace for Photographers",
+        website_url: "https://www.thegalleria.io/",
+        github_repo: "https://github.com/galleria",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "THORSwap",
+        href: "docs/hack(evm-dapps)/thorswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4dc14f23-9d37-419c-12c2-11bc14960600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swap & Earn Crypto Native Crypto Assets Across 10+ Chains",
+        website_url: "https://app.thorswap.finance/",
+        github_repo: "https://github.com/thorswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Wanchain Web3 Domains",
+        href: "docs/hack(evm-dapps)/wanchainweb3domains",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/20a7f566-f0f0-4ae1-9f21-cb04c72cd600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Wanchain Web3 Domains Decentralized names are secured on the blockchain",
+        website_url: "https://wandomains.xyz/",
+        github_repo: "https://github.com/wanchainweb3domains",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "FTSOLottery",
+        href: "docs/hack(evm-dapps)/ftsolottery",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e95851ad-7dab-45f6-e603-041a309a4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "FTSO Lottery is a revolutionary way to maximize your FLR in Flare Network. With high chances of winning and no cost to participate!",
+        website_url: "https://ftsolottery.xyz/",
+        github_repo: "https://github.com/ftsolottery",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Balancer",
+        href: "docs/hack(evm-dapps)/balancer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4d7870f3-49cb-4ef8-c596-b56e4ecac300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Automated portfolio manager and trading platform",
+        website_url: "https://balancer.fi/",
+        github_repo: "https://github.com/balancer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yooshi",
+        href: "docs/hack(evm-dapps)/yooshi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8eeb0596-8b4c-4f57-731f-cd8251c65500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "One-stop quick experience of YooShi mining, blind box, airdrop, NFT market and other services",
+        website_url: "https://yooshi.io/",
+        github_repo: "https://github.com/yooshi",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.yooshi.imyooshi",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Perpetual Protocol",
+        href: "docs/hack(evm-dapps)/perpetualprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9acec2d8-d1e1-4488-77ed-da8a1d972800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Decentralized Perpetual Contracts. On-chain DEX with highly efficient liquidity provisioning and up to 10x leverage for makers and takers.",
+        website_url: "https://perp.com/",
+        github_repo: "https://github.com/perpetualprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CivTrade",
+        href: "docs/hack(evm-dapps)/civtrade",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1f03356e-b2e3-44b5-308e-0f0920395900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Limit Trades for the Ethereum Mainnet",
+        website_url: "https://civfund.org/",
+        github_repo: "https://github.com/civtrade",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "impactMarket",
+        href: "docs/hack(evm-dapps)/impactmarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/31013d00-b990-4892-4a6f-5e7bd41bd200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "impactMarket leverages Web3 to provide accessible financial solutions, including UBI, Libera Wallet, Microcredit, and Learn and Earn.",
+        website_url: "https://app.impactmarket.com/",
+        github_repo: "https://github.com/impactmarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OptimisticLoogies",
+        href: "docs/hack(evm-dapps)/optimisticloogies",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7db28d2b-67f1-4d44-4dfc-2449ca934a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Loogies with a smile",
+        website_url: "https://optimistic.loogies.io/",
+        github_repo: "https://github.com/optimisticloogies",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Radxu Foundation",
+        href: "docs/hack(evm-dapps)/radxufoundation",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/de6ce11f-a1eb-4d51-1abf-ed029034ce00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Radxu Foundation is a grassroots initiative that demonstrates how a community can fund its own growth.",
+        website_url: "https://www.radxu.org/",
+        github_repo: "https://github.com/radxufoundation",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Kennel",
+        href: "docs/hack(evm-dapps)/kennel",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f603719-a612-4487-44f3-2999f9482d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The go-to locker for Shibarium Ecosystem",
+        website_url: "https://app.kennellocker.io/",
+        github_repo: "https://github.com/kennel",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DIFIMarket",
+        href: "docs/hack(evm-dapps)/difimarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/667a1aa0-2f4a-4a64-a1a6-44b5f7e09600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Digital Files Token, Power the Web3 Decentralized DIFI Marketplace.",
+        website_url: "https://difi.market/",
+        github_repo: "https://github.com/difimarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "gearbox",
+        href: "docs/hack(evm-dapps)/gearbox",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a65764f-9da8-44ec-6aa4-a9811eca9c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Composable Leverage Protocol: DeFi-Native Prime Brokerage",
+        website_url: "https://app.gearbox.fi/",
+        github_repo: "https://github.com/gearbox",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Origin Ether",
+        href: "docs/hack(evm-dapps)/originether",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5e7e8a35-7264-47b2-b0f5-5620082e5100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "OETH is a liquid staking yield aggregator on Ethereum.",
+        website_url: "https://www.oeth.com/",
+        github_repo: "https://github.com/originether",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ApeX Pro",
+        href: "docs/hack(evm-dapps)/apexpro",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ee476afd-5740-4e37-52ef-99004b5f7d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ApeX Pro offers unparalleled Derivatives Trading, accelerating DEX in Web3.",
+        website_url: "https://apex.exchange/",
+        github_repo: "https://github.com/apexpro",
+        appStore:
+          "https://apps.apple.com/app/apex-pro-trade-crypto/id1645456064",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.apex.plus",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Akemona",
+        href: "docs/hack(evm-dapps)/akemona",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6dd2eca7-26dc-4b5e-10da-7ed75e987400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A regulatory-approved platform for tokenization and issuance of smart digital bonds and shares.",
+        website_url: "https://akemona.com/",
+        github_repo: "https://github.com/akemona",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Interface",
+        href: "docs/hack(evm-dapps)/interface",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6b96c30f-c42f-4e1f-9a15-159614f13600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Smart companion for your Infinite Garden journey.",
+        website_url: "https://www.interface.social/",
+        github_repo: "https://github.com/interface",
+        appStore:
+          "https://apps.apple.com/app/interface-explore-ethereum/id1667243335",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.interfacelab",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yup",
+        href: "docs/hack(evm-dapps)/yup",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fa1ad282-9050-4bd6-9aba-53711c4e2a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Yup is a social network for curators. Curate and share content across the web. Earn money and clout for your taste.",
+        website_url: "https://yup.io/",
+        github_repo: "https://github.com/yup",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "VEXMETA",
+        href: "docs/hack(evm-dapps)/vexmeta",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/78592b0e-5cb1-4661-ab97-248bc8437b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Connect real and virtual worlds. Empower and enrich your 2nd life with unlimited possibilities!",
+        website_url: "https://vexmeta.io/",
+        github_repo: "https://github.com/vexmeta",
+        appStore: "https://vexmeta.io/download/ios/",
+        playStore: "https://vexmeta.io/download/android/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ketos",
+        href: "docs/hack(evm-dapps)/ketos",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/53bf83cb-f83a-4874-ad18-ab1416998600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Ketos protocol is a P2P decentralized NFT pawn protocol.",
+        website_url: "http://ketos.cc/",
+        github_repo: "https://github.com/ketos",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LeisurePay",
+        href: "docs/hack(evm-dapps)/leisurepay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/29298e7f-7beb-4cde-416c-b8ac27b37300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Blockchain Technology Payment Solution",
+        website_url: "https://www.leisurepay.io/",
+        github_repo: "https://github.com/leisurepay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Beamer Bridge",
+        href: "docs/hack(evm-dapps)/beamerbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/67749288-0024-4e9c-0d81-92bc29fcb500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Beamer allows consolidation of assets across rollups, make P2P payments to recipients on other rollups, and access dApps on other rollups.",
+        website_url: "https://app.beamerbridge.com/#/",
+        github_repo: "https://github.com/beamerbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Zealy",
+        href: "docs/hack(evm-dapps)/zealy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8ba42d2f-10c9-4619-9e69-f69c5af0d300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A simple, fun & creative way to join trendy communities, make an impact, and build your identity online.",
+        website_url: "https://zealy.io/",
+        github_repo: "https://github.com/zealy",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RTLOL.com",
+        href: "docs/hack(evm-dapps)/rtlol.com",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/309ac1ca-9bcb-4345-6c2f-f6e89e068400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "RTLOL.com Try Catch Error",
+        website_url: "https://RTLOL.com.com",
+        github_repo: "https://github.com/rtlol.com",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HashLeap",
+        href: "docs/hack(evm-dapps)/hashleap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ed234d31-a5b6-4485-e69b-995ed1fe1600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Simplifying crypto payments for small businesses, web3 companies, DAOs, freelancers and charities.",
+        website_url: "https://www.hashleap.io/",
+        github_repo: "https://github.com/hashleap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Contributor Credits",
+        href: "docs/hack(evm-dapps)/contributorcredits",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/02238c0c-7fd9-4b89-646a-fbbae0e09b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Give your engineers, designers, and other contributors a stake in your business.",
+        website_url: "https://contributorcredits.com/",
+        github_repo: "https://github.com/contributorcredits",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Transaction Manager",
+        href: "docs/hack(evm-dapps)/transactionmanager",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4137a831-24e8-4863-1315-d2450c9d0d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "CANpass is an account connection system which allows users to seamlessly use a variety of different partner services.",
+        website_url: "https://canpass.me/",
+        github_repo: "https://github.com/transactionmanager",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PlanckX",
+        href: "docs/hack(evm-dapps)/planckx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/03253f02-c4fa-48ce-dca7-cd3ad45e3c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Open platform applicable to all P2E and GameFi, providing players with blockchain games, NFT collections, and asset trading solutions",
+        website_url: "https://planckx.io/",
+        github_repo: "https://github.com/planckx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Pala",
+        href: "docs/hack(evm-dapps)/pala",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/efa42e1a-4f60-4bd0-b3ef-9cfe7c51b000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT Marketplace",
+        website_url: "https://pala.io/",
+        github_repo: "https://github.com/pala",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "aNottherblock",
+        href: "docs/hack(evm-dapps)/anottherblock",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7fd87417-abf1-4583-887a-f25ed3c3e000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "aNottherblock Try Catch Error",
+        website_url: "https://aNottherblock.com",
+        github_repo: "https://github.com/anottherblock",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bitriel",
+        href: "docs/hack(evm-dapps)/bitriel",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ce959cc-75cc-4c34-fdfd-a23dccb0ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Access on immutable money market protocol directly on-chain.",
+        website_url: "https://bitriel.com/",
+        github_repo: "https://github.com/bitriel",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Parcel Payroll",
+        href: "docs/hack(evm-dapps)/parcelpayroll",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4d7f8226-e8c0-4e67-934a-93753a2ce700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Payroll solution for Web3 Teams",
+        website_url: "https://payroll.parcel.money/",
+        github_repo: "https://github.com/parcelpayroll",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ZooKeeper",
+        href: "docs/hack(evm-dapps)/zookeeper",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/379fa8e7-b74b-462e-8dce-12d1366a0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ZooKeeper is an innovative yield farming dApp which uses ZooNFTs to boost liquidity mining.",
+        website_url: "https://zoo.one/",
+        github_repo: "https://github.com/zookeeper",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ShapeShift",
+        href: "docs/hack(evm-dapps)/shapeshift",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/70b73b01-bd10-4a32-4f81-73327ef20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A free open source platform to trade, track, buy, and earn. Community-owned. Private. Non-custodial. Multi-chain.",
+        website_url: "https://shapeshift.com/",
+        github_repo: "https://github.com/shapeshift",
+        appStore:
+          "https://apps.apple.com/us/app/shapeshift-crypto-platform/id996569075",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.shapeshift.droid_shapeshift",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fusion Web3 Domains",
+        href: "docs/hack(evm-dapps)/fusionweb3domains",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/15d837e0-e4d9-4c29-d3f3-79858a41bf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "(.fsn) Own Your Blockchain Domains",
+        website_url: "https://fsn.domains/",
+        github_repo: "https://github.com/fusionweb3domains",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RentaFi",
+        href: "docs/hack(evm-dapps)/rentafi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7bb06709-7844-44dc-fe40-759f37cbf000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT Rental Protocol",
+        website_url: "https://rentafi.org/",
+        github_repo: "https://github.com/rentafi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Trivians",
+        href: "docs/hack(evm-dapps)/trivians",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f17e44da-96f7-44c1-3293-759168156200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "New generation crypto-powered Trivia gaming platform",
+        website_url: "https://trivians.io/",
+        github_repo: "https://github.com/trivians",
+        appStore: "https://apps.apple.com/us/app/id1523467301",
+        playStore:
+          "https://play.google.com/store/apps/details?id=app.triviastars.android&hl=en&gl=US",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFTxCards Marketplace",
+        href: "docs/hack(evm-dapps)/nftxcardsmarketplace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3358ad9d-92e1-47a0-4a18-139c54d72000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "First NFT marketplace for adults and get unlockable exclusive content.",
+        website_url: "https://app.nftxcards.com/",
+        github_repo: "https://github.com/nftxcardsmarketplace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Moox",
+        href: "docs/hack(evm-dapps)/moox",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fae5b45c-b9cd-4eb4-b5af-d8af9d60f500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The highest paying fixed APY & LP token staking protocol on all in one platform",
+        website_url: "https://moox.one/",
+        github_repo: "https://github.com/moox",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mango",
+        href: "docs/hack(evm-dapps)/mango",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/78b67117-7234-4fa1-177c-f03c01e37100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mango is a decentralized autonomous organization.",
+        website_url: "https://mango.markets/",
+        github_repo: "https://github.com/mango",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Wan Bridge",
+        href: "docs/hack(evm-dapps)/wanbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7203a7fe-d59a-4ecc-8806-da44c8274600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Wan Bridge",
+        website_url: "https://bridge.wanchain.org/",
+        github_repo: "https://github.com/wanbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Delta One",
+        href: "docs/hack(evm-dapps)/deltaone",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/11ac53de-cfdc-40a9-49b0-b409d5619e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Delta Neutral Yield Generation",
+        website_url: "https://deltaone.xyz/",
+        github_repo: "https://github.com/deltaone",
+        appStore: "https://deltaone.xyz/",
+        playStore: "https://deltaone.xyz/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Chroma Signet",
+        href: "docs/hack(evm-dapps)/chromasignet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f5de7f14-5d71-413b-5f4b-3c15fc87f200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Scan QRs to get NFTs",
+        website_url: "https://chromasignet.com/",
+        github_repo: "https://github.com/chromasignet",
+        appStore: "https://apps.apple.com/us/app/chroma-signet/id1510822603",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "rhiNot.fi",
+        href: "docs/hack(evm-dapps)/rhinot.fi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/34c1c8ef-4b6e-4643-bd21-59dc1b157600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "rhiNot.fi Try Catch Error",
+        website_url: "https://rhiNot.fi.com",
+        github_repo: "https://github.com/rhinot.fi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Notuns DAO",
+        href: "docs/hack(evm-dapps)/notunsdao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c3c7d842-85a9-45b1-27ed-440208fee400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Notuns DAO Try Catch Error",
+        website_url: "https://Notuns DAO.com",
+        github_repo: "https://github.com/notunsdao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SoNotrusApp",
+        href: "docs/hack(evm-dapps)/sonotrusapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2abe8bf2-e939-4237-e4b4-04b8a6adf100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "SoNotrusApp Try Catch Error",
+        website_url: "https://SoNotrusApp.com",
+        github_repo: "https://github.com/sonotrusapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Staked Celo",
+        href: "docs/hack(evm-dapps)/stakedcelo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/386004d1-be5f-46f2-7640-f86ed3550e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Staked Celo Try Catch Error",
+        website_url: "https://Staked Celo.com",
+        github_repo: "https://github.com/stakedcelo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "xbanking",
+        href: "docs/hack(evm-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6848316c-eed7-4f57-f41e-729209744d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ApolloX DEX",
+        href: "docs/hack(evm-dapps)/apolloxdex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/792d4120-3bed-4e4d-af7d-759575697a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ApolloX is the first CEX-DEX hybrid crypto derivatives exchange. ",
+        website_url: "https://www.apollox.com/en",
+        github_repo: "https://github.com/apolloxdex",
+        appStore: "https://apps.apple.com/us/app/apx-apollox/id1589405398",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.apollox.android",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ultron Explorer",
+        href: "docs/hack(evm-dapps)/ultronexplorer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ef957cf1-6d32-44b4-751c-bc4d063e6000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Ultron Explorer allows you to explore and search the Ultron blockchain for transactions, addresses and blocks",
+        website_url: "https://ulxscan.com/",
+        github_repo: "https://github.com/ultronexplorer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Hazed",
+        href: "docs/hack(evm-dapps)/hazed",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2c18b0a4-0b79-4ed6-9bfb-7e4886b8da00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Anonymous & simple transfers in EVM chains",
+        website_url: "https://hazed.io/",
+        github_repo: "https://github.com/hazed",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cask Protocol",
+        href: "docs/hack(evm-dapps)/caskprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/556ff608-b55f-4899-1a66-8a9c82af0900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Cask is a decentralized non-custodial protocol for managing recurring money flows in web3.",
+        website_url: "https://www.cask.fi/",
+        github_repo: "https://github.com/caskprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DipoleSwap",
+        href: "docs/hack(evm-dapps)/dipoleswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c6e89c12-a3b4-4d39-5fa2-009f1dd03c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The most popular AMM on PlatON network! Swap, earn and more, on a platform you can trust.",
+        website_url: "https://dipoleswap.exchange/",
+        github_repo: "https://github.com/dipoleswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Elacity",
+        href: "docs/hack(evm-dapps)/elacity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fb0a18e9-b41d-481f-c819-8321309f9a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A community driven online marketplace.",
+        website_url: "https://ela.city/",
+        github_repo: "https://github.com/elacity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "onepunch",
+        href: "docs/hack(evm-dapps)/onepunch",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b62e5044-a118-46c6-cc60-c554dede0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "OnePunchSwap is a decentralized exchange designed for capital-efficiency, best-price & zero slippage.",
+        website_url: "https://www.onepunch.finance/",
+        github_repo: "https://github.com/onepunch",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DEXStein",
+        href: "docs/hack(evm-dapps)/dexstein",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a739e624-f0a0-48db-bc92-341b52211c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A DEX data & chart aggregator based 100% on Blockchain data",
+        website_url: "https://dexstein.com/",
+        github_repo: "https://github.com/dexstein",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SparkSwap",
+        href: "docs/hack(evm-dapps)/sparkswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6937b24b-acc9-4196-116a-280b31edd800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "SparkSwap is part of SparkPoint -> decentralized finance ecosystem called SparkDeFi. Continuous development and improvements are ongoing",
+        website_url: "https://srk.finance/",
+        github_repo: "https://github.com/sparkswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dew.gg",
+        href: "docs/hack(evm-dapps)/dew.gg",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2aec8399-54b8-4b6e-fa30-9448b1c6db00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "dew.gg Try Catch Error",
+        website_url: "https://dew.gg.com",
+        github_repo: "https://github.com/dew.gg",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Transit Swap",
+        href: "docs/hack(evm-dapps)/transitswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b25487a6-71e8-4719-80c3-3439b965aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Transit Swap Try Catch Error",
+        website_url: "https://Transit Swap.com",
+        github_repo: "https://github.com/transitswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "mummy.finance",
+        href: "docs/hack(evm-dapps)/mummy.finance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d1cfa73-01e0-4b5b-7eff-8bebff447000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "mummy.finance Try Catch Error",
+        website_url: "https://mummy.finance.com",
+        github_repo: "https://github.com/mummy.finance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BikeToken.io",
+        href: "docs/hack(evm-dapps)/biketoken.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e5452f72-b1b1-4d3c-bd03-c9745a501800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "BikeToken.io Try Catch Error",
+        website_url: "https://BikeToken.io.com",
+        github_repo: "https://github.com/biketoken.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bitriel",
+        href: "docs/hack(evm-dapps)/bitriel",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ce959cc-75cc-4c34-fdfd-a23dccb0ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Access on immutable money market protocol directly on-chain.",
+        website_url: "https://bitriel.com/",
+        github_repo: "https://github.com/bitriel",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Swappy",
+        href: "docs/hack(evm-dapps)/swappy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/21bd1f6c-47b7-432d-7e2f-08b7479c2a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swappy is the Multi-Chain Swaps Protocol that allows you to trade multiple assets on different blockchains in one click.",
+        website_url: "https://swappy.exchange/",
+        github_repo: "https://github.com/swappy",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mask Network",
+        href: "docs/hack(evm-dapps)/masknetwork",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51fa27fd-8a21-4de0-c084-528e4a37ad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The portal to the new, open internet",
+        website_url: "https://mask.io/",
+        github_repo: "https://github.com/masknetwork",
+        appStore: "https://apps.apple.com/app/id1478382964",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.dimension.maskbook",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ABCavocado",
+        href: "docs/hack(evm-dapps)/abcavocado",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b373e216-dca9-46cc-b20f-50dcc3017a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ABCavocado is the decentralized platform for creating, managing and trading Financial NFTs.",
+        website_url: "https://abcavocado.me/index.php",
+        github_repo: "https://github.com/abcavocado",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Connect3",
+        href: "docs/hack(evm-dapps)/connect3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1cb4c660-34c9-4bcb-27ae-6582f6895d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your Gateway to the Fabulous Web3 World",
+        website_url: "https://connect3.world/",
+        github_repo: "https://github.com/connect3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Award Pool",
+        href: "docs/hack(evm-dapps)/awardpool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4d0695c4-c6a4-4d94-390d-8bb7d3f94300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Award Pool is an integrated NFT platform that empowers brands, creators and collectors with amazing engagement tools.",
+        website_url: "https://awardpool.com/",
+        github_repo: "https://github.com/awardpool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Daolize App",
+        href: "docs/hack(evm-dapps)/daolizeapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cab6de41-d75d-4002-fd2a-80a1a32c5100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT Community Governance of Social Content",
+        website_url: "https://daolize.com/",
+        github_repo: "https://github.com/daolizeapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "extractodao-dev",
+        href: "docs/hack(evm-dapps)/extractodao-dev",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c6e4749b-3e0b-4e60-cd4d-fcc382966a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The DeFi 2.0",
+        website_url: "https://finance.extractodao.com/",
+        github_repo: "https://github.com/extractodao-dev",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SmurfyCash",
+        href: "docs/hack(evm-dapps)/smurfycash",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/261d30cc-a9ce-41ce-6a0c-05317b3fc500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Smurfy Cash Mixer",
+        website_url: "https://smurfy.cash/",
+        github_repo: "https://github.com/smurfycash",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BabyDoge NFT",
+        href: "docs/hack(evm-dapps)/babydogenft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f2dc7c6b-1880-4cf7-abcd-b789331a4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Baby Doge Official NFTs",
+        website_url: "https://babydogenft.com/",
+        github_repo: "https://github.com/babydogenft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rainbow Bridge",
+        href: "docs/hack(evm-dapps)/rainbowbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f7eeadf0-0af8-41f0-7c60-de90e0bbd800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Transfer tokens between Ethereum, Aurora & NEAR!",
+        website_url: "https://rainbowbridge.app/",
+        github_repo: "https://github.com/rainbowbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mintage NFT",
+        href: "docs/hack(evm-dapps)/mintagenft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9a7b92c3-8856-4fa7-4d06-f4f76ccaf200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Mintage NFT is a social media platform for NFT’s. It connect collectors and artists who share a passion for verifiable digital art.",
+        website_url: "https://www.mintagemedia.com/",
+        github_repo: "https://github.com/mintagenft",
+        appStore: "https://apps.apple.com/in/app/mintage-nft/id1595549872",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "鲸希 WhaleSee",
+        href: "docs/hack(evm-dapps)/鲸希whalesee",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d77d0fdc-da88-44a1-c009-da62a1efd400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "鲸希 WhaleSee",
+        website_url: "https://www.metatai.net/",
+        github_repo: "https://github.com/鲸希whalesee",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Roco.Finance: Payment",
+        href: "docs/hack(evm-dapps)/roco.finance:payment",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a174f4b7-47dc-4897-3d6e-63d4b452fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Roco.Finance: Payment Try Catch Error",
+        website_url: "https://Roco.Finance: Payment.com",
+        github_repo: "https://github.com/roco.finance:payment",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "X Heroes: NFT War",
+        href: "docs/hack(evm-dapps)/xheroes:nftwar",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e47022ea-579d-498a-eae9-0e9a57905200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "X Heroes: NFT War Try Catch Error",
+        website_url: "https://X Heroes: NFT War.com",
+        github_repo: "https://github.com/xheroes:nftwar",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "nftb.io",
+        href: "docs/hack(evm-dapps)/nftb.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/435cdc1b-22df-4a11-c614-2b17e482a800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "nftb.io Try Catch Error",
+        website_url: "https://nftb.io.com",
+        github_repo: "https://github.com/nftb.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Summer.fi",
+        href: "docs/hack(evm-dapps)/summer.fi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9e963794-e2b1-4ccc-647f-2ea6d49bad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Summer.fi Try Catch Error",
+        website_url: "https://Summer.fi.com",
+        github_repo: "https://github.com/summer.fi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Crypto Multisender",
+        href: "docs/hack(evm-dapps)/cryptomultisender",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b66e17ca-0d82-4f67-8fd5-bcf0afa5c100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A tool for automating the distribution of ERC20 tokens and NFTs",
+        website_url: "https://cryptomultisender.com/",
+        github_repo: "https://github.com/cryptomultisender",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DAOhaus",
+        href: "docs/hack(evm-dapps)/daohaus",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d79bb29d-b7ad-4d0b-4dac-6b7ba4e63c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Join us in pioneering a future where magic internet communities.",
+        website_url: "https://daohaus.club/",
+        github_repo: "https://github.com/daohaus",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Octus Bridge",
+        href: "docs/hack(evm-dapps)/octusbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b716f5f3-302d-4188-b679-3ca2873c5400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Octus Bridge is a decentralized сross-chain bridge for information and value transfer between many connected networks.",
+        website_url: "https://octusbridge.io/",
+        github_repo: "https://github.com/octusbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "1inch Network",
+        href: "docs/hack(evm-dapps)/1inchnetwork",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/94244950-09b0-402e-6af4-0364de77cb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "One-stop access to decentralized finance",
+        website_url: "https://1inch.exchange/",
+        github_repo: "https://github.com/1inchnetwork",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DEXCoinApp",
+        href: "docs/hack(evm-dapps)/dexcoinapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1e8b0139-f516-4eb9-9038-1ea25795db00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "One App for all DEX: DEXCoinApp connects decentralized exchange on different blockchains in one app.",
+        website_url: "https://dexcoin.app/",
+        github_repo: "https://github.com/dexcoinapp",
+        appStore: "https://play.google.com/store/apps/details?id=app.dexcoin",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fiat24",
+        href: "docs/hack(evm-dapps)/fiat24",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f3cee5bc-1b04-4299-fe8f-a9e49f167300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swiss licensed deposit-taking fintech. Extend your crypto wallet to also manage your fiat cash.",
+        website_url: "https://www.fiat24.com/",
+        github_repo: "https://github.com/fiat24",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Vitreus presale app",
+        href: "docs/hack(evm-dapps)/vitreuspresaleapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a969c889-2b94-4067-14da-19504d232500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Vitreus presale app",
+        website_url: "https://presale.vitreus.io/",
+        github_repo: "https://github.com/vitreuspresaleapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HAQQ Shell",
+        href: "docs/hack(evm-dapps)/haqqshell",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c2ce7eb8-2a46-4963-dc76-7c14bd9fdf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "HOME OF ETHICAL WEB3",
+        website_url: "https://haqq.network/",
+        github_repo: "https://github.com/haqqshell",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Marinade Finance",
+        href: "docs/hack(evm-dapps)/marinadefinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75c0c024-8b6d-4687-d695-906111b57300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Secure Solana and earn rewards without your funds locked in Get mSOL, staked SOL supported all across the Solana ecosystem",
+        website_url: "https://marinade.finance/",
+        github_repo: "https://github.com/marinadefinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ipermatch App",
+        href: "docs/hack(evm-dapps)/ipermatchapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c8b5ba4f-b3be-4bc1-55ed-c6a56a8aef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "THE NEW WAY TO PLAY FANTA⚽️",
+        website_url: "https://app.ipermatch.it/",
+        github_repo: "https://github.com/ipermatchapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PWN",
+        href: "docs/hack(evm-dapps)/pwn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ced226a0-5dc8-4704-defd-112f45756800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "PWN is a hub for P2P loans backed by digital assets. You can use your tokens or NFTs as collateral, or invest in loans and generate returns.",
+        website_url: "https://pwn.xyz/",
+        github_repo: "https://github.com/pwn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "GymStreet",
+        href: "docs/hack(evm-dapps)/gymstreet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dbf6fa1d-5126-4dbf-6845-c0cf3d9d1400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Welcome to GYMStreet! Buy lands, add miners to your lands, earn money. Attach images to your lands. Enter the metaverse!",
+        website_url: "https://gymstreet.io/",
+        github_repo: "https://github.com/gymstreet",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "orcafi",
+        href: "docs/hack(evm-dapps)/orcafi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/46b23770-c5e8-46ca-f2e9-b10051981500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "orcafi app",
+        website_url: "http://orca.fi/",
+        github_repo: "https://github.com/orcafi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "oopa.io",
+        href: "docs/hack(evm-dapps)/oopa.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fa86741a-9976-4568-703a-7d1428583600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "oopa.io Try Catch Error",
+        website_url: "https://oopa.io.com",
+        github_repo: "https://github.com/oopa.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SingularityDAO",
+        href: "docs/hack(evm-dapps)/singularitydao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/88c066b8-c76e-4e8e-22b6-0a1894e7ad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "SingularityDAO Try Catch Error",
+        website_url: "https://SingularityDAO.com",
+        github_repo: "https://github.com/singularitydao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Collectz.xyz",
+        href: "docs/hack(evm-dapps)/collectz.xyz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5a111a57-d259-4267-1b07-083a252c9d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Collectz.xyz Try Catch Error",
+        website_url: "https://Collectz.xyz.com",
+        github_repo: "https://github.com/collectz.xyz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Alya.Finn",
+        href: "docs/hack(evm-dapps)/alya.finn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3002318b-8c8f-48d3-6413-b679cfeae400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Alya.Finn Try Catch Error",
+        website_url: "https://Alya.Finn.com",
+        github_repo: "https://github.com/alya.finn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TKN: Token Name Service",
+        href: "docs/hack(evm-dapps)/tkn:tokennameservice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f739904-d570-4c1b-a5b1-9fddf0927a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "TKN: Token Name Service Try Catch Error",
+        website_url: "https://TKN: Token Name Service.com",
+        github_repo: "https://github.com/tkn:tokennameservice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "O3 Swap",
+        href: "docs/hack(evm-dapps)/o3swap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30cc15bb-d695-4991-4ff2-8ab25aceac00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "O3 Swap is the first-ever cross-chain DEXs aggregator with 12 chains integrated till now allowing users to swap any tokens across chains.",
+        website_url: "https://o3swap.com/",
+        github_repo: "https://github.com/o3swap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Token Tool by Bitbond",
+        href: "docs/hack(evm-dapps)/tokentoolbybitbond",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bf8b4771-c440-4fae-74df-cde8baf52f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Create, manage and distribute tokens effortlessly.",
+        website_url: "https://tokentool.bitbond.com/",
+        github_repo: "https://github.com/tokentoolbybitbond",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DOMANI",
+        href: "docs/hack(evm-dapps)/domani",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f5fd743-f952-4f87-e09f-ee07b08ff800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Crypto management protocol",
+        website_url: "https://domani.finance/",
+        github_repo: "https://github.com/domani",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Gaspack App",
+        href: "docs/hack(evm-dapps)/gaspackapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ba121b2-3bd0-477e-f77b-ed0286535c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Collect NFTs with ease. Simple social login and purchase with FIAT.",
+        website_url: "https://app.gaspack.xyz/",
+        github_repo: "https://github.com/gaspackapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Hakka",
+        href: "docs/hack(evm-dapps)/hakka",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b8d54557-a828-4325-10fa-eac10b695d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Hakka Finance is a set of decentralized derivatives & original financial instruments.",
+        website_url: "https://hakka.finance/",
+        github_repo: "https://github.com/hakka",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ixir",
+        href: "docs/hack(evm-dapps)/ixir",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/237acac5-62c5-47cb-41a2-5911c3b62700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "An investor-first modern launchpad for BSC network.",
+        website_url: "https://ixirpad.com/",
+        github_repo: "https://github.com/ixir",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Maimun Ape Social Club",
+        href: "docs/hack(evm-dapps)/maimunapesocialclub",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/578a3426-83d9-4a6a-7efc-dc4d2ea1fe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Maimun, a digital and exotic tribe with 10,000 unique and beautiful collectibles.",
+        website_url: "https://maimun.club/",
+        github_repo: "https://github.com/maimunapesocialclub",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeSchool",
+        href: "docs/hack(evm-dapps)/deschool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/545fbc72-3004-4c01-03c1-5dc76bbf4100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DeSchool",
+        website_url: "https://deschool.app/",
+        github_repo: "https://github.com/deschool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "spores",
+        href: "docs/hack(evm-dapps)/spores",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/de94cb2c-466f-466a-05e6-abd00d42bc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "immersive remixing of web3 music",
+        website_url: "https://spores.vision/",
+        github_repo: "https://github.com/spores",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Party",
+        href: "docs/hack(evm-dapps)/party",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0ef6e0fa-6cf0-460a-2f31-abe28bd28f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Multiplayer for Ethereum",
+        website_url: "https://party.app/",
+        github_repo: "https://github.com/party",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OnePlanetNFT",
+        href: "docs/hack(evm-dapps)/oneplanetnft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/17362e34-9dea-487c-0dea-67e70a00a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Polygon-dedicated NFT launchpad and marketplace where your NFT experience expands",
+        website_url: "https://oneplanetnft.io/",
+        github_repo: "https://github.com/oneplanetnft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Aeon Universe",
+        href: "docs/hack(evm-dapps)/aeonuniverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0eae5d99-47f4-44f4-e237-dccf911a7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Aeon Universe Wallet Connection",
+        website_url: "https://www.aeoncolony.com/",
+        github_repo: "https://github.com/aeonuniverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "POAP.TOP",
+        href: "docs/hack(evm-dapps)/poap.top",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bd3e08b0-aa07-4648-a13e-d0e9b0359500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "POAP.TOP Try Catch Error",
+        website_url: "https://POAP.TOP.com",
+        github_repo: "https://github.com/poap.top",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "uaht.io",
+        href: "docs/hack(evm-dapps)/uaht.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3af0afeb-9bf9-4b5f-a3ab-a78ff0622200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "uaht.io Try Catch Error",
+        website_url: "https://uaht.io.com",
+        github_repo: "https://github.com/uaht.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "bfd.com",
+        href: "docs/hack(evm-dapps)/bfd.com",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/61387b8e-2413-4a7a-940c-299eef06f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "bfd.com Try Catch Error",
+        website_url: "https://bfd.com.com",
+        github_repo: "https://github.com/bfd.com",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "thehug.xyz",
+        href: "docs/hack(evm-dapps)/thehug.xyz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/27e35eb1-764c-4b9f-e709-8a50485aa200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "thehug.xyz Try Catch Error",
+        website_url: "https://thehug.xyz.com",
+        github_repo: "https://github.com/thehug.xyz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dashboard",
+        href: "docs/hack(evm-dapps)/dashboard",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4bf3892c-3183-457f-cdca-795d08a2c000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Human protocol dashboard",
+        website_url: "https://dashboard.humanprotocol.org/",
+        github_repo: "https://github.com/dashboard",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Hop",
+        href: "docs/hack(evm-dapps)/hop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c5aa0003-53b8-42c1-3a13-f625cce24700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Hop Protocol",
+        website_url: "https://app.hop.exchange/",
+        github_repo: "https://github.com/hop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ovn",
+        href: "docs/hack(evm-dapps)/ovn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2441a1c4-657c-4b8e-e649-153c0c9c6b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "DELTA-NEUTRAL REAL YIELD FOR CONSERVATIVE STABLECOIN INVESTORS",
+        website_url: "https://overnight.fi/",
+        github_repo: "https://github.com/ovn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "cointool",
+        href: "docs/hack(evm-dapps)/cointool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/16fedc28-750c-4a2b-f995-a4ffc961e900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "cointool.app It -> an online crypto toolbox",
+        website_url: "https://cointool.app/",
+        github_repo: "https://github.com/cointool",
+        appStore:
+          "https://chrome.google.com/webstore/detail/cointool-gas-price/ehbppccdhiehpnnhjmahlkpfgnkejngb",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Occam Razer",
+        href: "docs/hack(evm-dapps)/occamrazer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/03582a22-eb46-4aef-6645-b02fc0891000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "OccamDAO, the first self governed DAO & Incubator",
+        website_url: "https://occam.fi/",
+        github_repo: "https://github.com/occamrazer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SmartPay",
+        href: "docs/hack(evm-dapps)/smartpay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/525bb17b-6698-46a1-dce9-d85f55ee5d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "SmartPay is a P2P marketing and Instant Payment platform.",
+        website_url: "https://smartpayd.app/",
+        github_repo: "https://github.com/smartpay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NEARStarter",
+        href: "docs/hack(evm-dapps)/nearstarter",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/130bef2d-a490-4980-7d73-f494d509a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "NEARStarter is a DAO-governed incubator acting as the ultimate growth engine for the NEAR & Aurora ecosystem",
+        website_url: "https://app.nearstarter.fi/",
+        github_repo: "https://github.com/nearstarter",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "paraspace_nft",
+        href: "docs/hack(evm-dapps)/paraspace_nft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e15682d5-98d2-4ebb-1fc0-0c4f081cdd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "paraspace",
+        website_url: "https://para.space/",
+        github_repo: "https://github.com/paraspace_nft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BGMS",
+        href: "docs/hack(evm-dapps)/bgms",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/da89576f-2ea4-4e79-02a3-a0106989b800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "BGMS-BRC20",
+        website_url: "https://www.bgms.io/",
+        github_repo: "https://github.com/bgms",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Pooky",
+        href: "docs/hack(evm-dapps)/pooky",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/df095d9b-0491-462a-ac1f-f11bbd1ed200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Pooky App",
+        website_url: "https://pooky.gg/app",
+        github_repo: "https://github.com/pooky",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ESF Tools",
+        href: "docs/hack(evm-dapps)/esftools",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4e0981d1-9fb6-4f43-5659-f7ff89c98f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ESF Tool -> The first Subdomain management platform.",
+        website_url: "https://esf.tools/",
+        github_repo: "https://github.com/esftools",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ANotnymice",
+        href: "docs/hack(evm-dapps)/anotnymice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7b1fbdab-6854-45f8-5b6d-6224b8156b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ANotnymice Try Catch Error",
+        website_url: "https://ANotnymice.com",
+        github_repo: "https://github.com/anotnymice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "UNotre",
+        href: "docs/hack(evm-dapps)/unotre",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cabfb9c1-1248-43c5-2b20-7f363a7b3300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "UNotre Try Catch Error",
+        website_url: "https://UNotre.com",
+        github_repo: "https://github.com/unotre",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LI.FI Widget",
+        href: "docs/hack(evm-dapps)/li.fiwidget",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/02262803-8738-4a60-8389-dfe99257ff00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "LI.FI Widget Try Catch Error",
+        website_url: "https://LI.FI Widget.com",
+        github_repo: "https://github.com/li.fiwidget",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sneakmart -> Metakicks",
+        href: "docs/hack(evm-dapps)/sneakmart-metakicks",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5108b088-4f48-4b54-27fc-154e76338100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Sneakmart -> Metakicks Try Catch Error",
+        website_url: "https://Sneakmart -> Metakicks.com",
+        github_repo: "https://github.com/sneakmart-metakicks",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LearnWeb3",
+        href: "docs/hack(evm-dapps)/learnweb3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5b019d7a-ac89-473c-73ec-8f9f28646600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The leading web3 education platform",
+        website_url: "https://learnweb3.io/",
+        github_repo: "https://github.com/learnweb3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OIX",
+        href: "docs/hack(evm-dapps)/oix",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/418b0bda-b679-4023-7532-b9c2006d5000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Social NFT Marketplace for the Metaverse",
+        website_url: "https://oix.app/",
+        github_repo: "https://github.com/oix",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Level Finance",
+        href: "docs/hack(evm-dapps)/levelfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/26e740b7-fb5e-458a-7579-6c1abe8af400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "On-Demand Liquidity Meets Bespoke Risk Management",
+        website_url: "https://level.finance/",
+        github_repo: "https://github.com/levelfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFTX V2",
+        href: "docs/hack(evm-dapps)/nftxv2",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5f034c2f-dba1-4c38-10de-0b84d7a60e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "NFTX is a platform for creating liquid markets for illiquid Non-Fungible Tokens (NFTs).",
+        website_url: "https://nftx.io/",
+        github_repo: "https://github.com/nftxv2",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ensurer",
+        href: "docs/hack(evm-dapps)/ensurer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fa1a2741-3b3f-43d8-a30a-7622dedb4200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Ensurer the powerful swap",
+        website_url: "https://ensurer.xyz/",
+        github_repo: "https://github.com/ensurer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "pacer",
+        href: "docs/hack(evm-dapps)/pacer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2ad4041a-8467-4d3d-99c5-6c5fadb24500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "pacer game",
+        website_url: "https://pacer.longtalegames.com/",
+        github_repo: "https://github.com/pacer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Hakka Intelligence",
+        href: "docs/hack(evm-dapps)/hakkaintelligence",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a45dd38c-3d23-4aca-9aa5-790bc1e55d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Market Prediction Product",
+        website_url: "https://intelligence.hakka.finance/",
+        github_repo: "https://github.com/hakkaintelligence",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "INX PRODUCTION",
+        href: "docs/hack(evm-dapps)/inxproduction",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3f804ae4-b2a2-4431-4fca-4a936aefbf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "INX Production wallet",
+        website_url: "https://inx.co/",
+        github_repo: "https://github.com/inxproduction",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ZaynFi",
+        href: "docs/hack(evm-dapps)/zaynfi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40f7abb1-c0ed-4781-cc0d-73fd2c4feb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A simplified yield generation protocol",
+        website_url: "https://zayn.fi/",
+        github_repo: "https://github.com/zaynfi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AQUA",
+        href: "docs/hack(evm-dapps)/aqua",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bb6c0345-7bf1-4c22-bfc4-9c1c019a2b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "AQUA, a player-focused community marketplace built for Web3 gamers",
+        website_url: "https://aqua.xyz/",
+        github_repo: "https://github.com/aqua",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "psfm-stage-dapp",
+        href: "docs/hack(evm-dapps)/psfm-stage-dapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a51d40b-d63f-4baa-f54b-97130daedc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "WalletConnect v2.0 for psfm migration dapp",
+        website_url: "https://psfm.safemoon.com/",
+        github_repo: "https://github.com/psfm-stage-dapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "team.finance",
+        href: "docs/hack(evm-dapps)/team.finance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0b1eae76-5a1b-432c-8448-b93f143e2800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "team.finance Try Catch Error",
+        website_url: "https://team.finance.com",
+        github_repo: "https://github.com/team.finance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MightyNet",
+        href: "docs/hack(evm-dapps)/mightynet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2b72cbd7-68d8-4712-880f-422c28f41200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "MightyNet Try Catch Error",
+        website_url: "https://MightyNet.com",
+        github_repo: "https://github.com/mightynet",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "WalletChat",
+        href: "docs/hack(evm-dapps)/walletchat",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ea3f1bc7-4ab4-42a5-047a-8a2fadf8c200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "WalletChat Try Catch Error",
+        website_url: "https://WalletChat.com",
+        github_repo: "https://github.com/walletchat",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Decentraplace",
+        href: "docs/hack(evm-dapps)/decentraplace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7b755e83-010f-41cc-09fd-0e514e38e900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentraplace Try Catch Error",
+        website_url: "https://Decentraplace.com",
+        github_repo: "https://github.com/decentraplace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Apeiron -> Marketplace",
+        href: "docs/hack(evm-dapps)/apeiron-marketplace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ec6e2c7a-6218-419f-33c5-7e38e5a8d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Apeiron -> Marketplace Try Catch Error",
+        website_url: "https://Apeiron -> Marketplace.com",
+        github_repo: "https://github.com/apeiron-marketplace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Gangster All Star -> Bounties",
+        href: "docs/hack(evm-dapps)/gangsterallstar-bounties",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40501a49-11a2-43e3-6d9a-16f0e2224100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Gangster All Star -> Bounties Try Catch Error",
+        website_url: "https://Gangster All Star -> Bounties.com",
+        github_repo: "https://github.com/gangsterallstar-bounties",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dodao.dev",
+        href: "docs/hack(evm-dapps)/dodao.dev",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0e3df9cd-6a1a-444e-1f84-b7972017aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "dodao.dev Try Catch Error",
+        website_url: "https://dodao.dev.com",
+        github_repo: "https://github.com/dodao.dev",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CrowdSwap.org",
+        href: "docs/hack(evm-dapps)/crowdswap.org",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/435695e5-6b4c-42be-f2af-5ffef42da300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "CrowdSwap.org Try Catch Error",
+        website_url: "https://CrowdSwap.org.com",
+        github_repo: "https://github.com/crowdswap.org",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeCert.me",
+        href: "docs/hack(evm-dapps)/decert.me",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b4e1a99-fa1d-47ed-d6c9-077295258000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DeCert.me Try Catch Error",
+        website_url: "https://DeCert.me.com",
+        github_repo: "https://github.com/decert.me",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "0xFreelance",
+        href: "docs/hack(evm-dapps)/0xfreelance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/198efc33-3031-41ed-872f-f1485cd88900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "0xFreelance Try Catch Error",
+        website_url: "https://0xFreelance.com",
+        github_repo: "https://github.com/0xfreelance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Doomsday: Settlers of the Wasteland",
+        href: "docs/hack(evm-dapps)/doomsday:settlersofthewasteland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a3dcb49-8c17-4095-8659-bf709f24a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Doomsday: Settlers of the Wasteland Try Catch Error",
+        website_url: "https://Doomsday: Settlers of the Wasteland.com",
+        github_repo: "https://github.com/doomsday:settlersofthewasteland",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "GoPulse.com",
+        href: "docs/hack(evm-dapps)/gopulse.com",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/617ee856-04a6-4d6e-6040-71639e6e1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "GoPulse.com Try Catch Error",
+        website_url: "https://GoPulse.com.com",
+        github_repo: "https://github.com/gopulse.com",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ĒNotsys Bridge",
+        href: "docs/hack(evm-dapps)/ēnotsysbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cfbc5af5-6540-4794-4673-e1f93c468c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ĒNotsys Bridge Try Catch Error",
+        website_url: "https://ĒNotsys Bridge.com",
+        github_repo: "https://github.com/ēnotsysbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XBANKING",
+        href: "docs/hack(evm-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5c5d025b-c11f-4798-4473-b2656bc20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Carrier",
+        href: "docs/hack(evm-dapps)/carrier",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/39624901-25c0-41e6-b091-8434045d4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A powerful token and NFT bridge for Web3 natives.",
+        website_url: "https://www.carrier.so/",
+        github_repo: "https://github.com/carrier",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "0xPlasma Finance",
+        href: "docs/hack(evm-dapps)/0xplasmafinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0b442c16-962d-4de8-a575-968899cb3d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DeFi and NFT Metaverse",
+        website_url: "https://plasma.finance/",
+        github_repo: "https://github.com/0xplasmafinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AKKA Finance",
+        href: "docs/hack(evm-dapps)/akkafinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9977ab7b-7863-4815-e70c-6ca25cc0af00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "DeFi / DEX aggregator on Binance Smart Chain , Fantom , ...",
+        website_url: "https://www.app.akka.finance/",
+        github_repo: "https://github.com/akkafinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Champions Ascension",
+        href: "docs/hack(evm-dapps)/championsascension",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dacebc25-3394-4e4d-0d63-3487f3ee5f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Multiplayer Online Battle Arena",
+        website_url: "https://champions.io/",
+        github_repo: "https://github.com/championsascension",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Covalent",
+        href: "docs/hack(evm-dapps)/covalent",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a04a1f9-bf25-4c8d-b1a6-5901e11d0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Covalent Network -> Staking Dashboard",
+        website_url: "https://covalenthq.com/",
+        github_repo: "https://github.com/covalent",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AiDoge",
+        href: "docs/hack(evm-dapps)/aidoge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/50df1cff-c22a-4320-fd2a-e0952e590900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "AiDoge",
+        website_url: "https://aidoge.com/",
+        github_repo: "https://github.com/aidoge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Shell Protocol",
+        href: "docs/hack(evm-dapps)/shellprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c5fad91f-2161-4236-44e0-279ebb3a8a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Where simplicity meets DeFi. Powerful one-click transactions, unbeatably capital-efficient AMMs, and a modular developer experience.",
+        website_url: "https://shellprotocol.io/",
+        github_repo: "https://github.com/shellprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "kiwinews",
+        href: "docs/hack(evm-dapps)/kiwinews",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/81cc9a92-6f17-4a5e-ec8f-904639806400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "decentralized hn",
+        website_url: "https://kiwinews.xyz/",
+        github_repo: "https://github.com/kiwinews",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KoinX -> Production",
+        href: "docs/hack(evm-dapps)/koinx-production",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "KoinX -> Production Try Catch Error",
+        website_url: "https://KoinX -> Production.com",
+        github_repo: "https://github.com/koinx-production",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "staking.dxpool",
+        href: "docs/hack(evm-dapps)/staking.dxpool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d1c096a3-fcea-457c-6ba5-de23e7aad800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "staking.dxpool Try Catch Error",
+        website_url: "https://staking.dxpool.com",
+        github_repo: "https://github.com/staking.dxpool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Heroes of Mavia",
+        href: "docs/hack(evm-dapps)/heroesofmavia",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e21d923d-0a24-4d21-b38c-9d564f55b500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Heroes of Mavia Try Catch Error",
+        website_url: "https://Heroes of Mavia.com",
+        github_repo: "https://github.com/heroesofmavia",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fractal Payments",
+        href: "docs/hack(evm-dapps)/fractalpayments",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/673b9e47-7470-4ee3-57b6-bf7d848c3200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Fractal Payments Try Catch Error",
+        website_url: "https://Fractal Payments.com",
+        github_repo: "https://github.com/fractalpayments",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RunNotw",
+        href: "docs/hack(evm-dapps)/runnotw",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/201558d3-db88-4b16-d600-68d1fe617c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "RunNotw Try Catch Error",
+        website_url: "https://RunNotw.com",
+        github_repo: "https://github.com/runnotw",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "themillionaireschoice.ae",
+        href: "docs/hack(evm-dapps)/themillionaireschoice.ae",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b8ed7c4-190c-4fe1-4918-a4b2bb596800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "themillionaireschoice.ae Try Catch Error",
+        website_url: "https://themillionaireschoice.ae.com",
+        github_repo: "https://github.com/themillionaireschoice.ae",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Lotte.Fan",
+        href: "docs/hack(evm-dapps)/lotte.fan",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3967d8b6-ccad-4830-7c8a-1909d560b900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Lotte.Fan Try Catch Error",
+        website_url: "https://Lotte.Fan.com",
+        github_repo: "https://github.com/lotte.fan",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LATOKEN Multichain DeFi Wallet",
+        href: "docs/hack(evm-dapps)/latokenmultichaindefiwallet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ff858a37-cbcb-413d-c1ed-917a444bea00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Take full control over your digital assets. Build your own bank in one app.",
+        website_url: "https://latoken.com/",
+        github_repo: "https://github.com/latokenmultichaindefiwallet",
+        appStore: "https://apps.apple.com/in/app/la-defi-wallet/id1614389764",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.app.defi&hl=en&gl=US",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mailchain",
+        href: "docs/hack(evm-dapps)/mailchain",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a5e4aa78-c5a5-4c48-5fda-61dd318e5400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Email for Web3",
+        website_url: "https://mailchain.com/",
+        github_repo: "https://github.com/mailchain",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LOOT8",
+        href: "docs/hack(evm-dapps)/loot8",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f647104c-166b-406b-6e2f-20173ac85400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "LOOT8 External Wallet Linking",
+        website_url: "https://loot8.io/",
+        github_repo: "https://github.com/loot8",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "hope",
+        href: "docs/hack(evm-dapps)/hope",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c5ffe2aa-387e-41b1-3c00-f601f7645d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A distributed stable coin designed for everyone.",
+        website_url: "https://hope.money/",
+        github_repo: "https://github.com/hope",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "WalkingDoggo",
+        href: "docs/hack(evm-dapps)/walkingdoggo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fc16c76b-a831-48b7-0e7b-e637f4757500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Walk and earn with your cute pet",
+        website_url: "https://walkingdoggo.io/",
+        github_repo: "https://github.com/walkingdoggo",
+        appStore: "https://apps.apple.com/us/app/walkingdoggo/id1668494998",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.walkingdoggo.app",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "angelblock",
+        href: "docs/hack(evm-dapps)/angelblock",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6d0ba66b-1a3e-4eb7-5c82-7e5c11c85700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Democratizing fundraising for the blockchain space",
+        website_url: "https://angelblock.io/",
+        github_repo: "https://github.com/angelblock",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "beethovenx",
+        href: "docs/hack(evm-dapps)/beethovenx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cc1bdc0f-04f9-4f1a-4735-772764d7c900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Beethoven X",
+        website_url: "https://www.beets.fi/",
+        github_repo: "https://github.com/beethovenx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KryptoGO Studio",
+        href: "docs/hack(evm-dapps)/kryptogostudio",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3296518f-eee5-44fa-1378-d10caf77b200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "KryptoGO Studio",
+        website_url: "https://studio.kryptogo.com/",
+        github_repo: "https://github.com/kryptogostudio",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ThingsIX",
+        href: "docs/hack(evm-dapps)/thingsix",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/81eb4ebe-af72-4857-f1e1-84026d895a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ThingsIX is a decentralized IoT Network",
+        website_url: "https://thingsix.com/",
+        github_repo: "https://github.com/thingsix",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Maple Finance",
+        href: "docs/hack(evm-dapps)/maplefinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b4c8f73a-d8ba-4d0f-30a0-89f7a41a1600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Institutional capital marketplace on-chain",
+        website_url: "https://maple.finance/",
+        github_repo: "https://github.com/maplefinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "tvn",
+        href: "docs/hack(evm-dapps)/tvn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b3d8f6f1-828d-4b29-649a-3f133cb00000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "travelleroffice",
+        website_url: "https://www.travelleroffice.com/home",
+        github_repo: "https://github.com/tvn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "iDos Games",
+        href: "docs/hack(evm-dapps)/idosgames",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1b1f1dd7-97ad-4318-8e95-dd269fb56100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Blockchain Games Ecosystem Platform",
+        website_url: "https://idosgames.com/",
+        github_repo: "https://github.com/idosgames",
+        appStore:
+          "https://play.google.com/store/apps/dev?id=7740264786200781447",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Opepen",
+        href: "docs/hack(evm-dapps)/opepen",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ff6090c2-d83f-43f7-5d6d-1533dceefd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The Opepen PFP.",
+        website_url: "https://opepen.art/",
+        github_repo: "https://github.com/opepen",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "osean",
+        href: "docs/hack(evm-dapps)/osean",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ffc2749d-b369-4051-4d47-1c3042dca700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "osean-nft crator platform",
+        website_url: "https://o-sean.io/",
+        github_repo: "https://github.com/osean",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fanbase.io Website",
+        href: "docs/hack(evm-dapps)/fanbase.iowebsite",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/feebd35d-22cb-41f7-cf4e-ac90428e4f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Fanbase.io Website Try Catch Error",
+        website_url: "https://Fanbase.io Website.com",
+        github_repo: "https://github.com/fanbase.iowebsite",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Swap.coffee",
+        href: "docs/hack(evm-dapps)/swap.coffee",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8fd15f48-1377-45ee-02c7-e179544f4b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Swap.coffee Try Catch Error",
+        website_url: "https://Swap.coffee.com",
+        github_repo: "https://github.com/swap.coffee",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "InNotfund",
+        href: "docs/hack(evm-dapps)/innotfund",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/90a6d483-1b38-403b-2c06-c79a4f675900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "InNotfund Try Catch Error",
+        website_url: "https://InNotfund.com",
+        github_repo: "https://github.com/innotfund",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "antra.land",
+        href: "docs/hack(evm-dapps)/antra.land",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/46e256a0-ab1f-4bd6-73c2-b35364e97000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "antra.land Try Catch Error",
+        website_url: "https://antra.land.com",
+        github_repo: "https://github.com/antra.land",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "metroNotme-app-prod",
+        href: "docs/hack(evm-dapps)/metronotme-app-prod",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e02c3ea5-37a9-40b3-8342-6dad350b5d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "metroNotme-app-prod Try Catch Error",
+        website_url: "https://metroNotme-app-prod.com",
+        github_repo: "https://github.com/metronotme-app-prod",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Connext Bridge",
+        href: "docs/hack(evm-dapps)/connextbridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f4c99c1e-9c69-4326-a578-1b604ff2cc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Connext Bridge | Cross-Chain Transfer",
+        website_url: "https://bridge.connext.network/",
+        github_repo: "https://github.com/connextbridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFT Multisender",
+        href: "docs/hack(evm-dapps)/nftmultisender",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e6f55847-524a-4594-abc3-89a166a01300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Send ERC-721 & ERC-1155(NFT) Token to thousands of addresses out in single transaction with NFT MultiSender.",
+        website_url: "https://nft.multisender.app/",
+        github_repo: "https://github.com/nftmultisender",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Manifold Studio",
+        href: "docs/hack(evm-dapps)/manifoldstudio",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0e7a7ae2-81e4-42ae-f34a-f400237d3a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Your contract. Your rules.  Deploy your own NFT smart contract!",
+        website_url: "https://studio.manifold.xyz/",
+        github_repo: "https://github.com/manifoldstudio",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cypher DApp",
+        href: "docs/hack(evm-dapps)/cypherdapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b357d4f-6dc8-4972-2997-5b4f0daa9700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Portfolio Dashboard",
+        website_url: "https://app.cypherwallet.io/",
+        github_repo: "https://github.com/cypherdapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MUFEX",
+        href: "docs/hack(evm-dapps)/mufex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f5ac728c-7bdd-464e-ec74-d70e814c5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Most user-friendly cryptocurrency exchange and trading platform.",
+        website_url: "https://www.mufex.finance/",
+        github_repo: "https://github.com/mufex",
+        appStore:
+          "https://play.google.com/store/apps/details?id=co.mufex.org&hl=en-SG",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Centrifuge App",
+        href: "docs/hack(evm-dapps)/centrifugeapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9e6c6bf2-7a57-4d3d-7b81-a4ed98e6bd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Real-world DeFi: The on-chain ecosystem for structured credit.",
+        website_url: "https://centrifuge.io/",
+        github_repo: "https://github.com/centrifugeapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeBox",
+        href: "docs/hack(evm-dapps)/debox",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d8a6e4ee-b9b9-4a31-c4fd-cc67fdc7b200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A DID based Messager",
+        website_url: "https://debox.pro/",
+        github_repo: "https://github.com/debox",
+        appStore: "https://apps.apple.com/us/app/dbx-global/id6444485220",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.tm.security.wallet",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OneLottery",
+        href: "docs/hack(evm-dapps)/onelottery",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f186052-4a32-4b1d-725a-aac1a5bd3d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "OneLottery -> A fair and just blockchain lottery.",
+        website_url: "https://onelot.io/",
+        github_repo: "https://github.com/onelottery",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mantle Revoke",
+        href: "docs/hack(evm-dapps)/mantlerevoke",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a2d99496-613c-4a0c-f228-465ec25f0300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "mantle revoke",
+        website_url: "http://mantle.xyz/",
+        github_repo: "https://github.com/mantlerevoke",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NewVerse",
+        href: "docs/hack(evm-dapps)/newverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6e7d5178-5b48-4c93-f3de-9cda331d6400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The most artistic way to save our planet.",
+        website_url: "https://www.newversecenter.com/",
+        github_repo: "https://github.com/newverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cyan",
+        href: "docs/hack(evm-dapps)/cyan",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/959889ab-bd61-4c5d-f09c-f15fbece5500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The first buy now pay later service (BNPL) for NFTs. Put 25% down on the total amount of an NFT plus interest, and own the NFT today.",
+        website_url: "https://usecyan.com/",
+        github_repo: "https://github.com/cyan",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MCapital",
+        href: "docs/hack(evm-dapps)/mcapital",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/396d8118-53b2-4907-dc81-3e2e21196200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "MC Platfrom confirm your profile app",
+        website_url: "https://www.mcplatform.info/",
+        github_repo: "https://github.com/mcapital",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Avantis",
+        href: "docs/hack(evm-dapps)/avantis",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d6c4395e-9ce9-43f2-494e-b2c227bfbe00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Avantis is a derivatives platform built on the superchain",
+        website_url: "https://www.avantisfi.com/",
+        github_repo: "https://github.com/avantis",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Eternumland",
+        href: "docs/hack(evm-dapps)/eternumland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9fc7337f-57dc-4fbd-f328-f86b71ead400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "First funeral web3",
+        website_url: "https://www.eternumland.io/",
+        github_repo: "https://github.com/eternumland",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Labralords",
+        href: "docs/hack(evm-dapps)/labralords",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/87ed2316-bc13-4a76-a998-6642f86bfa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A platform that provides insights so you can make smarter trades of NFTs",
+        website_url: "https://labralords.com/",
+        github_repo: "https://github.com/labralords",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Spirit-DAO",
+        href: "docs/hack(evm-dapps)/spirit-dao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75fbeebd-e178-4037-3688-9c393c935b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "SpiritSwap is a decentralized exchange (DEX) on the Fantom Opera Chain. ",
+        website_url: "https://www.spiritswap.finance/",
+        github_repo: "https://github.com/spirit-dao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Artichoke",
+        href: "docs/hack(evm-dapps)/artichoke",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2c5c252d-0978-41cd-b888-e1f8efd1b500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Single-Sided Liquidity on Arbitrum",
+        website_url: "https://articho.ke/",
+        github_repo: "https://github.com/artichoke",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Flare Focus FCX",
+        href: "docs/hack(evm-dapps)/flarefocusfcx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4058ab76-d193-495f-2bec-09ec2e1caf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Flare Focus Global",
+        website_url: "https://focusflr.app/",
+        github_repo: "https://github.com/flarefocusfcx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NiftyFair",
+        href: "docs/hack(evm-dapps)/niftyfair",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/10d5c3f5-f7bb-40fe-57a5-aa36a1c25000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Discover, collect, and trade NFTs. Completely on-chain and curated by our vibrant community",
+        website_url: "https://niftyfair.io/",
+        github_repo: "https://github.com/niftyfair",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "mtkb4gud",
+        href: "docs/hack(evm-dapps)/mtkb4gud",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6687c001-74aa-4433-0699-d20ca5d1b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "mtkb4gud",
+        website_url: "http://mtkb4gud.xyz/",
+        github_repo: "https://github.com/mtkb4gud",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Chain Of Legends",
+        href: "docs/hack(evm-dapps)/chainoflegends",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2b887a49-70c5-4b66-ce64-16655bf92200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Chain of Legends is a Free to Play, Play to Earn Game based on Economics Knowledge for Small investors and gamers.",
+        website_url: "https://chainoflegends.com/",
+        github_repo: "https://github.com/chainoflegends",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Liker Land",
+        href: "docs/hack(evm-dapps)/likerland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/01f006a2-4340-4777-da41-401df88e4c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The POAP for content. Turn your stories into collectibles.",
+        website_url: "https://liker.land/",
+        github_repo: "https://github.com/likerland",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Agave",
+        href: "docs/hack(evm-dapps)/agave",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1be9e862-e15f-4016-fcda-bcc2ab8c1100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Agave Finance is a Decentralised Lending Market on Gnosis Chain",
+        website_url: "https://agave.finance/",
+        github_repo: "https://github.com/agave",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Golden Inuverse",
+        href: "docs/hack(evm-dapps)/goldeninuverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d1951339-0eb0-45ba-0e9a-ca2bc931e400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Play 2 Earn registration page",
+        website_url: "https://goldeninuverse.com/",
+        github_repo: "https://github.com/goldeninuverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Valorem",
+        href: "docs/hack(evm-dapps)/valorem",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b52cddc6-59c5-45d1-8229-4c0a7cd1c000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Permissionless options, on any ERC20 token.",
+        website_url: "https://valorem.xyz/",
+        github_repo: "https://github.com/valorem",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Champz",
+        href: "docs/hack(evm-dapps)/champz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51eab07b-179c-4b13-65dc-a1691294ed00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Champignons of Arborethia",
+        website_url: "https://champz.world/",
+        github_repo: "https://github.com/champz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AIPTP",
+        href: "docs/hack(evm-dapps)/aiptp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/57c756e1-c11e-4b75-2e5c-5832b3af1e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "AiPTP.com ,A revolutionary blockchain for decentralized AI.",
+        website_url: "https://app.aiptp.com/",
+        github_repo: "https://github.com/aiptp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dexter",
+        href: "docs/hack(evm-dapps)/dexter",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ee8dae0d-ab63-490e-f23f-3d1a86a02c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Interchain DEX For Yield Generating Assets",
+        website_url: "https://dexter.zone/",
+        github_repo: "https://github.com/dexter",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mar3",
+        href: "docs/hack(evm-dapps)/mar3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/973ffffe-403e-48b9-c59a-a3ea651f1500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mar3 AI",
+        website_url: "https://mar3.ai/",
+        github_repo: "https://github.com/mar3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Azenbu",
+        href: "docs/hack(evm-dapps)/azenbu",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9c395022-8a8f-484e-1bbc-8cf705d12b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Azenbu Games is a Web3 game developer, publisher, and digital distribution project.",
+        website_url: "https://azenbu.io/",
+        github_repo: "https://github.com/azenbu",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NTV",
+        href: "docs/hack(evm-dapps)/ntv",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8039e3ac-0077-423d-08ce-f660fdca2d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Upload your soul. Join us to co-create the new world. ",
+        website_url: "https://www.zielchain.com/",
+        github_repo: "https://github.com/ntv",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Nototies NFT",
+        href: "docs/hack(evm-dapps)/nototiesnft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a24bd7cb-9945-41ad-a7d2-62a133cd2700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Nototies NFT Try Catch Error",
+        website_url: "https://Nototies NFT.com",
+        github_repo: "https://github.com/nototiesnft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "gNotsis-safe",
+        href: "docs/hack(evm-dapps)/gnotsis-safe",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bc5baa42-3fd1-4019-46f9-9cda7cb44c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "gNotsis-safe Try Catch Error",
+        website_url: "https://gNotsis-safe.com",
+        github_repo: "https://github.com/gnotsis-safe",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bixos.com",
+        href: "docs/hack(evm-dapps)/bixos.com",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4cf20d72-3466-4b06-4bea-bdb9c9b8d000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Bixos.com Try Catch Error",
+        website_url: "https://Bixos.com.com",
+        github_repo: "https://github.com/bixos.com",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Aura",
+        href: "docs/hack(evm-dapps)/aura",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9284a320-5946-44f7-e334-f728a3277e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Aura Try Catch Error",
+        website_url: "https://Aura.com",
+        github_repo: "https://github.com/aura",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Change Notw",
+        href: "docs/hack(evm-dapps)/changenotw",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f3a07fc8-04aa-4d89-30f1-23f70b331e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Change Notw Try Catch Error",
+        website_url: "https://Change Notw.com",
+        github_repo: "https://github.com/changenotw",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Riverex",
+        href: "docs/hack(evm-dapps)/riverex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5e4bc1f5-384f-40cf-153c-d8c29a813e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized Exchange",
+        website_url: "https://riverex.io/",
+        github_repo: "https://github.com/riverex",
+        appStore: "https://apps.apple.com/lk/app/riverex/id1642921330",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.blockchaincmdt.riverex",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Intelligent Monsters",
+        href: "docs/hack(evm-dapps)/intelligentmonsters",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8022a918-247e-4f52-6ac8-d3078b31d000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "IMON combines machine learning with blockchain, creates added value for all users",
+        website_url: "https://imon.ai/",
+        github_repo: "https://github.com/intelligentmonsters",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeFi Saver",
+        href: "docs/hack(evm-dapps)/defisaver",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9484adb2-1ba3-48aa-c25a-9782f4725900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "One-stop dashboard for creating, managing and tracking your DeFi positions.",
+        website_url: "https://defisaver.com/",
+        github_repo: "https://github.com/defisaver",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Covey Legends",
+        href: "docs/hack(evm-dapps)/coveylegends",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75a2b3e4-ec3c-495a-9f4f-d7bd4883dc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Invest with proven performers.",
+        website_url: "https://coveylegends.io/",
+        github_repo: "https://github.com/coveylegends",
+        appStore: "https://apps.apple.com/us/app/covey-legends/id6446903201",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.covey.legends",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KlubX",
+        href: "docs/hack(evm-dapps)/klubx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/157d653c-d6c4-420a-fb15-30db73d6ac00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Web3 social network",
+        website_url: "https://klubx.io/",
+        github_repo: "https://github.com/klubx",
+        appStore: "https://apps.apple.com/fr/app/klubx/id1644886921",
+        playStore:
+          "https://play.google.com/store/apps/details?id=space.klubx",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Stablz",
+        href: "docs/hack(evm-dapps)/stablz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7b2a6e70-4cfc-4869-7900-172b76617d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Stablz sits on-top of farms and auto-converts yield into stablecoins (or equivalent)",
+        website_url: "https://stablz.one/",
+        github_repo: "https://github.com/stablz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "voltech",
+        href: "docs/hack(evm-dapps)/voltech",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/25a9a77e-085a-4fb1-a7f1-79d7084f2c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Ultra-accessible Tokenized Staking Protocol",
+        website_url: "https://www.volt-tech.xyz/",
+        github_repo: "https://github.com/voltech",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "staff-only",
+        href: "docs/hack(evm-dapps)/staff-only",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/217d4ff5-6b84-41ff-3d45-fdd60f642800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Staff Only NFT",
+        website_url: "https://staffonlynft.io/",
+        github_repo: "https://github.com/staff-only",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ShopNEXT",
+        href: "docs/hack(evm-dapps)/shopnext",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bbcbc4e8-5c6c-4b7d-542f-01f69d5b9000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Shop to earn token",
+        website_url: "https://shopnext.io/",
+        github_repo: "https://github.com/shopnext",
+        appStore:
+          "https://apps.apple.com/vn/app/shopnext-shop-to-earn/id1595137327",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.shopnext.shopnext",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dexGo",
+        href: "docs/hack(evm-dapps)/dexgo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/06700f39-2388-4389-b824-5bd4992e1c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "dexGO is a game created for healthy lifestyle growth, traveling and earning. ",
+        website_url: "https://www.dexgo.club/",
+        github_repo: "https://github.com/dexgo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Silo Finance",
+        href: "docs/hack(evm-dapps)/silofinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8de6eb09-ab4f-481b-e7ba-fc85b1c08300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Secure Money Markets for All Crypto Assets",
+        website_url: "https://silo.finance/",
+        github_repo: "https://github.com/silofinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ApeSpace",
+        href: "docs/hack(evm-dapps)/apespace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a2052df9-cd21-4b9e-5a4e-8695230b1900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The ultimate crypto analytics platform for all traders!⏱️ REAL TIME! 📈 Charting💰 Trading 🧠 Analytics",
+        website_url: "https://apespace.io/",
+        github_repo: "https://github.com/apespace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "artong",
+        href: "docs/hack(evm-dapps)/artong",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cca8ec5f-b050-45f8-1b82-f7ce89514400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The OpenArt Marketplace",
+        website_url: "https://artong.io/",
+        github_repo: "https://github.com/artong",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RAMSES",
+        href: "docs/hack(evm-dapps)/ramses",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9e5e7797-a483-4ea1-069f-c4d9682c7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "RAMSES is a ve(3,3) DEX that masterfully adapts Andre Cronje -> initial vision of Solidly. ",
+        website_url: "https://ramses.exchange/",
+        github_repo: "https://github.com/ramses",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Xfai",
+        href: "docs/hack(evm-dapps)/xfai",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b5a8157c-8d1d-47f0-a067-6cfc527b5900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The ultimate automated trading platform for DeFi. Get the best swaps & rewards through Xfai -> entangled liquidity pools.",
+        website_url: "https://xfai.com/",
+        github_repo: "https://github.com/xfai",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Grand Rising Community",
+        href: "docs/hack(evm-dapps)/grandrisingcommunity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9b077f95-7b90-43fe-97d5-aec619b04b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Grand Rising Community, reggae community pon web3.",
+        website_url: "https://www.grandrisingcommunity.com/",
+        github_repo: "https://github.com/grandrisingcommunity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Startmining",
+        href: "docs/hack(evm-dapps)/startmining",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a41a177c-4d58-46ca-a7a4-24180071dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Startmining -> dashboard website",
+        website_url: "https://startmining.io/",
+        github_repo: "https://github.com/startmining",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Anichess",
+        href: "docs/hack(evm-dapps)/anichess",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6dedb7c3-1843-454d-0f59-e20c7393f600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Community-driven free-to-play chess game powered by magical spells. Founded by Animoca Brands and partnered with Chess.com.",
+        website_url: "https://anichess.com/",
+        github_repo: "https://github.com/anichess",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "D3cards",
+        href: "docs/hack(evm-dapps)/d3cards",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/71ecad1a-5dc6-4ef1-becf-2a5facd44b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your Web3 Profile",
+        website_url: "https://d3.cards/",
+        github_repo: "https://github.com/d3cards",
+        appStore: "https://d3.cards/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "aaa",
+        href: "docs/hack(evm-dapps)/aaa",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7303f73b-dcb7-42f0-059e-7576d1176000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Welcome to AAA, the best NFT Lending aggregator.  Borrow and Repay from a single place.",
+        website_url: "https://www.aaa.is/",
+        github_repo: "https://github.com/aaa",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MarsNext",
+        href: "docs/hack(evm-dapps)/marsnext",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bc0b5c0f-102f-464f-d28c-9c4c342e8a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A community centric, #decentralised reward distribution protocol, aim to build and expand community by rewarding them on different levels.",
+        website_url: "https://marsnext.io/",
+        github_repo: "https://github.com/marsnext",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sarafu Network",
+        href: "docs/hack(evm-dapps)/sarafunetwork",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4890be69-b713-465d-95fd-1e4fc12ea700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Establishing self-empowered financial systems based on local goods and services.We're revolutionising regional markets from the ground up.",
+        website_url: "https://sarafu.network/",
+        github_repo: "https://github.com/sarafunetwork",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFTChatRoom.com",
+        href: "docs/hack(evm-dapps)/nftchatroom.com",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5ab669a8-0e9b-4045-1408-2a329d2c0f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFTChatRoom.com Try Catch Error",
+        website_url: "https://NFTChatRoom.com.com",
+        github_repo: "https://github.com/nftchatroom.com",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "haex.io",
+        href: "docs/hack(evm-dapps)/haex.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/351ec3d4-26a9-450e-3fb8-11055ed4c200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "haex.io Try Catch Error",
+        website_url: "https://haex.io.com",
+        github_repo: "https://github.com/haex.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "1w3.io",
+        href: "docs/hack(evm-dapps)/1w3.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/db8d0a70-8c52-4eed-341f-d5e324a62600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "1w3.io Try Catch Error",
+        website_url: "https://1w3.io.com",
+        github_repo: "https://github.com/1w3.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "C2E -> Click To Earn!",
+        href: "docs/hack(evm-dapps)/c2e-clicktoearn!",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1a691e55-cbcf-4049-0d48-0771ac796800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "C2E -> Click To Earn! Try Catch Error",
+        website_url: "https://C2E -> Click To Earn!.com",
+        github_repo: "https://github.com/c2e-clicktoearn!",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CoinHelper.io",
+        href: "docs/hack(evm-dapps)/coinhelper.io",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/35981009-e07e-418c-e066-57684f40ee00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "CoinHelper.io Try Catch Error",
+        website_url: "https://CoinHelper.io.com",
+        github_repo: "https://github.com/coinhelper.io",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ListingSpy",
+        href: "docs/hack(evm-dapps)/listingspy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/928b8be6-77f0-425b-8f75-5c5bb8b6a200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ListingSpy helps you to easily find new tokens on all major launchpads, centralized and decentralized exchanges.",
+        website_url: "https://listingspy.net/",
+        github_repo: "https://github.com/listingspy",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bet Clover",
+        href: "docs/hack(evm-dapps)/betclover",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/590a5fd7-1771-4f6e-8b6f-1df0552fb700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Dapp for Betting",
+        website_url: "https://betclover.io/",
+        github_repo: "https://github.com/betclover",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dispatch",
+        href: "docs/hack(evm-dapps)/dispatch",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8e801bc5-8066-41e2-a904-c7db5eb75c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Dynamic messages anywhere across web2 and web3.",
+        website_url: "https://dispatch.co/",
+        github_repo: "https://github.com/dispatch",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Veggies Farm NFT Game",
+        href: "docs/hack(evm-dapps)/veggiesfarmnftgame",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e920d0bc-8580-445f-e388-2027eeaf3a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Plant, Harvest, Conquer! Join Veggies Farm today and experience the perfect blend of Farm NFT gaming, resource management, and PVP battles.",
+        website_url: "https://www.veggiesfarmgame.com/",
+        github_repo: "https://github.com/veggiesfarmnftgame",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Buffer Finance",
+        href: "docs/hack(evm-dapps)/bufferfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/71eb0732-7226-4afa-a49c-63a488300c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Buffer Finance: Non-custodial exotic options trading platform for short-term volatility trading and high-leverage risk hedging.",
+        website_url: "https://buffer.finance/",
+        github_repo: "https://github.com/bufferfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Airdrop Gameswift",
+        href: "docs/hack(evm-dapps)/airdropgameswift",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7045f051-4800-487e-ed93-07ed252e2b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "An app to collect GSWIFT Airdrop",
+        website_url: "https://gameswift.io/",
+        github_repo: "https://github.com/airdropgameswift",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TemplarDAO",
+        href: "docs/hack(evm-dapps)/templardao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5fde0020-c7b6-45e2-ab37-75ae5fdec700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "TemplarDAO is a decentralized reserve currency and hedge fund featuring a proprietary treasury-reverse protocol",
+        website_url: "https://templar.finance/",
+        github_repo: "https://github.com/templardao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bankless Academy",
+        href: "docs/hack(evm-dapps)/banklessacademy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/82a21879-5c1c-4a76-d5b6-18c5eee37e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Level up your knowledge of Web3 and DeFi",
+        website_url: "https://app.banklessacademy.com/",
+        github_repo: "https://github.com/banklessacademy",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cointacted",
+        href: "docs/hack(evm-dapps)/cointacted",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9513029e-15aa-4893-f326-ff09b1a79600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Login to platform with wallet",
+        website_url: "https://cointacted.com/",
+        github_repo: "https://github.com/cointacted",
+        appStore:
+          "https://apps.apple.com/us/app/cointacted/id1658532905?platform=iphone",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.cointacted",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Akita",
+        href: "docs/hack(evm-dapps)/akita",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ac1aa9bc-7400-455f-4337-56d712ed8a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Akita is a next generation democratic social platform for communities and creators",
+        website_url: "https://akita.community/",
+        github_repo: "https://github.com/akita",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MacaronSwap",
+        href: "docs/hack(evm-dapps)/macaronswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/04bdac2f-edc2-4240-9ba6-06ff65a55c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Future of decentralized exchange & farming platform ",
+        website_url: "https://macaronswap.finance/",
+        github_repo: "https://github.com/macaronswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Token Mapper",
+        href: "docs/hack(evm-dapps)/tokenmapper",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d5de64e9-b8aa-455a-ecc3-0fd064d78500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mapper Token for MiraiChain",
+        website_url: "https://mapper.miraichain.io/",
+        github_repo: "https://github.com/tokenmapper",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "repoint",
+        href: "docs/hack(evm-dapps)/repoint",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/629778cc-e51e-4a07-e799-eb9c624cf300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A decentralized system with features: high income potential, low risk and user-friendly interface ",
+        website_url: "https://re-point.net/",
+        github_repo: "https://github.com/repoint",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "box",
+        href: "docs/hack(evm-dapps)/box",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40db6c25-e203-40ef-bb51-40e42c4d2000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Meet Bitzing🚀 -> the Web3 NFT e-Commerce platform. Enjoy Mystery Boxes and Listake. Join us!",
+        website_url: "https://www.bitzing.io/",
+        github_repo: "https://github.com/box",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KinkBNB",
+        href: "docs/hack(evm-dapps)/kinkbnb",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aa417a9a-75b7-4485-10bd-1a0d610c5600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A decentralized two-sided marketplace for adult playspace rentals. ",
+        website_url: "https://www.kinkbnb.com/",
+        github_repo: "https://github.com/kinkbnb",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SFT protocol",
+        href: "docs/hack(evm-dapps)/sftprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/950eb247-2621-4986-eb7b-6acabc3d9d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "LSD for filecoin",
+        website_url: "https://www.sftproject.io/",
+        github_repo: "https://github.com/sftprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Algofi",
+        href: "docs/hack(evm-dapps)/algofi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/91b3648c-b1c1-4ddc-c34c-01ebcfe77800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A lending and swapping protocol built on the Algorand blockchain.",
+        website_url: "https://www.algofi.org/",
+        github_repo: "https://github.com/algofi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFT Jungle",
+        href: "docs/hack(evm-dapps)/nftjungle",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e50980e9-2c14-42dd-5dbd-b917b8fff000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Discover the best blockchain Collectibles and rewards.",
+        website_url: "https://nftjungle.store/",
+        github_repo: "https://github.com/nftjungle",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SoQuest",
+        href: "docs/hack(evm-dapps)/soquest",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/860ed30c-4c8f-4bb1-6f3c-baee26402c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Popular Web3 quest platform to earn reward and build identity.",
+        website_url: "https://soquest.xyz/",
+        github_repo: "https://github.com/soquest",
+        appStore: "https://apps.apple.com/us/app/soquest/id6446230192",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.port3.soquest",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ParaSwap Dapp",
+        href: "docs/hack(evm-dapps)/paraswapdapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/27f07a3e-235e-41c3-e893-f3a55a235200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ParaSwap aggregates DeFi liquidity and offers the best market rates",
+        website_url: "https://app.paraswap.io/",
+        github_repo: "https://github.com/paraswapdapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Holyheld",
+        href: "docs/hack(evm-dapps)/holyheld",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/07a77698-b67c-444f-37d3-312784d4ab00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The one debit card for all web3. The non-custodial way.",
+        website_url: "https://holyheld.com/",
+        github_repo: "https://github.com/holyheld",
+        appStore: "https://apps.apple.com/app/holyheld/id6446580097",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.holyheldmobile",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rage On Wheels",
+        href: "docs/hack(evm-dapps)/rageonwheels",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9fcbef0b-91c8-4cdc-a2fd-d514ec05a800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Rage On Wheels is a Play2Earn metaverse game that combines the thrill of popular vehicular battle.",
+        website_url: "https://row.game/",
+        github_repo: "https://github.com/rageonwheels",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Raffl",
+        href: "docs/hack(evm-dapps)/raffl",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f7e16382-1591-4c55-6015-3f0215860900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Web3 Automated Raffles. Enabling users to safely create decentralized and autonomous raffles.",
+        website_url: "https://raffl.xyz/",
+        github_repo: "https://github.com/raffl",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Augmentlab USC Dex Client",
+        href: "docs/hack(evm-dapps)/augmentlabuscdexclient",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4f20c9e8-b678-4846-0129-0d9d16c4aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Augmentlab USC Dex Client",
+        website_url: "https://augmentlabs.io/",
+        github_repo: "https://github.com/augmentlabuscdexclient",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Polymarket",
+        href: "docs/hack(evm-dapps)/polymarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fdec2e00-e9b7-433c-c0e0-ae92ea69dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Polymarket is an information markets platform that lets you trade on the world -> most highly-debated topics.",
+        website_url: "https://polymarket.com/",
+        github_repo: "https://github.com/polymarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Tranchess",
+        href: "docs/hack(evm-dapps)/tranchess",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b69115ff-59e1-4bfc-6cf2-6a609ecd9900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Tranchess is a yield-enhancing asset tracker with various risk-return solutions.",
+        website_url: "https://tranchess.com/",
+        github_repo: "https://github.com/tranchess",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Showtime",
+        href: "docs/hack(evm-dapps)/showtime",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f93c4f94-af93-4d46-5f75-704d3acba400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Showtime is a social network to connect creators with their true fans using new tools.",
+        website_url: "https://showtime.xyz/",
+        github_repo: "https://github.com/showtime",
+        appStore:
+          "https://apps.apple.com/ne/app/showtime-nft-social-network/id1606611688",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.showtime",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bebop",
+        href: "docs/hack(evm-dapps)/bebop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9289f4da-5eef-4ea5-9da0-91767f607100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Bebop is a DeFi trading platform. Trade any number of tokens at the same time, with guaranteed prices and no extra fees.",
+        website_url: "https://bebop.xyz/",
+        github_repo: "https://github.com/bebop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Trackstats",
+        href: "docs/hack(evm-dapps)/trackstats",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9569c6dc-2b43-4d07-e51e-047874545200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Track Your Crypto and DeFi Portfolio From One Place",
+        website_url: "https://trackstats.io/",
+        github_repo: "https://github.com/trackstats",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DOLZ",
+        href: "docs/hack(evm-dapps)/dolz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4dc8bf15-78e4-4c9f-2e23-d4ad3f6c1600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Arousing Metaverse",
+        website_url: "https://dolz.io/",
+        github_repo: "https://github.com/dolz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Metapro",
+        href: "docs/hack(evm-dapps)/metapro",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/afc27761-e3ab-43f4-823a-25424bae3400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "One app to manage all your digital assets.Store and use in the games and metaverses",
+        website_url: "https://metapromarket.com/",
+        github_repo: "https://github.com/metapro",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AuxoDAO",
+        href: "docs/hack(evm-dapps)/auxodao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2ffb6e1f-0009-42f5-f58c-9bfae703e400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Auxo is a DeFi platform that offers trust-minimized farming, rewards in ETH, and non-dilutive tokenomics.",
+        website_url: "https://auxo.fi/",
+        github_repo: "https://github.com/auxodao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ProofX",
+        href: "docs/hack(evm-dapps)/proofx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1dca9cec-12a7-4cf6-a542-319330e80f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ProofXは、NFTを活用したマーケティング、ブランディングで企業のロイヤルカスタマーの獲得に貢献します。",
+        website_url: "https://www.proofx.xyz/",
+        github_repo: "https://github.com/proofx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Monetha",
+        href: "docs/hack(evm-dapps)/monetha",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/70fc63b1-f469-4c26-2073-4da1c6a97700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Unlock boost in the Monetha app when depositing MTH. ",
+        website_url: "https://www.monetha.io/",
+        github_repo: "https://github.com/monetha",
+        appStore: "https://apps.apple.com/us/app/monetha/id1530795214",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.monetha.identity",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DAO4ART",
+        href: "docs/hack(evm-dapps)/dao4art",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d910be2-f624-4041-8d91-5c53dbbc1700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "DAO4ART is Web3 IP asset incubator that provides sustainable IP co-creation to NFT by introducing ERC20 royalty tokens.",
+        website_url: "https://dao4.art/",
+        github_repo: "https://github.com/dao4art",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Artwear",
+        href: "docs/hack(evm-dapps)/artwear",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d9d4b3db-5f7e-48ef-9a88-dfedb7f7f300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Artwear NFT Auction",
+        website_url: "https://artwear.auction/",
+        github_repo: "https://github.com/artwear",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "The BonVant",
+        href: "docs/hack(evm-dapps)/thebonvant",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b5cbcb39-0f29-40d2-d3e4-8ad17b934f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT project",
+        website_url: "https://thebonvant.com/",
+        github_repo: "https://github.com/thebonvant",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Baby Doge Swap Widget",
+        href: "docs/hack(evm-dapps)/babydogeswapwidget",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ef73ea75-3de7-4dcc-01c5-739cd89b6d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Add the ability to swap tokens on your own website in minutes.",
+        website_url: "https://widget.babydogeswap.com/",
+        github_repo: "https://github.com/babydogeswapwidget",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Comoco",
+        href: "docs/hack(evm-dapps)/comoco",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5873e6a0-0d5d-4441-8bb5-bde299f39f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "comoco marketplace",
+        website_url: "https://www.comoco.xyz/",
+        github_repo: "https://github.com/comoco",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dexi Staking",
+        href: "docs/hack(evm-dapps)/dexistaking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e0d53864-764f-463a-4901-b700270e1d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Staking platform",
+        website_url: "https://dexioprotocol.com/",
+        github_repo: "https://github.com/dexistaking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Vulkania",
+        href: "docs/hack(evm-dapps)/vulkania",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2bb9cee4-97ba-4c4f-be4b-b5aa56f11c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Vulkania.io provides plush and data rich dashboards for Cryptocurrency tokens",
+        website_url: "https://vulkania.io/",
+        github_repo: "https://github.com/vulkania",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Loop2Earn",
+        href: "docs/hack(evm-dapps)/loop2earn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e0305629-d6ad-4e3c-501f-8fe7b1afcd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "LOOP2 -> The game of lifeGet more energy with less effort",
+        website_url: "https://loop2earn.com/",
+        github_repo: "https://github.com/loop2earn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Movez",
+        href: "docs/hack(evm-dapps)/movez",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/18b7c663-380c-4874-9db9-3a60974bf100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          " Centered around the MoveZ app, participants will be able to earn ",
+        website_url: "http://movez.me/",
+        github_repo: "https://github.com/movez",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Stems",
+        href: "docs/hack(evm-dapps)/stems",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c7df4c52-cd12-4217-5737-e759fc699900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "music collaboration platform",
+        website_url: "https://stems.art/",
+        github_repo: "https://github.com/stems",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "hamsterfinance",
+        href: "docs/hack(evm-dapps)/hamsterfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6004fbf5-99de-47d4-b65d-4d3715176000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Hamster Finance number one meme coin on binance smart chain",
+        website_url: "https://swaphamster.io/",
+        github_repo: "https://github.com/hamsterfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "JumpTask",
+        href: "docs/hack(evm-dapps)/jumptask",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/71e7c85c-65f8-458a-2ebd-4832f30dee00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "One place, many ways to earn",
+        website_url: "https://jumptask.io/",
+        github_repo: "https://github.com/jumptask",
+        appStore:
+          "https://play.google.com/store/apps/details?id=io.jumptask.app&hl=en&gl=US&pli=1",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Supercart",
+        href: "docs/hack(evm-dapps)/supercart",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c275bb6d-e381-43cb-0bc5-58052fe59400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Simple Crypto checkout works standalone, or with Shopify and Woocommerce",
+        website_url: "https://supercart.ai/",
+        github_repo: "https://github.com/supercart",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Revert",
+        href: "docs/hack(evm-dapps)/revert",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/44e1baf0-0f94-4652-776c-a5ab1fd22e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Actionable analytics for AMM liquidity providers.",
+        website_url: "https://revert.finance/",
+        github_repo: "https://github.com/revert",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Polychain Islands",
+        href: "docs/hack(evm-dapps)/polychainislands",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d99a3202-4f36-4e34-3e90-e8239be9aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Polychain Islands is a turn-based Play2Own monster battler fueled by multi-chain NFTs from Polychain Monsters.",
+        website_url: "https://polychainmonsters.com/game",
+        github_repo: "https://github.com/polychainislands",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PaintSwap",
+        href: "docs/hack(evm-dapps)/paintswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1c4ee590-6bb2-4b7f-0be8-39bb17d36400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "PaintSwap is the ultimate open decentralized NFT Marketplace on multiple chains to buy and sell NFTs utilizing the latest NFT technology.",
+        website_url: "https://paintswap.finance/",
+        github_repo: "https://github.com/paintswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Baby Doge Chess",
+        href: "docs/hack(evm-dapps)/babydogechess",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/fe894c30-2ca1-4023-b07c-61bdce85a700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Baby Doge Chess Game",
+        website_url: "https://chess.babydogeswap.com/",
+        github_repo: "https://github.com/babydogechess",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BIBIGO",
+        href: "docs/hack(evm-dapps)/bibigo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/35229071-26b6-4a9b-113a-d602c6e84800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "BIBIGO web3 game",
+        website_url: "https://bibigo.club/",
+        github_repo: "https://github.com/bibigo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ARK",
+        href: "docs/hack(evm-dapps)/ark",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/52797e15-e1be-4bd6-4676-81094782cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Defi ROI dApp",
+        website_url: "https://arkfi.io/",
+        github_repo: "https://github.com/ark",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mintopoly",
+        href: "docs/hack(evm-dapps)/mintopoly",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cf86c801-8c41-492d-6c69-a5133b6e2a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mintopoly Gaming",
+        website_url: "https://mintopoly.io/",
+        github_repo: "https://github.com/mintopoly",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BRX by Breathonics",
+        href: "docs/hack(evm-dapps)/brxbybreathonics",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/55c70d22-d025-4bfd-f552-80510b411700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "World -> best rest and reward app",
+        website_url: "https://breathonics.com/",
+        github_repo: "https://github.com/brxbybreathonics",
+        appStore: "https://apps.apple.com/app/id1482262589",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "zurf",
+        href: "docs/hack(evm-dapps)/zurf",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2766f0cc-3fda-4534-b2e0-7a391992a300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Limitless next gen Social Media",
+        website_url: "https://zurf.social/",
+        github_repo: "https://github.com/zurf",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "metalink",
+        href: "docs/hack(evm-dapps)/metalink",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8581ffd5-7cd6-43ed-bb96-c12fb89ea300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Metalink -> The Best Place To Track And Talk NFTsTrack your NFT portfolio value and floor prices on the go",
+        website_url: "https://metalink.com/",
+        github_repo: "https://github.com/metalink",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rodeo",
+        href: "docs/hack(evm-dapps)/rodeo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6f667c18-e219-417d-7360-62bee5dda700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Farms with easy, automated and secure leverage on all the top farms Arbitrum has to offer.",
+        website_url: "https://www.rodeofinance.xyz/",
+        github_repo: "https://github.com/rodeo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Housefly",
+        href: "docs/hack(evm-dapps)/housefly",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/58918f63-0610-47df-bcef-535d7318a500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Follow, engage and reward creators, artists, thought leaders, writers and undiscovered voices.",
+        website_url: "https://www.housefly.io/",
+        github_repo: "https://github.com/housefly",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sirius by Humanity",
+        href: "docs/hack(evm-dapps)/siriusbyhumanity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a53d3074-db0c-4073-e36f-b7f527b71f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Sirius by Humanity dApp",
+        website_url: "https://sirius.web3africa.news/",
+        github_repo: "https://github.com/siriusbyhumanity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AlphaGuilty",
+        href: "docs/hack(evm-dapps)/alphaguilty",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b4f13a5f-e0e9-485f-c8c5-3f582def7700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Earn crypto with AlphaQuest $0 investment, instant rewards!",
+        website_url: "https://alphaguilty.io/",
+        github_repo: "https://github.com/alphaguilty",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "R-Planet",
+        href: "docs/hack(evm-dapps)/r-planet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ed76b1c0-6380-4c67-8723-a81edb9cfa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "R-Planet",
+        website_url: "https://rplanet.io/",
+        github_repo: "https://github.com/r-planet",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bluespade",
+        href: "docs/hack(evm-dapps)/bluespade",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/04129eea-321d-47d1-6c7d-e64afdd72000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Perpetual Decentralized Exchange",
+        website_url: "https://www.bluespade.xyz/",
+        github_repo: "https://github.com/bluespade",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dropspace",
+        href: "docs/hack(evm-dapps)/dropspace",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e8d98e69-a4d8-4a1a-6b9b-54a876b26800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "dropspace is an open platform for artists and collectors to discover and mint NFT projects, all powered by our industry-leading tech.",
+        website_url: "https://dropspace.art/",
+        github_repo: "https://github.com/dropspace",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KRILLER",
+        href: "docs/hack(evm-dapps)/kriller",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/77149469-ca56-4fb9-2421-50e635629200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "An eternally looping 7 day art broadcast",
+        website_url: "https://kriller.com/",
+        github_repo: "https://github.com/kriller",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "tomi staking",
+        href: "docs/hack(evm-dapps)/tomistaking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c893760e-3b2e-414d-66aa-faee507d3000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "taking of tomi token",
+        website_url: "https://staking.tomi.com/",
+        github_repo: "https://github.com/tomistaking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XRP Toolkit",
+        href: "docs/hack(evm-dapps)/xrptoolkit",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e4e9885f-aa1e-46d2-dc51-426ee6f19b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A platform for managing crypto assets on the XRP ledger.",
+        website_url: "https://xrptoolkit.com/",
+        github_repo: "https://github.com/xrptoolkit",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Moonwell",
+        href: "docs/hack(evm-dapps)/moonwell",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a8d9c657-b3ef-43b3-5dba-1547cc892000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Moonwell is an open and decentralized lending and borrowing protocol.",
+        website_url: "https://moonwell.fi/",
+        github_repo: "https://github.com/moonwell",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "bitoro",
+        href: "docs/hack(evm-dapps)/bitoro",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/184ea89c-4287-431e-1866-cf1ea5d0a100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized Perpetual exchange",
+        website_url: "https://bitoro.exchange/",
+        github_repo: "https://github.com/bitoro",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mars Protocol",
+        href: "docs/hack(evm-dapps)/marsprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/59df2c82-fd72-4cb0-5d4b-9591b6808500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Lend, borrow and earn with an autonomous credit protocol in the Cosmos universe. Open to all, closed to none.",
+        website_url: "https://marsprotocol.io/",
+        github_repo: "https://github.com/marsprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Refid",
+        href: "docs/hack(evm-dapps)/refid",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/037d95bc-d23a-41f0-f813-382051cf0700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Refid help web3 worker to apply the trusted project and employers to scout trusted worker by referrals.",
+        website_url: "https://www.refid.xyz/",
+        github_repo: "https://github.com/refid",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ethena",
+        href: "docs/hack(evm-dapps)/ethena",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e2f02001-f0f7-4c44-dcef-8faca29c4a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Enabling the global internet bond",
+        website_url: "https://ethena.fi/",
+        github_repo: "https://github.com/ethena",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Vault",
+        href: "docs/hack(evm-dapps)/vault",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a32c26f-4427-43ac-6fcc-e955443b7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Protect, send and receive ERC-20 tokens and NFTs, and connect to the ecosystem -> most popular dapps.",
+        website_url: "http://vault1213.kirobo.me/",
+        github_repo: "https://github.com/vault",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AirLyft",
+        href: "docs/hack(evm-dapps)/airlyft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30c400e2-3321-4589-f740-abb67e2ca600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A community engagement platform for quests, campaigns, communities and rewards.",
+        website_url: "https://airlyft.one/",
+        github_repo: "https://github.com/airlyft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DopamineApp",
+        href: "docs/hack(evm-dapps)/dopamineapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Finance -> Media -> Entertainment for Crypto.",
+        website_url: "https://dopamineapp.com/",
+        github_repo: "https://github.com/dopamineapp",
+        appStore:
+          "https://apps.apple.com/us/app/dopamine-bitcoin-crypto/id1350234503",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.kyriakosalexandrou.coinmarketcap",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yearn",
+        href: "docs/hack(evm-dapps)/yearn",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b0d6a68-f45e-4f12-e07f-e6ddc99d8100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Yearn is a decentralized suite of products helping individuals, DAOs, and other protocols earn yield on their digital assets.",
+        website_url: "https://yearn.finance/",
+        github_repo: "https://github.com/yearn",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Seashell",
+        href: "docs/hack(evm-dapps)/seashell",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2e27f677-c33e-4dc0-4b59-db06fa364500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Automate your DeFi routines to maximize your rewards",
+        website_url: "https://seashell.com/",
+        github_repo: "https://github.com/seashell",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "mipool",
+        href: "docs/hack(evm-dapps)/mipool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f3df9a65-d570-4fb0-ef44-413409d32900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "stake with mipool .",
+        website_url: "https://mipool.one/",
+        github_repo: "https://github.com/mipool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "escrowsg",
+        href: "docs/hack(evm-dapps)/escrowsg",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/90678373-8e37-4222-626c-bfab2bbd9100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "ETH/FIAT Trade and Exchange",
+        website_url: "https://app.escrowsg.com/",
+        github_repo: "https://github.com/escrowsg",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "THE REMADE",
+        href: "docs/hack(evm-dapps)/theremade",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9f77498-2f86-4d34-4397-a342e89d9b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "THE REMADE is the world -> first wearable art brand from Metaverse that integrates virtual and reality goods.",
+        website_url: "https://www.theremade.io/",
+        github_repo: "https://github.com/theremade",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Olive",
+        href: "docs/hack(evm-dapps)/olive",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/113734e2-7470-4ca3-2ee7-223aa8b31800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Olive Amplifies DeFi Yields By Up To 1.5X Without Principal Or Credit Risk.",
+        website_url: "https://oliveapp.finance/",
+        github_repo: "https://github.com/olive",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "vMM Bots",
+        href: "docs/hack(evm-dapps)/vmmbots",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/706fc4dc-61e4-44bc-1323-1d7d137d9b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Crypto Market Making Bots for CEX and DEX.",
+        website_url: "https://mm.raisev.io/",
+        github_repo: "https://github.com/vmmbots",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "YaYa",
+        href: "docs/hack(evm-dapps)/yaya",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a2a10a1e-6bdd-463c-b203-188fdfa69500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Experience web3 social with YaYa Chat. Decentralized, secure, private.",
+        website_url: "https://yaya.io/",
+        github_repo: "https://github.com/yaya",
+        appStore: "https://apps.apple.com/app/yaya-chat/id1665059353",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.yayaio.yaya&hl=en",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RLTY",
+        href: "docs/hack(evm-dapps)/rlty",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/df159642-b525-462c-632c-58fddfb91900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "RLTY launcher",
+        website_url: "https://play.rlty.dev/",
+        github_repo: "https://github.com/rlty",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ADO Protocol",
+        href: "docs/hack(evm-dapps)/adoprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eef4fd61-c01a-4c3a-a7b0-fc83c8bed500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Simplifying blockchain integration for businesses, fostering partnerships, and driving adoption in a user-friendly ecosystem.",
+        website_url: "https://www.adoprotocol.com/",
+        github_repo: "https://github.com/adoprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "The 23",
+        href: "docs/hack(evm-dapps)/the23",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5a424a76-bde7-41c7-1c8d-d786a8c57200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Minting site for the r/the23 NFT",
+        website_url: "https://www.the23.club/",
+        github_repo: "https://github.com/the23",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Perk Shop",
+        href: "docs/hack(evm-dapps)/perkshop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d659ceb2-040e-4c0e-d829-9df4ea0e9200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Loyalty and rewards for brand communities.",
+        website_url: "https://perk.shop/",
+        github_repo: "https://github.com/perkshop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Solid World",
+        href: "docs/hack(evm-dapps)/solidworld",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/78104649-a22f-4544-1f04-99ac0a43f400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Digital Warehouse for Quality Climate Finance",
+        website_url: "https://solid.world/",
+        github_repo: "https://github.com/solidworld",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PEPE",
+        href: "docs/hack(evm-dapps)/pepe",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/57705105-096e-499a-ee82-75c2bd458e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "FOMO PEPE is a new meme coin experiment, and its unique mode aims to make the PEPE community stronger.",
+        website_url: "https://fomopepe.xyz/",
+        github_repo: "https://github.com/pepe",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HEX TOYS",
+        href: "docs/hack(evm-dapps)/hextoys",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/26bb1a41-3ff7-4f5c-8d82-f5539f261600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT Marketplace On PulseChain",
+        website_url: "https://www.hex.toys/",
+        github_repo: "https://github.com/hextoys",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Superlink",
+        href: "docs/hack(evm-dapps)/superlink",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/27c5100c-6f01-4bd3-d433-4dae774a3000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Own your real name on Web3",
+        website_url: "https://superlink.me/",
+        github_repo: "https://github.com/superlink",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SolidBlock",
+        href: "docs/hack(evm-dapps)/solidblock",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/23bef7d6-1b7a-4bc5-be21-2fac10e94c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "SolidBlock NFTs collection.",
+        website_url: "https://solidblock.io/",
+        github_repo: "https://github.com/solidblock",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Luxrare",
+        href: "docs/hack(evm-dapps)/luxrare",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f8f6998-c69e-4574-1e38-a06a4f6e4100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Luxrare is a NFT Marketplace for Validating and exchanging of physical gemstones in a decentralized ecosystem through NFT.",
+        website_url: "https://luxrare.ir/",
+        github_repo: "https://github.com/luxrare",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MOC",
+        href: "docs/hack(evm-dapps)/moc",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3756917f-113e-426d-fed0-cd37ecd0f000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mosquito Coin",
+        website_url: "https://mosquito.network/",
+        github_repo: "https://github.com/moc",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "alex-xverse",
+        href: "docs/hack(evm-dapps)/alex-xverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3d900044-423a-448e-fc7a-a2dd9663d700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The complete #BitFi via @Stacks . Bring your Bitcoin to Life: launch new projects, earn interest, rewrite finance, reinvent culture.",
+        website_url: "https://www.alexlab.co/",
+        github_repo: "https://github.com/alex-xverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Ibanera Launchpad",
+        href: "docs/hack(evm-dapps)/ibaneralaunchpad",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3daeb9e6-2958-4f19-a583-c91b5fcbd700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Marketplace",
+        website_url: "https://ibanera-launchpad.bloxbytes.com/",
+        github_repo: "https://github.com/ibaneralaunchpad",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LasMeta",
+        href: "docs/hack(evm-dapps)/lasmeta",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ea9fbd2-61ab-4223-9ca1-19423dd06800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "LasMeta is an AI Powered Virtual Reality Poker Gaming Metaverse built on Polygon Network.",
+        website_url: "https://www.lasmeta.io/",
+        github_repo: "https://github.com/lasmeta",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Belong Network",
+        href: "docs/hack(evm-dapps)/belongnetwork",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/73a00234-90a5-498e-6ed9-a6e7ed5e5c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Belong is a token-gating solution for communities, events, and tokenized physical property.",
+        website_url: "https://belong.net/",
+        github_repo: "https://github.com/belongnetwork",
+        appStore: "https://apps.apple.com/app/id1609712143",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Classic Miner",
+        href: "docs/hack(evm-dapps)/classicminer",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/52e2e01a-0e37-44d3-6b28-768076b6e900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Throwback to BNB Miner with fixed inflation and new features",
+        website_url: "https://classicminer.xyz/",
+        github_repo: "https://github.com/classicminer",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "coincapone",
+        href: "docs/hack(evm-dapps)/coincapone",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/51da33ba-366b-4766-1bde-ceb79d087d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We are twitter mafia = #CAPONE $CAPONE. And we are going to smash other meme tokens… Wanna join?",
+        website_url: "https://coincapone.vip/",
+        github_repo: "https://github.com/coincapone",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Maker Empower",
+        href: "docs/hack(evm-dapps)/makerempower",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/64844ab4-81df-4183-8fc3-e94bbf142c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "All-in-one Chill2Earn Ecosystem that empowers content creators, rewards users and transforms digital media.",
+        website_url: "https://makerempower.com/",
+        github_repo: "https://github.com/makerempower",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Directory",
+        href: "docs/hack(evm-dapps)/directory",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0d12d56d-8120-453a-1d72-e556c7f8ed00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Connecting artists to the world.",
+        website_url: "https://directory.art/",
+        github_repo: "https://github.com/directory",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Palmswap",
+        href: "docs/hack(evm-dapps)/palmswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0eb1182b-e08c-4c73-62a3-7af18f259c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Palmswap v2 was built as a 'next gen' platform to overcome familiar DEX issues including front-running, slippage and more",
+        website_url: "https://palmswap.org/",
+        github_repo: "https://github.com/palmswap",
+        appStore:
+          "https://chrome.google.com/webstore/detail/walletconnect%E2%81%A4-v20%E2%81%A4-exten/amknekimncgpgdenphdmkadaajhmcjda",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Lens Invites",
+        href: "docs/hack(evm-dapps)/lensinvites",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d95037da-701c-4427-1472-7c9df0aa0900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Invites system for Lens Protocol",
+        website_url: "https://lens.xyz/",
+        github_repo: "https://github.com/lensinvites",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PTCToken",
+        href: "docs/hack(evm-dapps)/ptctoken",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c670aa49-8e08-4a22-64ef-cf274ffb0700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A staking and earn dApp",
+        website_url: "https://ptctoken.io/",
+        github_repo: "https://github.com/ptctoken",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "tenset-web3",
+        href: "docs/hack(evm-dapps)/tenset-web3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/21b0793d-192c-4e63-1d0b-744daebfa900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Connecting Crypto startups with community.",
+        website_url: "https://tenset.io/",
+        github_repo: "https://github.com/tenset-web3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Code4rena",
+        href: "docs/hack(evm-dapps)/code4rena",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cdd6b981-4b3f-460f-0221-152d2a172600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "dapp auth for Code4rena",
+        website_url: "https://code4rena.com/",
+        github_repo: "https://github.com/code4rena",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Battlemon",
+        href: "docs/hack(evm-dapps)/battlemon",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bb857a13-f9d5-4d81-3433-735d8e83ad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "GameFi ecosystem, built around interactive 3D NFTs and on-chain mechanics with probabilistic outcome.",
+        website_url: "https://battlemon.gitbook.io/",
+        github_repo: "https://github.com/battlemon",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "FRAX",
+        href: "docs/hack(evm-dapps)/frax",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f0625a53-b3b5-4d0d-dad0-915a8a3b6700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Frax Finance official web app",
+        website_url: "https://frax.finance/",
+        github_repo: "https://github.com/frax",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "12Swap",
+        href: "docs/hack(evm-dapps)/12swap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/68de74ae-14f2-448e-bb78-73a8ed7b5800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swap crypto.Get rewards from transactions.12swap is a simple all-in-one DEX and bridge aggregator.",
+        website_url: "https://12swap.io/",
+        github_repo: "https://github.com/12swap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Gravita Protocol",
+        href: "docs/hack(evm-dapps)/gravitaprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/69b6ea2c-64fc-40d9-a0fd-e932dcf5ef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Gravita is an Open Source Protocol that allows borrowing assets interest-free using liquid staking tokens as collateral.",
+        website_url: "https://gravitaprotocol.com/",
+        github_repo: "https://github.com/gravitaprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ETHGlobal",
+        href: "docs/hack(evm-dapps)/ethglobal",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8b76996f-4a6d-4633-a570-7d0c1591f300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Onboarding thousands of developers to web3.",
+        website_url: "https://ethglobal.com/",
+        github_repo: "https://github.com/ethglobal",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MakeMoney",
+        href: "docs/hack(evm-dapps)/makemoney",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aba55093-d550-432e-281f-da8ffb274100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Unleash the Fun: Click, Win Tokens, Play Slot Games, and Share Rewards with Friends!",
+        website_url: "https://game.orzmake.money/",
+        github_repo: "https://github.com/makemoney",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Gamezone",
+        href: "docs/hack(evm-dapps)/gamezone",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7e13c948-714c-4a36-d0f7-e1cc10514100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Gamezone",
+        website_url: "https://gamezone.io/",
+        github_repo: "https://github.com/gamezone",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cere Bridge",
+        href: "docs/hack(evm-dapps)/cerebridge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/71d511e3-b648-4915-191e-6f2e89b6cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Cross-chain gateway enabling secure, seamless transfers across Ethereum, Cere Network & Polygon.",
+        website_url: "https://cere.network/",
+        github_repo: "https://github.com/cerebridge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Flooz",
+        href: "docs/hack(evm-dapps)/flooz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0037677c-302d-47c1-c58a-4fb2ef8b1200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your all-in-one crypto wallet",
+        website_url: "https://wallet.flooz.trade/",
+        github_repo: "https://github.com/flooz",
+        appStore: "https://apps.apple.com/app/id1621027074",
+        playStore:
+          "https://play.google.com/store/apps/details?id=wallet.flooz.mobile",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "StakeWise",
+        href: "docs/hack(evm-dapps)/stakewise",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ca7b99b9-2e32-42e3-49aa-d4ab2a6a3300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Liquid staking protocol on Ethereum and Gnosis chain",
+        website_url: "https://stakewise.io/",
+        github_repo: "https://github.com/stakewise",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Alpha Academy",
+        href: "docs/hack(evm-dapps)/alphaacademy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/722818f1-0f64-487a-3df0-2de03b5f4c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Home of the Alpha Elementary NFT project.",
+        website_url: "https://alphaacademy.app/",
+        github_repo: "https://github.com/alphaacademy",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "lifeform",
+        href: "docs/hack(evm-dapps)/lifeform",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5ae51767-201a-43c8-944a-f95d147f1900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "nft market",
+        website_url: "https://www.lifeform.cc/",
+        github_repo: "https://github.com/lifeform",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Floor",
+        href: "docs/hack(evm-dapps)/floor",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ada4d35d-5e67-4258-9ac9-8f4a10436100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Floor is your home for everything web3 on your phone.",
+        website_url: "https://www.floornfts.io/",
+        github_repo: "https://github.com/floor",
+        appStore:
+          "https://apps.apple.com/us/app/floor-nfts-simplified/id1645791662",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.floornfts&hl=en_US&gl=US&pli=1",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CLR Grants Ethereum TGU",
+        href: "docs/hack(evm-dapps)/clrgrantsethereumtgu",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f33bcfa6-e866-4f75-eb5d-0539ef31fd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "CLR Fund for Ethereum Honduras",
+        website_url: "https://grants.ethereumtgu.com/",
+        github_repo: "https://github.com/clrgrantsethereumtgu",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Token Claim Dashboard",
+        href: "docs/hack(evm-dapps)/tokenclaimdashboard",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c475b33b-91c0-4f73-aba0-b3a803a17b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Propchain -> token dApp provides claiming features for vested PROPC tokens, as well as additional features like staking.",
+        website_url: "https://www.propchain.io/",
+        github_repo: "https://github.com/tokenclaimdashboard",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PancakeSwap",
+        href: "docs/hack(evm-dapps)/pancakeswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a88292d3-272c-4d72-70e8-e8efdddf2400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Trade, Earn, Win",
+        website_url: "https://pancakeswap.finance/",
+        github_repo: "https://github.com/pancakeswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sparta DEX  APPs",
+        href: "docs/hack(evm-dapps)/spartadexapps",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/866e8b12-6bd9-4638-2e5b-c3dfdad1a200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Sparta DEX is the first game with gamified yield",
+        website_url: "https://spartadex.io/",
+        github_repo: "https://github.com/spartadexapps",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFTDeli",
+        href: "docs/hack(evm-dapps)/nftdeli",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/063977d4-27ae-4bb1-8873-35cb1649e500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A new marketplace for creative NFTs built on BitciChain",
+        website_url: "https://www.nftdeli.com/",
+        github_repo: "https://github.com/nftdeli",
+        appStore:
+          "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mars4",
+        href: "docs/hack(evm-dapps)/mars4",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8a2ab283-9f1d-4054-4553-56bae31bc000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Project based on blockchain that allows users to earn passive income through revenue-generating NFTs and play-to-earn Mars Metaverse game.",
+        website_url: "https://www.mars4.me/",
+        github_repo: "https://github.com/mars4",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Intelly",
+        href: "docs/hack(evm-dapps)/intelly",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/86b20ee6-4248-4406-7cda-afc787083700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Enabling people to invest in property development and real estate with the power of blockchain.",
+        website_url: "https://intelly.tech/",
+        github_repo: "https://github.com/intelly",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Decentraland",
+        href: "docs/hack(evm-dapps)/decentraland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/373a015e-ee34-4ed4-0e4b-ff3a321d7c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Make new friends, explore diverse events, and spark your creativity in a virtual world built and owned by its community.",
+        website_url: "https://decentraland.org/",
+        github_repo: "https://github.com/decentraland",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MugenArt",
+        href: "docs/hack(evm-dapps)/mugenart",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8a53a1cb-6c72-462c-e6ed-0acd1179f700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Mugen ARt provides pheonmenal 3DNFTs with limited editions.",
+        website_url: "https://www.mugenart.io/#/home",
+        github_repo: "https://github.com/mugenart",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Meta",
+        href: "docs/hack(evm-dapps)/meta",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e5f18382-321f-4646-1957-124fdf0e0800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "https://getmeta.finance/",
+        website_url: "https://getmeta.finance/",
+        github_repo: "https://github.com/meta",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MemePad",
+        href: "docs/hack(evm-dapps)/memepad",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1d620a4e-9a34-4df3-41e8-bca038336e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The first-ever IDO launchpad focusing exclusively on memecoins and other micro-cap coins.",
+        website_url: "https://memepad.co/",
+        github_repo: "https://github.com/memepad",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rooit-iOS",
+        href: "docs/hack(evm-dapps)/rooit-ios",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/81b77d73-6460-43d3-81c7-bb16c1174b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Chat",
+        website_url: "https://rooit.xyz/",
+        github_repo: "https://github.com/rooit-ios",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Stella",
+        href: "docs/hack(evm-dapps)/stella",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65c7621d-6ef5-4e61-8fcb-1147b392de00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Leveraged Strategies Protocol with 0% Cost to Borrow",
+        website_url: "https://stellaxyz.io/",
+        github_repo: "https://github.com/stella",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Neuropulse AI",
+        href: "docs/hack(evm-dapps)/neuropulseai",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/67f9f28e-0b48-426f-d4e3-f3d2547ae600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "With NeuropulseAI, would you like to push the boundaries of reality and imagination?",
+        website_url: "https://www.neuropulse.ai/",
+        github_repo: "https://github.com/neuropulseai",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "zkLine",
+        href: "docs/hack(evm-dapps)/zkline",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/10979d8a-4337-4259-09b0-fa335a3d7a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Trade, earn, and launch your projects on the most popular decentralized platform in the galaxy",
+        website_url: "https://zkline.finance/",
+        github_repo: "https://github.com/zkline",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Coin Gabbar",
+        href: "docs/hack(evm-dapps)/coingabbar",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b92c748e-5bbe-4b85-ec33-aa8f8fa00a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Coin Gabbar is a Cryptocurrency Marketcap website & Crypto News info ",
+        website_url: "https://www.coingabbar.com/",
+        github_repo: "https://github.com/coingabbar",
+        appStore:
+          "https://apps.apple.com/us/app/coin-gabbar/id1608205620?platform=iphone",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.coingabbar",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SamKing",
+        href: "docs/hack(evm-dapps)/samking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0c103a90-28f5-4191-2353-4cf4844f0700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The personal website for Samuel King, providing access to a series of his artistic works.",
+        website_url: "https://samking.io/",
+        github_repo: "https://github.com/samking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "cashX",
+        href: "docs/hack(evm-dapps)/cashx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65c947f5-e814-4f7b-55e1-5b8abe8fdf00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A referral reward system.",
+        website_url: "https://cashx.network/",
+        github_repo: "https://github.com/cashx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AMT",
+        href: "docs/hack(evm-dapps)/amt",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/511722a2-92a4-45ed-74f3-42cb55dffd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Amatuni company is an organization that wants to teach people how to use crypto and how to earn money in the crypto world",
+        website_url: "https://amatik.io/",
+        github_repo: "https://github.com/amt",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sense4Fit",
+        href: "docs/hack(evm-dapps)/sense4fit",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6363841b-3c1a-42e3-231c-7d86e207b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Sense4Fit benefits platform",
+        website_url: "https://benefits.sense4fit.io/",
+        github_repo: "https://github.com/sense4fit",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ritestream",
+        href: "docs/hack(evm-dapps)/ritestream",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad8bc773-49df-438f-350d-b6a1acac0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Explore curated tech, future, crypto content, and more. Stream on your browser. Join now for an affordable monthly subscription.",
+        website_url: "https://www.ritestream.io/",
+        github_repo: "https://github.com/ritestream",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "farms",
+        href: "docs/hack(evm-dapps)/farms",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b1096d5c-ba6a-448c-f375-cb333b215b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mefaverse game",
+        website_url: "https://www.metafarm.cloud/",
+        github_repo: "https://github.com/farms",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Botto",
+        href: "docs/hack(evm-dapps)/botto",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f59a6650-6f65-4333-2d4e-69fc37340100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Botto is the decentralized autonomous artist. Help create a masterpiece.",
+        website_url: "https://www.botto.com/",
+        github_repo: "https://github.com/botto",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "fry",
+        href: "docs/hack(evm-dapps)/fry",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c9868c8a-cfef-46a8-2d19-cba07d473400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Building a Decentralized Network of Decentralized Networks.The wallet connection is used to authenticate the users.",
+        website_url: "https://fryfoundation.com/",
+        github_repo: "https://github.com/fry",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fandom Land",
+        href: "docs/hack(evm-dapps)/fandomland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0a2ea2b8-a593-487f-98a0-436d4379b100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Fandom Land",
+        website_url: "https://metabx.io/",
+        github_repo: "https://github.com/fandomland",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BirdieVIP",
+        href: "docs/hack(evm-dapps)/birdievip",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d4780c39-86e3-4b63-4895-d874f87c5b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "VIP pass claim for Birdie -> consolidating legacy assets under 1 token",
+        website_url: "https://web3birdie.io/",
+        github_repo: "https://github.com/birdievip",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Wizarre",
+        href: "docs/hack(evm-dapps)/wizarre",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d8cb375c-884c-43d7-c5ef-f96cf5eff100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Wizarre -> summon new Wizards, trade and earn in a new staking map",
+        website_url: "https://wizarre.io/",
+        github_repo: "https://github.com/wizarre",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.FlyingCactus.Wizarre",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rouge",
+        href: "docs/hack(evm-dapps)/rouge",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/386ef402-e501-402b-681f-6aada6701d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Unlocking the Power of Decentralization for Event Management: create your events on Web3 with Rouge Ticket and sell NFTs tickets now!",
+        website_url: "https://rouge.network/",
+        github_repo: "https://github.com/rouge",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LOCKON",
+        href: "docs/hack(evm-dapps)/lockon",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d3def7da-4ad0-462a-8b95-7eab29047f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "On-Chain Analytics × INDEX",
+        website_url: "https://lockon.finance/",
+        github_repo: "https://github.com/lockon",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Elk Finance",
+        href: "docs/hack(evm-dapps)/elkfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ef5558e9-8dc0-4e63-ed97-977d6c8b5400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Elk Finance is a cross-chain DEX & a peer-to-peer network for cross-chain value transfers.",
+        website_url: "https://elk.finance/",
+        github_repo: "https://github.com/elkfinance",
+        appStore: "https://app.elk.finance/",
+        playStore: "https://app.elk.finance/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rango Exchange",
+        href: "docs/hack(evm-dapps)/rangoexchange",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/18a09060-e7d3-4d27-1c70-c2547c472d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Rango is the first multi-chain/cross-chain DEXs/Bridges aggregator",
+        website_url:
+          "https://app.rango.exchange/swap/BSC.BNB/AVAX_CCHAIN.AVAX/",
+        github_repo: "https://github.com/rangoexchange",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Brewlabs",
+        href: "docs/hack(evm-dapps)/brewlabs",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/442f9ea7-8f85-4982-7b75-a6cb175b4a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Stake your tokens on the Brewlabs staking platform to earn passive income, compound or harvest your rewards and reflections anytime!",
+        website_url: "https://earn.brewlabs.info/",
+        github_repo: "https://github.com/brewlabs",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeGame",
+        href: "docs/hack(evm-dapps)/degame",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "DeGame -> No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+        website_url: "https://degame.com/",
+        github_repo: "https://github.com/degame",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Crybu",
+        href: "docs/hack(evm-dapps)/crybu",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f1115544-8753-41e0-579b-72759ce56200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Crypto services, training and web3 accompaniment",
+        website_url: "https://www.crybu.io/",
+        github_repo: "https://github.com/crybu",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "AssetXChange",
+        href: "docs/hack(evm-dapps)/assetxchange",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/31a81a32-16ad-4ae5-9802-dcaac7e25c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Asset X Changer",
+        website_url: "https://assetxchange.org/",
+        github_repo: "https://github.com/assetxchange",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Umbra",
+        href: "docs/hack(evm-dapps)/umbra",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/407935e9-7818-4141-962b-ca04b7243200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Privacy preserving payments using stealth addresses.",
+        website_url: "https://umbra.cash/",
+        github_repo: "https://github.com/umbra",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Moola Market",
+        href: "docs/hack(evm-dapps)/moolamarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/17eaefab-b3b5-4744-4df1-3e9b3f1f2100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Borrowing/lending protocol built on the Celo network.",
+        website_url: "https://moola.market/",
+        github_repo: "https://github.com/moolamarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Velodrome Finance",
+        href: "docs/hack(evm-dapps)/velodromefinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/efac09a4-e06f-465a-8d25-df59099f7800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Velodrome Finance is an automated market maker (AMM or simply, decentralized commodities exchange) on Optimism L2 blockchain",
+        website_url: "https://velodrome.finance/",
+        github_repo: "https://github.com/velodromefinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "UPDAO",
+        href: "docs/hack(evm-dapps)/updao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dd21a4c6-4ea7-4df9-fcc7-22202b51a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We are a group of brave, pioneering engineers, product managers and investors. We believe in and love DAO. ",
+        website_url: "https://upuxuy.weupdao.io/",
+        github_repo: "https://github.com/updao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "GStream",
+        href: "docs/hack(evm-dapps)/gstream",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/67380704-1e0d-46ce-bf71-a739c7b6d500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Web3 Streaming Plarform",
+        website_url: "https://gstream.tv/gstream/",
+        github_repo: "https://github.com/gstream",
+        appStore:
+          "https://chrome.google.com/webstore/detail/core-crypto-wallet-nft-ex/agoakfejjabomempkjlepdflaleeobhb",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Valha Widget",
+        href: "docs/hack(evm-dapps)/valhawidget",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4692016a-597d-4a8d-7534-2ecc2b54cb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DeFi Widget -> Access DeFi in one place",
+        website_url: "https://valha.xyz/",
+        github_repo: "https://github.com/valhawidget",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Gallery",
+        href: "docs/hack(evm-dapps)/gallery",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/850b4b3e-0d25-4894-c3f8-2525a3130700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Use Gallery to curate your pieces, connect with other collectors, and express yourself through ownership.",
+        website_url: "https://gallery.so/",
+        github_repo: "https://github.com/gallery",
+        appStore: "https://testflight.apple.com/join/rc0NcVih",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Luxrare",
+        href: "docs/hack(evm-dapps)/luxrare",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f8f6998-c69e-4574-1e38-a06a4f6e4100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Luxrare is a NFT Marketplace for Validating and exchanging of physical gemstones in a decentralized ecosystem through NFT.",
+        website_url: "https://luxrare.ir/",
+        github_repo: "https://github.com/luxrare",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "UXUYProtocol",
+        href: "docs/hack(evm-dapps)/uxuyprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0db35545-440c-49ba-b772-dd13c2270400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Introducing the UXUY protocol -> the cutting-edge cross-chain liquidity aggregation protocol that takes your trading to the next level.",
+        website_url: "https://uxuy.io/",
+        github_repo: "https://github.com/uxuyprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bullieverse",
+        href: "docs/hack(evm-dapps)/bullieverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/81d3279a-bef5-4eec-fce0-a505fd65a300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Bullieverse is a Gaming and Metaverse Project.",
+        website_url: "https://bullieverse.com/",
+        github_repo: "https://github.com/bullieverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "dEquity",
+        href: "docs/hack(evm-dapps)/dequity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/60fc01b1-21ff-4200-fdcd-d2dd62a40800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "dEquity is a FinTech project that transforms rental real estate into dollar-pegged, income-producing products using fractional ownership.",
+        website_url: "https://dequity.io/",
+        github_repo: "https://github.com/dequity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Magna",
+        href: "docs/hack(evm-dapps)/magna",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5dd108a9-55b1-4004-1bad-fc454b88f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Token management and token vesting.",
+        website_url: "https://magna.so/",
+        github_repo: "https://github.com/magna",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Wingman",
+        href: "docs/hack(evm-dapps)/wingman",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c87fdbd-d96c-413c-5a04-690be6707600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Flight Delay Prediction Market",
+        website_url: "https://wingman.wtf/",
+        github_repo: "https://github.com/wingman",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Magic Shoes",
+        href: "docs/hack(evm-dapps)/magicshoes",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d80f9b4d-e764-433b-0e05-693114321400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Magic Shoes is an M2E fitness rewards platform where you can play while walking, running, or cycling.",
+        website_url: "https://www.magicclub.io/home",
+        github_repo: "https://github.com/magicshoes",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.magic.shoes.dev",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Swingby",
+        href: "docs/hack(evm-dapps)/swingby",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9371d7e5-55b6-4af4-b7b0-c880833da700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swap BTC to WBTC and from Ethereum Chain and other blockchains. It’s non-custodial and decentralized",
+        website_url: "https://swingby.network/",
+        github_repo: "https://github.com/swingby",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Delegate",
+        href: "docs/hack(evm-dapps)/delegate",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d800bf68-0e11-478d-a784-30eda286ba00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Keep your vaulted NFTs and ERC20s safe by linking wallets together. Claim airdrops, prove token ownership, and more from your hot wallet.",
+        website_url: "https://delegate.xyz/",
+        github_repo: "https://github.com/delegate",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Factor",
+        href: "docs/hack(evm-dapps)/factor",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c050d05a-62fa-4b53-cdc6-8fe2b36e9900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The building blocks of DeFi",
+        website_url: "https://factor.fi/",
+        github_repo: "https://github.com/factor",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Astral",
+        href: "docs/hack(evm-dapps)/astral",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad54b251-ad48-4431-c55f-a1d1c4512800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Interchain NFTs",
+        website_url: "https://astral.ist/",
+        github_repo: "https://github.com/astral",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "metarixProject",
+        href: "docs/hack(evm-dapps)/metarixproject",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/38672428-a99f-4f2d-16e4-50268f995200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "metarixProject Description",
+        website_url: "https://metarix.network/",
+        github_repo: "https://github.com/metarixproject",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NFTBattles",
+        href: "docs/hack(evm-dapps)/nftbattles",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ca103d1f-47f0-4c56-e289-6d21dc9c4900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "NFTBattles is a real-time multiplayer game that allows users to battle each other using their own NFTs.",
+        website_url: "https://nftbattles.businessbuilders.city/",
+        github_repo: "https://github.com/nftbattles",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OzoneLottery",
+        href: "docs/hack(evm-dapps)/ozonelottery",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1219e07a-98f7-456e-6994-c79ce8438f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Chia Lottery with full transparency and multiple assets",
+        website_url: "https://ozonewallet.io/",
+        github_repo: "https://github.com/ozonelottery",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PymeDAO",
+        href: "docs/hack(evm-dapps)/pymedao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/97611e2c-3e7c-4be4-8cbe-11486326dc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We help crypto natives discover and invest in web3 companies at the earliest stages through our launchpad, accelerator and incubator.",
+        website_url: "https://pymedao.com/",
+        github_repo: "https://github.com/pymedao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DRiP",
+        href: "docs/hack(evm-dapps)/drip",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d54aeb3-3dc9-4d04-12da-73b5bcef4800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Collectibles every week from your favorite creators. For free.",
+        website_url: "https://drip.haus/",
+        github_repo: "https://github.com/drip",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XRP Web3 Identity",
+        href: "docs/hack(evm-dapps)/xrpweb3identity",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/abf5e093-dc1d-41b2-2a91-264c21794600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "XRP Web3 Identity (.xrp)The decentralized way to build your online presence with XRP Domains",
+        website_url: "https://xrpdomains.xyz/",
+        github_repo: "https://github.com/xrpweb3identity",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Poblus",
+        href: "docs/hack(evm-dapps)/poblus",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5839b649-b9d3-4277-3025-d6861bc3eb00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Poblus is an exciting online game platform that is pioneering the use of digital currencies in the gaming industry.",
+        website_url: "https://poblus.com/",
+        github_repo: "https://github.com/poblus",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeXfi",
+        href: "docs/hack(evm-dapps)/dexfi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7510b32a-5f60-48bf-fc4e-0659283ff400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "XRPL DeFi",
+        website_url: "https://dexfi.pro/",
+        github_repo: "https://github.com/dexfi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Zine Supply",
+        href: "docs/hack(evm-dapps)/zinesupply",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dd8567ff-f6fe-4118-e4c7-e185f147a300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Collect an NFT now and redeem it later to receive Zora Zine Print Issue 001.",
+        website_url: "https://www.zine.supply/",
+        github_repo: "https://github.com/zinesupply",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CLC",
+        href: "docs/hack(evm-dapps)/clc",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/bd8222ec-d96c-40f2-540a-1b0d4a78d100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "crypto learning club",
+        website_url: "https://clc.paditech.org/",
+        github_repo: "https://github.com/clc",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BNX",
+        href: "docs/hack(evm-dapps)/bnx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1d1d68bc-c1a9-4133-0167-991b2b9d4000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "BNX decentralized perpetual exchange",
+        website_url: "https://beanx.pro/",
+        github_repo: "https://github.com/bnx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XYield",
+        href: "docs/hack(evm-dapps)/xyield",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8ec9fd93-cbca-4826-afb5-0f5921572100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Pioneering an Innovative Exploration Journey in the Financial Gaming Realm",
+        website_url: "https://xyield.xyz/",
+        github_repo: "https://github.com/xyield",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Nalikes Studio",
+        href: "docs/hack(evm-dapps)/nalikesstudio",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4822cced-7154-424f-dbf2-d75bda568c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "We are a web3 development studio",
+        website_url: "https://nalikes.com/",
+        github_repo: "https://github.com/nalikesstudio",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "cleansatmining",
+        href: "docs/hack(evm-dapps)/cleansatmining",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/16caf485-a2c4-47eb-9921-ba375c83b500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "cleansatmining sites",
+        website_url: "https://cleansatmining.com/",
+        github_repo: "https://github.com/cleansatmining",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "beta-kols-network",
+        href: "docs/hack(evm-dapps)/beta-kols-network",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/182100f9-62bc-46e9-ae07-334d1b633400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "kols network app version beta",
+        website_url: "https://kols.network/",
+        github_repo: "https://github.com/beta-kols-network",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cartesi",
+        href: "docs/hack(evm-dapps)/cartesi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9f563955-e59d-43ea-be31-7cc015c8ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Cartesi Staking Platform",
+        website_url: "https://cartesi.io/",
+        github_repo: "https://github.com/cartesi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "The Cursed Land",
+        href: "docs/hack(evm-dapps)/thecursedland",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ed34a0d5-7147-4023-12a3-a700bd850d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mobile MMORPG  Web2 + Web3",
+        website_url: "https://www.thecursedland.com/",
+        github_repo: "https://github.com/thecursedland",
+        appStore: "https://testflight.apple.com/join/FwhJ8QEf",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.PopuGames.W2W",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Triple Confirmation",
+        href: "docs/hack(evm-dapps)/tripleconfirmation",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/034a31d1-5c61-4847-1c9e-20a446148500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The world -> first fully managed, non-custodial, automated, directional, censorship resistant trading service",
+        website_url: "https://tripleconfirmation.com/",
+        github_repo: "https://github.com/tripleconfirmation",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ReHold",
+        href: "docs/hack(evm-dapps)/rehold",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1787525e-e0ad-40a2-38e1-a31ac0578600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Supercharge Your DeFi Earnings with ReHold. 220% APR Dual Investments Unlock CLMM High Returns for Everyone.",
+        website_url: "https://rehold.io/",
+        github_repo: "https://github.com/rehold",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bulksender",
+        href: "docs/hack(evm-dapps)/bulksender",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d9c995d7-833a-41c0-d0f8-61847e2e9700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A dApp for crypto and NFT bulksending",
+        website_url: "https://bulksender.app/",
+        github_repo: "https://github.com/bulksender",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sunlight",
+        href: "docs/hack(evm-dapps)/sunlight",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a954eab-248c-43a6-a2ec-dc3e1a3b3400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Sunlight is a multichain crypto wallet with dapp browser.",
+        website_url: "https://thesunlight.io/",
+        github_repo: "https://github.com/sunlight",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "zkSync Portal",
+        href: "docs/hack(evm-dapps)/zksyncportal",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7a5a8301-e368-4ad9-7ee1-7164a1cfa400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "zkSync Portal provides all the required tools for working with Era and Lite networks such as Wallet, Bridge & Faucet functionality.",
+        website_url: "https://zksync.io/",
+        github_repo: "https://github.com/zksyncportal",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Platform Gameswift",
+        href: "docs/hack(evm-dapps)/platformgameswift",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f9f99c5e-edf4-4001-e3a0-bd75a548ce00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The GameSwift infrastructure enables users to seamlessly access the chain from any place and any major blockchain network.",
+        website_url: "https://gameswift.io/",
+        github_repo: "https://github.com/platformgameswift",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Earnifi",
+        href: "docs/hack(evm-dapps)/earnifi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2db32b73-2c8d-4e68-533b-56af963eaa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Earni.fi helps you find everything your wallet can do!",
+        website_url: "https://earni.fi/",
+        github_repo: "https://github.com/earnifi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PoP Planet",
+        href: "docs/hack(evm-dapps)/popplanet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0036b3bd-4fe3-412d-ff61-7d7b19c72600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Build Your 1st 1000-Followers' Channel",
+        website_url: "https://popp.club/",
+        github_repo: "https://github.com/popplanet",
+        appStore:
+          "https://apps.apple.com/cn/app/popp-web3%E5%88%9B%E4%BD%9C%E8%80%85%E8%B5%84%E4%BA%A7%E6%98%9F%E7%90%83-%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E7%A4%BE%E4%BA%A4-%E5%85%B1%E8%AF%86%E7%A4%BE%E5%8C%BA/id6449055689",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "idSign",
+        href: "docs/hack(evm-dapps)/idsign",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b533a8ec-e971-4e1f-1cac-d2ae6ba01200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Trustless Signature & Identity Protocol ",
+        website_url: "https://idsign.com/",
+        github_repo: "https://github.com/idsign",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fanz",
+        href: "docs/hack(evm-dapps)/fanz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/79a2c198-cd9f-4306-0a40-01812ac2ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Fanz is a decentralized ticketing platform where users can discover, create, and attend events using NFTs.",
+        website_url: "https://app.fanz.events/",
+        github_repo: "https://github.com/fanz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NativeX",
+        href: "docs/hack(evm-dapps)/nativex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2be02ee5-72b9-4ffd-b799-40795d79b100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "NativeX is the future of DEX altcoin trading introduced by Native Labs that provides the cheapest swap prices for Altcoins",
+        website_url: "https://nativex.finance/",
+        github_repo: "https://github.com/nativex",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KaratDAO",
+        href: "docs/hack(evm-dapps)/karatdao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/82e308f5-67c7-4e68-57c7-f815d7216400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "KaratDAO",
+        website_url: "https://karatdao.com/",
+        github_repo: "https://github.com/karatdao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "GroundUp",
+        href: "docs/hack(evm-dapps)/groundup",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/15c7695b-af2a-4628-a38f-7a2ceed6d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "GroundUp is a forward-thinking, web3-focused music label that views music and art in a brand new light.",
+        website_url: "https://groundupstudios.io/",
+        github_repo: "https://github.com/groundup",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Lucky",
+        href: "docs/hack(evm-dapps)/lucky",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/af2b935c-cc57-4c09-99a8-88677690df00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Buy chips from the prize pool for a chance to win the entire amount. More chips purchased, higher your winning odds!",
+        website_url: "https://lucky.orzmake.money/",
+        github_repo: "https://github.com/lucky",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yup Live",
+        href: "docs/hack(evm-dapps)/yuplive",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/622c3454-9fa9-4b4f-e8c6-535e43113700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Yup live, open source client App for yup backend, a social media aggregator with cross-post.",
+        website_url: "https://yup.live/",
+        github_repo: "https://github.com/yuplive",
+        appStore: "https://play.google.com/store/apps/details?id=gf.info.yup",
+        playStore:
+          "https://chrome.google.com/webstore/detail/yup-live/ljoghhmlndknifghijohbmciobhaibhc?hl=en&authuser=0",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MyChance",
+        href: "docs/hack(evm-dapps)/mychance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/98cbdae4-984b-40e3-2a27-cbfaa4777300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "My-Chance is the world -> first global prize-bond system. It is a DSE (decentralised social enterprise).",
+        website_url: "https://my-chance.io/",
+        github_repo: "https://github.com/mychance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fuse Staking DApp",
+        href: "docs/hack(evm-dapps)/fusestakingdapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/06d97d32-7327-4b23-b57e-50a46844fc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Staking Dapp enables users to participate in the Fuse network -> consensus by staking FUSE tokens. ",
+        website_url: "https://fuse.io/",
+        github_repo: "https://github.com/fusestakingdapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Pantheon Business Club",
+        href: "docs/hack(evm-dapps)/pantheonbusinessclub",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9a78ea8f-cbb5-414c-aed6-898a66ec5f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Carte d’accès à un club Business. Chaque membre bénéficie d’avantages exclusifs..",
+        website_url: "https://pantheonbusinessclub.com/",
+        github_repo: "https://github.com/pantheonbusinessclub",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XDC Web3 Domains",
+        href: "docs/hack(evm-dapps)/xdcweb3domains",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/37ed685b-5f7d-44bf-5e65-fdf422bac100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Building Identity on blockchain with .xdc domain -> buy once use forever.",
+        website_url: "https://xdcdomains.xyz/",
+        github_repo: "https://github.com/xdcweb3domains",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "3Games",
+        href: "docs/hack(evm-dapps)/3games",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b4ca3607-457a-4acb-0e16-22dc51af8800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "a gamefi platform.",
+        website_url: "https://www.3games.world/",
+        github_repo: "https://github.com/3games",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TabTrader",
+        href: "docs/hack(evm-dapps)/tabtrader",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/14552541-a69c-40a1-5a5e-368f030f1c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Crypto trading terminal for all major CEX exchanges and Solana DEXes",
+        website_url: "https://tabtrader.com/",
+        github_repo: "https://github.com/tabtrader",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BetcoinPro",
+        href: "docs/hack(evm-dapps)/betcoinpro",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/be2280d3-6ef8-4244-f805-8f3095795200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The fully decentralized cryptocurrency sportsbook",
+        website_url: "https://www.betcoinpro.app/",
+        github_repo: "https://github.com/betcoinpro",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "EMEM protocol",
+        href: "docs/hack(evm-dapps)/ememprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1835a7c1-7f7b-4859-27dd-32d12ce4ea00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "EMEM is a DeFi protocol for $EME staking, tools for developers, and an opportunity to make a profit for each participant.",
+        website_url: "https://emem.pro/",
+        github_repo: "https://github.com/ememprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TomoPool",
+        href: "docs/hack(evm-dapps)/tomopool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9d6e25b8-9a44-4ce2-eb2d-f093035ad100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "TomoPool StakingTomoPool is a decentralized staking service protocol running on the TomoChain blockchain.",
+        website_url: "https://tomopool.com/",
+        github_repo: "https://github.com/tomopool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ChainStorage",
+        href: "docs/hack(evm-dapps)/chainstorage",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/14b1067d-a807-4ead-6db7-882dbe280b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ChainStorage is compatible with SolarFS for decentralized storage, Payment is supported through ERC20 tokens.",
+        website_url: "https://chainstorage.solarfs.io/",
+        github_repo: "https://github.com/chainstorage",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SSV Dapp",
+        href: "docs/hack(evm-dapps)/ssvdapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1156d0a3-356f-428e-7ab1-7214157e3c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The SSV networks Dapp for onboarding and managing DVT validators.",
+        website_url: "https://ssv.network/",
+        github_repo: "https://github.com/ssvdapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Alcazar",
+        href: "docs/hack(evm-dapps)/alcazar",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8f012ec6-5188-4641-97fd-64be30e56200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Alcazar is a Web3 Gambling Platform",
+        website_url: "https://alcazar.world/",
+        github_repo: "https://github.com/alcazar",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Migente",
+        href: "docs/hack(evm-dapps)/migente",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6383ba1f-5a3b-4d06-0f2c-14de9698f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Mi Gente Project was born from a profound respect for Hispanic and Latin American culture.",
+        website_url: "https://migente.io/",
+        github_repo: "https://github.com/migente",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mintify Trade Terminal",
+        href: "docs/hack(evm-dapps)/mintifytradeterminal",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1785361d-a77b-4b47-cbfe-d6a8a23a1d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A modular cross-chain and multi-marketplace NFT trading terminal. Create and share your own layouts and modules.",
+        website_url: "https://mintify.xyz/",
+        github_repo: "https://github.com/mintifytradeterminal",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Oamo Dapp",
+        href: "docs/hack(evm-dapps)/oamodapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f8af66fa-8951-41a1-db0b-6aa59feed600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Unlock the true value of your data",
+        website_url: "https://oamo.io/",
+        github_repo: "https://github.com/oamodapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CRXPTOSWAP",
+        href: "docs/hack(evm-dapps)/crxptoswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/96213663-32af-49ca-c610-4c3326434900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Simplify your cryptocurrency transactions with our secure platform. Store and exchange crypto seamlessly between multiple exchanges.",
+        website_url: "https://crxptoswap.online/",
+        github_repo: "https://github.com/crxptoswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BaseNameService",
+        href: "docs/hack(evm-dapps)/basenameservice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c4dde661-b104-4e81-20c6-c489f93d4200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Base Name Service on Base",
+        website_url: "https://basename.domains/",
+        github_repo: "https://github.com/basenameservice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Phoenix",
+        href: "docs/hack(evm-dapps)/phoenix",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e330558e-1b26-4e09-33db-9f983f3fa300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Phoenix NFT",
+        website_url: "https://mint.phoenix-inu.io/",
+        github_repo: "https://github.com/phoenix",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Meter Staking",
+        href: "docs/hack(evm-dapps)/meterstaking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/dda26998-2054-4241-975f-7b36c9c82100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Staking and Liquid staking for MTRG (Meter Governance Token)",
+        website_url: "https://www.meter.io/",
+        github_repo: "https://github.com/meterstaking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Onique",
+        href: "docs/hack(evm-dapps)/onique",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd2d9abd-27ce-42e3-4cca-788d91197400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A NFT related social product",
+        website_url: "https://onique.xyz/",
+        github_repo: "https://github.com/onique",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "EZPay",
+        href: "docs/hack(evm-dapps)/ezpay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5508bad9-79f2-48fe-3813-51a8cd9b4100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "EZPAY.CASH is the first escrow on the polygon network. We apply blockchain technology to automate processes and optimize costs.",
+        website_url: "https://ezpay.cash/",
+        github_repo: "https://github.com/ezpay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Roulether",
+        href: "docs/hack(evm-dapps)/roulether",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0efe80e8-5c32-42d2-5e4c-8a800c628800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Decentralized roulette betting game. Each roll uses a provably-fair and verifiable source of randomness powered by Chainlink VRF.",
+        website_url: "https://roulether.com/",
+        github_repo: "https://github.com/roulether",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "eth_paris",
+        href: "docs/hack(evm-dapps)/eth_paris",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d37a95d9-3b45-484f-74a0-e2ad7a159f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A dapp middleware to connect starknet wallet with wallet connect to dapp",
+        website_url: "https://getcharged.dev/",
+        github_repo: "https://github.com/eth_paris",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dyson Finance",
+        href: "docs/hack(evm-dapps)/dysonfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/48d10ef5-f878-489c-0e2a-5ae77e07a500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Earn predictable profits on your favorite tokens with SocialFi dual investment",
+        website_url: "https://dyson.finance/",
+        github_repo: "https://github.com/dysonfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "smap",
+        href: "docs/hack(evm-dapps)/smap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8a87f93e-9342-4199-0ccc-c3f84e3d5600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Sh** map",
+        website_url: "https://www.smap.ai/",
+        github_repo: "https://github.com/smap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Faye",
+        href: "docs/hack(evm-dapps)/faye",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f23601e4-3f9e-4ab1-c865-6b0394944d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Customer Support Helpdesk For Web3",
+        website_url: "https://www.faye.xyz/",
+        github_repo: "https://github.com/faye",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Illiquid Market",
+        href: "docs/hack(evm-dapps)/illiquidmarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f425dc83-ce29-4aa2-e164-2d4535254300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Zero slippage, peer to peer trades for any coin. Swap ERC-20 tokens using fixed price offers that anyone can view.",
+        website_url: "https://illiquid.market/",
+        github_repo: "https://github.com/illiquidmarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Unvest",
+        href: "docs/hack(evm-dapps)/unvest",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9c75da45-5991-422a-782a-aef09014e900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The cross-chain marketplace for locked & unvested cryptotokens.",
+        website_url: "https://unvest.io/",
+        github_repo: "https://github.com/unvest",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Upside",
+        href: "docs/hack(evm-dapps)/upside",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0d389631-d0ff-4567-354c-3ca3db57ef00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We make it simple to securely launch and manage tokens – the building blocks of web3 native organizations.",
+        website_url: "https://www.upside.gg/",
+        github_repo: "https://github.com/upside",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "RociFi",
+        href: "docs/hack(evm-dapps)/rocifi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/994d977e-3688-4c44-3846-cee9fb4cec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "On-chain Credit Scoring and Capital-Efficient Lending Protocol",
+        website_url: "https://roci.fi/",
+        github_repo: "https://github.com/rocifi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Landrocker website v2",
+        href: "docs/hack(evm-dapps)/landrockerwebsitev2",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3ebb9fa0-1033-4056-9742-1399a28ac800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "this a crypto game based on defi",
+        website_url: "https://landrocker.io/",
+        github_repo: "https://github.com/landrockerwebsitev2",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "REKTMODE",
+        href: "docs/hack(evm-dapps)/rektmode",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6847439c-cce2-4595-617d-980eefafd300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "REKTMODE -> Compete In Any Game And Win Rewards",
+        website_url: "https://rektmode.gg/",
+        github_repo: "https://github.com/rektmode",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Seed",
+        href: "docs/hack(evm-dapps)/seed",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/13cc99b7-4d5f-429d-34b8-7717b74ee900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "seed.photo",
+        website_url: "https://seed.photo/",
+        github_repo: "https://github.com/seed",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mint and Win",
+        href: "docs/hack(evm-dapps)/mintandwin",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f916cd9-91d5-46fb-25ab-6f72671fe400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We deploy on various blockchains Non Fungible Tokens as raffle tickets for art, collectibles, and other rare goods.",
+        website_url: "https://mintandwin.com/",
+        github_repo: "https://github.com/mintandwin",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "NewFI",
+        href: "docs/hack(evm-dapps)/newfi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/edbf8802-f3c1-457a-9ba3-b5b40435ee00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "High Yield Pledge Defi Project",
+        website_url: "https://newfi.finance/",
+        github_repo: "https://github.com/newfi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fx Blox",
+        href: "docs/hack(evm-dapps)/fxblox",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1f36e0e1-df9a-4bdc-799b-8631ab1eb000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Application to set up FxBlox, designed to run as a Decentralized Physical Infrastructure node (DePIN)",
+        website_url: "https://fx.land/",
+        github_repo: "https://github.com/fxblox",
+        appStore:
+          "https://play.google.com/store/apps/details?id=land.fx.blox",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SYKY Dev",
+        href: "docs/hack(evm-dapps)/sykydev",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9c7f7390-f154-4e23-7d8b-ef2906cc7500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "SYKY Dev Project",
+        website_url: "https://dev.syky.tech/",
+        github_repo: "https://github.com/sykydev",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CDAO",
+        href: "docs/hack(evm-dapps)/cdao",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/59563ae2-fb6d-47c2-aa3b-2d9708b0a600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Set up and manage companies with web3",
+        website_url: "https://companydao.org/",
+        github_repo: "https://github.com/cdao",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Soakverse",
+        href: "docs/hack(evm-dapps)/soakverse",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/16c58b72-e9f6-4fee-2ae1-ca2042c09700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Soakverse DAO. Staking & Gamification dApp",
+        website_url: "https://soakverse.io/",
+        github_repo: "https://github.com/soakverse",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Junkyard",
+        href: "docs/hack(evm-dapps)/junkyard",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/482b7843-c957-4d5e-4cef-3a08b4f42e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Use to connect user to our dapp, user can dump and fish NFT",
+        website_url: "https://junkyard.wtf/",
+        github_repo: "https://github.com/junkyard",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ENS Merch Shop",
+        href: "docs/hack(evm-dapps)/ensmerchshop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/93928025-6dd2-4260-c81e-04fba94b1800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ENS Merch Shop sells official merchandise of Ethereum Name Service (ENS)",
+        website_url: "https://www.ensmerchshop.xyz/",
+        github_repo: "https://github.com/ensmerchshop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Radiant Capital",
+        href: "docs/hack(evm-dapps)/radiantcapital",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1c15c8e8-aac3-4db3-b958-f7b35955b700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Radiant Capital is an omnichain money market built atop Layer Zero. ",
+        website_url: "https://radiant.capital/",
+        github_repo: "https://github.com/radiantcapital",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Phuture",
+        href: "docs/hack(evm-dapps)/phuture",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/67cb314d-ae12-4134-0eff-b42e89d20100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Phuture provides passive exposure to crypto assets through on-chain index funds and structured products.",
+        website_url: "https://phuture.finance/",
+        github_repo: "https://github.com/phuture",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "purebase",
+        href: "docs/hack(evm-dapps)/purebase",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/423ae907-a51b-4e34-9f8a-a857fd02de00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Access your purebase rewards through this dapp",
+        website_url: "https://purebase.co/",
+        github_repo: "https://github.com/purebase",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Crazy Ants",
+        href: "docs/hack(evm-dapps)/crazyants",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5319f0b5-1079-4412-64cb-875343ea7200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Crazy Ants Game",
+        website_url: "https://crazyants.online/",
+        github_repo: "https://github.com/crazyants",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Collecto",
+        href: "docs/hack(evm-dapps)/collecto",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8269c9bc-ffd9-4d7c-c511-63797f9f2800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Collecto marketplace",
+        website_url: "https://espsofttech.com/",
+        github_repo: "https://github.com/collecto",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "O3 Swap",
+        href: "docs/hack(evm-dapps)/o3swap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30cc15bb-d695-4991-4ff2-8ab25aceac00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "O3 Swap is the first-ever cross-chain DEXs aggregator with 12 chains integrated till now allowing users to swap any tokens across chains.",
+        website_url: "https://o3swap.com/",
+        github_repo: "https://github.com/o3swap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SecondLive",
+        href: "docs/hack(evm-dapps)/secondlive",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ab5be236-bf69-46b4-b1d2-451e4b6c2400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Choose Life · Choose Space · Choose Friends",
+        website_url: "https://secondlive.world/",
+        github_repo: "https://github.com/secondlive",
+        appStore: "https://apps.apple.com/ca/app/damus/id6444660327",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.secondlive.secondlive",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "mailzero",
+        href: "docs/hack(evm-dapps)/mailzero",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30238d4a-dbfa-442c-9fea-d5af3a621e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "mailzero",
+        website_url: "https://mailzero.network/",
+        github_repo: "https://github.com/mailzero",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Toqlo",
+        href: "docs/hack(evm-dapps)/toqlo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/00432b5c-a26e-4df3-5d24-17b4155d2d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Effortless payments with ease",
+        website_url: "https://getdynt.com/",
+        github_repo: "https://github.com/toqlo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CryptoGems",
+        href: "docs/hack(evm-dapps)/cryptogems",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cc79e2e0-4548-44cf-163f-4256684d4900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "DEX Trending Tool",
+        website_url: "https://www.cryptogems.info/",
+        github_repo: "https://github.com/cryptogems",
+        appStore:
+          "https://play.google.com/store/apps/details?id=info.cryptogems.www.twa",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fungies",
+        href: "docs/hack(evm-dapps)/fungies",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cffd86f8-be6c-4842-b0d6-74440571c700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "No-code storefronts and marketplaces for virtual economies",
+        website_url: "https://fungies.io/",
+        github_repo: "https://github.com/fungies",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Unergy",
+        href: "docs/hack(evm-dapps)/unergy",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ce53f51a-045a-4bd7-c51a-930b70a20800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Unergy protocol to finance clean energy projects.",
+        website_url: "https://unergy.io/",
+        github_repo: "https://github.com/unergy",
+        appStore: "https://apps.apple.com/us/app/unergy/id1616555722",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.unergy.unergy_mobile&hl=es_419&gl=US",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "The365NFT",
+        href: "docs/hack(evm-dapps)/the365nft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9116ba0a-c714-4666-6723-1ef59eda3200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "When you buy our NFTs, you'll get the chance to stay free charge at the 'Villa French Riviera'. There are 1825 NFTs in the collection.",
+        website_url: "https://the365nft.com/",
+        github_repo: "https://github.com/the365nft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Starheroes",
+        href: "docs/hack(evm-dapps)/starheroes",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/40cec6b5-4843-4875-7eef-fb2e9b60dd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "First multiplayer space shooter designed purely for esports",
+        website_url: "https://starheroes.community/",
+        github_repo: "https://github.com/starheroes",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Yooldo",
+        href: "docs/hack(evm-dapps)/yooldo",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c7ffa8cb-dc33-44a6-0d50-5909d7906500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Block Chain Game Platform",
+        website_url: "https://yooldo.gg/",
+        github_repo: "https://github.com/yooldo",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "WOWMAX",
+        href: "docs/hack(evm-dapps)/wowmax",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/951fb6e6-366e-4ecc-ca5b-ba3e62420300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "WOWMAX is the next generation DEX aggregation protocol that uses slippage as an additional source of optimization.",
+        website_url: "https://app.wowmax.exchange/",
+        github_repo: "https://github.com/wowmax",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Exactly",
+        href: "docs/hack(evm-dapps)/exactly",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/02904fd8-acac-42e5-a183-743aa689a800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Exactly is a decentralized, non-custodial and open-source protocol that provides an autonomous fixed and variable interest rate market.",
+        website_url: "https://exact.ly/",
+        github_repo: "https://github.com/exactly",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ORDEX",
+        href: "docs/hack(evm-dapps)/ordex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/891e8bf5-b683-4e4b-460c-8f2ce2605c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The safest Ethscription marketplace & DEX.",
+        website_url: "https://ordex.ai/",
+        github_repo: "https://github.com/ordex",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "BBZ",
+        href: "docs/hack(evm-dapps)/bbz",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/102c236a-0307-404e-3077-eba78f277e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Decentralized Special Options Trading Platform.",
+        website_url: "https://bbz.com/",
+        github_repo: "https://github.com/bbz",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fuzion",
+        href: "docs/hack(evm-dapps)/fuzion",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a2f8e3c0-a0fd-4714-eaf4-fa7ca3e29000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Let -> connect capital with ideas. PILOT seamlessly integrates into Kujira -> ecosystem, combining our ideas and experience.",
+        website_url: "https://fuzion.app/",
+        github_repo: "https://github.com/fuzion",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "singularLab",
+        href: "docs/hack(evm-dapps)/singularlab",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/662dd79b-a7ec-4007-9730-5e4ec3193800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Singularlab is the blockchain -> NFT liquidity protocol",
+        website_url: "https://singularlabs.xyz/",
+        github_repo: "https://github.com/singularlab",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SRT REVOLUTION",
+        href: "docs/hack(evm-dapps)/srtrevolution",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/869d843a-fce7-4017-b5ae-3cc9b339d400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Buy SRT tokens, connect with people, earn passive income with ease using SRT Revolution",
+        website_url: "https://srtrevolution.com/",
+        github_repo: "https://github.com/srtrevolution",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Myth of Aquatics",
+        href: "docs/hack(evm-dapps)/mythofaquatics",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1d54a32c-8767-43bf-62a2-c27680b53800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "First step to be a Future Legend.",
+        website_url: "https://www.udlr.xyz/games/moa",
+        github_repo: "https://github.com/mythofaquatics",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.udlr.moaadventure",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "zeroone",
+        href: "docs/hack(evm-dapps)/zeroone",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/44e341eb-20de-49e1-220a-ad6d8d134300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "zeroone is a cultural distribution engine that enables individuals to create, collect, and connect.",
+        website_url: "https://zeroone.art/",
+        github_repo: "https://github.com/zeroone",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "vision",
+        href: "docs/hack(evm-dapps)/vision",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aaec2b79-1400-42f5-35a2-cd404da89f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Host in prediction battle royale.",
+        website_url: "https://vp.xyz/",
+        github_repo: "https://github.com/vision",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Request Finance",
+        href: "docs/hack(evm-dapps)/requestfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b84bd8d7-73cd-48f0-b7e8-56831df0b200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The all-in-one finance solution for Web3 businesses",
+        website_url: "https://request.finance/",
+        github_repo: "https://github.com/requestfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Extra Finance",
+        href: "docs/hack(evm-dapps)/extrafinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/97f3eb73-8c23-49e3-affa-20fa066b0200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Extra Finance is a community-driven lending & leveraged yield farming protocol built on Optimism.",
+        website_url: "https://app.extrafi.io/",
+        github_repo: "https://github.com/extrafinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PartyFinance",
+        href: "docs/hack(evm-dapps)/partyfinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/9c95f0d7-dc83-46e8-1067-a51c77a50a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Explore parties. Join together with your friends. Party up! Trade DeFi!",
+        website_url: "https://party.finance/",
+        github_repo: "https://github.com/partyfinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Deputy Network",
+        href: "docs/hack(evm-dapps)/deputynetwork",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/da583549-abb0-41de-b79f-52f699fc7000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Make send and receive crypto with confidence",
+        website_url: "https://deputy.network/",
+        github_repo: "https://github.com/deputynetwork",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Smoldapp",
+        href: "docs/hack(evm-dapps)/smoldapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/73907e18-23b2-4630-4b55-4ebcc74e3100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The registry for small, simple, and secure dapps for all your needs.",
+        website_url: "https://smold.app/",
+        github_repo: "https://github.com/smoldapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Voltz Protocol",
+        href: "docs/hack(evm-dapps)/voltzprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30dc229e-f10a-453d-fa55-beb8b6b32000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Voltz is a novel defi primitive, powering leveraged interest rate swaps.",
+        website_url: "https://www.voltz.xyz/",
+        github_repo: "https://github.com/voltzprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Link3",
+        href: "docs/hack(evm-dapps)/link3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c972f2c6-4cec-4fbc-fde1-88e5c3acb300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Web3 Social Network of Verifiable Identities",
+        website_url: "https://link3.to/",
+        github_repo: "https://github.com/link3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rain",
+        href: "docs/hack(evm-dapps)/rain",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b7925d66-4ba7-4b59-4d76-f35b2b166d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "secure spend management from your decentralized wallet – no exchange or bank account required.",
+        website_url: "https://raincards.xyz/",
+        github_repo: "https://github.com/rain",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "gridex",
+        href: "docs/hack(evm-dapps)/gridex",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/0b8d32f4-86dd-422f-d315-7bf805fd7a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Gridex Exchange",
+        website_url: "https://trade.gdx.org/",
+        github_repo: "https://github.com/gridex",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ReelPay",
+        href: "docs/hack(evm-dapps)/reelpay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a785f9d8-1f5a-4eea-933e-bd8c9534a500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ReelPay is a payment gateway that facilitates the processing of Ethereum, Tron, PUT and other cryptocurrencies. ",
+        website_url: "https://www.reelpay.com/",
+        github_repo: "https://github.com/reelpay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "FinSortis",
+        href: "docs/hack(evm-dapps)/finsortis",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e856be60-0dc8-45e4-96e0-e2cb2fbf0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Forex",
+        website_url: "https://finsortis.com/",
+        github_repo: "https://github.com/finsortis",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SeaPort",
+        href: "docs/hack(evm-dapps)/seaport",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e3797299-bed0-4901-2799-12b753033f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The ultimate web3 marketplace for NFTs and crypto collectibles.",
+        website_url: "https://www.seaport.market/",
+        github_repo: "https://github.com/seaport",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ChainGPT",
+        href: "docs/hack(evm-dapps)/chaingpt",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5ff48982-206c-4138-ab04-b27d3769f600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ChainGPT 🤖 #1 ranked AI platform for Blockchain, Crypto, and Web3. 🔥 Unleash the power of Blockchain AI with ChainGPT.",
+        website_url: "https://www.chaingpt.org/",
+        github_repo: "https://github.com/chaingpt",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DiGiFT",
+        href: "docs/hack(evm-dapps)/digift",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c19620d4-451c-4835-4d33-e357216c5200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Security Token DEX: Bridging Traditional Finance and DeFi",
+        website_url: "https://www.digift.sg/",
+        github_repo: "https://github.com/digift",
+        appStore: "https://www.pgyer.com/digift",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bydoxe",
+        href: "docs/hack(evm-dapps)/bydoxe",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1bb71d93-8ec8-4932-acc7-fb7fc8f9fc00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Bydoxe Digital Asset Exchange",
+        website_url: "https://bydoxe.com/",
+        github_repo: "https://github.com/bydoxe",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "PyeSwap",
+        href: "docs/hack(evm-dapps)/pyeswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/aaea1838-21c9-4de7-5e00-55e368eb1d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "More than just a swap",
+        website_url: "https://pyeswap.com/",
+        github_repo: "https://github.com/pyeswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XRaid",
+        href: "docs/hack(evm-dapps)/xraid",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/147d614d-b2e1-45df-da9d-2b5cea422600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Understand the raid.",
+        website_url: "https://xraid.ai/",
+        github_repo: "https://github.com/xraid",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Native",
+        href: "docs/hack(evm-dapps)/native",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/65be9686-820c-4d7d-0127-35cc64e5a800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Native is crypto’s invisible DEX layer. It turns exchange into a feature any app can add in 5 minutes.",
+        website_url: "https://native.org/",
+        github_repo: "https://github.com/native",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fuji Finance",
+        href: "docs/hack(evm-dapps)/fujifinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/de73c9dd-afa2-4dc4-396d-2de261ac2500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Cross-chain Money Markets Agreggator",
+        website_url: "https://fuji.finance/",
+        github_repo: "https://github.com/fujifinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MyCryptoCart",
+        href: "docs/hack(evm-dapps)/mycryptocart",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f4ed5acb-b131-499b-1cd0-32c5cbd44c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A simple crypto checkout",
+        website_url: "https://mycryptocart.io/",
+        github_repo: "https://github.com/mycryptocart",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Augmentlabs Stablecoin USC",
+        href: "docs/hack(evm-dapps)/augmentlabsstablecoinusc",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75e8a9dd-d75a-41fa-a663-ad426d3ba800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Innovative and safe algorithmic stablecoin universe",
+        website_url: "https://augmentlabs.io/",
+        github_repo: "https://github.com/augmentlabsstablecoinusc",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "verso",
+        href: "docs/hack(evm-dapps)/verso",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ee3d9bbb-e415-403e-7b62-347bc54b7d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The easiest crypto wallet",
+        website_url: "https://get-verso.com/",
+        github_repo: "https://github.com/verso",
+        appStore: "https://apps.apple.com/app/btu-protocol/id1539304605",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.btuprotocol.btu_wallet",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "SafeSwap",
+        href: "docs/hack(evm-dapps)/safeswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8024af03-6374-40a6-2401-adb38e508c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "SafeSwap: Trustless cross-chain bridge for native asset swaps, no wrapping needed. Decentralized and secure.",
+        website_url: "https://safeswap.io/",
+        github_repo: "https://github.com/safeswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Staking",
+        href: "docs/hack(evm-dapps)/staking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b75e25d3-f4e9-4241-d5d5-b3253286a200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "STMX and ATH Staking platform",
+        website_url: "https://app.stormx.io/",
+        github_repo: "https://github.com/staking",
+        appStore: "https://itunes.apple.com/app/storm-play/id1420545397",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.cakecodes.bitmaker",
+        webStore:
+          "https://chrome.google.com/webstore/detail/stormx-shop-earn-crypto/mhhgjpidhclpobhkdnlopdfhfamalnia",
+        items: [],
+      },
+      {
+        title: "Holograph Develop",
+        href: "docs/hack(evm-dapps)/holographdevelop",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5de1f79a-c6fc-47f4-f679-067aa02f0600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "This is Holograph App",
+        website_url: "https://holograph.xyz/",
+        github_repo: "https://github.com/holographdevelop",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "curve-dapp",
+        href: "docs/hack(evm-dapps)/curve-dapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5cacceb0-eafe-43a9-4482-72e51cd74000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Efficient stablecoin and non-stablecoin swapping",
+        website_url: "https://curve.fi/",
+        github_repo: "https://github.com/curve-dapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Rabbit",
+        href: "docs/hack(evm-dapps)/rabbit",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7e00326c-e410-423e-ea31-4ec52716ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Rabbit LaunchPad is a safe fundraising platform for project owners and the earliest participation privilege for investors.",
+        website_url: "https://therabbit.io/",
+        github_repo: "https://github.com/rabbit",
+        appStore:
+          "https://apps.apple.com/vn/app/the-rabbit-wallet/id1672857700",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.rabbit.wallet",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cryptosender",
+        href: "docs/hack(evm-dapps)/cryptosender",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/63b153ed-62d2-46f7-1ddf-27bdd183af00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "A tool to distribute token to a multiple wallets at once transaction",
+        website_url: "https://cryptosender.io/",
+        github_repo: "https://github.com/cryptosender",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OmniDoggos",
+        href: "docs/hack(evm-dapps)/omnidoggos",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/05765e30-401e-42cc-7fa8-837f9d347c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Omni Doggos NFT Project",
+        website_url: "https://omni-doggos.io/",
+        github_repo: "https://github.com/omnidoggos",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ACryptoS",
+        href: "docs/hack(evm-dapps)/acryptos",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/732b700c-d0cd-4967-d019-cd533a958f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Multi-chain Yield Optimizer",
+        website_url: "https://acryptos.com/",
+        github_repo: "https://github.com/acryptos",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Curve",
+        href: "docs/hack(evm-dapps)/curve",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8d2e0355-979e-478b-ffca-5dfc60621500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Efficient stablecoin and non-stablecoin swapping.",
+        website_url: "https://curve.fi/",
+        github_repo: "https://github.com/curve",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Kuma SwapX",
+        href: "docs/hack(evm-dapps)/kumaswapx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f6f97c7-e986-4deb-f8d9-c965af854900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Swap assets across chains.",
+        website_url: "https://kuma-inu.com/",
+        github_repo: "https://github.com/kumaswapx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "saas-nft",
+        href: "docs/hack(evm-dapps)/saas-nft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d0ea039c-49db-4746-7288-bcf03ac89600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A high-quality NFT trading platform",
+        website_url: "https://nft.nftup.vip/",
+        github_repo: "https://github.com/saas-nft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Work X",
+        href: "docs/hack(evm-dapps)/workx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/adf56667-7db3-4c9a-7572-9f8b07ae0000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Work X is the Internet of Jobs",
+        website_url: "https://workx.io/",
+        github_repo: "https://github.com/workx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CreateMyToken",
+        href: "docs/hack(evm-dapps)/createmytoken",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a1f01b0e-7d3b-477d-767e-a9bac20e0200?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Create your own token in less than 1 minute, supports all types of token on several different blockchains!",
+        website_url: "https://createmytoken.com/",
+        github_repo: "https://github.com/createmytoken",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MID",
+        href: "docs/hack(evm-dapps)/mid",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/15aa0a35-24f7-48d6-7078-88fbdcd8d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Bridging Web2 and Web3, MID harnesses your web3 identity and assets to unleash full potential across digital platforms.",
+        website_url: "https://mid.maneslab.xyz/",
+        github_repo: "https://github.com/mid",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "tokentool",
+        href: "docs/hack(evm-dapps)/tokentool",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/8e6f2fed-74d1-4e0f-16bd-7522e9060300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "An online blockchain toolbox",
+        website_url: "https://tokentool.app/",
+        github_repo: "https://github.com/tokentool",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ElmonX",
+        href: "docs/hack(evm-dapps)/elmonx",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/573c0d09-f092-431b-9873-b79143b64800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Platform for purchasing NFTs",
+        website_url: "https://ddrops.elmonx.com/",
+        github_repo: "https://github.com/elmonx",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "treasure",
+        href: "docs/hack(evm-dapps)/treasure",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/95529a95-df14-4430-baa1-04bfb5e94400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "TREASURE WALLET Is Your Gateway To Crypto World To Earning Money From Everything Like DeFi, DAO, NFTs, Tasks, And More.",
+        website_url: "https://treasurewallet.co/",
+        github_repo: "https://github.com/treasure",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.crypto.treasure",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Arena Of Faith",
+        href: "docs/hack(evm-dapps)/arenaoffaith",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a71b2b9c-d52e-4460-5af0-85e3ae82f900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Arena of Faith (AOF) is a 3D MOBA game deployed on multi-platforms. The game supports Solo and Team modes, with immersive gaming experience",
+        website_url: "https://aof.games/",
+        github_repo: "https://github.com/arenaoffaith",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Sprynt",
+        href: "docs/hack(evm-dapps)/sprynt",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/53f5e2f6-e012-4e97-999a-49c11a29e800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The Fastest Crypto Payment StackNear-instant crypto payments across blockchains, fully decentralised, without bridge or compromise.",
+        website_url: "https://sprynt.io/",
+        github_repo: "https://github.com/sprynt",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CoinBrain",
+        href: "docs/hack(evm-dapps)/coinbrain",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/c52e7f78-1aa9-4ef6-b574-18a2fc1bad00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "CoinBrain is a crypto analytics platform that provides users with real-time on-chain data from most popular EVM chains.",
+        website_url: "https://coinbrain.com/",
+        github_repo: "https://github.com/coinbrain",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Coinpulse Online",
+        href: "docs/hack(evm-dapps)/coinpulseonline",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5ef0c9b6-fd3d-4f65-f52c-5fa6f1710800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "At Coin Pulse, we understand the growing prominence of cryptocurrencies and their impact on the investment landscape. ",
+        website_url: "https://coinpulse.online/",
+        github_repo: "https://github.com/coinpulseonline",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Spot on chain",
+        href: "docs/hack(evm-dapps)/spotonchain",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/30b9e5ee-501c-49f3-8fc5-952c03f98a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Our platform provides accurate and reliable on-chain data analysis to help you spot opportunities in the crypto market.",
+        website_url: "https://spotonchain.ai/",
+        github_repo: "https://github.com/spotonchain",
+        appStore: "https://apps.apple.com/us/app/spot-on-chain/id6449733489",
+        playStore:
+          "https://play.google.com/store/apps/details?id=network.spotonchain",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "ChainJet",
+        href: "docs/hack(evm-dapps)/chainjet",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/eeb55835-3b62-4526-a7f2-221616029000?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "ChainJet is a no-code platform for building on-chain or off-chain task automations.",
+        website_url: "https://chainjet.io/",
+        github_repo: "https://github.com/chainjet",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Tokensoft",
+        href: "docs/hack(evm-dapps)/tokensoft",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a1b13f09-d5f5-47c6-57b0-6113e5293600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Fair-launch platform for Web3 Projects & Communities",
+        website_url: "https://www.tokensoft.io/",
+        github_repo: "https://github.com/tokensoft",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Connextscan",
+        href: "docs/hack(evm-dapps)/connextscan",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/13da531f-8b05-4ff0-cb98-8d526c5fec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Explorer for the Connext protocol",
+        website_url: "https://connextscan.io/",
+        github_repo: "https://github.com/connextscan",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "HexToys",
+        href: "docs/hack(evm-dapps)/hextoys",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/042a4b2d-95d7-4d57-2e08-f5d01700c500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "NFT Marketplace and Blockchain DApp Projects",
+        website_url: "https://hex.toys/",
+        github_repo: "https://github.com/hextoys",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CryptoJoin",
+        href: "docs/hack(evm-dapps)/cryptojoin",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/a7ea5dac-f8cd-4a97-8a39-c51b5166bd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Unifique e gerencie ativos cripto com facilidade na carteira CryptoJoin. Simplifique sua jornada blockchain.",
+        website_url: "https://www.cryptojoin.com.br/",
+        github_repo: "https://github.com/cryptojoin",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Axelarscan",
+        href: "docs/hack(evm-dapps)/axelarscan",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b8f0470-51d9-4a43-6cf9-8508e2ef1e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Axelar Network Explorer",
+        website_url: "https://axelarscan.io/",
+        github_repo: "https://github.com/axelarscan",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "demarket",
+        href: "docs/hack(evm-dapps)/demarket",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/67d19626-987d-4ebb-29c7-75374a952900?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "德玛商城",
+        website_url: "http://www.demarket.io/",
+        github_repo: "https://github.com/demarket",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OMNIA Protocol",
+        href: "docs/hack(evm-dapps)/omniaprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The top choice RPC provider for 10M+ users. OMNIA delivers unmatched performance, MEV-cashback and safeguards you against frontrunning.",
+        website_url: "https://omniatech.io/",
+        github_repo: "https://github.com/omniaprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Day-Ton",
+        href: "docs/hack(evm-dapps)/day-ton",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/140ab77e-cc04-44ba-fd9d-65c76543cd00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Day-Ton Testnet DeFi.",
+        website_url: "https://daytona-finance.online/",
+        github_repo: "https://github.com/day-ton",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Forward",
+        href: "docs/hack(evm-dapps)/forward",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad477dbe-f194-4a71-8013-781f180ad400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "WordPress for Web 3.0",
+        website_url: "https://forwardfactory.net/",
+        github_repo: "https://github.com/forward",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CryptoPay",
+        href: "docs/hack(evm-dapps)/cryptopay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c9070ac-aa84-4aa5-5a35-3210e2153400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "All in one cryptocurrency payments for WordPress & WooCommerce",
+        website_url: "https://beycanpress.com/cryptopay/",
+        github_repo: "https://github.com/cryptopay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+    
+  
+  
+  
+      {
+        title: "XBANKING",
+        href: "docs/blockchains(solana-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5c5d025b-c11f-4798-4473-b2656bc20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TKN: Token Name Service",
+        href: "docs/blockchains(solana-dapps)/tkn:tokennameservice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f739904-d570-4c1b-a5b1-9fddf0927a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "TKN: Token Name Service Try Catch Error",
+        website_url: "https://TKN: Token Name Service.com",
+        github_repo: "https://github.com/tkn:tokennameservice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "LearnWeb3",
+        href: "docs/blockchains(solana-dapps)/learnweb3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5b019d7a-ac89-473c-73ec-8f9f28646600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "The leading web3 education platform",
+        website_url: "https://learnweb3.io/",
+        github_repo: "https://github.com/learnweb3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mango",
+        href: "docs/blockchains(solana-dapps)/mango",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/78b67117-7234-4fa1-177c-f03c01e37100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Mango is a decentralized autonomous organization.",
+        website_url: "https://mango.markets/",
+        github_repo: "https://github.com/mango",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Marinade Finance",
+        href: "docs/blockchains(solana-dapps)/marinadefinance",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/75c0c024-8b6d-4687-d695-906111b57300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Secure Solana and earn rewards without your funds locked in Get mSOL, staked SOL supported all across the Solana ecosystem",
+        website_url: "https://marinade.finance/",
+        github_repo: "https://github.com/marinadefinance",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Delta One",
+        href: "docs/blockchains(solana-dapps)/deltaone",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/11ac53de-cfdc-40a9-49b0-b409d5619e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Delta Neutral Yield Generation",
+        website_url: "https://deltaone.xyz/",
+        github_repo: "https://github.com/deltaone",
+        appStore: "https://deltaone.xyz/",
+        playStore: "https://deltaone.xyz/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Elusiv",
+        href: "docs/blockchains(solana-dapps)/elusiv",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/822e40a9-0662-4f19-015f-cf3f8867f100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Elusiv is building Web3’s universal encryption layer empowering the decentralized world.",
+        website_url: "https://elusiv.io/",
+        github_repo: "https://github.com/elusiv",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Connect3",
+        href: "docs/blockchains(solana-dapps)/connect3",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/1cb4c660-34c9-4bcb-27ae-6582f6895d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Your Gateway to the Fabulous Web3 World",
+        website_url: "https://connect3.world/",
+        github_repo: "https://github.com/connect3",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "KoinX -> Production",
+        href: "docs/blockchains(solana-dapps)/koinx-production",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/b79212d1-9865-4389-0af7-98527ce08600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "KoinX -> Production Try Catch Error",
+        website_url: "https://KoinX -> Production.com",
+        github_repo: "https://github.com/koinx-production",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Liquifi",
+        href: "docs/blockchains(solana-dapps)/liquifi",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f6895b1-65b0-4bcf-9960-65c90d345f00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The fastest and easiest way to manage token distributions, compliance, and track vesting schedules.",
+        website_url: "https://liquifi.finance/",
+        github_repo: "https://github.com/liquifi",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Polychain Islands",
+        href: "docs/blockchains(solana-dapps)/polychainislands",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d99a3202-4f36-4e34-3e90-e8239be9aa00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Polychain Islands is a turn-based Play2Own monster battler fueled by multi-chain NFTs from Polychain Monsters.",
+        website_url: "https://polychainmonsters.com/game",
+        github_repo: "https://github.com/polychainislands",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DeGame",
+        href: "docs/blockchains(solana-dapps)/degame",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/d92223d8-fead-4485-c1fa-7d8812bb8b00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "DeGame -> No.1 Web3 Games PoC Platform | Tokenize your contribution, our website allows users to log in through walletconnect",
+        website_url: "https://degame.com/",
+        github_repo: "https://github.com/degame",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Bitriel",
+        href: "docs/blockchains(solana-dapps)/bitriel",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7ce959cc-75cc-4c34-fdfd-a23dccb0ec00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Access on immutable money market protocol directly on-chain.",
+        website_url: "https://bitriel.com/",
+        github_repo: "https://github.com/bitriel",
+        appStore:
+          "https://play.google.com/store/apps/details?id=com.selendra.secure_wallet&hl=en&gl=US",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Carrier",
+        href: "docs/blockchains(solana-dapps)/carrier",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/39624901-25c0-41e6-b091-8434045d4700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A powerful token and NFT bridge for Web3 natives.",
+        website_url: "https://www.carrier.so/",
+        github_repo: "https://github.com/carrier",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DRiP",
+        href: "docs/blockchains(solana-dapps)/drip",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2d54aeb3-3dc9-4d04-12da-73b5bcef4800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Collectibles every week from your favorite creators. For free.",
+        website_url: "https://drip.haus/",
+        github_repo: "https://github.com/drip",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "DopamineApp",
+        href: "docs/blockchains(solana-dapps)/dopamineapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/cd1b993c-4266-4d17-be8f-0bd8abe9d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Finance -> Media -> Entertainment for Crypto.",
+        website_url: "https://dopamineapp.com/",
+        github_repo: "https://github.com/dopamineapp",
+        appStore:
+          "https://apps.apple.com/us/app/dopamine-bitcoin-crypto/id1350234503",
+        playStore:
+          "https://play.google.com/store/apps/details?id=com.kyriakosalexandrou.coinmarketcap",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Floor",
+        href: "docs/blockchains(solana-dapps)/floor",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ada4d35d-5e67-4258-9ac9-8f4a10436100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Floor is your home for everything web3 on your phone.",
+        website_url: "https://www.floornfts.io/",
+        github_repo: "https://github.com/floor",
+        appStore:
+          "https://apps.apple.com/us/app/floor-nfts-simplified/id1645791662",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.floornfts&hl=en_US&gl=US&pli=1",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "FRAX",
+        href: "docs/blockchains(solana-dapps)/frax",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f0625a53-b3b5-4d0d-dad0-915a8a3b6700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Frax Finance official web app",
+        website_url: "https://frax.finance/",
+        github_repo: "https://github.com/frax",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Faye",
+        href: "docs/blockchains(solana-dapps)/faye",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f23601e4-3f9e-4ab1-c865-6b0394944d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Customer Support Helpdesk For Web3",
+        website_url: "https://www.faye.xyz/",
+        github_repo: "https://github.com/faye",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "FinSortis",
+        href: "docs/blockchains(solana-dapps)/finsortis",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/e856be60-0dc8-45e4-96e0-e2cb2fbf0400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Forex",
+        website_url: "https://finsortis.com/",
+        github_repo: "https://github.com/finsortis",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mint and Win",
+        href: "docs/blockchains(solana-dapps)/mintandwin",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/2f916cd9-91d5-46fb-25ab-6f72671fe400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "We deploy on various blockchains Non Fungible Tokens as raffle tickets for art, collectibles, and other rare goods.",
+        website_url: "https://mintandwin.com/",
+        github_repo: "https://github.com/mintandwin",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TabTrader",
+        href: "docs/blockchains(solana-dapps)/tabtrader",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/14552541-a69c-40a1-5a5e-368f030f1c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Crypto trading terminal for all major CEX exchanges and Solana DEXes",
+        website_url: "https://tabtrader.com/",
+        github_repo: "https://github.com/tabtrader",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "xbanking",
+        href: "docs/blockchains(solana-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6848316c-eed7-4f57-f41e-729209744d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "MID",
+        href: "docs/blockchains(solana-dapps)/mid",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/15aa0a35-24f7-48d6-7078-88fbdcd8d800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Bridging Web2 and Web3, MID harnesses your web3 identity and assets to unleash full potential across digital platforms.",
+        website_url: "https://mid.maneslab.xyz/",
+        github_repo: "https://github.com/mid",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OMNIA Protocol",
+        href: "docs/blockchains(solana-dapps)/omniaprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The top choice RPC provider for 10M+ users. OMNIA delivers unmatched performance, MEV-cashback and safeguards you against frontrunning.",
+        website_url: "https://omniatech.io/",
+        github_repo: "https://github.com/omniaprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "CryptoPay",
+        href: "docs/blockchains(solana-dapps)/cryptopay",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c9070ac-aa84-4aa5-5a35-3210e2153400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "All in one cryptocurrency payments for WordPress & WooCommerce",
+        website_url: "https://beycanpress.com/cryptopay/",
+        github_repo: "https://github.com/cryptopay",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+    
+
+
+
+
+
+    
+      {
+        title: "xbanking",
+        href: "docs/blockchains(cosmos-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/6848316c-eed7-4f57-f41e-729209744d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "XBANKING",
+        href: "docs/blockchains(cosmos-dapps)/xbanking",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/5c5d025b-c11f-4798-4473-b2656bc20e00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Non-custodial staking platform.",
+        website_url: "https://app.xbanking.org/",
+        github_repo: "https://github.com/xbanking",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "TKN: Token Name Service",
+        href: "docs/blockchains(cosmos-dapps)/tkn:tokennameservice",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7f739904-d570-4c1b-a5b1-9fddf0927a00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "TKN: Token Name Service Try Catch Error",
+        website_url: "https://TKN: Token Name Service.com",
+        github_repo: "https://github.com/tkn:tokennameservice",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Mars Protocol",
+        href: "docs/blockchains(cosmos-dapps)/marsprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/59df2c82-fd72-4cb0-5d4b-9591b6808500?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Lend, borrow and earn with an autonomous credit protocol in the Cosmos universe. Open to all, closed to none.",
+        website_url: "https://marsprotocol.io/",
+        github_repo: "https://github.com/marsprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Dexter",
+        href: "docs/blockchains(cosmos-dapps)/dexter",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ee8dae0d-ab63-490e-f23f-3d1a86a02c00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Interchain DEX For Yield Generating Assets",
+        website_url: "https://dexter.zone/",
+        github_repo: "https://github.com/dexter",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Astral",
+        href: "docs/blockchains(cosmos-dapps)/astral",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad54b251-ad48-4431-c55f-a1d1c4512800?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Interchain NFTs",
+        website_url: "https://astral.ist/",
+        github_repo: "https://github.com/astral",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "THORSwap",
+        href: "docs/blockchains(cosmos-dapps)/thorswap",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/4dc14f23-9d37-419c-12c2-11bc14960600?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Swap & Earn Crypto Native Crypto Assets Across 10+ Chains",
+        website_url: "https://app.thorswap.finance/",
+        github_repo: "https://github.com/thorswap",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Fuzio",
+        href: "docs/blockchains(cosmos-dapps)/fuzio",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/7c01f9e1-a633-4db4-03e9-b4cdd37ad100?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "Fuziø is the leading speculation platform on Sei Network.",
+        website_url: "https://fuzio.network/",
+        github_repo: "https://github.com/fuzio",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Cypher DApp",
+        href: "docs/blockchains(cosmos-dapps)/cypherdapp",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/3b357d4f-6dc8-4972-2997-5b4f0daa9700?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "A Portfolio Dashboard",
+        website_url: "https://app.cypherwallet.io/",
+        github_repo: "https://github.com/cypherdapp",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Faye",
+        href: "docs/blockchains(cosmos-dapps)/faye",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/f23601e4-3f9e-4ab1-c865-6b0394944d00?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "Customer Support Helpdesk For Web3",
+        website_url: "https://www.faye.xyz/",
+        github_repo: "https://github.com/faye",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "OMNIA Protocol",
+        href: "docs/blockchains(cosmos-dapps)/omniaprotocol",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/683b7d35-6576-4770-bb87-f30a90353300?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description:
+          "The top choice RPC provider for 10M+ users. OMNIA delivers unmatched performance, MEV-cashback and safeguards you against frontrunning.",
+        website_url: "https://omniatech.io/",
+        github_repo: "https://github.com/omniaprotocol",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+      {
+        title: "Forward",
+        href: "docs/blockchains(cosmos-dapps)/forward",
+        logo: "https://explorer-api.walletconnect.com/v3/logo/lg/ad477dbe-f194-4a71-8013-781f180ad400?projectId=2f05ae7f1116030fde2d36508f472bfb",
+        description: "WordPress for Web 3.0",
+        website_url: "https://forwardfactory.net/",
+        github_repo: "https://github.com/forward",
+        appStore: "https://apps.apple.com/app/id1456732565/",
+        playStore:
+          "https://play.google.com/store/apps/details?id=io.zerion.android&hl=en&gl=US/",
+        webStore:
+          "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
+        items: [],
+      },
+    
+  ],
+  mainNav: [
+    {
+      title: "Documentation",
+      href: "/docs",
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+    },
+    {
+      title: "Components",
+      href: "/docs/ui/accordion",
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+    },
+    {
+      title: "Examples",
+      href: "/examples",
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+    },
+    {
+      title: "Figma",
+      href: "/docs/figma",
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+    },
+    {
+      title: "GitHub",
+      href: "https://github.com/beingofexistence/dx",
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+      external: true,
+    },
+    {
+      title: "Twitter",
+      href: "https://twitter.com/beingofexistence",
+      external: true,
+      description: "Not Provided(coming soon)",
+      website_url: "https://dx-emon-sumon-shohan.vercel.app/",
+      github_repo: "https://github.com/beingofexistence",
+    },
+  ],
+
   sidebarNav: [
     // Getting Started
     {
