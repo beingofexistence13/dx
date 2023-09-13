@@ -27749,7 +27749,7 @@ const dapps = [
 // };
 
 blockchain.forEach((item) => {
-  const filePath = `${item.name.replace(/\s/g, "").toUpperCase()}`;
+  const filePath = `${item.name.replace(/\s/g, "").toLowerCase()}`;
   downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${filePath}.jpg`, `${item.icon}.jpg`)
   
 });
