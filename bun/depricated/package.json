@@ -1,0 +1,20 @@
+{
+  "name": "bun-beingofexistence-testing",
+  "license": "MIT",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.6.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun": "^1.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "figlet": "^1.6.0",
+    "http": "^0.0.1-security"
+  }
+}

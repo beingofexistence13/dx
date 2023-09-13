@@ -1,4 +1,10 @@
-import { get,IncomingMessage } from 'http';
+// import { get,IncomingMessage } from 'http';
+
+
+
+
+
+
 
 interface BlockchainItem {
   name: string;
@@ -27708,15 +27714,15 @@ const dapps = [
 
 ]
 
-const download = (url: string, filePath: string, callback: () => void) => {
-  get(url, (res: IncomingMessage) => {
-    let data = '';
-    res.on('data', (chunk: string) => { data += chunk; return ''; });
-    res.on('end', () => {
-      Bun.write(filePath, data).then(callback);
-    });
-  });
-};
+// const download = (url: string, filePath: string, callback: () => void) => {
+//   get(url, (res: IncomingMessage) => {
+//     let data = '';
+//     res.on('data', (chunk: string) => { data += chunk; return ''; });
+//     res.on('end', () => {
+//       Bun.write(filePath, data).then(callback);
+//     });
+//   });
+// };
 
 // blockchain.forEach((item) => {
 //   const filePath = `${item.name.replace(/\s/g,"").toLowerCase()}.jpg`;
@@ -27725,7 +27731,11 @@ const download = (url: string, filePath: string, callback: () => void) => {
 //   });
 // });
 
-const filePath = `arbitrum.jpg`;
-download(`https://icons.llamao.fi/icons/chains/rsz_arbitrum.jpg`, filePath, () => {
-  console.log(`arbitrum logo is downloadeded!!!`);
-});
+// const filePath = `arbitrum.jpg`;
+// download(`https://icons.llamao.fi/icons/chains/rsz_arbitrum.jpg`, filePath, () => {
+//   console.log(`arbitrum logo is downloadeded!!!`);
+// });
+
+
+
+
