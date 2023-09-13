@@ -14,6 +14,7 @@
   "dependencies": {
     "bun": "^1.0.0",
     "cheerio": "^1.0.0-rc.12",
-    "figlet": "^1.6.0"
+    "figlet": "^1.6.0",
+    "http": "^0.0.1-security"
   }
 }
