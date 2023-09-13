@@ -1,4 +1,5 @@
-// import axios from 'axios';
+
+import axios from 'axios';
 import fs from 'fs';
 
 // async function downloadImage(url: string, path: string) {
@@ -35,8 +36,7 @@ interface BlockchainItem {
   [key: string]: any;
 }
 interface Dapp {
-  name?: string;
-  icon?: string;
+
   title: string;
   logo: string;
   [key: string]: any;
@@ -50758,28 +50758,14 @@ const dapp: Dapp[] = [
   
 ];
 
-// const download = (url: string, filePath: string, callback: () => void) => {
-//   get(url, (res: IncomingMessage) => {
-//     let data = '';
-//     res.on('data', (chunk: string) => { data += chunk; return ''; });
-//     res.on('end', () => {
-//       Bun.write(filePath, data).then(callback);
-//     });
-//   });
-// };
-
-// blockchain.forEach((item) => {
-//   const filePath = `${item.name.replace(/\s/g, "").toLowerCase()}`;
-//   downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${filePath}.jpg`, `${item.icon}.jpg`)
-  
-// });
-dapp.forEach((item) => {
-  const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}`;
+wallet.forEach((item) => {
+    
+  const filePath = `${item.title.replace(/\s/g, "").replace(/\./g, "").toLowerCase()}`;
   downloadImage(item.logo, `${filePath}.jpg`)
   
 });
+console.log(wallet.length)
   // downloadImage(`https://icons.llamao.fi/icons/chains/rsz_ethereum.jpg`, "ethereum.jpg",);
 
 
 
-console.log("Hello via Bun!");
