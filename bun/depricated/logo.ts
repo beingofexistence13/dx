@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 interface BlockchainItem {
   name: string;
   icon?: string;
