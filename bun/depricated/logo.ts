@@ -1,11 +1,33 @@
 
+import axios from 'axios';
+import fs from 'fs';
 
 async function downloadImage(url: string, path: string) {
+    const response = await axios({
+        method: 'GET',
+        url: url,
+        responseType: 'stream'
+    });
 
-  const response = await fetch(url);
-  await Bun.write(path, response);
+    const writer = fs.createWriteStream(path);
 
+    response.data.pipe(writer);
+
+    return new Promise((resolve, reject) => {
+        writer.on('finish', resolve);
+        writer.on('error', reject);
+    });
 }
+
+// Usage:
+// downloadImage('http://example.com/image.jpg', './image.jpg');
+
+// async function downloadImage(url: string, path: string) {
+
+//   const response = await fetch(url);
+//   await Bun.write(path, response);
+
+// }
 
 
 interface BlockchainItem {
@@ -27727,9 +27749,9 @@ const dapps = [
 // };
 
 blockchain.forEach((item) => {
-  const filePath = `${item.name.replace(/\s/g, "").toLowerCase()}`;
-  downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${item.icon ? item.icon : filePath}.jpg`, `${item.icon ? item.icon : filePath}.jpg`);
-
+  const filePath = `${item.name.replace(/\s/g, "").toUpperCase()}`;
+  downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${filePath}.jpg`, `${item.icon}.jpg`)
+  
 });
   // downloadImage(`https://icons.llamao.fi/icons/chains/rsz_ethereum.jpg`, "ethereum.jpg",);
 
