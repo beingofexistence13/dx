@@ -50758,13 +50758,13 @@ const dapp: Dapp[] = [
   
 ];
 
-wallet.forEach((item) => {
+dapp.forEach((item) => {
     
   const filePath = `${item.title.replace(/\s/g, "").replace(/\./g, "").toLowerCase()}`;
   downloadImage(item.logo, `${filePath}.jpg`)
   
 });
-console.log(wallet.length)
+console.log(passport.length + wallet.length + dapp.length)
   // downloadImage(`https://icons.llamao.fi/icons/chains/rsz_ethereum.jpg`, "ethereum.jpg",);
 
 
