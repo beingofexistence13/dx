@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import fs from 'fs';
 
 // async function downloadImage(url: string, path: string) {
@@ -35,8 +35,10 @@ interface BlockchainItem {
   [key: string]: any;
 }
 interface Dapp {
-  name: string;
+  name?: string;
   icon?: string;
+  title: string;
+  logo: string;
   [key: string]: any;
 }
 
@@ -50771,7 +50773,7 @@ const dapp: Dapp[] = [
 //   downloadImage(`https://icons.llamao.fi/icons/chains/rsz_${filePath}.jpg`, `${item.icon}.jpg`)
   
 // });
-wallet.forEach((item) => {
+dapp.forEach((item) => {
   const filePath = `${item.title.replace(/\s/g, "").toLowerCase()}`;
   downloadImage(item.logo, `${filePath}.jpg`)
   

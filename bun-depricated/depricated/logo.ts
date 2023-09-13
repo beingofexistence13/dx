@@ -36,8 +36,9 @@ interface BlockchainItem {
   [key: string]: any;
 }
 interface Dapp {
-  name: string;
-  icon?: string;
+
+  title: string;
+  logo: string;
   [key: string]: any;
 }
 
