@@ -5,7 +5,7 @@
 
     "pkief.material-icon-theme",
     "ritwickdey.liveserver",
-    "esbenp.prettier-vscode",
+    // "esbenp.prettier-vscode",
     // PR management / Reviewing
     "dbaeumer.vscode-eslint",
     // Collaborating
@@ -13,6 +13,7 @@
     "hoovercj.vscode-power-mode",
     // MDX Authoring
     "github.github-vscode-theme",
-    "dsznajder.es7-react-js-snippets"
+    // "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens"
   ]
 }
