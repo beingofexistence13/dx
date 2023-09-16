@@ -94,7 +94,7 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <Redux>
             <Query>
-              <Chakraui>
+              {/* <Chakraui>
                 <PrimeReact>
                   <Mantine>
                     <main className="flex-1">
@@ -105,11 +105,11 @@ export default function RootLayout({
                     <Script src="./node_modules/preline/dist/preline.js" />
                   </Mantine>
                 </PrimeReact>
-              </Chakraui>
-              {/* <main className="flex-1">
+              </Chakraui> */}
+              <main className="flex-1">
                 <SiteLayout />
                 {children}
-              </main> */}
+              </main>
             </Query>
           </Redux>
         </Providers>
