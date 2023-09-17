@@ -8,16 +8,13 @@
     "name": "beingofexistence",
     "url": "https://twitter.com/beingofexistence"
   },
-  "workspaces": [
-    "root-package-manager/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "build:cli": "turbo --filter=beingofexistence-dx build",
-    "build:registry": "pnpm --filter=www build:registry",
+    "build:registry": "bun --filter=www build:registry",
     "dev": "turbo run dev --parallel",
     "dev:cli": "turbo --filter=beingofexistence-dx dev",
-    "start:cli": "pnpm --filter=beingofexistence-dx start:dev",
+    "start:cli": "bun --filter=beingofexistence-dx start:dev",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "preview": "turbo run preview",
@@ -28,11 +25,10 @@
     "prepare": "husky install",
     "check": "turbo lint typecheck format:check",
     "release": "changeset version",
-    "pub:beta": "cd packages/cli && pnpm pub:beta",
-    "pub:release": "cd packages/cli && pnpm pub:release",
+    "pub:beta": "cd packages/cli && bun pub:beta",
+    "pub:release": "cd packages/cli && bun pub:release",
     "test": "turbo run test --force"
   },
-  "packageManager": "pnpm@8.5.1",
   "dependencies": {
     "@babel/core": "^7.22.1",
     "@changesets/changelog-github": "^0.4.8",
