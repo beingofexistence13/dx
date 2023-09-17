@@ -1,10 +1,41 @@
+image:
+  file: dxcode/.gitpod.Dockerfile
+ports:
+  - port: 9888
+    onOpen: open-browser
 tasks:
-    - name: frontend
-      init: |
-          npm install -g bun && cd apps/www && bun install
-          bun run build
-      command: |
-          bun run dev
+  - init: |
+      cd dxcode && yarn
+      yarn server:init
+    command: |
+      cd dxcode && gp sync-done init
+      export NODE_ENV=development
+      export VSCODE_DEV=1
+      yarn gulp watch-init
+    name: watch app
+  - command: |
+      cd dxcode && export NODE_ENV=development
+      export VSCODE_DEV=1
+      gp sync-await init
+      ./scripts/code-server.sh  --without-connection-token
+    name: run app
+    openMode: split-right
+github:
+  prebuilds:
+    branches: true
+    pullRequestsFromForks: true
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+
+
+# tasks:
+#     - name: frontend
+#       init: |
+#           npm install -g bun && cd apps/www && bun install
+#           bun run build
+#       command: |
+#           bun run dev
     # - name: Nextui
     #   init: |
     #       cd inspirations && cd www && pnpm install
@@ -54,10 +85,10 @@ tasks:
     # - name: WorkSpace
     #   init: |
     #       pnpm install
-    #       pnpm run build          
+    #       pnpm run build
     # - name: Terminal
     #   init: |
-       
+
 
 
 
