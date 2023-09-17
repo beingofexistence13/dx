@@ -5,19 +5,19 @@ ports:
     onOpen: open-browser
 tasks:
   - init: |
-      cd dxcode && yarn
+      npm install -g npm@10.1.0 && npm install -g bun && bun install && cd dxcode && yarn
       yarn server:init
     command: |
       cd dxcode && gp sync-done init
-      export NODE_ENV=development
-      export VSCODE_DEV=1
-      yarn gulp watch-init
+      cd dxcode && export NODE_ENV=development
+      cd dxcode && export VSCODE_DEV=1
+      cd dxcode && yarn gulp watch-init
     name: watch app
   - command: |
       cd dxcode && export NODE_ENV=development
-      export VSCODE_DEV=1
-      gp sync-await init
-      ./scripts/code-server.sh  --without-connection-token
+      cd dxcode && export VSCODE_DEV=1
+      cd dxcode && gp sync-await init
+      cd dxcode && ./scripts/code-server.sh  --without-connection-token
     name: run app
     openMode: split-right
 github:
