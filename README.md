@@ -173,29 +173,457 @@ Dx Preview Deployment problem Solved!!!
 Dopamine Detox
 Sumon
 
+ **oracle:0**                                   | **https://db\-engines\.com/en/system/Oracle**
+-------------------------------------------------|--------------------------------------------------------------------------------
+ **mysql:1**                                    | https://db\-engines\.com/en/system/MySQL
+ **microsoft:sql:server:2**                     | https://db\-engines\.com/en/system/Microsoft\+SQL\+Server
+ **postgresql:3**                               | https://db\-engines\.com/en/system/PostgreSQL
+ **mongodb:4**                                  | https://db\-engines\.com/en/system/MongoDB
+ **redis:5**                                    | https://db\-engines\.com/en/system/Redis
+ **elasticsearch:6**                             | https://db\-engines\.com/en/system/Elasticsearch
+ **ibm:db2:7**                                   | https://db\-engines\.com/en/system/IBM\+Db2
+ **sqlite:8**                                   | https://db\-engines\.com/en/system/SQLite
+ **microsoft:access:9**                          | https://db\-engines\.com/en/system/Microsoft\+Access
+ **snowflake:10**                               | https://db\-engines\.com/en/system/Snowflake
+ **cassandra:11**                               | https://db\-engines\.com/en/system/Cassandra
+ **mariadb:12**                                 | https://db\-engines\.com/en/system/MariaDB
+ **splunk:13**                                   | https://db\-engines\.com/en/system/Splunk
+ **microsoft:azure:sql:database:14**             | https://db\-engines\.com/en/system/Microsoft\+Azure\+SQL\+Database
+ **amazon:dynamodb:15**                         | https://db\-engines\.com/en/system/Amazon\+DynamoDB
+ **databricks:16**                               | https://db\-engines\.com/en/system/Databricks
+ **hive:17**                                     | https://db\-engines\.com/en/system/Hive
+ **teradata:18**                                 | https://db\-engines\.com/en/system/Teradata
+ **google:bigquery:19**                         | https://db\-engines\.com/en/system/Google\+BigQuery
+ **filemaker:20**                                | https://db\-engines\.com/en/system/FileMaker
+ **sap:hana:21**                                | https://db\-engines\.com/en/system/SAP\+HANA
+ **neo4j:22**                                   | https://db\-engines\.com/en/system/Neo4j
+ **solr:23**                                     | https://db\-engines\.com/en/system/Solr
+ **sap:adaptive:server:24**                      | https://db\-engines\.com/en/system/SAP\+Adaptive\+Server
+ **hbase:25**                                    | https://db\-engines\.com/en/system/HBase
+ **microsoft:azure:cosmos:db:26**               | https://db\-engines\.com/en/system/Microsoft\+Azure\+Cosmos\+DB
+ **influxdb:27**                                | https://db\-engines\.com/en/system/InfluxDB
+ **postgis:28**                                  | https://db\-engines\.com/en/system/PostGIS
+ **microsoft:azure:synapse:analytics:29**        | https://db\-engines\.com/en/system/Microsoft\+Azure\+Synapse\+Analytics
+ **firebird:30**                                 | https://db\-engines\.com/en/system/Firebird
+ **couchbase:31**                               | https://db\-engines\.com/en/system/Couchbase
+ **informix:32**                                 | https://db\-engines\.com/en/system/Informix
+ **memcached:33**                                | https://db\-engines\.com/en/system/Memcached
+ **amazon:redshift:34**                         | https://db\-engines\.com/en/system/Amazon\+Redshift
+ **impala:35**                                   | https://db\-engines\.com/en/system/Impala
+ **spark:sql:36**                                | https://db\-engines\.com/en/system/Spark\+SQL
+ **firebase:realtime:database:37**               | https://db\-engines\.com/en/system/Firebase\+Realtime\+Database
+ **clickhouse:38**                               | https://db\-engines\.com/en/system/ClickHouse
+ **presto:39**                                   | https://db\-engines\.com/en/system/Presto
+ **dbase:40**                                    | https://db\-engines\.com/en/system/dBASE
+ **vertica:41**                                 | https://db\-engines\.com/en/system/Vertica
+ **netezza:42**                                  | https://db\-engines\.com/en/system/Netezza
+ **couchdb:43**                                  | https://db\-engines\.com/en/system/CouchDB
+ **apache:flink:44**                             | https://db\-engines\.com/en/system/Apache\+Flink
+ **opensearch:45**                              | https://db\-engines\.com/en/system/OpenSearch
+ **google:cloud:firestore:46**                   | https://db\-engines\.com/en/system/Google\+Cloud\+Firestore
+ **greenplum:47**                                | https://db\-engines\.com/en/system/Greenplum
+ **amazon:aurora:48**                            | https://db\-engines\.com/en/system/Amazon\+Aurora
+ **etcd:49**                                     | https://db\-engines\.com/en/system/etcd
+ **kdb:50**                                     | https://db\-engines\.com/en/system/Kdb
+ **h2:51**                                       | https://db\-engines\.com/en/system/H2
+ **oracle:essbase:52**                           | https://db\-engines\.com/en/system/Oracle\+Essbase
+ **marklogic:53**                                | https://db\-engines\.com/en/system/MarkLogic
+ **realm:54**                                    | https://db\-engines\.com/en/system/Realm
+ **hazelcast:55**                                | https://db\-engines\.com/en/system/Hazelcast
+ **prometheus:56**                               | https://db\-engines\.com/en/system/Prometheus
+ **algolia:57**                                  | https://db\-engines\.com/en/system/Algolia
+ **cockroachdb:58**                             | https://db\-engines\.com/en/system/CockroachDB
+ **aerospike:59**                               | https://db\-engines\.com/en/system/Aerospike
+ **derby:60**                                    | https://db\-engines\.com/en/system/Derby
+ **datastax:enterprise:61**                     | https://db\-engines\.com/en/system/Datastax\+Enterprise
+ **microsoft:azure:data:explorer:62**           | https://db\-engines\.com/en/system/Microsoft\+Azure\+Data\+Explorer
+ **ehcache:63**                                  | https://db\-engines\.com/en/system/Ehcache
+ **scylladb:64**                                | https://db\-engines\.com/en/system/ScyllaDB
+ **jackrabbit:65**                               | https://db\-engines\.com/en/system/Jackrabbit
+ **microsoft:azure:search:66**                   | https://db\-engines\.com/en/system/Microsoft\+Azure\+Search
+ **trino:67**                                   | https://db\-engines\.com/en/system/Trino
+ **interbase:68**                                | https://db\-engines\.com/en/system/Interbase
+ **sphinx:69**                                   | https://db\-engines\.com/en/system/Sphinx
+ **microsoft:azure:table:storage:70**            | https://db\-engines\.com/en/system/Microsoft\+Azure\+Table\+Storage
+ **apache:jena:tdb:71**                        | https://db\-engines\.com/en/system/Apache\+Jena\+\-\+TDB
+ **singlestore:72**                             | https://db\-engines\.com/en/system/SingleStore
+ **sap:sql:anywhere:73**                         | https://db\-engines\.com/en/system/SAP\+SQL\+Anywhere
+ **ingres:74**                                   | https://db\-engines\.com/en/system/Ingres
+ **riak:kv:75**                                  | https://db\-engines\.com/en/system/Riak\+KV
+ **graphite:76**                                 | https://db\-engines\.com/en/system/Graphite
+ **google:cloud:datastore:77**                   | https://db\-engines\.com/en/system/Google\+Cloud\+Datastore
+ **timescaledb:78**                              | https://db\-engines\.com/en/system/TimescaleDB
+ **virtuoso:79**                                | https://db\-engines\.com/en/system/Virtuoso
+ **accumulo:80**                                 | https://db\-engines\.com/en/system/Accumulo
+ **hypersql:81**                                 | https://db\-engines\.com/en/system/HyperSQL
+ **sap:iq:82**                                   | https://db\-engines\.com/en/system/SAP\+IQ
+ **adabas:83**                                   | https://db\-engines\.com/en/system/Adabas
+ **google:cloud:bigtable:84**                    | https://db\-engines\.com/en/system/Google\+Cloud\+Bigtable
+ **ignite:85**                                   | https://db\-engines\.com/en/system/Ignite
+ **orientdb:86**                                 | https://db\-engines\.com/en/system/OrientDB
+ **unidata,universe:87**                         | https://db\-engines\.com/en/system/UniData%2CUniVerse
+ **arangodb:88**                                | https://db\-engines\.com/en/system/ArangoDB
+ **gemfire:89**                                  | https://db\-engines\.com/en/system/GemFire
+ **openedge:90**                                 | https://db\-engines\.com/en/system/OpenEdge
+ **dolphindb:91**                                | https://db\-engines\.com/en/system/DolphinDB
+ **ravendb:92**                                  | https://db\-engines\.com/en/system/RavenDB
+ **rocksdb:93**                                 | https://db\-engines\.com/en/system/RocksDB
+ **oracle:nosql:94**                             | https://db\-engines\.com/en/system/Oracle\+NoSQL
+ **rethinkdb:95**                                | https://db\-engines\.com/en/system/RethinkDB
+ **ibm:cloudant:96**                             | https://db\-engines\.com/en/system/IBM\+Cloudant
+ **maxdb:97**                                    | https://db\-engines\.com/en/system/MaxDB
+ **infinispan:98**                               | https://db\-engines\.com/en/system/Infinispan
+ **google:cloud:spanner:99**                     | https://db\-engines\.com/en/system/Google\+Cloud\+Spanner
+ **tidb:100**                                   | https://db\-engines\.com/en/system/TiDB
+ **oracle:berkeley:db:101**                      | https://db\-engines\.com/en/system/Oracle\+Berkeley\+DB
+ **duckdb:102**                                  | https://db\-engines\.com/en/system/DuckDB
+ **intersystems:iris:103**                       | https://db\-engines\.com/en/system/InterSystems\+IRIS
+ **yugabytedb:104**                             | https://db\-engines\.com/en/system/YugabyteDB
+ **apache:druid:105**                            | https://db\-engines\.com/en/system/Apache\+Druid
+ **pouchdb:106**                                 | https://db\-engines\.com/en/system/PouchDB
+ **rrdtool:107**                                 | https://db\-engines\.com/en/system/RRDtool
+ **intersystems:caché:108**                      | https://db\-engines\.com/en/system/InterSystems\+Cach%C3%A9
+ **sap:advantage:database:server:109**           | https://db\-engines\.com/en/system/SAP\+Advantage\+Database\+Server
+ **4d:110**                                      | https://db\-engines\.com/en/system/4D
+ **leveldb:111**                                 | https://db\-engines\.com/en/system/LevelDB
+ **pinecone:112**                                | https://db\-engines\.com/en/system/Pinecone
+ **heavy\.ai:113**                               | https://db\-engines\.com/en/system/HEAVY\.AI
+ **memgraph:114**                               | https://db\-engines\.com/en/system/Memgraph
+ **percona:server:for:mysql:115**                | https://db\-engines\.com/en/system/Percona\+Server\+for\+MySQL
+ **apache:drill:116**                            | https://db\-engines\.com/en/system/Apache\+Drill
+ **exasol:117**                                  | https://db\-engines\.com/en/system/EXASOL
+ **edb:postgres:118**                            | https://db\-engines\.com/en/system/EDB\+Postgres
+ **geode:119**                                   | https://db\-engines\.com/en/system/Geode
+ **cloudkit:120**                                | https://db\-engines\.com/en/system/CloudKit
+ **lmdb:121**                                    | https://db\-engines\.com/en/system/LMDB
+ **apache:phoenix:122**                          | https://db\-engines\.com/en/system/Apache\+Phoenix
+ **citus:123**                                   | https://db\-engines\.com/en/system/Citus
+ **amazon:simpledb:124**                         | https://db\-engines\.com/en/system/Amazon\+SimpleDB
+ **coveo:125**                                   | https://db\-engines\.com/en/system/Coveo
+ **oracle:coherence:126**                        | https://db\-engines\.com/en/system/Oracle\+Coherence
+ **tdengine:127**                               | https://db\-engines\.com/en/system/TDengine
+ **graphdb:128**                                | https://db\-engines\.com/en/system/GraphDB
+ **amazon:neptune:129**                          | https://db\-engines\.com/en/system/Amazon\+Neptune
+ **ims:130**                                     | https://db\-engines\.com/en/system/IMS
+ **monetdb:131**                                 | https://db\-engines\.com/en/system/MonetDB
+ **janusgraph:132**                              | https://db\-engines\.com/en/system/JanusGraph
+ **questdb:133**                                | https://db\-engines\.com/en/system/QuestDB
+ **amazon:cloudsearch:134**                      | https://db\-engines\.com/en/system/Amazon\+CloudSearch
+ **nebulagraph:135**                            | https://db\-engines\.com/en/system/NebulaGraph
+ **basex:136**                                   | https://db\-engines\.com/en/system/BaseX
+ **chroma:137**                                  | https://db\-engines\.com/en/system/Chroma
+ **amazon:documentdb:138**                       | https://db\-engines\.com/en/system/Amazon\+DocumentDB
+ **datomic:139**                                 | https://db\-engines\.com/en/system/Datomic
+ **empress:140**                                 | https://db\-engines\.com/en/system/Empress
+ **stardog:141**                                | https://db\-engines\.com/en/system/Stardog
+ **spatialite:142**                              | https://db\-engines\.com/en/system/SpatiaLite
+ **db4o:143**                                    | https://db\-engines\.com/en/system/Db4o
+ **tigergraph:144**                              | https://db\-engines\.com/en/system/TigerGraph
+ **oceanbase:145**                              | https://db\-engines\.com/en/system/OceanBase
+ **griddb:146**                                 | https://db\-engines\.com/en/system/GridDB
+ **jbase:147**                                   | https://db\-engines\.com/en/system/jBASE
+ **gridgain:148**                                | https://db\-engines\.com/en/system/GridGain
+ **opentsdb:149**                                | https://db\-engines\.com/en/system/OpenTSDB
+ **tibero:150**                                  | https://db\-engines\.com/en/system/Tibero
+ **firebolt:151**                                | https://db\-engines\.com/en/system/Firebolt
+ **voltdb:152**                                  | https://db\-engines\.com/en/system/VoltDB
+ **sqlbase:153**                                 | https://db\-engines\.com/en/system/SQLBase
+ **objectstore:154**                             | https://db\-engines\.com/en/system/ObjectStore
+ **mnesia:155**                                  | https://db\-engines\.com/en/system/Mnesia
+ **timesten:156**                                | https://db\-engines\.com/en/system/TimesTen
+ **gt\.m:157**                                   | https://db\-engines\.com/en/system/GT\.M
+ **actian:nosql:database:158**                   | https://db\-engines\.com/en/system/Actian\+NoSQL\+Database
+ **dgraph:159**                                  | https://db\-engines\.com/en/system/Dgraph
+ **ibm:db2:warehouse:160**                       | https://db\-engines\.com/en/system/IBM\+Db2\+warehouse
+ **tarantool:161**                               | https://db\-engines\.com/en/system/Tarantool
+ **matisse:162**                                 | https://db\-engines\.com/en/system/Matisse
+ **sedna:163**                                   | https://db\-engines\.com/en/system/Sedna
+ **planetscale:164**                            | https://db\-engines\.com/en/system/PlanetScale
+ **litedb:165**                                  | https://db\-engines\.com/en/system/LiteDB
+ **fauna:166**                                   | https://db\-engines\.com/en/system/Fauna
+ **dataease:167**                                | https://db\-engines\.com/en/system/DataEase
+ **giraph:168**                                  | https://db\-engines\.com/en/system/Giraph
+ **infobright:169**                              | https://db\-engines\.com/en/system/Infobright
+ **weaviate:170**                               | https://db\-engines\.com/en/system/Weaviate
+ **msql:171**                                    | https://db\-engines\.com/en/system/mSQL
+ **nonstop:sql:172**                             | https://db\-engines\.com/en/system/NonStop\+SQL
+ **perst:173**                                   | https://db\-engines\.com/en/system/Perst
+ **oracle:rdb:174**                              | https://db\-engines\.com/en/system/Oracle\+Rdb
+ **gigaspaces:175**                              | https://db\-engines\.com/en/system/GigaSpaces
+ **apache:kylin:176**                            | https://db\-engines\.com/en/system/Apache\+Kylin
+ **objectbox:177**                               | https://db\-engines\.com/en/system/ObjectBox
+ **zodb:178**                                    | https://db\-engines\.com/en/system/ZODB
+ **datameer:179**                                | https://db\-engines\.com/en/system/Datameer
+ **gbase:180**                                   | https://db\-engines\.com/en/system/GBase
+ **apache:hawq:181**                             | https://db\-engines\.com/en/system/Apache\+HAWQ
+ **matrixone:182**                               | https://db\-engines\.com/en/system/MatrixOne
+ **foundationdb:183**                            | https://db\-engines\.com/en/system/FoundationDB
+ **altibase:184**                                | https://db\-engines\.com/en/system/Altibase
+ **dolt:185**                                    | https://db\-engines\.com/en/system/Dolt
+ **northgate:reality:186**                       | https://db\-engines\.com/en/system/Northgate\+Reality
+ **ncache:187**                                 | https://db\-engines\.com/en/system/NCache
+ **milvus:188**                                 | https://db\-engines\.com/en/system/Milvus
+ **victoriametrics:189**                        | https://db\-engines\.com/en/system/VictoriaMetrics
+ **cubrid:190**                                  | https://db\-engines\.com/en/system/Cubrid
+ **1010data:191**                                | https://db\-engines\.com/en/system/1010data
+ **model:204:192**                               | https://db\-engines\.com/en/system/Model\+204
+ **opengauss:193**                               | https://db\-engines\.com/en/system/openGauss
+ **d3:194**                                      | https://db\-engines\.com/en/system/D3
+ **hfsql:195**                                   | https://db\-engines\.com/en/system/HFSQL
+ **sql\.js:196**                                 | https://db\-engines\.com/en/system/SQL\.JS
+ **meilisearch:197**                             | https://db\-engines\.com/en/system/Meilisearch
+ **eventstoredb:198**                            | https://db\-engines\.com/en/system/EventStoreDB
+ **idms:199**                                    | https://db\-engines\.com/en/system/IDMS
+ **actian:vector:200**                           | https://db\-engines\.com/en/system/Actian\+Vector
+ **hibari:201**                                  | https://db\-engines\.com/en/system/Hibari
+ **nuodb:202**                                   | https://db\-engines\.com/en/system/NuoDB
+ **xapian:203**                                  | https://db\-engines\.com/en/system/Xapian
+ **hpe:ezmeral:data:fabric:204**                 | https://db\-engines\.com/en/system/HPE\+Ezmeral\+Data\+Fabric
+ **dbisam:205**                                  | https://db\-engines\.com/en/system/DBISAM
+ **soliddb:206**                                 | https://db\-engines\.com/en/system/solidDB
+ **vitess:207**                                 | https://db\-engines\.com/en/system/Vitess
+ **websphere:extreme:scale:208**                 | https://db\-engines\.com/en/system/WebSphere\+eXtreme\+Scale
+ **tdsql:for:mysql:209**                        | https://db\-engines\.com/en/system/TDSQL\+for\+MySQL
+ **allegrograph:210**                           | https://db\-engines\.com/en/system/AllegroGraph
+ **openbase:211**                                | https://db\-engines\.com/en/system/OpenBase
+ **amazon:timestream:212**                       | https://db\-engines\.com/en/system/Amazon\+Timestream
+ **bigchaindb:213**                              | https://db\-engines\.com/en/system/BigchainDB
+ **m3db:214**                                   | https://db\-engines\.com/en/system/M3DB
+ **nexusdb:215**                                 | https://db\-engines\.com/en/system/NexusDB
+ **objectdb:216**                                | https://db\-engines\.com/en/system/ObjectDB
+ **mapdb:217**                                   | https://db\-engines\.com/en/system/MapDB
+ **amazon:keyspaces:218**                        | https://db\-engines\.com/en/system/Amazon\+Keyspaces
+ **starrocks:219**                              | https://db\-engines\.com/en/system/StarRocks
+ **kognitio:220**                                | https://db\-engines\.com/en/system/Kognitio
+ **blazegraph:221**                              | https://db\-engines\.com/en/system/Blazegraph
+ **typedb:222**                                 | https://db\-engines\.com/en/system/TypeDB
+ **extremedb:223**                              | https://db\-engines\.com/en/system/eXtremeDB
+ **geomesa:224**                                 | https://db\-engines\.com/en/system/GeoMesa
+ **rdf4j:225**                                   | https://db\-engines\.com/en/system/RDF4J
+ **datacom/db:226**                              | https://db\-engines\.com/en/system/Datacom%2FDB
+ **scidb:227**                                   | https://db\-engines\.com/en/system/SciDB
+ **scalearc:228**                                | https://db\-engines\.com/en/system/ScaleArc
+ **exist:db:229**                                | https://db\-engines\.com/en/system/eXist\-db
+ **apache:iotdb:230**                            | https://db\-engines\.com/en/system/Apache\+IoTDB
+ **kairosdb:231**                                | https://db\-engines\.com/en/system/KairosDB
+ **openinsight:232**                             | https://db\-engines\.com/en/system/OpenInsight
+ **atoti:233**                                   | https://db\-engines\.com/en/system/atoti
+ **scalaris:234**                                | https://db\-engines\.com/en/system/Scalaris
+ **splice:machine:235**                          | https://db\-engines\.com/en/system/Splice\+Machine
+ **heroic:236**                                  | https://db\-engines\.com/en/system/Heroic
+ **kinetica:237**                                | https://db\-engines\.com/en/system/Kinetica
+ **surrealdb:238**                               | https://db\-engines\.com/en/system/SurrealDB
+ **yellowbrick:239**                             | https://db\-engines\.com/en/system/Yellowbrick
+ **alibaba:cloud:maxcompute:240**                | https://db\-engines\.com/en/system/Alibaba\+Cloud\+MaxCompute
+ **vald:241**                                    | https://db\-engines\.com/en/system/Vald
+ **vistadb:242**                                 | https://db\-engines\.com/en/system/VistaDB
+ **frontbase:243**                               | https://db\-engines\.com/en/system/FrontBase
+ **boltdb:244**                                  | https://db\-engines\.com/en/system/BoltDB
+ **qdrant:245**                                  | https://db\-engines\.com/en/system/Qdrant
+ **gemstone/s:246**                              | https://db\-engines\.com/en/system/GemStone%2FS
+ **lokijs:247**                                  | https://db\-engines\.com/en/system/LokiJS
+ **cratedb:248**                                | https://db\-engines\.com/en/system/CrateDB
+ **sqream:db:249**                              | https://db\-engines\.com/en/system/SQream\+DB
+ **alasql:250**                                  | https://db\-engines\.com/en/system/AlaSQL
+ **rockset:251**                                 | https://db\-engines\.com/en/system/Rockset
+ **alibaba:cloud:analyticdb:for:mysql:252**     | https://db\-engines\.com/en/system/Alibaba\+Cloud\+AnalyticDB\+for\+MySQL
+ **graph:engine:253**                            | https://db\-engines\.com/en/system/Graph\+Engine
+ **objectivity/db:254**                          | https://db\-engines\.com/en/system/Objectivity%2FDB
+ **typesense:255**                               | https://db\-engines\.com/en/system/Typesense
+ **modeshape:256**                               | https://db\-engines\.com/en/system/ModeShape
+ **keydb:257**                                   | https://db\-engines\.com/en/system/KeyDB
+ **apache:pinot:258**                            | https://db\-engines\.com/en/system/Apache\+Pinot
+ **apache:doris:259**                            | https://db\-engines\.com/en/system/Apache\+Doris
+ **postgres:xl:260**                             | https://db\-engines\.com/en/system/Postgres\-XL
+ **trafodion:261**                               | https://db\-engines\.com/en/system/Trafodion
+ **r:base:262**                                  | https://db\-engines\.com/en/system/R%3ABASE
+ **4store:263**                                  | https://db\-engines\.com/en/system/4store
+ **redland:264**                                 | https://db\-engines\.com/en/system/Redland
+ **ittia:265**                                   | https://db\-engines\.com/en/system/ITTIA
+ **jade:266**                                    | https://db\-engines\.com/en/system/Jade
+ **searchblox:267**                              | https://db\-engines\.com/en/system/SearchBlox
+ **strabon:268**                                 | https://db\-engines\.com/en/system/Strabon
+ **starcounter:269**                             | https://db\-engines\.com/en/system/Starcounter
+ **harperdb:270**                                | https://db\-engines\.com/en/system/HarperDB
+ **kingbase:271**                                | https://db\-engines\.com/en/system/Kingbase
+ **infinitegraph:272**                           | https://db\-engines\.com/en/system/InfiniteGraph
+ **percona:server:for:mongodb:273**              | https://db\-engines\.com/en/system/Percona\+Server\+for\+MongoDB
+ **openqm:274**                                  | https://db\-engines\.com/en/system/OpenQM
+ **rasdaman:275**                                | https://db\-engines\.com/en/system/Rasdaman
+ **lovefield:276**                               | https://db\-engines\.com/en/system/Lovefield
+ **raima:database:manager:277**                 | https://db\-engines\.com/en/system/Raima\+Database\+Manager
+ **sequoiadb:278**                               | https://db\-engines\.com/en/system/Sequoiadb
+ **tajo:279**                                    | https://db\-engines\.com/en/system/Tajo
+ **alibaba:cloud:analyticdb:for:postgresql:280** | https://db\-engines\.com/en/system/Alibaba\+Cloud\+AnalyticDB\+for\+PostgreSQL
+ **kyligence:enterprise:281**                    | https://db\-engines\.com/en/system/Kyligence\+Enterprise
+ **actian:fastobjects:282**                      | https://db\-engines\.com/en/system/Actian\+FastObjects
+ **mimer:sql:283**                               | https://db\-engines\.com/en/system/Mimer\+SQL
+ **fluree:284**                                  | https://db\-engines\.com/en/system/Fluree
+ **elliptics:285**                               | https://db\-engines\.com/en/system/Elliptics
+ **hypergraphdb:286**                            | https://db\-engines\.com/en/system/HyperGraphDB
+ **databend:287**                                | https://db\-engines\.com/en/system/Databend
+ **project:voldemort:288**                       | https://db\-engines\.com/en/system/Project\+Voldemort
+ **elassandra:289**                              | https://db\-engines\.com/en/system/Elassandra
+ **marqo:290**                                   | https://db\-engines\.com/en/system/Marqo
+ **transbase:291**                               | https://db\-engines\.com/en/system/Transbase
+ **vespa:292**                                   | https://db\-engines\.com/en/system/Vespa
+ **comdb2:293**                                  | https://db\-engines\.com/en/system/Comdb2
+ **ejdb:294**                                    | https://db\-engines\.com/en/system/EJDB
+ **brytlyt:295**                                 | https://db\-engines\.com/en/system/Brytlyt
+ **flockdb:296**                                 | https://db\-engines\.com/en/system/FlockDB
+ **deep:lake:297**                               | https://db\-engines\.com/en/system/Deep\+Lake
+ **tokyo:tyrant:298**                            | https://db\-engines\.com/en/system/Tokyo\+Tyrant
+ **ydb:299**                                     | https://db\-engines\.com/en/system/YDB
+ **redstore:300**                                | https://db\-engines\.com/en/system/RedStore
+ **mulgara:301**                                 | https://db\-engines\.com/en/system/Mulgara
+ **alibaba:cloud:apsaradb:for:polardb:302**     | https://db\-engines\.com/en/system/Alibaba\+Cloud\+ApsaraDB\+for\+PolarDB
+ **elevatedb:303**                               | https://db\-engines\.com/en/system/ElevateDB
+ **axibase:304**                                 | https://db\-engines\.com/en/system/Axibase
+ **pipelinedb:305**                              | https://db\-engines\.com/en/system/PipelineDB
+ **translattice:306**                            | https://db\-engines\.com/en/system/TransLattice
+ **cnosdb:307**                                  | https://db\-engines\.com/en/system/CnosDB
+ **leanxcale:308**                               | https://db\-engines\.com/en/system/LeanXcale
+ **anzograph:db:309**                            | https://db\-engines\.com/en/system/AnzoGraph\+DB
+ **alibaba:cloud:log:service:310**              | https://db\-engines\.com/en/system/Alibaba\+Cloud\+Log\+Service
+ **antdb:311**                                  | https://db\-engines\.com/en/system/AntDB
+ **:312**                                        | https://db\-engines\.com/en/blog\_post/105
+ **bangdb:313**                                  | https://db\-engines\.com/en/system/Bangdb
+ **cubicweb:314**                                | https://db\-engines\.com/en/system/CubicWeb
+ **cloudflare:workers:kv:315**                   | https://db\-engines\.com/en/system/Cloudflare\+Workers\+KV
+ **riak:ts:316**                                 | https://db\-engines\.com/en/system/Riak\+TS
+ **featurebase:317**                             | https://db\-engines\.com/en/system/FeatureBase
+ **actian:psql:318**                             | https://db\-engines\.com/en/system/Actian\+PSQL
+ **xtremedata:319**                              | https://db\-engines\.com/en/system/XtremeData
+ **immudb:320**                                  | https://db\-engines\.com/en/system/Immudb
+ **machbase:neo:321**                            | https://db\-engines\.com/en/system/Machbase\+Neo
+ **tomp2p:322**                                  | https://db\-engines\.com/en/system/TomP2P
+ **brightstardb:323**                            | https://db\-engines\.com/en/system/BrightstarDB
+ **linter:324**                                  | https://db\-engines\.com/en/system/Linter
+ **terminusdb:325**                              | https://db\-engines\.com/en/system/TerminusDB
+ **rdfox:326**                                   | https://db\-engines\.com/en/system/RDFox
+ **eloquera:327**                                | https://db\-engines\.com/en/system/Eloquera
+ **hugegraph:328**                               | https://db\-engines\.com/en/system/HugeGraph
+ **upscaledb:329**                               | https://db\-engines\.com/en/system/Upscaledb
+ **valentina:server:330**                        | https://db\-engines\.com/en/system/Valentina\+Server
+ **stsdb:331**                                   | https://db\-engines\.com/en/system/STSdb
+ **sparksee:332**                                | https://db\-engines\.com/en/system/Sparksee
+ **neventstore:333**                             | https://db\-engines\.com/en/system/NEventStore
+ **speedb:334**                                 | https://db\-engines\.com/en/system/Speedb
+ **tinkergraph:335**                             | https://db\-engines\.com/en/system/TinkerGraph
+ **tibco:computedb:336**                         | https://db\-engines\.com/en/system/Tibco\+ComputeDB
+ **manticore:search:337**                        | https://db\-engines\.com/en/system/Manticore\+Search
+ **pieclouddb:338**                              | https://db\-engines\.com/en/system/PieCloudDB
+ **geospock:339**                                | https://db\-engines\.com/en/system/GeoSpock
+ **skytable:340**                                | https://db\-engines\.com/en/system/Skytable
+ **alibaba:cloud:table:store:341**               | https://db\-engines\.com/en/system/Alibaba\+Cloud\+Table\+Store
+ **dydra:342**                                   | https://db\-engines\.com/en/system/Dydra
+ **faircom:db:343**                             | https://db\-engines\.com/en/system/Faircom\+DB
+ **myscale:344**                                 | https://db\-engines\.com/en/system/MyScale
+ **bigobject:345**                               | https://db\-engines\.com/en/system/BigObject
+ **graphbase:346**                               | https://db\-engines\.com/en/system/GraphBase
+ **tigris:347**                                 | https://db\-engines\.com/en/system/Tigris
+ **fujitsu:enterprise:postgres:348**            | https://db\-engines\.com/en/system/Fujitsu\+Enterprise\+Postgres
+ **irondb:349**                                  | https://db\-engines\.com/en/system/IRONdb
+ **ultipa:350**                                  | https://db\-engines\.com/en/system/Ultipa
+ **exorbyte:351**                                | https://db\-engines\.com/en/system/Exorbyte
+ **arcadedb:352**                                | https://db\-engines\.com/en/system/ArcadeDB
+ **xtdb:353**                                    | https://db\-engines\.com/en/system/XTDB
+ **siaqodb:354**                                 | https://db\-engines\.com/en/system/Siaqodb
+ **h2gis:355**                                   | https://db\-engines\.com/en/system/H2GIS
+ **raptordb:356**                                | https://db\-engines\.com/en/system/RaptorDB
+ **quasardb:357**                                | https://db\-engines\.com/en/system/Quasardb
+ **greptimedb:358**                             | https://db\-engines\.com/en/system/GreptimeDB
+ **senseidb:359**                                | https://db\-engines\.com/en/system/SenseiDB
+ **blueflood:360**                               | https://db\-engines\.com/en/system/Blueflood
+ **badger:361**                                  | https://db\-engines\.com/en/system/Badger
+ **jethrodata:362**                              | https://db\-engines\.com/en/system/JethroData
+ **esgyndb:363**                                 | https://db\-engines\.com/en/system/EsgynDB
+ **transwarp:kundb:364**                         | https://db\-engines\.com/en/system/Transwarp\+KunDB
+ **ibm:db2:event:store:365**                     | https://db\-engines\.com/en/system/IBM\+Db2\+Event\+Store
+ **alibaba:cloud:tsdb:366**                      | https://db\-engines\.com/en/system/Alibaba\+Cloud\+TSDB
+ **kyoto:tycoon:367**                            | https://db\-engines\.com/en/system/Kyoto\+Tycoon
+ **hawkular:metrics:368**                        | https://db\-engines\.com/en/system/Hawkular\+Metrics
+ **sitewhere:369**                               | https://db\-engines\.com/en/system/SiteWhere
+ **actordb:370**                                 | https://db\-engines\.com/en/system/ActorDB
+ **hyperleveldb:371**                            | https://db\-engines\.com/en/system/HyperLevelDB
+ **iboxdb:372**                                  | https://db\-engines\.com/en/system/iBoxDB
+ **whitedb:373**                                 | https://db\-engines\.com/en/system/WhiteDB
+ **dragonfly:374**                               | https://db\-engines\.com/en/system/Dragonfly
+ **infinitydb:375**                              | https://db\-engines\.com/en/system/InfinityDB
+ **ytsaurus:376**                                | https://db\-engines\.com/en/system/YTsaurus
+ **velocitydb:377**                              | https://db\-engines\.com/en/system/VelocityDB
+ **acebase:378**                                 | https://db\-engines\.com/en/system/Acebase
+ **edge:intelligence:379**                       | https://db\-engines\.com/en/system/Edge\+Intelligence
+ **origodb:380**                                 | https://db\-engines\.com/en/system/OrigoDB
+ **oushudb:381**                                 | https://db\-engines\.com/en/system/OushuDB
+ **indica:382**                                  | https://db\-engines\.com/en/system/Indica
+ **torodb:383**                                  | https://db\-engines\.com/en/system/ToroDB
+ **ledisdb:384**                                 | https://db\-engines\.com/en/system/LedisDB
+ **nosdb:385**                                   | https://db\-engines\.com/en/system/NosDB
+ **siridb:386**                                  | https://db\-engines\.com/en/system/SiriDB
+ **terarkdb:387**                                | https://db\-engines\.com/en/system/TerarkDB
+ **nsdb:388**                                    | https://db\-engines\.com/en/system/NSDb
+ **agensgraph:389**                              | https://db\-engines\.com/en/system/AgensGraph
+ **datafs:390**                                  | https://db\-engines\.com/en/system/DataFS
+ **cachelot\.io:391**                            | https://db\-engines\.com/en/system/Cachelot\.io
+ **transwarp:argodb:392**                        | https://db\-engines\.com/en/system/Transwarp\+ArgoDB
+ **warp:10:393**                                 | https://db\-engines\.com/en/system/Warp\+10
+ **gstore:394**                                  | https://db\-engines\.com/en/system/gStore
+ **smallsql:395**                                | https://db\-engines\.com/en/system/SmallSQL
+ **scaleout:stateserver:396**                    | https://db\-engines\.com/en/system/ScaleOut\+StateServer
+ **sparkledb:397**                               | https://db\-engines\.com/en/system/SparkleDB
+ **jaguardb:398**                                | https://db\-engines\.com/en/system/JaguarDB
+ **resin:cache:399**                             | https://db\-engines\.com/en/system/Resin\+Cache
+ **wakandadb:400**                               | https://db\-engines\.com/en/system/WakandaDB
+ **swc:db:401**                                  | https://db\-engines\.com/en/system/SWC\-DB
+ **faircom:edge:402**                            | https://db\-engines\.com/en/system/Faircom\+EDGE
+ **swaydb:403**                                  | https://db\-engines\.com/en/system/SwayDB
+ **bergdb:404**                                  | https://db\-engines\.com/en/system/BergDB
+ **cortexdb:405**                                | https://db\-engines\.com/en/system/CortexDB
+ **covenantsql:406**                             | https://db\-engines\.com/en/system/CovenantSQL
+ **daggerdb:407**                                | https://db\-engines\.com/en/system/DaggerDB
+ **edgelessdb:408**                              | https://db\-engines\.com/en/system/EdgelessDB
+ **galaxybase:409**                              | https://db\-engines\.com/en/system/Galaxybase
+ **helium:410**                                  | https://db\-engines\.com/en/system/Helium
+ **hgraphdb:411**                                | https://db\-engines\.com/en/system/HGraphDB
+ **jasdb:412**                                   | https://db\-engines\.com/en/system/JasDB
+ **k:db:413**                                    | https://db\-engines\.com/en/system/K\-DB
+ **newts:414**                                   | https://db\-engines\.com/en/system/Newts
+ **rizhiyi:415**                                 | https://db\-engines\.com/en/system/Rizhiyi
+ **sadas:engine:416**                            | https://db\-engines\.com/en/system/Sadas\+Engine
+ **searchxml:417**                               | https://db\-engines\.com/en/system/searchxml
+ **spacetime:418**                               | https://db\-engines\.com/en/system/SpaceTime
+ **tkrzw:419**                                   | https://db\-engines\.com/en/system/Tkrzw
+ **transwarp:hippo:420**                         | https://db\-engines\.com/en/system/Transwarp\+Hippo
+ **transwarp:stellardb:421**                     | https://db\-engines\.com/en/system/Transwarp\+StellarDB
+ **yanza:422**                                   | https://db\-engines\.com/en/system/Yanza
+
+
+
+
  **operating:system:0**                                                                                   | **https://en\.wikipedia\.org/wiki/Operating\_system**
 ----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------
- **edit:section::proprietary:1**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=1
- **edit:section::acorn:computers:2**                                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=2
+ **edit:section:proprietary:1**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=1
+ **edit:section:acorn:computers:2**                                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=2
  **arthur:\(operating:system\):3**                                                                        | https://en\.wikipedia\.org/wiki/Arthur\_\(operating\_system\)
  **arx:\(operating:system\):4**                                                                           | https://en\.wikipedia\.org/wiki/ARX\_\(operating\_system\)
  **acorn:mos:5**                                                                                          | https://en\.wikipedia\.org/wiki/Acorn\_MOS
  **risc:ix:6**                                                                                            | https://en\.wikipedia\.org/wiki/RISC\_iX
  **risc:os:7**                                                                                            | https://en\.wikipedia\.org/wiki/RISC\_OS
- **edit:section::amazon:8**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=3
+ **edit:section:amazon:8**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=3
  **fire:os:9**                                                                                            | https://en\.wikipedia\.org/wiki/Fire\_OS
- **edit:section::amiga:inc\.:10**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=4
+ **edit:section:amiga:inc\.:10**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=4
  **amigaos:11**                                                                                           | https://en\.wikipedia\.org/wiki/AmigaOS
  **amigaos:versions:12**                                                                                  | https://en\.wikipedia\.org/wiki/AmigaOS\_versions
  **amigaos:4:13**                                                                                         | https://en\.wikipedia\.org/wiki/AmigaOS\_4
  **amiga:unix:14**                                                                                        | https://en\.wikipedia\.org/wiki/Amiga\_Unix
- **edit:section::amstrad:15**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=5
+ **edit:section:amstrad:15**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=5
  **amsdos:16**                                                                                            | https://en\.wikipedia\.org/wiki/AMSDOS
  **contiki:17**                                                                                           | https://en\.wikipedia\.org/wiki/Contiki
  **cp/m:2\.2:18**                                                                                         | https://en\.wikipedia\.org/wiki/CP/M\_2\.2
  **cp/m:plus:19**                                                                                         | https://en\.wikipedia\.org/wiki/CP/M\_Plus
  **symbos:20**                                                                                            | https://en\.wikipedia\.org/wiki/SymbOS
- **edit:section::apple:inc\.:21**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=6
+ **edit:section:apple:inc\.:21**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=6
  **apple:ii:series:22**                                                                                   | https://en\.wikipedia\.org/wiki/Apple\_II\_series
  **apple:dos:23**                                                                                         | https://en\.wikipedia\.org/wiki/Apple\_DOS
  **apple:pascal:24**                                                                                      | https://en\.wikipedia\.org/wiki/Apple\_Pascal
@@ -239,25 +667,25 @@ Sumon
  **netbsd:62**                                                                                            | https://en\.wikipedia\.org/wiki/NetBSD
  **airport:extreme:63**                                                                                   | https://en\.wikipedia\.org/wiki/Airport\_Extreme
  **time:capsule:\(apple\):64**                                                                            | https://en\.wikipedia\.org/wiki/Time\_Capsule\_\(Apple\)
- **edit:section::apollo:computer,:hewlett:packard:65**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=7
+ **edit:section:apollo:computer,:hewlett:packard:65**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=7
  **domain/os:66**                                                                                         | https://en\.wikipedia\.org/wiki/Domain/OS
  **apollo/domain:67**                                                                                     | https://en\.wikipedia\.org/wiki/Apollo/Domain
  **hewlett:packard:68**                                                                                   | https://en\.wikipedia\.org/wiki/Hewlett\-Packard
- **edit:section::atari:69**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=8
+ **edit:section:atari:69**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=8
  **atari:dos:70**                                                                                         | https://en\.wikipedia\.org/wiki/Atari\_DOS
  **atari:tos:71**                                                                                         | https://en\.wikipedia\.org/wiki/Atari\_TOS
  **multitos:72**                                                                                          | https://en\.wikipedia\.org/wiki/MultiTOS
  **contiki:73**                                                                                           | https://en\.wikipedia\.org/wiki/Contiki
- **edit:section::bae:systems:74**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=9
+ **edit:section:bae:systems:74**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=9
  **xts:400:75**                                                                                           | https://en\.wikipedia\.org/wiki/XTS\-400
- **edit:section::be:inc\.:76**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=10
+ **edit:section:be:inc\.:76**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=10
  **beos:77**                                                                                              | https://en\.wikipedia\.org/wiki/BeOS
  **beia:78**                                                                                              | https://en\.wikipedia\.org/wiki/BeIA
  **dano:\(beos\):79**                                                                                     | https://en\.wikipedia\.org/wiki/Dano\_\(BeOS\)
  **magnussoft:zeta:80**                                                                                   | https://en\.wikipedia\.org/wiki/Magnussoft\_ZETA
  **dano:\(beos\):81**                                                                                     | https://en\.wikipedia\.org/wiki/Dano\_\(BeOS\)
  **yellowtab:82**                                                                                         | https://en\.wikipedia\.org/wiki/YellowTAB
- **edit:section::bell:labs:83**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=11
+ **edit:section:bell:labs:83**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=11
  **unix:84**                                                                                              | https://en\.wikipedia\.org/wiki/Unix
  **ken:thompson:85**                                                                                      | https://en\.wikipedia\.org/wiki/Ken\_Thompson
  **list:of:unix:systems:86**                                                                              | https://en\.wikipedia\.org/wiki/List\_of\_Unix\_systems
@@ -273,21 +701,21 @@ Sumon
  **besys:96**                                                                                             | https://en\.wikipedia\.org/wiki/BESYS
  **plan:9:from:bell:labs:97**                                                                             | https://en\.wikipedia\.org/wiki/Plan\_9\_from\_Bell\_Labs
  **inferno:\(operating:system\):98**                                                                      | https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
- **edit:section::burroughs:corporation,:unisys:99**                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=12
+ **edit:section:burroughs:corporation,:unisys:99**                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=12
  **burroughs:mcp:100**                                                                                    | https://en\.wikipedia\.org/wiki/Burroughs\_MCP
- **edit:section::commodore:international:101**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=13
+ **edit:section:commodore:international:101**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=13
  **geos:\(8:bit:operating:system\):102**                                                                  | https://en\.wikipedia\.org/wiki/GEOS\_\(8\-bit\_operating\_system\)
  **amigaos:103**                                                                                          | https://en\.wikipedia\.org/wiki/AmigaOS
  **aros:research:operating:system:104**                                                                   | https://en\.wikipedia\.org/wiki/AROS\_Research\_Operating\_System
- **edit:section::control:data:corporation:105**                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=14
- **edit:section::lower:3000:series:106**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=15
+ **edit:section:control:data:corporation:105**                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=14
+ **edit:section:lower:3000:series:106**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=15
  **cdc:scope:107**                                                                                        | https://en\.wikipedia\.org/wiki/CDC\_SCOPE
  **:108**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-1
- **edit:section::upper:3000:series:109**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=16
+ **edit:section:upper:3000:series:109**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=16
  **cdc:scope:110**                                                                                        | https://en\.wikipedia\.org/wiki/CDC\_SCOPE
  **:111**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-2
  **:112**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-3
- **edit:section::6x00:and:related:cyber:113**                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=17
+ **edit:section:6x00:and:related:cyber:113**                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=17
  **chippewa:operating:system:114**                                                                        | https://en\.wikipedia\.org/wiki/Chippewa\_Operating\_System
  **:115**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-4
  **cdc:kronos:116**                                                                                       | https://en\.wikipedia\.org/wiki/CDC\_Kronos
@@ -299,12 +727,12 @@ Sumon
  **:122**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-8
  **:123**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-9
  **:124**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-10
- **edit:section::cloudmosa:125**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=18
+ **edit:section:cloudmosa:125**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=18
  **puffin:os:\(page:does:not:exist\):126**                                                                | https://en\.wikipedia\.org/w/index\.php?title=Puffin\_OS&action=edit&redlink=1
- **edit:section::convergent:technologies:127**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=19
+ **edit:section:convergent:technologies:127**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=19
  **convergent:technologies:operating:system:128**                                                         | https://en\.wikipedia\.org/wiki/Convergent\_Technologies\_Operating\_System
  **unisys:129**                                                                                           | https://en\.wikipedia\.org/wiki/Unisys
- **edit:section::cromemco:130**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=20
+ **edit:section:cromemco:130**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=20
  **cromemco:dos:131**                                                                                     | https://en\.wikipedia\.org/wiki/Cromemco\_DOS
  **cp/m:132**                                                                                             | https://en\.wikipedia\.org/wiki/CP/M
  **cromix:133**                                                                                           | https://en\.wikipedia\.org/wiki/Cromix
@@ -312,7 +740,7 @@ Sumon
  **cromemco:135**                                                                                         | https://en\.wikipedia\.org/wiki/Cromemco
  **zilog:z80:136**                                                                                        | https://en\.wikipedia\.org/wiki/Zilog\_Z80
  **motorola:68000:137**                                                                                   | https://en\.wikipedia\.org/wiki/Motorola\_68000
- **edit:section::data:general:138**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=21
+ **edit:section:data:general:138**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=21
  **data:general:aos:139**                                                                                 | https://en\.wikipedia\.org/wiki/Data\_General\_AOS
  **data:general:eclipse:140**                                                                             | https://en\.wikipedia\.org/wiki/Data\_General\_Eclipse
  **data:general:aos:141**                                                                                 | https://en\.wikipedia\.org/wiki/Data\_General\_AOS
@@ -320,14 +748,14 @@ Sumon
  **data:general:rdos:143**                                                                                | https://en\.wikipedia\.org/wiki/Data\_General\_RDOS
  **pc:dos:144**                                                                                           | https://en\.wikipedia\.org/wiki/PC\_DOS
  **ms:dos:145**                                                                                           | https://en\.wikipedia\.org/wiki/MS\-DOS
- **edit:section::datapoint:146**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=22
+ **edit:section:datapoint:146**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=22
  **datapoint:2200:147**                                                                                   | https://en\.wikipedia\.org/wiki/Datapoint\_2200
  **:148**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-11
  **:149**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-12
- **edit:section::ddc:i,:inc\.:150**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=23
+ **edit:section:ddc:i,:inc\.:150**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=23
  **deos:151**                                                                                             | https://en\.wikipedia\.org/wiki/Deos
  **heartos:152**                                                                                          | https://en\.wikipedia\.org/wiki/HeartOS
- **edit:section::digital:research,:inc\.:153**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=24
+ **edit:section:digital:research,:inc\.:153**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=24
  **cp/m:154**                                                                                             | https://en\.wikipedia\.org/wiki/CP/M
  **cp/m:155**                                                                                             | https://en\.wikipedia\.org/wiki/CP/M
  **intel:8080:156**                                                                                       | https://en\.wikipedia\.org/wiki/Intel\_8080
@@ -387,7 +815,7 @@ Sumon
  **novell:dos:210**                                                                                       | https://en\.wikipedia\.org/wiki/Novell\_DOS
  **opendos:211**                                                                                          | https://en\.wikipedia\.org/wiki/OpenDOS
  **dr:dos:212**                                                                                           | https://en\.wikipedia\.org/wiki/DR\-DOS
- **edit:section::digital:equipment:corporation,:compaq,:hewlett:packard,:hewlett:packard:enterprise:213** | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=25
+ **edit:section:digital:equipment:corporation,:compaq,:hewlett:packard,:hewlett:packard:enterprise:213** | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=25
  **dec:batch:11/dos\-11:214**                                                                             | https://en\.wikipedia\.org/wiki/DEC\_BATCH\-11/DOS\-11
  **os/8:215**                                                                                             | https://en\.wikipedia\.org/wiki/OS/8
  **rsts/e:216**                                                                                           | https://en\.wikipedia\.org/wiki/RSTS/E
@@ -411,18 +839,18 @@ Sumon
  **itanium:234**                                                                                          | https://en\.wikipedia\.org/wiki/Itanium
  **x86:64:235**                                                                                           | https://en\.wikipedia\.org/wiki/X86\-64
  **waits:236**                                                                                            | https://en\.wikipedia\.org/wiki/WAITS
- **edit:section::enea:ab:237**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=26
+ **edit:section:enea:ab:237**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=26
  **operating:system:embedded:238**                                                                        | https://en\.wikipedia\.org/wiki/Operating\_System\_Embedded
- **edit:section::fujitsu:239**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=27
+ **edit:section:fujitsu:239**                                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=27
  **towns:os:240**                                                                                         | https://en\.wikipedia\.org/wiki/Towns\_OS
  **os/iv:\(page:does:not:exist\):241**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=OS/IV&action=edit&redlink=1
  **msp:\(operating:system\):242**                                                                         | https://en\.wikipedia\.org/wiki/MSP\_\(operating\_system\)
  **msp:ex:\(page:does:not:exist\):243**                                                                   | https://en\.wikipedia\.org/w/index\.php?title=MSP\-EX&action=edit&redlink=1
- **edit:section::general:electric,:honeywell,:bull:244**                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=28
+ **edit:section:general:electric,:honeywell,:bull:244**                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=28
  **real:time:multiprogramming:operating:system:245**                                                      | https://en\.wikipedia\.org/wiki/Real\-Time\_Multiprogramming\_Operating\_System
  **general:comprehensive:operating:system:246**                                                           | https://en\.wikipedia\.org/wiki/General\_Comprehensive\_Operating\_System
  **multics:247**                                                                                          | https://en\.wikipedia\.org/wiki/Multics
- **edit:section::google:248**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=29
+ **edit:section:google:248**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=29
  **:249**                                                                                                 | https://en\.wikipedia\.org/wiki/File:Foldable\_smartphone\_\(Android\_OS\)\.jpg
  **android:\(operating:system\):250**                                                                     | https://en\.wikipedia\.org/wiki/Android\_\(operating\_system\)
  **samsung:galaxy:z:series:251**                                                                          | https://en\.wikipedia\.org/wiki/Samsung\_Galaxy\_Z\_series
@@ -447,33 +875,33 @@ Sumon
  **operating:system:270**                                                                                 | https://en\.wikipedia\.org/wiki/Operating\_system
  **smartwatch:271**                                                                                       | https://en\.wikipedia\.org/wiki/Smartwatch
  **wearable:computer:272**                                                                                | https://en\.wikipedia\.org/wiki/Wearable\_computer
- **edit:section::green:hills:software:273**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=30
+ **edit:section:green:hills:software:273**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=30
  **integrity:\(operating:system\):274**                                                                   | https://en\.wikipedia\.org/wiki/Integrity\_\(operating\_system\)
  **integrity:178b:275**                                                                                   | https://en\.wikipedia\.org/wiki/INTEGRITY\-178B
  **integrity:\(operating:system\):276**                                                                   | https://en\.wikipedia\.org/wiki/Integrity\_\(operating\_system\)
  **green:hills:software:277**                                                                             | https://en\.wikipedia\.org/wiki/Green\_Hills\_Software\#Real\-time\_operating\_systems
  **microkernel:278**                                                                                      | https://en\.wikipedia\.org/wiki/Microkernel
- **edit:section::harris:computer:systems:279**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=31
+ **edit:section:harris:computer:systems:279**                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=31
  **vulcan:o/s:\(page:does:not:exist\):280**                                                               | https://en\.wikipedia\.org/w/index\.php?title=Vulcan\_O/S&action=edit&redlink=1
  **harris:computer:systems:281**                                                                          | https://en\.wikipedia\.org/wiki/Harris\_Computer\_Systems
  **cx/ux:\(page:does:not:exist\):282**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=CX/UX&action=edit&redlink=1
- **edit:section::heathkit,:zenith:data:systems:283**                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=32
+ **edit:section:heathkit,:zenith:data:systems:283**                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=32
  **hdos:284**                                                                                             | https://en\.wikipedia\.org/wiki/HDOS
  **heathkit:h8:285**                                                                                      | https://en\.wikipedia\.org/wiki/Heathkit\_H8
  **zenith:z:89:286**                                                                                      | https://en\.wikipedia\.org/wiki/Zenith\_Z\-89
  **heathkit:h11:287**                                                                                     | https://en\.wikipedia\.org/wiki/Heathkit\_H11\#Specifications
  **rt:11:288**                                                                                            | https://en\.wikipedia\.org/wiki/RT\-11
  **heathkit:h11:289**                                                                                     | https://en\.wikipedia\.org/wiki/Heathkit\_H11
- **edit:section::hewlett:packard,:hewlett:packard:enterprise:290**                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=33
+ **edit:section:hewlett:packard,:hewlett:packard:enterprise:290**                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=33
  **hp:multi:programming:executive:291**                                                                   | https://en\.wikipedia\.org/wiki/HP\_Multi\-Programming\_Executive
  **hp:ux:292**                                                                                            | https://en\.wikipedia\.org/wiki/HP\-UX
- **edit:section::honeywell:293**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=34
+ **edit:section:honeywell:293**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=34
  **honeywell:cp:6:294**                                                                                   | https://en\.wikipedia\.org/wiki/Honeywell\_CP\-6
- **edit:section::huawei:295**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=35
+ **edit:section:huawei:295**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=35
  **harmonyos:296**                                                                                        | https://en\.wikipedia\.org/wiki/HarmonyOS
  **liteos:297**                                                                                           | https://en\.wikipedia\.org/wiki/LiteOS
  **euleros:298**                                                                                          | https://en\.wikipedia\.org/wiki/EulerOS
- **edit:section::intel:corporation:299**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=36
+ **edit:section:intel:corporation:299**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=36
  **rmx:\(operating:system\):300**                                                                         | https://en\.wikipedia\.org/wiki/RMX\_\(operating\_system\)
  **isis:\(operating:system\):301**                                                                        | https://en\.wikipedia\.org/wiki/ISIS\_\(operating\_system\)
  **isis:ii:302**                                                                                          | https://en\.wikipedia\.org/wiki/ISIS\-II
@@ -481,9 +909,9 @@ Sumon
  **pl/m:304**                                                                                             | https://en\.wikipedia\.org/wiki/PL/M
  **imax:432:305**                                                                                         | https://en\.wikipedia\.org/wiki/IMAX\_432
  **iapx:432:306**                                                                                         | https://en\.wikipedia\.org/wiki/IAPX\_432
- **edit:section::ibm:307**                                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=37
+ **edit:section:ibm:307**                                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=37
  **history:of:ibm:mainframe:operating:systems:308**                                                       | https://en\.wikipedia\.org/wiki/History\_of\_IBM\_mainframe\_operating\_systems
- **edit:section::on:early:mainframes::1410,:7010,:704,:709,:7090,:7094,:7040,:7044,:7030:309**            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=38
+ **edit:section:on:early:mainframes:1410,:7010,:704,:709,:7090,:7094,:7040,:7044,:7030:309**            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=38
  **besys:310**                                                                                            | https://en\.wikipedia\.org/wiki/BESYS
  **ibm:7090:311**                                                                                         | https://en\.wikipedia\.org/wiki/IBM\_7090
  **compatible:time:sharing:system:312**                                                                   | https://en\.wikipedia\.org/wiki/Compatible\_Time\-Sharing\_System
@@ -507,7 +935,7 @@ Sumon
  **ibm:704:330**                                                                                          | https://en\.wikipedia\.org/wiki/IBM\_704
  **ibm:709:331**                                                                                          | https://en\.wikipedia\.org/wiki/IBM\_709
  **ibm:7090:332**                                                                                         | https://en\.wikipedia\.org/wiki/IBM\_7090
- **edit:section::on:s/360,:s/370,:and:successor:mainframes:333**                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=39
+ **edit:section:on:s/360,:s/370,:and:successor:mainframes:333**                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=39
  **os/360:and:successors:334**                                                                            | https://en\.wikipedia\.org/wiki/OS/360\_and\_successors
  **os/360:335**                                                                                           | https://en\.wikipedia\.org/wiki/OS/360
  **system/360:336**                                                                                       | https://en\.wikipedia\.org/wiki/System/360
@@ -569,7 +997,7 @@ Sumon
  **mcgill:university:392**                                                                                | https://en\.wikipedia\.org/wiki/McGill\_University
  **orvyl:and:wylbur:393**                                                                                 | https://en\.wikipedia\.org/wiki/ORVYL\_and\_WYLBUR
  **stanford:university:394**                                                                              | https://en\.wikipedia\.org/wiki/Stanford\_University
- **edit:section::on:pc:and:intel:x86:based:architectures:395**                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=40
+ **edit:section:on:pc:and:intel:x86:based:architectures:395**                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=40
  **pc:dos:396**                                                                                           | https://en\.wikipedia\.org/wiki/PC\_DOS
  **:397**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#Microsoft\_Corporation
  **os/2:398**                                                                                             | https://en\.wikipedia\.org/wiki/OS/2
@@ -591,7 +1019,7 @@ Sumon
  **unix:like:414**                                                                                        | https://en\.wikipedia\.org/wiki/Unix\-like
  **ibm:personal:system/2:415**                                                                            | https://en\.wikipedia\.org/wiki/IBM\_Personal\_System/2
  **ibm:aix:416**                                                                                          | https://en\.wikipedia\.org/wiki/IBM\_AIX\#IBM\_PS/2\_series
- **edit:section::on:other:hardware:platforms:417**                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=41
+ **edit:section:on:other:hardware:platforms:417**                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=41
  **ibm:series/1:418**                                                                                     | https://en\.wikipedia\.org/wiki/IBM\_Series/1
  **ibm:series/1:419**                                                                                     | https://en\.wikipedia\.org/wiki/IBM\_Series/1\#Software\_support
  **event:driven:executive:420**                                                                           | https://en\.wikipedia\.org/wiki/Event\_Driven\_Executive
@@ -638,7 +1066,7 @@ Sumon
  **dynix:461**                                                                                            | https://en\.wikipedia\.org/wiki/Dynix
  **sequent:computer:systems:462**                                                                         | https://en\.wikipedia\.org/wiki/Sequent\_Computer\_Systems
  **numa:q:463**                                                                                           | https://en\.wikipedia\.org/wiki/NUMA\-Q
- **edit:section::international:computers:limited:464**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=42
+ **edit:section:international:computers:limited:464**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=42
  **j:\(operating:system\):465**                                                                           | https://en\.wikipedia\.org/wiki/J\_\(operating\_system\)
  **multijob:466**                                                                                         | https://en\.wikipedia\.org/wiki/MultiJob
  **george:\(operating:system\):467**                                                                      | https://en\.wikipedia\.org/wiki/GEORGE\_\(operating\_system\)
@@ -650,17 +1078,17 @@ Sumon
  **icl:2900:series:473**                                                                                  | https://en\.wikipedia\.org/wiki/ICL\_2900\_Series
  **s3:programming:language:474**                                                                          | https://en\.wikipedia\.org/wiki/S3\_programming\_language
  **vme/k:475**                                                                                            | https://en\.wikipedia\.org/wiki/VME/K
- **edit:section::jide:476**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=43
+ **edit:section:jide:476**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=43
  **remix:os:477**                                                                                         | https://en\.wikipedia\.org/wiki/Remix\_OS
- **edit:section::jolla:478**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=44
+ **edit:section:jolla:478**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=44
  **sailfish:os:479**                                                                                      | https://en\.wikipedia\.org/wiki/Sailfish\_OS
- **edit:section::kaios:480**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=45
+ **edit:section:kaios:480**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=45
  **kaios:481**                                                                                            | https://en\.wikipedia\.org/wiki/KaiOS
- **edit:section::lynx:real:time:systems,:lynuxworks,:lynx:software:technologies:482**                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=46
+ **edit:section:lynx:real:time:systems,:lynuxworks,:lynx:software:technologies:482**                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=46
  **lynxos:483**                                                                                           | https://en\.wikipedia\.org/wiki/LynxOS
- **edit:section::meizu:484**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=47
+ **edit:section:meizu:484**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=47
  **flyme:os:485**                                                                                         | https://en\.wikipedia\.org/wiki/Flyme\_OS
- **edit:section::microsoft:corporation:486**                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=48
+ **edit:section:microsoft:corporation:486**                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=48
  **xenix:487**                                                                                            | https://en\.wikipedia\.org/wiki/Xenix
  **santa:cruz:operation:488**                                                                             | https://en\.wikipedia\.org/wiki/Santa\_Cruz\_Operation
  **ms:dos:489**                                                                                           | https://en\.wikipedia\.org/wiki/MS\-DOS
@@ -734,52 +1162,52 @@ Sumon
  **azure:sphere:557**                                                                                     | https://en\.wikipedia\.org/wiki/Azure\_Sphere
  **cbl:mariner:558**                                                                                      | https://en\.wikipedia\.org/wiki/CBL\-Mariner
  **threadx:559**                                                                                          | https://en\.wikipedia\.org/wiki/ThreadX
- **edit:section::mits:560**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=49
+ **edit:section:mits:560**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=49
  **altair:dos:\(page:does:not:exist\):561**                                                               | https://en\.wikipedia\.org/w/index\.php?title=Altair\_DOS&action=edit&redlink=1
  **altair:8800:562**                                                                                      | https://en\.wikipedia\.org/wiki/Altair\_8800
  **wikipedia:citation:needed:563**                                                                        | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- **edit:section::montavista:564**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=50
+ **edit:section:montavista:564**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=50
  **mobilinux:565**                                                                                        | https://en\.wikipedia\.org/wiki/Mobilinux
- **edit:section::motorola:566**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=51
+ **edit:section:motorola:566**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=51
  **versados:567**                                                                                         | https://en\.wikipedia\.org/wiki/VERSAdos
- **edit:section::ncr:corporation:568**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=52
+ **edit:section:ncr:corporation:568**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=52
  **transaction:management:executive:569**                                                                 | https://en\.wikipedia\.org/wiki/Transaction\_Management\_eXecutive
  **imos:\(page:does:not:exist\):570**                                                                     | https://en\.wikipedia\.org/w/index\.php?title=IMOS&action=edit&redlink=1
  **wikipedia:citation:needed:571**                                                                        | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
  **ncr:vrx:572**                                                                                          | https://en\.wikipedia\.org/wiki/NCR\_VRX
- **edit:section::next:573**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=53
+ **edit:section:next:573**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=53
  **nextstep:574**                                                                                         | https://en\.wikipedia\.org/wiki/NeXTSTEP
- **edit:section::nintendo:575**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=54
+ **edit:section:nintendo:575**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=54
  **history:of:nintendo:576**                                                                              | https://en\.wikipedia\.org/wiki/History\_of\_Nintendo\#Nintendo\_DS\_and\_Wii
  **wii:system:software:577**                                                                              | https://en\.wikipedia\.org/wiki/Wii\_system\_software
  **wii:u:system:software:578**                                                                            | https://en\.wikipedia\.org/wiki/Wii\_U\_system\_software
  **nintendo:switch:system:software:579**                                                                  | https://en\.wikipedia\.org/wiki/Nintendo\_Switch\_system\_software
- **edit:section::novell:580**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=55
+ **edit:section:novell:580**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=55
  **netware:581**                                                                                          | https://en\.wikipedia\.org/wiki/NetWare
  **unixware:582**                                                                                         | https://en\.wikipedia\.org/wiki/UnixWare
  **novell:supernos:583**                                                                                  | https://en\.wikipedia\.org/wiki/Novell\_%22SuperNOS%22
  **novell:corsair:584**                                                                                   | https://en\.wikipedia\.org/wiki/Novell\_%22Corsair%22
  **novell:exposé:585**                                                                                    | https://en\.wikipedia\.org/wiki/Novell\_%22Expos%C3%A9%22
  **open:enterprise:server:586**                                                                           | https://en\.wikipedia\.org/wiki/Open\_Enterprise\_Server
- **edit:section::open:mobile:platform:587**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=56
+ **edit:section:open:mobile:platform:587**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=56
  **aurora:os:\(russian:open:mobile:platform\):588**                                                       | https://en\.wikipedia\.org/wiki/Aurora\_OS\_\(Russian\_Open\_mobile\_platform\)
  **aurora:os:\(eeebuntu\):589**                                                                           | https://en\.wikipedia\.org/wiki/Aurora\_OS\_\(Eeebuntu\)
- **edit:section::quadros:systems:590**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=57
+ **edit:section:quadros:systems:590**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=57
  **rtxc:quadros:591**                                                                                     | https://en\.wikipedia\.org/wiki/RTXC\_Quadros
- **edit:section::rca:592**                                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=58
+ **edit:section:rca:592**                                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=58
  **time:sharing:operating:system:593**                                                                    | https://en\.wikipedia\.org/wiki/Time\_Sharing\_Operating\_System
- **edit:section::rowebots:594**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=59
+ **edit:section:rowebots:594**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=59
  **dspnano:rtos:595**                                                                                     | https://en\.wikipedia\.org/wiki/DSPnano\_RTOS
- **edit:section::samsung:electronics:596**                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=60
+ **edit:section:samsung:electronics:596**                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=60
  **bada:597**                                                                                             | https://en\.wikipedia\.org/wiki/Bada
  **tizen:598**                                                                                            | https://en\.wikipedia\.org/wiki/Tizen
  **samsung:smart:tv:599**                                                                                 | https://en\.wikipedia\.org/wiki/Samsung\_Smart\_TV
  **one:ui:600**                                                                                           | https://en\.wikipedia\.org/wiki/One\_UI
- **edit:section::scientific:data:systems:\(sds\):601**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=61
+ **edit:section:scientific:data:systems:\(sds\):601**                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=61
  **berkeley:timesharing:system:602**                                                                      | https://en\.wikipedia\.org/wiki/Berkeley\_Timesharing\_System
  **sds:940:603**                                                                                          | https://en\.wikipedia\.org/wiki/SDS\_940
  **:604**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-15
- **edit:section::sco,:sco:group\[15\]:605**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=62
+ **edit:section:sco,:sco:group\[15\]:605**                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=62
  **xenix:606**                                                                                            | https://en\.wikipedia\.org/wiki/Xenix
  **xenix:607**                                                                                            | https://en\.wikipedia\.org/wiki/Xenix
  **xenix:608**                                                                                            | https://en\.wikipedia\.org/wiki/Xenix
@@ -792,21 +1220,21 @@ Sumon
  **unixware:615**                                                                                         | https://en\.wikipedia\.org/wiki/UnixWare
  **unixware:616**                                                                                         | https://en\.wikipedia\.org/wiki/UnixWare
  **santa:cruz:operation:617**                                                                             | https://en\.wikipedia\.org/wiki/Santa\_Cruz\_Operation
- **edit:section::silicon:laboratories:\(formerly:micrium:inc\.\):618**                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=63
+ **edit:section:silicon:laboratories:\(formerly:micrium:inc\.\):618**                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=63
  **micro:controller:operating:systems:619**                                                               | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#History
- **edit:section::sinclair:research:620**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=64
+ **edit:section:sinclair:research:620**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=64
  **sinclair:basic:621**                                                                                   | https://en\.wikipedia\.org/wiki/Sinclair\_BASIC
  **sinclair:research:622**                                                                                | https://en\.wikipedia\.org/wiki/Sinclair\_Research
  **timex:sinclair:623**                                                                                   | https://en\.wikipedia\.org/wiki/Timex\_Sinclair
- **edit:section::sony:624**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=65
+ **edit:section:sony:624**                                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=65
  **playstation:3:system:software:625**                                                                    | https://en\.wikipedia\.org/wiki/PlayStation\_3\_system\_software
  **playstation:4:system:software:626**                                                                    | https://en\.wikipedia\.org/wiki/PlayStation\_4\_system\_software
  **playstation:5:system:software:627**                                                                    | https://en\.wikipedia\.org/wiki/PlayStation\_5\_system\_software
- **edit:section::sysgo:628**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=66
+ **edit:section:sysgo:628**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=66
  **pikeos:629**                                                                                           | https://en\.wikipedia\.org/wiki/PikeOS
- **edit:section::tandem:computers,:compaq,:hewlett:packard,:hewlett:packard:enterprise:630**              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=67
+ **edit:section:tandem:computers,:compaq,:hewlett:packard,:hewlett:packard:enterprise:630**              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=67
  **nonstop:\(server:computers\):631**                                                                     | https://en\.wikipedia\.org/wiki/NonStop\_\(server\_computers\)
- **edit:section::tandy:corporation:632**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=68
+ **edit:section:tandy:corporation:632**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=68
  **trsdos:633**                                                                                           | https://en\.wikipedia\.org/wiki/TRSDOS
  **trs:80:634**                                                                                           | https://en\.wikipedia\.org/wiki/TRS\-80
  **color:basic:635**                                                                                      | https://en\.wikipedia\.org/wiki/Color\_BASIC
@@ -816,41 +1244,41 @@ Sumon
  **deskmate:639**                                                                                         | https://en\.wikipedia\.org/wiki/DeskMate
  **tandy:1000:640**                                                                                       | https://en\.wikipedia\.org/wiki/Tandy\_1000
  **wikipedia:citation:needed:641**                                                                        | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- **edit:section::tcsc:\(later:ncsc\):642**                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=69
+ **edit:section:tcsc:\(later:ncsc\):642**                                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=69
  **edos:643**                                                                                             | https://en\.wikipedia\.org/wiki/Edos
  **dos/360:644**                                                                                          | https://en\.wikipedia\.org/wiki/DOS/360
  **dos/vs:645**                                                                                           | https://en\.wikipedia\.org/wiki/DOS/VS
  **dos/vse:646**                                                                                          | https://en\.wikipedia\.org/wiki/DOS/VSE
  **system/360:647**                                                                                       | https://en\.wikipedia\.org/wiki/System/360
  **system/370:648**                                                                                       | https://en\.wikipedia\.org/wiki/System/370
- **edit:section::texas:instruments:649**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=70
+ **edit:section:texas:instruments:649**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=70
  **ti:rtos:650**                                                                                          | https://en\.wikipedia\.org/wiki/TI\-RTOS
- **edit:section::tron:project:651**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=71
+ **edit:section:tron:project:651**                                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=71
  **tron:project:652**                                                                                     | https://en\.wikipedia\.org/wiki/TRON\_Project
  **real:time:operating:system:653**                                                                       | https://en\.wikipedia\.org/wiki/Real\-time\_operating\_system
  **kernel:\(operating:system\):654**                                                                      | https://en\.wikipedia\.org/wiki/Kernel\_\(operating\_system\)
  **t:kernel:655**                                                                                         | https://en\.wikipedia\.org/wiki/T\-Kernel
- **edit:section::univac,:unisys:656**                                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=72
+ **edit:section:univac,:unisys:656**                                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=72
  **univac:exec:i:657**                                                                                    | https://en\.wikipedia\.org/wiki/UNIVAC\_EXEC\_I
  **univac:exec:ii:658**                                                                                   | https://en\.wikipedia\.org/wiki/UNIVAC\_EXEC\_II
  **exec:8:659**                                                                                           | https://en\.wikipedia\.org/wiki/EXEC\_8
  **os:2200:660**                                                                                          | https://en\.wikipedia\.org/wiki/OS\_2200
  **vs/9:661**                                                                                             | https://en\.wikipedia\.org/wiki/VS/9
  **time:sharing:operating:system:662**                                                                    | https://en\.wikipedia\.org/wiki/Time\_Sharing\_Operating\_System
- **edit:section::wang:laboratories:663**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=73
+ **edit:section:wang:laboratories:663**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=73
  **wang:laboratories:664**                                                                                | https://en\.wikipedia\.org/wiki/Wang\_Laboratories\#Word\_processors
  **wang:laboratories:665**                                                                                | https://en\.wikipedia\.org/wiki/Wang\_Laboratories\#Wang\_OIS
- **edit:section::weston:embedded:solutions:666**                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=74
+ **edit:section:weston:embedded:solutions:666**                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=74
  **micro:controller:operating:systems:667**                                                               | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#%CE%BCC/OS\-II
  **micro:controller:operating:systems:668**                                                               | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#%CE%BCC/OS\-III
  **micro:controller:operating:systems:669**                                                               | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#History
- **edit:section::wind:river:systems:670**                                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=75
+ **edit:section:wind:river:systems:670**                                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=75
  **vxworks:671**                                                                                          | https://en\.wikipedia\.org/wiki/VxWorks
  **:672**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-windriver\.com\-17
- **edit:section::zilog:673**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=76
+ **edit:section:zilog:673**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=76
  **z80:rio:674**                                                                                          | https://en\.wikipedia\.org/wiki/Z80\-RIO
- **edit:section::other:675**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=77
- **edit:section::lisp:based:676**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=78
+ **edit:section:other:675**                                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=77
+ **edit:section:lisp:based:676**                                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=78
  **lisp:machines:677**                                                                                    | https://en\.wikipedia\.org/wiki/Lisp\_Machines
  **mit:678**                                                                                              | https://en\.wikipedia\.org/wiki/MIT
  **lisp:machine:lisp:679**                                                                                | https://en\.wikipedia\.org/wiki/Lisp\_Machine\_Lisp
@@ -865,17 +1293,17 @@ Sumon
  **lisp:machine:lisp:688**                                                                                | https://en\.wikipedia\.org/wiki/Lisp\_Machine\_Lisp
  **xerox:689**                                                                                            | https://en\.wikipedia\.org/wiki/Xerox
  **interlisp:690**                                                                                        | https://en\.wikipedia\.org/wiki/Interlisp
- **edit:section::for:elektronika:bk:691**                                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=79
+ **edit:section:for:elektronika:bk:691**                                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=79
  **andos:692**                                                                                            | https://en\.wikipedia\.org/wiki/ANDOS
  **csi:dos:693**                                                                                          | https://en\.wikipedia\.org/wiki/CSI\-DOS
  **mk:dos:694**                                                                                           | https://en\.wikipedia\.org/wiki/MK\-DOS
- **edit:section::non:standard:language\-based:695**                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=80
+ **edit:section:non:standard:language\-based:695**                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=80
  **pilot:\(operating:system\):696**                                                                       | https://en\.wikipedia\.org/wiki/Pilot\_\(operating\_system\)
  **mesa:\(programming:language\):697**                                                                    | https://en\.wikipedia\.org/wiki/Mesa\_\(programming\_language\)
  **xerox:star:698**                                                                                       | https://en\.wikipedia\.org/wiki/Xerox\_Star
  **perq:699**                                                                                             | https://en\.wikipedia\.org/wiki/PERQ
  **pascal:\(programming:language\):700**                                                                  | https://en\.wikipedia\.org/wiki/Pascal\_\(programming\_language\)
- **edit:section::other:proprietary:non:unix\-like:701**                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=81
+ **edit:section:other:proprietary:non:unix\-like:701**                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=81
  **elbrus:\(computer\):702**                                                                              | https://en\.wikipedia\.org/wiki/Elbrus\_\(computer\)
  **:703**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-18
  **al:76:programming:language:704**                                                                       | https://en\.wikipedia\.org/wiki/AL\-76\_programming\_language
@@ -904,7 +1332,7 @@ Sumon
  **tsx:32:727**                                                                                           | https://en\.wikipedia\.org/wiki/TSX\-32
  **dx10:728**                                                                                             | https://en\.wikipedia\.org/wiki/DX10
  **ti:990:729**                                                                                           | https://en\.wikipedia\.org/wiki/TI\-990
- **edit:section::other:proprietary:unix:like:and:posix\-compliant:730**                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=82
+ **edit:section:other:proprietary:unix:like:and:posix\-compliant:730**                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=82
  **domain/os:731**                                                                                        | https://en\.wikipedia\.org/wiki/Domain/OS
  **apollo:computer:732**                                                                                  | https://en\.wikipedia\.org/wiki/Apollo\_Computer
  **amiga:unix:733**                                                                                       | https://en\.wikipedia\.org/wiki/Amiga\_Unix
@@ -990,8 +1418,8 @@ Sumon
  **wikipedia:citation:needed:813**                                                                        | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
  **zenix:\(page:does:not:exist\):814**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=Zenix&action=edit&redlink=1
  **wikipedia:citation:needed:815**                                                                        | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- **edit:section::non:proprietary:816**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=83
- **edit:section::unix:or:unix:like:817**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=84
+ **edit:section:non:proprietary:816**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=83
+ **edit:section:unix:or:unix:like:817**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=84
  **minix:818**                                                                                            | https://en\.wikipedia\.org/wiki/MINIX
  **andrew:s\.:tanenbaum:819**                                                                             | https://en\.wikipedia\.org/wiki/Andrew\_S\.\_Tanenbaum
  **netherlands:820**                                                                                      | https://en\.wikipedia\.org/wiki/Netherlands
@@ -1048,7 +1476,7 @@ Sumon
  **classic:mac:os:871**                                                                                   | https://en\.wikipedia\.org/wiki/Classic\_Mac\_OS
  **liteos:872**                                                                                           | https://en\.wikipedia\.org/wiki/LiteOS
  **openharmony:873**                                                                                      | https://en\.wikipedia\.org/wiki/OpenHarmony
- **edit:section::non:unix:874**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=85
+ **edit:section:non:unix:874**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=85
  **cosmos:\(operating:system\):875**                                                                      | https://en\.wikipedia\.org/wiki/Cosmos\_\(operating\_system\)
  **emutos:876**                                                                                           | https://en\.wikipedia\.org/wiki/EmuTOS
  **atari:tos:877**                                                                                        | https://en\.wikipedia\.org/wiki/Atari\_TOS
@@ -1076,8 +1504,8 @@ Sumon
  **sharpos:899**                                                                                          | https://en\.wikipedia\.org/wiki/SharpOS
  **templeos:900**                                                                                         | https://en\.wikipedia\.org/wiki/TempleOS
  **visopsys:901**                                                                                         | https://en\.wikipedia\.org/wiki/Visopsys
- **edit:section::research:902**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=86
- **edit:section::unix:or:unix:like:903**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=87
+ **edit:section:research:902**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=86
+ **edit:section:unix:or:unix:like:903**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=87
  **plan:9:from:bell:labs:904**                                                                            | https://en\.wikipedia\.org/wiki/Plan\_9\_from\_Bell\_Labs
  **bell:labs:905**                                                                                        | https://en\.wikipedia\.org/wiki/Bell\_Labs
  **inferno:\(operating:system\):906**                                                                     | https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
@@ -1087,7 +1515,7 @@ Sumon
  **research:unix:910**                                                                                    | https://en\.wikipedia\.org/wiki/Research\_Unix
  **:911**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-29
  **:912**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-30
- **edit:section::non:unix:913**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=88
+ **edit:section:non:unix:913**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=88
  **amoeba:distributed:operating:system:914**                                                              | https://en\.wikipedia\.org/wiki/Amoeba\_distributed\_operating\_system
  **andrew:s\.:tanenbaum:915**                                                                             | https://en\.wikipedia\.org/wiki/Andrew\_S\.\_Tanenbaum
  **barrelfish:\(operating:system\):916**                                                                  | https://en\.wikipedia\.org/wiki/Barrelfish\_\(operating\_system\)
@@ -1119,7 +1547,7 @@ Sumon
  **xinu:942**                                                                                             | https://en\.wikipedia\.org/wiki/Xinu
  **douglas:e\.:comer:943**                                                                                | https://en\.wikipedia\.org/wiki/Douglas\_E\.\_Comer
  **:944**                                                                                                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-32
- **edit:section::disk:operating:systems:\(dos\):945**                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=89
+ **edit:section:disk:operating:systems:\(dos\):945**                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=89
  **disk:operating:system:946**                                                                            | https://en\.wikipedia\.org/wiki/Disk\_operating\_system
  **86:dos:947**                                                                                           | https://en\.wikipedia\.org/wiki/86\-DOS
  **microsoft:948**                                                                                        | https://en\.wikipedia\.org/wiki/Microsoft
@@ -1175,7 +1603,7 @@ Sumon
  **desqview:998**                                                                                         | https://en\.wikipedia\.org/wiki/DESQview
  **qemm:386:\(page:does:not:exist\):999**                                                                 | https://en\.wikipedia\.org/w/index\.php?title=QEMM\_386&action=edit&redlink=1
  **x:window:system:1000**                                                                                 | https://en\.wikipedia\.org/wiki/X\_Window\_System
- **edit:section::network:operating:systems:1001**                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=90
+ **edit:section:network:operating:systems:1001**                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=90
  **network:operating:system:1002**                                                                        | https://en\.wikipedia\.org/wiki/Network\_operating\_system
  **banyan:vines:1003**                                                                                    | https://en\.wikipedia\.org/wiki/Banyan\_VINES
  **banyan:systems:1004**                                                                                  | https://en\.wikipedia\.org/wiki/Banyan\_Systems
@@ -1207,7 +1635,7 @@ Sumon
  **inferno:\(operating:system\):1030**                                                                    | https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
  **sonic:\(operating:system\):1031**                                                                      | https://en\.wikipedia\.org/wiki/SONiC\_\(operating\_system\)
  **turbodos:1032**                                                                                        | https://en\.wikipedia\.org/wiki/TurboDOS
- **edit:section::generic,:commodity,:and:other:1033**                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=91
+ **edit:section:generic,:commodity,:and:other:1033**                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=91
  **blis/cobol:1034**                                                                                      | https://en\.wikipedia\.org/wiki/BLIS/COBOL
  **a2:\(operating:system\):1035**                                                                         | https://en\.wikipedia\.org/wiki/A2\_\(operating\_system\)
  **oberon:operating:system:1036**                                                                         | https://en\.wikipedia\.org/wiki/Oberon\_operating\_system
@@ -1283,7 +1711,7 @@ Sumon
  **visi:on:1106**                                                                                         | https://en\.wikipedia\.org/wiki/Visi\_On
  **vps/vm:1107**                                                                                          | https://en\.wikipedia\.org/wiki/VPS/VM
  **boston:university:1108**                                                                               | https://en\.wikipedia\.org/wiki/Boston\_University
- **edit:section::hobby:1109**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=92
+ **edit:section:hobby:1109**                                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=92
  **hobbyist:operating:system:1110**                                                                       | https://en\.wikipedia\.org/wiki/Hobbyist\_operating\_system
  **aros:1111**                                                                                            | https://en\.wikipedia\.org/wiki/AROS
  **atheos:1112**                                                                                          | https://en\.wikipedia\.org/wiki/AtheOS
@@ -1306,8 +1734,8 @@ Sumon
  **:1129**                                                                                                | https://serpaeos\.sourceforge\.io/
  **toaruos:1130**                                                                                         | https://en\.wikipedia\.org/wiki/ToaruOS
  **toaruos:1131**                                                                                         | https://en\.wikipedia\.org/wiki/ToaruOS\#PonyOS
- **edit:section::embedded:1132**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=93
- **edit:section::mobile:operating:systems:1133**                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=94
+ **edit:section:embedded:1132**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=93
+ **edit:section:mobile:operating:systems:1133**                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=94
  **mobile:operating:system:1134**                                                                         | https://en\.wikipedia\.org/wiki/Mobile\_operating\_system
  **dip:dos:1135**                                                                                         | https://en\.wikipedia\.org/wiki/DIP\_DOS
  **atari:portfolio:1136**                                                                                 | https://en\.wikipedia\.org/wiki/Atari\_Portfolio
@@ -1397,7 +1825,7 @@ Sumon
  **symbian:os:1220**                                                                                      | https://en\.wikipedia\.org/wiki/Symbian\_OS
  **blackberry:10:1221**                                                                                   | https://en\.wikipedia\.org/wiki/BlackBerry\_10
  **harmonyos:1222**                                                                                       | https://en\.wikipedia\.org/wiki/HarmonyOS
- **edit:section::routers:1223**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=95
+ **edit:section:routers:1223**                                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=95
  **catos:1224**                                                                                           | https://en\.wikipedia\.org/wiki/CatOS
  **cisco:systems:1225**                                                                                   | https://en\.wikipedia\.org/wiki/Cisco\_Systems
  **cisco:ios:1226**                                                                                       | https://en\.wikipedia\.org/wiki/Cisco\_IOS
@@ -1424,7 +1852,7 @@ Sumon
  **opnsense:1247**                                                                                        | https://en\.wikipedia\.org/wiki/OPNsense
  **pfsense:1248**                                                                                         | https://en\.wikipedia\.org/wiki/PfSense
  **list:of:wireless:router:firmware:projects:1249**                                                       | https://en\.wikipedia\.org/wiki/List\_of\_wireless\_router\_firmware\_projects
- **edit:section::other:embedded:1250**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=96
+ **edit:section:other:embedded:1250**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=96
  **apache:mynewt:1251**                                                                                   | https://en\.wikipedia\.org/wiki/Apache\_Mynewt
  **chibios/rt:1252**                                                                                      | https://en\.wikipedia\.org/wiki/ChibiOS/RT
  **contiki:1253**                                                                                         | https://en\.wikipedia\.org/wiki/Contiki
@@ -1464,10 +1892,10 @@ Sumon
  **real:time:operating:system:1287**                                                                      | https://en\.wikipedia\.org/wiki/Real\-time\_operating\_system
  **embedded:system:1288**                                                                                 | https://en\.wikipedia\.org/wiki/Embedded\_system
  **zephyr:\(operating:system\):1289**                                                                     | https://en\.wikipedia\.org/wiki/Zephyr\_\(operating\_system\)
- **edit:section::lego:mindstorms:1290**                                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=97
+ **edit:section:lego:mindstorms:1290**                                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=97
  **brickos:1291**                                                                                         | https://en\.wikipedia\.org/wiki/BrickOS
  **lejos:1292**                                                                                           | https://en\.wikipedia\.org/wiki/LeJOS
- **edit:section::capability:based:1293**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=98
+ **edit:section:capability:based:1293**                                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=98
  **cambridge:cap:computer:1294**                                                                          | https://en\.wikipedia\.org/wiki/Cambridge\_CAP\_computer
  **algol:68c:1295**                                                                                       | https://en\.wikipedia\.org/wiki/ALGOL\_68C
  **flex:machine:1296**                                                                                    | https://en\.wikipedia\.org/wiki/Flex\_machine
@@ -1482,15 +1910,15 @@ Sumon
  **capros:1305**                                                                                          | https://en\.wikipedia\.org/wiki/CapROS
  **v:\(operating:system\):1306**                                                                          | https://en\.wikipedia\.org/wiki/V\_\(operating\_system\)
  **:1307**                                                                                                | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-capabook\-31
- **edit:section::see:also:1308**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=99
+ **edit:section:see:also:1308**                                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=99
  **comparison:of:operating:systems:1309**                                                                 | https://en\.wikipedia\.org/wiki/Comparison\_of\_operating\_systems
  **comparison:of:real:time:operating:systems:1310**                                                       | https://en\.wikipedia\.org/wiki/Comparison\_of\_real\-time\_operating\_systems
  **timeline:of:operating:systems:1311**                                                                   | https://en\.wikipedia\.org/wiki/Timeline\_of\_operating\_systems
- **edit:section::category:links:1312**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=100
+ **edit:section:category:links:1312**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=100
  **category:operating:systems:1313**                                                                      | https://en\.wikipedia\.org/wiki/Category:Operating\_systems
  **category:embedded:operating:systems:1314**                                                             | https://en\.wikipedia\.org/wiki/Category:Embedded\_operating\_systems
  **category:real:time:operating:systems:1315**                                                            | https://en\.wikipedia\.org/wiki/Category:Real\-time\_operating\_systems
- **edit:section::references:1316**                                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=101
+ **edit:section:references:1316**                                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=101
  **jump:up:1317**                                                                                         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-1
  **:1318**                                                                                                | http://bitsavers\.org/pdf/cdc/3x00/24bit/3200/60057700\_3200\_SCOPE\_COMPASS\_Reference\_Manual\_Sep64\.pdf
  **jump:up:1319**                                                                                         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-2
@@ -1591,7 +2019,7 @@ Sumon
  **:1414**                                                                                                | http://www\.qnx\.com/
  **jump:up:1415**                                                                                         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-43
  **:1416**                                                                                                | https://www\.cs\.auckland\.ac\.nz/courses/compsci703s1c/resources/WulfHarbison\.pdf
- **edit:section::external:links:1417**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=102
+ **edit:section:external:links:1417**                                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=102
  **:1418**                                                                                                | http://www\.operating\-system\.org/betriebssystem/\_english/os\-liste\.htm
  **template:operating:systems:1419**                                                                      | https://en\.wikipedia\.org/wiki/Template:Operating\_systems
  **template:talk:operating:systems:1420**                                                                 | https://en\.wikipedia\.org/wiki/Template\_talk:Operating\_systems
@@ -1738,27 +2166,27 @@ Sumon
 
  **operating:system:0**  | **https://en\.wikipedia\.org/wiki/Operating\_system**
 ------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------
- edit:section::proprietary:1| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=1
- edit:section::acorn:computers:2| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=2
+ edit:section:proprietary:1| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=1
+ edit:section:acorn:computers:2| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=2
  arthur:\(operating:system\):3  | https://en\.wikipedia\.org/wiki/Arthur\_\(operating\_system\)
  arx:\(operating:system\):4 | https://en\.wikipedia\.org/wiki/ARX\_\(operating\_system\)
  acorn:mos:5          | https://en\.wikipedia\.org/wiki/Acorn\_MOS
  risc:ix:6            | https://en\.wikipedia\.org/wiki/RISC\_iX
  risc:os:7            | https://en\.wikipedia\.org/wiki/RISC\_OS
- edit:section::amazon:8  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=3
+ edit:section:amazon:8  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=3
  fire:os:9            | https://en\.wikipedia\.org/wiki/Fire\_OS
- edit:section::amiga:inc\.:10| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=4
+ edit:section:amiga:inc\.:10| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=4
  amigaos:11           | https://en\.wikipedia\.org/wiki/AmigaOS
  amigaos:versions:12  | https://en\.wikipedia\.org/wiki/AmigaOS\_versions
  amigaos:4:13         | https://en\.wikipedia\.org/wiki/AmigaOS\_4
  amiga:unix:14        | https://en\.wikipedia\.org/wiki/Amiga\_Unix
- edit:section::amstrad:15| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=5
+ edit:section:amstrad:15| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=5
  amsdos:16            | https://en\.wikipedia\.org/wiki/AMSDOS
  contiki:17           | https://en\.wikipedia\.org/wiki/Contiki
  cp/m:2\.2:18         | https://en\.wikipedia\.org/wiki/CP/M\_2\.2
  cp/m:plus:19         | https://en\.wikipedia\.org/wiki/CP/M\_Plus
  symbos:20            | https://en\.wikipedia\.org/wiki/SymbOS
- edit:section::apple:inc\.:21| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=6
+ edit:section:apple:inc\.:21| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=6
  apple:ii:series:22   | https://en\.wikipedia\.org/wiki/Apple\_II\_series
  apple:dos:23         | https://en\.wikipedia\.org/wiki/Apple\_DOS
  apple:pascal:24      | https://en\.wikipedia\.org/wiki/Apple\_Pascal
@@ -1802,25 +2230,25 @@ Sumon
  netbsd:62            | https://en\.wikipedia\.org/wiki/NetBSD
  airport:extreme:63   | https://en\.wikipedia\.org/wiki/Airport\_Extreme
  time:capsule:\(apple\):64  | https://en\.wikipedia\.org/wiki/Time\_Capsule\_\(Apple\)
- edit:section::apollo:computer,:hewlett:packard:65                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=7
+ edit:section:apollo:computer,:hewlett:packard:65                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=7
  domain/os:66         | https://en\.wikipedia\.org/wiki/Domain/OS
  apollo/domain:67     | https://en\.wikipedia\.org/wiki/Apollo/Domain
  hewlett:packard:68   | https://en\.wikipedia\.org/wiki/Hewlett\-Packard
- edit:section::atari:69  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=8
+ edit:section:atari:69  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=8
  atari:dos:70         | https://en\.wikipedia\.org/wiki/Atari\_DOS
  atari:tos:71         | https://en\.wikipedia\.org/wiki/Atari\_TOS
  multitos:72          | https://en\.wikipedia\.org/wiki/MultiTOS
  contiki:73           | https://en\.wikipedia\.org/wiki/Contiki
- edit:section::bae:systems:74| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=9
+ edit:section:bae:systems:74| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=9
  xts:400:75           | https://en\.wikipedia\.org/wiki/XTS\-400
- edit:section::be:inc\.:76  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=10
+ edit:section:be:inc\.:76  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=10
  beos:77              | https://en\.wikipedia\.org/wiki/BeOS
  beia:78              | https://en\.wikipedia\.org/wiki/BeIA
  dano:\(beos\):79     | https://en\.wikipedia\.org/wiki/Dano\_\(BeOS\)
  magnussoft:zeta:80   | https://en\.wikipedia\.org/wiki/Magnussoft\_ZETA
  dano:\(beos\):81     | https://en\.wikipedia\.org/wiki/Dano\_\(BeOS\)
  yellowtab:82         | https://en\.wikipedia\.org/wiki/YellowTAB
- edit:section::bell:labs:83 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=11
+ edit:section:bell:labs:83 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=11
  unix:84              | https://en\.wikipedia\.org/wiki/Unix
  ken:thompson:85      | https://en\.wikipedia\.org/wiki/Ken\_Thompson
  list:of:unix:systems:86 | https://en\.wikipedia\.org/wiki/List\_of\_Unix\_systems
@@ -1836,21 +2264,21 @@ Sumon
  besys:96             | https://en\.wikipedia\.org/wiki/BESYS
  plan:9:from:bell:labs:97| https://en\.wikipedia\.org/wiki/Plan\_9\_from\_Bell\_Labs
  inferno:\(operating:system\):98| https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
- edit:section::burroughs:corporation,:unisys:99                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=12
+ edit:section:burroughs:corporation,:unisys:99                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=12
  burroughs:mcp:100    | https://en\.wikipedia\.org/wiki/Burroughs\_MCP
- edit:section::commodore:international:101                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=13
+ edit:section:commodore:international:101                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=13
  geos:\(8:bit:operating:system\):102                                                            | https://en\.wikipedia\.org/wiki/GEOS\_\(8\-bit\_operating\_system\)
  amigaos:103          | https://en\.wikipedia\.org/wiki/AmigaOS
  aros:research:operating:system:104                                                             | https://en\.wikipedia\.org/wiki/AROS\_Research\_Operating\_System
- edit:section::control:data:corporation:105                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=14
- edit:section::lower:3000:series:106                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=15
+ edit:section:control:data:corporation:105                                                     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=14
+ edit:section:lower:3000:series:106                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=15
  cdc:scope:107        | https://en\.wikipedia\.org/wiki/CDC\_SCOPE
  :108                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-1
- edit:section::upper:3000:series:109                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=16
+ edit:section:upper:3000:series:109                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=16
  cdc:scope:110        | https://en\.wikipedia\.org/wiki/CDC\_SCOPE
  :111                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-2
  :112                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-3
- edit:section::6x00:and:related:cyber:113                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=17
+ edit:section:6x00:and:related:cyber:113                                                       | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=17
  chippewa:operating:system:114  | https://en\.wikipedia\.org/wiki/Chippewa\_Operating\_System
  :115                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-4
  cdc:kronos:116       | https://en\.wikipedia\.org/wiki/CDC\_Kronos
@@ -1862,12 +2290,12 @@ Sumon
  :122                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-8
  :123                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-9
  :124                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-10
- edit:section::cloudmosa:125| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=18
+ edit:section:cloudmosa:125| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=18
  puffin:os:\(page:does:not:exist\):126                                                          | https://en\.wikipedia\.org/w/index\.php?title=Puffin\_OS&action=edit&redlink=1
- edit:section::convergent:technologies:127                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=19
+ edit:section:convergent:technologies:127                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=19
  convergent:technologies:operating:system:128                                                   | https://en\.wikipedia\.org/wiki/Convergent\_Technologies\_Operating\_System
  unisys:129           | https://en\.wikipedia\.org/wiki/Unisys
- edit:section::cromemco:130 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=20
+ edit:section:cromemco:130 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=20
  cromemco:dos:131     | https://en\.wikipedia\.org/wiki/Cromemco\_DOS
  cp/m:132             | https://en\.wikipedia\.org/wiki/CP/M
  cromix:133           | https://en\.wikipedia\.org/wiki/Cromix
@@ -1875,7 +2303,7 @@ Sumon
  cromemco:135         | https://en\.wikipedia\.org/wiki/Cromemco
  zilog:z80:136        | https://en\.wikipedia\.org/wiki/Zilog\_Z80
  motorola:68000:137   | https://en\.wikipedia\.org/wiki/Motorola\_68000
- edit:section::data:general:138 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=21
+ edit:section:data:general:138 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=21
  data:general:aos:139 | https://en\.wikipedia\.org/wiki/Data\_General\_AOS
  data:general:eclipse:140| https://en\.wikipedia\.org/wiki/Data\_General\_Eclipse
  data:general:aos:141 | https://en\.wikipedia\.org/wiki/Data\_General\_AOS
@@ -1883,14 +2311,14 @@ Sumon
  data:general:rdos:143| https://en\.wikipedia\.org/wiki/Data\_General\_RDOS
  pc:dos:144           | https://en\.wikipedia\.org/wiki/PC\_DOS
  ms:dos:145           | https://en\.wikipedia\.org/wiki/MS\-DOS
- edit:section::datapoint:146| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=22
+ edit:section:datapoint:146| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=22
  datapoint:2200:147   | https://en\.wikipedia\.org/wiki/Datapoint\_2200
  :148                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-11
  :149                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-12
- edit:section::ddc:i,:inc\.:150 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=23
+ edit:section:ddc:i,:inc\.:150 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=23
  deos:151             | https://en\.wikipedia\.org/wiki/Deos
  heartos:152          | https://en\.wikipedia\.org/wiki/HeartOS
- edit:section::digital:research,:inc\.:153                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=24
+ edit:section:digital:research,:inc\.:153                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=24
  cp/m:154             | https://en\.wikipedia\.org/wiki/CP/M
  cp/m:155             | https://en\.wikipedia\.org/wiki/CP/M
  intel:8080:156       | https://en\.wikipedia\.org/wiki/Intel\_8080
@@ -1974,18 +2402,18 @@ Sumon
  itanium:234          | https://en\.wikipedia\.org/wiki/Itanium
  x86:64:235           | https://en\.wikipedia\.org/wiki/X86\-64
  waits:236            | https://en\.wikipedia\.org/wiki/WAITS
- edit:section::enea:ab:237  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=26
+ edit:section:enea:ab:237  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=26
  operating:system:embedded:238  | https://en\.wikipedia\.org/wiki/Operating\_System\_Embedded
- edit:section::fujitsu:239  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=27
+ edit:section:fujitsu:239  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=27
  towns:os:240         | https://en\.wikipedia\.org/wiki/Towns\_OS
  os/iv:\(page:does:not:exist\):241                                                              | https://en\.wikipedia\.org/w/index\.php?title=OS/IV&action=edit&redlink=1
  msp:\(operating:system\):242| https://en\.wikipedia\.org/wiki/MSP\_\(operating\_system\)
  msp:ex:\(page:does:not:exist\):243                                                             | https://en\.wikipedia\.org/w/index\.php?title=MSP\-EX&action=edit&redlink=1
- edit:section::general:electric,:honeywell,:bull:244                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=28
+ edit:section:general:electric,:honeywell,:bull:244                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=28
  real:time:multiprogramming:operating:system:245                                                | https://en\.wikipedia\.org/wiki/Real\-Time\_Multiprogramming\_Operating\_System
  general:comprehensive:operating:system:246                                                     | https://en\.wikipedia\.org/wiki/General\_Comprehensive\_Operating\_System
  multics:247          | https://en\.wikipedia\.org/wiki/Multics
- edit:section::google:248| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=29
+ edit:section:google:248| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=29
  :249                 | https://en\.wikipedia\.org/wiki/File:Foldable\_smartphone\_\(Android\_OS\)\.jpg
  android:\(operating:system\):250                                                               | https://en\.wikipedia\.org/wiki/Android\_\(operating\_system\)
  samsung:galaxy:z:series:251| https://en\.wikipedia\.org/wiki/Samsung\_Galaxy\_Z\_series
@@ -2010,17 +2438,17 @@ Sumon
  operating:system:270 | https://en\.wikipedia\.org/wiki/Operating\_system
  smartwatch:271       | https://en\.wikipedia\.org/wiki/Smartwatch
  wearable:computer:272| https://en\.wikipedia\.org/wiki/Wearable\_computer
- edit:section::green:hills:software:273                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=30
+ edit:section:green:hills:software:273                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=30
  integrity:\(operating:system\):274                                                             | https://en\.wikipedia\.org/wiki/Integrity\_\(operating\_system\)
  integrity:178b:275   | https://en\.wikipedia\.org/wiki/INTEGRITY\-178B
  integrity:\(operating:system\):276                                                             | https://en\.wikipedia\.org/wiki/Integrity\_\(operating\_system\)
  green:hills:software:277| https://en\.wikipedia\.org/wiki/Green\_Hills\_Software\#Real\-time\_operating\_systems
  microkernel:278      | https://en\.wikipedia\.org/wiki/Microkernel
- edit:section::harris:computer:systems:279                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=31
+ edit:section:harris:computer:systems:279                                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=31
  vulcan:o/s:\(page:does:not:exist\):280                                                         | https://en\.wikipedia\.org/w/index\.php?title=Vulcan\_O/S&action=edit&redlink=1
  harris:computer:systems:281| https://en\.wikipedia\.org/wiki/Harris\_Computer\_Systems
  cx/ux:\(page:does:not:exist\):282                                                              | https://en\.wikipedia\.org/w/index\.php?title=CX/UX&action=edit&redlink=1
- edit:section::heathkit,:zenith:data:systems:283                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=32
+ edit:section:heathkit,:zenith:data:systems:283                                                | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=32
  hdos:284             | https://en\.wikipedia\.org/wiki/HDOS
  heathkit:h8:285      | https://en\.wikipedia\.org/wiki/Heathkit\_H8
  zenith:z:89:286      | https://en\.wikipedia\.org/wiki/Zenith\_Z\-89
@@ -2030,13 +2458,13 @@ Sumon
  edit:section:290                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=33
  hp:multi:programming:executive:291                                                             | https://en\.wikipedia\.org/wiki/HP\_Multi\-Programming\_Executive
  hp:ux:292            | https://en\.wikipedia\.org/wiki/HP\-UX
- edit:section::honeywell:293| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=34
+ edit:section:honeywell:293| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=34
  honeywell:cp:6:294   | https://en\.wikipedia\.org/wiki/Honeywell\_CP\-6
- edit:section::huawei:295| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=35
+ edit:section:huawei:295| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=35
  harmonyos:296        | https://en\.wikipedia\.org/wiki/HarmonyOS
  liteos:297           | https://en\.wikipedia\.org/wiki/LiteOS
  euleros:298          | https://en\.wikipedia\.org/wiki/EulerOS
- edit:section::intel:corporation:299                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=36
+ edit:section:intel:corporation:299                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=36
  rmx:\(operating:system\):300| https://en\.wikipedia\.org/wiki/RMX\_\(operating\_system\)
  isis:\(operating:system\):301  | https://en\.wikipedia\.org/wiki/ISIS\_\(operating\_system\)
  isis:ii:302          | https://en\.wikipedia\.org/wiki/ISIS\-II
@@ -2044,7 +2472,7 @@ Sumon
  pl/m:304             | https://en\.wikipedia\.org/wiki/PL/M
  imax:432:305         | https://en\.wikipedia\.org/wiki/IMAX\_432
  iapx:432:306         | https://en\.wikipedia\.org/wiki/IAPX\_432
- edit:section::ibm:307| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=37
+ edit:section:ibm:307| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=37
  history:of:ibm:mainframe:operating:systems:308                                                 | https://en\.wikipedia\.org/wiki/History\_of\_IBM\_mainframe\_operating\_systems
  edit:section:     | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=38
  besys:310            | https://en\.wikipedia\.org/wiki/BESYS
@@ -2070,7 +2498,7 @@ Sumon
  ibm:704:330          | https://en\.wikipedia\.org/wiki/IBM\_704
  ibm:709:331          | https://en\.wikipedia\.org/wiki/IBM\_709
  ibm:7090:332         | https://en\.wikipedia\.org/wiki/IBM\_7090
- edit:section::on:333                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=39
+ edit:section:on:333                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=39
  os/360:and:successors:334  | https://en\.wikipedia\.org/wiki/OS/360\_and\_successors
  os/360:335           | https://en\.wikipedia\.org/wiki/OS/360
  system/360:336       | https://en\.wikipedia\.org/wiki/System/360
@@ -2132,7 +2560,7 @@ Sumon
  mcgill:university:392| https://en\.wikipedia\.org/wiki/McGill\_University
  orvyl:and:wylbur:393 | https://en\.wikipedia\.org/wiki/ORVYL\_and\_WYLBUR
  stanford:university:394 | https://en\.wikipedia\.org/wiki/Stanford\_University
- edit:section::on:pc:and:intel:x86:based:architectures:395                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=40
+ edit:section:on:pc:and:intel:x86:based:architectures:395                                      | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=40
  pc:dos:396           | https://en\.wikipedia\.org/wiki/PC\_DOS
  :397                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#Microsoft\_Corporation
  os/2:398             | https://en\.wikipedia\.org/wiki/OS/2
@@ -2154,7 +2582,7 @@ Sumon
  unix:like:414        | https://en\.wikipedia\.org/wiki/Unix\-like
  ibm:personal:system/2:415  | https://en\.wikipedia\.org/wiki/IBM\_Personal\_System/2
  ibm:aix:416          | https://en\.wikipedia\.org/wiki/IBM\_AIX\#IBM\_PS/2\_series
- edit:section::on:other:hardware:platforms:417                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=41
+ edit:section:on:other:hardware:platforms:417                                                  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=41
  ibm:series/1:418     | https://en\.wikipedia\.org/wiki/IBM\_Series/1
  ibm:series/1:419     | https://en\.wikipedia\.org/wiki/IBM\_Series/1\#Software\_support
  event:driven:executive:420 | https://en\.wikipedia\.org/wiki/Event\_Driven\_Executive
@@ -2201,7 +2629,7 @@ Sumon
  dynix:461            | https://en\.wikipedia\.org/wiki/Dynix
  sequent:computer:systems:462| https://en\.wikipedia\.org/wiki/Sequent\_Computer\_Systems
  numa:q:463           | https://en\.wikipedia\.org/wiki/NUMA\-Q
- edit:section::international:computers:limited:464                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=42
+ edit:section:international:computers:limited:464                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=42
  j:\(operating:system\):465 | https://en\.wikipedia\.org/wiki/J\_\(operating\_system\)
  multijob:466         | https://en\.wikipedia\.org/wiki/MultiJob
  george:\(operating:system\):467| https://en\.wikipedia\.org/wiki/GEORGE\_\(operating\_system\)
@@ -2213,17 +2641,17 @@ Sumon
  icl:2900:series:473  | https://en\.wikipedia\.org/wiki/ICL\_2900\_Series
  s3:programming:language:474| https://en\.wikipedia\.org/wiki/S3\_programming\_language
  vme/k:475            | https://en\.wikipedia\.org/wiki/VME/K
- edit:section::jide:476  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=43
+ edit:section:jide:476  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=43
  remix:os:477         | https://en\.wikipedia\.org/wiki/Remix\_OS
- edit:section::jolla:478 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=44
+ edit:section:jolla:478 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=44
  sailfish:os:479      | https://en\.wikipedia\.org/wiki/Sailfish\_OS
- edit:section::kaios:480 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=45
+ edit:section:kaios:480 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=45
  kaios:481            | https://en\.wikipedia\.org/wiki/KaiOS
- edit:section::lynx:real:               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=46
+ edit:section:lynx:real:               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=46
  lynxos:483           | https://en\.wikipedia\.org/wiki/LynxOS
- edit:section::meizu:484 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=47
+ edit:section:meizu:484 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=47
  flyme:os:485         | https://en\.wikipedia\.org/wiki/Flyme\_OS
- edit:section::microsoft:corporation:486                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=48
+ edit:section:microsoft:corporation:486                                                        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=48
  xenix:487            | https://en\.wikipedia\.org/wiki/Xenix
  santa:cruz:operation:488| https://en\.wikipedia\.org/wiki/Santa\_Cruz\_Operation
  ms:dos:489           | https://en\.wikipedia\.org/wiki/MS\-DOS
@@ -2297,52 +2725,52 @@ Sumon
  azure:sphere:557     | https://en\.wikipedia\.org/wiki/Azure\_Sphere
  cbl:mariner:558      | https://en\.wikipedia\.org/wiki/CBL\-Mariner
  threadx:559          | https://en\.wikipedia\.org/wiki/ThreadX
- edit:section::mits:560  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=49
+ edit:section:mits:560  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=49
  altair:dos:\(page:does:not:exist\):561                                                         | https://en\.wikipedia\.org/w/index\.php?title=Altair\_DOS&action=edit&redlink=1
  altair:8800:562      | https://en\.wikipedia\.org/wiki/Altair\_8800
  wikipedia:citation:needed:563  | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- edit:section::montavista:564| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=50
+ edit:section:montavista:564| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=50
  mobilinux:565        | https://en\.wikipedia\.org/wiki/Mobilinux
- edit:section::motorola:566 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=51
+ edit:section:motorola:566 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=51
  versados:567         | https://en\.wikipedia\.org/wiki/VERSAdos
- edit:section::ncr:corporation:568                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=52
+ edit:section:ncr:corporation:568                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=52
  transaction:management:executive:569                                                           | https://en\.wikipedia\.org/wiki/Transaction\_Management\_eXecutive
  imos:\(page:does:not:exist\):570                                                               | https://en\.wikipedia\.org/w/index\.php?title=IMOS&action=edit&redlink=1
  wikipedia:citation:needed:571  | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
  ncr:vrx:572          | https://en\.wikipedia\.org/wiki/NCR\_VRX
- edit:section::next:573  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=53
+ edit:section:next:573  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=53
  nextstep:574         | https://en\.wikipedia\.org/wiki/NeXTSTEP
- edit:section::nintendo:575 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=54
+ edit:section:nintendo:575 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=54
  history:of:nintendo:576 | https://en\.wikipedia\.org/wiki/History\_of\_Nintendo\#Nintendo\_DS\_and\_Wii
  wii:system:software:577 | https://en\.wikipedia\.org/wiki/Wii\_system\_software
  wii:u:system:software:578  | https://en\.wikipedia\.org/wiki/Wii\_U\_system\_software
  nintendo:switch:system:software:579                                                            | https://en\.wikipedia\.org/wiki/Nintendo\_Switch\_system\_software
- edit:section::novell:580| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=55
+ edit:section:novell:580| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=55
  netware:581          | https://en\.wikipedia\.org/wiki/NetWare
  unixware:582         | https://en\.wikipedia\.org/wiki/UnixWare
  novell:supernos:583  | https://en\.wikipedia\.org/wiki/Novell\_%22SuperNOS%22
  novell:corsair:584   | https://en\.wikipedia\.org/wiki/Novell\_%22Corsair%22
  novell:exposé:585    | https://en\.wikipedia\.org/wiki/Novell\_%22Expos%C3%A9%22
  open:enterprise:server:586 | https://en\.wikipedia\.org/wiki/Open\_Enterprise\_Server
- edit:section::open:mobile:platform:587                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=56
+ edit:section:open:mobile:platform:587                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=56
  aurora:os:\(russian:open:mobile:platform\):588                                                 | https://en\.wikipedia\.org/wiki/Aurora\_OS\_\(Russian\_Open\_mobile\_platform\)
  aurora:os:\(eeebuntu\):589 | https://en\.wikipedia\.org/wiki/Aurora\_OS\_\(Eeebuntu\)
- edit:section::quadros:systems:590                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=57
+ edit:section:quadros:systems:590                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=57
  rtxc:quadros:591     | https://en\.wikipedia\.org/wiki/RTXC\_Quadros
- edit:section::rca:592| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=58
+ edit:section:rca:592| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=58
  time:sharing:operating:system:593                                                              | https://en\.wikipedia\.org/wiki/Time\_Sharing\_Operating\_System
- edit:section::rowebots:594 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=59
+ edit:section:rowebots:594 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=59
  dspnano:rtos:595     | https://en\.wikipedia\.org/wiki/DSPnano\_RTOS
- edit:section::samsung:electronics:596                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=60
+ edit:section:samsung:electronics:596                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=60
  bada:597             | https://en\.wikipedia\.org/wiki/Bada
  tizen:598            | https://en\.wikipedia\.org/wiki/Tizen
  samsung:smart:tv:599 | https://en\.wikipedia\.org/wiki/Samsung\_Smart\_TV
  one:ui:600           | https://en\.wikipedia\.org/wiki/One\_UI
- edit:section::scient                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=61
+ edit:section:scient                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=61
  berkeley:timesharing:system:602| https://en\.wikipedia\.org/wiki/Berkeley\_Timesharing\_System
  sds:940:603          | https://en\.wikipedia\.org/wiki/SDS\_940
  :604                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-15
- edit:section::sco,:sco:group\[15\]:605                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=62
+ edit:section:sco,:sco:group\[15\]:605                                                         | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=62
  xenix:606            | https://en\.wikipedia\.org/wiki/Xenix
  xenix:607            | https://en\.wikipedia\.org/wiki/Xenix
  xenix:608            | https://en\.wikipedia\.org/wiki/Xenix
@@ -2357,19 +2785,19 @@ Sumon
  santa:cruz:operation:617| https://en\.wikipedia\.org/wiki/Santa\_Cruz\_Operation
  edit:section:618                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=63
  micro:controller:operating:systems:619                                                         | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#History
- edit:section::sinclair:research:620                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=64
+ edit:section:sinclair:research:620                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=64
  sinclair:basic:621   | https://en\.wikipedia\.org/wiki/Sinclair\_BASIC
  sinclair:research:622| https://en\.wikipedia\.org/wiki/Sinclair\_Research
  timex:sinclair:623   | https://en\.wikipedia\.org/wiki/Timex\_Sinclair
- edit:section::sony:624  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=65
+ edit:section:sony:624  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=65
  playstation:3:system:software:625                                                              | https://en\.wikipedia\.org/wiki/PlayStation\_3\_system\_software
  playstation:4:system:software:626                                                              | https://en\.wikipedia\.org/wiki/PlayStation\_4\_system\_software
  playstation:5:system:software:627                                                              | https://en\.wikipedia\.org/wiki/PlayStation\_5\_system\_software
- edit:section::sysgo:628 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=66
+ edit:section:sysgo:628 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=66
  pikeos:629           | https://en\.wikipedia\.org/wiki/PikeOS
- edit:section::630        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=67
+ edit:section:630        | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=67
  nonstop:\(server:computers\):631                                                               | https://en\.wikipedia\.org/wiki/NonStop\_\(server\_computers\)
- edit:section::tandy:corporation:632                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=68
+ edit:section:tandy:corporation:632                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=68
  trsdos:633           | https://en\.wikipedia\.org/wiki/TRSDOS
  trs:80:634           | https://en\.wikipedia\.org/wiki/TRS\-80
  color:basic:635      | https://en\.wikipedia\.org/wiki/Color\_BASIC
@@ -2379,41 +2807,41 @@ Sumon
  deskmate:639         | https://en\.wikipedia\.org/wiki/DeskMate
  tandy:1000:640       | https://en\.wikipedia\.org/wiki/Tandy\_1000
  wikipedia:citation:needed:641  | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- edit:section::tcsc:\(later:ncsc\):642                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=69
+ edit:section:tcsc:\(later:ncsc\):642                                                          | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=69
  edos:643             | https://en\.wikipedia\.org/wiki/Edos
  dos/360:644          | https://en\.wikipedia\.org/wiki/DOS/360
  dos/vs:645           | https://en\.wikipedia\.org/wiki/DOS/VS
  dos/vse:646          | https://en\.wikipedia\.org/wiki/DOS/VSE
  system/360:647       | https://en\.wikipedia\.org/wiki/System/360
  system/370:648       | https://en\.wikipedia\.org/wiki/System/370
- edit:section::texas:instruments:649                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=70
+ edit:section:texas:instruments:649                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=70
  ti:rtos:650          | https://en\.wikipedia\.org/wiki/TI\-RTOS
- edit:section::tron:project:651 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=71
+ edit:section:tron:project:651 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=71
  tron:project:652     | https://en\.wikipedia\.org/wiki/TRON\_Project
  real:time:operating:system:653 | https://en\.wikipedia\.org/wiki/Real\-time\_operating\_system
  kernel:\(operating:system\):654| https://en\.wikipedia\.org/wiki/Kernel\_\(operating\_system\)
  t:kernel:655         | https://en\.wikipedia\.org/wiki/T\-Kernel
- edit:section::univac,:unisys:656                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=72
+ edit:section:univac,:unisys:656                                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=72
  univac:exec:i:657    | https://en\.wikipedia\.org/wiki/UNIVAC\_EXEC\_I
  univac:exec:ii:658   | https://en\.wikipedia\.org/wiki/UNIVAC\_EXEC\_II
  exec:8:659           | https://en\.wikipedia\.org/wiki/EXEC\_8
  os:2200:660          | https://en\.wikipedia\.org/wiki/OS\_2200
  vs/9:661             | https://en\.wikipedia\.org/wiki/VS/9
  time:sharing:operating:system:662                                                              | https://en\.wikipedia\.org/wiki/Time\_Sharing\_Operating\_System
- edit:section::wang:laboratories:663                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=73
+ edit:section:wang:laboratories:663                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=73
  wang:laboratories:664| https://en\.wikipedia\.org/wiki/Wang\_Laboratories\#Word\_processors
  wang:laboratories:665| https://en\.wikipedia\.org/wiki/Wang\_Laboratories\#Wang\_OIS
- edit:section::weston:embedded:solutions:666                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=74
+ edit:section:weston:embedded:solutions:666                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=74
  micro:controller:operating:systems:667                                                         | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#%CE%BCC/OS\-II
  micro:controller:operating:systems:668                                                         | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#%CE%BCC/OS\-III
  micro:controller:operating:systems:669                                                         | https://en\.wikipedia\.org/wiki/Micro\-Controller\_Operating\_Systems\#History
- edit:section::wind:river:systems:670                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=75
+ edit:section:wind:river:systems:670                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=75
  vxworks:671          | https://en\.wikipedia\.org/wiki/VxWorks
  :672                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-windriver\.com\-17
- edit:section::zilog:673 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=76
+ edit:section:zilog:673 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=76
  z80:rio:674          | https://en\.wikipedia\.org/wiki/Z80\-RIO
- edit:section::other:675 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=77
- edit:section::lisp:based:676| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=78
+ edit:section:other:675 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=77
+ edit:section:lisp:based:676| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=78
  lisp:machines:677    | https://en\.wikipedia\.org/wiki/Lisp\_Machines
  mit:678              | https://en\.wikipedia\.org/wiki/MIT
  lisp:machine:lisp:679| https://en\.wikipedia\.org/wiki/Lisp\_Machine\_Lisp
@@ -2428,17 +2856,17 @@ Sumon
  lisp:machine:lisp:688| https://en\.wikipedia\.org/wiki/Lisp\_Machine\_Lisp
  xerox:689            | https://en\.wikipedia\.org/wiki/Xerox
  interlisp:690        | https://en\.wikipedia\.org/wiki/Interlisp
- edit:section::for:elektronika:bk:691                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=79
+ edit:section:for:elektronika:bk:691                                                           | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=79
  andos:692            | https://en\.wikipedia\.org/wiki/ANDOS
  csi:dos:693          | https://en\.wikipedia\.org/wiki/CSI\-DOS
  mk:dos:694           | https://en\.wikipedia\.org/wiki/MK\-DOS
- edit:section::non:standard:language\-based:695                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=80
+ edit:section:non:standard:language\-based:695                                                 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=80
  pilot:\(operating:system\):696 | https://en\.wikipedia\.org/wiki/Pilot\_\(operating\_system\)
  mesa:\(programming:language\):697                                                              | https://en\.wikipedia\.org/wiki/Mesa\_\(programming\_language\)
  xerox:star:698       | https://en\.wikipedia\.org/wiki/Xerox\_Star
  perq:699             | https://en\.wikipedia\.org/wiki/PERQ
  pascal:\(programming:language\):700                                                            | https://en\.wikipedia\.org/wiki/Pascal\_\(programming\_language\)
- edit:section::other:proprietary:non:unix\-like:701                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=81
+ edit:section:other:proprietary:non:unix\-like:701                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=81
  elbrus:\(computer\):702 | https://en\.wikipedia\.org/wiki/Elbrus\_\(computer\)
  :703                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-18
  al:76:programming:language:704 | https://en\.wikipedia\.org/wiki/AL\-76\_programming\_language
@@ -2467,7 +2895,7 @@ Sumon
  tsx:32:727           | https://en\.wikipedia\.org/wiki/TSX\-32
  dx10:728             | https://en\.wikipedia\.org/wiki/DX10
  ti:990:729           | https://en\.wikipedia\.org/wiki/TI\-990
- edit:section::other                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=82
+ edit:section:other                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=82
  domain/os:731        | https://en\.wikipedia\.org/wiki/Domain/OS
  apollo:computer:732  | https://en\.wikipedia\.org/wiki/Apollo\_Computer
  amiga:unix:733       | https://en\.wikipedia\.org/wiki/Amiga\_Unix
@@ -2553,8 +2981,8 @@ Sumon
  wikipedia:citation:needed:813  | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
  zenix:\(page:does:not:exist\):814                                                              | https://en\.wikipedia\.org/w/index\.php?title=Zenix&action=edit&redlink=1
  wikipedia:citation:needed:815  | https://en\.wikipedia\.org/wiki/Wikipedia:Citation\_needed
- edit:section::non:proprietary:816                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=83
- edit:section::unix:or:unix:like:817                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=84
+ edit:section:non:proprietary:816                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=83
+ edit:section:unix:or:unix:like:817                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=84
  minix:818            | https://en\.wikipedia\.org/wiki/MINIX
  andrew:s\.:tanenbaum:819| https://en\.wikipedia\.org/wiki/Andrew\_S\.\_Tanenbaum
  netherlands:820      | https://en\.wikipedia\.org/wiki/Netherlands
@@ -2611,7 +3039,7 @@ Sumon
  classic:mac:os:871   | https://en\.wikipedia\.org/wiki/Classic\_Mac\_OS
  liteos:872           | https://en\.wikipedia\.org/wiki/LiteOS
  openharmony:873      | https://en\.wikipedia\.org/wiki/OpenHarmony
- edit:section::non:unix:874 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=85
+ edit:section:non:unix:874 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=85
  cosmos:\(operating:system\):875| https://en\.wikipedia\.org/wiki/Cosmos\_\(operating\_system\)
  emutos:876           | https://en\.wikipedia\.org/wiki/EmuTOS
  atari:tos:877        | https://en\.wikipedia\.org/wiki/Atari\_TOS
@@ -2639,8 +3067,8 @@ Sumon
  sharpos:899          | https://en\.wikipedia\.org/wiki/SharpOS
  templeos:900         | https://en\.wikipedia\.org/wiki/TempleOS
  visopsys:901         | https://en\.wikipedia\.org/wiki/Visopsys
- edit:section::research:902 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=86
- edit:section::unix:or:unix:like:903                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=87
+ edit:section:research:902 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=86
+ edit:section:unix:or:unix:like:903                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=87
  plan:9:from:bell:labs:904  | https://en\.wikipedia\.org/wiki/Plan\_9\_from\_Bell\_Labs
  bell:labs:905        | https://en\.wikipedia\.org/wiki/Bell\_Labs
  inferno:\(operating:system\):906                                                               | https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
@@ -2650,7 +3078,7 @@ Sumon
  research:unix:910    | https://en\.wikipedia\.org/wiki/Research\_Unix
  :911                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-29
  :912                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-30
- edit:section::non:unix:913 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=88
+ edit:section:non:unix:913 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=88
  amoeba:distributed:operating:system:914                                                        | https://en\.wikipedia\.org/wiki/Amoeba\_distributed\_operating\_system
  andrew:s\.:tanenbaum:915| https://en\.wikipedia\.org/wiki/Andrew\_S\.\_Tanenbaum
  barrelfish:\(operating:system\):916                                                            | https://en\.wikipedia\.org/wiki/Barrelfish\_\(operating\_system\)
@@ -2682,7 +3110,7 @@ Sumon
  xinu:942             | https://en\.wikipedia\.org/wiki/Xinu
  douglas:e\.:comer:943| https://en\.wikipedia\.org/wiki/Douglas\_E\.\_Comer
  :944                 | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-32
- edit:section::disk:operating:systems:\(dos\):945                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=89
+ edit:section:disk:operating:systems:\(dos\):945                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=89
  disk:operating:system:946  | https://en\.wikipedia\.org/wiki/Disk\_operating\_system
  86:dos:947           | https://en\.wikipedia\.org/wiki/86\-DOS
  microsoft:948        | https://en\.wikipedia\.org/wiki/Microsoft
@@ -2738,7 +3166,7 @@ Sumon
  desqview:998         | https://en\.wikipedia\.org/wiki/DESQview
  qemm:386:\(page:does:not:exist\):999                                                           | https://en\.wikipedia\.org/w/index\.php?title=QEMM\_386&action=edit&redlink=1
  x:window:system:1000 | https://en\.wikipedia\.org/wiki/X\_Window\_System
- edit:section::network:operating:systems:1001                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=90
+ edit:section:network:operating:systems:1001                                                   | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=90
  network:operating:system:1002  | https://en\.wikipedia\.org/wiki/Network\_operating\_system
  banyan:vines:1003    | https://en\.wikipedia\.org/wiki/Banyan\_VINES
  banyan:systems:1004  | https://en\.wikipedia\.org/wiki/Banyan\_Systems
@@ -2770,7 +3198,7 @@ Sumon
  inferno:\(operating:system\):1030                                                              | https://en\.wikipedia\.org/wiki/Inferno\_\(operating\_system\)
  sonic:\(operating:system\):1031| https://en\.wikipedia\.org/wiki/SONiC\_\(operating\_system\)
  turbodos:1032        | https://en\.wikipedia\.org/wiki/TurboDOS
- edit:section::generic,:commodity,:and:other:1033                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=91
+ edit:section:generic,:commodity,:and:other:1033                                               | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=91
  blis/cobol:1034      | https://en\.wikipedia\.org/wiki/BLIS/COBOL
  a2:\(operating:system\):1035| https://en\.wikipedia\.org/wiki/A2\_\(operating\_system\)
  oberon:operating:system:1036| https://en\.wikipedia\.org/wiki/Oberon\_operating\_system
@@ -2846,7 +3274,7 @@ Sumon
  visi:on:1106         | https://en\.wikipedia\.org/wiki/Visi\_On
  vps/vm:1107          | https://en\.wikipedia\.org/wiki/VPS/VM
  boston:university:1108  | https://en\.wikipedia\.org/wiki/Boston\_University
- edit:section::hobby:1109| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=92
+ edit:section:hobby:1109| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=92
  hobbyist:operating:system:1110 | https://en\.wikipedia\.org/wiki/Hobbyist\_operating\_system
  aros:1111            | https://en\.wikipedia\.org/wiki/AROS
  atheos:1112          | https://en\.wikipedia\.org/wiki/AtheOS
@@ -2869,8 +3297,8 @@ Sumon
  :1129                | https://serpaeos\.sourceforge\.io/
  toaruos:1130         | https://en\.wikipedia\.org/wiki/ToaruOS
  toaruos:1131         | https://en\.wikipedia\.org/wiki/ToaruOS\#PonyOS
- edit:section::embedded:1132| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=93
- edit:section::mobile:operating:systems:1133                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=94
+ edit:section:embedded:1132| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=93
+ edit:section:mobile:operating:systems:1133                                                    | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=94
  mobile:operating:system:1134| https://en\.wikipedia\.org/wiki/Mobile\_operating\_system
  dip:dos:1135         | https://en\.wikipedia\.org/wiki/DIP\_DOS
  atari:portfolio:1136 | https://en\.wikipedia\.org/wiki/Atari\_Portfolio
@@ -2960,7 +3388,7 @@ Sumon
  symbian:os:1220      | https://en\.wikipedia\.org/wiki/Symbian\_OS
  blackberry:10:1221   | https://en\.wikipedia\.org/wiki/BlackBerry\_10
  harmonyos:1222       | https://en\.wikipedia\.org/wiki/HarmonyOS
- edit:section::routers:1223 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=95
+ edit:section:routers:1223 | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=95
  catos:1224           | https://en\.wikipedia\.org/wiki/CatOS
  cisco:systems:1225   | https://en\.wikipedia\.org/wiki/Cisco\_Systems
  cisco:ios:1226       | https://en\.wikipedia\.org/wiki/Cisco\_IOS
@@ -2987,7 +3415,7 @@ Sumon
  opnsense:1247        | https://en\.wikipedia\.org/wiki/OPNsense
  pfsense:1248         | https://en\.wikipedia\.org/wiki/PfSense
  list:of:wireless:router:firmware:projects:1249                                                 | https://en\.wikipedia\.org/wiki/List\_of\_wireless\_router\_firmware\_projects
- edit:section::other:embedded:1250                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=96
+ edit:section:other:embedded:1250                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=96
  apache:mynewt:1251   | https://en\.wikipedia\.org/wiki/Apache\_Mynewt
  chibios/rt:1252      | https://en\.wikipedia\.org/wiki/ChibiOS/RT
  contiki:1253         | https://en\.wikipedia\.org/wiki/Contiki
@@ -3027,10 +3455,10 @@ Sumon
  real:time:operating:system:1287| https://en\.wikipedia\.org/wiki/Real\-time\_operating\_system
  embedded:system:1288 | https://en\.wikipedia\.org/wiki/Embedded\_system
  zephyr:\(operating:system\):1289                                                               | https://en\.wikipedia\.org/wiki/Zephyr\_\(operating\_system\)
- edit:section::lego:mindstorms:1290                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=97
+ edit:section:lego:mindstorms:1290                                                             | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=97
  brickos:1291         | https://en\.wikipedia\.org/wiki/BrickOS
  lejos:1292           | https://en\.wikipedia\.org/wiki/LeJOS
- edit:section::capability:based:1293                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=98
+ edit:section:capability:based:1293                                                            | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=98
  cambridge:cap:computer:1294| https://en\.wikipedia\.org/wiki/Cambridge\_CAP\_computer
  algol:68c:1295       | https://en\.wikipedia\.org/wiki/ALGOL\_68C
  flex:machine:1296    | https://en\.wikipedia\.org/wiki/Flex\_machine
@@ -3045,15 +3473,15 @@ Sumon
  capros:1305          | https://en\.wikipedia\.org/wiki/CapROS
  v:\(operating:system\):1306| https://en\.wikipedia\.org/wiki/V\_\(operating\_system\)
  :1307                | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_note\-capabook\-31
- edit:section::see:also:1308| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=99
+ edit:section:see:also:1308| https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=99
  comparison:of:operating:systems:1309                                                           | https://en\.wikipedia\.org/wiki/Comparison\_of\_operating\_systems
  comparison:of:real:time:operating:systems:1310                                                 | https://en\.wikipedia\.org/wiki/Comparison\_of\_real\-time\_operating\_systems
  timeline:of:operating:systems:1311                                                             | https://en\.wikipedia\.org/wiki/Timeline\_of\_operating\_systems
- edit:section::category:links:1312                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=100
+ edit:section:category:links:1312                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=100
  category:operating:systems:1313| https://en\.wikipedia\.org/wiki/Category:Operating\_systems
  category:embedded:operating:systems:1314                                                       | https://en\.wikipedia\.org/wiki/Category:Embedded\_operating\_systems
  category:real:time:operating:systems:1315                                                      | https://en\.wikipedia\.org/wiki/Category:Real\-time\_operating\_systems
- edit:section::references:1316  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=101
+ edit:section:references:1316  | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=101
  jump:up:1317         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-1
  :1318                | http://bitsavers\.org/pdf/cdc/3x00/24bit/3200/60057700\_3200\_SCOPE\_COMPASS\_Reference\_Manual\_Sep64\.pdf
  jump:up:1319         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-2
@@ -3154,7 +3582,7 @@ Sumon
  :1414                | http://www\.qnx\.com/
  jump:up:1415         | https://en\.wikipedia\.org/wiki/List\_of\_operating\_systems\#cite\_ref\-43
  :1416                | https://www\.cs\.auckland\.ac\.nz/courses/compsci703s1c/resources/WulfHarbison\.pdf
- edit:section::external:links:1417                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=102
+ edit:section:external:links:1417                                                              | https://en\.wikipedia\.org/w/index\.php?title=List\_of\_operating\_systems&action=edit&section=102
  :1418                | http://www\.operating\-system\.org/betriebssystem/\_english/os\-liste\.htm
  template:operating:systems:1419| https://en\.wikipedia\.org/wiki/Template:Operating\_systems
  template:talk:operating:systems:1420                                                           | https://en\.wikipedia\.org/wiki/Template\_talk:Operating\_systems
@@ -3257,7 +3685,7 @@ Sumon
 |Scala|Scala is fully interoperable with Java as it runs on the JVM.|
 |Ruby|Ruby can interoperate with C through Ruby's C API. It also supports calling Java code through JRuby.|
 |.NET|.NET supports multiple languages such as C#, VB.NET, F#, etc., that can interoperate with each other within the .NET platform.|
-|Perl|Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline::C/Inline::CPP for embedding C/C++ code directly into Perl scripts.|
+|Perl|Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline:C/Inline:CPP for embedding C/C++ code directly into Perl scripts.|
 |Lua|Lua provides interoperability with C through its native C API. It also supports calling other languages through various libraries and bindings⁵.|
 |Groovy|Groovy is fully interoperable with Java as it runs on the JVM. It can use Java libraries directly and can be used from Java as well[^10^].|
 |Objective-C|Objective-C provides strong interoperability with C and C++. It also supports calling Swift code and can be called from Swift¹⁴.|
@@ -3360,7 +3788,7 @@ Source: Conversation with Bing, 9/20/2023
     },
     {
         "language": "Perl",
-        "interoperability": "Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline::C/Inline::CPP for embedding C/C++ code directly into Perl scripts."
+        "interoperability": "Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline:C/Inline:CPP for embedding C/C++ code directly into Perl scripts."
     },
     {
         "language": "Lua",
