@@ -172,6 +172,175 @@ Dx Preview Deployment problem Solved!!!
 
 Dopamine Detox
 Sumon
+
+
+
+
+
+
+
+
+| | |
+|-|-|
+|language|interoperability|
+|Python|Python has strong interoperability with C, C++, and Java through various libraries and tools. It also has interoperability with JavaScript through frameworks like Brython.|
+|Java|Java can interoperate with other JVM languages such as Kotlin, Groovy, and Scala. It also has interoperability with native code through the Java Native Interface (JNI).|
+|JavaScript|JavaScript can interoperate with HTML and CSS in web development. It also has interoperability with other languages through WebAssembly.|
+|C|C has strong interoperability with C++ and can be called from many other languages through Foreign Function Interface (FFI).|
+|C++|C++ can interoperate with C and has limited interoperability with other languages through wrappers or bindings.|
+|C#|C# can interoperate with other .NET languages and has support for COM and P/Invoke for interoperability with unmanaged code.|
+|PHP|PHP can interoperate with HTML, CSS, JavaScript in web development and can call native libraries.|
+|Rust|Rust provides strong interoperability with C and can be called from other languages through FFI.|
+|Go|Go can interoperate with C through cgo and provides a binary Foreign Function Interface (FFI) for other languages.|
+|Swift|Swift provides strong interoperability with Objective-C. It also supports calling C APIs directly.|
+|Kotlin|Kotlin is fully interoperable with Java on the JVM. It also supports JavaScript interoperability on the JS platform.|
+|Scala|Scala is fully interoperable with Java as it runs on the JVM.|
+|Ruby|Ruby can interoperate with C through Ruby's C API. It also supports calling Java code through JRuby.|
+|.NET|.NET supports multiple languages such as C#, VB.NET, F#, etc., that can interoperate with each other within the .NET platform.|
+|Perl|Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline::C/Inline::CPP for embedding C/C++ code directly into Perl scripts.|
+|Lua|Lua provides interoperability with C through its native C API. It also supports calling other languages through various libraries and bindings⁵.|
+|Groovy|Groovy is fully interoperable with Java as it runs on the JVM. It can use Java libraries directly and can be used from Java as well[^10^].|
+|Objective-C|Objective-C provides strong interoperability with C and C++. It also supports calling Swift code and can be called from Swift¹⁴.|
+|Shell|Shell scripts can call programs written in other languages and can be called from other languages. They are often used to glue together programs written in different languages¹⁶.|
+|R|R can call functions written in C, C++, and Fortran directly. It also supports calling other languages through packages like rJava (for Java) and reticulate (for Python)¹⁸¹⁹.|
+|TypeScript|TypeScript is a superset of JavaScript, so it has full interoperability with JavaScript. It can also interoperate with other languages that compile to JavaScript²¹.|
+|SQL|SQL can interoperate with other languages through database connectors or drivers. Many languages have libraries or built-in features to execute SQL commands and retrieve results²²³²⁴.|
+|HTML|HTML is used in tandem with CSS and JavaScript for web development, providing strong interoperability with these languages⁴²⁷.|
+|CSS|CSS is used in tandem with HTML and JavaScript for web development, providing strong interoperability with these languages⁴²⁷.|
+
+
+
+
+Source: Conversation with Bing, 9/20/2023
+(1) lua-users wiki: Using Lua With Other Languages. https://lua-users.org/wiki/UsingLuaWithOtherLanguages.
+(2) The Apache Groovy programming language. http://www.groovy-lang.org/.
+(3) Conversation about .NET interop - .NET Blog. https://devblogs.microsoft.com/dotnet/conversation-about-net-interop/.
+(4) Multilingual PowerShell scripts: A must for multinational ... - TechGenix. https://techgenix.com/multilingual-powershell-scripts/.
+(5) Interoperability - GraalVM. https://www.graalvm.org/latest/reference-manual/r/Interoperability/.
+(6) GitHub - sol-eng/interop: Using R with other languages. https://github.com/sol-eng/interop.
+(7) Intergrating TypeScript with Other Programming Languages. https://electro4u.net/blog/intergrating-typescript-with-other-programming-languages--3193.
+(8) interop - How do multiple languages interact in one project? - Stack .... https://stackoverflow.com/questions/636841/how-do-multiple-languages-interact-in-one-project.
+(9) Common Language Specification (CLS)) - Computer Notes. https://ecomputernotes.com/csharp/dotnet/common-language-specification.
+(10) Interoperability Overview - C# | Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/interop/.
+(11) Language interoperability - Wikipedia. https://en.wikipedia.org/wiki/Language_interoperability.
+(12) Styling using language attributes - World Wide Web Consortium (W3C). https://www.w3.org/International/questions/qa-css-lang.
+(13) language interoperability - Automatic interaction with Perl code .... https://stackoverflow.com/questions/4272794/automatic-interaction-with-perl-code.
+(14) How is perl different from other languages - stat.berkeley.edu. https://www.stat.berkeley.edu/~spector/extension/perl/notes/node6.html.
+(15) Lua: about. http://www.lua.org/about.html.
+(16) Chapter 13. Interfacing Lua with Other Languages - O'Reilly Media. https://www.oreilly.com/library/view/beginning-lua-programming/9780470069172/ch13.html.
+(17) Introduction to Lua - Morrowind Script Extender - GitHub Pages. https://mwse.github.io/MWSE/guides/introduction-to-lua/.
+(18) How stable is the Groovy language? - Stack Overflow. https://stackoverflow.com/questions/791837/how-stable-is-the-groovy-language.
+(19) Simplifying Codebase: Harnessing Groovy's Java Interoperability. https://marketsplash.com/tutorials/groovy/groovy-java-interoperability/.
+(20) groovy - Best dynamic language to pair with Java on a Java project .... https://stackoverflow.com/questions/3894477/best-dynamic-language-to-pair-with-java-on-a-java-project.
+(21) The Challenge of Cross-language Interoperability - ACM Queue. https://queue.acm.org/detail.cfm?id=2543971.
+(22) INTEROPERABILITY Bridging: from Objective-C - SlideShare. https://www.slideshare.net/giuseppearici/swift-programminglanguage/142-INTEROPERABILITY_Bridging_from_ObjectiveC_to.
+(23) GraalVM Python Runtime. https://www.graalvm.org/latest/reference-manual/python/.
+(24) Code Coverage for TypeScript and Other Transpiled Languages. https://www.sitepen.com/blog/code-coverage-for-typescript-and-other-transpiled-languages.
+(25) FAQ | Dart. https://dart.dev/resources/faq.
+(26) Interoperability (IEKO) - International Society for Knowledge Organization. https://www.isko.org/cyclo/interoperability.
+(27) ISO 25964-1:2011(en), Information and documentation ? Thesauri and .... https://www.iso.org/obp/ui/.
+
+
+[
+    {
+        "language": "Python",
+        "interoperability": "Python has strong interoperability with C, C++, and Java through various libraries and tools. It also has interoperability with JavaScript through frameworks like Brython."
+    },
+    {
+        "language": "Java",
+        "interoperability": "Java can interoperate with other JVM languages such as Kotlin, Groovy, and Scala. It also has interoperability with native code through the Java Native Interface (JNI)."
+    },
+    {
+        "language": "JavaScript",
+        "interoperability": "JavaScript can interoperate with HTML and CSS in web development. It also has interoperability with other languages through WebAssembly."
+    },
+    {
+        "language": "C",
+        "interoperability": "C has strong interoperability with C++ and can be called from many other languages through Foreign Function Interface (FFI)."
+    },
+    {
+        "language": "C++",
+        "interoperability": "C++ can interoperate with C and has limited interoperability with other languages through wrappers or bindings."
+    },
+    {
+        "language": "C#",
+        "interoperability": "C# can interoperate with other .NET languages and has support for COM and P/Invoke for interoperability with unmanaged code."
+    },
+    {
+        "language": "PHP",
+        "interoperability": "PHP can interoperate with HTML, CSS, JavaScript in web development and can call native libraries."
+    },
+    {
+        "language": "Rust",
+        "interoperability": "Rust provides strong interoperability with C and can be called from other languages through FFI."
+    },
+    {
+        "language": "Go",
+        "interoperability": "Go can interoperate with C through cgo and provides a binary Foreign Function Interface (FFI) for other languages."
+    },
+    {
+        "language": "Swift",
+        "interoperability": "Swift provides strong interoperability with Objective-C. It also supports calling C APIs directly."
+    },
+    {
+        "language": "Kotlin",
+        "interoperability": "Kotlin is fully interoperable with Java on the JVM. It also supports JavaScript interoperability on the JS platform."
+    },
+    {
+        "language": "Scala",
+        "interoperability": "Scala is fully interoperable with Java as it runs on the JVM."
+    },
+    {
+        "language": "Ruby",
+        "interoperability": "Ruby can interoperate with C through Ruby's C API. It also supports calling Java code through JRuby."
+    },
+    {
+        "language": ".NET",
+        "interoperability": ".NET supports multiple languages such as C#, VB.NET, F#, etc., that can interoperate with each other within the .NET platform."
+    },
+    {
+        "language": "Perl",
+        "interoperability": "Perl has strong interoperability with C and C++ through XS, a language that allows Perl to interface with C/C++ libraries. It also supports Inline::C/Inline::CPP for embedding C/C++ code directly into Perl scripts."
+    },
+    {
+        "language": "Lua",
+        "interoperability": "Lua provides interoperability with C through its native C API. It also supports calling other languages through various libraries and bindings⁵."
+    },
+    {
+        "language": "Groovy",
+        "interoperability": "Groovy is fully interoperable with Java as it runs on the JVM. It can use Java libraries directly and can be used from Java as well[^10^]."
+    },
+    {
+        "language": "Objective-C",
+        "interoperability": "Objective-C provides strong interoperability with C and C++. It also supports calling Swift code and can be called from Swift¹⁴."
+    },
+    {
+        "language": "Shell",
+        "interoperability": "Shell scripts can call programs written in other languages and can be called from other languages. They are often used to glue together programs written in different languages¹⁶."
+    },
+    {
+        "language": "R",
+        "interoperability": "R can call functions written in C, C++, and Fortran directly. It also supports calling other languages through packages like rJava (for Java) and reticulate (for Python)¹⁸¹⁹."
+    },
+    {
+        "language": "TypeScript",
+        "interoperability": "TypeScript is a superset of JavaScript, so it has full interoperability with JavaScript. It can also interoperate with other languages that compile to JavaScript²¹."
+    },
+    {
+        "language": "SQL",
+        "interoperability": "SQL can interoperate with other languages through database connectors or drivers. Many languages have libraries or built-in features to execute SQL commands and retrieve results²²³²⁴."
+    },
+    {
+        "language": "HTML",
+        "interoperability": "HTML is used in tandem with CSS and JavaScript for web development, providing strong interoperability with these languages⁴²⁷."
+    },
+    {
+        "language": "CSS",
+        "interoperability": "CSS is used in tandem with HTML and JavaScript for web development, providing strong interoperability with these languages⁴²⁷."
+    }
+]
+
+
 <!-- 
 <div align="center">
 	<a href="https://vshymanskyy.github.io/StandWithUkraine">
