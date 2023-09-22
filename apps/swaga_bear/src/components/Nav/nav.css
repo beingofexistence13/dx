@@ -1,0 +1,23 @@
+.nav-margin {
+  margin-left: 10%;
+}
+
+.wallet-connect {
+  font-size: 15px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* width: 250px; */
+}
+
+.nav-pos  {
+  /* position: fixed; */
+}
+
+.col-8 {
+  text-align: center;
+}
+
+.mright-2 {
+  margin-right: 15px;
+}

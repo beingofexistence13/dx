@@ -1,0 +1,22 @@
+.accordion_style {
+  /* margin: 2rem 0; */
+  border: none;
+  /* box-shadow: 0px 0px 4px 2px #fff; */
+  background: unset;
+}
+
+/* .accordion_style :hover {
+  color: #e6b571;
+  transition: all 0.4s ease-in-out;
+}
+.accordion_style ::after {
+  color: #e6b571;
+} */
+
+.accordion_text {
+  color: white;
+}
+
+.accordion_text :hover {
+  color: white;
+}

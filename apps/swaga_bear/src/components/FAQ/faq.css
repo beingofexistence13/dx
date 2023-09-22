@@ -1,0 +1,14 @@
+.qa {
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+}
+
+.qa:hover {
+  color: #e6b571;
+  transition: all 0.4s ease-in-out;
+}
+
+.accopadding {
+  padding-left: 75px;
+  padding-right: 75px;
+}

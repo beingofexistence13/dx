@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+  .timeline-svg-2 {
+    display: none; }
+
+  .roadmap-holder {
+    position: relative; }
+    .roadmap-holder:before {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      border-left: 3px dashed #4c485e;
+      left: 10%; } }

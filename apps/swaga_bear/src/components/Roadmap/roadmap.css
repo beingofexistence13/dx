@@ -1,0 +1,14 @@
+/* .pathStyle {
+  stroke-dasharray: 1881.01px; 
+  stroke-dashoffset: 663px; 
+  stroke: rgb(77, 73, 96);
+} */
+
+.py-1_5 {
+  padding-top: 0.3rem!important;
+  padding-bottom: 0.3rem!important;
+}
+
+.col-1 {
+  width: 0.3rem!important;
+}

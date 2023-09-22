@@ -1,0 +1,244 @@
+.connectGroup {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialBg {
+  background-color: transparent;
+  height: 0%;
+  position: initial;
+  top: 13vw;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.socialBg {
+    height: auto;
+    position: initial;
+    /* margin-top: 2vw; */
+}
+
+.connect {
+  align-items: right;
+}
+
+.connectBg {
+  background-color: transparent;
+  /* height: 60vh; */
+  position: absolute;
+  top: 2vh;
+  display: flex;
+  justify-content: right;
+  /* align-items: center; */
+}
+
+.autoflex {
+  flex: auto;
+}
+
+.mint_count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* margin-bottom: 15px; */
+}
+
+.mint_box {
+  /* margin-bottom: 2vw; */
+}
+
+.mint_btn {
+  padding: auto;
+  background-color: #eff2f7;
+  color: #000;
+  border: none;
+  font-size: 35px;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.minus_btn {
+  border-radius: 30px 0 0 30px;
+  border-left: 5px solid #000000;
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+}
+
+.plus_btn {
+    border-radius: 0 30px 30px 0;
+    border-right: 5px solid #000000;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+.mint_input {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 150px;
+  border: none;
+  background-color: #eff2f7;
+  color: #000000;
+  height: 100%;
+  padding: 0 !important;
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+}
+
+.init_input {
+      writing-mode: horizontal-tb !important;
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ; */
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+    margin: 0;
+    /* font-family: inherit;
+    font-size: inherit;
+    line-height: inherit; */
+}
+
+.my_anchor {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mint_section {
+  height: 50vh;
+}
+
+.Info {
+  /* padding-top: 200px; */
+  /* margin-top: 30vh; */
+  text-align: center;
+  font-family: "Ink Free";
+}
+
+.status_info {
+  font-size: 4vw;
+  font-family: "Ink Free";
+  font-style: italic;
+}
+
+.status_loading {
+  font-size: 4vw;
+  color: #00ff00;
+  font-family: "Ink Free";
+  font-style: italic;
+}
+
+.status_got {
+  font-size: 4vw;
+  color: cyan;
+  font-family: "Ink Free";
+  font-style: italic;
+}
+
+.mint_price {
+  font-size: 3vw;
+  font-family: "Ink Free";
+
+  text-shadow: -0.2px -0.2px rgb(255, 255, 255);
+
+  font-style: italic;
+  font-weight: bolder;
+  color: #eb3cf0;
+  -webkit-text-size-adjust: auto;
+  /* -webkit-text-stroke-width: 0.1vw;
+  -webkit-text-stroke-color: white; */
+}
+
+
+.presale_duration {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #ffff01;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+}
+.presale_duration {
+  
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffff01;
+    text-shadow: 1px 1px #fe2438;
+  /* font-size: 3vw;
+  font-style: italic;
+  font-weight: bolder; */
+}
+
+
+.mint_left_num {
+  font-size: 2.5vw;
+}
+
+.mint_left_str {
+  font-size: 2vw;
+  color: black;
+  position: relative;
+}
+
+.cannotmint {
+  display: block;
+  position: relative;
+  background-color: #000000;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 8px 30px;
+  font-size: 0.75em;
+  letter-spacing: 0.35em;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 1vw;
+  box-shadow: 5px 10px #ffffff;
+}
+
+.connectColor {
+  color: white;
+}
+
+.mintbuttonGroup {
+  /* width: 50vw; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
