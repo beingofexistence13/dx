@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 bash -c ". .nvm/nvm.sh \
     && nvm install 16 \
     && nvm use 16 \
