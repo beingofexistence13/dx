@@ -578,10 +578,10 @@ const github_repos = [
 
 export default function Home() {
   return (
-    <section className="flex flex-row items-center justify-center overflow-x-hidden overflow-y-auto flex-wrap h-[100vh] w-[100%] space-y-3 space-x-3 pb-24">
+    <section className="flex flex-row items-center justify-center overflow-x-hidden overflow-y-auto flex-wrap h-[100vh] w-[100%] pb-24">
       {/* <h1>Github Repoes will be shown here</h1> */}
       {github_repos.map((item, index) => (
-        <div key={index} className="rounded-lg border p-5 flex flex-col items-start h-[200px] w-[250px] justify-center overflow-y-hidden overflow-x-auto">
+        <div key={index} className="rounded-lg border p-5 flex flex-col items-start h-[200px] w-[250px] justify-center overflow-y-hidden overflow-x-auto ml-3 mt-3">
           <h3 className="text-left w-full">{item.title}</h3>
           <span className="text-nowrap w-full">{item.description}</span>
         </div>
