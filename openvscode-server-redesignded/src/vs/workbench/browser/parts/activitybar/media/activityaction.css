@@ -235,6 +235,6 @@
 
 .monaco-workbench .activitybar.right>.content :not(.monaco-menu)>.monaco-action-bar .profile-badge,
 .monaco-workbench .activitybar.right > .content :not(.monaco-menu) > .monaco-action-bar .badge {
-	left: auto;
-	right: 0;
+	left: 0;
+	right: auto;
 }

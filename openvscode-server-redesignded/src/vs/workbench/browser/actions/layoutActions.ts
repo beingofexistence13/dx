@@ -85,7 +85,7 @@ export class ToggleActivityBarVisibilityAction extends Action2 {
 			},
 			category: Categories.View,
 			f1: true,
-			toggled: ContextKeyExpr.equals('config.workbench.activityBar.visible', true),
+			// toggled: ContextKeyExpr.equals('config.workbench.activityBar.visible', true),
 			menu: [{
 				id: MenuId.MenubarAppearanceMenu,
 				group: '2_workbench_layout',
