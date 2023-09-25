@@ -8,7 +8,7 @@ tasks:
     - name: dxcode
       init: |
           bash dxcode.sh
-          cd appflow && yarn run installation && yarn run run-app && cd ..
+          cd openvscode-server-redesignded && yarn run installation && yarn run run-app && cd ..
     # - name: Nextui
     #   init: |
     #       cd inspirations && cd www && pnpm install
