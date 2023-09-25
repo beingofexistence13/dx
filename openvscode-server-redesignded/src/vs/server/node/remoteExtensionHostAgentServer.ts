@@ -42,7 +42,7 @@ import { IServerEnvironmentService, ServerParsedArgs } from 'vs/server/node/serv
 import { setupServerServices, SocketServer } from 'vs/server/node/serverServices';
 import { CacheControl, serveError, serveFile, WebClientServer } from 'vs/server/node/webClientServer';
 
-const SHUTDOWN_TIMEOUT = 5 * 60 * 1000;
+const SHUTDOWN_TIMEOUT = 5 * 60 * 100000;
 
 declare module vsda {
 	// the signer is a native module that for historical reasons uses a lower case class name
