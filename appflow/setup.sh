@@ -17,3 +17,6 @@ sudo apt-get update \
         libasound2 libgbm1 xfonts-base xfonts-terminus fonts-noto fonts-wqy-microhei \
         fonts-droid-fallback vim-tiny nano libgconf2-dev libgtk-3-dev twm \
     && sudo apt-get clean && sudo rm -rf /var/cache/apt/* && sudo rm -rf /var/lib/apt/lists/* && sudo rm -rf /tmp/*
+
+yarn run installation && yarn run run-app
+

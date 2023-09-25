@@ -1,4 +1,0 @@
-
-tasks:
-  - init: docker build -t appflow . && docker run -p 9888:9888 appflow
-

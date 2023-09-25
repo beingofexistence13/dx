@@ -14,7 +14,7 @@
     "init": "docker-compose up",
     "installation": "yarn && yarn server:init",
     "watch-app": "export NODE_ENV=development && export VSCODE_DEV=1 && yarn gulp watch-init",
-    "run-app": "export NODE_ENV=development && export VSCODE_DEV=1 && ./scripts/code-server.sh --without-connection-token",
+    "run-app": "export NODE_ENV=development && export SVCODE_DEV=1 && ./scripts/code-server.sh --without-connection-token",
     "test": "echo Please run any of the test scripts from the scripts folder.",
     "test-browser": "npx playwright install && node test/unit/browser/index.js",
     "test-browser-no-install": "node test/unit/browser/index.js",
