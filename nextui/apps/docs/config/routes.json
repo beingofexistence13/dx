@@ -1,0 +1,371 @@
+{
+  "routes": [
+    {
+      "key": "guide",
+      "title": "Guide",
+      "defaultOpen": true,
+      "keywords": "guide, getting started, start, nextui",
+      "routes": [
+        {
+          "key": "introduction",
+          "title": "Introduction",
+          "keywords": "introduction, nextui",
+          "path": "/docs/guide/introduction.mdx"
+        },
+        {
+          "key": "installation",
+          "title": "Installation",
+          "keywords": "getting started, installation, start, nextui",
+          "path": "/docs/guide/installation.mdx"
+        },
+        {
+          "key": "design-principles",
+          "title": "Design Principles",
+          "keywords": "design principles, nextui",
+          "path": "/docs/guide/design-principles.mdx"
+        },
+        {
+          "key": "upgrade-to-v2",
+          "title": "Upgrade to v2",
+          "keywords": "upgrade, v2, nextui",
+          "path": "/docs/guide/upgrade-to-v2.mdx"
+        }
+      ]
+    },
+    {
+      "key": "frameworks",
+      "title": "Frameworks",
+      "defaultOpen": true,
+      "keywords": "frameworks, nextjs + nextui, vite + nextui, remix + nextui, astro + nextui",
+      "routes": [
+        {
+          "key": "nextjs",
+          "title": "Next.js",
+          "keywords": "nextjs, nextui, next.js",
+          "path": "/docs/frameworks/nextjs.mdx"
+        },
+        {
+          "key": "vite",
+          "title": "Vite",
+          "keywords": "vite, nextui",
+          "path": "/docs/frameworks/vite.mdx"
+        },
+        {
+          "key": "remix",
+          "title": "Remix",
+          "keywords": "remix, nextui",
+          "path": "/docs/frameworks/remix.mdx"
+        },
+        {
+          "key": "astro",
+          "title": "Astro",
+          "keywords": "astro, nextui",
+          "path": "/docs/frameworks/astro.mdx"
+        }
+      ]
+    },
+    {
+      "key": "customization",
+      "title": "Customization",
+      "keywords": "customization, nextui, themes, colors, dark mode, override styles",
+      "defaultOpen": true,
+      "routes": [
+        {
+          "key": "theme",
+          "title": "Theme",
+          "path": "/docs/customization/theme.mdx"
+        },
+        {
+          "key": "layout",
+          "title": "Layout",
+          "path": "/docs/customization/layout.mdx"
+        },
+        {
+          "key": "colors",
+          "title": "Colors",
+          "path": "/docs/customization/colors.mdx"
+        },
+        {
+          "key": "customize-theme",
+          "title": "Customize theme",
+          "path": "/docs/customization/customize-theme.mdx"
+        },
+        {
+          "key": "create-theme",
+          "title": "Create theme",
+          "path": "/docs/customization/create-theme.mdx"
+        },
+        {
+          "key": "dark-mode",
+          "title": "Dark mode",
+          "path": "/docs/customization/dark-mode.mdx"
+        },
+        {
+          "key": "override-styles",
+          "title": "Override styles",
+          "path": "/docs/customization/override-styles.mdx"
+        },
+        {
+          "key": "custom-variants",
+          "title": "Custom variants",
+          "path": "/docs/customization/custom-variants.mdx"
+        }
+      ]
+    },
+    {
+      "key": "components",
+      "title": "Components",
+      "keywords": "interface elements, interactive components, UI components, widgets",
+      "defaultOpen": true,
+      "routes": [
+        {
+          "key": "avatar",
+          "title": "Avatar",
+          "keywords": "avatar, profile picture, user representation, identity",
+          "path": "/docs/components/avatar.mdx"
+        },
+        {
+          "key": "accordion",
+          "title": "Accordion",
+          "keywords": "accordion, collapse, expandable sections, content hiding",
+          "path": "/docs/components/accordion.mdx"
+        },
+        {
+          "key": "badge",
+          "title": "Badge",
+          "keywords": "badge, markers, status indication, count display",
+          "path": "/docs/components/badge.mdx"
+        },
+        {
+          "key": "button",
+          "title": "Button",
+          "keywords": "button, interactive, action trigger, click events",
+          "path": "/docs/components/button.mdx"
+        },
+        {
+          "key": "card",
+          "title": "Card",
+          "keywords": "card, content container, informational blocks, media holder",
+          "path": "/docs/components/card.mdx"
+        },
+        {
+          "key": "checkbox",
+          "title": "Checkbox",
+          "keywords": "checkbox, binary choice, selection control, toggle",
+          "path": "/docs/components/checkbox.mdx"
+        },
+        {
+          "key": "checkbox-group",
+          "title": "Checkbox Group",
+          "keywords": "checkbox group, binary choice, selection control, toggle",
+          "path": "/docs/components/checkbox-group.mdx"
+        },
+        {
+          "key": "chip",
+          "title": "Chip",
+          "keywords": "chip, tag, label, small actionable entity",
+          "path": "/docs/components/chip.mdx"
+        },
+        {
+          "key": "circular-progress",
+          "title": "Circular Progress",
+          "keywords": "circular progress, loading indicator, activity sign, process display",
+          "path": "/docs/components/circular-progress.mdx"
+        },
+        {
+          "key": "code",
+          "title": "Code",
+          "keywords": "code, code snippet, inline code, coding",
+          "path": "/docs/components/code.mdx"
+        },
+        {
+          "key": "divider",
+          "title": "Divider",
+          "keywords": "divider, boundary, separator, section divider",
+          "path": "/docs/components/divider.mdx"
+        },
+        {
+          "key": "dropdown",
+          "title": "Dropdown",
+          "keywords": "dropdown, menu, selection, option list",
+          "path": "/docs/components/dropdown.mdx"
+        },
+        {
+          "key": "image",
+          "title": "Image",
+          "keywords": "image, media, picture, photo, graphic display",
+          "path": "/docs/components/image.mdx"
+        },
+        {
+          "key": "input",
+          "title": "Input",
+          "keywords": "input, text box, form field, data entry",
+          "path": "/docs/components/input.mdx"
+        },
+        {
+          "key": "kbd",
+          "title": "Kbd",
+          "keywords": "keyboard input, shortcut, keys, user input display",
+          "path": "/docs/components/kbd.mdx"
+        },
+        {
+          "key": "link",
+          "title": "Link",
+          "keywords": "link, navigation, href, web page connection",
+          "path": "/docs/components/link.mdx"
+        },
+        {
+          "key": "listbox",
+          "title": "Listbox",
+          "keywords": "listbox, selection, option list, multiple choice",
+          "path": "/docs/components/listbox.mdx",
+          "newPost": true
+        },
+        {
+          "key": "modal",
+          "title": "Modal",
+          "keywords": "modal, dialog box, popup, overlay, content focus",
+          "path": "/docs/components/modal.mdx"
+        },
+        {
+          "key": "navbar",
+          "title": "Navbar",
+          "keywords": "navbar, navigation, top menu, website header",
+          "path": "/docs/components/navbar.mdx"
+        },
+        {
+          "key": "pagination",
+          "title": "Pagination",
+          "keywords": "pagination, page navigation, content division, browsing control",
+          "path": "/docs/components/pagination.mdx"
+        },
+        {
+          "key": "popover",
+          "title": "Popover",
+          "keywords": "popover, tooltip, floating content, additional information",
+          "path": "/docs/components/popover.mdx"
+        },
+        {
+          "key": "progress",
+          "title": "Progress",
+          "keywords": "progress, progress bar, task status, loading indicator",
+          "path": "/docs/components/progress.mdx"
+        },
+        {
+          "key": "radio-group",
+          "title": "Radio Group",
+          "keywords": "radio group, selection set, option selection, exclusive choices",
+          "path": "/docs/components/radio-group.mdx"
+        },
+        {
+          "key": "select",
+          "title": "Select",
+          "keywords": "select, selection, option list, multiple choice",
+          "path": "/docs/components/select.mdx",
+          "newPost": true
+        },
+        {
+          "key": "skeleton",
+          "title": "Skeleton",
+          "keywords": "skeleton, loading state, placeholder, content preview",
+          "path": "/docs/components/skeleton.mdx"
+        },
+        {
+          "key": "snippet",
+          "title": "Snippet",
+          "keywords": "snippet, code block, programming, code example",
+          "path": "/docs/components/snippet.mdx"
+        },
+        {
+          "key": "scroll-shadow",
+          "title": "Scroll Shadow",
+          "keywords": "scroll shadow, scroll indicator, scroll bar, scroll position",
+          "path": "/docs/components/scroll-shadow.mdx",
+          "newPost": true
+        },
+        {
+          "key": "spacer",
+          "title": "Spacer",
+          "keywords": "spacer, padding, margin, whitespace, gap",
+          "path": "/docs/components/spacer.mdx"
+        },
+        {
+          "key": "spinner",
+          "title": "Spinner",
+          "keywords": "spinner, loading, activity indicator, processing signal",
+          "path": "/docs/components/spinner.mdx"
+        },
+        {
+          "key": "switch",
+          "title": "Switch",
+          "keywords": "switch, toggle, binary input, on/off control",
+          "path": "/docs/components/switch.mdx"
+        },
+        {
+          "key": "table",
+          "title": "Table",
+          "keywords": "table, data display, grid, spreadsheet",
+          "path": "/docs/components/table.mdx"
+        },
+        {
+          "key": "tabs",
+          "title": "Tabs",
+          "keywords": "tabs, section navigation, categorized content, tabbed interface",
+          "path": "/docs/components/tabs.mdx"
+        },
+        {
+          "key": "textarea",
+          "title": "Textarea",
+          "keywords": "textarea, multi-line text input, large text field, form control",
+          "path": "/docs/components/textarea.mdx"
+        },
+        {
+          "key": "tooltip",
+          "title": "Tooltip",
+          "keywords": "tooltip, hint, descriptive message, hover info",
+          "path": "/docs/components/tooltip.mdx"
+        },
+        {
+          "key": "user",
+          "title": "User",
+          "keywords": "user, account, user profile, identity",
+          "path": "/docs/components/user.mdx"
+        }
+      ]
+    }
+  ],
+  "mobileRoutes": [
+    {
+      "key": "getting-started",
+      "title": "Getting Started",
+      "defaultOpen": true,
+      "keywords": "getting started, main routes, blog, docs, components, nextui",
+      "routes": [
+        {
+          "key": "docs",
+          "title": "Documentation",
+          "keywords": "documentation, guide, nextui",
+          "path": "/docs/guide/introduction.mdx"
+        },
+        {
+          "key": "components",
+          "title": "Components",
+          "keywords": "components, nextui",
+          "path": "/docs/components/avatar"
+        },
+        {
+          "key": "blog",
+          "title": "Blog",
+          "keywords": "blog, nextui, news, updates",
+          "path": "/blog"
+        },
+        {
+          "key": "figma",
+          "title": "Figma",
+          "keywords": "figma, nextui, design, ui kit",
+          "path": "/figma"
+        }
+      ]
+    }
+  ]
+}
