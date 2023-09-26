@@ -4,10 +4,10 @@
   "description": "Supabase main website",
   "private": true,
   "scripts": {
-    "dev": "next --port 3000",
+    "dev": "next --port 9000",
     "build": "next build",
     "export": "next export",
-    "start": "next start",
+    "start": "next start --port 7000",
     "typecheck": "tsc",
     "prettier": "prettier --write \"./{pages,components,lib,stores,styles,tests}/**/*.{ts,tsx,md,js,jsx,json}\"",
     "postbuild": "node ./internals/generate-sitemap.mjs"

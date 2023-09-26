@@ -5,6 +5,16 @@ tasks:
           bun run build
       command: |
           bun run dev
+    - name: nextui
+      init: |
+          cd nextui && pnpm install
+      command: |
+          cd apps/docs pnpm run dev
+    - name: nextui
+      init: |
+          cd nextui && pnpm install
+      command: |
+          cd apps/docs pnpm run dev
     - name: dxcode
       init: |
           bash dxcode.sh
