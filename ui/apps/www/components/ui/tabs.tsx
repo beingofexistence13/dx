@@ -1,3 +1,6 @@
+/* eslint-disable tailwindcss/classnames-order */
+
+
 "use client"
 
 import * as React from "react"
@@ -14,7 +17,7 @@ const TabsList = React.forwardRef<
   <TabsPrimitive.List
     ref={ref}
     className={cn(
-      "inline-flex h-12 items-center justify-center rounded-md bg-muted px-[10px] py-1.5 text-muted-foreground",
+      "bg-muted text-muted-foreground inline-flex h-12 items-center justify-center rounded-md px-[10px] py-1.5",
       className
     )}
     {...props}
@@ -29,7 +32,7 @@ const TabsTrigger = React.forwardRef<
   <TabsPrimitive.Trigger
     ref={ref}
     className={cn(
-      "2xs:px-[10px inline-flex items-center justify-center whitespace-nowrap rounded-sm py-1 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm xs:px-[20px] sm:px-2.5",
+      "2xs:px-[10px ring-offset-background focus-visible:ring-ring data-[state=active]:bg-background data-[state=active]:text-foreground xs:px-[20px] inline-flex items-center justify-center whitespace-nowrap rounded-sm py-1 text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm sm:px-2.5",
       className
     )}
     {...props}
@@ -44,7 +47,7 @@ const TabsContent = React.forwardRef<
   <TabsPrimitive.Content
     ref={ref}
     className={cn(
-      "mt-2 px-[5%] ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+      "ring-offset-background focus-visible:ring-ring mt-2 px-[5%] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2",
       className
     )}
     {...props}

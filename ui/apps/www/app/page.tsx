@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRightIcon } from "@radix-ui/react-icons"

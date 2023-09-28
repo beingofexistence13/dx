@@ -12,11 +12,11 @@ import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"
 import SiteLayout from "@/components/site-layout"
 
-import { Chakraui } from "./chakraui"
-import { Mantine } from "./mantine"
-import { PrimeReact } from "./primereact"
+// import { Chakraui } from "./chakraui"
+// import { Mantine } from "./mantine"
+// import { PrimeReact } from "./primereact"
 import { Nextui } from "./nextui"
-import { Query } from "./query"
+// import { Query } from "./query"
 import { Redux } from "./redux"
 
 export const metadata: Metadata = {
