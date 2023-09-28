@@ -21,7 +21,7 @@ export default function IndexPage() {
       <PageHeader className="pb-8">
         <Link
           href="/docs/changelog"
-          className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium"
+          className="bg-muted inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium"
         >
           🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
           <span className="sm:hidden">Style, a new CLI and more.</span>
@@ -51,7 +51,7 @@ export default function IndexPage() {
         </div>
       </PageHeader>
       <ExamplesNav className="[&>a:first-child]:text-primary" />
-      <section className="space-y-8 overflow-hidden rounded-lg border-2 border-primary dark:border-muted md:hidden">
+      <section className="border-primary dark:border-muted space-y-8 overflow-hidden rounded-lg border-2 md:hidden">
         <Image
           src="/examples/dashboard-light.png"
           width={1280}
@@ -68,7 +68,7 @@ export default function IndexPage() {
         />
       </section>
       <section className="hidden md:block">
-        <div className="overflow-hidden rounded-lg border bg-background shadow">
+        <div className="bg-background overflow-hidden rounded-lg border shadow">
           <DashboardPage />
         </div>
       </section>
