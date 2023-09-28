@@ -1,24 +1,24 @@
 tasks:
     - name: dx
       init: |
-          npm install -g bun && cd apps/www && bun install
-          bun run build
+          npm install -g bun && bun install
+          cd apps/www && bun install && bun run build
       command: |
           bun run dev
-    - name: nextui
-      init: |
-          cd nextui && pnpm install
-      command: |
-          cd apps/docs pnpm run dev
-    - name: nextui
-      init: |
-          cd nextui && pnpm install
-      command: |
-          cd apps/docs pnpm run dev
-    - name: dxcode
-      init: |
-          bash dxcode.sh
-          cd openvscode-server-redesignded && yarn run installation && yarn run run-app && cd ..
+    # - name: nextui
+    #   init: |
+    #       cd nextui && pnpm install
+    #   command: |
+    #       cd apps/docs pnpm run dev
+    # - name: nextui
+    #   init: |
+    #       cd nextui && pnpm install
+    #   command: |
+    #       cd apps/docs pnpm run dev
+    # - name: dxcode
+    #   init: |
+    #       bash dxcode.sh
+    #       cd openvscode-server-redesignded && yarn run installation && yarn run run-app && cd ..
     # - name: Nextui
     #   init: |
     #       cd inspirations && cd www && pnpm install
