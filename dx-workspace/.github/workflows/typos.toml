@@ -1,0 +1,32 @@
+[default.extend-identifiers]
+alog = "alog"
+Jetbrains = "JetBrains"
+IST = "IST"
+MacOS = "macOS"
+AKS = "AKS"
+O_WRONLY = "O_WRONLY"
+
+[default.extend-words]
+AKS = "AKS"
+# do as sudo replacement
+doas = "doas"
+darcula = "darcula"
+Hashi = "Hashi"
+trialer = "trialer"
+encrypter = "encrypter"
+
+[files]
+extend-exclude = [
+	"**.svg",
+	"**.png",
+	"**.lock",
+	"go.sum",
+	"go.mod",
+	# These files contain base64 strings that confuse the detector
+	"**XService**.ts",
+	"**identity.go",
+	"scripts/ci-report/testdata/**",
+	"**/*_test.go",
+	"**/*.test.tsx",
+	"**/pnpm-lock.yaml",
+]

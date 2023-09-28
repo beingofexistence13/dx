@@ -1,0 +1,90 @@
+name: dogfood
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "flake.nix"
+      - "flake.lock"
+      - "dogfood/**"
+      - ".github/workflows/dogfood.yaml"
+  # Uncomment these lines when testing with CI.
+  # pull_request:
+  #   paths:
+  #     - "flake.nix"
+  #     - "flake.lock"
+  #     - "dogfood/**"
+  #     - ".github/workflows/dogfood.yaml"
+  workflow_dispatch:
+
+jobs:
+  deploy_image:
+    runs-on: buildjet-4vcpu-ubuntu-2204
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get branch name
+        id: branch-name
+        uses: tj-actions/branch-names@v6.5
+
+      - name: "Branch name to Docker tag name"
+        id: docker-tag-name
+        run: |
+          tag=${{ steps.branch-name.outputs.current_branch }}
+          # Replace / with --, e.g. user/feature => user--feature.
+          tag=${tag//\//--}
+          echo "tag=${tag}" >> $GITHUB_OUTPUT
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v4
+
+      - name: Run the Magic Nix Cache
+        uses: DeterminateSystems/magic-nix-cache-action@v2
+
+      - run: nix build .#devEnvImage && ./result | docker load
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+      - name: Tag and Push
+        run: |
+          docker tag codercom/oss-dogfood:latest codercom/oss-dogfood:${{ steps.docker-tag-name.outputs.tag }}
+          docker push codercom/oss-dogfood -a
+
+  deploy_template:
+    needs: deploy_image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get short commit SHA
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Get latest commit title
+        id: message
+        run: echo "pr_title=$(git log --format=%s -n 1 ${{ github.sha }})" >> $GITHUB_OUTPUT
+
+      - name: "Get latest Coder binary from the server"
+        run: |
+          curl -fsSL "https://dev.coder.com/bin/coder-linux-amd64" -o "./coder"
+          chmod +x "./coder"
+
+      - name: "Push template"
+        run: |
+          ./coder templates push $CODER_TEMPLATE_NAME --directory $CODER_TEMPLATE_DIR --yes --name=$CODER_TEMPLATE_VERSION --message="$CODER_TEMPLATE_MESSAGE"
+        env:
+          # Consumed by Coder CLI
+          CODER_URL: https://dev.coder.com
+          CODER_SESSION_TOKEN: ${{ secrets.CODER_SESSION_TOKEN }}
+          # Template source & details
+          CODER_TEMPLATE_NAME: ${{ secrets.CODER_TEMPLATE_NAME }}
+          CODER_TEMPLATE_VERSION: ${{ steps.vars.outputs.sha_short }}
+          CODER_TEMPLATE_DIR: ./dogfood
+          CODER_TEMPLATE_MESSAGE: ${{ steps.message.outputs.pr_title }}

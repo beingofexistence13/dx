@@ -1,0 +1,545 @@
+# GitHub release workflow.
+name: Release
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Perform a dry-run release (devel). Note that ref must be an annotated tag when run without dry-run.
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  # Required to publish a release
+  contents: write
+  # Necessary to push docker images to ghcr.io.
+  packages: write
+  # Necessary for GCP authentication (https://github.com/google-github-actions/setup-gcloud#usage)
+  id-token: write
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+env:
+  # Use `inputs` (vs `github.event.inputs`) to ensure that booleans are actual
+  # booleans, not strings.
+  # https://github.blog/changelog/2022-06-10-github-actions-inputs-unified-across-manual-and-reusable-workflows/
+  CODER_RELEASE: ${{ !inputs.dry_run }}
+  CODER_DRY_RUN: ${{ inputs.dry_run }}
+
+jobs:
+  release:
+    name: Build and publish
+    runs-on: ${{ github.repository_owner == 'coder' && 'buildjet-8vcpu-ubuntu-2204' || 'ubuntu-latest' }}
+    env:
+      # Necessary for Docker manifest
+      DOCKER_CLI_EXPERIMENTAL: "enabled"
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # If the event that triggered the build was an annotated tag (which our
+      # tags are supposed to be), actions/checkout has a bug where the tag in
+      # question is only a lightweight tag and not a full annotated tag. This
+      # command seems to fix it.
+      # https://github.com/actions/checkout/issues/290
+      - name: Fetch git tags
+        run: git fetch --tags --force
+
+      - name: Print version
+        id: version
+        run: |
+          set -euo pipefail
+          version="$(./scripts/version.sh)"
+          echo "version=$version" >> $GITHUB_OUTPUT
+          # Speed up future version.sh calls.
+          echo "CODER_FORCE_VERSION=$version" >> $GITHUB_ENV
+          echo "$version"
+
+      - name: Create release notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # We always have to set this since there might be commits on
+          # main that didn't have a PR.
+          CODER_IGNORE_MISSING_COMMIT_METADATA: "1"
+        run: |
+          set -euo pipefail
+          ref=HEAD
+          old_version="$(git describe --abbrev=0 "$ref^1")"
+          version="v$(./scripts/version.sh)"
+
+          # Generate notes.
+          release_notes_file="$(mktemp -t release_notes.XXXXXX)"
+          ./scripts/release/generate_release_notes.sh --check-for-changelog --old-version "$old_version" --new-version "$version" --ref "$ref" >> "$release_notes_file"
+          echo CODER_RELEASE_NOTES_FILE="$release_notes_file" >> $GITHUB_ENV
+
+      - name: Show release notes
+        run: |
+          set -euo pipefail
+          cat "$CODER_RELEASE_NOTES_FILE"
+
+      - name: Docker Login
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Go
+        uses: ./.github/actions/setup-go
+
+      - name: Setup Node
+        uses: ./.github/actions/setup-node
+
+      - name: Install nsis and zstd
+        run: sudo apt-get install -y nsis zstd
+
+      - name: Install nfpm
+        run: |
+          set -euo pipefail
+          wget -O /tmp/nfpm.deb https://github.com/goreleaser/nfpm/releases/download/v2.18.1/nfpm_amd64.deb
+          sudo dpkg -i /tmp/nfpm.deb
+          rm /tmp/nfpm.deb
+
+      - name: Install rcodesign
+        run: |
+          set -euo pipefail
+          wget -O /tmp/rcodesign.tar.gz https://github.com/indygreg/apple-platform-rs/releases/download/apple-codesign%2F0.22.0/apple-codesign-0.22.0-x86_64-unknown-linux-musl.tar.gz
+          sudo tar -xzf /tmp/rcodesign.tar.gz \
+            -C /usr/bin \
+            --strip-components=1 \
+            apple-codesign-0.22.0-x86_64-unknown-linux-musl/rcodesign
+          rm /tmp/rcodesign.tar.gz
+
+      - name: Setup Apple Developer certificate and API key
+        run: |
+          set -euo pipefail
+          touch /tmp/{apple_cert.p12,apple_cert_password.txt,apple_apikey.p8}
+          chmod 600 /tmp/{apple_cert.p12,apple_cert_password.txt,apple_apikey.p8}
+          echo "$AC_CERTIFICATE_P12_BASE64" | base64 -d > /tmp/apple_cert.p12
+          echo "$AC_CERTIFICATE_PASSWORD" > /tmp/apple_cert_password.txt
+          echo "$AC_APIKEY_P8_BASE64" | base64 -d > /tmp/apple_apikey.p8
+        env:
+          AC_CERTIFICATE_P12_BASE64: ${{ secrets.AC_CERTIFICATE_P12_BASE64 }}
+          AC_CERTIFICATE_PASSWORD: ${{ secrets.AC_CERTIFICATE_PASSWORD }}
+          AC_APIKEY_P8_BASE64: ${{ secrets.AC_APIKEY_P8_BASE64 }}
+
+      - name: Build binaries
+        run: |
+          set -euo pipefail
+          go mod download
+
+          version="$(./scripts/version.sh)"
+          make gen/mark-fresh
+          make -j \
+            build/coder_"$version"_linux_{amd64,armv7,arm64}.{tar.gz,apk,deb,rpm} \
+            build/coder_"$version"_{darwin,windows}_{amd64,arm64}.zip \
+            build/coder_"$version"_windows_amd64_installer.exe \
+            build/coder_helm_"$version".tgz \
+            build/provisioner_helm_"$version".tgz
+        env:
+          CODER_SIGN_DARWIN: "1"
+          AC_CERTIFICATE_FILE: /tmp/apple_cert.p12
+          AC_CERTIFICATE_PASSWORD_FILE: /tmp/apple_cert_password.txt
+          AC_APIKEY_ISSUER_ID: ${{ secrets.AC_APIKEY_ISSUER_ID }}
+          AC_APIKEY_ID: ${{ secrets.AC_APIKEY_ID }}
+          AC_APIKEY_FILE: /tmp/apple_apikey.p8
+
+      - name: Delete Apple Developer certificate and API key
+        run: rm -f /tmp/{apple_cert.p12,apple_cert_password.txt,apple_apikey.p8}
+
+      - name: Determine base image tag
+        id: image-base-tag
+        run: |
+          set -euo pipefail
+          if [[ "${CODER_RELEASE:-}" != *t* ]] || [[ "${CODER_DRY_RUN:-}" == *t* ]]; then
+            # Empty value means use the default and avoid building a fresh one.
+            echo "tag=" >> $GITHUB_OUTPUT
+          else
+            echo "tag=$(CODER_IMAGE_BASE=ghcr.io/coder/coder-base ./scripts/image_tag.sh)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create empty base-build-context directory
+        if: steps.image-base-tag.outputs.tag != ''
+        run: mkdir base-build-context
+
+      - name: Install depot.dev CLI
+        if: steps.image-base-tag.outputs.tag != ''
+        uses: depot/setup-action@v1
+
+      # This uses OIDC authentication, so no auth variables are required.
+      - name: Build base Docker image via depot.dev
+        if: steps.image-base-tag.outputs.tag != ''
+        uses: depot/build-push-action@v1
+        with:
+          project: wl5hnrrkns
+          context: base-build-context
+          file: scripts/Dockerfile.base
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          pull: true
+          no-cache: true
+          push: true
+          tags: |
+            ${{ steps.image-base-tag.outputs.tag }}
+
+      - name: Verify that images are pushed properly
+        run: |
+          # retry 10 times with a 5 second delay as the images may not be
+          # available immediately
+          for i in {1..10}; do
+            rc=0
+            raw_manifests=$(docker buildx imagetools inspect --raw "${{ steps.image-base-tag.outputs.tag }}") || rc=$?
+            if [[ "$rc" -eq 0 ]]; then
+              break
+            fi
+            if [[ "$i" -eq 10 ]]; then
+              echo "Failed to pull manifests after 10 retries"
+              exit 1
+            fi
+            echo "Failed to pull manifests, retrying in 5 seconds"
+            sleep 5
+          done
+
+          manifests=$(
+            echo "$raw_manifests" | \
+              jq -r '.manifests[].platform | .os + "/" + .architecture + (if .variant then "/" + .variant else "" end)'
+          )
+
+          # Verify all 3 platforms are present.
+          set -euxo pipefail
+          echo "$manifests" | grep -q linux/amd64
+          echo "$manifests" | grep -q linux/arm64
+          echo "$manifests" | grep -q linux/arm/v7
+
+      - name: Build Linux Docker images
+        run: |
+          set -euxo pipefail
+
+          # build Docker images for each architecture
+          version="$(./scripts/version.sh)"
+          make -j build/coder_"$version"_linux_{amd64,arm64,armv7}.tag
+
+          # we can't build multi-arch if the images aren't pushed, so quit now
+          # if dry-running
+          if [[ "$CODER_RELEASE" != *t* ]]; then
+            echo Skipping multi-arch docker builds due to dry-run.
+            exit 0
+          fi
+
+          # build and push multi-arch manifest, this depends on the other images
+          # being pushed so will automatically push them.
+          make -j push/build/coder_"$version"_linux.tag
+
+          # if the current version is equal to the highest (according to semver)
+          # version in the repo, also create a multi-arch image as ":latest" and
+          # push it
+          if [[ "$(git tag | grep '^v' | grep -vE '(rc|dev|-|\+|\/)' | sort -r --version-sort | head -n1)" == "v$(./scripts/version.sh)" ]]; then
+            ./scripts/build_docker_multiarch.sh \
+              --push \
+              --target "$(./scripts/image_tag.sh --version latest)" \
+              $(cat build/coder_"$version"_linux_{amd64,arm64,armv7}.tag)
+          fi
+        env:
+          CODER_BASE_IMAGE_TAG: ${{ steps.image-base-tag.outputs.tag }}
+
+      - name: Generate offline docs
+        run: |
+          version="$(./scripts/version.sh)"
+          make -j build/coder_docs_"$version".tgz
+
+      - name: ls build
+        run: ls -lh build
+
+      - name: Publish release
+        run: |
+          set -euo pipefail
+
+          publish_args=()
+          if [[ $CODER_DRY_RUN == *t* ]]; then
+            publish_args+=(--dry-run)
+          fi
+          declare -p publish_args
+
+          ./scripts/release/publish.sh \
+            "${publish_args[@]}" \
+            --release-notes-file "$CODER_RELEASE_NOTES_FILE" \
+            ./build/*_installer.exe \
+            ./build/*.zip \
+            ./build/*.tar.gz \
+            ./build/*.tgz \
+            ./build/*.apk \
+            ./build/*.deb \
+            ./build/*.rpm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CODER_GPG_RELEASE_KEY_BASE64: ${{ secrets.GPG_RELEASE_KEY_BASE64 }}
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_ID_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+
+      - name: Setup GCloud SDK
+        uses: "google-github-actions/setup-gcloud@v1"
+
+      - name: Publish Helm Chart
+        if: ${{ !inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          version="$(./scripts/version.sh)"
+          mkdir -p build/helm
+          cp "build/coder_helm_${version}.tgz" build/helm
+          cp "build/provisioner_helm_${version}.tgz" build/helm
+          gsutil cp gs://helm.coder.com/v2/index.yaml build/helm/index.yaml
+          helm repo index build/helm --url https://helm.coder.com/v2 --merge build/helm/index.yaml
+          gsutil -h "Cache-Control:no-cache,max-age=0" cp build/helm/coder_helm_${version}.tgz gs://helm.coder.com/v2
+          gsutil -h "Cache-Control:no-cache,max-age=0" cp build/helm/provisioner_helm_${version}.tgz gs://helm.coder.com/v2
+          gsutil -h "Cache-Control:no-cache,max-age=0" cp build/helm/index.yaml gs://helm.coder.com/v2
+          gsutil -h "Cache-Control:no-cache,max-age=0" cp helm/artifacthub-repo.yml gs://helm.coder.com/v2
+
+      - name: Upload artifacts to actions (if dry-run)
+        if: ${{ inputs.dry_run }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-artifacts
+          path: |
+            ./build/*_installer.exe
+            ./build/*.zip
+            ./build/*.tar.gz
+            ./build/*.tgz
+            ./build/*.apk
+            ./build/*.deb
+            ./build/*.rpm
+          retention-days: 7
+
+      - name: Start Packer builds
+        if: ${{ !inputs.dry_run }}
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.CDRCI_GITHUB_TOKEN }}
+          repository: coder/packages
+          event-type: coder-release
+          client-payload: '{"coder_version": "${{ steps.version.outputs.version }}"}'
+
+  publish-homebrew:
+    name: Publish to Homebrew tap
+    runs-on: ubuntu-latest
+    needs: release
+    if: ${{ !inputs.dry_run }}
+
+    steps:
+      # TODO: skip this if it's not a new release (i.e. a backport). This is
+      #       fine right now because it just makes a PR that we can close.
+      - name: Update homebrew
+        env:
+          # Variables used by the `gh` command
+          GH_REPO: coder/homebrew-coder
+          GH_TOKEN: ${{ secrets.CDRCI_GITHUB_TOKEN }}
+        run: |
+          # Keep version number around for reference, removing any potential leading v
+          coder_version="$(echo "${{ needs.release.outputs.version }}" | tr -d v)"
+
+          set -euxo pipefail
+
+          # Setup Git
+          git config --global user.email "ci@coder.com"
+          git config --global user.name "Coder CI"
+          git config --global credential.helper "store"
+
+          temp_dir="$(mktemp -d)"
+          cd "$temp_dir"
+
+          # Download checksums
+          checksums_url="$(gh release view --repo coder/coder "v$coder_version" --json assets \
+            | jq -r ".assets | map(.url) | .[]" \
+            | grep -e ".checksums.txt\$")"
+          wget "$checksums_url" -O checksums.txt
+
+          # Get the SHAs
+          darwin_arm_sha="$(cat checksums.txt | grep "darwin_arm64.zip" | awk '{ print $1 }')"
+          darwin_intel_sha="$(cat checksums.txt | grep "darwin_amd64.zip" | awk '{ print $1 }')"
+          linux_sha="$(cat checksums.txt | grep "linux_amd64.tar.gz" | awk '{ print $1 }')"
+
+          echo "macOS arm64: $darwin_arm_sha"
+          echo "macOS amd64: $darwin_intel_sha"
+          echo "Linux amd64: $linux_sha"
+
+          # Check out the homebrew repo
+          git clone "https://github.com/$GH_REPO" homebrew-coder
+          brew_branch="auto-release/$coder_version"
+          cd homebrew-coder
+
+          # Check if a PR already exists.
+          pr_count="$(gh pr list --search "head:$brew_branch" --json id,closed | jq -r ".[] | select(.closed == false) | .id" | wc -l)"
+          if [[ "$pr_count" > 0 ]]; then
+            echo "Bailing out as PR already exists" 2>&1
+            exit 0
+          fi
+
+          # Set up cdrci credentials for pushing to homebrew-coder
+          echo "https://x-access-token:$GH_TOKEN@github.com" >> ~/.git-credentials
+          # Update the formulae and push
+          git checkout -b "$brew_branch"
+          ./scripts/update-v2.sh "$coder_version" "$darwin_arm_sha" "$darwin_intel_sha" "$linux_sha"
+          git add .
+          git commit -m "coder $coder_version"
+          git push -u origin -f "$brew_branch"
+
+          # Create PR
+          gh pr create \
+            -B master -H "$brew_branch" \
+            -t "coder $coder_version" \
+            -b "" \
+            -r "${{ github.actor }}" \
+            -a "${{ github.actor }}" \
+            -b "This automatic PR was triggered by the release of Coder v$coder_version"
+
+  publish-winget:
+    name: Publish to winget-pkgs
+    runs-on: windows-latest
+    needs: release
+    if: ${{ !inputs.dry_run }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # If the event that triggered the build was an annotated tag (which our
+      # tags are supposed to be), actions/checkout has a bug where the tag in
+      # question is only a lightweight tag and not a full annotated tag. This
+      # command seems to fix it.
+      # https://github.com/actions/checkout/issues/290
+      - name: Fetch git tags
+        run: git fetch --tags --force
+
+      - name: Install wingetcreate
+        run: |
+          Invoke-WebRequest https://aka.ms/wingetcreate/latest -OutFile wingetcreate.exe
+
+      - name: Submit updated manifest to winget-pkgs
+        run: |
+          # The package version is the same as the tag minus the leading "v".
+          # The version in this output already has the leading "v" removed but
+          # we do it again to be safe.
+          $version = "${{ needs.release.outputs.version }}".Trim('v')
+
+          $release_assets = gh release view --repo coder/coder "v${version}" --json assets | `
+            ConvertFrom-Json
+          # Get the installer URL from the release assets.
+          $installer_url = $release_assets.assets | `
+            Where-Object name -Match ".*_windows_amd64_installer.exe$" | `
+            Select -ExpandProperty url
+
+          echo "Installer URL: ${installer_url}"
+          echo "Package version: ${version}"
+
+          # The URL "|X64" suffix forces the architecture as it cannot be
+          # sniffed properly from the URL. wingetcreate checks both the URL and
+          # binary magic bytes for the architecture and they need to both match,
+          # but they only check for `x64`, `win64` and `_64` in the URL. Our URL
+          # contains `amd64` which doesn't match sadly.
+          #
+          # wingetcreate will still do the binary magic bytes check, so if we
+          # accidentally change the architecture of the installer, it will fail
+          # submission.
+          .\wingetcreate.exe update Coder.Coder `
+            --submit `
+            --version "${version}" `
+            --urls "${installer_url}|X64" `
+            --token "$env:WINGET_GH_TOKEN"
+
+        env:
+          # For gh CLI:
+          GH_TOKEN: ${{ github.token }}
+          # For wingetcreate. We need a real token since we're pushing a commit
+          # to GitHub and then making a PR in a different repo.
+          WINGET_GH_TOKEN: ${{ secrets.CDRCI_GITHUB_TOKEN }}
+
+      - name: Comment on PR
+        run: |
+          # wait 30 seconds
+          Start-Sleep -Seconds 30.0
+          # Find the PR that wingetcreate just made.
+          $version = "${{ needs.release.outputs.version }}".Trim('v')
+          $pr_list = gh pr list --repo microsoft/winget-pkgs --search "author:cdrci Coder.Coder version ${version}" --limit 1 --json number | `
+            ConvertFrom-Json
+          $pr_number = $pr_list[0].number
+
+          gh pr comment --repo microsoft/winget-pkgs "${pr_number}" --body "🤖 cc: @deansheather @matifali"
+
+        env:
+          # For gh CLI. We need a real token since we're commenting on a PR in a
+          # different repo.
+          GH_TOKEN: ${{ secrets.CDRCI_GITHUB_TOKEN }}
+
+  publish-chocolatey:
+    name: Publish to Chocolatey
+    runs-on: windows-latest
+    needs: release
+    if: ${{ !inputs.dry_run }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Same reason as for release.
+      - name: Fetch git tags
+        run: git fetch --tags --force
+
+      # From https://chocolatey.org
+      - name: Install Chocolatey
+        run: |
+          Set-ExecutionPolicy Bypass -Scope Process -Force
+          [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+
+          iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+      - name: Build chocolatey package
+        run: |
+          cd scripts/chocolatey
+
+          # The package version is the same as the tag minus the leading "v".
+          # The version in this output already has the leading "v" removed but
+          # we do it again to be safe.
+          $version = "${{ needs.release.outputs.version }}".Trim('v')
+
+          $release_assets = gh release view --repo coder/coder "v${version}" --json assets | `
+            ConvertFrom-Json
+
+          # Get the URL for the Windows ZIP from the release assets.
+          $zip_url = $release_assets.assets | `
+            Where-Object name -Match ".*_windows_amd64.zip$" | `
+            Select -ExpandProperty url
+
+          echo "ZIP URL: ${zip_url}"
+          echo "Package version: ${version}"
+
+          echo "Downloading ZIP..."
+          Invoke-WebRequest $zip_url -OutFile assets.zip
+
+          echo "Extracting ZIP..."
+          Expand-Archive assets.zip -DestinationPath assets/
+
+          # No need to specify nuspec if there's only one in the directory.
+          choco pack --version=$version binary_path=assets/coder.exe
+
+          choco apikey --api-key $env:CHOCO_API_KEY --source https://push.chocolatey.org/
+
+          # No need to specify nupkg if there's only one in the directory.
+          choco push --source https://push.chocolatey.org/
+
+        env:
+          CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
+          # We need a GitHub token for the gh CLI to function under GitHub Actions
+          GH_TOKEN: ${{ secrets.CDRCI_GITHUB_TOKEN }}

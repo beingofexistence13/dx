@@ -1,0 +1,72 @@
+# Common ignore patterns, these rules applies in both root and subdirectories.
+.DS_Store
+.eslintcache
+.gitpod.yml
+.idea
+**/*.swp
+gotests.coverage
+gotests.xml
+gotests_stats.json
+gotests.json
+node_modules/
+vendor/
+yarn-error.log
+
+# VSCode settings.
+**/.vscode/*
+# Allow VSCode recommendations and default settings in project root.
+!/.vscode/extensions.json
+!/.vscode/settings.json
+
+# Front-end ignore patterns.
+.next/
+site/**/*.typegen.ts
+site/build-storybook.log
+site/coverage/
+site/storybook-static/
+site/test-results/*
+site/e2e/test-results/*
+site/e2e/states/*.json
+site/e2e/.auth.json
+site/playwright-report/*
+site/.swc
+site/dist/
+
+# Make target for updating golden files (any dir).
+.gen-golden
+
+# Build
+/build/
+/dist/
+site/out/
+
+# Bundle analysis
+site/stats/
+
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.lock.hcl
+.terraform/
+
+**/.coderv2/*
+**/__debug_bin
+
+# direnv
+.envrc
+*.test
+
+# Loadtesting
+./scaletest/terraform/.terraform
+./scaletest/terraform/.terraform.lock.hcl
+scaletest/terraform/secrets.tfvars
+.terraform.tfstate.*
+
+# Nix
+result
+
+# Data dumps from unit tests
+**/*.test.sql
+
+# Filebrowser.db
+**/filebrowser.db

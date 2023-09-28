@@ -1,0 +1,111 @@
+package rbac
+
+import (
+	"fmt"
+
+	"github.com/google/uuid"
+
+	"golang.org/x/xerrors"
+)
+
+// WorkspaceAgentScope returns a scope that is the same as ScopeAll but can only
+// affect resources in the allow list. Only a scope is returned as the roles
+// should come from the workspace owner.
+func WorkspaceAgentScope(workspaceID, ownerID uuid.UUID) Scope {
+	allScope, err := ScopeAll.Expand()
+	if err != nil {
+		panic("failed to expand scope all, this should never happen")
+	}
+	return Scope{
+		// TODO: We want to limit the role too to be extra safe.
+		// Even though the allowlist blocks anything else, it is still good
+		// incase we change the behavior of the allowlist. The allowlist is new
+		// and evolving.
+		Role: allScope.Role,
+		// This prevents the agent from being able to access any other resource.
+		AllowIDList: []string{
+			workspaceID.String(),
+			ownerID.String(),
+			// TODO: Might want to include the template the workspace uses too?
+		},
+	}
+}
+
+const (
+	ScopeAll                ScopeName = "all"
+	ScopeApplicationConnect ScopeName = "application_connect"
+)
+
+// TODO: Support passing in scopeID list for allowlisting resources.
+var builtinScopes = map[ScopeName]Scope{
+	// ScopeAll is a special scope that allows access to all resources. During
+	// authorize checks it is usually not used directly and skips scope checks.
+	ScopeAll: {
+		Role: Role{
+			Name:        fmt.Sprintf("Scope_%s", ScopeAll),
+			DisplayName: "All operations",
+			Site: Permissions(map[string][]Action{
+				ResourceWildcard.Type: {WildcardSymbol},
+			}),
+			Org:  map[string][]Permission{},
+			User: []Permission{},
+		},
+		AllowIDList: []string{WildcardSymbol},
+	},
+
+	ScopeApplicationConnect: {
+		Role: Role{
+			Name:        fmt.Sprintf("Scope_%s", ScopeApplicationConnect),
+			DisplayName: "Ability to connect to applications",
+			Site: Permissions(map[string][]Action{
+				ResourceWorkspaceApplicationConnect.Type: {ActionCreate},
+			}),
+			Org:  map[string][]Permission{},
+			User: []Permission{},
+		},
+		AllowIDList: []string{WildcardSymbol},
+	},
+}
+
+type ExpandableScope interface {
+	Expand() (Scope, error)
+	// Name is for logging and tracing purposes, we want to know the human
+	// name of the scope.
+	Name() string
+}
+
+type ScopeName string
+
+func (name ScopeName) Expand() (Scope, error) {
+	return ExpandScope(name)
+}
+
+func (name ScopeName) Name() string {
+	return string(name)
+}
+
+// Scope acts the exact same as a Role with the addition that is can also
+// apply an AllowIDList. Any resource being checked against a Scope will
+// reject any resource that is not in the AllowIDList.
+// To not use an AllowIDList to reject authorization, use a wildcard for the
+// AllowIDList. Eg: 'AllowIDList: []string{WildcardSymbol}'
+type Scope struct {
+	Role
+	AllowIDList []string `json:"allow_list"`
+}
+
+func (s Scope) Expand() (Scope, error) {
+	return s, nil
+}
+
+func (s Scope) Name() string {
+	return s.Role.Name
+}
+
+func ExpandScope(scope ScopeName) (Scope, error) {
+	role, ok := builtinScopes[scope]
+	if !ok {
+		return Scope{}, xerrors.Errorf("no scope named %q", scope)
+	}
+	return role, nil
+}

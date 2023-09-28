@@ -1,0 +1,244 @@
+Modify Help: Getting Started
+
+This modifies some text on the Getting Started page and adds text about using
+code-server on a team.
+
+It is enabled by default but can be overriden using the cli flag
+`--disable-getting-started-override`.
+
+Index: code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
++++ code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts
+@@ -10,7 +10,7 @@ import { IInstantiationService } from 'v
+ import { IEditorSerializer, IEditorOpenContext } from 'vs/workbench/common/editor';
+ import { DisposableStore, toDisposable } from 'vs/base/common/lifecycle';
+ import { assertIsDefined } from 'vs/base/common/types';
+-import { $, addDisposableListener, append, clearNode, Dimension, reset } from 'vs/base/browser/dom';
++import { $, addDisposableListener, append, clearNode, Dimension, reset, prepend } from 'vs/base/browser/dom';
+ import { ICommandService } from 'vs/platform/commands/common/commands';
+ import { IProductService } from 'vs/platform/product/common/productService';
+ import { hiddenEntriesConfigurationKey, IResolvedWalkthrough, IResolvedWalkthroughStep, IWalkthroughsService } from 'vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedService';
+@@ -59,7 +59,7 @@ import { GettingStartedIndexList } from
+ import { StandardKeyboardEvent } from 'vs/base/browser/keyboardEvent';
+ import { KeyCode } from 'vs/base/common/keyCodes';
+ import { getTelemetryLevel } from 'vs/platform/telemetry/common/telemetryUtils';
+-import { WorkbenchStateContext } from 'vs/workbench/common/contextkeys';
++import { IsEnabledCoderGettingStarted, WorkbenchStateContext } from 'vs/workbench/common/contextkeys';
+ import { OpenFolderAction, OpenFileFolderAction, OpenFolderViaWorkspaceAction } from 'vs/workbench/browser/actions/workspaceActions';
+ import { OpenRecentAction } from 'vs/workbench/browser/actions/windowActions';
+ import { Toggle } from 'vs/base/browser/ui/toggle/toggle';
+@@ -783,6 +783,72 @@ export class GettingStartedPage extends
+ 			$('p.subtitle.description', {}, localize({ key: 'gettingStarted.editingEvolved', comment: ['Shown as subtitle on the Welcome page.'] }, "Editing evolved"))
+ 		);
+ 
++		let gettingStartedCoder: HTMLElement = $('.header', {});
++		if (this.contextService.contextMatchesRules(IsEnabledCoderGettingStarted)) {
++			gettingStartedCoder = $('.gettingStartedCategory', {},
++				$('h2', {
++					style: 'margin-bottom: 12px',
++				}, 'Next Up'),
++				$('a', {
++					href: 'https://cdr.co/code-server-to-coder',
++					target: '_blank',
++				},
++					$('button', {
++						style: [
++							'padding: 10px 16px	',
++							'border-radius: 4px',
++							'background: linear-gradient(94.04deg, #7934DA 0%, #4D52E0 101.2%)',
++							'color: white',
++							'overflow: hidden',
++							'margin-right: 14px',
++						].join(';'),
++					},
++					$('h3', {
++						style: [
++							'margin: 0px 0px 6px',
++							'font-weight: 500',
++						].join(';'),
++					}, 'Deploy code-server for your team'),
++					$('p', {
++						style: [
++							'margin: 0',
++							'font-size: 13px',
++							'color: #dcdee2',
++						].join(';'),
++					}, 'Provision software development environments on your infrastructure with Coder.'),
++					$('p', {
++						style: [
++							'margin-top: 8px',
++							'font-size: 13px',
++							'color: #dcdee2',
++						].join(';'),
++					}, 'Coder is a self-service portal which provisions via Terraform—Linux, macOS, Windows, x86, ARM, and, of course, Kubernetes based infrastructure.'),
++					$('p', {
++						style: [
++							'margin: 0',
++							'margin-top: 8px',
++							'font-size: 13px',
++							'display: flex',
++							'align-items: center',
++						].join(';'),
++					}, 'Get started ', $('span', {
++						class: ThemeIcon.asClassName(Codicon.arrowRight),
++						style: [
++							'color: white',
++							'margin-left: 8px',
++						].join(';'),
++					})),
++					$('img', {
++						src: './_static/src/browser/media/templates.png',
++						style: [
++							'margin-bottom: -65px',
++						].join(';'),
++					}),
++					),
++				),
++			);
++		}
++
+ 		const leftColumn = $('.categories-column.categories-column-left', {},);
+ 		const rightColumn = $('.categories-column.categories-column-right', {},);
+ 
+@@ -832,6 +898,9 @@ export class GettingStartedPage extends
+ 				recentList.setLimit(5);
+ 				reset(leftColumn, startList.getDomElement(), recentList.getDomElement());
+ 			}
++			if (this.contextService.contextMatchesRules(IsEnabledCoderGettingStarted)) {
++				prepend(rightColumn, gettingStartedCoder)
++			}
+ 		};
+ 
+ 		featuredExtensionList.onDidChange(layoutFeaturedExtension);
+Index: code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/media/gettingStarted.css
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/media/gettingStarted.css
++++ code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/browser/media/gettingStarted.css
+@@ -60,6 +60,15 @@
+ 	display: block;
+ }
+ 
++.monaco-workbench .part.editor > .content .gettingStartedContainer .coder {
++	margin-bottom: 0.2em;
++}
++
++.monaco-workbench .part.editor>.content .gettingStartedContainer .coder-coder {
++	font-size: 1em;
++	margin-top: 0.2em;
++}
++
+ .monaco-workbench.hc-black .part.editor>.content .gettingStartedContainer .subtitle,
+ .monaco-workbench.hc-light .part.editor>.content .gettingStartedContainer .subtitle {
+ 	font-weight: 200;
+Index: code-server/lib/vscode/src/vs/workbench/browser/web.api.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/browser/web.api.ts
++++ code-server/lib/vscode/src/vs/workbench/browser/web.api.ts
+@@ -293,6 +293,11 @@ export interface IWorkbenchConstructionO
+ 	 */
+ 	readonly isEnabledFileDownloads?: boolean
+ 
++	/**
++	 * Whether to use Coder's custom Getting Started text.
++	 */
++	readonly isEnabledCoderGettingStarted?: boolean
++
+ 	//#endregion
+ 
+ 	//#region Profile options
+Index: code-server/lib/vscode/src/vs/workbench/services/environment/browser/environmentService.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/services/environment/browser/environmentService.ts
++++ code-server/lib/vscode/src/vs/workbench/services/environment/browser/environmentService.ts
+@@ -39,6 +39,11 @@ export interface IBrowserWorkbenchEnviro
+ 	readonly isEnabledFileDownloads?: boolean;
+ 
+ 	/**
++	 * Enable Coder's custom getting started text.
++	 */
++	readonly isEnabledCoderGettingStarted?: boolean;
++
++	/**
+ 	 * Gets whether a resolver extension is expected for the environment.
+ 	 */
+ 	readonly expectsResolverExtension: boolean;
+@@ -123,6 +128,13 @@ export class BrowserWorkbenchEnvironment
+ 		return this.options.isEnabledFileDownloads;
+ 	}
+ 
++	get isEnabledCoderGettingStarted(): boolean {
++		if (typeof this.options.isEnabledCoderGettingStarted === "undefined") {
++			throw new Error('isEnabledCoderGettingStarted was not provided to the browser');
++		}
++		return this.options.isEnabledCoderGettingStarted;
++	}
++
+ 	@memoize
+ 	get argvResource(): URI { return joinPath(this.userRoamingDataHome, 'argv.json'); }
+ 
+Index: code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
++++ code-server/lib/vscode/src/vs/server/node/serverEnvironmentService.ts
+@@ -18,6 +18,7 @@ export const serverOptions: OptionDescri
+ 	'auth': { type: 'string' },
+ 	'disable-file-downloads': { type: 'boolean' },
+ 	'locale': { type: 'string' },
++	'disable-getting-started-override': { type: 'boolean' },
+ 
+ 	/* ----- server setup ----- */
+ 
+@@ -101,6 +102,7 @@ export interface ServerParsedArgs {
+ 	'auth'?: string
+ 	'disable-file-downloads'?: boolean;
+ 	'locale'?: string
++	'disable-getting-started-override'?: boolean,
+ 
+ 	/* ----- server setup ----- */
+ 
+Index: code-server/lib/vscode/src/vs/server/node/webClientServer.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/server/node/webClientServer.ts
++++ code-server/lib/vscode/src/vs/server/node/webClientServer.ts
+@@ -335,6 +335,7 @@ export class WebClientServer {
+ 			webviewEndpoint: vscodeBase + this._staticRoute + '/out/vs/workbench/contrib/webview/browser/pre',
+ 			userDataPath: this._environmentService.userDataPath,
+ 			isEnabledFileDownloads: !this._environmentService.args['disable-file-downloads'],
++			isEnabledCoderGettingStarted: !this._environmentService.args['disable-getting-started-override'],
+ 			_wrapWebWorkerExtHostInIframe,
+ 			developmentOptions: { enableSmokeTestDriver: this._environmentService.args['enable-smoke-test-driver'] ? true : undefined, logLevel: this._logService.getLevel() },
+ 			settingsSyncOptions: !this._environmentService.isBuilt && this._environmentService.args['enable-sync'] ? { enabled: true } : undefined,
+Index: code-server/lib/vscode/src/vs/workbench/browser/contextkeys.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/browser/contextkeys.ts
++++ code-server/lib/vscode/src/vs/workbench/browser/contextkeys.ts
+@@ -7,7 +7,7 @@ import { Event } from 'vs/base/common/ev
+ import { Disposable } from 'vs/base/common/lifecycle';
+ import { IContextKeyService, IContextKey, setConstant as setConstantContextKey } from 'vs/platform/contextkey/common/contextkey';
+ import { InputFocusedContext, IsMacContext, IsLinuxContext, IsWindowsContext, IsWebContext, IsMacNativeContext, IsDevelopmentContext, IsIOSContext, ProductQualityContext, IsMobileContext } from 'vs/platform/contextkey/common/contextkeys';
+-import { SplitEditorsVertically, InEditorZenModeContext, ActiveEditorCanRevertContext, ActiveEditorGroupLockedContext, ActiveEditorCanSplitInGroupContext, SideBySideEditorActiveContext, AuxiliaryBarVisibleContext, SideBarVisibleContext, PanelAlignmentContext, PanelMaximizedContext, PanelVisibleContext, ActiveEditorContext, EditorsVisibleContext, TextCompareEditorVisibleContext, TextCompareEditorActiveContext, ActiveEditorGroupEmptyContext, MultipleEditorGroupsContext, EmbedderIdentifierContext, EditorTabsVisibleContext, IsCenteredLayoutContext, ActiveEditorGroupIndexContext, ActiveEditorGroupLastContext, ActiveEditorReadonlyContext, EditorAreaVisibleContext, ActiveEditorAvailableEditorIdsContext, DirtyWorkingCopiesContext, EmptyWorkspaceSupportContext, EnterMultiRootWorkspaceSupportContext, HasWebFileSystemAccess, IsFullscreenContext, OpenFolderWorkspaceSupportContext, RemoteNameContext, VirtualWorkspaceContext, WorkbenchStateContext, WorkspaceFolderCountContext, PanelPositionContext, TemporaryWorkspaceContext, IsEnabledFileDownloads, ActiveEditorCanToggleReadonlyContext, applyAvailableEditorIds } from 'vs/workbench/common/contextkeys';
++import { SplitEditorsVertically, InEditorZenModeContext, ActiveEditorCanRevertContext, ActiveEditorGroupLockedContext, ActiveEditorCanSplitInGroupContext, SideBySideEditorActiveContext, AuxiliaryBarVisibleContext, SideBarVisibleContext, PanelAlignmentContext, PanelMaximizedContext, PanelVisibleContext, ActiveEditorContext, EditorsVisibleContext, TextCompareEditorVisibleContext, TextCompareEditorActiveContext, ActiveEditorGroupEmptyContext, MultipleEditorGroupsContext, EmbedderIdentifierContext, EditorTabsVisibleContext, IsCenteredLayoutContext, ActiveEditorGroupIndexContext, ActiveEditorGroupLastContext, ActiveEditorReadonlyContext, EditorAreaVisibleContext, ActiveEditorAvailableEditorIdsContext, DirtyWorkingCopiesContext, EmptyWorkspaceSupportContext, EnterMultiRootWorkspaceSupportContext, HasWebFileSystemAccess, IsFullscreenContext, OpenFolderWorkspaceSupportContext, RemoteNameContext, VirtualWorkspaceContext, WorkbenchStateContext, WorkspaceFolderCountContext, PanelPositionContext, TemporaryWorkspaceContext, IsEnabledFileDownloads, IsEnabledCoderGettingStarted, ActiveEditorCanToggleReadonlyContext, applyAvailableEditorIds } from 'vs/workbench/common/contextkeys';
+ import { TEXT_DIFF_EDITOR_ID, EditorInputCapabilities, SIDE_BY_SIDE_EDITOR_ID, EditorResourceAccessor, SideBySideEditor } from 'vs/workbench/common/editor';
+ import { trackFocus, addDisposableListener, EventType } from 'vs/base/browser/dom';
+ import { preferredSideBySideGroupDirection, GroupDirection, IEditorGroupsService } from 'vs/workbench/services/editor/common/editorGroupsService';
+@@ -211,6 +211,7 @@ export class WorkbenchContextKeysHandler
+ 
+ 		// code-server
+ 		IsEnabledFileDownloads.bindTo(this.contextKeyService).set(this.environmentService.isEnabledFileDownloads ?? true)
++		IsEnabledCoderGettingStarted.bindTo(this.contextKeyService).set(this.environmentService.isEnabledCoderGettingStarted ?? true)
+ 
+ 		this.registerListeners();
+ 	}
+Index: code-server/lib/vscode/src/vs/workbench/common/contextkeys.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/common/contextkeys.ts
++++ code-server/lib/vscode/src/vs/workbench/common/contextkeys.ts
+@@ -39,6 +39,7 @@ export const HasWebFileSystemAccess = ne
+ export const EmbedderIdentifierContext = new RawContextKey<string | undefined>('embedderIdentifier', undefined, localize('embedderIdentifier', 'The identifier of the embedder according to the product service, if one is defined'));
+ 
+ export const IsEnabledFileDownloads = new RawContextKey<boolean>('isEnabledFileDownloads', true, true);
++export const IsEnabledCoderGettingStarted = new RawContextKey<boolean>('isEnabledCoderGettingStarted', true, true);
+ 
+ //#endregion
+ 
