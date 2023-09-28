@@ -1,7 +1,7 @@
 tasks:
     - name: dx
       init: |
-          npm install -g bun && bun install
+          npm install -g bun
           cd apps/www && bun install && bun run build
       command: |
           bun run dev
