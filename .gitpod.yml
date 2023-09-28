@@ -2,6 +2,7 @@ tasks:
     - name: dx
       init: |
           npm install -g bun
+          git config lfs.https://github.com/beingofexistence/dx.git/info/lfs.locksverify false
           cd apps/www && bun install && bun run build
       command: |
           bun run dev
