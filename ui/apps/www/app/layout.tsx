@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import "@/styles/globals.css"
 import { Metadata } from "next"
 
@@ -14,6 +16,7 @@ import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://acme.com"),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
@@ -23,16 +26,16 @@ export const metadata: Metadata = {
     "Next.js",
     "React",
     "Tailwind CSS",
-    "Server Components",
+    "Server SiteLayout",
     "Radix UI",
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "beingofexistence",
+      url: "https://beingofexistence.com",
     },
   ],
-  creator: "shadcn",
+  creator: "beingofexistence",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -58,7 +61,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@shadcn",
+    creator: "@beingofexistence",
   },
   icons: {
     icon: "/favicon.ico",
@@ -79,7 +82,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
+            "bg-background min-h-screen font-sans antialiased",
             fontSans.variable
           )}
         >
