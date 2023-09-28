@@ -576,2011 +576,2011 @@ interface github_repo_props {
 // ]
 const github_repos = [
   {
-    name:"ackee",
+    title:"ackee",
     description:"Self-hosted, Node.js based analytics tool for those who care about privacy."
   },
 {
-    name:"adobe-alternatives",
+    title:"adobe-alternatives",
     description:"A list of alternatives for Adobe software"
   },
 {
-    name:"affine",
+    title:"affine",
     description:"There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. "
   },
 {
-    name:"ai-photo-restorer",
+    title:"ai-photo-restorer",
     description:"null"
   },
 {
-    name:"ai_summerizer",
+    title:"ai_summerizer",
     description:"This will be a step forward for me as ManFromEarth"
   },
 {
-    name:"aladdin",
+    title:"aladdin",
     description:":pancakes: Pancake main features (farms, pools, IFO, lottery, profiles)"
   },
 {
-    name:"aladdin-website-builder",
+    title:"aladdin-website-builder",
     description:"Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API."
   },
 {
-    name:"algo",
+    title:"algo",
     description:"Set up a personal VPN in the cloud"
   },
 {
-    name:"analytics",
+    title:"analytics",
     description:"Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics."
   },
 {
-    name:"animate.css",
+    title:"animate.css",
     description:"🍿 A cross-browser library of CSS animations. As easy to use as an easy thing."
   },
 {
-    name:"anime",
+    title:"anime",
     description:"JavaScript animation engine"
   },
 {
-    name:"ansible",
+    title:"ansible",
     description:"Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com."
   },
 {
-    name:"ant-media-server",
+    title:"ant-media-server",
     description:"Ant Media Server is a live streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. Ant Media Server is auto-scalable and it can run on-premise or on-cloud."
   },
 {
-    name:"apostrophe",
+    title:"apostrophe",
     description:"Apostrophe is a full-featured, open-source CMS built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment."
   },
 {
-    name:"app-directory",
+    title:"app-directory",
     description:"null"
   },
 {
-    name:"app-ideas",
+    title:"app-ideas",
     description:"A Collection of application ideas which can be used to improve your coding skills."
   },
 {
-    name:"app-playground",
+    title:"app-playground",
     description:"https://app-dir.vercel.app/"
   },
 {
-    name:"appflow",
+    title:"appflow",
     description:"Appflow -> Website Builder with AI (If you really want to make a scalable website then you should use a freelancer. But still, by AppFlow you can have a starter template. And if you are a client, then you can usethis to give an idea of how your website should be!!!)"
   },
 {
-    name:"appflow-native",
+    title:"appflow-native",
     description:"Appflow Native ->Native Apps Builder with AI (If you really want to make a scalable app then you should use a freelancer. But still, by AppFlow Native you can have a starter template. And if you are a client, then you can use this to give an idea of how your app should be!!!)"
   },
 {
-    name:"appwrite",
+    title:"appwrite",
     description:"Build Fast. Scale Big. All in One Place. Cloud is now available in public beta. 🌩"
   },
 {
-    name:"ar.js",
+    title:"ar.js",
     description:"Image tracking, Location Based AR, Marker tracking. All on the Web."
   },
 {
-    name:"arduino-ide",
+    title:"arduino-ide",
     description:"Arduino IDE 2.x"
   },
 {
-    name:"arduinocore-api",
+    title:"arduinocore-api",
     description:"Hardware independent layer of the Arduino cores defining the official API"
   },
 {
-    name:"argparse",
+    title:"argparse",
     description:"CLI arguments parser for node.js. JS port of python's argparse module."
   },
 {
-    name:"astro",
+    title:"astro",
     description:"The all-in-one web framework designed for speed. ⭐️ Star to support our work!"
   },
 {
-    name:"authelia",
+    title:"authelia",
     description:"The Single Sign-On Multi-Factor portal for web apps"
   },
 {
-    name:"authpass",
+    title:"authpass",
     description:"AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (kdbx 3.x) compatible."
   },
 {
-    name:"automa",
+    title:"automa",
     description:"A browser extension for automating your browser by connecting blocks"
   },
 {
-    name:"awesome-arduino",
+    title:"awesome-arduino",
     description:"A curated list of awesome Arduino hardwares, libraries and softwares with update script"
   },
 {
-    name:"awesome-chatgpt-prompts",
+    title:"awesome-chatgpt-prompts",
     description:"This repo includes ChatGPT prompt curation to use ChatGPT better."
   },
 {
-    name:"awesome-cpp",
+    title:"awesome-cpp",
     description:"A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
   },
 {
-    name:"awesome-dataScience",
+    title:"awesome-dataScience",
     description:"Python Data Science Handbook: full text in Jupyter Notebooks"
   },
 {
-    name:"awesome-docker",
+    title:"awesome-docker",
     description:":whale: A curated list of Docker resources and projects"
   },
 {
-    name:"awesome-github-user",
+    title:"awesome-github-user",
     description:"😎 Awesome lists about all kinds of interesting topics"
   },
 {
-    name:"awesome-hacking",
+    title:"awesome-hacking",
     description:"A collection of various awesome lists for hackers, pentesters and security researchers"
   },
 {
-    name:"awesome-machine-learning",
+    title:"awesome-machine-learning",
     description:"A curated list of awesome Machine Learning frameworks, libraries and software."
   },
 {
-    name:"awesome-php",
+    title:"awesome-php",
     description:"A curated list of amazingly awesome PHP libraries, resources and shiny things."
   },
 {
-    name:"awesome-python",
+    title:"awesome-python",
     description:"A curated list of awesome Python frameworks, libraries, software and resources"
   },
 {
-    name:"awesome-react",
+    title:"awesome-react",
     description:"A collection of awesome things regarding React ecosystem"
   },
 {
-    name:"awesome-react-native",
+    title:"awesome-react-native",
     description:"Awesome React Native components, news, tools, and learning material!"
   },
 {
-    name:"awesome-selfhosted",
+    title:"awesome-selfhosted",
     description:"A list of Free Software network services and web applications which can be hosted on your own servers"
   },
 {
-    name:"baserow",
+    title:"baserow",
     description:"Baserow is an open source no-code database tool and Airtable alternative. This is a mirrored repository, the official one is hosted on https://gitlab.com/bramw/baserow."
   },
 {
-    name:"bash",
+    title:"bash",
     description:"How to deploy vscode in the browser"
   },
 {
-    name:"BeingOfExistence",
+    title:"BeingOfExistence",
     description:"Just a boy!!!"
   },
 {
-    name:"berty",
+    title:"berty",
     description:"Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network"
   },
 {
-    name:"best-websites-a-programmer-should-visit",
+    title:"best-websites-a-programmer-should-visit",
     description:":link: Some useful websites for programmers."
   },
 {
-    name:"bitcoin",
+    title:"bitcoin",
     description:"Bitcoin Core integration/staging tree"
   },
 {
-    name:"blackhole",
+    title:"blackhole",
     description:"A Music Player App made with Flutter"
   },
 {
-    name:"blender",
+    title:"blender",
     description:"Official mirror of Blender"
   },
 {
-    name:"blink",
+    title:"blink",
     description:"tiniest x86-64-linux emulator"
   },
 {
-    name:"bookstack",
+    title:"bookstack",
     description:"A platform to create documentation/wiki content built with PHP & Laravel"
   },
 {
-    name:"brave-browser",
+    title:"brave-browser",
     description:"Next generation Brave browser for Android, Linux, macOS, Windows."
   },
 {
-    name:"brave-core",
+    title:"brave-core",
     description:"Core engine for the Brave browser for Android, Linux, macOS, Windows. For issues https://github.com/brave/brave-browser/issues"
   },
 {
-    name:"browser-fox",
+    title:"browser-fox",
     description:":cyclone: BrowserBox is Web application virtualization via zero trust remote browser isolation and secure document gateway technology. Embed secure unrestricted webviews on any device in a regular webpage. Multiplayer embeddable browsers, open source!"
   },
 {
-    name:"build-your-own-x",
+    title:"build-your-own-x",
     description:"Master programming by recreating your favorite technologies from scratch."
   },
 {
-    name:"bun",
+    title:"bun",
     description:"Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one"
   },
 {
-    name:"caddy",
+    title:"caddy",
     description:"Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
   },
 {
-    name:"cal.com",
+    title:"cal.com",
     description:"Scheduling infrastructure for absolutely everyone."
   },
 {
-    name:"caprover",
+    title:"caprover",
     description:"Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids"
   },
 {
-    name:"casa-os",
+    title:"casa-os",
     description:"CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system."
   },
 {
-    name:"ceph",
+    title:"ceph",
     description:"Ceph is a distributed object, block, and file storage platform "
   },
 {
-    name:"chainlist",
+    title:"chainlist",
     description:"Hi"
   },
 {
-    name:"chains",
+    title:"chains",
     description:"provides metadata for chains"
   },
 {
-    name:"chakra-ui",
+    title:"chakra-ui",
     description:"⚡️ Simple, Modular & Accessible UI Components for your React Applications"
   },
 {
-    name:"chalk",
+    title:"chalk",
     description:"🖍 Terminal string styling done right"
   },
 {
-    name:"chalk-animation",
+    title:"chalk-animation",
     description:":clapper: Colorful animations in terminal output"
   },
 {
-    name:"changemycursor",
+    title:"changemycursor",
     description:"chrome extension to change your cursor"
   },
 {
-    name:"chartjs",
+    title:"chartjs",
     description:"Simple HTML5 Charts using the <canvas> tag"
   },
 {
-    name:"chatbot-ui",
+    title:"chatbot-ui",
     description:"null"
   },
 {
-    name:"ChatGPT-Desktop",
+    title:"ChatGPT-Desktop",
     description:"🔮 ChatGPT Desktop Application (Mac, Windows and Linux)"
   },
 {
-    name:"chatgpt4-nextjs",
+    title:"chatgpt4-nextjs",
     description:"A well-designed cross-platform ChatGPT UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT 应用。"
   },
 {
-    name:"cheat.sh",
+    title:"cheat.sh",
     description:"the only cheat sheet you need"
   },
 {
-    name:"chia-blockchain",
+    title:"chia-blockchain",
     description:"Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)"
   },
 {
-    name:"chromium",
+    title:"chromium",
     description:"The official GitHub mirror of the Chromium source"
   },
 {
-    name:"cinny",
+    title:"cinny",
     description:"Yet another matrix client"
   },
 {
-    name:"clean-code-javascript",
+    title:"clean-code-javascript",
     description:":bathtub: Clean Code concepts adapted for JavaScript"
   },
 {
-    name:"clean-code-typescript",
+    title:"clean-code-typescript",
     description:"Clean Code concepts adapted for TypeScript"
   },
 {
-    name:"cleave.js",
+    title:"cleave.js",
     description:"Format input text content when you are typing..."
   },
 {
-    name:"cli",
+    title:"cli",
     description:"GitHub’s official command line tool"
   },
 {
-    name:"clients",
+    title:"clients",
     description:"Bitwarden client applications (web, browser extension, desktop, and cli)"
   },
 {
-    name:"cliui",
+    title:"cliui",
     description:"easily create complex multi-column command-line-interfaces."
   },
 {
-    name:"clone-wars",
+    title:"clone-wars",
     description:"100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars."
   },
 {
-    name:"cloudquery",
+    title:"cloudquery",
     description:"The open source high performance data integration platform built for developers."
   },
 {
-    name:"cockroach",
+    title:"cockroach",
     description:"CockroachDB - the open source, cloud-native distributed SQL database."
   },
 {
-    name:"code-server",
+    title:"code-server",
     description:"VS Code in the browser"
   },
 {
-    name:"coder",
+    title:"coder",
     description:"Provision remote development environments via Terraform"
   },
 {
-    name:"coder-test",
+    title:"coder-test",
     description:"just testing coder vscode workspace"
   },
 {
-    name:"colossal-ai",
+    title:"colossal-ai",
     description:"Making large AI models cheaper, faster and more accessible"
   },
 {
-    name:"commander.js",
+    title:"commander.js",
     description:"node.js command-line interfaces made easy"
   },
 {
-    name:"community-skeleton",
+    title:"community-skeleton",
     description:"UVdesk Opensource Community Helpdesk Project built for all to make a Full Ticketing Support System along with many more other features."
   },
 {
-    name:"connect",
+    title:"connect",
     description:"Will intregate youtube,facebook and.."
   },
 {
-    name:"consul",
+    title:"consul",
     description:"Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
   },
 {
-    name:"cosmos",
+    title:"cosmos",
     description:"World's largest Contributor driven code dataset | Used in Quark Search Engine, @OpenGenus IQ, OpenGenus Visual Project"
   },
 {
-    name:"cpp-learning",
+    title:"cpp-learning",
     description:"Curated list of project-based tutorials"
   },
 {
-    name:"cpp-notes",
+    title:"cpp-notes",
     description:":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计"
   },
 {
-    name:"cpython",
+    title:"cpython",
     description:"The Python programming language"
   },
 {
-    name:"css-protips",
+    title:"css-protips",
     description:"⚡️ A collection of tips to help take your CSS skills pro 🦾"
   },
 {
-    name:"curve",
+    title:"curve",
     description:"Curve is a sandbox project hosted by the CNCF Foundation. It's cloud-native, high-performance, and easy to operate. Curve is an open-source distributed storage system for block and shared file storage."
   },
 {
-    name:"daisyui",
+    title:"daisyui",
     description:"⭐️ ⭐️ ⭐️ ⭐️ ⭐️  The most popular, free and open-source Tailwind CSS component library"
   },
 {
-    name:"dall-e",
+    title:"dall-e",
     description:"null"
   },
 {
-    name:"darktable",
+    title:"darktable",
     description:"darktable is an open source photography workflow application and raw developer"
   },
 {
-    name:"dashboard",
+    title:"dashboard",
     description:"thirdweb.com and the thirdweb dashboard"
   },
 {
-    name:"datasets",
+    title:"datasets",
     description:"🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools"
   },
 {
-    name:"dbeaver",
+    title:"dbeaver",
     description:"Free universal database tool and SQL client"
   },
 {
-    name:"definitelytyped",
+    title:"definitelytyped",
     description:"The repository for high quality TypeScript type definitions."
   },
 {
-    name:"design-resources-for-developers",
+    title:"design-resources-for-developers",
     description:"Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
   },
 {
-    name:"detectron2",
+    title:"detectron2",
     description:"Detectron2 is a platform for object detection, segmentation and other visual recognition tasks."
   },
 {
-    name:"developer-roadmap",
+    title:"developer-roadmap",
     description:"Interactive roadmaps, guides and other educational content to help developers grow in their careers."
   },
 {
-    name:"devhome",
+    title:"devhome",
     description:"Dev Home Experience"
   },
 {
-    name:"devtools",
+    title:"devtools",
     description:"⚙️ Browser devtools extension for debugging Vue.js applications."
   },
 {
-    name:"dgraph",
+    title:"dgraph",
     description:"The high-performance database for modern applications"
   },
 {
-    name:"diagrams",
+    title:"diagrams",
     description:":art: Diagram as Code for prototyping cloud system architectures"
   },
 {
-    name:"directus",
+    title:"directus",
     description:"The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database."
   },
 {
-    name:"discord-open-source",
+    title:"discord-open-source",
     description:"List of open source communities living on Discord"
   },
 {
-    name:"django",
+    title:"django",
     description:"The Web framework for perfectionists with deadlines."
   },
 {
-    name:"docker-compose",
+    title:"docker-compose",
     description:"Define and run multi-container applications with Docker"
   },
 {
-    name:"docusaurus",
+    title:"docusaurus",
     description:"Easy to maintain open source documentation websites."
   },
 {
-    name:"dokku",
+    title:"dokku",
     description:"A docker-powered PaaS that helps you build and manage the lifecycle of applications"
   },
 {
-    name:"dom-examples",
+    title:"dom-examples",
     description:"Code examples that accompany various MDN DOM and Web API documentation pages"
   },
 {
-    name:"dragonfly",
+    title:"dragonfly",
     description:"A modern replacement for Redis and Memcached"
   },
 {
-    name:"drawio",
+    title:"drawio",
     description:"draw.io is a JavaScript, client-side editor for general diagramming and whiteboarding"
   },
 {
-    name:"drizzle-orm",
+    title:"drizzle-orm",
     description:"TypeScript ORM that feels like writing SQL."
   },
 {
-    name:"dub",
+    title:"dub",
     description:"An open-source link shortener with built-in analytics + free custom domains."
   },
 {
-    name:"dx",
+    title:"dx",
     description:"An opensource product (but if you are rich then you can give me some money) made for Internet WWW stuffs. If you are a full stack developer than you should visit this atleast once in your life. Flawless (Developer Experince) For Web"
   },
 {
-    name:"dx-native",
+    title:"dx-native",
     description:"This is an opensource product (but if you are rich then you can give me some money) made for All Operating Systems stuffs. If you are a full stack developer than you should visit this atleast once in your life. Flawless (Developer Experince) For  Native Apps"
   },
 {
-    name:"dx-workspace",
+    title:"dx-workspace",
     description:"dx workspaces by coder"
   },
 {
-    name:"dyrectorio",
+    title:"dyrectorio",
     description:"dyrector.io is a self-hosted continuous delivery & deployment platform with version management."
   },
 {
-    name:"elastic-search",
+    title:"elastic-search",
     description:"Free and Open, Distributed, RESTful Search Engine"
   },
 {
-    name:"electron",
+    title:"electron",
     description:":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
   },
 {
-    name:"element-web",
+    title:"element-web",
     description:"A glossy Matrix collaboration client for the web."
   },
 {
-    name:"elysia",
+    title:"elysia",
     description:"Fast, and friendly Bun web framework"
   },
 {
-    name:"emonswap",
+    title:"emonswap",
     description:"The new gen of Blockchain"
   },
 {
-    name:"eruda",
+    title:"eruda",
     description:"Console for mobile browsers"
   },
 {
-    name:"etcher",
+    title:"etcher",
     description:"Flash OS images to SD cards & USB drives, safely and easily."
   },
 {
-    name:"every-programmer-should-know",
+    title:"every-programmer-should-know",
     description:"A collection of (mostly) technical things every software developer should know about"
   },
 {
-    name:"examples",
+    title:"examples",
     description:"A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc."
   },
 {
-    name:"expo",
+    title:"expo",
     description:"An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web."
   },
 {
-    name:"express",
+    title:"express",
     description:"Fast, unopinionated, minimalist web framework for node."
   },
 {
-    name:"express-typescript",
+    title:"express-typescript",
     description:"null"
   },
 {
-    name:"faas",
+    title:"faas",
     description:"OpenFaaS - Serverless Functions Made Simple"
   },
 {
-    name:"face-recognition",
+    title:"face-recognition",
     description:"The world's simplest facial recognition api for Python and the command line"
   },
 {
-    name:"fastText",
+    title:"fastText",
     description:"Library for fast text representation and classification."
   },
 {
-    name:"FaucETH",
+    title:"FaucETH",
     description:"Faucet for EVM chains"
   },
 {
-    name:"ffmpeg",
+    title:"ffmpeg",
     description:"Mirror of https://git.ffmpeg.org/ffmpeg.git"
   },
 {
-    name:"fig-autocomplete",
+    title:"fig-autocomplete",
     description:"IDE-style autocomplete for your existing terminal & shell"
   },
 {
-    name:"figma-primitives",
+    title:"figma-primitives",
     description:"Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos."
   },
 {
-    name:"filebrowser",
+    title:"filebrowser",
     description:"📂 Web File Browser"
   },
 {
-    name:"Files",
+    title:"Files",
     description:"Building the best file manager experience for Windows"
   },
 {
-    name:"flagsmith",
+    title:"flagsmith",
     description:"Open Source Feature Flagging and Remote Config Service. Host on-prem or use our hosted version at https://flagsmith.com/"
   },
 {
-    name:"flowbite",
+    title:"flowbite",
     description:"The most popular and open-source library of Tailwind CSS components"
   },
 {
-    name:"font-awesome",
+    title:"font-awesome",
     description:"The iconic SVG, font, and CSS toolkit"
   },
 {
-    name:"fonts",
+    title:"fonts",
     description:"Font files available from Google Fonts, and a public issue tracker for all things Google Fonts"
   },
 {
-    name:"formatjs",
+    title:"formatjs",
     description:"The monorepo home to all of the FormatJS related libraries, most notably react-intl."
   },
 {
-    name:"formik",
+    title:"formik",
     description:"Build forms in React, without the tears 😭 "
   },
 {
-    name:"free-for-dev",
+    title:"free-for-dev",
     description:"A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev"
   },
 {
-    name:"friday",
+    title:"friday",
     description:"Firday: Your Personal AI Friend. It is an advanced AI assistant designed to work seamlessly across various platforms, including websites and apps. Its capabilities extend beyond those of traditional AI assistantslike Alexa, Google Assistant, and Siri."
   },
 {
-    name:"friday3",
+    title:"friday3",
     description:"Never Gonna Give You Up"
   },
 {
-    name:"friendica",
+    title:"friendica",
     description:"Friendica Communications Platform"
   },
 {
-    name:"front-end-checklist",
+    title:"front-end-checklist",
     description:"🗂 The perfect Front-End Checklist for modern websites and meticulous developer s"
   },
 {
-    name:"fzf",
+    title:"fzf",
     description:":cherry_blossom: A command-line fuzzy finder"
   },
 {
-    name:"gatus",
+    title:"gatus",
     description:"⛑ Automated developer-oriented status page"
   },
 {
-    name:"gestalt",
+    title:"gestalt",
     description:"A set of React UI components that supports Pinterest’s design language"
   },
 {
-    name:"ghidra",
+    title:"ghidra",
     description:"Ghidra is a software reverse engineering (SRE) framework"
   },
 {
-    name:"ghost",
+    title:"ghost",
     description:"Turn your audience into a business. Publishing, memberships, subscriptions and newsletters."
   },
 {
-    name:"gimp",
+    title:"gimp",
     description:"Read-only mirror of https://gitlab.gnome.org/GNOME/gimp"
   },
 {
-    name:"github-vscode-theme",
+    title:"github-vscode-theme",
     description:"GitHub's VS Code themes"
   },
 {
-    name:"gitlabhq",
+    title:"gitlabhq",
     description:"GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com"
   },
 {
-    name:"gitpod",
+    title:"gitpod",
     description:"The developer platform for on-demand cloud development environments to create software faster and more securely."
   },
 {
-    name:"gitpod-docker-compose",
+    title:"gitpod-docker-compose",
     description:"A Docker Compose template, configured for Gitpod (www.gitpod.io) to give you pre-built, ephemeral development environments in the cloud."
   },
 {
-    name:"gitstar-ranking",
+    title:"gitstar-ranking",
     description:"GitHub star ranking for users, organizations and repositories"
   },
 {
-    name:"givenus0026",
+    title:"givenus0026",
     description:"🚀givenus0026 -> This repository is dedicated to an NFT Blockchain project. It’s a one-stop solution for creating, buying, and selling NFTs in a secure environment. With robust architecture, efficient smart contracts, and an intuitive interface, this project is set to exceed expectations. Let’s bring your vision to life! 🌟"
   },
 {
-    name:"go",
+    title:"go",
     description:"The Go programming language"
   },
 {
-    name:"godot",
+    title:"godot",
     description:"Godot Engine – Multi-platform 2D and 3D game engine"
   },
 {
-    name:"google-keep-clone",
+    title:"google-keep-clone",
     description:"Clone of Google Keep built using Django and Javascript"
   },
 {
-    name:"Google-Keep-using-React-Native",
+    title:"Google-Keep-using-React-Native",
     description:"Google Keep with React Native"
   },
 {
-    name:"googlesearch-termux",
+    title:"googlesearch-termux",
     description:"Google Search python program.You can search any website in terminal."
   },
 {
-    name:"gpt-nextjs-example",
+    title:"gpt-nextjs-example",
     description:"null"
   },
 {
-    name:"gradio",
+    title:"gradio",
     description:"Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!"
   },
 {
-    name:"grafana",
+    title:"grafana",
     description:"The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. "
   },
 {
-    name:"graphite",
+    title:"graphite",
     description:"2D raster & vector editor that melds traditional layers & tools with a modern node-based, fully non-destructive procedural workflow."
   },
 {
-    name:"graphql-spec",
+    title:"graphql-spec",
     description:"GraphQL is a query language and execution engine tied to any backend service."
   },
 {
-    name:"hacker-scripts",
+    title:"hacker-scripts",
     description:"Based on a true story"
   },
 {
-    name:"hackIn",
+    title:"hackIn",
     description:"Login and Logout"
   },
 {
-    name:"hammer.js",
+    title:"hammer.js",
     description:"A javascript library for multi-touch gestures :// You can touch this"
   },
 {
-    name:"has-flag",
+    title:"has-flag",
     description:"Check if argv has a specific flag"
   },
 {
-    name:"head",
+    title:"head",
     description:"A simple guide to HTML <head> elements"
   },
 {
-    name:"headlessui",
+    title:"headlessui",
     description:"Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS."
   },
 {
-    name:"hedgedoc",
+    title:"hedgedoc",
     description:"HedgeDoc - Ideas grow better together"
   },
 {
-    name:"hello",
+    title:"hello",
     description:"Multiversal Social Media!!!"
   },
 {
-    name:"hello-github",
+    title:"hello-github",
     description:":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub."
   },
 {
-    name:"hello-tazmi",
+    title:"hello-tazmi",
     description:"This will be the Main Hello Platform and this project will be done before 31/05/2023(Wednesday)"
   },
 {
-    name:"home-assistant",
+    title:"home-assistant",
     description:":house_with_garden: Open source home automation that puts local control and privacy first."
   },
 {
-    name:"homebridge",
+    title:"homebridge",
     description:"HomeKit support for the impatient."
   },
 {
-    name:"hoppscotch",
+    title:"hoppscotch",
     description:"👽 Open source API development ecosystem - https://hoppscotch.io"
   },
 {
-    name:"hover",
+    title:"hover",
     description:"A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS."
   },
 {
-    name:"html5-boilerplate",
+    title:"html5-boilerplate",
     description:"A professional front-end template for building fast, robust, and adaptable web apps or sites."
   },
 {
-    name:"htmx",
+    title:"htmx",
     description:"</> htmx - high power tools for HTML"
   },
 {
-    name:"hyperdx",
+    title:"hyperdx",
     description:"Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors."
   },
 {
-    name:"hyperscript",
+    title:"hyperscript",
     description:"a small scripting language for the web"
   },
 {
-    name:"hyperui",
+    title:"hyperui",
     description:"Free Tailwind CSS components for application UI, ecommerce and marketing with support for dark mode, RTL and Alpine JS 🚀"
   },
 {
-    name:"icu",
+    title:"icu",
     description:"Repo for counting stars and contributing. Press F to pay respect to glorious developers."
   },
 {
-    name:"ImHex",
+    title:"ImHex",
     description:"🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM."
   },
 {
-    name:"influxdb",
+    title:"influxdb",
     description:"Scalable datastore for metrics, events, and real-time analytics"
   },
 {
-    name:"inpainter-stable-diffusion",
+    title:"inpainter-stable-diffusion",
     description:"null"
   },
 {
-    name:"Inquirer.js",
+    title:"Inquirer.js",
     description:"A collection of common interactive command line user interfaces."
   },
 {
-    name:"insomnia",
+    title:"insomnia",
     description:"The open-source, cross-platform API client for GraphQL, REST, WebSockets and gRPC."
   },
 {
-    name:"intellij-community",
+    title:"intellij-community",
     description:"IntelliJ IDEA Community Edition & IntelliJ Platform"
   },
 {
-    name:"ios-mirror",
+    title:"ios-mirror",
     description:"Unofficial mirror of ios"
   },
 {
-    name:"ipfs",
+    title:"ipfs",
     description:"Peer-to-peer hypermedia protocol"
   },
 {
-    name:"jarvis",
+    title:"jarvis",
     description:"JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf"
   },
 {
-    name:"jellyfin",
+    title:"jellyfin",
     description:"The Free Software Media System"
   },
 {
-    name:"jina",
+    title:"jina",
     description:"☁️ Build multimodal AI applications with cloud-native stack"
   },
 {
-    name:"jitsi-meet",
+    title:"jitsi-meet",
     description:"Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application."
   },
 {
-    name:"joi",
+    title:"joi",
     description:"The most powerful data validation library for JS"
   },
 {
-    name:"joplin",
+    title:"joplin",
     description:"Joplin - the secure note taking and to-do app with synchronisation capabilities for Windows, macOS, Linux, Android and iOS."
   },
 {
-    name:"json-server",
+    title:"json-server",
     description:"Get a full fake REST API with zero coding in less than 30 seconds (seriously)"
   },
 {
-    name:"karate",
+    title:"karate",
     description:"Test Automation Made Simple"
   },
 {
-    name:"keep",
+    title:"keep",
     description:"Desktop app for Google Keep packaged with Electron"
   },
 {
-    name:"kiota",
+    title:"kiota",
     description:"OpenAPI based HTTP Client code generator"
   },
 {
-    name:"kiota-cli-commons",
+    title:"kiota-cli-commons",
     description:"Common set of commands for CLI client generation"
   },
 {
-    name:"krita",
+    title:"krita",
     description:"Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks."
   },
 {
-    name:"kubernetes",
+    title:"kubernetes",
     description:"Production-Grade Container Scheduling and Management"
   },
 {
-    name:"kuzzle",
+    title:"kuzzle",
     description:"Open-source Back-end, self-hostable & ready to use - Real-time, storage, advanced search - Web, Apps, Mobile, IoT -"
   },
 {
-    name:"langchain",
+    title:"langchain",
     description:"⚡ Building applications with LLMs through composability ⚡"
   },
 {
-    name:"laravel",
+    title:"laravel",
     description:"null"
   },
 {
-    name:"lazygit",
+    title:"lazygit",
     description:"simple terminal UI for git commands"
   },
 {
-    name:"leaflet",
+    title:"leaflet",
     description:"🍃 JavaScript library for mobile-friendly interactive maps 🇺🇦"
   },
 {
-    name:"learn-regex",
+    title:"learn-regex",
     description:"Learn regex the easy way"
   },
 {
-    name:"learnopencv",
+    title:"learnopencv",
     description:"Learn OpenCV  : C++ and Python Examples"
   },
 {
-    name:"lemmy",
+    title:"lemmy",
     description:"🐀 A link aggregator and forum for the fediverse"
   },
 {
-    name:"leptos",
+    title:"leptos",
     description:"Build fast web applications with Rust."
   },
 {
-    name:"lexical",
+    title:"lexical",
     description:"Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance."
   },
 {
-    name:"libre-pcb",
+    title:"libre-pcb",
     description:"A powerful, innovative and intuitive EDA suite for everyone!"
   },
 {
-    name:"libsql",
+    title:"libsql",
     description:"libSQL is a fork of SQLite that is both Open Source, and Open Contributions."
   },
 {
-    name:"linux",
+    title:"linux",
     description:"Linux kernel source tree"
   },
 {
-    name:"llama",
+    title:"llama",
     description:"Inference code for LLaMA models"
   },
 {
-    name:"localstack",
+    title:"localstack",
     description:"💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline"
   },
 {
-    name:"log-symbols",
+    title:"log-symbols",
     description:"Colored symbols for various log levels"
   },
 {
-    name:"login-widget",
+    title:"login-widget",
     description:"LI.FI Widget for cross-chain bridging and swapping. It will drive your multi-chain strategy and attract new users from everywhere."
   },
 {
-    name:"logseq",
+    title:"logseq",
     description:"A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: http://trello.com/b/8txSM12G/roadmap"
   },
 {
-    name:"lokinet",
+    title:"lokinet",
     description:"Lokinet is an anonymous, decentralized and IP based overlay network for the internet."
   },
 {
-    name:"lossless-cut",
+    title:"lossless-cut",
     description:"The swiss army knife of lossless video/audio editing"
   },
 {
-    name:"lottie-web",
+    title:"lottie-web",
     description:"Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/"
   },
 {
-    name:"m8n",
+    title:"m8n",
     description:"Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services."
   },
 {
-    name:"macos-modern-vscode-theme",
+    title:"macos-modern-vscode-theme",
     description:"MacOS Modern is a theme pack styled to match native MacOS as closely as possible. Use recommended settings in the README.md for best results."
   },
 {
-    name:"ManFromEarth",
+    title:"ManFromEarth",
     description:"Today I will make all things I ever wanted to make. Chances comes very less but I can use them all Sumon!!!"
   },
 {
-    name:"manifesto-terraform",
+    title:"manifesto-terraform",
     description:"The OpenTF Manifesto expresses concern over HashiCorp's switch of the Terraform license from open-source to the Business Source License (BSL) and calls for the tool's return to a truly open-source license."
   },
 {
-    name:"manim",
+    title:"manim",
     description:"Animation engine for explanatory math videos"
   },
 {
-    name:"mantine",
+    title:"mantine",
     description:"A fully featured React components library"
   },
 {
-    name:"mastodon",
+    title:"mastodon",
     description:"Your self-hosted, globally interconnected microblogging community"
   },
 {
-    name:"material-design-icons",
+    title:"material-design-icons",
     description:"Material Design icons by Google"
   },
 {
-    name:"matter-js",
+    title:"matter-js",
     description:"a 2D rigid body physics engine for the web ▲● ■"
   },
 {
-    name:"mediapipe",
+    title:"mediapipe",
     description:"Cross-platform, customizable ML solutions for live and streaming media."
   },
 {
-    name:"medusa",
+    title:"medusa",
     description:"Building blocks for digital commerce"
   },
 {
-    name:"mega",
+    title:"mega",
     description:"The mega.nz web client"
   },
 {
-    name:"memgraph",
+    title:"memgraph",
     description:"Open-source graph database, built for real-time streaming data, compatible with Neo4j."
   },
 {
-    name:"meow",
+    title:"meow",
     description:"🐈 CLI app helper"
   },
 {
-    name:"metabase",
+    title:"metabase",
     description:"The simplest, fastest way to get business intelligence and analytics to everyone in your company :yum:"
   },
 {
-    name:"metadata-playground",
+    title:"metadata-playground",
     description:"Playground for Solidity metadata hash and CBOR encoded data appended to the contract bytecode."
   },
 {
-    name:"minio",
+    title:"minio",
     description:"High Performance Object Storage for AI"
   },
 {
-    name:"mirotalk",
+    title:"mirotalk",
     description:"🚀 WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms."
   },
 {
-    name:"misskey",
+    title:"misskey",
     description:"🌎 An interplanetary microblogging platform 🚀"
   },
 {
-    name:"ml-code",
+    title:"ml-code",
     description:"100 Days of ML Coding"
   },
 {
-    name:"moby",
+    title:"moby",
     description:"Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
   },
 {
-    name:"mockingbird",
+    title:"mockingbird",
     description:"🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time"
   },
 {
-    name:"moment",
+    title:"moment",
     description:"Parse, validate, manipulate, and display dates in javascript."
   },
 {
-    name:"monaco-editor",
+    title:"monaco-editor",
     description:"A browser based code editor"
   },
 {
-    name:"mongodb-starter",
+    title:"mongodb-starter",
     description:"null"
   },
 {
-    name:"mongodb-starter-demo",
+    title:"mongodb-starter-demo",
     description:"null"
   },
 {
-    name:"moralis",
+    title:"moralis",
     description:"This is Moralis!!!"
   },
 {
-    name:"motion",
+    title:"motion",
     description:"Open source, production-ready animation and gesture library for React"
   },
 {
-    name:"motion-canvas",
+    title:"motion-canvas",
     description:"Visualize Complex Ideas Programmatically"
   },
 {
-    name:"motrix",
+    title:"motrix",
     description:"A full-featured download manager."
   },
 {
-    name:"mpv",
+    title:"mpv",
     description:"🎥 Command line video player"
   },
 {
-    name:"multiverse",
+    title:"multiverse",
     description:"Multivers: Your Virtual Universe  Explore, interact, and create in 2D and 3D virtual spaces with Multivers. Dive into animated worlds, meet iconic characters, and experience the internet like never before. Welcome to your virtual adventure!"
   },
 {
-    name:"my-website",
+    title:"my-website",
     description:"First iteration of my personal website build with Next.js"
   },
 {
-    name:"neovim",
+    title:"neovim",
     description:"Vim-fork focused on extensibility and usability"
   },
 {
-    name:"netbird",
+    title:"netbird",
     description:"Connect your devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls."
   },
 {
-    name:"netdata",
+    title:"netdata",
     description:"Monitor your servers, containers, and applications, in high-resolution and in real-time!"
   },
 {
-    name:"netlify-alchemy-dapp-boilerplates",
+    title:"netlify-alchemy-dapp-boilerplates",
     description:"null"
   },
 {
-    name:"netlify-express",
+    title:"netlify-express",
     description:"null"
   },
 {
-    name:"next-auth",
+    title:"next-auth",
     description:"Authentication for the Web."
   },
 {
-    name:"next-auth-example",
+    title:"next-auth-example",
     description:"Example showing how to use NextAuth.js with Next.js"
   },
 {
-    name:"next.js",
+    title:"next.js",
     description:"The React Framework"
   },
 {
-    name:"nextcloud-server",
+    title:"nextcloud-server",
     description:"☁️ Nextcloud server, a safe home for all your data"
   },
 {
-    name:"nextjs-chat",
+    title:"nextjs-chat",
     description:"null"
   },
 {
-    name:"nextjs-chat-demo",
+    title:"nextjs-chat-demo",
     description:"null"
   },
 {
-    name:"nextjs-libraries",
+    title:"nextjs-libraries",
     description:"I will all the libraries I wanted to use ever in websites!!!"
   },
 {
-    name:"nextjs-openai-doc-search-starter",
+    title:"nextjs-openai-doc-search-starter",
     description:"null"
   },
 {
-    name:"nextjs-portfolio-pageview-counter",
+    title:"nextjs-portfolio-pageview-counter",
     description:"null"
   },
 {
-    name:"nextui",
+    title:"nextui",
     description:"🚀   Beautiful, fast and modern React UI library."
   },
 {
-    name:"nodejs.org",
+    title:"nodejs.org",
     description:"The Node.js® Website"
   },
 {
-    name:"nodemon",
+    title:"nodemon",
     description:"Monitor for any changes in your node.js application and automatically restart the server - perfect for development"
   },
 {
-    name:"nomad",
+    title:"nomad",
     description:"Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations."
   },
 {
-    name:"normalize.css",
+    title:"normalize.css",
     description:"A modern alternative to CSS resets"
   },
 {
-    name:"noter-android",
+    title:"noter-android",
     description:"A google keep look alike."
   },
 {
-    name:"notes-app",
+    title:"notes-app",
     description:"Think fearlessly with end-to-end encrypted notes and files. For issues, visit https://standardnotes.com/forum or https://standardnotes.com/help."
   },
 {
-    name:"notesnook",
+    title:"notesnook",
     description:"A fully open source & end-to-end encrypted note taking alternative to Evernote."
   },
 {
-    name:"nothing",
+    title:"nothing",
     description:"halfart"
   },
 {
-    name:"nuclear",
+    title:"nuclear",
     description:"Streaming music player that finds free music for you"
   },
 {
-    name:"nuclei",
+    title:"nuclei",
     description:"Fast and customizable vulnerability scanner based on simple YAML based DSL."
   },
 {
-    name:"nuejs",
+    title:"nuejs",
     description:"Build user interfaces with 10x less code. Alternative to React, Vue, and Svelte"
   },
 {
-    name:"numpy",
+    title:"numpy",
     description:"The fundamental package for scientific computing with Python."
   },
 {
-    name:"nuxt",
+    title:"nuxt",
     description:"Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3."
   },
 {
-    name:"nvdia-tensorflow",
+    title:"nvdia-tensorflow",
     description:"An Open Source Machine Learning Framework for Everyone "
   },
 {
-    name:"nvidia-docker",
+    title:"nvidia-docker",
     description:"Build and run Docker containers leveraging NVIDIA GPUs"
   },
 {
-    name:"nw.js",
+    title:"nw.js",
     description:"Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies."
   },
 {
-    name:"obs-studio",
+    title:"obs-studio",
     description:"OBS Studio - Free and open source software for live streaming and screen recording"
   },
 {
-    name:"Obsidian",
+    title:"Obsidian",
     description:"All Obsidian notes will be stored or will bakeUped in this git repo!!!"
   },
 {
-    name:"ohmyzsh",
+    title:"ohmyzsh",
     description:"🙃   A delightful community-driven (with 2,100+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community."
   },
 {
-    name:"olive",
+    title:"olive",
     description:"Free open-source non-linear video editor"
   },
 {
-    name:"omnivore",
+    title:"omnivore",
     description:"Omnivore is a complete, open source read-it-later solution for people who like reading."
   },
 {
-    name:"open-bb-terminal",
+    title:"open-bb-terminal",
     description:"Investment Research for Everyone, Everywhere."
   },
 {
-    name:"open-gpu-kernel-modules",
+    title:"open-gpu-kernel-modules",
     description:"NVIDIA Linux open GPU kernel module source"
   },
 {
-    name:"open-scan",
+    title:"open-scan",
     description:"A privacy-friendly Document Scanner app"
   },
 {
-    name:"openai-node",
+    title:"openai-node",
     description:"The official Node.js / Typescript library for the OpenAI API"
   },
 {
-    name:"opencv",
+    title:"opencv",
     description:"Open Source Computer Vision Library"
   },
 {
-    name:"openshot-qt",
+    title:"openshot-qt",
     description:"OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world."
   },
 {
-    name:"opentofu",
+    title:"opentofu",
     description:"OpenTofu lets you declaratively manage your cloud infrastructure."
   },
 {
-    name:"openvscode-releases",
+    title:"openvscode-releases",
     description:"This repo is only to produce releases for OpenVSCode Server."
   },
 {
-    name:"OptiVideoEditor-for-android",
+    title:"OptiVideoEditor-for-android",
     description:"Native Video editor : Video trim, Audio, Video merge, Slow and fast motion, Text and image, etc..."
   },
 {
-    name:"ora",
+    title:"ora",
     description:"Elegant terminal spinner"
   },
 {
-    name:"organicmaps",
+    title:"organicmaps",
     description:"🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by MapsWithMe (MapsMe) founders and our community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!"
   },
 {
-    name:"otterscan",
+    title:"otterscan",
     description:"A blazingly fast, local, Ethereum block explorer built on top of Erigon"
   },
 {
-    name:"packer",
+    title:"packer",
     description:"Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
   },
 {
-    name:"paint-by-text",
+    title:"paint-by-text",
     description:"null"
   },
 {
-    name:"palm-rlhf-pytorch",
+    title:"palm-rlhf-pytorch",
     description:"Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM"
   },
 {
-    name:"pandas",
+    title:"pandas",
     description:"Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
   },
 {
-    name:"papers-we-love",
+    title:"papers-we-love",
     description:"Papers from the computer science community to read and discuss."
   },
 {
-    name:"particles.js",
+    title:"particles.js",
     description:"A lightweight JavaScript library for creating particles"
   },
 {
-    name:"passport",
+    title:"passport",
     description:"Simple, unobtrusive authentication for Node.js."
   },
 {
-    name:"path-gradient",
+    title:"path-gradient",
     description:"hello how are khana khake jana!!!"
   },
 {
-    name:"payloads-all-the-things",
+    title:"payloads-all-the-things",
     description:"A list of useful payloads and bypass for Web Application Security and Pentest/CTF"
   },
 {
-    name:"pcloud.github.com",
+    title:"pcloud.github.com",
     description:"pCloud's Developers Website"
   },
 {
-    name:"pdf.js",
+    title:"pdf.js",
     description:"PDF Reader in JavaScript"
   },
 {
-    name:"peertube",
+    title:"peertube",
     description:"ActivityPub-federated video streaming platform using P2P directly in your web browser"
   },
 {
-    name:"penpot",
+    title:"penpot",
     description:"Penpot - The Open-Source design & prototyping platform"
   },
 {
-    name:"photo-editor",
+    title:"photo-editor",
     description:"A Photo Editor library with simple, easy support for image editing using paints,text,filters,emoji and Sticker like stories."
   },
 {
-    name:"photoprism",
+    title:"photoprism",
     description:"AI-Powered Photos App for the Decentralized Web 🌈💎✨"
   },
 {
-    name:"php-laravel",
+    title:"php-laravel",
     description:"Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things."
   },
 {
-    name:"plasmic",
+    title:"plasmic",
     description:"Visual page builder and web design tool for any website or web app tech stack"
   },
 {
-    name:"playwright",
+    title:"playwright",
     description:"Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
   },
 {
-    name:"plop",
+    title:"plop",
     description:"Consistency Made Simple"
   },
 {
-    name:"pm2",
+    title:"pm2",
     description:"Node.js Production Process Manager with a built-in Load Balancer."
   },
 {
-    name:"pnpm",
+    title:"pnpm",
     description:"Fast, disk space efficient package manager"
   },
 {
-    name:"podman",
+    title:"podman",
     description:"Podman: A tool for managing OCI containers and pods."
   },
 {
-    name:"postcss",
+    title:"postcss",
     description:"Transforming styles with JS plugins"
   },
 {
-    name:"powerlevel10k",
+    title:"powerlevel10k",
     description:"A Zsh theme"
   },
 {
-    name:"pptist",
+    title:"pptist",
     description:"基于 Vue3.x + TypeScript 的在线演示文稿（幻灯片）应用，还原了大部分 Office PowerPoint 常用功能，实现在线PPT的编辑、演示。支持导出PPT文件。"
   },
 {
-    name:"preline",
+    title:"preline",
     description:"Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework."
   },
 {
-    name:"prettier",
+    title:"prettier",
     description:"Prettier is an opinionated code formatter."
   },
 {
-    name:"prisma",
+    title:"prisma",
     description:"Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
   },
 {
-    name:"project_3D_developer_portfolio",
+    title:"project_3D_developer_portfolio",
     description:"null"
   },
 {
-    name:"project_ai_mern_image_generation",
+    title:"project_ai_mern_image_generation",
     description:"Build and Deploy a Full Stack MERN AI Image Generation App MidJourney & DALL E Clone"
   },
 {
-    name:"prometheus",
+    title:"prometheus",
     description:"The Prometheus monitoring system and time series database."
   },
 {
-    name:"promptflow",
+    title:"promptflow",
     description:"Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
   },
 {
-    name:"prompts",
+    title:"prompts",
     description:"❯ Lightweight, beautiful and user-friendly interactive prompts"
   },
 {
-    name:"public-apis",
+    title:"public-apis",
     description:"A collective list of free APIs"
   },
 {
-    name:"puppeteer",
+    title:"puppeteer",
     description:"Node.js API for Chrome "
   },
 {
-    name:"pygwalker",
+    title:"pygwalker",
     description:"PyGWalker: Turn your pandas dataframe into an interactive UI for visual analysis"
   },
 {
-    name:"python-patterns",
+    title:"python-patterns",
     description:"A collection of design patterns/idioms in Python"
   },
 {
-    name:"qwen",
+    title:"qwen",
     description:"The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud."
   },
 {
-    name:"rath",
+    title:"rath",
     description:"Next generation of automated data exploratory analysis and visualization platform."
   },
 {
-    name:"rclone",
+    title:"rclone",
     description:"rsync for cloud storage - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files"
   },
 {
-    name:"react",
+    title:"react",
     description:"A declarative, efficient, and flexible JavaScript library for building user interfaces."
   },
 {
-    name:"react-beautiful-dnd",
+    title:"react-beautiful-dnd",
     description:"Beautiful and accessible drag and drop for lists with React"
   },
 {
-    name:"react-dnd",
+    title:"react-dnd",
     description:"Drag and Drop for React"
   },
 {
-    name:"react-email",
+    title:"react-email",
     description:"💌 Build and send emails using React"
   },
 {
-    name:"react-iconly",
+    title:"react-iconly",
     description:"🌈    React component for Iconly icons"
   },
 {
-    name:"react-motion",
+    title:"react-motion",
     description:"A spring that solves your animation problems."
   },
 {
-    name:"react-native",
+    title:"react-native",
     description:"A framework for building native applications using React"
   },
 {
-    name:"react-native-photo-editor",
+    title:"react-native-photo-editor",
     description:"🌄 Photo editor using native modules for iOS and Android. Inherit from 2 available libraries, ZLImageEditor (iOS) and PhotoEditor (Android)"
   },
 {
-    name:"react-native-video-processing",
+    title:"react-native-video-processing",
     description:"Native Video editing/trimming/compressing  :movie_camera: library for React-Native"
   },
 {
-    name:"react-phone-input-2",
+    title:"react-phone-input-2",
     description:":telephone_receiver: Highly customizable phone input component with auto formatting"
   },
 {
-    name:"react-redux",
+    title:"react-redux",
     description:"Official React bindings for Redux"
   },
 {
-    name:"react-three-fiber",
+    title:"react-three-fiber",
     description:"🇨🇭 A React renderer for Three.js"
   },
 {
-    name:"react-use",
+    title:"react-use",
     description:"React Hooks — 👍"
   },
 {
-    name:"react-virtualized",
+    title:"react-virtualized",
     description:"React components for efficiently rendering large lists and tabular data"
   },
 {
-    name:"real-time-voice-cloning",
+    title:"real-time-voice-cloning",
     description:"Clone a voice in 5 seconds to generate arbitrary speech in real-time"
   },
 {
-    name:"realworld",
+    title:"realworld",
     description:"The mother of all demo apps — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"
   },
 {
-    name:"redux-form",
+    title:"redux-form",
     description:"A Higher Order Component using react-redux to keep form state in a Redux store"
   },
 {
-    name:"rimraf",
+    title:"rimraf",
     description:"A `rm -rf` util for nodejs"
   },
 {
-    name:"rippleui",
+    title:"rippleui",
     description:"Clean, modern and beautiful Tailwind CSS components."
   },
 {
-    name:"rocket.chat",
+    title:"rocket.chat",
     description:"The communications platform that puts data protection first."
   },
 {
-    name:"rrweb",
+    title:"rrweb",
     description:"record and replay the web"
   },
 {
-    name:"rust",
+    title:"rust",
     description:"Empowering everyone to build reliable and efficient software."
   },
 {
-    name:"rustdesk",
+    title:"rustdesk",
     description:"An open-source remote desktop, and alternative to TeamViewer."
   },
 {
-    name:"samba",
+    title:"samba",
     description:"https://gitlab.com/samba-team/samba is the Official GitLab mirror of https://git.samba.org/samba.git   --   Merge requests should be made on GitLab (not on GitHub)"
   },
 {
-    name:"sandstorm",
+    title:"sandstorm",
     description:"Sandstorm is a self-hostable web productivity suite. It's implemented as a security-hardened web app package manager."
   },
 {
-    name:"sass",
+    title:"sass",
     description:"Sass makes CSS fun!"
   },
 {
-    name:"scrapy",
+    title:"scrapy",
     description:"Scrapy, a fast high-level web crawling & scraping framework for Python."
   },
 {
-    name:"scrcpy",
+    title:"scrcpy",
     description:"Display and control your Android device"
   },
 {
-    name:"scribble-diffusion",
+    title:"scribble-diffusion",
     description:"null"
   },
 {
-    name:"scribble-diffusion-demo",
+    title:"scribble-diffusion-demo",
     description:"null"
   },
 {
-    name:"sdk-generator",
+    title:"sdk-generator",
     description:"Generating SDKs for multiple programming languages and platforms ⚙️"
   },
 {
-    name:"seafile",
+    title:"seafile",
     description:"High performance file syncing and sharing, with also Markdown WYSIWYG editing, Wiki, file label and other knowledge management features."
   },
 {
-    name:"sentry",
+    title:"sentry",
     description:"Developer-first error tracking and performance monitoring"
   },
 {
-    name:"server",
+    title:"server",
     description:"The core infrastructure backend (API, database, Docker, etc)."
   },
 {
-    name:"sharex",
+    title:"sharex",
     description:"ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from."
   },
 {
-    name:"signal-android-app",
+    title:"signal-android-app",
     description:"A private messenger for Android."
   },
 {
-    name:"sira",
-    description:"🕹 Customizable and 😍 accessible design system which provides TailwindCSS comp onent class name library to build modern UI. 💥"
+    title:"sira",
+    description:"🕹 Customizable and 😍 accessible design system which provides TailwindCSS comp onent class title library to build modern UI. 💥"
   },
 {
-    name:"skateshop",
+    title:"skateshop",
     description:"An open source e-commerce skateshop build with everything new in Next.js 13."
   },
 {
-    name:"snapdrop",
+    title:"snapdrop",
     description:"A Progressive Web App for local file sharing "
   },
 {
-    name:"socket.io",
+    title:"socket.io",
     description:"Realtime application framework (Node.JS server)"
   },
 {
-    name:"sogo",
+    title:"sogo",
     description:"SOGo is a very fast and scalable modern collaboration suite (groupware). It offers calendaring, address book management, and a full-featured Webmail client along with resource sharing and permission handling. It also makes use of documented standards (IMAP, CalDAV, CardDAV, etc.) and thereby provides native connectivity (without plugins) to many cl"
   },
 {
-    name:"solana",
+    title:"solana",
     description:"Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces."
   },
 {
-    name:"solidity",
+    title:"solidity",
     description:"Solidity, the Smart Contract Programming Language"
   },
 {
-    name:"spark",
+    title:"spark",
     description:"Apache Spark - A unified analytics engine for large-scale data processing"
   },
 {
-    name:"splash-screen",
+    title:"splash-screen",
     description:"Just a simple splash screen to work with!!!"
   },
 {
-    name:"spleeter",
+    title:"spleeter",
     description:"Deezer source separation library including pretrained models."
   },
 {
-    name:"src",
+    title:"src",
     description:"Source-code used in Kiwi Browser for Android"
   },
 {
-    name:"stable-diffusion",
+    title:"stable-diffusion",
     description:"A latent text-to-image diffusion model"
   },
 {
-    name:"stable-diffusion-webui",
+    title:"stable-diffusion-webui",
     description:"Stable Diffusion web UI"
   },
 {
-    name:"stablediffusion",
+    title:"stablediffusion",
     description:"High-Resolution Image Synthesis with Latent Diffusion Models"
   },
 {
-    name:"storage",
+    title:"storage",
     description:"Google Drive clone completely anonymous"
   },
 {
-    name:"strapi",
+    title:"strapi",
     description:"🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first."
   },
 {
-    name:"string-width",
+    title:"string-width",
     description:"Get the visual width of a string - the number of columns required to display it"
   },
 {
-    name:"styled-components",
+    title:"styled-components",
     description:"Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅"
   },
 {
-    name:"styled-icons",
+    title:"styled-icons",
     description:"💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components"
   },
 {
-    name:"supabase",
+    title:"supabase",
     description:"The open source Firebase alternative. Follow to stay updated about our public Beta."
   },
 {
-    name:"superplate",
+    title:"superplate",
     description:" A well-structured production-ready frontend boilerplate with Typescript, React Testing Library, styled-component, React Query, .env, Axios, Bundle Analyzer, Prettier and 30+ plugins. superplate creates projects for React.js, Next.js, and refine. https://pankod.github.io/superplate/"
   },
 {
-    name:"superset",
+    title:"superset",
     description:"Apache Superset is a Data Visualization and Data Exploration Platform"
   },
 {
-    name:"swiper",
+    title:"swiper",
     description:"Most modern mobile touch slider with hardware accelerated transitions"
   },
 {
-    name:"swr",
+    title:"swr",
     description:"React Hooks for Data Fetching"
   },
 {
-    name:"syncthing",
+    title:"syncthing",
     description:"Open Source Continuous File Synchronization"
   },
 {
-    name:"system-design-primer",
+    title:"system-design-primer",
     description:"Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."
   },
 {
-    name:"tabby",
+    title:"tabby",
     description:"A terminal for a more modern age"
   },
 {
-    name:"tailgrids",
+    title:"tailgrids",
     description:"Free Tailwind CSS UI Components - Crafted for modern websites, landing pages and web apps. TailGrids Core is free and open-source so, feel free to use with your personal or commercial projects. If you would like to show your support and love, don't forget to give us a star 🌟"
   },
 {
-    name:"tailwindcss-documentation",
+    title:"tailwindcss-documentation",
     description:"The Tailwind CSS documentation website."
   },
 {
-    name:"tailwindcss-intellisense",
+    title:"tailwindcss-intellisense",
     description:"Intelligent Tailwind CSS tooling for Visual Studio Code"
   },
 {
-    name:"tauri",
+    title:"tauri",
     description:"Build smaller, faster, and more secure desktop applications with a web frontend."
   },
 {
-    name:"taxonomy",
+    title:"taxonomy",
     description:"An open source application built using the new router, server components and everything new in Next.js 13."
   },
 {
-    name:"tdesktop",
+    title:"tdesktop",
     description:"Telegram Desktop messaging app"
   },
 {
-    name:"template-typescript-node",
+    title:"template-typescript-node",
     description:"null"
   },
 {
-    name:"tensorflow",
+    title:"tensorflow",
     description:"An Open Source Machine Learning Framework for Everyone"
   },
 {
-    name:"tensorflow-models",
+    title:"tensorflow-models",
     description:"Models and examples built with TensorFlow"
   },
 {
-    name:"terminal-command",
+    title:"terminal-command",
     description:"Magnificent app which corrects your previous console command."
   },
 {
-    name:"termux-app",
+    title:"termux-app",
     description:"Termux - a terminal emulator application for Android OS extendible by variety of packages."
   },
 {
-    name:"terraform",
+    title:"terraform",
     description:"Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned."
   },
 {
-    name:"tesseract",
+    title:"tesseract",
     description:"Tesseract Open Source OCR Engine (main repository)"
   },
 {
-    name:"the-art-of-command-line",
+    title:"the-art-of-command-line",
     description:"Master the command line, in one page"
   },
 {
-    name:"theia",
+    title:"theia",
     description:"Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript."
   },
 {
-    name:"theia-vscode",
+    title:"theia-vscode",
     description:"null"
   },
 {
-    name:"thirdweb-dashboard-web3",
+    title:"thirdweb-dashboard-web3",
     description:"null"
   },
 {
-    name:"three.js",
+    title:"three.js",
     description:"JavaScript 3D Library."
   },
 {
-    name:"threejs-nextjs",
+    title:"threejs-nextjs",
     description:"null"
   },
 {
-    name:"tmux",
+    title:"tmux",
     description:"tmux source code"
   },
 {
-    name:"todo",
+    title:"todo",
     description:"Just start!!!"
   },
 {
-    name:"traefik",
+    title:"traefik",
     description:"The Cloud Native Application Proxy"
   },
 {
-    name:"transform",
+    title:"transform",
     description:"A polyglot web converter."
   },
 {
-    name:"transformers",
+    title:"transformers",
     description:"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX."
   },
 {
-    name:"trash",
+    title:"trash",
     description:"Terabytes,Zetabytes,Qurdrillion"
   },
 {
-    name:"trilium",
+    title:"trilium",
     description:"Build your personal knowledge base with Trilium Notes"
   },
 {
-    name:"triplex",
+    title:"triplex",
     description:"▵ Visually edit React Three Fiber components where your code is source of truth."
   },
 {
-    name:"trpc",
+    title:"trpc",
     description:"🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. "
   },
 {
-    name:"ts-rust-zig-deez",
+    title:"ts-rust-zig-deez",
     description:"rust obsidian visulizer"
   },
 {
-    name:"tsuru",
+    title:"tsuru",
     description:"Open source and extensible Platform as a Service (PaaS)."
   },
 {
-    name:"tts",
+    title:"tts",
     description:":robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts)"
   },
 {
-    name:"twemoji",
+    title:"twemoji",
     description:"Emoji for everyone. https://twemoji.twitter.com/"
   },
 {
-    name:"twitter-algorithm",
+    title:"twitter-algorithm",
     description:"Source code for Twitter's Recommendation Algorithm"
   },
 {
-    name:"twitter-website",
+    title:"twitter-website",
     description:"Twitter's open source website, identifying projects we've released, organizations we support, and the work we do to support open source."
   },
 {
-    name:"typeahead.js",
+    title:"typeahead.js",
     description:"typeahead.js is a fast and fully-featured autocomplete library"
   },
 {
-    name:"typed-html",
+    title:"typed-html",
     description:"TypeSafe HTML templates using TypeScript. No need to learn a template library."
   },
 {
-    name:"typescript",
+    title:"typescript",
     description:"TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
   },
 {
-    name:"unioffice",
+    title:"unioffice",
     description:"Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents"
   },
 {
-    name:"unsplash",
+    title:"unsplash",
     description:"Image Gallery app built with React, Tailwind CSS, Unsplash API, and Axios."
   },
 {
-    name:"uppy",
+    title:"uppy",
     description:"The next open source file uploader for web browsers :dog: "
   },
 {
-    name:"uptime-kuma",
+    title:"uptime-kuma",
     description:"A fancy self-hosted monitoring tool"
   },
 {
-    name:"vagrant",
+    title:"vagrant",
     description:"Vagrant is a tool for building and distributing development environments."
   },
 {
-    name:"vault",
+    title:"vault",
     description:"A tool for secrets management, encryption as a service, and privileged access management"
   },
 {
-    name:"vercel",
+    title:"vercel",
     description:"Develop. Preview. Ship."
   },
 {
-    name:"verdaccio",
+    title:"verdaccio",
     description:"📦🔐 A lightweight Node.js private proxy registry"
   },
 {
-    name:"vesta",
+    title:"vesta",
     description:"VESTA Control Panel"
   },
 {
-    name:"video-editor",
+    title:"video-editor",
     description:"Free and open source video editor, based on MLT Framework and KDE Frameworks 5"
   },
 {
-    name:"video.js",
+    title:"video.js",
     description:"Video.js - open source HTML5 video player"
   },
 {
-    name:"visx",
+    title:"visx",
     description:"🐯 visx | visualization components"
   },
 {
-    name:"vlc",
+    title:"vlc",
     description:"VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/"
   },
 {
-    name:"vscode",
+    title:"vscode",
     description:"Visual Studio Code"
   },
 {
-    name:"vscode-material-icon-theme",
+    title:"vscode-material-icon-theme",
     description:"Available on the VSCode Marketplace"
   },
 {
-    name:"vscode-power-mode",
+    title:"vscode-power-mode",
     description:"Your code is powerful, unleash it! The extension made popular by Code in the Dark has finally made its way to VS Code."
   },
 {
-    name:"vscodium-vscdoe",
+    title:"vscodium-vscdoe",
     description:"null"
   },
 {
-    name:"vue2-elm",
+    title:"vue2-elm",
     description:"Large single page application with 45 pages built on vue2 + vuex. 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用"
   },
 {
-    name:"wagtail",
+    title:"wagtail",
     description:"A Django content management system focused on flexibility and user experience"
   },
 {
-    name:"wallet-adapter",
+    title:"wallet-adapter",
     description:"Modular TypeScript wallet adapters and components for Solana applications."
   },
 {
-    name:"walletconnect-monorepo",
+    title:"walletconnect-monorepo",
     description:"WalletConnect Monorepo "
   },
 {
-    name:"walleth",
+    title:"walleth",
     description:"free (libre) native Android Ethereum wallet"
   },
 {
-    name:"web3-extension",
+    title:"web3-extension",
     description:"Taho, the community owned and operated Web3 wallet."
   },
 {
-    name:"webgl-fluid-simulation",
+    title:"webgl-fluid-simulation",
     description:"Play with fluids in your browser (works even on mobile)"
   },
 {
-    name:"webmin",
+    title:"webmin",
     description:"Powerful and flexible web-based server management control panel"
   },
 {
-    name:"webstudio",
+    title:"webstudio",
     description:"🖌 Webstudio Visual Builder"
   },
 {
-    name:"whisper",
+    title:"whisper",
     description:"Robust Speech Recognition via Large-Scale Weak Supervision"
   },
 {
-    name:"windows-terminal",
+    title:"windows-terminal",
     description:"The new Windows Terminal and the original Windows console host, all in the same place!"
   },
 {
-    name:"wrk",
+    title:"wrk",
     description:"Modern HTTP benchmarking tool"
   },
 {
-    name:"x-decoder",
+    title:"x-decoder",
     description:"[CVPR 2023] Official Implementation of X-Decoder for generalized decoding for pixel, image and language"
   },
 {
-    name:"xla",
+    title:"xla",
     description:"A machine learning compiler for GPUs, CPUs, and ML accelerators"
   },
 {
-    name:"xournalpp",
+    title:"xournalpp",
     description:"Xournal++ is a handwriting notetaking software with PDF annotation support. Written in C++ with GTK3, supporting Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows 10. Supports pen input from devices suchas Wacom Tablets."
   },
 {
-    name:"you-get",
+    title:"you-get",
     description:":arrow_double_down: Dumb downloader that scrapes the web"
   },
 {
-    name:"youtube-api-samples",
+    title:"youtube-api-samples",
     description:"Code samples for YouTube APIs, including the YouTube Data API, YouTube Analytics API, and YouTube Live Streaming API. The repo contains language-specific directories that contain the samples."
   },
 {
-    name:"youtube-dl",
+    title:"youtube-dl",
     description:"Command-line program to download videos from YouTube.com and other video sites"
   },
 {
-    name:"zig",
+    title:"zig",
     description:"General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software."
   },
 {
-    name:"zulip",
+    title:"zulip",
     description:"Zulip server and web application. Open-source team chat that helps teams stay productive and focused."
   },
 {
-    name:"zx",
+    title:"zx",
     description:"A tool for writing better scripts"
   },
 ]
@@ -2588,27 +2588,27 @@ const github_repos = [
 
 export default function Home() {
   return (
-    <section className="flex flex-row items-center justify-center overflow-x-hidden overflow-y-auto flex-wrap h-[100vh] w-[100%] pb-24">
+    <section classtitle="flex flex-row items-center justify-center overflow-x-hidden overflow-y-auto flex-wrap h-[100vh] w-[100%] pb-24">
       {github_repos.map((item, index) => (
-        <div key={index} className="rounded-lg border p-5 flex flex-col items-start h-[200px] w-[250px] justify-start overflow-y-auto overflow-x-hidden ml-3 mt-3 hover:bg-[--code-foreground]">
-          <h3 className="text-left w-full text-lg text-bold">{item.title}</h3>
-          <span className="text-nowrap w-full text-xs mt-2">{item.description}</span>
+        <div key={index} classtitle="rounded-lg border p-5 flex flex-col items-start h-[200px] w-[250px] justify-start overflow-y-auto overflow-x-hidden ml-3 mt-3 hover:bg-[--code-foreground]">
+          <h3 classtitle="text-left w-full text-lg text-bold">{item.title}</h3>
+          <span classtitle="text-nowrap w-full text-xs mt-2">{item.description}</span>
         </div>
       ))}
     </section>
   )
 }
 
-{/* <div className="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
-        <h1 className="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
+{/* <div classtitle="fluid-simulation-container w-[360px] max-w-[90%] h-[500px] overflow-y-auto overflow-x-hidden border rounded-lg p-5 space-y-3">
+        <h1 classtitle="w-full h-[50px] p-3 flex items-start justify-center hover:items-center hover:bg-[--code-foreground] bold text-md rounded-lg hover:animate-bounce">
           Fluid Simulation Controller
         </h1>
-        <div className="quality-container flex items-start justify-between w-full">
-          <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+        <div classtitle="quality-container flex items-start justify-between w-full">
+          <span classtitle="text-sm rounded-md hover:bg-[--code-foreground] p-2">
             Quality
           </span>
           <Select>
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger classtitle="w-[180px]">
               <SelectValue placeholder="Select a Quality" />
             </SelectTrigger>
             <SelectContent>
@@ -2621,14 +2621,14 @@ export default function Home() {
             </SelectContent>
           </Select>
         </div>
-        <div className="simResolution-container flex items-start justify-between w-full">
-          <span className="text-sm rounded-md hover:bg-[--code-foreground] p-2">
+        <div classtitle="simResolution-container flex items-start justify-between w-full">
+          <span classtitle="text-sm rounded-md hover:bg-[--code-foreground] p-2">
             Sim Re..
           </span>
           <Select>
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger classtitle="w-[180px]">
               <SelectValue
-                className="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
+                classtitle="whitespace-nowrap w-[150px] text-sm text-ellipsis placeholder:text-red-600"
                 placeholder="Select a Sim R.."
               />
             </SelectTrigger>
@@ -2643,95 +2643,95 @@ export default function Home() {
           </Select>
         </div>
 
-        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+        <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
               Density Diffution
             </span>
-            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+            <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
               2.0
             </div>
           </div>
-          <div className="fluild-simulation-slider w-full">
+          <div classtitle="fluild-simulation-slider w-full">
             <Slider defaultValue={[2.0]} max={4} step={0.1} />
           </div>
         </div>
-        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+        <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
               Velocity Diffution
             </span>
-            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+            <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
               2.0
             </div>
           </div>
-          <div className="fluild-simulation-slider w-full">
+          <div classtitle="fluild-simulation-slider w-full">
             <Slider defaultValue={[2.0]} max={4} step={0.1} />
           </div>
         </div>
-        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+        <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
               Pressure
             </span>
-            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+            <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
               2.0
             </div>
           </div>
-          <div className="fluild-simulation-slider w-full">
+          <div classtitle="fluild-simulation-slider w-full">
             <Slider defaultValue={[2.0]} max={4} step={0.1} />
           </div>
         </div>
-        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+        <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
               Velocity
             </span>
-            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+            <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
               2.0
             </div>
           </div>
-          <div className="fluild-simulation-slider w-full">
+          <div classtitle="fluild-simulation-slider w-full">
             <Slider defaultValue={[2.0]} max={4} step={0.1} />
           </div>
         </div>
-        <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-          <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-            <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+        <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+          <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+            <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
               Splat Radius
             </span>
-            <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+            <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
               2.0
             </div>
           </div>
-          <div className="fluild-simulation-slider w-full">
+          <div classtitle="fluild-simulation-slider w-full">
             <Slider defaultValue={[2.0]} max={4} step={0.1} />
           </div>
         </div>
 
         <Form {...form}>
           <form
-            className="h-auto w-full"
+            classtitle="h-auto w-full"
           >
             <FormField
               control={form.control}
               title="items"
               render={({ field }) => (
-                <div className="space-y-3">
+                <div classtitle="space-y-3">
                   {items.map((item) => (
                     <FormItem
                       key={item.id}
-                      className={cn(
+                      classtitle={cn(
                         buttonVariants({
                           variant: "ghost",
                         }),
                         "flex h-[50px] flex-row items-center justify-between rounded-lg border"
                       )}
                     >
-                      <FormLabel className="flex items-center justify-center font-normal">
+                      <FormLabel classtitle="flex items-center justify-center font-normal">
                         {item.label}
                       </FormLabel>
-                      <FormControl className="flex items-center justify-center m-0 p-0">
+                      <FormControl classtitle="flex items-center justify-center m-0 p-0">
                         <Checkbox
                           checked={field.value?.includes(item.id)}
                           onCheckedChange={(checked) => {
@@ -2756,49 +2756,49 @@ export default function Home() {
         <Collapsible
           open={bloom}
           onOpenChange={setBloom}
-          className="w-full space-y-2"
+          classtitle="w-full space-y-2"
         >
-          <div className="flex items-center justify-between px-1">
-            <h4 className="text-sm font-semibold">Bloom</h4>
+          <div classtitle="flex items-center justify-between px-1">
+            <h4 classtitle="text-sm font-semibold">Bloom</h4>
             <CollapsibleTrigger asChild>
               <ButtonShadcnUi
                 variant="ghost"
                 size="sm"
-                className="w-9 p-0 border ronded-lg"
+                classtitle="w-9 p-0 border ronded-lg"
               >
-                <ChevronsUpDown className="h-4 w-4" />
-                <span className="sr-only">Toggle</span>
+                <ChevronsUpDown classtitle="h-4 w-4" />
+                <span classtitle="sr-only">Toggle</span>
               </ButtonShadcnUi>
             </CollapsibleTrigger>
           </div>
-          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+          <div classtitle="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
             <h1>Enabled</h1>
             <Checkbox id="bloom" />
           </div>
-          <CollapsibleContent className="space-y-2">
-            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+          <CollapsibleContent classtitle="space-y-2">
+            <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
                   Intensity
                 </span>
-                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                   2.0
                 </div>
               </div>
-              <div className="fluild-simulation-slider w-full">
+              <div classtitle="fluild-simulation-slider w-full">
                 <Slider defaultValue={[2.0]} max={4} step={0.1} />
               </div>
             </div>
-            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+            <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
                   Theshold
                 </span>
-                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                   2.0
                 </div>
               </div>
-              <div className="fluild-simulation-slider w-full">
+              <div classtitle="fluild-simulation-slider w-full">
                 <Slider defaultValue={[2.0]} max={4} step={0.1} />
               </div>
             </div>
@@ -2807,36 +2807,36 @@ export default function Home() {
         <Collapsible
           open={sunrays}
           onOpenChange={setSunrays}
-          className="w-full space-y-2"
+          classtitle="w-full space-y-2"
         >
-          <div className="flex items-center justify-between px-1">
-            <h4 className="text-sm font-semibold">Sunrays</h4>
+          <div classtitle="flex items-center justify-between px-1">
+            <h4 classtitle="text-sm font-semibold">Sunrays</h4>
             <CollapsibleTrigger asChild>
               <ButtonShadcnUi
                 variant="ghost"
                 size="sm"
-                className="w-9 p-0 border ronded-lg"
+                classtitle="w-9 p-0 border ronded-lg"
               >
-                <ChevronsUpDown className="h-4 w-4" />
-                <span className="sr-only">Toggle</span>
+                <ChevronsUpDown classtitle="h-4 w-4" />
+                <span classtitle="sr-only">Toggle</span>
               </ButtonShadcnUi>
             </CollapsibleTrigger>
           </div>
-          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+          <div classtitle="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
             <h1>Enabled</h1>
             <Checkbox id="sunrays" />
           </div>
-          <CollapsibleContent className="space-y-2">
-            <div className="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
-              <div className="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
-                <span className="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
+          <CollapsibleContent classtitle="space-y-2">
+            <div classtitle="fluild-simulation-slider-conatainer w-full h-auto border rounded-lg flex items-center justify-between flex-col p-3 mt-3 space-y-2">
+              <div classtitle="fluild-simulation-slider-content flex items-start justify-between flex-row w-full">
+                <span classtitle="fluild-simulation-slider-title text-sm hover:bg-[--code-highlighted] rounded-md">
                   Weight
                 </span>
-                <div className="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
+                <div classtitle="fluild-simulation-slider-rate text-xs bg-[--code-foreground] hover:bg-[--code-highlighted] rounded-xl p-2.5">
                   2.0
                 </div>
               </div>
-              <div className="fluild-simulation-slider w-full">
+              <div classtitle="fluild-simulation-slider w-full">
                 <Slider defaultValue={[2.0]} max={4} step={0.1} />
               </div>
             </div>
@@ -2845,32 +2845,32 @@ export default function Home() {
         <Collapsible
           open={capture}
           onOpenChange={setCapture}
-          className="w-full space-y-2"
+          classtitle="w-full space-y-2"
         >
-          <div className="flex items-center justify-between px-1">
-            <h4 className="text-sm font-semibold">Capture</h4>
+          <div classtitle="flex items-center justify-between px-1">
+            <h4 classtitle="text-sm font-semibold">Capture</h4>
             <CollapsibleTrigger asChild>
               <ButtonShadcnUi
                 variant="ghost"
                 size="sm"
-                className="w-9 p-0  border ronded-lg"
+                classtitle="w-9 p-0  border ronded-lg"
               >
-                <ChevronsUpDown className="h-4 w-4" />
-                <span className="sr-only">Toggle</span>
+                <ChevronsUpDown classtitle="h-4 w-4" />
+                <span classtitle="sr-only">Toggle</span>
               </ButtonShadcnUi>
             </CollapsibleTrigger>
           </div>
-          <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+          <div classtitle="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
             <h1>Transparent</h1>
             <Checkbox id="capture" />
           </div>
 
-          <CollapsibleContent className="space-y-2">
-            <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
+          <CollapsibleContent classtitle="space-y-2">
+            <div classtitle="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
               <h1>Background Color</h1>
               <h1>(coming soon)</h1>
             </div>
-            <div className="rounded-md border px-4 py-3 font-mono text-sm">
+            <div classtitle="rounded-md border px-4 py-3 font-mono text-sm">
               Take A Screenshot
             </div>
           </CollapsibleContent>
