@@ -38,7 +38,7 @@ export function MoreAction() {
     return (
         <>
             <div className="more_container_user w-auto p-.5 h-[30px] rounded-md border flex flex-row justify-center items-center">
-                {/* Add */}
+                {/* Add Stuffs */}
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <div className="flex h-[25px] w-[30px] items-center justify-center">
@@ -46,7 +46,7 @@ export function MoreAction() {
                         </div>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent className="w-56">
-                        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                        <DropdownMenuLabel>Add Stuffs</DropdownMenuLabel>
                         <DropdownMenuSeparator />
                         <DropdownMenuGroup>
                             <DropdownMenuItem>
@@ -134,7 +134,7 @@ export function MoreAction() {
                         </div>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent className="w-56">
-                        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                        <DropdownMenuLabel>More Stuffs</DropdownMenuLabel>
                         <DropdownMenuSeparator />
                         <DropdownMenuGroup>
                             <DropdownMenuItem>

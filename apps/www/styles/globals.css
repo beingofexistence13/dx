@@ -735,3 +735,10 @@ input {
   border: none !important;
   outline: none !important;
 }
+
+
+
+
+.separator{
+  background-color: hsl(var(--muted));
+}

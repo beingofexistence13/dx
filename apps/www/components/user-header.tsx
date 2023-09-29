@@ -246,7 +246,7 @@ export function UserHeader() {
           <div className="w-full flex-1 lg:w-auto lg:flex-none">
             <CommandMenu />
           </div>
-          <div className="separator h-[30px] w-[1px] bg-[--code-highlighted] mx-1"></div>
+          <div className="separator h-[25px] w-[1px] mx-1"></div>
           <nav className="flex items-center">
             <MoreAction />
             <FridayAction />
