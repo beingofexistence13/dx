@@ -9,7 +9,7 @@ import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 import { Analytics } from "./analytics"
 import { DevMode } from "./devMode"
 import { HelloTool } from "./hello-tool"
-import { SiteHeader } from "./site-header"
+import { GuestHeader } from "./guest-header"
 import { TailwindIndicator } from "./tailwind-indicator"
 
 const GuestLayout = () => {
@@ -20,13 +20,14 @@ const GuestLayout = () => {
 
   return (
     <div>
-      {DevModeSelector ? "" : <SiteHeader />}
+      {DevModeSelector ? "" : <GuestHeader />}
       {HelloToolSelector ? "" : <HelloTool />}
 
-      {/* <DevMode /> */}
-      {/* <TailwindIndicator /> */}
-      {/* <NewYorkToaster /> */}
+      <TailwindIndicator />
       <DefaultToaster />
+
+      {/* <NewYorkToaster /> */}
+      {/* <DevMode /> */}
     </div>
   )
 }

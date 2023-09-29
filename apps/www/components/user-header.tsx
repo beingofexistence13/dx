@@ -190,8 +190,9 @@ import {
 
 import Hack from "./hack"
 import SocialMedias from "./socialMedia"
+import { NavigationMenuDropdown } from "./navigatioin-menu"
 
-export function SiteHeader() {
+export function UserHeader() {
   const [open, setOpen] = React.useState(false)
   const ref = useRef<HTMLDivElement>(null)
   const { pressProps } = usePress({
@@ -202,9 +203,16 @@ export function SiteHeader() {
   })
 
   return (
-    <header className="navbar supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] w-full backdrop-blur">
-      <div className="container flex h-14 items-center">
+    <header className="navbar supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] w-full backdrop-blur p-0 m-0 justify-center">
+      <div className="container flex h-14 items-center justify-center p-0 m-0 lg:max-w-[100%] lg:w-[96%]">
         <MainNav />
+        {/* <div className="hidden lg:flex">
+          <Link href="/" className="flex items-center space-x-2 pr-2 ">
+            <Icons.logo className="navbar-logo-icon h-6 w-6" />
+          </Link>
+
+          <NavigationMenuDropdown />
+        </div> */}
         <MobileNav />
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
           <Avatar {...pressProps} ref={ref} className="lg:hidden">
