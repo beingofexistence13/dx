@@ -964,18 +964,21 @@ export function PrimarySidebar() {
                 <DropdownMenuSeparator />
 
                 <DropdownMenuItem>
-                    <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Documentation</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Changelog</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Templates</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <span>Open Youtube</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                    <span>Open Homepage</span>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
