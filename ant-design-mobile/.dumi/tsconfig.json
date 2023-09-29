@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./", "../package.json"],
+    "target": "ES6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": true,
+    "declaration": false,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "lib": ["ES2015", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "paths": {
+      "antd-mobile": ["../src/index.ts"],
+      "antd-mobile/src/*": ["../src/*"],
+      "antd-mobile/es/*": ["../src/*"]
+    }
+  }
+}

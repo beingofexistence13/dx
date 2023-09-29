@@ -1,0 +1,58 @@
+@class-prefix-radio: ~'adm-radio';
+
+.@{class-prefix-radio} {
+  --icon-size: 22px;
+  --font-size: var(--adm-font-size-9);
+  --gap: 8px;
+  display: inline-flex;
+  vertical-align: text-bottom;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  input {
+    display: none;
+  }
+  .@{class-prefix-radio}-icon {
+    flex: none;
+    border: 1px solid var(--adm-color-light);
+    border-radius: var(--icon-size);
+    box-sizing: border-box;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    color: var(--adm-color-text-light-solid);
+    > svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &.@{class-prefix-radio}-block {
+    display: flex;
+  }
+  &.@{class-prefix-radio}-checked {
+    .@{class-prefix-radio}-icon {
+      border-color: var(--adm-color-primary);
+      background-color: var(--adm-color-primary);
+    }
+  }
+  &.@{class-prefix-radio}-disabled {
+    cursor: not-allowed;
+    .@{class-prefix-radio}-content {
+      opacity: 0.4;
+    }
+    .@{class-prefix-radio}-icon {
+      color: var(--adm-color-light);
+      border-color: var(--adm-color-light);
+      background-color: var(--adm-color-fill-content);
+    }
+  }
+  .@{class-prefix-radio}-custom-icon {
+    font-size: var(--icon-size);
+  }
+
+  &-content {
+    flex: 0 1 auto;
+    font-size: var(--font-size);
+    padding-left: var(--gap);
+  }
+}
