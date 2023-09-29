@@ -11,6 +11,7 @@ import { DevMode } from "./devMode"
 import { HelloTool } from "./hello-tool"
 import { UserHeader } from "./user-header"
 import { TailwindIndicator } from "./tailwind-indicator"
+import { Activitybar } from "./activitybar"
 
 const UserLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev)
@@ -19,6 +20,7 @@ const UserLayout = () => {
   return (
     <div>
       <UserHeader />
+      <Activitybar />
       {HelloToolSelector ? "" : <HelloTool />}
 
       {/* {DevModeSelector ? "" : <SiteHeader />} */}

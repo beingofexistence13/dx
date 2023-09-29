@@ -108,7 +108,9 @@ export default function RootLayout({
               </Chakraui> */}
               <main className="flex-1">
                 <SiteLayout />
-                {children}
+                <div className="w-auto ml-[40px]">
+                  {children}
+                </div>
               </main>
             </Query>
           </Redux>

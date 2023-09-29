@@ -843,8 +843,8 @@ export function UserHeader() {
   })
 
   return (
-    <header className="navbar supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] w-full backdrop-blur p-0 m-0 justify-center">
-      <div className="container flex h-14 items-center justify-center p-0 m-0 lg:max-w-[100%] lg:w-[98%]">
+    <header className="supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 left-[50px] z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] w-full backdrop-blur p-0 m-0 border-b h-[55px] flex items-center justify-center">
+      <div className="container flex h-14 items-center justify-center p-0 m-0 lg:max-w-[100%] lg:w-[99%]">
         {/* <MainNav /> */}
         {/* <div className="hidden lg:flex">
           <Link href="/" className="flex items-center space-x-2 pr-2 ">
