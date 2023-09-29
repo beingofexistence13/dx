@@ -213,6 +213,9 @@ import {
 import { NotificationAction } from "./notification"
 import { UserAction } from "./user"
 import { PrimarySidebar } from "./primary-sidebar"
+import { RightSidebar } from "./right-sidebar"
+import { FridayAction } from "./friday"
+import { MoreAction } from "./more"
 
 
 export function UserHeader() {
@@ -228,12 +231,6 @@ export function UserHeader() {
   return (
     <header className="supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 left-[50px] w-full backdrop-blur p-0 m-0 border-b h-[55px] flex items-center justify-center">
       <div className="container flex h-14 items-center justify-center p-0 m-0 lg:max-w-[100%] lg:w-[99%]">
-        {/* <MainNav /> */}
-        {/* <div className="hidden lg:flex">
-          <Link href="/" className="flex items-center space-x-2 pr-2 ">
-            <Icons.logo className="navbar-logo-icon h-6 w-6" />
-          </Link>
-        </div> */}
         <PrimarySidebar />
         <div className="hidden lg:flex">
           <Link href="/" className="flex items-center space-x-2 pr-2 ">
@@ -246,12 +243,14 @@ export function UserHeader() {
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <div className="w-full flex-1 lg:w-auto lg:flex-none ">
+          <div className="w-full flex-1 lg:w-auto lg:flex-none">
             <CommandMenu />
           </div>
+          <div className="separator h-[30px] w-[1px] bg-[--code-highlighted] mx-1"></div>
           <nav className="flex items-center">
-            {/* <SocialMedias />
-            <ModeToggle /> */}
+            <MoreAction />
+            <FridayAction />
+            <RightSidebar />
             <NotificationAction />
             <UserAction />
           </nav>

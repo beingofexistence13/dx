@@ -13,7 +13,7 @@ export function NotificationAction() {
         <Popover>
             <PopoverTrigger asChild>
             <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
-            <Bell className="h-4 w-4 fill-current"/>
+            <Bell className="h-4 w-4"/>
           </div>
             </PopoverTrigger>
             <PopoverContent className="w-80">
