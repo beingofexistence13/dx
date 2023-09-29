@@ -202,7 +202,7 @@ export function Activitybar() {
   })
 
   return (
-    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] backdrop-blur max-w-[50px] min-h-[100vh] border-r">
+    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur max-w-[50px] min-h-[100vh] border-r">
       {/* <div className="container flex h-14 items-center">
         <MainNav />
         <MobileNav />

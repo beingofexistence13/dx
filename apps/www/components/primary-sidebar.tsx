@@ -33,16 +33,31 @@ import {
 import { Icons } from "./icons"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui"
 
-export function UserAction() {
+export function PrimarySidebar() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
-                    <Avatar className="max-h-[25px] max-w-[25px] ">
-                        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                        <AvatarFallback>E</AvatarFallback>
-                    </Avatar>
-                </div>
+                <Button
+                    variant="ghost"
+                    className="nav-toggles h-24 px-2 py-5 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 2xs:hidden xs:hidden sm:hidden lg:flex"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="h-6 w-6"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M3.75 9h16.5m-16.5 6.75h16.5"
+                        />
+                    </svg>
+
+                    <span className="sr-only">Toggle Menu</span>
+                </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
