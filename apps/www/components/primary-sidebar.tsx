@@ -60,7 +60,12 @@ export function PrimarySidebar() {
                     <span className="sr-only">Primary Sidebar</span>
                 </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56">
+            <DropdownMenuContent className="w-max min-w-[230px]">
+                <DropdownMenuItem>
+                    <span>Menubar</span>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+
                 {/* File */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -181,8 +186,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* Edit */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -263,8 +266,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* Selection */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -311,8 +312,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* View */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -593,8 +592,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* Go */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -802,8 +799,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* Run */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -899,8 +894,6 @@ export function PrimarySidebar() {
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
-                <DropdownMenuSeparator />
-
                 {/* Terminal */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
@@ -970,22 +963,20 @@ export function PrimarySidebar() {
                 </DropdownMenuSub>
                 <DropdownMenuSeparator />
 
-                <DropdownMenuSubTrigger>
+                <DropdownMenuItem>
                     <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Documentation</span>
-                </DropdownMenuSubTrigger>
-                <DropdownMenuSeparator />
+                </DropdownMenuItem>
 
-                <DropdownMenuSubTrigger>
+                <DropdownMenuItem>
                     <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Changelog</span>
-                </DropdownMenuSubTrigger>
-                <DropdownMenuSeparator />
+                </DropdownMenuItem>
 
-                <DropdownMenuSubTrigger>
+                <DropdownMenuItem>
                     <UserPlus className="mr-2 h-4 w-4" />
                     <span>Open Templates</span>
-                </DropdownMenuSubTrigger>
+                </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
     )
