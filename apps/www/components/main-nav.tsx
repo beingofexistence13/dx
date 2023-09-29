@@ -17,9 +17,9 @@ export function MainNav() {
     <div className="hidden lg:flex">
       <Link href="/" className="flex items-center space-x-2 pr-2 ">
         <Icons.logo className="navbar-logo-icon h-6 w-6" />
-        {/* <span className="hidden rounded-lg p-2 px-5 font-bold hover:bg-[--code-foreground] sm:inline-block ">
+        <span className="hidden rounded-lg p-2 px-5 font-bold hover:bg-[--code-foreground] sm:inline-block ">
           {siteConfig.name}
-        </span> */}
+        </span>
       </Link>
 
       <NavigationMenuDropdown />
