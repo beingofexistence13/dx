@@ -1,0 +1,1 @@
+<embed src="@/docs/api/plots/radial-bar.zh.md"></embed>

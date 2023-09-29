@@ -1,0 +1,9 @@
+test/fixtures
+dist
+es
+lib
+config/wrapper.js
+.docz
+node_modules
+*.ejs
+*.min.js
