@@ -33,7 +33,7 @@ export function Activitybar() {
   })
 
   return (
-    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur min-w-[50px] h-[94.75vh] border-r space-y-1 pt-1 flex flex-col items-center justify-center">
+    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur min-w-[50px] h-[94.77vh] border-r space-y-1 pt-1 flex flex-col items-center justify-center">
 
       <div className="activitybar-main w-full h-[300px] max-h-[50vh] flex flex-col items-center justify-start space-y-2 overflowx-x-hidden overflow-y-auto border-b">
         <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
@@ -61,7 +61,7 @@ export function Activitybar() {
 
       <div className="activitybar-gap w-full flex-1 flex flex-col items-center justify-end space-y-2 overflowx-x-hidden overflow-y-auto border-b"></div>
 
-      <div className="activitybar-extra w-full h-[125px] flex flex-col items-center justify-center space-y-2 overflowx-x-hidden overflow-y-auto border-b">
+      <div className="activitybar-extra w-full h-[130px] flex flex-col items-center justify-center space-y-2 overflowx-x-hidden overflow-y-auto border-b">
         <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
           <HelpCircle className="h-4 w-4" />
         </div>
