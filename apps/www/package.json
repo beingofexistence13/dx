@@ -124,6 +124,7 @@
     "tailwind-variants": "^0.1.13",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animated": "^1.0.1",
     "typescript": "5.2.2",
     "vaul": "^0.2.0",
     "zod": "^3.21.4",

@@ -15,181 +15,12 @@ import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-  Alert,
-  AlertDescription,
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-  AlertTitle,
-  AspectRatio,
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  Badge,
-  Button,
-  Calendar,
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-  Checkbox,
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-  Command,
-  CommandDialog,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-  CommandShortcut,
-  ContextMenu,
-  ContextMenuCheckboxItem,
-  ContextMenuContent,
-  ContextMenuGroup,
-  ContextMenuItem,
-  ContextMenuLabel,
-  ContextMenuPortal,
-  ContextMenuRadioGroup,
-  ContextMenuRadioItem,
-  ContextMenuSeparator,
-  ContextMenuShortcut,
-  ContextMenuSub,
-  ContextMenuSubContent,
-  ContextMenuSubTrigger,
-  ContextMenuTrigger,
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-  InputShadcnUi,
-  Label,
-  Menubar,
-  MenubarCheckboxItem,
-  MenubarContent,
-  MenubarGroup,
-  MenubarItem,
-  MenubarLabel,
-  MenubarMenu,
-  MenubarPortal,
-  MenubarRadioGroup,
-  MenubarRadioItem,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarSub,
-  MenubarSubContent,
-  MenubarSubTrigger,
-  MenubarTrigger,
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-  Progress,
-  RadioGroup,
-  RadioGroupItem,
-  ScrollArea,
-  ScrollBar,
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectSeparator,
-  SelectTrigger,
-  SelectValue,
-  Separator,
-  Skeleton,
-  Slider,
-  Switch,
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableFooter,
-  TableHead,
-  TableHeader,
-  TableRow,
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-  Textarea,
-  Toast,
-  ToastAction,
-  ToastClose,
-  ToastDescription,
-  ToastProvider,
-  ToastTitle,
-  ToastViewport,
-  Toaster,
-  Toggle,
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-  badgeVariants,
-  buttonVariants,
-  navigationMenuTriggerStyle,
-  toast,
-  toggleVariants,
-  useFormField,
-  useToast,
-  type ToastActionElement,
-  type ToastProps,
-} from "@/components/ui"
 
 import Hack from "./hack"
 import SocialMedias from "./socialMedia"
+import { Button as NextuiButton, ButtonGroup } from "@nextui-org/react";
+import RainbowHover from "./rainbow-hover"
+import { BarChart3, Calendar, Cog, Cpu, FileSearch, GitFork, Headphones, HelpCircle, LayoutDashboard, Terminal } from "lucide-react"
 
 export function Activitybar() {
   const [open, setOpen] = React.useState(false)
@@ -202,8 +33,45 @@ export function Activitybar() {
   })
 
   return (
-    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur max-w-[50px] min-h-[100vh] border-r">
-      <h1>Side...</h1>
+    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur min-w-[50px] h-[94.75vh] border-r space-y-1 pt-1 flex flex-col items-center justify-center">
+
+      <div className="activitybar-main w-full h-[300px] max-h-[50vh] flex flex-col items-center justify-start space-y-2 overflowx-x-hidden overflow-y-auto border-b">
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <FileSearch className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <GitFork className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <LayoutDashboard className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <Calendar className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <BarChart3 className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <Cpu className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <Terminal className="h-4 w-4" />
+        </div>
+      </div>
+
+      <div className="activitybar-gap w-full flex-1 flex flex-col items-center justify-end space-y-2 overflowx-x-hidden overflow-y-auto border-b"></div>
+
+      <div className="activitybar-extra w-full h-[125px] flex flex-col items-center justify-center space-y-2 overflowx-x-hidden overflow-y-auto border-b">
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <HelpCircle className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <Headphones className="h-4 w-4" />
+        </div>
+        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+          <Cog className="h-4 w-4" />
+        </div>
+      </div>
     </nav>
   )
 }
