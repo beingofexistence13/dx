@@ -193,7 +193,7 @@ import SocialMedias from "./socialMedia"
 import { NavigationMenuDropdown } from "./navigatioin-menu"
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
-import { CalendarDays } from "lucide-react"
+import { CalendarDays, ChevronDown } from "lucide-react"
 import {
   Cloud,
   CreditCard,
@@ -237,6 +237,30 @@ export function UserHeader() {
             <Icons.logo className="navbar-logo-icon max-h-4 max-w-4" />
           </Link>
         </div>
+        <div className="blockchain_status hidden lg:flex flex-row items-center justify-start w-auto h-auto space-x-1">
+          <div className="wallet_status rounded-md border flex flex-row items-center justify-evenly w-[150px] h-[35px] space-x-1 px-1 py-.5 overflow-hidden relative">
+            <Avatar className="max-h-[15px] max-w-[15px] flex items-center justify-center text-center">
+              <AvatarImage src="/docs/metamask.jpg" alt="@wallet" />
+              <AvatarFallback className="p-1"></AvatarFallback>
+            </Avatar>
+
+            <span className="text-xs w-[75px] text-truncate truncate text-muted overflow-none whitespace-none">Gkjkaljfkldsjfkldsjfkldsfjkjkjkjlk</span>
+
+            <div className="h-2 rounded-full bg-green-400 w-2"></div>
+          </div>
+          <div className="node_status rounded-md border flex flex-row items-center justify-evenly w-[150px] h-[35px] space-x-1 px-1 py-.5 overflow-hidden relative">
+            <Avatar className="max-h-[15px] max-w-[15px] flex items-center justify-center text-center">
+              <AvatarImage src="/docs/fandomland.jpg" alt="@node" />
+              <AvatarFallback className="text-[5px] flex items-center justify-center text-center"></AvatarFallback>
+            </Avatar>
+
+            <span className="text-xs w-[75px] text-truncate truncate text-muted overflow-none whitespace-none">0.0000000001</span>
+
+            <div className="h-5 rounded-full flex items-center justify-center w-5">
+              <ChevronDown className="h-2 w-2" />
+            </div>
+          </div>
+        </div>
 
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
           <Avatar {...pressProps} ref={ref} className="lg:hidden">
@@ -259,3 +283,5 @@ export function UserHeader() {
     </header>
   )
 }
+
+

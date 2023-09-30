@@ -221,7 +221,7 @@ export function Activitybar() {
           </nav>
         </div>
       </div> */}
-      <h1>Sidebar</h1>
+      <h1>Side...</h1>
     </nav>
   )
 }

@@ -742,3 +742,66 @@ input {
 .separator{
   background-color: hsl(var(--muted));
 }
+
+
+@keyframes hue_rotate{
+  0%{
+      background-position: 0 0;
+      
+  }
+  50%{
+      background-position: 400% 0;
+      
+  }
+  100%{
+      background-position: 0 0;
+      
+  }
+  
+}
+.wallet_status:hover{
+  background-color: red;
+  animation: ranbow-glow 50s linear infinite;
+  box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px)
+}
+.wallet_status:hover::before,
+.wallet_status:hover::after{
+  animation: hue_rotate 50s linear infinite;
+  content: "";
+  position: absolute;
+  top: -2.5px;
+  left: -2.5px;
+  background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+  background-size: 400%;
+  border-radius: 15px;
+  
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1; 
+}
+.node_status:hover{
+  background-color: red;
+  animation: ranbow-glow 50s linear infinite;
+  box-shadow: var(--rainbow-background) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px)
+}
+.node_status:hover::before,
+.node_status:hover::after{
+  animation: hue_rotate 50s linear infinite;
+  content: "";
+  position: absolute;
+  top: -2.5px;
+  left: -2.5px;
+  background: linear-gradient(45deg, #FF0000, #FFFC00, #AAFF00, #00FF2E, #00FCFF, #0054FF, #8700FF, #FF00C4, #FF0026);
+  background-size: 400%;
+  border-radius: 15px;
+  
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1; 
+}

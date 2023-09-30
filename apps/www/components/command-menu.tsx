@@ -57,7 +57,7 @@ export function CommandMenu({ ...props }: DialogProps) {
         onClick={() => setOpen(true)}
         {...props}
       >
-        <span className="hidden w-auto lg:inline-flex text-xs">
+        <span className="hidden w-auto lg:inline-flex text-xs text-green-500">
           Search for joy...
         </span>
         <span className="inline-flex w-auto lg:hidden">Search...</span>

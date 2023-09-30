@@ -39,7 +39,7 @@ export function UserAction() {
             <DropdownMenuTrigger asChild>
                 <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
                     <Avatar className="max-h-[25px] max-w-[25px] ">
-                        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+                        <AvatarImage src="/emon.jpg" alt="@bigbro" />
                         <AvatarFallback>E</AvatarFallback>
                     </Avatar>
                 </div>
