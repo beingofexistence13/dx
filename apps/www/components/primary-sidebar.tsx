@@ -61,10 +61,10 @@ export function PrimarySidebar() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-max min-w-[230px]">
-                <DropdownMenuItem>
+                {/* <DropdownMenuItem>
                     <span>Menubar</span>
                 </DropdownMenuItem>
-                <DropdownMenuSeparator />
+                <DropdownMenuSeparator /> */}
 
                 {/* File */}
                 <DropdownMenuSub>

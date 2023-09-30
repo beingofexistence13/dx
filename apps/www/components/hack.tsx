@@ -972,7 +972,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               alt="Dx"
                             />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {item.title ? logoLetter(item.title) : "Dx"}
+                              {item.title ? LLetter(item.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                         </div>
