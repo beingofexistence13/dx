@@ -257,7 +257,7 @@ export function UserHeader() {
             <span className="text-xs w-[75px] text-truncate truncate text-muted overflow-none whitespace-none">0.0000000001</span>
 
             <div className="h-5 rounded-full flex items-center justify-center w-5">
-              <ChevronDown className="h-2 w-2" />
+              <ChevronDown className="h-3 w-3" />
             </div>
           </div>
         </div>
