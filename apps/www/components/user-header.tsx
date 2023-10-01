@@ -296,9 +296,9 @@ const CommandInput = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
 >(({ className, ...props }, ref) => (
   <div className="flex items-center hover:border-b" cmdk-input-wrapper="">
-    <div className="flex w-full items-center space-x-2 px-3 text-sm text-muted-foreground">
+    <div className="flex w-full items-center space-x-2 justify-around px-3 text-sm text-muted-foreground">
       <div className="search  flex items-center justify-center rounded-full border p-1">
-        <Search className="h-4 w-4" />
+        <Search className="h-3.5 w-3.5" />
       </div>
       <CommandPrimitive.Input
         ref={ref}
@@ -312,10 +312,10 @@ const CommandInput = React.forwardRef<
         <Icons.chatgpt className="h-2 w-2 fill-current" />
       </div>
       <div className="mic  flex items-center justify-center  rounded-full border p-1">
-        <Mic className="h-4 w-4" />
+        <Mic className="h-3.5 w-3.5" />
       </div>
       <div className="media  flex items-center justify-center rounded-full border p-1">
-        <ImagePlus className="h-4 w-4" />
+        <ImagePlus className="h-3.5 w-3.5" />
       </div>
     </div>
   </div>
@@ -625,7 +625,7 @@ export function UserHeader() {
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <div className="w-full flex-1 lg:w-auto lg:flex-none h-[350px] fixed top-2 left-10 ">
+          <div className={`w-full flex-1 lg:w-auto lg:flex-none  ${open ? "h-[350px]" : "h-[35px]"}`}>
             <Command className="glassmorphisum rounded-lg border shadow-md">
               <CommandInput
                 onClick={() => {
@@ -634,17 +634,15 @@ export function UserHeader() {
                 placeholder="Search for joy"
               />
 
-              <CommandList className={`bg-red-500 ${open ? "":"hidden"}`}>
+              <CommandList className={`bg-red-500 ${open ? "" : "hidden"}`}>
                 <CommandEmpty>No results found.</CommandEmpty>
                 <CommandGroup heading="Wallets,Social Medias,Nodes">
                   {docsConfig.passport
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-                      <Link href={navItem.href ? navItem.href : "/"}
-                        key={index}
-                      >
                         <CommandItem
                           value={navItem.title}
+                          key={index}
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -662,18 +660,18 @@ export function UserHeader() {
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-                      </Link>
+
                     ))}
                 </CommandGroup>
                 <CommandGroup heading="Blockchain Wallets">
                   {docsConfig.wallet
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-                      <Link href={navItem.href ? navItem.href : "/"}
-                        key={index}
-                      >
+
+
                         <CommandItem
                           value={navItem.title}
+                          key={index}
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -691,7 +689,7 @@ export function UserHeader() {
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-                      </Link>
+
                     ))}
                 </CommandGroup>
               </CommandList><CommandList className="hidden">
@@ -700,11 +698,11 @@ export function UserHeader() {
                   {docsConfig.passport
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-                      <Link href={navItem.href ? navItem.href : "/"}
-                        key={index}
-                      >
+
+
                         <CommandItem
                           value={navItem.title}
+                          key={index}
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -722,18 +720,18 @@ export function UserHeader() {
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-                      </Link>
+
                     ))}
                 </CommandGroup>
                 <CommandGroup heading="Blockchain Wallets">
                   {docsConfig.wallet
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-                      <Link href={navItem.href ? navItem.href : "/"}
-                        key={index}
-                      >
+
+
                         <CommandItem
                           value={navItem.title}
+                          key={index}
                         >
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
@@ -751,7 +749,7 @@ export function UserHeader() {
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-                      </Link>
+
                     ))}
                 </CommandGroup>
               </CommandList>
