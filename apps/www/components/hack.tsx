@@ -232,28 +232,6 @@ import {
 } from "lucide-react"
 
 // Some Important Initionalizations
-export const items = [
-  {
-    label: "Shading",
-    id: "shading",
-  },
-  {
-    label: "Colorfull",
-    id: "colorfull",
-  },
-  {
-    label: "Paused",
-    id: "paused",
-  },
-  {
-    label: "Random Splates",
-    id: "randomSplates",
-  },
-] as const
-interface TypewriterProps {
-  text: string
-  delay: number
-}
 const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
   const [currentText, setCurrentText] = useState("")
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -278,9 +256,6 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
       </p>
     </div>
   )
-}
-interface Props {
-  canvasRef: React.RefObject<HTMLCanvasElement>
 }
 const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
   const [isLoading, setIsLoading] = useState(true)
@@ -315,6 +290,31 @@ const FormSchema = z.object({
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
 })
+interface TypewriterProps {
+  text: string
+  delay: number
+}
+export const items = [
+  {
+    label: "Shading",
+    id: "shading",
+  },
+  {
+    label: "Colorfull",
+    id: "colorfull",
+  },
+  {
+    label: "Paused",
+    id: "paused",
+  },
+  {
+    label: "Random Splates",
+    id: "randomSplates",
+  },
+] as const
+interface Props {
+  canvasRef: React.RefObject<HTMLCanvasElement>
+}
 // Uhh.. Some Important Initionalizations End || Such a good and usefull comment :) || I know, I am genius tell me something I do't know 
 export default function Hack(this: any, { ...props }: DialogProps) {
   const searchParams = useSearchParams() ? useSearchParams() : useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
@@ -333,6 +333,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [marginLeft, setMarginLeft] = useState("-00px")
   const [file, setFile] = useState<File | null>(null)
   const [isVisible, setIsVisible] = useState(false)
+  const [chains, setChains] = useState<Chain[]>([])
   const [sunrays, setSunrays] = useState(false)
   const [capture, setCapture] = useState(false)
   const [bloom, setBloom] = useState(false)
@@ -344,31 +345,44 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const router = useRouter()
   // Definetly some important stuffs  but this to big to hava make a documentation about plus I definetly not get paid enough for this
   // ohh I forget I donot get paid anything not a single penny and that's why I am broke
+  const includeTestnets = (typeof testnets === "string" && testnets === "true") || (typeof testnet === "string" && testnet === "true")
+  const sortedChains = includeTestnets || typeof search !== "string" || search === ""  ? chains : chains.filter((item,index) => {
+    const testnet =
+      item.name?.toLowerCase().includes("test") ||
+      item.title?.toLowerCase().includes("test") ||
+      item.network?.toLowerCase().includes("test")
+    const devnet =
+      item.name?.toLowerCase().includes("devnet") ||
+      item.title?.toLowerCase().includes("devnet") ||
+      item.network?.toLowerCase().includes("devnet")
+    return !testnet && !devnet
+  })
+  const filteredChains = !search || typeof search !== "string" || search === "" ? sortedChains : sortedChains.filter((chain) => {
+      //filter
+      return (
+        chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+        chain.chainId
+          .toString()
+          .toLowerCase()
+          .includes(search.toLowerCase()) ||
+        chain.name.toLowerCase().includes(search.toLowerCase()) ||
+        (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+          .toLowerCase()
+          .includes(search.toLowerCase())
+      )
+  })
+  const validateEmailPlus = (value: string) => value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
+  const validateEmail = (value: string) => value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
     if (files) {
       setFile(files[0])
     }
   }
-  const handleButtonShadcnUiClick = () => {
-    if (fileInputRef.current) {
-      fileInputRef.current.click()
-    }
-  }
-  const validatePhoneNumber = (value: string) => {
-    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-    return regex.test(value)
-  }
-  const validationPhoneNumberState = React.useMemo(() => {
-    if (number === "") return undefined
-    return validatePhoneNumber(number) ? "valid" : "invalid"
-  }, [number])
-  const validateEmailPlus = (value: string) =>
-    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
-  const validatePhoneNumberPlus = (value: string) => {
-    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-    return regex.test(value)
-  }
+  const runCommand = React.useCallback((command: () => unknown) => {
+    setOpen(false)
+    command()
+  }, [])
   const validationEmailAndPhoneNumbberState = React.useMemo(() => {
     if (emailAndPhoneNumbber === "") return undefined
     return validateEmailPlus(emailAndPhoneNumbber) ||
@@ -376,96 +390,11 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       ? "valid"
       : "invalid"
   }, [emailAndPhoneNumbber])
-  const validateEmail = (value: string) =>
-    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
-  const validationState = React.useMemo(() => {
-    if (value === "") return undefined
-    return validateEmail(value) || validatePhoneNumber(value)
-      ? "valid"
-      : "invalid"
-  }, [value])
-  const runCommand = React.useCallback((command: () => unknown) => {
-    setOpen(false)
-    command()
-  }, [])
-  function logoLetter(title: string): string {
-    let text = title
-    let firstLetter = text.charAt(0).toUpperCase()
-    let lastLetter = text.charAt(text.length - 1).toUpperCase()
-    let result = firstLetter + lastLetter
-    return result
-  }
-  React.useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault()
-        setOpen((open) => !open)
-      }
-    }
-    document.addEventListener("keydown", down)
-    return () => document.removeEventListener("keydown", down)
-    console.log(`The margin value is now ${marginLeft}px`)
-  }, [marginLeft])
-  // ChainList
-  interface Chain {
-    chain: any
-    chainId: any
-    nativeCurrency: any
-    chainSlug: any
-    name: string
-    title: string
-    network: string
-    // ...
-  }
-  const [chains, setChains] = useState<Chain[]>([])
-  React.useEffect(() => {
-    async function fetchData() {
-      const sortedChains = await generateChainData()
-      setChains(sortedChains)
-    }
-    fetchData()
-  }, [])
-  const includeTestnets =
-    (typeof testnets === "string" && testnets === "true") ||
-    (typeof testnet === "string" && testnet === "true")
-  const sortedChains = !includeTestnets
-    ? chains.filter((item) => {
-      const testnet =
-        item.name?.toLowerCase().includes("test") ||
-        item.title?.toLowerCase().includes("test") ||
-        item.network?.toLowerCase().includes("test")
-      const devnet =
-        item.name?.toLowerCase().includes("devnet") ||
-        item.title?.toLowerCase().includes("devnet") ||
-        item.network?.toLowerCase().includes("devnet")
-      return !testnet && !devnet
-    })
-    : chains
-  const filteredChains =
-    !search || typeof search !== "string" || search === ""
-      ? sortedChains
-      : sortedChains.filter((chain) => {
-        //filter
-        return (
-          chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-          chain.chainId
-            .toString()
-            .toLowerCase()
-            .includes(search.toLowerCase()) ||
-          chain.name.toLowerCase().includes(search.toLowerCase()) ||
-          (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
-            .toLowerCase()
-            .includes(search.toLowerCase())
-        )
-      })
-  const form = useForm<z.infer<typeof FormSchema>>({
-    resolver: zodResolver(FormSchema),
-    defaultValues: {
-      items: ["recents", "home"],
-      dev_mode: false,
-      hello_tool: true,
-    },
-  })
+  const buttonRef = React.useRef<HTMLButtonElement | null>(null)
+  const validationPhoneNumberState = React.useMemo(() => {
+    if (number === "") return undefined
+    return validatePhoneNumber(number) ? "valid" : "invalid"
+  }, [number])
   function onSubmit(data: z.infer<typeof FormSchema>) {
     toast({
       title: "You submitted the following values:",
@@ -476,7 +405,40 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       ),
     })
   }
-  const buttonRef = React.useRef<HTMLButtonElement | null>(null)
+  const validatePhoneNumberPlus = (value: string) => {
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+    return regex.test(value)
+  }
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema),
+    defaultValues: {
+      items: ["recents", "home"],
+      dev_mode: false,
+      hello_tool: true,
+    },
+  })
+  const validatePhoneNumber = (value: string) => {
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
+    return regex.test(value)
+  }
+  const validationState = React.useMemo(() => {
+    if (value === "") return undefined
+    return validateEmail(value) || validatePhoneNumber(value)
+      ? "valid"
+      : "invalid"
+  }, [value])
+  function logoLetter(title: string): string {
+    let text = title
+    let firstLetter = text.charAt(0).toUpperCase()
+    let lastLetter = text.charAt(text.length - 1).toUpperCase()
+    let result = firstLetter + lastLetter
+    return result
+  }
+  const handleButtonShadcnUiClick = () => {
+    if (fileInputRef.current) {
+      fileInputRef.current.click()
+    }
+  }
   const handleConfetti = async () => {
     const { clientWidth, clientHeight } = document.documentElement
     const boundingBox = buttonRef.current?.getBoundingClientRect?.()
@@ -497,6 +459,34 @@ export default function Hack(this: any, { ...props }: DialogProps) {
         x: targetCenterX / clientWidth,
       },
     })
+  }
+  React.useEffect(() => {
+    const down = (e: KeyboardEvent) => {
+      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        setOpen((open) => !open)
+      }
+    }
+    document.addEventListener("keydown", down)
+    return () => document.removeEventListener("keydown", down)
+    console.log(`The margin value is now ${marginLeft}px`)
+  }, [marginLeft])
+  React.useEffect(() => {
+    async function fetchData() {
+      const sortedChains = await generateChainData()
+      setChains(sortedChains)
+    }
+    fetchData()
+  }, [])
+  interface Chain {
+    chain: any
+    chainId: any
+    nativeCurrency: any
+    chainSlug: any
+    name: string
+    title: string
+    network: string
+    // ...
   }
   // If anyone else me seeing this code || not in billion years || but still anyone new seeing this code then my advice is just a permanent job and make some grands so that you can fly those grands like MR. Beast or just fly those money for nothing and again be broke
   // And I am not telling this thing to me cause I donot think that I will ever get a chance to get some grands for my ultra good luck
