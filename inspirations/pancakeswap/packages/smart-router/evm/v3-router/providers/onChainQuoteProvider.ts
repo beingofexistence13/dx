@@ -1,4 +1,5 @@
-import { BigintIsh, ChainId, Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { BigintIsh, Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { Abi, Address } from 'viem'
 import retry, { Options as RetryOptions } from 'async-retry'
 // import uniq from 'lodash/uniq.js'
@@ -130,7 +131,7 @@ function onChainQuoteProviderFactory({ getQuoteFunctionName, getQuoterAddress, a
           BATCH_MULTICALL_CONFIGS[chainId as ChainId] ||
           BATCH_MULTICALL_CONFIGS[ChainId.ETHEREUM]
         const {
-          defaultConfig: { gasLimitPerCall: defaultGasLimitPerCall },
+          defaultConfig: { gasLimitPerCall: defaultGasLimitPerCall, dropUnexecutedCalls },
         } = multicallConfigs
         const chainProvider = onChainProvider({ chainId })
         const providerConfig = { blockNumber: blockNumberFromConfig }
@@ -153,6 +154,7 @@ function onChainQuoteProviderFactory({ getQuoteFunctionName, getQuoterAddress, a
                 functionParams: inputs,
                 providerConfig,
                 additionalConfig: {
+                  dropUnexecutedCalls,
                   gasLimitPerCall,
                   gasLimit,
                 },

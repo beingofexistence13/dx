@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { createPublicClient, http, PublicClient } from 'viem'
 import { bsc, bscTestnet, goerli, mainnet, zkSyncTestnet, polygonZkEvm, zkSync, arbitrum } from 'viem/chains'
 
@@ -47,7 +47,7 @@ const base = {
   },
   contracts: {
     multicall3: {
-      address: '0xca11bde05977b3631167028862be2a173976ca11',
+      address: '0xcA11bde05977b3631167028862bE2a173976CA11',
       blockCreated: 5022,
     },
   },
@@ -107,8 +107,10 @@ const mainnetClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 export const bscClient: PublicClient = createPublicClient({
@@ -117,8 +119,10 @@ export const bscClient: PublicClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 export const bscTestnetClient: PublicClient = createPublicClient({
@@ -127,8 +131,10 @@ export const bscTestnetClient: PublicClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const goerliClient = createPublicClient({
@@ -137,8 +143,10 @@ const goerliClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const zksyncTestnetClient = createPublicClient({
@@ -147,8 +155,10 @@ const zksyncTestnetClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const polygonZkEvmClient = createPublicClient({
@@ -165,8 +175,10 @@ const polygonZkEvmClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const zksyncClient = createPublicClient({
@@ -175,8 +187,10 @@ const zksyncClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const arbitrumOneClient = createPublicClient({
@@ -185,8 +199,10 @@ const arbitrumOneClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const lineaClient = createPublicClient({
@@ -195,8 +211,10 @@ const lineaClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 const baseClient = createPublicClient({
@@ -205,8 +223,10 @@ const baseClient = createPublicClient({
   batch: {
     multicall: {
       batchSize: 1024 * 200,
+      wait: 16,
     },
   },
+  pollingInterval: 6_000,
 })
 
 export const viemProviders = ({ chainId }: { chainId?: ChainId }): PublicClient => {

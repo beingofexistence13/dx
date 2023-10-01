@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { getGasLimitOnChain, getDefaultGasLimit } from '@pancakeswap/multicall'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 
 import { getViemClients } from 'utils/viem'
 
-const CHAINS_TO_USE_DEFAULT = []
+const CHAINS_TO_USE_DEFAULT = [ChainId.BASE]
 
 export function useMulticallGasLimit(chainId?: ChainId) {
   const shouldUseDefault = useMemo(() => Boolean(chainId && CHAINS_TO_USE_DEFAULT.includes(chainId)), [chainId])

@@ -1,24 +1,30 @@
-import { Box, Flex, InfoIcon, RowBetween, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, InfoFilledIcon, RowBetween, Text, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
 import { CryptoCard } from 'components/Card'
 import { FiatOnRampModalButton } from 'components/FiatOnRampModal/FiatOnRampModal'
+import Image from 'next/image'
 import { Dispatch, SetStateAction, useCallback, useEffect, useRef, useState } from 'react'
+import { isMobile } from 'react-device-detect'
+import styled from 'styled-components'
+import formatLocaleNumber from 'utils/formatLocaleNumber'
+import { CURRENT_CAMPAIGN_TIMESTAMP, ONRAMP_PROVIDERS, providerFeeTypes } from 'views/BuyCrypto/constants'
 import { getRefValue } from 'views/BuyCrypto/hooks/useGetRefValue'
 import { CryptoFormView, ProviderQuote } from 'views/BuyCrypto/types'
-import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { isMobile } from 'react-device-detect'
-import formatLocaleNumber from 'utils/formatLocaleNumber'
-import { providerFeeTypes } from 'views/BuyCrypto/constants'
-import Image from 'next/image'
-import getTimePeriods from '@pancakeswap/utils/getTimePeriods'
-import OnRampProviderLogo from '../OnRampProviderLogo/OnRampProviderLogo'
 import pocketWatch from '../../../../../public/images/pocket-watch.svg'
+import OnRampProviderLogo from '../OnRampProviderLogo/OnRampProviderLogo'
 
 const DropdownWrapper = styled.div<{ isClicked: boolean }>`
   display: ${({ isClicked }) => (isClicked ? 'none' : 'block')};
   width: 100%;
   transition: display 0.6s ease-in-out;
 `
+
+const activeProviders: { [provider in keyof typeof ONRAMP_PROVIDERS]: boolean } = {
+  [ONRAMP_PROVIDERS.Mercuryo]: false,
+  [ONRAMP_PROVIDERS.MoonPay]: false,
+  [ONRAMP_PROVIDERS.Transak]: false,
+}
 
 const FeeItem = ({ feeTitle, feeAmount, currency }: { feeTitle: string; feeAmount: number; currency: string }) => {
   const {
@@ -54,12 +60,12 @@ function AccordionItem({
     currentLanguage: { locale },
   } = useTranslation()
   const contentRef = useRef<HTMLDivElement>(null)
-  const [height, setHeight] = useState(active ? 240 : 90)
+  const [height, setHeight] = useState(active ? 240 : 96)
   const multiple = false
   const [visiblity, setVisiblity] = useState(false)
   const [mobileTooltipShow, setMobileTooltipShow] = useState(false)
   const currentTimestamp = Math.floor(Date.now() / 1000)
-  const { days, hours, minutes } = getTimePeriods(currentTimestamp - 1694512859)
+  const { days, hours, minutes, seconds } = getTimePeriods(currentTimestamp - CURRENT_CAMPAIGN_TIMESTAMP)
   const isActive = () => (multiple ? visiblity : active)
 
   const toogleVisiblity = useCallback(() => {
@@ -69,7 +75,7 @@ function AccordionItem({
 
   useEffect(() => {
     const contentEl = getRefValue(contentRef)
-    setHeight(contentEl?.scrollHeight + 90)
+    setHeight(contentEl?.scrollHeight + 96)
   }, [active])
 
   const {
@@ -94,8 +100,8 @@ function AccordionItem({
   if (quote.amount === 0) {
     return (
       <Flex flexDirection="column">
-        <CryptoCard padding="16px 16px" style={{ height: '48px' }} position="relative" isClicked={false} isDisabled>
-          <RowBetween paddingBottom="20px">
+        <CryptoCard padding="16px 16px" style={{ height: '70px' }} position="relative" isClicked={false} isDisabled>
+          <RowBetween paddingBottom="24px" paddingTop="8px">
             <OnRampProviderLogo provider={quote.provider} />
             <TooltipText
               ref={buyCryptoTargetRef}
@@ -104,10 +110,10 @@ function AccordionItem({
               style={{ justifyContent: 'center', alignItems: 'center' }}
             >
               <Flex alignItems="center" justifyContent="center">
-                <Text ml="4px" fontSize="14px" color="textSubtle">
+                <Text ml="4px" fontSize="15px" color="textSubtle" fontWeight="bold">
                   {t('Quote not available')}
                 </Text>
-                <InfoIcon color="textSubtle" pl="4px" pt="2px" />
+                <InfoFilledIcon pl="4px" pt="2px" color="textSubtle" width="22px" />
               </Flex>
             </TooltipText>
             {buyCryptoTooltipVisible && (!isMobile || mobileTooltipShow) && buyCryptoTooltip}
@@ -119,7 +125,7 @@ function AccordionItem({
   return (
     <Flex flexDirection="column">
       <CryptoCard
-        padding="16px 16px"
+        padding="18px 18px"
         style={{ height }}
         onClick={!isActive() ? toogleVisiblity : () => null}
         position="relative"
@@ -154,7 +160,7 @@ function AccordionItem({
             else fee = quote.providerFee
             return <FeeItem key={feeType} feeTitle={feeType} feeAmount={fee} currency={quote.fiatCurrency} />
           })}
-          {quote.provider === 'Mercuryo' ? (
+          {activeProviders[quote.provider] && seconds >= 1 ? (
             <Box mt="16px" background="#F0E4E2" padding="16px" border="1px solid #D67E0A" borderRadius="16px">
               <Flex>
                 <Image src={pocketWatch} alt="pocket-watch" height={30} width={30} />

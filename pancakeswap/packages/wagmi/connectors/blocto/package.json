@@ -1,5 +1,0 @@
-{
-  "main": "../../dist/connectors/blocto.js",
-  "module": "../../dist/connectors/blocto.mjs",
-  "types": "../../dist/connectors/blocto.d.ts"
-}

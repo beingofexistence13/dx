@@ -1,5 +1,19 @@
 # @pancakeswap/sdk
 
+## 5.5.0
+
+### Minor Changes
+
+- 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
+
+## 5.4.2
+
+### Patch Changes
+
+- 2d7e1b3e2: Upgraded viem
+- Updated dependencies [2d7e1b3e2]
+  - @pancakeswap/chains@0.0.1
+
 ## 5.4.1
 
 ### Patch Changes

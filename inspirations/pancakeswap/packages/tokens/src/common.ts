@@ -1,4 +1,5 @@
-import { ChainId, ERC20Token } from '@pancakeswap/sdk'
+import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 
 export const CAKE_MAINNET = new ERC20Token(
   ChainId.BSC,
@@ -203,6 +204,22 @@ export const CAKE = {
     'PancakeSwap Token',
     'https://pancakeswap.finance/',
   ),
+  [ChainId.BASE_TESTNET]: new ERC20Token(
+    ChainId.BASE_TESTNET,
+    '0x052a99849Ef2e13a5CB28275862991671D4b6fF5',
+    18,
+    'CAKE',
+    'PancakeSwap Token',
+    'https://pancakeswap.finance/',
+  ),
+  [ChainId.LINEA_TESTNET]: new ERC20Token(
+    ChainId.LINEA_TESTNET,
+    '0x2B3C5df29F73dbF028BA82C33e0A5A6e5800F75e',
+    18,
+    'CAKE',
+    'PancakeSwap Token',
+    'https://pancakeswap.finance/',
+  ),
 }
 
 export const USDC = {
@@ -339,7 +356,7 @@ export const STABLE_COIN = {
   [ChainId.POLYGON_ZKEVM_TESTNET]: USDT[ChainId.POLYGON_ZKEVM_TESTNET],
   [ChainId.LINEA]: USDC[ChainId.LINEA],
   [ChainId.LINEA_TESTNET]: USDC[ChainId.LINEA_TESTNET],
-  [ChainId.OPBNB_TESTNET]: USDC[ChainId.OPBNB_TESTNET],
+  [ChainId.OPBNB_TESTNET]: USDT[ChainId.OPBNB_TESTNET],
   [ChainId.BASE]: USDC[ChainId.BASE],
   [ChainId.BASE_TESTNET]: USDC[ChainId.BASE_TESTNET],
   [ChainId.SCROLL_SEPOLIA]: USDC[ChainId.SCROLL_SEPOLIA],

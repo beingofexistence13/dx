@@ -1,5 +1,6 @@
 /* eslint-disable no-console, camelcase, @typescript-eslint/no-non-null-assertion */
-import { BigintIsh, ChainId } from '@pancakeswap/sdk'
+import { BigintIsh } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 import { encodeFunctionData, PublicClient, decodeFunctionResult } from 'viem'
 import stats from 'stats-lite'
 import { multicallByGasLimit } from '@pancakeswap/multicall'
@@ -20,6 +21,8 @@ export type PancakeMulticallConfig = {
   gasLimit?: BigintIsh
 
   gasBuffer?: BigintIsh
+
+  dropUnexecutedCalls?: boolean
 }
 
 /**
@@ -69,6 +72,7 @@ export class PancakeMulticallProvider extends IMulticallProvider<PancakeMultical
     const { results: result, blockNumber } = await multicallByGasLimit(calls, {
       gasLimit: additionalConfig?.gasLimit,
       gasBuffer: additionalConfig?.gasBuffer,
+      dropUnexecutedCalls: additionalConfig?.dropUnexecutedCalls,
       chainId: this.chainId,
       client: this.provider,
     })
@@ -148,6 +152,7 @@ export class PancakeMulticallProvider extends IMulticallProvider<PancakeMultical
     const { results: result, blockNumber } = await multicallByGasLimit(calls, {
       gasLimit: additionalConfig?.gasLimit,
       gasBuffer: additionalConfig?.gasBuffer,
+      dropUnexecutedCalls: additionalConfig?.dropUnexecutedCalls,
       chainId: this.chainId,
       client: this.provider,
     })
@@ -225,6 +230,7 @@ export class PancakeMulticallProvider extends IMulticallProvider<PancakeMultical
     const { results: result, blockNumber } = await multicallByGasLimit(calls, {
       gasLimit: additionalConfig?.gasLimit,
       gasBuffer: additionalConfig?.gasBuffer,
+      dropUnexecutedCalls: additionalConfig?.dropUnexecutedCalls,
       chainId: this.chainId,
       client: this.provider,
     })

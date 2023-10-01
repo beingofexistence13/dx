@@ -1,8 +1,0 @@
-version: '3'
-services:
-  app:
-    build: .
-    volumes:
-      - ./apps/docs:/app
-    ports:
-      - "3000:3000"

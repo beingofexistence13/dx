@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@pancakeswap/chains'
 
 import { ChainMap, BatchMulticallConfigs } from '../types'
 
@@ -57,7 +57,13 @@ export const BATCH_MULTICALL_CONFIGS: ChainMap<BatchMulticallConfigs> = {
   [ChainId.ZKSYNC_TESTNET]: DEFAULT,
   [ChainId.LINEA]: DEFAULT,
   [ChainId.LINEA_TESTNET]: DEFAULT,
-  [ChainId.BASE]: DEFAULT,
+  [ChainId.BASE]: {
+    ...DEFAULT,
+    defaultConfig: {
+      ...DEFAULT.defaultConfig,
+      dropUnexecutedCalls: true,
+    },
+  },
   [ChainId.BASE_TESTNET]: DEFAULT,
   [ChainId.OPBNB_TESTNET]: DEFAULT,
   [ChainId.SCROLL_SEPOLIA]: DEFAULT,

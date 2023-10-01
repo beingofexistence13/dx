@@ -1,5 +1,32 @@
 # @pancakeswap/pools
 
+## 4.0.12
+
+### Patch Changes
+
+- 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
+- Updated dependencies [1831356d9]
+  - @pancakeswap/tokens@0.4.4
+
+## 4.0.11
+
+### Patch Changes
+
+- 2d7e1b3e2: Upgraded viem
+- 67d0780d1: Add wstETH pool
+- Updated dependencies [2d7e1b3e2]
+  - @pancakeswap/sdk@5.4.2
+  - @pancakeswap/tokens@0.4.3
+  - @pancakeswap/token-lists@0.0.8
+
+## 4.0.10
+
+### Patch Changes
+
+- Updated dependencies [51b77c787]
+  - @pancakeswap/tokens@0.4.2
+  - @pancakeswap/token-lists@0.0.8
+
 ## 4.0.9
 
 ### Patch Changes

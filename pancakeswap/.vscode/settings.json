@@ -1,5 +1,0 @@
-{
-  "deno.enablePaths": ["./cli/aptos-codegen"],
-  "deno.config": "./cli/aptos-codegen/deno.jsonc",
-  "typescript.tsdk": "node_modules/typescript/lib"
-}
