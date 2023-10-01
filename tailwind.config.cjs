@@ -90,13 +90,11 @@ module.exports = {
   plugins: [
     require("tailwindcss-animate"),
     nextui(),
-    require('daisyui'),
-    require('preline/plugin'),
-    require("rippleui"),
-    require(' '),
-
-    
-    require("flowbite/plugin"),
+    // require('daisyui'),
+    // require('preline/plugin'),
+    // require("rippleui"),
+    // require(''),
+    // require("flowbite/plugin"),
 
   ],
 }
