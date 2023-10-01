@@ -47,15 +47,6 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-  Command,
-  CommandDialog,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-  CommandShortcut,
   ContextMenu,
   ContextMenuCheckboxItem,
   ContextMenuContent,
@@ -71,8 +62,8 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-  Dialog,
-  DialogContent,
+  // Dialog,
+  // DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
@@ -193,7 +184,7 @@ import SocialMedias from "./socialMedia"
 import { NavigationMenuDropdown } from "./navigatioin-menu"
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
-import { CalendarDays, ChevronDown } from "lucide-react"
+import { CalendarDays, ChevronDown, Mic } from "lucide-react"
 import {
   Cloud,
   CreditCard,
@@ -209,6 +200,7 @@ import {
   User,
   UserPlus,
   Users,
+  ImagePlus
 } from "lucide-react"
 import { NotificationAction } from "./notification"
 import { UserAction } from "./user"
@@ -216,7 +208,6 @@ import { PrimarySidebar } from "./primary-sidebar"
 import { RightSidebar } from "./right-sidebar"
 import { FridayAction } from "./friday"
 import { MoreAction } from "./more"
-// new imports statements
 import { useState } from "react"
 import { Suspense } from "react"
 import { useEffect } from "react"
@@ -226,7 +217,6 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import {
   Input,
 } from "@nextui-org/react"
-import { DialogProps } from "@radix-ui/react-alert-dialog"
 import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import { format } from "date-fns"
 import {
@@ -258,20 +248,166 @@ import { useTheme } from "next-themes"
 import { useForm } from "react-hook-form"
 import PhoneInput from "react-phone-input-2"
 import { z } from "zod"
-
-
-
 import useAccount from "../hooks/useAccount"
 import useAddToNetwork from "../hooks/useAddToNetwork"
 import { useChain } from "../stores"
-// import { useTranslations } from "next-intl";
 import { renderProviderText, notTranslation as useTranslations } from "../utils"
 import { generateChainData } from "../utils/fetch"
 import { AdBanner } from "./AdBanner"
 import Layout from "./Layout"
 import RPCList from "./RPCList"
 import Chain from "./chain"
+import { DialogProps } from "@radix-ui/react-dialog"
+import { Command as CommandPrimitive } from "cmdk"
+import { Search } from "lucide-react"
+import { Dialog, DialogContent } from "@/registry/default/ui/dialog"
 
+const Command = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive>
+>(({ className, ...props }, ref) => (
+  <CommandPrimitive
+    ref={ref}
+    className={cn(
+      "flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground",
+      className
+    )}
+    {...props}
+  />
+))
+Command.displayName = CommandPrimitive.displayName
+
+interface CommandDialogProps extends DialogProps {}
+
+const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
+  return (
+    <Dialog {...props}>
+      <DialogContent className="overflow-hidden p-0 shadow-lg">
+        <Command className="[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-5 [&_[cmdk-input-wrapper]_svg]:w-5 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-5 [&_[cmdk-item]_svg]:w-5">
+          {children}
+        </Command>
+      </DialogContent>
+    </Dialog>
+  )
+}
+
+const CommandInput = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Input>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
+>(({ className, ...props }, ref) => (
+  <div className="flex items-center hover:border-b" cmdk-input-wrapper="">
+    <div className="flex w-full items-center space-x-2 px-3 text-sm text-muted-foreground">
+      <div className="search  flex items-center justify-center rounded-full border p-1">
+        <Search className="h-2 w-2 fill-current" />
+      </div>
+      <CommandPrimitive.Input
+        ref={ref}
+        className={cn(
+          "flex h-11 w-full flex-1 rounded-md bg-transparent text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",
+          className
+        )}
+        {...props}
+      />
+      <div className="chatgpt  flex items-center justify-center rounded-full border p-1">
+        <Icons.chatgpt className="h-2 w-2 fill-current" />
+      </div>
+      <div className="mic  flex items-center justify-center  rounded-full border p-1">
+      <Mic className="h-2 w-2 fill-current" />
+      </div>
+      <div className="media  flex items-center justify-center rounded-full border p-1">
+      <ImagePlus className="h-2 w-2 fill-current" />
+      </div>
+    </div>
+  </div>
+))
+
+CommandInput.displayName = CommandPrimitive.Input.displayName
+
+const CommandList = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.List>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.List>
+>(({ className, ...props }, ref) => (
+  <CommandPrimitive.List
+    ref={ref}
+    className={cn("h-auto overflow-y-auto overflow-x-hidden", className)}
+    {...props}
+  />
+))
+
+CommandList.displayName = CommandPrimitive.List.displayName
+
+const CommandEmpty = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Empty>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Empty>
+>((props, ref) => (
+  <CommandPrimitive.Empty
+    ref={ref}
+    className="py-6 text-center text-sm"
+    {...props}
+  />
+))
+
+CommandEmpty.displayName = CommandPrimitive.Empty.displayName
+
+const CommandGroup = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Group>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Group>
+>(({ className, ...props }, ref) => (
+  <CommandPrimitive.Group
+    ref={ref}
+    className={cn(
+      "glassmorphisum overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
+      className
+    )}
+    {...props}
+  />
+))
+
+CommandGroup.displayName = CommandPrimitive.Group.displayName
+
+const CommandSeparator = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Separator>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Separator>
+>(({ className, ...props }, ref) => (
+  <CommandPrimitive.Separator
+    ref={ref}
+    className={cn("-mx-1 h-px bg-border", className)}
+    {...props}
+  />
+))
+CommandSeparator.displayName = CommandPrimitive.Separator.displayName
+
+const CommandItem = React.forwardRef<
+  React.ElementRef<typeof CommandPrimitive.Item>,
+  React.ComponentPropsWithoutRef<typeof CommandPrimitive.Item>
+>(({ className, ...props }, ref) => (
+  <CommandPrimitive.Item
+    ref={ref}
+    className={cn(
+      "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none aria-selected:bg-accent aria-selected:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+      className
+    )}
+    {...props}
+  />
+))
+
+CommandItem.displayName = CommandPrimitive.Item.displayName
+
+const CommandShortcut = ({
+  className,
+  ...props
+}: React.HTMLAttributes<HTMLSpanElement>) => {
+  return (
+    <span
+      className={cn(
+        "ml-auto text-xs tracking-widest text-muted-foreground",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+CommandShortcut.displayName = "CommandShortcut"
 
 export function UserHeader() {
   const [open, setOpen] = React.useState(false)
@@ -351,9 +487,10 @@ export function UserHeader() {
               <DropdownMenuLabel>Wallets Status</DropdownMenuLabel>
               <DropdownMenuSeparator />
               {docsConfig.wallet.map((item, index) => (
-                <>
+                <div 
+                key={index}
+                >
                   <DropdownMenuItem
-                    key={index}
                     className="flex items-center justify-center rounded-lg text-center text-[12.5px]"
                   >
                     <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -375,7 +512,7 @@ export function UserHeader() {
                     <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
-                </>
+                </div>
 
               ))}
               <DropdownMenuItem>
@@ -488,13 +625,12 @@ export function UserHeader() {
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <div className="w-full flex-1 lg:w-auto lg:flex-none h-[35px] mt-10">
-            {/* <CommandMenu /> */}
+          <div className="w-full flex-1 lg:w-auto lg:flex-none h-[300px] fixed top-3 left-10">
             <Command className="glassmorphisum rounded-lg border shadow-md">
               <CommandInput placeholder="Search for joy" />
               <CommandList>
                 <CommandEmpty>No results found.</CommandEmpty>
-                <CommandGroup heading="Social Medias">
+                <CommandGroup heading="Wallets,Social Medias,Nodes">
                   {docsConfig.passport
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
