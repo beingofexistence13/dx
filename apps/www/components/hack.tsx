@@ -1,14 +1,29 @@
 "use client"
 
-import * as React from "react"
-import { useState } from "react"
-import { Suspense } from "react"
-import { useEffect } from "react"
-import Image from "next/image"
-import Link from "next/link"
+import { renderProviderText, notTranslation as useTranslations } from "../utils"
+import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import Script from "next/script"
+import { DialogProps } from "@radix-ui/react-alert-dialog"
+import React,{ useState,Suspense,useEffect } from "react"
+import useAddToNetwork from "../hooks/useAddToNetwork"
 import { zodResolver } from "@hookform/resolvers/zod"
+import { generateChainData } from "../utils/fetch"
+import useAccount from "../hooks/useAccount"
+import PhoneInput from "react-phone-input-2"
+import { Icons } from "@/components/icons"
+import { docsConfig } from "@/config/docs"
+import { useForm } from "react-hook-form"
+import { useTheme } from "next-themes"
+import { AdBanner } from "./AdBanner"
+import { useChain } from "../stores"
+import { format } from "date-fns"
+import Script from "next/script"
+import { cn } from "@/lib/utils"
+import RPCList from "./RPCList"
+import Image from "next/image"
+import Layout from "./Layout"
+import Link from "next/link"
+import Chain from "./chain"
 import {
   Button,
   Card,
@@ -16,45 +31,11 @@ import {
   Image as ImageNext,
   Input,
 } from "@nextui-org/react"
-import { DialogProps } from "@radix-ui/react-alert-dialog"
-import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
-import { format } from "date-fns"
 import {
   AsYouType,
   getCountryCallingCode,
   parsePhoneNumber,
 } from "libphonenumber-js"
-import {
-  ArrowDownToLine,
-  Bot,
-  BrainCircuit,
-  Calculator,
-  CalendarIcon,
-  Check,
-  ChevronsUpDown,
-  ClipboardCheck,
-  ClipboardCopy,
-  ClipboardList,
-  ClipboardPaste,
-  Cog,
-  CreditCard,
-  Plus,
-  QrCode,
-  Settings,
-  Settings2,
-  Shield,
-  Smile,
-  User,
-  X,
-} from "lucide-react"
-import { useTheme } from "next-themes"
-import { useForm } from "react-hook-form"
-import PhoneInput from "react-phone-input-2"
-import { z } from "zod"
-
-import { docsConfig } from "@/config/docs"
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import {
   Accordion,
   AccordionContent,
@@ -225,18 +206,32 @@ import {
   type ToastActionElement,
   type ToastProps,
 } from "@/components/ui"
+import { z } from "zod"
+import {
+  ArrowDownToLine,
+  Bot,
+  BrainCircuit,
+  Calculator,
+  CalendarIcon,
+  Check,
+  ChevronsUpDown,
+  ClipboardCheck,
+  ClipboardCopy,
+  ClipboardList,
+  ClipboardPaste,
+  Cog,
+  CreditCard,
+  Plus,
+  QrCode,
+  Settings,
+  Settings2,
+  Shield,
+  Smile,
+  User,
+  X,
+} from "lucide-react"
 
-import useAccount from "../hooks/useAccount"
-import useAddToNetwork from "../hooks/useAddToNetwork"
-import { useChain } from "../stores"
-// import { useTranslations } from "next-intl";
-import { renderProviderText, notTranslation as useTranslations } from "../utils"
-import { generateChainData } from "../utils/fetch"
-import { AdBanner } from "./AdBanner"
-import Layout from "./Layout"
-import RPCList from "./RPCList"
-import Chain from "./chain"
-
+// Some Important Initionalizations
 export const items = [
   {
     label: "Shading",
@@ -320,34 +315,35 @@ const FormSchema = z.object({
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
 })
-
+// Uhh.. Some Important Initionalizations End || Such a good and usefull comment :) || I know, I am genius tell me something I do't know 
 export default function Hack(this: any, { ...props }: DialogProps) {
-  const [fluidSimulation, setFluidSimulation] = React.useState(false)
-  const [marginLeft, setMarginLeft] = useState("-00px")
-  const [phone, setPhone] = useState("")
-  const [isFridayOpen, setIsFridayOpen] = React.useState(false)
-  const [isQRCodeOpen, setIsQRCodeOpen] = React.useState(false)
-  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = React.useState(false)
-  const [pendingContent, setPendingContent] = React.useState(false)
-  const [isVisible, setIsVisible] = React.useState(false)
-  const toggleVisibility = () => setIsVisible(!isVisible)
-  const [open, setOpen] = React.useState(false)
-  const { setTheme } = useTheme()
-  const [value, setValue] = React.useState("")
-  const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = React.useState("")
-  const [number, setNumber] = React.useState("")
-  const [file, setFile] = React.useState<File | null>(null)
-  const fileInputRef = React.useRef<HTMLInputElement>(null)
-  const canvasRef = React.useRef<HTMLCanvasElement>(null)
-  const searchParams = useSearchParams()
+  const searchParams = useSearchParams() ? useSearchParams() : useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
+  const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = useState("")
+  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false)
+  const [fluidSimulation, setFluidSimulation] = useState(false)
   const testnets = searchParams ? searchParams.get("testnets") : ""
+  const [pendingContent, setPendingContent] = useState(false)
   const testnet = searchParams ? searchParams.get("testnet") : ""
+  const [isFridayOpen, setIsFridayOpen] = useState(false)
   const search = searchParams ? searchParams.get("search") : ""
-  const [bloom, setBloom] = React.useState(false)
-  const [sunrays, setSunrays] = React.useState(false)
-  const [capture, setCapture] = React.useState(false)
+  const [isQRCodeOpen, setIsQRCodeOpen] = useState(false)
+  const [file, setFile] = useState<File | null>(null)
+  const fileInputRef = React.useRef<HTMLInputElement>(null)
+  const [isVisible, setIsVisible] = useState(false)
+  const canvasRef = React.useRef<HTMLCanvasElement>(null)
+  const toggleVisibility = () => setIsVisible(!isVisible)
+  const [marginLeft, setMarginLeft] = useState("-00px")
+  const [sunrays, setSunrays] = useState(false)
+  const [capture, setCapture] = useState(false)
+  const [bloom, setBloom] = useState(false)
+  const [number, setNumber] = useState("")
+  const [open, setOpen] = useState(false)
+  const [value, setValue] = useState("")
+  const [phone, setPhone] = useState("")
+  const { setTheme } = useTheme()
   const router = useRouter()
-
+  // Definetly some important stuffs  but this to big to hava make a documentation about plus I definetly not get paid enough for this
+  // ohh I forget I donot get paid anything not a single penny and that's why I am broke
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
     if (files) {
@@ -421,7 +417,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     network: string
     // ...
   }
-  const [chains, setChains] = React.useState<Chain[]>([])
+  const [chains, setChains] = useState<Chain[]>([])
   React.useEffect(() => {
     async function fetchData() {
       const sortedChains = await generateChainData()
@@ -434,34 +430,34 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     (typeof testnet === "string" && testnet === "true")
   const sortedChains = !includeTestnets
     ? chains.filter((item) => {
-        const testnet =
-          item.name?.toLowerCase().includes("test") ||
-          item.title?.toLowerCase().includes("test") ||
-          item.network?.toLowerCase().includes("test")
-        const devnet =
-          item.name?.toLowerCase().includes("devnet") ||
-          item.title?.toLowerCase().includes("devnet") ||
-          item.network?.toLowerCase().includes("devnet")
-        return !testnet && !devnet
-      })
+      const testnet =
+        item.name?.toLowerCase().includes("test") ||
+        item.title?.toLowerCase().includes("test") ||
+        item.network?.toLowerCase().includes("test")
+      const devnet =
+        item.name?.toLowerCase().includes("devnet") ||
+        item.title?.toLowerCase().includes("devnet") ||
+        item.network?.toLowerCase().includes("devnet")
+      return !testnet && !devnet
+    })
     : chains
   const filteredChains =
     !search || typeof search !== "string" || search === ""
       ? sortedChains
       : sortedChains.filter((chain) => {
-          //filter
-          return (
-            chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-            chain.chainId
-              .toString()
-              .toLowerCase()
-              .includes(search.toLowerCase()) ||
-            chain.name.toLowerCase().includes(search.toLowerCase()) ||
-            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
-              .toLowerCase()
-              .includes(search.toLowerCase())
-          )
-        })
+        //filter
+        return (
+          chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+          chain.chainId
+            .toString()
+            .toLowerCase()
+            .includes(search.toLowerCase()) ||
+          chain.name.toLowerCase().includes(search.toLowerCase()) ||
+          (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+            .toLowerCase()
+            .includes(search.toLowerCase())
+        )
+      })
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -502,7 +498,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       },
     })
   }
-
+  // If anyone else me seeing this code || not in billion years || but still anyone new seeing this code then my advice is just a permanent job and make some grands so that you can fly those grands like MR. Beast or just fly those money for nothing and again be broke
+  // And I am not telling this thing to me cause I donot think that I will ever get a chance to get some grands for my ultra good luck
   return (
     <div>
       <Dialog>
@@ -671,14 +668,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                       onCheckedChange={(checked) => {
                                         return checked
                                           ? field.onChange([
-                                              ...field.value,
-                                              item.id,
-                                            ])
+                                            ...field.value,
+                                            item.id,
+                                          ])
                                           : field.onChange(
-                                              field.value?.filter(
-                                                (value) => value !== item.id
-                                              )
+                                            field.value?.filter(
+                                              (value) => value !== item.id
                                             )
+                                          )
                                       }}
                                     />
                                   </FormControl>
@@ -901,8 +898,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -935,8 +932,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -965,8 +962,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               src={
                                 item.logo
                                   ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
+                                    .replace(/\s/g, "-")
+                                    .toLowerCase()}.jpg`
                                   : ""
                               }
                               alt="Dx"
@@ -990,8 +987,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               src={
                                 item.logo
                                   ? `/docs/${item.title
-                                      .replace(/\s/g, "-")
-                                      .toLowerCase()}.jpg`
+                                    .replace(/\s/g, "-")
+                                    .toLowerCase()}.jpg`
                                   : ""
                               }
                               alt="Dx"
@@ -1154,7 +1151,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                         className={cn(
                                           "w-full text-left font-normal",
                                           !field.value &&
-                                            "text-muted-foreground"
+                                          "text-muted-foreground"
                                         )}
                                       >
                                         {field.value ? (
@@ -1256,8 +1253,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                       src={
                                         navItem.logo
                                           ? `/docs/${navItem.title
-                                              .replace(/\s/g, "-")
-                                              .toLowerCase()}.jpg`
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
                                           : ""
                                       }
                                       alt="Dx"
@@ -1316,8 +1313,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -1347,8 +1344,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   src={
                                     item.logo
                                       ? `/docs/${item.title
-                                          .replace(/\s/g, "-")
-                                          .toLowerCase()}.jpg`
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
                                       : ""
                                   }
                                   alt="Dx"
@@ -1372,8 +1369,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   src={
                                     item.logo
                                       ? `/docs/${item.title
-                                          .replace(/\s/g, "-")
-                                          .toLowerCase()}.jpg`
+                                        .replace(/\s/g, "-")
+                                        .toLowerCase()}.jpg`
                                       : ""
                                   }
                                   alt="Dx"
@@ -1767,13 +1764,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               variant="bordered"
                               color={
                                 validationEmailAndPhoneNumbberState ===
-                                "invalid"
+                                  "invalid"
                                   ? "danger"
                                   : "success"
                               }
                               errorMessage={
                                 validationEmailAndPhoneNumbberState ===
-                                  "invalid" &&
+                                "invalid" &&
                                 "Set A Recovary Email Or Phone Number Proccess Crashed"
                               }
                               validationState={
