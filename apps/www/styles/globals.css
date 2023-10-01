@@ -884,3 +884,12 @@ input {
             transform: scale3d(1, 1, 1);
   }
 }
+
+
+
+input,input:hover,input:focus{
+outline: none !important;
+outline-offset: 0px !important;
+border: none !important;
+box-shadow: none !important;
+}
