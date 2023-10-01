@@ -216,17 +216,77 @@ import { PrimarySidebar } from "./primary-sidebar"
 import { RightSidebar } from "./right-sidebar"
 import { FridayAction } from "./friday"
 import { MoreAction } from "./more"
+// new imports statements
+import { useState } from "react"
+import { Suspense } from "react"
+import { useEffect } from "react"
+import { usePathname, useSearchParams } from "next/navigation"
+import Script from "next/script"
+import { zodResolver } from "@hookform/resolvers/zod"
+import {
+  Input,
+} from "@nextui-org/react"
+import { DialogProps } from "@radix-ui/react-alert-dialog"
+import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
+import { format } from "date-fns"
+import {
+  AsYouType,
+  getCountryCallingCode,
+  parsePhoneNumber,
+} from "libphonenumber-js"
+import {
+  ArrowDownToLine,
+  Bot,
+  BrainCircuit,
+  Calculator,
+  CalendarIcon,
+  Check,
+  ChevronsUpDown,
+  ClipboardCheck,
+  ClipboardCopy,
+  ClipboardList,
+  ClipboardPaste,
+  Cog,
+
+  QrCode,
+  Settings2,
+  Shield,
+  Smile,
+  X,
+} from "lucide-react"
+import { useTheme } from "next-themes"
+import { useForm } from "react-hook-form"
+import PhoneInput from "react-phone-input-2"
+import { z } from "zod"
+
+
+
+import useAccount from "../hooks/useAccount"
+import useAddToNetwork from "../hooks/useAddToNetwork"
+import { useChain } from "../stores"
+// import { useTranslations } from "next-intl";
+import { renderProviderText, notTranslation as useTranslations } from "../utils"
+import { generateChainData } from "../utils/fetch"
+import { AdBanner } from "./AdBanner"
+import Layout from "./Layout"
+import RPCList from "./RPCList"
+import Chain from "./chain"
 
 
 export function UserHeader() {
   const [open, setOpen] = React.useState(false)
   const ref = useRef<HTMLDivElement>(null)
+  const router = useRouter()
   const { pressProps } = usePress({
     onPressStart: (event) => console.log("onPressStart:", event.pointerType),
     onPressEnd: (event) => console.log("onPressEnd:", event.pointerType),
     onPress: (event) => console.log("onPress:", event.pointerType),
     onPressUp: (event) => console.log("onPressUp:", event.pointerType),
   })
+  const runCommand = React.useCallback((command: () => unknown) => {
+    setOpen(false)
+    command()
+  }, [])
   function logoLetter(title: string): string {
     let text = title
     let firstLetter = text.charAt(0).toUpperCase()
@@ -245,13 +305,13 @@ export function UserHeader() {
             <div className="hidden lg:flex rounded-lg hover:bg-[--code-foreground] sm:inline-block mr-1">
               <Link href="/" className="flex items-center space-x-.5 pr-2 ">
                 <Icons.logo className="navbar-logo-icon" />
-                <span className="hidden font-bold text-sm sm:flex items-center justify-center">
+                <span className="hidden font-bold text-sm sm:flex  ">
                   {siteConfig.nameShort}
                 </span>
               </Link>
             </div>
           </HoverCardTrigger>
-          <HoverCardContent className="w-80">
+          <HoverCardContent className="w-80 ml-[70px] h-[35px] flex items-center justify-center">
             <div className="flex justify-between space-x-4">
               <Avatar>
                 <AvatarImage src="https://github.com/vercel.png" />
@@ -428,8 +488,82 @@ export function UserHeader() {
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <div className="w-full flex-1 lg:w-auto lg:flex-none">
-            <CommandMenu />
+          <div className="w-full flex-1 lg:w-auto lg:flex-none h-[35px] mt-10">
+            {/* <CommandMenu /> */}
+            <Command className="glassmorphisum rounded-lg border shadow-md">
+              <CommandInput placeholder="Search for joy" />
+              <CommandList>
+                <CommandEmpty>No results found.</CommandEmpty>
+                <CommandGroup heading="Social Medias">
+                  {docsConfig.passport
+                    .filter((navitem) => !navitem.external)
+                    .map((navItem, index) => (
+                      <CommandItem
+                        key={index}
+                        value={navItem.title}
+                        onSelect={() => {
+                          runCommand(() =>
+                            router.push(navItem.href as string)
+                          )
+                        }}
+                      >
+                        <Avatar className="h-[27px] w-[27px] rounded-sm">
+                          <AvatarImage
+                            src={
+                              navItem.logo
+                                ? `/docs/${navItem.title
+                                  .replace(/\s/g, "-")
+                                  .toLowerCase()}.jpg`
+                                : ""
+                            }
+                            alt="Dx"
+                          />
+                          <AvatarFallback className="glassmorphisum border-none">
+                            {navItem.title
+                              ? logoLetter(navItem.title)
+                              : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                        <span className="ml-3">{navItem.title}</span>
+                      </CommandItem>
+                    ))}
+                </CommandGroup>
+                <CommandGroup heading="Blockchain Wallets">
+                  {docsConfig.wallet
+                    .filter((navitem) => !navitem.external)
+                    .map((navItem, index) => (
+                      <CommandItem
+                        key={index}
+                        value={navItem.title}
+                        onSelect={() => {
+                          runCommand(() =>
+                            router.push(navItem.href as string)
+                          )
+                        }}
+                      >
+                        <Avatar className="h-[27px] w-[27px] rounded-sm">
+                          <AvatarImage
+                            src={
+                              navItem.logo
+                                ? `/docs/${navItem.title
+                                  .replace(/\s/g, "-")
+                                  .toLowerCase()}.jpg`
+                                : ""
+                            }
+                            alt="Dx"
+                          />
+                          <AvatarFallback className="glassmorphisum border-none">
+                            {navItem.title
+                              ? logoLetter(navItem.title)
+                              : "Dx"}
+                          </AvatarFallback>
+                        </Avatar>
+                        <span className="ml-3">{navItem.title}</span>
+                      </CommandItem>
+                    ))}
+                </CommandGroup>
+              </CommandList>
+            </Command>
           </div>
           <div className="separator h-[25px] w-[1px] mx-1"></div>
           <nav className="flex items-center">

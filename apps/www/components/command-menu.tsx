@@ -61,9 +61,6 @@ export function CommandMenu({ ...props }: DialogProps) {
           Search for joy...
         </span>
         <span className="inline-flex w-auto lg:hidden">Search...</span>
-        {/* <kbd className="pointer-events-none absolute right-1.5 top-1.5 flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100">
-          <span className="text-xs">K</span>
-        </kbd> */}
         <div className="text-xs rounded-md border absolute right-1.5 top-1.5 h-5 flex items-center justify-center px-1.5">
           K
         </div>

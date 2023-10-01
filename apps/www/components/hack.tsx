@@ -331,7 +331,6 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [pendingContent, setPendingContent] = React.useState(false)
   const [isVisible, setIsVisible] = React.useState(false)
   const toggleVisibility = () => setIsVisible(!isVisible)
-  const router = useRouter()
   const [open, setOpen] = React.useState(false)
   const { setTheme } = useTheme()
   const [value, setValue] = React.useState("")
@@ -347,6 +346,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const [bloom, setBloom] = React.useState(false)
   const [sunrays, setSunrays] = React.useState(false)
   const [capture, setCapture] = React.useState(false)
+  const router = useRouter()
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files
@@ -972,7 +972,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               alt="Dx"
                             />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {item.title ? LLetter(item.title) : "Dx"}
+                              {item.title ? logoLetter(item.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                         </div>
