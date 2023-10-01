@@ -8,8 +8,8 @@ import React,{ useState,Suspense,useEffect } from "react"
 import useAddToNetwork from "../hooks/useAddToNetwork"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { generateChainData } from "../utils/fetch"
-import useAccount from "../hooks/useAccount"
 import PhoneInput from "react-phone-input-2"
+import useAccount from "../hooks/useAccount"
 import { Icons } from "@/components/icons"
 import { docsConfig } from "@/config/docs"
 import { useForm } from "react-hook-form"
@@ -319,20 +319,20 @@ const FormSchema = z.object({
 export default function Hack(this: any, { ...props }: DialogProps) {
   const searchParams = useSearchParams() ? useSearchParams() : useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
   const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = useState("")
-  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false)
-  const [fluidSimulation, setFluidSimulation] = useState(false)
   const testnets = searchParams ? searchParams.get("testnets") : ""
-  const [pendingContent, setPendingContent] = useState(false)
+  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false)
   const testnet = searchParams ? searchParams.get("testnet") : ""
-  const [isFridayOpen, setIsFridayOpen] = useState(false)
   const search = searchParams ? searchParams.get("search") : ""
-  const [isQRCodeOpen, setIsQRCodeOpen] = useState(false)
-  const [file, setFile] = useState<File | null>(null)
+  const [fluidSimulation, setFluidSimulation] = useState(false)
+  const [pendingContent, setPendingContent] = useState(false)
   const fileInputRef = React.useRef<HTMLInputElement>(null)
-  const [isVisible, setIsVisible] = useState(false)
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
   const toggleVisibility = () => setIsVisible(!isVisible)
+  const [isFridayOpen, setIsFridayOpen] = useState(false)
+  const [isQRCodeOpen, setIsQRCodeOpen] = useState(false)
   const [marginLeft, setMarginLeft] = useState("-00px")
+  const [file, setFile] = useState<File | null>(null)
+  const [isVisible, setIsVisible] = useState(false)
   const [sunrays, setSunrays] = useState(false)
   const [capture, setCapture] = useState(false)
   const [bloom, setBloom] = useState(false)
