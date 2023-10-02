@@ -12,11 +12,11 @@
         "npm_config_user_agent",
         "https_proxy"
       ],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["./dist/**", "./.next/**"]
     },
     "preview": {
       "env": ["NEXT_PUBLIC_APP_URL"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["./dist/**", "./.next/**"]
     },
     "start": {
       "dependsOn": ["^build"]
