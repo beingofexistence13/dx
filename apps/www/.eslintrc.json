@@ -3,7 +3,6 @@
   "root": true,
   "extends": [
     "next/core-web-vitals",
-    "turbo",
     "prettier",
     "plugin:tailwindcss/recommended"
   ],
@@ -24,7 +23,7 @@
   },
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx","*.js","*.mjs"],
+      "files": ["*.ts", "*.tsx","*.js"],
       "parser": "@typescript-eslint/parser"
     }
   ]
