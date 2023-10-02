@@ -7,7 +7,7 @@ import Link from "next/link"
 import { ChevronRightIcon } from "@radix-ui/react-icons"
 import Balancer from "react-wrap-balancer"
 
-import { siteConfig } from "@/config/website"
+import { siteConfig } from "@/config/site"
 import { getTableOfContents } from "@/lib/toc"
 import { absoluteUrl, cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
@@ -65,7 +65,7 @@ export async function generateMetadata({
       title: doc.title,
       description: doc.description,
       images: [siteConfig.ogImage],
-      creator: "@beingofexistence",
+      creator: "@shadcn",
     },
   }
 }
@@ -88,19 +88,21 @@ export default async function DocPage({ params }: DocPageProps) {
   const toc = await getTableOfContents(doc.body.raw)
 
   return (
-    <main className="relative mx-5 py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+    <main className="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
       <div className="mx-auto w-full min-w-0">
-        <div className="text-muted-foreground mb-4 flex items-center space-x-1 text-sm">
-          <div className="overflow-hidden truncate">Docs</div>
+        <div className="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
+          <div className="overflow-hidden text-ellipsis whitespace-nowrap">
+            Docs
+          </div>
           <ChevronRightIcon className="h-4 w-4" />
-          <div className="text-foreground font-medium">{doc.title}</div>
+          <div className="font-medium text-foreground">{doc.title}</div>
         </div>
         <div className="space-y-2">
           <h1 className={cn("scroll-m-20 text-4xl font-bold tracking-tight")}>
             {doc.title}
           </h1>
           {doc.description && (
-            <p className="text-muted-foreground text-lg">
+            <p className="text-lg text-muted-foreground">
               <Balancer>{doc.description}</Balancer>
             </p>
           )}
@@ -137,9 +139,11 @@ export default async function DocPage({ params }: DocPageProps) {
       </div>
       {doc.toc && (
         <div className="hidden text-sm xl:block">
-          <div className="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
+          <div className="sticky top-16 -mt-10 pt-4">
             <ScrollArea className="pb-10">
-              <DashboardTableOfContents toc={toc} />
+              <div className="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] py-12">
+                <DashboardTableOfContents toc={toc} />
+              </div>
             </ScrollArea>
           </div>
         </div>
