@@ -43660,7 +43660,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Generators",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Generators generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -43921,7 +43921,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Resources",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Resources generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44038,7 +44038,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Tools",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Tools generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44191,7 +44191,7 @@ const sidebarNav = [
       },
       {
         title: "HTML Tools",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This HTML Tools generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44308,7 +44308,7 @@ const sidebarNav = [
       },
       {
         title: "CSS At-Rules",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS At-Rules generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44425,7 +44425,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Data Types",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Data Types generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44578,7 +44578,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Functions",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Functions generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -44992,7 +44992,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Properties",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Properties generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -47044,7 +47044,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Pseudo Classes",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Pseudo Classes generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -47359,7 +47359,7 @@ const sidebarNav = [
       },
       {
         title: "CSS Pseudo Elements",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This CSS Pseudo Elements generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",
@@ -47422,7 +47422,7 @@ const sidebarNav = [
       },
       {
         title: "HTML Tags",
-        href: "javascript: void(0);",
+        href: "#",
         description:
           "This HTML Tags generator is one of the hard work from cssPortal",
         website_url: "https://www.cssportal.com/",

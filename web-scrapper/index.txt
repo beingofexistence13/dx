@@ -2522,7 +2522,7 @@ const chat_completion = (async () => {
 
 
 {"title":" CSS Portal","url":"https://www.cssportal.com/"}
-VM1786:10 {"title":"CSS Generators","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Generators","url":"#"}
 VM1786:10 {"title":"Animated Text Generator","url":"https://www.cssportal.com/css-animated-text-generator/"}
 VM1786:10 {"title":"Border Radius Generator","url":"https://www.cssportal.com/css3-rounded-corner/"}
 VM1786:10 {"title":"Box Shadow Generator","url":"https://www.cssportal.com/css3-box-shadow-generator/"}
@@ -2551,7 +2551,7 @@ VM1786:10 {"title":"Text Shadow Generator","url":"https://www.cssportal.com/css3
 VM1786:10 {"title":"Tooltip Generator","url":"https://www.cssportal.com/css-tooltip-generator/"}
 VM1786:10 {"title":"Triangle Generator","url":"https://www.cssportal.com/css-triangle-generator/"}
 VM1786:10 {"title":"3D Transform Generator","url":"https://www.cssportal.com/css-3d-transform-generator/"}
-VM1786:10 {"title":"CSS Resources","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Resources","url":"#"}
 VM1786:10 {"title":"CSS At Rules","url":"https://www.cssportal.com/css-at-rules/"}
 VM1786:10 {"title":"CSS Animations","url":"https://www.cssportal.com/animate-css/"}
 VM1786:10 {"title":"CSS Blog","url":"https://www.cssportal.com/blog/"}
@@ -2564,7 +2564,7 @@ VM1786:10 {"title":"CSS Pseudo Classes","url":"https://www.cssportal.com/css-pse
 VM1786:10 {"title":"CSS Quiz","url":"https://www.cssportal.com/css-quiz/"}
 VM1786:10 {"title":"CSS Selectors","url":"https://www.cssportal.com/css-selectors/"}
 VM1786:10 {"title":"CSS Shapes","url":"https://www.cssportal.com/css3-shapes/"}
-VM1786:10 {"title":"CSS Tools","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Tools","url":"#"}
 VM1786:10 {"title":"LESS to CSS Compiler","url":"https://www.cssportal.com/less-to-css/"}
 VM1786:10 {"title":"SCSS to CSS Compiler","url":"https://www.cssportal.com/scss-to-css/"}
 VM1786:10 {"title":"Stylus to CSS Compiler","url":"https://www.cssportal.com/stylus-to-css/"}
@@ -2581,7 +2581,7 @@ VM1786:10 {"title":"CSS Validator","url":"https://www.cssportal.com/css-validato
 VM1786:10 {"title":"CSS Visual Style Editor","url":"https://www.cssportal.com/css-style-editor/"}
 VM1786:10 {"title":"Convert Image to Data","url":"https://www.cssportal.com/image-to-data/"}
 VM1786:10 {"title":"Online CSS Editor","url":"https://www.cssportal.com/online-css-editor/"}
-VM1786:10 {"title":"HTML Tools","url":"javascript: void(0);"}
+VM1786:10 {"title":"HTML Tools","url":"#"}
 VM1786:10 {"title":"Pug to HTML Compiler","url":"https://www.cssportal.com/pug-to-html/"}
 VM1786:10 {"title":"Markdown to HTML Compiler","url":"https://www.cssportal.com/markdown-to-html/"}
 VM1786:10 {"title":"HTML to Pug Converter","url":"https://www.cssportal.com/html-to-pug/"}
@@ -2594,7 +2594,7 @@ VM1786:10 {"title":"HTML Tags","url":"https://www.cssportal.com/html-tags/"}
 VM1786:10 {"title":"HTML Online Editor","url":"https://www.cssportal.com/html-online-editor/"}
 VM1786:10 {"title":"HTML Tutorial","url":"https://www.cssportal.com/html-tutorial/"}
 VM1786:10 {"title":"HTML Validator","url":"https://www.cssportal.com/html-validator/"}
-VM1786:10 {"title":"CSS At-Rules","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS At-Rules","url":"#"}
 VM1786:10 {"title":"@charset","url":"https://www.cssportal.com/css-at-rules/charset.php"}
 VM1786:10 {"title":"@counter-style","url":"https://www.cssportal.com/css-at-rules/counter-style.php"}
 VM1786:10 {"title":"@document","url":"https://www.cssportal.com/css-at-rules/document.php"}
@@ -2607,7 +2607,7 @@ VM1786:10 {"title":"@namespace","url":"https://www.cssportal.com/css-at-rules/na
 VM1786:10 {"title":"@page","url":"https://www.cssportal.com/css-at-rules/page.php"}
 VM1786:10 {"title":"@supports","url":"https://www.cssportal.com/css-at-rules/supports.php"}
 VM1786:10 {"title":"@viewport","url":"https://www.cssportal.com/css-at-rules/viewport.php"}
-VM1786:10 {"title":"CSS Data Types","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Data Types","url":"#"}
 VM1786:10 {"title":"angle","url":"https://www.cssportal.com/css-data-types/angle.php"}
 VM1786:10 {"title":"basic-shape","url":"https://www.cssportal.com/css-data-types/basic-shape.php"}
 VM1786:10 {"title":"blend-mode","url":"https://www.cssportal.com/css-data-types/blend-mode.php"}
@@ -2625,7 +2625,7 @@ VM1786:10 {"title":"resolution","url":"https://www.cssportal.com/css-data-types/
 VM1786:10 {"title":"string","url":"https://www.cssportal.com/css-data-types/string.php"}
 VM1786:10 {"title":"time","url":"https://www.cssportal.com/css-data-types/time.php"}
 VM1786:10 {"title":"url","url":"https://www.cssportal.com/css-data-types/url.php"}
-VM1786:10 {"title":"CSS Functions","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Functions","url":"#"}
 VM1786:10 {"title":"attr()","url":"https://www.cssportal.com/css-functions/attr.php"}
 VM1786:10 {"title":"blur()","url":"https://www.cssportal.com/css-functions/blur.php"}
 VM1786:10 {"title":"brightness()","url":"https://www.cssportal.com/css-functions/brightness.php"}
@@ -2671,7 +2671,7 @@ VM1786:10 {"title":"translate3d()","url":"https://www.cssportal.com/css-function
 VM1786:10 {"title":"translateX()","url":"https://www.cssportal.com/css-functions/translateX.php"}
 VM1786:10 {"title":"translateY()","url":"https://www.cssportal.com/css-functions/translateY.php"}
 VM1786:10 {"title":"translateZ()","url":"https://www.cssportal.com/css-functions/translateZ.php"}
-VM1786:10 {"title":"CSS Properties","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Properties","url":"#"}
 VM1786:10 {"title":"align-content","url":"https://www.cssportal.com/css-properties/align-content.php"}
 VM1786:10 {"title":"align-items","url":"https://www.cssportal.com/css-properties/align-items.php"}
 VM1786:10 {"title":"align-self","url":"https://www.cssportal.com/css-properties/align-self.php"}
@@ -2899,7 +2899,7 @@ VM1786:10 {"title":"word-spacing","url":"https://www.cssportal.com/css-propertie
 VM1786:10 {"title":"word-wrap","url":"https://www.cssportal.com/css-properties/word-wrap.php"}
 VM1786:10 {"title":"writing-mode","url":"https://www.cssportal.com/css-properties/writing-mode.php"}
 VM1786:10 {"title":"z-index","url":"https://www.cssportal.com/css-properties/z-index.php"}
-VM1786:10 {"title":"CSS Pseudo Classes","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Pseudo Classes","url":"#"}
 VM1786:10 {"title":":active","url":"https://www.cssportal.com/css-pseudo-class/active.php"}
 VM1786:10 {"title":":checked","url":"https://www.cssportal.com/css-pseudo-class/checked.php"}
 VM1786:10 {"title":":default","url":"https://www.cssportal.com/css-pseudo-class/default.php"}
@@ -2934,14 +2934,14 @@ VM1786:10 {"title":":root","url":"https://www.cssportal.com/css-pseudo-class/roo
 VM1786:10 {"title":":target","url":"https://www.cssportal.com/css-pseudo-class/target.php"}
 VM1786:10 {"title":":valid","url":"https://www.cssportal.com/css-pseudo-class/valid.php"}
 VM1786:10 {"title":":visited","url":"https://www.cssportal.com/css-pseudo-class/visited.php"}
-VM1786:10 {"title":"CSS Pseudo Elements","url":"javascript: void(0);"}
+VM1786:10 {"title":"CSS Pseudo Elements","url":"#"}
 VM1786:10 {"title":"::after","url":"https://www.cssportal.com/css-pseudo-class/after.php"}
 VM1786:10 {"title":"::before","url":"https://www.cssportal.com/css-pseudo-class/before.php"}
 VM1786:10 {"title":"::first-letter","url":"https://www.cssportal.com/css-pseudo-class/first-letter.php"}
 VM1786:10 {"title":"::first-line","url":"https://www.cssportal.com/css-pseudo-class/first-line.php"}
 VM1786:10 {"title":"::placeholder","url":"https://www.cssportal.com/css-pseudo-class/placeholder.php"}
 VM1786:10 {"title":"::selection","url":"https://www.cssportal.com/css-pseudo-class/selection.php"}
-VM1786:10 {"title":"HTML Tags","url":"javascript: void(0);"}
+VM1786:10 {"title":"HTML Tags","url":"#"}
 VM1786:10 {"title":"<a>","url":"https://www.cssportal.com/html-tags/tag-a.php"}
 VM1786:10 {"title":"<abbr>","url":"https://www.cssportal.com/html-tags/tag-abbr.php"}
 VM1786:10 {"title":"<address>","url":"https://www.cssportal.com/html-tags/tag-address.php"}

@@ -1,11 +1,69 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
-import React, { useRef } from "react"
+import React, { Suspense, useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import Link, { LinkProps } from "next/link"
-import { useRouter } from "next/navigation"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import Script from "next/script"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { Input } from "@nextui-org/react"
+import { DialogProps } from "@radix-ui/react-dialog"
+import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
+import { Command as CommandPrimitive } from "cmdk"
+import { format } from "date-fns"
+import {
+  AsYouType,
+  getCountryCallingCode,
+  parsePhoneNumber,
+} from "libphonenumber-js"
+import {
+  ArrowDownToLine,
+  Bot,
+  BrainCircuit,
+  Calculator,
+  CalendarDays,
+  CalendarIcon,
+  Check,
+  ChevronDown,
+  ChevronsUpDown,
+  ClipboardCheck,
+  ClipboardCopy,
+  ClipboardList,
+  ClipboardPaste,
+  Cloud,
+  Cog,
+  CreditCard,
+  Github,
+  ImagePlus,
+  Keyboard,
+  LifeBuoy,
+  LogOut,
+  Mail,
+  MessageSquare,
+  Mic,
+  Plus,
+  PlusCircle,
+  QrCode,
+  Search,
+  Settings,
+  Settings2,
+  Shield,
+  Smile,
+  User,
+  UserPlus,
+  Users,
+  X,
+} from "lucide-react"
+import { useTheme } from "next-themes"
 import { usePress } from "react-aria"
-import { any } from "zod"
+import { useForm } from "react-hook-form"
+import PhoneInput from "react-phone-input-2"
+import { any, z } from "zod"
+
+import { docsConfig } from "@/config/docs"
+import { more, products } from "@/config/navbar"
 import { socialMediaConfig } from "@/config/social-media"
 import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"
@@ -35,7 +93,9 @@ import {
   AvatarFallback,
   AvatarImage,
   Badge,
+  badgeVariants,
   Button,
+  buttonVariants,
   Calendar,
   Card,
   CardContent,
@@ -119,6 +179,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
   NavigationMenuViewport,
   Popover,
   PopoverContent,
@@ -137,6 +198,9 @@ import {
   SelectTrigger,
   SelectValue,
   Separator,
+  Sheet,
+  SheetContent,
+  SheetTrigger,
   Skeleton,
   Slider,
   Switch,
@@ -154,113 +218,45 @@ import {
   TabsTrigger,
   Textarea,
   Toast,
+  toast,
   ToastAction,
   ToastClose,
   ToastDescription,
+  Toaster,
   ToastProvider,
   ToastTitle,
   ToastViewport,
-  Toaster,
   Toggle,
+  toggleVariants,
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-  badgeVariants,
-  buttonVariants,
-  navigationMenuTriggerStyle,
-  toast,
-  toggleVariants,
   useFormField,
   useToast,
   type ToastActionElement,
   type ToastProps,
-  Sheet,
-  SheetTrigger,
-  SheetContent,
 } from "@/components/ui"
-import Hack from "./hack"
-import SocialMedias from "./socialMedia"
-import { NavigationMenuDropdown } from "./navigatioin-menu"
-import { docsConfig } from "@/config/docs"
-import { more, products } from "@/config/navbar"
-import { CalendarDays, ChevronDown, Mic } from "lucide-react"
-import {
-  Cloud,
-  CreditCard,
-  Github,
-  Keyboard,
-  LifeBuoy,
-  LogOut,
-  Mail,
-  MessageSquare,
-  Plus,
-  PlusCircle,
-  Settings,
-  User,
-  UserPlus,
-  Users,
-  ImagePlus
-} from "lucide-react"
-import { NotificationAction } from "./notification"
-import { UserAction } from "./user"
-import { PrimarySidebar } from "./primary-sidebar"
-import { RightSidebar } from "./right-sidebar"
-import { FridayAction } from "./friday"
-import { MoreAction } from "./more"
-import { useState } from "react"
-import { Suspense } from "react"
-import { useEffect } from "react"
-import { usePathname, useSearchParams } from "next/navigation"
-import Script from "next/script"
-import { zodResolver } from "@hookform/resolvers/zod"
-import {
-  Input,
-} from "@nextui-org/react"
-import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
-import { format } from "date-fns"
-import {
-  AsYouType,
-  getCountryCallingCode,
-  parsePhoneNumber,
-} from "libphonenumber-js"
-import {
-  ArrowDownToLine,
-  Bot,
-  BrainCircuit,
-  Calculator,
-  CalendarIcon,
-  Check,
-  ChevronsUpDown,
-  ClipboardCheck,
-  ClipboardCopy,
-  ClipboardList,
-  ClipboardPaste,
-  Cog,
+import { Dialog, DialogContent } from "@/registry/default/ui/dialog"
 
-  QrCode,
-  Settings2,
-  Shield,
-  Smile,
-  X,
-} from "lucide-react"
-import { useTheme } from "next-themes"
-import { useForm } from "react-hook-form"
-import PhoneInput from "react-phone-input-2"
-import { z } from "zod"
 import useAccount from "../hooks/useAccount"
 import useAddToNetwork from "../hooks/useAddToNetwork"
 import { useChain } from "../stores"
 import { renderProviderText, notTranslation as useTranslations } from "../utils"
 import { generateChainData } from "../utils/fetch"
 import { AdBanner } from "./AdBanner"
-import Layout from "./Layout"
-import RPCList from "./RPCList"
 import Chain from "./chain"
-import { DialogProps } from "@radix-ui/react-dialog"
-import { Command as CommandPrimitive } from "cmdk"
-import { Search } from "lucide-react"
-import { Dialog, DialogContent } from "@/registry/default/ui/dialog"
+import { FridayAction } from "./friday"
+import Hack from "./hack"
+import Layout from "./Layout"
+import { MoreAction } from "./more"
+import { NavigationMenuDropdown } from "./navigatioin-menu"
+import { NotificationAction } from "./notification"
+import { PrimarySidebar } from "./primary-sidebar"
+import { RightSidebar } from "./right-sidebar"
+import RPCList from "./RPCList"
+import SocialMedias from "./socialMedia"
+import { UserAction } from "./user"
 
 const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,
@@ -277,7 +273,7 @@ const Command = React.forwardRef<
 ))
 Command.displayName = CommandPrimitive.displayName
 
-interface CommandDialogProps extends DialogProps { }
+interface CommandDialogProps extends DialogProps {}
 
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
   return (
@@ -478,7 +474,9 @@ export function UserHeader() {
                   <AvatarFallback className="p-1"></AvatarFallback>
                 </Avatar>
 
-                <span className="text-truncate text-muted overflow-none whitespace-none w-[75px] truncate text-xs">Gkjkaljfkldsjfkldsjfkldsfjkjkjkjlk</span>
+                <span className="text-truncate text-muted overflow-none whitespace-none w-[75px] truncate text-xs">
+                  Gkjkaljfkldsjfkldsjfkldsfjkjkjkjlk
+                </span>
 
                 <div className="h-2 w-2 rounded-full bg-green-400"></div>
               </div>
@@ -487,19 +485,15 @@ export function UserHeader() {
               <DropdownMenuLabel>Wallets Status</DropdownMenuLabel>
               <DropdownMenuSeparator />
               {docsConfig.wallet.map((item, index) => (
-                <div
-                  key={index}
-                >
-                  <DropdownMenuItem
-                    className="flex items-center justify-center rounded-lg text-center text-[12.5px]"
-                  >
+                <div key={index}>
+                  <DropdownMenuItem className="flex items-center justify-center rounded-lg text-center text-[12.5px]">
                     <Avatar className="h-[27px] w-[27px] rounded-sm">
                       <AvatarImage
                         src={
                           item.logo
                             ? `/docs/${item.title
-                              .replace(/\s/g, "-")
-                              .toLowerCase()}.jpg`
+                                .replace(/\s/g, "-")
+                                .toLowerCase()}.jpg`
                             : ""
                         }
                         alt="Dx"
@@ -513,7 +507,6 @@ export function UserHeader() {
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                 </div>
-
               ))}
               <DropdownMenuItem>
                 <LogOut className="mr-2 h-4 w-4" />
@@ -530,7 +523,9 @@ export function UserHeader() {
                   <AvatarFallback className="flex items-center justify-center text-center text-[5px]"></AvatarFallback>
                 </Avatar>
 
-                <span className="text-truncate text-muted overflow-none whitespace-none w-[75px] truncate text-xs">0.0000000001</span>
+                <span className="text-truncate text-muted overflow-none whitespace-none w-[75px] truncate text-xs">
+                  0.0000000001
+                </span>
 
                 <div className="flex h-5 w-5 items-center justify-center rounded-full">
                   <ChevronDown className="h-3 w-3" />
@@ -625,7 +620,11 @@ export function UserHeader() {
             <AvatarImage src="/logo.svg" alt="@shadcn" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
-          <div className={`w-full flex-1 lg:w-auto lg:flex-none  ${open ? "h-[350px]" : "h-[35px]"}`}>
+          <div
+            className={`w-full flex-1 lg:w-auto lg:flex-none  ${
+              open ? "h-[350px]" : "h-[35px]"
+            }`}
+          >
             <Command className="glassmorphisum rounded-lg border shadow-md">
               <CommandInput
                 onClick={() => {
@@ -640,121 +639,122 @@ export function UserHeader() {
                   {docsConfig.passport
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-                        <CommandItem
-                          value={navItem.title}
-                          key={index}
-                        >
+                      <Link
+                        key={index}
+                        href={navItem.href ? navItem.href : "/"}
+                      >
+                        <CommandItem value={navItem.title}>
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
-                              src={navItem.logo
-                                ? `/docs/${navItem.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                                : ""}
-                              alt="Dx" />
+                              src={
+                                navItem.logo
+                                  ? `/docs/${navItem.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {navItem.title
-                                ? logoLetter(navItem.title)
-                                : "Dx"}
+                              {navItem.title ? logoLetter(navItem.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-
+                      </Link>
                     ))}
                 </CommandGroup>
                 <CommandGroup heading="Blockchain Wallets">
                   {docsConfig.wallet
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-
-
-                        <CommandItem
-                          value={navItem.title}
-                          key={index}
-                        >
+                      <Link
+                        key={index}
+                        href={navItem.href ? navItem.href : "/"}
+                      >
+                        <CommandItem value={navItem.title}>
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
-                              src={navItem.logo
-                                ? `/docs/${navItem.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                                : ""}
-                              alt="Dx" />
+                              src={
+                                navItem.logo
+                                  ? `/docs/${navItem.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {navItem.title
-                                ? logoLetter(navItem.title)
-                                : "Dx"}
+                              {navItem.title ? logoLetter(navItem.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-
+                      </Link>
                     ))}
                 </CommandGroup>
-              </CommandList><CommandList className="hidden">
+              </CommandList>
+              <CommandList className="hidden">
                 <CommandEmpty>No results found.</CommandEmpty>
                 <CommandGroup heading="Wallets,Social Medias,Nodes">
                   {docsConfig.passport
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-
-
-                        <CommandItem
-                          value={navItem.title}
-                          key={index}
-                        >
+                      <Link
+                        key={index}
+                        href={navItem.href ? navItem.href : "/"}
+                      >
+                        <CommandItem value={navItem.title}>
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
-                              src={navItem.logo
-                                ? `/docs/${navItem.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                                : ""}
-                              alt="Dx" />
+                              src={
+                                navItem.logo
+                                  ? `/docs/${navItem.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {navItem.title
-                                ? logoLetter(navItem.title)
-                                : "Dx"}
+                              {navItem.title ? logoLetter(navItem.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-
+                      </Link>
                     ))}
                 </CommandGroup>
                 <CommandGroup heading="Blockchain Wallets">
                   {docsConfig.wallet
                     .filter((navitem) => !navitem.external)
                     .map((navItem, index) => (
-
-
-                        <CommandItem
-                          value={navItem.title}
-                          key={index}
-                        >
+                      <Link
+                        key={index}
+                        href={navItem.href ? navItem.href : "/"}
+                      >
+                        <CommandItem value={navItem.title}>
                           <Avatar className="h-[27px] w-[27px] rounded-sm">
                             <AvatarImage
-                              src={navItem.logo
-                                ? `/docs/${navItem.title
-                                  .replace(/\s/g, "-")
-                                  .toLowerCase()}.jpg`
-                                : ""}
-                              alt="Dx" />
+                              src={
+                                navItem.logo
+                                  ? `/docs/${navItem.title
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
+                                  : ""
+                              }
+                              alt="Dx"
+                            />
                             <AvatarFallback className="glassmorphisum border-none">
-                              {navItem.title
-                                ? logoLetter(navItem.title)
-                                : "Dx"}
+                              {navItem.title ? logoLetter(navItem.title) : "Dx"}
                             </AvatarFallback>
                           </Avatar>
                           <span className="ml-3">{navItem.title}</span>
                         </CommandItem>
-
+                      </Link>
                     ))}
                 </CommandGroup>
               </CommandList>
-
-
             </Command>
           </div>
           <div className="separator mx-1 h-[25px] w-[1px]"></div>
@@ -770,5 +770,3 @@ export function UserHeader() {
     </header>
   )
 }
-
-

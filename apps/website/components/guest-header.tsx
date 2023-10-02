@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 "use client"
 
 import React, { useRef } from "react"
@@ -6,7 +7,6 @@ import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
 import { usePress } from "react-aria"
 import { any } from "zod"
-
 import { socialMediaConfig } from "@/config/social-media"
 import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"

@@ -12651,7 +12651,7 @@ export const docsConfig: DocsConfig = {
     },
   ],
   dapp: [
-    
+
       {
         title: "NFTClue",
         href: "docs/hack(evm-dapps)/nftclue",
@@ -22465,10 +22465,10 @@ export const docsConfig: DocsConfig = {
           "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
         items: [],
       },
-    
-  
-  
-  
+
+
+
+
       {
         title: "XBANKING",
         href: "docs/blockchains(solana-dapps)/xbanking",
@@ -22847,13 +22847,13 @@ export const docsConfig: DocsConfig = {
           "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
         items: [],
       },
-    
 
 
 
 
 
-    
+
+
       {
         title: "xbanking",
         href: "docs/blockchains(cosmos-dapps)/xbanking",
@@ -23026,7 +23026,7 @@ export const docsConfig: DocsConfig = {
           "https://chrome.google.com/webstore/detail/zerion-wallet-for-web3-nf/klghhnkeealcohjjanjjdaeeggmfmlpl/",
         items: [],
       },
-    
+
   ],
   mainNav: [
     {
@@ -66856,7 +66856,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Generators",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Generators generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67117,7 +67117,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Resources",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Resources generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67234,7 +67234,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Tools",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Tools generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67387,7 +67387,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "HTML Tools",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This HTML Tools generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67504,7 +67504,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS At-Rules",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS At-Rules generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67621,7 +67621,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Data Types",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Data Types generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -67774,7 +67774,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Functions",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Functions generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -68188,7 +68188,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Properties",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Properties generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -70240,7 +70240,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Pseudo Classes",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Pseudo Classes generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -70555,7 +70555,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "CSS Pseudo Elements",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This CSS Pseudo Elements generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",
@@ -70618,7 +70618,7 @@ export const docsConfig: DocsConfig = {
         },
         {
           title: "HTML Tags",
-          href: "javascript: void(0);",
+          href: "#",
           description:
             "This HTML Tags generator is one of the hard work from cssPortal",
           website_url: "https://www.cssportal.com/",

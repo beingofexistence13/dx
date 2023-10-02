@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 "use client"
 
 import { renderProviderText, notTranslation as useTranslations } from "../utils"

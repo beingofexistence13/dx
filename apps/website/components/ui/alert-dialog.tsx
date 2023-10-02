@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable tailwindcss/classnames-order */
 
 import * as React from "react"
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog"

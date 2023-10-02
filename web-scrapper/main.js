@@ -18687,7 +18687,7 @@ let walletConnect = [
     {
       title: "XRaid",
       href: "docs/blockchains(evm_dapps)/xraid",
-      description: "Not Provided(coming soon)",      
+      description: "Not Provided(coming soon)",
       items: [],
     },
     {
@@ -55940,7 +55940,7 @@ let generators = [
   },
   {
     title: "CSS Generators",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Generators generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56201,7 +56201,7 @@ let generators = [
   },
   {
     title: "CSS Resources",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Resources generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56318,7 +56318,7 @@ let generators = [
   },
   {
     title: "CSS Tools",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Tools generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56471,7 +56471,7 @@ let generators = [
   },
   {
     title: "HTML Tools",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This HTML Tools generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56588,7 +56588,7 @@ let generators = [
   },
   {
     title: "CSS At-Rules",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS At-Rules generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56703,7 +56703,7 @@ let generators = [
   },
   {
     title: "CSS Data Types",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Data Types generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -56848,7 +56848,7 @@ let generators = [
   },
   {
     title: "CSS Functions",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Functions generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -57254,7 +57254,7 @@ let generators = [
   },
   {
     title: "CSS Properties",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Properties generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -59285,7 +59285,7 @@ let generators = [
   },
   {
     title: "CSS Pseudo Classes",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Pseudo Classes generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -59592,7 +59592,7 @@ let generators = [
   },
   {
     title: "CSS Pseudo Elements",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This CSS Pseudo Elements generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -59655,7 +59655,7 @@ let generators = [
   },
   {
     title: "HTML Tags",
-    href: "javascript: void(0);",
+    href: "#",
     description:
       "This HTML Tags generator is one of the hard work from cssPortal",
     website_url: "https://www.cssportal.com/",
@@ -60810,7 +60810,7 @@ let cssPortal = [
   },
   {
     title: "CSS Generators",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -60955,7 +60955,7 @@ let cssPortal = [
   },
   {
     title: "CSS Resources",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61020,7 +61020,7 @@ let cssPortal = [
   },
   {
     title: "CSS Tools",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61105,7 +61105,7 @@ let cssPortal = [
   },
   {
     title: "HTML Tools",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61170,7 +61170,7 @@ let cssPortal = [
   },
   {
     title: "CSS At-Rules",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61235,7 +61235,7 @@ let cssPortal = [
   },
   {
     title: "CSS Data Types",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61320,7 +61320,7 @@ let cssPortal = [
   },
   {
     title: "CSS Functions",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -61550,7 +61550,7 @@ let cssPortal = [
   },
   {
     title: "CSS Properties",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -62690,7 +62690,7 @@ let cssPortal = [
   },
   {
     title: "CSS Pseudo Classes",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -62865,7 +62865,7 @@ let cssPortal = [
   },
   {
     title: "CSS Pseudo Elements",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {
@@ -62900,7 +62900,7 @@ let cssPortal = [
   },
   {
     title: "HTML Tags",
-    url: "javascript: void(0);",
+    url: "#",
     website_url: "https://www.cssportal.com/",
   },
   {

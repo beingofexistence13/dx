@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable tailwindcss/classnames-order */
 
 import * as React from "react"
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu"
