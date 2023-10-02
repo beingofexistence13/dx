@@ -2,6 +2,8 @@
 import * as React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image"
+
 // import { useTranslations } from "next-intl";
 import { notTranslation as useTranslations } from "../../../utils";
 import { populateChain, fetcher } from "../../../utils/fetch";
@@ -9,7 +11,6 @@ import AddNetwork from "../../../components/chain";
 import Layout from "../../../components/Layout";
 import RPCList from "../../../components/RPCList";
 import chainIds from "../../../constants/chainIds.json";
-
 export async function getStaticProps({ params }) {
   const chains = await fetcher("https://chainid.network/chains.json");
 
@@ -79,11 +80,11 @@ function Chain({ chain }) {
       <Layout lang="zh">
         <div className="shadow dark:bg-[#0D0D0D] bg-white p-8 rounded-[10px] flex flex-col gap-3 overflow-hidden">
           <Link href={`/chain/${chain.chainId}`} prefetch={false} className="flex items-center mx-auto gap-2">
-            <img
+            <Image
               src={icon}
               width={26}
               height={26}
-              className="rounded-full flex-shrink-0 flex relative"
+              className="rounded-full shrink-0 flex relative"
               alt={chain.name + " logo"}
             />
             <span className="text-xl font-semibold overflow-hidden text-ellipsis relative top-[1px] dark:text-[#B3B3B3]">{chain.name}</span>

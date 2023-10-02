@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 "use client"
 
 import { renderProviderText, notTranslation as useTranslations } from "../utils"
@@ -315,9 +316,9 @@ export const items = [
 interface Props {
   canvasRef: React.RefObject<HTMLCanvasElement>
 }
-// Uhh.. Some Important Initionalizations End || Such a good and usefull comment :) || I know, I am genius tell me something I do't know 
+// Uhh.. Some Important Initionalizations End || Such a good and usefull comment :) || I know, I am genius tell me something I do't know
 export default function Hack(this: any, { ...props }: DialogProps) {
-  const searchParams = useSearchParams() ? useSearchParams() : useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
+  const searchParams = useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
   const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = useState("")
   const testnets = searchParams ? searchParams.get("testnets") : ""
   const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false)
@@ -498,7 +499,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
             <Icons.hack className="h-4 w-4 fill-current" />
           </div>
         </DialogTrigger>
-        <DialogContent className="hack m-0 flex min-h-[100vh] min-w-[100%] items-center justify-center border-0 2xs:px-1 xs:px-3">
+        <DialogContent className="hack 2xs:px-1 xs:px-3 m-0 flex min-h-[100vh] min-w-[100%] items-center justify-center border-0">
           <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
           <Script src="./fluid-simulation.js" />
@@ -849,9 +850,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeOpen className="text-default-400 pointer-events-none text-2xl" />
                             ) : (
-                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeClose className="text-default-400 pointer-events-none text-2xl" />
                             )}
                           </button>
                         }
@@ -1016,7 +1017,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <Button
                         ref={buttonRef}
                         disableRipple
-                        className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
+                        className="after:bg-background/40 relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                         size="lg"
                         onPress={handleConfetti}
                       >
@@ -1097,9 +1098,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeOpen className="text-default-400 pointer-events-none text-2xl" />
                             ) : (
-                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeClose className="text-default-400 pointer-events-none text-2xl" />
                             )}
                           </button>
                         }
@@ -1117,9 +1118,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             onClick={toggleVisibility}
                           >
                             {isVisible ? (
-                              <Icons.eyeOpen className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeOpen className="text-default-400 pointer-events-none text-2xl" />
                             ) : (
-                              <Icons.eyeClose className="pointer-events-none text-2xl text-default-400" />
+                              <Icons.eyeClose className="text-default-400 pointer-events-none text-2xl" />
                             )}
                           </button>
                         }
@@ -1178,24 +1179,24 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <textarea
                         placeholder="Enter Your Bio"
                         rows={4}
-                        className="glassmorphisum mt-3 flex h-24 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none"
+                        className="glassmorphisum border-input bg-background ring-offset-background placeholder:text-muted-foreground mt-3 flex h-24 w-full rounded-md border px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium focus-visible:outline-none"
                         defaultValue={""}
                       />
 
                       <div className="mt-7 flex h-[60px] w-full flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden rounded-xl border px-3 py-1.5">
-                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
+                        <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Avatar
                         </span>
-                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
+                        <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Name
                         </span>
-                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
+                        <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Email
                         </span>
-                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
+                        <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Phone Number
                         </span>
-                        <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
+                        <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-600">
                           Password
                         </span>
                       </div>
@@ -1204,7 +1205,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Button
                           ref={buttonRef}
                           disableRipple
-                          className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
+                          className="after:bg-background/40 relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                           size="lg"
                           onPress={handleConfetti}
                         >
@@ -1415,16 +1416,16 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="mt-7 flex h-[60px] w-full  flex-row items-center justify-between rounded-xl border px-3 py-1.5 ">
                         {pendingContent ? (
                           <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Cleared
                             </span>
                           </div>
                         ) : (
                           <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Social Media
                             </span>
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Wallet
                             </span>
                           </div>
@@ -1697,12 +1698,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               />
                             </AspectRatio>
 
-                            <CardFooter className="absolute bottom-3 z-10 ml-1 w-[calc(100%_-_8px)] justify-between overflow-hidden rounded-large border-1 border-white/20 py-1 shadow-small before:rounded-xl before:bg-white/10">
+                            <CardFooter className="rounded-large border-1 shadow-small absolute bottom-3 z-10 ml-1 w-[calc(100%_-_8px)] justify-between overflow-hidden border-white/20 py-1 before:rounded-xl before:bg-white/10">
                               <p className="text-tiny text-white/80">
                                 Support Developers At Huggingfacfe.
                               </p>
                               <Button
-                                className="bg-black/20 text-tiny text-white"
+                                className="text-tiny bg-black/20 text-white"
                                 variant="flat"
                                 color="default"
                                 radius="lg"
@@ -1853,19 +1854,19 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="mt-7 flex h-[60px] w-full  flex-row items-center justify-between rounded-xl border px-3 py-1.5 ">
                         {pendingContent ? (
                           <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Cleared
                             </span>
                           </div>
                         ) : (
                           <div className="pending-content flex h-full w-full flex-1 flex-row items-center justify-start space-x-2 overflow-x-auto overflow-y-hidden">
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Friday
                             </span>
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               QR Code
                             </span>
-                            <span className="flex min-w-max items-center justify-center rounded-full border-3 border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
+                            <span className="border-3 flex min-w-max items-center justify-center rounded-full border-red-500 bg-red-200 px-2 py-1 text-sm text-red-700 hover:bg-red-400">
                               Authenticator
                             </span>
                           </div>
@@ -1889,7 +1890,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <Button
                           ref={buttonRef}
                           disableRipple
-                          className="relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:bg-background/40 after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
+                          className="after:bg-background/40 relative max-w-[175px] overflow-visible rounded-full border bg-[--code-foreground] p-0 px-12 shadow-xl after:absolute after:inset-0 after:z-[-1] after:rounded-full after:transition after:!duration-500 after:content-[''] hover:-translate-y-1 hover:after:scale-150 hover:after:opacity-0"
                           size="lg"
                           onPress={handleConfetti}
                         >

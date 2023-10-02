@@ -1,8 +1,8 @@
 /* eslint-disable tailwindcss/classnames-order */
 
 import "react-phone-input-2/lib/style.css"
-import "primereact/resources/themes/lara-light-indigo/theme.css"
-import "primereact/resources/primereact.min.css"
+// import "primereact/resources/themes/lara-light-indigo/theme.css"
+// import "primereact/resources/primereact.min.css"
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
@@ -12,9 +12,9 @@ import { siteConfig } from "@/config/website"
 import { cn } from "@/lib/utils"
 import SiteLayout from "@/components/site-layout"
 
-import { Chakraui } from "./chakraui"
-import { Mantine } from "./mantine"
-import { PrimeReact } from "./primereact"
+// import { Chakraui } from "./chakraui"
+// import { Mantine } from "./mantine"
+// import { PrimeReact } from "./primereact"
 import { Providers } from "./providers"
 import { Query } from "./query"
 import { Redux } from "./redux"

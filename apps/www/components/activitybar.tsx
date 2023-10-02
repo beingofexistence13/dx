@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 "use client"
 
 import React, { useRef } from "react"
@@ -33,42 +34,42 @@ export function Activitybar() {
   })
 
   return (
-    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-[55.5px] left-0 backdrop-blur min-w-[50px] h-[94.77vh] border-r space-y-1 pt-1 flex flex-col items-center justify-center">
+    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed left-0 top-[55.5px] flex h-[94.77vh] min-w-[50px] flex-col items-center justify-center space-y-1 border-r pt-1 backdrop-blur">
 
-      <div className="activitybar-main w-full h-[300px] max-h-[72vh] flex flex-col items-center justify-start space-y-2 overflowx-x-hidden overflow-y-auto">
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+      <div className="activitybar-main overflowx-x-hidden flex h-[300px] max-h-[72vh] w-full flex-col items-center justify-start space-y-2 overflow-y-auto">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <FileSearch className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <GitFork className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <LayoutDashboard className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <Calendar className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <BarChart3 className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <Cpu className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <Terminal className="h-4 w-4" />
         </div>
       </div>
 
-      <div className="activitybar-gap w-full flex-1 flex flex-col items-center justify-end space-y-2 overflowx-x-hidden overflow-y-auto border-b"></div>
+      <div className="activitybar-gap overflowx-x-hidden flex w-full flex-1 flex-col items-center justify-end space-y-2 overflow-y-auto border-b"></div>
 
-      <div className="activitybar-extra w-full h-[130px] flex flex-col items-center justify-center space-y-2 overflowx-x-hidden overflow-y-auto border-b">
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+      <div className="activitybar-extra overflowx-x-hidden flex h-[130px] w-full flex-col items-center justify-center space-y-2 overflow-y-auto border-b">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <HelpCircle className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <Headphones className="h-4 w-4" />
         </div>
-        <div className="jello-vertical w-[35px] h-[35px] rounded-md animate-jump animate-infinite animate-ease-linear flex items-center justify-center">
+        <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
           <Cog className="h-4 w-4" />
         </div>
       </div>

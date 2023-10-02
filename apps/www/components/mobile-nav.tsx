@@ -212,7 +212,7 @@ export function MobileNav() {
                     <AccordionTrigger>{item.title}</AccordionTrigger>
                     <AccordionContent className="w-full">
                       {item?.items?.length &&
-                        item?.items?.map((item) => (
+                        item?.items?.map((item:any) => (
                           <React.Fragment key={item.href}>
                             {!item.disabled &&
                               (item.href ? (

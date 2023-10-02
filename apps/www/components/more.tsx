@@ -37,7 +37,7 @@ import { Avatar, AvatarFallback, AvatarImage, Separator } from "./ui"
 export function MoreAction() {
     return (
         <>
-            <div className="more_container_user w-auto p-.5 h-[30px] rounded-md border flex flex-row justify-center items-center">
+            <div className="more_container_user p-.5 flex h-[30px] w-auto flex-row items-center justify-center rounded-md border">
                 {/* Add Stuffs */}
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>

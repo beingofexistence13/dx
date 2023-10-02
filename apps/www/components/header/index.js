@@ -9,6 +9,7 @@ import { formatAddress, getProvider, useDebounce } from "../../utils";
 import { walletIcons } from "../../constants/walletIcons";
 import useConnect from "../../hooks/useConnect";
 import useAccount from "../../hooks/useAccount";
+import Image from "next/image"
 
 function Header({ lang, chainName }) {
   const t = useTranslations("Common", lang);
@@ -52,7 +53,7 @@ function Header({ lang, chainName }) {
     return () => {
       clearTimeout(handler);
     };
-  }, [debouncedSearchTerm]);
+  }, [debouncedSearchTerm, search]);
 
   const { mutate: connectWallet } = useConnect();
 
@@ -100,7 +101,7 @@ function Header({ lang, chainName }) {
             >
               {address ? (
                 <>
-                  <img src={walletIcons[getProvider()]} width={20} height={20} alt="" />
+                  <Image src={walletIcons[getProvider()]} width={20} height={20} alt="" />
                   <span>{formatAddress(address)}</span>
                 </>
               ) : (

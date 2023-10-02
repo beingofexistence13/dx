@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/classnames-order */
 "use client"
 
 import * as React from "react"
@@ -52,16 +53,16 @@ export function CommandMenu({ ...props }: DialogProps) {
       <Button
         variant="outline"
         className={cn(
-          "relative w-max justify-start pr-12 text-sm text-muted-foreground md:w-40 lg:w-64 max-h-[30px]"
+          "text-muted-foreground relative max-h-[30px] w-max justify-start pr-12 text-sm md:w-40 lg:w-64"
         )}
         onClick={() => setOpen(true)}
         {...props}
       >
-        <span className="hidden w-auto lg:inline-flex text-xs text-green-500">
+        <span className="hidden w-auto text-xs text-green-500 lg:inline-flex">
           Search for joy...
         </span>
         <span className="inline-flex w-auto lg:hidden">Search...</span>
-        <div className="text-xs rounded-md border absolute right-1.5 top-1.5 h-5 flex items-center justify-center px-1.5">
+        <div className="absolute right-1.5 top-1.5 flex h-5 items-center justify-center rounded-md border px-1.5 text-xs">
           K
         </div>
       </Button>
@@ -85,7 +86,7 @@ export function CommandMenu({ ...props }: DialogProps) {
                 </CommandItem>
               ))}
           </CommandGroup>
-          {docsConfig.sidebarNav.map((group) => (
+          {/* {docsConfig.sidebarNav.map((group) => (
             <CommandGroup key={group.title} heading={group.title}>
               {group.items.map((navItem) => (
                 <CommandItem
@@ -102,7 +103,7 @@ export function CommandMenu({ ...props }: DialogProps) {
                 </CommandItem>
               ))}
             </CommandGroup>
-          ))}
+          ))} */}
           <CommandSeparator />
           <CommandGroup heading="Theme">
             <CommandItem onSelect={() => runCommand(() => setTheme("light"))}>

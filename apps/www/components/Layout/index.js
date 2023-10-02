@@ -46,7 +46,7 @@ export default function Layout({ children, lang }) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[40vw,_auto]">
       <div className="dark:text-[#B3B3B3] text-black relative h-full">
-        <div className="p-5 sticky top-0 bottom-0 m-auto flex flex-col items-center gap-8 justify-center h-screen max-w-[480px] mx-auto">
+        <div className="p-5 sticky inset-y-0 flex flex-col items-center gap-8 justify-center h-screen max-w-[480px] mx-auto">
           <figure className="lg:mr-auto">
             {/* <Logo /> */}
             <h1 className={title({ color: "violet" })}>Dx Chains&nbsp;</h1>
