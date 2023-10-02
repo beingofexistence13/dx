@@ -23,7 +23,7 @@ module.exports = {
 
     'node_modules/preline/dist/*.js',
     "./node_modules/flowbite-react/**/*.js",
-    
+
     "content/**/*.mdx",
     "registry/**/*.{ts,tsx}",
   ],
@@ -102,15 +102,15 @@ module.exports = {
   },
   darkMode: "class",
   plugins: [
-    require("tailwindcss-animate"),
+    // require("tailwindcss-animate"),
     nextui(),
-    require('daisyui'),
-    require('preline/plugin'),
-    require("rippleui"),
-    require('@sira-ui/tailwind'),
+    // require('daisyui'),
+    // require('preline/plugin'),
+    // require("rippleui"),
+    // require('@sira-ui/tailwind'),
 
-    
-    require("flowbite/plugin"),
+
+    // require("flowbite/plugin"),
 
   ],
 }
