@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import * as React from "react"

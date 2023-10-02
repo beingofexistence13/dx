@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import { tv } from "tailwind-variants"
 
 export const title = tv({

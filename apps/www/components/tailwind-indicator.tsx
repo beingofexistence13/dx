@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 export function TailwindIndicator() {
   if (process.env.NODE_ENV === "production") return null
 

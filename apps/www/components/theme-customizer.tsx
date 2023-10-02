@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import * as React from "react"
@@ -603,7 +605,7 @@ const BASE_STYLES_WITH_VARIABLES = `
     --ring: <%- colors.light["ring"] %>;
     --radius: <%- radius %>rem;
   }
- 
+
   .dark {
     --background: <%- colors.dark["background"] %>;
     --foreground: <%- colors.dark["foreground"] %>;

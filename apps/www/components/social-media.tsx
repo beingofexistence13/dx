@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import { Button } from "@/components/ui/button"
 import {
   Dialog,

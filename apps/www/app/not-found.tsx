@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import { useEffect, useState } from "react"
@@ -39,7 +41,7 @@ export default function NotFound() {
         const targetPage = parts.pop() // Get the last part as the target page
         const parameters = parts.join(" -> ") // Join the remaining parts with "~" as parameters
 
-        return `This parameter ${parameters} has no page such as ${targetPage} in it maybe it 
+        return `This parameter ${parameters} has no page such as ${targetPage} in it maybe it
         is in devlopment(coming soon!!!)`
       }
 

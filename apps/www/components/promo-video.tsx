@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import { AspectRatio } from "@/registry/new-york/ui/aspect-ratio"

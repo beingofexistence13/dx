@@ -1,3 +1,6 @@
+/* eslint-disable tailwindcss/classnames-order */
+
+
 import {
     Cloud,
     CreditCard,

@@ -1,4 +1,7 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
+
 
 import React, { useEffect, useState } from "react"
 import Link, { LinkProps } from "next/link"

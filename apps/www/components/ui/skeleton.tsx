@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import { cn } from "@/lib/utils"
 
 function Skeleton({

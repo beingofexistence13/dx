@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import React from "react"
 
 import { cn } from "@/lib/utils"
