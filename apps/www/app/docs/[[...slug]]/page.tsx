@@ -107,7 +107,7 @@ export default async function DocPage({ params }: DocPageProps) {
         </div>
         {doc.radix ? (
           <div className="flex items-center space-x-2 pt-4">
-            {doc.radix?.link && (
+            {/* {doc.radix?.link && (
               <Link
                 href={doc.radix.link}
                 target="_blank"
@@ -127,7 +127,7 @@ export default async function DocPage({ params }: DocPageProps) {
               >
                 API Reference
               </Link>
-            )}
+            )} */}
           </div>
         ) : null}
         <div className="pb-12 pt-8">
@@ -135,7 +135,7 @@ export default async function DocPage({ params }: DocPageProps) {
         </div>
         <DocsPager doc={doc} />
       </div>
-      {doc.toc && (
+      {/* {doc.toc && (
         <div className="hidden text-sm xl:block">
           <div className="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] overflow-hidden pt-6">
             <ScrollArea className="pb-10">
@@ -143,7 +143,7 @@ export default async function DocPage({ params }: DocPageProps) {
             </ScrollArea>
           </div>
         </div>
-      )}
+      )} */}
     </main>
   )
 }
