@@ -296,7 +296,7 @@ const CommandInput = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof CommandPrimitive.Input>
 >(({ className, ...props }, ref) => (
   <div className="flex items-center hover:border-b" cmdk-input-wrapper="">
-    <div className="flex w-full items-center space-x-2 justify-around px-3 text-sm text-muted-foreground">
+    <div className="flex w-full items-center space-x-2 justify-center px-2 text-sm text-muted-foreground h-[35px]">
       <div className="search  flex items-center justify-center rounded-full border p-1">
         <Search className="h-3.5 w-3.5" />
       </div>
@@ -439,12 +439,12 @@ export function UserHeader() {
         <HoverCard>
           <HoverCardTrigger asChild>
             <div className="hidden lg:flex rounded-lg hover:bg-[--code-foreground] sm:inline-block mr-1">
-              <Link href="/" className="flex items-center space-x-.5 pr-2 ">
+              <div className="flex items-center space-x-.5 pr-2 ">
                 <Icons.logo className="navbar-logo-icon" />
                 <span className="hidden font-bold text-sm sm:flex  ">
                   {siteConfig.nameShort}
                 </span>
-              </Link>
+              </div>
             </div>
           </HoverCardTrigger>
           <HoverCardContent className="w-80 ml-[70px] h-[35px] flex items-center justify-center">
