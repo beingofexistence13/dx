@@ -1,7 +1,7 @@
 import { PartnerLogo } from "./partner-logo";
 import styles from "./partner-logo.module.css";
 import { Box, Flex, LayoutProps } from "@chakra-ui/react";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 const gap = { base: "40px", lg: "60px" };
 

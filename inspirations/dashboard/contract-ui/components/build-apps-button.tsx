@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useMemo } from "react";
 import { BsTerminal } from "react-icons/bs";
 import { LinkButton, LinkButtonProps } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface BuildAppsButtonProps extends Omit<LinkButtonProps, "href"> {}
 

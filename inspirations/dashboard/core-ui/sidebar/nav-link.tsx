@@ -1,7 +1,7 @@
 import { Skeleton } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { Heading, Link } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 type NavLinkProps = {
   onClick?: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;

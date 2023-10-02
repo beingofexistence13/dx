@@ -26,7 +26,7 @@ import { useNativeColorMode } from "hooks/useNativeColorMode";
 import { getDashboardChainRpc } from "lib/rpc";
 import { StorageSingleton } from "lib/sdk";
 import { useEffect, useMemo } from "react";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 export interface DashboardThirdwebProviderProps {
   contractInfo?: EVMContractInfo;

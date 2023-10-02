@@ -1,6 +1,6 @@
 import { Box, BoxProps } from "@chakra-ui/layout";
 import { createContext, useContext } from "react";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 type DefaultedBoxProps = Pick<
   BoxProps,

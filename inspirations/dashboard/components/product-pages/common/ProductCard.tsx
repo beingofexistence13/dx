@@ -1,7 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import NextImage, { StaticImageData } from "next/image";
 import { Heading, TrackedLink } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface ProductCardProps {
   title: string;

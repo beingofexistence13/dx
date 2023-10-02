@@ -3,7 +3,7 @@ import { HomepageFooter } from "components/footer/Footer";
 import { NewsletterSection } from "components/homepage/sections/NewsletterSection";
 import { HomepageTopNav } from "components/product-pages/common/Topnav";
 import { NextSeo, NextSeoProps } from "next-seo";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface LandingLayoutProps {
   seo: NextSeoProps;

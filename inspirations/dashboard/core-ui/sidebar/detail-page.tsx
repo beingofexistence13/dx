@@ -8,7 +8,7 @@ import { EnhancedRoute } from "contract-ui/types/types";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
 import { Badge, Text } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { shortenIfAddress } from "utils/usedapp-external";
 
 type ContractSidebarProps = {

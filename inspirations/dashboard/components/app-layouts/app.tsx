@@ -37,7 +37,7 @@ import { del, get, set } from "idb-keyval";
 import posthog from "posthog-js";
 import React, { useEffect, useMemo, useState } from "react";
 import { Heading } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { bigNumberReplacer } from "utils/bignumber";
 import { isBrowser } from "utils/isBrowser";
 

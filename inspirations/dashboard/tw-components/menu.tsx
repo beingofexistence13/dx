@@ -16,7 +16,7 @@ import {
   letterSpacings,
   lineHeights,
 } from "theme/typography";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 export interface MenuGroupProps
   extends Omit<ChakraMenuGroupProps, "size" | "title"> {

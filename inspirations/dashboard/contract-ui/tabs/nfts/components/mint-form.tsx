@@ -40,7 +40,7 @@ import {
   FormLabel,
   Heading,
 } from "tw-components";
-import { NFTMetadataInputLimited } from "types/modified-types";
+import { NFTMetadataInputLimited } from "@/types/modified-types";
 import { parseAttributes } from "utils/parseAttributes";
 
 const MINT_FORM_ID = "nft-mint-form";

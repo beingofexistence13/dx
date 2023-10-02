@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import axios from "axios"
-import { MainNavItem, SidebarNavItem } from "types/nav"
+import { MainNavItem, SidebarNavItem } from "@/types/nav"
 
 import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"

@@ -1,4 +1,4 @@
-import { MainNavItem, SidebarNavItem } from "types/nav"
+import { MainNavItem, SidebarNavItem } from "@/types/nav"
 
 interface DocsConfig {
   mainNav: MainNavItem[]
@@ -11065,7 +11065,7 @@ component.
 {
   title: "RangeSelector",
   description:
-    "A component that allows the user to select a range of values by dragging two handles along a track                  
+    "A component that allows the user to select a range of values by dragging two handles along a track
 
 
 

@@ -9,7 +9,7 @@ import { TWTable } from "components/shared/TWTable";
 import { format } from "date-fns";
 import { useState } from "react";
 import { Badge, Text } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface ApiKeyTableProps {
   keys: ApiKey[];

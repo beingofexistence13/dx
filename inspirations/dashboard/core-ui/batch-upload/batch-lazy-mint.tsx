@@ -39,7 +39,7 @@ import {
   Text,
   TrackedLink,
 } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { processInputData, shuffleData } from "utils/batch";
 import { z } from "zod";
 

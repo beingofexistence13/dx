@@ -8,7 +8,7 @@ import { SiTypescript } from "@react-icons/all-files/si/SiTypescript";
 import { SiUnity } from "@react-icons/all-files/si/SiUnity";
 import { Dispatch, SetStateAction, useMemo } from "react";
 import { Button, CodeBlock, Text, TrackedLink } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 const Environments: SupportedEnvironment[] = [
   {

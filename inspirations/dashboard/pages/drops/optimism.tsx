@@ -5,7 +5,7 @@ import { getAbsoluteUrl } from "lib/vercel-utils";
 import { NextSeo } from "next-seo";
 import { PageId } from "page-id";
 import { ThirdwebNextPage } from "utils/types";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { OptimismHero } from "components/drops/OptimismHero";
 import { OptimismFaq } from "components/drops/OptimismFAQ";
 

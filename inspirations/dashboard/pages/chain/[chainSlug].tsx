@@ -45,7 +45,7 @@ import {
   TrackedCopyButton,
   TrackedLink,
 } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { getAllChainRecords } from "utils/allChainsRecords";
 import { ThirdwebNextPage } from "utils/types";
 

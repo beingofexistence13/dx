@@ -8,7 +8,7 @@ import React, { useMemo } from "react";
 import { Column, Row, useTable } from "react-table";
 import { Text } from "tw-components";
 import { TableContainer } from "tw-components/table-container";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface DeployableContractTableProps {
   contractIds: ContractId[];

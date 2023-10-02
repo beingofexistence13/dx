@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "isomorphic-unfetch": ["types/unfetch.d.ts"],
+      "isomorphic-unfetch": ["@/types/unfetch.d.ts"],
       "@c/*": ["components/*"],
       "@lib/*": ["lib/a/*", "lib/b/*"],
       "@mycomponent": ["components/hello.tsx"],

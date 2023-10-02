@@ -22,7 +22,7 @@ import {
   Text,
   TrackedLink,
 } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 export interface AppShellProps {
   layout?: "custom-contract";

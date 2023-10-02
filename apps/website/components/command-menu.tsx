@@ -86,7 +86,7 @@ export function CommandMenu({ ...props }: DialogProps) {
                 </CommandItem>
               ))}
           </CommandGroup>
-          {docsConfig.sidebarNav.map((group) => (
+          {/* {docsConfig.sidebarNav.map((group) => (
             <CommandGroup key={group.title} heading={group.title}>
               {group.items.map((navItem) => (
                 <CommandItem
@@ -103,7 +103,7 @@ export function CommandMenu({ ...props }: DialogProps) {
                 </CommandItem>
               ))}
             </CommandGroup>
-          ))}
+          ))} */}
           <CommandSeparator />
           <CommandGroup heading="Theme">
             <CommandItem onSelect={() => runCommand(() => setTheme("light"))}>

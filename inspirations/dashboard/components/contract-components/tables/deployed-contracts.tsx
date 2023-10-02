@@ -70,7 +70,7 @@ import {
 } from "tw-components";
 import { AddressCopyButton } from "tw-components/AddressCopyButton";
 import { TableContainer } from "tw-components/table-container";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { shortenIfAddress } from "utils/usedapp-external";
 import { z } from "zod";
 import { usePublishedContractsFromDeploy } from "../hooks";

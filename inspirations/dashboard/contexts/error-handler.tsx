@@ -18,7 +18,7 @@ import {
 import { FiAlertTriangle, FiCheck, FiCopy } from "react-icons/fi";
 import { Button, Drawer, Heading, LinkButton, Text } from "tw-components";
 import { AddressCopyButton } from "tw-components/AddressCopyButton";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import { parseErrorToMessage } from "utils/errorParser";
 
 interface ErrorContext {

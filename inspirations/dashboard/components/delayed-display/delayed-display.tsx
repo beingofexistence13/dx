@@ -1,5 +1,5 @@
 import useDelayedDisplay from "hooks/useDelayedDisplay";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface DelayedDisplayProps {
   delay: number;

@@ -1,4 +1,4 @@
-import { MainNavItem, SidebarNavItem } from "types/nav"
+import { MainNavItem, SidebarNavItem } from "@/types/nav"
 
 export interface SocialMediaConfig {
   platformVlog: MainNavItem[]

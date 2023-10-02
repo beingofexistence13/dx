@@ -2,7 +2,7 @@ import { Flex, Icon } from "@chakra-ui/react";
 import NextImage, { StaticImageData } from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 import { Card, Heading, TrackedLink } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface ImageCardProps {
   title: string;

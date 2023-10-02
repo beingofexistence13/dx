@@ -10,7 +10,7 @@ import { ThirdwebSDKProvider } from "@thirdweb-dev/react/solana";
 import { Network } from "@thirdweb-dev/sdk/solana";
 import { getSOLRPC } from "constants/rpc";
 import { useMemo } from "react";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 // just solana things - we don't actually need to pass phantom anymore but we *do* need to pass the wallets array still...
 const wallets: Adapter[] = [];

@@ -80,7 +80,7 @@ export default function RPCList({ chain, lang }) {
         data: { ...data, height, latency: lat, trust, disableConnect },
       };
     });
-  }, [chains]);
+  }, [chains, sortChains]);
 
   const { rpcData, hasLlamaNodesRpc } = useLlamaNodesRpcData(chain.chainId, data);
 
@@ -90,7 +90,7 @@ export default function RPCList({ chain, lang }) {
         <caption className="relative w-full px-3 py-1 text-base font-medium border border-b-0">
           <span className="mr-4">{`${chain.name} RPC URL List`}</span>
           <button
-            className="text-sm font-normal flex items-center gap-1 absolute right-4 top-[2px] bottom-[2px] dark:hover:bg-[#171717] hover:bg-[#EAEAEA] px-2 rounded-[10px]"
+            className="text-sm font-normal flex items-center gap-1 absolute right-4 inset-y-[2px] dark:hover:bg-[#171717] hover:bg-[#EAEAEA] px-2 rounded-[10px]"
             onClick={() => setSorting(!sortChains)}
           >
             {sortChains ? (
@@ -192,7 +192,7 @@ const Row = ({ values, chain, privacy, lang, className }) => {
 
   return (
     <tr className={className}>
-      <td className="border px-3 text-sm py-1 max-w-[40ch] overflow-hidden whitespace-nowrap text-ellipsis">
+      <td className="border px-3 text-sm py-1 max-w-[40ch] overflow-hidden truncate">
         {isLoading ? <Shimmer /> : data?.url}
       </td>
       <td className="px-3 py-1 text-sm text-center border">{isLoading ? <Shimmer /> : data?.height}</td>
@@ -224,7 +224,7 @@ const Row = ({ values, chain, privacy, lang, className }) => {
           <>
             {!data.disableConnect && (
               <button
-                className="px-2 py-[2px] -my-[2px] text-center text-sm dark:hover:bg-[#171717] hover:bg-[#EAEAEA] rounded-[50px]"
+                className="px-2 py-[2px] my-[2px] text-center text-sm dark:hover:bg-[#171717] hover:bg-[#EAEAEA] rounded-[50px]"
                 onClick={() => addToNetwork({ address, chain, rpc: data?.url })}
               >
                 {t(renderProviderText(account))}
@@ -250,7 +250,7 @@ const CopyUrl = ({ url = "" }) => {
 
   return (
     <button
-      className="px-2 py-[2px] -my-[2px] text-sm dark:hover:bg-[#171717] hover:bg-[#EAEAEA] rounded-[50px] mx-auto"
+      className="px-2 py-[2px] my-[2px] text-sm dark:hover:bg-[#171717] hover:bg-[#EAEAEA] rounded-[50px] mx-auto"
       onClick={handleCopy}
     >
       {!hasCopied ? "Copy URL" : "Copied!"}

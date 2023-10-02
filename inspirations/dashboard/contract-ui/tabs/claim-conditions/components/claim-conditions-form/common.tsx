@@ -8,7 +8,7 @@ import {
   FormLabel,
   Heading,
 } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface CustomFormControlProps {
   disabled: boolean;

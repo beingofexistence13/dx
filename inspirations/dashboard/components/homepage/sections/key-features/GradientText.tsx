@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { TrackedLink, TrackedLinkProps } from "tw-components";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 interface GradientTextProps extends Omit<TrackedLinkProps, "href"> {
   stopOne: string;

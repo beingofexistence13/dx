@@ -10,6 +10,7 @@ import { notTranslation as useTranslations } from "../../utils";
 import { useChain } from "../../stores";
 import useAccount from "../../hooks/useAccount";
 import useAddToNetwork from "../../hooks/useAddToNetwork";
+import Image from "next/image"
 
 export default function Chain({ chain, buttonOnly, lang }) {
   const t = useTranslations("Common", lang);
@@ -58,14 +59,14 @@ export default function Chain({ chain, buttonOnly, lang }) {
     <>
       <div className="shadow glassmorphisum min-w-full hoverGlassmorphisum p-8 pb-0 rounded-[10px] flex flex-col gap-3 overflow-hidden">
         <Link href={`/chain/${chain.chainId}`} prefetch={false} className="flex items-center mx-auto gap-2">
-          <img
+          <Image
             src={icon}
             width={26}
             height={26}
-            className="rounded-full flex-shrink-0 flex relative"
+            className="rounded-full shrink-0 flex relative"
             alt={chain.name + " logo"}
           />
-          <span className="text-xl font-semibold whitespace-nowrap overflow-hidden text-ellipsis relative top-[1px] dark:text-[#B3B3B3]">
+          <span className="text-xl font-semibold truncate relative top-[1px] dark:text-[#B3B3B3]">
             {chain.name}
           </span>
         </Link>

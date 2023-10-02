@@ -50,7 +50,7 @@ import {
   TrackedLink,
 } from "tw-components";
 import { AddressCopyButton } from "tw-components/AddressCopyButton";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 import {
   DashboardSolanaNetwork,
   SupportedSolanaNetworkToUrlMap,

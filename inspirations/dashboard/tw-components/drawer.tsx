@@ -14,7 +14,7 @@ import {
   ModalHeaderProps,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import { ComponentWithChildren } from "types/component-with-children";
+import { ComponentWithChildren } from "@/types/component-with-children";
 
 export interface DrawerProps extends Omit<ChakraDrawerProps, "placement"> {
   header?: ModalHeaderProps;
