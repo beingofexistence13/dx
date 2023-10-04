@@ -53,8 +53,8 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl fixed bottom-0 left-[50%] z-[100000000000000000000] flex h-auto w-full translate-x-[-50%] flex-row items-center justify-center border px-2 py-3 sm:bottom-3 sm:w-auto sm:rounded-2xl">
-      {/* Magic */}
+    <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl fixed right-1 top-[50%] z-[100000000000000000000] flex h-auto w-full translate-y-[-50%] flex-row items-center justify-center border px-2 py-3 sm:bottom-3 sm:w-auto sm:rounded-2xl lg:max-w-[50px] lg:flex-col">
+      {/* Magic */} 
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
           <div
@@ -135,7 +135,7 @@ export function HelloTool() {
         </MenubarContent>
       </MenubarMenu>
       {/* Users */}
-      <div className="collab mx-2 flex flex-row items-center space-x-2 border-x px-2">
+      <div className="collab flex items-center mx-2 flex-row  space-x-2 border-x px-2 lg:my-2 lg:flex-col  lg:space-y-2 lg:space-x-0 lg:border-y lg:py-2">
         <Avatar className=" hidden h-[30px] w-[30px] 2xl:flex">
           <AvatarImage src="/user-15.webp" alt="@shadcn" />
           <AvatarFallback>15</AvatarFallback>
