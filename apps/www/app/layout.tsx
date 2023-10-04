@@ -87,7 +87,7 @@ export default function RootLayout({
 
       <body
         className={cn(
-          "bg-background min-h-screen overflow-hidden font-sans antialiased",
+          "bg-background min-h-screen overflow-hidden font-sans antialiased relative",
           fontSans.variable
         )}
       >
@@ -108,9 +108,9 @@ export default function RootLayout({
               </Chakraui> */}
               <main className="flex-1">
                 <SiteLayout />
-                <div className="w-auto ml-[40px]">
+                {/* <div className="w-auto ml-[40px]">
                   {children}
-                </div>
+                </div> */}
               </main>
             </Query>
           </Redux>

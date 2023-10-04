@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/classnames-order */
 
 
 "use client"
@@ -53,7 +52,7 @@ export function HelloTool() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl fixed right-1 top-[50%] z-[100000000000000000000] flex h-auto w-full translate-y-[-50%] flex-row items-center justify-center border px-2 py-3 sm:bottom-3 sm:w-auto sm:rounded-2xl lg:max-w-[50px] lg:flex-col">
+    <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl absolute flex h-min w-full flex-row items-center justify-center border px-2 py-5 sm:bottom-3 sm:w-auto sm:rounded-2xl lg:inset-y-[15%] lg:right-3 lg:max-h-[70%] lg:max-w-[50px] lg:flex-col lg:space-x-0 lg:space-y-1">
       {/* Magic */} 
       <MenubarMenu>
         <MenubarTrigger className="rounded-lg">
@@ -135,67 +134,67 @@ export function HelloTool() {
         </MenubarContent>
       </MenubarMenu>
       {/* Users */}
-      <div className="collab flex items-center mx-2 flex-row  space-x-2 border-x px-2 lg:my-2 lg:flex-col  lg:space-y-2 lg:space-x-0 lg:border-y lg:py-2">
-        <Avatar className=" hidden h-[30px] w-[30px] 2xl:flex">
+      <div className="collab mx-2 flex h-auto flex-row items-center space-x-2 border-x px-2 lg:my-2 lg:flex-col lg:space-x-0 lg:space-y-2 lg:border-x-0 lg:border-y lg:py-2">
+        {/* <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
           <AvatarImage src="/user-15.webp" alt="@shadcn" />
           <AvatarFallback>15</AvatarFallback>
-        </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] 2xl:flex">
+        </Avatar> */}
+        {/* <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
           <AvatarImage src="/user-14.webp" alt="@shadcn" />
           <AvatarFallback>14</AvatarFallback>
-        </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] xl:flex">
+        </Avatar> */}
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
           <AvatarImage src="/user-13.webp" alt="@shadcn" />
           <AvatarFallback>13</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] xl:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
           <AvatarImage src="/user-12.webp" alt="@shadcn" />
           <AvatarFallback>12</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/user-11.webp" alt="@shadcn" />
           <AvatarFallback>11</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] md:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
           <AvatarImage
             src="/chainswap-x-force-by-deadpool.jpeg"
             alt="@shadcn"
           />
           <AvatarFallback>10</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
           <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@shadcn" />
           <AvatarFallback>9</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] sm:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
           <AvatarImage src="/one-punch-man.png" alt="@shadcn" />
           <AvatarFallback>8</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] md:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
           <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@shadcn" />
           <AvatarFallback>7</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] md:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
           <AvatarImage src="/night-shy.jpeg" alt="@shadcn" />
           <AvatarFallback>6</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/curse-king-sukuna.png" alt="@shadcn" />
           <AvatarFallback>5</AvatarFallback>
         </Avatar>
-        <Avatar className=" hidden h-[30px] w-[30px] lg:flex">
+        <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
           <AvatarImage src="/nezuukoo-chaaannn.png" alt="@shadcn" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
-        <Avatar className=" h-[30px] w-[30px]">
+        <Avatar className="pulsate-fwd h-[30px] w-[30px]">
           <AvatarImage src="/user-two.jpg" alt="@shadcn" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
-        <Avatar className=" h-[30px] w-[30px]">
+        <Avatar className="pulsate-fwd h-[30px] w-[30px]">
           <AvatarImage src="/user-three.jpg" alt="@shadcn" />
           <AvatarFallback>2</AvatarFallback>
         </Avatar>
-        <Avatar className=" h-[30px] w-[30px]">
+        <Avatar className="pulsate-fwd h-[30px] w-[30px]">
           <AvatarImage src="/user-four.jpg" alt="@shadcn" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
