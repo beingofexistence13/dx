@@ -106,11 +106,11 @@ export default function RootLayout({
                   </Mantine>
                 </PrimeReact>
               </Chakraui> */}
-              <main className="flex-1 bg-[#fff]">
+              <main className="flex-1">
                 <SiteLayout />
-                <div className="w-full h-full ml-[40px]">
-                  {/* {children} */}
-                </div>
+                {/* <div className="w-full h-full ml-[40px]">
+                  {children}
+                </div> */}
               </main>
             </Query>
           </Redux>
