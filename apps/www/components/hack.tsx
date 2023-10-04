@@ -489,7 +489,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     network: string
     // ...
   }
-  // If anyone else me seeing this code || not in billion years || but still anyone new seeing this code then my advice is just a permanent job and make some grands so that you can fly those grands like MR. Beast or just fly those money for nothing and again be broke
+  // If anyone else me seeing this code || not in billion years || but still anyone new seeing this code then my advice is just try to get a permanent job and make some grands so that you can fly those grands like MR. Beast or just fly those money for nothing and again be broke
   // And I am not telling this thing to me cause I donot think that I will ever get a chance to get some grands for my ultra good luck
   return (
     <div>

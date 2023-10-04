@@ -4,6 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url(./component/NavBar/navbar.css); */
+/* @import url(./component/NavBar/profile_container.css); */
+/* Animation & Sidebar */
+/* @import url(./component/SideBar/sidebar.css); */
+/* Navbar */
+/* @import url(./component/NavBar/add_container.css); */
+/* @import url(./component/NavBar/scan_container.css);
+@import url(./component/NavBar/notification_container.css);
+@import url(./component/contractus/contract_us.css); */
+/* Else */
+/* @import url(./component/FooTer/footer.css); */
+/* Tailwind Css */
+/* @import url(./tailwind.css); */
+/* Variables */
+/* Freefire */
+/* @import url(./component/freefire/freefire_sidebar_left.css);
+@import url(./component/freefire/freefire_sidebar_right.css);
+@import url(./component/freefire/freefire_bottom.css); */
+
+
 @layer base {
   :root {
     --body-background: rgb(255, 255, 255);
@@ -892,4 +912,20 @@ outline: none !important;
 outline-offset: 0px !important;
 border: none !important;
 box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.NDPCGDCL:hover,
+.NDPCGDBL:hover{
+  background: var(--code-foreground);
 }
