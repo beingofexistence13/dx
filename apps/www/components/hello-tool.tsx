@@ -40,6 +40,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
+  ScrollArea,
   Separator,
   Tabs,
   TabsContent,
@@ -133,7 +134,9 @@ export function HelloTool() {
           </MenubarItem>
         </MenubarContent>
       </MenubarMenu>
-      {/* Users */}
+
+      {/* Friends */}
+      <ScrollArea className="h-[200px] w-[50px] rounded-md border p-4">
       <div className="collab mx-2 flex h-auto flex-row items-center space-x-2 border-x px-2 lg:my-2 lg:flex-col lg:space-x-0 lg:space-y-2 lg:border-x-0 lg:border-y lg:py-2">
         {/* <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
           <AvatarImage src="/user-15.webp" alt="@shadcn" />
@@ -287,6 +290,9 @@ export function HelloTool() {
           </DialogContent>
         </Dialog>
       </div>
+</ScrollArea>
+
+
       {/* Sparkles */}
       {/* <MenubarMenu>
         <MenubarTrigger>
