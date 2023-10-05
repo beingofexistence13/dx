@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import { notFound } from "next/navigation"
 import { allDocs } from "contentlayer/generated"
 
@@ -53,7 +55,7 @@ export async function generateMetadata({
       url: absoluteUrl(doc.slug),
       images: [
         {
-          url: siteConfig.ogImage,
+          url: siteConfig.name,
           width: 1200,
           height: 630,
           alt: siteConfig.name,
@@ -64,7 +66,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: doc.title,
       description: doc.description,
-      images: [siteConfig.ogImage],
+      images: [siteConfig.name],
       creator: "@shadcn",
     },
   }
@@ -90,19 +92,19 @@ export default async function DocPage({ params }: DocPageProps) {
   return (
     <main className="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
       <div className="mx-auto w-full min-w-0">
-        <div className="mb-4 flex items-center space-x-1 text-sm text-muted-foreground">
-          <div className="overflow-hidden text-ellipsis whitespace-nowrap">
+        <div className="text-muted-foreground mb-4 flex items-center space-x-1 text-sm">
+          <div className="truncate">
             Docs
           </div>
           <ChevronRightIcon className="h-4 w-4" />
-          <div className="font-medium text-foreground">{doc.title}</div>
+          <div className="text-foreground font-medium">{doc.title}</div>
         </div>
         <div className="space-y-2">
           <h1 className={cn("scroll-m-20 text-4xl font-bold tracking-tight")}>
             {doc.title}
           </h1>
           {doc.description && (
-            <p className="text-lg text-muted-foreground">
+            <p className="text-muted-foreground text-lg">
               <Balancer>{doc.description}</Balancer>
             </p>
           )}

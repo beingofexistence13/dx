@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import * as React from "react"
@@ -176,7 +178,7 @@ function Customizer() {
           <div className="font-semibold leading-none tracking-tight">
             Customize
           </div>
-          <div className="text-xs text-muted-foreground">
+          <div className="text-muted-foreground text-xs">
             Pick a style and color for your components.
           </div>
         </div>
@@ -237,7 +239,7 @@ function Customizer() {
               size="sm"
               onClick={() => setConfig({ ...config, style: "default" })}
               className={cn(
-                config.style === "default" && "border-2 border-primary"
+                config.style === "default" && "border-primary border-2"
               )}
             >
               Default
@@ -247,7 +249,7 @@ function Customizer() {
               size="sm"
               onClick={() => setConfig({ ...config, style: "new-york" })}
               className={cn(
-                config.style === "new-york" && "border-2 border-primary"
+                config.style === "new-york" && "border-primary border-2"
               )}
             >
               New York
@@ -273,7 +275,7 @@ function Customizer() {
                   }}
                   className={cn(
                     "justify-start",
-                    isActive && "border-2 border-primary"
+                    isActive && "border-primary border-2"
                   )}
                   style={
                     {
@@ -315,7 +317,7 @@ function Customizer() {
                   }}
                   className={cn(
                     config.radius === parseFloat(value) &&
-                      "border-2 border-primary"
+                      "border-primary border-2"
                   )}
                 >
                   {value}
@@ -333,7 +335,7 @@ function Customizer() {
                   variant={"outline"}
                   size="sm"
                   onClick={() => setMode("light")}
-                  className={cn(mode === "light" && "border-2 border-primary")}
+                  className={cn(mode === "light" && "border-primary border-2")}
                 >
                   <SunIcon className="mr-1 -translate-x-1" />
                   Light
@@ -342,7 +344,7 @@ function Customizer() {
                   variant={"outline"}
                   size="sm"
                   onClick={() => setMode("dark")}
-                  className={cn(mode === "dark" && "border-2 border-primary")}
+                  className={cn(mode === "dark" && "border-primary border-2")}
                 >
                   <MoonIcon className="mr-1 -translate-x-1" />
                   Dark
@@ -425,7 +427,7 @@ function CopyCodeButton() {
                   )
                   setHasCopied(true)
                 }}
-                className="absolute right-4 top-4 bg-muted text-muted-foreground hover:bg-muted hover:text-muted-foreground"
+                className="bg-muted text-muted-foreground hover:bg-muted hover:text-muted-foreground absolute right-4 top-4"
               >
                 {hasCopied ? (
                   <CheckIcon className="mr-2 h-4 w-4" />
@@ -450,7 +452,7 @@ function CustomizerCode() {
     <ThemeWrapper defaultTheme="zinc" className="relative space-y-4">
       <div data-rehype-pretty-code-fragment="">
         <pre className="max-h-[450px] overflow-x-auto rounded-lg border bg-zinc-950 py-4 dark:bg-zinc-900">
-          <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm">
+          <code className="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm">
             <span className="line text-white">@layer base &#123;</span>
             <span className="line text-white">&nbsp;&nbsp;:root &#123;</span>
             <span className="line text-white">

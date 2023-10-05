@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import * as React from "react"
@@ -22,9 +24,9 @@ export function ThemeComponent({ name, ...props }: ThemeComponentProps) {
 
     if (!Component) {
       return (
-        <p className="text-sm text-muted-foreground">
+        <p className="text-muted-foreground text-sm">
           Component{" "}
-          <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm">
+          <code className="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm">
             {name}
           </code>{" "}
           not found in registry.
@@ -39,7 +41,7 @@ export function ThemeComponent({ name, ...props }: ThemeComponentProps) {
     <div className={cn("relative")} {...props}>
       <React.Suspense
         fallback={
-          <div className="flex items-center text-sm text-muted-foreground">
+          <div className="text-muted-foreground flex items-center text-sm">
             <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
             Loading...
           </div>
