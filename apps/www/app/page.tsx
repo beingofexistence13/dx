@@ -1,4 +1,3 @@
-"use client"
 
 import * as React from "react"
 import Image from "next/image"
@@ -218,14 +217,14 @@ export function Examples() {
           apps. Accessible. Customizable. Open Source.
         </PageHeaderDescription>
         <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
-          <Link href="/docs" className={cn(buttonVariants())}>
+          <Link href="/docs" 
+          >
             Get Started
           </Link>
           <Link
             target="_blank"
             rel="noreferrer"
             href={siteConfig.links.github}
-            className={cn(buttonVariants({ variant: "outline" }))}
           >
             <Icons.gitHub className="mr-2 h-4 w-4" />
             GitHub
@@ -2349,14 +2348,14 @@ const github_repos = [
 export default function Home() {
   return (
     <>
-      <section className="flex h-[100vh] w-[100%] flex-row flex-wrap items-center justify-center overflow-y-auto overflow-x-hidden pb-24">
+      {/* <section className="flex h-[100vh] w-[100%] flex-row flex-wrap items-center justify-center overflow-y-auto overflow-x-hidden pb-24">
         {github_repos.map((item, index) => (
           <div key={index} className="ml-3 mt-3 flex h-[200px] w-[250px] flex-col items-start justify-start overflow-y-auto overflow-x-hidden rounded-lg border p-5 hover:bg-[--code-foreground]">
             <h3 className="text-bold w-full text-left text-lg">{item.title}</h3>
             <span className="text-nowrap mt-2 w-full text-xs">{item.description}</span>
           </div>
         ))}
-      </section>
+      </section> */}
       <Examples />
     </>
 

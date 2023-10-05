@@ -29,10 +29,15 @@ const UserLayout = () => {
       {/* Tailwind Positions */}
       <div className="favdrop absolute bottom-[75px] right-[17.5px] h-10 w-10 rounded-md border"></div>
       <div className="status-panel absolute bottom-0 right-0 flex h-auto w-auto flex-row items-center justify-between space-x-3 rounded-tl-xl border-l border-t px-2 py-1 text-xs">
+        <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">5</h1>
+        <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">9+</h1>
+        <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">3</h1>
+      </div>
+      {/* <div className="status-panel absolute bottom-0 right-0 flex h-auto w-auto flex-row items-center justify-between space-x-3 rounded-tl-xl border-l border-t px-2 py-1 text-xs">
         <h1 className="rounded-md p-1 text-center hover:bg-[--code-foreground]">50 backlinks</h1>
         <h1 className="rounded-md p-1 text-center hover:bg-[--code-foreground]">99+ words</h1>
         <h1 className="rounded-md p-1 text-center hover:bg-[--code-foreground]">13 caracters</h1>
-      </div>
+      </div> */}
     </div>
   )
 }
