@@ -27,8 +27,8 @@ const UserLayout = () => {
       <NewYorkToaster />
       <DefaultToaster />
       {/* Tailwind Positions */}
-      <div className="favdrop absolute bottom-[75px] right-[17.5px] h-10 w-10 rounded-md border"></div>
-      <div className="status-panel absolute bottom-0 right-0 flex h-auto w-auto flex-row items-center justify-between space-x-3 rounded-tl-xl border-l border-t px-2 py-1 text-xs">
+      <div className="favdrop absolute bottom-[75px] right-[17.5px] z-[100000000000000000000000000] h-10 w-10 rounded-md border"></div>
+      <div className="status-panel absolute bottom-0 right-0 z-[100000000000000000000000000] flex h-auto w-auto flex-row items-center justify-between space-x-3 rounded-tl-xl border-l border-t px-2 py-1 text-xs">
         <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">5</h1>
         <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">9+</h1>
         <h1 className="rounded-md p-3 text-center hover:bg-[--code-foreground]">3</h1>
