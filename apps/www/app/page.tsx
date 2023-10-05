@@ -185,6 +185,79 @@ import {
   type ToastProps,
 } from "@/components/ui"
 
+import { ArrowRightIcon } from "@radix-ui/react-icons"
+
+import { siteConfig } from "@/config/site"
+import { ExamplesNav } from "@/components/examples-nav"
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/components/page-header"
+
+import DashboardPage from "@/app/examples/dashboard/page"
+
+export function Examples() {
+  return (
+    <div className="container relative">
+      <PageHeader className="pb-8">
+        <Link
+          href="/docs/changelog"
+          className="bg-muted inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium"
+        >
+          🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
+          <span className="sm:hidden">Style, a new CLI and more.</span>
+          <span className="hidden sm:inline">
+            Introducing Style, a new CLI and more.
+          </span>
+          <ArrowRightIcon className="ml-1 h-4 w-4" />
+        </Link>
+        <PageHeaderHeading>Build your component library.</PageHeaderHeading>
+        <PageHeaderDescription>
+          Beautifully designed components that you can copy and paste into your
+          apps. Accessible. Customizable. Open Source.
+        </PageHeaderDescription>
+        <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
+          <Link href="/docs" className={cn(buttonVariants())}>
+            Get Started
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={siteConfig.links.github}
+            className={cn(buttonVariants({ variant: "outline" }))}
+          >
+            <Icons.gitHub className="mr-2 h-4 w-4" />
+            GitHub
+          </Link>
+        </div>
+      </PageHeader>
+      <ExamplesNav className="[&>a:first-child]:text-primary" />
+      <section className="border-primary dark:border-muted space-y-8 overflow-hidden rounded-lg border-2 md:hidden">
+        <Image
+          src="/examples/dashboard-light.png"
+          width={1280}
+          height={866}
+          alt="Dashboard"
+          className="block dark:hidden"
+        />
+        <Image
+          src="/examples/dashboard-dark.png"
+          width={1280}
+          height={866}
+          alt="Dashboard"
+          className="hidden dark:block"
+        />
+      </section>
+      <section className="hidden md:block">
+        <div className="bg-background overflow-hidden rounded-lg border shadow">
+          <DashboardPage />
+        </div>
+      </section>
+    </div>
+  )
+}
+
 export function ScrollAreaDemo() {
   return (
     <ScrollArea className="h-72 w-max border-y">
@@ -257,13 +330,10 @@ export function ScrollAreaDemo() {
   )
 }
 
-
-
 interface github_repo_props {
   title: string,
   description?: string
 }
-
 
 const github_repos = [
   {
@@ -2276,18 +2346,20 @@ const github_repos = [
   },
 ]
 
-
 export default function Home() {
   return (
-    <section className="flex h-[100vh] w-[100%] flex-row flex-wrap items-center justify-center overflow-y-auto overflow-x-hidden pb-24">
-      {/* {github_repos.map((item, index) => (
-        <div key={index} className="ml-3 mt-3 flex h-[200px] w-[250px] flex-col items-start justify-start overflow-y-auto overflow-x-hidden rounded-lg border p-5 hover:bg-[--code-foreground]">
-          <h3 className="text-bold w-full text-left text-lg">{item.title}</h3>
-          <span className="text-nowrap mt-2 w-full text-xs">{item.description}</span>
-        </div>
-      ))} */}
-      {/* <ScrollAreaDemo /> */}
-    </section>
+    <>
+      <section className="flex h-[100vh] w-[100%] flex-row flex-wrap items-center justify-center overflow-y-auto overflow-x-hidden pb-24">
+        {github_repos.map((item, index) => (
+          <div key={index} className="ml-3 mt-3 flex h-[200px] w-[250px] flex-col items-start justify-start overflow-y-auto overflow-x-hidden rounded-lg border p-5 hover:bg-[--code-foreground]">
+            <h3 className="text-bold w-full text-left text-lg">{item.title}</h3>
+            <span className="text-nowrap mt-2 w-full text-xs">{item.description}</span>
+          </div>
+        ))}
+      </section>
+      <Examples />
+    </>
+
   )
 }
 

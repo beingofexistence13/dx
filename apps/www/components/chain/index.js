@@ -2,7 +2,7 @@
 "use client"
 
 import * as React from "react";
-import RPCList from "../RPCList";
+import RPCList from "../rpc-list";
 import { renderProviderText } from "../../utils";
 import { usePathname, useSearchParams } from 'next/navigation'
 import Link from "next/link";
