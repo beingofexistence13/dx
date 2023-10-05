@@ -35,7 +35,7 @@ export function Activitybar() {
   })
 
   return (
-    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed left-0 top-[55.5px] flex h-[95vh] min-w-[50px] flex-col items-center justify-center space-y-1 border-r pt-1 backdrop-blur">
+    <nav className="supports-backdrop-blur:bg-background/60 bg-background/95 fixed left-0 top-[55.5px] flex h-[90vh] max-w-[50px] flex-col items-center justify-center space-y-1 border-r pt-1 backdrop-blur">
 
       {/* <div className="activitybar-main overflowx-x-hidden flex h-[300px] max-h-[72vh] w-full flex-col items-center justify-start space-y-2 overflow-y-auto">
         <div className="jello-vertical animate-jump animate-infinite animate-ease-linear flex h-[35px] w-[35px] items-center justify-center rounded-md">
