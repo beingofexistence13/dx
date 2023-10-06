@@ -1,4 +1,3 @@
-![logo-depricated](https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3)
 # Dx!!!
 
 gitpod 03/09/2023 Sunday
@@ -6,7 +5,7 @@ gitpod 27/09/2023 Entrace Day For Collage
 
 <div align="center">
 <a href="https://dx-black.vercel.app/">
-    <img src="https://github.com/beingofexistence/dx/blob/master/logo.svg" width="300"/>
+    <img src="https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
 </a>
 </div>
 
