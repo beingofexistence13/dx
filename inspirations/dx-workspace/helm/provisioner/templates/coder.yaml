@@ -1,5 +1,0 @@
----
-{{ include "libcoder.serviceaccount" (list . "coder.serviceaccount") }}
-
----
-{{ include "libcoder.deployment" (list . "coder.deployment") }}

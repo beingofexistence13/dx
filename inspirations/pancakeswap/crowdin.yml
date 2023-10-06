@@ -1,5 +1,0 @@
-files:
-  - source: /packages/localization/src/config/translations.json
-    translation: /locales/%locale%.json
-pull_request_title: 'chore: New Crowdin updates'
-commit_message: '[ci skip]'

@@ -1,2 +1,0 @@
-<CustomSlider defaultValue={50} />
-<CustomSlider defaultValue={10} disabled />

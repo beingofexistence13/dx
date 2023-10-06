@@ -1,9 +1,0 @@
-node_modules
-/build
-/*.log
-*.lock
-
-package-lock.json
-yarn.lock
-.now
-.vercel
