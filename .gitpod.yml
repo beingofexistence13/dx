@@ -7,6 +7,8 @@ tasks:
           cd apps/www && bun install && bun run build
       command: |
           bun run dev
+        #   docker run -it --init -p 3000:3000 -v "$(pwd):/home/workspace:cached" 7c0e19dd4517
+        #   docker pull gitpod/openvscode-server
     # - name: nextui
     #   init: |
     #       cd nextui && pnpm install
