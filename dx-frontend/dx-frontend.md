@@ -4,6 +4,50 @@ Welcome to **DX-Frontend**! This is a revolutionary open-source software project
 
 # top frameworks
 Sure, here is the information in table format:
+angular
+astro
+blitzjs
+brunch
+create-react-app
+docusaurus-2
+docusaurus
+dojo
+eleventy
+ember
+gatsby
+gridsome
+hexo
+hugo
+hydrogen-2
+hydrogen
+ionic-angular
+ionic-react
+jekyll
+middleman
+nextjs
+nuxtjs
+parcel
+polymer
+preact
+redwoodjs
+remix
+saber
+sanity
+sapper
+scully
+solidstart
+stencil
+storybook
+svelte
+sveltekit-1
+sveltekit
+umijs
+vite
+vitepress
+vue
+vuepress
+zola
+
 
 | Framework | Official Website |
 | --- | --- |
