@@ -16,7 +16,7 @@ forever.But if you thing that this is unfair then look up to
 inspirations
 folder and delete your respective reposetry to gain access to your own products!!!
 So, moral of this story no.. of this descritption.. I mean Novel stated above is --- OpenSource conrtibution is good for your health(Donot ask me how??)
-and Dx is one of the most precius one amoung them!!!(LOL)
+and Dx is one of the most precious one amoung them!!!(LOL)
 
 <!-- # beingofexistence/dx # inspirations folder problem solved
 
