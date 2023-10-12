@@ -100,3 +100,6 @@
 [submodule "dx-frontend/frameworks/zola"]
 	path = dx-frontend/frameworks/zola
 	url = https://github.com/getzola/zola
+[submodule "dx-frontend/frameworks/--force"]
+	path = dx-frontend/frameworks/--force
+	url = https://github.com/scullyio/scully
