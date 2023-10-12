@@ -1,0 +1,24 @@
+{
+  "name": "@scullyio/ng-lib",
+  "version": "2.1.42",
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/ng-lib"
+  },
+  "dependencies": {
+    "rxjs": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@angular/router": ">12.0.0 || <13.0.0",
+    "@angular/platform-browser-dynamic": ">12.0.0 || <13.0.0",
+    "@angular/common": ">12.0.0 || <13.0.0",
+    "@angular/core": ">12.0.0 || <13.0.0"
+  },
+  "keywords": [
+    "angular",
+    "scully",
+    "seo",
+    "scully-plugin",
+    "plugin"
+  ]
+}

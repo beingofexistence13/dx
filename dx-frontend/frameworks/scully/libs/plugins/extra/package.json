@@ -1,0 +1,24 @@
+{
+  "name": "@scullyio/scully-plugin-extra",
+  "version": "2.1.42",
+  "description": "Scully extra demo plugin",
+  "main": "./src/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@scullyio/scully": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/plugins/extra"
+  },
+  "keywords": [
+    "angular",
+    "scully",
+    "seo",
+    "scully-plugin",
+    "plugin"
+  ]
+}

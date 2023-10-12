@@ -1,0 +1,81 @@
+name: 🦜 Publish Canary
+
+on:
+  push:
+    branches: [main, next]
+    # We don't want this to run when we publish a release.
+    tags-ignore: ['v**']
+    # No need to run on docs-only changes
+    paths-ignore: ['docs/**']
+
+# Cancel in-progress runs of this workflow.
+# See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish-canary:
+    name: 🦜 Publish Canary
+    if: github.repository == 'redwoodjs/redwood'
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.get-version.outputs.value }}
+    steps:
+      - uses: actions/checkout@v3
+        # `fetch-depth`—number of commits to fetch. `0` fetches all history for all branches and tags.
+        #  This is required because lerna uses tags to determine the version.
+        with:
+          fetch-depth: 0
+
+      - name: ⬢ Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 🐈 Set up yarn cache
+        uses: ./.github/actions/set-up-yarn-cache
+
+      - name: 🐈 Yarn install
+        run: yarn install --inline-builds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: ✅ Check constraints, dependencies, and package.json's
+        uses: ./tasks/check
+
+      - name: 🏗 Build
+        run: yarn build
+
+      - name: 🔎 Lint
+        run: yarn lint
+
+      - name: 🧪 Test
+        run: yarn test
+
+      - name: 🚢 Publish
+        run: ./.github/scripts/publish_canary.sh
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
+      - name: 🏷 Get version
+        id: get-version
+        uses: sergeysova/jq-action@v2.3.0
+        with:
+          cmd: 'jq .version packages/core/package.json -r'
+
+  message-slack:
+    name: 💬 Message Slack
+    needs: publish-canary
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: 💬 Message Slack
+        uses: ./.github/actions/message_slack_publishing
+        with:
+          title: "🦜 Canary Packages"
+          status: ${{ needs.publish-canary.result }}
+          version: ${{ needs.publish-canary.outputs.version }}
+          slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL_PACKAGE_PUBLISHING }}

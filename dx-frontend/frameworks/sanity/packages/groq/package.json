@@ -1,0 +1,65 @@
+{
+  "name": "groq",
+  "version": "3.18.0",
+  "description": "Tagged template literal for Sanity.io GROQ-queries",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content",
+    "groq",
+    "tagged",
+    "template",
+    "literal",
+    "string"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/groq"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "exports": {
+    ".": {
+      "types": "./lib/dts/src/groq.d.ts",
+      "source": "./src/groq.ts",
+      "require": "./lib/groq.js",
+      "node": {
+        "import": "./node/groq.mjs",
+        "require": "./lib/groq.js"
+      },
+      "import": "./lib/groq.esm.js",
+      "default": "./lib/groq.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/groq.js",
+  "module": "./lib/groq.esm.js",
+  "source": "./src/groq.ts",
+  "types": "./lib/dts/src/groq.d.ts",
+  "files": [
+    "lib",
+    "node",
+    "src"
+  ],
+  "scripts": {
+    "prebuild": "run-s clean",
+    "build": "pkg-utils build --tsconfig tsconfig.lib.json",
+    "postbuild": "run-s check:package",
+    "check:package": "pkg-utils --strict --tsconfig tsconfig.lib.json",
+    "clean": "rimraf lib",
+    "pretest": "run-s build",
+    "test": "node test/groq.test.cjs && node test/groq.test.mjs ",
+    "watch": "pkg-utils watch --tsconfig tsconfig.lib.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "gitHead": "a7b7dad6bdfde05883a61f78e998b2571dfbe0e2"
+}

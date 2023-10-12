@@ -1,0 +1,21 @@
+{
+  "name": "@e2e/nested-in-solid",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@astrojs/preact": "workspace:*",
+    "@astrojs/react": "workspace:*",
+    "@astrojs/solid-js": "workspace:*",
+    "@astrojs/svelte": "workspace:*",
+    "@astrojs/vue": "workspace:*",
+    "astro": "workspace:*"
+  },
+  "dependencies": {
+    "preact": "^10.17.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "solid-js": "^1.7.11",
+    "svelte": "^4.2.0",
+    "vue": "^3.3.4"
+  }
+}

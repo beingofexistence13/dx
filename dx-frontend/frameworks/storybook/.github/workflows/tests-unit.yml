@@ -1,0 +1,27 @@
+name: Unit tests
+
+on:
+  push:
+    branches:
+      - next
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    name: Core Unit Tests, ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set node version
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+      - name: install and compile
+        run: yarn task --task compile --start-from=auto --no-link
+      - name: test
+        run: yarn test --runInBand --ci

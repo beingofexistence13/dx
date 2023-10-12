@@ -1,0 +1,22 @@
+{
+  "name": "@scullyio/scully-plugin-critical-css",
+  "version": "2.1.42",
+  "peerDependencies": {
+    "@scullyio/scully": "*"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/plugins/scully-plugin-critical-css"
+  },
+  "keywords": [
+    "angular",
+    "scully",
+    "seo",
+    "scully-plugin",
+    "plugin",
+    "CSS-above-the-fold"
+  ],
+  "dependencies": {
+    "critical": "^4.0.1"
+  }
+}

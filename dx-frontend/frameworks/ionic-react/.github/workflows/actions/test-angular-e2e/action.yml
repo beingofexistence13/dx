@@ -1,0 +1,42 @@
+name: 'Test Angular E2E'
+description: 'Test Angular E2E'
+inputs:
+  app:
+    description: 'The specific test application'
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - uses: ./.github/workflows/actions/download-archive
+      with:
+        name: ionic-core
+        path: ./core
+        filename: CoreBuild.zip
+    - uses: ./.github/workflows/actions/download-archive
+      with:
+        name: ionic-angular
+        path: ./angular
+        filename: AngularBuild.zip
+    - uses: ./.github/workflows/actions/download-archive
+      with:
+        name: ionic-angular-server
+        path: ./packages/angular-server
+        filename: AngularServerBuild.zip
+    - name: Create Test App
+      run: ./build.sh ${{ inputs.app }}
+      shell: bash
+      working-directory: ./packages/angular/test
+    - name: Install Dependencies
+      run: npm install
+      shell: bash
+      working-directory: ./packages/angular/test/build/${{ inputs.app }}
+    - name: Sync Built Changes
+      run: npm run sync
+      shell: bash
+      working-directory: ./packages/angular/test/build/${{ inputs.app }}
+    - name: Run Tests
+      run: npm run test
+      shell: bash
+      working-directory: ./packages/angular/test/build/${{ inputs.app }}

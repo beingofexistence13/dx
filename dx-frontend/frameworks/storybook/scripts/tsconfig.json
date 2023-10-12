@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "incremental": false,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strictBindCallApply": true,
+    "lib": ["dom", "esnext"],
+    "types": ["node", "jest"],
+    "strict": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["dist", "**/dist", "node_modules", "**/node_modules"],
+  "include": ["./**/*", "./.eslintrc.js"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "types": ["node"]
+    }
+  }
+}

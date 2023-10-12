@@ -1,0 +1,65 @@
+@import "./textarea";
+@import "./textarea.vars";
+@import "./textarea.ios.vars";
+
+// iOS Textarea
+// --------------------------------------------------
+
+:host {
+  --border-width: #{$hairlines-width};
+  --border-color: #{$item-ios-border-color};
+  --padding-top: #{$textarea-ios-padding-top};
+  --padding-end: 0px;
+  --padding-bottom: #{$textarea-padding-bottom};
+  --padding-start: 0px;
+
+  font-size: $textarea-ios-font-size;
+}
+
+// TODO: FW-2876 - Remove this selector
+:host(.legacy-textarea) {
+  --padding-top: #{$textarea-ios-padding-top};
+  --padding-end: #{$textarea-ios-padding-end};
+  --padding-bottom: #{$textarea-ios-padding-bottom};
+  --padding-start: #{$textarea-ios-padding-start};
+}
+
+:host-context(.item-label-stacked),
+:host-context(.item-label-floating) {
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+  --padding-start: 0px;
+}
+
+// Textarea - Disabled
+// ----------------------------------------------------------------
+// The textarea, label, helper text, char counter and placeholder
+// should use the same opacity and match the other form controls
+
+:host(.legacy-textarea) .native-textarea[disabled],
+:host(.textarea-disabled) {
+  opacity: #{$textarea-ios-disabled-opacity};
+}
+
+// Textarea Wrapper
+// ----------------------------------------------------------------
+
+// TODO: FW-2876 - Make this style a :host style, remove :not selector
+:host(:not(.legacy-textarea)) {
+  min-height: 44px;
+}
+
+/**
+ * Since the label sits on top of the element,
+ * the component needs to be taller otherwise the
+ * label will appear too close to the textarea text.
+ * Also, floating and stacked labels should not
+ * push the label down since it it
+ * sits on top of the textarea.
+ */
+:host(.textarea-label-placement-floating),
+:host(.textarea-label-placement-stacked) {
+  --padding-top: 0px;
+
+  min-height: 56px;
+}

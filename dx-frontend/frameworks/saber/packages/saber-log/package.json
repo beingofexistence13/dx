@@ -1,0 +1,18 @@
+{
+  "name": "saber-log",
+  "version": "0.3.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.26.0",
+    "rollup-plugin-typescript2": "^0.24.3"
+  }
+}

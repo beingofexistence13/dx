@@ -1,0 +1,81 @@
+{
+  "name": "@storybook/vue3-vite",
+  "version": "7.5.0-alpha.6",
+  "description": "Storybook for Vue3 and Vite: Develop Vue3 components in isolation with Hot Reloading.",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/next/code/frameworks/vue3-vite",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "code/frameworks/vue3-vite"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./preset": {
+      "types": "./dist/preset.d.ts",
+      "require": "./dist/preset.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "scripts": {
+    "check": "../../../scripts/prepare/check.ts",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@storybook/builder-vite": "workspace:*",
+    "@storybook/core-server": "workspace:*",
+    "@storybook/vue3": "workspace:*",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "magic-string": "^0.30.0",
+    "vue-docgen-api": "^4.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "~4.9.3",
+    "vite": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "vite": "^3.0.0 || ^4.0.0"
+  },
+  "engines": {
+    "node": "^14.18 || >=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/preset.ts"
+    ],
+    "platform": "node"
+  },
+  "gitHead": "e6a7fd8a655c69780bc20b9749c2699e44beae17"
+}

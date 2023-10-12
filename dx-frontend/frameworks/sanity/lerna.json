@@ -1,0 +1,15 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "dev/*",
+    "perf",
+    "perf/studio",
+    "examples/*",
+    "packages/@sanity/*",
+    "packages/create-sanity",
+    "packages/groq",
+    "packages/sanity"
+  ],
+  "version": "3.18.0"
+}

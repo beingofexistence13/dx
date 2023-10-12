@@ -1,0 +1,34 @@
+{
+  "$schema": "../test_case_schema.json",
+  "cases": [
+    {
+      "description": "should allow repeating the same placeholder",
+      "inputFiles": [
+        "repeated_placeholder.ts"
+      ],
+      "expectations": [
+        {
+          "extraChecks": [
+            "verifyPlaceholdersIntegrity",
+            "verifyUniqueConsts"
+          ]
+        }
+      ],
+      "skipForTemplatePipeline": true
+    },
+    {
+      "description": "should support i18n message with multiple pipes",
+      "inputFiles": [
+        "multiple_pipes.ts"
+      ],
+      "expectations": [
+        {
+          "extraChecks": [
+            "verifyPlaceholdersIntegrity",
+            "verifyUniqueConsts"
+          ]
+        }
+      ]
+    }
+  ]
+}

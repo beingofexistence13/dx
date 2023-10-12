@@ -1,0 +1,18 @@
+{
+  "name": "saber-plugin-prismjs",
+  "version": "0.2.4",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "prismjs": "1.17.1"
+  },
+  "peerDependencies": {
+    "prismjs": "^1.16.0"
+  },
+  "dependencies": {
+    "saber-highlighter-prism": "^0.3.4"
+  }
+}

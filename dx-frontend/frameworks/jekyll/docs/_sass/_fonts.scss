@@ -1,0 +1,90 @@
+// *.woff2 support: Chrome 26+, Opera 23+, FireFox 3.6
+// *.woff support: Chrome 6+, Firefox 3.6+, IE9+, Safari 5.1+
+
+// Lato Light (300)
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'),
+       url('../fonts/lato-v14-latin-300.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-300.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Light, Italic (300)
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'),
+       url('../fonts/lato-v14-latin-300italic.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-300italic.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Regular (400)
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v14-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-regular.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Regular, Italic (400)
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'),
+       url('../fonts/lato-v14-latin-italic.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-italic.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Bold (700)
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url('../fonts/lato-v14-latin-700.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-700.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Bold, Italic (700)
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+       url('../fonts/lato-v14-latin-700italic.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-700italic.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Black (900)
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'),
+       url('../fonts/lato-v14-latin-900.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-900.woff') format('woff');
+  font-display: swap;
+}
+
+// Lato Black, Italic (900)
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'),
+       url('../fonts/lato-v14-latin-900italic.woff2') format('woff2'),
+       url('../fonts/lato-v14-latin-900italic.woff') format('woff');
+  font-display: swap;
+}

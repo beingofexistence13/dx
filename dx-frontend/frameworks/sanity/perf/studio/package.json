@@ -1,0 +1,20 @@
+{
+  "name": "perf-studio",
+  "version": "3.18.0",
+  "private": true,
+  "description": "Sanity Studio with various test cases for tracking performance",
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "scripts": {
+    "build": "sanity build",
+    "clean": "rimraf .sanity dist",
+    "dev": "sanity dev --port 3300",
+    "start": "sanity start --port 3300"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "3.18.0",
+    "styled-components": "^5.2.0"
+  }
+}

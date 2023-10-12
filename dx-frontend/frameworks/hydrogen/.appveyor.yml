@@ -1,0 +1,559 @@
+# Appveyor configuration
+#
+# Cache usage
+# -----------
+#
+# The Appveyor build cache is used for:
+#
+#   - ccache on Linux and Windows
+#   - Howebrew with build prerequisites on macOS
+#   - State of /usr with installed prerequisites on Linux
+#
+# The build cache limit is 1Gb which must be shared amongst all platforms,
+# so we must take care about sizes, so we allocate:
+#
+# Homebrew         256Mb (currently uses about 130Mb)
+# Linux /var       256Mb (currently uses about 170Mb)
+# Linux ccache     256Mb
+# Windows64 ccache 256Mb
+#
+# 32-bit Windows is not cached since it's not regularly built.
+#
+# Caching the macOS Homebrew configuration is the single largest
+# impact on Appveyor build times, since Howebrew on the Appveyor images
+# is very out of date, and some prerequisites require rebuilding.
+#
+# Since the Homebrew installation is much larger than the
+# size of cache that Appveyor allows (1GB per project, shared
+# between all configurations), so we cache only objects that
+# are new or modified relative to the pre-existing 'clean' VM
+# state, using `treestate.py` to compare.
+#
+# For most build jobs, we just unpack the cached Homebrew on top
+# of the existing Homebrew installation.
+#
+# If the cache is cleaned or out of date, we first record the
+# state of the Homebrew installation, then update it and install
+# prerequisites, and build a new archive of the current Homebrew
+# installation.
+#
+# Currently the necessary changes, compressed with xz, occupy
+# about 170Mb of cache space.
+#
+
+environment:
+  GENERATOR: "MinGW Makefiles"
+  UPLOAD_ARTIFACTS: false
+  TARGET_VERSION: '1.2.2'
+  matrix:
+
+    - job_name: 'Ubuntu 20.04'
+      job_group: 'Linux'
+      appveyor_build_worker_image: Ubuntu2004
+
+    - job_name: 'Ubuntu 16.04 (AppImage)'
+      job_group: 'Linux (AppImage)'
+      appveyor_build_worker_image: Ubuntu1604
+
+    - job_name: 'OS X'
+      job_group: 'Mac OS X'
+      appveyor_build_worker_image: macos
+
+    - job_name: 'Windows64'
+      job_group: 'Windows'
+      MSYS: 'C:\msys64\mingw64'
+      MSYS_REPO: 'mingw64/mingw-w64-x86_64'
+      BUILD_TYPE: "Release"
+      CMAKE_FLAGS: "-DWANT_DEBUG:BOOL=OFF -DWIN64:BOOL=ON"
+      appveyor_build_worker_image: Visual Studio 2019
+      LIBSSL: libssl-3-x64.dll
+      LIBCRYPTO: libcrypto-3-x64.dll
+
+    - job_name: 'Windows32'
+      job_group: 'Windows'
+      MSYS: 'C:\msys64\mingw32'
+      MSYS_REPO: 'mingw32/mingw-w64-i686'
+      BUILD_TYPE: "Release"
+      CMAKE_FLAGS: "-DWANT_DEBUG:BOOL=OFF -DWIN64:BOOL=OFF"
+      appveyor_build_worker_image: Visual Studio 2019
+      LIBSSL: libssl-3.dll
+      LIBCRYPTO: libcrypto-3.dll
+
+build:
+  verbosity: detailed
+
+# Upload artifacts in case either the branch is named *-artifacts or
+# HEAD is located on a tag (affects both Linux and Mac OS jobs).
+init:
+  - sh: |-
+      if [[ "$APPVEYOR_REPO_TAG_NAME" || "$APPVEYOR_REPO_BRANCH" == *"-artifacts" ]]; then
+          UPLOAD_ARTIFACTS=true
+      fi
+
+for:
+  - 
+    matrix:
+      only:
+        - job_group: 'Linux'
+
+    cache: $HOME/cache_dir
+
+    before_build: |-
+
+      cache_tag=usr_cache_portmidi # this can be modified to rebuild deps
+
+      cdir=$HOME/cache_dir
+      cache_tar=$cdir/$cache_tag.tar
+      cache=$cache_tar.xz
+
+      mkdir -p $cdir/ccache
+      ln -s $cdir/ccache $HOME/.ccache
+
+      if [ -d $cdir ] && [ -f $cache ]; then
+        echo "=== Unpacking cached /var $cache ==="
+        (
+          cd /
+          sudo tar xf $cache
+        )
+        echo "done"
+      else
+        echo "=== Building dependencies ==="
+
+        mkdir -p $cdir
+
+        sudo python3 ./treestate.py scan /usr usr.json
+        sudo apt-get update
+        sudo apt-get install -y clang qt5-default qttools5-dev qttools5-dev-tools libqt5xmlpatterns5-dev libarchive-dev libsndfile1-dev libasound2-dev libjack-jackd2-dev libqt5svg5-dev
+        sudo apt-get install -y liblo-dev libpulse-dev libportmidi-dev portaudio19-dev libcppunit-dev liblrdf-dev librubberband-dev ladspa-sdk ccache appstream intltool desktop-file-utils
+
+        # Install a recent PortMidi version
+        git clone https://github.com/PortMidi/PortMidi || exit 1
+        cd PortMidi || exit 1
+        git checkout v2.0.1 || exit 1
+        mkdir build || exit 1
+        cd build || exit 1
+        cmake .. || exit 1
+        make || exit 1
+        sudo make install || exit 1
+        cd ../.. || exit 1
+        rm -rf PortMidi || exit 1
+        
+        sudo rm /usr/local/bin/doxygen
+        ccache -M 256M
+        ccache -s
+
+        (
+          sudo python3 ./treestate.py updates usr.json /usr > updates
+          echo $(wc -l updates) updates
+          sudo tar cf $cache_tar -T updates
+          sudo nice xz -9 -T0 $cache_tar
+          du -h $cache
+
+        ) 2>&1 | sed 's/^/CACHE: /' &
+      fi
+
+    build_script: |-
+      git submodule init && git submodule update
+
+      export CMAKE_CXX_FLAGS="-fstrict-enums -fstack-protector-strong -Werror=format-security -Wformat -Wunused-result -D_FORTIFY_SOURCE=2"
+
+      CPUS=$(nproc)
+      echo "Building with $CPUS cpus"
+      mkdir build && cd build && \
+        cmake -DWANT_LASH=1 \
+              -DWANT_LRDF=1 \
+              -DWANT_PORTMIDI=1 \
+              -DWANT_PORTAUDIO=1 \
+              -DWANT_RUBBERBAND=1 .. \
+              -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
+          && \
+        make -j $CPUS
+
+      ccache -s
+
+      wait
+      echo "=== Build cache usage is " $( du -h $cdir | tail -1 ) "==="
+
+    test_script: |-
+
+      TMPDIR=/tmp src/tests/tests --appveyor --output-file=testOutput.log
+
+      res=$?;
+      if [ "$res" != "0" ]; then
+          # The tests failed. Upload all output to ease debugging.
+          appveyor PushArtifact testOutput.log
+      fi
+
+      echo "Validating desktop file."
+      desktop-file-validate ../linux/org.hydrogenmusic.Hydrogen.desktop || exit 1
+
+      echo "Validating AppStream meta data."
+      appstreamcli validate ../linux/org.hydrogenmusic.Hydrogen.metainfo.xml || exit 1
+
+      ( exit $res )
+
+  - 
+    matrix:
+      only:
+        - job_group: 'Linux (AppImage)'
+
+    cache: $HOME/cache_dir_appimage
+
+    before_build: |-
+      if [ "$UPLOAD_ARTIFACTS" == "false" ]; then
+         echo "Skipping AppImage build as artifacts are not requested"
+         exit 0
+      fi
+
+      cache_tag=usr_cache_appimage_fresh # this can be modified to rebuild deps
+
+      ## Since we use a different Linux image we, unfortunately, have
+      ## to use a separate cache.
+      cdir=$HOME/cache_dir_appimage
+      cache_tar=$cdir/$cache_tag.tar
+      cache=$cache_tar.xz
+
+      mkdir -p $cdir/ccache || exit 1
+      ln -s $cdir/ccache $HOME/.ccache || exit 1
+
+      if [ -d $cdir ] && [ -f $cache ]; then
+        echo "=== Unpacking cached /var $cache ==="
+        (
+          cd /
+          sudo tar xf $cache || exit 1
+
+          # Ensure bricked doxygen version get's removed.
+          sudo rm -f /usr/local/bin/doxygen
+        )
+        echo "done"
+      else
+        echo "=== Building dependencies ==="
+
+        mkdir -p $cdir || exit 1
+
+        sudo python3 ./treestate.py scan /usr usr.json || exit 1
+        sudo apt-get update || exit 1
+        sudo apt-get install -y clang libarchive-dev libsndfile1-dev libasound2-dev libjack-jackd2-dev libflac-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libogg-dev libvorbis-dev mesa-common-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxkbcommon-x11-0 || exit 1
+        sudo apt-get install -y liblo-dev libpulse-dev libportmidi-dev portaudio19-dev libcppunit-dev liblrdf-dev librubberband-dev ladspa-sdk ccache appstream intltool desktop-file-utils || exit 1
+
+        # The doxygen version provided in the repo is bricked and
+        # would crash the `liblo` build.
+        sudo rm /usr/local/bin/doxygen || exit 1
+
+        # Ubuntu 16.04 is shipped with OpenSSL 1.0.2 which is not
+        # compatible with v 1.1.1X expected by Qt
+        git clone https://github.com/openssl/openssl || exit 1
+        cd openssl || exit 1
+        git checkout OpenSSL_1_1_1t || exit 1
+        ./config || exit 1
+        make -j $(nproc) || exit 1
+        sudo make install || exit 1
+        cd ..
+
+        # liblo version shipped in Ubuntu 16.04 is to low for Hydrogen
+        # to compile.
+        git clone https://github.com/radarsat1/liblo || exit 1
+        cd liblo || exit 1
+        git checkout 0.31 || exit 1
+        ./autogen.sh || exit 1
+        make || exit 1
+        sudo make install || exit 1
+        cd ..
+
+        ccache -M 256M || exit 1
+        ccache -s || exit 1
+
+        (
+          sudo python3 ./treestate.py updates usr.json /usr > updates || exit 1
+          echo $(wc -l updates) updates
+          sudo tar cf $cache_tar -T updates || exit 1
+          sudo nice xz -9 -T0 $cache_tar || exit 1
+          du -h $cache
+
+        ) 2>&1 | sed 's/^/CACHE: /' &
+      fi
+
+    build_script: |-
+      git submodule init || exit 1
+      git submodule update || exit 1
+
+      export PATH=$HOME/Qt/5.15.2/gcc_64/bin:$PATH
+      export Qt5Widgets_DIR=$HOME/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets
+      export CMAKE_CXX_FLAGS="-fstrict-enums -fstack-protector-strong -Werror=format-security -Wformat -Wunused-result -D_FORTIFY_SOURCE=2"
+
+      CPUS=$(nproc)
+      echo "Building with $CPUS cpus"
+      mkdir build || exit 1
+      cd build || exit 1
+      cmake -DWANT_LASH=1 \
+            -DWANT_LRDF=1 \
+            -DWANT_RUBBERBAND=1 \
+            -DWANT_APPIMAGE=1 \
+            -DWANT_DYNAMIC_JACK_CHECK=1 \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_INSTALL_PREFIX=/usr \
+            -DCMAKE_PREFIX_PATH=$HOME/Qt/5.15.2/gcc_64 .. || exit 1
+      make -j $CPUS || exit 1
+
+      ccache -s || exit 1
+
+      wait
+      echo "=== Build cache usage is " $( du -h $cdir | tail -1 ) "==="
+
+      echo -e "\n *** Creating AppDir ***\n"
+      make install DESTDIR=AppDir || exit 1
+
+      echo -e "\n *** Retrieve AppImage toolchain ***\n"
+
+      ## We do not cache this binary since it represents a rolling
+      ## release and it releases us from the burden for keeping it
+      ## up-to-date manually.
+      wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage || exit 1
+      wget https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage || exit 1
+      chmod +x linuxdeploy-x86_64.AppImage || exit 1
+      chmod +x linuxdeploy-plugin-qt-x86_64.AppImage || exit 1
+
+      echo -e "\n *** Building AppImage ***\n"
+
+      ## Add custom OpenSSL libraries. They are used as fallback by Qt
+      ## and are only dl_opened in case no matching version was found
+      ## on system level.
+      cp /usr/local/lib/libssl.so.1.1 AppDir/usr/lib || exit 1
+      cp /usr/local/lib/libcrypto.so.1.1 AppDir/usr/lib || exit 1
+
+      LD_LIBRARY_PATH=AppDir/usr/lib/x86_64-linux-gnu/:AppDir/usr/lib:$HOME/Qt/5.15.2/gcc_64/lib ./linuxdeploy-x86_64.AppImage \
+        --appdir AppDir \
+        --executable AppDir/usr/bin/hydrogen \
+        --desktop-file AppDir/usr/share/applications/org.hydrogenmusic.Hydrogen.desktop \
+        --icon-file AppDir/usr/share/hydrogen/data/img/gray/icon.svg \
+        --plugin qt \
+        --output appimage || exit 1
+
+      echo -e "\n *** Upload AppImage ***\n"
+      appveyor PushArtifact Hydrogen-x86_64.AppImage || exit 1
+
+  - 
+    cache: /Users/appveyor/cache_dir
+    matrix:
+      only:
+        - job_group: 'Mac OS X'
+
+    before_build: |-
+
+      ###############################################################
+      # Set up macOS dependencies
+
+      export MACOSX_DEPLOYMENT_TARGET=10.12
+      sudo ln -s /usr/local /opt/local;
+
+      cache_tag=usr_local_1 # this can be modified to rebuild deps
+
+      cdir=$HOME/cache_dir
+      cache_tar=$cdir/$cache_tag.tar
+      cache=$cache_tar.xz
+
+      CPUS=$(sysctl -n hw.ncpu)
+
+      if [ -d $cdir ] && [ -f $cache ]; then
+        echo "=== Unpacking cached Homebrew $cache ==="
+        (
+          cd /
+          tar xf $cache
+        )
+        echo "done"
+      else
+        echo "=== Building dependencies ==="
+        echo "Couldn't find cache $cache"
+        ls -alrt "$cdir"
+
+        echo "Recording /usr/local state"
+        python3 ./treestate.py scan /usr/local usrlocal.json
+
+        brew update
+        # Build our own versions of these for macOS 10.12 target systems.
+        brew install --build-from-source ./macos/HomebrewFormulae/berkeley-db.rb
+        brew install --build-from-source ./macos/HomebrewFormulae/libogg.rb
+        brew install --build-from-source ./macos/HomebrewFormulae/libvorbis.rb
+        brew install --build-from-source ./macos/HomebrewFormulae/libsndfile.rb
+
+        brew install qt5 libarchive jack pulseaudio cppunit ruby
+
+        # The build environment is now ready for use. We can complete
+        # the rest of the process of creating the Homebrew archive
+        # during the rest of the build, using idle CPU time. To minimise
+        # the amount of space needed for the archive, we compress with
+        # xz, which adds only about a minute to the non-cached build.
+        (
+          echo "=== Creating cache tarball $cache ==="
+          echo "Check /usr/local for updates"
+          python3 ./treestate.py updates usrlocal.json /usr/local       \
+              | fgrep -v .git                                           \
+                      > updated_list
+          echo Need to record $( wc -l updated_list ) updates
+
+          mkdir -p $cdir
+          rm -f $cdir/*
+          nice tar cf $cache_tar -T updated_list
+          echo nice xz -9 -T$CPUS $cache_tar
+          nice xz -9 -T$CPUS $cache_tar
+          du -h $cdir
+        ) 2>&1 | sed 's/^/CACHE: /' &
+
+      fi
+
+      export CMAKE_PREFIX_PATH="$(brew --prefix qt5)";
+      export PKG_CONFIG_PATH="$(brew --prefix libarchive)/lib/pkgconfig";
+
+    build_script: |-
+      # fix use of register keyword in jack: https://github.com/jackaudio/jack1/issues/84
+      sed -i '' 's/, int register,/, int,/g' /opt/local/include/jack/types.h
+
+      git submodule init && git submodule update
+
+      # Do the build
+      (
+          mkdir build &&                                                        \
+              cd build &&                                                       \
+              cmake -DWANT_LASH=1                                               \
+                    -DWANT_LRDF=1                                               \
+                    -DWANT_RUBBERBAND=1 .. &&                                   \
+              make -j $CPUS
+      ) || exit 1
+
+      # Build installation DMG
+      (
+        cd build
+        PATH="$(brew --prefix qt5)/bin:$PATH"
+        ../macos/build_dmg.sh -v src/gui/hydrogen.app Hydrogen${PKG_SUFFIX}.dmg
+
+        if [ "$UPLOAD_ARTIFACTS" == "true" ]; then
+            appveyor PushArtifact Hydrogen*.dmg -DeploymentName Installer;
+        fi
+      ) || exit 1
+
+
+    test_script: |-
+      cd build
+
+      TMPDIR=/tmp src/tests/tests --appveyor --output-file=testOutput.log
+
+      res=$?
+      wait
+
+      if [ "$res" != "0" ]; then
+          # The tests failed. Upload all output to ease debugging.
+          appveyor PushArtifact testOutput.log
+      fi
+      echo "=== Build cache usage is " $( du -h $cdir | tail -1 ) "==="
+      ( exit $res )
+
+  -
+    matrix:
+      only:
+        - job_group: 'Windows'
+
+    cache: '%USERPROFILE%\AppData\Roaming\ccache'
+    before_build:
+      cmd: |-
+
+          REM *** Upload artifacts in case either the branch is named ***
+          REM *** *-artifacts or HEAD is located on a tag. ***
+          if defined APPVEYOR_REPO_TAG_NAME (set UPLOAD_ARTIFACTS="true") else (echo No tag name defined)
+          if not "%APPVEYOR_REPO_BRANCH%"=="%APPVEYOR_REPO_BRANCH:-artifacts=%" set UPLOAD_ARTIFACTS="true"
+
+          if not %UPLOAD_ARTIFACTS%=="true" if %job_name%==Windows32 appveyor exit
+
+          set QTDIR=%MSYS%
+          set CMAKE_PREFIX_PATH=%QTDIR%
+          set PATH=%MSYS%\bin;%PATH%
+          set PKG_CONFIG_PATH=%MSYS%\lib\pkgconfig
+
+          cmake --version
+          g++ --version
+
+          REM *** Install dependencies ***
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-libarchive
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-libsndfile
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-cppunit
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-portaudio
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-portmidi
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-libwinpthread-git
+          REM *** As of 2022-20-09 the package database refresh (-y) is required to get the newest qt package and to avoid a critical bug in less recent ones. In addition, the refresh _must_ take place _after_ installing libwinpthread (which otherwise fails). ***
+          c:\msys64\usr\bin\pacman --noconfirm -S -q -y %MSYS_REPO%-qt5
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-ladspa-sdk
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-ccache
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-jack2
+          c:\msys64\usr\bin\pacman --noconfirm -S -q %MSYS_REPO%-liblo
+          c:\msys64\usr\bin\pacman --noconfirm -U https://repo.msys2.org/mingw/%MSYS_REPO%-qt5-tools-5.15.9-1-any.pkg.tar.zst
+
+          ccache -M 256M
+          ccache -s
+
+          REM *** INIT SUBMODULES ***
+          git submodule init
+          git submodule update
+
+          REM *** Configure build ***
+          rename "C:\Program Files\Git\usr\bin\sh.exe" "sh2.exe"
+          mkdir build
+          cd build
+          cmake -G "%GENERATOR%" -DCMAKE_BUILD_TYPE=%BUILD_TYPE% %CMAKE_FLAGS% -DCMAKE_CXX_COMPILER_LAUNCHER=ccache ..
+
+    build_script:
+      - cmd: |-
+          if not %UPLOAD_ARTIFACTS%=="true" if %job_name%==Windows32 exit
+
+          REM *** Build ***
+          set VERBOSE=1
+          cmake --build . -j %NUMBER_OF_PROCESSORS%
+
+          REM *** Run tests and report results ***
+          set H2_HOME=%APPVEYOR_BUILD_FOLDER%
+          echo %H2_HOME%
+          SET CORE_PATH=%cd%\src\core
+          echo %CORE_PATH%
+          set PATH=%CORE_PATH%;%PATH%
+          src\tests\tests.exe --appveyor --output-file=testOutput.log
+
+          REM *** In case the test passed, we delete its output. If it fails, the
+          REM     script won't reach this point and the output will be uploaded later on ***
+          IF %ERRORLEVEL% EQU 0 (del testOutput.log)
+
+          7z a %APPVEYOR_BUILD_FOLDER%\testresults.zip %TEMP%\hydrogen || cmd /c "exit  /b 1"
+          if %UPLOAD_ARTIFACTS%=="true" appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\testresults.zip
+
+          mkdir %APPVEYOR_BUILD_FOLDER%\build\windows\extralibs
+
+          REM *** Deploy Qt ***
+          %QTDIR%\bin\windeployqt.exe -xmlpatterns --no-patchqt --dir %APPVEYOR_BUILD_FOLDER%\build\windows\extralibs src/gui/hydrogen.exe
+
+          REM *** Deploy other libraries ***
+          set PYTHON=C:\Python38\python
+          %PYTHON% -m pip install -r %APPVEYOR_BUILD_FOLDER%\windows\ci\requirements.txt
+          %PYTHON% %APPVEYOR_BUILD_FOLDER%\windows\ci\copy_thirdparty_dlls.py --no-overwrite -V info -L %MSYS%\bin -d %APPVEYOR_BUILD_FOLDER%\build\windows\extralibs src/gui/hydrogen.exe src/core/libhydrogen-core-%TARGET_VERSION%.dll
+
+          REM *** libcrypto and libssl are not picked up by the Python script above and needs to be copied manually ***
+          copy %MSYS%\bin\%LIBSSL% %APPVEYOR_BUILD_FOLDER%\build\windows\extralibs
+          copy %MSYS%\bin\%LIBCRYPTO% %APPVEYOR_BUILD_FOLDER%\build\windows\extralibs
+
+          REM *** Build installer ***
+          cpack -G NSIS -v
+
+          REM *** Run and verify installer ***
+          set INSTDIR=C:\hydrogen
+          mkdir %INSTDIR%
+          FOR %%F IN (Hydrogen-*.exe) DO %%F /S /D=%INSTDIR%
+          %PYTHON% -m pytest %APPVEYOR_BUILD_FOLDER%\windows\ci\test_installation.py --junitxml=test_installation.xml
+
+          ccache -s
+
+on_finish:
+  - cmd: if %UPLOAD_ARTIFACTS%=="true"  appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\build\CMakeCache.txt
+  - cmd: if %UPLOAD_ARTIFACTS%=="true"  appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\build\CMakeFiles\CMakeConfigureLog.yaml
+  - cmd: if EXIST %APPVEYOR_BUILD_FOLDER%\build\testOutput.log appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\build\testOutput.log
+
+  - cmd: if %UPLOAD_ARTIFACTS%=="true" if not %job_name%==Windows32  appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\build\Hydrogen-%TARGET_VERSION%-win64.exe || cmd /c "exit /b 1"
+  - cmd: if %UPLOAD_ARTIFACTS%=="true" if %job_name%==Windows32  appveyor PushArtifact %APPVEYOR_BUILD_FOLDER%\build\Hydrogen-%TARGET_VERSION%-win32.exe || cmd /c "exit /b 1"
+
+  - cmd: |
+      if %UPLOAD_ARTIFACTS%=="true" curl -F file=@%APPVEYOR_BUILD_FOLDER%\build\test_installation.xml https://ci.appveyor.com/api/testresults/junit/%APPVEYOR_JOB_ID%

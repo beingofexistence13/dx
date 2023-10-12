@@ -1,0 +1,59 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+addon
+addons
+api
+apollo
+bundlers
+center
+centered
+cleanup
+codemod
+codemods
+CommonJS
+config
+cra
+CRNA
+dialog
+ES2016
+eslint
+EventEmitter
+github
+GraphiQL
+graphql
+HMR
+iframe
+IO
+javascript
+js
+jscodeshift
+lerna
+linkTo
+Node.js
+npm
+onStory
+params
+postmessage
+prerelease
+PRs
+rc
+README.md
+serializable
+setOptions
+setStories
+storybook-ui
+storybook.js.org
+storyshots
+storyshots'
+styleguide-type
+styleguides
+svelte
+unisolated
+url
+vue
+webcomponents
+webpack
+websocket

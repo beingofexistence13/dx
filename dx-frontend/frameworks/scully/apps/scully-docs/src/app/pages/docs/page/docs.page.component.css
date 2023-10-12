@@ -1,0 +1,46 @@
+/* this :host is used to position footer at the bottom always */
+scullyio-docs-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.github-links {
+  right: calc(18rem + 16px + 16px);
+  top: 45px;
+  position: absolute;
+  z-index: 1;
+}
+
+.github-links a.suggest-edit {
+  background: url(/assets/img/icons/pen-solid.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  filter: var(--scully-link-blue-filter);
+}
+
+.github-links a.suggest-edit:hover {
+  filter: var(--scully-link-blue-light-filter);
+}
+
+.docs-page-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0 24px 0 24px;
+  padding-right: calc(18rem + 16px + 16px);
+  padding-top: 34px;
+}
+
+@media screen and (max-width: 800px) {
+  .docs-page-content {
+    padding: 0 16px;
+    padding-top: 34px;
+  }
+  .github-links {
+    right: 16px;
+  }
+}

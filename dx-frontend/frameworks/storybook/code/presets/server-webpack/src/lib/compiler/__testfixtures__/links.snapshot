@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`json-to-csf-compiler links.json 1`] = `
+"
+export default {
+  title: \\"Welcome\\",
+};
+
+export const Welcome = {
+  name: \\"Welcome\\",
+  parameters: {
+    server: {
+      id: \\"welcome/welcome\\"
+    }
+  }
+};
+"
+`;

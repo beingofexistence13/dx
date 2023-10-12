@@ -1,0 +1,74 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_HOST")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Define your own models here and run yarn db:save to create
+// migrations for them.
+
+model Post {
+  id         Int         @id @default(autoincrement())
+  title      String
+  slug       String      @unique
+  author     String
+  body       String
+  image      String?
+  postedAt   DateTime?
+  isPinned   Boolean     @default(false)
+  readTime   Decimal     @default(1.0)
+  rating     Float?
+  upvotes    Int         @default(0)
+  metadata   Json
+  hugeNumber BigInt      @default(9007199254740992)
+  favorites  Favorite[]
+  tag        Tag[]
+}
+
+model User {
+  id       Int           @id @default(autoincrement())
+  name     String?
+  email    String        @unique
+  isAdmin  Boolean       @default(false)
+  profiles UserProfile[]
+}
+
+model UserProfile {
+  id       Int    @id @default(autoincrement())
+  username String @unique
+  userId   Int
+  user     User   @relation(fields: [userId], references: [id])
+}
+
+model NoEditableField {
+  id          Int      @id
+}
+
+model Favorite {
+  id      Int     @id @default(autoincrement())
+  postId  Int
+  post    Post    @relation(fields: [postId], references: [id])
+  likes   BigInt
+}
+
+model ExcludeDefault {
+  id          Int      @id @default(autoincrement())
+  auto        Int      @default(autoincrement())
+  number      Int      @default(99)
+  foobar      String   @default("foobar")
+  cuid        String   @default(cuid())
+  uuid        String   @default(uuid())
+  updatedTime DateTime @updatedAt
+  nowTime     DateTime @default(now())
+  otherTime   DateTime
+}
+
+model Tag {
+  id     Int    @id @default(autoincrement())
+  name   String @unique
+  post   Post?  @relation(fields: [postId], references: [id])
+  postId Int?
+}

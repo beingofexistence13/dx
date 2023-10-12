@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: View documentation 📚
+    url: https://storybook.js.org/docs/
+    about: Check out the official docs for answers to common questions.
+  - name: Feature Requests 💡
+    url: https://github.com/storybookjs/storybook/discussions/new?category=ideas
+    about: Suggest a feature idea for this project.
+  - name: Open an RFC 🦄
+    url: https://github.com/storybookjs/storybook/discussions/new?category=rfc
+    about: Do you want to propose a more involved change to Storybook? Open an RFC (Request for Comments) to start a discussion.
+  - name: Questions & discussions 🤔
+    url: https://github.com/storybookjs/storybook/discussions
+    about: Ask questions, show off your Storybook, etc. 
+  - name: Community Discord 💬
+    url: https://discord.gg/storybook
+    about: Community discussions, interactive support, contributor help

@@ -1,0 +1,18 @@
+{
+  "extends": "../../../tsconfig.settings",
+  "include": ["./src"],
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "./lib/dts",
+
+    "jsx": "react",
+    "isolatedModules": false
+  },
+  "references": [
+    {"path": "../block-tools/tsconfig.lib.json"},
+    {"path": "../schema/tsconfig.lib.json"},
+    {"path": "../types/tsconfig.lib.json"},
+    {"path": "../util/tsconfig.lib.json"}
+  ]
+}

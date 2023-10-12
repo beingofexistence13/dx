@@ -1,0 +1,34 @@
+{
+  "name": "svelte-monorepo",
+  "version": "0.0.1",
+  "description": "monorepo for svelte and friends",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "pnpm test -r --filter=./packages/*",
+    "build": "pnpm -r --filter=./packages/* build",
+    "build:sites": "pnpm -r --filter=./sites/* build",
+    "check": "cd packages/svelte && pnpm build && cd ../../ && pnpm -r check",
+    "lint": "cd packages/svelte && pnpm build && cd ../../ && pnpm -r lint",
+    "format": "pnpm -r format",
+    "changeset:version": "changeset version && pnpm -r generate:version && git add --all",
+    "changeset:publish": "changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveltejs/svelte.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-svelte": "^2.32.2",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "playwright": "^1.35.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-svelte": "^2.10.1"
+  },
+  "packageManager": "pnpm@8.6.3"
+}

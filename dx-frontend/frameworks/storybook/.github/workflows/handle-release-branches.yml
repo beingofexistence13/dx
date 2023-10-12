@@ -1,0 +1,99 @@
+name: Handle Release Branches
+
+on:
+  push:
+
+jobs:
+  branch-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - id: get-branch
+        run: |
+          BRANCH=($(echo ${{ github.ref }} | sed -E 's/refs\/heads\///'))
+          echo "branch=$BRANCH" >> $GITHUB_ENV
+    outputs:
+      branch: ${{ env.branch }}
+      is-latest-branch: ${{ env.branch == 'main' }}
+      is-next-branch: ${{ env.branch == 'next' }}
+      is-release-branch: ${{ startsWith(env.branch, 'release-') }}
+      is-actionable-branch: ${{ env.branch == 'main' || env.branch == 'next' || startsWith(env.branch, 'release-') }}
+
+  handle-latest:
+    needs: branch-checks
+    if: ${{ needs.branch-checks.outputs.is-latest-branch == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - run: curl -X POST "https://api.netlify.com/build_hooks/${{ secrets.FRONTPAGE_HOOK }}"
+
+  get-next-release-branch:
+    needs: branch-checks
+    if: ${{ needs.branch-checks.outputs.is-next-branch == 'true' || needs.branch-checks.outputs.is-release-branch == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: next
+          path: next
+
+      - id: next-version
+        uses: notiz-dev/github-action-json-property@release
+        with:
+          path: ${{ github.workspace }}/next/code/package.json
+          prop_path: version
+
+      - run: |
+          NEXT_RELEASE_BRANCH=($(echo ${{ steps.next-version.outputs.prop }} | sed -E 's/([0-9]+)\.([0-9]+).*/release-\1-\2/'))
+          echo "next-release-branch=$NEXT_RELEASE_BRANCH" >> $GITHUB_ENV
+    outputs:
+      branch: ${{ env.next-release-branch }}
+
+  create-next-release-branch:
+    needs: [branch-checks, get-next-release-branch]
+    if: ${{ needs.branch-checks.outputs.is-next-branch == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - run: |
+          set +e
+          REMOTE_BRANCH=$(git branch -r | grep origin/${{ needs.get-next-release-branch.outputs.branch }})
+          if [[ ! -z $REMOTE_BRANCH ]]; then git push origin --delete ${{ needs.get-next-release-branch.outputs.branch }}; fi
+          echo 'Pushing branch ${{ needs.get-next-release-branch.outputs.branch }}...'
+          git push -f origin ${{ needs.branch-checks.outputs.branch }}:${{ needs.get-next-release-branch.outputs.branch }}
+    outputs:
+      branch: ${{ needs.get-next-release-branch.outputs.branch }}
+
+  next-release-branch-check:
+    if: ${{ always() }}
+    needs: [branch-checks, get-next-release-branch]
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          IS_NEXT_RELEASE_BRANCH=${{ needs.branch-checks.outputs.branch == needs.get-next-release-branch.outputs.branch }}
+          echo "is-next-release-branch=$IS_NEXT_RELEASE_BRANCH" >> $GITHUB_ENV
+
+      - if: ${{ env.is-next-release-branch == 'true' }}
+        run: echo "relevant-base-branch=next" >> $GITHUB_ENV
+
+      - if: ${{ env.is-next-release-branch == 'true' }}
+        run: |
+          echo 'WARNING: Do not push directly to the `${{ needs.branch-checks.outputs.branch }}` branch. This branch is created and force-pushed over after pushing to the `${{ env.relevant-base-branch }}` branch and the changes you just pushed will be lost.'
+          exit 1
+    outputs:
+      check: ${{ env.is-next-release-branch }}
+
+  request-create-frontpage-branch:
+    if: ${{ always() }}
+    needs: [branch-checks, next-release-branch-check, create-next-release-branch]
+    runs-on: ubuntu-latest
+    steps:
+      - if: ${{ needs.branch-checks.outputs.is-actionable-branch == 'true' && needs.branch-checks.outputs.is-latest-branch == 'false' && needs.next-release-branch-check.outputs.check == 'false' }}
+        run: |
+          curl -X POST https://api.github.com/repos/storybookjs/frontpage/dispatches \
+          -H 'Accept: application/vnd.github.v3+json' \
+          -u ${{ secrets.FRONTPAGE_ACCESS_TOKEN }} \
+          --data '{"event_type": "request-create-frontpage-branch", "client_payload": { "branch": "${{ needs.create-next-release-branch.outputs.branch || needs.branch-checks.outputs.branch }}" }}'

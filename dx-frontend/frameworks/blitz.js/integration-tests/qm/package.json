@@ -1,0 +1,34 @@
+{
+  "name": "test-qm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@blitzjs/auth": "2.0.0-beta.34",
+    "@blitzjs/config": "2.0.0-beta.34",
+    "@blitzjs/next": "2.0.0-beta.34",
+    "@blitzjs/rpc": "2.0.0-beta.34",
+    "@prisma/client": "4.6.1",
+    "@tanstack/react-query": "4.0.10",
+    "blitz": "2.0.0-beta.34",
+    "next": "13.5.2",
+    "prisma": "4.6.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "13.4.0",
+    "@types/react": "18.0.25",
+    "@vitejs/plugin-react": "1.3.0",
+    "delay": "5.0.0",
+    "eslint": "8.27.0",
+    "eslint-config-next": "latest",
+    "eslint-plugin-testing-library": "5.0.1",
+    "jsdom": "^19.0.0",
+    "typescript": "^4.8.4"
+  }
+}

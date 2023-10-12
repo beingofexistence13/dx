@@ -1,0 +1,89 @@
+{
+  "name": "@storybook/svelte",
+  "version": "7.5.0-alpha.6",
+  "description": "Storybook Svelte renderer",
+  "keywords": [
+    "storybook"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/next/code/renderers/svelte",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "code/renderers/svelte"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./preview": {
+      "types": "./dist/config.d.ts",
+      "require": "./dist/config.js",
+      "import": "./dist/config.mjs"
+    },
+    "./package.json": "./package.json",
+    "./templates/HOC.svelte": "./templates/HOC.svelte",
+    "./templates/PreviewRender.svelte": "./templates/PreviewRender.svelte",
+    "./templates/SlotDecorator.svelte": "./templates/SlotDecorator.svelte"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "templates/**/*",
+    "template/cli/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "scripts": {
+    "check": "svelte-check",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@storybook/client-logger": "workspace:*",
+    "@storybook/core-client": "workspace:*",
+    "@storybook/core-events": "workspace:*",
+    "@storybook/docs-tools": "workspace:*",
+    "@storybook/global": "^5.0.0",
+    "@storybook/preview-api": "workspace:*",
+    "@storybook/types": "workspace:*",
+    "sveltedoc-parser": "^4.2.1",
+    "type-fest": "~2.19"
+  },
+  "devDependencies": {
+    "expect-type": "^0.15.0",
+    "svelte": "^4.0.0",
+    "svelte-check": "3.4.6",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "svelte": "^3.1.0 || ^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/config.ts"
+    ],
+    "platform": "browser"
+  },
+  "gitHead": "e6a7fd8a655c69780bc20b9749c2699e44beae17"
+}

@@ -1,0 +1,35 @@
+load("//tools:defaults.bzl", "ng_module")
+load("@npm//@angular/build-tooling/bazel/api-gen:generate_api_docs.bzl", "generate_api_docs")
+
+package(default_visibility = ["//visibility:public"])
+
+exports_files(["package.json"])
+
+ng_module(
+    name = "testing",
+    srcs = glob(["**/*.ts"]),
+    deps = [
+        "//packages/common",
+        "//packages/compiler",
+        "//packages/core",
+        "//packages/core/testing",
+        "//packages/platform-browser",
+        "//packages/platform-browser-dynamic",
+        "//packages/platform-browser/testing",
+    ],
+)
+
+filegroup(
+    name = "files_for_docgen",
+    srcs = glob([
+        "*.ts",
+        "src/**/*.ts",
+    ]) + ["PACKAGE.md"],
+)
+
+generate_api_docs(
+    name = "platform-browser_dynamic_testing_docs",
+    srcs = [":files_for_docgen"],
+    entry_point = ":index.ts",
+    module_name = "@angular/platform-browser-dynamic/testing",
+)

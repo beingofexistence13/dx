@@ -1,0 +1,16 @@
+{
+  "name": "saber-plugin-git-modification-time",
+  "version": "0.1.3",
+  "description": "Use the author time of the last commit as page.updatedAt",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "execa": "^3.2.0"
+  },
+  "peerDependencies": {
+    "saber": ">=0.7.0"
+  }
+}

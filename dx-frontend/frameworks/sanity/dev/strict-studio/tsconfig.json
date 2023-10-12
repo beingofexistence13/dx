@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.dev",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "preserve"
+  },
+  "references": [{"path": "../../packages/sanity/tsconfig.lib.json"}]
+}

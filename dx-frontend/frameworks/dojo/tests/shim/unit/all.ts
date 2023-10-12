@@ -1,0 +1,22 @@
+import '../../../src/shim/main';
+
+import './support/decorators';
+import './support/queue';
+import './support/util';
+import './util/wrapper';
+import './AbortController';
+import './array';
+import './global';
+import './globalThis';
+import './iterator';
+import './main';
+import './Map';
+import './math';
+import './number';
+import './object';
+import './Observable';
+import './Promise';
+import './Set';
+import './string';
+import './Symbol';
+import './WeakMap';

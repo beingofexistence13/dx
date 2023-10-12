@@ -1,0 +1,7 @@
+{
+  "name": "depcheck-test",
+  "version": "3.18.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>"
+}

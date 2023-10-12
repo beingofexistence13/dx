@@ -1,0 +1,262 @@
+{
+  "name": "sanity",
+  "version": "3.18.0",
+  "description": "Sanity is a real-time content infrastructure with a scalable, hosted backend featuring a Graph Oriented Query Language (GROQ), asset pipelines and fast edge caches",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/sanity"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./lib/exports/index.d.ts",
+      "source": "./exports/index.ts",
+      "require": "./lib/index.js",
+      "node": {
+        "import": "./lib/index.cjs.mjs",
+        "require": "./lib/index.js"
+      },
+      "import": "./lib/index.esm.js",
+      "default": "./lib/index.esm.js"
+    },
+    "./_internal": {
+      "types": "./lib/exports/_internal.d.ts",
+      "source": "./exports/_internal.ts",
+      "require": "./lib/_internal.js",
+      "node": {
+        "import": "./lib/_internal.cjs.mjs",
+        "require": "./lib/_internal.js"
+      },
+      "import": "./lib/_internal.esm.js",
+      "default": "./lib/_internal.esm.js"
+    },
+    "./cli": {
+      "types": "./lib/exports/cli.d.ts",
+      "source": "./exports/cli.ts",
+      "require": "./lib/cli.js",
+      "node": {
+        "import": "./lib/cli.cjs.mjs",
+        "require": "./lib/cli.js"
+      },
+      "import": "./lib/cli.esm.js",
+      "default": "./lib/cli.esm.js"
+    },
+    "./desk": {
+      "types": "./lib/exports/desk.d.ts",
+      "source": "./exports/desk.ts",
+      "require": "./lib/desk.js",
+      "node": {
+        "import": "./lib/desk.cjs.mjs",
+        "require": "./lib/desk.js"
+      },
+      "import": "./lib/desk.esm.js",
+      "default": "./lib/desk.esm.js"
+    },
+    "./router": {
+      "types": "./lib/exports/router.d.ts",
+      "source": "./exports/router.ts",
+      "require": "./lib/router.js",
+      "node": {
+        "import": "./lib/router.cjs.mjs",
+        "require": "./lib/router.js"
+      },
+      "import": "./lib/router.esm.js",
+      "default": "./lib/router.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.esm.js",
+  "source": "./exports/index.ts",
+  "types": "./lib/exports/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "_internal": [
+        "./lib/exports/_internal.d.ts"
+      ],
+      "cli": [
+        "./lib/exports/cli.d.ts"
+      ],
+      "desk": [
+        "./lib/exports/desk.d.ts"
+      ],
+      "router": [
+        "./lib/exports/router.d.ts"
+      ]
+    }
+  },
+  "bin": {
+    "sanity": "./bin/sanity"
+  },
+  "files": [
+    "_internal.js",
+    "bin",
+    "cli.js",
+    "desk.js",
+    "lib",
+    "router.js",
+    "src",
+    "static"
+  ],
+  "scripts": {
+    "prebuild": "run-s clean",
+    "build": "pkg-utils build --tsconfig tsconfig.lib.json",
+    "postbuild": "run-s check:package",
+    "check:package": "pkg-utils --tsconfig tsconfig.lib.json",
+    "clean": "rimraf _internal.js cli.js desk.js lib router.js",
+    "coverage": "jest --coverage",
+    "prepublishOnly": "run-s write:version write:ui-version",
+    "test": "pkg-utils --strict && jest",
+    "test:ct": "playwright test -c playwright-ct.config.ts",
+    "watch": "pkg-utils watch --tsconfig tsconfig.lib.json",
+    "write:playwright-report-as-pr-comment": "node -r esbuild-register playwright-ct/scripts/parsePlaywrightReportJson.ts",
+    "write:ui-version": "node -r esbuild-register scripts/writeRequiredUIVersion.ts",
+    "write:version": "node -r esbuild-register scripts/writeVersion.ts"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.0.5",
+    "@dnd-kit/modifiers": "^6.0.0",
+    "@dnd-kit/sortable": "^7.0.1",
+    "@dnd-kit/utilities": "^3.2.0",
+    "@juggle/resize-observer": "^3.3.1",
+    "@rexxars/react-json-inspector": "^8.0.1",
+    "@sanity/asset-utils": "^1.2.5",
+    "@sanity/bifur-client": "^0.3.1",
+    "@sanity/block-tools": "3.18.0",
+    "@sanity/cli": "3.18.0",
+    "@sanity/client": "^6.4.9",
+    "@sanity/color": "^2.1.20",
+    "@sanity/diff": "3.18.0",
+    "@sanity/diff-match-patch": "^3.1.1",
+    "@sanity/eventsource": "^5.0.0",
+    "@sanity/export": "3.18.0",
+    "@sanity/generate-help-url": "^3.0.0",
+    "@sanity/icons": "^2.4.0",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/import": "3.18.0",
+    "@sanity/logos": "^2.0.2",
+    "@sanity/mutator": "3.18.0",
+    "@sanity/portable-text-editor": "3.18.0",
+    "@sanity/schema": "3.18.0",
+    "@sanity/types": "3.18.0",
+    "@sanity/ui": "^1.7.2",
+    "@sanity/util": "3.18.0",
+    "@sanity/uuid": "^3.0.1",
+    "@tanstack/react-virtual": "3.0.0-beta.54",
+    "@types/is-hotkey": "^0.1.7",
+    "@types/react-copy-to-clipboard": "^5.0.2",
+    "@types/react-is": "^18.2.0",
+    "@types/shallow-equals": "^1.0.0",
+    "@types/speakingurl": "^13.0.3",
+    "@types/use-sync-external-store": "^0.0.3",
+    "@vitejs/plugin-react": "^4.0.0",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "classnames": "^2.2.5",
+    "color2k": "^2.0.0",
+    "configstore": "^5.0.1",
+    "connect-history-api-fallback": "^1.6.0",
+    "console-table-printer": "^2.11.1",
+    "dataloader": "^2.1.0",
+    "date-fns": "^2.26.1",
+    "debug": "^3.2.7",
+    "esbuild": "^0.19.0",
+    "esbuild-register": "^3.4.1",
+    "execa": "^2.0.0",
+    "exif-component": "^1.0.1",
+    "framer-motion": "^10.0.0",
+    "get-it": "^8.4.3",
+    "get-random-values-esm": "^1.0.0",
+    "groq-js": "^1.1.12",
+    "hashlru": "^2.3.0",
+    "history": "^5.3.0",
+    "import-fresh": "^3.3.0",
+    "is-hotkey": "^0.1.6",
+    "jsdom": "^20.0.0",
+    "jsdom-global": "^3.0.2",
+    "json-lexer": "^1.2.0",
+    "json-reduce": "^3.0.0",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21",
+    "log-symbols": "^2.2.0",
+    "mendoza": "^3.0.0",
+    "module-alias": "^2.2.2",
+    "nano-pubsub": "^2.0.1",
+    "nanoid": "^3.1.30",
+    "observable-callback": "^1.0.1",
+    "oneline": "^1.0.3",
+    "open": "^8.4.0",
+    "pirates": "^4.0.0",
+    "pluralize-esm": "^9.0.2",
+    "polished": "^4.2.2",
+    "pretty-ms": "^7.0.1",
+    "raf": "^3.4.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-fast-compare": "^3.2.0",
+    "react-focus-lock": "^2.8.1",
+    "react-is": "^18.2.0",
+    "react-refractor": "^2.1.6",
+    "react-rx": "^2.1.3",
+    "read-pkg-up": "^7.0.1",
+    "refractor": "^3.6.0",
+    "resolve-from": "^5.0.0",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.8.0",
+    "rxjs-etc": "^10.6.0",
+    "rxjs-exhaustmap-with-trailing": "^2.1.1",
+    "sanity-diff-patch": "^3.0.2",
+    "scroll-into-view-if-needed": "^3.0.3",
+    "semver": "^7.3.5",
+    "shallow-equals": "^1.0.0",
+    "speakingurl": "^14.0.1",
+    "tar-fs": "^2.1.1",
+    "use-device-pixel-ratio": "^1.1.0",
+    "use-hot-module-reload": "^1.0.1",
+    "use-sync-external-store": "^1.2.0",
+    "vite": "^4.4.4",
+    "yargs": "^17.3.0"
+  },
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.38.1",
+    "@playwright/test": "^1.38.1",
+    "@sanity/tsdoc": "1.0.0-alpha.38",
+    "@sanity/ui-workshop": "^1.2.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.0.16",
+    "@types/lodash": "^4.14.149",
+    "@types/log-symbols": "^2.0.0",
+    "@types/raf": "^3.4.0",
+    "@types/refractor": "^3.0.0",
+    "@types/resolve-from": "^4.0.0",
+    "@types/rimraf": "^3.0.2",
+    "@types/semver": "^6.2.3",
+    "@types/tar-fs": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.3.11"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^5.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

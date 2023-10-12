@@ -1,0 +1,40 @@
+{
+  "name": "design-studio",
+  "version": "3.18.0",
+  "private": true,
+  "description": "Sanity Design Studio",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content",
+    "design-studio"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/design-studio"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "main": "package.json",
+  "scripts": {
+    "build": "../.bin/sanity build",
+    "clean": "rimraf .sanity dist",
+    "dev": "../.bin/sanity dev --port 4000",
+    "start": "../.bin/sanity start --port 4000"
+  },
+  "dependencies": {
+    "@sanity/icons": "^2.4.0",
+    "@sanity/ui": "^1.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "3.18.0",
+    "styled-components": "^5.2.0"
+  }
+}

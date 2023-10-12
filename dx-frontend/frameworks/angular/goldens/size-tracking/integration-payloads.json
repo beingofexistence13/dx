@@ -1,0 +1,78 @@
+{
+  "cli-hello-world": {
+    "uncompressed": {
+      "runtime": 908,
+      "main": 134468,
+      "polyfills": 33792
+    }
+  },
+  "cli-hello-world-ivy-i18n": {
+    "uncompressed": {
+      "runtime": 926,
+      "main": 131777,
+      "polyfills": 34676
+    }
+  },
+  "cli-hello-world-lazy": {
+    "uncompressed": {
+      "runtime": 2734,
+      "main": 238106,
+      "polyfills": 33810,
+      "src_app_lazy_lazy_routes_ts": 487
+    }
+  },
+  "forms": {
+    "uncompressed": {
+      "runtime": 888,
+      "main": 166256,
+      "polyfills": 33772
+    }
+  },
+  "animations": {
+    "uncompressed": {
+      "runtime": 2694,
+      "main": 284463,
+      "polyfills": 33809,
+      "src_app_open-close_component_ts": 1321
+    }
+  },
+  "animations-async": {
+    "uncompressed": {
+      "runtime": 2906,
+      "main": 221187,
+      "polyfills": 33782,
+      "node_modules_angular_animations_fesm2022_browser_mjs": 63981,
+      "default-node_modules_angular_animations_fesm2022_animations_mjs": 3828,
+      "src_app_open-close_component_ts": 1321
+    }
+  },
+  "platform-server/standalone/browser": {
+    "uncompressed": {
+      "runtime": 2694,
+      "main": 238273,
+      "polyfills": 33782
+    }
+  },
+  "platform-server/ngmodule/browser": {
+    "uncompressed": {
+      "runtime": 2688,
+      "main": 249925,
+      "polyfills": 33778
+    }
+  },
+  "standalone-bootstrap": {
+    "uncompressed": {
+      "runtime": 918,
+      "main": 91485,
+      "polyfills": 33802
+    }
+  },
+  "defer": {
+    "uncompressed": {
+      "runtime": 2689,
+      "main": 121811,
+      "polyfills": 33807,
+      "src_app_defer_component_ts": 450
+    }
+  }
+}

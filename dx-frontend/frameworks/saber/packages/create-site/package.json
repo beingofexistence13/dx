@@ -1,0 +1,18 @@
+{
+  "name": "create-site",
+  "version": "0.4.0",
+  "bin": "cli.js",
+  "files": [
+    "cli.js",
+    "template"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "kleur": "3.0.3",
+    "ncp": "2.0.0"
+  },
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com"
+  }
+}

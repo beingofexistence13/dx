@@ -1,0 +1,16 @@
+{
+  "extends": "../../../tsconfig.settings",
+  "include": ["./src", "./test", "./typings", "./package.json"],
+  "exclude": ["./test/**/__fixtures__"],
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "./lib/dts",
+
+    "checkJs": false,
+    "allowJs": true,
+    "jsx": "react",
+    "resolveJsonModule": true
+  },
+  "references": [{"path": "../types/tsconfig.lib.json"}, {"path": "../util/tsconfig.lib.json"}]
+}

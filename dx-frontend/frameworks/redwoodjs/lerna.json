@@ -1,0 +1,10 @@
+{
+  "version": "6.0.7",
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "verifyAccess": false
+    }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}

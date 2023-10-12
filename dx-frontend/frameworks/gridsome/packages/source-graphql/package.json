@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "name": "@gridsome/source-graphql",
+  "description": "GraphQL source for Gridsome",
+  "homepage": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql#readme",
+  "repository": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql",
+  "main": "index.js",
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "gridsome-source"
+  ],
+  "dependencies": {
+    "@graphql-tools/utils": "^8.5.3",
+    "@graphql-tools/wrap": "^8.3.2",
+    "node-fetch": "^2.6.1",
+    "graphql": "^16.0.1"
+  },
+  "peerDependencies": {
+    "gridsome": "0.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": "^12.13.0 || ^14.0.0 || >=16.0.0"
+  }
+}

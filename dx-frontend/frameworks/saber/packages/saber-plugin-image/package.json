@@ -1,0 +1,14 @@
+{
+  "name": "saber-plugin-image",
+  "version": "0.2.2",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.8.0",
+    "lozad": "^1.9.0",
+    "responsive-loader": "^1.2.0"
+  }
+}

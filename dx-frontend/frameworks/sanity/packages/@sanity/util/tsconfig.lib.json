@@ -1,0 +1,17 @@
+{
+  "extends": "../../../tsconfig.settings",
+  "include": ["./exports", "./src", "./typings"],
+  "exclude": [
+    "./src/**/__fixtures__",
+    "./src/**/__mocks__",
+    "./src/**/__workshop__",
+    "./src/**/*.test.ts",
+    "./src/**/*.test.tsx"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": ".",
+    "outDir": "./lib"
+  },
+  "references": [{"path": "../types/tsconfig.lib.json"}]
+}

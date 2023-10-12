@@ -1,0 +1,162 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.6.5
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install  --frozen-lockfile
+      - run: pnpm manypkg check
+      - name: Build
+        run: pnpm build
+      - name: Lint
+        run: pnpm lint
+
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.6.5
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - name: Build
+        run: pnpm build
+      - name: Build Apps
+        run: pnpm build:apps
+
+  Unit-Tests:
+    name: "Unit Test: ${{ matrix.os }} (node@16)"
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+      fail-fast: false
+    env:
+      NODE_VERSION: 18
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.6.5
+
+      - name: Setup node@16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        shell: bash
+
+      - name: Build
+        run: pnpm build
+        shell: bash
+
+      - name: Test Packages
+        run: pnpm test -- --filter=./packages/*
+        shell: bash
+
+      - name: Test Apps
+        run: pnpm test -- --filter=./apps/*
+        shell: bash
+
+  find-integration-tests:
+    name: "Find Integration Tests"
+    runs-on: ubuntu-latest
+    outputs:
+      folders: ${{ steps.set-matrix.outputs.folders }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: set-matrix
+        name: "Find all folders"
+        shell: bash
+        run: |
+          cd ./integration-tests
+          tree -J -d -L 1 | jq -c  '.[0].contents | map(.name | tostring) | map(select(. != "utils"))'
+          folders=$(tree -J -d -L 1 | jq -c  '.[0].contents | map(.name | tostring) | map(select(. != "utils"))')
+          echo "folders=$folders" >> $GITHUB_OUTPUT
+
+  Integration-Tests:
+    name: "Integration Test: ${{matrix.folder}} @ ${{ matrix.os }}"
+    needs: [find-integration-tests]
+    strategy:
+      matrix:
+        folder: ${{fromJSON(needs.find-integration-tests.outputs.folders)}}
+        os:
+          - ubuntu-latest
+          - windows-latest
+      fail-fast: false
+    runs-on: ${{ matrix.os }}
+    steps:
+      - run: echo ${{matrix.folder}}
+      - name: Checkout
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        uses: actions/checkout@v3
+
+      - name: Setup PNPM
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 8.6.5
+
+      - name: Setup node@18
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          cache: "pnpm"
+
+      - name: Install dependencies
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        run: pnpm install --frozen-lockfile
+        shell: bash
+
+      - name: Install playwright
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        run: |
+          pnpx playwright@1.28.0 install --with-deps
+        shell: bash
+
+      - name: Build
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        run: pnpm build
+        shell: bash
+
+      - name: Test Packages
+        if: matrix.folder != 'next-13-app-dir' || matrix.os != 'windows-latest'
+        run: pnpm test -- --filter=./integration-tests/${{matrix.folder}}
+        shell: bash

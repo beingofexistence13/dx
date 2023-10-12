@@ -1,0 +1,271 @@
+import { resolve } from 'node:path'
+import { describe, expect, it, vi } from 'vitest'
+import type { ComponentsDir } from 'nuxt/schema'
+
+import { resolveComponentName, scanComponents } from '../src/components/scan'
+
+const fixtureDir = resolve(__dirname, 'fixture')
+const rFixture = (...p: string[]) => resolve(fixtureDir, ...p)
+
+vi.mock('@nuxt/kit', () => ({
+  isIgnored: () => false
+}))
+
+const dirs: ComponentsDir[] = [
+  {
+    path: rFixture('components/islands'),
+    enabled: true,
+    extensions: [
+      'vue'
+    ],
+    pattern: '**/*.{vue,}',
+    ignore: [
+      '**/*.stories.{js,ts,jsx,tsx}',
+      '**/*{M,.m,-m}ixin.{js,ts,jsx,tsx}',
+      '**/*.d.ts'
+    ],
+    transpile: false,
+    island: true
+  },
+  {
+    path: rFixture('components/global'),
+    enabled: true,
+    extensions: [
+      'vue'
+    ],
+    pattern: '**/*.{vue,}',
+    ignore: [
+      '**/*.stories.{js,ts,jsx,tsx}',
+      '**/*{M,.m,-m}ixin.{js,ts,jsx,tsx}',
+      '**/*.d.ts'
+    ],
+    transpile: false,
+    global: true
+  },
+  {
+    path: rFixture('components'),
+    enabled: true,
+    extensions: [
+      'vue'
+    ],
+    pattern: '**/*.{vue,}',
+    ignore: [
+      '**/*.stories.{js,ts,jsx,tsx}',
+      '**/*{M,.m,-m}ixin.{js,ts,jsx,tsx}',
+      '**/*.d.ts'
+    ],
+    transpile: false
+  },
+  {
+    path: rFixture('components'),
+    enabled: true,
+    extensions: [
+      'vue'
+    ],
+    pattern: '**/*.{vue,}',
+    ignore: [
+      '**/*.stories.{js,ts,jsx,tsx}',
+      '**/*{M,.m,-m}ixin.{js,ts,jsx,tsx}',
+      '**/*.d.ts'
+    ],
+    transpile: false
+  },
+  {
+    path: rFixture('components'),
+    extensions: [
+      'vue'
+    ],
+    prefix: 'nuxt',
+    enabled: true,
+    pattern: '**/*.{vue,}',
+    ignore: [
+      '**/*.stories.{js,ts,jsx,tsx}',
+      '**/*{M,.m,-m}ixin.{js,ts,jsx,tsx}',
+      '**/*.d.ts'
+    ],
+    transpile: false
+  }
+]
+
+const expectedComponents = [
+  {
+    chunkName: 'components/isle-server',
+    export: 'default',
+    global: undefined,
+    island: true,
+    kebabName: 'isle',
+    mode: 'server',
+    pascalName: 'Isle',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/islands/Isle.vue'
+  },
+  {
+    chunkName: 'components/glob',
+    export: 'default',
+    global: true,
+    island: undefined,
+    kebabName: 'glob',
+    mode: 'all',
+    pascalName: 'Glob',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/global/Glob.vue'
+  },
+  {
+    mode: 'all',
+    pascalName: 'HelloWorld',
+    kebabName: 'hello-world',
+    chunkName: 'components/hello-world',
+    shortPath: 'components/HelloWorld.vue',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    prefetch: false,
+    preload: false,
+    priority: 1
+  },
+  {
+    mode: 'client',
+    pascalName: 'Nuxt3',
+    kebabName: 'nuxt3',
+    chunkName: 'components/nuxt3-client',
+    shortPath: 'components/Nuxt3.client.vue',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    prefetch: false,
+    preload: false,
+    priority: 1
+  },
+  {
+    mode: 'server',
+    pascalName: 'Nuxt3',
+    kebabName: 'nuxt3',
+    chunkName: 'components/nuxt3-server',
+    shortPath: 'components/Nuxt3.server.vue',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    prefetch: false,
+    preload: false,
+    priority: 1
+  },
+  {
+    chunkName: 'components/client-component-with-props',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    kebabName: 'client-component-with-props',
+    mode: 'all',
+    pascalName: 'ClientComponentWithProps',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/client/ComponentWithProps.vue'
+  },
+  {
+    chunkName: 'components/client-with-client-only-setup',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    kebabName: 'client-with-client-only-setup',
+    mode: 'all',
+    pascalName: 'ClientWithClientOnlySetup',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/client/WithClientOnlySetup.vue'
+  },
+  {
+    mode: 'server',
+    pascalName: 'ParentFolder',
+    kebabName: 'parent-folder',
+    chunkName: 'components/parent-folder-server',
+    shortPath: 'components/parent-folder/index.server.vue',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    prefetch: false,
+    preload: false,
+    priority: 1
+  },
+  {
+    chunkName: 'components/same-name-same',
+    export: 'default',
+    global: undefined,
+    island: undefined,
+    kebabName: 'same-name-same',
+    mode: 'all',
+    pascalName: 'SameNameSame',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/same-name/same/Same.vue'
+  },
+  {
+    chunkName: 'components/some-glob',
+    export: 'default',
+    global: true,
+    island: undefined,
+    kebabName: 'some-glob',
+    mode: 'all',
+    pascalName: 'SomeGlob',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/some-glob.global.vue'
+  },
+  {
+    chunkName: 'components/some-server',
+    export: 'default',
+    global: undefined,
+    island: true,
+    kebabName: 'some',
+    mode: 'server',
+    pascalName: 'Some',
+    prefetch: false,
+    preload: false,
+    priority: 1,
+    shortPath: 'components/some.island.vue'
+  }
+]
+
+const srcDir = rFixture('.')
+
+it('components:scanComponents', async () => {
+  const scannedComponents = await scanComponents(dirs, srcDir)
+  for (const c of scannedComponents) {
+    // @ts-expect-error filePath is not optional but we don't want it to be in the snapshot
+    delete c.filePath
+  }
+  expect(scannedComponents).deep.eq(expectedComponents)
+})
+
+const tests: Array<[string, string[], string]> = [
+  ['WithClientOnlySetup', ['Client'], 'ClientWithClientOnlySetup'],
+  ['ItemHolderItem', ['Item', 'Holder', 'Item'], 'ItemHolderItem'],
+  ['Item', ['Item'], 'Item'],
+  ['Item', ['Item', 'Item'], 'Item'],
+  ['ItemTest', ['Item', 'Test'], 'ItemTest'],
+  ['ThingItemTest', ['Item', 'Thing'], 'ItemThingItemTest'],
+  ['Item', ['Thing', 'Item'], 'ThingItem'],
+  ['Item', ['Item', 'Holder', 'Item'], 'ItemHolderItem'],
+  ['ItemHolder', ['Item', 'Holder', 'Item'], 'ItemHolderItemHolder'],
+  ['ThingItemTest', ['Item', 'Thing', 'Foo'], 'ItemThingFooThingItemTest'],
+  ['ItemIn', ['Item', 'Holder', 'Item', 'In'], 'ItemHolderItemIn'],
+  ['Item', ['Item', 'Holder', 'Test'], 'ItemHolderTestItem'],
+  ['ItemHolderItem', ['Item', 'Holder', 'Item', 'Holder'], 'ItemHolderItemHolderItem'],
+  ['Icones', ['Icon'], 'IconIcones'],
+  ['Icon', ['Icones'], 'IconesIcon'],
+  ['IconHolder', ['IconHolder'], 'IconHolder'],
+  ['GameList', ['Desktop', 'ShareGame', 'Review', 'Detail'], 'DesktopShareGameReviewDetailGameList']
+]
+
+describe('components:resolveComponentName', () => {
+  it.each(tests)('resolves %s with prefix parts %s and filename %s', (fileName, prefixParts: string[], result) => {
+    expect(resolveComponentName(fileName, prefixParts)).toBe(result)
+  })
+})

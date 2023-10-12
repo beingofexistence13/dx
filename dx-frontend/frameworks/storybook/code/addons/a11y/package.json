@@ -1,0 +1,116 @@
+{
+  "name": "@storybook/addon-a11y",
+  "version": "7.5.0-alpha.6",
+  "description": "Test component compliance with web accessibility standards",
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "addon",
+    "storybook",
+    "valid",
+    "verify",
+    "test"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/next/code/addons/a11y",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "code/addons/a11y"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./manager": {
+      "types": "./dist/manager.d.ts",
+      "require": "./dist/manager.js",
+      "import": "./dist/manager.mjs"
+    },
+    "./preview": {
+      "types": "./dist/preview.d.ts",
+      "require": "./dist/preview.js",
+      "import": "./dist/preview.mjs"
+    },
+    "./register": {
+      "types": "./dist/manager.d.ts",
+      "require": "./dist/manager.js",
+      "import": "./dist/manager.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "scripts": {
+    "check": "../../../scripts/prepare/check.ts",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@storybook/addon-highlight": "workspace:*",
+    "@storybook/channels": "workspace:*",
+    "@storybook/client-logger": "workspace:*",
+    "@storybook/components": "workspace:*",
+    "@storybook/core-events": "workspace:*",
+    "@storybook/global": "^5.0.0",
+    "@storybook/manager-api": "workspace:*",
+    "@storybook/preview-api": "workspace:*",
+    "@storybook/theming": "workspace:*",
+    "@storybook/types": "workspace:*",
+    "axe-core": "^4.2.0",
+    "lodash": "^4.17.21",
+    "react-resize-detector": "^7.1.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "typescript": "~4.9.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/manager.tsx",
+      "./src/preview.tsx"
+    ]
+  },
+  "gitHead": "e6a7fd8a655c69780bc20b9749c2699e44beae17",
+  "storybook": {
+    "displayName": "Accessibility",
+    "icon": "https://user-images.githubusercontent.com/263385/101991665-47042f80-3c7c-11eb-8f00-64b5a18f498a.png",
+    "unsupportedFrameworks": [
+      "react-native"
+    ]
+  }
+}

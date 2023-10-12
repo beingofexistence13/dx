@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SongEditorPanelBpmWidget_UI</class>
+ <widget class="QWidget" name="SongEditorPanelBpmWidget_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>198</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="2">
+       <widget class="LCDSpinBox" name="bpmSpinBox">
+		 <property name="minimumSize">
+		   <size>
+			 <width>146</width>
+			 <height>23</height>
+		   </size>
+		 </property>
+       </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="LCDSpinBox" name="columnSpinBox">
+		 <property name="minimumSize">
+		   <size>
+			 <width>146</width>
+			 <height>23</height>
+		   </size>
+		 </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Bar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>BPM</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="Button" name="deleteBtn">
+     <property name="toolTip">
+      <string>Delete this BPM Marker</string>
+     </property>
+	 <property name="minimumSize">
+	   <size>
+		 <width>180</width>
+		 <height>23</height>
+	   </size>
+		 </property>
+     <property name="text">
+      <string>Delete BPM Marker</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="CancelBtn">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="okBtn">
+       <property name="text">
+        <string>Ok</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>bpmSpinBox</tabstop>
+  <tabstop>columnSpinBox</tabstop>
+  <tabstop>deleteBtn</tabstop>
+  <tabstop>CancelBtn</tabstop>
+  <tabstop>okBtn</tabstop>
+ </tabstops>
+ <customwidgets>
+  <customwidget>
+   <class>Button</class>
+   <extends>QPushButton</extends>
+   <header location="global">../src/Widgets/Button.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LCDSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header location="global">../src/Widgets/LCDSpinBox.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

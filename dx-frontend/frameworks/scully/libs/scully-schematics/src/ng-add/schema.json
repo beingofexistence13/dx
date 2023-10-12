@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "@scullyio/init",
+  "title": "Scully ng-add schematic",
+  "type": "object",
+  "properties": {
+    "blog": {
+      "type": "boolean",
+      "description": "add full blog",
+      "default": false
+    },
+    "project": {
+      "type": "string",
+      "description": "Use a non default project from angular.json",
+      "default": "defaultProject"
+    },
+    "pluginTS": {
+      "type": "boolean",
+      "description": "Support for custom typescript plugins",
+      "default": true
+    },
+    "local": {
+      "type": "boolean",
+      "description": "Install local dependencies",
+      "default": false
+    },
+    "renderer": {
+      "description": "The route renderer to install as default.",
+      "type": "string",
+      "default": "sps",
+      "enum": ["sps", "puppeteer", "playwright"],
+      "x-prompt": {
+        "message": "Which route renderer would you like to use?",
+        "type": "list",
+        "items": [
+          {
+            "value": "sps",
+            "label": "Scully platform server"
+          },
+          {
+            "value": "puppeteer",
+            "label": "Puppeteer"
+          },
+          {
+            "value": "playwright",
+            "label": "Playwright (beta)"
+          }
+        ]
+      }
+    }
+  },
+  "required": []
+}

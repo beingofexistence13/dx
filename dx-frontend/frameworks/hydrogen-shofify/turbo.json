@@ -1,0 +1,70 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["src/**/*.ts"],
+      "outputs": ["dist/**", "build/**"]
+    },
+    "dev": {
+      "dependsOn": ["^dev"],
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "outputs": []
+    },
+    "typecheck": {
+      "outputs": [],
+      "dependsOn": ["build"]
+    },
+    "//#format": {},
+    "//#format:check": {},
+    "test": {},
+    "test:watch": {
+      "cache": false
+    },
+    "@shopify/cli-hydrogen#build": {
+      "dependsOn": ["@shopify/hydrogen-codegen#build"]
+    },
+    "@shopify/create-hydrogen#build": {
+      "dependsOn": ["@shopify/cli-hydrogen#build"]
+    },
+    "@shopify/hydrogen#build": {
+      "dependsOn": [
+        "@shopify/hydrogen-react#build",
+        "@shopify/remix-oxygen#build"
+      ]
+    },
+    "demo-store#build": {
+      "dependsOn": [
+        "@shopify/hydrogen#build",
+        "@shopify/cli-hydrogen#build",
+        "@shopify/remix-oxygen#build"
+      ],
+      "outputs": ["dist/**"]
+    },
+    "hello-world#build": {
+      "dependsOn": [
+        "@shopify/hydrogen#build",
+        "@shopify/cli-hydrogen#build",
+        "@shopify/remix-oxygen#build"
+      ],
+      "outputs": ["dist/**"]
+    },
+    "skeleton#build": {
+      "dependsOn": [
+        "@shopify/hydrogen#build",
+        "@shopify/cli-hydrogen#build",
+        "@shopify/remix-oxygen#build"
+      ],
+      "outputs": ["dist/**"]
+    },
+    "hydrogen-express#build": {
+      "dependsOn": ["@shopify/hydrogen#build"]
+    },
+    "customer-api#build": {
+      "dependsOn": ["@shopify/hydrogen#build"]
+    }
+  }
+}

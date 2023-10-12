@@ -1,0 +1,10 @@
+{
+	"extends": "../tsconfig.json",
+	"exclude": ["./**/_output/**/*"],
+
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true
+	}
+}

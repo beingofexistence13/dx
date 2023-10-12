@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "downlevelIteration": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": false,
+    "emitDeclarationOnly": false,
+    "lib": ["ES2020", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es2020",
+    "types": ["node"],
+    "typeRoots": ["../node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["plugins/**/*.ts", "loadRenderer.ts"],
+  "exclude": ["**/*spec.ts", "*spec.ts", "./universal/**/*.*"]
+}

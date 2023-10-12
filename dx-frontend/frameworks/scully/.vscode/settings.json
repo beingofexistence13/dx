@@ -1,0 +1,34 @@
+{
+  "cSpell.words": ["Scully", "Scullyio", "Serializable", "ngcontent", "routify", "slugify"],
+  "peacock.affectActivityBar": true,
+  "peacock.affectTitleBar": true,
+  "peacock.affectStatusBar": true,
+  "peacock.affectAccentBorders": true,
+  "peacock.color": "#131f64",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1b2c8f",
+    "activityBar.activeBackground": "#1b2c8f",
+    "activityBar.activeBorder": "#d62942",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#d62942",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#131f64",
+    "titleBar.inactiveBackground": "#131f6499",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.background": "#131f64",
+    "statusBarItem.hoverBackground": "#1b2c8f",
+    "statusBar.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#1b2c8f",
+    "statusBarItem.remoteBackground": "#131f64",
+    "statusBarItem.remoteForeground": "#e7e7e7"
+  },
+  "files.exclude": {
+    "**/dist/**/*": false
+  },
+  "files.watcherExclude": {
+    "**/dist/**": true
+  },
+  "angular.enable-strict-mode-prompt": false
+}

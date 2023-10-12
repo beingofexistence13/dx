@@ -1,0 +1,66 @@
+{
+  "name": "@sanity/diff",
+  "version": "3.18.0",
+  "description": "Generates diffs between documents and primitive types",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content",
+    "diff"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/@sanity/diff"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "exports": {
+    ".": {
+      "types": "./lib/dts/src/index.d.ts",
+      "source": "./src/index.ts",
+      "require": "./lib/index.js",
+      "node": {
+        "import": "./lib/index.cjs.mjs",
+        "require": "./lib/index.js"
+      },
+      "import": "./lib/index.esm.js",
+      "default": "./lib/index.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.esm.js",
+  "source": "./src/index.ts",
+  "types": "./lib/dts/src/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "prebuild": "run-s clean",
+    "build": "pkg-utils build --tsconfig tsconfig.lib.json",
+    "postbuild": "run-s check:package",
+    "check:package": "pkg-utils --strict --tsconfig tsconfig.lib.json",
+    "clean": "rimraf lib coverage",
+    "watch": "pkg-utils watch --tsconfig tsconfig.lib.json"
+  },
+  "dependencies": {
+    "@sanity/diff-match-patch": "^3.1.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.settings",
+  "include": ["**/*/package.config.ts", "./dev/aliases.cjs", "./scripts", "./test"],
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "outDir": "./node_modules/.sanity-monorepo/dts",
+    "allowJs": true
+  },
+  "references": [
+    {"path": "./packages/@sanity/block-tools"},
+    {"path": "./packages/@sanity/cli"},
+    {"path": "./packages/@sanity/diff"},
+    {"path": "./packages/@sanity/mutator"},
+    {"path": "./packages/@sanity/portable-text-editor"},
+    {"path": "./packages/@sanity/schema"},
+    {"path": "./packages/@sanity/types"},
+    {"path": "./packages/@sanity/util"},
+    {"path": "./packages/@sanity/vision"},
+    {"path": "./packages/sanity"}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@scullyio/init",
+  "version": "2.1.42",
+  "description": "Add scully to your angular app",
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/scully-schematics"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.lib.json",
+    "dev": "tsc -p tsconfig.lib.json --watch",
+    "schematics-dev": "tsc -p tsconfig.lib.json && schematics .:ng-add --blog",
+    "schematics-pack": "tsc -p tsconfig.lib.json && npm pack",
+    "schematics": "npm run build && schematics .:install --blog",
+    "test": "tsc -p tsconfig.spec.json && jest src/**/*_spec.js",
+    "publish:patch": "tsc -p ./tsconfig.lib.json && npm version patch && npm publish --access public",
+    "publish:minor": "tsc -p ./tsconfig.lib.json && npm version minor && npm publish --access public",
+    "publish:major": "tsc -p ./tsconfig.lib.json && npm version major && npm publish --access public"
+  },
+  "keywords": [
+    "schematics",
+    "scully",
+    "angular",
+    "herodevs",
+    "Static"
+  ],
+  "author": "@herodevs",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": ">12.0.0",
+    "@angular-devkit/schematics": ">12.0.0",
+    "@schematics/angular": ">12.0.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^4.2.4",
+    "guess-parser": "^0.4.22"
+  }
+}

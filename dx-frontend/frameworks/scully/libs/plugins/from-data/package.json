@@ -1,0 +1,25 @@
+{
+  "name": "@scullyio/scully-plugin-from-data",
+  "version": "2.1.42",
+  "description": "Scully demo data plugin",
+  "main": "./src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "peerDependencies": {
+    "@scullyio/scully": "*"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/plugins/from-data"
+  },
+  "keywords": [
+    "angular",
+    "scully",
+    "seo",
+    "scully-plugin",
+    "plugin"
+  ]
+}

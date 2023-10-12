@@ -1,0 +1,64 @@
+{
+  "private": true,
+  "name": "saber",
+  "scripts": {
+    "test": "npm run lint && lerna run test",
+    "lint": "lerna run lint",
+    "commit": "git-cz",
+    "prepare": "lerna run prepublishOnly"
+  },
+  "repository": {
+    "url": "saberland/saber",
+    "type": "git"
+  },
+  "author": "egoist<0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "4.0.3",
+    "conf": "6.2.0",
+    "cz-conventional-changelog": "3.0.2",
+    "enquirer": "^2.3.1",
+    "eslint": "^6.6.0",
+    "husky": "3.0.9",
+    "jest": "^24.9.0",
+    "lerna": "3.18.3",
+    "lint-staged": "8.1.6",
+    "prettier": "1.18.2",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.8.0-dev.20191031"
+  },
+  "resolutions": {
+    "typedoc/typescript": "^3.8.0-dev.20191031"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{json,md}": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/**",
+      "**/vendor/**",
+      "*.min.js",
+      "**/vue-renderer/app/**",
+      "**/example/**",
+      "website/**"
+    ]
+  },
+  "workspaces": [
+    "packages/*",
+    "other-packages/*",
+    "website"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

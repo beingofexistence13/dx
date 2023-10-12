@@ -1,0 +1,4 @@
+**/public/build
+
+**/prisma/data.db
+**/prisma/data.db-journal

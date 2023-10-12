@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Select - Basic</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link href="../../../../../css/ionic.bundle.css" rel="stylesheet" />
+    <link href="../../../../../scripts/testing/styles.css" rel="stylesheet" />
+    <script src="../../../../../scripts/testing/scripts.js"></script>
+    <script nomodule src="../../../../../dist/ionic/ionic.js"></script>
+    <script type="module" src="../../../../../dist/ionic/ionic.esm.js"></script>
+  </head>
+
+  <body>
+    <ion-app>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Select - Basic</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content class="test-content">
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Single Value</ion-label>
+          </ion-list-header>
+
+          <ion-item>
+            <ion-select id="alert-select" label="Alert" placeholder="Select one" interface="alert">
+              <ion-select-option value="apples">Apples</ion-select-option>
+              <ion-select-option value="oranges">Oranges</ion-select-option>
+              <ion-select-option value="pears">Pears</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-select label="Popover" placeholder="Select one" interface="popover">
+              <ion-select-option value="apples">Apples</ion-select-option>
+              <ion-select-option value="oranges">Oranges</ion-select-option>
+              <ion-select-option value="pears">Pears</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-select label="Action Sheet" placeholder="Select one" interface="action-sheet">
+              <ion-select-option value="apples">Apples</ion-select-option>
+              <ion-select-option value="oranges">Oranges</ion-select-option>
+              <ion-select-option value="pears">Pears</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Multiple Value Select</ion-label>
+          </ion-list-header>
+
+          <ion-item>
+            <ion-select label="Alert" multiple="true" interface="alert">
+              <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+              <ion-select-option value="bacon">Bacon</ion-select-option>
+              <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+              <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+              <ion-select-option value="onions">Onions</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-select label="Popover" multiple="true" interface="popover">
+              <ion-select-option value="bird">Bird</ion-select-option>
+              <ion-select-option value="cat">Cat</ion-select-option>
+              <ion-select-option value="dog">Dog</ion-select-option>
+              <ion-select-option value="honeybadger">Honey Badger</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Custom Interface Options</ion-label>
+          </ion-list-header>
+
+          <ion-item color="danger">
+            <ion-select
+              label="Alert"
+              id="customAlertSelect"
+              value="bacon"
+              interface="alert"
+              multiple="true"
+              placeholder="Select"
+            >
+              <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+              <ion-select-option value="bacon">Bacon</ion-select-option>
+              <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+              <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+              <ion-select-option value="onions">Onions</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item color="dark">
+            <ion-select label="Popover" id="customPopoverSelect" interface="popover" placeholder="Select">
+              <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+              <ion-select-option value="bacon">Bacon</ion-select-option>
+              <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+              <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+              <ion-select-option value="onions">Onions</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item color="primary">
+            <ion-select
+              label="Action Sheet"
+              id="customActionSheetSelect"
+              interface="action-sheet"
+              placeholder="Select One"
+            >
+              <ion-select-option value="pepperoni">Pepperoni</ion-select-option>
+              <ion-select-option value="bacon">Bacon</ion-select-option>
+              <ion-select-option value="xcheese">Extra Cheese</ion-select-option>
+              <ion-select-option value="mushrooms">Mushrooms</ion-select-option>
+              <ion-select-option value="onions">Onions</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+
+      <script>
+        var customAlertSelect = document.getElementById('customAlertSelect');
+        var customAlertOptions = {
+          header: 'Pizza Toppings',
+          subHeader: 'Select your toppings',
+          message: '$1.00 per topping',
+          translucent: true,
+        };
+        customAlertSelect.interfaceOptions = customAlertOptions;
+
+        var customPopoverSelect = document.getElementById('customPopoverSelect');
+        var customPopoverOptions = {
+          header: 'Pizza Toppings',
+          subHeader: 'Select your toppings',
+          message: '$1.50 charge for every topping',
+        };
+        customPopoverSelect.interfaceOptions = customPopoverOptions;
+
+        var customActionSheetSelect = document.getElementById('customActionSheetSelect');
+        var customActionSheetOptions = {
+          header: 'Pizza Toppings',
+          subHeader: 'Select your toppings',
+          message: '$1.50 charge for every topping',
+        };
+        customActionSheetSelect.interfaceOptions = customActionSheetOptions;
+      </script>
+    </ion-app>
+  </body>
+</html>

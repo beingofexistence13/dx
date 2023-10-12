@@ -1,0 +1,45 @@
+name: E2E Tests
+
+on:
+  workflow_call:
+    # Make this a reusable workflow, no value needed
+    # https://docs.github.com/en/actions/using-workflows/reusing-workflows
+
+jobs:
+  e2e_test:
+    name: (${{ matrix.os }}.${{ matrix.node }})
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['16', '18', '20']
+        os: ['ubuntu-latest', 'windows-latest']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4.1.0
+
+      - name: Get Core Dependencies
+        uses: ./.github/workflows/actions/get-core-dependencies
+
+      - name: Use Node ${{ matrix.node }}
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+
+      - name: Download Build Archive
+        uses: ./.github/workflows/actions/download-archive
+        with:
+          name: stencil-core
+          path: .
+          filename: stencil-core-build.zip
+
+      - name: End-to-End Tests
+        uses: nick-fields/retry@14672906e672a08bd6eeb15720e9ed3ce869cdd4 # v2.9.0
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: npm run test.end-to-end -- --ci
+
+      - name: Check Git Context
+        uses: ./.github/workflows/actions/check-git-context

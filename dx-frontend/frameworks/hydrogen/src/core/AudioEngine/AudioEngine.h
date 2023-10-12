@@ -1,0 +1,841 @@
+/*
+ * Hydrogen
+ * Copyright(c) 2002-2008 by Alex >Comix< Cominu [comix@users.sourceforge.net]
+ * Copyright(c) 2008-2023 The hydrogen development team [hydrogen-devel@lists.sourceforge.net]
+ *
+ * http://www.hydrogen-music.org
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see https://www.gnu.org/licenses
+ *
+ */
+
+#ifndef AUDIO_ENGINE_H
+#define AUDIO_ENGINE_H
+
+#include <core/AudioEngine/AudioEngineTests.h>
+
+#include <core/config.h>
+#include <core/Object.h>
+#include <core/Hydrogen.h>
+#include <core/Sampler/Sampler.h>
+#include <core/Synth/Synth.h>
+#include <core/Basics/Note.h>
+#include <core/CoreActionController.h>
+
+#include <core/IO/AudioOutput.h>
+#include <core/IO/JackAudioDriver.h>
+#include <core/IO/DiskWriterDriver.h>
+#include <core/IO/FakeDriver.h>
+
+#include <memory>
+#include <string>
+#include <cassert>
+#include <mutex>
+#include <thread>
+#include <chrono>
+#include <deque>
+#include <queue>
+
+/** \def RIGHT_HERE
+ * Macro intended to be used for the logging of the locking of the
+ * H2Core::AudioEngine. But this feature is not implemented yet.
+ *
+ * It combines two standard macros of the C language \_\_FILE\_\_ and
+ * \_\_LINE\_\_ and one macro introduced by the GCC compiler called
+ * \_\_PRETTY_FUNCTION\_\_.
+ */
+#ifndef RIGHT_HERE
+#define RIGHT_HERE __FILE__, __LINE__, __PRETTY_FUNCTION__
+#endif
+
+typedef int  ( *audioProcessCallback )( uint32_t, void * );
+
+namespace H2Core
+{
+	class MidiOutput;
+	class MidiInput;
+	class EventQueue;
+	class PatternList;
+	class Drumkit;
+	class Song;
+	class TransportPosition;
+	
+/**
+ * The audio engine deals with two distinct #TransportPosition. The
+ * first (and most important one) is #m_pTransportPosition which
+ * indicated the current position of the audio rendering and playhead
+ * as well as all patterns associated with it. This is also the one
+ * other parts of Hydrogen are concerned with.
+ *
+ * The second one is #m_pQueuingPosition which is only used
+ * internally. It is one lookahead ahead of #m_pTransportPosition,
+ * used for inserting notes into the song queue, and required in order
+ * to supported lead and lag of notes. Formerly, this second transport
+ * state was trimmed to a couple of variables making its update less
+ * expensive. However, this showed to be quite error prone as things
+ * tend to went out of sync.
+ *
+ * All tick information (apart from note handling in
+ * updateNoteQueue()) are handled as double internally. But due to
+ * historical reasons the GUI and the remainder of the core only
+ * access a version of the current tick rounded to integer.
+ *
+ * \ingroup docCore docAudioEngine
+ */ 
+class AudioEngine : public H2Core::Object<AudioEngine>
+{
+	H2_OBJECT(AudioEngine)
+public:
+
+	enum class State {
+		/**
+		 * Not even the constructors have been called.
+		 */
+		Uninitialized =	1,
+		/**
+		 * Not ready, but most pointers are now valid or NULL.
+		 */
+		Initialized = 2,
+		/**
+		 * Drivers are set up, but not ready to process audio.
+		 */
+		Prepared = 3,
+		/**
+		 * Ready to process audio.
+		 */
+		Ready = 4,
+		/**
+		 * Transport is rolling.
+		 */
+		Playing = 5,
+		/**
+		 * State used during the unit tests of the
+		 * AudioEngine. Transport is not rolling but when calling a
+		 * function of the process cycle it is ensured all its code
+		 * and subsequent functions will be executed.
+		 */
+		Testing = 6
+	};
+
+	/**
+	 * Maximum value the standard deviation of the Gaussian
+	 * distribution the random velocity contribution will be drawn
+	 * from can take.
+	 *
+	 * The actual standard deviation used during processing is this
+	 * value multiplied with #Song::m_fHumanizeVelocityValue.
+	 */
+	static constexpr float fHumanizeVelocitySD = 0.2;
+	/**
+	 * Maximum value the standard deviation of the Gaussian
+	 * distribution the random pitch contribution will be drawn from
+	 * can take.
+	 *
+	 * The actual standard deviation used during processing is this
+	 * value multiplied with #Instrument::__random_pitch_factor of the
+	 * instrument associated with the particular #Note.
+	 */
+	static constexpr float fHumanizePitchSD = 0.4;
+	/**
+	 * Maximum value the standard deviation of the Gaussian
+	 * distribution the random pitch contribution will be drawn from
+	 * can take.
+	 *
+	 * The actual standard deviation used during processing is this
+	 * value multiplied with #Instrument::__random_pitch_factor of the
+	 * instrument associated with the particular #Note.
+	 */
+	static constexpr float fHumanizeTimingSD = 0.3;
+	/**
+	 * Maximum time (in frames) a note's position can be off due to
+	 * the humanization (lead-lag).
+	 */
+	static constexpr int nMaxTimeHumanize = 2000;
+
+	AudioEngine();
+
+	~AudioEngine();
+
+	/** Mutex locking of the AudioEngine.
+	 *
+	 * Lock the AudioEngine for exclusive access by this thread.
+	 *
+	 * Easy usage:  Use the #RIGHT_HERE macro like this...
+	 * \code{.cpp}
+	 *     AudioEngine::get_instance()->lock( RIGHT_HERE );
+	 * \endcode
+	 *
+	 * More complex usage: The parameters @a file and @a function
+	 * need to be pointers to null-terminated strings that are
+	 * persistent for the entire session.  This does *not* include
+	 * the return value of std::string::c_str(), or
+	 * QString::toLocal8Bit().data().
+	 *
+	 * Tracing the locks:  Enable the Logger::AELockTracing
+	 * logging level.  When you do, there will be a performance
+	 * penalty because the strings will be converted to a
+	 * QString.  At the moment, you'll have to do that with
+	 * your debugger.
+	 *
+	 * Notes: The order of the parameters match GCC's
+	 * implementation of the assert() macros.
+	 *
+	 * \param file File the locking occurs in.
+	 * \param line Line of the file the locking occurs in.
+	 * \param function Function the locking occurs in.
+	 */
+	void			lock( const char* file, unsigned int line, const char* function );
+
+	/**
+	 * Mutex locking of the AudioEngine.
+	 *
+	 * This function is equivalent to lock() but returns false
+	 * immediaely if the lock cannot be obtained immediately.
+	 *
+	 * \param file File the locking occurs in.
+	 * \param line Line of the file the locking occurs in.
+	 * \param function Function the locking occurs in.
+	 *
+	 * \return
+	 * - true : On success
+	 * - false : Else
+	 */
+	bool			tryLock( const char* file, 
+						   unsigned int line, 
+						   const char* function );
+
+	/**
+	 * Mutex locking of the AudioEngine.
+	 *
+	 * This function is equivalent to lock() but will only wait for a
+	 * given period of time. If the lock cannot be acquired in this
+	 * time, it will return false.
+	 *
+	 * \param duration Time (in microseconds) to wait for the lock.
+	 * \param file File the locking occurs in.
+	 * \param line Line of the file the locking occurs in.
+	 * \param function Function the locking occurs in.
+	 *
+	 * \return
+	 * - true : On successful acquisition of the lock
+	 * - false : On failure
+	 */
+	bool			tryLockFor( std::chrono::microseconds duration, 
+								  const char* file, 
+								  unsigned int line, 
+								  const char* function );
+
+	/**
+	 * Mutex unlocking of the AudioEngine.
+	 *
+	 * Unlocks the AudioEngine to allow other threads access, and leaves #__locker untouched.
+	 */
+	void			unlock();
+
+	/**
+	 * Assert that the calling thread is the current holder of the
+	 * AudioEngine lock.
+	 */
+	void			assertLocked( );
+	void			noteOn( Note *note );
+
+	/**
+	 * Main audio processing function called by the audio drivers whenever
+	 * there is work to do.
+	 *
+	 * \param nframes Buffersize.
+	 * \param arg Unused.
+	 * \return
+	 * - __2__ : Failed to acquire the audio engine lock, no processing took place.
+	 * - __1__ : kill the audio driver thread.
+	 * - __0__ : else
+	 */
+	static int                      audioEngine_process( uint32_t nframes, void *arg );
+
+	/**
+	 * Calculates the number of frames that make up a tick.
+	 */
+	static float	computeTickSize( const int nSampleRate, const float fBpm, const int nResolution);
+	static double computeDoubleTickSize(const int nSampleRate, const float fBpm, const int nResolution);
+
+	Sampler*		getSampler() const;
+	Synth*			getSynth() const;
+
+	/** \return Time passed since the beginning of the song*/
+	float			getElapsedTime() const;	
+
+	/** 
+	 * Creation and initialization of all audio and MIDI drivers called in
+	 * Hydrogen::Hydrogen().
+	 */
+	void			startAudioDrivers();
+	/**
+	 * Stops all audio and MIDI drivers.
+	 */
+	void			stopAudioDrivers();
+	AudioOutput*	getAudioDriver() const;
+	/**
+	 * Create an audio driver using audioEngine_process() as its argument
+	 * based on the provided choice and calling their _init()_ function to
+	 * trigger their initialization.
+	 *
+	 * For a listing of all possible choices, please see
+	 * Preferences::m_sAudioDriver.
+	 *
+	 * \param sDriver String specifying which audio driver should be
+	 * created.
+	 * \return Pointer to the freshly created audio driver. If the
+	 * creation resulted in a NullDriver, the corresponding object will be
+	 * deleted and a null pointer returned instead.
+	 */
+	AudioOutput*	createAudioDriver( const QString& sDriver );
+					
+	void			restartAudioDrivers();
+					
+	void			setupLadspaFX();
+	
+	/**
+	 * Hands the provided Song to JackAudioDriver::makeTrackOutputs() if
+	 * @a pSong is not a null pointer and the audio driver #m_pAudioDriver
+	 * is an instance of the JackAudioDriver.
+	 * \param pSong Song for which per-track output ports should be generated.
+	 */
+	void			renameJackPorts(std::shared_ptr<Song> pSong);
+
+	MidiInput*		getMidiDriver() const;
+	MidiOutput*		getMidiOutDriver() const;
+	
+	std::shared_ptr<Instrument> getMetronomeInstrument() const;
+		
+	
+	void raiseError( unsigned nErrorCode );
+	
+	State 			getState() const;
+
+	void 			setMasterPeak_L( float value );
+	float 			getMasterPeak_L() const;
+
+	void	 		setMasterPeak_R( float value );
+	float 			getMasterPeak_R() const;
+
+	float			getProcessTime() const;
+	float			getMaxProcessTime() const;
+
+	const std::shared_ptr<TransportPosition> getTransportPosition() const;
+
+	const PatternList*	getNextPatterns() const;
+	const PatternList*	getPlayingPatterns() const;
+	
+	long long		getRealtimeFrame() const;
+
+	/** Maximum lead lag factor in ticks.
+	 *
+	 * During humanization the onset of a Note will be moved
+	 * Note::__lead_lag times the value calculated by this function.
+	 */
+	static double	getLeadLagInTicks();
+	
+	/** Calculates lead lag factor (in frames) relative to the
+	 * transport position @a fTick
+	 *
+	 * During the humanization the onset of a Note will be moved
+	 * Note::__lead_lag times the value calculated by this function.
+	 */
+	long long		getLeadLagInFrames( double fTick );
+	/** Calculates time offset (in frames) #m_pQueuingPosition will be
+	 * ahead of the #m_pTransportPosition.
+	 *
+	 * \return Frame offset*/
+	long long getLookaheadInFrames();
+
+	double getSongSizeInTicks() const;
+
+	/**
+	 * Marks the audio engine to be started during the next call of
+	 * the audioEngine_process() callback function.
+	 *
+	 * If the JACK audio driver is used, a request to start transport
+	 * is send to the JACK server instead.
+	 */
+	void play();
+	/**
+	 * Marks the audio engine to be stopped during the next call of
+	 * the audioEngine_process() callback function.
+	 *
+	 * If the JACK audio driver is used, a request to stop transport
+	 * is send to the JACK server instead.
+	 */
+	void stop();
+
+	/** Stores the new speed into a separate variable which will be
+	 * adopted during the next processing cycle.
+	 *
+	 * Setting this variable requires the audio engine to be locked!
+	 * (Else, tempo handling within audioEngine_process() might be
+	 * inconsistent and cause the playhead to glitch).
+	 */
+	void setNextBpm( float fNextBpm );
+	float getNextBpm() const;
+
+	static float 	getBpmAtColumn( int nColumn );
+
+	/**
+	 * Function to be called every time the length of the current song
+	 * does change, e.g. by toggling a pattern or altering its length.
+	 *
+	 * It will adjust both the current transport information as well
+	 * as the note queues in order to prevent any glitches.
+	 */
+	void updateSongSize();
+
+	void removePlayingPattern( Pattern* pPattern );
+	/**
+	 * Update the list of currently played patterns associated with
+	 * #m_pTransportPosition and #m_pQueuingPosition.
+	 *
+	 * This works in three different ways.
+	 *
+	 * 1. In case the song is in Song::Mode::Song when entering a new
+	 * @a nColumn #m_pPlayingPatterns will be flushed and all patterns
+	 * activated in the provided column will be added.
+	 * 2. While in Song::PatternMode::Selected the function
+	 * ensures the currently selected pattern is the only pattern in
+	 * #m_pPlayingPatterns.
+	 * 3. While in Song::PatterMode::Stacked all patterns
+	 * in #m_pNextPatterns not already present in #m_pPlayingPatterns
+	 * will be added in the latter and the ones already present will
+	 * be removed.
+	 */
+	void updatePlayingPatterns();
+	void clearNextPatterns();
+	/** 
+	 * Add pattern @a nPatternNumber to #m_pNextPatterns or deletes it
+	 * in case it is already present.
+	 */
+	void toggleNextPattern( int nPatternNumber );
+	/**
+	 * Add pattern @a nPatternNumber to #m_pNextPatterns as well as
+	 * the whole content of #m_pPlayingPatterns. After the next call
+	 * to updatePlayingPatterns() only @a nPatternNumber will be left
+	 * playing.
+	 */
+	void flushAndAddNextPattern( int nPatternNumber );
+
+	void updateVirtualPatterns();
+
+	/**
+	 * Returns the size of #m_songNoteQueue.
+	 *
+	 * Required to not end unit tests prematurely.
+	 */
+	int getEnqueuedNotesNumber() const;
+
+	const QStringList getSupportedAudioDrivers() const;
+	
+	/** Formatted string version for debugging purposes.
+	 * \param sPrefix String prefix which will be added in front of
+	 * every new line
+	 * \param bShort Instead of the whole content of all classes
+	 * stored as members just a single unique identifier will be
+	 * displayed without line breaks.
+	 *
+	 * \return String presentation of current object.*/
+	QString toQString( const QString& sPrefix = "", bool bShort = true ) const override;
+
+	/** Is allowed to call setSong().*/
+	friend void Hydrogen::setSong( std::shared_ptr<Song> pSong, bool bRelinking );
+	/** Is allowed to call removeSong().*/
+	friend void Hydrogen::removeSong();
+	/** Is allowed to use locate() to directly set the position in
+		frames as well as to used setColumn and setPatternTickPos to
+		move the arrow in the SongEditorPositionRuler even when
+		playback is stopped.*/
+	friend void Hydrogen::updateSelectedPattern( bool );
+	/** Uses handleTimelineChange() */
+	friend void Hydrogen::setIsTimelineActivated( bool );
+	/** Uses handleTimelineChange() */
+	friend bool CoreActionController::addTempoMarker( int, float );
+	/** Uses handleTimelineChange() */
+	friend bool CoreActionController::deleteTempoMarker( int );
+	friend bool CoreActionController::locateToTick( long nTick, bool );
+	friend bool CoreActionController::activateSongMode( bool );
+	/** Is allowed to set m_state to State::Ready via setState()*/
+	friend int FakeDriver::connect();
+	friend void JackAudioDriver::updateTransportPosition();
+	friend void JackAudioDriver::relocateUsingBBT();
+	friend class AudioEngineTests;
+private:
+
+	/**
+	 * Keeps the selected pattern in line with the one the transport
+	 * position resides in while in Song::Mode::Song.
+	 *
+	 * If multiple patterns are present in the current column, the pattern
+	 * recorded notes will be inserted in (bottom-most one) will be used.
+	 */
+	void handleSelectedPattern();
+	
+	inline void			processPlayNotes( unsigned long nframes );
+
+	void reset(  bool bWithJackBroadcast = true );
+
+	void resetOffsets();
+
+	/**
+	 * Ideally we just floor the provided tick. When relocating to a
+	 * specific tick, it's converted counterpart is stored as the
+	 * transport position in frames, which is then used to calculate
+	 * the tick start again. These conversions back and forth can
+	 * introduce rounding error that get larger for larger tick
+	 * numbers and could result in a computed start tick of
+	 * 86753.999999934 when transport was relocated to 86754. As we do
+	 * not want to cover notes prior to our current transport
+	 * position, we have to account for such rounding errors.
+	 */
+	double coarseGrainTick( double fTick );
+
+	void			clearNoteQueues();
+	/** Clear all audio buffers.
+	 */
+	void			clearAudioBuffers( uint32_t nFrames );
+	/**
+	 * Takes all notes from the currently playing patterns, from the
+	 * MIDI queue #m_midiNoteQueue, and those triggered by the
+	 * metronome and pushes them onto #m_songNoteQueue for playback.
+	 *
+	 * \return
+	 * - 0 - on success
+	 * - -1 - if in Hydrogen is in Song::Mode::Song, looping was
+	 * deactivated, and the end of the song was reached.
+	 */
+	int				updateNoteQueue( unsigned nIntervalLengthInFrames );
+	void 			processAudio( uint32_t nFrames );
+	long long 		computeTickInterval( double* fTickStart, double* fTickEnd, unsigned nIntervalLengthInFrames );
+	void			updateBpmAndTickSize( std::shared_ptr<TransportPosition> pTransportPosition );
+	void			calculateTransportOffsetOnBpmChange( std::shared_ptr<TransportPosition> pTransportPosition );
+    
+	void			setRealtimeFrame( long long nFrame );
+	void updatePlayingPatternsPos( std::shared_ptr<TransportPosition> pPos );
+	
+	void			setSong( std::shared_ptr<Song>pNewSong );
+	void			removeSong();
+	void 			setState( State state );
+	void 			setNextState( State state );
+	State 			getNextState() const;
+
+	void				startPlayback();
+	
+	void			stopPlayback();
+	
+	void			locate( const double fTick, bool bWithJackBroadcast = true );
+	/**
+	 * Version of the locate() function intended to be directly used
+	 * by frame-based audio drivers / servers.
+	 *
+	 * @param nFrame Next position in frames. If the provided number
+	 * is larger than the song length and loop mode is enabled,
+	 * computeTickFromFrame() will wrap it.
+	 */
+	void			locateToFrame( const long long nFrame );
+	void			incrementTransportPosition( uint32_t nFrames );
+	void			updateTransportPosition( double fTick, long long nFrame,
+											 std::shared_ptr<TransportPosition> pPos );
+	void			updateSongTransportPosition( double fTick, long long nFrame,
+												 std::shared_ptr<TransportPosition> pPos );
+	void			updatePatternTransportPosition( double fTick, long long nFrame,
+													std::shared_ptr<TransportPosition> pPos );
+
+	/**
+	 * Updates all notes in #m_songNoteQueue and #m_midiNoteQueue to
+	 * be still valid after a tempo change.
+	 */
+	void handleTempoChange();
+
+	/**
+	 * Updates the transport states and all notes in #m_songNoteQueue
+	 * and #m_midiNoteQueue after adding or deleting a TempoMarker or
+	 * enabling/disabling the #Timeline.
+	 *
+	 * If the #Timeline is activated, adding or removing a TempoMarker
+	 * does effectively has the same effects as a relocation with
+	 * respect to the transport position in frames. It's tick
+	 * counterpart, however, is not affected. This function ensures
+	 * they are in sync again.
+	 */
+	void handleTimelineChange();
+	
+	/**
+	 * Updates all notes in #m_songNoteQueue to be still valid after a
+	 * change in song size.
+	 */
+	void handleSongSizeChange();
+
+	/**
+	 * The audio driver was changed what possible changed the tick
+	 * size - which depends on both the sample rate - too. Thus, all
+	 * frame-based variables might have become invalid.
+	 */
+	void handleDriverChange();
+
+	/**
+	 * Called whenever Hydrogen switches from #Song::Mode::Song into
+	 * #Song::Mode::Pattern or the other way around.
+	 */
+	void switchMode();
+
+	Sampler* 			m_pSampler;
+	Synth* 				m_pSynth;
+	AudioOutput *		m_pAudioDriver;
+	MidiInput *			m_pMidiDriver;
+	MidiOutput *		m_pMidiDriverOut;
+	EventQueue* 		m_pEventQueue;
+
+	#if defined(H2CORE_HAVE_LADSPA) || _DOXYGEN_
+	float				m_fFXPeak_L[MAX_FX];
+	float				m_fFXPeak_R[MAX_FX];
+	#endif
+
+	//Master peak (left channel)
+	float				m_fMasterPeak_L;
+
+	//Master peak (right channel)
+	float				m_fMasterPeak_R;
+
+	/**
+	 * Mutex for synchronizing the access to the Song object and
+	 * the AudioEngine.
+	 *
+	 * It can be used lock the access using either lock() or
+	 * try_lock() and to unlock it via unlock(). It is
+	 * initialized in AudioEngine() and not explicitly exited.
+	 */
+	std::timed_mutex 	m_EngineMutex;
+	
+	/**
+	 * Mutex for locking the pointer to the audio output buffer, allowing
+	 * multiple readers.
+	 *
+	 * When locking this __and__ the AudioEngine, always lock the
+	 * AudioEngine first using AudioEngine::lock() or
+	 * AudioEngine::try_lock(). Always use a QMutexLocker to lock this
+	 * mutex.
+	 */
+	QMutex				m_MutexOutputPointer;
+
+	/**
+	 * Thread ID of the current holder of the AudioEngine lock.
+	 */
+	std::thread::id 	m_LockingThread;
+
+	/**
+	 * Contains the current or last context in which the audio engine
+	 * was locked as well as the locking state.
+	 */
+	struct _locker_struct {
+		const char* file;
+		unsigned int line;
+		const char* function;
+		bool isLocked;
+	} m_pLocker;
+
+	float				m_fProcessTime;
+	float				m_fMaxProcessTime;
+	float				m_fLadspaTime;
+
+	std::shared_ptr<TransportPosition> m_pTransportPosition;
+	std::shared_ptr<TransportPosition> m_pQueuingPosition;
+
+	/** Set to the total number of ticks in a Song.*/
+	double				m_fSongSizeInTicks;
+
+	/**
+	 * Variable keeping track of the transport position in realtime.
+	 *
+	 * Even if the audio engine is stopped, the variable will be
+	 * incremented (as audioEngine_process() would do at the beginning
+	 * of each cycle) to support realtime keyboard and MIDI event
+	 * timing.
+	 */
+	long long		m_nRealtimeFrame;
+
+	/**
+	 * Current state of the H2Core::AudioEngine.
+	 */	
+	State				m_state;
+	/** 
+	 * State assigned during the next call to processTransport(). This
+	 * is used to start and stop the audio engine.
+	 */
+	State				m_nextState;
+	
+	audioProcessCallback m_AudioProcessCallback;
+	
+	/// Song Note FIFO
+	// overload the > operator of Note objects for priority_queue
+	struct compare_pNotes {
+		bool operator() (Note* pNote1, Note* pNote2);
+	};
+
+	std::priority_queue<Note*, std::deque<Note*>, compare_pNotes > m_songNoteQueue;
+	std::deque<Note*>	m_midiNoteQueue;	///< Midi Note FIFO
+	
+	/**
+	 * Pointer to the metronome.
+	 */
+	std::shared_ptr<Instrument>		m_pMetronomeInstrument;
+
+	float 			m_fNextBpm;
+	double m_fLastTickEnd;
+	bool m_bLookaheadApplied;
+
+	/**
+	 * Attempts to dynamically load the JACK 2 shared library
+	 * and stores the result in #m_bJackSupported.
+	 */
+	void checkJackSupport();
+
+	/**
+	 * Whether or not the shared library of the JACK server could be
+	 * found on the system at runtime.
+	 */
+	bool m_bJackSupported;
+
+	QStringList m_supportedAudioDrivers;
+};
+
+
+/**
+ * AudioEngineLocking
+ *
+ * This is a base class for shared data structures which may be
+ * modified by the AudioEngine. These should only be modified or
+ * trusted by a thread holding the AudioEngine lock.
+ *
+ * Any class which implements a data structure which can be modified
+ * by the AudioEngine can inherit from this, and use the protected
+ * "assertLocked()" method to ensure that methods are called only
+ * with appropriate locking.
+ *
+ * Checking is only done on debug builds.
+ */
+class AudioEngineLocking {
+
+	bool m_bNeedsLock;
+
+protected:
+	/**
+	 *  Assert that the AudioEngine lock is held if needed.
+	 */
+	void assertAudioEngineLocked() const;
+
+
+public:
+
+	/**
+	 * The audio processing thread can modify some PatternLists. For
+	 * these structures, the audio engine lock must be held for any
+	 * thread to access them.
+	 */
+	void setNeedsLock( bool bNeedsLock ) {
+		m_bNeedsLock = bNeedsLock;
+	}
+
+	AudioEngineLocking() {
+		m_bNeedsLock = false;
+	}
+};
+
+
+inline void AudioEngine::assertLocked( ) {
+#ifndef NDEBUG
+	assert( m_LockingThread == std::this_thread::get_id() );
+#endif
+}
+
+inline void	AudioEngine::setMasterPeak_L( float value ) {
+	m_fMasterPeak_L = value;
+}
+
+inline float AudioEngine::getMasterPeak_L() const {
+	return m_fMasterPeak_L;
+}
+
+inline void	AudioEngine::setMasterPeak_R( float value ) {
+	m_fMasterPeak_R = value;
+}
+
+inline float AudioEngine::getMasterPeak_R() const {
+	return m_fMasterPeak_R;
+}
+
+inline float AudioEngine::getProcessTime() const {
+	return m_fProcessTime;
+}
+
+inline float AudioEngine::getMaxProcessTime() const {
+	return m_fMaxProcessTime;
+}
+
+inline AudioEngine::State AudioEngine::getState() const {
+	return m_state;
+}
+
+inline AudioEngine::State AudioEngine::getNextState() const {
+	return m_nextState;
+}
+inline void AudioEngine::setNextState( AudioEngine::State state) {
+	m_nextState = state;
+}
+
+inline AudioOutput*	AudioEngine::getAudioDriver() const {
+	return m_pAudioDriver;
+}
+
+inline 	MidiInput*	AudioEngine::getMidiDriver() const {
+	return m_pMidiDriver;
+}
+
+inline MidiOutput*	AudioEngine::getMidiOutDriver() const {
+	return m_pMidiDriverOut;
+}
+
+inline long long AudioEngine::getRealtimeFrame() const {
+	return m_nRealtimeFrame;
+}
+
+inline void AudioEngine::setRealtimeFrame( long long nFrame ) {
+	m_nRealtimeFrame = nFrame;
+}
+
+inline float AudioEngine::getNextBpm() const {
+	return m_fNextBpm;
+}
+inline const std::shared_ptr<TransportPosition> AudioEngine::getTransportPosition() const {
+	return m_pTransportPosition;
+}
+inline double AudioEngine::getSongSizeInTicks() const {
+	return m_fSongSizeInTicks;
+}
+inline std::shared_ptr<Instrument> AudioEngine::getMetronomeInstrument() const {
+	return m_pMetronomeInstrument;
+}
+inline int AudioEngine::getEnqueuedNotesNumber() const {
+	return m_songNoteQueue.size();
+}
+inline const QStringList AudioEngine::getSupportedAudioDrivers() const {
+	return m_supportedAudioDrivers;
+}
+};
+
+#endif

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "vue-composition-api",
+  "description": "How to use the module @vue/composition-api with Saber",
+  "scripts": {
+    "dev": "saber",
+    "build": "saber build"
+  },
+  "dependencies": {
+    "saber": "^0.9.1",
+    "@vue/composition-api": "^0.3.2"
+  }
+}

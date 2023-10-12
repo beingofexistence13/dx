@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "core",
+    "docs",
+    "packages/*"
+  ],
+  "version": "7.5.0"
+}

@@ -1,0 +1,5 @@
+// @flow strict-local
+
+declare module 'fastest-levenshtein' {
+  declare export function distance(a: string, b: string): number;
+}

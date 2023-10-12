@@ -1,0 +1,4 @@
+target
+*.node
+native.js
+native.d.ts

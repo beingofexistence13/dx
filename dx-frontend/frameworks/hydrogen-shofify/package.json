@@ -1,0 +1,81 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:pkg",
+    "build:pkg": "turbo build --parallel --filter=./packages/*",
+    "build:all": "turbo build --parallel",
+    "ci:checks": "turbo run lint test format:check typecheck",
+    "dev": "npm run dev:pkg",
+    "dev:pkg": "cross-env LOCAL_DEV=true turbo dev --parallel --filter=./packages/*",
+    "preview": "turbo build --filter=./packages/* && npm run preview -w demo-store",
+    "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx ./packages & npm run lint -w demo-store",
+    "format": "prettier --write --ignore-unknown ./packages && npm run format -w demo-store",
+    "format:check": "prettier --check --ignore-unknown ./packages && npm run format:check -w demo-store",
+    "typecheck": "turbo typecheck --parallel",
+    "test": "turbo run test --parallel",
+    "test:watch": "turbo run test:watch",
+    "version": "changeset version && npm run version:post",
+    "version:post": "npm run version:hydrogen && npm run version:cli",
+    "version:hydrogen": "node -p \"'export const LIB_VERSION = \\'' + require('./packages/hydrogen/package.json').version + '\\';'\" > packages/hydrogen/src/version.ts",
+    "version:cli": "cd packages/cli && npm run generate:manifest",
+    "version:next": "node scripts/changeset-version-next.mjs",
+    "changeset": "changeset",
+    "clean-all": "rimraf node_modules/.bin && rimraf node_modules/.cache && rimraf packages/*/dist && rimraf templates/*/.cache",
+    "check": "npm run build && npm run lint && npm run typecheck && npm run test"
+  },
+  "workspaces": [
+    "templates/hello-world",
+    "templates/demo-store",
+    "templates/skeleton",
+    "examples/express",
+    "packages/remix-oxygen",
+    "packages/hydrogen",
+    "packages/create-hydrogen",
+    "packages/cli",
+    "packages/hydrogen-react",
+    "packages/hydrogen-codegen"
+  ],
+  "prettier": "@shopify/prettier-config",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
+    "@types/eslint": "^8.4.10",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.20.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.8.4",
+    "rimraf": "^3.0.2",
+    "tsup": "7.2.0",
+    "turbo": "1.10.12",
+    "typescript": "^5.2.2",
+    "yorkie": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=16.13"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "npm run lint --",
+      "prettier --parser=typescript --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
+    ],
+    "*.css": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "fast-array-diff": "^1.0.1"
+  }
+}

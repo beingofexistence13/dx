@@ -1,0 +1,58 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "storybook",
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    }
+  },
+  "pluginsConfig": {
+    "@nrwl/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx-cloud",
+      "options": {
+        "cacheableOperations": ["prep"],
+        "accessToken": "NGVmYTkxMmItYzY3OS00MjkxLTk1ZDktZDFmYTFmNmVlNGY4fHJlYWQ=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true,
+        "parallel": 1
+      }
+    }
+  },
+  "affected": {
+    "defaultBase": "next"
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ]
+    },
+    "package": {
+      "dependsOn": [
+        {
+          "target": "package",
+          "dependencies": true
+        }
+      ]
+    },
+    "prep": {
+      "dependsOn": [
+        {
+          "target": "prep",
+          "params": "forward",
+          "dependencies": true
+        }
+      ],
+      "outputs": ["{projectRoot}/dist"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.9.5",
+    "d3-scale": "^1.0.7",
+    "d3-selection": "^1.2.0",
+    "htm": "2.1.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "mobx-state-tree": "^3.16.0",
+    "preact-render-to-string": "^5.0.2",
+    "preact-router": "^3.0.0",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "styled-components": "^4.2.0"
+  },
+  "volta": {
+    "extends": "../package.json"
+  }
+}

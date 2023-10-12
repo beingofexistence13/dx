@@ -1,0 +1,32 @@
+{
+  "name": "sanity-perf-tests",
+  "version": "3.18.0",
+  "private": true,
+  "description": "Sanity Studio perf tests",
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "scripts": {
+    "build": "yarn build:cli && (cd studio && yarn build)",
+    "perf:codegen": "ts-node --files -r dotenv/config codegen",
+    "perf:test": "ts-node --files cli",
+    "perf:test:ci": "ts-node --files cli",
+    "studio": "yarn --cwd studio build && yarn --cwd studio start",
+    "studio:dev": "SANITY_STUDIO_DATASET=dev yarn --cwd studio dev"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.37.0",
+    "@sanity/client": "^6.4.9",
+    "@sanity/uuid": "^3.0.1",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.15.3",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.19.0",
+    "execa": "^2.0.0",
+    "globby": "^10.0.0",
+    "lodash": "^4.17.21",
+    "rxjs": "^7.8.0",
+    "sanity": "3.18.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

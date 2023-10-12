@@ -1,0 +1,46 @@
+name: ⬣ Lint
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: ⬣ Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+          cache: "yarn"
+
+      - name: Disable GitHub Actions Annotations
+        run: |
+          echo "::remove-matcher owner=tsc::"
+          echo "::remove-matcher owner=eslint-compact::"
+          echo "::remove-matcher owner=eslint-stylish::"
+
+      - name: 📥 Install deps
+        run: yarn --frozen-lockfile
+
+      - name: 🔬 Lint
+        run: yarn lint
+
+      - name: 🦕 Install Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: vx.x.x
+
+      - name: 🔬 Lint deno files
+        run: yarn lint:deno

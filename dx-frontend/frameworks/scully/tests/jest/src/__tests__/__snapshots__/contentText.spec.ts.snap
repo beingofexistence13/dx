@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`customText plugin Check content generated form function 1`] = `
+"<!DOCTYPE html><html lang=\\"en\\"><head><meta name=\\"generator\\">
+    <meta charset=\\"utf-8\\">
+    <title>sample-blog</title>
+    <base href=\\"/\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <link rel=\\"icon\\" type=\\"image/x-icon\\" href=\\"favicon.ico\\">
+    <link rel=\\"stylesheet\\" href=\\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css\\">
+  </head>
+
+  <body >
+    <app-root class=\\"foo\\" =\\"\\" > Scully demo blog app! <small =\\"\\">rendering inside scully</small></h1><a =\\"\\" href=\\"/home\\">🏠</a></header><main =\\"\\"><router-outlet =\\"\\"></router-outlet><app-content-component><h1>Content component</h1><!--scullyContent-begin--><h2>Content generated from function</h2><!--scullyContent-end--><scully-content></scully-content></app-content-component><!----></main><footer =\\"\\"><h3 =\\"\\">Made with ❤️ <strong =\\"\\">@HeroDevs</strong></h3></footer></app-root>
+  
+
+</body></html>"
+`;
+
+exports[`customText plugin Check contentPlugin render 1`] = `
+"<!DOCTYPE html><html lang=\\"en\\"><head><meta name=\\"generator\\">
+    <meta charset=\\"utf-8\\">
+    <title>sample-blog</title>
+    <base href=\\"/\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <link rel=\\"icon\\" type=\\"image/x-icon\\" href=\\"favicon.ico\\">
+    <link rel=\\"stylesheet\\" href=\\"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css\\">
+  </head>
+
+  <body >
+    <app-root class=\\"foo\\" =\\"\\" > Scully demo blog app! <small =\\"\\">rendering inside scully</small></h1><a =\\"\\" href=\\"/home\\">🏠</a></header><main =\\"\\"><router-outlet =\\"\\"></router-outlet><app-content-component><h1>Content component</h1><!--scullyContent-begin-->
+      <h1> Sample page two</h1>
+      <p> This is sample page number 2</p>
+      <p><a href=\\"/blog/page-1\\">Blog page 1</a>
+      </p>
+      <a href=\\"/content/one\\">one</a>&nbsp;<a href=\\"/content/tree\\">tree</a>&nbsp;<a href=\\"/content/four\\">four</a>&nbsp;<a href=\\"/content/five\\">five</a>&nbsp;
+      <!--scullyContent-end--><scully-content></scully-content></app-content-component><!----></main><footer =\\"\\"><h3 =\\"\\">Made with ❤️ <strong =\\"\\">@HeroDevs</strong></h3></footer></app-root>
+  
+
+</body></html>"
+`;

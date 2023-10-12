@@ -1,0 +1,22 @@
+{
+  "name": "saber-utils",
+  "version": "0.2.4",
+  "files": [
+    "dist",
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "node build",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "0.20.5",
+    "fast-glob": "3.1.0",
+    "fs-extra": "8.1.0",
+    "is-absolute-url": "^3.0.2"
+  },
+  "license": "MIT"
+}

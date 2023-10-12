@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`json-to-csf-compiler params.json 1`] = `
+"
+export default {
+  title: \\"Params\\",
+  parameters: {
+    server: {
+      params: {
+        color: \\"red\\"
+      }
+    }
+  }
+};
+
+export const Story = {
+  name: \\"Story\\",
+  parameters: {
+    server: {
+      id: \\"params/story\\",
+      params: {
+        message: \\"Hello World\\"
+      }
+    }
+  }
+};
+"
+`;

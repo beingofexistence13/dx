@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "vueCompilerOptions": {
+    "target": 3
+  },
+  "include": ["src/**/*", "src/**/*.vue", "template/**/*", "template/**/*.vue"]
+}

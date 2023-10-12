@@ -1,0 +1,83 @@
+{
+  "name": "@storybook/web-components-webpack5",
+  "version": "7.5.0-alpha.6",
+  "description": "Storybook for web-components: View web components snippets in isolation with Hot Reloading.",
+  "keywords": [
+    "lit",
+    "lit-html",
+    "storybook",
+    "web-components"
+  ],
+  "homepage": "https://github.com/storybookjs/storybook/tree/next/code/frameworks/web-components-webpack5",
+  "bugs": {
+    "url": "https://github.com/storybookjs/storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/storybook.git",
+    "directory": "code/frameworks/web-components-webpack5"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/storybook"
+  },
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "node": "./dist/index.js",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./preset": {
+      "types": "./dist/preset.d.ts",
+      "require": "./dist/preset.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "!src/**/*"
+  ],
+  "scripts": {
+    "check": "../../../scripts/prepare/check.ts",
+    "prep": "../../../scripts/prepare/bundle.ts"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@storybook/builder-webpack5": "workspace:*",
+    "@storybook/core-common": "workspace:*",
+    "@storybook/preset-web-components-webpack": "workspace:*",
+    "@storybook/web-components": "workspace:*",
+    "@types/node": "^18.0.0"
+  },
+  "devDependencies": {
+    "lit": "2.3.1",
+    "typescript": "~4.9.3"
+  },
+  "peerDependencies": {
+    "lit": "^2.0.0 || ^3.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bundler": {
+    "entries": [
+      "./src/index.ts",
+      "./src/preset.ts"
+    ],
+    "platform": "node"
+  },
+  "gitHead": "e6a7fd8a655c69780bc20b9749c2699e44beae17"
+}

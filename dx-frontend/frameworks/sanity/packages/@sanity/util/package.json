@@ -1,0 +1,131 @@
+{
+  "name": "@sanity/util",
+  "version": "3.18.0",
+  "description": "Utilities shared across projects of Sanity",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content",
+    "util"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/@sanity/util"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "exports": {
+    ".": {
+      "types": "./lib/exports/index.d.ts",
+      "source": "./exports/index.ts",
+      "require": "./lib/index.js",
+      "node": {
+        "import": "./lib/index.cjs.mjs",
+        "require": "./lib/index.js"
+      },
+      "import": "./lib/index.esm.js",
+      "default": "./lib/index.esm.js"
+    },
+    "./fs": {
+      "types": "./lib/exports/fs.d.ts",
+      "source": "./exports/fs.ts",
+      "require": "./lib/fs.js",
+      "node": {
+        "import": "./lib/fs.cjs.mjs",
+        "require": "./lib/fs.js"
+      },
+      "import": "./lib/fs.esm.js",
+      "default": "./lib/fs.esm.js"
+    },
+    "./content": {
+      "types": "./lib/exports/content.d.ts",
+      "source": "./exports/content.ts",
+      "require": "./lib/content.js",
+      "node": {
+        "import": "./lib/content.cjs.mjs",
+        "require": "./lib/content.js"
+      },
+      "import": "./lib/content.esm.js",
+      "default": "./lib/content.esm.js"
+    },
+    "./legacyDateFormat": {
+      "types": "./lib/exports/legacyDateFormat.d.ts",
+      "source": "./exports/legacyDateFormat.ts",
+      "require": "./lib/legacyDateFormat.js",
+      "node": {
+        "import": "./lib/legacyDateFormat.cjs.mjs",
+        "require": "./lib/legacyDateFormat.js"
+      },
+      "import": "./lib/legacyDateFormat.esm.js",
+      "default": "./lib/legacyDateFormat.esm.js"
+    },
+    "./paths": {
+      "types": "./lib/exports/paths.d.ts",
+      "source": "./exports/paths.ts",
+      "require": "./lib/paths.js",
+      "node": {
+        "import": "./lib/paths.cjs.mjs",
+        "require": "./lib/paths.js"
+      },
+      "import": "./lib/paths.esm.js",
+      "default": "./lib/paths.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.esm.js",
+  "source": "./exports/index.ts",
+  "types": "./lib/exports/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "fs": [
+        "./lib/exports/fs.d.ts"
+      ],
+      "content": [
+        "./lib/exports/content.d.ts"
+      ],
+      "legacyDateFormat": [
+        "./lib/exports/legacyDateFormat.d.ts"
+      ],
+      "paths": [
+        "./lib/exports/paths.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "content.js",
+    "fs.js",
+    "legacyDateFormat.js",
+    "lib",
+    "paths.js",
+    "src"
+  ],
+  "scripts": {
+    "prebuild": "run-s clean",
+    "build": "pkg-utils build --tsconfig tsconfig.lib.json",
+    "postbuild": "run-s check:package",
+    "check:package": "pkg-utils --tsconfig tsconfig.lib.json",
+    "clean": "rimraf content.js fs.js legacyDateFormat.js lib paths.js",
+    "test": "jest",
+    "watch": "pkg-utils watch --tsconfig tsconfig.lib.json"
+  },
+  "dependencies": {
+    "@sanity/types": "3.18.0",
+    "get-random-values-esm": "^1.0.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

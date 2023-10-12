@@ -1,0 +1,103 @@
+{
+  "npmScope": "scullyio",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tslint.json": "*",
+    "nx.json": "*",
+    "tsconfig.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "accessToken": "YzliMjIxNGUtZDFiYS00NWY4LWExNjItYTBiMTI3MjliMTYxfHJlYWQ=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "canTrackAnalytics": true,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "projects": {
+    "local-cache": {
+      "tags": []
+    },
+    "ng-lib": {
+      "tags": []
+    },
+    "platform-server": {
+      "tags": []
+    },
+    "plugins-base-href-rewrite": {
+      "tags": []
+    },
+    "plugins-docs-link-update": {
+      "tags": []
+    },
+    "plugins-extra": {
+      "tags": []
+    },
+    "plugins-from-data": {
+      "tags": []
+    },
+    "plugins-google-analytics": {
+      "tags": []
+    },
+    "plugins-logrocket": {
+      "tags": []
+    },
+    "plugins-scully-plugin-copy-to-clipboard": {
+      "tags": []
+    },
+    "plugins-scully-plugin-critical-css": {
+      "tags": []
+    },
+    "plugins-scully-plugin-flash-prevention": {
+      "tags": []
+    },
+    "plugins-scully-plugin-puppeteer": {
+      "tags": []
+    },
+    "plugins-scully-plugin-playwright": {
+      "tags": []
+    },
+    "plugins-scully-plugin-remove-scripts": {
+      "tags": []
+    },
+    "plugins-sentry": {
+      "tags": []
+    },
+    "sample-blog": {
+      "tags": []
+    },
+    "scully": {
+      "tags": []
+    },
+    "scully-docs": {
+      "tags": []
+    },
+    "scully-schematics": {
+      "tags": ["schematics"]
+    },
+    "sps-sample": {
+      "tags": []
+    },
+    "universal": {
+      "tags": []
+    }
+  },
+  "affected": {
+    "defaultBase": "main"
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  }
+}

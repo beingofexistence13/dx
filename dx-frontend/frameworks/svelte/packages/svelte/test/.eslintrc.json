@@ -1,0 +1,8 @@
+{
+	"plugins": ["lube"],
+	"rules": {
+		"no-console": "off",
+		"@typescript-eslint/no-var-requires": "off",
+		"lube/svelte-naming-convention": ["error", { "fixSameNames": true }]
+	}
+}

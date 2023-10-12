@@ -1,0 +1,5 @@
+**/node_modules
+
+docs/0.index.md
+docs/1.getting-started/1.introduction.md
+docs/**/*.nuxt.config.md

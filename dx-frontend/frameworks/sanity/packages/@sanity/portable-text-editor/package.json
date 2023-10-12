@@ -1,0 +1,117 @@
+{
+  "name": "@sanity/portable-text-editor",
+  "version": "3.18.0",
+  "description": "Portable Text Editor made in React",
+  "keywords": [
+    "sanity",
+    "cms",
+    "headless",
+    "realtime",
+    "content",
+    "portable-text-editor",
+    "structure",
+    "api",
+    "collaborative",
+    "editor",
+    "text",
+    "portable-text"
+  ],
+  "homepage": "https://www.sanity.io/",
+  "bugs": {
+    "url": "https://github.com/sanity-io/sanity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanity-io/sanity.git",
+    "directory": "packages/@sanity/portable-text-editor"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "exports": {
+    ".": {
+      "types": "./lib/dts/src/index.d.ts",
+      "source": "./src/index.ts",
+      "require": "./lib/index.js",
+      "node": {
+        "import": "./lib/index.cjs.mjs",
+        "require": "./lib/index.js"
+      },
+      "import": "./lib/index.esm.js",
+      "default": "./lib/index.esm.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "module": "./lib/index.esm.js",
+  "source": "./src/index.ts",
+  "types": "./lib/dts/src/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "prebuild": "run-s clean",
+    "build": "pkg-utils build --tsconfig tsconfig.lib.json",
+    "postbuild": "run-s check:package",
+    "check:package": "pkg-utils --strict --tsconfig tsconfig.lib.json",
+    "clean": "rimraf lib",
+    "eslint": "eslint 'src/**/*.{ts,js,tsx}'",
+    "prettier": "prettier --write './**/*.{ts,tsx,js,css,html}'",
+    "dev": "cd ./test/ && ts-node serve",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch": "pkg-utils watch --tsconfig tsconfig.lib.json"
+  },
+  "dependencies": {
+    "@sanity/block-tools": "3.18.0",
+    "@sanity/schema": "3.18.0",
+    "@sanity/types": "3.18.0",
+    "@sanity/util": "3.18.0",
+    "debug": "^3.2.7",
+    "is-hotkey": "^0.1.6",
+    "lodash": "^4.17.21",
+    "slate": "0.94.1",
+    "slate-react": "0.98.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@portabletext/toolkit": "^2.0.8",
+    "@sanity/diff-match-patch": "^3.1.1",
+    "@sanity/ui": "^1.8.2",
+    "@testing-library/react": "^13.4.0",
+    "@types/debug": "^4.1.5",
+    "@types/express": "^4.16.1",
+    "@types/express-ws": "^3.0.1",
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^14.18.9",
+    "@types/node-ipc": "^9.2.0",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.10",
+    "@types/ws": "~8.5.3",
+    "@vitejs/plugin-react": "^4.0.4",
+    "express": "^4.17.1",
+    "express-ws": "^5.0.2",
+    "jest": "^27.5.1",
+    "jest-dev-server": "^9.0.0",
+    "jest-environment-node": "^27.5.1",
+    "node-ipc": "npm:@node-ipc/compat@9.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.8.1",
+    "styled-components": "^5.3.11",
+    "vite": "^4.4.8"
+  },
+  "peerDependencies": {
+    "react": "^16.9 || ^17 || ^18",
+    "rxjs": "^7",
+    "styled-components": "^5.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
