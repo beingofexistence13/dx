@@ -1,8 +1,5 @@
 # Dx!!!
 
-gitpod 03/09/2023 Sunday
-gitpod 27/09/2023 Entrace Day For Collage
-
 <div align="center">
 <a href="https://dx-black.vercel.app/">
     <img src="https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
@@ -26,7 +23,10 @@ Accessible and customizable components that you can copy and paste into your app
 
 ## Documentation
 
-<!-- Visit [(https://ui-www-five.vercel.app/docs)] to view the documentation. -->
+<!-- Visit [(https://ui-www-five.vercel.app/docs)] to view the documentation.
+gitpod 03/09/2023 Sunday
+gitpod 27/09/2023 Entrace Day For Collage
+-->
 
 ## Licensec
 
@@ -110,6 +110,52 @@ yarn turbo run build --filter=aptos-web
 </details>
 
 # This is BeingOfExistence Signing or I say Hacking(Cool umm... name-of-new-login and singning systems or just name made by me BeingOfExistence)!!!!!
+
+| Framework | Official Repository/Website |
+| --- | --- |
+| Angular | https://github.com/angular/angular |
+| Astro | https://github.com/withastro/astro |
+| Blitz.js | https://github.com/blitz-js/blitz |
+| Brunch | https://github.com/brunch/brunch |
+| Create-React-App | https://github.com/facebook/create-react-app |
+| Docusaurus 2 | https://github.com/facebook/docusaurus |
+| Docusaurus | https://github.com/facebook/docusaurus |
+| Dojo | https://github.com/dojo/framework |
+| Eleventy | https://github.com/11ty/eleventy |
+| Ember | https://github.com/emberjs/ember.js |
+| Gatsby | https://github.com/gatsbyjs/gatsby |
+| Gridsome | https://github.com/gridsome/gridsome |
+| Hexo | https://github.com/hexojs/hexo |
+| Hugo | https://github.com/gohugoio/hugo |
+| Hydrogen 2 | https://github.com/Shopify/hydrogen |
+| Hydrogen | https://github.com/hydrogen-music/hydrogen |
+| ionic-angular | https://github.com/ionic-team/ionic-framework |
+| ionic-react | https://github.com/ionic-team/ionic-framework |
+| jekyll | https://github.com/jekyll/jekyll |
+| middleman | https://github.com/middleman/middleman |
+| nextjs | https://github.com/vercel/next.js |
+| nuxtjs | https://github.com/nuxt/nuxt.js |
+| parcel | https://github.com/parcel-bundler/parcel |
+| polymer | https://github.com/Polymer/polymer |
+| preact | https://github.com/preactjs/preact |
+| redwoodjs | https://github.com/redwoodjs/redwood |
+| remix | https://github.com/remix-run/remix |
+| saber | Unable to find a repository with this name.|
+| sanity | Unable to find a repository with this name.|
+| sapper | https://github.com/sveltejs/sapper |
+| scully | https://github.com/scullyio/scully |
+| solidstart | Unable to find a repository with this name.|
+| stencil | https://github.com/ionic-team/stencil |
+| storybook | https://github.com/storybookjs/storybook |
+| svelte | https://github.com/sveltejs/svelte |
+| sveltekit-1 | Official website: [https://kit.svelte.dev](https://kit.svelte.dev)|
+| sveltekit | Official website: [https://kit.svelte.dev](https://kit.svelte.dev)|
+| umijs | https://github.com/umijs/umi|
+| vite | https://github.com/vitejs/vite|
+| vitepress | Official website: [https://vitepress.vuejs.org](https://vitepress.vuejs.org)|
+| vue | https://github.com/vuejs/vue-next|
+| vuepress | Official website: [https://vuepress.vuejs.org](https://vuepress.vuejs.org)|
+| zola | https://github.com/getzola/zola|
 
 # Databses
 
