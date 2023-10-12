@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir framworks && cd frameworks
+mkdir frameworks && cd frameworks
 if git clone https://github.com/angular/angular angular && cd angular && rm -rf .git && cd ..; then echo "ANGULAR Clone Successfull!!!"
 else echo "Error, ANGULAR Github Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
