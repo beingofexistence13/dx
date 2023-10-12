@@ -36,11 +36,6 @@ else echo "Error, DOJO Github Submodule Repository Link Has Some Problems" && gi
 fi
 
 
-if git submodule add https://github.com/11ty/eleventy eleventy; then echo "ELEVENTY Submodule Added Successfull!!!"
-else echo "Error, ELEVENTY Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
-fi
-
-
 if git submodule add https://github.com/emberjs/ember.js ember; then echo "EMBER Submodule Added Successfull!!!"
 else echo "Error, EMBER Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
@@ -55,10 +50,6 @@ if git submodule add https://github.com/gridsome/gridsome gridsome; then echo "G
 else echo "Error, GRIDSOME Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
 
-
-if git submodule add https://github.com/hexojs/hexo hexo; then echo "HEXO Submodule Added Successfull!!!"
-else echo "Error, HEXO Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
-fi
 
 
 if git submodule add https://github.com/gohugoio/hugo hugo; then echo "HUGO Submodule Added Successfull!!!"
@@ -116,11 +107,6 @@ else echo "Error, POLYMER Github Submodule Repository Link Has Some Problems" &&
 fi
 
 
-if git submodule add https://github.com/preactjs/preact preact; then echo "PREACT Submodule Added Successfull!!!"
-else echo "Error, PREACT Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
-fi
-
-
 if git submodule add https://github.com/redwoodjs/redwood redwoodjs; then echo "REDWOODJS Submodule Added Successfull!!!"
 else echo "Error, REDWOODJS Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
@@ -145,10 +131,6 @@ if git submodule add https://github.com/sveltejs/sapper sapper; then echo "SAPPE
 else echo "Error, SAPPER Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
 
-
-if git submodule add https://github.com/scullyio/scully scully; then echo "SCULLY Submodule Added Successfull!!!"
-else echo "Error, SCULLY Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
-fi
 
 
 if git submodule add https://github.com/solidjs/solid-start solidstart; then echo "SOLIDSTART Submodule Added Successfull!!!"
