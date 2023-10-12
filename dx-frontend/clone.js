@@ -51,8 +51,8 @@ for (let key in frontend_frameworks) {
     if (frontend_frameworks.hasOwnProperty(key)) {
         console.log(
           `
-          if git clone ${frontend_frameworks[key]} ${key.toLowerCase()} && cd ${key.toLowerCase()} && rm -rf .git && cd ..; then echo "${key.toUpperCase()} Clone Successfull!!!"
-          else echo "Error, ${key.toUpperCase()} Github Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
+          if git submodule add ${frontend_frameworks[key]} ${key.toLowerCase()}; then echo "${key.toUpperCase()} Submodule Added Successfull!!!"
+          else echo "Error, ${key.toUpperCase()} Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
           fi
           `);
     }

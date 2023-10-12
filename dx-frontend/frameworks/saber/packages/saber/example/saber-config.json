@@ -1,7 +1,0 @@
-{
-  "markdown": {
-    "plugins": [
-      "markdown-it-footnote"
-    ]
-  }
-}

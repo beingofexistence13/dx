@@ -1,4 +1,0 @@
-**/dist
-
-# Do not format Markdown files to allow easier documentation contribution
-*.md

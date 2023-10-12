@@ -1,3 +1,0 @@
-/site/** -linguist-detectable
-/test/**/samples/** -linguist-detectable
-/**/*.svelte linguist-detectable

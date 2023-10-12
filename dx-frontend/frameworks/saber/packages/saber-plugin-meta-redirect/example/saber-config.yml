@@ -1,5 +1,0 @@
-plugins:
-  - resolve: ../
-
-build:
-  publicUrl: /blog/

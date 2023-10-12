@@ -1,3 +1,0 @@
-composables/ignored.*
-**/ignore/public-asset
-server/routes/ignore/scanned.ts

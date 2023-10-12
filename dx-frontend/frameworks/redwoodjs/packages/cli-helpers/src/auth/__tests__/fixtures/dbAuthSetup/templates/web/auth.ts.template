@@ -1,3 +1,0 @@
-import { createAuth } from '@redwoodjs/auth-dbauth-web'
-
-export const { AuthProvider, useAuth } = createAuth()

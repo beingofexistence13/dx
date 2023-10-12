@@ -1,3 +1,0 @@
-# ensure consistent line endings (for hashes)
-*.css text eol=lf
-*.js  text eol=lf

@@ -1,7 +1,0 @@
-import type { GlobalContext } from "@redwoodjs/graphql-server"
-
-export {}
-
-declare global {
-  const context: GlobalContext
-}

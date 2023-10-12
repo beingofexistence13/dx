@@ -1,5 +1,0 @@
-describe('${name}', () => {
-  it('Converts world to bazinga', async () => {
-    await matchTransformSnapshot('${name}', 'default')
-  })
-})

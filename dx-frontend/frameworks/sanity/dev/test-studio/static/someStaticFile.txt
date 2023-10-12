@@ -1,2 +1,0 @@
-Should be copied on build!
-And served under /static in dev

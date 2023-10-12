@@ -1,8 +1,0 @@
-query Footer {
-  metadata {
-    myTest {
-      value
-    }
-    pluginValue
-  }
-}

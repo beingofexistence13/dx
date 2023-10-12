@@ -1,6 +1,0 @@
-dist
-dist-transpiled
-*.md
-build
-proxies.ts
-react-component-lib
