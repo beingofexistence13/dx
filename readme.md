@@ -1,10 +1,6 @@
 # Dx!!!
 
-<div align="center">
-<a href="https://dx-black.vercel.app/">
-    <img src="https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
-</a>
-</div>
+![new_recording_-_10_13_2023,_7_35_38_pm (Original)](https://github.com/beingofexistence/dx/assets/103621682/0d2eb57d-9052-4b36-8fd2-be49f376cb01)
 
 # OpenSource Cloning / Stealling
 Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer ---> DX Native -I know such a uniqe name \I know I am best at naming stuffs\ [And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
@@ -169,6 +165,12 @@ bun start
 | 10 | What is a programmer's favorite hangout place? The Foo Bar! 🍻 |
 
 I hope these brought a smile to your face! 😊
+
+<div align="center">
+    <a href="https://dx-emon-beingofexistence-shohan.vercel.app/">
+        <img src="https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
+    </a>
+</div>
 
 ## Licensec
 Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
