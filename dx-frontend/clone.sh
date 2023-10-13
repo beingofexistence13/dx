@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir packages && cd packages && touch frameworks.md
+mkdir core && cd core && touch frameworks.md
 if git submodule add https://github.com/angular/angular angular; then echo "ANGULAR Submodule Added Successfull!!!"
 else echo "Error, ANGULAR Github Submodule Repository Link Has Some Problems" && git status && echo "Trying, To Clone Next Repo"
 fi
