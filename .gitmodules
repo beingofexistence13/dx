@@ -104,12 +104,12 @@
 	path = dx-frontend/core/zola
 	url = https://github.com/getzola/zola
 [submodule "stencil"]
-	path = stencil
+	path = dx-frontend/core/stencil
 	url = https://github.com/ionic-team/stencil
 [submodule "vite"]
-	path = vite
+	path = dx-frontend/core/vite
 	url = https://github.com/vitejs/vite
 
 [submodule "vue-next"]
-	path = vue-next
+	path = dx-frontend/core/vue
 	url = https://github.com/vuejs/vue-next
