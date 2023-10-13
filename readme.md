@@ -157,16 +157,18 @@ bun start
 ### tomorrow is a mystery, yesterday is history; we only live in today and that's why it's called present. So, here is your 10 presents:
 | No. | Joke |
 | --- | --- |
-| 1 | Why don't scientists trust atoms? Because they make up everything! 😄 |
-| 2 | Why did the bicycle fall over? Because it was two-tired! 😂 |
-| 3 | Why don't some fish play piano? They're scared of the bass keys! 🐟🎹 |
-| 4 | What do you call a bear with no teeth? A gummy bear! 🐻 |
-| 5 | Why did the golfer bring two pairs of pants? In case he got a hole in one! ⛳ |
-| 6 | What do you call fake spaghetti? An impasta! 🍝 |
-| 7 | Why don't eggs tell each other jokes? They might crack up! 🥚😆 |
-| 8 | What do you call a snowman with a six-pack? An abdominal snowman! ⛄💪 |
-| 9 | Why did the scarecrow win an award? Because he was outstanding in his field! 🌾🏆 |
-| 10 | What do you call a boomerang that won't come back? A stick! 🪵 |
+| 1 | Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25! 🎃🎄 |
+| 2 | Why do programmers prefer iOS development? Because on iOS, there are no Windows or Gates! 🍏🚫🪟 |
+| 3 | Why don't programmers like nature? It has too many bugs! 🐜🐞 |
+| 4 | Why did the programmer go broke? Because he used up all his cache! 💸 |
+| 5 | Why did the programmer quit his job? Because he didn't get arrays (a raise)! 💼 |
+| 6 | Why do programmers prefer dark mode? Because light attracts bugs! 🌚🐜 |
+| 7 | Why was the JavaScript developer sad? Because he didn't Node how to Express himself! 😞📝 |
+| 8 | Why did the developer go broke? Because he used up all his cache! 💸 |
+| 9 | Why did the programmer get kicked out of school? Because he kept breaking the class rules! 🏫🚫 |
+| 10 | What is a programmer's favorite hangout place? The Foo Bar! 🍻 |
+
+I hope these brought a smile to your face! 😊
 
 ## Licensec
 Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
