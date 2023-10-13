@@ -8,6 +8,27 @@
     "name": "beingofexistence",
     "url": "https://twitter.com/beingofexistence"
   },
+  "workspaces":[
+    "apis/*",
+    "apps/*",
+    "backends/*",
+    "databases/*",
+    "dx-ai/*",
+    "dx-backend/*",
+    "dx-database/*",
+    "dx-frontend/*",
+    "dx-hosting/*",
+    "dx-lang/*",
+    "dx-ui/*",
+    "errors/*",
+    "examples/*",
+    "hack/*",
+    "inspirations/*",
+    "internals/*",
+    "packages/*",
+    "scrappers/*",
+    "scripts/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "build:cli": "turbo --filter=beingofexistence-dx build",
