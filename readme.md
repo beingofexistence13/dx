@@ -74,7 +74,7 @@ bun start
 
 <details>
   <summary>Databses</summary>
-  French: Bonjour, here is the information in a table format:
+  French = Bonjour, here is the information in a table format:
 
   | List | Database |
   | --- | -------- |
@@ -107,7 +107,7 @@ bun start
 
 <details>
   <summary>Web3</summary>
-  German: Hallo, here is the information in a table format:
+  German = Hallo, here is the information in a table format:
 
   | List | Provider |
   | --- | ---- |
@@ -118,7 +118,7 @@ bun start
 
 <details>
   <summary>(Componets) -> i think scripts are playing an important role in the connection of components and components library has</summary>
-  Italian: Ciao, here is the information in a table format:
+  Italian = Ciao, here is the information in a table format:
 
   | Things | Logic |
   | --- | ---- |
@@ -130,7 +130,7 @@ bun start
 
 <details>
   <summary>(Cli) -> and about cli it is optained based</summary>
-  Arabic: مرحبا (Marhaba), here is the information in a table format:
+  Arabic = مرحبا (Marhaba), here is the information in a table format:
 
   | Things | Logic |
   | --- | ---- |
@@ -140,7 +140,7 @@ bun start
 
 <details>
   <summary>(Online Code Editors) -> This thing will be used at docs and my and also be my inspirations in making a code editor</summary>
-  Spanish: Hola, here is the information in a table format:
+  Spanish = Hola, here is the information in a table format:
 
   | List | Editor |
   | --- | ---- |
@@ -154,10 +154,23 @@ bun start
   | 8   | AWS Cloud9 |
 </details>
 
+### tomorrow is a mystery, yesterday is a history we only live in today and that's why this is present. So, here is your present:
+| No. | Joke |
+| --- | --- |
+| 1 | Why don't scientists trust atoms? Because they make up everything! 😄 |
+| 2 | Why did the bicycle fall over? Because it was two-tired! 😂 |
+| 3 | Why don't some fish play piano? They're scared of the bass keys! 🐟🎹 |
+| 4 | What do you call a bear with no teeth? A gummy bear! 🐻 |
+| 5 | Why did the golfer bring two pairs of pants? In case he got a hole in one! ⛳ |
+| 6 | What do you call fake spaghetti? An impasta! 🍝 |
+| 7 | Why don't eggs tell each other jokes? They might crack up! 🥚😆 |
+| 8 | What do you call a snowman with a six-pack? An abdominal snowman! ⛄💪 |
+| 9 | Why did the scarecrow win an award? Because he was outstanding in his field! 🌾🏆 |
+| 10 | What do you call a boomerang that won't come back? A stick! 🪵 |
 
 ## Licensec
 Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
 This project contains the main features of the dx application.
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
-This is BeingOfExistence Signing or I say Hacking(Cool umm... name-of-new-login and singning systems or just name made by me BeingOfExistence)!!!!!
+This is BeingOfExistence Signing out or I say Hacking(Cool umm... name-of-new-login and singning systems or just name made by me BeingOfExistence)!!!
