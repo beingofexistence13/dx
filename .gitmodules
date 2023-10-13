@@ -109,6 +109,4 @@
 [submodule "vite"]
 	path = vite
 	url = https://github.com/vitejs/vite
-[submodule "vue"]
-	path = vue
-	url = https://github.com/vuejs/vue-next
+
