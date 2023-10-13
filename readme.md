@@ -154,7 +154,7 @@ bun start
   | 8   | AWS Cloud9 |
 </details>
 
-### tomorrow is a mystery, yesterday is a history we only live in today and that's why this is present. So, here is your present:
+### tomorrow is a mystery, yesterday is history; we only live in today and that's why it's called present. So, here is your 10 presents:
 | No. | Joke |
 | --- | --- |
 | 1 | Why don't scientists trust atoms? Because they make up everything! 😄 |
