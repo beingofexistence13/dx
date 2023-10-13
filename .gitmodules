@@ -110,3 +110,6 @@
 	path = vite
 	url = https://github.com/vitejs/vite
 
+[submodule "vue-next"]
+	path = vue-next
+	url = https://github.com/vuejs/vue-next
