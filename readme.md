@@ -109,49 +109,49 @@ bun start
   <summary>Web3</summary>
   German: Hallo, here is the information in a table format:
 
-| List | Provider |
-| --- | ---- |
-| 1   | Moralis |
-| 2   | Thirdweb |
-| 3   | Quicknode + Alchemy + Metaplex |
+  | List | Provider |
+  | --- | ---- |
+  | 1   | Moralis |
+  | 2   | Thirdweb |
+  | 3   | Quicknode + Alchemy + Metaplex |
 </details>
 
 <details>
   <summary>(Componets) -> i think scripts are playing an important role in the connection of components and components library has</summary>
   Italian: Ciao, here is the information in a table format:
 
-| Things | Logic |
-| --- | ---- |
-| 1   | types |
-| 2   | varients |
-| 3   | forwardRef |
-| 4   | interfaces |
+  | Things | Logic |
+  | --- | ---- |
+  | 1   | types |
+  | 2   | varients |
+  | 3   | forwardRef |
+  | 4   | interfaces |
 </details>
 
 <details>
   <summary>(Cli) -> and about cli it is optained based</summary>
   Arabic: مرحبا (Marhaba), here is the information in a table format:
 
-| Things | Logic |
-| --- | ---- |
-| 1   | node_modules = have no benefits |
-| 2   | src path or custom path = looks good but should be more resusable |
+  | Things | Logic |
+  | --- | ---- |
+  | 1   | node_modules = have no benefits |
+  | 2   | src path or custom path = looks good but should be more resusable |
 </details>
 
 <details>
   <summary>(Online Code Editors) -> This thing will be used at docs and my and also be my inspirations in making a code editor</summary>
   Spanish: Hola, here is the information in a table format:
 
-| List | Editor |
-| --- | ---- |
-| 1   | Gitpod |
-| 2   | Visual Studio Code(app + browser) |
-| 3   | Codesandbox |
-| 4   | Stackblitz |
-| 5   | CodePen |
-| 6   | JSFiddle |
-| 7   | JS Bin |
-| 8   | AWS Cloud9 |
+  | List | Editor |
+  | --- | ---- |
+  | 1   | Gitpod |
+  | 2   | Visual Studio Code(app + browser) |
+  | 3   | Codesandbox |
+  | 4   | Stackblitz |
+  | 5   | CodePen |
+  | 6   | JSFiddle |
+  | 7   | JS Bin |
+  | 8   | AWS Cloud9 |
 </details>
 
 
