@@ -70,8 +70,8 @@ const writeJson = async (filePath, data) =>
     )
   )
   await normalizeVersions(path.join(cwd, 'lerna.json'))
-  await fs.unlink(path.join(cwd, 'pnpm-lock.yaml'))
-  await fs.writeFile(path.join(cwd, 'pnpm-lock.yaml'), '')
+  await fs.unlink(path.join(cwd, 'bun-lock.yaml'))
+  await fs.writeFile(path.join(cwd, 'bun-lock.yaml'), '')
 
   const rootPkgJsonPath = path.join(cwd, 'package.json')
   await writeJson(rootPkgJsonPath, {

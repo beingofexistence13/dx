@@ -6,7 +6,7 @@
     "src"
   ],
   "scripts": {
-    "build": "pnpm types && ncc -m -o ./lib build src/index.ts --license licenses.txt",
+    "build": "bun types && ncc -m -o ./lib build src/index.ts --license licenses.txt",
     "types": "tsc"
   },
   "devDependencies": {

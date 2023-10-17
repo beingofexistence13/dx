@@ -8,5 +8,5 @@ In general, all warnings and errors added should have these links attached.
 
 Below are the steps to add a new link:
 
-1. Run `pnpm new-error` which will create the error document and update the manifest automatically.
+1. Run `bun new-error` which will create the error document and update the manifest automatically.
 2. At the end of the command the URL for the error will be provided, add that to your error.

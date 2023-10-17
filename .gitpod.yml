@@ -11,35 +11,35 @@ tasks:
         #   docker pull gitpod/openvscode-server
     # - name: nextui
     #   init: |
-    #       cd nextui && pnpm install
+    #       cd nextui && bun install
     #   command: |
-    #       cd apps/docs pnpm run dev
+    #       cd apps/docs bun run dev
     # - name: nextui
     #   init: |
-    #       cd nextui && pnpm install
+    #       cd nextui && bun install
     #   command: |
-    #       cd apps/docs pnpm run dev
+    #       cd apps/docs bun run dev
     # - name: dxcode
     #   init: |
     #       bash dxcode.sh
     #       cd openvscode-server-redesignded && yarn run installation && yarn run run-app && cd ..
     # - name: Nextui
     #   init: |
-    #       cd inspirations && cd www && pnpm install
-    #       pnpm run build
+    #       cd inspirations && cd www && bun install
+    #       bun run build
     #   command: |
-    #       pnpm run dev
+    #       bun run dev
     # - name: terminalflow-typescript
     #   init: |
-    #       cd packages && cd terminalflow && pnpm install
-    #       pnpm run typescript
+    #       cd packages && cd terminalflow && bun install
+    #       bun run typescript
     #   command: |
-    #       pnpm run dev
+    #       bun run dev
     # - name: terminalflow
     #   init: |
-    #       cd packages && cd terminalflow && pnpm install
+    #       cd packages && cd terminalflow && bun install
     #   command: |
-    #       pnpm run dev
+    #       bun run dev
     # - name: tailwindcss-documentation
     #   init: |
     #       cd inspirations &&
@@ -71,8 +71,8 @@ tasks:
     #       rm -rf .git
     # - name: WorkSpace
     #   init: |
-    #       pnpm install
-    #       pnpm run build
+    #       bun install
+    #       bun run build
     # - name: Terminal
     #   init: |
 

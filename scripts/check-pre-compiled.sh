@@ -9,7 +9,7 @@ cp node_modules/webpack/lib/hmr/JavascriptHotModuleReplacement.runtime.js src/bu
 cp node_modules/webpack/hot/lazy-compilation-node.js src/bundles/webpack/packages/
 cp node_modules/webpack/hot/lazy-compilation-web.js src/bundles/webpack/packages/
 
-pnpm run ncc-compiled
+bun run ncc-compiled
 
 cd ../../
 

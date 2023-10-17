@@ -5,7 +5,7 @@
 Before you start to run tests, you need to build project first:
 
 ```bash
-pnpm build
+bun build
 ```
 
 And for more detail about building, you can check out [building.md](./building.md)
@@ -17,20 +17,20 @@ For example, running one test in the production test suite:
 Running one test in the `test/integration/production` test suite:
 
 ```sh
-pnpm testheadless test/integration/production/ -t "should allow etag header support"
+bun testheadless test/integration/production/ -t "should allow etag header support"
 ```
 
 Running all tests in the `test/integration/production` test suite:
 
 ```sh
-pnpm testheadless test/integration/production/
+bun testheadless test/integration/production/
 ```
 
-When you want to debug a particular test you can replace `pnpm testheadless` with `pnpm testonly` to opt out of the headless browser.
+When you want to debug a particular test you can replace `bun testheadless` with `bun testonly` to opt out of the headless browser.
 When the test runs it will open the browser that is in the background by default, allowing you to inspect what is on the screen.
 
 ```sh
-pnpm testonly test/integration/production/ -t "should allow etag header support"
+bun testonly test/integration/production/ -t "should allow etag header support"
 ```
 
 **End-to-end (e2e)** tests are run in complete isolation from the repository.
@@ -42,7 +42,7 @@ After all tests have finished, the server is destroyed and all remaining files a
 
 ### Getting Started
 
-You can set up a new test using `pnpm new-test` which will start from a template related to the test type.
+You can set up a new test using `bun new-test` which will start from a template related to the test type.
 
 ### Test Types in Next.js
 
@@ -65,16 +65,16 @@ If a test suite already exists that relates closely to the item being tested (e.
 
 ### Helpful environment variables
 
-Some test-specific environment variables can be used to help debug isolated tests better, these can be leveraged by prefixing the `pnpm test` command.
+Some test-specific environment variables can be used to help debug isolated tests better, these can be leveraged by prefixing the `bun test` command.
 
-- When investigating failures in isolated tests you can use `NEXT_TEST_SKIP_CLEANUP=1` to prevent deleting the temp folder created for the test, then you can run `pnpm next` while inside of the temp folder to debug the fully set-up test project.
+- When investigating failures in isolated tests you can use `NEXT_TEST_SKIP_CLEANUP=1` to prevent deleting the temp folder created for the test, then you can run `bun next` while inside of the temp folder to debug the fully set-up test project.
 - You can also use `NEXT_SKIP_ISOLATE=1` if the test doesn't need to be installed to debug and it will run inside of the Next.js repo instead of the temp directory, this can also reduce test times locally but is not compatible with all tests.
-- The `NEXT_TEST_MODE` env variable allows toggling specific test modes for the `e2e` folder, it can be used when not using `pnpm test-dev` or `pnpm test-start` directly. Valid test modes can be seen here: https://github.com/vercel/next.js/blob/aa664868c102ddc5adc618415162d124503ad12e/test/lib/e2e-utils.ts#L46
-- You can use `NEXT_TEST_PREFER_OFFLINE=1` while testing to configure the package manager to include the [`--prefer-offline`](https://pnpm.io/cli/install#--prefer-offline) argument during test setup. This is helpful when running tests in internet restricted environments such as planes or public wifi.
+- The `NEXT_TEST_MODE` env variable allows toggling specific test modes for the `e2e` folder, it can be used when not using `bun test-dev` or `bun test-start` directly. Valid test modes can be seen here: https://github.com/vercel/next.js/blob/aa664868c102ddc5adc618415162d124503ad12e/test/lib/e2e-utils.ts#L46
+- You can use `NEXT_TEST_PREFER_OFFLINE=1` while testing to configure the package manager to include the [`--prefer-offline`](https://bun.io/cli/install#--prefer-offline) argument during test setup. This is helpful when running tests in internet restricted environments such as planes or public wifi.
 
 ### Debugging
 
-When tests are run in CI and a test failure occurs we attempt to capture traces of the playwright run to make debugging the failure easier. A test-trace artifact should be uploaded after the workflow completes which can be downloaded, unzipped, and then inspected with `pnpm playwright show-trace ./path/to/trace`
+When tests are run in CI and a test failure occurs we attempt to capture traces of the playwright run to make debugging the failure easier. A test-trace artifact should be uploaded after the workflow completes which can be downloaded, unzipped, and then inspected with `bun playwright show-trace ./path/to/trace`
 
 ### Profiling tests
 

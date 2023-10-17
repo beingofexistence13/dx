@@ -4888,9 +4888,9 @@ For details on how to use Dx, check out our [documentation](https://dx-emon-sumo
 
 ## Contributing
 
-This project uses [pnpm](https://pnpm.io/) to install dependencies and run scripts.
+This project uses [bun](https://bun.io/) to install dependencies and run scripts.
 
-You can use the `dev` script to run local changes as if you were invoking Dx CLI. For example, `vercel deploy --cwd=/path/to/project` could be run with local changes with `pnpm dev deploy --cwd=/path/to/project`.
+You can use the `dev` script to run local changes as if you were invoking Dx CLI. For example, `vercel deploy --cwd=/path/to/project` could be run with local changes with `bun dev deploy --cwd=/path/to/project`.
 
 See the [Contributing Guidelines](./.github/CONTRIBUTING.md) for more details.
 

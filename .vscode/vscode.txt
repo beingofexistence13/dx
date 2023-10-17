@@ -127,7 +127,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "dev", "test/e2e/app-dir/app"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -139,7 +139,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "build", "test/e2e/app-dir/app"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -151,7 +151,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "dev", "examples/hello-world"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -163,7 +163,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "build", "examples/hello-world"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -175,7 +175,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "start", "examples/hello-world"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -187,7 +187,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["debug", "dev", "${fileDirname}"],
       "skipFiles": ["<node_internals>/**"],
       "env": {
@@ -199,7 +199,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}",
-      "runtimeExecutable": "pnpm",
+      "runtimeExecutable": "bun",
       "runtimeArgs": ["clean-trace-jaeger"],
       "skipFiles": ["<node_internals>/**"],
       "env": {

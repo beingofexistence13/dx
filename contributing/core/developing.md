@@ -15,19 +15,19 @@ To develop locally:
    ```
    git checkout -b MY_BRANCH_NAME origin/canary
    ```
-1. Enable pnpm:
+1. Enable bun:
    ```
-   corepack enable pnpm
+   corepack enable bun
    ```
 1. Install the dependencies with:
    ```
-   pnpm install
+   bun install
    ```
 1. Start developing and watch for code changes:
    ```
-   pnpm dev
+   bun dev
    ```
-1. In a new terminal, run `pnpm types` to compile declaration files from
+1. In a new terminal, run `bun types` to compile declaration files from
    TypeScript.
    _Note: You may need to repeat this step if your types get outdated._
 1. When your changes are finished, commit them to the branch:

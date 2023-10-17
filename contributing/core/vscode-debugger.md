@@ -20,7 +20,7 @@ Any Next.js app inside the monorepo can be debugged with these configurations. F
 4. Save the file.
 5. Now you can start the debugger and it will run against the `examples/hello-world` app!
 
-To see the changes you make to the Next.js codebase during development, you can run `pnpm dev` in the root directory, which will watch for file changes in `packages/next` and recompile the Next.js source code on any file saves.
+To see the changes you make to the Next.js codebase during development, you can run `bun dev` in the root directory, which will watch for file changes in `packages/next` and recompile the Next.js source code on any file saves.
 
 ## Breakpoints
 

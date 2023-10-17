@@ -12,7 +12,7 @@ When you add an example to the [examples](https://github.com/vercel/next.js/tree
 - Use `export default function` for page components and API Routes instead of `const`/`let` (The exception is if the page has `getInitialProps`, in which case [`NextPage`](https://nextjs.org/docs/api-reference/data-fetching/get-initial-props#typescript) could be useful)
 - CMS example directories should be prefixed with `cms-`
 - Example directories should not be prefixed with `with-`
-- Make sure linting passes (you can run `pnpm build && pnpm lint` to verify and `pnpm lint-fix` for automatic fixes)
+- Make sure linting passes (you can run `bun build && bun lint` to verify and `bun lint-fix` for automatic fixes)
 
 Also, don’t forget to add a `README.md` file with the following format:
 
@@ -39,7 +39,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [bun](https://bun.io) to bootstrap the example:
 
 ```bash
 npx create-next-app --example DIRECTORY_NAME DIRECTORY_NAME-app
@@ -50,7 +50,7 @@ yarn create next-app --example DIRECTORY_NAME DIRECTORY_NAME-app
 ```
 
 ```bash
-pnpm create next-app --example DIRECTORY_NAME DIRECTORY_NAME-app
+bun create next-app --example DIRECTORY_NAME DIRECTORY_NAME-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

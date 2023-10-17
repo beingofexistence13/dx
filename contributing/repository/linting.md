@@ -5,13 +5,13 @@ The Next.js repository runs [ESLint](https://eslint.org), [Prettier](https://pre
 To lint all code you can run:
 
 ```sh
-pnpm lint
+bun lint
 ```
 
 If you get errors, you can run the ESLint and Prettier auto-fix using:
 
 ```sh
-pnpm lint-fix
+bun lint-fix
 ```
 
 Not all rules can be auto-fixed, those require manual changes.

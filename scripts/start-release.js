@@ -124,8 +124,8 @@ async function main() {
     shell: true,
   })
 
-  console.log(`Running pnpm release-${isCanary ? 'canary' : 'stable'}...`)
-  const child = execa(`pnpm release-${isCanary ? 'canary' : 'stable'}`, {
+  console.log(`Running bun release-${isCanary ? 'canary' : 'stable'}...`)
+  const child = execa(`bun release-${isCanary ? 'canary' : 'stable'}`, {
     stdio: 'pipe',
     shell: true,
   })

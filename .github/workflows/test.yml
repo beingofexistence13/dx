@@ -18,25 +18,25 @@ jobs:
         with:
           node-version: 16
 
-      - uses: pnpm/action-setup@v2.2.4
-        name: Install pnpm
-        id: pnpm-install
+      - uses: bun/action-setup@v2.2.4
+        name: Install bun
+        id: bun-install
         with:
           version: 8.6.1
           run_install: false
 
-      - name: Get pnpm store directory
-        id: pnpm-cache
+      - name: Get bun store directory
+        id: bun-cache
         run: |
-          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
+          echo "bun_cache_dir=$(bun store path)" >> $GITHUB_OUTPUT
       - uses: actions/cache@v3
-        name: Setup pnpm cache
+        name: Setup bun cache
         with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          path: ${{ steps.bun-cache.outputs.bun_cache_dir }}
+          key: ${{ runner.os }}-bun-store-${{ hashFiles('**/bun-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+            ${{ runner.os }}-bun-store-
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
 
-      - run: pnpm test
+      - run: bun test

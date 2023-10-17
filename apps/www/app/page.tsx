@@ -1713,7 +1713,7 @@ const github_repos = [
     description: "Node.js Production Process Manager with a built-in Load Balancer."
   },
   {
-    title: "pnpm",
+    title: "bun",
     description: "Fast, disk space efficient package manager"
   },
   {

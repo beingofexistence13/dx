@@ -10,10 +10,10 @@ const fetch = require('node-fetch')
 // Use this script to update Next's vendored copy of React and related packages:
 //
 // Basic usage (defaults to most recent React canary version):
-//   pnpm run sync-react
+//   bun run sync-react
 //
 // Update package.json but skip installing the dependencies automatically:
-//   pnpm run sync-react --no-install
+//   bun run sync-react --no-install
 
 async function sync(channel = 'next') {
   const noInstall = readBoolArg(process.argv, 'no-install')
@@ -28,7 +28,7 @@ async function sync(channel = 'next') {
         'version',
       ],
       {
-        // Avoid "Usage Error: This project is configured to use pnpm".
+        // Avoid "Usage Error: This project is configured to use bun".
         cwd: '/tmp',
       }
     )
@@ -99,7 +99,7 @@ Or, run this command with no arguments to use the most recently published versio
   } else {
     console.log('Installing dependencies...\n')
 
-    const installSubprocess = execa('pnpm', ['install'])
+    const installSubprocess = execa('bun', ['install'])
     if (installSubprocess.stdout) {
       installSubprocess.stdout.pipe(process.stdout)
     }
@@ -111,7 +111,7 @@ Or, run this command with no arguments to use the most recently published versio
     }
 
     console.log('Building vendored React files...\n')
-    const nccSubprocess = execa('pnpm', ['taskr', 'copy_vendor_react'], {
+    const nccSubprocess = execa('bun', ['taskr', 'copy_vendor_react'], {
       cwd: path.join(cwd, 'packages', 'next'),
     })
     if (nccSubprocess.stdout) {
@@ -152,8 +152,8 @@ Or, run this command with no arguments to use the most recently published versio
       `
 To finish upgrading, complete the following steps:
 
-- Install the updated dependencies: pnpm install
-- Build the vendored React files: (inside packages/next dir) pnpm taskr ncc
+- Install the updated dependencies: bun install
+- Build the vendored React files: (inside packages/next dir) bun taskr ncc
 
 Or run this command again without the --no-install flag to do both automatically.
     `

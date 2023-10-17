@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: Use PNPM
-        uses: pnpm/action-setup@v2.2.4
+        uses: bun/action-setup@v2.2.4
         with:
           version: 8.6.1
 
@@ -31,10 +31,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: "pnpm"
+          cache: "bun"
 
       - name: Install NPM Dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Modify package.json version
         run: node .github/version-script-beta.js
@@ -45,7 +45,7 @@ jobs:
           NPM_ACCESS_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
 
       - name: Publish Beta to NPM
-        run: pnpm pub:beta
+        run: bun pub:beta
 
       - name: get-npm-version
         id: package-version

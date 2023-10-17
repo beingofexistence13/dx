@@ -40,7 +40,7 @@ body:
         - 'Metadata (metadata, generateMetadata, next/head)'
         - 'Middleware / Edge (API routes, runtime)'
         - 'Operating System (Windows, MacOS, Linux)'
-        - 'Package manager (npm, pnpm, Yarn)'
+        - 'Package manager (npm, bun, Yarn)'
         - 'Routing (next/router, next/navigation, next/link)'
         - 'Script optimization (next/script)'
         - 'Standalone mode (output: "standalone")'

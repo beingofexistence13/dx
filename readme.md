@@ -17,7 +17,7 @@ Will update later(07/01/2023 --- 5:27 PM)!!!
 ## `beingofexistence/dx -> Getting Started`
 
 <details>
-<summary>So, dx by defaul uses new blazing fast bun runtime bun you can also use npm,yarn and pnpm if you want</summary>
+<summary>So, dx by defaul uses new blazing fast bun runtime bun you can also use npm,yarn and bun if you want</summary>
 
 ```sh
 bun
