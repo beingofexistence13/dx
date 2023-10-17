@@ -152,9 +152,6 @@
     "vaul": "^0.2.0",
     "zod": "^3.21.4",
     "zustand": "^4.1.5",
-
-
-
     "@babel/core": "^7.22.1",
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.1",
@@ -233,5 +230,6 @@
     "hello",
     "aladdin"
   ],
-  "description": "hello from DX"
+  "description": "hello from DX",
+  "packageManager": "bun@1.0.6"
 }
