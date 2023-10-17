@@ -16,7 +16,7 @@ export function rehypeNpmCommand() {
           "npm install",
           "yarn add"
         )
-        node.properties["__bunCommand__"] = npmCommand.replace(
+        node.properties["__pnpmCommand__"] = npmCommand.replace(
           "npm install",
           "bun add"
         )
@@ -30,7 +30,7 @@ export function rehypeNpmCommand() {
           "npx create-",
           "yarn create "
         )
-        node.properties["__bunCommand__"] = npmCommand.replace(
+        node.properties["__Command__"] = npmCommand.replace(
           "npx create-",
           "bun create "
         )
@@ -44,7 +44,7 @@ export function rehypeNpmCommand() {
         const npmCommand = node.properties?.["__rawString__"]
         node.properties["__npmCommand__"] = npmCommand
         node.properties["__yarnCommand__"] = npmCommand
-        node.properties["__bunCommand__"] = npmCommand.replace(
+        node.properties["__pnpmCommand__"] = npmCommand.replace(
           "npx",
           "bun dlx"
         )

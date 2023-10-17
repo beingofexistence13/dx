@@ -175,7 +175,7 @@ const components = {
     __npmCommand__,
     __yarnCommand__,
     __bunCommand__,
-    __bunCommand__,
+    __pnpmCommand__,
     __withMeta__,
     __src__,
     __event__,
@@ -208,13 +208,13 @@ const components = {
         {__npmCommand__ &&
           __yarnCommand__ &&
           __bunCommand__ &&
-          __bunCommand__ && (
+          __pnpmCommand__ && (
             <CopyNpmCommandButton
               commands={{
                 __npmCommand__,
                 __yarnCommand__,
                 __bunCommand__,
-                __bunCommand__,
+                __pnpmCommand__,
               }}
               className={cn("absolute right-4 top-4", __withMeta__ && "top-16")}
             />
