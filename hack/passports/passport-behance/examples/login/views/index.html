@@ -1,9 +1,0 @@
-{% extends 'layout.html' %}
-{% block content %}
-{% if (!user)  %}
-	<h2>Welcome! Please log in.</h2>
-{% endif %}
-{% if (user)  %}
-	<h2>Hello, {{ user.displayName }}.</h2>
-{% endif %}
-{% endblock %}

@@ -1,7 +1,0 @@
-<% if (!user) { %>
-	<h2>Welcome! Please log in.</h2>
-    <a href="/auth/eyeem">Login with Eyeem</a>
-<% } else { %>
-	<h2><img src="<%= user._json.user.thumbUrl %>" style="float:left;"/> Hello, <%= user.username %>.</h2>
-    Visit <a href="<%= user._json.user.webUrl %>" target="_blank">your Eyeem profile</a>
-<% } %>

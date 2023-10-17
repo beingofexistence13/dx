@@ -1,1 +1,0 @@
-module.exports = require('./strategy-default-parent')

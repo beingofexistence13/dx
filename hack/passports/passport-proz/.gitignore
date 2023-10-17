@@ -1,7 +1,0 @@
-node_modules/
-npm-debug.log
-.vscode
-*~
-
-# Mac OS X
-.DS_Store

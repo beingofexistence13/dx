@@ -1,7 +1,0 @@
-examples/
-README.md
-
-.git*
-
-node_modules/
-.npmignore

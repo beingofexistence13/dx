@@ -1,9 +1,0 @@
-<% if (!user) { %>
-    <h1>Welcome! Please log in.</h1>
-    <a href="/auth/maltio">Login with Malt.io</a>
-<% } else { %>
-    <h1>Hello, <img src="<%- user.photos[0].value.replace('SIZE', '32') %>"/> <%= user.displayName %>.</h1>
-    Your email is: <%= user.emails[0].value %>
-    <br/>
-    <a href="/logout">Log out</a>
-<% } %>

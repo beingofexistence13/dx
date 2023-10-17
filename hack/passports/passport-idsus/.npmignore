@@ -1,8 +1,0 @@
-coverage/
-test/
-node_modules/
-
-.codeclimate.yml
-.jshintrc
-.jshintignore
-.travis.yml

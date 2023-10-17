@@ -1,9 +1,0 @@
-{
-    "validationContracts": ["anomaly"],
-    "object": [
-      {
-        "type": "anomaly"
-      }
-    ]
-  }
-  

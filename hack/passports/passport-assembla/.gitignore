@@ -1,5 +1,0 @@
-node_modules/*
-examples/login/npm-debug.log
-examples/login/node_modules/*
-*.sw[opn]
-npm-debug.log
