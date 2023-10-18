@@ -63,6 +63,15 @@ const UserLayout = () => {
             <NewYorkToaster />
             <DefaultToaster />
 
+            {/* status action */}
+            <div className="status-action fixed bottom-0 left-[50%] hidden h-[40px] w-[750px] translate-x-[-50%] flex-row items-center justify-center rounded-t-lg border-x border-t py-1 text-xs lg:flex">Status Action
+                {/* <div
+                    className="flex h-20 w-40 items-center justify-center rounded-lg border-2 border-sky-200 text-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"
+                >
+                    Neon container
+                </div> */}
+
+            </div>
             {/* favdrop */}
             <div className="favdrop absolute bottom-[75px] right-[17.5px] z-10 flex h-auto w-auto items-center justify-center rounded-md p-3">
                 {/* <Avatar className="pulsate-fwd h-[30px] w-[30px]">
@@ -1142,7 +1151,6 @@ const UserLayout = () => {
                     <div className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-lime-100 via-lime-300 to-lime-200"></div>
                     <div className="h-1.5 w-1.5 rounded-full bg-gradient-to-tl from-yellow-400 via-yellow-400 to-white"></div>
                 </div>
-                <div className="status-action flex h-auto w-full flex-1 flex-row items-center justify-center rounded-md border-x border-t py-1 text-xs">Status Action</div>
 
                 <div className="status-panel flex h-auto w-auto flex-row items-center justify-between space-x-3 rounded-tl-xl border-l border-t px-1.5 py-1 text-xs">
                     <h1 className="flex items-center justify-center rounded-md p-1 text-center hover:bg-[--code-foreground]">50 backlinks</h1>
