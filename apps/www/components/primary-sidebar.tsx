@@ -40,7 +40,7 @@ export function PrimarySidebar() {
             <DropdownMenuTrigger asChild>
                 <Button
                     variant="ghost"
-                    className="nav-toggles h-24 px-2 py-5 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 2xs:hidden xs:hidden sm:hidden lg:flex"
+                    className="nav-toggles 2xs:hidden xs:hidden h-24 px-2 py-5 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 sm:hidden lg:flex"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
