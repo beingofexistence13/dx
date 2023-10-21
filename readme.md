@@ -177,4 +177,4 @@ Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/mai
 This project contains the main features of the dx application.
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project. -->
 
-This is BeingOfExistence Signing out or I say Hacking(Cool umm... name-of-new-login and singning systems or just name made by me BeingOfExistence)!!!
+This is BeingOfExistence Signing out or I say Hacking out(Cool umm... name-of-new-login and singning systems or just name made by me)!!!
