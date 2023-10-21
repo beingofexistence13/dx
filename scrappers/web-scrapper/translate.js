@@ -2,6 +2,9 @@
 import { TextToSpeechClient } from '@google-cloud/text-to-speech';
 import fs from 'fs';
 import util from 'util';
+import progressStream from 'progress-stream';
+
+console.log("Sumon, I donot what is taking so much long");
 
 // Function to convert text to speech
 export async function quickStart() {
@@ -14,18 +17,20 @@ export async function quickStart() {
 
   const [response] = await client.synthesizeSpeech(request);
   
-  let progress = 0;
-  const fileWriteStream = fs.createWriteStream('output.mp3');
-  
-  fileWriteStream.on('data', (chunk) => {
-    progress += chunk.length;
-    console.log(`Received ${progress} bytes of data.`);
+  const progress = progressStream({
+    length: response.audioContent.length,
+    time: 100 /* ms */
   });
 
+  progress.on('progress', (progress) => {
+    console.log(progress);
+  });
+
+  const fileWriteStream = fs.createWriteStream('output.mp3');
+  
   fileWriteStream.on('finish', () => console.log('Audio content written to file: output.mp3'));
 
-  fileWriteStream.write(response.audioContent, 'binary');
-  fileWriteStream.end();
+  progress.pipe(fileWriteStream).end(response.audioContent);
 }
 
 quickStart();
