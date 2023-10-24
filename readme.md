@@ -150,7 +150,22 @@ bun start
   | 8   | AWS Cloud9 |
 </details>
 
-### tomorrow is a mystery, yesterday is history; we only live in today and that's why it's called present. So, here is your 10 presents:
+| Library       | Description                                                                     | Website                                                                                            |
+|---------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Anime.js      | A lightweight JavaScript animation library with a simple API.                   | Anime.js: https://animejs.com/                                                                     |
+| GSAP          | A powerful JavaScript animation library with a wide range of features.          | GreenSock Animation Platform (GSAP): https://gsap.com/)                                            |
+| Velocity.js   | A JavaScript animation library focused on performance.                          | Velocity.js: http://velocityjs.org/                                                                |
+| Mo.js         | A JavaScript animation library for creating motion graphics.                    | Mo.js: https://mojs.github.io/                                                                     |
+| Vivus         | A JavaScript animation library for animating SVGs.                              | Vivus: https://www.vivus.com/                                                                      |
+| Snap.svg      | A JavaScript library for manipulating SVGs.                                     | Snap.svg: http://snapsvg.io/                                                                       |
+| TweenMax      | A JavaScript animation library from the GreenSock Animation Platform.           | TweenMax: https://m.youtube.com/watch?v=tI5fF5-1kCo                                                |
+| Bounce.js     | A JavaScript animation library for creating bouncy effects.                     | Bounce.js: https://bouncejs.com/                                                                   |
+| Elastic.js    | A JavaScript animation library for creating elastic effects.                    | Elastic.js: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html |
+| AnimeOnScroll | A JavaScript animation library for animating elements as they scroll into view. | AnimeOnScroll: https://www.youtube.com/watch?v=W96_d_LKie4                                         |
+| ScrollReveal  | A JavaScript animation library for revealing elements as they scroll into view. | ScrollReveal: https://scrollrevealjs.org/                                                          |
+| WOW.js        | A JavaScript animation library for animating elements as they scroll into view. | WOW.js: https://wowjs.uk/                                                                          |
+
+### Tommorow is a mystery, Yesterday is history; we only live in Today and that's why it's called Present. So, here is your 10 presents:
 | No. | Joke |
 | --- | --- |
 | 1 | Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25! 🎃🎄 |
