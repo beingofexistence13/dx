@@ -150,6 +150,44 @@ bun start
   | 8   | AWS Cloud9 |
 </details>
 
+<details>
+  <summary>React UI Frameworks</summary>
+  here is the information in a table format:
+
+| Rank | Library              | Github Stars |
+|------|----------------------|--------------|
+| 1    | Material UI (MUI)    | 78.5k        |
+| 2    | Ant Design (AntD)    | 77.2k        |
+| 3    | Chakra UI            | 47.9k        |
+| 4    | React Bootstrap      | 45.3k        |
+| 5    | Blueprint            | 19.7k        |
+| 6    | Grommet              | 17.6k        |
+| 7    | Rebass               | 17.3k        |
+| 8    | Semantic UI React    | 17k          |
+| 9    | Evergreen            | 16.8k        |
+| 10   | Mantine              | 16.6k        |
+| 11   | NextUI               | 15.5k        |
+| 12   | Theme UI             | 13.8k        |
+| 13   | Retool               | 12.2k        |
+| 14   | PrimeReact           | 11.7k        |
+| 15   | Fluent UI            | 11k          |
+| 16   | VisX                 | 10.8k        |
+| 17   | Headless UI          | 10.7k        |
+| 18   | React Suite          | 10.3k        |
+| 19   | React Admin          | 10.3k        |
+| 20   | Reach UI             | 9.9k         |
+| 21   | Emotion UI           | 9.6k         |
+| 22   | Fluent Design System | 9.1k         |
+| 23   | BaseWeb              | 8.9k         |
+| 24   | React Spectrum       | 8.6k         |
+| 25   | Arwes                | 8.5k         |
+| 26   | React Toolbox        | 8.4k         |
+| 27   | Reactstrap           | 8.1k         |
+| 28   | Onsen UI             | 7.7k         |
+| 29   | React Virtualized    | 7.6k         |
+| 30   | Radix UI             | 7.5k         |
+</details>
+
 | Library       | Description                                                                     | Website                                                                                            |
 |---------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | Anime.js      | A lightweight JavaScript animation library with a simple API.                   | Anime.js: https://animejs.com/                                                                     |
