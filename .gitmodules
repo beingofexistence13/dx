@@ -1,0 +1,15 @@
+[submodule "inspirations/react"]
+	path = inspirations/react
+	url = https://github.com/facebook/react.git
+[submodule "inspirations/astro"]
+	path = inspirations/astro
+	url = https://github.com/withastro/astro.git
+[submodule "inspirations/next.js"]
+	path = inspirations/next.js
+	url = https://github.com/vercel/next.js.git
+[submodule "inspirations/angular"]
+	path = inspirations/angular
+	url = https://github.com/angular/angular.git
+[submodule "inspirations/nuxt"]
+	path = inspirations/nuxt
+	url = https://github.com/nuxt/nuxt.git
