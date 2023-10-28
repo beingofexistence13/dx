@@ -1,15 +1,9 @@
 {
   "recommendations": [
-    // Linting / Formatting
     "bradlc.vscode-tailwindcss",
     "pkief.material-icon-theme",
-    "ritwickdey.liveserver",
-    // PR management / Reviewing
     "dbaeumer.vscode-eslint",
-    // Collaborating
-    "ms-vsliveshare.vsliveshare",
     "hoovercj.vscode-power-mode",
-    // MDX Authoring
     "github.github-vscode-theme",
     "eamodio.gitlens"
   ]
