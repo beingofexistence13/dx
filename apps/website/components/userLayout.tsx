@@ -12,42 +12,6 @@ import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
 import { TailwindIndicator } from "./tailwind-indicator";
 import { Activitybar } from "./activitybar";
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  ContextMenu,
-  ContextMenuContent,
-  ContextMenuItem,
-  ContextMenuTrigger,
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-  Menubar,
-  MenubarCheckboxItem,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarRadioGroup,
-  MenubarRadioItem,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarSub,
-  MenubarSubContent,
-  MenubarSubTrigger,
-  MenubarTrigger,
-  ScrollArea,
-  Separator,
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-  buttonVariants,
-} from "./ui";
 import Script from "next/script";
 
 const UserLayout = () => {
@@ -57,7 +21,7 @@ const UserLayout = () => {
   return (
     <div>
 
-      {/* <UserHeader />
+      <UserHeader />
       <Activitybar />
       {HelloToolSelector ? "" : <HelloTool />}
 
@@ -131,9 +95,9 @@ const UserLayout = () => {
             13 caracters
           </h1>
         </div>
-      </div> */}
-      <h3>Friday</h3>
-      <h3>Messanger</h3>
+      </div>
+      {/* <h3>Friday</h3>
+      <h3>Messanger</h3> */}
 
     </div>
   );
