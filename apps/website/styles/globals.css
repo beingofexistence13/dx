@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -169,7 +169,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 *::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-thumb-active);
   border-radius: 14px;
-}
+} */
 
 
 
@@ -272,7 +272,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 
 
-/* 
+
 @import "https://unpkg.com/open-props";
 
 @tailwind base;
@@ -1180,4 +1180,4 @@ box-shadow: none !important;
 
 .collab{
   margin: 0 !important;
-} */
+}

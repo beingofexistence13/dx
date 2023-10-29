@@ -443,21 +443,21 @@ export function UserHeader() {
               </div>
             </div>
           </HoverCardTrigger>
-          <HoverCardContent className="ml-[70px] flex h-[35px] w-80 items-center justify-center">
+          <HoverCardContent className="ml-[70px] flex h-auto w-80 items-center justify-center">
             <div className="flex justify-between space-x-4">
               <Avatar>
-                <AvatarImage src="https://github.com/vercel.png" />
+                <AvatarImage src="/beingofexistence.jpg" />
                 <AvatarFallback>DX</AvatarFallback>
               </Avatar>
               <div className="space-y-1">
-                <h4 className="text-sm font-semibold">@nextjs</h4>
+                <h4 className="text-sm font-semibold">@dx</h4>
                 <p className="text-sm">
-                  The React Framework created and maintained by @vercel.
+                  The WWW Frontend Solution maintained by @beingofexistence.
                 </p>
                 <div className="flex items-center pt-2">
                   <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
                   <span className="text-muted-foreground text-xs">
-                    Joined December 2021
+                    Joined December 2024
                   </span>
                 </div>
               </div>
