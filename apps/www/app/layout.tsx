@@ -94,23 +94,11 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <Redux>
             <Query>
-              {/* <Chakraui>
-                <PrimeReact>
-                  <Mantine>
-                    <main className="flex-1">
-                      <SiteLayout />
-                      {children}
-                    </main>
-                    <Script src="https://cdn.jsdelivr.net/gh/dashvars/dashvar/dist/dashvar-helpers.js" />
-                    <Script src="./node_modules/preline/dist/preline.js" />
-                  </Mantine>
-                </PrimeReact>
-              </Chakraui> */}
               <main className="flex-1">
                 <SiteLayout />
-                {/* <div className="w-auto h-full ml-[40px] z-0">
+                <div className="w-auto h-full ml-[40px] z-0">
                   {children}
-                </div> */}
+                </div>
               </main>
             </Query>
           </Redux>
