@@ -188,51 +188,11 @@ import {
 import { ArrowRightIcon } from "@radix-ui/react-icons"
 
 import { siteConfig } from "@/config/site"
-import { ExamplesNav } from "@/components/examples-nav"
-import {
-  PageHeader,
-  PageHeaderDescription,
-  PageHeaderHeading,
-} from "@/components/page-header"
 
-import DashboardPage from "@/app/examples/dashboard/page"
 
 export function Examples() {
   return (
     <div className="container relative">
-      <PageHeader className="pb-8">
-        <Link
-          href="/docs/changelog"
-          className="bg-muted inline-flex items-center rounded-lg px-3 py-1 text-sm font-medium"
-        >
-          🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-          <span className="sm:hidden">Style, a new CLI and more.</span>
-          <span className="hidden sm:inline">
-            Introducing Style, a new CLI and more.
-          </span>
-          <ArrowRightIcon className="ml-1 h-4 w-4" />
-        </Link>
-        <PageHeaderHeading>Build your component library.</PageHeaderHeading>
-        <PageHeaderDescription>
-          Beautifully designed components that you can copy and paste into your
-          apps. Accessible. Customizable. Open Source.
-        </PageHeaderDescription>
-        <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
-          <Link href="/docs" 
-          >
-            Get Started
-          </Link>
-          <Link
-            target="_blank"
-            rel="noreferrer"
-            href={siteConfig.links.github}
-          >
-            <Icons.gitHub className="mr-2 h-4 w-4" />
-            GitHub
-          </Link>
-        </div>
-      </PageHeader>
-      <ExamplesNav className="[&>a:first-child]:text-primary" />
       <section className="border-primary dark:border-muted space-y-8 overflow-hidden rounded-lg border-2 md:hidden">
         <Image
           src="/examples/dashboard-light.png"
@@ -251,7 +211,6 @@ export function Examples() {
       </section>
       <section className="hidden md:block">
         <div className="bg-background overflow-hidden rounded-lg border shadow">
-          <DashboardPage />
         </div>
       </section>
     </div>
