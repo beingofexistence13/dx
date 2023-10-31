@@ -4,29 +4,29 @@
 
 In this project I am trying to build a platform to make developer experience (as dx is the shortform) better. By using this developers will manage huge website project more efficiently.It is a huge project so I have devided it in smaller component's like:
 
-1. dx-authflow[having trouble to integrate authentication in your website? you need dx-authflow this thing got -: 536 social login options, all blockchain wallets supported in the world and 3 more awesome feature I just can't explain this project's features in this short description. I sure wasted so many time in this project. but the final results just make this hard work paid off 😊. I can promise you have never seen so much features in an authentication package!!! there is many things to say so just check the github repo -> https://github.com/beingofexistence/dx-authflow.git(status:COMPLETED-@1.0.0)
+1. dx-authflow[having trouble to integrate authentication in your website? you need dx-authflow this thing got -: 536 social login options, all blockchain wallets supported in the world and 3 more awesome feature I just can't explain this project's features in this short description. I sure wasted so many time in this project. but the final results just make this hard work paid off 😊. I can promise you have never seen so much features in an authentication package!!! there is many things to say so just check the github repo -> https://github.com/beingofexistence/dx-authflow.git (status:COMPLETED-@1.0.0)
 ]
 
 2. dx-ai[by using this package you can use any ai models strait from huggingface,openai or any ai models providers to your own website ->  https://github.com/beingofexistence/dx-ai.git (status:ALMOST_COMPLETED)]
 
-3. dx-blockchain[will asemble all ethreum,solana and cosmos based blockchain in only place means you can intregate your website to any of this blockchain providers by using this package ->  https://github.com/beingofexistence/dx-blockchain.git(status:ALMOST_COMPLETED)]
+3. dx-blockchain[will asemble all ethreum,solana and cosmos based blockchain in only place means you can intregate your website to any of this blockchain providers by using this package ->  https://github.com/beingofexistence/dx-blockchain.git (status:ALMOST_COMPLETED)]
 
-4. dx-frontend[will solve the headache of JavaScript frontend frameworks -> https://github.com/beingofexistence/dx-frontend.git(status:FAR_FROM_COMPLETED)]
+4. dx-frontend[will solve the headache of JavaScript frontend frameworks -> https://github.com/beingofexistence/dx-frontend.git (status:FAR_FROM_COMPLETED)]
 
-5. dx-backend[will give you a changce to use different backend backups for more sucurity of your users -> https://github.com/beingofexistence/dx-backend.git(status:FAR_FROM_COMPLETED)]
+5. dx-backend[will give you a changce to use different backend backups for more sucurity of your users -> https://github.com/beingofexistence/dx-backend.git (status:FAR_FROM_COMPLETED)]
 
 6. dx-database[will assemble all 465 databases in the world and make your applications user's data more accessible in fast and efficient way ->  https://github.com/beingofexistence/dx-database.git (status:FAR_FROM_COMPLETED)]
 
-7. dx-ui[by using this one ui library you can use most popular ui libraries like material-ui,ant-design,nextui,chakra-ui... total 30+ libraries at once ->  https://github.com/beingofexistence/dx-ui.git(status:ALMOST_COMPLETED)]
+7. dx-ui[by using this one ui library you can use most popular ui libraries like material-ui,ant-design,nextui,chakra-ui... total 30+ libraries at once ->  https://github.com/beingofexistence/dx-ui.git (status:ALMOST_COMPLETED)]
 
-8. dx-ux[there are like millions of javascript libraries that are great but not no one is literally not even aware of. that's why I maded this project to assemble them all keeping in mind optimization website and provide an ai to search for the right libraries for right 👍 not the most popular ones ->  https://github.com/beingofexistence/dx-ux.git(status:FAR_FROM_COMPLETED)]
+8. dx-ux[there are like millions of javascript libraries that are great but not no one is literally not even aware of. that's why I maded this project to assemble them all keeping in mind optimization website and provide an ai to search for the right libraries for right 👍 not the most popular ones ->  https://github.com/beingofexistence/dx-ux.git (status:FAR_FROM_COMPLETED)]
 
-9. dx-animeflow [this project will manage your website's icon - target to cover 5million icons in glassmorphisum,neon,rainbow,animated,sharp,fill,outlined and water-colored 💦 flavors,fonts and animations ->  https://github.com/beingofexistence/dx-animeflow.git(status:FAR_FROM_COMPLETED)]
+9. dx-animeflow [this project will manage your website's icon - target to cover 5million icons in glassmorphisum,neon,rainbow,animated,sharp,fill,outlined and water-colored 💦 flavors,fonts and animations ->  https://github.com/beingofexistence/dx-animeflow.git (status:FAR_FROM_COMPLETED)]
 
-10. dx-paymentflow[ will provide you all payment dealing providers -> https://github.com/beingofexistence/dx-paymentflow.git(status:FAR_FROM_COMPLETED)]
+10. dx-paymentflow[ will provide you all payment dealing providers -> https://github.com/beingofexistence/dx-paymentflow.git (status:FAR_FROM_COMPLETED)]
 
 # OpenSource Cloning / Stealling
-Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer ---> DX Native -I know such a uniqe name \I know I am best at naming stuffs\ [And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
+Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer ---> DX Native -I know such a uniqe name "I know I am best at naming stuffs" [And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
 And many things are already maded by cool programmers.I can make it but it will littery take me months doing so.Most imporatant thing is that I donot like to build the wheel again and again in this way nothing is going to be better cause we donot live
 forever.But if you thing that this is unfair then look up to
 inspirations
@@ -252,8 +252,8 @@ Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/mai
 This project contains the main features of the dx application.
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project. -->
 
-This dx project also have a native platforms apps versions called dx-native -> https://github.com/beingofexistence/dx-native.git
+This dx project also have a native platforms apps versions called dx-native as I mentioned before -> https://github.com/beingofexistence/dx-native.git
 
 In conclusion dx aims to make developer experience better. This project is still on its earlier stages but I really excited for this project and try my best to offer developers a useful project😊!!!
 
-Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter in jjk(off topic 🙄) + This is BeingOfExistence signing out!!!
+Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter in JJK(off topic 🙄) + This is BeingOfExistence signing out!!!
