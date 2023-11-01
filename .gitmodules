@@ -13,3 +13,9 @@
 [submodule "inspirations/nuxt"]
 	path = inspirations/nuxt
 	url = https://github.com/nuxt/nuxt.git
+[submodule "inspirations/bun"]
+	path = inspirations/bun
+	url = https://github.com/beingofexistence/bun.git
+[submodule "inspirations/nodejs"]
+	path = inspirations/nodejs
+	url = https://github.com/beingofexistence/nodejs.git
