@@ -19,3 +19,6 @@
 [submodule "inspirations/nodejs"]
 	path = inspirations/nodejs
 	url = https://github.com/beingofexistence/nodejs.git
+[submodule "inspirations/docker-compose"]
+	path = inspirations/docker-compose
+	url = https://github.com/beingofexistence/docker-compose.git
