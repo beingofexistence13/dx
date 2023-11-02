@@ -254,6 +254,6 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 
 This dx project also have a native platforms apps versions called dx-native as I mentioned before -> https://github.com/beingofexistence/dx-native.git
 
-In conclusion dx aims to make developer experience better. This project is still on its earlier stages but I really excited for this project and will try my best to offer developers a useful project😊!!!
+In conclusion dx aims to make developer experience better. This project is still on its earlier stages but I am really excited for this project and will try my best to offer developers a useful project😊!!!
 
 Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter in JJK(off topic 🙄) + This is BeingOfExistence signing out!!!
