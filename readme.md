@@ -39,7 +39,7 @@ How to Steall || LOL Just kidding!!! || Anything made by me in exitence plus (an
 ## `beingofexistence/dx -> Getting Started`
 
 <details>
-<summary>So, dx by defaul uses new blazing fast bun runtime bun you can also use npm,yarn and bun if you want</summary>
+<summary>So, dx by default uses new blazing fast bun runtime but you can also use npm,yarn and pnpm if you want</summary>
 
 ```sh
 bun
