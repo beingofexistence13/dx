@@ -21,7 +21,7 @@ In this project I am trying to build a platform to make developer experience (as
 
 8. dx-ux[there are like millions of javascript libraries that are great but not no one is literally not even aware of. that's why I maded this project to assemble them all keeping in mind optimization website and provide an ai to search for the right libraries for right 👍 not the most popular ones ->  https://github.com/beingofexistence/dx-ux.git (status:FAR_FROM_COMPLETED)]
 
-9. dx-animeflow [this project will manage your website's icon - target to cover 5million icons in glassmorphisum,neon,rainbow,animated,sharp,fill,outlined and water-colored 💦 flavors,fonts and animations ->  https://github.com/beingofexistence/dx-animeflow.git (status:FAR_FROM_COMPLETED)]
+9. dx-animeflow [this project will manage your website's icon - target to cover 5million icons in glassmorphisum,neon,rainbow,animated,sharp,fill,outlined and water-colored 💦 flavors,fonts,dom + window + canvas,animated svg and browser consoles and animations ->  https://github.com/beingofexistence/dx-animeflow.git (status:FAR_FROM_COMPLETED)]
 
 10. dx-paymentflow[ will provide you all payment dealing providers -> https://github.com/beingofexistence/dx-paymentflow.git (status:FAR_FROM_COMPLETED)]
 
