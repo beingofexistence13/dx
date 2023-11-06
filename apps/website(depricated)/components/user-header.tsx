@@ -457,7 +457,7 @@ export function UserHeader() {
                 <div className="flex items-center pt-2">
                   <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
                   <span className="text-muted-foreground text-xs">
-                    Joined December 2024
+                    Joined December 2023
                   </span>
                 </div>
               </div>

@@ -92,7 +92,7 @@ const UserLayout = () => {
             99+ words
           </h1>
           <h1 className="flex items-center justify-center rounded-md p-1 text-center hover:bg-[--code-foreground]">
-            13 caracters
+            13 character
           </h1>
         </div>
       </div>
