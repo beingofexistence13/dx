@@ -7,7 +7,6 @@ import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster";
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster";
 
 import { Analytics } from "./analytics";
-import { DevMode } from "./dev-mode";
 import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
 import { TailwindIndicator } from "./tailwind-indicator";
@@ -57,7 +56,7 @@ const UserLayout = () => {
   return (
     <div>
 
-      {/* <UserHeader />
+      <UserHeader />
       <Activitybar />
       {HelloToolSelector ? "" : <HelloTool />}
 
@@ -131,9 +130,9 @@ const UserLayout = () => {
             13 caracters
           </h1>
         </div>
-      </div> */}
-      <h3>Friday</h3>
-      <h3>Messanger</h3>
+      </div>
+      {/* <h3>Friday</h3>
+      <h3>Messanger</h3> */}
 
     </div>
   );
