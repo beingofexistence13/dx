@@ -273,7 +273,7 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
 
 
 
-@import "https://unpkg.com/open-props";
+/* @import "https://unpkg.com/open-props"; */
 
 @tailwind base;
 @tailwind components;

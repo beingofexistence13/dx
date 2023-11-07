@@ -1698,7 +1698,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               />
                             </AspectRatio>
 
-                            <CardFooter className="rounded-large border-1 shadow-small absolute bottom-3 z-10 ml-1 w-[calc(100%_-_8px)] justify-between overflow-hidden border-white/20 py-1 before:rounded-xl before:bg-white/10">
+                            <CardFooter className="rounded-large border-1 shadow-small absolute bottom-3 z-10 ml-1 justify-between overflow-hidden border-white/20 py-1 before:rounded-xl before:bg-white/10">
                               <p className="text-tiny text-white/80">
                                 Support Developers At Huggingfacfe.
                               </p>

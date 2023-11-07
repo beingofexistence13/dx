@@ -1,21 +1,130 @@
 /* eslint-disable tailwindcss/classnames-order */
 
 import {
+    AlignCenterHorizontalIcon,
+    ArrowBigLeft,
+    ArrowBigLeftDash,
+    ArrowBigRight,
+    ArrowBigRightDash,
+    ArrowLeftCircle,
+    ArrowRightCircle,
+    ArrowUpFromDot,
+    Ban,
+    Bomb,
+    BookCopy,
+    BookDown,
+    BookKey,
+    BookLock,
+    BookMarked,
+    BookmarkMinus,
+    BookmarkPlusIcon,
+    BoxSelect,
+    Brackets,
+    Briefcase,
+    Bug,
     Check,
-    Cloud,
-    CreditCard,
-    Github,
-    Keyboard,
-    LifeBuoy,
-    LogOut,
+    ChevronLeft,
+    ChevronLeftSquare,
+    ChevronRight,
+    ChevronRightSquare,
+    ChevronsDown,
+    ChevronsLeft,
+    ChevronsRight,
+    ChevronsUp,
+    CircuitBoard,
+    Clapperboard,
+    Columns,
+    ColumnsIcon,
+    Copy,
+    CopyCheck,
+    CopySlash,
+    Edit,
+    Expand,
+    File,
+    FileDown,
+    FileEditIcon,
+    FileOutput,
+    FileTerminalIcon,
+    FileText,
+    FileUp,
+    FlagOffIcon,
+    FlagTriangleLeft,
+    FlagTriangleRight,
+    FlipHorizontal2,
+    FlipVertical2,
+    Folder,
+    FolderCog,
+    Footprints,
+    Forward,
+    Grid,
+    Group,
+    Lasso,
+    LassoSelect,
+    Layout,
+    LineChart,
+    ListChecks,
+    ListEnd,
+    ListMinus,
+    ListOrdered,
+    ListPlus,
+    ListRestart,
+    ListStart,
+    ListTree,
+    ListX,
+    LucideSplit,
     Mail,
+    Map,
+    MapPin,
+    Maximize,
+    MenuSquare,
     MessageSquare,
-    Plus,
+    Minimize,
+    MonitorDown,
+    PanelRight,
+    PanelTop,
+    PanelTopClose,
+    PanelTopOpen,
+    PlaneLanding,
+    Play,
+    PlayCircle,
     PlusCircle,
-    Settings,
-    User,
-    UserPlus,
-    Users,
+    PlusCircleIcon,
+    RectangleVertical,
+    Redo,
+    RefreshCcw,
+    RefreshCw,
+    Repeat1,
+    ReplyAll,
+    Rows,
+    RowsIcon,
+    Ruler,
+    RussianRubleIcon,
+    Save,
+    SaveAll,
+    ScissorsIcon,
+    Scroll,
+    SearchIcon,
+    Share,
+    ShieldCloseIcon,
+    Shrink,
+    SignalZero,
+    SlidersHorizontal,
+    Split,
+    SplitSquareHorizontal,
+    SplitSquareVertical,
+    StepBack,
+    StepForward,
+    Terminal,
+    TerminalIcon,
+    TextCursor,
+    ThermometerIcon,
+    TimerReset,
+    ToggleLeft,
+    TypeIcon,
+    Undo,
+    UndoDot,
+    View,
+    WholeWord,
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -35,6 +144,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Icons } from "./icons"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui"
+import { BookmarkFilledIcon, CursorTextIcon, FileTextIcon, PinBottomIcon, PinLeftIcon, PinRightIcon, SymbolIcon } from "@radix-ui/react-icons"
 
 export function PrimarySidebar() {
     return (
@@ -63,32 +173,28 @@ export function PrimarySidebar() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-max min-w-[230px]">
-                {/* <DropdownMenuItem>
-                    <span>Menubar</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator /> */}
 
                 {/* File */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <File className="mr-2 h-4 w-4" />
                         <span>File</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Folder className="mr-2 h-4 w-4" />
                                 <span>Open Folder</span>
                                 <DropdownMenuShortcut>⌘O</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Briefcase className="mr-2 h-4 w-4" />
                                 <span>Open Work...</span>
                                 <DropdownMenuShortcut>⌘W</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <TimerReset className="mr-2 h-4 w-4" />
                                     <span>Open Recent</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
@@ -111,17 +217,17 @@ export function PrimarySidebar() {
                             </DropdownMenuSub>
                             <DropdownMenuSeparator />
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <SaveAll className="mr-2 h-4 w-4" />
                                 <span>Save All</span>
                                 <DropdownMenuShortcut>⌘KS</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Save className="mr-2 h-4 w-4" />
                                 <span>Save As</span>
                                 <DropdownMenuShortcut>⌘SA</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <CopyCheck className="mr-2 h-4 w-4" />
                                 <span>Duplicate Work...</span>
                                 <DropdownMenuShortcut>⌘DW</DropdownMenuShortcut>
                             </DropdownMenuItem>
@@ -129,7 +235,7 @@ export function PrimarySidebar() {
 
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <Share className="mr-2 h-4 w-4" />
                                     <span>Share</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
@@ -152,7 +258,7 @@ export function PrimarySidebar() {
                             </DropdownMenuSub>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <SlidersHorizontal className="mr-2 h-4 w-4" />
                                     <span>Preference</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
@@ -176,33 +282,33 @@ export function PrimarySidebar() {
 
                             <DropdownMenuSeparator />
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <RectangleVertical className="mr-2 h-4 w-4" />
                                 <span>Revert</span>
                                 <DropdownMenuShortcut>⌘Z</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <ShieldCloseIcon className="mr-2 h-4 w-4" />
                                 <span>Close All</span>
                                 <DropdownMenuShortcut>⌘CA</DropdownMenuShortcut>
                             </DropdownMenuItem>
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* Edit */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <Edit className="mr-2 h-4 w-4" />
                         <span>Edit</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Undo className="mr-2 h-4 w-4" />
                                 <span>Undo</span>
                                 <DropdownMenuShortcut>⌘O</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Redo className="mr-2 h-4 w-4" />
                                 <span>Redo</span>
                                 <DropdownMenuShortcut>⌘W</DropdownMenuShortcut>
                             </DropdownMenuItem>
@@ -210,33 +316,33 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <ScissorsIcon className="mr-2 h-4 w-4" />
                                 <span>Cut</span>
                                 <DropdownMenuShortcut>⌘X</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <Copy className="mr-2 h-4 w-4" />
                                 <span>Copy</span>
                                 <DropdownMenuShortcut>⌘C</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <CopySlash className="mr-2 h-4 w-4" />
                                     <span>Copy As</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            <Mail className="mr-2 h-4 w-4" />
+                                            <FileText className="mr-2 h-4 w-4" />
                                             <span>pdf</span>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <MessageSquare className="mr-2 h-4 w-4" />
+                                            <FileTextIcon className="mr-2 h-4 w-4" />
                                             <span>csv</span>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
                                         <DropdownMenuItem>
-                                            <PlusCircle className="mr-2 h-4 w-4" />
+                                            <FileTerminalIcon className="mr-2 h-4 w-4" />
                                             <span>json</span>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
@@ -246,78 +352,78 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <SearchIcon className="mr-2 h-4 w-4" />
                                 <span>Find</span>
                                 <DropdownMenuShortcut>⌘FD</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <ReplyAll className="mr-2 h-4 w-4" />
                                 <span>Replace</span>
                                 <DropdownMenuShortcut>⌘RE</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <FileDown className="mr-2 h-4 w-4" />
                                 <span>Find in Files</span>
                                 <DropdownMenuShortcut>⌘FDF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <User className="mr-2 h-4 w-4" />
+                                <FileEditIcon className="mr-2 h-4 w-4" />
                                 <span>Replace in Files</span>
                                 <DropdownMenuShortcut>⌘REF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* Selection */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <BoxSelect className="mr-2 h-4 w-4" />
                         <span>Selection</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <LassoSelect className="mr-2 h-4 w-4" />
                                 <span>Select All</span>
                                 <DropdownMenuShortcut>⌘STA</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Lasso className="mr-2 h-4 w-4" />
                                 <span>Select All Occurence</span>
                                 <DropdownMenuShortcut>⌘STAO</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Expand className="mr-2 h-4 w-4" />
                                 <span>Expand Selection</span>
                                 <DropdownMenuShortcut>⌘EDSN</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Shrink className="mr-2 h-4 w-4" />
                                 <span>Shrink Selection</span>
                                 <DropdownMenuShortcut>⌘SKSN</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <CopySlash className="mr-2 h-4 w-4" />
                                 <span>Duplicate Selection</span>
                                 <DropdownMenuShortcut>⌘DESN</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <CursorTextIcon className="mr-2 h-4 w-4" />
                                 <span>Multicursor Selection</span>
                                 <DropdownMenuShortcut>⌘MRSN</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ColumnsIcon className="mr-2 h-4 w-4" />
                                 <span>Column Selection</span>
                                 <DropdownMenuShortcut>⌘CNSN</DropdownMenuShortcut>
                             </DropdownMenuItem>
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* View */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <View className="mr-2 h-4 w-4" />
                         <span>View</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
@@ -346,40 +452,40 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <Ruler className="mr-2 h-4 w-4" />
                                     <span>Appearence</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Maximize className="mr-2 h-4 w-4" />
                                             <span>Full Screen</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + FS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <CircuitBoard className="mr-2 h-4 w-4" />
                                             <span>Zen Mode</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + ZM</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FlipHorizontal2 className="mr-2 h-4 w-4" />
                                             <span>Centered Layout</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + CL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <MenuSquare className="mr-2 h-4 w-4" />
                                             <span>Menubar</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + MB</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PanelTopOpen className="mr-2 h-4 w-4" />
                                             <span>Primary Sidebar</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + PS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PanelTop className="mr-2 h-4 w-4" />
                                             <span>Secondary Sidebar</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + SS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
@@ -389,20 +495,20 @@ export function PrimarySidebar() {
                                             <DropdownMenuShortcut>Alt + Ctrl + AB</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PlaneLanding className="mr-2 h-4 w-4" />
                                             <span>Panel</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + PL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PanelRight className="mr-2 h-4 w-4" />
                                             <span>Move Primary Sidebar Right</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + MPSR</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSub>
                                             <DropdownMenuSubTrigger>
-                                                <UserPlus className="mr-2 h-4 w-4" />
+                                                <PanelTopClose className="mr-2 h-4 w-4" />
                                                 <span>Panel Position</span>
                                             </DropdownMenuSubTrigger>
                                             <DropdownMenuPortal>
@@ -425,7 +531,7 @@ export function PrimarySidebar() {
                                         </DropdownMenuSub>
                                         <DropdownMenuSub>
                                             <DropdownMenuSubTrigger>
-                                                <UserPlus className="mr-2 h-4 w-4" />
+                                                <Map className="mr-2 h-4 w-4" />
                                                 <span>Align Position</span>
                                             </DropdownMenuSubTrigger>
                                             <DropdownMenuPortal>
@@ -449,27 +555,27 @@ export function PrimarySidebar() {
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Minimize className="mr-2 h-4 w-4" />
                                             <span>Minimap</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + MNP</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <AlignCenterHorizontalIcon className="mr-2 h-4 w-4" />
                                             <span>Breadcrumbs</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + BDS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Scroll className="mr-2 h-4 w-4" />
                                             <span>Sticky Scroll</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + SYSL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <TextCursor className="mr-2 h-4 w-4" />
                                             <span>Render Whitespace</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + RWE</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <TypeIcon className="mr-2 h-4 w-4" />
                                             <span>Render Control Caracter</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + RCC</DropdownMenuShortcut>
                                         </DropdownMenuItem>
@@ -479,82 +585,82 @@ export function PrimarySidebar() {
                             </DropdownMenuSub>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <Layout className="mr-2 h-4 w-4" />
                                     <span>Editor Layout</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <SplitSquareHorizontal className="mr-2 h-4 w-4" />
                                             <span>Split Up</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <LucideSplit className="mr-2 h-4 w-4" />
                                             <span>Split Down</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STD</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PinLeftIcon className="mr-2 h-4 w-4" />
                                             <span>Split Left</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PinRightIcon className="mr-2 h-4 w-4" />
                                             <span>Split Right</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STR</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <SignalZero className="mr-2 h-4 w-4" />
                                             <span>Single</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STG</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Columns className="mr-2 h-4 w-4" />
                                             <span>Two Columns</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TOC</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ThermometerIcon className="mr-2 h-4 w-4" />
                                             <span>Three Columns</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TEC</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Rows className="mr-2 h-4 w-4" />
                                             <span>Two Rows</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TOR</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <RowsIcon className="mr-2 h-4 w-4" />
                                             <span>Three Rows</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TER</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <Grid className="mr-2 h-4 w-4" />
                                             <span>Grid(2*2)</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STG</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PinRightIcon className="mr-2 h-4 w-4" />
                                             <span>Two Colums Right</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TCR</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <PinBottomIcon className="mr-2 h-4 w-4" />
                                             <span>Two Colums Bottom</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + TCB</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <SplitSquareVertical className="mr-2 h-4 w-4" />
                                             <span>Split in Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STG</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FlipVertical2 className="mr-2 h-4 w-4" />
                                             <span>Flip Layout</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + FPL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
@@ -566,56 +672,56 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Ban className="mr-2 h-4 w-4" />
                                 <span>Problem</span>
                                 <DropdownMenuShortcut>Alt + Ctrl + PM</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <FileOutput className="mr-2 h-4 w-4" />
                                 <span>Output</span>
                                 <DropdownMenuShortcut>Alt + Ctrl + OT</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Bug className="mr-2 h-4 w-4" />
                                 <span>Debug</span>
                                 <DropdownMenuShortcut>Alt + Ctrl + DG</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Terminal className="mr-2 h-4 w-4" />
                                 <span>Terminal</span>
                                 <DropdownMenuShortcut>Alt + Ctrl + TL</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <WholeWord className="mr-2 h-4 w-4" />
                                 <span>Wordwrap</span>
                                 <DropdownMenuShortcut>Alt + Ctrl + WP</DropdownMenuShortcut>
                             </DropdownMenuItem>
 
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* Go */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <RussianRubleIcon className="mr-2 h-4 w-4" />
                         <span>Go</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <UndoDot className="mr-2 h-4 w-4" />
                                 <span>Back</span>
                                 <DropdownMenuShortcut>Alt + Shift + BK </DropdownMenuShortcut>
 
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Forward className="mr-2 h-4 w-4" />
                                 <span>Forward</span>
                                 <DropdownMenuShortcut>Alt + Shift + FD </DropdownMenuShortcut>
 
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <MapPin className="mr-2 h-4 w-4" />
                                 <span>Last Edit Location</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
 
@@ -624,50 +730,50 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <ToggleLeft className="mr-2 h-4 w-4" />
                                     <span>Switch Editor</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowBigRight className="mr-2 h-4 w-4" />
                                             <span>Next Editor</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + FS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowBigRightDash className="mr-2 h-4 w-4" />
                                             <span>Next Used Editor</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + ZM</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowBigLeft className="mr-2 h-4 w-4" />
                                             <span>Previous Editor</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + CL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowBigLeftDash className="mr-2 h-4 w-4" />
                                             <span>Previous Used Editor</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + CL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronRight className="mr-2 h-4 w-4" />
                                             <span>Next Editor in Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + FS</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronRightSquare className="mr-2 h-4 w-4" />
                                             <span>Next Used Editor in Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + ZM</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronLeft className="mr-2 h-4 w-4" />
                                             <span>Previous Editor in Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + CL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronLeftSquare className="mr-2 h-4 w-4" />
                                             <span>Previous Used Editor in Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + CL</DropdownMenuShortcut>
                                         </DropdownMenuItem>
@@ -677,67 +783,67 @@ export function PrimarySidebar() {
                             </DropdownMenuSub>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <UserPlus className="mr-2 h-4 w-4" />
+                                    <Group className="mr-2 h-4 w-4" />
                                     <span>Switch Group</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FileDown className="mr-2 h-4 w-4" />
                                             <span>Group 1</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FileUp className="mr-2 h-4 w-4" />
                                             <span>Group 2</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FlagTriangleLeft className="mr-2 h-4 w-4" />
                                             <span>Group 3</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FlagTriangleRight className="mr-2 h-4 w-4" />
                                             <span>Group 4</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <FlagOffIcon className="mr-2 h-4 w-4" />
                                             <span>Group 5</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowRightCircle className="mr-2 h-4 w-4" />
                                             <span>Next Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ArrowLeftCircle className="mr-2 h-4 w-4" />
                                             <span>Previous Group</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuSeparator />
 
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronsUp className="mr-2 h-4 w-4" />
                                             <span>Group Top</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronsDown className="mr-2 h-4 w-4" />
                                             <span>Group Bottom</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronsLeft className="mr-2 h-4 w-4" />
                                             <span>Group Left</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <Check className="mr-2 h-4 w-4" />
+                                            <ChevronsRight className="mr-2 h-4 w-4" />
                                             <span>Group Right</span>
                                             <DropdownMenuShortcut>Alt + Ctrl + STU</DropdownMenuShortcut>
                                         </DropdownMenuItem>
@@ -747,52 +853,52 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <File className="mr-2 h-4 w-4" />
                                 <span>Go to File</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookCopy className="mr-2 h-4 w-4" />
                                 <span>Go to Reffrence</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookDown className="mr-2 h-4 w-4" />
                                 <span>Go to Defination</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookLock className="mr-2 h-4 w-4" />
                                 <span>Go to Declaration</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookMarked className="mr-2 h-4 w-4" />
                                 <span>Go to Type Defination</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookKey className="mr-2 h-4 w-4" />
                                 <span>Go to Implementation</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Brackets className="mr-2 h-4 w-4" />
                                 <span>Go to Bracket</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <LineChart className="mr-2 h-4 w-4" />
                                 <span>Go to Line/Column</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTLC</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <SymbolIcon className="mr-2 h-4 w-4" />
                                 <span>Go to Symbol in Editor</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTSE</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <FolderCog className="mr-2 h-4 w-4" />
                                 <span>Go to Symbol in Workspace</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTSW</DropdownMenuShortcut>
                             </DropdownMenuItem>
@@ -800,187 +906,187 @@ export function PrimarySidebar() {
 
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* Run */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <PlayCircle className="mr-2 h-4 w-4" />
                         <span>Run</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <RefreshCcw className="mr-2 h-4 w-4" />
                                 <span>Start Debugging</span>
                                 <DropdownMenuShortcut>Alt + Shift + BK </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <RefreshCw className="mr-2 h-4 w-4" />
                                 <span>Stop Debugging</span>
                                 <DropdownMenuShortcut>Alt + Shift + FD </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Repeat1 className="mr-2 h-4 w-4" />
                                 <span>Run without Debugging</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListRestart className="mr-2 h-4 w-4" />
                                 <span>Restart Debugging</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ArrowUpFromDot className="mr-2 h-4 w-4" />
                                 <span>Step Over</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <StepForward className="mr-2 h-4 w-4" />
                                 <span>Step Into</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <StepBack className="mr-2 h-4 w-4" />
                                 <span>Step Out</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Footprints className="mr-2 h-4 w-4" />
                                 <span>Continue</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
 
                             <DropdownMenuSeparator />
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListChecks className="mr-2 h-4 w-4" />
                                 <span>Toggle Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListStart className="mr-2 h-4 w-4" />
                                 <span>New Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListEnd className="mr-2 h-4 w-4" />
                                 <span>Enable All Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListX className="mr-2 h-4 w-4" />
                                 <span>Disable All Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListMinus className="mr-2 h-4 w-4" />
                                 <span>Remove All Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListOrdered className="mr-2 h-4 w-4" />
                                 <span>Open Configuretion</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListPlus className="mr-2 h-4 w-4" />
                                 <span>Add Configuretion</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <ListTree className="mr-2 h-4 w-4" />
                                 <span>Install Additional Debugger</span>
                                 <DropdownMenuShortcut>Alt + Shift + GTF</DropdownMenuShortcut>
                             </DropdownMenuItem>
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 {/* Terminal */}
-                <DropdownMenuSub>
+                {/* <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <UserPlus className="mr-2 h-4 w-4" />
+                        <TerminalIcon className="mr-2 h-4 w-4" />
                         <span>Terminal</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <PlusCircleIcon className="mr-2 h-4 w-4" />
                                 <span>New Terminal</span>
                                 <DropdownMenuShortcut>Alt + Shift + BK </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Split className="mr-2 h-4 w-4" />
                                 <span>Split Terminal</span>
                                 <DropdownMenuShortcut>Alt + Shift + FD </DropdownMenuShortcut>
                             </DropdownMenuItem>
 
                             <DropdownMenuSeparator />
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Play className="mr-2 h-4 w-4" />
                                 <span>Run Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <PlayCircle className="mr-2 h-4 w-4" />
                                 <span>Run Build Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <MonitorDown className="mr-2 h-4 w-4" />
                                 <span>Run Selected Content</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Clapperboard className="mr-2 h-4 w-4" />
                                 <span>Show Running Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookmarkMinus className="mr-2 h-4 w-4" />
                                 <span>Restart Running Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <Bomb className="mr-2 h-4 w-4" />
                                 <span>Terminate Running Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookmarkPlusIcon className="mr-2 h-4 w-4" />
                                 <span>Configure Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <Check className="mr-2 h-4 w-4" />
+                                <BookmarkFilledIcon className="mr-2 h-4 w-4" />
                                 <span>Configure Default Build Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                         </DropdownMenuSubContent>
                     </DropdownMenuPortal>
-                </DropdownMenuSub>
+                </DropdownMenuSub> */}
                 <DropdownMenuSeparator />
 
                 <DropdownMenuItem>
-                    <span>Open Documentation</span>
+                    <span className="text-sm text-muted">Open Documentation</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <span>Open Changelog</span>
+                    <span className="text-sm text-muted">Open Changelog</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <span>Open Templates</span>
+                    <span className="text-sm text-muted">Open Templates</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                    <span>Open Youtube</span>
+                    <span className="text-sm text-muted">Open Youtube</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                    <span>Open Homepage</span>
+                    <span className="text-sm text-muted">Open Homepage</span>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>

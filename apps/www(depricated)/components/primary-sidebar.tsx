@@ -17,7 +17,6 @@ import {
     BookLock,
     BookMarked,
     BookmarkMinus,
-    BookmarkPlus,
     BookmarkPlusIcon,
     BoxSelect,
     Brackets,
@@ -34,14 +33,14 @@ import {
     ChevronsUp,
     CircuitBoard,
     Clapperboard,
-    Cloud,
+    Cog,
     Columns,
     ColumnsIcon,
     Copy,
     CopyCheck,
     CopySlash,
-    CreditCard,
     Edit,
+    Edit2,
     Expand,
     File,
     FileDown,
@@ -59,14 +58,11 @@ import {
     FolderCog,
     Footprints,
     Forward,
-    Github,
     Grid,
     Group,
-    Keyboard,
     Lasso,
     LassoSelect,
     Layout,
-    LifeBuoy,
     LineChart,
     ListChecks,
     ListEnd,
@@ -77,7 +73,6 @@ import {
     ListStart,
     ListTree,
     ListX,
-    LogOut,
     LucideSplit,
     Mail,
     Map,
@@ -91,11 +86,9 @@ import {
     PanelTop,
     PanelTopClose,
     PanelTopOpen,
-    Pencil,
     PlaneLanding,
     Play,
     PlayCircle,
-    Plus,
     PlusCircle,
     PlusCircleIcon,
     RectangleVertical,
@@ -106,13 +99,13 @@ import {
     ReplyAll,
     Rows,
     RowsIcon,
+    Ruler,
     RussianRubleIcon,
     Save,
     SaveAll,
     ScissorsIcon,
     Scroll,
     SearchIcon,
-    Settings,
     Share,
     ShieldCloseIcon,
     Shrink,
@@ -129,13 +122,9 @@ import {
     ThermometerIcon,
     TimerReset,
     ToggleLeft,
-    Type,
     TypeIcon,
     Undo,
     UndoDot,
-    User,
-    UserPlus,
-    Users,
     View,
     WholeWord,
 } from "lucide-react"
@@ -158,7 +147,6 @@ import {
 import { Icons } from "./icons"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui"
 import { BookmarkFilledIcon, CursorTextIcon, FileTextIcon, PinBottomIcon, PinLeftIcon, PinRightIcon, SymbolIcon } from "@radix-ui/react-icons"
-import { ArrowDownFromLine } from "lucide-react"
 
 export function PrimarySidebar() {
     return (
@@ -311,7 +299,7 @@ export function PrimarySidebar() {
                 {/* Edit */}
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        <Edit className="mr-2 h-4 w-4" />
+                        <Cog className="mr-2 h-4 w-4" />
                         <span>Edit</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
@@ -466,7 +454,7 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
-                                    <Pencil className="mr-2 h-4 w-4" />
+                                    <Ruler className="mr-2 h-4 w-4" />
                                     <span>Appearence</span>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
@@ -977,7 +965,7 @@ export function PrimarySidebar() {
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
                             <DropdownMenuItem>
-                                <ListStart className="mr-2 h-4 w-4" />
+                                <PlusCircle className="mr-2 h-4 w-4" />
                                 <span>New Breakpoint</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
@@ -1071,7 +1059,7 @@ export function PrimarySidebar() {
                             <DropdownMenuSeparator />
 
                             <DropdownMenuItem>
-                                <BookmarkPlus className="mr-2 h-4 w-4" />
+                                <BookmarkPlusIcon className="mr-2 h-4 w-4" />
                                 <span>Configure Task</span>
                                 <DropdownMenuShortcut>Alt + Shift + LEL </DropdownMenuShortcut>
                             </DropdownMenuItem>
@@ -1086,21 +1074,21 @@ export function PrimarySidebar() {
                 <DropdownMenuSeparator />
 
                 <DropdownMenuItem>
-                    <span className="text-sm text-muted">Open Documentation</span>
+                    <span className="text-xs text-muted">Open Documentation</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <span className="text-sm text-muted">Open Changelog</span>
+                    <span className="text-xs text-muted">Open Changelog</span>
                 </DropdownMenuItem>
 
                 <DropdownMenuItem>
-                    <span className="text-sm text-muted">Open Templates</span>
+                    <span className="text-xs text-muted">Open Templates</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                    <span className="text-sm text-muted">Open Youtube</span>
+                    <span className="text-xs text-muted">Open Youtube</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                    <span className="text-sm text-muted">Open Homepage</span>
+                    <span className="text-xs text-muted">Open Homepage</span>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
@@ -1202,8 +1190,8 @@ export function PrimarySidebar() {
 //                 <AvatarFallback>VC</AvatarFallback>
 //               </Avatar>
 //               <div className="space-y-1">
-//                 <h4 className="text-sm font-semibold">@nextjs</h4>
-//                 <p className="text-sm">
+//                 <h4 className="text-xs font-semibold">@nextjs</h4>
+//                 <p className="text-xs">
 //                   The React Framework created and maintained by @vercel.
 //                 </p>
 //                 <div className="flex items-center pt-2">
