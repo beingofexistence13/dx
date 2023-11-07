@@ -19,7 +19,7 @@ import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
 
 import Hack from "./hack"
-import SocialMedias from "./socialMedia"
+import SocialMedias from "./social-media-account"
 import { Button as NextuiButton, ButtonGroup } from "@nextui-org/react";
 import RainbowHover from "./rainbow-hover"
 import { BarChart3, Calendar, Cog, Cpu, FileSearch, GitFork, Headphones, HelpCircle, LayoutDashboard, Terminal } from "lucide-react"

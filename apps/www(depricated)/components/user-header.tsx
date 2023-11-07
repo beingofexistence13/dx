@@ -255,7 +255,7 @@ import { NotificationAction } from "./notification"
 import { PrimarySidebar } from "./primary-sidebar"
 import { RightSidebar } from "./right-sidebar"
 import RPCList from "./rpc-list"
-import SocialMedias from "./socialMedia"
+import SocialMedias from "./social-media-account"
 import { UserAction } from "./user"
 
 const Command = React.forwardRef<

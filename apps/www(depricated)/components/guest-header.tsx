@@ -190,7 +190,7 @@ import {
 } from "@/components/ui"
 
 import Hack from "./hack"
-import SocialMedias from "./socialMedia"
+import SocialMedias from "./social-media-account"
 
 export function GuestHeader() {
   const [open, setOpen] = React.useState(false)

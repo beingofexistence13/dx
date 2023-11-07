@@ -345,7 +345,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
   const { setTheme } = useTheme()
   const router = useRouter()
   // Definetly some important stuffs  but this to big to hava make a documentation about plus I definetly not get paid enough for this
-  // ohh I forget I donot get paid anything not a single penny and that's why I am broke
+  // ohh I forget I donot get paid anything, not a single penny and that's why I am broke
   const includeTestnets = (typeof testnets === "string" && testnets === "true") || (typeof testnet === "string" && testnet === "true")
   const sortedChains = includeTestnets || typeof search !== "string" || search === ""  ? chains : chains.filter((item,index) => {
     const testnet =
