@@ -6,48 +6,12 @@ import { useSelector } from "react-redux";
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster";
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster";
 
-import { Analytics } from "./analytics";
 import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
-import { TailwindIndicator } from "./tailwind-indicator";
 import { Activitybar } from "./activitybar";
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  ContextMenu,
-  ContextMenuContent,
-  ContextMenuItem,
-  ContextMenuTrigger,
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-  Menubar,
-  MenubarCheckboxItem,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarRadioGroup,
-  MenubarRadioItem,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarSub,
-  MenubarSubContent,
-  MenubarSubTrigger,
-  MenubarTrigger,
-  ScrollArea,
-  Separator,
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-  buttonVariants,
-} from "./ui";
 import Script from "next/script";
+import { TailwindIndicator } from "./tailwind-indicator";
+import { Analytics } from "./analytics";
 
 const UserLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev);

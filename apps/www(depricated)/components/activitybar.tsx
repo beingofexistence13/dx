@@ -3,25 +3,7 @@
 "use client"
 
 import React, { useRef } from "react"
-import Image from "next/image"
-import Link, { LinkProps } from "next/link"
-import { useRouter } from "next/navigation"
 import { usePress } from "react-aria"
-import { any } from "zod"
-
-import { socialMediaConfig } from "@/config/social-media"
-import { siteConfig } from "@/config/website"
-import { cn } from "@/lib/utils"
-import { CommandMenu } from "@/components/command-menu"
-import { Icons } from "@/components/icons"
-import { MainNav } from "@/components/main-nav"
-import { MobileNav } from "@/components/mobile-nav"
-import { ModeToggle } from "@/components/mode-toggle"
-
-import Hack from "./hack"
-import SocialMedias from "./social-media-account"
-import { Button as NextuiButton, ButtonGroup } from "@nextui-org/react";
-import RainbowHover from "./rainbow-hover"
 import { BarChart3, Calendar, Cog, Cpu, FileSearch, GitFork, Headphones, HelpCircle, LayoutDashboard, Terminal } from "lucide-react"
 import { ScrollArea } from "./ui"
 
@@ -76,9 +58,6 @@ export function Activitybar() {
           <Cog className="h-4 w-4" />
         </div>
       </div>
-      {/* <div className="flex h-auto w-full flex-row items-center justify-center border-y text-xs">
-        <h1 className="rounded-md p-1 text-center hover:bg-[--code-foreground]">hello</h1>
-      </div> */}
     </nav>
   )
 }
