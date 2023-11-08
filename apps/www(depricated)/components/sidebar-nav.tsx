@@ -1,16 +1,11 @@
 /* eslint-disable tailwindcss/classnames-order */
-
-
 "use client"
 
 import { MouseEvent, useEffect, useMemo, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import axios from "axios"
 import { MainNavItem, SidebarNavItem } from "@/types/nav"
-
-import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import {

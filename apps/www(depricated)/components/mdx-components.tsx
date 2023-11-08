@@ -1,6 +1,4 @@
 /* eslint-disable tailwindcss/classnames-order */
-
-
 "use client"
 
 import * as React from "react"
@@ -8,7 +6,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { useMDXComponent } from "next-contentlayer/hooks"
 import { NpmCommands } from "types/unist"
-
 import { Event } from "@/lib/events"
 import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"

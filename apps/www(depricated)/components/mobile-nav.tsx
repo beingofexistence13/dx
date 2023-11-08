@@ -1,33 +1,14 @@
 "use client"
 
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputShadcnUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
 import * as React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-
 import { docsConfig } from "@/config/docs"
 import { more, products } from "@/config/navbar"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
-
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  Button,
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  ScrollArea,
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "./ui"
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false)
@@ -212,7 +193,7 @@ export function MobileNav() {
                     <AccordionTrigger>{item.title}</AccordionTrigger>
                     <AccordionContent className="w-full">
                       {item?.items?.length &&
-                        item?.items?.map((item:any) => (
+                        item?.items?.map((item: any) => (
                           <React.Fragment key={item.href}>
                             {!item.disabled &&
                               (item.href ? (
@@ -224,8 +205,8 @@ export function MobileNav() {
                                           src={
                                             item.logo
                                               ? `/docs/${item.title
-                                                  .replace(/\s/g, "-")
-                                                  .toLowerCase()}.jpg`
+                                                .replace(/\s/g, "-")
+                                                .toLowerCase()}.jpg`
                                               : ""
                                           }
                                           alt="Dx"
@@ -277,8 +258,8 @@ export function MobileNav() {
                                       )}
 
                                       {item.appStore &&
-                                      item.playStore &&
-                                      item.webStore ? (
+                                        item.playStore &&
+                                        item.webStore ? (
                                         <div>
                                           <DropdownMenuItem className="flex items-center justify-center">
                                             <Link
@@ -336,9 +317,9 @@ export function MobileNav() {
                                         ""
                                       )}
                                       {item.download &&
-                                      item.star &&
-                                      item.version &&
-                                      item.updated ? (
+                                        item.star &&
+                                        item.version &&
+                                        item.updated ? (
                                         <div>
                                           <DropdownMenuItem className="flex items-center justify-center">
                                             Downloads({item.download})

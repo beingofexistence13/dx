@@ -42,7 +42,7 @@ export const Navbar = () => {
       labelPlacement="outside"
       placeholder="Search..."
       startContent={
-        <SearchIcon className="pointer-events-none shrink-0 text-base text-default-400" />
+        <SearchIcon className="text-default-400 pointer-events-none shrink-0 text-base" />
       }
       type="search"
     />
@@ -96,7 +96,7 @@ export const Navbar = () => {
           <Button
             isExternal
             as={Link}
-            className="bg-default-100 text-sm font-normal text-default-600"
+            className="bg-default-100 text-default-600 text-sm font-normal"
             href={siteConfig.links.sponsor}
             startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"

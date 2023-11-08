@@ -144,8 +144,6 @@ import {
     DropdownMenuSubTrigger,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Icons } from "./icons"
-import { Avatar, AvatarFallback, AvatarImage } from "./ui"
 import { BookmarkFilledIcon, CursorTextIcon, FileTextIcon, PinBottomIcon, PinLeftIcon, PinRightIcon, SymbolIcon } from "@radix-ui/react-icons"
 
 export function PrimarySidebar() {
