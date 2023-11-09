@@ -1,5 +1,6 @@
-import Balance from "react-wrap-balancer"
+/* eslint-disable tailwindcss/classnames-order */
 
+import Balance from "react-wrap-balancer"
 import { cn } from "@/lib/utils"
 
 function PageHeader({

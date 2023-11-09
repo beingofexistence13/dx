@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 import NextLink from "next/link"
 import { Button } from "@nextui-org/button"
 import { Input } from "@nextui-org/input"
