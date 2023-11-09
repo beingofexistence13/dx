@@ -2,10 +2,8 @@
 
 import React from "react";
 import { useSelector } from "react-redux";
-
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster";
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster";
-
 import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
 import { Activitybar } from "./activitybar";
@@ -104,8 +102,6 @@ const UserLayout = () => {
 
 export default UserLayout;
 
-
 // Will have to make this software more professition cause,
 // I will use this software as a template. So, this why this software has so much value for me.
 // And just do it; Donot rely of mood. Try to make the mood or just do it anyway and the mood will take care itself automaticly!!!
-
