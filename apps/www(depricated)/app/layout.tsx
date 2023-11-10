@@ -18,6 +18,7 @@ import SiteLayout from "@/components/site-layout"
 import { Providers } from "./providers"
 import { Query } from "./query"
 import { Redux } from "./redux"
+import GuestLayout from "@/components/guest-layout"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
@@ -95,10 +96,11 @@ export default function RootLayout({
           <Redux>
             <Query>
               <main className="flex-1">
-                <SiteLayout />
-                <div className="w-auto h-full ml-[40px] z-0">
+                {/* <SiteLayout /> */}
+                <GuestLayout />
+                {/* <div className="w-auto h-full ml-[40px] z-0">
                   {children}
-                </div>
+                </div> */}
               </main>
             </Query>
           </Redux>

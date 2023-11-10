@@ -3,7 +3,7 @@
 import React from "react"
 import { useSelector } from "react-redux"
 
-import GuestLayout from "./guestLayout"
+import GuestLayout from "./guest-layout"
 import UserLayout from "./user-layout"
 
 const SiteLayout = () => {

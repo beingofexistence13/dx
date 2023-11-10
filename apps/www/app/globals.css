@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* There will be 5 theme engines and also themes by extentions. These are:
+
+1. Light (It is what it is - I mean it high programmed light theme)
+2. Material(In this theme there will be color selector and there will be a color selector and other color will be generated automatically)
+3. Custom(You can use emojis and image and anything you like you can use it here)
+4. Random(This will provide any random theme configurations randomly)
+5. Dark(High programmed dark themed)
+
+*/
+:root{
+    --body-background: rgb(0, 0, 0);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--body-background);
+}
