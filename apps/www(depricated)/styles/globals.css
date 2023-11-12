@@ -177,6 +177,10 @@ html.light div[data-rehype-pretty-code-fragment] button svg {
   color: rgb(0, 0, 0) !important;
 }
 
+.hello-tool{
+  background-color: var(--code-foreground) !important;
+}
+
 .hello-tool button {
   margin-left: 0 !important;
   margin-right: 0 !important;

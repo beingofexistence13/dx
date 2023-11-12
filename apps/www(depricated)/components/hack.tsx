@@ -299,9 +299,9 @@ export default function Hack(this: any, { ...props }: DialogProps) {
           </div>
         </DialogTrigger>
         <DialogContent className="hack 2xs:px-1 xs:px-3 m-0 flex min-h-[100vh] min-w-[100%] items-center justify-center border-0">
-          <CanvasLoader canvasRef={canvasRef} />
+          {/* <CanvasLoader canvasRef={canvasRef} />
           <canvas className="fluid-simulation-container" ref={canvasRef} />
-          <Script src="./fluid-simulation.js" />
+          <Script src="./fluid-simulation.js" /> */}
           <Suspense fallback={<p>Loading Canvas...</p>}>
             <div className="hack-container glassmorphisum mx-auto flex h-auto w-[425px] max-w-[90%] flex-col items-center space-y-3 rounded-md  border py-5">
               <div className="tab-header flex h-auto w-[90%] items-center justify-start space-x-1.5 pr-[40px]">

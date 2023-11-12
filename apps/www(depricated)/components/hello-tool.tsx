@@ -17,7 +17,7 @@ export function HelloTool() {
 
   return (
     <>
-      <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl absolute flex h-min w-full flex-row items-center justify-center border px-2 py-5 sm:bottom-3 sm:w-auto sm:rounded-2xl lg:inset-y-[15%] lg:right-3 lg:max-h-[70%] lg:max-w-[50px] lg:flex-col lg:space-x-0 lg:space-y-1">
+      <Menubar className="hello-tool glassmorphisum 2xs:max-w-[90%] 2xs:rounded-none 2xs:px-0 xs:bottom-2 xs:max-w-[90%] xs:rounded-2xl absolute flex h-min w-full flex-row items-center justify-center px-2 py-5 sm:bottom-3 sm:w-auto sm:rounded-2xl lg:inset-y-[15%] lg:right-3 lg:max-h-[70%] lg:max-w-[50px] lg:flex-col lg:space-x-0 lg:space-y-1">
         <MenubarMenu>
           <MenubarTrigger className="rounded-lg">
             <div
