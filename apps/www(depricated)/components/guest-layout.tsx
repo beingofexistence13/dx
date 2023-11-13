@@ -6,7 +6,6 @@ import { useSelector } from "react-redux"
 import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster"
 import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 
-import { Analytics } from "./analytics"
 import { DevMode } from "./dev-mode"
 import { HelloTool } from "./hello-tool"
 import { GuestHeader } from "./guest-header"
