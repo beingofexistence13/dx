@@ -4,7 +4,7 @@ tasks:
           npm install -g npm@10.1.0
           npm install -g bun
           git config lfs.https://github.com/beingofexistence/dx.git/info/lfs.locksverify false
-          cd apps/www(depricated) && bun install && bun run build
+          cd apps/www && bun install && bun run build
       command: |
           bun run dev
         #   docker run -it --init -p 3000:3000 -v "$(pwd):/home/workspace:cached" 7c0e19dd4517
