@@ -1,14 +1,15 @@
 import DownloadPlusWhitelist from "./download-plus-whitelist";
 import FeatureOne from "./reason-one";
-import Features from "./reason-one";
 import FeatureThree from "./reason-three";
-import FeatureTwo from "./reasson-two";
+import FeatureTwo from "./reason-two";
 import Footer from "./footer";
 import Info from "./info";
 import ScrollIndicator from "./scroll-indicator";
 import Scrollbar from "./scrollbar";
 import Whitelistbar from "./whitelistbar";
 import React from "react";
+import FeatureFour from "./reason-four";
+import FeatureFive from "./reason-five";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,8 @@ const LandingPage = () => {
       <FeatureOne />
       <FeatureTwo />
       <FeatureThree />
+      <FeatureFour />
+      <FeatureFive />
       <DownloadPlusWhitelist />
 
       {/* Landing Page specific compoenents */}
@@ -34,7 +37,11 @@ const LandingPage = () => {
 export default LandingPage;
 export {
   DownloadPlusWhitelist,
-  Features,
+  FeatureOne,
+  FeatureTwo,
+  FeatureThree,
+  FeatureFour,
+  FeatureFive,
   Info,
   ScrollIndicator,
   Scrollbar,
