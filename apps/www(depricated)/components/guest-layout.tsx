@@ -11,6 +11,7 @@ import { DevMode } from "./dev-mode"
 import { HelloTool } from "./hello-tool"
 import { GuestHeader } from "./guest-header"
 import { TailwindIndicator } from "./tailwind-indicator"
+import LandingPage from "./landing-page"
 
 const GuestLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
@@ -23,8 +24,9 @@ const GuestLayout = () => {
 
       {DevModeSelector ? "" : <GuestHeader />}
       {HelloToolSelector ? "" : <HelloTool />}
-      {/* Landing Page - will conditionally render later */}
-      
+      {/* Landing Page - will conditionally render later; for now I will just try to make a working landing page */}
+      <LandingPage />
+
       <TailwindIndicator />
       <DefaultToaster />
       <NewYorkToaster />

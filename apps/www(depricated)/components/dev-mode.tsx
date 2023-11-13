@@ -1,19 +1,196 @@
-"use client"
+"use client";
 
-import React, { useEffect, useState } from "react"
-import { zodResolver } from "@hookform/resolvers/zod"
-import { BrainCircuit } from "lucide-react"
-import { useForm } from "react-hook-form"
-import { useDispatch, useSelector } from "react-redux"
-import * as z from "zod"
-import { items } from "@/config/dev-mode"
-import { cn } from "@/lib/utils"
-import { updateDevMode } from "@/hooks/slices/devModeSlice"
-import { updateHello } from "@/hooks/slices/helloToolSlice"
-import { Icons } from "@/components/icons"
+import React, { useEffect, useState } from "react";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { BrainCircuit } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { useDispatch, useSelector } from "react-redux";
+import * as z from "zod";
+import { items } from "@/config/dev-mode";
+import { cn } from "@/lib/utils";
+import { updateDevMode } from "@/hooks/slices/devModeSlice";
+import { updateHello } from "@/hooks/slices/helloToolSlice";
+import { Icons } from "@/components/icons";
 import {
-Accordion,AccordionContent,AccordionItem,AccordionTrigger,Alert,AlertDescription,AlertDialog,AlertDialogAction,AlertDialogCancel,AlertDialogContent,AlertDialogDescription,AlertDialogFooter,AlertDialogHeader,AlertDialogTitle,AlertDialogTrigger,AlertTitle,AspectRatio,Avatar,AvatarFallback,AvatarImage,Badge,Button,Calendar,Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,Checkbox,Collapsible,CollapsibleContent,CollapsibleTrigger,Command,CommandDialog,CommandEmpty,CommandGroup,CommandInput,CommandItem,CommandList,CommandSeparator,CommandShortcut,ContextMenu,ContextMenuCheckboxItem,ContextMenuContent,ContextMenuGroup,ContextMenuItem,ContextMenuLabel,ContextMenuPortal,ContextMenuRadioGroup,ContextMenuRadioItem,ContextMenuSeparator,ContextMenuShortcut,ContextMenuSub,ContextMenuSubContent,ContextMenuSubTrigger,ContextMenuTrigger,Dialog,DialogContent,DialogDescription,DialogFooter,DialogHeader,DialogTitle,DialogTrigger,DropdownMenu,DropdownMenuCheckboxItem,DropdownMenuContent,DropdownMenuGroup,DropdownMenuItem,DropdownMenuLabel,DropdownMenuPortal,DropdownMenuRadioGroup,DropdownMenuRadioItem,DropdownMenuSeparator,DropdownMenuShortcut,DropdownMenuSub,DropdownMenuSubContent,DropdownMenuSubTrigger,DropdownMenuTrigger,Form,FormControl,FormDescription,FormField,FormItem,FormLabel,FormMessage,HoverCard,HoverCardContent,HoverCardTrigger,InputShadcnUi,Label,Menubar,MenubarCheckboxItem,MenubarContent,MenubarGroup,MenubarItem,MenubarLabel,MenubarMenu,MenubarPortal,MenubarRadioGroup,MenubarRadioItem,MenubarSeparator,MenubarShortcut,MenubarSub,MenubarSubContent,MenubarSubTrigger,MenubarTrigger,NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,Popover,PopoverContent,PopoverTrigger,Progress,RadioGroup,RadioGroupItem,ScrollArea,ScrollBar,Select,SelectContent,SelectGroup,SelectItem,SelectLabel,SelectSeparator,SelectTrigger,SelectValue,Separator,Sheet,SheetClose,SheetContent,SheetDescription,SheetFooter,SheetHeader,SheetTitle,SheetTrigger,Skeleton,Slider,Switch,Table,TableBody,TableCaption,TableCell,TableFooter,TableHead,TableHeader,TableRow,Tabs,TabsContent,TabsList,TabsTrigger,Textarea,Toast,ToastAction,ToastClose,ToastDescription,ToastProvider,ToastTitle,ToastViewport,Toaster,Toggle,Tooltip,TooltipContent,TooltipProvider,TooltipTrigger,badgeVariants,buttonVariants,navigationMenuTriggerStyle,toast,toggleVariants,useFormField,useToast,type ToastActionElement,type ToastProps,
-} from "@/components/ui"
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Alert,
+  AlertDescription,
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+  AlertTitle,
+  AspectRatio,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Button,
+  Calendar,
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+  Checkbox,
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuGroup,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuPortal,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+  InputShadcnUi,
+  Label,
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarGroup,
+  MenubarItem,
+  MenubarLabel,
+  MenubarMenu,
+  MenubarPortal,
+  MenubarRadioGroup,
+  MenubarRadioItem,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Progress,
+  RadioGroup,
+  RadioGroupItem,
+  ScrollArea,
+  ScrollBar,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectSeparator,
+  SelectTrigger,
+  SelectValue,
+  Separator,
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  Skeleton,
+  Slider,
+  Switch,
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+  Toast,
+  ToastAction,
+  ToastClose,
+  ToastDescription,
+  ToastProvider,
+  ToastTitle,
+  ToastViewport,
+  Toaster,
+  Toggle,
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+  badgeVariants,
+  buttonVariants,
+  navigationMenuTriggerStyle,
+  toast,
+  toggleVariants,
+  useFormField,
+  useToast,
+  type ToastActionElement,
+  type ToastProps,
+} from "@/components/ui";
 
 const FormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
@@ -21,24 +198,24 @@ const FormSchema = z.object({
   }),
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
-})
+});
 interface TypewriterProps {
-  text: string
-  delay: number
+  text: string;
+  delay: number;
 }
 const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
-  const [currentText, setCurrentText] = useState("")
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentText, setCurrentText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
-        setCurrentText((prevText) => prevText + text[currentIndex])
-        setCurrentIndex((prevIndex) => prevIndex + 1)
-      }, delay)
-      return () => clearTimeout(timeout)
+        setCurrentText((prevText) => prevText + text[currentIndex]);
+        setCurrentIndex((prevIndex) => prevIndex + 1);
+      }, delay);
+      return () => clearTimeout(timeout);
     }
-  }, [currentIndex, delay, text])
+  }, [currentIndex, delay, text]);
 
   return (
     <div
@@ -49,18 +226,18 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
         {currentText}
       </p>
     </div>
-  )
-}
+  );
+};
 
 export function DevMode() {
-  const dispatch = useDispatch()
-  const { toast } = useToast()
-  const [DevMode, setDevMode] = React.useState(true)
-  const [HelloTool, setHelloTool] = React.useState(true)
-  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode)
+  const dispatch = useDispatch();
+  const { toast } = useToast();
+  const [DevMode, setDevMode] = React.useState(true);
+  const [HelloTool, setHelloTool] = React.useState(true);
+  const DevModeSelector = useSelector((state: any) => state.devMode.isDevMode);
   const HelloToolSelector = useSelector(
     (state: any) => state.helloTool.isHelloTool
-  )
+  );
 
   // if (typeof window !== "undefined") {
   //   console.log("Allhamdhulilla")
@@ -73,7 +250,7 @@ export function DevMode() {
       dev_mode: false,
       hello_tool: true,
     },
-  })
+  });
   function onSubmit(data: z.infer<typeof FormSchema>) {
     toast({
       title: "You submitted the following values:",
@@ -82,13 +259,13 @@ export function DevMode() {
           <code className="text-white">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
-    })
+    });
   }
 
   return (
     <Popover>
       <PopoverTrigger asChild>
-        {/* <div className="devMode border-top fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 xs:bottom-20 sm:bottom-3 z-[100000000000000000000] ">
+        <div className="devMode border-top xs:bottom-20 fixed bottom-16 right-5 flex h-[50px] w-[50px] flex-row items-center justify-center overflow-hidden rounded-full p-2 sm:bottom-3 ">
           <div
             className={cn(
               buttonVariants({
@@ -99,16 +276,6 @@ export function DevMode() {
           >
             <Icons.devMode className="h-2 w-2" />
           </div>
-        </div> */}
-        <div
-          className={cn(
-            buttonVariants({
-              variant: "ghost",
-            }),
-            "m-0 flex h-[30px] w-[30px] items-center justify-center rounded-lg p-0"
-          )}
-        >
-          <Icons.devMode className="h-2 w-2" />
         </div>
       </PopoverTrigger>
       <PopoverContent className="devMode-container flex h-[500px] w-full flex-col items-center justify-start overflow-hidden rounded-sm">
@@ -120,10 +287,14 @@ export function DevMode() {
             <Icons.speaker className="h-4 w-4 fill-current" />
           </div>
 
-          <Typewriter
+          {/* <Typewriter
             text="Tips: Are Easy And Makes Jobs More Faster"
             delay={125}
-          />
+          /> */}
+          <span className="flex h-[30px] flex-1 items-center justify-center rounded-md border text-[10px]">
+            Tips makes work easier!!!
+          </span>
+
           <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
             <Icons.hackSetting className="h-4 w-4 fill-current" />
           </div>
@@ -158,8 +329,8 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
-                              setDevMode(!DevMode)
-                              dispatch(updateDevMode(DevMode))
+                              setDevMode(!DevMode);
+                              dispatch(updateDevMode(DevMode));
                               toast({
                                 title: `DevMode is switch to ${!DevModeSelector}`,
                                 description:
@@ -169,7 +340,7 @@ export function DevMode() {
                                     Confirm
                                   </ToastAction>
                                 ),
-                              })
+                              });
                             }}
                           />
                         </FormControl>
@@ -193,8 +364,8 @@ export function DevMode() {
                             checked={field.value}
                             onCheckedChange={field.onChange}
                             onClick={() => {
-                              setHelloTool(!HelloTool)
-                              dispatch(updateHello(HelloTool))
+                              setHelloTool(!HelloTool);
+                              dispatch(updateHello(HelloTool));
                               toast({
                                 title: `Hello Tool is  switch to ${HelloToolSelector}`,
                                 description:
@@ -204,7 +375,7 @@ export function DevMode() {
                                     Confirm
                                   </ToastAction>
                                 ),
-                              })
+                              });
                             }}
                           />
                         </FormControl>
@@ -247,7 +418,7 @@ export function DevMode() {
                                   field.value?.filter(
                                     (value) => value !== item.id
                                   )
-                                )
+                                );
                           }}
                         />
                       </FormControl>
@@ -265,5 +436,5 @@ export function DevMode() {
         </Form>
       </PopoverContent>
     </Popover>
-  )
+  );
 }

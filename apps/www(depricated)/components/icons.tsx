@@ -1,7 +1,7 @@
-import * as React from "react"
-import { IconSvgProps } from "@/types"
+import * as React from "react";
+import { IconSvgProps } from "@/types";
 
-type IconProps = React.HTMLAttributes<SVGElement>
+type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
   logo: (props: IconProps) => (
@@ -1210,8 +1210,8 @@ export const Icons = {
   devMode: (props: IconProps) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -1219,9 +1219,15 @@ export const Icons = {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <circle cx="12" cy="5" r="3" />
-      <line x1="12" x2="12" y1="22" y2="8" />
-      <path d="M5 12H2a10 10 0 0 0 20 0h-3" />
+      <path d="M10.1 2.18a9.93 9.93 0 0 1 3.8 0" />
+      <path d="M17.6 3.71a9.95 9.95 0 0 1 2.69 2.7" />
+      <path d="M21.82 10.1a9.93 9.93 0 0 1 0 3.8" />
+      <path d="M20.29 17.6a9.95 9.95 0 0 1-2.7 2.69" />
+      <path d="M13.9 21.82a9.94 9.94 0 0 1-3.8 0" />
+      <path d="M6.4 20.29a9.95 9.95 0 0 1-2.69-2.7" />
+      <path d="M2.18 13.9a9.93 9.93 0 0 1 0-3.8" />
+      <path d="M3.71 6.4a9.95 9.95 0 0 1 2.7-2.69" />
+      <circle cx="12" cy="12" r="1" />
     </svg>
   ),
   inbox: (props: IconProps) => (
@@ -1453,7 +1459,7 @@ export const Icons = {
       <path d="M21 12a9 9 0 1 1-6.219-8.56" />
     </svg>
   ),
-}
+};
 
 export const Logo: React.FC<IconSvgProps> = ({
   size = 36,
@@ -1475,7 +1481,7 @@ export const Logo: React.FC<IconSvgProps> = ({
       fillRule="evenodd"
     />
   </svg>
-)
+);
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({
   size = 24,
@@ -1495,8 +1501,8 @@ export const DiscordIcon: React.FC<IconSvgProps> = ({
         fill="currentColor"
       />
     </svg>
-  )
-}
+  );
+};
 
 export const TwitterIcon: React.FC<IconSvgProps> = ({
   size = 24,
@@ -1516,8 +1522,8 @@ export const TwitterIcon: React.FC<IconSvgProps> = ({
         fill="currentColor"
       />
     </svg>
-  )
-}
+  );
+};
 
 export const GithubIcon: React.FC<IconSvgProps> = ({
   size = 24,
@@ -1539,8 +1545,8 @@ export const GithubIcon: React.FC<IconSvgProps> = ({
         fillRule="evenodd"
       />
     </svg>
-  )
-}
+  );
+};
 
 export const MoonFilledIcon = ({
   size = 24,
@@ -1562,7 +1568,7 @@ export const MoonFilledIcon = ({
       fill="currentColor"
     />
   </svg>
-)
+);
 
 export const SunFilledIcon = ({
   size = 24,
@@ -1584,7 +1590,7 @@ export const SunFilledIcon = ({
       <path d="M12 22.96a.969.969 0 01-1-.96v-.08a1 1 0 012 0 1.038 1.038 0 01-1 1.04zm7.14-2.82a1.024 1.024 0 01-.71-.29l-.13-.13a1 1 0 011.41-1.41l.13.13a1 1 0 010 1.41.984.984 0 01-.7.29zm-14.28 0a1.024 1.024 0 01-.71-.29 1 1 0 010-1.41l.13-.13a1 1 0 011.41 1.41l-.13.13a1 1 0 01-.7.29zM22 13h-.08a1 1 0 010-2 1.038 1.038 0 011.04 1 .969.969 0 01-.96 1zM2.08 13H2a1 1 0 010-2 1.038 1.038 0 011.04 1 .969.969 0 01-.96 1zm16.93-7.01a1.024 1.024 0 01-.71-.29 1 1 0 010-1.41l.13-.13a1 1 0 011.41 1.41l-.13.13a.984.984 0 01-.7.29zm-14.02 0a1.024 1.024 0 01-.71-.29l-.13-.14a1 1 0 011.41-1.41l.13.13a1 1 0 010 1.41.97.97 0 01-.7.3zM12 3.04a.969.969 0 01-1-.96V2a1 1 0 012 0 1.038 1.038 0 01-1 1.04z" />
     </g>
   </svg>
-)
+);
 
 export const HeartFilledIcon = ({
   size = 24,
@@ -1609,7 +1615,7 @@ export const HeartFilledIcon = ({
       strokeWidth={1.5}
     />
   </svg>
-)
+);
 
 export const SearchIcon = (props: IconSvgProps) => (
   <svg
@@ -1637,10 +1643,10 @@ export const SearchIcon = (props: IconSvgProps) => (
       strokeWidth="2"
     />
   </svg>
-)
+);
 
 export const NextUILogo: React.FC<IconSvgProps> = (props) => {
-  const { width, height = 40 } = props
+  const { width, height = 40 } = props;
 
   return (
     <svg
@@ -1664,5 +1670,5 @@ export const NextUILogo: React.FC<IconSvgProps> = (props) => {
         d="M17.5667 9.21729H18.8111V18.2403C18.8255 19.1128 18.6 19.9726 18.159 20.7256C17.7241 21.4555 17.0968 22.0518 16.3458 22.4491C15.5717 22.8683 14.6722 23.0779 13.6473 23.0779C12.627 23.0779 11.7286 22.8672 10.9521 22.4457C10.2007 22.0478 9.5727 21.4518 9.13602 20.7223C8.6948 19.9705 8.4692 19.1118 8.48396 18.2403V9.21729H9.72854V18.1538C9.71656 18.8298 9.88417 19.4968 10.2143 20.0868C10.5362 20.6506 11.0099 21.1129 11.5814 21.421C12.1689 21.7448 12.8576 21.9067 13.6475 21.9067C14.4374 21.9067 15.1272 21.7448 15.7169 21.421C16.2895 21.1142 16.7635 20.6516 17.0844 20.0868C17.4124 19.4961 17.5788 18.8293 17.5667 18.1538V9.21729ZM23.6753 9.21729V22.845H22.4309V9.21729H23.6753Z"
       />
     </svg>
-  )
-}
+  );
+};

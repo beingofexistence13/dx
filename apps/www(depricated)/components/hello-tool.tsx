@@ -319,7 +319,6 @@ export function HelloTool() {
         </ScrollArea>
 
         <div className="mb-1 h-auto w-full rounded-md border"></div>
-        <DevMode />
 
         <MenubarMenu>
           <MenubarTrigger>

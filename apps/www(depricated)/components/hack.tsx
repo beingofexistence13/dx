@@ -1,50 +1,261 @@
 /* eslint-disable tailwindcss/classnames-order */
-"use client"
+"use client";
 
-import { Accordion,AccordionContent,AccordionItem,AccordionTrigger,Alert,AlertDescription,AlertDialog,AlertDialogAction,AlertDialogCancel,Button as ButtonShadcnUi,AlertDialogContent,AlertDialogDescription,AlertDialogFooter,AlertDialogHeader,AlertDialogTitle,AlertDialogTrigger,AlertTitle,AspectRatio,Avatar,AvatarFallback,AvatarImage,Badge,Calendar,CardContent,CardDescription,CardTitle,Checkbox,Collapsible,CollapsibleContent,CollapsibleTrigger,Command,CommandDialog,CommandEmpty,CommandGroup,CommandInput,CommandItem,CommandList,CommandSeparator,CommandShortcut,ContextMenu,ContextMenuCheckboxItem,ContextMenuContent,ContextMenuGroup,ContextMenuItem,ContextMenuLabel,ContextMenuPortal,ContextMenuRadioGroup,ContextMenuRadioItem,ContextMenuSeparator,ContextMenuShortcut,ContextMenuSub,ContextMenuSubContent,ContextMenuSubTrigger,ContextMenuTrigger,Dialog,DialogContent,DialogDescription,DialogFooter,DialogHeader,DialogTitle,DialogTrigger,DropdownMenu,DropdownMenuCheckboxItem,DropdownMenuContent,DropdownMenuGroup,DropdownMenuItem,DropdownMenuLabel,DropdownMenuPortal,DropdownMenuRadioGroup,DropdownMenuRadioItem,DropdownMenuSeparator,DropdownMenuShortcut,DropdownMenuSub,DropdownMenuSubContent,DropdownMenuSubTrigger,DropdownMenuTrigger,Form,FormControl,FormDescription,FormField,FormItem,FormLabel,FormMessage,HoverCard,HoverCardContent,HoverCardTrigger,InputShadcnUi,Label,Menubar,MenubarCheckboxItem,MenubarContent,MenubarGroup,MenubarItem,MenubarLabel,MenubarMenu,MenubarPortal,MenubarRadioGroup,MenubarRadioItem,MenubarSeparator,MenubarShortcut,MenubarSub,MenubarSubContent,MenubarSubTrigger,MenubarTrigger,NavigationMenu,NavigationMenuContent,NavigationMenuIndicator,NavigationMenuItem,NavigationMenuLink,NavigationMenuList,NavigationMenuTrigger,NavigationMenuViewport,Popover,PopoverContent,PopoverTrigger,Progress,RadioGroup,RadioGroupItem,ScrollArea,ScrollBar,Select,SelectContent,SelectGroup,SelectItem,SelectLabel,SelectSeparator,SelectTrigger,SelectValue,Separator,Sheet,SheetClose,SheetContent,SheetDescription,SheetFooter,SheetHeader,SheetTitle,SheetTrigger,Skeleton,Slider,Switch,Table,TableBody,TableCaption,TableCell,TableFooter,TableHead,TableHeader,TableRow,Tabs,TabsContent,TabsList,TabsTrigger,Textarea,Toast,ToastAction,ToastClose,ToastDescription,ToastProvider,ToastTitle,ToastViewport,Toaster,Toggle,Tooltip,TooltipContent,TooltipProvider,TooltipTrigger,badgeVariants,buttonVariants,navigationMenuTriggerStyle,toast,toggleVariants,useFormField,useToast,type ToastActionElement,type ToastProps} from "@/components/ui"
-import { ArrowDownToLine,Bot,BrainCircuit,Calculator,CalendarIcon,Check,ChevronsUpDown,ClipboardCheck,ClipboardCopy,ClipboardList,ClipboardPaste,Cog,CreditCard,Plus,QrCode,Settings,Settings2,Shield,Smile,User,X } from "lucide-react"
-import { AsYouType,getCountryCallingCode,parsePhoneNumber, } from "libphonenumber-js"
-import { Button,Card,CardFooter,Image as ImageNext,Input } from "@nextui-org/react"
-import { renderProviderText, notTranslation as useTranslations } from "../utils"
-import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons"
-import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { DialogProps } from "@radix-ui/react-alert-dialog"
-import React,{ useState,Suspense,useEffect } from "react"
-import useAddToNetwork from "../hooks/useAddToNetwork"
-import { zodResolver } from "@hookform/resolvers/zod"
-import { generateChainData } from "../utils/fetch"
-import PhoneInput from "react-phone-input-2"
-import useAccount from "../hooks/useAccount"
-import { Icons } from "@/components/icons"
-import { docsConfig } from "@/config/docs"
-import { useForm } from "react-hook-form"
-import { useTheme } from "next-themes"
-import { AdBanner } from "./ad-banner"
-import { useChain } from "../stores"
-import { format } from "date-fns"
-import Script from "next/script"
-import { cn } from "@/lib/utils"
-import RPCList from "./rpc-list"
-import Image from "next/image"
-import Layout from "./layout"
-import Link from "next/link"
-import Chain from "./chain"
-import { z } from "zod"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Alert,
+  AlertDescription,
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  Button as ButtonShadcnUi,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+  AlertTitle,
+  AspectRatio,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Badge,
+  Calendar,
+  CardContent,
+  CardDescription,
+  CardTitle,
+  Checkbox,
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuGroup,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuPortal,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+  InputShadcnUi,
+  Label,
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarGroup,
+  MenubarItem,
+  MenubarLabel,
+  MenubarMenu,
+  MenubarPortal,
+  MenubarRadioGroup,
+  MenubarRadioItem,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarSub,
+  MenubarSubContent,
+  MenubarSubTrigger,
+  MenubarTrigger,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+  Progress,
+  RadioGroup,
+  RadioGroupItem,
+  ScrollArea,
+  ScrollBar,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectSeparator,
+  SelectTrigger,
+  SelectValue,
+  Separator,
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  Skeleton,
+  Slider,
+  Switch,
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+  Toast,
+  ToastAction,
+  ToastClose,
+  ToastDescription,
+  ToastProvider,
+  ToastTitle,
+  ToastViewport,
+  Toaster,
+  Toggle,
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+  badgeVariants,
+  buttonVariants,
+  navigationMenuTriggerStyle,
+  toast,
+  toggleVariants,
+  useFormField,
+  useToast,
+  type ToastActionElement,
+  type ToastProps,
+} from "@/components/ui";
+import {
+  ArrowDownToLine,
+  Bot,
+  BrainCircuit,
+  Calculator,
+  CalendarIcon,
+  Check,
+  ChevronsUpDown,
+  ClipboardCheck,
+  ClipboardCopy,
+  ClipboardList,
+  ClipboardPaste,
+  Cog,
+  CreditCard,
+  Plus,
+  QrCode,
+  Settings,
+  Settings2,
+  Shield,
+  Smile,
+  User,
+  X,
+} from "lucide-react";
+import {
+  AsYouType,
+  getCountryCallingCode,
+  parsePhoneNumber,
+} from "libphonenumber-js";
+import {
+  Button,
+  Card,
+  CardFooter,
+  Image as ImageNext,
+  Input,
+} from "@nextui-org/react";
+import {
+  renderProviderText,
+  notTranslation as useTranslations,
+} from "../utils";
+import { FileIcon, LaptopIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { DialogProps } from "@radix-ui/react-alert-dialog";
+import React, { useState, Suspense, useEffect } from "react";
+import useAddToNetwork from "../hooks/useAddToNetwork";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { generateChainData } from "../utils/fetch";
+import PhoneInput from "react-phone-input-2";
+import useAccount from "../hooks/useAccount";
+import { Icons } from "@/components/icons";
+import { docsConfig } from "@/config/docs";
+import { useForm } from "react-hook-form";
+import { useTheme } from "next-themes";
+import { AdBanner } from "./ad-banner";
+import { useChain } from "../stores";
+import { format } from "date-fns";
+import Script from "next/script";
+import { cn } from "@/lib/utils";
+import RPCList from "./rpc-list";
+import Image from "next/image";
+import Layout from "./layout";
+import Link from "next/link";
+import Chain from "./chain";
+import { z } from "zod";
 
 // Some Important Initionalizations
 const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
-  const [currentText, setCurrentText] = useState("")
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentText, setCurrentText] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
-        setCurrentText((prevText) => prevText + text[currentIndex])
-        setCurrentIndex((prevIndex) => prevIndex + 1)
-      }, delay)
-      return () => clearTimeout(timeout)
+        setCurrentText((prevText) => prevText + text[currentIndex]);
+        setCurrentIndex((prevIndex) => prevIndex + 1);
+      }, delay);
+      return () => clearTimeout(timeout);
     }
-  }, [currentIndex, delay, text])
+  }, [currentIndex, delay, text]);
 
   return (
     <div
@@ -55,31 +266,31 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, delay }) => {
         {currentText}
       </p>
     </div>
-  )
-}
+  );
+};
 const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
-  const [isLoading, setIsLoading] = useState(true)
-  const [startTime, setStartTime] = useState(performance.now())
+  const [isLoading, setIsLoading] = useState(true);
+  const [startTime, setStartTime] = useState(performance.now());
 
   useEffect(() => {
     if (canvasRef.current) {
-      const img = new globalThis.Image()
-      img.src = canvasRef.current.toDataURL()
+      const img = new globalThis.Image();
+      img.src = canvasRef.current.toDataURL();
       img.onload = () => {
-        setIsLoading(false)
+        setIsLoading(false);
         // window.alert(
         //   `Canvas loaded in ${performance.now() - startTime} milliseconds`
         // )
-      }
+      };
     }
-  }, [canvasRef])
+  }, [canvasRef]);
 
   return isLoading ? (
     <div className="image-container glassmorphisum fixed left-0 top-0 min-h-screen w-[100%] rounded-lg border">
       <Image priority src="/night-shy.jpeg" fill alt="Sukuna" />
     </div>
-  ) : null
-}
+  ) : null;
+};
 const FormSchema = z.object({
   dob: z.date({
     required_error: "A date of birth is required.",
@@ -89,10 +300,10 @@ const FormSchema = z.object({
   }),
   dev_mode: z.boolean(),
   hello_tool: z.boolean(),
-})
+});
 interface TypewriterProps {
-  text: string
-  delay: number
+  text: string;
+  delay: number;
 }
 export const items = [
   {
@@ -111,90 +322,100 @@ export const items = [
     label: "Random Splates",
     id: "randomSplates",
   },
-] as const
+] as const;
 interface Props {
-  canvasRef: React.RefObject<HTMLCanvasElement>
+  canvasRef: React.RefObject<HTMLCanvasElement>;
 }
 // Uhh.. Some Important Initionalizations End || Such a good and usefull comment :) || I know, I am genius tell me something I do't know
 export default function Hack(this: any, { ...props }: DialogProps) {
-  const searchParams = useSearchParams() // LOL just intertionally making this bigger and bigger and more bigger for style
-  const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = useState("")
-  const testnets = searchParams ? searchParams.get("testnets") : ""
-  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false)
-  const testnet = searchParams ? searchParams.get("testnet") : ""
-  const search = searchParams ? searchParams.get("search") : ""
-  const [fluidSimulation, setFluidSimulation] = useState(false)
-  const [pendingContent, setPendingContent] = useState(false)
-  const fileInputRef = React.useRef<HTMLInputElement>(null)
-  const canvasRef = React.useRef<HTMLCanvasElement>(null)
-  const toggleVisibility = () => setIsVisible(!isVisible)
-  const [isFridayOpen, setIsFridayOpen] = useState(false)
-  const [isQRCodeOpen, setIsQRCodeOpen] = useState(false)
-  const [marginLeft, setMarginLeft] = useState("-00px")
-  const [file, setFile] = useState<File | null>(null)
-  const [isVisible, setIsVisible] = useState(false)
-  const [chains, setChains] = useState<Chain[]>([])
-  const [sunrays, setSunrays] = useState(false)
-  const [capture, setCapture] = useState(false)
-  const [bloom, setBloom] = useState(false)
-  const [number, setNumber] = useState("")
-  const [open, setOpen] = useState(false)
-  const [value, setValue] = useState("")
-  const [phone, setPhone] = useState("")
-  const { setTheme } = useTheme()
-  const router = useRouter()
+  const searchParams = useSearchParams(); // LOL just intertionally making this bigger and bigger and more bigger for style
+  const [emailAndPhoneNumbber, setEmailAndPhoneNumbber] = useState("");
+  const testnets = searchParams ? searchParams.get("testnets") : "";
+  const [isExtraSafetyOpen, setIsExtraSafetyOpen] = useState(false);
+  const testnet = searchParams ? searchParams.get("testnet") : "";
+  const search = searchParams ? searchParams.get("search") : "";
+  const [fluidSimulation, setFluidSimulation] = useState(false);
+  const [pendingContent, setPendingContent] = useState(false);
+  const fileInputRef = React.useRef<HTMLInputElement>(null);
+  const canvasRef = React.useRef<HTMLCanvasElement>(null);
+  const toggleVisibility = () => setIsVisible(!isVisible);
+  const [isFridayOpen, setIsFridayOpen] = useState(false);
+  const [isQRCodeOpen, setIsQRCodeOpen] = useState(false);
+  const [marginLeft, setMarginLeft] = useState("-00px");
+  const [file, setFile] = useState<File | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const [chains, setChains] = useState<Chain[]>([]);
+  const [sunrays, setSunrays] = useState(false);
+  const [capture, setCapture] = useState(false);
+  const [bloom, setBloom] = useState(false);
+  const [number, setNumber] = useState("");
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState("");
+  const [phone, setPhone] = useState("");
+  const { setTheme } = useTheme();
+  const router = useRouter();
   // Definetly some important stuffs  but this to big to hava make a documentation about plus I definetly not get paid enough for this
   // ohh I forget I donot get paid anything, not a single penny and that's why I am broke
-  const includeTestnets = (typeof testnets === "string" && testnets === "true") || (typeof testnet === "string" && testnet === "true")
-  const sortedChains = includeTestnets || typeof search !== "string" || search === ""  ? chains : chains.filter((item,index) => {
-    const testnet =
-      item.name?.toLowerCase().includes("test") ||
-      item.title?.toLowerCase().includes("test") ||
-      item.network?.toLowerCase().includes("test")
-    const devnet =
-      item.name?.toLowerCase().includes("devnet") ||
-      item.title?.toLowerCase().includes("devnet") ||
-      item.network?.toLowerCase().includes("devnet")
-    return !testnet && !devnet
-  })
-  const filteredChains = !search || typeof search !== "string" || search === "" ? sortedChains : sortedChains.filter((chain) => {
-      //filter
-      return (
-        chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-        chain.chainId
-          .toString()
-          .toLowerCase()
-          .includes(search.toLowerCase()) ||
-        chain.name.toLowerCase().includes(search.toLowerCase()) ||
-        (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
-          .toLowerCase()
-          .includes(search.toLowerCase())
-      )
-  })
-  const validateEmailPlus = (value: string) => value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
-  const validateEmail = (value: string) => value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i)
+  const includeTestnets =
+    (typeof testnets === "string" && testnets === "true") ||
+    (typeof testnet === "string" && testnet === "true");
+  const sortedChains =
+    includeTestnets || typeof search !== "string" || search === ""
+      ? chains
+      : chains.filter((item, index) => {
+          const testnet =
+            item.name?.toLowerCase().includes("test") ||
+            item.title?.toLowerCase().includes("test") ||
+            item.network?.toLowerCase().includes("test");
+          const devnet =
+            item.name?.toLowerCase().includes("devnet") ||
+            item.title?.toLowerCase().includes("devnet") ||
+            item.network?.toLowerCase().includes("devnet");
+          return !testnet && !devnet;
+        });
+  const filteredChains =
+    !search || typeof search !== "string" || search === ""
+      ? sortedChains
+      : sortedChains.filter((chain) => {
+          //filter
+          return (
+            chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+            chain.chainId
+              .toString()
+              .toLowerCase()
+              .includes(search.toLowerCase()) ||
+            chain.name.toLowerCase().includes(search.toLowerCase()) ||
+            (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+              .toLowerCase()
+              .includes(search.toLowerCase())
+          );
+        });
+  const validateEmailPlus = (value: string) =>
+    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
+  const validateEmail = (value: string) =>
+    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const files = event.target.files
+    const files = event.target.files;
     if (files) {
-      setFile(files[0])
+      setFile(files[0]);
     }
-  }
+  };
   const runCommand = React.useCallback((command: () => unknown) => {
-    setOpen(false)
-    command()
-  }, [])
+    setOpen(false);
+    command();
+  }, []);
   const validationEmailAndPhoneNumbberState = React.useMemo(() => {
-    if (emailAndPhoneNumbber === "") return undefined
+    if (emailAndPhoneNumbber === "") return undefined;
     return validateEmailPlus(emailAndPhoneNumbber) ||
       validatePhoneNumberPlus(emailAndPhoneNumbber)
       ? "valid"
-      : "invalid"
-  }, [emailAndPhoneNumbber])
-  const buttonRef = React.useRef<HTMLButtonElement | null>(null)
+      : "invalid";
+  }, [emailAndPhoneNumbber]);
+  const buttonRef = React.useRef<HTMLButtonElement | null>(null);
   const validationPhoneNumberState = React.useMemo(() => {
-    if (number === "") return undefined
-    return validatePhoneNumber(number) ? "valid" : "invalid"
-  }, [number])
+    if (number === "") return undefined;
+    return validatePhoneNumber(number) ? "valid" : "invalid";
+  }, [number]);
   function onSubmit(data: z.infer<typeof FormSchema>) {
     toast({
       title: "You submitted the following values:",
@@ -203,12 +424,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
           <code className="text-white">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
-    })
+    });
   }
   const validatePhoneNumberPlus = (value: string) => {
-    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-    return regex.test(value)
-  }
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/;
+    return regex.test(value);
+  };
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -216,39 +437,39 @@ export default function Hack(this: any, { ...props }: DialogProps) {
       dev_mode: false,
       hello_tool: true,
     },
-  })
+  });
   const validatePhoneNumber = (value: string) => {
-    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/
-    return regex.test(value)
-  }
+    const regex = /^(\+\d{1,3}[- ]?)?\d{10}$/;
+    return regex.test(value);
+  };
   const validationState = React.useMemo(() => {
-    if (value === "") return undefined
+    if (value === "") return undefined;
     return validateEmail(value) || validatePhoneNumber(value)
       ? "valid"
-      : "invalid"
-  }, [value])
+      : "invalid";
+  }, [value]);
   function logoLetter(title: string): string {
-    let text = title
-    let firstLetter = text.charAt(0).toUpperCase()
-    let lastLetter = text.charAt(text.length - 1).toUpperCase()
-    let result = firstLetter + lastLetter
-    return result
+    let text = title;
+    let firstLetter = text.charAt(0).toUpperCase();
+    let lastLetter = text.charAt(text.length - 1).toUpperCase();
+    let result = firstLetter + lastLetter;
+    return result;
   }
   const handleButtonShadcnUiClick = () => {
     if (fileInputRef.current) {
-      fileInputRef.current.click()
+      fileInputRef.current.click();
     }
-  }
+  };
   const handleConfetti = async () => {
-    const { clientWidth, clientHeight } = document.documentElement
-    const boundingBox = buttonRef.current?.getBoundingClientRect?.()
+    const { clientWidth, clientHeight } = document.documentElement;
+    const boundingBox = buttonRef.current?.getBoundingClientRect?.();
 
-    const targetY = boundingBox?.y ?? 0
-    const targetX = boundingBox?.x ?? 0
-    const targetWidth = boundingBox?.width ?? 0
+    const targetY = boundingBox?.y ?? 0;
+    const targetX = boundingBox?.x ?? 0;
+    const targetWidth = boundingBox?.width ?? 0;
 
-    const targetCenterX = targetX + targetWidth / 2
-    const confetti = (await import("canvas-confetti")).default
+    const targetCenterX = targetX + targetWidth / 2;
+    const confetti = (await import("canvas-confetti")).default;
 
     confetti({
       zIndex: 999,
@@ -258,34 +479,34 @@ export default function Hack(this: any, { ...props }: DialogProps) {
         y: targetY / clientHeight,
         x: targetCenterX / clientWidth,
       },
-    })
-  }
+    });
+  };
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault()
-        setOpen((open) => !open)
+        e.preventDefault();
+        setOpen((open) => !open);
       }
-    }
-    document.addEventListener("keydown", down)
-    return () => document.removeEventListener("keydown", down)
-    console.log(`The margin value is now ${marginLeft}px`)
-  }, [marginLeft])
+    };
+    document.addEventListener("keydown", down);
+    return () => document.removeEventListener("keydown", down);
+    console.log(`The margin value is now ${marginLeft}px`);
+  }, [marginLeft]);
   React.useEffect(() => {
     async function fetchData() {
-      const sortedChains = await generateChainData()
-      setChains(sortedChains)
+      const sortedChains = await generateChainData();
+      setChains(sortedChains);
     }
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
   interface Chain {
-    chain: any
-    chainId: any
-    nativeCurrency: any
-    chainSlug: any
-    name: string
-    title: string
-    network: string
+    chain: any;
+    chainId: any;
+    nativeCurrency: any;
+    chainSlug: any;
+    name: string;
+    title: string;
+    network: string;
     // ...
   }
   // If anyone else me seeing this code || not in billion years || but still anyone new seeing this code then my advice is just try to get a permanent job and make some grands so that you can fly those grands like MR. Beast or just fly those money for nothing and again be broke
@@ -312,10 +533,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                   <Icons.speaker className="h-4 w-4 fill-current" />
                 </div>
 
-                <Typewriter
+                {/* <Typewriter
                   text="Tips: Are Easy And Makes Jobs More Faster"
                   delay={125}
-                />
+                /> */}
+                <span className="flex h-[30px] flex-1 items-center justify-center rounded-md border text-[10px]">
+                  Tips: Are Easy And Makes Jobs More Faster
+                </span>
+
                 <Popover>
                   <PopoverTrigger asChild>
                     <div className="speaker flex h-[35px] w-[35px] items-center justify-center rounded-full border">
@@ -458,14 +683,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                       onCheckedChange={(checked) => {
                                         return checked
                                           ? field.onChange([
-                                            ...field.value,
-                                            item.id,
-                                          ])
+                                              ...field.value,
+                                              item.id,
+                                            ])
                                           : field.onChange(
-                                            field.value?.filter(
-                                              (value) => value !== item.id
-                                            )
-                                          )
+                                              field.value?.filter(
+                                                (value) => value !== item.id
+                                              )
+                                            );
                                       }}
                                     />
                                   </FormControl>
@@ -680,7 +905,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 onSelect={() => {
                                   runCommand(() =>
                                     router.push(navItem.href as string)
-                                  )
+                                  );
                                 }}
                               >
                                 <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -688,8 +913,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                          .replace(/\s/g, "-")
-                                          .toLowerCase()}.jpg`
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -714,7 +939,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 onSelect={() => {
                                   runCommand(() =>
                                     router.push(navItem.href as string)
-                                  )
+                                  );
                                 }}
                               >
                                 <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -722,8 +947,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                          .replace(/\s/g, "-")
-                                          .toLowerCase()}.jpg`
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -752,8 +977,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               src={
                                 item.logo
                                   ? `/docs/${item.title
-                                    .replace(/\s/g, "-")
-                                    .toLowerCase()}.jpg`
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
                                   : ""
                               }
                               alt="Dx"
@@ -777,8 +1002,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               src={
                                 item.logo
                                   ? `/docs/${item.title
-                                    .replace(/\s/g, "-")
-                                    .toLowerCase()}.jpg`
+                                      .replace(/\s/g, "-")
+                                      .toLowerCase()}.jpg`
                                   : ""
                               }
                               alt="Dx"
@@ -941,7 +1166,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                         className={cn(
                                           "w-full text-left font-normal",
                                           !field.value &&
-                                          "text-muted-foreground"
+                                            "text-muted-foreground"
                                         )}
                                       >
                                         {field.value ? (
@@ -1035,7 +1260,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   onSelect={() => {
                                     runCommand(() =>
                                       router.push(navItem.href as string)
-                                    )
+                                    );
                                   }}
                                 >
                                   <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -1043,8 +1268,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                       src={
                                         navItem.logo
                                           ? `/docs/${navItem.title
-                                            .replace(/\s/g, "-")
-                                            .toLowerCase()}.jpg`
+                                              .replace(/\s/g, "-")
+                                              .toLowerCase()}.jpg`
                                           : ""
                                       }
                                       alt="Dx"
@@ -1067,7 +1292,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 onSelect={() => {
                                   runCommand(() =>
                                     router.push(`/chain/${chain.chainId}`)
-                                  )
+                                  );
                                 }}
                               >
                                 <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -1095,7 +1320,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 onSelect={() => {
                                   runCommand(() =>
                                     router.push(navItem.href as string)
-                                  )
+                                  );
                                 }}
                               >
                                 <Avatar className="h-[27px] w-[27px] rounded-sm">
@@ -1103,8 +1328,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     src={
                                       navItem.logo
                                         ? `/docs/${navItem.title
-                                          .replace(/\s/g, "-")
-                                          .toLowerCase()}.jpg`
+                                            .replace(/\s/g, "-")
+                                            .toLowerCase()}.jpg`
                                         : ""
                                     }
                                     alt="Dx"
@@ -1134,8 +1359,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   src={
                                     item.logo
                                       ? `/docs/${item.title
-                                        .replace(/\s/g, "-")
-                                        .toLowerCase()}.jpg`
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
                                       : ""
                                   }
                                   alt="Dx"
@@ -1159,8 +1384,8 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   src={
                                     item.logo
                                       ? `/docs/${item.title
-                                        .replace(/\s/g, "-")
-                                        .toLowerCase()}.jpg`
+                                          .replace(/\s/g, "-")
+                                          .toLowerCase()}.jpg`
                                       : ""
                                   }
                                   alt="Dx"
@@ -1197,7 +1422,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     buttonOnly={undefined}
                                   />
                                 </React.Fragment>
-                              )
+                              );
                             }
 
                             return (
@@ -1207,7 +1432,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 lang="en"
                                 buttonOnly={undefined}
                               />
-                            )
+                            );
                           })}
                         </div>
                       </div>
@@ -1554,13 +1779,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                               variant="bordered"
                               color={
                                 validationEmailAndPhoneNumbberState ===
-                                  "invalid"
+                                "invalid"
                                   ? "danger"
                                   : "success"
                               }
                               errorMessage={
                                 validationEmailAndPhoneNumbberState ===
-                                "invalid" &&
+                                  "invalid" &&
                                 "Set A Recovary Email Or Phone Number Proccess Crashed"
                               }
                               validationState={
@@ -1705,5 +1930,5 @@ export default function Hack(this: any, { ...props }: DialogProps) {
         </DialogContent>
       </Dialog>
     </div>
-  )
+  );
 }
