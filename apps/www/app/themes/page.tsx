@@ -5,9 +5,9 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@/components/page-header"
-import { ThemeCustomizer } from "@/components/theme-customizer"
-import { ThemeWrapper } from "@/components/theme-wrapper"
+} from "@/components/pages/page-header"
+import { ThemeCustomizer } from "@/components/pages/theme-customizer"
+import { ThemeWrapper } from "@/components/pages/theme-wrapper"
 
 import { ThemesTabs } from "./tabs"
 

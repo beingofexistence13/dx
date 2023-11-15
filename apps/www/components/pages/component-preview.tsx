@@ -10,7 +10,7 @@ import { useConfig } from "@/hooks/use-config"
 import { CopyButton, CopyWithClassNames } from "@/components/copy-button"
 import { Icons } from "@/components/icons"
 import { StyleSwitcher } from "@/components/style-switcher"
-import { ThemeWrapper } from "@/components/theme-wrapper"
+import { ThemeWrapper } from "@/components/pages/theme-wrapper"
 import {
   Tabs,
   TabsContent,

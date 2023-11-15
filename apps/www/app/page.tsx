@@ -193,7 +193,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@/components/page-header"
+} from "@/components/pages/page-header"
 
 import DashboardPage from "@/app/examples/dashboard/page"
 

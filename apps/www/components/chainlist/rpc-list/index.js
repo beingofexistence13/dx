@@ -6,14 +6,14 @@
 import { useEffect, useMemo, useState } from "react";
 import * as Fathom from "fathom-client";
 // import { useTranslations } from "next-intl";
-import { notTranslation as useTranslations } from "../../utils";
-import useRPCData from "../../hooks/useRPCData";
-import useAddToNetwork from "../../hooks/useAddToNetwork";
-import { useClipboard } from "../../hooks/useClipboard";
-import { useLlamaNodesRpcData } from "../../hooks/useLlamaNodesRpcData";
-import { FATHOM_DROPDOWN_EVENTS_ID } from "../../hooks/useAnalytics";
-import { useAccount, useRpcStore } from "../../stores";
-import { renderProviderText } from "../../utils";
+import { notTranslation as useTranslations } from "../../../utils";
+import useRPCData from "../../../hooks/useRPCData";
+import useAddToNetwork from "../../../hooks/useAddToNetwork";
+import { useClipboard } from "../../../hooks/useClipboard";
+import { useLlamaNodesRpcData } from "../../../hooks/useLlamaNodesRpcData";
+import { FATHOM_DROPDOWN_EVENTS_ID } from "../../../hooks/useAnalytics";
+import { useAccount, useRpcStore } from "../../../stores";
+import { renderProviderText } from "../../../utils";
 import { Tooltip } from "../tool-tip";
 
 export default function RPCList({ chain, lang }) {

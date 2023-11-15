@@ -230,16 +230,16 @@ import { Icons } from "@/components/icons";
 import { docsConfig } from "@/config/docs";
 import { useForm } from "react-hook-form";
 import { useTheme } from "next-themes";
-import { AdBanner } from "./ad-banner";
+import { AdBanner } from "./chainlist/ad-banner";
 import { useChain } from "../stores";
 import { format } from "date-fns";
 import Script from "next/script";
 import { cn } from "@/lib/utils";
-import RPCList from "./rpc-list";
+import RPCList from "./chainlist/rpc-list";
 import Image from "next/image";
-import Layout from "./layout";
+import Layout from "./chainlist/layout";
 import Link from "next/link";
-import Chain from "./chain";
+import Chain from "./chainlist/chain";
 import { z } from "zod";
 
 // Some Important Initionalizations

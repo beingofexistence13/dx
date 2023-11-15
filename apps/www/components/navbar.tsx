@@ -26,7 +26,7 @@ import {
   SearchIcon,
   TwitterIcon,
 } from "@/components/icons"
-import { ThemeSwitch } from "@/components/theme-switch"
+import { ThemeSwitch } from "@/components/pages/theme-switch"
 
 export const Navbar = () => {
   const searchInput = (

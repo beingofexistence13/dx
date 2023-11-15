@@ -4,11 +4,11 @@
 import * as React from "react";
 import { usePathname, useSearchParams } from 'next/navigation'
 // import { useTranslations } from "next-intl";
-import { notTranslation as useTranslations } from "../../utils";
-import { formatAddress, getProvider, useDebounce } from "../../utils";
-import { walletIcons } from "../../constants/walletIcons";
-import useConnect from "../../hooks/useConnect";
-import useAccount from "../../hooks/useAccount";
+import { notTranslation as useTranslations } from "../../../utils";
+import { formatAddress, getProvider, useDebounce } from "../../../utils";
+import { walletIcons } from "../../../constants/walletIcons";
+import useConnect from "../../../hooks/useConnect";
+import useAccount from "../../../hooks/useAccount";
 import Image from "next/image"
 
 function Header({ lang, chainName }) {

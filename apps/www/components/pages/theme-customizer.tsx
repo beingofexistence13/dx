@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"
 import { copyToClipboardWithMeta } from "@/components/copy-button"
 import { DrawerContent, DrawerTrigger } from "@/components/drawer"
-import { ThemeWrapper } from "@/components/theme-wrapper"
+import { ThemeWrapper } from "@/components/pages/theme-wrapper"
 import { Button } from "@/registry/new-york/ui/button"
 import {
   Dialog,

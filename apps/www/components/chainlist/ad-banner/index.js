@@ -4,8 +4,8 @@
 import * as Fathom from "fathom-client";
 import { useEffect, useState } from "react";
 
-import { FATHOM_ADS_ID } from "../../hooks/useAnalytics";
-import { notTranslation as useTranslations, shuffleArray } from "../../utils";
+import { FATHOM_ADS_ID } from "../../../hooks/useAnalytics";
+import { notTranslation as useTranslations, shuffleArray } from "../../../utils";
 
 const BANNERS = [
   {

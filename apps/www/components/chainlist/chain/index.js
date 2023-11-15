@@ -3,13 +3,13 @@
 
 import * as React from "react";
 import RPCList from "../rpc-list";
-import { renderProviderText } from "../../utils";
+import { renderProviderText } from "../../../utils";
 import { usePathname, useSearchParams } from 'next/navigation'
 import Link from "next/link";
-import { notTranslation as useTranslations } from "../../utils";
-import { useChain } from "../../stores";
-import useAccount from "../../hooks/useAccount";
-import useAddToNetwork from "../../hooks/useAddToNetwork";
+import { notTranslation as useTranslations } from "../../../utils";
+import { useChain } from "../../../stores";
+import useAccount from "../../../hooks/useAccount";
+import useAddToNetwork from "../../../hooks/useAddToNetwork";
 import Image from "next/image"
 
 export default function Chain({ chain, buttonOnly, lang }) {
