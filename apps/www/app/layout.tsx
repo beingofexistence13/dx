@@ -95,10 +95,10 @@ export default function RootLayout({
             <Query>
               <main className="flex-1">
                 {/* Will conditionally render guest or site layout later */}
-                <GuestLayout />
-                <div className="w-auto h-full">
+                {/* <GuestLayout /> */}
+                {/* <div className="w-auto h-full z-0">
                   {children}
-                </div>
+                </div> */}
               </main>
             </Query>
           </Redux>
