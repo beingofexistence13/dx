@@ -102,15 +102,12 @@ module.exports = {
   },
   darkMode: "class",
   plugins: [
-    // require("tailwindcss-animate"),
     nextui(),
+    // require("tailwindcss-animate"),
     // require('daisyui'),
     // require('preline/plugin'),
     // require("rippleui"),
     // require('@sira-ui/tailwind'),
-
-
     // require("flowbite/plugin"),
-
   ],
 }
