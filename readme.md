@@ -5,7 +5,33 @@
 # Update
 so, there are huge or may I say everything is gonna change at 20/11/2023(Monday)
 folder:-
-1. 
+### LOL
+dx-www/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
+dx-native/
+├── node_modules/
+├── android/
+├── ios/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
 
 
 
