@@ -2,6 +2,60 @@
 
 ![new_recording_-_10_13_2023,_7_35_38_pm (Original)](https://github.com/beingofexistence/dx/assets/103621682/0d2eb57d-9052-4b36-8fd2-be49f376cb01)
 
+# Update
+so, there are huge or may I say everything is gonna change at 20/11/2023(Monday)
+folder:-
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In this project I am trying to build a platform to make developer experience (as dx is the shortform) better. By using this developers will manage huge website project more efficiently.It is a huge project so I have devided it in smaller component's like:
 
 1. dx-authflow[having trouble to integrate authentication in your website? you need dx-authflow this thing got -: 536 social login options, all blockchain wallets supported in the world and 3 more awesome feature I just can't explain this project's features in this short description. I sure wasted so many time in this project. but the final results just make this hard work paid off 😊. I can promise you have never seen so much features in an authentication package!!! there is many things to say so just check the github repo -> https://github.com/beingofexistence/dx-authflow.git (status:COMPLETED-@1.0.0)
