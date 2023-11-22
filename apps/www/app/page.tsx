@@ -1,6 +1,6 @@
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <h1>SUMON made DX</h1>
+    <h1>SUMON made DX(this is landing page)</h1>
   )
 }
