@@ -230,6 +230,5 @@
     "hello",
     "aladdin"
   ],
-  "description": "hello from DX",
-  "packageManager": "bun@1.0.6"
+  "description": "hello from DX"
 }

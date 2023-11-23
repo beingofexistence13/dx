@@ -1,5 +1,3 @@
-"use client"
-
 import allExtraRpcs from "../constants/extraRpcs.js";
 import chainIds from "../constants/chainIds.json" assert { type: "json" };
 import fetch from "node-fetch"
@@ -8,14 +6,14 @@ export const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function removeEndingSlashObject(rpc) {
     if (typeof rpc === "string") {
-        return {
-            url: removeEndingSlash(rpc),
-        };
+      return {
+        url: removeEndingSlash(rpc),
+      };
     } else {
-        return {
-            ...rpc,
-            url: removeEndingSlash(rpc.url),
-        };
+      return {
+        ...rpc,
+        url: removeEndingSlash(rpc.url),
+      };
     }
 }
 
@@ -30,13 +28,13 @@ export function populateChain(chain, chainTvls) {
         const rpcs = extraRpcs.map(removeEndingSlashObject);
 
         chain.rpc
-            .filter((rpc) => !rpc.includes("${INFURA_API_KEY}"))
-            .forEach((rpc) => {
-                const rpcObj = removeEndingSlashObject(rpc);
-                if (rpcs.find((r) => r.url === rpcObj.url) === undefined) {
-                    rpcs.push(rpcObj);
-                }
-            });
+        .filter((rpc) => !rpc.includes("${INFURA_API_KEY}"))
+        .forEach((rpc) => {
+            const rpcObj = removeEndingSlashObject(rpc);
+            if (rpcs.find((r) => r.url === rpcObj.url) === undefined) {
+            rpcs.push(rpcObj);
+            }
+        });
 
         chain.rpc = rpcs;
     } else {
@@ -49,11 +47,11 @@ export function populateChain(chain, chainTvls) {
         const defiChain = chainTvls.find((c) => c.name.toLowerCase() === chainSlug);
 
         return defiChain === undefined
-            ? chain
-            : {
-                ...chain,
-                tvl: defiChain.tvl,
-                chainSlug,
+        ? chain
+        : {
+            ...chain,
+            tvl: defiChain.tvl,
+            chainSlug,
             };
     }
     return chain;
@@ -72,11 +70,11 @@ export function mergeDeep(target, source) {
         const sourceValue = source[key];
 
         if (Array.isArray(targetValue) && Array.isArray(sourceValue)) {
-            newTarget[key] = targetValue.concat(sourceValue);
+        newTarget[key] = targetValue.concat(sourceValue);
         } else if (isObject(targetValue) && isObject(sourceValue)) {
-            newTarget[key] = mergeDeep(Object.assign({}, targetValue), sourceValue);
+        newTarget[key] = mergeDeep(Object.assign({}, targetValue), sourceValue);
         } else {
-            newTarget[key] = sourceValue;
+        newTarget[key] = sourceValue;
         }
     });
 
@@ -97,15 +95,15 @@ export function arrayMove(array, fromIndex, toIndex) {
     return newArray;
 }
 
-export async function generateChainData() {
+export async function generateChainData(){
     const chains = await fetcher("https://chainid.network/chains.json");
     const chainTvls = await fetcher("https://api.llama.fi/chains");
-
+  
     const sortedChains = chains
-        .filter((c) => c.name !== "420coin") // same chainId as ronin
-        .map((chain) => populateChain(chain, chainTvls))
-        .sort((a, b) => {
-            return (b.tvl ?? 0) - (a.tvl ?? 0);
-        });
+      .filter((c) => c.name !== "420coin") // same chainId as ronin
+      .map((chain) => populateChain(chain, chainTvls))
+      .sort((a, b) => {
+        return (b.tvl ?? 0) - (a.tvl ?? 0);
+      });
     return sortedChains
 }  

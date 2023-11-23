@@ -17,6 +17,7 @@ import GuestLayout from "@/components/guest-layout"
 // import { PrimeReact } from "./primereact"
 import Script from "next/script"
 import SiteLayout from "@/components/site-layout"
+import Hack from "@/components/hack"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
@@ -94,6 +95,9 @@ export default function RootLayout({
           <Redux>
             <Query>
               <main className="flex-1">
+                <h1>Let me start by solving dx-authflow errors</h1>
+                <Hack />
+
                 {/* Will conditionally render guest or site layout later */}
                 {/* <GuestLayout /> */}
                 {/* <div className="w-auto h-full z-0">
