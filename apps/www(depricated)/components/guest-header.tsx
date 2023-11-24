@@ -203,7 +203,7 @@ export function GuestHeader() {
   })
 
   return (
-    <header className="navbar supports-backdrop-blur:bg-background/60 bg-background/95 sticky top-0 z-[100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000] w-full backdrop-blur">
+    <header className="navbar supports-backdrop-blur:bg-background/60 bg-background/95 fixed top-0 w-full backdrop-blur">
       <div className="container flex h-14 items-center">
         <MainNav />
         <MobileNav />

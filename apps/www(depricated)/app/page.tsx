@@ -1,7 +1,73 @@
 /* eslint-disable tailwindcss/classnames-order */
+"use client";
 
+import Image from 'next/image'
 import * as React from "react"
 import LandingPage from "@/components/landing-page"
+import { GuestHeader } from "@/components/guest-header"
+// import { Button, Card, CardFooter, Image as ImageNext, Input, } from "@nextui-org/react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button as ButtonShadcnUi, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputShadcnUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
+import { ChevronRight } from 'lucide-react';
+// import "./styles.css";
+import { motion, Variants } from "framer-motion";
+
+interface Props {
+  emoji: string;
+  hueA: number;
+  hueB: number;
+}
+
+const cardVariants: Variants = {
+  offscreen: {
+    y: 300
+  },
+  onscreen: {
+    y: 50,
+    rotate: -10,
+    transition: {
+      type: "spring",
+      bounce: 0.4,
+      duration: 0.8
+    }
+  }
+};
+
+const hue = (h: number) => `hsl(${h}, 100%, 50%)`;
+
+function Card({ emoji, hueA, hueB }: Props) {
+  const background = `linear-gradient(306deg, ${hue(hueA)}, ${hue(hueB)})`;
+
+  return (
+    <motion.div
+      className="card-container"
+      initial="offscreen"
+      whileInView="onscreen"
+      viewport={{ amount: 0.8 }}
+    >
+      <div className="splash" style={{ background }} />
+      <motion.div className="card" variants={cardVariants}>
+        {emoji}
+      </motion.div>
+    </motion.div>
+  );
+}
+
+const food: [string, number, number][] = [
+  ["🍅", 340, 10],
+  ["🍊", 20, 40],
+  ["🍋", 60, 90],
+  ["🍐", 80, 120],
+  ["🍏", 100, 140],
+  ["🫐", 205, 245],
+  ["🍆", 260, 290],
+  ["🍇", 290, 320]
+];
+
+function Popup() {
+  return food.map(([emoji, hueA, hueB]) => (
+    <Card emoji={emoji} hueA={hueA} hueB={hueB} key={emoji} />
+  ));
+}
 
 interface github_repo_props {
   title: string,
@@ -2022,15 +2088,76 @@ const github_repos = [
 export default function Home() {
   return (
     <>
-      {/* <section className="flex h-[100vh] w-[100%] flex-row flex-wrap items-center justify-center overflow-y-auto overflow-x-hidden pb-24">
-        {github_repos.map((item, index) => (
-          <div key={index} className="ml-3 mt-3 flex h-[200px] w-[250px] flex-col items-start justify-start overflow-y-auto overflow-x-hidden rounded-lg border p-5 hover:bg-[--code-foreground]">
-            <h3 className="text-bold w-full text-left text-lg">{item.title}</h3>
-            <span className="text-nowrap mt-2 w-full text-xs">{item.description}</span>
-          </div>
-        ))}
+      {/* Navbar */}
+      <GuestHeader />
+      {/* Info */}
+      <section className="info h-[130vh] w-full flex items-center justify-center flex-col space-y-5 overflow-x-hidden overflow-y-auto">
+        {/* Navbar */}
+        {/* <nav className="navbar"></nav> */}
+        {/* Dx-Www asks */}
+        <div className="info-features border w-auto max-w-[90%] text-center rounded-full px-3 py-1 flex items-center justify-center flex-row hover:bg-[--code-foreground] ">
+          <span className="text-center">Introducing dx-www Asks</span>
+          <ChevronRight />
+        </div>
+        {/* Title header */}
+        <span className="titleHeader">
+          <h1 className="developText">Develop.</h1>
+          <h1 className="previewText">Preview.</h1>
+          <h1 className="OnlineText">Online.</h1>
+        </span>
+        {/* Title footer */}
+        <span className="textMuted text-xs text-center w-[300px] h-auto rounded-sm">
+          Meet the new standard for modern software development.
+          Streamline issues, sprints, and product roadmaps.
+        </span>
+        {/* Info Actions */}
+        {/* Info Video */}
+        {/* Anime Image */}
+        <div className="infoVideo border w-[90%] max-w-[1200px] h-[75vh] rounded-md hover:bg-[--code-foreground]"></div>
+        {/* <Card
+          isFooterBlurred
+          radius="lg"
+          className="min-h-[350px] border-none"
+        >
+          <AspectRatio ratio={16 / 9}>
+            <ImageNext
+              alt="Woman listing to music"
+              className="object-cover"
+              height={450}
+              src="/qrcode.png"
+              width={450}
+            />
+          </AspectRatio>
+
+          <CardFooter className="rounded-large border-1 shadow-small absolute bottom-3 z-10 ml-1 w-[calc(100%_-_8px)] justify-between overflow-hidden border-white/20 py-1 before:rounded-xl before:bg-white/10">
+            <p className="text-tiny text-white/80">
+              Support Developers At Huggingfacfe.
+            </p>
+            <Button
+              className="text-tiny bg-black/20 text-white"
+              variant="flat"
+              color="default"
+              radius="lg"
+              size="sm"
+            >
+              Regenerate
+            </Button>
+          </CardFooter>
+        </Card> */}
+        {/* <Image
+          src="/user-two.jpg"
+          alt="Vercel Logo"
+          className="dark:invert"
+          fill
+          quality={100}
+        /> */}
+      </section>
+      {/* Popups */}
+      <Popup />
+      {/* <section className="popup">
+
+
       </section> */}
-      <LandingPage />
     </>
 
   )

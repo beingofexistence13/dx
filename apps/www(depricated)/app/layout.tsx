@@ -95,14 +95,14 @@ export default function RootLayout({
           <Redux>
             <Query>
               <main className="flex-1">
-                <h1>Let me start by solving dx-authflow errors</h1>
-                <Hack />
+                {/* <h1>Let me start by solving dx-authflow errors</h1>
+                <Hack /> */}
 
                 {/* Will conditionally render guest or site layout later */}
                 {/* <GuestLayout /> */}
-                {/* <div className="w-auto h-full z-0">
+                <div className="w-auto h-full">
                   {children}
-                </div> */}
+                </div>
               </main>
             </Query>
           </Redux>
