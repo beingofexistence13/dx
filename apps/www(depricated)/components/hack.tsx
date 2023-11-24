@@ -927,7 +927,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                     </FormControl>
                                   </PopoverTrigger>
                                   <PopoverContent
-                                    className="z-[10000000000000000000000000000000] w-auto p-0"
+                                    className="w-auto p-0"
                                     align="start"
                                   >
                                     <Calendar
