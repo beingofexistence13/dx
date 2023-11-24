@@ -8,7 +8,7 @@
     "url": "https://twitter.com/beingofexistence"
   },
   "scripts": {
-    "dev": "concurrently \"contentlayer dev\" \"next dev\"",
+    "dev": "next dev",
     "build": "contentlayer build && next build",
     "start": "next start",
     "lint": "next lint",
