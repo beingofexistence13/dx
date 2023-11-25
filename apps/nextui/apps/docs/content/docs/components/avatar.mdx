@@ -1,0 +1,187 @@
+---
+title: "Avatar"
+description: "The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon."
+---
+
+import {avatarContent} from "@/content/components/avatar";
+
+
+# Avatar
+
+The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon.
+
+<ComponentLinks component="avatar" />
+
+---
+
+<CarbonAd/>
+
+## Import
+
+NextUI exports 3 avatar-related components:
+
+- **Avatar**: The main component to display an avatar.
+- **AvatarGroup**: A wrapper component to display a group of avatars.
+- **AvatarIcon**: The default icon used as fallback when the image fails to load.
+
+<ImportTabs
+  commands={{
+    main: 'import {Avatar, AvatarGroup, AvatarIcon} from "@nextui-org/react";',
+    individual: 'import {Avatar, AvatarGroup, AvatarIcon} from "@nextui-org/avatar";',
+  }}
+/>
+
+## Usage
+
+<CodeDemo title="Usage" files={avatarContent.usage} />
+
+### Sizes
+
+<CodeDemo title="Sizes" files={avatarContent.sizes} />
+
+### Disabled
+
+<CodeDemo title="Disabled" files={avatarContent.disabled} />
+
+### Bordered
+
+<CodeDemo title="Bordered" files={avatarContent.bordered} />
+
+### Radius
+
+<CodeDemo title="Radius" files={avatarContent.radius} />
+
+### Colors
+
+<CodeDemo title="Colors" files={avatarContent.colors} />
+
+### Avatar Fallbacks
+
+If there is an error loading the `src` of the avatar, there are 2 fallbacks:
+
+- If there's a `name` prop, we use it to generate the initials and a random, accessible background color.
+- If there's no `name` prop, we use a default avatar.
+
+If the `showFallback` is not passed, the fallbacks will not be displayed.
+
+<CodeDemo title="Avatar Fallbacks" files={avatarContent.fallbacks} />
+
+### Custom Fallback
+
+You can also provide a custom fallback component to be displayed when the `src` fails to load.
+
+<CodeDemo title="Custom Fallback" files={avatarContent.customFallback} />
+
+### Custom Implementation
+
+In case you need to customize the avatar even further, you can use the `useAvatar` hook to create your own implementation.
+
+<CodeDemo showPreview={false} title="Custom implementation" files={avatarContent.customImpl} />
+
+### Custom intials logic
+
+It is possible to customize the logic used to generate the initials by passing a function to the `getInitials` prop.
+By default we merge the first characters of each word in the `name` prop.
+
+## Avatar Group
+
+<CodeDemo title="Avatar Group" files={avatarContent.group} />
+
+### Group Disabled
+
+<CodeDemo title="Group Disabled" files={avatarContent.groupDisabled} />
+
+### Group Max Count
+
+You can limit the number of avatars displayed by passing the `max` prop to the `AvatarGroup` component.
+
+<CodeDemo title="Group Max Count" files={avatarContent.groupMax} />
+
+### Group Total Count
+
+You can display the total number of avatars by passing the `total` prop to the `AvatarGroup` component.
+
+<CodeDemo title="Group Total Count" files={avatarContent.groupTotal} />
+
+### Group Custom count
+
+NextUI provides a `renderCount` prop to customize the count displayed when the `total` prop is passed.
+
+<CodeDemo title="Group Custom count" files={avatarContent.groupCustomCount} />
+
+### Group Grid
+
+By passing the `isGrid` prop to the `AvatarGroup` component, the avatars will be displayed in a grid layout.
+
+<CodeDemo title="Usage" files={avatarContent.groupGrid} />
+
+### Group Custom Implementation
+
+In case you need to customize the avatar group even further, you can use the `useAvatarGroup` hook and the
+`AvatarGroupProvider` to create your own implementation.
+
+<CodeDemo showPreview={false} title="Custom implementation" files={avatarContent.groupCustomImpl} />
+
+## Slots
+
+- **base**: Avatar wrapper, it includes styles for focus ring, position, and general appearance.
+- **img**: Image element within the avatar, it includes styles for opacity transition and size.
+- **fallback**: Fallback content when the image fails to load or is not provided, it includes styles for centering the content.
+- **name**: Initials displayed when the image is not provided or fails to load, it includes styles for font, text alignment, and inheritance.
+- **icon**: Icon element within the avatar, it includes styles for centering the content, text inheritance, and size.
+
+### Custom Avatar Styles
+
+You can customize any part of the avatar by using the `classNames` prop, each `slot` has its own `className`.
+
+<CodeDemo title="Custom Avatar" files={avatarContent.custom} />
+
+<Spacer y={4} />{" "}
+
+## Data Attributes
+
+`Avatar` has the following attributes on the `base` element:
+
+- **data-hover**:
+  When the avatar is being hovered. Based on [useHover](https://react-spectrum.adobe.com/react-aria/useHover.html)
+- **data-focus**:
+  When the avatar is being focused. Based on [useFocusRing](https://react-spectrum.adobe.com/react-aria/useFocusRing.html), it is applied when `isFocusable` is `true` or when the `as` property is assigned as `button`.
+- **data-focus-visible**:
+  When the avatar is being focused with the keyboard. Based on [useFocusRing](https://react-spectrum.adobe.com/react-aria/useFocusRing.html), it is applied when `isFocusable` is `true` or when the `as` property is assigned as `button`.
+
+<Spacer y={4} />{" "}
+
+## API
+
+### Avatar Props
+
+| Attribute    | Type                                                                        | Description                                                                  | Default   |
+| ------------ | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------- |
+| src          | `string`                                                                    | The source URL of the image to be displayed.                                 | -         |
+| color        | `default` \| `primary` \| `secondary` \| `success` \| `warning` \| `danger` | Sets the avatar background color.                                            | `default` |
+| radius       | `none` \| `sm` \| `md` \| `lg` \| `full`                                    | Sets the avatar border radius.                                               | `full`    |
+| size         | `sm` \| `md` \| `lg`                                                        | Sets the avatar size.                                                        | `md`      |
+| name         | `string`                                                                    | Displays the initials if the image is not provided or fails to load.         | -         |
+| icon         | `ReactNode`                                                                 | Displays a custom icon inside the avatar.                                    | -         |
+| fallback     | `ReactNode`                                                                 | A custom fallback component to display when the image fails to load.         | -         |
+| isBordered   | `boolean`                                                                   | If `true`, adds a border around the avatar.                                  | `false`   |
+| isDisabled   | `boolean`                                                                   | If `true`, disables the avatar and applies a disabled styling.               | `false`   |
+| isFocusable  | `boolean`                                                                   | If `true`, makes the avatar focusable for keyboard navigation.               | `false`   |
+| showFallback | `boolean`                                                                   | If `true`, shows the fallback icon or initials when the image fails to load. | `false`   |
+| ImgComponent | `React.ElementType`                                                         | The component to be used as the image element.                               | `img`     |
+| imgProps     | `ImgComponentProps`                                                         | Props to be passed to the image element.                                     | -         |
+| classNames   | `Record<"base"｜ "img"｜ "fallback"｜ "name"｜ "icon", string>`             | Allows to set custom class names for the avatar slots.                       | -         |
+
+### Avatar Group Props
+
+| Attribute   | Type                           | Description                                         | Default |
+| ----------- | ------------------------------ | --------------------------------------------------- | ------- |
+| max         | `number`                       | The maximum number of visible avatars               | `5`     |
+| total       | `number`                       | Control the number of avatar not visible            | -       |
+| size        | `AvatarProps['size']`          | Size of the avatars                                 | -       |
+| color       | `AvatarProps['color']`         | Color of the avatars                                | -       |
+| radius      | `AvatarProps['radius']`        | Radius of the avatars                               | -       |
+| isGrid      | `boolean`                      | Whether the avatars should be displayed in a grid   | `false` |
+| isDisabled  | `boolean`                      | Whether the avatars are disabled                    | -       |
+| isBordered  | `boolean`                      | Whether the avatars have a border                   | -       |
+| renderCount | `(count: number) => ReactNode` | This allows you to render a custom count component. | -       |
