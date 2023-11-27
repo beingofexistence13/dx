@@ -1,6 +1,23 @@
 # Dx!!!
 
 ![new_recording_-_10_13_2023,_7_35_38_pm (Original)](https://github.com/beingofexistence/dx/assets/103621682/0d2eb57d-9052-4b36-8fd2-be49f376cb01)
+
+## folder structure update:
+* seraparated folders -
+1. frontend (something is fishy here, so have to check it later)
+2. backend
+3. blockchain
+4. 
+
+* files in folders(mostly in frontend) -
+1. ui
+2. ux
+3. ai
+4. blockchain
+5. authflow
+6. paymentflow
+7. animeflow
+
 <!-- 
 # Update
 so, there are huge or may I say everything is gonna change at 20/11/2023(Monday)
