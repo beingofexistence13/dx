@@ -3,6 +3,13 @@
 ![new_recording_-_10_13_2023,_7_35_38_pm (Original)](https://github.com/beingofexistence/dx/assets/103621682/0d2eb57d-9052-4b36-8fd2-be49f376cb01)
 
 ## folder structure update:
+* final folders list -
+
+
+
+
+
+
 * seraparated folders -
 1. frontend (something is fishy here, so have to check it later)
 2. backend
