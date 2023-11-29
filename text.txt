@@ -1,1 +1,1 @@
-mkdir security && cd security && touch security.md && cd ..
+mkdir inspirations && cd inspirations && touch inspirations.md && cd ..
