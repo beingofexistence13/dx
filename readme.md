@@ -14,7 +14,6 @@
 1. frontend (something is fishy here, so have to check it later)
 2. backend
 3. blockchain
-4. 
 
 * files in folders(mostly in frontend) -
 1. ui
