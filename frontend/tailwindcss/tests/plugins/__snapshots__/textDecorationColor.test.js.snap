@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'textDecorationColor' plugin 1`] = `
+"
+.decoration-black {
+  text-decoration-color: #000;
+}
+
+.decoration-black\\/0 {
+  text-decoration-color: #0000;
+}
+
+.decoration-black\\/50 {
+  text-decoration-color: #00000080;
+}
+
+.decoration-red-100 {
+  text-decoration-color: #fee2e2;
+}
+
+.decoration-red-100\\/0 {
+  text-decoration-color: #fee2e200;
+}
+
+.decoration-red-100\\/50 {
+  text-decoration-color: #fee2e280;
+}
+
+.decoration-red-200 {
+  text-decoration-color: #fecaca;
+}
+
+.decoration-red-200\\/0 {
+  text-decoration-color: #fecaca00;
+}
+
+.decoration-red-200\\/50 {
+  text-decoration-color: #fecaca80;
+}
+
+.decoration-transparent, .decoration-transparent\\/0 {
+  text-decoration-color: #0000;
+}
+
+.decoration-transparent\\/50 {
+  text-decoration-color: #00000080;
+}
+"
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'placeholderOpacity' plugin 1`] = `
+"
+.placeholder-opacity-0::placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.placeholder-opacity-50::placeholder {
+  --tw-placeholder-opacity: .5;
+}
+
+.placeholder-opacity-\\[0\\.12\\]::placeholder {
+  --tw-placeholder-opacity: .12;
+}
+
+.placeholder-opacity-\\[var\\(--my-value\\)\\]::placeholder {
+  --tw-placeholder-opacity: var(--my-value);
+}
+"
+`;

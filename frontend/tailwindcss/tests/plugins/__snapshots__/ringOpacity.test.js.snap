@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'ringOpacity' plugin 1`] = `
+"
+.ring-opacity-0 {
+  --tw-ring-opacity: 0;
+}
+
+.ring-opacity-50 {
+  --tw-ring-opacity: .5;
+}
+
+.ring-opacity-\\[0\\.12\\] {
+  --tw-ring-opacity: .12;
+}
+
+.ring-opacity-\\[var\\(--my-value\\)\\] {
+  --tw-ring-opacity: var(--my-value);
+}
+"
+`;
+
+exports[`should test the 'ringOpacity' plugin 2`] = `
+"
+.ring-opacity {
+  --tw-ring-opacity: .5;
+}
+
+.ring-opacity-0 {
+  --tw-ring-opacity: 0;
+}
+
+.ring-opacity-50 {
+  --tw-ring-opacity: .5;
+}
+
+.ring-opacity-\\[0\\.12\\] {
+  --tw-ring-opacity: .12;
+}
+
+.ring-opacity-\\[var\\(--my-value\\)\\] {
+  --tw-ring-opacity: var(--my-value);
+}
+"
+`;

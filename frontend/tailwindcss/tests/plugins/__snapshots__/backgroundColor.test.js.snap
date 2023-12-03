@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'backgroundColor' plugin 1`] = `
+"
+.bg-\\[\\#0088cc\\] {
+  background-color: #08c;
+}
+
+.bg-\\[var\\(--my-value\\)\\] {
+  background-color: var(--my-value);
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-black\\/0 {
+  background-color: #0000;
+}
+
+.bg-black\\/50 {
+  background-color: #00000080;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.bg-red-100\\/0 {
+  background-color: #fee2e200;
+}
+
+.bg-red-100\\/50 {
+  background-color: #fee2e280;
+}
+
+.bg-red-200 {
+  background-color: #fecaca;
+}
+
+.bg-red-200\\/0 {
+  background-color: #fecaca00;
+}
+
+.bg-red-200\\/50 {
+  background-color: #fecaca80;
+}
+
+.bg-transparent, .bg-transparent\\/0 {
+  background-color: #0000;
+}
+
+.bg-transparent\\/50 {
+  background-color: #00000080;
+}
+"
+`;
+
+exports[`should test the 'backgroundColor' plugin 2`] = `
+"
+.bg-\\[\\#0088cc\\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 136 204 / var(--tw-bg-opacity));
+}
+
+.bg-\\[var\\(--my-value\\)\\] {
+  background-color: var(--my-value);
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-black\\/0 {
+  background-color: #0000;
+}
+
+.bg-black\\/50 {
+  background-color: #00000080;
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
+.bg-red-100\\/0 {
+  background-color: #fee2e200;
+}
+
+.bg-red-100\\/50 {
+  background-color: #fee2e280;
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-200\\/0 {
+  background-color: #fecaca00;
+}
+
+.bg-red-200\\/50 {
+  background-color: #fecaca80;
+}
+
+.bg-transparent, .bg-transparent\\/0 {
+  background-color: #0000;
+}
+
+.bg-transparent\\/50 {
+  background-color: #00000080;
+}
+
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: .5;
+}
+"
+`;

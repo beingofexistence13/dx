@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'caretColor' plugin 1`] = `
+"
+.caret-\\[\\#0088cc\\] {
+  caret-color: #08c;
+}
+
+.caret-\\[var\\(--my-value\\)\\] {
+  caret-color: var(--my-value);
+}
+
+.caret-black {
+  caret-color: #000;
+}
+
+.caret-black\\/0 {
+  caret-color: #0000;
+}
+
+.caret-black\\/50 {
+  caret-color: #00000080;
+}
+
+.caret-red-100 {
+  caret-color: #fee2e2;
+}
+
+.caret-red-100\\/0 {
+  caret-color: #fee2e200;
+}
+
+.caret-red-100\\/50 {
+  caret-color: #fee2e280;
+}
+
+.caret-red-200 {
+  caret-color: #fecaca;
+}
+
+.caret-red-200\\/0 {
+  caret-color: #fecaca00;
+}
+
+.caret-red-200\\/50 {
+  caret-color: #fecaca80;
+}
+
+.caret-transparent, .caret-transparent\\/0 {
+  caret-color: #0000;
+}
+
+.caret-transparent\\/50 {
+  caret-color: #00000080;
+}
+"
+`;

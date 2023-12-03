@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'outlineColor' plugin 1`] = `
+"
+.outline-\\[\\#0088cc\\] {
+  outline-color: #08c;
+}
+
+.outline-\\[var\\(--my-value\\)\\] {
+  outline-color: var(--my-value);
+}
+
+.outline-black {
+  outline-color: #000;
+}
+
+.outline-black\\/0 {
+  outline-color: #0000;
+}
+
+.outline-black\\/50 {
+  outline-color: #00000080;
+}
+
+.outline-red-100 {
+  outline-color: #fee2e2;
+}
+
+.outline-red-100\\/0 {
+  outline-color: #fee2e200;
+}
+
+.outline-red-100\\/50 {
+  outline-color: #fee2e280;
+}
+
+.outline-red-200 {
+  outline-color: #fecaca;
+}
+
+.outline-red-200\\/0 {
+  outline-color: #fecaca00;
+}
+
+.outline-red-200\\/50 {
+  outline-color: #fecaca80;
+}
+
+.outline-transparent, .outline-transparent\\/0 {
+  outline-color: #0000;
+}
+
+.outline-transparent\\/50 {
+  outline-color: #00000080;
+}
+"
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'fill' plugin 1`] = `
+"
+.fill-\\[\\#0088cc\\] {
+  fill: #08c;
+}
+
+.fill-\\[var\\(--my-value\\)\\] {
+  fill: var(--my-value);
+}
+
+.fill-black {
+  fill: #000;
+}
+
+.fill-black\\/0 {
+  fill: #0000;
+}
+
+.fill-black\\/50 {
+  fill: #00000080;
+}
+
+.fill-none {
+  fill: none;
+}
+
+.fill-red-100 {
+  fill: #fee2e2;
+}
+
+.fill-red-100\\/0 {
+  fill: #fee2e200;
+}
+
+.fill-red-100\\/50 {
+  fill: #fee2e280;
+}
+
+.fill-red-200 {
+  fill: #fecaca;
+}
+
+.fill-red-200\\/0 {
+  fill: #fecaca00;
+}
+
+.fill-red-200\\/50 {
+  fill: #fecaca80;
+}
+
+.fill-transparent, .fill-transparent\\/0 {
+  fill: #0000;
+}
+
+.fill-transparent\\/50 {
+  fill: #00000080;
+}
+"
+`;

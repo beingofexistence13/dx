@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'ringColor' plugin 1`] = `
+"
+.ring-\\[\\#0088cc\\] {
+  --tw-ring-color: #08c;
+}
+
+.ring-\\[var\\(--my-value\\)\\] {
+  --tw-ring-color: var(--my-value);
+}
+
+.ring-black {
+  --tw-ring-color: #000;
+}
+
+.ring-black\\/0 {
+  --tw-ring-color: #0000;
+}
+
+.ring-black\\/10 {
+  --tw-ring-color: #0000001a;
+}
+
+.ring-black\\/100 {
+  --tw-ring-color: #000;
+}
+
+.ring-black\\/15 {
+  --tw-ring-color: #00000026;
+}
+
+.ring-black\\/20 {
+  --tw-ring-color: #0003;
+}
+
+.ring-black\\/25 {
+  --tw-ring-color: #00000040;
+}
+
+.ring-black\\/30 {
+  --tw-ring-color: #0000004d;
+}
+
+.ring-black\\/35 {
+  --tw-ring-color: #00000059;
+}
+
+.ring-black\\/40 {
+  --tw-ring-color: #0006;
+}
+
+.ring-black\\/45 {
+  --tw-ring-color: #00000073;
+}
+
+.ring-black\\/5 {
+  --tw-ring-color: #0000000d;
+}
+
+.ring-black\\/50 {
+  --tw-ring-color: #00000080;
+}
+
+.ring-black\\/55 {
+  --tw-ring-color: #0000008c;
+}
+
+.ring-black\\/60 {
+  --tw-ring-color: #0009;
+}
+
+.ring-black\\/65 {
+  --tw-ring-color: #000000a6;
+}
+
+.ring-black\\/70 {
+  --tw-ring-color: #000000b3;
+}
+
+.ring-black\\/75 {
+  --tw-ring-color: #000000bf;
+}
+
+.ring-black\\/80 {
+  --tw-ring-color: #000c;
+}
+
+.ring-black\\/85 {
+  --tw-ring-color: #000000d9;
+}
+
+.ring-black\\/90 {
+  --tw-ring-color: #000000e6;
+}
+
+.ring-black\\/95 {
+  --tw-ring-color: #000000f2;
+}
+
+.ring-red-100 {
+  --tw-ring-color: #fee2e2;
+}
+
+.ring-red-100\\/0 {
+  --tw-ring-color: #fee2e200;
+}
+
+.ring-red-100\\/10 {
+  --tw-ring-color: #fee2e21a;
+}
+
+.ring-red-100\\/100 {
+  --tw-ring-color: #fee2e2;
+}
+
+.ring-red-100\\/15 {
+  --tw-ring-color: #fee2e226;
+}
+
+.ring-red-100\\/20 {
+  --tw-ring-color: #fee2e233;
+}
+
+.ring-red-100\\/25 {
+  --tw-ring-color: #fee2e240;
+}
+
+.ring-red-100\\/30 {
+  --tw-ring-color: #fee2e24d;
+}
+
+.ring-red-100\\/35 {
+  --tw-ring-color: #fee2e259;
+}
+
+.ring-red-100\\/40 {
+  --tw-ring-color: #fee2e266;
+}
+
+.ring-red-100\\/45 {
+  --tw-ring-color: #fee2e273;
+}
+
+.ring-red-100\\/5 {
+  --tw-ring-color: #fee2e20d;
+}
+
+.ring-red-100\\/50 {
+  --tw-ring-color: #fee2e280;
+}
+
+.ring-red-100\\/55 {
+  --tw-ring-color: #fee2e28c;
+}
+
+.ring-red-100\\/60 {
+  --tw-ring-color: #fee2e299;
+}
+
+.ring-red-100\\/65 {
+  --tw-ring-color: #fee2e2a6;
+}
+
+.ring-red-100\\/70 {
+  --tw-ring-color: #fee2e2b3;
+}
+
+.ring-red-100\\/75 {
+  --tw-ring-color: #fee2e2bf;
+}
+
+.ring-red-100\\/80 {
+  --tw-ring-color: #fee2e2cc;
+}
+
+.ring-red-100\\/85 {
+  --tw-ring-color: #fee2e2d9;
+}
+
+.ring-red-100\\/90 {
+  --tw-ring-color: #fee2e2e6;
+}
+
+.ring-red-100\\/95 {
+  --tw-ring-color: #fee2e2f2;
+}
+
+.ring-red-200 {
+  --tw-ring-color: #fecaca;
+}
+
+.ring-red-200\\/0 {
+  --tw-ring-color: #fecaca00;
+}
+
+.ring-red-200\\/10 {
+  --tw-ring-color: #fecaca1a;
+}
+
+.ring-red-200\\/100 {
+  --tw-ring-color: #fecaca;
+}
+
+.ring-red-200\\/15 {
+  --tw-ring-color: #fecaca26;
+}
+
+.ring-red-200\\/20 {
+  --tw-ring-color: #fecaca33;
+}
+
+.ring-red-200\\/25 {
+  --tw-ring-color: #fecaca40;
+}
+
+.ring-red-200\\/30 {
+  --tw-ring-color: #fecaca4d;
+}
+
+.ring-red-200\\/35 {
+  --tw-ring-color: #fecaca59;
+}
+
+.ring-red-200\\/40 {
+  --tw-ring-color: #fecaca66;
+}
+
+.ring-red-200\\/45 {
+  --tw-ring-color: #fecaca73;
+}
+
+.ring-red-200\\/5 {
+  --tw-ring-color: #fecaca0d;
+}
+
+.ring-red-200\\/50 {
+  --tw-ring-color: #fecaca80;
+}
+
+.ring-red-200\\/55 {
+  --tw-ring-color: #fecaca8c;
+}
+
+.ring-red-200\\/60 {
+  --tw-ring-color: #fecaca99;
+}
+
+.ring-red-200\\/65 {
+  --tw-ring-color: #fecacaa6;
+}
+
+.ring-red-200\\/70 {
+  --tw-ring-color: #fecacab3;
+}
+
+.ring-red-200\\/75 {
+  --tw-ring-color: #fecacabf;
+}
+
+.ring-red-200\\/80 {
+  --tw-ring-color: #fecacacc;
+}
+
+.ring-red-200\\/85 {
+  --tw-ring-color: #fecacad9;
+}
+
+.ring-red-200\\/90 {
+  --tw-ring-color: #fecacae6;
+}
+
+.ring-red-200\\/95 {
+  --tw-ring-color: #fecacaf2;
+}
+
+.ring-transparent {
+  --tw-ring-color: transparent;
+}
+
+.ring-transparent\\/0 {
+  --tw-ring-color: #0000;
+}
+
+.ring-transparent\\/10 {
+  --tw-ring-color: #0000001a;
+}
+
+.ring-transparent\\/100 {
+  --tw-ring-color: #000;
+}
+
+.ring-transparent\\/15 {
+  --tw-ring-color: #00000026;
+}
+
+.ring-transparent\\/20 {
+  --tw-ring-color: #0003;
+}
+
+.ring-transparent\\/25 {
+  --tw-ring-color: #00000040;
+}
+
+.ring-transparent\\/30 {
+  --tw-ring-color: #0000004d;
+}
+
+.ring-transparent\\/35 {
+  --tw-ring-color: #00000059;
+}
+
+.ring-transparent\\/40 {
+  --tw-ring-color: #0006;
+}
+
+.ring-transparent\\/45 {
+  --tw-ring-color: #00000073;
+}
+
+.ring-transparent\\/5 {
+  --tw-ring-color: #0000000d;
+}
+
+.ring-transparent\\/50 {
+  --tw-ring-color: #00000080;
+}
+
+.ring-transparent\\/55 {
+  --tw-ring-color: #0000008c;
+}
+
+.ring-transparent\\/60 {
+  --tw-ring-color: #0009;
+}
+
+.ring-transparent\\/65 {
+  --tw-ring-color: #000000a6;
+}
+
+.ring-transparent\\/70 {
+  --tw-ring-color: #000000b3;
+}
+
+.ring-transparent\\/75 {
+  --tw-ring-color: #000000bf;
+}
+
+.ring-transparent\\/80 {
+  --tw-ring-color: #000c;
+}
+
+.ring-transparent\\/85 {
+  --tw-ring-color: #000000d9;
+}
+
+.ring-transparent\\/90 {
+  --tw-ring-color: #000000e6;
+}
+
+.ring-transparent\\/95 {
+  --tw-ring-color: #000000f2;
+}
+"
+`;
+
+exports[`should test the 'ringColor' plugin 2`] = `
+"
+.ring-\\[\\#0088cc\\] {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 136 204 / var(--tw-ring-opacity));
+}
+
+.ring-\\[var\\(--my-value\\)\\] {
+  --tw-ring-color: var(--my-value);
+}
+
+.ring-black {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));
+}
+
+.ring-black\\/0 {
+  --tw-ring-color: #0000;
+}
+
+.ring-black\\/50 {
+  --tw-ring-color: #00000080;
+}
+
+.ring-red-100 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(254 226 226 / var(--tw-ring-opacity));
+}
+
+.ring-red-100\\/0 {
+  --tw-ring-color: #fee2e200;
+}
+
+.ring-red-100\\/50 {
+  --tw-ring-color: #fee2e280;
+}
+
+.ring-red-200 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(254 202 202 / var(--tw-ring-opacity));
+}
+
+.ring-red-200\\/0 {
+  --tw-ring-color: #fecaca00;
+}
+
+.ring-red-200\\/50 {
+  --tw-ring-color: #fecaca80;
+}
+
+.ring-transparent {
+  --tw-ring-color: transparent;
+}
+
+.ring-transparent\\/0 {
+  --tw-ring-color: #0000;
+}
+
+.ring-transparent\\/50 {
+  --tw-ring-color: #00000080;
+}
+
+.ring-opacity-0 {
+  --tw-ring-opacity: 0;
+}
+
+.ring-opacity-50 {
+  --tw-ring-opacity: .5;
+}
+"
+`;

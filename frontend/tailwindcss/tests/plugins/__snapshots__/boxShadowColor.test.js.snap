@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'boxShadowColor' plugin 1`] = `
+"
+.shadow-\\[\\#0088cc\\] {
+  --tw-shadow-color: #08c;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-\\[var\\(--my-value\\)\\] {
+  --tw-shadow-color: var(--my-value);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-black {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-black\\/0 {
+  --tw-shadow-color: #0000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-black\\/50 {
+  --tw-shadow-color: #00000080;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-100 {
+  --tw-shadow-color: #fee2e2;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-100\\/0 {
+  --tw-shadow-color: #fee2e200;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-100\\/50 {
+  --tw-shadow-color: #fee2e280;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-200 {
+  --tw-shadow-color: #fecaca;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-200\\/0 {
+  --tw-shadow-color: #fecaca00;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-200\\/50 {
+  --tw-shadow-color: #fecaca80;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-transparent {
+  --tw-shadow-color: transparent;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-transparent\\/0 {
+  --tw-shadow-color: #0000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-transparent\\/50 {
+  --tw-shadow-color: #00000080;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+"
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'stroke' plugin 1`] = `
+"
+.stroke-\\[\\#0088cc\\] {
+  stroke: #08c;
+}
+
+.stroke-\\[var\\(--my-value\\)\\] {
+  stroke: var(--my-value);
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
+.stroke-black\\/0 {
+  stroke: #0000;
+}
+
+.stroke-black\\/50 {
+  stroke: #00000080;
+}
+
+.stroke-none {
+  stroke: none;
+}
+
+.stroke-red-100 {
+  stroke: #fee2e2;
+}
+
+.stroke-red-100\\/0 {
+  stroke: #fee2e200;
+}
+
+.stroke-red-100\\/50 {
+  stroke: #fee2e280;
+}
+
+.stroke-red-200 {
+  stroke: #fecaca;
+}
+
+.stroke-red-200\\/0 {
+  stroke: #fecaca00;
+}
+
+.stroke-red-200\\/50 {
+  stroke: #fecaca80;
+}
+
+.stroke-transparent, .stroke-transparent\\/0 {
+  stroke: #0000;
+}
+
+.stroke-transparent\\/50 {
+  stroke: #00000080;
+}
+"
+`;

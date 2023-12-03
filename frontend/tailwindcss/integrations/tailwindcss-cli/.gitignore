@@ -1,0 +1,5 @@
+dist/
+node_modules/
+!tailwind.config.js
+!index.html
+/src/tailwind.2.config.js

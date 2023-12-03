@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'accentColor' plugin 1`] = `
+"
+.accent-\\[\\#0088cc\\] {
+  accent-color: #08c;
+}
+
+.accent-\\[var\\(--my-value\\)\\] {
+  accent-color: var(--my-value);
+}
+
+.accent-auto {
+  accent-color: auto;
+}
+
+.accent-black {
+  accent-color: #000;
+}
+
+.accent-black\\/0 {
+  accent-color: #0000;
+}
+
+.accent-black\\/50 {
+  accent-color: #00000080;
+}
+
+.accent-red-100 {
+  accent-color: #fee2e2;
+}
+
+.accent-red-100\\/0 {
+  accent-color: #fee2e200;
+}
+
+.accent-red-100\\/50 {
+  accent-color: #fee2e280;
+}
+
+.accent-red-200 {
+  accent-color: #fecaca;
+}
+
+.accent-red-200\\/0 {
+  accent-color: #fecaca00;
+}
+
+.accent-red-200\\/50 {
+  accent-color: #fecaca80;
+}
+
+.accent-transparent, .accent-transparent\\/0 {
+  accent-color: #0000;
+}
+
+.accent-transparent\\/50 {
+  accent-color: #00000080;
+}
+"
+`;

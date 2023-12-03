@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'divideColor' plugin 1`] = `
+"
+.divide-\\[\\#0088cc\\] > :not([hidden]) ~ :not([hidden]) {
+  border-color: #08c;
+}
+
+.divide-\\[var\\(--my-value\\)\\] > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--my-value);
+}
+
+.divide-black > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000;
+}
+
+.divide-black\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000;
+}
+
+.divide-black\\/10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000001a;
+}
+
+.divide-black\\/100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000;
+}
+
+.divide-black\\/15 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000026;
+}
+
+.divide-black\\/20 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0003;
+}
+
+.divide-black\\/25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000040;
+}
+
+.divide-black\\/30 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000004d;
+}
+
+.divide-black\\/35 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000059;
+}
+
+.divide-black\\/40 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0006;
+}
+
+.divide-black\\/45 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000073;
+}
+
+.divide-black\\/5 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000000d;
+}
+
+.divide-black\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000080;
+}
+
+.divide-black\\/55 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000008c;
+}
+
+.divide-black\\/60 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0009;
+}
+
+.divide-black\\/65 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000a6;
+}
+
+.divide-black\\/70 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000b3;
+}
+
+.divide-black\\/75 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000bf;
+}
+
+.divide-black\\/80 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000c;
+}
+
+.divide-black\\/85 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000d9;
+}
+
+.divide-black\\/90 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000e6;
+}
+
+.divide-black\\/95 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000f2;
+}
+
+.divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2;
+}
+
+.divide-red-100\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e200;
+}
+
+.divide-red-100\\/10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e21a;
+}
+
+.divide-red-100\\/100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2;
+}
+
+.divide-red-100\\/15 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e226;
+}
+
+.divide-red-100\\/20 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e233;
+}
+
+.divide-red-100\\/25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e240;
+}
+
+.divide-red-100\\/30 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e24d;
+}
+
+.divide-red-100\\/35 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e259;
+}
+
+.divide-red-100\\/40 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e266;
+}
+
+.divide-red-100\\/45 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e273;
+}
+
+.divide-red-100\\/5 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e20d;
+}
+
+.divide-red-100\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e280;
+}
+
+.divide-red-100\\/55 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e28c;
+}
+
+.divide-red-100\\/60 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e299;
+}
+
+.divide-red-100\\/65 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2a6;
+}
+
+.divide-red-100\\/70 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2b3;
+}
+
+.divide-red-100\\/75 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2bf;
+}
+
+.divide-red-100\\/80 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2cc;
+}
+
+.divide-red-100\\/85 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2d9;
+}
+
+.divide-red-100\\/90 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2e6;
+}
+
+.divide-red-100\\/95 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e2f2;
+}
+
+.divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca;
+}
+
+.divide-red-200\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca00;
+}
+
+.divide-red-200\\/10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca1a;
+}
+
+.divide-red-200\\/100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca;
+}
+
+.divide-red-200\\/15 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca26;
+}
+
+.divide-red-200\\/20 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca33;
+}
+
+.divide-red-200\\/25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca40;
+}
+
+.divide-red-200\\/30 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca4d;
+}
+
+.divide-red-200\\/35 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca59;
+}
+
+.divide-red-200\\/40 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca66;
+}
+
+.divide-red-200\\/45 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca73;
+}
+
+.divide-red-200\\/5 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca0d;
+}
+
+.divide-red-200\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca80;
+}
+
+.divide-red-200\\/55 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca8c;
+}
+
+.divide-red-200\\/60 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca99;
+}
+
+.divide-red-200\\/65 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacaa6;
+}
+
+.divide-red-200\\/70 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacab3;
+}
+
+.divide-red-200\\/75 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacabf;
+}
+
+.divide-red-200\\/80 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacacc;
+}
+
+.divide-red-200\\/85 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacad9;
+}
+
+.divide-red-200\\/90 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacae6;
+}
+
+.divide-red-200\\/95 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecacaf2;
+}
+
+.divide-transparent > :not([hidden]) ~ :not([hidden]), .divide-transparent\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000;
+}
+
+.divide-transparent\\/10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000001a;
+}
+
+.divide-transparent\\/100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000;
+}
+
+.divide-transparent\\/15 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000026;
+}
+
+.divide-transparent\\/20 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0003;
+}
+
+.divide-transparent\\/25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000040;
+}
+
+.divide-transparent\\/30 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000004d;
+}
+
+.divide-transparent\\/35 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000059;
+}
+
+.divide-transparent\\/40 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0006;
+}
+
+.divide-transparent\\/45 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000073;
+}
+
+.divide-transparent\\/5 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000000d;
+}
+
+.divide-transparent\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000080;
+}
+
+.divide-transparent\\/55 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000008c;
+}
+
+.divide-transparent\\/60 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0009;
+}
+
+.divide-transparent\\/65 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000a6;
+}
+
+.divide-transparent\\/70 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000b3;
+}
+
+.divide-transparent\\/75 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000bf;
+}
+
+.divide-transparent\\/80 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000c;
+}
+
+.divide-transparent\\/85 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000d9;
+}
+
+.divide-transparent\\/90 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000e6;
+}
+
+.divide-transparent\\/95 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #000000f2;
+}
+"
+`;
+
+exports[`should test the 'divideColor' plugin 2`] = `
+"
+.divide-\\[\\#0088cc\\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(0 136 204 / var(--tw-divide-opacity));
+}
+
+.divide-\\[var\\(--my-value\\)\\] > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--my-value);
+}
+
+.divide-black > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-divide-opacity));
+}
+
+.divide-black\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000;
+}
+
+.divide-black\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000080;
+}
+
+.divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(254 226 226 / var(--tw-divide-opacity));
+}
+
+.divide-red-100\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e200;
+}
+
+.divide-red-100\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fee2e280;
+}
+
+.divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(254 202 202 / var(--tw-divide-opacity));
+}
+
+.divide-red-200\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca00;
+}
+
+.divide-red-200\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #fecaca80;
+}
+
+.divide-transparent > :not([hidden]) ~ :not([hidden]), .divide-transparent\\/0 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #0000;
+}
+
+.divide-transparent\\/50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #00000080;
+}
+
+.divide-opacity-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 0;
+}
+
+.divide-opacity-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: .5;
+}
+"
+`;

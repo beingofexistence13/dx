@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'placeholderColor' plugin 1`] = `
+"
+.placeholder-\\[\\#0088cc\\]::placeholder {
+  color: #08c;
+}
+
+.placeholder-\\[var\\(--my-value\\)\\]::placeholder {
+  color: var(--my-value);
+}
+
+.placeholder-black::placeholder {
+  color: #000;
+}
+
+.placeholder-black\\/0::placeholder {
+  color: #0000;
+}
+
+.placeholder-black\\/10::placeholder {
+  color: #0000001a;
+}
+
+.placeholder-black\\/100::placeholder {
+  color: #000;
+}
+
+.placeholder-black\\/15::placeholder {
+  color: #00000026;
+}
+
+.placeholder-black\\/20::placeholder {
+  color: #0003;
+}
+
+.placeholder-black\\/25::placeholder {
+  color: #00000040;
+}
+
+.placeholder-black\\/30::placeholder {
+  color: #0000004d;
+}
+
+.placeholder-black\\/35::placeholder {
+  color: #00000059;
+}
+
+.placeholder-black\\/40::placeholder {
+  color: #0006;
+}
+
+.placeholder-black\\/45::placeholder {
+  color: #00000073;
+}
+
+.placeholder-black\\/5::placeholder {
+  color: #0000000d;
+}
+
+.placeholder-black\\/50::placeholder {
+  color: #00000080;
+}
+
+.placeholder-black\\/55::placeholder {
+  color: #0000008c;
+}
+
+.placeholder-black\\/60::placeholder {
+  color: #0009;
+}
+
+.placeholder-black\\/65::placeholder {
+  color: #000000a6;
+}
+
+.placeholder-black\\/70::placeholder {
+  color: #000000b3;
+}
+
+.placeholder-black\\/75::placeholder {
+  color: #000000bf;
+}
+
+.placeholder-black\\/80::placeholder {
+  color: #000c;
+}
+
+.placeholder-black\\/85::placeholder {
+  color: #000000d9;
+}
+
+.placeholder-black\\/90::placeholder {
+  color: #000000e6;
+}
+
+.placeholder-black\\/95::placeholder {
+  color: #000000f2;
+}
+
+.placeholder-red-100::placeholder {
+  color: #fee2e2;
+}
+
+.placeholder-red-100\\/0::placeholder {
+  color: #fee2e200;
+}
+
+.placeholder-red-100\\/10::placeholder {
+  color: #fee2e21a;
+}
+
+.placeholder-red-100\\/100::placeholder {
+  color: #fee2e2;
+}
+
+.placeholder-red-100\\/15::placeholder {
+  color: #fee2e226;
+}
+
+.placeholder-red-100\\/20::placeholder {
+  color: #fee2e233;
+}
+
+.placeholder-red-100\\/25::placeholder {
+  color: #fee2e240;
+}
+
+.placeholder-red-100\\/30::placeholder {
+  color: #fee2e24d;
+}
+
+.placeholder-red-100\\/35::placeholder {
+  color: #fee2e259;
+}
+
+.placeholder-red-100\\/40::placeholder {
+  color: #fee2e266;
+}
+
+.placeholder-red-100\\/45::placeholder {
+  color: #fee2e273;
+}
+
+.placeholder-red-100\\/5::placeholder {
+  color: #fee2e20d;
+}
+
+.placeholder-red-100\\/50::placeholder {
+  color: #fee2e280;
+}
+
+.placeholder-red-100\\/55::placeholder {
+  color: #fee2e28c;
+}
+
+.placeholder-red-100\\/60::placeholder {
+  color: #fee2e299;
+}
+
+.placeholder-red-100\\/65::placeholder {
+  color: #fee2e2a6;
+}
+
+.placeholder-red-100\\/70::placeholder {
+  color: #fee2e2b3;
+}
+
+.placeholder-red-100\\/75::placeholder {
+  color: #fee2e2bf;
+}
+
+.placeholder-red-100\\/80::placeholder {
+  color: #fee2e2cc;
+}
+
+.placeholder-red-100\\/85::placeholder {
+  color: #fee2e2d9;
+}
+
+.placeholder-red-100\\/90::placeholder {
+  color: #fee2e2e6;
+}
+
+.placeholder-red-100\\/95::placeholder {
+  color: #fee2e2f2;
+}
+
+.placeholder-red-200::placeholder {
+  color: #fecaca;
+}
+
+.placeholder-red-200\\/0::placeholder {
+  color: #fecaca00;
+}
+
+.placeholder-red-200\\/10::placeholder {
+  color: #fecaca1a;
+}
+
+.placeholder-red-200\\/100::placeholder {
+  color: #fecaca;
+}
+
+.placeholder-red-200\\/15::placeholder {
+  color: #fecaca26;
+}
+
+.placeholder-red-200\\/20::placeholder {
+  color: #fecaca33;
+}
+
+.placeholder-red-200\\/25::placeholder {
+  color: #fecaca40;
+}
+
+.placeholder-red-200\\/30::placeholder {
+  color: #fecaca4d;
+}
+
+.placeholder-red-200\\/35::placeholder {
+  color: #fecaca59;
+}
+
+.placeholder-red-200\\/40::placeholder {
+  color: #fecaca66;
+}
+
+.placeholder-red-200\\/45::placeholder {
+  color: #fecaca73;
+}
+
+.placeholder-red-200\\/5::placeholder {
+  color: #fecaca0d;
+}
+
+.placeholder-red-200\\/50::placeholder {
+  color: #fecaca80;
+}
+
+.placeholder-red-200\\/55::placeholder {
+  color: #fecaca8c;
+}
+
+.placeholder-red-200\\/60::placeholder {
+  color: #fecaca99;
+}
+
+.placeholder-red-200\\/65::placeholder {
+  color: #fecacaa6;
+}
+
+.placeholder-red-200\\/70::placeholder {
+  color: #fecacab3;
+}
+
+.placeholder-red-200\\/75::placeholder {
+  color: #fecacabf;
+}
+
+.placeholder-red-200\\/80::placeholder {
+  color: #fecacacc;
+}
+
+.placeholder-red-200\\/85::placeholder {
+  color: #fecacad9;
+}
+
+.placeholder-red-200\\/90::placeholder {
+  color: #fecacae6;
+}
+
+.placeholder-red-200\\/95::placeholder {
+  color: #fecacaf2;
+}
+
+.placeholder-transparent::placeholder, .placeholder-transparent\\/0::placeholder {
+  color: #0000;
+}
+
+.placeholder-transparent\\/10::placeholder {
+  color: #0000001a;
+}
+
+.placeholder-transparent\\/100::placeholder {
+  color: #000;
+}
+
+.placeholder-transparent\\/15::placeholder {
+  color: #00000026;
+}
+
+.placeholder-transparent\\/20::placeholder {
+  color: #0003;
+}
+
+.placeholder-transparent\\/25::placeholder {
+  color: #00000040;
+}
+
+.placeholder-transparent\\/30::placeholder {
+  color: #0000004d;
+}
+
+.placeholder-transparent\\/35::placeholder {
+  color: #00000059;
+}
+
+.placeholder-transparent\\/40::placeholder {
+  color: #0006;
+}
+
+.placeholder-transparent\\/45::placeholder {
+  color: #00000073;
+}
+
+.placeholder-transparent\\/5::placeholder {
+  color: #0000000d;
+}
+
+.placeholder-transparent\\/50::placeholder {
+  color: #00000080;
+}
+
+.placeholder-transparent\\/55::placeholder {
+  color: #0000008c;
+}
+
+.placeholder-transparent\\/60::placeholder {
+  color: #0009;
+}
+
+.placeholder-transparent\\/65::placeholder {
+  color: #000000a6;
+}
+
+.placeholder-transparent\\/70::placeholder {
+  color: #000000b3;
+}
+
+.placeholder-transparent\\/75::placeholder {
+  color: #000000bf;
+}
+
+.placeholder-transparent\\/80::placeholder {
+  color: #000c;
+}
+
+.placeholder-transparent\\/85::placeholder {
+  color: #000000d9;
+}
+
+.placeholder-transparent\\/90::placeholder {
+  color: #000000e6;
+}
+
+.placeholder-transparent\\/95::placeholder {
+  color: #000000f2;
+}
+"
+`;
+
+exports[`should test the 'placeholderColor' plugin 2`] = `
+"
+.placeholder-\\[\\#0088cc\\]::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(0 136 204 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-\\[var\\(--my-value\\)\\]::placeholder {
+  color: var(--my-value);
+}
+
+.placeholder-black::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-black\\/0::placeholder {
+  color: #0000;
+}
+
+.placeholder-black\\/50::placeholder {
+  color: #00000080;
+}
+
+.placeholder-red-100::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-red-100\\/0::placeholder {
+  color: #fee2e200;
+}
+
+.placeholder-red-100\\/50::placeholder {
+  color: #fee2e280;
+}
+
+.placeholder-red-200::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(254 202 202 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-red-200\\/0::placeholder {
+  color: #fecaca00;
+}
+
+.placeholder-red-200\\/50::placeholder {
+  color: #fecaca80;
+}
+
+.placeholder-transparent::placeholder, .placeholder-transparent\\/0::placeholder {
+  color: #0000;
+}
+
+.placeholder-transparent\\/50::placeholder {
+  color: #00000080;
+}
+
+.placeholder-opacity-0::placeholder {
+  --tw-placeholder-opacity: 0;
+}
+
+.placeholder-opacity-50::placeholder {
+  --tw-placeholder-opacity: .5;
+}
+"
+`;

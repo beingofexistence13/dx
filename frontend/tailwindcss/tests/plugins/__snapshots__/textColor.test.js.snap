@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'textColor' plugin 1`] = `
+"
+.text-\\[\\#0088cc\\] {
+  color: #08c;
+}
+
+.text-\\[var\\(--my-value\\)\\] {
+  color: var(--my-value);
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-black\\/0 {
+  color: #0000;
+}
+
+.text-black\\/10 {
+  color: #0000001a;
+}
+
+.text-black\\/100 {
+  color: #000;
+}
+
+.text-black\\/15 {
+  color: #00000026;
+}
+
+.text-black\\/20 {
+  color: #0003;
+}
+
+.text-black\\/25 {
+  color: #00000040;
+}
+
+.text-black\\/30 {
+  color: #0000004d;
+}
+
+.text-black\\/35 {
+  color: #00000059;
+}
+
+.text-black\\/40 {
+  color: #0006;
+}
+
+.text-black\\/45 {
+  color: #00000073;
+}
+
+.text-black\\/5 {
+  color: #0000000d;
+}
+
+.text-black\\/50 {
+  color: #00000080;
+}
+
+.text-black\\/55 {
+  color: #0000008c;
+}
+
+.text-black\\/60 {
+  color: #0009;
+}
+
+.text-black\\/65 {
+  color: #000000a6;
+}
+
+.text-black\\/70 {
+  color: #000000b3;
+}
+
+.text-black\\/75 {
+  color: #000000bf;
+}
+
+.text-black\\/80 {
+  color: #000c;
+}
+
+.text-black\\/85 {
+  color: #000000d9;
+}
+
+.text-black\\/90 {
+  color: #000000e6;
+}
+
+.text-black\\/95 {
+  color: #000000f2;
+}
+
+.text-red-100 {
+  color: #fee2e2;
+}
+
+.text-red-100\\/0 {
+  color: #fee2e200;
+}
+
+.text-red-100\\/10 {
+  color: #fee2e21a;
+}
+
+.text-red-100\\/100 {
+  color: #fee2e2;
+}
+
+.text-red-100\\/15 {
+  color: #fee2e226;
+}
+
+.text-red-100\\/20 {
+  color: #fee2e233;
+}
+
+.text-red-100\\/25 {
+  color: #fee2e240;
+}
+
+.text-red-100\\/30 {
+  color: #fee2e24d;
+}
+
+.text-red-100\\/35 {
+  color: #fee2e259;
+}
+
+.text-red-100\\/40 {
+  color: #fee2e266;
+}
+
+.text-red-100\\/45 {
+  color: #fee2e273;
+}
+
+.text-red-100\\/5 {
+  color: #fee2e20d;
+}
+
+.text-red-100\\/50 {
+  color: #fee2e280;
+}
+
+.text-red-100\\/55 {
+  color: #fee2e28c;
+}
+
+.text-red-100\\/60 {
+  color: #fee2e299;
+}
+
+.text-red-100\\/65 {
+  color: #fee2e2a6;
+}
+
+.text-red-100\\/70 {
+  color: #fee2e2b3;
+}
+
+.text-red-100\\/75 {
+  color: #fee2e2bf;
+}
+
+.text-red-100\\/80 {
+  color: #fee2e2cc;
+}
+
+.text-red-100\\/85 {
+  color: #fee2e2d9;
+}
+
+.text-red-100\\/90 {
+  color: #fee2e2e6;
+}
+
+.text-red-100\\/95 {
+  color: #fee2e2f2;
+}
+
+.text-red-200 {
+  color: #fecaca;
+}
+
+.text-red-200\\/0 {
+  color: #fecaca00;
+}
+
+.text-red-200\\/10 {
+  color: #fecaca1a;
+}
+
+.text-red-200\\/100 {
+  color: #fecaca;
+}
+
+.text-red-200\\/15 {
+  color: #fecaca26;
+}
+
+.text-red-200\\/20 {
+  color: #fecaca33;
+}
+
+.text-red-200\\/25 {
+  color: #fecaca40;
+}
+
+.text-red-200\\/30 {
+  color: #fecaca4d;
+}
+
+.text-red-200\\/35 {
+  color: #fecaca59;
+}
+
+.text-red-200\\/40 {
+  color: #fecaca66;
+}
+
+.text-red-200\\/45 {
+  color: #fecaca73;
+}
+
+.text-red-200\\/5 {
+  color: #fecaca0d;
+}
+
+.text-red-200\\/50 {
+  color: #fecaca80;
+}
+
+.text-red-200\\/55 {
+  color: #fecaca8c;
+}
+
+.text-red-200\\/60 {
+  color: #fecaca99;
+}
+
+.text-red-200\\/65 {
+  color: #fecacaa6;
+}
+
+.text-red-200\\/70 {
+  color: #fecacab3;
+}
+
+.text-red-200\\/75 {
+  color: #fecacabf;
+}
+
+.text-red-200\\/80 {
+  color: #fecacacc;
+}
+
+.text-red-200\\/85 {
+  color: #fecacad9;
+}
+
+.text-red-200\\/90 {
+  color: #fecacae6;
+}
+
+.text-red-200\\/95 {
+  color: #fecacaf2;
+}
+
+.text-transparent, .text-transparent\\/0 {
+  color: #0000;
+}
+
+.text-transparent\\/10 {
+  color: #0000001a;
+}
+
+.text-transparent\\/100 {
+  color: #000;
+}
+
+.text-transparent\\/15 {
+  color: #00000026;
+}
+
+.text-transparent\\/20 {
+  color: #0003;
+}
+
+.text-transparent\\/25 {
+  color: #00000040;
+}
+
+.text-transparent\\/30 {
+  color: #0000004d;
+}
+
+.text-transparent\\/35 {
+  color: #00000059;
+}
+
+.text-transparent\\/40 {
+  color: #0006;
+}
+
+.text-transparent\\/45 {
+  color: #00000073;
+}
+
+.text-transparent\\/5 {
+  color: #0000000d;
+}
+
+.text-transparent\\/50 {
+  color: #00000080;
+}
+
+.text-transparent\\/55 {
+  color: #0000008c;
+}
+
+.text-transparent\\/60 {
+  color: #0009;
+}
+
+.text-transparent\\/65 {
+  color: #000000a6;
+}
+
+.text-transparent\\/70 {
+  color: #000000b3;
+}
+
+.text-transparent\\/75 {
+  color: #000000bf;
+}
+
+.text-transparent\\/80 {
+  color: #000c;
+}
+
+.text-transparent\\/85 {
+  color: #000000d9;
+}
+
+.text-transparent\\/90 {
+  color: #000000e6;
+}
+
+.text-transparent\\/95 {
+  color: #000000f2;
+}
+"
+`;
+
+exports[`should test the 'textColor' plugin 2`] = `
+"
+.text-\\[\\#0088cc\\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 136 204 / var(--tw-text-opacity));
+}
+
+.text-\\[var\\(--my-value\\)\\] {
+  color: var(--my-value);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-black\\/0 {
+  color: #0000;
+}
+
+.text-black\\/50 {
+  color: #00000080;
+}
+
+.text-red-100 {
+  --tw-text-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-text-opacity));
+}
+
+.text-red-100\\/0 {
+  color: #fee2e200;
+}
+
+.text-red-100\\/50 {
+  color: #fee2e280;
+}
+
+.text-red-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 202 202 / var(--tw-text-opacity));
+}
+
+.text-red-200\\/0 {
+  color: #fecaca00;
+}
+
+.text-red-200\\/50 {
+  color: #fecaca80;
+}
+
+.text-transparent, .text-transparent\\/0 {
+  color: #0000;
+}
+
+.text-transparent\\/50 {
+  color: #00000080;
+}
+
+.text-opacity-0 {
+  --tw-text-opacity: 0;
+}
+
+.text-opacity-50 {
+  --tw-text-opacity: .5;
+}
+"
+`;

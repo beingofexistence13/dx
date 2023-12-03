@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'backgroundOpacity' plugin 1`] = `
+"
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: .5;
+}
+
+.bg-opacity-\\[0\\.12\\] {
+  --tw-bg-opacity: .12;
+}
+
+.bg-opacity-\\[var\\(--my-value\\)\\] {
+  --tw-bg-opacity: var(--my-value);
+}
+"
+`;

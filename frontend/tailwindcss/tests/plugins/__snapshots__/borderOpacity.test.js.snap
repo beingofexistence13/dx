@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test the 'borderOpacity' plugin 1`] = `
+"
+.border-opacity-0 {
+  --tw-border-opacity: 0;
+}
+
+.border-opacity-50 {
+  --tw-border-opacity: .5;
+}
+
+.border-opacity-\\[12\\%\\] {
+  --tw-border-opacity: 12%;
+}
+
+.border-opacity-\\[var\\(--my-value\\)\\] {
+  --tw-border-opacity: var(--my-value);
+}
+"
+`;
