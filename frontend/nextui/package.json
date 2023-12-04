@@ -47,8 +47,7 @@
     "version": "changeset version",
     "release": "changeset publish",
     "version:dev": "changeset version --snapshot dev-v2",
-    "release:dev": "changeset publish --snapshot --no-git-tag --tag dev-v2",
-    "postinstall": "husky install && pnpm --filter @nextui-org/theme build"
+    "release:dev": "changeset publish --snapshot --no-git-tag --tag dev-v2"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
@@ -113,7 +112,6 @@
     "glob": "^8.0.3",
     "graceful-fs": "^4.2.6",
     "gray-matter": "^4.0.3",
-    "husky": "^8.0.1",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "jest-watch-typeahead": "1.1.0",
