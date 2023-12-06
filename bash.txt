@@ -1,1 +1,1 @@
-mkdir template && cd template && touch template.md && cd ..
+mkdir tool && cd tool && touch tool.md && cd ..
