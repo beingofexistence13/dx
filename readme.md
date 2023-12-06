@@ -24,86 +24,6 @@
 6. paymentflow
 7. animeflow
 
-<!-- 
-# Update
-so, there are huge or may I say everything is gonna change at 20/11/2023(Monday)
-folder:-
-### LOL
-dx-www/
-├── node_modules/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── utils/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-
-dx-native/
-├── node_modules/
-├── android/
-├── ios/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── utils/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 In this project I am trying to build a platform to make developer experience (as dx is the shortform) better. By using this developers will manage huge website project more efficiently.It is a huge project so I have devided it in smaller component's like:
 
@@ -360,3 +280,7 @@ This dx project also have a native platforms apps versions called dx-native as I
 In conclusion dx aims to make developer experience better. This project is still on its earlier stages but I am really excited for this project and will try my best to offer developers a useful project😊!!!
 
 Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter in JJK(off topic 🙄) + This is BeingOfExistence signing out!!!
+
+### notes
+1. pipdream
+2. ...

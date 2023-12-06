@@ -6,6 +6,12 @@ smart-tvs
 wearables
 game-consoles
 
+### some frontend inspirations
+1. dub
+2. nextui
+3. shadcn-ui
+4. tailwindcss
+
 # descriptions
 Sure, here are some platforms that can be programmed:
 
