@@ -48,7 +48,7 @@ In this project I am trying to build a platform to make developer experience (as
 
 10. dx-paymentflow[ will provide you all payment dealing providers -> https://github.com/beingofexistence/dx-paymentflow.git (status:FAR_FROM_COMPLETED)]
 
-<!-- # OpenSource Cloning / Stealling
+# OpenSource Cloning / Stealling
 Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer -> DX Native -I know such a uniqe name "I know I am best at naming stuffs" [And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
 And many things are already maded by cool programmers.I can make it but it will littery take me months doing so.Most imporatant thing is that I donot like to build the wheel again and again in this way nothing is going to be better cause we donot live
 forever.But if you thing that this is unfair then look up to
@@ -57,7 +57,7 @@ folder and delete your respective reposetry to gain access to your own products!
 So, moral of this story no.. of this descritption.. I mean Novel stated above is --- OpenSource conrtibution is good for your health(Donot ask me how??)
 and Dx is one of the most precious one amoung them!!!(LOL)
 
-How to Steall || LOL Just kidding!!! || Anything made by me in exitence plus (any+every)thing in not exitstencev like doesnot exits like now But will exit... Later!!! like me yeah... yeah yeeah me BeingOfExistence is public and free to use anywhere!!! || Just put (BeingOfExistence => Pleaaases pretty pleasaase!!!) logo in that software or anddd...  in exitence plus (any+every)thing in not exitstencev like doesnot exits like now But will exit... Later!!!!! -->
+How to Steall || LOL Just kidding!!! || Anything made by me in exitence plus (any+every)thing in not exitstencev like doesnot exits like now But will exit... Later!!! like me yeah... yeah yeeah me BeingOfExistence is public and free to use anywhere!!! || Just put (BeingOfExistence => Pleaaases pretty pleasaase!!!) logo in that software or anddd...  in exitence plus (any+every)thing in not exitstencev like doesnot exits like now But will exit... Later!!!!!
 
 ## `beingofexistence/dx -> Getting Started`
 
@@ -270,7 +270,7 @@ I hope these brought a smile to your face! 😊
     </a>
 </div>
 
-## Licensec
+## License
 Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
 This project contains the main features of the dx application.
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
@@ -281,6 +281,6 @@ In conclusion dx aims to make developer experience better. This project is still
 
 Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter in JJK(off topic 🙄) + This is BeingOfExistence signing out!!!
 
-### notes
+### notes:
 1. pipdream
 2. ...
