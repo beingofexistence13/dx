@@ -1,0 +1,1 @@
+mkdir www && cd www && touch www.md && cd ..
