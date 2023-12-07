@@ -1,3 +1,15 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "css.lint.unknownAtRules": "ignore",
+    "files.associations": {
+        "*.css": "tailwindcss"
+      },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "cSpell.words": [
+        "beingofexistence",
+        "whitelistbar"
+    ]
 }

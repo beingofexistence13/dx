@@ -1,3 +1,0 @@
-[submodule "third_party/libphonenumber"]
-	path = third_party/libphonenumber
-	url = https://github.com/google/libphonenumber
