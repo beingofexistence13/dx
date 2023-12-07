@@ -1,14 +1,3 @@
-// const baseConfig = require("../../tailwind.config.cjs")
-
-// /** @type {import('tailwindcss').Config} */
-// module.exports = {
-//   ...baseConfig,
-//   content: [
-//     ...baseConfig.content,
-//     "content/**/*.mdx",
-//     "registry/**/*.{ts,tsx}",
-//   ],
-// }
 import {nextui} from '@nextui-org/theme'
 const defaultTheme = require("tailwindcss/defaultTheme")
 const { fontFamily } = require("tailwindcss/defaultTheme")
