@@ -1,1 +1,1 @@
-mkdir www && cd www && touch www.md && cd ..
+mkdir tablet && cd tablet && touch tablet.md && cd ..
