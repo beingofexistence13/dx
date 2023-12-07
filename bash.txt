@@ -1,1 +1,1 @@
-mkdir tablet && cd tablet && touch tablet.md && cd ..
+mkdir translation && cd translation && touch translation.md && cd ..
