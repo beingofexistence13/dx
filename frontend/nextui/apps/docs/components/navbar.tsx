@@ -31,7 +31,7 @@ import {usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 
 import {currentVersion} from "@/utils/version";
-import {siteConfig} from "@/config/site";
+import {siteConfig} from "../../../config/site";
 import {Route} from "@/libs/docs/page";
 import {LargeLogo, SmallLogo, ThemeSwitch} from "@/components";
 import {

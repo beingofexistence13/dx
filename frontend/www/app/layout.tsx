@@ -1,10 +1,10 @@
 /* eslint-disable tailwindcss/classnames-order */
 
 import "react-phone-input-2/lib/style.css"
-import "@/styles/globals.css"
+import "../../../ui/globals.css"
 import { Metadata } from "next"
-import { fontSans } from "@/config/fonts"
-import { siteConfig } from "@/config/website"
+import { fontSans } from "../../../config/fonts"
+import { siteConfig } from "../../../config/website"
 import { cn } from "@/lib/utils"
 import { Providers } from "./providers"
 import { Query } from "./query"
@@ -40,10 +40,6 @@ export const metadata: Metadata = {
     },
   ],
   creator: "beingofexistence",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
   openGraph: {
     type: "website",
     locale: "en_US",

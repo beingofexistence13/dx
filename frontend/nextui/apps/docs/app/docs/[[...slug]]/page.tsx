@@ -5,7 +5,7 @@ import {allDocs} from "contentlayer/generated";
 import {Link} from "@nextui-org/react";
 
 import {MDXContent} from "@/components/mdx-content";
-import {siteConfig} from "@/config/site";
+import {siteConfig} from "../../../config/site";
 import {DocsPager, DocsToc} from "@/components/docs";
 import {Route} from "@/libs/docs/page";
 import {GITHUB_URL, REPO_NAME} from "@/libs/github/constants";

@@ -4,9 +4,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, Al
 import * as React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-import { docsConfig } from "@/config/docs"
-import { more, products } from "@/config/navbar"
-import { siteConfig } from "@/config/site"
+import { docsConfig } from "../../../config/docs"
+import { more, products } from "../../../config/navbar"
+import { siteConfig } from "../../../config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 

@@ -13,7 +13,7 @@ import { generateChainData } from "../utils/fetch";
 import { AdBanner } from "./chainlist/ad-banner";
 import PhoneInput from "react-phone-input-2";
 import { Icons } from "@/components/icons";
-import { docsConfig } from "@/config/docs";
+import { docsConfig } from "../../../config/docs";
 import { useForm } from "react-hook-form";
 import { useTheme } from "next-themes";
 import Chain from "./chainlist/chain";

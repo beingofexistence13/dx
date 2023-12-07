@@ -8,7 +8,7 @@ import NextLink from "next/link";
 import {Balancer} from "react-wrap-balancer";
 
 import {MDXContent} from "@/components/mdx-content";
-import {siteConfig} from "@/config/site";
+import {siteConfig} from "../../../config/site";
 import {Route} from "@/libs/docs/page";
 import {ChevronRightLinearIcon} from "@/components/icons";
 

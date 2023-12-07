@@ -4,8 +4,8 @@ import "@/styles/globals.css"
 import { Metadata } from "next"
 import Script from "next/script"
 
-import { fontSans } from "@/config/fonts"
-import { siteConfig } from "@/config/website"
+import { fontSans } from "../../../config/fonts"
+import { siteConfig } from "../../../config/website"
 import { cn } from "@/lib/utils"
 
 

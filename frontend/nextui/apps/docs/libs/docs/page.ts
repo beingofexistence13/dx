@@ -7,7 +7,7 @@ import {TAG, FORCE_TAG, CONTENT_PATH, ASSETS_PATH} from "./config";
 import {getLatestTag} from "@/libs/github/api";
 import {getRawFileFromRepo, getRawAssetFromRepo} from "@/libs/github/raw";
 import {__PROD__, __PREVIEW__, removeFromLast} from "@/utils";
-import localRoutes from "@/config/routes.json";
+import localRoutes from "../../../config/routes.json";
 
 export interface Route {
   key?: string;

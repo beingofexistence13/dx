@@ -1,7 +1,12 @@
 {
-  "name": "www",
-  "version": "0.1.0",
+  "name": "dx",
+  "version": "0.0.1",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "beingofexistence",
+    "url": "https://twitter.com/beingofexistence"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +14,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "framer-motion": "^10.16.15",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -23,5 +30,16 @@
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "dx",
+    "hello",
+    "aladdin"
+  ],
+  "description": "hello from DX"
 }

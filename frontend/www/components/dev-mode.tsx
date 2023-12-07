@@ -7,7 +7,7 @@ import { BrainCircuit } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import * as z from "zod";
-import { items } from "@/config/dev-mode";
+import { items } from "../../../config/dev-mode";
 import { cn } from "@/lib/utils";
 import { updateDevMode } from "@/hooks/slices/devModeSlice";
 import { updateHello } from "@/hooks/slices/helloToolSlice";

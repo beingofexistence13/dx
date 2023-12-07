@@ -7,9 +7,9 @@ import {Analytics} from "@vercel/analytics/react";
 import {Providers} from "./providers";
 
 import {Cmdk} from "@/components/cmdk";
-import manifest from "@/config/routes.json";
-import {siteConfig} from "@/config/site";
-import {fontSans} from "@/config/fonts";
+import manifest from "../../../config/routes.json";
+import {siteConfig} from "../../../config/site";
+import {fontSans} from "../../../config/fonts";
 import {Navbar} from "@/components/navbar";
 import {Footer} from "@/components/footer";
 import {__PROD__} from "@/utils";

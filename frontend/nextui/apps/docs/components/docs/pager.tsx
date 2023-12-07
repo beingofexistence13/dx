@@ -5,7 +5,7 @@ import {Link} from "@nextui-org/react";
 import {useRouter} from "next/navigation";
 import {ChevronIcon} from "@nextui-org/shared-icons";
 
-import manifest from "@/config/routes.json";
+import manifest from "../../../config/routes.json";
 import {removeFromLast} from "@/utils";
 import {Route} from "@/libs/docs/page";
 import {useDocsRoute} from "@/hooks/use-docs-route";
