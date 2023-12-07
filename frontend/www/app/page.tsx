@@ -2,7 +2,11 @@
 export default function Home() {
   return (
     <>
-      <h1>Sumon</h1>
+      <section className="info h-screen w-full bg-black">
+        <div className="blurry_gradient"></div>
+      </section>
+      <section className="more_info">
+      </section>
     </>
   )
 }
