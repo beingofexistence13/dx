@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'prism.css';
+@import 'nprogress.css';
+@import 'ads.css';
+
+html {
+  font-size: 16px;
+  padding: 0px !important;
+  overflow-x: hidden;
+  scroll-padding-top: 64px;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+/* Experimental */
+/* body::after { 
+  background-image: radial-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0) 40%),
+  radial-gradient(rgb(255, 209, 82) 30%, rgb(226, 105, 150), rgba(226, 105, 150, 0.4) 41%, transparent 52%),
+  radial-gradient(rgb(160, 51, 255) 37%, transparent 46%),
+  linear-gradient(155deg, transparent 65%, rgb(37, 212, 102) 95%),
+  linear-gradient(45deg, rgb(0, 101, 224), rgb(15, 139, 255));
+background-position: left bottom, 109% 68%, 109% 68%, center center, center center;
+background-repeat: no-repeat;
+background-size: 200% 200%, 285% 500%, 285% 500%, cover, cover;
+content: "";
+display: block;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0.17;
+position: fixed;
+z-index: 0;
+} */
+
+/* 
+@media screen and (max-width: 640px) {
+  #app-container {
+    height: 100vh;
+    overflow-x: hidden;
+  }
+}
+ */
+
+@layer base {
+  :root {
+    /* code colors */
+    --code-foreground: 244 244 244;
+    /* landing code window colors */
+    --code-syntax1: 97 175 239;
+    --code-syntax2: 152 195 121;
+    --code-syntax3: 198 120 221;
+    --code-syntax4: 212 212 216;
+    --code-syntax5: 229 192 123;
+    --code-syntax6: 145 180 213;
+    --code-removed: 248 113 160;
+    --code-highlighted-word1-bg: 120 40 200;
+    --code-highlighted-word1-bg-active: 96 32 160;
+    --code-highlighted-word1-text: 48 16 80;
+    --code-highlighted-word2-bg: 253 208 223;
+    --code-highlighted-word2-bg-active: 243 18 96;
+    --code-highlighted-word2-text: 250 160 191;
+    --code-highlighted-word3-bg: 116 223 162;
+    --code-highlighted-word3-bg-active: 116 223 162;
+    --code-highlighted-word3-text: 209 244 224;
+    /* sandpack + prism */
+    --code-string: 152 195 121;
+    --code-class: 145 180 213;
+    --code-punctuation: 220 220 220;
+    --code-number: 229 192 123;
+    --code-added: 116 223 162;
+    --code-line-number: 212 212 216;
+    --code-faded-line: 113 113 122;
+    --code-comment: 113 113 122;
+    --code-keyword: 198 120 221;
+    --code-function: 97 175 239;
+    --code-tag: 224 108 117;
+    --code-attr-name: 145 180 213;
+    --code-language-javascript: 145 180 213;
+  }
+}
+
+
+@layer utilities {
+  .step {
+    counter-increment: step;
+  }
+
+  .step:before {
+    @apply absolute w-7 h-7 bg-default-100 rounded-full font-medium text-center text-base inline-flex items-center justify-center -indent-px;
+    @apply ml-[-41px];
+    content: counter(step);
+  }
+}
