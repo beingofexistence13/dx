@@ -1,0 +1,3282 @@
+
+{name:"A# .NET",href:"https,href://en.wikipedia.org/wiki/A_Sharp_(.NET) ",items:[],},
+{name:"A# (Axiom)",href:"https,href://en.wikipedia.org/wiki/A_Sharp_(Axiom)",items:[],},
+{name:"A-0 System",href:"https,href://en.wikipedia.org/wiki/A-0_System",items:[],},
+{name:"A+",href:"https,href://en.wikipedia.org/wiki/A%2B_(programming_language)",items:[],},
+{name:"A++",href:"https,href://en.wikipedia.org/wiki/A%2B%2B",items:[],},
+{name:"ABAP",href:"https,href://en.wikipedia.org/wiki/ABAP",items:[],},
+{name:"ABC",href:"https,href://en.wikipedia.org/wiki/ABC_(programming_language)",items:[],},
+{name:"ABC ALGOL",href:"https,href://en.wikipedia.org/wiki/ABC_ALGOL",items:[],},
+{name:"ABSET",href:"https,href://en.wikipedia.org/wiki/ABSET",items:[],},
+{name:"ABSYS",href:"https,href://en.wikipedia.org/wiki/ABSYS",items:[],},
+{name:"ACC",href:"https,href://en.wikipedia.org/wiki/ACC_(programming_language)",items:[],},
+{name:"Accent",href:"https,href://en.wikipedia.org/wiki/Accent_(programming_language)",items:[],},
+{name:"Ace DASL",href:"https,href://en.wikipedia.org/wiki/Distributed_Application_Specification_Language",items:[],},
+{name:"ACL2",href:"https,href://en.wikipedia.org/wiki/ACL2",items:[],},
+{name:"ACT-III",href:"https,href://en.wikipedia.org/wiki/LGP-30#ACT-III_programming_language",items:[],},
+{name:"Action!",href:"https,href://en.wikipedia.org/wiki/Action!_(programming_language)",items:[],},
+{name:"ActionScript",href:"https,href://en.wikipedia.org/wiki/ActionScript",items:[],},
+{name:"Ada",href:"https,href://en.wikipedia.org/wiki/Ada_(programming_language)",items:[],},
+{name:"Adenine",href:"https,href://en.wikipedia.org/wiki/Adenine_(programming_language)",items:[],},
+{name:"Agda",href:"https,href://en.wikipedia.org/wiki/Agda_(theorem_prover)",items:[],},
+{name:"Agilent VEE",href:"https,href://en.wikipedia.org/wiki/Agilent_VEE",items:[],},
+{name:"Agora",href:"https,href://en.wikipedia.org/wiki/Agora_(programming_language)",items:[],},
+{name:"AIMMS",href:"https,href://en.wikipedia.org/wiki/AIMMS",items:[],},
+{name:"Alef",href:"https,href://en.wikipedia.org/wiki/Alef_(programming_language)",items:[],},
+{name:"ALF",href:"https,href://en.wikipedia.org/wiki/Algebraic_Logic_Functional_programming_language",items:[],},
+{name:"ALGOL 58",href:"https,href://en.wikipedia.org/wiki/ALGOL_58",items:[],},
+{name:"ALGOL 60",href:"https,href://en.wikipedia.org/wiki/ALGOL_60",items:[],},
+{name:"ALGOL 68",href:"https,href://en.wikipedia.org/wiki/ALGOL_68",items:[],},
+{name:"ALGOL W",href:"https,href://en.wikipedia.org/wiki/ALGOL_W",items:[],},
+{name:"Alice",href:"https,href://en.wikipedia.org/wiki/Alice_(programming_language)",items:[],},
+{name:"Alma-0",href:"https,href://en.wikipedia.org/wiki/Alma-0",items:[],},
+{name:"AmbientTalk",href:"https,href://en.wikipedia.org/wiki/AmbientTalk",items:[],},
+{name:"Amiga E",href:"https,href://en.wikipedia.org/wiki/Amiga_E",items:[],},
+{name:"AMOS",href:"https,href://en.wikipedia.org/wiki/AMOS_(programming_language)",items:[],},
+{name:"AMPL",href:"https,href://en.wikipedia.org/wiki/AMPL",items:[],},
+{name:"Apex (Salesforce.com)",href:"https,href://en.wikipedia.org/wiki/Salesforce.com#Apex",items:[],},
+{name:"APL",href:"https,href://en.wikipedia.org/wiki/APL_(programming_language)",items:[],},
+{name:"App Inventor for Android's visual block language",href:"https,href://en.wikipedia.org/wiki/App_Inventor_for_Android_(program,items:[],},ming_language)"
+{name:"AppleScript",href:"https,href://en.wikipedia.org/wiki/AppleScript",items:[],},
+{name:"Arc",href:"https,href://en.wikipedia.org/wiki/Arc_(programming_language)",items:[],},
+{name:"ARexx",href:"https,href://en.wikipedia.org/wiki/ARexx",items:[],},
+{name:"Argus",href:"https,href://en.wikipedia.org/wiki/Argus_(programming_language)",items:[],},
+{name:"AspectJ",href:"https,href://en.wikipedia.org/wiki/AspectJ",items:[],},
+{name:"Assembly language",href:"https,href://en.wikipedia.org/wiki/Assembly_language",items:[],},
+{name:"ATS",href:"https,href://en.wikipedia.org/wiki/ATS_(programming_language)",items:[],},
+{name:"Ateji PX",href:"https,href://en.wikipedia.org/wiki/Ateji_PX",items:[],},
+{name:"AutoHotkey",href:"https,href://en.wikipedia.org/wiki/AutoHotkey",items:[],},
+{name:"Autocoder",href:"https,href://en.wikipedia.org/wiki/Autocoder",items:[],},
+{name:"AutoIt",href:"https,href://en.wikipedia.org/wiki/AutoIt",items:[],},
+{name:"AutoLISP / Visual LISP",href:"https,href://en.wikipedia.org/wiki/AutoLISP",items:[],},
+{name:"Averest",href:"https,href://en.wikipedia.org/wiki/Averest",items:[],},
+{name:"AWK",href:"https,href://en.wikipedia.org/wiki/AWK",items:[],},
+{name:"Axum",href:"https,href://en.wikipedia.org/wiki/Axum_(programming_language)",items:[],},
+{name:"B",href:"https,href://en.wikipedia.org/wiki/B_(programming_language)",items:[],},
+{name:"Babbage",href:"https,href://en.wikipedia.org/wiki/Babbage_(programming_language)",items:[],},
+{name:"Bash",href:"https,href://en.wikipedia.org/wiki/Bash_(Unix_shell)",items:[],},
+{name:"BASIC",href:"https,href://en.wikipedia.org/wiki/BASIC",items:[],},
+{name:"bc",href:"https,href://en.wikipedia.org/wiki/Bc_(programming_language)",items:[],},
+{name:"BCPL",href:"https,href://en.wikipedia.org/wiki/BCPL",items:[],},
+{name:"BeanShell",href:"https,href://en.wikipedia.org/wiki/BeanShell",items:[],},
+{name:"Batch (Windows/Dos)",href:"https,href://en.wikipedia.org/wiki/Batch_file",items:[],},
+{name:"Bertrand",href:"https,href://en.wikipedia.org/wiki/Bertrand_(programming_language)",items:[],},
+{name:"BETA",href:"https,href://en.wikipedia.org/wiki/BETA_(programming_language)",items:[],},
+{name:"Bigwig",href:"https,href://en.wikipedia.org/wiki/Bigwig_(programming_language)",items:[],},
+{name:"Bistro",href:"https,href://en.wikipedia.org/wiki/Bistro_(programming_language)",items:[],},
+{name:"BitC",href:"https,href://en.wikipedia.org/wiki/BitC",items:[],},
+{name:"BLISS",href:"https,href://en.wikipedia.org/wiki/BLISS_(programming_language)",items:[],},
+{name:"Blockly",href:"https,href://en.wikipedia.org/wiki/Blockly",items:[],},
+{name:"BlooP",href:"https,href://en.wikipedia.org/wiki/BlooP_and_FlooP",items:[],},
+{name:"Blue",href:"https,href://en.wikipedia.org/wiki/Blue_(programming_language)",items:[],},
+{name:"Boo",href:"https,href://en.wikipedia.org/wiki/Boo_(programming_language)",items:[],},
+{name:"Boomerang",href:"https,href://en.wikipedia.org/wiki/Boomerang_(programming_language)",items:[],},
+{name:"Bourne shell (including",href:"https,href://en.wikipedia.org/wiki/Bourne_shell",items:[],},
+{name:"bash and",href:"https,href://en.wikipedia.org/wiki/Bash_(Unix_shell)",items:[],},
+{name:"ksh )",href:"https,href://en.wikipedia.org/wiki/Korn_shell",items:[],},
+{name:"BREW",href:"https,href://en.wikipedia.org/wiki/Qualcomm_Brew",items:[],},
+{name:"BPEL",href:"https,href://en.wikipedia.org/wiki/Business_Process_Execution_Language",items:[],},
+{name:"C",href:"https,href://en.wikipedia.org/wiki/C_(programming_language)",items:[],},
+{name:"C--",href:"https,href://en.wikipedia.org/wiki/C--",items:[],},
+{name:"C++ – ISO/IEC 14882",href:"https,href://en.wikipedia.org/wiki/C%2B%2B",items:[],},
+{name:"C# – ISO/IEC 23270",href:"https,href://en.wikipedia.org/wiki/C_Sharp_(programming_language)",items:[],},
+{name:"C/AL",href:"https,href://en.wikipedia.org/wiki/C/AL",items:[],},
+{name:"Caché ObjectScript",href:"https,href://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript",items:[],},
+{name:"C Shell",href:"https,href://en.wikipedia.org/wiki/C_Shell",items:[],},
+{name:"Caml",href:"https,href://en.wikipedia.org/wiki/Caml",items:[],},
+{name:"Cayenne",href:"https,href://en.wikipedia.org/wiki/Cayenne_(programming_language)",items:[],},
+{name:"CDuce",href:"https,href://en.wikipedia.org/wiki/CDuce",items:[],},
+{name:"Cecil",href:"https,href://en.wikipedia.org/wiki/Cecil_(programming_language)",items:[],},
+{name:"Cel",href:"https,href://en.wikipedia.org/wiki/Cel_(programming_language)",items:[],},
+{name:"Cesil",href:"https,href://en.wikipedia.org/wiki/Cesil",items:[],},
+{name:"Ceylon",href:"https,href://en.wikipedia.org/wiki/Ceylon_(programming_language)",items:[],},
+{name:"CFEngine",href:"https,href://en.wikipedia.org/wiki/CFEngine",items:[],},
+{name:"CFML",href:"https,href://en.wikipedia.org/wiki/ColdFusion_Markup_Language",items:[],},
+{name:"Cg",href:"https,href://en.wikipedia.org/wiki/Cg_(programming_language)",items:[],},
+{name:"Ch",href:"https,href://en.wikipedia.org/wiki/Ch_(computer_programming)",items:[],},
+{name:"Chapel",href:"https,href://en.wikipedia.org/wiki/Chapel_(programming_language)",items:[],},
+{name:"CHAIN",href:"https,href://en.wikipedia.org/wiki/CHAIN_(programming_language)",items:[],},
+{name:"Charity",href:"https,href://en.wikipedia.org/wiki/Charity_(programming_language)",items:[],},
+{name:"Charm",href:"https,href://en.wikipedia.org/wiki/Charm_(language)",items:[],},
+{name:"Chef",href:"https,href://en.wikipedia.org/wiki/Chef_(programming_language)",items:[],},
+{name:"CHILL",href:"https,href://en.wikipedia.org/wiki/CHILL",items:[],},
+{name:"CHIP-8",href:"https,href://en.wikipedia.org/wiki/CHIP-8",items:[],},
+{name:"chomski",href:"https,href://en.wikipedia.org/wiki/Chomski",items:[],},
+{name:"ChucK",href:"https,href://en.wikipedia.org/wiki/ChucK",items:[],},
+{name:"CICS",href:"https,href://en.wikipedia.org/wiki/CICS",items:[],},
+{name:"Cilk",href:"https,href://en.wikipedia.org/wiki/Cilk",items:[],},
+{name:"Citrine (programming language)",href:"https,href://en.wikipedia.org/wiki/Citrine_(programming_language)",items:[],},
+{name:"CL (IBM)",href:"https,href://en.wikipedia.org/wiki/AS/400_Control_Language",items:[],},
+{name:"Claire",href:"https,href://en.wikipedia.org/wiki/Claire_(programming_language)",items:[],},
+{name:"Clarion",href:"https,href://en.wikipedia.org/wiki/Clarion_(programming_language)",items:[],},
+{name:"Clean",href:"https,href://en.wikipedia.org/wiki/Clean_(programming_language)",items:[],},
+{name:"Clipper",href:"https,href://en.wikipedia.org/wiki/Clipper_(programming_language)",items:[],},
+{name:"CLIST",href:"https,href://en.wikipedia.org/wiki/CLIST",items:[],},
+{name:"Clojure",href:"https,href://en.wikipedia.org/wiki/Clojure",items:[],},
+{name:"CLU",href:"https,href://en.wikipedia.org/wiki/CLU_(programming_language)",items:[],},
+{name:"CMS-2",href:"https,href://en.wikipedia.org/wiki/CMS-2_(programming_language)",items:[],},
+{name:"COBOL – ISO/IEC 1989",href:"https,href://en.wikipedia.org/wiki/COBOL",items:[],},
+{name:"Cobra",href:"https,href://en.wikipedia.org/wiki/Cobra_(programming_language)",items:[],},
+{name:"CODE",href:"https,href://en.wikipedia.org/wiki/CODE_(programming_language)",items:[],},
+{name:"CoffeeScript",href:"https,href://en.wikipedia.org/wiki/CoffeeScript",items:[],},
+{name:"ColdFusion",href:"https,href://en.wikipedia.org/wiki/ColdFusion",items:[],},
+{name:"COMAL",href:"https,href://en.wikipedia.org/wiki/COMAL",items:[],},
+{name:"Combined Programming Language (CPL)",href:"https,href://en.wikipedia.org/wiki/Combined_Programming_Language",items:[],},
+{name:"COMIT",href:"https,href://en.wikipedia.org/wiki/COMIT",items:[],},
+{name:"Common Intermediate Language (CIL)",href:"https,href://en.wikipedia.org/wiki/Common_Intermediate_Language",items:[],},
+{name:"Common Lisp (also known as CL)",href:"https,href://en.wikipedia.org/wiki/Common_Lisp",items:[],},
+{name:"COMPASS",href:"https,href://en.wikipedia.org/wiki/COMPASS",items:[],},
+{name:"Component Pascal",href:"https,href://en.wikipedia.org/wiki/Component_Pascal",items:[],},
+{name:"Constraint Handling Rules (CHR)",href:"https,href://en.wikipedia.org/wiki/Constraint_Handling_Rules",items:[],},
+{name:"Converge",href:"https,href://en.wikipedia.org/wiki/Converge_(programming_language)",items:[],},
+{name:"Cool",href:"https,href://en.wikipedia.org/wiki/Cool_(programming_language)",items:[],},
+{name:"Coq",href:"https,href://en.wikipedia.org/wiki/Coq",items:[],},
+{name:"Coral 66",href:"https,href://en.wikipedia.org/wiki/Coral_66",items:[],},
+{name:"Corn",href:"https,href://en.wikipedia.org/wiki/Corn_(emulator)",items:[],},
+{name:"CorVision",href:"https,href://en.wikipedia.org/wiki/CorVision",items:[],},
+{name:"COWSEL",href:"https,href://en.wikipedia.org/wiki/COWSEL",items:[],},
+{name:"CPL",href:"https,href://en.wikipedia.org/wiki/Combined_Programming_Language",items:[],},
+{name:"Cryptol",href:"https,href://en.wikipedia.org/wiki/Cryptol",items:[],},
+{name:"csh",href:"https,href://en.wikipedia.org/wiki/C_shell",items:[],},
+{name:"Csound",href:"https,href://en.wikipedia.org/wiki/Csound",items:[],},
+{name:"CSP",href:"https,href://en.wikipedia.org/wiki/Communicating_sequential_processes",items:[],},
+{name:"CUDA",href:"https,href://en.wikipedia.org/wiki/CUDA",items:[],},
+{name:"Curl",href:"https,href://en.wikipedia.org/wiki/Curl_(programming_language)",items:[],},
+{name:"Curry",href:"https,href://en.wikipedia.org/wiki/Curry_(programming_language)",items:[],},
+{name:"Cyclone",href:"https,href://en.wikipedia.org/wiki/Cyclone_(programming_language)",items:[],},
+{name:"Cython",href:"https,href://en.wikipedia.org/wiki/Cython",items:[],},
+{name:"D",href:"https,href://en.wikipedia.org/wiki/D_(programming_language)",items:[],},
+{name:"DASL (Datapoint's Advanced Systems Language)",href:"https,href://en.wikipedia.org/wiki/Datapoint%27s_Advanced_Systems_Langua,items:[],},ge"
+{name:"DASL (Distributed Application Specification Language)",href:"https,href://en.wikipedia.org/wiki/Distributed_Application_Spec,items:[],},ification_Language"
+{name:"Dart",href:"https,href://en.wikipedia.org/wiki/Dart_(programming_language)",items:[],},
+{name:"DataFlex",href:"https,href://en.wikipedia.org/wiki/DataFlex",items:[],},
+{name:"Datalog",href:"https,href://en.wikipedia.org/wiki/Datalog",items:[],},
+{name:"DATATRIEVE",href:"https,href://en.wikipedia.org/wiki/DATATRIEVE",items:[],},
+{name:"dBase",href:"https,href://en.wikipedia.org/wiki/DBase",items:[],},
+{name:"dc",href:"https,href://en.wikipedia.org/wiki/Dc_(computer_program)",items:[],},
+{name:"DCL",href:"https,href://en.wikipedia.org/wiki/DIGITAL_Command_Language",items:[],},
+{name:"Deesel (formerly G)",href:"https,href://en.wikipedia.org/wiki/Deesel",items:[],},
+{name:"Delphi",href:"https,href://en.wikipedia.org/wiki/Delphi_(programming_language)",items:[],},
+{name:"DinkC",href:"https,href://en.wikipedia.org/wiki/Dink_Smallwood#Modification",items:[],},
+{name:"DIBOL",href:"https,href://en.wikipedia.org/wiki/DIBOL",items:[],},
+{name:"Dog",href:"https,href://en.wikipedia.org/wiki/Sepandar_Kamvar#.22Dog.22_programming_language",items:[],},
+{name:"Draco",href:"https,href://en.wikipedia.org/wiki/Draco_(programming_language)",items:[],},
+{name:"DRAKON",href:"https,href://en.wikipedia.org/wiki/DRAKON",items:[],},
+{name:"Dylan",href:"https,href://en.wikipedia.org/wiki/Dylan_(programming_language)",items:[],},
+{name:"DYNAMO",href:"https,href://en.wikipedia.org/wiki/DYNAMO_(programming_language)",items:[],},
+{name:"E",href:"https,href://en.wikipedia.org/wiki/E_(programming_language)",items:[],},
+{name:"E#",href:"https,href://en.wikipedia.org/wiki/E_Sharp_(programming_language)",items:[],},
+{name:"Ease",href:"https,href://en.wikipedia.org/wiki/Ease_(programming_language)",items:[],},
+{name:"Easy PL/I",href:"https,href://en.wikipedia.org/wiki/PL/I",items:[],},
+{name:"Easy Programming Language",href:"https,href://en.wikipedia.org/wiki/Easy_Programming_Language",items:[],},
+{name:"EASYTRIEVE PLUS",href:"https,href://en.wikipedia.org/wiki/Easytrieve",items:[],},
+{name:"ECMAScript",href:"https,href://en.wikipedia.org/wiki/ECMAScript",items:[],},
+{name:"Edinburgh IMP",href:"https,href://en.wikipedia.org/wiki/Edinburgh_IMP",items:[],},
+{name:"EGL",href:"https,href://en.wikipedia.org/wiki/EGL_(programming_language)",items:[],},
+{name:"Eiffel",href:"https,href://en.wikipedia.org/wiki/Eiffel_(programming_language)",items:[],},
+{name:"ELAN",href:"https,href://en.wikipedia.org/wiki/ELAN_(programming_language)",items:[],},
+{name:"Elixir",href:"https,href://en.wikipedia.org/wiki/Elixir_(programming_language)",items:[],},
+{name:"Elm",href:"https,href://en.wikipedia.org/wiki/Elm_(programming_language)",items:[],},
+{name:"Emacs Lisp",href:"https,href://en.wikipedia.org/wiki/Emacs_Lisp",items:[],},
+{name:"Emerald",href:"https,href://en.wikipedia.org/wiki/Emerald_(programming_language)",items:[],},
+{name:"Epigram",href:"https,href://en.wikipedia.org/wiki/Epigram_(programming_language)",items:[],},
+{name:"EPL",href:"https,href://en.wikipedia.org/wiki/Easy_Programming_Language",items:[],},
+{name:"Erlang",href:"https,href://en.wikipedia.org/wiki/Erlang_(programming_language)",items:[],},
+{name:"es",href:"https,href://en.wikipedia.org/wiki/Es_(Unix_shell)",items:[],},
+{name:"Escher",href:"https,href://en.wikipedia.org/wiki/Escher_(programming_language)",items:[],},
+{name:"ESPOL",href:"https,href://en.wikipedia.org/wiki/Executive_Systems_Problem_Oriented_Language",items:[],},
+{name:"Esterel",href:"https,href://en.wikipedia.org/wiki/Esterel",items:[],},
+{name:"Etoys",href:"https,href://en.wikipedia.org/wiki/Etoys_(programming_language)",items:[],},
+{name:"Euclid",href:"https,href://en.wikipedia.org/wiki/Euclid_(programming_language)",items:[],},
+{name:"Euler",href:"https,href://en.wikipedia.org/wiki/Euler_(programming_language)",items:[],},
+{name:"Euphoria",href:"https,href://en.wikipedia.org/wiki/Euphoria_(programming_language)",items:[],},
+{name:"EusLisp Robot Programming Language",href:"https,href://en.wikipedia.org/wiki/EusLisp_Robot_Programming_Language",items:[],},
+{name:"CMS EXEC (EXEC)",href:"https,href://en.wikipedia.org/wiki/CMS_EXEC",items:[],},
+{name:"EXEC 2",href:"https,href://en.wikipedia.org/wiki/EXEC_2",items:[],},
+{name:"Executable UML",href:"https,href://en.wikipedia.org/wiki/Executable_UML",items:[],},
+{name:"F",href:"https,href://en.wikipedia.org/wiki/F_(programming_language)",items:[],},
+{name:"F#",href:"https,href://en.wikipedia.org/wiki/F_Sharp_(programming_language)",items:[],},
+{name:"Factor",href:"https,href://en.wikipedia.org/wiki/Factor_(programming_language)",items:[],},
+{name:"Falcon",href:"https,href://en.wikipedia.org/wiki/Falcon_(programming_language)",items:[],},
+{name:"Fantom",href:"https,href://en.wikipedia.org/wiki/Fantom_(programming_language)",items:[],},
+{name:"FAUST",href:"https,href://en.wikipedia.org/wiki/FAUST_(programming_language)",items:[],},
+{name:"FFP",href:"https,href://en.wikipedia.org/wiki/FFP_(programming_language)",items:[],},
+{name:"Fjölnir",href:"https,href://en.wikipedia.org/wiki/Fj%C3%B6lnir_(programming_language)",items:[],},
+{name:"FL",href:"https,href://en.wikipedia.org/wiki/FL_(programming_language)",items:[],},
+{name:"Flavors",href:"https,href://en.wikipedia.org/wiki/Flavors_(programming_language)",items:[],},
+{name:"Flex",href:"https,href://en.wikipedia.org/wiki/Flex_(language)",items:[],},
+{name:"FlooP",href:"https,href://en.wikipedia.org/wiki/BlooP_and_FlooP",items:[],},
+{name:"FLOW-MATIC",href:"https,href://en.wikipedia.org/wiki/FLOW-MATIC",items:[],},
+{name:"FOCAL",href:"https,href://en.wikipedia.org/wiki/FOCAL_(programming_language)",items:[],},
+{name:"FOCUS",href:"https,href://en.wikipedia.org/wiki/FOCUS",items:[],},
+{name:"FOIL",href:"https,href://en.wikipedia.org/wiki/FOIL_(programming_language)",items:[],},
+{name:"FORMAC",href:"https,href://en.wikipedia.org/wiki/FORMAC_(programming_language)",items:[],},
+{name:"@Formula",href:"https,href://en.wikipedia.org/wiki/Formula_language",items:[],},
+{name:"Forth",href:"https,href://en.wikipedia.org/wiki/Forth_(programming_language)",items:[],},
+{name:"Fortran – ISO/IEC 1539",href:"https,href://en.wikipedia.org/wiki/Fortran",items:[],},
+{name:"Fortress",href:"https,href://en.wikipedia.org/wiki/Fortress_(programming_language)",items:[],},
+{name:"FoxBase",href:"https,href://en.wikipedia.org/wiki/FoxBase",items:[],},
+{name:"FoxPro",href:"https,href://en.wikipedia.org/wiki/FoxPro",items:[],},
+{name:"FP",href:"https,href://en.wikipedia.org/wiki/FP_(programming_language)",items:[],},
+{name:"FPr",href:"https,href://en.wikipedia.org/wiki/FPr_(programming_language)",items:[],},
+{name:"Franz Lisp",href:"https,href://en.wikipedia.org/wiki/Franz_Lisp",items:[],},
+{name:"Frege",href:"https,href://en.wikipedia.org/wiki/Frege_(programming_language)",items:[],},
+{name:"F-Script",href:"https,href://en.wikipedia.org/wiki/F-Script_(programming_language)",items:[],},
+{name:"G",href:"https,href://en.wikipedia.org/wiki/G_(programming_language)",items:[],},
+{name:"Game Maker Language",href:"https,href://en.wikipedia.org/wiki/GameMaker,href:_Studio",items:[],},
+{name:"GameMonkey Script",href:"https,href://en.wikipedia.org/wiki/GameMonkey_Script",items:[],},
+{name:"GAMS",href:"https,href://en.wikipedia.org/wiki/General_Algebraic_Modeling_System",items:[],},
+{name:"GAP",href:"https,href://en.wikipedia.org/wiki/GAP_computer_algebra_system",items:[],},
+{name:"G-code",href:"https,href://en.wikipedia.org/wiki/G-code",items:[],},
+{name:"Genie",href:"https,href://en.wikipedia.org/wiki/Genie_(programming_language)",items:[],},
+{name:"GDL",href:"https,href://en.wikipedia.org/wiki/Geometric_Description_Language",items:[],},
+{name:"GJ",href:"https,href://en.wikipedia.org/wiki/Generic_Java",items:[],},
+{name:"GEORGE",href:"https,href://en.wikipedia.org/wiki/GEORGE_(programming_language)",items:[],},
+{name:"GLSL",href:"https,href://en.wikipedia.org/wiki/GLSL",items:[],},
+{name:"GNU E",href:"https,href://en.wikipedia.org/wiki/GNU_E",items:[],},
+{name:"GM",href:"https,href://en.wikipedia.org/wiki/Golden_master",items:[],},
+{name:"Go",href:"https,href://en.wikipedia.org/wiki/Go_(programming_language)",items:[],},
+{name:"Go!",href:"https,href://en.wikipedia.org/wiki/Go!_(programming_language)",items:[],},
+{name:"GOAL",href:"https,href://en.wikipedia.org/wiki/Game_Oriented_Assembly_Lisp",items:[],},
+{name:"Gödel",href:"https,href://en.wikipedia.org/wiki/G%C3%B6del_(programming_language)",items:[],},
+{name:"Godiva",href:"https,href://en.wikipedia.org/wiki/Godiva_(programming_language)",items:[],},
+{name:"Golo",href:"https,href://en.wikipedia.org/wiki/Golo_(programming_language)",items:[],},
+{name:"GOM (Good Old Mad)",href:"https,href://en.wikipedia.org/wiki/MAD_(programming_language)",items:[],},
+{name:"Google Apps Script",href:"https,href://en.wikipedia.org/wiki/Google_Apps_Script",items:[],},
+{name:"Gosu",href:"https,href://en.wikipedia.org/wiki/Gosu_(programming_language)",items:[],},
+{name:"GOTRAN",href:"https,href://en.wikipedia.org/wiki/IBM_1620#GOTRAN",items:[],},
+{name:"GPSS",href:"https,href://en.wikipedia.org/wiki/GPSS",items:[],},
+{name:"GraphTalk",href:"https,href://en.wikipedia.org/wiki/Computer_Sciences_Corporation",items:[],},
+{name:"GRASS",href:"https,href://en.wikipedia.org/wiki/GRASS_(programming_language)",items:[],},
+{name:"Groovy",href:"https,href://en.wikipedia.org/wiki/Groovy_(programming_language)",items:[],},
+{name:"Hack",href:"https,href://en.wikipedia.org/wiki/Hack_(programming_language)",items:[],},
+{name:"HAL/S",href:"https,href://en.wikipedia.org/wiki/HAL/S",items:[],},
+{name:"Hamilton C shell",href:"https,href://en.wikipedia.org/wiki/Hamilton_C_shell",items:[],},
+{name:"Harbour",href:"https,href://en.wikipedia.org/wiki/Harbour_(software)",items:[],},
+{name:"Hartmann pipelines",href:"https,href://en.wikipedia.org/wiki/Hartmann_pipeline",items:[],},
+{name:"Haskell",href:"https,href://en.wikipedia.org/wiki/Haskell_(programming_language)",items:[],},
+{name:"Haxe",href:"https,href://en.wikipedia.org/wiki/Haxe",items:[],},
+{name:"High Level Assembly",href:"https,href://en.wikipedia.org/wiki/High_Level_Assembly",items:[],},
+{name:"HLSL",href:"https,href://en.wikipedia.org/wiki/High_Level_Shader_Language",items:[],},
+{name:"Hop",href:"https,href://en.wikipedia.org/wiki/Hop_(software)",items:[],},
+{name:"Hopscotch",href:"https,href://en.wikipedia.org/wiki/Hopscotch_(programming_language)",items:[],},
+{name:"Hope",href:"https,href://en.wikipedia.org/wiki/Hope_(programming_language)",items:[],},
+{name:"Hugo",href:"https,href://en.wikipedia.org/wiki/Hugo_(programming_language)",items:[],},
+{name:"Hume",href:"https,href://en.wikipedia.org/wiki/Hume_(language)",items:[],},
+{name:"HyperTalk",href:"https,href://en.wikipedia.org/wiki/HyperTalk",items:[],},
+{name:"IBM Basic assembly language",href:"https,href://en.wikipedia.org/wiki/IBM_Basic_assembly_language",items:[],},
+{name:"IBM HAScript",href:"https,href://en.wikipedia.org/wiki/IBM_HAScript",items:[],},
+{name:"IBM Informix-4GL",href:"https,href://en.wikipedia.org/wiki/IBM_Informix-4GL",items:[],},
+{name:"IBM RPG",href:"https,href://en.wikipedia.org/wiki/IBM_RPG",items:[],},
+{name:"ICI",href:"https,href://en.wikipedia.org/wiki/ICI_(programming_language)",items:[],},
+{name:"Icon",href:"https,href://en.wikipedia.org/wiki/Icon_(programming_language)",items:[],},
+{name:"Id",href:"https,href://en.wikipedia.org/wiki/Id_(programming_language)",items:[],},
+{name:"IDL",href:"https,href://en.wikipedia.org/wiki/IDL_(programming_language)",items:[],},
+{name:"Idris",href:"https,href://en.wikipedia.org/wiki/Idris_(programming_language)",items:[],},
+{name:"IMP",href:"https,href://en.wikipedia.org/wiki/IMP_(programming_language)",items:[],},
+{name:"Inform",href:"https,href://en.wikipedia.org/wiki/Inform",items:[],},
+{name:"Io",href:"https,href://en.wikipedia.org/wiki/Io_(programming_language)",items:[],},
+{name:"Ioke",href:"https,href://en.wikipedia.org/wiki/Ioke_(programming_language)",items:[],},
+{name:"IPL",href:"https,href://en.wikipedia.org/wiki/Information_Processing_Language",items:[],},
+{name:"IPTSCRAE",href:"https,href://en.wikipedia.org/wiki/IPTSCRAE",items:[],},
+{name:"ISLISP",href:"https,href://en.wikipedia.org/wiki/ISLISP",items:[],},
+{name:"ISPF",href:"https,href://en.wikipedia.org/wiki/ISPF",items:[],},
+{name:"ISWIM",href:"https,href://en.wikipedia.org/wiki/ISWIM",items:[],},
+{name:"J",href:"https,href://en.wikipedia.org/wiki/J_(programming_language)",items:[],},
+{name:"J#",href:"https,href://en.wikipedia.org/wiki/J_Sharp",items:[],},
+{name:"J++",href:"https,href://en.wikipedia.org/wiki/Visual_J%2B%2B",items:[],},
+{name:"JADE",href:"https,href://en.wikipedia.org/wiki/JADE_(programming_language)",items:[],},
+{name:"Jako",href:"https,href://en.wikipedia.org/wiki/Jako_(programming_language)",items:[],},
+{name:"JAL",href:"https,href://en.wikipedia.org/wiki/JAL_(compiler)",items:[],},
+{name:"Janus (concurrent constraint programming language)",href:"https,href://en.wikipedia.org/wiki/Janus_(concurrent_constraint_pr,items:[],},ogramming_language)"
+{name:"Janus (time-reversible computing programming language)",href:"https,href://en.wikipedia.org/wiki/Janus_(time-reversible_comp,items:[],},uting_programming_language)"
+{name:"JASS",href:"https,href://en.wikipedia.org/wiki/JASS",items:[],},
+{name:"Java",href:"https,href://en.wikipedia.org/wiki/Java_(programming_language)",items:[],},
+{name:"JavaScript",href:"https,href://en.wikipedia.org/wiki/JavaScript",items:[],},
+{name:"JCL",href:"https,href://en.wikipedia.org/wiki/Job_Control_Language",items:[],},
+{name:"JEAN",href:"https,href://en.wikipedia.org/wiki/JEAN",items:[],},
+{name:"Join Java",href:"https,href://en.wikipedia.org/wiki/Join_Java",items:[],},
+{name:"JOSS",href:"https,href://en.wikipedia.org/wiki/JOSS",items:[],},
+{name:"Joule",href:"https,href://en.wikipedia.org/wiki/Joule_(programming_language)",items:[],},
+{name:"JOVIAL",href:"https,href://en.wikipedia.org/wiki/JOVIAL",items:[],},
+{name:"Joy",href:"https,href://en.wikipedia.org/wiki/Joy_(programming_language)",items:[],},
+{name:"JScript",href:"https,href://en.wikipedia.org/wiki/JScript",items:[],},
+{name:"JScript .NET",href:"https,href://en.wikipedia.org/wiki/JScript_.NET",items:[],},
+{name:"JavaFX Script",href:"https,href://en.wikipedia.org/wiki/JavaFX_Script",items:[],},
+{name:"Julia",href:"https,href://en.wikipedia.org/wiki/Julia_(programming_language)",items:[],},
+{name:"Jython",href:"https,href://en.wikipedia.org/wiki/Jython",items:[],},
+{name:"K",href:"https,href://en.wikipedia.org/wiki/K_(programming_language)",items:[],},
+{name:"Kaleidoscope",href:"https,href://en.wikipedia.org/wiki/Kaleidoscope_(programming_language)",items:[],},
+{name:"Karel",href:"https,href://en.wikipedia.org/wiki/Karel_(programming_language)",items:[],},
+{name:"Karel++",href:"https,href://en.wikipedia.org/wiki/Karel%2B%2B",items:[],},
+{name:"KEE",href:"https,href://en.wikipedia.org/wiki/IntelliCorp_(Software)",items:[],},
+{name:"Kixtart",href:"https,href://en.wikipedia.org/wiki/KiXtart",items:[],},
+{name:"Klerer-May System",href:"https,href://en.wikipedia.org/wiki/Klerer-May_System",items:[],},
+{name:"KIF",href:"https,href://en.wikipedia.org/wiki/Knowledge_Interchange_Format",items:[],},
+{name:"Kojo",href:"https,href://en.wikipedia.org/wiki/Kojo_(programming_language)",items:[],},
+{name:"Kotlin",href:"https,href://en.wikipedia.org/wiki/Kotlin_(programming_language)",items:[],},
+{name:"KRC",href:"https,href://en.wikipedia.org/wiki/Kent_Recursive_Calculator",items:[],},
+{name:"KRL",href:"https,href://en.wikipedia.org/wiki/KRL_(programming_language)",items:[],},
+{name:"KUKA Robot Language)",href:"https,href://en.wikipedia.org/wiki/KUKA",items:[],},
+{name:"KRYPTON",href:"https,href://en.wikipedia.org/wiki/KRYPTON",items:[],},
+{name:"ksh",href:"https,href://en.wikipedia.org/wiki/Korn_shell",items:[],},
+{name:"L",href:"https,href://en.wikipedia.org/wiki/L_(programming_language)",items:[],},
+{name:"L# .NET",href:"https,href://en.wikipedia.org/wiki/L_Sharp",items:[],},
+{name:"LabVIEW",href:"https,href://en.wikipedia.org/wiki/LabVIEW",items:[],},
+{name:"Ladder",href:"https,href://en.wikipedia.org/wiki/Ladder_logic",items:[],},
+{name:"Lagoona",href:"https,href://en.wikipedia.org/wiki/Lagoona_(programming_language)",items:[],},
+{name:"LANSA",href:"https,href://en.wikipedia.org/wiki/LANSA_(development_environment)",items:[],},
+{name:"Lasso",href:"https,href://en.wikipedia.org/wiki/Lasso_(programming_language)",items:[],},
+{name:"LaTeX",href:"https,href://en.wikipedia.org/wiki/LaTeX",items:[],},
+{name:"Lava",href:"https,href://en.wikipedia.org/wiki/Lava_(programming_language)",items:[],},
+{name:"LC-3",href:"https,href://en.wikipedia.org/wiki/LC-3",items:[],},
+{name:"Leda",href:"https,href://en.wikipedia.org/wiki/Leda_(programming_language)",items:[],},
+{name:"Legoscript",href:"https,href://en.wikipedia.org/wiki/Lego_Mindstorms",items:[],},
+{name:"LIL",href:"https,href://en.wikipedia.org/wiki/Little_Implementation_Language",items:[],},
+{name:"LilyPond",href:"https,href://en.wikipedia.org/wiki/LilyPond",items:[],},
+{name:"Limbo",href:"https,href://en.wikipedia.org/wiki/Limbo_(programming_language)",items:[],},
+{name:"Limnor",href:"https,href://en.wikipedia.org/wiki/Limnor",items:[],},
+{name:"LINC",href:"https,href://en.wikipedia.org/wiki/LINC_4GL",items:[],},
+{name:"Lingo",href:"https,href://en.wikipedia.org/wiki/Lingo_(programming_language)",items:[],},
+{name:"LIS",href:"https,href://en.wikipedia.org/wiki/LIS_(programming_language)",items:[],},
+{name:"LISA",href:"https,href://en.wikipedia.org/wiki/Language_for_Instruction_Set_Architecture",items:[],},
+{name:"Lisaac",href:"https,href://en.wikipedia.org/wiki/Lisaac",items:[],},
+{name:"Lisp – ISO/IEC 13816",href:"https,href://en.wikipedia.org/wiki/Lisp_(programming_language)",items:[],},
+{name:"Lite-C",href:"https,href://en.wikipedia.org/wiki/Lite-C",items:[],},
+{name:"Lithe",href:"https,href://en.wikipedia.org/wiki/Lithe_(programming_language)",items:[],},
+{name:"Little b",href:"https,href://en.wikipedia.org/wiki/Little_b_(programming_language)",items:[],},
+{name:"Logo",href:"https,href://en.wikipedia.org/wiki/Logo_(programming_language)",items:[],},
+{name:"Logtalk",href:"https,href://en.wikipedia.org/wiki/Logtalk",items:[],},
+{name:"LotusScript",href:"https,href://en.wikipedia.org/wiki/LotusScript",items:[],},
+{name:"LPC",href:"https,href://en.wikipedia.org/wiki/LPC_(programming_language)",items:[],},
+{name:"LSE",href:"https,href://en.wikipedia.org/wiki/LSE_(programming_language)",items:[],},
+{name:"LSL",href:"https,href://en.wikipedia.org/wiki/Linden_Scripting_Language",items:[],},
+{name:"LiveCode",href:"https,href://en.wikipedia.org/wiki/LiveCode",items:[],},
+{name:"LiveScript",href:"https,href://en.wikipedia.org/wiki/LiveScript",items:[],},
+{name:"Lua",href:"https,href://en.wikipedia.org/wiki/Lua_(programming_language)",items:[],},
+{name:"Lucid",href:"https,href://en.wikipedia.org/wiki/Lucid_(programming_language)",items:[],},
+{name:"Lustre",href:"https,href://en.wikipedia.org/wiki/Lustre_(programming_language)",items:[],},
+{name:"LYaPAS",href:"https,href://en.wikipedia.org/wiki/LYaPAS",items:[],},
+{name:"Lynx",href:"https,href://en.wikipedia.org/wiki/Lynx_(programming_language)",items:[],},
+{name:"M2001",href:"https,href://en.wikipedia.org/wiki/M2001",items:[],},
+{name:"MarsCode (programming language)",href:"",items:[],},
+{name:"M4",href:"https,href://en.wikipedia.org/wiki/M4_(computer_language)",items:[],},
+{name:"M#",href:"https,href://en.wikipedia.org/wiki/M_Sharp_(programming_language)",items:[],},
+{name:"Machine code",href:"https,href://en.wikipedia.org/wiki/Machine_code",items:[],},
+{name:"MAD (Michigan Algorithm Decoder)",href:"https,href://en.wikipedia.org/wiki/MAD_(programming_language)",items:[],},
+{name:"MAD/I",href:"https,href://en.wikipedia.org/wiki/MAD_(programming_language)",items:[],},
+{name:"Magik",href:"https,href://en.wikipedia.org/wiki/Magik_(programming_language)",items:[],},
+{name:"Magma",href:"https,href://en.wikipedia.org/wiki/Magma_computer_algebra_system",items:[],},
+{name:"make",href:"https,href://en.wikipedia.org/wiki/Make_(software)",items:[],},
+{name:"Maple",href:"https,href://en.wikipedia.org/wiki/Maple_(software)",items:[],},
+{name:"MAPPER now part of BIS",href:"https,href://en.wikipedia.org/wiki/MAPPER",items:[],},
+{name:"MARK-IV now VISION,href:BUILDER",href:"https,href://en.wikipedia.org/wiki/MARK_IV_(software)",items:[],},
+{name:"Mary",href:"https,href://en.wikipedia.org/wiki/Mary_(programming_language)",items:[],},
+{name:"MASM Microsoft Assembly x86",href:"https,href://en.wikipedia.org/wiki/Microsoft_Macro_Assembler",items:[],},
+{name:"MATH-MATIC",href:"https,href://en.wikipedia.org/wiki/MATH-MATIC",items:[],},
+{name:"Mathematica",href:"https,href://en.wikipedia.org/wiki/Mathematica",items:[],},
+{name:"MATLAB",href:"https,href://en.wikipedia.org/wiki/MATLAB",items:[],},
+{name:"Maxima (see also",href:"https,href://en.wikipedia.org/wiki/Maxima_(software)",items:[],},
+{name:"Macsyma )",href:"https,href://en.wikipedia.org/wiki/Macsyma",items:[],},
+{name:"Max (Max Msp – Graphical Programming Environment)",href:"https,href://en.wikipedia.org/wiki/Max_(software)",items:[],},
+{name:"MaxScript internal language 3D Studio Max",href:"https,href://en.wikipedia.org/wiki/Autodesk_3ds_Max",items:[],},
+{name:"Maya (MEL)",href:"https,href://en.wikipedia.org/wiki/Maya_Embedded_Language",items:[],},
+{name:"MDL",href:"https,href://en.wikipedia.org/wiki/MDL_(programming_language)",items:[],},
+{name:"Mercury",href:"https,href://en.wikipedia.org/wiki/Mercury_(programming_language)",items:[],},
+{name:"Mesa",href:"https,href://en.wikipedia.org/wiki/Mesa_(programming_language)",items:[],},
+{name:"Metacard",href:"https,href://en.wikipedia.org/wiki/Metacard",items:[],},
+{name:"Metafont",href:"https,href://en.wikipedia.org/wiki/Metafont",items:[],},
+{name:"Microcode",href:"https,href://en.wikipedia.org/wiki/Microassembler",items:[],},
+{name:"MicroScript",href:"https,href://en.wikipedia.org/wiki/MicroScript_(programming_language)",items:[],},
+{name:"MIIS",href:"https,href://en.wikipedia.org/wiki/MIIS_(programming_language)",items:[],},
+{name:"MillScript",href:"https,href://en.wikipedia.org/wiki/MillScript",items:[],},
+{name:"MIMIC",href:"https,href://en.wikipedia.org/wiki/MIMIC",items:[],},
+{name:"Mirah",href:"https,href://en.wikipedia.org/wiki/Mirah_(programming_language)",items:[],},
+{name:"Miranda",href:"https,href://en.wikipedia.org/wiki/Miranda_(programming_language)",items:[],},
+{name:"MIVA Script",href:"https,href://en.wikipedia.org/wiki/MIVA_Script",items:[],},
+{name:"ML",href:"https,href://en.wikipedia.org/wiki/ML_(programming_language)",items:[],},
+{name:"Moby",href:"https,href://en.wikipedia.org/wiki/Moby_(programming_language)",items:[],},
+{name:"Model 204",href:"https,href://en.wikipedia.org/wiki/Model_204",items:[],},
+{name:"Modelica",href:"https,href://en.wikipedia.org/wiki/Modelica",items:[],},
+{name:"Modula",href:"https,href://en.wikipedia.org/wiki/Modula",items:[],},
+{name:"Modula-2",href:"https,href://en.wikipedia.org/wiki/Modula-2",items:[],},
+{name:"Modula-3",href:"https,href://en.wikipedia.org/wiki/Modula-3",items:[],},
+{name:"Mohol",href:"https,href://en.wikipedia.org/wiki/Mohol_programming_languages",items:[],},
+{name:"MOO",href:"https,href://en.wikipedia.org/wiki/MOO_(programming_language)",items:[],},
+{name:"Mortran",href:"https,href://en.wikipedia.org/wiki/Mortran",items:[],},
+{name:"Mouse",href:"https,href://en.wikipedia.org/wiki/Mouse_(programming_language)",items:[],},
+{name:"MPD",href:"https,href://en.wikipedia.org/wiki/MPD_(programming_language)",items:[],},
+{name:"CIL",href:"https,href://en.wikipedia.org/wiki/Common_Intermediate_Language",items:[],},
+{name:"MSL",href:"https,href://en.wikipedia.org/wiki/MIRC_scripting_language",items:[],},
+{name:"MUMPS",href:"https,href://en.wikipedia.org/wiki/MUMPS",items:[],},
+{name:"Mystic Programming Language (MPL)",href:"https,href://en.wikipedia.org/wiki/Mystic_BBS",items:[],},
+{name:"NASM",href:"https,href://en.wikipedia.org/wiki/Netwide_Assembler",items:[],},
+{name:"Napier88",href:"https,href://en.wikipedia.org/wiki/Napier88",items:[],},
+{name:"Neko",href:"https,href://en.wikipedia.org/wiki/Neko_(programming_language)",items:[],},
+{name:"Nemerle",href:"https,href://en.wikipedia.org/wiki/Nemerle",items:[],},
+{name:"nesC",href:"https,href://en.wikipedia.org/wiki/NesC",items:[],},
+{name:"NESL",href:"https,href://en.wikipedia.org/wiki/NESL",items:[],},
+{name:"Net.Data",href:"https,href://en.wikipedia.org/wiki/Net.Data",items:[],},
+{name:"NetLogo",href:"https,href://en.wikipedia.org/wiki/NetLogo",items:[],},
+{name:"NetRexx",href:"https,href://en.wikipedia.org/wiki/NetRexx",items:[],},
+{name:"NewLISP",href:"https,href://en.wikipedia.org/wiki/NewLISP",items:[],},
+{name:"NEWP",href:"https,href://en.wikipedia.org/wiki/NEWP",items:[],},
+{name:"Newspeak",href:"https,href://en.wikipedia.org/wiki/Newspeak_(programming_language)",items:[],},
+{name:"NewtonScript",href:"https,href://en.wikipedia.org/wiki/NewtonScript",items:[],},
+{name:"NGL",href:"https,href://en.wikipedia.org/wiki/NGL_(programming_language)",items:[],},
+{name:"Nial",href:"https,href://en.wikipedia.org/wiki/Nial",items:[],},
+{name:"Nice",href:"https,href://en.wikipedia.org/wiki/Nice_(programming_language)",items:[],},
+{name:"Nickle",href:"https,href://en.wikipedia.org/wiki/Nickle_(programming_language)",items:[],},
+{name:"Nim",href:"https,href://en.wikipedia.org/wiki/Nim_(programming_language)",items:[],},
+{name:"NPL",href:"https,href://en.wikipedia.org/wiki/NORD_Programming_Language",items:[],},
+{name:"Not eXactly C (NXC)",href:"https,href://en.wikipedia.org/wiki/Not_eXactly_C",items:[],},
+{name:"Not Quite C (NQC)",href:"https,href://en.wikipedia.org/wiki/Not_Quite_C",items:[],},
+{name:"NSIS",href:"https,href://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System",items:[],},
+{name:"Nu",href:"https,href://en.wikipedia.org/wiki/Nu_(programming_language)",items:[],},
+{name:"NWScript",href:"https,href://en.wikipedia.org/wiki/NWScript",items:[],},
+{name:"NXT-G",href:"https,href://en.wikipedia.org/wiki/NXT-G",items:[],},
+{name:"o,href:XML",href:"https,href://en.wikipedia.org/wiki/O,href:XML",items:[],},
+{name:"Oak",href:"https,href://en.wikipedia.org/wiki/Oak_(programming_language)",items:[],},
+{name:"Oberon",href:"https,href://en.wikipedia.org/wiki/Oberon_(programming_language)",items:[],},
+{name:"OBJ2",href:"https,href://en.wikipedia.org/wiki/OBJ2",items:[],},
+{name:"Object Lisp",href:"https,href://en.wikipedia.org/wiki/Object_Lisp",items:[],},
+{name:"ObjectLOGO",href:"https,href://en.wikipedia.org/wiki/ObjectLOGO",items:[],},
+{name:"Object REXX",href:"https,href://en.wikipedia.org/wiki/Object_REXX",items:[],},
+{name:"Object Pascal",href:"https,href://en.wikipedia.org/wiki/Object_Pascal",items:[],},
+{name:"Objective-C",href:"https,href://en.wikipedia.org/wiki/Objective-C",items:[],},
+{name:"Objective-J",href:"https,href://en.wikipedia.org/wiki/Objective-J",items:[],},
+{name:"Obliq",href:"https,href://en.wikipedia.org/wiki/Obliq",items:[],},
+{name:"OCaml",href:"https,href://en.wikipedia.org/wiki/OCaml",items:[],},
+{name:"occam",href:"https,href://en.wikipedia.org/wiki/Occam_(programming_language)",items:[],},
+{name:"occam-π",href:"https,href://en.wikipedia.org/wiki/Occam-%CF%80",items:[],},
+{name:"Octave",href:"https,href://en.wikipedia.org/wiki/GNU_Octave",items:[],},
+{name:"OmniMark",href:"https,href://en.wikipedia.org/wiki/OmniMark",items:[],},
+{name:"Onyx",href:"https,href://en.wikipedia.org/wiki/Onyx_(programming_language)",items:[],},
+{name:"Opa",href:"https,href://en.wikipedia.org/wiki/Opa_(programming_language)",items:[],},
+{name:"Opal",href:"https,href://en.wikipedia.org/wiki/Opal_(programming_language)",items:[],},
+{name:"OpenCL",href:"https,href://en.wikipedia.org/wiki/OpenCL",items:[],},
+{name:"OpenEdge ABL",href:"https,href://en.wikipedia.org/wiki/OpenEdge_Advanced_Business_Language",items:[],},
+{name:"OPL",href:"https,href://en.wikipedia.org/wiki/Open_Programming_Language",items:[],},
+{name:"OPS5",href:"https,href://en.wikipedia.org/wiki/OPS5",items:[],},
+{name:"OptimJ",href:"https,href://en.wikipedia.org/wiki/OptimJ",items:[],},
+{name:"Orc",href:"https,href://en.wikipedia.org/wiki/Orc_(programming_language)",items:[],},
+{name:"ORCA/Modula-2",href:"https,href://en.wikipedia.org/wiki/ORCA/Modula-2",items:[],},
+{name:"Oriel",href:"https,href://en.wikipedia.org/wiki/Oriel_(scripting_language)",items:[],},
+{name:"Orwell",href:"https,href://en.wikipedia.org/wiki/Orwell_(programming_language)",items:[],},
+{name:"Oxygene",href:"https,href://en.wikipedia.org/wiki/Oxygene_(programming_language)",items:[],},
+{name:"Oz",href:"https,href://en.wikipedia.org/wiki/Oz_(programming_language)",items:[],},
+{name:"P′′",href:"https,href://en.wikipedia.org/wiki/P%E2%80%B2%E2%80%B2",items:[],},
+{name:"P#",href:"https,href://en.wikipedia.org/wiki/P_Sharp",items:[],},
+{name:"ParaSail (programming language)",href:"https,href://en.wikipedia.org/wiki/ParaSail_(programming_language)",items:[],},
+{name:"PARI/GP",href:"https,href://en.wikipedia.org/wiki/PARI/GP",items:[],},
+{name:"Pascal – ISO 7185",href:"https,href://en.wikipedia.org/wiki/Pascal_(programming_language)",items:[],},
+{name:"PCASTL",href:"https,href://en.wikipedia.org/wiki/PCASTL",items:[],},
+{name:"PCF",href:"https,href://en.wikipedia.org/wiki/Programming_language_for_Computable_Functions",items:[],},
+{name:"PEARL",href:"https,href://en.wikipedia.org/wiki/PEARL_(programming_language)",items:[],},
+{name:"PeopleCode",href:"https,href://en.wikipedia.org/wiki/PeopleCode",items:[],},
+{name:"Perl",href:"https,href://en.wikipedia.org/wiki/Perl",items:[],},
+{name:"PDL",href:"https,href://en.wikipedia.org/wiki/Perl_Data_Language",items:[],},
+{name:"Perl6",href:"https,href://en.wikipedia.org/wiki/Perl6",items:[],},
+{name:"Pharo",href:"https,href://en.wikipedia.org/wiki/Pharo",items:[],},
+{name:"PHP",href:"https,href://en.wikipedia.org/wiki/PHP",items:[],},
+{name:"Phrogram",href:"https,href://en.wikipedia.org/wiki/Phrogram",items:[],},
+{name:"Pico",href:"https,href://en.wikipedia.org/wiki/Pico_(programming_language)",items:[],},
+{name:"Picolisp",href:"https,href://en.wikipedia.org/wiki/Picolisp",items:[],},
+{name:"Pict",href:"https,href://en.wikipedia.org/wiki/Pict_(programming_language)",items:[],},
+{name:"Pike",href:"https,href://en.wikipedia.org/wiki/Pike_(programming_language)",items:[],},
+{name:"PIKT",href:"https,href://en.wikipedia.org/wiki/PIKT",items:[],},
+{name:"PILOT",href:"https,href://en.wikipedia.org/wiki/PILOT",items:[],},
+{name:"Pipelines",href:"https,href://en.wikipedia.org/wiki/Hartmann_pipeline",items:[],},
+{name:"Pizza",href:"https,href://en.wikipedia.org/wiki/Pizza_(programming_language)",items:[],},
+{name:"PL-11",href:"https,href://en.wikipedia.org/wiki/PL-11",items:[],},
+{name:"PL/0",href:"https,href://en.wikipedia.org/wiki/PL/0",items:[],},
+{name:"PL/B",href:"https,href://en.wikipedia.org/wiki/Programming_Language_for_Business",items:[],},
+{name:"PL/C",href:"https,href://en.wikipedia.org/wiki/PL/C",items:[],},
+{name:"PL/I – ISO 6160",href:"https,href://en.wikipedia.org/wiki/PL/I",items:[],},
+{name:"PL/M",href:"https,href://en.wikipedia.org/wiki/PL/M",items:[],},
+{name:"PL/P",href:"https,href://en.wikipedia.org/wiki/PL/P",items:[],},
+{name:"PL/SQL",href:"https,href://en.wikipedia.org/wiki/PL/SQL",items:[],},
+{name:"PL360",href:"https,href://en.wikipedia.org/wiki/PL360",items:[],},
+{name:"PLANC",href:"https,href://en.wikipedia.org/wiki/PLANC",items:[],},
+{name:"Plankalkül",href:"https,href://en.wikipedia.org/wiki/Plankalk%C3%BCl",items:[],},
+{name:"Planner",href:"https,href://en.wikipedia.org/wiki/Planner_(programming_language)",items:[],},
+{name:"PLEX",href:"https,href://en.wikipedia.org/wiki/PLEX_(programming_language)",items:[],},
+{name:"PLEXIL",href:"https,href://en.wikipedia.org/wiki/PLEXIL",items:[],},
+{name:"Plus",href:"https,href://en.wikipedia.org/wiki/Plus_(programming_language)",items:[],},
+{name:"POP-11",href:"https,href://en.wikipedia.org/wiki/POP-11",items:[],},
+{name:"PostScript",href:"https,href://en.wikipedia.org/wiki/PostScript",items:[],},
+{name:"PortablE",href:"https,href://en.wikipedia.org/wiki/Amiga_E#PortablE",items:[],},
+{name:"Powerhouse",href:"https,href://en.wikipedia.org/wiki/Powerhouse_(programming_language)",items:[],},
+{name:"PowerBuilder – 4GL GUI applcation generator from Sybase",href:"https,href://en.wikipedia.org/wiki/PowerBuilder",items:[],},
+{name:"PowerShell",href:"https,href://en.wikipedia.org/wiki/PowerShell",items:[],},
+{name:"PPL",href:"https,href://en.wikipedia.org/wiki/Polymorphic_Programming_Language",items:[],},
+{name:"Processing",href:"https,href://en.wikipedia.org/wiki/Processing_(programming_language)",items:[],},
+{name:"Processing.js",href:"https,href://en.wikipedia.org/wiki/Processing.js",items:[],},
+{name:"Prograph",href:"https,href://en.wikipedia.org/wiki/Prograph",items:[],},
+{name:"PROIV",href:"https,href://en.wikipedia.org/wiki/PROIV",items:[],},
+{name:"Prolog",href:"https,href://en.wikipedia.org/wiki/Prolog",items:[],},
+{name:"PROMAL",href:"https,href://en.wikipedia.org/wiki/PROMAL",items:[],},
+{name:"Promela",href:"https,href://en.wikipedia.org/wiki/Promela",items:[],},
+{name:"PROSE modeling language",href:"https,href://en.wikipedia.org/wiki/PROSE_modeling_language",items:[],},
+{name:"PROTEL",href:"https,href://en.wikipedia.org/wiki/Protel",items:[],},
+{name:"ProvideX",href:"https,href://en.wikipedia.org/wiki/ProvideX",items:[],},
+{name:"Pro*C",href:"https,href://en.wikipedia.org/wiki/Pro*C",items:[],},
+{name:"Pure",href:"https,href://en.wikipedia.org/wiki/Pure_(programming_language)",items:[],},
+{name:"Python",href:"https,href://en.wikipedia.org/wiki/Python_(programming_language)",items:[],},
+{name:"Q (equational programming language)",href:"https,href://en.wikipedia.org/wiki/Q_(equational_programming_language)",items:[],},
+{name:"Qalb",href:"https,href://en.wikipedia.org/wiki/Qalb_(programming_language)",items:[],},
+{name:"QtScript",href:"https,href://en.wikipedia.org/wiki/QtScript",items:[],},
+{name:"QuakeC",href:"https,href://en.wikipedia.org/wiki/QuakeC",items:[],},
+{name:"QPL",href:"https,href://en.wikipedia.org/wiki/Quantum_programming",items:[],},
+{name:"R",href:"https,href://en.wikipedia.org/wiki/R_(programming_language)",items:[],},
+{name:"R++",href:"https,href://en.wikipedia.org/wiki/R%2B%2B",items:[],},
+{name:"Racket",href:"https,href://en.wikipedia.org/wiki/Racket_(programming_language)",items:[],},
+{name:"RAPID",href:"https,href://en.wikipedia.org/wiki/RAPID",items:[],},
+{name:"Rapira",href:"https,href://en.wikipedia.org/wiki/Rapira",items:[],},
+{name:"Ratfiv",href:"https,href://en.wikipedia.org/wiki/Ratfiv",items:[],},
+{name:"Ratfor",href:"https,href://en.wikipedia.org/wiki/Ratfor",items:[],},
+{name:"rc",href:"https,href://en.wikipedia.org/wiki/Rc",items:[],},
+{name:"REBOL",href:"https,href://en.wikipedia.org/wiki/REBOL",items:[],},
+{name:"Red",href:"https,href://en.wikipedia.org/wiki/Red_(programming_language)",items:[],},
+{name:"Redcode",href:"https,href://en.wikipedia.org/wiki/Core_War",items:[],},
+{name:"REFAL",href:"https,href://en.wikipedia.org/wiki/REFAL",items:[],},
+{name:"Reia",href:"https,href://en.wikipedia.org/wiki/Reia_(programming_language)",items:[],},
+{name:"Revolution",href:"https,href://en.wikipedia.org/wiki/Revolution_(programming_language)",items:[],},
+{name:"REXX",href:"https,href://en.wikipedia.org/wiki/REXX",items:[],},
+{name:"Rlab",href:"https,href://en.wikipedia.org/wiki/Rlab",items:[],},
+{name:"ROOP",href:"https,href://en.wikipedia.org/wiki/ROOP_(programming_language)",items:[],},
+{name:"RPG",href:"https,href://en.wikipedia.org/wiki/IBM_RPG",items:[],},
+{name:"RPL",href:"https,href://en.wikipedia.org/wiki/RPL_(programming_language)",items:[],},
+{name:"RSL",href:"https,href://en.wikipedia.org/wiki/Robot_Battle#Robot_scripting_language",items:[],},
+{name:"RTL/2",href:"https,href://en.wikipedia.org/wiki/RTL/2",items:[],},
+{name:"Ruby",href:"https,href://en.wikipedia.org/wiki/Ruby_(programming_language)",items:[],},
+{name:"RuneScript",href:"https,href://en.wikipedia.org/wiki/RuneScape#History_and_development",items:[],},
+{name:"Rust",href:"https,href://en.wikipedia.org/wiki/Rust_(programming_language)",items:[],},
+{name:"S",href:"https,href://en.wikipedia.org/wiki/S_(programming_language)",items:[],},
+{name:"S2",href:"https,href://en.wikipedia.org/wiki/S2_(programming_language)",items:[],},
+{name:"S3",href:"https,href://en.wikipedia.org/wiki/S3_(programming_language)",items:[],},
+{name:"S-Lang",href:"https,href://en.wikipedia.org/wiki/S-Lang_(programming_language)",items:[],},
+{name:"S-PLUS",href:"https,href://en.wikipedia.org/wiki/S-PLUS",items:[],},
+{name:"SA-C",href:"https,href://en.wikipedia.org/wiki/SA-C_(programming_language)",items:[],},
+{name:"SabreTalk",href:"https,href://en.wikipedia.org/wiki/SabreTalk",items:[],},
+{name:"SAIL",href:"https,href://en.wikipedia.org/wiki/SAIL_(programming_language)",items:[],},
+{name:"SALSA",href:"https,href://en.wikipedia.org/wiki/SALSA_(programming_language)",items:[],},
+{name:"SAM76",href:"https,href://en.wikipedia.org/wiki/SAM76",items:[],},
+{name:"SAS",href:"https,href://en.wikipedia.org/wiki/SAS_System",items:[],},
+{name:"SASL",href:"https,href://en.wikipedia.org/wiki/SASL_(programming_language)",items:[],},
+{name:"Sather",href:"https,href://en.wikipedia.org/wiki/Sather",items:[],},
+{name:"Sawzall",href:"https,href://en.wikipedia.org/wiki/Sawzall_(programming_language)",items:[],},
+{name:"SBL",href:"https,href://en.wikipedia.org/wiki/Superbase_database",items:[],},
+{name:"Scala",href:"https,href://en.wikipedia.org/wiki/Scala_(programming_language)",items:[],},
+{name:"Scheme",href:"https,href://en.wikipedia.org/wiki/Scheme_(programming_language)",items:[],},
+{name:"Scilab",href:"https,href://en.wikipedia.org/wiki/Scilab",items:[],},
+{name:"Scratch",href:"https,href://en.wikipedia.org/wiki/Scratch_(programming_language)",items:[],},
+{name:"Script.NET",href:"https,href://en.wikipedia.org/wiki/Script.NET",items:[],},
+{name:"Sed",href:"https,href://en.wikipedia.org/wiki/Sed",items:[],},
+{name:"Seed7",href:"https,href://en.wikipedia.org/wiki/Seed7",items:[],},
+{name:"Self",href:"https,href://en.wikipedia.org/wiki/Self_(programming_language)",items:[],},
+{name:"SenseTalk",href:"https,href://en.wikipedia.org/wiki/SenseTalk",items:[],},
+{name:"SequenceL",href:"https,href://en.wikipedia.org/wiki/SequenceL",items:[],},
+{name:"SETL",href:"https,href://en.wikipedia.org/wiki/SETL",items:[],},
+{name:"SIMPOL",href:"https,href://en.wikipedia.org/wiki/Superbase_database#History",items:[],},
+{name:"SIGNAL",href:"https,href://en.wikipedia.org/wiki/SIGNAL_(programming_language)",items:[],},
+{name:"SiMPLE",href:"https,href://en.wikipedia.org/wiki/SiMPLE",items:[],},
+{name:"SIMSCRIPT",href:"https,href://en.wikipedia.org/wiki/SIMSCRIPT",items:[],},
+{name:"Simula",href:"https,href://en.wikipedia.org/wiki/Simula",items:[],},
+{name:"Simulink",href:"https,href://en.wikipedia.org/wiki/Simulink",items:[],},
+{name:"SISAL",href:"https,href://en.wikipedia.org/wiki/SISAL",items:[],},
+{name:"SLIP",href:"https,href://en.wikipedia.org/wiki/SLIP_(programming_language)",items:[],},
+{name:"SMALL",href:"https,href://en.wikipedia.org/wiki/SMALL",items:[],},
+{name:"Smalltalk",href:"https,href://en.wikipedia.org/wiki/Smalltalk",items:[],},
+{name:"Small Basic",href:"https,href://en.wikipedia.org/wiki/Microsoft_Small_Basic",items:[],},
+{name:"SML",href:"https,href://en.wikipedia.org/wiki/Standard_ML",items:[],},
+{name:"Snap!",href:"https,href://en.wikipedia.org/wiki/Snap!_(programming_language)",items:[],},
+{name:"SNOBOL (",href:"https,href://en.wikipedia.org/wiki/SNOBOL",items:[],},
+{name:"SPITBOL )",href:"https,href://en.wikipedia.org/wiki/SPITBOL_compiler",items:[],},
+{name:"Snowball",href:"https,href://en.wikipedia.org/wiki/Snowball_programming_language",items:[],},
+{name:"SOL",href:"https,href://en.wikipedia.org/wiki/Secure_Operations_Language",items:[],},
+{name:"Span",href:"https,href://en.wikipedia.org/wiki/Span_(programming_language)",items:[],},
+{name:"SPARK",href:"https,href://en.wikipedia.org/wiki/SPARK_(programming_language)",items:[],},
+{name:"Speedcode",href:"https,href://en.wikipedia.org/wiki/Speedcoding",items:[],},
+{name:"SPIN",href:"https,href://en.wikipedia.org/wiki/Parallax_Propeller",items:[],},
+{name:"SP/k",href:"https,href://en.wikipedia.org/wiki/SP/k",items:[],},
+{name:"SPS",href:"https,href://en.wikipedia.org/wiki/IBM_1401_Symbolic_Programming_System",items:[],},
+{name:"SQR",href:"https,href://en.wikipedia.org/wiki/SQR",items:[],},
+{name:"Squeak",href:"https,href://en.wikipedia.org/wiki/Squeak",items:[],},
+{name:"Squirrel",href:"https,href://en.wikipedia.org/wiki/Squirrel_(programming_language)",items:[],},
+{name:"SR",href:"https,href://en.wikipedia.org/wiki/SR_(programming_language)",items:[],},
+{name:"S/SL",href:"https,href://en.wikipedia.org/wiki/S/SL_programming_language",items:[],},
+{name:"Stackless Python",href:"https,href://en.wikipedia.org/wiki/Stackless_Python",items:[],},
+{name:"Starlogo",href:"https,href://en.wikipedia.org/wiki/Starlogo",items:[],},
+{name:"Strand",href:"https,href://en.wikipedia.org/wiki/Strand_(programming_language)",items:[],},
+{name:"Stata",href:"https,href://en.wikipedia.org/wiki/Stata",items:[],},
+{name:"Stateflow",href:"https,href://en.wikipedia.org/wiki/Stateflow",items:[],},
+{name:"Subtext",href:"https,href://en.wikipedia.org/wiki/Subtext_(programming_language)",items:[],},
+{name:"SuperCollider",href:"https,href://en.wikipedia.org/wiki/SuperCollider",items:[],},
+{name:"SuperTalk",href:"https,href://en.wikipedia.org/wiki/SuperTalk",items:[],},
+{name:"Swift (Apple programming language)",href:"https,href://en.wikipedia.org/wiki/Swift_(programming_language)",items:[],},
+{name:"Swift (parallel scripting language)",href:"https,href://en.wikipedia.org/wiki/Swift_(parallel_scripting_language)",items:[],},
+{name:"SYMPL",href:"https,href://en.wikipedia.org/wiki/SYMPL",items:[],},
+{name:"SyncCharts",href:"https,href://en.wikipedia.org/wiki/SyncCharts",items:[],},
+{name:"SystemVerilog",href:"https,href://en.wikipedia.org/wiki/SystemVerilog",items:[],},
+{name:"T",href:"https,href://en.wikipedia.org/wiki/T_(programming_language)",items:[],},
+{name:"TACL",href:"https,href://en.wikipedia.org/wiki/TACL",items:[],},
+{name:"TACPOL",href:"https,href://en.wikipedia.org/wiki/TACPOL_(programming_language)",items:[],},
+{name:"TADS",href:"https,href://en.wikipedia.org/wiki/TADS",items:[],},
+{name:"TAL",href:"https,href://en.wikipedia.org/wiki/Transaction_Application_Language",items:[],},
+{name:"Tcl",href:"https,href://en.wikipedia.org/wiki/Tcl",items:[],},
+{name:"Tea",href:"https,href://en.wikipedia.org/wiki/Tea_(programming_language)",items:[],},
+{name:"TECO",href:"https,href://en.wikipedia.org/wiki/Text_Editor_and_Corrector",items:[],},
+{name:"TELCOMP",href:"https,href://en.wikipedia.org/wiki/TELCOMP",items:[],},
+{name:"TeX",href:"https,href://en.wikipedia.org/wiki/TeX",items:[],},
+{name:"TEX",href:"https,href://en.wikipedia.org/wiki/Text_Executive_Programming_Language",items:[],},
+{name:"TIE",href:"https,href://en.wikipedia.org/wiki/Tensilica_Instruction_Extension",items:[],},
+{name:"Timber",href:"https,href://en.wikipedia.org/wiki/Timber_(programming_language)",items:[],},
+{name:"TMG ",href:" compiler-compiler"",href:"https,href://en.wikipedia.org/wiki/TMG_(language)",items:[],},
+{name:"Tom",href:"https,href://en.wikipedia.org/wiki/Tom_(pattern_matching_language)",items:[],},
+{name:"TOM",href:"https,href://en.wikipedia.org/wiki/TOM_(object-oriented_programming_language)",items:[],},
+{name:"TouchDevelop",href:"https,href://en.wikipedia.org/wiki/TouchDevelop",items:[],},
+{name:"Topspeed",href:"https,href://en.wikipedia.org/wiki/Clarion_(programming_language)",items:[],},
+{name:"TPU",href:"https,href://en.wikipedia.org/wiki/Text_Processing_Utility",items:[],},
+{name:"Trac",href:"https,href://en.wikipedia.org/wiki/TRAC_(programming_language)",items:[],},
+{name:"TTM",href:"https,href://en.wikipedia.org/wiki/TTM_(programming_language)",items:[],},
+{name:"T-SQL",href:"https,href://en.wikipedia.org/wiki/Transact-SQL",items:[],},
+{name:"TTDX",href:"https,href://en.wikipedia.org/wiki/TTDX",items:[],},
+{name:"Turing",href:"https,href://en.wikipedia.org/wiki/Turing_(programming_language)",items:[],},
+{name:"TUTOR",href:"https,href://en.wikipedia.org/wiki/TUTOR_(programming_language)",items:[],},
+{name:"TXL",href:"https,href://en.wikipedia.org/wiki/TXL_(programming_language)",items:[],},
+{name:"TypeScript",href:"https,href://en.wikipedia.org/wiki/TypeScript",items:[],},
+{name:"Turbo C++",href:"https,href://en.wikipedia.org/wiki/Turbo_C%2B%2B",items:[],},
+{name:"Ubercode",href:"https,href://en.wikipedia.org/wiki/Ubercode",items:[],},
+{name:"UCSD Pascal",href:"https,href://en.wikipedia.org/wiki/UCSD_Pascal",items:[],},
+{name:"Umple",href:"https,href://en.wikipedia.org/wiki/Umple",items:[],},
+{name:"Unicon",href:"https,href://en.wikipedia.org/wiki/Unicon_(programming_language)",items:[],},
+{name:"Uniface",href:"https,href://en.wikipedia.org/wiki/Uniface_(programming_language)",items:[],},
+{name:"UNITY",href:"https,href://en.wikipedia.org/wiki/UNITY_(programming_language)",items:[],},
+{name:"Unix shell",href:"https,href://en.wikipedia.org/wiki/Unix_shell",items:[],},
+{name:"UnrealScript",href:"https,href://en.wikipedia.org/wiki/UnrealScript",items:[],},
+{name:"Vala",href:"https,href://en.wikipedia.org/wiki/Vala_(programming_language)",items:[],},
+{name:"Visual DataFlex",href:"https,href://en.wikipedia.org/wiki/Visual_DataFlex",items:[],},
+{name:"Visual DialogScript",href:"https,href://en.wikipedia.org/wiki/Visual_DialogScript",items:[],},
+{name:"Visual Fortran",href:"https,href://en.wikipedia.org/wiki/Visual_Fortran",items:[],},
+{name:"Visual FoxPro",href:"https,href://en.wikipedia.org/wiki/Visual_FoxPro",items:[],},
+{name:"Visual J++",href:"https,href://en.wikipedia.org/wiki/Visual_J%2B%2B",items:[],},
+{name:"Visual J#",href:"https,href://en.wikipedia.org/wiki/Visual_J",items:[],},
+{name:"Visual Objects",href:"https,href://en.wikipedia.org/wiki/Visual_Objects",items:[],},
+{name:"Visual Prolog",href:"https,href://en.wikipedia.org/wiki/Visual_Prolog",items:[],},
+{name:"VSXu",href:"https,href://en.wikipedia.org/wiki/VSXu",items:[],},
+{name:"vvvv",href:"https,href://en.wikipedia.org/wiki/Vvvv",items:[],},
+{name:""WATFIV",href:" WATFOR"",href:"https,href://en.wikipedia.org/wiki/WATFIV_(programming_language)",items:[],},
+{name:"WebDNA",href:"https,href://en.wikipedia.org/wiki/WebDNA",items:[],},
+{name:"WebQL",href:"https,href://en.wikipedia.org/wiki/WebQL",items:[],},
+{name:"Whiley",href:"https,href://en.wikipedia.org/wiki/Whiley_(programming_language)",items:[],},
+{name:"Windows PowerShell",href:"https,href://en.wikipedia.org/wiki/Windows_PowerShell",items:[],},
+{name:"Winbatch",href:"https,href://en.wikipedia.org/wiki/Winbatch",items:[],},
+{name:"Wolfram Language",href:"https,href://en.wikipedia.org/wiki/Wolfram_Language",items:[],},
+{name:"Wyvern",href:"https,href://en.wikipedia.org/wiki/Wyvern_(programming_language)",items:[],},
+{name:"X++",href:"https,href://en.wikipedia.org/wiki/Microsoft_Dynamics_AX",items:[],},
+{name:"X#",href:"https,href://en.wikipedia.org/wiki/X_Sharp_(programming_language)",items:[],},
+{name:"X10",href:"https,href://en.wikipedia.org/wiki/X10_(programming_language)",items:[],},
+{name:"XBL",href:"https,href://en.wikipedia.org/wiki/XBL",items:[],},
+{name:"XC (exploits",href:"https,href://en.wikipedia.org/wiki/XC_Programming_Language",items:[],},
+{name:"XMOS architecture )",href:"https,href://en.wikipedia.org/wiki/XCore_XS1",items:[],},
+{name:"xHarbour",href:"https,href://en.wikipedia.org/wiki/XHarbour",items:[],},
+{name:"XL",href:"https,href://en.wikipedia.org/wiki/XL_(programming_language)",items:[],},
+{name:"Xojo",href:"https,href://en.wikipedia.org/wiki/Xojo",items:[],},
+{name:"XOTcl",href:"https,href://en.wikipedia.org/wiki/XOTcl",items:[],},
+{name:"XPL",href:"https,href://en.wikipedia.org/wiki/XPL",items:[],},
+{name:"XPL0",href:"https,href://en.wikipedia.org/wiki/XPL0",items:[],},
+{name:"XQuery",href:"https,href://en.wikipedia.org/wiki/XQuery",items:[],},
+{name:"XSB",href:"https,href://en.wikipedia.org/wiki/XSB",items:[],},
+{name:"XSLT – see",href:"https,href://en.wikipedia.org/wiki/XSL_Transformations",items:[],},
+{name:"XPath",href:"https,href://en.wikipedia.org/wiki/XPath",items:[],},
+{name:"Xtend",href:"https,href://en.wikipedia.org/wiki/Xtend",items:[],},
+{name:"Yorick",href:"https,href://en.wikipedia.org/wiki/Yorick_(programming_language)",items:[],},
+{name:"YQL",href:"https,href://en.wikipedia.org/wiki/YQL_(programming_language)",items:[],},
+{name:"Z notation",href:"https,href://en.wikipedia.org/wiki/Z_notation",items:[],},
+{name:"Zeno",href:"https,href://en.wikipedia.org/wiki/Zeno_(programming_language)",items:[],},
+{name:"ZOPL",href:"https,href://en.wikipedia.org/wiki/ZOPL",items:[],},
+{name:"Zsh",href:"https,href://en.wikipedia.org/wiki/Z_shell",items:[],},
+{name:"ZPL",href:"https,href://en.wikipedia.org/wiki/ZPL_(programming_language)",items:[],},
+{name:"Q (programming language from Kx Systems)",href:"https,href://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)",items:[],},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CODE BEAUTIFIER 
+
+HEX to Pantone Converter
+RGB to Pantone Converter
+HSV to Pantone Converter
+CMYK to Pantone Converter
+CMYK to HEX Converter
+CMYK to RGB Converter
+CMYK to HSV Converter
+HSV to HEX Converter
+HSV to RGB Converter
+HSV to CMYK Converter
+HEX to HSV Converter
+RGB to HEX Converter
+RGB to HSV Converter
+RGB to CMYK Converter
+HEX to RGB Converter
+HEX to CMYK Converter
+Pantone to HEX Converter
+Pantone to RGB Converter
+Pantone to CMYK Converter
+Pantone to HSV Converter
+
+Length Converter
+Weight Converter
+Volume Converter
+Area Converter
+Time Converter
+Unix Timestamp Converter
+More Unit Tools
+
+SQL Converters
+
+SQL to CSV Converter
+SQL to JSON Converter
+SQL to XML Converter
+SQL to YAML Converter
+SQL to HTML Converter
+
+Encode and Decode
+
+Base32 Encode
+Base32 Decode
+Base58 Encode
+Base58 Decode
+Base64 Encode
+Base64 Decode
+URL Encode Online
+URL Decode Online
+JSON URL Encode
+JSON URL Decode
+HTML Encode
+HTML Decode
+XML URL Encoding
+XML URL Decoding
+UTF8 Converter
+UTF8 Decode
+Hex to UTF8
+JSON Decode Online
+JSON Encode Online
+
+Base64 Tools
+
+Image to Base64
+Base64 to Image
+PNG to Base64
+JPG to Base64
+JSON to Base64
+XML to Base64
+YAML to Base64
+Base64 to JSON
+Base64 to XML
+Base64 to YAML
+CSV to Base64
+Base64 to CSV
+TSV to Base64
+Base64 to TSV
+Binary to Base64
+Base64 to Binary
+Hex to Base64
+Base64 to Hex
+Octal to Base64
+More Base64 Tools
+
+Image Tools
+
+JPG to PNG
+BMP to PNG
+PNG to JPG
+GIF Splitter
+GIF Viewer
+More Image Tools
+Color Converters
+HEX to Pantone Converter
+RGB to Pantone Converter
+HSV to Pantone Converter
+CMYK to Pantone Converter
+CMYK to HEX Converter
+CMYK to RGB Converter
+CMYK to HSV Converter
+HSV to HEX Converter
+HSV to RGB Converter
+HSV to CMYK Converter
+HEX to HSV Converter
+RGB to HEX Converter
+RGB to HSV Converter
+RGB to CMYK Converter
+HEX to RGB Converter
+HEX to CMYK Converter
+Pantone to HEX Converter
+Pantone to RGB Converter
+Pantone to CMYK Converter
+Pantone to HSV Converter
+HEX to Pantone Converter
+RGB to Pantone Converter
+HSV to Pantone Converter
+CMYK to Pantone Converter
+CMYK to HEX Converter
+CMYK to RGB Converter
+CMYK to HSV Converter
+HSV to HEX Converter
+HSV to RGB Converter
+HSV to CMYK Converter
+HEX to HSV Converter
+RGB to HEX Converter
+RGB to HSV Converter
+RGB to CMYK Converter
+HEX to RGB Converter
+HEX to CMYK Converter
+Pantone to HEX Converter
+Pantone to RGB Converter
+Pantone to CMYK Converter
+Pantone to HSV Converter
+Unit Converter
+Length Converter
+Weight Converter
+Volume Converter
+Area Converter
+Time Converter
+Unix Timestamp Converter
+More Unit Tools
+Length Converter
+Weight Converter
+Volume Converter
+Area Converter
+Time Converter
+Unix Timestamp Converter
+More Unit Tools
+SQL Converters
+SQL to CSV Converter
+SQL to JSON Converter
+SQL to XML Converter
+SQL to YAML Converter
+SQL to HTML Converter
+SQL to CSV Converter
+SQL to JSON Converter
+SQL to XML Converter
+SQL to YAML Converter
+SQL to HTML Converter
+Encode and Decode
+Base32 Encode
+Base32 Decode
+Base58 Encode
+Base58 Decode
+Base64 Encode
+Base64 Decode
+URL Encode Online
+URL Decode Online
+JSON URL Encode
+JSON URL Decode
+HTML Encode
+HTML Decode
+XML URL Encoding
+XML URL Decoding
+UTF8 Converter
+UTF8 Decode
+Hex to UTF8
+JSON Decode Online
+JSON Encode Online
+Base32 Encode
+Base32 Decode
+Base58 Encode
+Base58 Decode
+Base64 Encode
+Base64 Decode
+URL Encode Online
+URL Decode Online
+JSON URL Encode
+JSON URL Decode
+HTML Encode
+HTML Decode
+XML URL Encoding
+XML URL Decoding
+UTF8 Converter
+UTF8 Decode
+Hex to UTF8
+JSON Decode Online
+JSON Encode Online
+Base64 Tools
+Image to Base64
+Base64 to Image
+PNG to Base64
+JPG to Base64
+JSON to Base64
+XML to Base64
+YAML to Base64
+Base64 to JSON
+Base64 to XML
+Base64 to YAML
+CSV to Base64
+Base64 to CSV
+TSV to Base64
+Base64 to TSV
+Binary to Base64
+Base64 to Binary
+Hex to Base64
+Base64 to Hex
+Octal to Base64
+More Base64 Tools
+Image to Base64
+Base64 to Image
+PNG to Base64
+JPG to Base64
+JSON to Base64
+XML to Base64
+YAML to Base64
+Base64 to JSON
+Base64 to XML
+Base64 to YAML
+CSV to Base64
+Base64 to CSV
+TSV to Base64
+Base64 to TSV
+Binary to Base64
+Base64 to Binary
+Hex to Base64
+Base64 to Hex
+Octal to Base64
+More Base64 Tools
+Image Tools
+JPG to PNG
+BMP to PNG
+PNG to JPG
+GIF Splitter
+GIF Viewer
+More Image Tools
+JPG to PNG
+BMP to PNG
+PNG to JPG
+GIF Splitter
+GIF Viewer
+More Image Tools
+Converters
+
+Image to Base64
+Base64 to Image
+Date Calculater
+EXCEL to HTML
+EXCEL to XML
+EXCEL to JSON
+OPML to JSON
+Word to HTML
+Online Tableizer
+
+JSON Converters
+
+JSON to JAVA
+JSON to XML
+JSON to YAML
+JSON to CSV
+JSON to TSV
+JSON to Text
+JSON to Excel
+JSON to HTML
+
+XML Converters
+
+XML Converter
+XML to JSON
+XML to YAML
+XML to CSV
+XML to TSV
+XML to Text
+XML-XSL Transform
+XML to HTML
+XML to Excel
+XML to JAVA
+
+HTML Converters
+
+HTML Stripper
+HTML Table Generator
+HTML to CSV Converter
+HTML to TSV Converter
+HTML to PHP Converter
+HTML to CSV
+HTML to JSON
+HTML to XML
+HTML to YAML
+HTML to Text
+Text to HTML Entities
+HTML Entities to Text
+HTML to Markdown
+Markdown to HTML
+PUG to HTML Converter
+HTML to PUG Converter
+JADE to HTML Converter
+HTML to JADE Converter
+HTML to BBCode Converter
+BBCode to HTML Converter
+
+YAML Converters
+
+YAML Converter
+YAML to XML
+YAML to JSON
+YAML to CSV
+YAML to Excel
+
+Utility
+
+Send Snap Message
+Responsive Website Tester
+Credit Card Validator
+Credit Card Fake Number Generator
+XPath Tester
+JSON Path Tester
+JSON Minifier
+File Difference
+JSON Diff
+XML Diff
+Broken Link Checker
+JSON Deserialize Online
+JSON Serialize Online
+JSON Stringify Online
+XML Stringify Online
+String to JSON Online
+JavaScript Obfuscator
+Curl to PHP
+Crontab Format
+
+Chart Tools
+
+Line Graph Maker
+Bar Graph Maker
+Pie Chart Maker
+Doughnut Chart Maker
+Scatter Plot Maker
+Converters
+Image to Base64
+Base64 to Image
+Date Calculater
+EXCEL to HTML
+EXCEL to XML
+EXCEL to JSON
+OPML to JSON
+Word to HTML
+Online Tableizer
+Image to Base64
+Base64 to Image
+Date Calculater
+EXCEL to HTML
+EXCEL to XML
+EXCEL to JSON
+OPML to JSON
+Word to HTML
+Online Tableizer
+JSON Converters
+JSON to JAVA
+JSON to XML
+JSON to YAML
+JSON to CSV
+JSON to TSV
+JSON to Text
+JSON to Excel
+JSON to HTML
+JSON to JAVA
+JSON to XML
+JSON to YAML
+JSON to CSV
+JSON to TSV
+JSON to Text
+JSON to Excel
+JSON to HTML
+XML Converters
+XML Converter
+XML to JSON
+XML to YAML
+XML to CSV
+XML to TSV
+XML to Text
+XML-XSL Transform
+XML to HTML
+XML to Excel
+XML to JAVA
+XML Converter
+XML to JSON
+XML to YAML
+XML to CSV
+XML to TSV
+XML to Text
+XML-XSL Transform
+XML to HTML
+XML to Excel
+XML to JAVA
+HTML Converters
+HTML Stripper
+HTML Table Generator
+HTML to CSV Converter
+HTML to TSV Converter
+HTML to PHP Converter
+HTML to CSV
+HTML to JSON
+HTML to XML
+HTML to YAML
+HTML to Text
+Text to HTML Entities
+HTML Entities to Text
+HTML to Markdown
+Markdown to HTML
+PUG to HTML Converter
+HTML to PUG Converter
+JADE to HTML Converter
+HTML to JADE Converter
+HTML to BBCode Converter
+BBCode to HTML Converter
+HTML Stripper
+HTML Table Generator
+HTML to CSV Converter
+HTML to TSV Converter
+HTML to PHP Converter
+HTML to CSV
+HTML to JSON
+HTML to XML
+HTML to YAML
+HTML to Text
+Text to HTML Entities
+HTML Entities to Text
+HTML to Markdown
+Markdown to HTML
+PUG to HTML Converter
+HTML to PUG Converter
+JADE to HTML Converter
+HTML to JADE Converter
+HTML to BBCode Converter
+BBCode to HTML Converter
+YAML Converters
+YAML Converter
+YAML to XML
+YAML to JSON
+YAML to CSV
+YAML to Excel
+YAML Converter
+YAML to XML
+YAML to JSON
+YAML to CSV
+YAML to Excel
+Utility
+Send Snap Message
+Responsive Website Tester
+Credit Card Validator
+Credit Card Fake Number Generator
+XPath Tester
+JSON Path Tester
+JSON Minifier
+File Difference
+JSON Diff
+XML Diff
+Broken Link Checker
+JSON Deserialize Online
+JSON Serialize Online
+JSON Stringify Online
+XML Stringify Online
+String to JSON Online
+JavaScript Obfuscator
+Curl to PHP
+Crontab Format
+Send Snap Message
+Responsive Website Tester
+Credit Card Validator
+Credit Card Fake Number Generator
+XPath Tester
+JSON Path Tester
+JSON Minifier
+File Difference
+JSON Diff
+XML Diff
+Broken Link Checker
+JSON Deserialize Online
+JSON Serialize Online
+JSON Stringify Online
+XML Stringify Online
+String to JSON Online
+JavaScript Obfuscator
+Curl to PHP
+Crontab Format
+Chart Tools
+Line Graph Maker
+Bar Graph Maker
+Pie Chart Maker
+Doughnut Chart Maker
+Scatter Plot Maker
+Line Graph Maker
+Bar Graph Maker
+Pie Chart Maker
+Doughnut Chart Maker
+Scatter Plot Maker
+Viewers
+
+JSON Viewer
+XML Viewer
+YAML Viewer
+MXML Viewer
+HTML Viewer
+JavaScript Viewer
+RSS Viewer
+SOURCE CODE Viewer
+OPML Viewer
+CSV Viewer
+BBCode Viewer
+Markdown Viewer
+
+Programming Editors
+
+XML Editor
+JSON Editor
+Real Time HTML Editor
+YAML Editor
+ONLINE Editor
+JAVA Editor
+C# Editor
+Actionscript Editor
+Markdown Editor
+
+Parsers
+
+URL Parser
+JSON Parser
+XML Parser
+YAML Parser
+
+CSS Tools
+
+CSS Beautifier
+CSS to LESS
+CSS to SCSS
+CSS to SASS
+CSS to Stylus
+Stylus Compiler
+Stylus to CSS
+Stylus to LESS
+Stylus to SCSS
+Stylus to SASS
+LESS Compiler
+LESS to CSS
+LESS to Stylus
+LESS to SCSS
+LESS to SASS
+SCSS Compiler
+SCSS to CSS
+SCSS to Stylus
+SCSS to LESS
+SCSS to SASS
+SASS Compiler
+SASS to CSS
+SASS to Stylus
+SASS to SCSS
+SASS to LESS
+
+Escape Unescape
+
+HTML Escape Unescape
+XML Escape Unescape
+Java Escape Unescape
+C# Escape Unescape
+Javascript Escape Unescape
+CSV Escape Unescape
+SQL Escape Unescape
+JSON Escape Unescape
+Un-Google Link
+
+CryptoGraphy Tools
+
+Encryption-Decryption
+HMAC Generator
+MD2 Hash Generator
+MD4 Hash Generator
+MD5 Hash Generator
+MD6 Hash Generator
+NTLM Hash Generator
+SHA1 Hash Generator
+SHA2 Hash Generator
+SHA224 Hash Generator
+SHA256 Hash Generator
+SHA384 Hash Generator
+SHA512 Hash Generator
+SHA512/224 Hash Generator
+SHA512/256 Hash Generator
+SHA3-224 Hash Generator
+SHA3-256 Hash Generator
+SHA3-384 Hash Generator
+SHA3-512 Hash Generator
+CRC-16 Hash Generator
+CRC-32 Hash Generator
+Shake-128 Hash Generator
+Shake-256 Hash Generator
+Whirlpool Hash Generator
+Wordpress Password Hash Generator
+Viewers
+JSON Viewer
+XML Viewer
+YAML Viewer
+MXML Viewer
+HTML Viewer
+JavaScript Viewer
+RSS Viewer
+SOURCE CODE Viewer
+OPML Viewer
+CSV Viewer
+BBCode Viewer
+Markdown Viewer
+JSON Viewer
+XML Viewer
+YAML Viewer
+MXML Viewer
+HTML Viewer
+JavaScript Viewer
+RSS Viewer
+SOURCE CODE Viewer
+OPML Viewer
+CSV Viewer
+BBCode Viewer
+Markdown Viewer
+Programming Editors
+XML Editor
+JSON Editor
+Real Time HTML Editor
+YAML Editor
+ONLINE Editor
+JAVA Editor
+C# Editor
+Actionscript Editor
+Markdown Editor
+XML Editor
+JSON Editor
+Real Time HTML Editor
+YAML Editor
+ONLINE Editor
+JAVA Editor
+C# Editor
+Actionscript Editor
+Markdown Editor
+Parsers
+URL Parser
+JSON Parser
+XML Parser
+YAML Parser
+URL Parser
+JSON Parser
+XML Parser
+YAML Parser
+CSS Tools
+CSS Beautifier
+CSS to LESS
+CSS to SCSS
+CSS to SASS
+CSS to Stylus
+Stylus Compiler
+Stylus to CSS
+Stylus to LESS
+Stylus to SCSS
+Stylus to SASS
+LESS Compiler
+LESS to CSS
+LESS to Stylus
+LESS to SCSS
+LESS to SASS
+SCSS Compiler
+SCSS to CSS
+SCSS to Stylus
+SCSS to LESS
+SCSS to SASS
+SASS Compiler
+SASS to CSS
+SASS to Stylus
+SASS to SCSS
+SASS to LESS
+CSS Beautifier
+CSS to LESS
+CSS to SCSS
+CSS to SASS
+CSS to Stylus
+Stylus Compiler
+Stylus to CSS
+Stylus to LESS
+Stylus to SCSS
+Stylus to SASS
+LESS Compiler
+LESS to CSS
+LESS to Stylus
+LESS to SCSS
+LESS to SASS
+SCSS Compiler
+SCSS to CSS
+SCSS to Stylus
+SCSS to LESS
+SCSS to SASS
+SASS Compiler
+SASS to CSS
+SASS to Stylus
+SASS to SCSS
+SASS to LESS
+Escape Unescape
+HTML Escape Unescape
+XML Escape Unescape
+Java Escape Unescape
+C# Escape Unescape
+Javascript Escape Unescape
+CSV Escape Unescape
+SQL Escape Unescape
+JSON Escape Unescape
+Un-Google Link
+HTML Escape Unescape
+XML Escape Unescape
+Java Escape Unescape
+C# Escape Unescape
+Javascript Escape Unescape
+CSV Escape Unescape
+SQL Escape Unescape
+JSON Escape Unescape
+Un-Google Link
+CryptoGraphy Tools
+Encryption-Decryption
+HMAC Generator
+MD2 Hash Generator
+MD4 Hash Generator
+MD5 Hash Generator
+MD6 Hash Generator
+NTLM Hash Generator
+SHA1 Hash Generator
+SHA2 Hash Generator
+SHA224 Hash Generator
+SHA256 Hash Generator
+SHA384 Hash Generator
+SHA512 Hash Generator
+SHA512/224 Hash Generator
+SHA512/256 Hash Generator
+SHA3-224 Hash Generator
+SHA3-256 Hash Generator
+SHA3-384 Hash Generator
+SHA3-512 Hash Generator
+CRC-16 Hash Generator
+CRC-32 Hash Generator
+Shake-128 Hash Generator
+Shake-256 Hash Generator
+Whirlpool Hash Generator
+Wordpress Password Hash Generator
+Encryption-Decryption
+HMAC Generator
+MD2 Hash Generator
+MD4 Hash Generator
+MD5 Hash Generator
+MD6 Hash Generator
+NTLM Hash Generator
+SHA1 Hash Generator
+SHA2 Hash Generator
+SHA224 Hash Generator
+SHA256 Hash Generator
+SHA384 Hash Generator
+SHA512 Hash Generator
+SHA512/224 Hash Generator
+SHA512/256 Hash Generator
+SHA3-224 Hash Generator
+SHA3-256 Hash Generator
+SHA3-384 Hash Generator
+SHA3-512 Hash Generator
+CRC-16 Hash Generator
+CRC-32 Hash Generator
+Shake-128 Hash Generator
+Shake-256 Hash Generator
+Whirlpool Hash Generator
+Wordpress Password Hash Generator
+Beautifiers
+
+JSON Beautifier
+CSS Beautifier
+XML Beautifier
+Javascript Beautifier
+YAML Beautifier
+C# Beautifier
+Java Beautifier
+C Beautifier
+C++ Beautifier
+TypeScript Formatter
+SQL Formatter
+Babel Formatter
+Markdown Formatter
+MDX Formatter
+LESS Beautifier
+SCSS Beautifier
+GraphQL Beautifier
+PHP Beautifier
+Python Beautifier
+Perl Beautifier
+Ruby Beautifier
+Angular Formatter
+React Formatter
+Lua Beautifier
+XAML Beautifier
+
+Minifier
+
+JSON Minify
+XML Minify
+Minify JS
+CSS Minify
+SQL Minifier
+Minify HTML
+Lua Minifier
+Text Minifier
+
+CSV Tools
+
+CSV Viewer
+CSV to XML/JSON
+CSV to XML
+CSV to JSON
+CSV to HTML
+CSV to TSV
+CSV to MULTILINE DATA
+CSV to SQL
+CSV to Excel
+
+String Utilities
+
+Upside Down Text
+Random Word Generator
+NTLM Hash Generator
+Password Generator
+String Builder
+Number to Word Converter
+Word to Number Converter
+WORD COUNTER
+Word Repeater
+Reverse String
+String to Hex Converter
+Hex to String Converter
+String to Binary Converter
+Binary to String Converter
+Case Converter
+Delimited Text Extractor
+Remove Accents
+Remove Duplicate Lines
+Remove Empty Lines
+Remove Extra Spaces
+Remove Whitespace
+Remove Line Breaks
+Remove Lines Containing
+Sort Text Lines
+Word Sorter
+Word Frequency Counter
+Text Repeater
+Remove Punctuation
+
+Syntax Highlighting
+
+JSON Syntax Highlighting
+XML Highlighter
+XML Pretty Print
+HTML Pretty Print
+JS Pretty Print
+Code Highlighter
+
+Compress / Decompress
+
+GZip Decompress Online
+Zlib Decompress Online
+Beautifiers
+JSON Beautifier
+CSS Beautifier
+XML Beautifier
+Javascript Beautifier
+YAML Beautifier
+C# Beautifier
+Java Beautifier
+C Beautifier
+C++ Beautifier
+TypeScript Formatter
+SQL Formatter
+Babel Formatter
+Markdown Formatter
+MDX Formatter
+LESS Beautifier
+SCSS Beautifier
+GraphQL Beautifier
+PHP Beautifier
+Python Beautifier
+Perl Beautifier
+Ruby Beautifier
+Angular Formatter
+React Formatter
+Lua Beautifier
+XAML Beautifier
+JSON Beautifier
+CSS Beautifier
+XML Beautifier
+Javascript Beautifier
+YAML Beautifier
+C# Beautifier
+Java Beautifier
+C Beautifier
+C++ Beautifier
+TypeScript Formatter
+SQL Formatter
+Babel Formatter
+Markdown Formatter
+MDX Formatter
+LESS Beautifier
+SCSS Beautifier
+GraphQL Beautifier
+PHP Beautifier
+Python Beautifier
+Perl Beautifier
+Ruby Beautifier
+Angular Formatter
+React Formatter
+Lua Beautifier
+XAML Beautifier
+Minifier
+JSON Minify
+XML Minify
+Minify JS
+CSS Minify
+SQL Minifier
+Minify HTML
+Lua Minifier
+Text Minifier
+JSON Minify
+XML Minify
+Minify JS
+CSS Minify
+SQL Minifier
+Minify HTML
+Lua Minifier
+Text Minifier
+CSV Tools
+CSV Viewer
+CSV to XML/JSON
+CSV to XML
+CSV to JSON
+CSV to HTML
+CSV to TSV
+CSV to MULTILINE DATA
+CSV to SQL
+CSV to Excel
+CSV Viewer
+CSV to XML/JSON
+CSV to XML
+CSV to JSON
+CSV to HTML
+CSV to TSV
+CSV to MULTILINE DATA
+CSV to SQL
+CSV to Excel
+String Utilities
+Upside Down Text
+Random Word Generator
+NTLM Hash Generator
+Password Generator
+String Builder
+Number to Word Converter
+Word to Number Converter
+WORD COUNTER
+Word Repeater
+Reverse String
+String to Hex Converter
+Hex to String Converter
+String to Binary Converter
+Binary to String Converter
+Case Converter
+Delimited Text Extractor
+Remove Accents
+Remove Duplicate Lines
+Remove Empty Lines
+Remove Extra Spaces
+Remove Whitespace
+Remove Line Breaks
+Remove Lines Containing
+Sort Text Lines
+Word Sorter
+Word Frequency Counter
+Text Repeater
+Remove Punctuation
+Upside Down Text
+Random Word Generator
+NTLM Hash Generator
+Password Generator
+String Builder
+Number to Word Converter
+Word to Number Converter
+WORD COUNTER
+Word Repeater
+Reverse String
+String to Hex Converter
+Hex to String Converter
+String to Binary Converter
+Binary to String Converter
+Case Converter
+Delimited Text Extractor
+Remove Accents
+Remove Duplicate Lines
+Remove Empty Lines
+Remove Extra Spaces
+Remove Whitespace
+Remove Line Breaks
+Remove Lines Containing
+Sort Text Lines
+Word Sorter
+Word Frequency Counter
+Text Repeater
+Remove Punctuation
+Syntax Highlighting
+JSON Syntax Highlighting
+XML Highlighter
+XML Pretty Print
+HTML Pretty Print
+JS Pretty Print
+Code Highlighter
+JSON Syntax Highlighting
+XML Highlighter
+XML Pretty Print
+HTML Pretty Print
+JS Pretty Print
+Code Highlighter
+Compress / Decompress
+GZip Decompress Online
+Zlib Decompress Online
+GZip Decompress Online
+Zlib Decompress Online
+Validators
+
+CSS Validator
+JavaScript Validator
+JSON Validator
+JSON5 Validator
+XML Validator
+Credit Card Validator
+API Test
+YAML Validator
+
+Number Utilities
+
+All Numbers Converter
+Decimal to Binary
+Decimal to Octal
+Binary to Decimal
+Binary to Hex
+Binary to Octal
+Hex to Decimal
+Hex to Binary
+Hex to Octal
+Octal toDecimal
+Octal to Binary
+Octal to Hex
+Binary to Text
+Text to Binary
+ASCII to Text
+Char to ASCII
+Reverse Hex
+
+Bitwise Tools
+
+Bitwise Calculator
+XOR Calculator
+AND Calculator
+NAND Calculator
+OR Calculator
+NOR Calculator
+XNOR Calculator
+
+IP Tools
+
+Hex to IP
+IP to Hex
+Binary to IP
+IP to Binary
+Decimal to IP
+IP to Decimal
+Octal to IP
+IP to Octal
+IPV6 to Binary
+
+Other Tools
+
+Lorem-Ipsum
+Sharelink Generator
+Hostname to IP
+IP to Hostname
+Phone to IP Address
+IP Address to Phone
+DNS Lookup
+MX Lookup
+Nameserver Lookup
+Website to IP Address
+Open Port Checker
+Webcam Test
+
+Random Tools
+
+Random IP Address
+Random Time Generator
+Random UUID Generator
+Random JSON Generator
+Random XML Generator
+Random Data from Regex
+Random CSV Generator
+Random Number Generator
+Random Integer Generator
+Random Prime Generator
+Random Date Generator
+Random Bitmap Generator
+Random Name Picker
+Text Lines shuffler
+MAC Address Generator
+Random Hex Generator
+Random TSV Generator
+Random String Generator
+Random Fraction Generator
+Random Integer Range Generator
+Random Binary Generator
+Random Byte Generator
+Random Decimal Generator
+Random Alphanumeric Generator
+Validators
+CSS Validator
+JavaScript Validator
+JSON Validator
+JSON5 Validator
+XML Validator
+Credit Card Validator
+API Test
+YAML Validator
+CSS Validator
+JavaScript Validator
+JSON Validator
+JSON5 Validator
+XML Validator
+Credit Card Validator
+API Test
+YAML Validator
+Number Utilities
+All Numbers Converter
+Decimal to Binary
+Decimal to Octal
+Binary to Decimal
+Binary to Hex
+Binary to Octal
+Hex to Decimal
+Hex to Binary
+Hex to Octal
+Octal toDecimal
+Octal to Binary
+Octal to Hex
+Binary to Text
+Text to Binary
+ASCII to Text
+Char to ASCII
+Reverse Hex
+All Numbers Converter
+Decimal to Binary
+Decimal to Octal
+Binary to Decimal
+Binary to Hex
+Binary to Octal
+Hex to Decimal
+Hex to Binary
+Hex to Octal
+Octal toDecimal
+Octal to Binary
+Octal to Hex
+Binary to Text
+Text to Binary
+ASCII to Text
+Char to ASCII
+Reverse Hex
+Bitwise Tools
+Bitwise Calculator
+XOR Calculator
+AND Calculator
+NAND Calculator
+OR Calculator
+NOR Calculator
+XNOR Calculator
+Bitwise Calculator
+XOR Calculator
+AND Calculator
+NAND Calculator
+OR Calculator
+NOR Calculator
+XNOR Calculator
+IP Tools
+Hex to IP
+IP to Hex
+Binary to IP
+IP to Binary
+Decimal to IP
+IP to Decimal
+Octal to IP
+IP to Octal
+IPV6 to Binary
+Hex to IP
+IP to Hex
+Binary to IP
+IP to Binary
+Decimal to IP
+IP to Decimal
+Octal to IP
+IP to Octal
+IPV6 to Binary
+Other Tools
+Lorem-Ipsum
+Sharelink Generator
+Hostname to IP
+IP to Hostname
+Phone to IP Address
+IP Address to Phone
+DNS Lookup
+MX Lookup
+Nameserver Lookup
+Website to IP Address
+Open Port Checker
+Webcam Test
+Lorem-Ipsum
+Sharelink Generator
+Hostname to IP
+IP to Hostname
+Phone to IP Address
+IP Address to Phone
+DNS Lookup
+MX Lookup
+Nameserver Lookup
+Website to IP Address
+Open Port Checker
+Webcam Test
+Random Tools
+Random IP Address
+Random Time Generator
+Random UUID Generator
+Random JSON Generator
+Random XML Generator
+Random Data from Regex
+Random CSV Generator
+Random Number Generator
+Random Integer Generator
+Random Prime Generator
+Random Date Generator
+Random Bitmap Generator
+Random Name Picker
+Text Lines shuffler
+MAC Address Generator
+Random Hex Generator
+Random TSV Generator
+Random String Generator
+Random Fraction Generator
+Random Integer Range Generator
+Random Binary Generator
+Random Byte Generator
+Random Decimal Generator
+Random Alphanumeric Generator
+Random IP Address
+Random Time Generator
+Random UUID Generator
+Random JSON Generator
+Random XML Generator
+Random Data from Regex
+Random CSV Generator
+Random Number Generator
+Random Integer Generator
+Random Prime Generator
+Random Date Generator
+Random Bitmap Generator
+Random Name Picker
+Text Lines shuffler
+MAC Address Generator
+Random Hex Generator
+Random TSV Generator
+Random String Generator
+Random Fraction Generator
+Random Integer Range Generator
+Random Binary Generator
+Random Byte Generator
+Random Decimal Generator
+Random Alphanumeric Generator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Popular Functionality
+JSON Beautifier
+HTML Viewer
+Number to Words
+SQL Formatter
+Image to Base64
+Base64 to Image
+HEX to Pantone
+Source Code Viewer
+Binary to Text
+JSON Viewer
+JSON Validator
+Base64 Decode
+Hex to Decimal
+XML Viewer
+XML to JSON
+Encryption-Decryption
+Excel to HTML
+CSS Validator
+XML Validator
+JavaScript Validator
+CSS Beautifier
+ONLINE JSON EDITOR
+Decimal to Hex
+Binary to Decimal
+ASCII to Text
+Random Emoji Generator
+REM to PX Converter
+
+// New Functionality
+Random Trivia Generator
+Random Website Generator
+Random Proverb Generator
+Memorable Password Generator
+Harry Potter Spells Generator
+Random New York Address
+Random Noun Generator
+Random Spanish Word Generator
+Random Location Generator
+Random Town Generator
+Goth Name Generator
+Fantasy Name Generator
+Victorian Name Generator
+Magic School Name
+Halloween Costume Generator
+Book Title Generator
+Disney Character Generator
+God Name Generator
+Random Setting Generator
+Twitch Name Generator
+Villager Name Generator
+Vampire Name Generator
+Dwarf Name Generator
+DND Name Generator
+Random Kingdom Name Generator
+Random Japanese Name Generator
+Random School Name Generator
+Glitch Text Generator
+YAML Cheat Sheet
+JSON Cheat Sheet
+Random Username Generator
+Random Cat Name Generator
+Random Food Generator
+Scenario Generator
+JSON to String
+Random New Zealand Address
+Random Paragraph Generator
+Fake ChatGPT Generator
+JavaScript Cheat Sheet
+Text Formatter
+Time Sheet Calculator
+Random Video Game Generator
+Address in Spain
+Random Actor Generator
+Random Song Lyrics
+Random Caption Generator
+Random Celebrity Generator
+Sort XML Online
+SVG Viewer
+SVG Formatter
+Cursed Text Generator
+Random Superhero Generator
+CSS Selectors Cheat Sheet
+HEX to RGBA Converter
+Sentence Counter
+JSON to One Line
+Paragraph Counter
+Javascript Tester
+Random Pokemon Team Generator
+Vim Cheat Sheet
+Random Canada Address Generator
+Random Pokemon Generator
+Random Address in California
+Random Movie Generator
+Character Trait Generator
+Random Flower Generator
+Random Quote Generator
+Random Sentence Generator
+Random Element Generator
+Random Planet Generator
+Random Holiday Generator
+Random Last Name Generator
+Random Cat Generator
+Random College Generator
+Random Bird Generator
+Random Book Generator
+Random Job Generator
+Random Link Generator
+Tweet to Image Converter
+PSN Name Generator
+Monster Generator
+Random League Champion
+Random Body Part Generator
+Social Tools
+Aesthetic Emoji Generator
+Random Superpower Generator
+Random Anime Character Generator
+Random Dinosaur Generator
+Fursona Generator
+Sims 3 Trait Generator
+Random Emotion Generator
+Random Year Generator
+Random Cartoon Character Generator
+Random 6 Digit Number Generator
+Random 4 Digit Number Generator
+Random Birthday Generator
+Letter Randomizer
+Text Replacer
+Random Tarot Card Generator
+Random Dog Breed Generator
+Random Car Generator
+Lord Of The Rings Name Generator
+Fortune Cookie Generator
+Random Charades Generator
+Instagram Caption Generator
+Snapchat Fonts Generator
+Reddit Username Generator
+Random Adjective Generator
+Goofy Ahh Names Generator
+Random City Generator
+Personality Generator
+Random Girl Name Generator
+Random State Generator
+Full White Screen
+Full Blue Screen
+Full Red Screen
+Full Black Screen
+Aesthetic Username Generator
+Word Replacer
+Moodboard Generator
+Valorant Crosshair Generator
+Cookie Run Character Generator
+JoJo Stand Generator
+OTP Prompt Generator
+Random Minecraft Block Generator
+Random Theme Generator
+SQL Code Generator
+Random Pokemon Type Generator
+Fake Instagram Post Generator
+Random Aesthetic Generator
+Random Environment Generator
+Random Scene Generator
+XBOX GamerTag Generator
+Elf Name Generator
+Twitalics Twitter Italics Generator
+XBOX Name Generator
+Warrior Cat Name Generator
+Fake Tweet Generator
+Random Topic Generator
+Pictionary Word Generator
+Random Things to Draw Generator
+Random Nationality Generator
+Random Ethnicity Generator
+Random Pet Generator
+Billing Postal Code Generator
+Random Male Name Generator
+Random Boy Name Generator
+Random Things Generator
+Random NHL Team Generator
+Random Zip Code
+Random Team Generator
+Random Billing Address
+Random House Address
+Random Street Address
+Random Address Generator
+Incorrect Quotes Generator
+Random Flag Generator
+Random Country Generator
+Random US Area Codes
+Random Phone Number
+React Formatter
+JSON Fixer
+JSON Navigator
+Random Emoji Generator
+Favicon Generator
+CIDR Calculator
+Marquee Generator
+Meta Tag Generator
+Screenshot Beautifier
+Tweet Ideas
+Number To WhatsApp
+Twitter Header Generator
+Twitter Image Downloader
+Random MLB Team Generator
+Random NBA Team Generator
+Random NCAA Football Team
+Random NCAA Basketball Team
+Random IPL Team Generator
+Random NFL Team Generator
+Random Object Generator
+Random Animal Generator
+Random Hobby Generator
+Code to Image Converter
+Multiple URL Opener
+Tweet Beautifier
+GIF Viewer
+GIF Splitter
+Share Code Snippets
+Convert Text to Handwriting
+Image Beautifier
+SVG to Base64
+Turbo Search
+Text Cleaner
+JSON Cleaner
+JSON to Typescript Code
+Online Vibration Simulator
+JSON to PHP Array Converter
+IELTS to CLB
+Hyperlink Generator
+REM to PX Converter
+Facebook Bold Text
+What is My Zodiac Sign
+Checksum Calculator
+SOAP Formatter
+WSDL Formatter
+Javascript Pretty Print
+Visualize JSON Data Graph
+Morse Code Translator
+Alphabetical Order
+Random AlphaNumeric Generator
+Hex to UTF8
+Byte to String
+UTF8 to ASCII
+Curl to PHP
+Phone Number to IP
+Yaml Parser
+XML Converter
+Gzip Decompress
+HTML Table Generator
+HTML Link Generator
+MP3 to Base64
+Base64 to Text
+Base64 to Ascii
+STYLUS Compiler
+JavaScript Obfuscator
+String to JSON Online
+YAML Pretty Print
+YouTube Thumbnail Grabber
+
+// Trending Tools
+Bitwise Calculator
+Number Sorter
+Remove Punctuation
+HTML Stripper
+Real Time HTML Editor
+HTML to Markdown
+Markdown to HTML
+Lua Minifier
+Lua Beautifier
+Wordpress Password Hash
+Mirror Online
+PHP Formatter
+Image to ASCII Art
+SHA256 Hash Generator
+SHA512 Hash Generator
+Excel Viewer
+Paraphrasing tool
+Word to HTML
+CSV to Excel
+Sharelink Generator
+
+// Developer Tools
+IP Tools
+Formatters & Beautifiers
+Image Converter Tools
+Finance Tools
+TSV Tools
+JSON Tools
+XML Tools
+YAML Tools
+HTML Tools
+CSS Tools
+Javascript Tools
+CSV Tools
+SQL Tools
+Color Tools
+Unit Tools
+Number Tools
+String Tools
+Base64 Tools
+Random Tools
+Minifiers
+Validators
+Cryptography
+Escape Unescape Tools
+UTF Tools
+Compress Decompress
+HTML Generators
+CSS Generators
+Other Tools
+Text Style Tools
+CSS Unit Converter Tools
+POJO Tools
+Twitter Tools
+Random Generators
+
+
+
+// Generators
+---CSS
+ANIMATION
+Keyframe Animation
+BACKGROUND
+Background Color
+Background Gradient
+Background Image
+BOX
+Border
+Border Image
+Border Radius
+Box Resize
+Box Shadow
+Opacity
+Outline
+Overflow
+COLOR
+Text Color
+FILTER
+Blur
+Brightness
+Contrast
+Drop Shadow
+Grayscale
+Hue-Rotate
+Invert
+Saturate
+Sepia
+LAYOUT
+Columns
+Display
+Visibility
+LIST
+List Style
+MISCELLANEOUS
+Cursor
+TEXT
+Letter Spacing
+Line Height
+Overflow Wrap
+Tab Size
+Text Align
+Text Decoration
+Text Indent
+Text Shadow
+Text Transform
+White Space
+Word Break
+Word Spacing
+TRANSFORM
+Perspective
+Rotate
+Scale
+Skew
+Translate
+TRANSITION
+Transition
+---HTML
+INPUT
+Button
+Checkbox & Radio Button
+Color Input
+Date & Time Input
+Email Input
+File Input
+Image Button
+Number Input
+Password Input
+Range Input (Slider)
+Search Input
+Submit
+Telephone Input
+Text Input
+Textarea
+URL Input
+MEDIA
+Audio
+Image
+Video
+TEXT
+Bi-directional Override
+Bold (Strong Importance)
+Cite
+Code
+Italic (Emphasize)
+Highlight (Mark)
+Quote & Blockquote
+Strikethrough
+Superscript & Subscript
+Underline (Unarticulated)
+---OTHER
+Details
+Dialog
+Hyperlink
+iFrame
+Meter
+Progress
+Meta Tags
+Structured Data
+Article
+Breadcrumb
+Event
+FAQ
+How-to
+Job Posting
+Local Business
+Organization
+Person
+Product
+Recipe
+Video
+Website
+---open Graph
+Article
+Book
+Business
+Music Album
+Music Playlist
+Music Radio Station
+Music Song
+Product
+Profile
+Video
+Video Episode
+Video Movie
+Video TV Show
+Website
+---Twitter Card
+App
+Player
+Summary
+Summary with Large Image
+Robots.txt
+
+// Code Converter
+VM745:1 SVG
+to JSX
+to React Native
+HTML
+to JSX
+to Pug
+JSON
+to Big Query Schema
+to Flow
+to Go Bson
+to Go Struct
+to GraphQL
+to io-ts
+to Java
+to JSDoc
+to JSON Schema
+to Kotlin
+to MobX-State-Tree Model
+to Mongoose Schema
+to MySQL
+to React PropTypes
+to Rust Serde
+to Sarcastic
+to Scala Case Class
+to TOML
+to TypeScript
+to YAML
+to Zod Schema
+JSON Schema
+to OpenAPI Schema
+to Protobuf
+to TypeScript
+to Zod Schema
+CSS
+to JS Objects
+to TailwindCSS
+to template literal
+JavaScript
+to JSON
+GraphQL
+to Components
+to Flow
+to Fragment Matcher
+to Introspection JSON
+to JAVA
+to Resolvers Signature
+to Schema AST
+to TypeScript
+to TypeScript MongoDB
+JSON-LD
+to Compacted
+to Expanded
+to Flattened
+to Framed
+to N-Quads
+to Normalized
+TypeScript
+to Flow
+to JSON Schema
+to plain JavaScript
+to TypeScript Declaration
+to Zod Schema
+Flow
+to plain JavaScript
+to TypeScript
+to TypeScript Declaration
+Others
+Cadence to Go
+Markdown to HTML
+TOML to JSON
+TOML to YAML
+XML to JSON
+YAML to JSON
+YAML to TOML
+
+
+
+
+
+// Css Generators
+Animated Text Generator
+Border Radius Generator
+Box Shadow Generator
+Button Generator
+Clip Path Generator
+Column Generator
+Cubic Bezier Generator
+Flip Swith Generator
+Flexbox Generator
+Glitch Text Effect
+Google Fonts CSS
+Gradient Generator
+Image Filter Generator
+Input Range Generator
+Layout Generator
+Loader / Spinner Generator
+Menu Generator
+RGBA Generator
+Ribbon Generator
+Ribbon Banner Generator
+Scrollbar Generator
+Sprite Generator
+Text Gradient Generator
+Text Rotate Generator
+Text Shadow Generator
+Tooltip Generator
+Triangle Generator
+3D Transform Generator
+
+// Css Properties
+align-content
+align-items
+align-self
+all
+animation
+animation-delay
+animation-direction
+animation-duration
+animation-fill-mode
+animation-iteration-count
+animation-name
+animation-play-state
+animation-timing-function
+backface-visibility
+background
+background-attachment
+background-blend-mode
+background-clip
+background-color
+background-image
+background-origin
+background-position
+background-repeat
+background-size
+border
+border-bottom
+border-bottom-color
+border-bottom-left-radius
+border-bottom-right-radius
+border-bottom-style
+border-bottom-width
+border-collapse
+border-color
+border-image
+border-image-outset
+border-image-repeat
+border-image-slice
+border-image-source
+border-image-width
+border-left
+border-left-color
+border-left-style
+border-left-width
+border-radius
+border-right
+border-right-color
+border-right-style
+border-right-width
+border-spacing
+border-style
+border-top
+border-top-color
+border-top-left-radius
+border-top-right-radius
+border-top-style
+border-top-width
+border-width
+bottom
+box-decoration-break
+box-shadow
+box-sizing
+break-after
+break-before
+break-inside
+caption-side
+caret-color
+clear
+clip-path
+color
+column-count
+column-fill
+column-rule
+column-rule-color
+column-rule-style
+column-rule-width
+column-span
+column-width
+columns
+content
+counter-increment
+counter-reset
+counter-set
+cursor
+direction
+display
+empty-cells
+filter
+flex
+flex-basis
+flex-direction
+flex-flow
+flex-grow
+flex-shrink
+flex-wrap
+float
+font
+font-family
+font-feature-settings
+font-kerning
+font-language-override
+font-size
+font-size-adjust
+font-stretch
+font-style
+font-synthesis
+font-variant
+font-variant-alternates
+font-variant-caps
+font-variant-east-asian
+font-variant-ligatures
+font-variant-numeric
+font-variant-position
+font-weight
+grid
+grid-area
+grid-auto-columns
+grid-auto-flow
+grid-auto-rows
+grid-column
+grid-column-end
+grid-column-gap
+grid-column-start
+grid-gap
+grid-row
+grid-row-end
+grid-row-gap
+grid-row-start
+grid-template
+grid-template-areas
+grid-template-columns
+grid-template-rows
+hanging-punctuation
+height
+hyphens
+image-orientation
+justify-content
+justify-items
+justify-self
+left
+letter-spacing
+line-break
+line-height
+list-style
+list-style-image
+list-style-position
+list-style-type
+margin
+margin-bottom
+margin-left
+margin-right
+margin-top
+max-height
+max-width
+min-height
+min-width
+mix-blend-mode
+object-fit
+object-position
+opacity
+order
+orphans
+outline
+outline-color
+outline-offset
+outline-style
+outline-width
+overflow
+overflow-wrap
+overflow-x
+overflow-y
+padding
+padding-bottom
+padding-left
+padding-right
+padding-top
+perspective
+perspective-origin
+place-content
+place-items
+place-self
+position
+quotes
+resize
+right
+shape-image-threshold
+shape-margin
+shape-outside
+tab-size
+table-layout
+text-align
+text-align-last
+text-combine-upright
+text-decoration
+text-decoration-color
+text-decoration-line
+text-decoration-style
+text-emphasis
+text-emphasis-color
+text-emphasis-position
+text-emphasis-style
+text-indent
+text-justify
+text-orientation
+text-overflow
+text-shadow
+text-transform
+text-underline-position
+top
+transform
+transform-origin
+transform-style
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+unicode-bidi
+vertical-align
+visibility
+white-space
+widows
+width
+word-break
+word-spacing
+word-wrap
+writing-mode
+z-index
+
+// Css Pseudo Classes
+:active
+:checked
+:default
+:disabled
+:empty
+:enabled
+:first-child
+:first-of-type
+:focus
+:fullscreen
+:hover
+:in-range
+:indeterminate
+:invalid
+:lang
+:last-child
+:last-of-type
+:link
+:not
+:nth-child
+:nth-last-child
+:nth-last-of-type
+:nth-of-type
+:only-child
+:only-of-type
+:optional
+:out-of-range
+:read-only
+:read-write
+:required
+:root
+:target
+:valid
+:visited
+
+// Html Tags
+<a>
+<abbr>
+<address>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+<base>
+<bdi>
+<bdo>
+<blockquote>
+<body>
+<br>
+<button>
+<canvas>
+<caption>
+<cite>
+<code>
+<col>
+<colgroup>
+<comment>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<dialog>
+<div>
+<dl>
+<doctype>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<head>
+<header>
+<hr>
+<html>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<keygen>
+<label>
+<legend>
+<li>
+<link>
+<map>
+<mark>
+<menu>
+<meta>
+<meter>
+<nav>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option>
+<output>
+<p>
+<param>
+<picture>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script>
+<section>
+<select>
+<small>
+<source>
+<span>
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<table>
+<tbody>
+<td>
+<textarea>
+<tfoot>
+<th>
+<thead>
+<time>
+<title>
+<tr>
+<track>
+<u>
+<ul>
+<var>
+<video>
+<wbr>
+
+// Css Functions
+attr()
+blur()
+brightness()
+calc()
+circle()
+contrast()
+drop-shadow()
+ellipse()
+grayscale()
+hsl()
+hsla()
+hue-rotate()
+inset()
+invert()
+linear-gradient()
+matrix()
+matrix3d()
+opacity()
+perspective()
+polygon()
+radial-gradient()
+repeating-linear-gradient()
+repeating-radial-gradient()
+rgb()
+rgba()
+rotate()
+rotate3d()
+rotateX()
+rotateY()
+rotateZ()
+saturate()
+scale()
+scale3d()
+scaleX()
+scaleY()
+scaleZ()
+sepia()
+skew()
+skewX()
+skewY()
+translate()
+translate3d()
+translateX()
+translateY()
+translateZ()
+
+// Css At Rules
+@charset
+@counter-style
+@document
+@font-face
+@font-feature-values
+@import
+@keyframes
+@media
+@namespace
+@page
+@supports
+
+// Css Data types
+angle
+basic-shape
+blend-mode
+color
+frequency
+gradient
+image
+integer
+length
+number
+percentage
+position
+ratio
+resolution
+string
+time
+url
+
+// Css Pseudo Elements
+::after
+::before
+::first-letter
+::first-line
+::placeholder
+::selection 
+
+// Html Tools
+Pug to HTML Compiler
+Markdown to HTML Compiler
+HTML to Pug Converter
+HTML to Markdown Converter
+HTML Character Codes
+HTML Colors
+HTML Beautifier / Minifier
+HTML Table Generator
+HTML Tags
+HTML Online Editor
+HTML Tutorial
+HTML Validator
+
+// Css Tools
+LESS to CSS Compiler
+SCSS to CSS Compiler
+Stylus to CSS Compiler
+CSS to LESS Converter
+CSS to SCSS Converter
+CSS to Stylus Converter
+CSS Color Converter
+CSS Cursor Viewer
+CSS Font Preview
+CSS Code Formatter
+CSS Lengths
+CSS Code Optimizer
+CSS Validator
+CSS Visual Style Editor
+Convert Image to Data
+Online CSS Editor
+
+
+
+
+
+

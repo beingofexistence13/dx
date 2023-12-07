@@ -1,0 +1,176 @@
+Here is a list of open source backend frameworks along with their official websites:
+
+| Backend Framework | Official Website |
+| --- | --- |
+| Parse | [Parse](^4^) |
+| Back4App | [Back4App](^8^) |
+| Backendless | [Backendless](^11^) |
+| CloudBoost | [CloudBoost](^20^) |
+| Usergrid | [Usergrid](^22^) |
+| Kumulos | [Kumulos](^26^) |
+| Kuzzle | [Kuzzle](^28^) |
+
+Please note that the official websites are linked to the framework names. You can click on them to visit the respective websites.
+
+Source: Conversation with Bing, 10/13/2023
+(1) Parse Platform. https://parseplatform.org/.
+(2) Back4App - Low-code backend to build modern apps. https://www.back4app.com/.
+(3) Backendless Visual App Development Platform | UI, Backend & Database. https://backendless.com/.
+(4) CloudBoost | The realtime JavaScript backend.. https://cloudboost.io/?ref=xranks.
+(5) Apache Usergrid — the BaaS not made for Hipsters. https://usergrid.apache.org/.
+(6) Overview - Kumulos User Guide. https://docs.kumulos.com/developer-guide/backend/kscript/.
+(7) Open Source Backend - Kuzzle Backend. https://kuzzle.io/kuzzle-backend/.
+(8) The Best 8 Open Source Backend Frameworks - Back4App Blog. https://blog.back4app.com/open-source-backend-framework/.
+(9) Top 10 Backend Frameworks In 2023: Which One Is The Best? - Back4App Blog. https://blog.back4app.com/backend-frameworks/.
+(10) My top 6 open source frameworks for web development. https://opensource.com/article/20/3/frameworks.
+(11) Docs | Parse. https://docs.parseplatform.org/.
+(12) Parse Dashboard | What is and when to use it - Back4App Blog. https://blog.back4app.com/parse-dashboard/.
+(13) What is the Parse Platform? - Back4App Blog. https://blog.back4app.com/parseplatform/.
+(14) Backend as a Service (BaaS) - Back4app™. https://www.back4app.com/backend-as-a-service-baas.
+(15) Easy-to-use Backend as a Service | Back4app Guides. https://www.back4app.com/docs/get-started/backend-as-a-service.
+(16) Backendless For Developers | Backendless Backend as a Service Platform. https://backendless.com/developers/.
+(17) A Curated List of 7 No-Code Backends & All The Critical Info You ... - Shno. https://www.shno.co/blog/no-code-backend.
+(18) Backendless Visual App Development Platform | UI, Backend & Database. http://backendless.com/.
+(19) Full Stack Development - Web and Mobile Apps - AWS Amplify. https://aws.amazon.com/amplify/.
+(20) AWS Amplify Documentation. https://docs.aws.amazon.com/amplify/.
+(21) Getting started - Choose a platform - AWS Amplify Docs. https://docs.amplify.aws/start/.
+(22) Amplify Docs - GitHub Pages. https://docs.amplify.aws/.
+(23) What is AWS Amplify? Pros and Cons? - Be a Better Dev. https://beabetterdev.com/2021/09/22/what-is-aws-amplify/.
+(24) GitHub - CloudBoost/cloudboost: Realtime JavaScript Backend.. https://github.com/CloudBoost/cloudboost.
+(25) Apache Usergrid. https://usergrid.apache.org/releases/.
+(26) Usergrid 2.1.0 Deployment Guide — Apache Usergrid 2.x documentation. https://usergrid.apache.org/docs/installation/deployment-guide.html.
+(27) Adding a Table - Kumulos User Guide. https://docs.kumulos.com/developer-guide/backend/tables/.
+(28) Optimove Acquires Kumulos - Advanced Mobile Marketing Platform. https://www.optimove.com/blog/optimove-acquires-advanced-mobile-marketing-platform-kumulos-heres-whats-in-it-for-you.
+(29) IoT Platform & Backend Open Source - Kuzzle. https://kuzzle.io/.
+(30) Open source - Kuzzle. https://kuzzle.io/open-source/.
+(31) GitHub - kuzzleio/kuzzle: Open-source Back-end, self-hostable & ready .... https://github.com/kuzzleio/kuzzle.
+(32) undefined. https://parseplatform.org.
+(33) undefined. https://github.com/CloudBoost/cloudboost.git.
+(34) undefined. https://nodejs.org/en/download/.
+(35) undefined. https://www.mailgun.com/%29.
+(36) undefined. http://www.apache.org/dyn/closer.cgi/usergrid/usergrid-2/v2.1.0.
+(37) undefined. https://dist.apache.org/repos/dist/release/usergrid/usergrid-2/v2.1.0/.
+(38) undefined. https://www.apache.org/dist/usergrid/KEYS.
+
+
+Here are some of the most popular open source backend frameworks:
+
+1. **Django**¹
+2. **Laravel**¹
+3. **Ruby on Rails**¹
+4. **Spring**¹
+5. **ASP.NET**¹
+6. **Express/Koa**¹
+7. **React Native**¹
+8. **Flutter**¹
+9. **Ionic**¹
+10. **Google Firebase**¹
+11. **Parse**⁶
+12. **Back4App**⁶
+13. **Backendless**⁶
+14. **AWS Amplify**⁶
+15. **CloudBoost**⁶
+16. **Usergrid**⁶
+17. **Kumulos**⁶
+18. **Kuzzle**⁶
+
+Please note that the official websites are linked to the framework names, you can click on them to visit the respective websites.
+
+Source: Conversation with Bing, 10/13/2023
+(1) Most Popular Backend Frameworks in 2023 [What to Choose] - Acropolium. https://acropolium.com/blog/most-popular-backend-frameworks-in-2021-2022-pros-and-cons-what-to-choose/.
+(2) The Best 8 Open Source Backend Frameworks - Back4App Blog. https://blog.back4app.com/open-source-backend-framework/.
+(3) Most Popular Backend Frameworks of 2023: In-Depth ... - Directual. https://www.directual.com/blog/most-popular-backend-frameworks.
+(4) Most popular backend frameworks for 2021 | by Manpreet Singh - Medium. https://preettheman.medium.com/most-popular-backend-frameworks-for-2021-f20a38a077b.
+(5) Top Open Source Frameworks | OpenLogic by Perforce. https://www.openlogic.com/blog/top-open-source-frameworks.
+(6) The 8 Most Popular Backend Frameworks for Web Development - MUO. https://www.makeuseof.com/most-popular-backend-frameworks/.
+(7) Top 10 Backend Frameworks In 2023: Which One Is The Best? - Back4App Blog. https://blog.back4app.com/backend-frameworks/.
+(8) My top 6 open source frameworks for web development. https://opensource.com/article/20/3/frameworks.
+
+
+Here are some more open source backend frameworks:
+
+```json
+[
+    {"Framework": "Flask", "Language": "Python"},
+    {"Framework": "CakePHP", "Language": "PHP"},
+    {"Framework": "Phoenix", "Language": "Elixir"},
+    {"Framework": "AWS Amplify", "Language": "JavaScript"},
+    {"Framework": "CloudBoost", "Language": "JavaScript"},
+    {"Framework": "Usergrid", "Language": "JavaScript"}
+]
+```
+These frameworks are popular and widely used in the developer community. They offer a variety of features that can help speed up development and improve the efficiency of your projects. Please note that the language field indicates the primary programming language that the framework is used with.
+
+Source: Conversation with Bing, 10/13/2023
+(1) Most Popular Backend Frameworks in 2023 [What to Choose] - Acropolium. https://acropolium.com/blog/most-popular-backend-frameworks-in-2021-2022-pros-and-cons-what-to-choose/.
+(2) The Best 8 Open Source Backend Frameworks - Back4App Blog. https://blog.back4app.com/open-source-backend-framework/.
+(3) 8 Best Backend Frameworks For Web App Development in 2023 - Monocubed. https://www.monocubed.com/blog/best-backend-frameworks/.
+(4) Top 6 Open Source Frameworks for Backend Web Development - H2S Media. https://www.how2shout.com/tools/top-6-open-source-frameworks-for-backend-web-development.html.
+
+
+Sure, here are some more open source backend frameworks:
+
+1. [Sinatra](^1^): Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.
+2. [Meteor](^2^): Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. Meteor includes a key set of technologies for building connected-client reactive applications, a build tool, and a curated set of packages from the Node.js and general JavaScript community.
+3. [NestJS](^3^): NestJS is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+4. [Feathers](^4^): Feathers is a lightweight web-framework for creating real-time applications and REST APIs using JavaScript or TypeScript.
+5. [Sails.js](^5^): Sails.js makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture.
+6. [LoopBack](^6^): LoopBack is a highly extensible, open-source Node.js and TypeScript framework based on Express that enables you to quickly create APIs and microservices composed from backend systems such as databases and SOAP or REST services.
+7. [Hapi](^7^): hapi is a simple to use configuration-centric framework with built-in support for input validation, caching, authentication, and other essential facilities for building web applications and services.
+8. [Strapi](^8^): Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable, and developer-first.
+
+I hope this helps! Let me know if you need more information about any of these frameworks.
+
+Source: Conversation with Bing, 10/13/2023
+(1) Most Popular Backend Frameworks in 2023 [What to Choose] - Acropolium. https://acropolium.com/blog/most-popular-backend-frameworks-in-2021-2022-pros-and-cons-what-to-choose/.
+(2) The Best 8 Open Source Backend Frameworks - Back4App Blog. https://blog.back4app.com/open-source-backend-framework/.
+(3) 8 Best Backend Frameworks For Web App Development in 2023 - Monocubed. https://www.monocubed.com/blog/best-backend-frameworks/.
+(4) Top 6 Open Source Frameworks for Backend Web Development - H2S Media. https://www.how2shout.com/tools/top-6-open-source-frameworks-for-backend-web-development.html.
+(5) Welcome to Flask — Flask Documentation (3.0.x). https://flask.palletsprojects.com/.
+(6) Quickstart — Flask Documentation (2.2.x). https://flask.palletsprojects.com/en/2.2.x/quickstart/.
+(7) Flask · PyPI. https://pypi.org/project/Flask/.
+(8) Welcome to Flask — Flask Documentation (2.0.x). https://flask.palletsprojects.com/en/2.0.x/.
+(9) CakePHP - Build fast, grow solid | PHP Framework | Home. https://cakephp.org/.
+(10) CakePHP at a Glance - 4.x. https://book.cakephp.org/4/en/intro.html.
+(11) Why We Prefer CakePHP, the Workhorse of PHP Frameworks. https://www.netsolutions.com/insights/why-we-love-cake-php/.
+(12) CakePHP - Wikipedia. https://en.wikipedia.org/wiki/CakePHP.
+(13) Phoenix Framework. https://www.phoenixframework.org/.
+(14) Building a REST API with Elixir and Phoenix - LogRocket Blog. https://blog.logrocket.com/build-rest-api-elixir-phoenix/.
+(15) Phoenix (web framework) - Wikipedia. https://en.wikipedia.org/wiki/Phoenix_%28web_framework%29.
+(16) undefined. http://127.0.0.1:5000.
+(17) undefined. http://127.0.0.1:5000/.
+(18) undefined. https://flask.palletsprojects.com/changes/.
+(19) undefined. https://github.com/pallets/flask/.
+(20) undefined. https://github.com/pallets/flask/issues/.
+(21) undefined. https://discord.gg/pallets.
+(22) undefined. https://my-phx-app.com.
+(23) undefined. https://pragmaticstudio.com/phoenix-liveview.
+(24) undefined. https://eventil.com/events/elixirconfeu2020/cfp.
+(25) Laravel - The PHP Framework For Web Artisans. https://laravel.com/.
+(26) Installation - Laravel 9.x - The PHP Framework For Web Artisans. https://laravel.com/docs/9.x.
+(27) Laravel - The PHP Framework For Web Artisans. https://laravel.com/frontend.
+(28) Frontend - Laravel 10.x - The PHP Framework For Web Artisans. https://laravel.com/docs/10.x/frontend.
+(29) Ruby on Rails — A web-app framework that includes everything needed to .... https://rubyonrails.org/.
+(30) Getting Started with Rails — Ruby on Rails Guides. https://guides.rubyonrails.org/getting_started.html.
+(31) Ruby on Rails API. https://api.rubyonrails.org/.
+(32) Using Rails for API-only Applications — Ruby on Rails Guides. https://guides.rubyonrails.org/api_app.html.
+(33) Spring Framework. https://spring.io/projects/spring-framework/.
+(34) Spring | Home. https://spring.io/.
+(35) Spring Framework Documentation :: Spring Framework. https://docs.spring.io/spring-framework/reference/index.html.
+(36) ASP.NET Web APIs | Rest APIs with .NET and C#. https://dotnet.microsoft.com/en-us/apps/aspnet/apis.
+(37) What is ASP.NET? | .NET. https://dotnet.microsoft.com/en-us/learn/aspnet/what-is-aspnet.
+(38) Learn ASP.NET | Free tutorials, courses, videos, and more. https://dotnet.microsoft.com/en-us/learn/aspnet.
+(39) Learn .NET | Free tutorials, videos, courses, and more. https://dotnet.microsoft.com/en-us/learn.
+(40) Overview of ASP.NET Core | Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0.
+(41) Koa - next generation web framework for node.js. https://koajs.com/.
+(42) Express - Node.js web application framework. http://expressjs.com/.
+(43) Best Backend Web Development Frameworks in 2021 - CodeSnail. https://www.codesnail.com/backend-web-development-frameworks/.
+(44) Express - Node.js web application framework. https://expressjs.com/.
+(45) React Native · Learn once, write anywhere. https://reactnative.dev/.
+(46) The best backends for React Native app in 2023! - Back4App Blog. https://blog.back4app.com/react-native-backend/.
+(47) Next.js by Vercel - The React Framework. https://nextjs.org/.
+(48) Expo. https://expo.dev/.
+
+
+
+
