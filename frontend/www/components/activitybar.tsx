@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/classnames-order */
 
 "use client"
 

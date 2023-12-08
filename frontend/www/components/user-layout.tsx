@@ -2,14 +2,14 @@
 
 import React from "react";
 import { useSelector } from "react-redux";
-import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster";
-import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster";
+// import { Toaster as DefaultToaster } from "@/registry/default/ui/toaster";
+// import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster";
 import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
 import { Activitybar } from "./activitybar";
 import Script from "next/script";
 import { TailwindIndicator } from "./tailwind-indicator";
-import { Analytics } from "./analytics";
+// import { Analytics } from "./analytics";
 
 const UserLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev);
@@ -22,8 +22,8 @@ const UserLayout = () => {
       <Activitybar />
       {HelloToolSelector ? "" : <HelloTool />}
 
-      <NewYorkToaster />
-      <DefaultToaster />
+      {/* <NewYorkToaster />
+      <DefaultToaster /> */}
 
       <div className="favdrop absolute bottom-[75px] right-[17.5px] z-10 flex h-auto w-auto items-center justify-center rounded-md p-3">
         <div className="animation-wrapper flex h-full w-full items-center justify-center">
