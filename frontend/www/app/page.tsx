@@ -1,11 +1,11 @@
 
-import Feature from "@/component/landing-page/feature";
-import Info from "@/component/landing-page/info";
-import MoreInfo from "@/component/landing-page/more-info";
-import Package from "@/component/landing-page/package";
-import ThreeDeeCard from "@/component/landing-page/three-dee-card";
-import VerticalInfo from "@/component/landing-page/vertical-info";
-import Whitelist from "@/component/landing-page/whitelist";
+import Feature from "@/components/landing-page/feature";
+import Info from "@/components/landing-page/info";
+import MoreInfo from "@/components/landing-page/more-info";
+import Package from "@/components/landing-page/package";
+import ThreeDeeCard from "@/components/landing-page/three-dee-card";
+import VerticalInfo from "@/components/landing-page/vertical-info";
+import Whitelist from "@/components/landing-page/whitelist";
 
 
 export default function Home() {
