@@ -1,4 +1,3 @@
-/* eslint-disable tailwindcss/classnames-order */
 
 import "react-phone-input-2/lib/style.css"
 import "../../../ui/globals.css"
