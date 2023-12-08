@@ -79,7 +79,6 @@ const Info = () => {
                     <span className="develop_text">Develop.</span>
                     <span className="online_text">Online.</span>
                 </div>
-
                 {/* Muted Description */}
                 <div className="text-muted-foreground text-[1rem] h-auto w-auto flex flex-col items-center justify-center">
                     <span className="first-line">Meet the new standard for modern hardware,software,cloud development.</span>
@@ -143,23 +142,9 @@ const Info = () => {
                             poster="suzume-no-tojimari.jpeg">
                             <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
                         </video>
-                        {/* <ReactPlayer
-                            className="h-full w-full rounded-md"
-                            url="<https://youtu.be/HR2C_7G_yRQ?si=RR2hatLgXFo7wSUc>"
-                            controls
-                        /> */}
                     </AspectRatio>
                 </div>
-                {/* <video controls width="100%">
-                    <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
-                </video> */}
-                {/* <video autoPlay controls loop muted height="220" width="390">
-	<source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
-</video> */}
-
             </div>
-
-
         </section>
     )
 }
