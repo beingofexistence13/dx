@@ -1,4 +1,3 @@
-// "use client"
 
 import Feature from "@/component/landing-page/feature";
 import Info from "@/component/landing-page/info";
@@ -12,12 +11,8 @@ import Whitelist from "@/component/landing-page/whitelist";
 export default function Home() {
   return (
     <main className="main h-auto w-full">
-      <div className="landingPage min-h-[100vh] max-w-xl mx-auto">
+      <div className="landingPage min-h-[100vh] ">
 
-        
-        {/* <span className="demo-text">
-          LandingPage
-        </span> */}
         <Info />
         <MoreInfo />
         <VerticalInfo />
