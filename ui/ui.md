@@ -1,3 +1,115 @@
+  
+/* @keyframes plan-text-animation {
+  0% {
+  -webkit-text-fill-color: transparent;
+  }
+33.3%{
+  -webkit-text-fill-color: transparent;
+
+}
+66.6%{
+  -webkit-text-fill-color: unset;
+
+}
+99.9%{
+  -webkit-text-fill-color: unset;
+
+}
+} */
+/* @keyframes develop-text-animation {
+  0% {
+  -webkit-text-fill-color: unset;
+  }
+33.3%{
+  -webkit-text-fill-color: transparent;
+
+}
+66.6%{
+  -webkit-text-fill-color: transparent;
+
+}
+99.9%{
+  -webkit-text-fill-color: unset;
+
+}
+} */
+/* @keyframes online-text-animation {
+  0% {
+  -webkit-text-fill-color: unset;
+  }
+33.3%{
+  -webkit-text-fill-color: unset;
+
+}
+66.6%{
+  -webkit-text-fill-color: transparent;
+
+}
+99.9%{
+  -webkit-text-fill-color: transparent;
+
+}
+} */
+
+/* @keyframes planTextAnimation {
+  0% { -webkit-text-fill-color: transparent; }
+  33.33% { -webkit-text-fill-color: unset; }
+  66.67% { -webkit-text-fill-color: transparent; }
+  100% { -webkit-text-fill-color: transparent; }
+}
+
+@keyframes developTextAnimation {
+  0% { -webkit-text-fill-color: unset; }
+  33.33% { -webkit-text-fill-color: transparent; }
+  66.67% { -webkit-text-fill-color: unset; }
+  100% { -webkit-text-fill-color: transparent; }
+}
+
+@keyframes onlineTextAnimation {
+  from {-webkit-text-fill-color: unset;}
+  to {-webkit-text-fill-color: transparent;}
+}
+
+.plan_text {
+  animation: planTextAnimation 15s infinite;
+}
+
+.develop_text {
+  animation: developTextAnimation 15s infinite;
+}
+
+.online_text {
+
+  animation: onlineTextAnimation 15s infinite;
+
+} */
+  
+  /* animation-name: onlineTextAnimation;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite; */
+.plan_text {
+  -webkit-text-fill-color: transparent;
+  animation: textAnimation 5s infinite;
+}
+
+.develop_text {
+  -webkit-text-fill-color: unset;
+  animation: textAnimation 5s infinite;
+  animation-delay: 5s;
+}
+
+.online_text {
+  -webkit-text-fill-color: unset;
+  animation: textAnimation 5s infinite;
+  animation-delay: 10s;
+}
+
+@keyframes textAnimation {
+  0%, 100% { -webkit-text-fill-color: transparent; }
+  50% { -webkit-text-fill-color: unset; }
+}
+
 
 .titleHeader{
   font-family: 'Old Standard TT', serif;

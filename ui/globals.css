@@ -108,84 +108,10 @@
   font-size: 5rem;
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* transition: -webkit-text-fill-color 3s linear; */
+  transition: all 1s linear;
 
 }
-.plan_text{
-  /* animation: 10s ease-in 0s infinite plan-text-animation; */
-  background-color: #FFE53B;
-  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-  -webkit-background-clip: text;
-  /* text-shadow: -2px -7px 6px linear-gradient(147deg, #FFE53B 0%, #FF2525 74%),
-               -2px 11px 6px #000000; */
-}
-.develop_text{
-  /* animation: 10s ease-in 0s infinite develop-text-animation; */
-  background-color: #FA8BFF;
-  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.online_text{
-  /* animation: 10s ease-in 0s infinite online-text-animation; */
-  background-color: #00ff75;
-  background-image: linear-gradient(45deg, #00ff75 0%, #e9ff34 66%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-@keyframes plan-text-animation {
-  0% {
-  -webkit-text-fill-color: transparent;
-  }
-33.3%{
-  -webkit-text-fill-color: transparent;
-
-}
-66.6%{
-  -webkit-text-fill-color: unset;
-
-}
-99.9%{
-  -webkit-text-fill-color: unset;
-
-}
-}
-@keyframes develop-text-animation {
-  0% {
-  -webkit-text-fill-color: unset;
-  }
-33.3%{
-  -webkit-text-fill-color: transparent;
-
-}
-66.6%{
-  -webkit-text-fill-color: transparent;
-
-}
-99.9%{
-  -webkit-text-fill-color: unset;
-
-}
-}
-@keyframes online-text-animation {
-  0% {
-  -webkit-text-fill-color: unset;
-  }
-33.3%{
-  -webkit-text-fill-color: unset;
-
-}
-66.6%{
-  -webkit-text-fill-color: transparent;
-
-}
-99.9%{
-  -webkit-text-fill-color: transparent;
-
-}
-}
-@keyframes divDisplay {
+@keyframes planTextAnimation {
   0% { -webkit-text-fill-color: transparent; }
   32% { -webkit-text-fill-color: transparent; }
   33.33% { -webkit-text-fill-color: unset; }
@@ -193,33 +119,44 @@
   100% { -webkit-text-fill-color: unset; }
 }
 
-@keyframes divDisplay2 {
+@keyframes developTextAnimation {
   0% { -webkit-text-fill-color: unset; }
-  33.33% { -webkit-text-fill-color: transparent; }
+  33% { -webkit-text-fill-color: unset; }
+  34% { -webkit-text-fill-color: transparent; }
   65% { -webkit-text-fill-color: transparent; }
-  66.67% { -webkit-text-fill-color: unset; }
+  66% { -webkit-text-fill-color: unset; }
   100% { -webkit-text-fill-color: unset; }
 }
 
-@keyframes divDisplay3 {
+@keyframes onlineTextAnimation {
   0% { -webkit-text-fill-color: unset; }
   33.33% { -webkit-text-fill-color: unset; }
-  66.67% { -webkit-text-fill-color: transparent; }
+  66% { -webkit-text-fill-color: unset; }
+  67% { -webkit-text-fill-color: transparent; }
   99% { -webkit-text-fill-color: transparent; }
   100% { -webkit-text-fill-color: unset; }
 }
-
-.plan_text {
-  animation: divDisplay 15s infinite;
+.plan_text{
+  animation: planTextAnimation 15s infinite;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  background-clip: text;
+}
+.develop_text{
+  animation: developTextAnimation 15s infinite;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-clip: text;
+}
+.online_text{
+  animation: onlineTextAnimation 15s infinite;
+  background-color: #00ff75;
+  background-image: linear-gradient(45deg, #00ff75 0%, #e9ff34 66%);
+  background-clip: text;
 }
 
-.develop_text {
-  animation: divDisplay2 15s infinite;
-}
 
-.online_text {
-  animation: divDisplay3 15s infinite;
-}
+
 
 .blurry_gradient_top {
     background-image: radial-gradient(circle 286px at 10% 20%, rgba(253, 0, 0, 1) 0%, rgba(255, 32, 249, 1) 90.8%);
@@ -247,60 +184,10 @@
     border-radius: 50px;
 }
 
-
-.titleHeader{
-    font-family: 'Old Standard TT', serif;
-    font-size: 3rem;
-    
-  }
-  .developText{
-    background: hsla(217, 100%, 50%, 1);
-  
-    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
-  
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .previewText{
-    background: hsla(175, 79%, 63%, 1);
-  
-    background: linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#57EBDE", endColorstr="#AEFB2A", GradientType=1 );
-  
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .OnlineText{
-    background: hsla(335, 91%, 70%, 1);
-  
-    background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F86CA7", endColorstr="#F4D444", GradientType=1 );
-  
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  /* html{
+  html{
     min-height: 100vh;
     width: 100%;
-  } */
-  
-
+  }
   
   @layer base {
     * {
