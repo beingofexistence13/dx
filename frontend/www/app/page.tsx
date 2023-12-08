@@ -1,24 +1,32 @@
-"use client"
+// "use client"
 
-import { Image } from "@nextui-org/react";
+import Feature from "@/component/landing-page/feature";
+import Info from "@/component/landing-page/info";
+import MoreInfo from "@/component/landing-page/more-info";
+import Package from "@/component/landing-page/package";
+import ThreeDeeCard from "@/component/landing-page/three-dee-card";
+import VerticalInfo from "@/component/landing-page/vertical-info";
+import Whitelist from "@/component/landing-page/whitelist";
+
 
 export default function Home() {
   return (
-    <>
-      <section className="info h-[150vh] w-full bg-white relative">
+    <main className="main h-auto w-full">
+      <div className="landingPage min-h-[100vh] max-w-xl mx-auto">
 
-        <div className="blurry_gradient h-[450px] w-[450px] rounded-full absolute translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%] z-[0]"></div>
-        <div className="glass h-full w-full"></div>
+        
+        {/* <span className="demo-text">
+          LandingPage
+        </span> */}
+        <Info />
+        <MoreInfo />
+        <VerticalInfo />
+        <ThreeDeeCard />
+        <Feature />
+        <Package />
+        <Whitelist />
 
-      </section>
-      <section className="more_info h-screen w-full bg-red-500">
-        <Image
-          width={300}
-          height={200}
-          alt="NextUI hero Image with delay"
-          src="https://app.requestly.io/delay/5000/https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
-        />
-      </section>
-    </>
+      </div>
+    </main>
   )
 }
