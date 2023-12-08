@@ -15,7 +15,7 @@ const Info = () => {
             </motion.div>
 
 
-            <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-32 border">
+            <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-32 border relative z-10">
                 {/* FeatureShotcut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
                 <div className="glass feature_shotcut_container flex items-center justify-center hover:bg-[--foreground] hover:text-green-400 border">
                     <span className="feature_shotcut_text">Introducing Dx asks</span>
