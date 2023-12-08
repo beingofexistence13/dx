@@ -1,0 +1,2171 @@
+passports=[
+{title:"facebook"},
+{title:"twitter"},
+{title:"auth"},
+{title:"jwt"},
+{title:"local"},
+{title:"oauth"},
+{title:"oauth"},
+{title:"saml"},
+{title:"oauth"},
+{title:"http"},
+{title:"custom"},
+{title:"github"},
+{title:"github"},
+{title:"microsoft"},
+{title:"apple"},
+{title:"anonymous"},
+{title:"gitlab"},
+{title:"openidconnect"},
+{title:"totp"},
+{title:"ldapauth"},
+{title:"ping"},
+{title:"line"},
+{title:"cookie"},
+{title:"slack"},
+{title:"forcedotcom"},
+{title:"steam"},
+{title:"discord"},
+{title:"openid"},
+{title:"instagram"},
+{title:"kakao"},
+{title:"google"},
+{title:"docusign"},
+{title:"amazon"},
+{title:"activedirectory"},
+{title:"vkontakte"},
+{title:"zendesk"},
+{title:"appleid"},
+{title:"magic"},
+{title:"linkedin"},
+{title:"naver"},
+{title:"spotify"},
+{title:"json"},
+{title:"intercom"},
+{title:"accesstoken"},
+{title:"orcid"},
+{title:"shopify"},
+{title:"asana"},
+{title:"localapikey"},
+{title:"windowslive"},
+{title:"hash"},
+{title:"pinterest"},
+{title:"mail"},
+{title:"windowsauth"},
+{title:"stripe"},
+{title:"deezer"},
+{title:"outlook"},
+{title:"nest"},
+{title:"wechat"},
+{title:"bluemix"},
+{title:"odnoklassniki"},
+{title:"twitch"},
+{title:"yandex"},
+{title:"mailchimp"},
+{title:"lti"},
+{title:"xero"},
+{title:"snapchat"},
+{title:"trakt"},
+{title:"reddit"},
+{title:"httpapikey"},
+{title:"xing"},
+{title:"bnet"},
+{title:"tumblr"},
+{title:"trello"},
+{title:"box"},
+{title:"echosign"},
+{title:"web"},
+{title:"headhunter"},
+{title:"bitbucket"},
+{title:"vso"},
+{title:"yammer"},
+{title:"pocket"},
+{title:"strava"},
+{title:"meetup"},
+{title:"outlook"},
+{title:"authtkt"},
+{title:"ethereum"},
+{title:"telegram"},
+{title:"bitly"},
+{title:"lastfm"},
+{title:"podio"},
+{title:"signals"},
+{title:"hubspot"},
+{title:"foursquare"},
+{title:"smartsheet"},
+{title:"mixcloud"},
+{title:"appfigures"},
+{title:"fitbit"},
+{title:"arcgis"},
+{title:"publickey"},
+{title:"imgur"},
+{title:"qq"},
+{title:"dropbox"},
+{title:"soundcloud"},
+{title:"flickr"},
+{title:"smartthings"},
+{title:"onshape"},
+{title:"hmac"},
+{title:"wordpress"},
+{title:"citrix"},
+{title:"mercadolibre"},
+{title:"sharepoint"},
+{title:"coinbase"},
+{title:"tequila"},
+{title:"sheknows"},
+{title:"raven"},
+{title:"jawbone"},
+{title:"verify"},
+{title:"draugiem"},
+{title:"dailymotion"},
+{title:"weixin"},
+{title:"paypal"},
+{title:"yahoo"},
+{title:"deviantart"},
+{title:"bufferapp"},
+{title:"dribbble"},
+{title:"maltio"},
+{title:"gitlab"},
+{title:"ghost"},
+{title:"youtube"},
+{title:"vimeo"},
+{title:"dataporten"},
+{title:"drupal"},
+{title:"hawk"},
+{title:"mastodon"},
+{title:"campaignmonitor"},
+{title:"constantcontact"},
+{title:"line"},
+{title:"weibo"},
+{title:"tradier"},
+{title:"yj"},
+{title:"digitalocean"},
+{title:"daccount"},
+{title:"mailru"},
+{title:"stormpath"},
+{title:"familysearch"},
+{title:"lds"},
+{title:"oneauth"},
+{title:"citrix"},
+{title:"jive"},
+{title:"uwshib"},
+{title:"goodreads"},
+{title:"cloudfoundry"},
+{title:"intuit"},
+{title:"idn"},
+{title:"opentoken"},
+{title:"abakus"},
+{title:"eve"},
+{title:"basecrm"},
+{title:"dailycred"},
+{title:"disqus"},
+{title:"ionisx"},
+{title:"surveymonkey"},
+{title:"tidal"},
+{title:"tiendanube"},
+{title:"userapp"},
+{title:"eveonline"},
+{title:"gumroad"},
+{title:"civic"},
+{title:"stanford"},
+{title:"square"},
+{title:"waad"},
+{title:"indieauth"},
+{title:"nexon"},
+{title:"iucas"},
+{title:"ustream"},
+{title:"basecamp"},
+{title:"borchk"},
+{title:"namely"},
+{title:"thingiverse"},
+{title:"ufshib"},
+{title:"twitchtv"},
+{title:"keystone"},
+{title:"persona"},
+{title:"veritone"},
+{title:"workwell"},
+{title:"andme"},
+{title:"ldsauth"},
+{title:"mymlh"},
+{title:"stackexchange"},
+{title:"clevercloud"},
+{title:"hackid"},
+{title:"identityua"},
+{title:"ssqsignon"},
+{title:"ehealth"},
+{title:"gowalla"},
+{title:"groupme"},
+{title:"nextengine"},
+{title:"signature"},
+{title:"automatic"},
+{title:"dd"},
+{title:"delivery"},
+{title:"exact"},
+{title:"monarch"},
+{title:"octoblu"},
+{title:"privakey"},
+{title:"sitegate"},
+{title:"thegrid"},
+{title:"weibonew"},
+{title:"runkeeper"},
+{title:"hotp"},
+{title:"openstreetmap"},
+{title:"descope"},
+{title:"rakuten"},
+{title:"unilogin"},
+{title:"assembla"},
+{title:"baidu"},
+{title:"lyft"},
+{title:"ses"},
+{title:"everyplay"},
+{title:"predix"},
+{title:"supinfo"},
+{title:"trademe"},
+{title:"beatsmusic"},
+{title:"edmodo"},
+{title:"feedly"},
+{title:"freshbooks"},
+{title:"justintv"},
+{title:"metocean"},
+{title:"oauth"},
+{title:"pnoi"},
+{title:"sharefile"},
+{title:"stocktwits"},
+{title:"wink"},
+{title:"anyexercise"},
+{title:"approveapi"},
+{title:"apptrack"},
+{title:"artycles"},
+{title:"assetorium"},
+{title:"authtoken"},
+{title:"coola"},
+{title:"crudr"},
+{title:"fanfou"},
+{title:"fido"},
+{title:"honeywell"},
+{title:"kerberos"},
+{title:"kuali"},
+{title:"latch"},
+{title:"learningstudio"},
+{title:"lims"},
+{title:"meituan"},
+{title:"nationbuilder"},
+{title:"nuwe"},
+{title:"passwordless"},
+{title:"payco"},
+{title:"redgate"},
+{title:"rightsignature"},
+{title:"scarecrow"},
+{title:"singly"},
+{title:"thinkful"},
+{title:"tibbr"},
+{title:"versionone"},
+{title:"wargaming"},
+{title:"applywithlinkedin"},
+{title:"browserid"},
+{title:"zero"},
+{title:"tqq"},
+{title:"px"},
+{title:"evernote"},
+{title:"pixiv"},
+{title:"venmo"},
+{title:"parse"},
+{title:"tmobileid"},
+{title:"dwolla"},
+{title:"sqrl"},
+{title:"withings"},
+{title:"angellist"},
+{title:"humanapi"},
+{title:"rdio"},
+{title:"drchrono"},
+{title:"renren"},
+{title:"geoloqi"},
+{title:"readability"},
+{title:"smugmug"},
+{title:"statusnet"},
+{title:"suzuri"},
+{title:"tripit"},
+{title:"appdotnet"},
+{title:"behance"},
+{title:"eyeem"},
+{title:"fellowshipone"},
+{title:"ifmosso"},
+{title:"myusa"},
+{title:"pop"},
+{title:"replicated"},
+{title:"taobao"},
+{title:"aol"},
+{title:"appc"},
+{title:"authentiq"},
+{title:"bong"},
+{title:"geeklist"},
+{title:"idsus"},
+{title:"misfit"},
+{title:"moves"},
+{title:"netatmo"},
+{title:"nopassword"},
+{title:"nyu"},
+{title:"oschina"},
+{title:"punwave"},
+{title:"stash"},
+{title:"tistory"},
+{title:"untappd"},
+{title:"akera"},
+{title:"andyet"},
+{title:"authic"},
+{title:"authing"},
+{title:"digg"},
+{title:"liondesk"},
+{title:"mentalvein"},
+{title:"mojeid"},
+{title:"netflix"},
+{title:"ohloh"},
+{title:"picplz"},
+{title:"playlyfe"},
+{title:"proz"},
+{title:"sense"},
+{title:"slice"},
+{title:"topcoder"},
+{title:"underarmour"},
+{title:"webauthn"},
+{title:"xmpp"},
+{title:"time"},
+{title:"accountkit"},
+{title:"allplayers"},
+{title:"amigame"},
+{title:"animexx"},
+{title:"avalon"},
+{title:"bamboohr"},
+{title:"beatport"},
+{title:"bitauth"},
+{title:"chiiv"},
+{title:"cloudvisio"},
+{title:"comicsgl"},
+{title:"concur"},
+{title:"costlocker"},
+{title:"deskcom"},
+{title:"dice"},
+{title:"distimo"},
+{title:"douban"},
+{title:"dowjones"},
+{title:"earthmaps"},
+{title:"eloqua"},
+{title:"flic"},
+{title:"frontwinner"},
+{title:"globelabs"},
+{title:"gocollab"},
+{title:"hackerverse"},
+{title:"infotjenester"},
+{title:"ktt"},
+{title:"makerpass"},
+{title:"mapmyfitness"},
+{title:"meday"},
+{title:"medoauth"},
+{title:"mixi"},
+{title:"nate"},
+{title:"nuclearhub"},
+{title:"odesk"},
+{title:"oneprofile"},
+{title:"oneuser"},
+{title:"onscribe"},
+{title:"oz"},
+{title:"passprint"},
+{title:"polkaspots"},
+{title:"redbooth"},
+{title:"rescour"},
+{title:"sbhs"},
+{title:"slidefuse"},
+{title:"socius"},
+{title:"taobao"},
+{title:"teamsnap"},
+{title:"torchlite"},
+{title:"txssc"},
+{title:"uber"},
+{title:"ubersmith"},
+{title:"ucoz"},
+{title:"ultraauth"},
+{title:"unichar"},
+{title:"urlship"},
+{title:"uservoice"},
+{title:"vivokey"},
+{title:"wauth"},
+{title:"wanliu"},
+{title:"wevision"},
+{title:"zengine"},
+{title:"faceit"},
+{title:"npm"},
+{title:"cloudup"},
+{title:"webmaker"},
+{title:"gitbook"},
+{title:"headerapikey"},
+{title:"heroku"},
+{title:"infusionsoft"},
+{title:"instantfa"},
+{title:"monzo"},
+{title:"phantauth"},
+{title:"pocket"},
+{title:"sina"},
+{title:"wca"},
+{title:"http-bearer"},
+{title:"google-oauth"},
+{title:"google-oauth"},
+{title:"azure-ad"},
+{title:"google-oauth"},
+{title:"google-oauth"},
+{title:"bitbucket-oauth"},
+{title:"okta-oauth"},
+{title:"linkedin-oauth"},
+{title:"atlassian-oauth"},
+{title:"unique-token"},
+{title:"auth-token"},
+{title:"magic-login"},
+{title:"slack-oauth"},
+{title:"google-oidc"},
+{title:"trusted-header"},
+{title:"fa-totp"},
+{title:"client-cert"},
+{title:"wsfed-saml"},
+{title:"remember-me"},
+{title:"jwt-cookiecombo"},
+{title:"youtube-v"},
+{title:"magic-link"},
+{title:"dropbox-oauth"},
+{title:"line-auth"},
+{title:"http-oauth"},
+{title:"azure-oauth"},
+{title:"ping-oauth"},
+{title:"ibmid-oauth"},
+{title:"bitbucket-oauth"},
+{title:"predix-oauth"},
+{title:"anonym-uuid"},
+{title:"fido-webauthn"},
+{title:"ok-strategy"},
+{title:"google-plus"},
+{title:"heroku-addon"},
+{title:"local-token"},
+{title:"json-custom"},
+{title:"did-auth"},
+{title:"fitbit-oauth"},
+{title:"adobe-oauth"},
+{title:"ethereum-siwe"},
+{title:"strava-oauth"},
+{title:"yahoo-oauth"},
+{title:"meetup-oauth"},
+{title:"oauth-meetup"},
+{title:"client-certificate"},
+{title:"zoho-crm"},
+{title:"cisco-spark"},
+{title:"local-htpasswd"},
+{title:"eventbrite-oauth"},
+{title:"stack-exchange"},
+{title:"intuit-oauth"},
+{title:"office-oauth"},
+{title:"lnurl-auth"},
+{title:"daum-oauth"},
+{title:"vk-strategy"},
+{title:"weixin-enterprise"},
+{title:"saml-too"},
+{title:"paypal-oauth"},
+{title:"mondo-oauth"},
+{title:"rdio-oauth"},
+{title:"lds-connect"},
+{title:"taccounts-oauth"},
+{title:"http-signature"},
+{title:"uber-v"},
+{title:"coursera-oauth"},
+{title:"line-v"},
+{title:"jd-credit"},
+{title:"shutterstock-oauth"},
+{title:"cloudfoundry-openidconnect"},
+{title:"lds-io"},
+{title:"sharepoint-addin"},
+{title:"digital-signature"},
+{title:"wix-app"},
+{title:"dropbox-business"},
+{title:"planningcenter-oauth"},
+{title:"hmac-aws"},
+{title:"weixin-plus"},
+{title:"dapp-web"},
+{title:"wechat-work"},
+{title:"nus-openid"},
+{title:"chalkable-oauth"},
+{title:"heroku-sso"},
+{title:"acuity-oauth"},
+{title:"azure-store"},
+{title:"brightspace-auth"},
+{title:"dedicated-bluemix"},
+{title:"edmodo-api"},
+{title:"voice-it"},
+{title:"addressix-oauth"},
+{title:"atlassian-crowd"},
+{title:"att-alpha"},
+{title:"coding-oauth"},
+{title:"eipsk-strategy"},
+{title:"encored-enertalk"},
+{title:"estimote-cloud"},
+{title:"mediawiki-oauth"},
+{title:"open-humans"},
+{title:"ppige-npdc"},
+{title:"product-hunt"},
+{title:"renren-new"},
+{title:"restogram-oauth"},
+{title:"wechat-auth"},
+{title:"atlassian-connect"},
+{title:"fido-nojwk"},
+{title:"windowslive-contacts"},
+
+
+]
+
+description:"\w+\s\w+\s\w+\s\w+\s\s\s\s | 
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s |
+description:"\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\w+\s\s\s\s
+ 
+let passport_title = [
+{title:"https://github.com/mikenicholson/passport-jwt"},
+{title:"https://github.com/jaredhanson/passport-oauth"},
+{title:"https://github.com/jaredhanson/passport-local"},
+{title:"https://github.com/mbell8903/passport-custom"},
+{title:"https://github.com/jaredhanson/passport-twitter"},
+{title:"https://github.com/jaredhanson/passport-oauth"},
+{title:"https://github.com/jaredhanson/passport-http"},
+{title:"https://github.com/jaredhanson/passport-openidconnect"},
+{title:"https://github.com/seanfisher/passport-microsoft"},
+{title:"https://github.com/jaredhanson/passport-github"},
+{title:"https://github.com/jaredhanson/passport-facebook"},
+{title:"https://github.com/ananay/passport-apple"},
+{title:"https://github.com/node-saml"},
+{title:"https://github.com/joshbirk/passport-forcedotcom"},
+{title:"https://github.com/Schmoopiie/passport-twitch"},
+{title:"https://github.com/clocked0ne/passport-outlook"},
+{title:"https://github.com/ForbesLindesay/passport-raven"},
+{title:"https://github.com/idris/passport-coinbase"},
+{title:"https://github.com/wyntau/passport-weixin"},
+{title:"https://github.com/jaredhanson/passport-yahoo"},
+{title:"https://github.com/jaredhanson/passport-paypal"},
+{title:"https://github.com/brainflake/passport-constantcontact"},
+{title:"https://github.com/OtaK/passport-dailymotion"},
+{title:"https://github.com/TryGhost/passport-ghost"},
+{title:"https://github.com/sebabelmar/passport-dribbble"},
+{title:"https://github.com/nitzo/passport-line"},
+{title:"https://github.com/jozzhart/passport-youtube"},
+{title:"https://github.com/jfromaniello/passport-hawk"},
+{title:"https://github.com/lablayers/passport-deviantart"},
+{title:"https://github.com/xinbenlv/passport-weibo"},
+{title:"https://github.com/brainflake/passport-campaignmonitor"},
+{title:"https://github.com/Uninett/passport-dataporten"},
+{title:"https://github.com/jaredhanson/passport-vimeo"},
+{title:"https://github.com/sebastiendb/passport-bufferapp"},
+{title:"https://github.com/Lewuathe/passport-yj"},
+{title:"https://github.com/techfeed/passport-mastodon"},
+{title:"https://github.com/homebrewing/passport-maltio"},
+{title:"https://github.com/LDSorg/passport-lds"},
+{title:"https://github.com/auth0/passport-daccount"},
+{title:"https://github.com/tiberule/passport-mailru"},
+{title:"https://github.com/tradier/passport-tradier"},
+{title:"https://github.com/harbur/passport-digitalocean"},
+{title:"https://github.com/coding-blocks"},
+{title:"https://github.com/jaredhanson/passport-familysearch"},
+{title:"https://github.com/jaredhanson/passport-goodreads"},
+{title:"https://github.com/octoblu/passport-citrix"},
+{title:"https://github.com/rajaraodv/passport-cloudfoundry"},
+{title:"https://github.com/73rhodes/passport-opentoken"},
+{title:"https://github.com/tusbar/passport-idn"},
+{title:"https://github.com/jaredhanson/passport-intuit"},
+{title:"https://github.com/muradaliyev/passport-eve"},
+{title:"https://github.com/webkom/passport-abakus"},
+{title:"https://github.com/reydelleon/passport-basecrm"},
+{title:"https://github.com/andreskir/passport-tiendanube"},
+{title:"https://github.com/IONISx/passport-ionisx"},
+{title:"https://github.com/mbrennan/passport-eveonline"},
+{title:"https://github.com/SpringRole/passport-civic"},
+{title:"https://github.com/mko/passport-indieauth"},
+{title:"https://github.com/SamyPesse/passport-gumroad"},
+{title:"https://github.com/AlisamfP/passport-thingiverse"},
+{title:"https://github.com/octoblu/passport-square"},
+{title:"https://github.com/Siedrix/passport-pocket"},
+{title:"https://github.com/getlot/passport-headhunter"},
+{title:"https://github.com/optilude/passport-authtkt"},
+{title:"https://github.com/jaredhanson/passport-meetup"},
+{title:"https://github.com/io84team/passport-ethereum"},
+{title:"https://github.com/kizzlebot/passport-lastfm"},
+{title:"https://github.com/dreadjr/passport-bitly"},
+{title:"https://github.com/jaredhanson/passport-foursquare"},
+{title:"https://github.com/octoblu/passport-smartsheet"},
+{title:"https://github.com/mjpearson/passport-podio"},
+{title:"https://github.com/brainflake/passport-hubspot"},
+{title:"https://github.com/mjpearson/passport-mixcloud"},
+{title:"https://github.com/SpiderStrategies/passport-appfigures"},
+{title:"https://github.com/DavidSpriggs/passport-arcgis"},
+{title:"https://github.com/jaredhanson/passport-fitbit"},
+{title:"https://github.com/jaredhanson/passport-soundcloud"},
+{title:"https://github.com/timfpark/passport-publickey"},
+{title:"https://github.com/jaredhanson/passport-dropbox"},
+{title:"https://github.com/johnnyhalife/passport-flickr"},
+{title:"https://github.com/mindfreakthemon/passport-imgur"},
+{title:"https://github.com/onshape/passport-onshape"},
+{title:"https://github.com/qdsang/passport-qq"},
+{title:"https://github.com/jeff-blaisdell"},
+{title:"https://github.com/mjpearson/passport-wordpress"},
+{title:"https://github.com/chatter/passport-hmac"},
+{title:"https://github.com/octoblu/passport-citrix"},
+{title:"https://github.com/sdurandeu/passport-mercadolibre"},
+{title:"https://github.com/kiwiai/passport-jawbone"},
+{title:"https://github.com/alphagov/passport-verify"},
+{title:"https://github.com/EriksRemess/passport-draugiem"},
+{title:"https://github.com/penske-media-corp"},
+{title:"https://github.com/QuePort/passport-sharepoint"},
+{title:"https://github.com/stormpath/passport-stormpath"},
+{title:"https://github.com/drstearns/passport-uwshib"},
+{title:"https://github.com/userapp-io"},
+{title:"https://github.com/ColinEdwardRhodes/passport-waad"},
+{title:"https://github.com/DBCDK/passport-unilogin"},
+{title:"https://github.com/gologo13/passport-rakuten"},
+{title:"https://github.com/jaredhanson/passport-hotp"},
+{title:"https://github.com/maxcoto/passport-assembla"},
+{title:"https://github.com/xiaoao/passport-baidu"},
+{title:"https://github.com/descope/passport-descope"},
+{title:"https://github.com/combsco/passport-predix"},
+{title:"https://github.com/may215/passport-feedly"},
+{title:"https://github.com/mtso/passport-ses"},
+{title:"https://github.com/Everyplay/passport-everyplay"},
+{title:"https://github.com/girliemac/passport-lyft"},
+{title:"https://github.com/vincentpeyrouse/passport-supinfo"},
+{title:"https://github.com/datmark/passport-beatsmusic"},
+{title:"https://github.com/zaption/passport-edmodo"},
+{title:"https://github.com/metocean/passport-metocean"},
+{title:"https://github.com/dupesnduds/passport-trademe"},
+{title:"https://github.com/MichaelJCole/passport-freshbooks"},
+{title:"https://github.com/jaredhanson/passport-justintv"},
+{title:"https://github.com/simov/passport-stocktwits"},
+{title:"https://github.com/octoblu/passport-sharefile"},
+{title:"https://github.com/horiuchi/passport-authtoken"},
+{title:"https://github.com/jaredhanson/passport-oauth"},
+{title:"https://github.com/tuddman/passport-wink"},
+{title:"https://github.com/cooladata/passport-coola"},
+{title:"https://github.com/didikeke/passport-fanfou"},
+{title:"https://github.com/crudr-api"},
+{title:"https://github.com/taoyuan/passport-lims"},
+{title:"https://github.com/KualiCo/passport-kuali"},
+{title:"https://github.com/Nibbler999/passport-honeywell"},
+{title:"https://github.com/msyea/passport-nationbuilder"},
+{title:"https://github.com/nuwehq/passport-nuwe"},
+{title:"https://github.com/Thinkful/passport-thinkful"},
+{title:"https://github.com/ForbesLindesay/passport-redgate"},
+{title:"https://github.com/abstractj/passport-scarecrow"},
+{title:"https://github.com/heroicyang/passport-tq"},
+{title:"https://github.com/jaredhanson/passport-browserid"},
+{title:"https://github.com/pixiv/passport-pixiv"},
+{title:"https://github.com/AlisamfP/passport-rightsignature"},
+{title:"https://github.com/jihokoo/passport-venmo"},
+{title:"https://github.com/jaredhanson/passport-linkedin"},
+{title:"https://github.com/mko/passport-withings"},
+{title:"https://github.com/malikov/passport-parse"},
+{title:"https://github.com/jaredhanson/passport-angellist"},
+{title:"https://github.com/tmobile/passport-tmobileid"},
+{title:"https://github.com/jaredhanson/passport-dwolla"},
+{title:"https://github.com/jaredhanson/passport-rdio"},
+{title:"https://github.com/humanapi/passport-humanapi"},
+{title:"https://github.com/Nimblr/passport-drchrono"},
+{title:"https://github.com/jaredhanson/passport-geoloqi"},
+{title:"https://github.com/kitak/passport-suzuri"},
+{title:"https://github.com/zoowar/passport-statusnet"},
+{title:"https://github.com/jaredhanson/passport-readability"},
+{title:"https://github.com/mamsori/passport-nexon"},
+{title:"https://github.com/janbaykara/passport-basecamp"},
+{title:"https://github.com/scottylogan/passport-stanford"},
+{title:"https://github.com/mykabam/passport-namely"},
+{title:"https://github.com/soichih/passport-iucas"},
+{title:"https://github.com/DBCDK/passport-borchk"},
+{title:"https://github.com/superpan/passport-ustream"},
+{title:"https://github.com/jaredhanson/passport-persona"},
+{title:"https://github.com/johnkernke/passport-twitchtv"},
+{title:"https://github.com/veritone/veritone-sdk"},
+{title:"https://github.com/eddywashere/passport-keystone"},
+{title:"https://github.com/emathieu13/passport-workwell"},
+{title:"https://github.com/LDSorg/passport-lds"},
+{title:"https://github.com/crohead13/passport-ufshib"},
+{title:"https://github.com/HackBerkeley/passport-hackid"},
+{title:"https://github.com/geNAZt/passport-stackexchange"},
+{title:"https://github.com/DonutsInBelly/passport-mymlh"},
+{title:"https://github.com/poliveira89/passport-identityua"},
+{title:"https://github.com/ShawnSpooner/passport-eHealth"},
+{title:"https://github.com/ssqsignon/passport-ssqsignon"},
+{title:"https://github.com/andrewwiik/passport-groupme"},
+{title:"https://github.com/dlochrie/passport-signature"},
+{title:"https://github.com/jaredhanson/passport-gowalla"},
+{title:"https://github.com/Leko/passport-nextengine"},
+{title:"https://github.com/Redsmin/passport-clevercloud"},
+{title:"https://github.com/monarchapis/passport-monarch"},
+{title:"https://github.com/automatic/passport-automatic"},
+{title:"https://github.com/octoblu/passport-octoblu"},
+{title:"https://github.com/xinbenlv/passport-weibo"},
+{title:"https://github.com/auth0/passport-exact"},
+{title:"https://github.com/sitegate/passport-sitegate"},
+{title:"https://github.com/the-grid"},
+{title:"https://github.com/jaredhanson/passport-runkeeper"},
+{title:"https://github.com/jaredhanson/passport-openstreetmap"},
+{title:"https://github.com/jaredhanson/passport-evernote"},
+{title:"https://github.com/erikmav/passport-sqrl"},
+{title:"https://github.com/xinbenlv/passport-renren"},
+{title:"https://github.com/jaredhanson/passport-smugmug"},
+{title:"https://github.com/mko/passport-appdotnet"},
+{title:"https://github.com/hairyhenderson/passport-fellowshipone"},
+{title:"https://github.com/elmariachi111/passport-eyeem"},
+{title:"https://github.com/metacommunications/passport-behance"},
+{title:"https://github.com/Innovation-Toolkit"},
+{title:"https://github.com/jaredhanson/passport-tripit"},
+{title:"https://github.com/jaredhanson/passport-aol"},
+{title:"https://github.com/ekristen/passport-replicated"},
+{title:"https://github.com/meefik/passport-ifmosso"},
+{title:"https://github.com/coderpp/passport-taobao"},
+{title:"https://github.com/AuthentiqID/passport-authentiq"},
+{title:"https://github.com/junmer/passport-bong"},
+{title:"https://github.com/billglover/passport-moves"},
+{title:"https://github.com/Nibbler999/passport-netatmo"},
+{title:"https://github.com/sebastiendb/passport-geeklist"},
+{title:"https://github.com/appcelerator-archive"},
+{title:"https://github.com/saviogl/passport-idsus"},
+{title:"https://github.com/sylis/passport-nopassword"},
+{title:"https://github.com/ilivebox/passport-oschina"},
+{title:"https://github.com/cquartier/passport-misfit"},
+{title:"https://github.com/nyuadsg/passport-nyu"},
+{title:"https://github.com/punwave/passport-punwave"},
+{title:"https://github.com/reinbach/passport-stash"},
+{title:"https://github.com/dowjones/passport-dowjones"},
+{title:"https://github.com/esabelhaus/passport-dice"},
+{title:"https://github.com/Mistat/passport-deskcom"},
+{title:"https://github.com/ktmud/passport-douban"},
+{title:"https://github.com/watsoncj/passport-eloqua"},
+{title:"https://github.com/leizongmin/passport-frontwinner"},
+{title:"https://github.com/globelabs/passport-globelabs"},
+{title:"https://github.com/octoblu/passport-flic"},
+{title:"https://github.com/ktt-ol"},
+{title:"https://github.com/itasdesk/passport-infotjenester"},
+{title:"https://github.com/patbonecrusher/passport-mapmyfitness"},
+{title:"https://github.com/guruward/passport-medoauth"},
+{title:"https://github.com/pukapukan/passport-nate"},
+{title:"https://github.com/dglittle/passport-odesk"},
+{title:"https://github.com/Inexistante/passport-sbhs"},
+{title:"https://github.com/StubHubLabs/node-oneprofile"},
+{title:"https://github.com/elisee/passport-nuclearhub"},
+{title:"https://github.com/oz/passport-oz"},
+{title:"https://github.com/PolkaSpots/passport-polkaspots"},
+{title:"https://github.com/octoblu/passport-redbooth"},
+{title:"https://github.com/DFTinc/passport-passprint"},
+{title:"https://github.com/coderpp/passport-taobao"},
+{title:"https://github.com/7elephants/passport-teamsnap"},
+{title:"https://github.com/REscour/passport-rescour"},
+{title:"https://github.com/l0gd0g/passport-ucoz"},
+{title:"https://github.com/johann8384/passport-ubersmith"},
+{title:"https://github.com/octoblu/passport-uservoice"},
+{title:"https://github.com/hysios/passport-wanliu"},
+{title:"https://github.com/thunderblaster/passport-vivokey"},
+{title:"https://github.com/ZengineHQ/passport-zengine"},
+{title:"https://github.com/stephenlacy/passport-cloudup"},
+{title:"https://github.com/phantauth/passport-phantauth"},
+{title:"https://github.com/jaredhanson/passport-http"},
+{title:"https://github.com/Siedrix/passport-pocket"},
+{title:"https://github.com/jaredhanson/passport-google"},
+{title:"https://github.com/jaredhanson/passport-google"},
+{title:"https://github.com/jaredhanson/passport-google"},
+{title:"https://github.com/jaredhanson/passport-google"},
+{title:"https://github.com/fischerdan/passport-okta"},
+{title:"https://github.com/mbell8903/passport-auth"},
+{title:"https://github.com/ripjar/passport-client"},
+{title:"https://github.com/ripjar/passport-trusted"},
+{title:"https://github.com/PredixDev/passport-predix"},
+{title:"https://github.com/akera-io"},
+{title:"https://github.com/saltfactory/passport-tistory"},
+{title:"https://github.com/shuhei/passport-untappd"},
+{title:"https://github.com/willin/passport-authing"},
+{title:"https://github.com/andyet/passport-andyet"},
+{title:"https://github.com/chrux/passport-liondesk"},
+{title:"https://github.com/jaredhanson/passport-netflix"},
+{title:"https://github.com/xmikus01/passport-mojeid"},
+{title:"https://github.com/authic/passport-authic"},
+{title:"https://github.com/jaredhanson/passport-digg"},
+{title:"https://github.com/playlyfe/passport-playlyfe"},
+{title:"https://github.com/jaredhanson/passport-ohloh"},
+{title:"https://github.com/codervince/passport-proz"},
+{title:"https://github.com/jaredhanson/passport-picplz"},
+{title:"https://github.com/mrquincle/passport-sense"},
+{title:"https://github.com/appirio-tech"},
+{title:"https://github.com/surevine/passport-xmpp"},
+{title:"https://github.com/JasonSanford/passport-underarmour"},
+{title:"https://github.com/SargoDarya/passport-animexx"},
+{title:"https://github.com/rustinpc/passport-slice"},
+{title:"https://github.com/amigame-api"},
+{title:"https://github.com/webauthn-open-source"},
+{title:"https://github.com/abembecker/passport-avalon"},
+{title:"https://github.com/BrettThePark/passport-accountkit"},
+{title:"https://github.com/thinkerous/passport-bamboohr"},
+{title:"https://github.com/fastman/passport-beatport"},
+{title:"https://github.com/karelskopek/passport-costlocker"},
+{title:"https://github.com/godaddy/passport-npm"},
+{title:"https://github.com/Technoblazed/passport-faceit"},
+{title:"https://github.com/mozilla/passport-webmaker"},
+{title:"https://github.com/lughino/passport-unique"},
+{title:"https://github.com/jaredhanson/passport-google"},
+{title:"https://github.com/jaredhanson/passport-remember"},
+{title:"https://github.com/codebarista/passport-jwt"},
+{title:"https://github.com/jaredhanson/passport-http"},
+{title:"https://github.com/IvanWei/passport-line"},
+{title:"https://github.com/energywebfoundation/passport-did"},
+{title:"https://github.com/nash403/passport-anonym"},
+{title:"https://github.com/dvpnt/passport-ok"},
+{title:"https://github.com/auth0/passport-heroku"},
+{title:"https://github.com/sidrmsh/passport-zoho"},
+{title:"https://github.com/ripple/passport-client"},
+{title:"https://github.com/jaredhanson/passport-yahoo"},
+{title:"https://github.com/jaredhanson/passport-intuit"},
+{title:"https://github.com/mackwan84/passport-jd"},
+{title:"https://github.com/acruxray/passport-stack"},
+{title:"https://github.com/morungos/passport-local"},
+{title:"https://github.com/LDSorg/passport-lds"},
+{title:"https://github.com/jaredhanson/passport-paypal"},
+{title:"https://github.com/lee715/passport-weixin"},
+{title:"https://github.com/interledger-deprecated"},
+{title:"https://github.com/LDSorg/passport-lds"},
+{title:"https://github.com/yawhide/passport-dropbox"},
+{title:"https://github.com/harryhan1989/passport-wechat"},
+{title:"https://github.com/colbycolby/passport-dedicated"},
+{title:"https://github.com/lauweijie/passport-nus"},
+{title:"https://github.com/auth0/passport-azure"},
+{title:"https://github.com/johnhenry/passport-digital"},
+{title:"https://github.com/flipflopapp/passport-coursera"},
+{title:"https://github.com/camshaft/passport-heroku"},
+{title:"https://github.com/Brightspace/passport-brightspace"},
+{title:"https://github.com/iszak/passport-voice"},
+{title:"https://github.com/lutaoact/passport-weixin"},
+{title:"https://github.com/JamesMGreene/passport-json"},
+{title:"https://github.com/jaredhanson/passport-ethereum"},
+{title:"https://github.com/vinialbano/passport-magic"},
+{title:"https://github.com/chill117/passport-lnurl"},
+{title:"https://github.com/sqrrrl/passport-google"},
+{title:"https://github.com/Coggle/passport-edmodo"},
+{title:"https://github.com/dvpnt/passport-vk"},
+{title:"https://github.com/chrisyer/passport-coding"},
+{title:"https://github.com/dvpnt/passport-eipsk"},
+{title:"https://github.com/maxkoryukov/passport-wix"},
+{title:"https://github.com/AzureAD/microsoft-authentication"},
+{title:"https://github.com/rajaraodv/passport-cloudfoundry"},
+{title:"https://github.com/octoblu/passport-estimote"},
+{title:"https://github.com/mooyoul/passport-encored"},
+{title:"https://github.com/DanielHreben/passport-atlassian"},
+{title:"https://github.com/xr/passport-renren"},
+{title:"https://github.com/OpenHumans/passport-open"},
+]
+
+let passport_github_repository = [
+{github_repositry:"passport-jwt"},
+{github_repositry:"passport-oauth"},
+{github_repositry:"passport-local"},
+{github_repositry:"passport-custom"},
+{github_repositry:"passport-twitter"},
+{github_repositry:"passport-oauth"},
+{github_repositry:"passport-http"},
+{github_repositry:"passport-openidconnect"},
+{github_repositry:"passport-microsoft"},
+{github_repositry:"passport-github"},
+{github_repositry:"passport-facebook"},
+{github_repositry:"passport-apple"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-forcedotcom"},
+{github_repositry:"passport-twitch"},
+{github_repositry:"passport-outlook"},
+{github_repositry:"passport-raven"},
+{github_repositry:"passport-coinbase"},
+{github_repositry:"passport-weixin"},
+{github_repositry:"passport-yahoo"},
+{github_repositry:"passport-paypal"},
+{github_repositry:"passport-constantcontact"},
+{github_repositry:"passport-dailymotion"},
+{github_repositry:"passport-ghost"},
+{github_repositry:"passport-dribbble"},
+{github_repositry:"passport-line"},
+{github_repositry:"passport-youtube"},
+{github_repositry:"passport-hawk"},
+{github_repositry:"passport-deviantart"},
+{github_repositry:"passport-weibo"},
+{github_repositry:"passport-campaignmonitor"},
+{github_repositry:"passport-dataporten"},
+{github_repositry:"passport-vimeo"},
+{github_repositry:"passport-bufferapp"},
+{github_repositry:"passport-yj"},
+{github_repositry:"passport-mastodon"},
+{github_repositry:"passport-maltio"},
+{github_repositry:"passport-lds"},
+{github_repositry:"passport-daccount"},
+{github_repositry:"passport-mailru"},
+{github_repositry:"passport-tradier"},
+{github_repositry:"passport-digitalocean"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-familysearch"},
+{github_repositry:"passport-goodreads"},
+{github_repositry:"passport-citrix"},
+{github_repositry:"passport-cloudfoundry"},
+{github_repositry:"passport-opentoken"},
+{github_repositry:"passport-idn"},
+{github_repositry:"passport-intuit"},
+{github_repositry:"passport-eve"},
+{github_repositry:"passport-abakus"},
+{github_repositry:"passport-basecrm"},
+{github_repositry:"passport-tiendanube"},
+{github_repositry:"passport-ionisx"},
+{github_repositry:"passport-eveonline"},
+{github_repositry:"passport-civic"},
+{github_repositry:"passport-indieauth"},
+{github_repositry:"passport-gumroad"},
+{github_repositry:"passport-thingiverse"},
+{github_repositry:"passport-square"},
+{github_repositry:"passport-pocket"},
+{github_repositry:"passport-headhunter"},
+{github_repositry:"passport-authtkt"},
+{github_repositry:"passport-meetup"},
+{github_repositry:"passport-ethereum"},
+{github_repositry:"passport-lastfm"},
+{github_repositry:"passport-bitly"},
+{github_repositry:"passport-foursquare"},
+{github_repositry:"passport-smartsheet"},
+{github_repositry:"passport-podio"},
+{github_repositry:"passport-hubspot"},
+{github_repositry:"passport-mixcloud"},
+{github_repositry:"passport-appfigures"},
+{github_repositry:"passport-arcgis"},
+{github_repositry:"passport-fitbit"},
+{github_repositry:"passport-soundcloud"},
+{github_repositry:"passport-publickey"},
+{github_repositry:"passport-dropbox"},
+{github_repositry:"passport-flickr"},
+{github_repositry:"passport-imgur"},
+{github_repositry:"passport-onshape"},
+{github_repositry:"passport-qq"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-wordpress"},
+{github_repositry:"passport-hmac"},
+{github_repositry:"passport-citrix"},
+{github_repositry:"passport-mercadolibre"},
+{github_repositry:"passport-jawbone"},
+{github_repositry:"passport-verify"},
+{github_repositry:"passport-draugiem"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-sharepoint"},
+{github_repositry:"passport-stormpath"},
+{github_repositry:"passport-uwshib"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-waad"},
+{github_repositry:"passport-unilogin"},
+{github_repositry:"passport-rakuten"},
+{github_repositry:"passport-hotp"},
+{github_repositry:"passport-assembla"},
+{github_repositry:"passport-baidu"},
+{github_repositry:"passport-descope"},
+{github_repositry:"passport-predix"},
+{github_repositry:"passport-feedly"},
+{github_repositry:"passport-ses"},
+{github_repositry:"passport-everyplay"},
+{github_repositry:"passport-lyft"},
+{github_repositry:"passport-supinfo"},
+{github_repositry:"passport-beatsmusic"},
+{github_repositry:"passport-edmodo"},
+{github_repositry:"passport-metocean"},
+{github_repositry:"passport-trademe"},
+{github_repositry:"passport-freshbooks"},
+{github_repositry:"passport-justintv"},
+{github_repositry:"passport-stocktwits"},
+{github_repositry:"passport-sharefile"},
+{github_repositry:"passport-authtoken"},
+{github_repositry:"passport-oauth"},
+{github_repositry:"passport-wink"},
+{github_repositry:"passport-coola"},
+{github_repositry:"passport-fanfou"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-lims"},
+{github_repositry:"passport-kuali"},
+{github_repositry:"passport-honeywell"},
+{github_repositry:"passport-nationbuilder"},
+{github_repositry:"passport-nuwe"},
+{github_repositry:"passport-thinkful"},
+{github_repositry:"passport-redgate"},
+{github_repositry:"passport-scarecrow"},
+{github_repositry:"passport-tq"},
+{github_repositry:"passport-browserid"},
+{github_repositry:"passport-pixiv"},
+{github_repositry:"passport-rightsignature"},
+{github_repositry:"passport-venmo"},
+{github_repositry:"passport-linkedin"},
+{github_repositry:"passport-withings"},
+{github_repositry:"passport-parse"},
+{github_repositry:"passport-angellist"},
+{github_repositry:"passport-tmobileid"},
+{github_repositry:"passport-dwolla"},
+{github_repositry:"passport-rdio"},
+{github_repositry:"passport-humanapi"},
+{github_repositry:"passport-drchrono"},
+{github_repositry:"passport-geoloqi"},
+{github_repositry:"passport-suzuri"},
+{github_repositry:"passport-statusnet"},
+{github_repositry:"passport-readability"},
+{github_repositry:"passport-nexon"},
+{github_repositry:"passport-basecamp"},
+{github_repositry:"passport-stanford"},
+{github_repositry:"passport-namely"},
+{github_repositry:"passport-iucas"},
+{github_repositry:"passport-borchk"},
+{github_repositry:"passport-ustream"},
+{github_repositry:"passport-persona"},
+{github_repositry:"passport-twitchtv"},
+{github_repositry:"veritone-sdk"},
+{github_repositry:"passport-keystone"},
+{github_repositry:"passport-workwell"},
+{github_repositry:"passport-lds"},
+{github_repositry:"passport-ufshib"},
+{github_repositry:"passport-hackid"},
+{github_repositry:"passport-stackexchange"},
+{github_repositry:"passport-mymlh"},
+{github_repositry:"passport-identityua"},
+{github_repositry:"passport-eHealth"},
+{github_repositry:"passport-ssqsignon"},
+{github_repositry:"passport-groupme"},
+{github_repositry:"passport-signature"},
+{github_repositry:"passport-gowalla"},
+{github_repositry:"passport-nextengine"},
+{github_repositry:"passport-clevercloud"},
+{github_repositry:"passport-monarch"},
+{github_repositry:"passport-automatic"},
+{github_repositry:"passport-octoblu"},
+{github_repositry:"passport-weibo"},
+{github_repositry:"passport-exact"},
+{github_repositry:"passport-sitegate"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-runkeeper"},
+{github_repositry:"passport-openstreetmap"},
+{github_repositry:"passport-evernote"},
+{github_repositry:"passport-sqrl"},
+{github_repositry:"passport-renren"},
+{github_repositry:"passport-smugmug"},
+{github_repositry:"passport-appdotnet"},
+{github_repositry:"passport-fellowshipone"},
+{github_repositry:"passport-eyeem"},
+{github_repositry:"passport-behance"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-tripit"},
+{github_repositry:"passport-aol"},
+{github_repositry:"passport-replicated"},
+{github_repositry:"passport-ifmosso"},
+{github_repositry:"passport-taobao"},
+{github_repositry:"passport-authentiq"},
+{github_repositry:"passport-bong"},
+{github_repositry:"passport-moves"},
+{github_repositry:"passport-netatmo"},
+{github_repositry:"passport-geeklist"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-idsus"},
+{github_repositry:"passport-nopassword"},
+{github_repositry:"passport-oschina"},
+{github_repositry:"passport-misfit"},
+{github_repositry:"passport-nyu"},
+{github_repositry:"passport-punwave"},
+{github_repositry:"passport-stash"},
+{github_repositry:"passport-dowjones"},
+{github_repositry:"passport-dice"},
+{github_repositry:"passport-deskcom"},
+{github_repositry:"passport-douban"},
+{github_repositry:"passport-eloqua"},
+{github_repositry:"passport-frontwinner"},
+{github_repositry:"passport-globelabs"},
+{github_repositry:"passport-flic"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-infotjenester"},
+{github_repositry:"passport-mapmyfitness"},
+{github_repositry:"passport-medoauth"},
+{github_repositry:"passport-nate"},
+{github_repositry:"passport-odesk"},
+{github_repositry:"passport-sbhs"},
+{github_repositry:"node-oneprofile"},
+{github_repositry:"passport-nuclearhub"},
+{github_repositry:"passport-oz"},
+{github_repositry:"passport-polkaspots"},
+{github_repositry:"passport-redbooth"},
+{github_repositry:"passport-passprint"},
+{github_repositry:"passport-taobao"},
+{github_repositry:"passport-teamsnap"},
+{github_repositry:"passport-rescour"},
+{github_repositry:"passport-ucoz"},
+{github_repositry:"passport-ubersmith"},
+{github_repositry:"passport-uservoice"},
+{github_repositry:"passport-wanliu"},
+{github_repositry:"passport-vivokey"},
+{github_repositry:"passport-zengine"},
+{github_repositry:"passport-cloudup"},
+{github_repositry:"passport-phantauth"},
+{github_repositry:"passport-http"},
+{github_repositry:"passport-pocket"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-okta"},
+{github_repositry:"passport-auth"},
+{github_repositry:"passport-client"},
+{github_repositry:"passport-trusted"},
+{github_repositry:"passport-predix"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-tistory"},
+{github_repositry:"passport-untappd"},
+{github_repositry:"passport-authing"},
+{github_repositry:"passport-andyet"},
+{github_repositry:"passport-liondesk"},
+{github_repositry:"passport-netflix"},
+{github_repositry:"passport-mojeid"},
+{github_repositry:"passport-authic"},
+{github_repositry:"passport-digg"},
+{github_repositry:"passport-playlyfe"},
+{github_repositry:"passport-ohloh"},
+{github_repositry:"passport-proz"},
+{github_repositry:"passport-picplz"},
+{github_repositry:"passport-sense"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-xmpp"},
+{github_repositry:"passport-underarmour"},
+{github_repositry:"passport-animexx"},
+{github_repositry:"passport-slice"},
+{github_repositry:"not_provided"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-avalon"},
+{github_repositry:"passport-accountkit"},
+{github_repositry:"passport-bamboohr"},
+{github_repositry:"passport-beatport"},
+{github_repositry:"passport-costlocker"},
+{github_repositry:"passport-npm"},
+{github_repositry:"passport-faceit"},
+{github_repositry:"passport-webmaker"},
+{github_repositry:"passport-unique"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-remember"},
+{github_repositry:"passport-jwt"},
+{github_repositry:"passport-http"},
+{github_repositry:"passport-line"},
+{github_repositry:"passport-did"},
+{github_repositry:"passport-anonym"},
+{github_repositry:"passport-ok"},
+{github_repositry:"passport-heroku"},
+{github_repositry:"passport-zoho"},
+{github_repositry:"passport-client"},
+{github_repositry:"passport-yahoo"},
+{github_repositry:"passport-intuit"},
+{github_repositry:"passport-jd"},
+{github_repositry:"passport-stack"},
+{github_repositry:"passport-local"},
+{github_repositry:"passport-lds"},
+{github_repositry:"passport-paypal"},
+{github_repositry:"passport-weixin"},
+{github_repositry:"not_provided"},
+{github_repositry:"passport-lds"},
+{github_repositry:"passport-dropbox"},
+{github_repositry:"passport-wechat"},
+{github_repositry:"passport-dedicated"},
+{github_repositry:"passport-nus"},
+{github_repositry:"passport-azure"},
+{github_repositry:"passport-digital"},
+{github_repositry:"passport-coursera"},
+{github_repositry:"passport-heroku"},
+{github_repositry:"passport-brightspace"},
+{github_repositry:"passport-voice"},
+{github_repositry:"passport-weixin"},
+{github_repositry:"passport-json"},
+{github_repositry:"passport-ethereum"},
+{github_repositry:"passport-magic"},
+{github_repositry:"passport-lnurl"},
+{github_repositry:"passport-google"},
+{github_repositry:"passport-edmodo"},
+{github_repositry:"passport-vk"},
+{github_repositry:"passport-coding"},
+{github_repositry:"passport-eipsk"},
+{github_repositry:"passport-wix"},
+{github_repositry:"microsoft-authentication"},
+{github_repositry:"passport-cloudfoundry"},
+{github_repositry:"passport-estimote"},
+{github_repositry:"passport-encored"},
+{github_repositry:"passport-atlassian"},
+{github_repositry:"passport-renren"},
+{github_repositry:"passport-open"},
+]"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git clone https://github.com/mikenicholson/passport-jwt && cd passport-jwt && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-oauth && cd passport-oauth && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-local && cd passport-local && rm -rf .git && cd .. && git clone https://github.com/mbell8903/passport-custom && cd passport-custom && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-twitter && cd passport-twitter && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-oauth && cd passport-oauth && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-http && cd passport-http && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-openidconnect && cd passport-openidconnect && rm -rf .git && cd .. && git clone https://github.com/seanfisher/passport-microsoft && cd passport-microsoft && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-github && cd passport-github && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-facebook && cd passport-facebook && rm -rf .git && cd .. && git clone https://github.com/ananay/passport-apple && cd passport-apple && rm -rf .git && cd .. && git clone https://github.com/node-saml && cd not_provided && rm -rf .git && cd .. && git clone https://github.com/joshbirk/passport-forcedotcom && cd passport-forcedotcom && rm -rf .git && cd .. && git clone https://github.com/Schmoopiie/passport-twitch && cd passport-twitch && rm -rf .git && cd .. && git clone https://github.com/clocked0ne/passport-outlook && cd passport-outlook && rm -rf .git && cd .. && git clone https://github.com/ForbesLindesay/passport-raven && cd passport-raven && rm -rf .git && cd .. && git clone https://github.com/idris/passport-coinbase && cd passport-coinbase && rm -rf .git && cd .. && git clone https://github.com/wyntau/passport-weixin && cd passport-weixin && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-yahoo && cd passport-yahoo && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-paypal && cd passport-paypal && rm -rf .git && cd .. && git clone https://github.com/brainflake/passport-constantcontact && cd passport-constantcontact && rm -rf .git && cd .. && git clone https://github.com/OtaK/passport-dailymotion && cd passport-dailymotion && rm -rf .git && cd .. && git clone https://github.com/TryGhost/passport-ghost && cd passport-ghost && rm -rf .git && cd .. && git clone https://github.com/sebabelmar/passport-dribbble && cd passport-dribbble && rm -rf .git && cd .. && git clone https://github.com/nitzo/passport-line && cd passport-line && rm -rf .git && cd .. && git clone https://github.com/jozzhart/passport-youtube && cd passport-youtube && rm -rf .git && cd .. && git clone https://github.com/jfromaniello/passport-hawk && cd passport-hawk && rm -rf .git && cd .. && git clone https://github.com/lablayers/passport-deviantart && cd passport-deviantart && rm -rf .git && cd .. && git clone https://github.com/xinbenlv/passport-weibo && cd passport-weibo && rm -rf .git && cd .. && git clone https://github.com/brainflake/passport-campaignmonitor && cd passport-campaignmonitor && rm -rf .git && cd .. && git clone https://github.com/Uninett/passport-dataporten && cd passport-dataporten && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-vimeo && cd passport-vimeo && rm -rf .git && cd .. && git clone https://github.com/sebastiendb/passport-bufferapp && cd passport-bufferapp && rm -rf .git && cd .. && git clone https://github.com/Lewuathe/passport-yj && cd passport-yj && rm -rf .git && cd .. && git clone https://github.com/techfeed/passport-mastodon && cd passport-mastodon && rm -rf .git && cd .. && git clone https://github.com/homebrewing/passport-maltio && cd passport-maltio && rm -rf .git && cd .. && git clone https://github.com/LDSorg/passport-lds && cd passport-lds && rm -rf .git && cd .. && git clone https://github.com/auth0/passport-daccount && cd passport-daccount && rm -rf .git && cd .. && git clone https://github.com/tiberule/passport-mailru && cd passport-mailru && rm -rf .git && cd .. && git clone https://github.com/tradier/passport-tradier && cd passport-tradier && rm -rf .git && cd .. && git clone https://github.com/harbur/passport-digitalocean && cd passport-digitalocean && rm -rf .git && cd .. && git clone https://github.com/coding-blocks && cd not_provided && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-familysearch && cd passport-familysearch && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-goodreads && cd passport-goodreads && rm -rf .git && cd .. && git clone https://github.com/octoblu/passport-citrix && cd passport-citrix && rm -rf .git && cd .. && git clone https://github.com/rajaraodv/passport-cloudfoundry && cd passport-cloudfoundry && rm -rf .git && cd .. && git clone https://github.com/73rhodes/passport-opentoken && cd passport-opentoken && rm -rf .git && cd .. && git clone https://github.com/tusbar/passport-idn && cd passport-idn && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-intuit && cd passport-intuit && rm -rf .git && cd .. && git clone https://github.com/muradaliyev/passport-eve && cd passport-eve && rm -rf .git && cd .. && git clone https://github.com/webkom/passport-abakus && cd passport-abakus && rm -rf .git && cd .. && git clone https://github.com/reydelleon/passport-basecrm && cd passport-basecrm && rm -rf .git && cd .. && git clone https://github.com/andreskir/passport-tiendanube && cd passport-tiendanube && rm -rf .git && cd .. && git clone https://github.com/IONISx/passport-ionisx && cd passport-ionisx && rm -rf .git && cd .. && git clone https://github.com/mbrennan/passport-eveonline && cd passport-eveonline && rm -rf .git && cd .. && git clone https://github.com/SpringRole/passport-civic && cd passport-civic && rm -rf .git && cd .. && git clone https://github.com/mko/passport-indieauth && cd passport-indieauth && rm -rf .git && cd .. && git clone https://github.com/SamyPesse/passport-gumroad && cd passport-gumroad && rm -rf .git && cd .. && git clone https://github.com/AlisamfP/passport-thingiverse && cd passport-thingiverse && rm -rf .git && cd .. && git clone https://github.com/octoblu/passport-square && cd passport-square && rm -rf .git && cd .. && git clone https://github.com/Siedrix/passport-pocket && cd passport-pocket && rm -rf .git && cd .. && git clone https://github.com/getlot/passport-headhunter && cd passport-headhunter && rm -rf .git && cd .. && git clone https://github.com/optilude/passport-authtkt && cd passport-authtkt && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-meetup && cd passport-meetup && rm -rf .git && cd .. && git clone https://github.com/io84team/passport-ethereum && cd passport-ethereum && rm -rf .git && cd .. && git clone https://github.com/kizzlebot/passport-lastfm && cd passport-lastfm && rm -rf .git && cd .. && git clone https://github.com/dreadjr/passport-bitly && cd passport-bitly && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-foursquare && cd passport-foursquare && rm -rf .git && cd .. && git clone https://github.com/octoblu/passport-smartsheet && cd passport-smartsheet && rm -rf .git && cd .. && git clone https://github.com/mjpearson/passport-podio && cd passport-podio && rm -rf .git && cd .. && git clone https://github.com/brainflake/passport-hubspot && cd passport-hubspot && rm -rf .git && cd .. && git clone https://github.com/mjpearson/passport-mixcloud && cd passport-mixcloud && rm -rf .git && cd .. && git clone https://github.com/SpiderStrategies/passport-appfigures && cd passport-appfigures && rm -rf .git && cd .. && git clone https://github.com/DavidSpriggs/passport-arcgis && cd passport-arcgis && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-fitbit && cd passport-fitbit && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-soundcloud && cd passport-soundcloud && rm -rf .git && cd .. && git clone https://github.com/timfpark/passport-publickey && cd passport-publickey && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-dropbox && cd passport-dropbox && rm -rf .git && cd .. && git clone https://github.com/johnnyhalife/passport-flickr && cd passport-flickr && rm -rf .git && cd .. && git clone https://github.com/mindfreakthemon/passport-imgur && cd passport-imgur && rm -rf .git && cd .. && git clone https://github.com/onshape/passport-onshape && cd passport-onshape && rm -rf .git && cd .. && git clone https://github.com/qdsang/passport-qq && cd passport-qq && rm -rf .git && cd .. && git clone https://github.com/jeff-blaisdell && cd not_provided && rm -rf .git && cd .. && git clone https://github.com/mjpearson/passport-wordpress && cd passport-wordpress && rm -rf .git && cd .. && git clone https://github.com/chatter/passport-hmac && cd passport-hmac && rm -rf .git && cd .. && git clone https://github.com/octoblu/passport-citrix && cd passport-citrix && rm -rf .git && cd .. && git clone https://github.com/sdurandeu/passport-mercadolibre && cd passport-mercadolibre && rm -rf .git && cd .. && git clone https://github.com/kiwiai/passport-jawbone && cd passport-jawbone && rm -rf .git && cd .. && git clone https://github.com/alphagov/passport-verify && cd passport-verify && rm -rf .git && cd .. && git clone https://github.com/EriksRemess/passport-draugiem && cd passport-draugiem && rm -rf .git && cd .. && git clone https://github.com/penske-media-corp && cd not_provided && rm -rf .git && cd .. && git clone https://github.com/QuePort/passport-sharepoint && cd passport-sharepoint && rm -rf .git && cd .. && git clone https://github.com/stormpath/passport-stormpath && cd passport-stormpath && rm -rf .git && cd .. && git clone https://github.com/drstearns/passport-uwshib && cd passport-uwshib && rm -rf .git && cd .. && git clone https://github.com/userapp-io && cd not_provided && rm -rf .git && cd .. && git clone https://github.com/ColinEdwardRhodes/passport-waad && cd passport-waad && rm -rf .git && cd .. && git clone https://github.com/DBCDK/passport-unilogin && cd passport-unilogin && rm -rf .git && cd .. && git clone https://github.com/gologo13/passport-rakuten && cd passport-rakuten && rm -rf .git && cd .. && git clone https://github.com/jaredhanson/passport-hotp && cd passport-hotp && rm -rf .git && cd .. && git clone https://github.com/maxcoto/passport-assembla && cd passport-assembla && rm -rf .git && cd .. && git clone https://github.com/xiaoao/passport-baidu && cd passport-baidu && rm -rf .git && cd .. && git clone https://github.com/descope/passport-descope && cd passport-descope && rm -rf .git && cd .. && git clone https://github.com/combsco/passport-predix && cd passport-predix && rm -rf .git && cd .. && git clone https://github.com/may215/passport-feedly && cd passport-feedly && rm -rf .git && cd .. && git clone https://github.com/mtso/passport-ses && cd passport-ses && rm -rf .git && cd .. && git clone https://github.com/Everyplay/passport-everyplay && cd passport-everyplay && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. && git clone undefined && cd undefined && rm -rf .git && cd .. &&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkdir passports && cd passports && 
+if git clone https://github.com/mikenicholson/passport-jwt && cd passport-jwt && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-oauth && cd passport-oauth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-local && cd passport-local && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mbell8903/passport-custom && cd passport-custom && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-twitter && cd passport-twitter && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-http && cd passport-http && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-openidconnect && cd passport-openidconnect && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/seanfisher/passport-microsoft && cd passport-microsoft && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-github && cd passport-github && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-facebook && cd passport-facebook && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ananay/passport-apple && cd passport-apple && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/joshbirk/passport-forcedotcom && cd passport-forcedotcom && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Schmoopiie/passport-twitch && cd passport-twitch && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/clocked0ne/passport-outlook && cd passport-outlook && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ForbesLindesay/passport-raven && cd passport-raven && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/idris/passport-coinbase && cd passport-coinbase && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/wyntau/passport-weixin && cd passport-weixin && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-yahoo && cd passport-yahoo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-paypal && cd passport-paypal && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/brainflake/passport-constantcontact && cd passport-constantcontact && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/OtaK/passport-dailymotion && cd passport-dailymotion && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/TryGhost/passport-ghost && cd passport-ghost && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sebabelmar/passport-dribbble && cd passport-dribbble && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/nitzo/passport-line && cd passport-line && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jozzhart/passport-youtube && cd passport-youtube && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jfromaniello/passport-hawk && cd passport-hawk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/lablayers/passport-deviantart && cd passport-deviantart && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/xinbenlv/passport-weibo && cd passport-weibo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/brainflake/passport-campaignmonitor && cd passport-campaignmonitor && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Uninett/passport-dataporten && cd passport-dataporten && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-vimeo && cd passport-vimeo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sebastiendb/passport-bufferapp && cd passport-bufferapp && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Lewuathe/passport-yj && cd passport-yj && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/techfeed/passport-mastodon && cd passport-mastodon && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/homebrewing/passport-maltio && cd passport-maltio && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/auth0/passport-daccount && cd passport-daccount && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/tiberule/passport-mailru && cd passport-mailru && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/tradier/passport-tradier && cd passport-tradier && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/harbur/passport-digitalocean && cd passport-digitalocean && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-familysearch && cd passport-familysearch && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-goodreads && cd passport-goodreads && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/rajaraodv/passport-cloudfoundry && cd passport-cloudfoundry && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/73rhodes/passport-opentoken && cd passport-opentoken && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/tusbar/passport-idn && cd passport-idn && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-intuit && cd passport-intuit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/muradaliyev/passport-eve && cd passport-eve && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/webkom/passport-abakus && cd passport-abakus && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/reydelleon/passport-basecrm && cd passport-basecrm && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/andreskir/passport-tiendanube && cd passport-tiendanube && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/IONISx/passport-ionisx && cd passport-ionisx && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mbrennan/passport-eveonline && cd passport-eveonline && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/SpringRole/passport-civic && cd passport-civic && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mko/passport-indieauth && cd passport-indieauth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/SamyPesse/passport-gumroad && cd passport-gumroad && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/AlisamfP/passport-thingiverse && cd passport-thingiverse && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-square && cd passport-square && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Siedrix/passport-pocket && cd passport-pocket && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/getlot/passport-headhunter && cd passport-headhunter && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/optilude/passport-authtkt && cd passport-authtkt && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-meetup && cd passport-meetup && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/io84team/passport-ethereum && cd passport-ethereum && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/kizzlebot/passport-lastfm && cd passport-lastfm && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dreadjr/passport-bitly && cd passport-bitly && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-foursquare && cd passport-foursquare && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-smartsheet && cd passport-smartsheet && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mjpearson/passport-podio && cd passport-podio && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/brainflake/passport-hubspot && cd passport-hubspot && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mjpearson/passport-mixcloud && cd passport-mixcloud && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/SpiderStrategies/passport-appfigures && cd passport-appfigures && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DavidSpriggs/passport-arcgis && cd passport-arcgis && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-fitbit && cd passport-fitbit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-soundcloud && cd passport-soundcloud && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/timfpark/passport-publickey && cd passport-publickey && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-dropbox && cd passport-dropbox && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/johnnyhalife/passport-flickr && cd passport-flickr && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mindfreakthemon/passport-imgur && cd passport-imgur && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/onshape/passport-onshape && cd passport-onshape && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/qdsang/passport-qq && cd passport-qq && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mjpearson/passport-wordpress && cd passport-wordpress && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/chatter/passport-hmac && cd passport-hmac && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-citrix && cd passport-citrix && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sdurandeu/passport-mercadolibre && cd passport-mercadolibre && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/kiwiai/passport-jawbone && cd passport-jawbone && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/alphagov/passport-verify && cd passport-verify && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/EriksRemess/passport-draugiem && cd passport-draugiem && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/QuePort/passport-sharepoint && cd passport-sharepoint && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/stormpath/passport-stormpath && cd passport-stormpath && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/drstearns/passport-uwshib && cd passport-uwshib && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ColinEdwardRhodes/passport-waad && cd passport-waad && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DBCDK/passport-unilogin && cd passport-unilogin && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/gologo13/passport-rakuten && cd passport-rakuten && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-hotp && cd passport-hotp && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/maxcoto/passport-assembla && cd passport-assembla && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/xiaoao/passport-baidu && cd passport-baidu && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/descope/passport-descope && cd passport-descope && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/combsco/passport-predix && cd passport-predix && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/may215/passport-feedly && cd passport-feedly && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mtso/passport-ses && cd passport-ses && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Everyplay/passport-everyplay && cd passport-everyplay && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/girliemac/passport-lyft && cd passport-lyft && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/vincentpeyrouse/passport-supinfo && cd passport-supinfo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/datmark/passport-beatsmusic && cd passport-beatsmusic && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/zaption/passport-edmodo && cd passport-edmodo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/metocean/passport-metocean && cd passport-metocean && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dupesnduds/passport-trademe && cd passport-trademe && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/MichaelJCole/passport-freshbooks && cd passport-freshbooks && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-justintv && cd passport-justintv && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/simov/passport-stocktwits && cd passport-stocktwits && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-sharefile && cd passport-sharefile && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/horiuchi/passport-authtoken && cd passport-authtoken && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/tuddman/passport-wink && cd passport-wink && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/cooladata/passport-coola && cd passport-coola && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/didikeke/passport-fanfou && cd passport-fanfou && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/taoyuan/passport-lims && cd passport-lims && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/KualiCo/passport-kuali && cd passport-kuali && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Nibbler999/passport-honeywell && cd passport-honeywell && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/msyea/passport-nationbuilder && cd passport-nationbuilder && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/nuwehq/passport-nuwe && cd passport-nuwe && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Thinkful/passport-thinkful && cd passport-thinkful && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ForbesLindesay/passport-redgate && cd passport-redgate && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/heroicyang/passport-tqq && cd passport-tqq && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-browserid && cd passport-browserid && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/pixiv/passport-pixiv && cd passport-pixiv && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/AlisamfP/passport-rightsignature && cd passport-rightsignature && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jihokoo/passport-venmo && cd passport-venmo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-linkedin && cd passport-linkedin && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mko/passport-withings && cd passport-withings && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/malikov/passport-parse && cd passport-parse && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-angellist && cd passport-angellist && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/tmobile/passport-tmobileid && cd passport-tmobileid && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-dwolla && cd passport-dwolla && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-rdio && cd passport-rdio && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/humanapi/passport-humanapi && cd passport-humanapi && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Nimblr/passport-drchrono && cd passport-drchrono && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-geoloqi && cd passport-geoloqi && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/kitak/passport-suzuri && cd passport-suzuri && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/zoowar/passport-statusnet && cd passport-statusnet && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-readability && cd passport-readability && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mamsori/passport-nexon && cd passport-nexon && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/janbaykara/passport-basecamp && cd passport-basecamp && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/scottylogan/passport-stanford && cd passport-stanford && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mykabam/passport-namely && cd passport-namely && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/soichih/passport-iucas && cd passport-iucas && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DBCDK/passport-borchk && cd passport-borchk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/superpan/passport-ustream && cd passport-ustream && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-persona && cd passport-persona && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/johnkernke/passport-twitchtv && cd passport-twitchtv && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/veritone/veritone-sdk && cd veritone-sdk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/eddywashere/passport-keystone && cd passport-keystone && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/emathieu13/passport-workwell && cd passport-workwell && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/crohead13/passport-ufshib && cd passport-ufshib && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/HackBerkeley/passport-hackid && cd passport-hackid && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/geNAZt/passport-stackexchange && cd passport-stackexchange && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DonutsInBelly/passport-mymlh && cd passport-mymlh && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/poliveira89/passport-identityua && cd passport-identityua && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ShawnSpooner/passport-eHealth && cd passport-eHealth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ssqsignon/passport-ssqsignon && cd passport-ssqsignon && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/andrewwiik/passport-groupme && cd passport-groupme && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dlochrie/passport-signature && cd passport-signature && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-gowalla && cd passport-gowalla && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Leko/passport-nextengine && cd passport-nextengine && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Redsmin/passport-clevercloud && cd passport-clevercloud && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/monarchapis/passport-monarch && cd passport-monarch && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-octoblu && cd passport-octoblu && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/auth0/passport-exact && cd passport-exact && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sitegate/passport-sitegate && cd passport-sitegate && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-runkeeper && cd passport-runkeeper && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-openstreetmap && cd passport-openstreetmap && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-evernote && cd passport-evernote && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/erikmav/passport-sqrl && cd passport-sqrl && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/xinbenlv/passport-renren && cd passport-renren && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-smugmug && cd passport-smugmug && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mko/passport-appdotnet && cd passport-appdotnet && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/hairyhenderson/passport-fellowshipone && cd passport-fellowshipone && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/elmariachi111/passport-eyeem && cd passport-eyeem && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/metacommunications/passport-behance && cd passport-behance && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-tripit && cd passport-tripit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-aol && cd passport-aol && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ekristen/passport-replicated && cd passport-replicated && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/meefik/passport-ifmosso && cd passport-ifmosso && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/AuthentiqID/passport-authentiq && cd passport-authentiq && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/junmer/passport-bong && cd passport-bong && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/billglover/passport-moves && cd passport-moves && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Nibbler999/passport-netatmo && cd passport-netatmo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sebastiendb/passport-geeklist && cd passport-geeklist && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/saviogl/passport-idsus && cd passport-idsus && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sylis/passport-nopassword && cd passport-nopassword && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ilivebox/passport-oschina && cd passport-oschina && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/cquartier/passport-misfit && cd passport-misfit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/nyuadsg/passport-nyu && cd passport-nyu && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/punwave/passport-punwave && cd passport-punwave && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/reinbach/passport-stash && cd passport-stash && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dowjones/passport-dowjones && cd passport-dowjones && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/esabelhaus/passport-dice && cd passport-dice && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Mistat/passport-deskcom && cd passport-deskcom && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ktmud/passport-douban && cd passport-douban && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/watsoncj/passport-eloqua && cd passport-eloqua && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/globelabs/passport-globelabs && cd passport-globelabs && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-flic && cd passport-flic && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/itasdesk/passport-infotjenester && cd passport-infotjenester && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/patbonecrusher/passport-mapmyfitness && cd passport-mapmyfitness && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/guruward/passport-medoauth && cd passport-medoauth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/pukapukan/passport-nate && cd passport-nate && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dglittle/passport-odesk && cd passport-odesk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/elisee/passport-nuclearhub && cd passport-nuclearhub && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/PolkaSpots/passport-polkaspots && cd passport-polkaspots && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-redbooth && cd passport-redbooth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DFTinc/passport-passprint && cd passport-passprint && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/7elephants/passport-teamsnap && cd passport-teamsnap && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/REscour/passport-rescour && cd passport-rescour && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/l0gd0g/passport-ucoz && cd passport-ucoz && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/johann8384/passport-ubersmith && cd passport-ubersmith && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-uservoice && cd passport-uservoice && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/hysios/passport-wanliu && cd passport-wanliu && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/thunderblaster/passport-vivokey && cd passport-vivokey && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ZengineHQ/passport-zengine && cd passport-zengine && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/stephenlacy/passport-cloudup && cd passport-cloudup && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/phantauth/passport-phantauth && cd passport-phantauth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/fischerdan/passport-okta && cd passport-okta && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mbell8903/passport-auth && cd passport-auth && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ripjar/passport-client && cd passport-client && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ripjar/passport-trusted && cd passport-trusted && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/PredixDev/passport-predix && cd passport-predix && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/saltfactory/passport-tistory && cd passport-tistory && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/shuhei/passport-untappd && cd passport-untappd && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/willin/passport-authing && cd passport-authing && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/andyet/passport-andyet && cd passport-andyet && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/chrux/passport-liondesk && cd passport-liondesk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-netflix && cd passport-netflix && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/xmikus01/passport-mojeid && cd passport-mojeid && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/authic/passport-authic && cd passport-authic && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-digg && cd passport-digg && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/playlyfe/passport-playlyfe && cd passport-playlyfe && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-ohloh && cd passport-ohloh && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/codervince/passport-proz && cd passport-proz && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-picplz && cd passport-picplz && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mrquincle/passport-sense && cd passport-sense && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/surevine/passport-xmpp && cd passport-xmpp && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/JasonSanford/passport-underarmour && cd passport-underarmour && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/SargoDarya/passport-animexx && cd passport-animexx && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/rustinpc/passport-slice && cd passport-slice && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/abembecker/passport-avalon && cd passport-avalon && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/BrettThePark/passport-accountkit && cd passport-accountkit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/thinkerous/passport-bamboohr && cd passport-bamboohr && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/fastman/passport-beatport && cd passport-beatport && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/karelskopek/passport-costlocker && cd passport-costlocker && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/godaddy/passport-npm && cd passport-npm && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Technoblazed/passport-faceit && cd passport-faceit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mozilla/passport-webmaker && cd passport-webmaker && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/lughino/passport-unique && cd passport-unique && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-google && cd passport-google && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-remember && cd passport-remember && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/codebarista/passport-jwt && cd passport-jwt && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/IvanWei/passport-line && cd passport-line && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/energywebfoundation/passport-did && cd passport-did && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/nash403/passport-anonym && cd passport-anonym && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dvpnt/passport-ok && cd passport-ok && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/auth0/passport-heroku && cd passport-heroku && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sidrmsh/passport-zoho && cd passport-zoho && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/ripple/passport-client && cd passport-client && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-yahoo && cd passport-yahoo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-intuit && cd passport-intuit && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mackwan84/passport-jd && cd passport-jd && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/acruxray/passport-stack && cd passport-stack && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/morungos/passport-local && cd passport-local && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-paypal && cd passport-paypal && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/lee715/passport-weixin && cd passport-weixin && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/yawhide/passport-dropbox && cd passport-dropbox && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/harryhan1989/passport-wechat && cd passport-wechat && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/colbycolby/passport-dedicated && cd passport-dedicated && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/lauweijie/passport-nus && cd passport-nus && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/auth0/passport-azure && cd passport-azure && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/johnhenry/passport-digital && cd passport-digital && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/flipflopapp/passport-coursera && cd passport-coursera && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/camshaft/passport-heroku && cd passport-heroku && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Brightspace/passport-brightspace && cd passport-brightspace && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/iszak/passport-voice && cd passport-voice && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/lutaoact/passport-weixin && cd passport-weixin && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/JamesMGreene/passport-json && cd passport-json && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/jaredhanson/passport-ethereum && cd passport-ethereum && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/vinialbano/passport-magic && cd passport-magic && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/chill117/passport-lnurl && cd passport-lnurl && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/sqrrrl/passport-google && cd passport-google && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/Coggle/passport-edmodo && cd passport-edmodo && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dvpnt/passport-vk && cd passport-vk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/chrisyer/passport-coding && cd passport-coding && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/dvpnt/passport-eipsk && cd passport-eipsk && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/maxkoryukov/passport-wix && cd passport-wix && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/AzureAD/microsoft-authentication && cd microsoft-authentication && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/rajaraodv/passport-cloudfoundry && cd passport-cloudfoundry && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/octoblu/passport-estimote && cd passport-estimote && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/mooyoul/passport-encored && cd passport-encored && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/DanielHreben/passport-atlassian && cd passport-atlassian && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/xr/passport-renren && cd passport-renren && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi
+if git clone https://github.com/OpenHumans/passport-open && cd passport-open && rm -rf .git && cd ..; then echo "Clone Successfull!!!"
+else echo "Error, This Github Repository Has Some Problems" && git status && echo "Trying, To Clone Next Repo" 
+fi

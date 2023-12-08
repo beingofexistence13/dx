@@ -1,0 +1,164 @@
+---
+title: "Textarea"
+description: "Textarea component is a multi-line Input which allows you to write large texts."
+---
+
+import {textareaContent} from "@/content/components/textarea";
+
+# Textarea
+
+Textarea component is a multi-line Input which allows you to write large texts.
+
+<ComponentLinks component="input" storybook="textarea" reactAriaHook="useTextField" />
+
+---
+
+<CarbonAd />
+
+## Import
+
+<ImportTabs
+  commands={{
+    main: 'import {Textarea} from "@nextui-org/react";',
+    individual: 'import {Textarea} from "@nextui-org/input";',
+  }}
+/>
+
+## Usage
+
+<CodeDemo title="Usage" files={textareaContent.usage} />
+
+### Disabled
+
+<CodeDemo title="Disabled" files={textareaContent.disabled} />
+
+### Read Only
+
+<CodeDemo title="Readonly" files={textareaContent.readonly} />
+
+### Required
+
+If you pass the `isRequired` property to the input, it will have a `danger` asterisk at
+the end of the label and the textarea will be required.
+
+<CodeDemo title="Required" files={textareaContent.required} />
+
+### Autosize
+
+Textarea grows automatically based on the content, but you can also set a min and max height to
+it using the `minRows` and `maxRows` properties. It is based on [react-textarea-autosize](https://github.com/Andarist/react-textarea-autosize).
+
+<CodeDemo title="Autosize" files={textareaContent.autosize} />
+
+### Without Autosize
+
+In case you want to disable the autosize feature, you can use the `disableAutosize` property.
+
+<CodeDemo title="Without Autosize" files={textareaContent.disableAutosize} />
+
+### Variants
+
+<CodeDemo title="Variants" files={textareaContent.variants} />
+
+### With Error Message
+
+You can combine the `isInvalid` and `errorMessage` properties to show an invalid textarea.
+
+<CodeDemo title="With Error Message" files={textareaContent.errorMessage} />
+
+### Description
+
+<CodeDemo title="Description" files={textareaContent.description} />
+
+### Controlled
+
+You can use the `value` and `onValueChange` properties to control the input value.
+
+<CodeDemo title="Controlled" files={textareaContent.controlled} />
+
+> **Note**: NextUI `Textarea` also supports native events like `onChange`, useful for form libraries
+> such as [Formik](https://formik.org/) and [React Hook Form](https://react-hook-form.com/).
+
+## Slots
+
+- **base**: Input wrapper, it handles alignment, placement, and general appearance.
+- **label**: Label of the textarea, it is the one that is displayed above, inside or left of the textarea.
+- **inputWrapper**: Wraps the `label` (when it is inside) and the `innerWrapper`.
+- **input**: The textarea input element.
+- **description**: The description of the textarea.
+- **errorMessage**: The error message of the textarea.
+
+<Spacer y={4} />{" "}
+
+## Data Attributes
+
+`Textarea` has the following attributes on the `base` element:
+
+- **data-invalid**:
+  When the textarea is invalid. Based on `isInvalid` prop.
+- **data-required**:
+  When the textarea is required. Based on `isRequired` prop.
+- **data-readonly**:
+  When the textarea is readonly. Based on `isReadOnly` prop.
+- **data-hover**:
+  When the textarea is being hovered. Based on [useHover](https://react-spectrum.adobe.com/react-aria/useHover.html)
+- **data-focus**:
+  When the textarea is being focused. Based on [useFocusRing](https://react-spectrum.adobe.com/react-aria/useFocusRing.html).
+- **data-focus-visible**:
+  When the textarea is being focused with the keyboard. Based on [useFocusRing](https://react-spectrum.adobe.com/react-aria/useFocusRing.html).
+- **data-disabled**:
+  When the textarea is disabled. Based on `isDisabled` prop.
+
+<Spacer y={4} />{" "}
+
+## Accessibility
+
+- Built with a native `<input>` element.
+- Visual and ARIA labeling support.
+- Change, clipboard, composition, selection, and input event support.
+- Required and invalid states exposed to assistive technology via ARIA.
+- Support for description and error message help text linked to the input via ARIA.
+
+<Spacer y={4} />{" "}
+
+## API
+
+### Textarea Props
+
+| Attribute         | Type                                                                                                               | Description                                                                                                              | Default   |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | --------- |
+| children          | `ReactNode`                                                                                                        | The content of the textarea.                                                                                             | -         |
+| minRows           | `number`                                                                                                           | The minimum number of rows to display.                                                                                   | `3`       |
+| maxRows           | `number`                                                                                                           | Maximum number of rows up to which the textarea can grow.                                                                | `8`       |
+| cacheMeasurements | `boolean`                                                                                                          | Reuse previously computed measurements when computing height of textarea.                                                | `false`   |
+| variant           | `flat` \| `bordered` \| `faded` \| `underlined`                                                                    | The variant of the textarea.                                                                                             | `flat`    |
+| color             | `default` \| `primary` \| `secondary` \| `success` \| `warning` \| `danger`                                        | The color of the textarea.                                                                                               | `default` |
+| size              | `sm`\|`md`\|`lg`                                                                                                   | The size of the textarea.                                                                                                | `md`      |
+| radius            | `none` \| `sm` \| `md` \| `lg` \| `full`                                                                           | The radius of the textarea.                                                                                              | -         |
+| label             | `ReactNode`                                                                                                        | The content to display as the label.                                                                                     | -         |
+| value             | `string`                                                                                                           | The current value of the textarea (controlled).                                                                          | -         |
+| defaultValue      | `string`                                                                                                           | The default value of the textarea (uncontrolled).                                                                        | -         |
+| placeholder       | `string`                                                                                                           | The placeholder of the textarea.                                                                                         | -         |
+| startContent      | `ReactNode`                                                                                                        | Element to be rendered in the left side of the input.                                                                    | -         |
+| endContent        | `ReactNode`                                                                                                        | Element to be rendered in the right side of the input.                                                                   | -         |
+| description       | `ReactNode`                                                                                                        | A description for the textarea. Provides a hint such as specific requirements for what to choose.                        | -         |
+| errorMessage      | `ReactNode`                                                                                                        | An error message for the textarea.                                                                                       | -         |
+| labelPlacement    | `inside` \| `outside` \| `outside-left`                                                                            | The position of the label.                                                                                               | `inside`  |
+| fullWidth         | `boolean`                                                                                                          | Whether the textarea should take up the width of its parent.                                                             | `true`    |
+| isRequired        | `boolean`                                                                                                          | Whether user input is required on the textarea before form submission.                                                   | `false`   |
+| isReadOnly        | `boolean`                                                                                                          | Whether the textarea can be selected but not changed by the user.                                                        |           |
+| isDisabled        | `boolean`                                                                                                          | Whether the textarea is disabled.                                                                                        | `false`   |
+| isInvalid         | `boolean`                                                                                                          | Whether the textarea is invalid.                                                                                         | `false`   |
+| validationState   | `valid` \| `invalid`                                                                                               | Whether the textarea should display its "valid" or "invalid" visual styling. (**Deprecated**) use **isInvalid** instead. | -         |
+| disableAutosize   | `boolean`                                                                                                          | Whether the textarea auto vertically resize should be disabled.                                                          | `false`   |
+| disableAnimation  | `boolean`                                                                                                          | Whether the textarea should be animated.                                                                                 | `false`   |
+| classNames        | `Record<"base"｜ "label"｜ "inputWrapper"｜ "innerWrapper" ｜ "input" ｜ "description" ｜ "errorMessage", string>` | Allows to set custom class names for the checkbox slots.                                                                 | -         |
+
+### Input Events
+
+| Attribute      | Type                                                    | Description                                                                                                                         |
+| -------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| onChange       | `React.ChangeEvent <HTMLInputElement>`                  | Handler that is called when the element's value changes. You can pull out the new value by accessing `event.target.value` (string). |
+| onValueChange  | `(value: string) => void`                               | Handler that is called when the element's value changes.                                                                            |
+| onClear        | `() => void`                                            | Handler that is called when the clear button is clicked.                                                                            |
+| onHeightChange | `(height: number, meta: { rowHeight: number }) => void` | Handler that is called when the height of the textarea changes.                                                                     |

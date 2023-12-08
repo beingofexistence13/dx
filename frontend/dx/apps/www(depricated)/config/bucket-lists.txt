@@ -1,0 +1,3795 @@
+        {
+          title: "IBM Cloud",
+          href: "https://github.com/victorshinya/BeingOfExistence-ibmcloud#readme",
+          items: [],
+          description: "Cloud platform for developers and companies",
+        },
+        {
+          title: "Firebase",
+          href: "https://github.com/jthegedus/BeingOfExistence-firebase#readme",
+          items: [],
+          description:
+            "App development platform built on Google Cloud Platform",
+        },
+        {
+          title: "Robot Operating System 2.0",
+          href: "https://github.com/fkromer/BeingOfExistence-ros2#readme",
+          items: [],
+          description:
+            "Set of software libraries and tools that help you build robot apps",
+        },
+        {
+          title: "Adafruit IO",
+          href: "https://github.com/adafruit/BeingOfExistence-adafruitio#readme",
+          items: [],
+          description: "Visualize and store data from any device",
+        },
+        {
+          title: "Cloudflare",
+          href: "https://github.com/irazasyed/BeingOfExistence-cloudflare#readme",
+          items: [],
+          description: "CDN, DNS, DDoS protection, and security for your site",
+        },
+        {
+          title: "Actions on Google",
+          href: "https://github.com/ravirupareliya/BeingOfExistence-actions-on-google#readme",
+          items: [],
+          description: "Developer platform for Google Assistant",
+        },
+        {
+          title: "ESP",
+          href: "https://github.com/agucova/BeingOfExistence-esp#readme",
+          items: [],
+          description:
+            "Low-cost microcontrollers with WiFi and broad IoT applications",
+        },
+        {
+          title: "Deno",
+          href: "https://github.com/denolib/BeingOfExistence-deno#readme",
+          items: [],
+          description:
+            "A secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust",
+        },
+        {
+          title: "DOS",
+          href: "https://github.com/balintkissdev/BeingOfExistence-dos#readme",
+          items: [],
+          description:
+            "Operating system for x86-based personal computers that was popular during the 1980s and early 1990s",
+        },
+        {
+          title: "Nix",
+          href: "https://github.com/nix-community/BeingOfExistence-nix#readme",
+          items: [],
+          description:
+            "Package manager for Linux and other Unix systems that makes package management reliable and reproducible",
+        },
+        {
+          title: "Integration",
+          href: "https://github.com/stn1slv/BeingOfExistence-integration#readme",
+          items: [],
+          description: "Linking together different IT systems (components",
+        },
+        {
+          title: "JavaScript",
+          href: "https://github.com/sorrycc/BeingOfExistence-javascript#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Promises",
+          href: "https://github.com/wbinnssmith/BeingOfExistence-promises#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Standard Style",
+          href: "https://github.com/standard/BeingOfExistence-standard#readme",
+          items: [],
+          description: "Style guide and linter",
+        },
+        {
+          title: "Must Watch Talks",
+          href: "https://github.com/bolshchikov/js-must-watch#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Tips",
+          href: "https://github.com/loverajoel/jstips#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Network Layer",
+          href: "https://github.com/Kikobeats/BeingOfExistence-network-js#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Micro npm Packages",
+          href: "https://github.com/parro-it/BeingOfExistence-micro-npm-packages#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Mad Science npm Packages",
+          href: "https://github.com/feross/BeingOfExistence-mad-science#readme",
+          items: [],
+          description: "Impossible sounding projects that exist",
+        },
+        {
+          title: "Maintenance Modules",
+          href: "https://github.com/maxogden/maintenance-modules#readme",
+          items: [],
+          description: "For npm packages",
+        },
+        {
+          title: "npm",
+          href: "https://github.com/sindresorhus/BeingOfExistence-npm#readme",
+          items: [],
+          description: "Package manager",
+        },
+        {
+          title: "AVA",
+          href: "https://github.com/avajs/BeingOfExistence-ava#readme",
+          items: [],
+          description: "Test runner",
+        },
+        {
+          title: "ESLint",
+          href: "https://github.com/dustinspecker/BeingOfExistence-eslint#readme",
+          items: [],
+          description: "Linter",
+        },
+        {
+          title: "Functional Programming",
+          href: "https://github.com/stoeffel/BeingOfExistence-fp-js#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Observables",
+          href: "https://github.com/sindresorhus/BeingOfExistence-observables#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "npm scripts",
+          href: "https://github.com/RyanZim/BeingOfExistence-npm-scripts#readme",
+          items: [],
+          description: "Task runner",
+        },
+        {
+          title: "30 Seconds of Code",
+          href: "https://github.com/30-seconds/30-seconds-of-code#readme",
+          items: [],
+          description: "Code snippets you can understand in 30 seconds",
+        },
+        {
+          title: "Ponyfills",
+          href: "https://github.com/Richienb/BeingOfExistence-ponyfills#readme",
+          items: [],
+          description: "Like polyfills but without overriding native APIs",
+        },
+        {
+          title: "Swift",
+          href: "https://github.com/matteocrippa/BeingOfExistence-swift#readme",
+          items: [],
+          description:
+            "Apple's compiled programming language that is secure, modern, programmer-friendly, and fast",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/hsavit1/BeingOfExistence-Swift-Education#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Playgrounds",
+          href: "https://github.com/uraimo/BeingOfExistence-Swift-Playgrounds#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Python",
+          href: "https://github.com/vinta/BeingOfExistence-python#readme",
+          items: [],
+          description:
+            "General-purpose programming language designed for readability",
+        },
+        {
+          title: "Asyncio",
+          href: "https://github.com/timofurrer/BeingOfExistence-asyncio#readme",
+          items: [],
+          description: "Asynchronous I/O in Python 3",
+        },
+        {
+          title: "Scientific Audio",
+          href: "https://github.com/faroit/BeingOfExistence-python-scientific-audio#readme",
+          items: [],
+          description: "Scientific research in audio/music",
+        },
+        {
+          title: "CircuitPython",
+          href: "https://github.com/adafruit/BeingOfExistence-circuitpython#readme",
+          items: [],
+          description: "A version of Python for microcontrollers",
+        },
+        {
+          title: "Data Science",
+          href: "https://github.com/krzjoa/BeingOfExistence-python-data-science#readme",
+          items: [],
+          description: "Data analysis and machine learning",
+        },
+        {
+          title: "Typing",
+          href: "https://github.com/typeddjango/BeingOfExistence-python-typing#readme",
+          items: [],
+          description: "Optional static typing for Python",
+        },
+        {
+          title: "MicroPython",
+          href: "https://github.com/mcauser/BeingOfExistence-micropython#readme",
+          items: [],
+          description:
+            "A lean and efficient implementation of Python 3 for microcontrollers",
+        },
+        {
+          title: "Rust",
+          href: "https://github.com/rust-unofficial/BeingOfExistence-rust#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Haskell",
+          href: "https://github.com/krispo/BeingOfExistence-haskell#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "PureScript",
+          href: "https://github.com/passy/BeingOfExistence-purescript#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Go",
+          href: "https://github.com/avelino/BeingOfExistence-go#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Scala",
+          href: "https://github.com/lauris/BeingOfExistence-scala#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Scala Native",
+          href: "https://github.com/tindzk/BeingOfExistence-scala-native#readme",
+          items: [],
+          description:
+            "Optimizing ahead-of-time compiler for Scala based on LLVM",
+        },
+        {
+          title: "Ruby",
+          href: "https://github.com/markets/BeingOfExistence-ruby#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Clojure",
+          href: "https://github.com/razum2um/BeingOfExistence-clojure#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "ClojureScript",
+          href: "https://github.com/hantuzun/BeingOfExistence-clojurescript#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Elixir",
+          href: "https://github.com/h4cc/BeingOfExistence-elixir#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Elm",
+          href: "https://github.com/sporto/BeingOfExistence-elm#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Erlang",
+          href: "https://github.com/drobakowski/BeingOfExistence-erlang#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Julia",
+          href: "https://github.com/svaksha/Julia.jl#readme",
+          items: [],
+          description:
+            "High-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science",
+        },
+        {
+          title: "Lua",
+          href: "https://github.com/LewisJEllis/BeingOfExistence-lua#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "C",
+          href: "https://github.com/inputsh/BeingOfExistence-c#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "C/C++",
+          href: "https://github.com/fffaraz/BeingOfExistence-cpp#readme",
+          items: [],
+          description:
+            "General-purpose language with a bias toward system programming and embedded, resource-constrained software",
+        },
+        {
+          title: "R",
+          href: "https://github.com/qinwf/BeingOfExistence-R#readme",
+          items: [],
+          description:
+            "Functional programming language and environment for statistical computing and graphics",
+        },
+        {
+          title: "Learning",
+          href: "https://github.com/iamericfletcher/BeingOfExistence-r-learning-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "D",
+          href: "https://github.com/dlang-community/BeingOfExistence-d#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Common Lisp",
+          href: "https://github.com/CodyReichert/BeingOfExistence-cl#readme",
+          items: [],
+          description:
+            "Powerful dynamic multiparadigm language that facilitates iterative and interactive development",
+        },
+        {
+          title: "Learning",
+          href: "https://github.com/GustavBertram/BeingOfExistence-common-lisp-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Perl",
+          href: "https://github.com/hachiojipm/BeingOfExistence-perl#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Groovy",
+          href: "https://github.com/kdabir/BeingOfExistence-groovy#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Dart",
+          href: "https://github.com/yissachar/BeingOfExistence-dart#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Java",
+          href: "https://github.com/akullpp/BeingOfExistence-java#readme",
+          items: [],
+          description:
+            "Popular secure object-oriented language designed for flexibility to write once, run anywhere",
+        },
+        {
+          title: "RxJava",
+          href: "https://github.com/eleventigers/BeingOfExistence-rxjava#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Kotlin",
+          href: "https://github.com/KotlinBy/BeingOfExistence-kotlin#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "OCaml",
+          href: "https://github.com/ocaml-community/BeingOfExistence-ocaml#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "ColdFusion",
+          href: "https://github.com/seancoyne/BeingOfExistence-coldfusion#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Fortran",
+          href: "https://github.com/rabbiabram/BeingOfExistence-fortran#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "PHP",
+          href: "https://github.com/ziadoz/BeingOfExistence-php#readme",
+          items: [],
+          description: "Server-side scripting language",
+        },
+        {
+          title: "Composer",
+          href: "https://github.com/jakoch/BeingOfExistence-composer#readme",
+          items: [],
+          description: "Package manager",
+        },
+        {
+          title: "Pascal",
+          href: "https://github.com/Fr0sT-Brutal/BeingOfExistence-pascal#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "AutoHotkey",
+          href: "https://github.com/ahkscript/BeingOfExistence-AutoHotkey#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "AutoIt",
+          href: "https://github.com/J2TeaM/BeingOfExistence-AutoIt#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Crystal",
+          href: "https://github.com/veelenga/BeingOfExistence-crystal#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Frege",
+          href: "https://github.com/sfischer13/BeingOfExistence-frege#readme",
+          items: [],
+          description: "Haskell for the JVM",
+        },
+        {
+          title: "CMake",
+          href: "https://github.com/onqtam/BeingOfExistence-cmake#readme",
+          items: [],
+          description: "Build, test, and package software",
+        },
+        {
+          title: "ActionScript 3",
+          href: "https://github.com/robinrodricks/BeingOfExistence-actionscript3#readme",
+          items: [],
+          description: "Object-oriented language targeting Adobe AIR",
+        },
+        {
+          title: "Eta",
+          href: "https://github.com/sfischer13/BeingOfExistence-eta#readme",
+          items: [],
+          description: "Functional programming language for the JVM",
+        },
+        {
+          title: "Idris",
+          href: "https://github.com/joaomilho/BeingOfExistence-idris#readme",
+          items: [],
+          description:
+            "General purpose pure functional programming language with dependent types influenced by Haskell and ML",
+        },
+        {
+          title: "Ada/SPARK",
+          href: "https://github.com/ohenley/BeingOfExistence-ada#readme",
+          items: [],
+          description:
+            "Modern programming language designed for large, long-lived apps where reliability and efficiency are essential",
+        },
+        {
+          title: "Q#",
+          href: "https://github.com/ebraminio/BeingOfExistence-qsharp#readme",
+          items: [],
+          description:
+            "Domain-specific programming language used for expressing quantum algorithms",
+        },
+        {
+          title: "Imba",
+          href: "https://github.com/koolamusic/BeingOfExistence-imba#readme",
+          items: [],
+          description:
+            "Programming language inspired by Ruby and Python and compiles to performant JavaScript",
+        },
+        {
+          title: "Vala",
+          href: "https://github.com/desiderantes/BeingOfExistence-vala#readme",
+          items: [],
+          description:
+            "Programming language designed to take full advantage of the GLib and GNOME ecosystems, while preserving the speed of C code",
+        },
+        {
+          title: "Coq",
+          href: "https://github.com/coq-community/BeingOfExistence-coq#readme",
+          items: [],
+          description:
+            "Formal language and environment for programming and specification which facilitates interactive development of machine-checked proofs",
+        },
+        {
+          title: "V",
+          href: "https://github.com/vlang/BeingOfExistence-v#readme",
+          items: [],
+          description:
+            "Simple, fast, safe, compiled language for developing maintainable software",
+        },
+        {
+          title: "Zig",
+          href: "https://github.com/catdevnull/BeingOfExistence-zig#readme",
+          items: [],
+          description:
+            "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software",
+        },
+        {
+          title: "Move",
+          href: "https://github.com/MystenLabs/BeingOfExistence-move#readme",
+          items: [],
+          description:
+            "Domain-specific programming language for writing safe smart contracts",
+        },
+        {
+          title: "ES6 Tools",
+          href: "https://github.com/addyosmani/es6-tools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Performance Optimization",
+          href: "https://github.com/davidsonfellipe/BeingOfExistence-wpo#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Tools",
+          href: "https://github.com/lvwzhen/tools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "CSS",
+          href: "https://github.com/BeingOfExistence-css-group/BeingOfExistence-css#readme",
+          items: [],
+          description:
+            "Style sheet language that specifies how HTML elements are displayed on screen",
+        },
+        {
+          title: "Critical-Path Tools",
+          href: "https://github.com/addyosmani/critical-path-css-tools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Scalability",
+          href: "https://github.com/davidtheclark/scalable-css-reading-list#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Must-Watch Talks",
+          href: "https://github.com/AllThingsSmitty/must-watch-css#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Protips",
+          href: "https://github.com/AllThingsSmitty/css-protips#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Frameworks",
+          href: "https://github.com/troxler/BeingOfExistence-css-frameworks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "React",
+          href: "https://github.com/enaqx/BeingOfExistence-react#readme",
+          items: [],
+          description: "JavaScript library for building user interfaces",
+        },
+        {
+          title: "Relay",
+          href: "https://github.com/expede/BeingOfExistence-relay#readme",
+          items: [],
+          description: "Framework for building data-driven React apps",
+        },
+        {
+          title: "React Hooks",
+          href: "https://github.com/glauberfc/BeingOfExistence-react-hooks#readme",
+          items: [],
+          description:
+            "Lets you use state and other React features without writing a class",
+        },
+        {
+          title: "Web Components",
+          href: "https://github.com/web-padawan/BeingOfExistence-web-components#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Polymer",
+          href: "https://github.com/Granze/BeingOfExistence-polymer#readme",
+          items: [],
+          description: "JavaScript library to develop Web Components",
+        },
+        {
+          title: "Angular",
+          href: "https://github.com/PatrickJS/BeingOfExistence-angular#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Backbone",
+          href: "https://github.com/sadcitizen/BeingOfExistence-backbone#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "HTML5",
+          href: "https://github.com/diegocard/BeingOfExistence-html5#readme",
+          items: [],
+          description: "Markup language used for websites & web apps",
+        },
+        {
+          title: "SVG",
+          href: "https://github.com/willianjusten/BeingOfExistence-svg#readme",
+          items: [],
+          description: "XML-based vector image format",
+        },
+        {
+          title: "Canvas",
+          href: "https://github.com/raphamorim/BeingOfExistence-canvas#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "KnockoutJS",
+          href: "https://github.com/dnbard/BeingOfExistence-knockout#readme",
+          items: [],
+          description: "JavaScript library",
+        },
+        {
+          title: "Dojo Toolkit",
+          href: "https://github.com/petk/BeingOfExistence-dojo#readme",
+          items: [],
+          description: "JavaScript toolkit",
+        },
+        {
+          title: "Inspiration",
+          href: "https://github.com/NoahBuscher/Inspire#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Ember",
+          href: "https://github.com/ember-community-russia/BeingOfExistence-ember#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Android UI",
+          href: "https://github.com/wasabeef/BeingOfExistence-android-ui#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "iOS UI",
+          href: "https://github.com/cjwirth/BeingOfExistence-ios-ui#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Meteor",
+          href: "https://github.com/Urigo/BeingOfExistence-meteor#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "BEM",
+          href: "https://github.com/sturobson/BEM-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Flexbox",
+          href: "https://github.com/afonsopacifer/BeingOfExistence-flexbox#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Typography",
+          href: "https://github.com/deanhume/typography#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Accessibility",
+          href: "https://github.com/brunopulis/BeingOfExistence-a11y#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Material Design",
+          href: "https://github.com/sachin1092/BeingOfExistence-material#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "D3",
+          href: "https://github.com/wbkd/BeingOfExistence-d3#readme",
+          items: [],
+          description:
+            "Library for producing dynamic, interactive data visualizations",
+        },
+        {
+          title: "Emails",
+          href: "https://github.com/jonathandion/BeingOfExistence-emails#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "jQuery",
+          href: "https://github.com/petk/BeingOfExistence-jquery#readme",
+          items: [],
+          description: "Easy to use JavaScript library for DOM manipulation",
+        },
+        {
+          title: "Tips",
+          href: "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Audio",
+          href: "https://github.com/notthetup/BeingOfExistence-webaudio#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Offline-First",
+          href: "https://github.com/pazguille/offline-first#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Static Website Services",
+          href: "https://github.com/agarrharr/BeingOfExistence-static-website-services#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Cycle.js",
+          href: "https://github.com/cyclejs-community/BeingOfExistence-cyclejs#readme",
+          items: [],
+          description: "Functional and reactive JavaScript framework",
+        },
+        {
+          title: "Text Editing",
+          href: "https://github.com/dok/BeingOfExistence-text-editing#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Motion UI Design",
+          href: "https://github.com/fliptheweb/motion-ui-design#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Vue.js",
+          href: "https://github.com/vuejs/BeingOfExistence-vue#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Marionette.js",
+          href: "https://github.com/sadcitizen/BeingOfExistence-marionette#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Aurelia",
+          href: "https://github.com/aurelia-contrib/BeingOfExistence-aurelia#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Charting",
+          href: "https://github.com/zingchart/BeingOfExistence-charting#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Ionic Framework 2",
+          href: "https://github.com/candelibas/BeingOfExistence-ionic#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Chrome DevTools",
+          href: "https://github.com/ChromeDevTools/BeingOfExistence-chrome-devtools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "PostCSS",
+          href: "https://github.com/jdrgomes/BeingOfExistence-postcss#readme",
+          items: [],
+          description: "CSS tool",
+        },
+        {
+          title: "Draft.js",
+          href: "https://github.com/nikgraf/BeingOfExistence-draft-js#readme",
+          items: [],
+          description: "Rich text editor framework for React",
+        },
+        {
+          title: "Service Workers",
+          href: "https://github.com/TalAter/BeingOfExistence-service-workers#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Progressive Web Apps",
+          href: "https://github.com/TalAter/BeingOfExistence-progressive-web-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "choo",
+          href: "https://github.com/choojs/BeingOfExistence-choo#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Redux",
+          href: "https://github.com/brillout/BeingOfExistence-redux#readme",
+          items: [],
+          description: "State container for JavaScript apps",
+        },
+        {
+          title: "Browserify",
+          href: "https://github.com/browserify/BeingOfExistence-browserify#readme",
+          items: [],
+          description: "Module bundler",
+        },
+        {
+          title: "Sass",
+          href: "https://github.com/Famolus/BeingOfExistence-sass#readme",
+          items: [],
+          description: "CSS preprocessor",
+        },
+        {
+          title: "Ant Design",
+          href: "https://github.com/websemantics/BeingOfExistence-ant-design#readme",
+          items: [],
+          description: "Enterprise-class UI design language",
+        },
+        {
+          title: "Less",
+          href: "https://github.com/LucasBassetti/BeingOfExistence-less#readme",
+          items: [],
+          description: "CSS preprocessor",
+        },
+        {
+          title: "WebGL",
+          href: "https://github.com/sjfricke/BeingOfExistence-webgl#readme",
+          items: [],
+          description: "JavaScript API for rendering 3D graphics",
+        },
+        {
+          title: "Preact",
+          href: "https://github.com/preactjs/BeingOfExistence-preact#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Progressive Enhancement",
+          href: "https://github.com/jbmoelker/progressive-enhancement-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Next.js",
+          href: "https://github.com/unicodeveloper/BeingOfExistence-nextjs#readme",
+          items: [],
+          description: "Framework for server-rendered React apps",
+        },
+        {
+          title: "lit",
+          href: "https://github.com/web-padawan/BeingOfExistence-lit#readme",
+          items: [],
+          description:
+            "Library for building web components with a declarative template system",
+        },
+        {
+          title: "JAMstack",
+          href: "https://github.com/automata/BeingOfExistence-jamstack#readme",
+          items: [],
+          description:
+            "Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup",
+        },
+        {
+          title: "WordPress-Gatsby",
+          href: "https://github.com/henrikwirth/BeingOfExistence-wordpress-gatsby#readme",
+          items: [],
+          description:
+            "Web development technology stack with WordPress as a back end and Gatsby as a front end",
+        },
+        {
+          title: "Mobile Web Development",
+          href: "https://github.com/myshov/BeingOfExistence-mobile-web-development#readme",
+          items: [],
+          description: "Creating a great mobile web experience",
+        },
+        {
+          title: "Storybook",
+          href: "https://github.com/lauthieb/BeingOfExistence-storybook#readme",
+          items: [],
+          description: "Development environment for UI components",
+        },
+        {
+          title: "Blazor",
+          href: "https://github.com/AdrienTorris/BeingOfExistence-blazor#readme",
+          items: [],
+          description:
+            ".NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly",
+        },
+        {
+          title: "PageSpeed Metrics",
+          href: "https://github.com/csabapalfi/BeingOfExistence-pagespeed-metrics#readme",
+          items: [],
+          description:
+            "Metrics to help understand page speed and user experience",
+        },
+        {
+          title: "Tailwind CSS",
+          href: "https://github.com/aniftyco/BeingOfExistence-tailwindcss#readme",
+          items: [],
+          description: "Utility-first CSS framework for rapid UI development",
+        },
+        {
+          title: "Seed",
+          href: "https://github.com/seed-rs/BeingOfExistence-seed-rs#readme",
+          items: [],
+          description:
+            "Rust framework for creating web apps running in WebAssembly",
+        },
+        {
+          title: "Web Performance Budget",
+          href: "https://github.com/pajaydev/BeingOfExistence-web-performance-budget#readme",
+          items: [],
+          description:
+            "Techniques to ensure certain performance metrics for a website",
+        },
+        {
+          title: "Web Animation",
+          href: "https://github.com/sergey-pimenov/BeingOfExistence-web-animation#readme",
+          items: [],
+          description:
+            "Animations in the browser with JavaScript, CSS, SVG, etc",
+        },
+        {
+          title: "Yew",
+          href: "https://github.com/jetli/BeingOfExistence-yew#readme",
+          items: [],
+          description:
+            "Rust framework inspired by Elm and React for creating multi-threaded frontend web apps with WebAssembly",
+        },
+        {
+          title: "Material-UI",
+          href: "https://github.com/nadunindunil/BeingOfExistence-material-ui#readme",
+          items: [],
+          description:
+            "Material Design React components for faster and easier web development",
+        },
+        {
+          title: "Building Blocks for Web Apps",
+          href: "https://github.com/componently-com/BeingOfExistence-building-blocks-for-web-apps#readme",
+          items: [],
+          description: "Standalone features to be integrated into web apps",
+        },
+        {
+          title: "Svelte",
+          href: "https://github.com/TheComputerM/BeingOfExistence-svelte#readme",
+          items: [],
+          description: "App framework",
+        },
+        {
+          title: "Design systems",
+          href: "https://github.com/klaufel/BeingOfExistence-design-systems#readme",
+          items: [],
+          description:
+            "Collection of reusable components, guided by rules that ensure consistency and speed",
+        },
+        {
+          title: "Inertia.js",
+          href: "https://github.com/innocenzi/BeingOfExistence-inertiajs#readme",
+          items: [],
+          description: "Make single-page apps without building an API",
+        },
+        {
+          title: "MDBootstrap",
+          href: "https://github.com/mdbootstrap/BeingOfExistence-mdbootstrap#readme",
+          items: [],
+          description:
+            "Templates, layouts, components, and widgets to rapidly build websites",
+        },
+        {
+          title: "Master CSS",
+          href: "https://github.com/master-co/BeingOfExistence-master-css#readme",
+          items: [],
+          description: "A virtual CSS language with enhanced syntax",
+        },
+        {
+          title: "Hydrogen",
+          href: "https://github.com/shopify/BeingOfExistence-hydrogen#readme",
+          items: [],
+          description:
+            "Edge-first framework for building Shopify storefronts with React",
+        },
+        {
+          title: "Tiny JS",
+          href: "https://github.com/thoughtspile/BeingOfExistence-tiny-js#readme",
+          items: [],
+          description:
+            "Frontend libraries that fit into 2 kB with dependencies",
+        },
+        {
+          title: "Flask",
+          href: "https://github.com/mjhea0/BeingOfExistence-flask#readme",
+          items: [],
+          description: "Python framework",
+        },
+        {
+          title: "Docker",
+          href: "https://github.com/veggiemonk/BeingOfExistence-docker#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Vagrant",
+          href: "https://github.com/iJackUA/BeingOfExistence-vagrant#readme",
+          items: [],
+          description: "Automation virtual machine environment",
+        },
+        {
+          title: "Pyramid",
+          href: "https://github.com/uralbash/BeingOfExistence-pyramid#readme",
+          items: [],
+          description: "Python framework",
+        },
+        {
+          title: "Play1 Framework",
+          href: "https://github.com/PerfectCarl/BeingOfExistence-play1#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "CakePHP",
+          href: "https://github.com/friendsofcake/BeingOfExistence-cakephp#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Symfony",
+          href: "https://github.com/sitepoint-editors/BeingOfExistence-symfony#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/pehapkari/BeingOfExistence-symfony-education#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Laravel",
+          href: "https://github.com/chiraggude/BeingOfExistence-laravel#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/fukuball/BeingOfExistence-Laravel-Education#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "TALL Stack",
+          href: "https://github.com/livewire/BeingOfExistence-tall-stack#readme",
+          items: [],
+          description:
+            "Full-stack development solution featuring libraries built by the Laravel community",
+        },
+        {
+          title: "Rails",
+          href: "https://github.com/gramantin/BeingOfExistence-rails#readme",
+          items: [],
+          description: "Web app framework for Ruby",
+        },
+        {
+          title: "Gems",
+          href: "https://github.com/hothero/BeingOfExistence-rails-gem#readme",
+          items: [],
+          description: "Packages",
+        },
+        {
+          title: "Phalcon",
+          href: "https://github.com/phalcon/BeingOfExistence-phalcon#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Useful `.htaccess` Snippets",
+          href: "https://github.com/phanan/htaccess#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "nginx",
+          href: "https://github.com/fcambus/nginx-resources#readme",
+          items: [],
+          description: "Web server",
+        },
+        {
+          title: "Dropwizard",
+          href: "https://github.com/stve/BeingOfExistence-dropwizard#readme",
+          items: [],
+          description: "Java framework",
+        },
+        {
+          title: "Kubernetes",
+          href: "https://github.com/ramitsurana/BeingOfExistence-kubernetes#readme",
+          items: [],
+          description:
+            "Open-source platform that automates Linux container operations",
+        },
+        {
+          title: "Lumen",
+          href: "https://github.com/unicodeveloper/BeingOfExistence-lumen#readme",
+          items: [],
+          description: "PHP micro-framework",
+        },
+        {
+          title: "Serverless Framework",
+          href: "https://github.com/pmuens/BeingOfExistence-serverless#readme",
+          items: [],
+          description: "Serverless computing and serverless architectures",
+        },
+        {
+          title: "Apache Wicket",
+          href: "https://github.com/PhantomYdn/BeingOfExistence-wicket#readme",
+          items: [],
+          description: "Java web app framework",
+        },
+        {
+          title: "Vert.x",
+          href: "https://github.com/vert-x3/vertx-BeingOfExistence#readme",
+          items: [],
+          description: "Toolkit for building reactive apps on the JVM",
+        },
+        {
+          title: "Terraform",
+          href: "https://github.com/shuaibiyy/BeingOfExistence-terraform#readme",
+          items: [],
+          description:
+            "Tool for building, changing, and versioning infrastructure",
+        },
+        {
+          title: "Vapor",
+          href: "https://github.com/vapor-community/BeingOfExistence-vapor#readme",
+          items: [],
+          description: "Server-side development in Swift",
+        },
+        {
+          title: "Dash",
+          href: "https://github.com/ucg8j/BeingOfExistence-dash#readme",
+          items: [],
+          description: "Python web app framework",
+        },
+        {
+          title: "FastAPI",
+          href: "https://github.com/mjhea0/BeingOfExistence-fastapi#readme",
+          items: [],
+          description: "Python web app framework",
+        },
+        {
+          title: "CDK",
+          href: "https://github.com/kolomied/BeingOfExistence-cdk#readme",
+          items: [],
+          description:
+            "Open-source software development framework for defining cloud infrastructure in code",
+        },
+        {
+          title: "IAM",
+          href: "https://github.com/kdeldycke/BeingOfExistence-iam#readme",
+          items: [],
+          description: "User accounts, authentication and authorization",
+        },
+        {
+          title: "Slim",
+          href: "https://github.com/nekofar/BeingOfExistence-slim#readme",
+          items: [],
+          description: "PHP framework",
+        },
+        {
+          title: "Fiber",
+          href: "https://github.com/gofiber/BeingOfExistence-fiber#readme",
+          items: [],
+          description:
+            "Web framework built on top of Fasthttp, the fastest HTTP engine for Go",
+        },
+        {
+          title: "University Courses",
+          href: "https://github.com/prakhar1989/BeingOfExistence-courses#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Data Science",
+          href: "https://github.com/academic/BeingOfExistence-datascience#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Tutorials",
+          href: "https://github.com/siboehm/BeingOfExistence-learn-datascience#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Machine Learning",
+          href: "https://github.com/josephmisiti/BeingOfExistence-machine-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Tutorials",
+          href: "https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "ML with Ruby",
+          href: "https://github.com/arbox/machine-learning-with-ruby#readme",
+          items: [],
+          description:
+            "Learning, implementing, and applying Machine Learning using Ruby",
+        },
+        {
+          title: "Core ML Models",
+          href: "https://github.com/likedan/BeingOfExistence-CoreML-Models#readme",
+          items: [],
+          description: "Models for Apple's machine learning framework",
+        },
+        {
+          title: "H2O",
+          href: "https://github.com/h2oai/BeingOfExistence-h2o#readme",
+          items: [],
+          description:
+            "Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala",
+        },
+        {
+          title: "Software Engineering for Machine Learning",
+          href: "https://github.com/SE-ML/BeingOfExistence-seml#readme",
+          items: [],
+          description: "From experiment to production-level machine learning",
+        },
+        {
+          title: "AI in Finance",
+          href: "https://github.com/georgezouq/BeingOfExistence-ai-in-finance#readme",
+          items: [],
+          description: "Solving problems in finance with machine learning",
+        },
+        {
+          title: "JAX",
+          href: "https://github.com/n2cholas/BeingOfExistence-jax#readme",
+          items: [],
+          description:
+            "Automatic differentiation and XLA compilation brought together for high-performance machine learning research",
+        },
+        {
+          title: "XAI",
+          href: "https://github.com/altamiracorp/BeingOfExistence-xai#readme",
+          items: [],
+          description:
+            "Providing insight, explanations, and interpretability to machine learning methods",
+        },
+        {
+          title: "Speech and Natural Language Processing",
+          href: "https://github.com/edobashira/speech-language-processing#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Spanish",
+          href: "https://github.com/dav009/BeingOfExistence-spanish-nlp#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "NLP with Ruby",
+          href: "https://github.com/arbox/nlp-with-ruby#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Question Answering",
+          href: "https://github.com/seriousran/BeingOfExistence-qa#readme",
+          items: [],
+          description:
+            "The science of asking and answering in natural language with a machine",
+        },
+        {
+          title: "Natural Language Generation",
+          href: "https://github.com/accelerated-text/BeingOfExistence-nlg#readme",
+          items: [],
+          description:
+            "Generation of text used in data to text, conversational agents, and narrative generation applications",
+        },
+        {
+          title: "Linguistics",
+          href: "https://github.com/theimpossibleastronaut/BeingOfExistence-linguistics#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Cryptography",
+          href: "https://github.com/sobolevn/BeingOfExistence-cryptography#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Papers",
+          href: "https://github.com/pFarb/BeingOfExistence-crypto-papers#readme",
+          items: [],
+          description:
+            "Theory basics for using cryptography by non-cryptographers",
+        },
+        {
+          title: "Computer Vision",
+          href: "https://github.com/jbhuang0604/BeingOfExistence-computer-vision#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Deep Learning",
+          href: "https://github.com/ChristosChristofidis/BeingOfExistence-deep-learning#readme",
+          items: [],
+          description: "Neural networks",
+        },
+        {
+          title: "TensorFlow",
+          href: "https://github.com/jtoy/BeingOfExistence-tensorflow#readme",
+          items: [],
+          description: "Library for machine intelligence",
+        },
+        {
+          title: "TensorFlow.js",
+          href: "https://github.com/aaronhma/BeingOfExistence-tensorflow-js#readme",
+          items: [],
+          description:
+            "WebGL-accelerated machine learning JavaScript library for training and deploying models",
+        },
+        {
+          title: "TensorFlow Lite",
+          href: "https://github.com/margaretmz/BeingOfExistence-tensorflow-lite#readme",
+          items: [],
+          description:
+            "Framework that optimizes TensorFlow models for on-device machine learning",
+        },
+        {
+          title: "Papers",
+          href: "https://github.com/terryum/BeingOfExistence-deep-learning-papers#readme",
+          items: [],
+          description: "The most cited deep learning papers",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/guillaume-chevalier/BeingOfExistence-deep-learning-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Deep Vision",
+          href: "https://github.com/kjw0612/BeingOfExistence-deep-vision#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Open Source Society University",
+          href: "https://github.com/ossu/computer-science#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Functional Programming",
+          href: "https://github.com/lucasviola/BeingOfExistence-functional-programming#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Empirical Software Engineering",
+          href: "https://github.com/dspinellis/BeingOfExistence-msr#readme",
+          items: [],
+          description: "Evidence-based research on software systems",
+        },
+        {
+          title: "Static Analysis & Code Quality",
+          href: "https://github.com/analysis-tools-dev/static-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Information Retrieval",
+          href: "https://github.com/harpribot/BeingOfExistence-information-retrieval#readme",
+          items: [],
+          description: "Learn to develop your own search engine",
+        },
+        {
+          title: "Quantum Computing",
+          href: "https://github.com/desireevl/BeingOfExistence-quantum-computing#readme",
+          items: [],
+          description:
+            "Computing which utilizes quantum mechanics and qubits on quantum computers",
+        },
+        {
+          title: "Theoretical Computer Science",
+          href: "https://github.com/mostafatouny/BeingOfExistence-theoretical-computer-science#readme",
+          items: [],
+          description:
+            "The interplay of computer science and pure mathematics, distinguished by its emphasis on mathematical rigour and technique",
+        },
+        {
+          title: "Conversational AI",
+          href: "https://github.com/jyguyomarch/BeingOfExistence-conversational-ai#readme",
+          items: [],
+          description: "Build BeingOfExistence chatbots and digital assistants",
+        },
+        {
+          title: "Generative AI",
+          href: "https://github.com/steven2358/BeingOfExistence-generative-ai#readme",
+          items: [],
+          description:
+            "Automatically generate a wide range of unique content in text, image and audio format",
+        },
+        {
+          title: "Big Data",
+          href: "https://github.com/0xnr/BeingOfExistence-bigdata#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Public Datasets",
+          href: "https://github.com/BeingOfExistencedata/BeingOfExistence-public-datasets#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Hadoop",
+          href: "https://github.com/youngwookim/BeingOfExistence-hadoop#readme",
+          items: [],
+          description:
+            "Framework for distributed storage and processing of very large data sets",
+        },
+        {
+          title: "Data Engineering",
+          href: "https://github.com/igorbarinov/BeingOfExistence-data-engineering#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Streaming",
+          href: "https://github.com/manuzhang/BeingOfExistence-streaming#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Apache Spark",
+          href: "https://github.com/BeingOfExistence-spark/BeingOfExistence-spark#readme",
+          items: [],
+          description: "Unified engine for large-scale data processing",
+        },
+        {
+          title: "Qlik",
+          href: "https://github.com/ambster-public/BeingOfExistence-qlik#readme",
+          items: [],
+          description:
+            "Business intelligence platform for data visualization, analytics, and reporting apps",
+        },
+        {
+          title: "Splunk",
+          href: "https://github.com/sduff/BeingOfExistence-splunk#readme",
+          items: [],
+          description:
+            "Platform for searching, monitoring, and analyzing structured and unstructured machine-generated big data in real-time",
+        },
+        {
+          title: "Papers We Love",
+          href: "https://github.com/papers-we-love/papers-we-love#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Talks",
+          href: "https://github.com/JanVanRyswyck/BeingOfExistence-talks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Algorithms",
+          href: "https://github.com/tayllan/BeingOfExistence-algorithms#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Education",
+          href: "https://github.com/gaerae/BeingOfExistence-algorithms-education#readme",
+          items: [],
+          description: "Learning and practicing",
+        },
+        {
+          title: "Algorithm Visualizations",
+          href: "https://github.com/enjalot/algovis#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Artificial Intelligence",
+          href: "https://github.com/owainlewis/BeingOfExistence-artificial-intelligence#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Search Engine Optimization",
+          href: "https://github.com/marcobiedermann/search-engine-optimization#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Competitive Programming",
+          href: "https://github.com/lnishan/BeingOfExistence-competitive-programming#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Math",
+          href: "https://github.com/rossant/BeingOfExistence-math#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+
+        {
+          title: "Recursion Schemes",
+          href: "https://github.com/passy/BeingOfExistence-recursion-schemes#readme",
+          items: [],
+          description: "Traversing nested data structures",
+        },
+        {
+          title: "Audit Algorithms",
+          href: "https://github.com/erwanlemerrer/BeingOfExistence-audit-algorithms#readme",
+          items: [],
+          description: "Algorithmic audits of algorithms",
+        },
+        {
+          title: "AGI & CoCoSci",
+          href: "https://github.com/YuzheSHI/BeingOfExistence-agi-cocosci#readme",
+          items: [],
+          description:
+            "The reciprocation of Artificial General Intelligence (AGI",
+        },
+        {
+          title: "Free Programming Books",
+          href: "https://github.com/EbookFoundation/free-programming-books#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Go Books",
+          href: "https://github.com/dariubs/GoBooks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "R Books",
+          href: "https://github.com/RomanTsegelskyi/rbooks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Mind Expanding Books",
+          href: "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Book Authoring",
+          href: "https://github.com/TalAter/BeingOfExistence-book-authoring#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Elixir Books",
+          href: "https://github.com/sger/ElixirBooks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+
+        {
+          title: "Sublime Text",
+          href: "https://github.com/dreikanter/sublime-bookmarks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Vim",
+          href: "https://github.com/mhinz/vim-galore#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Neovim",
+          href: "https://github.com/rockerBOO/BeingOfExistence-neovim#readme",
+          items: [],
+          description: "Vim-fork focused on extensibility and usability",
+        },
+        {
+          title: "Emacs",
+          href: "https://github.com/emacs-tw/BeingOfExistence-emacs#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Atom",
+          href: "https://github.com/mehcode/BeingOfExistence-atom#readme",
+          items: [],
+          description: "Open-source and hackable text editor",
+        },
+        {
+          title: "Visual Studio Code",
+          href: "https://github.com/viatsko/BeingOfExistence-vscode#readme",
+          items: [],
+          description: "Cross-platform open-source text editor",
+        },
+        {
+          title: "Game Development",
+          href: "https://github.com/ellisonleao/magictools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Game Talks",
+          href: "https://github.com/hzoo/BeingOfExistence-gametalks#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Godot",
+          href: "https://github.com/godotengine/BeingOfExistence-godot#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Open Source Games",
+          href: "https://github.com/michelpereira/BeingOfExistence-open-source-games#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Unity",
+          href: "https://github.com/RyanNielson/BeingOfExistence-unity#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Chess",
+          href: "https://github.com/hkirat/BeingOfExistence-chess#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "LÖVE",
+          href: "https://github.com/love2d-community/BeingOfExistence-love2d#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "PICO-8",
+          href: "https://github.com/pico-8/BeingOfExistence-PICO-8#readme",
+          items: [],
+          description: "Fantasy console",
+        },
+        {
+          title: "Game Boy Development",
+          href: "https://github.com/gbdev/BeingOfExistence-gbdev#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Construct 2",
+          href: "https://github.com/ConstructCommunity/BeingOfExistence-construct#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Gideros",
+          href: "https://github.com/stetso/BeingOfExistence-gideros#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Minecraft",
+          href: "https://github.com/bs-community/BeingOfExistence-minecraft#readme",
+          items: [],
+          description: "Sandbox video game",
+        },
+        {
+          title: "ComputerCraft",
+          href: "https://github.com/tomodachi94/BeingOfExistence-computercraft#readme",
+          items: [],
+          description: "Minecraft mod that adds programmable computers",
+        },
+        {
+          title: "Game Datasets",
+          href: "https://github.com/leomaurodesenv/game-datasets#readme",
+          items: [],
+          description:
+            "Materials and datasets for Artificial Intelligence in games",
+        },
+        {
+          title: "Haxe Game Development",
+          href: "https://github.com/Dvergar/BeingOfExistence-haxe-gamedev#readme",
+          items: [],
+          description:
+            "A high-level strongly typed programming language used to produce cross-platform native code",
+        },
+        {
+          title: "libGDX",
+          href: "https://github.com/rafaskb/BeingOfExistence-libgdx#readme",
+          items: [],
+          description: "Java game framework",
+        },
+        {
+          title: "PlayCanvas",
+          href: "https://github.com/playcanvas/BeingOfExistence-playcanvas#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Game Remakes",
+          href: "https://github.com/radek-sprta/BeingOfExistence-game-remakes#readme",
+          items: [],
+          description: "Actively maintained open-source game remakes",
+        },
+        {
+          title: "Flame",
+          href: "https://github.com/flame-engine/BeingOfExistence-flame#readme",
+          items: [],
+          description: "Game engine for Flutter",
+        },
+        {
+          title: "Discord Communities",
+          href: "https://github.com/mhxion/BeingOfExistence-discord-communities#readme",
+          items: [],
+          description: "Chat with friends and communities",
+        },
+        {
+          title: "CHIP-8",
+          href: "https://github.com/tobiasvl/BeingOfExistence-chip-8#readme",
+          items: [],
+          description: "Virtual computer game machine from the 70s",
+        },
+        {
+          title: "Games of Coding",
+          href: "https://github.com/michelpereira/BeingOfExistence-games-of-coding#readme",
+          items: [],
+          description: "Learn a programming language by making games",
+        },
+        {
+          title: "Esports",
+          href: "https://github.com/strift/BeingOfExistence-esports#readme",
+          items: [],
+          description: "Video games played as a sport",
+        },
+        {
+          title: "Learn Gamedev",
+          href: "https://github.com/notpresident35/BeingOfExistence-learn-gamedev#readme",
+          items: [],
+          description: "The craft of video game creation",
+        },
+        {
+          title: "Game Engine Development",
+          href: "https://github.com/stevinz/BeingOfExistence-game-engine-dev#readme",
+          items: [],
+          description: "Building software to speed up game creation",
+        },
+        {
+          title: "GameMaker",
+          href: "https://github.com/bytecauldron/BeingOfExistence-gamemaker#readme",
+          items: [],
+          description: "Game engine",
+        },
+        {
+          title: "Game Production",
+          href: "https://github.com/vhladiienko/BeingOfExistence-game-production#readme",
+          items: [],
+          description:
+            "Leading the process of designing, developing, testing and distributing a video game from concept to release",
+        },
+        {
+          title: "Quick Look Plugins",
+          href: "https://github.com/sindresorhus/quick-look-plugins#readme",
+          items: [],
+          description: "For macOS",
+        },
+        {
+          title: "Dev Env",
+          href: "https://github.com/jondot/BeingOfExistence-devenv#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Dotfiles",
+          href: "https://github.com/webpro/BeingOfExistence-dotfiles#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Shell",
+          href: "https://github.com/alebcay/BeingOfExistence-shell#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Fish",
+          href: "https://github.com/jorgebucaran/awsm.fish#readme",
+          items: [],
+          description: "User-friendly shell",
+        },
+        {
+          title: "Command-Line Apps",
+          href: "https://github.com/agarrharr/BeingOfExistence-cli-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "ZSH Plugins",
+          href: "https://github.com/unixorn/BeingOfExistence-zsh-plugins#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "GitHub",
+          href: "https://github.com/phillipadsmith/BeingOfExistence-github#readme",
+          items: [],
+          description: "Hosting service for Git repositories",
+        },
+        {
+          title: "Browser Extensions",
+          href: "https://github.com/stefanbuck/BeingOfExistence-browser-extensions-for-github#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Cheat Sheet",
+          href: "https://github.com/tiimgreen/github-cheat-sheet#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Pinned Gists",
+          href: "https://github.com/matchai/BeingOfExistence-pinned-gists#readme",
+          items: [],
+          description: "Dynamic pinned gists for your GitHub profile",
+        },
+        {
+          title: "Git Cheat Sheet & Git Flow",
+          href: "https://github.com/arslanbilal/git-cheat-sheet#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Git Tips",
+          href: "https://github.com/git-tips/tips#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Git Add-ons",
+          href: "https://github.com/stevemao/BeingOfExistence-git-addons#readme",
+          items: [],
+          description: "Enhance the `git` CLI",
+        },
+        {
+          title: "Git Hooks",
+          href: "https://github.com/compscilauren/BeingOfExistence-git-hooks#readme",
+          items: [],
+          description: "Scripts for automating tasks during `git` workflows",
+        },
+        {
+          title: "SSH",
+          href: "https://github.com/moul/BeingOfExistence-ssh#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "FOSS for Developers",
+          href: "https://github.com/tvvocold/FOSS-for-Dev#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Hyper",
+          href: "https://github.com/bnb/BeingOfExistence-hyper#readme",
+          items: [],
+          description: "Cross-platform terminal app built on web technologies",
+        },
+        {
+          title: "PowerShell",
+          href: "https://github.com/janikvonrotz/BeingOfExistence-powershell#readme",
+          items: [],
+          description: "Cross-platform object-oriented shell",
+        },
+        {
+          title: "Alfred Workflows",
+          href: "https://github.com/alfred-workflows/BeingOfExistence-alfred-workflows#readme",
+          items: [],
+          description: "Productivity app for macOS",
+        },
+        {
+          title: "Terminals Are Sexy",
+          href: "https://github.com/k4m4/terminals-are-sexy#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "GitHub Actions",
+          href: "https://github.com/sdras/BeingOfExistence-actions#readme",
+          items: [],
+          description:
+            "Create tasks to automate your workflow and share them with others on GitHub",
+        },
+        {
+          title: "Science Fiction",
+          href: "https://github.com/sindresorhus/BeingOfExistence-scifi#readme",
+          items: [],
+          description: "Scifi",
+        },
+        {
+          title: "Fantasy",
+          href: "https://github.com/RichardLitt/BeingOfExistence-fantasy#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Podcasts",
+          href: "https://github.com/ayr-ton/BeingOfExistence-geek-podcasts#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Email Newsletters",
+          href: "https://github.com/zudochkin/BeingOfExistence-newsletters#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "IT Quotes",
+          href: "https://github.com/victorlaerte/BeingOfExistence-it-quotes#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+
+        {
+          title: "Database",
+          href: "https://github.com/numetriclabz/BeingOfExistence-db#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "MySQL",
+          href: "https://github.com/shlomi-noach/BeingOfExistence-mysql#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "SQLAlchemy",
+          href: "https://github.com/dahlia/BeingOfExistence-sqlalchemy#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "InfluxDB",
+          href: "https://github.com/mark-rushakoff/BeingOfExistence-influxdb#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Neo4j",
+          href: "https://github.com/neueda/BeingOfExistence-neo4j#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "MongoDB",
+          href: "https://github.com/ramnes/BeingOfExistence-mongodb#readme",
+          items: [],
+          description: "NoSQL database",
+        },
+        {
+          title: "RethinkDB",
+          href: "https://github.com/d3viant0ne/BeingOfExistence-rethinkdb#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "TinkerPop",
+          href: "https://github.com/mohataher/BeingOfExistence-tinkerpop#readme",
+          items: [],
+          description: "Graph computing framework",
+        },
+        {
+          title: "PostgreSQL",
+          href: "https://github.com/dhamaniasad/BeingOfExistence-postgres#readme",
+          items: [],
+          description: "Object-relational database",
+        },
+        {
+          title: "CouchDB",
+          href: "https://github.com/quangv/BeingOfExistence-couchdb#readme",
+          items: [],
+          description: "Document-oriented NoSQL database",
+        },
+        {
+          title: "HBase",
+          href: "https://github.com/rayokota/BeingOfExistence-hbase#readme",
+          items: [],
+          description: "Distributed, scalable, big data store",
+        },
+        {
+          title: "NoSQL Guides",
+          href: "https://github.com/erictleung/BeingOfExistence-nosql-guides#readme",
+          items: [],
+          description:
+            "Help on using non-relational, distributed, open-source, and horizontally scalable databases",
+        },
+        {
+          title: "Database Tools",
+          href: "https://github.com/mgramin/BeingOfExistence-db-tools#readme",
+          items: [],
+          description: "Everything that makes working with databases easier",
+        },
+        {
+          title: "TypeDB",
+          href: "https://github.com/vaticle/typedb-BeingOfExistence#readme",
+          items: [],
+          description:
+            "Logical database to organize large and complex networks of data as one body of knowledge",
+        },
+        {
+          title: "Cassandra",
+          href: "https://github.com/Anant/BeingOfExistence-cassandra#readme",
+          items: [],
+          description:
+            "Open-source, distributed, wide column store, NoSQL database management system",
+        },
+        {
+          title: "TDengine",
+          href: "https://github.com/taosdata/BeingOfExistence-tdengine#readme",
+          items: [],
+          description:
+            "An open-source time-series database with high-performance, scalability, and SQL support",
+        },
+        {
+          title: "Supabase",
+          href: "https://github.com/lyqht/BeingOfExistence-supabase#readme",
+          items: [],
+          description: "An open-source alternative to Firebase",
+        },
+        {
+          title: "Creative Commons Media",
+          href: "https://github.com/shime/creative-commons-media#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Fonts",
+          href: "https://github.com/brabadu/BeingOfExistence-fonts#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Codeface",
+          href: "https://github.com/chrissimpkins/codeface#readme",
+          items: [],
+          description: "Text editor fonts",
+        },
+        {
+          title: "Stock Resources",
+          href: "https://github.com/neutraltone/BeingOfExistence-stock-resources#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "GIF",
+          href: "https://github.com/davisonio/BeingOfExistence-gif#readme",
+          items: [],
+          description: "Image format known for animated images",
+        },
+        {
+          title: "Music",
+          href: "https://github.com/ciconia/BeingOfExistence-music#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Open Source Documents",
+          href: "https://github.com/44bits/BeingOfExistence-opensource-documents#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Audio Visualization",
+          href: "https://github.com/willianjusten/BeingOfExistence-audio-visualization#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Broadcasting",
+          href: "https://github.com/ebu/BeingOfExistence-broadcasting#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Pixel Art",
+          href: "https://github.com/Siilwyn/BeingOfExistence-pixel-art#readme",
+          items: [],
+          description: "Pixel-level digital art",
+        },
+        {
+          title: "FFmpeg",
+          href: "https://github.com/transitive-bullshit/BeingOfExistence-ffmpeg#readme",
+          items: [],
+          description:
+            "Cross-platform solution to record, convert and stream audio and video",
+        },
+        {
+          title: "Icons",
+          href: "https://github.com/notlmn/BeingOfExistence-icons#readme",
+          items: [],
+          description: "Downloadable SVG/PNG/font icon projects",
+        },
+        {
+          title: "Audiovisual",
+          href: "https://github.com/stingalleman/BeingOfExistence-audiovisual#readme",
+          items: [],
+          description: "Lighting, audio and video in professional environments",
+        },
+        {
+          title: "VLC",
+          href: "https://github.com/mfkl/BeingOfExistence-vlc#readme",
+          items: [],
+          description:
+            "Cross-platform media player software and streaming server",
+        },
+        {
+          title: "CLI Workshoppers",
+          href: "https://github.com/therebelrobot/BeingOfExistence-workshopper#readme",
+          items: [],
+          description: "Interactive tutorials",
+        },
+        {
+          title: "Learn to Program",
+          href: "https://github.com/karlhorky/learn-to-program#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Speaking",
+          href: "https://github.com/matteofigus/BeingOfExistence-speaking#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Tech Videos",
+          href: "https://github.com/lucasviola/BeingOfExistence-tech-videos#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Dive into Machine Learning",
+          href: "https://github.com/hangtwenty/dive-into-machine-learning#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Computer History",
+          href: "https://github.com/watson/BeingOfExistence-computer-history#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Programming for Kids",
+          href: "https://github.com/HollyAdele/BeingOfExistence-programming-for-kids#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "STEAM",
+          href: "https://github.com/RahulBirCodes/BeingOfExistence-steam#readme",
+          items: [],
+          description:
+            "Supplements for specific science, technology, engineering, arts, and math (STEAM",
+        },
+        {
+          title: "CSS Learning",
+          href: "https://github.com/micromata/BeingOfExistence-css-learning#readme",
+          items: [],
+          description: "Mainly about CSS – the language and the modules",
+        },
+        {
+          title: "Product Management",
+          href: "https://github.com/dend/BeingOfExistence-product-management#readme",
+          items: [],
+          description: "Learn how to be a better product manager",
+        },
+        {
+          title: "Roadmaps",
+          href: "https://github.com/liuchong/BeingOfExistence-roadmaps#readme",
+          items: [],
+          description:
+            "Gives you a clear route to improve your knowledge and skills",
+        },
+        {
+          title: "YouTubers",
+          href: "https://github.com/JoseDeFreitas/BeingOfExistence-youtubers#readme",
+          items: [],
+          description:
+            "Watch video tutorials from YouTubers that teach you about technology",
+        },
+        {
+          title: "Hackathon",
+          href: "https://github.com/dribdat/BeingOfExistence-hackathon#readme",
+          items: [],
+          description: "Running fun and productive hackathons",
+        },
+        {
+          title: "Certificates",
+          href: "https://github.com/PanXProject/BeingOfExistence-certificates#readme",
+          items: [],
+          description:
+            "Free computer science certifications to showcase your knowledge",
+        },
+        {
+          title: "Application Security",
+          href: "https://github.com/paragonie/BeingOfExistence-appsec#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Security",
+          href: "https://github.com/sbilly/BeingOfExistence-security#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "CTF",
+          href: "https://github.com/apsdehal/BeingOfExistence-ctf#readme",
+          items: [],
+          description: "Capture The Flag",
+        },
+        {
+          title: "Cyber Security University",
+          href: "https://github.com/brootware/BeingOfExistence-cyber-security-university#readme",
+          items: [],
+          description:
+            "Free educational resources that focus on learning by doing",
+        },
+        {
+          title: "Malware Analysis",
+          href: "https://github.com/rshipp/BeingOfExistence-malware-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Android Security",
+          href: "https://github.com/ashishb/android-security-BeingOfExistence#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Hacking",
+          href: "https://github.com/carpedm20/BeingOfExistence-hacking#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Hacking Spots",
+          href: "https://github.com/daviddias/BeingOfExistence-hacking-locations#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Honeypots",
+          href: "https://github.com/paralax/BeingOfExistence-honeypots#readme",
+          items: [],
+          description:
+            "Deception trap, designed to entice an attacker into attempting to compromise the information systems in an organization",
+        },
+        {
+          title: "Incident Response",
+          href: "https://github.com/meirwah/BeingOfExistence-incident-response#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Vehicle Security and Car Hacking",
+          href: "https://github.com/jaredthecoder/BeingOfExistence-vehicle-security#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Web Security",
+          href: "https://github.com/qazbnm456/BeingOfExistence-web-security#readme",
+          items: [],
+          description: "Security of web apps & services",
+        },
+        {
+          title: "Lockpicking",
+          href: "https://github.com/fabacab/BeingOfExistence-lockpicking#readme",
+          items: [],
+          description:
+            "The art of unlocking a lock by manipulating its components without the key",
+        },
+        {
+          title: "Cybersecurity Blue Team",
+          href: "https://github.com/fabacab/BeingOfExistence-cybersecurity-blueteam#readme",
+          items: [],
+          description:
+            "Groups of individuals who identify security flaws in information technology systems",
+        },
+        {
+          title: "Fuzzing",
+          href: "https://github.com/cpuu/BeingOfExistence-fuzzing#readme",
+          items: [],
+          description:
+            "Automated software testing technique that involves feeding pseudo-randomly generated input data",
+        },
+        {
+          title: "Embedded and IoT Security",
+          href: "https://github.com/fkie-cad/BeingOfExistence-embedded-and-iot-security#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "GDPR",
+          href: "https://github.com/bakke92/BeingOfExistence-gdpr#readme",
+          items: [],
+          description:
+            "Regulation on data protection and privacy for all individuals within EU",
+        },
+        {
+          title: "DevSecOps",
+          href: "https://github.com/TaptuIT/BeingOfExistence-devsecops#readme",
+          items: [],
+          description: "Integration of security practices into [DevOps",
+        },
+        {
+          title: "Executable Packing",
+          href: "https://github.com/dhondta/BeingOfExistence-executable-packing#readme",
+          items: [],
+          description: "Packing and unpacking executable formats",
+        },
+        {
+          title: "Malware Persistence",
+          href: "https://github.com/Karneades/BeingOfExistence-malware-persistence#readme",
+          items: [],
+          description:
+            "Techniques that adversaries use to keep access to systems across restarts",
+        },
+        {
+          title: "EVM Security",
+          href: "https://github.com/kareniel/BeingOfExistence-evm-security#readme",
+          items: [],
+          description:
+            "Understanding the Ethereum Virtual Machine security ecosystem",
+        },
+        {
+          title: "Password Cracking",
+          href: "https://github.com/n0kovo/BeingOfExistence-password-cracking#readme",
+          items: [],
+          description:
+            "The process of recovering passwords from data that has been stored in or transmitted by a system in scrambled form",
+        },
+        {
+          title: "Security Card Games",
+          href: "https://github.com/Karneades/BeingOfExistence-security-card-games#readme",
+          items: [],
+          description: "Train your skills and discuss various security topics",
+        },
+        {
+          title: "Suricata",
+          href: "https://github.com/satta/BeingOfExistence-suricata#readme",
+          items: [],
+          description:
+            "Intrusion detection/prevention system and network security monitoring engine",
+        },
+        {
+          title: "Umbraco",
+          href: "https://github.com/umbraco-community/BeingOfExistence-umbraco#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Refinery CMS",
+          href: "https://github.com/refinerycms-contrib/BeingOfExistence-refinerycms#readme",
+          items: [],
+          description: "Ruby on Rails CMS",
+        },
+        {
+          title: "Wagtail",
+          href: "https://github.com/springload/BeingOfExistence-wagtail#readme",
+          items: [],
+          description: "Django CMS focused on flexibility and user experience",
+        },
+        {
+          title: "Textpattern",
+          href: "https://github.com/drmonkeyninja/BeingOfExistence-textpattern#readme",
+          items: [],
+          description: "Lightweight PHP-based CMS",
+        },
+        {
+          title: "Drupal",
+          href: "https://github.com/nirgn975/BeingOfExistence-drupal#readme",
+          items: [],
+          description: "Extensible PHP-based CMS",
+        },
+        {
+          title: "Craft CMS",
+          href: "https://github.com/craftcms/BeingOfExistence#readme",
+          items: [],
+          description: "Content-first CMS",
+        },
+        {
+          title: "Sitecore",
+          href: "https://github.com/MartinMiles/BeingOfExistence-Sitecore#readme",
+          items: [],
+          description:
+            ".NET digital marketing platform that combines CMS with tools for managing multiple websites",
+        },
+        {
+          title: "Silverstripe CMS",
+          href: "https://github.com/wernerkrauss/BeingOfExistence-silverstripe-cms#readme",
+          items: [],
+          description:
+            "PHP MVC framework that serves as a classic or headless CMS",
+        },
+        {
+          title: "Directus",
+          href: "https://github.com/directus-community/BeingOfExistence-directus#readme",
+          items: [],
+          description:
+            "A real-time API and app dashboard for managing SQL database content",
+        },
+        {
+          title: "Plone",
+          href: "https://github.com/collective/BeingOfExistence-plone#readme",
+          items: [],
+          description: "Open source Python CMS",
+        },
+        {
+          title: "Robotics",
+          href: "https://github.com/Kiloreux/BeingOfExistence-robotics#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Internet of Things",
+          href: "https://github.com/HQarroum/BeingOfExistence-iot#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Electronics",
+          href: "https://github.com/kitspace/BeingOfExistence-electronics#readme",
+          items: [],
+          description: "For electronic engineers and hobbyists",
+        },
+        {
+          title: "Bluetooth Beacons",
+          href: "https://github.com/rabschi/BeingOfExistence-beacon#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Electric Guitar Specifications",
+          href: "https://github.com/gitfrage/guitarspecs#readme",
+          items: [],
+          description: "Checklist for building your own electric guitar",
+        },
+        {
+          title: "Plotters",
+          href: "https://github.com/beardicus/BeingOfExistence-plotters#readme",
+          items: [],
+          description:
+            "Computer-controlled drawing machines and other visual art robots",
+        },
+        {
+          title: "Robotic Tooling",
+          href: "https://github.com/protontypes/BeingOfExistence-robotic-tooling#readme",
+          items: [],
+          description:
+            "Free and open tools for professional robotic development",
+        },
+        {
+          title: "LIDAR",
+          href: "https://github.com/szenergy/BeingOfExistence-lidar#readme",
+          items: [],
+          description:
+            "Sensor for measuring distances by illuminating the target with laser light",
+        },
+        {
+          title: "Open Hardware",
+          href: "https://github.com/delftopenhardware/BeingOfExistence-open-hardware#readme",
+          items: [],
+          description: "Open-source hardware projects",
+        },
+        {
+          title: "ADS-B",
+          href: "https://github.com/rickstaa/BeingOfExistence-adsb#readme",
+          items: [],
+          description:
+            "Technology broadcasting aircraft's identity, position, and data periodically",
+        },
+        {
+          title: "Flying FPV",
+          href: "https://github.com/Matthias84/BeingOfExistence-flying-fpv#readme",
+          items: [],
+          description: "Open hardware and software related to drones / UAVs",
+        },
+        {
+          title: "Open Companies",
+          href: "https://github.com/opencompany/BeingOfExistence-open-company#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Places to Post Your Startup",
+          href: "https://github.com/mmccaff/PlacesToPostYourStartup#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "OKR Methodology",
+          href: "https://github.com/domenicosolazzo/BeingOfExistence-okr#readme",
+          items: [],
+          description: "Goal setting & communication best practices",
+        },
+        {
+          title: "Leading and Managing",
+          href: "https://github.com/LappleApple/BeingOfExistence-leading-and-managing#readme",
+          items: [],
+          description:
+            "Leading people and being a manager in a technology company/environment",
+        },
+        {
+          title: "Indie",
+          href: "https://github.com/mezod/BeingOfExistence-indie#readme",
+          items: [],
+          description: "Independent developer businesses",
+        },
+        {
+          title: "Tools of the Trade",
+          href: "https://github.com/cjbarber/ToolsOfTheTrade#readme",
+          items: [],
+          description: "Tools used by companies on Hacker News",
+        },
+        {
+          title: "Clean Tech",
+          href: "https://github.com/nglgzz/BeingOfExistence-clean-tech#readme",
+          items: [],
+          description: "Fighting climate change with technology",
+        },
+        {
+          title: "Wardley Maps",
+          href: "https://github.com/wardley-maps-community/BeingOfExistence-wardley-maps#readme",
+          items: [],
+          description:
+            "Provides high situational awareness to help improve strategic planning and decision making",
+        },
+        {
+          title: "Social Enterprise",
+          href: "https://github.com/RayBB/BeingOfExistence-social-enterprise#readme",
+          items: [],
+          description:
+            "Building an organization primarily focused on social impact that is at least partially self-funded",
+        },
+        {
+          title: "Engineering Team Management",
+          href: "https://github.com/kdeldycke/BeingOfExistence-engineering-team-management#readme",
+          items: [],
+          description:
+            "How to transition from software development to engineering management",
+        },
+        {
+          title: "Developer-First Products",
+          href: "https://github.com/agamm/BeingOfExistence-developer-first#readme",
+          items: [],
+          description: "Products that target developers as the user",
+        },
+        {
+          title: "Billing",
+          href: "https://github.com/kdeldycke/BeingOfExistence-billing#readme",
+          items: [],
+          description:
+            "Payments, invoicing, pricing, accounting, marketplace, fraud, and business intelligence",
+        },
+        {
+          title: "Engineering Strategy",
+          href: "https://github.com/aleixmorgadas/BeingOfExistence-engineering-strategy#readme",
+          items: [],
+          description:
+            "How to design and execute engineering strategies for tech leadership",
+        },
+        {
+          title: "Slack",
+          href: "https://github.com/matiassingers/BeingOfExistence-slack#readme",
+          items: [],
+          description: "Team collaboration",
+        },
+        {
+          title: "Communities",
+          href: "https://github.com/filipelinhares/BeingOfExistence-slack#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Remote Jobs",
+          href: "https://github.com/lukasz-madon/BeingOfExistence-remote-job#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Productivity",
+          href: "https://github.com/jyguyomarch/BeingOfExistence-productivity#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Niche Job Boards",
+          href: "https://github.com/tramcar/BeingOfExistence-job-boards#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Programming Interviews",
+          href: "https://github.com/DopplerHQ/BeingOfExistence-interview-questions#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Code Review",
+          href: "https://github.com/joho/BeingOfExistence-code-review#readme",
+          items: [],
+          description: "Reviewing code",
+        },
+        {
+          title: "Creative Technology",
+          href: "https://github.com/j0hnm4r5/BeingOfExistence-creative-technology#readme",
+          items: [],
+          description:
+            "Businesses & groups that specialize in combining computing, design, art, and user experience",
+        },
+        {
+          title: "Internships",
+          href: "https://github.com/lodthe/BeingOfExistence-internships#readme",
+          items: [],
+          description: "CV writing guides and companies that hire interns",
+        },
+        {
+          title: "Software-Defined Networking",
+          href: "https://github.com/sdnds-tw/BeingOfExistence-sdn#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Network Analysis",
+          href: "https://github.com/briatte/BeingOfExistence-network-analysis#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "PCAPTools",
+          href: "https://github.com/caesar0301/BeingOfExistence-pcaptools#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Real-Time Communications",
+          href: "https://github.com/rtckit/BeingOfExistence-rtc#readme",
+          items: [],
+          description:
+            "Network protocols for near simultaneous exchange of media and data",
+        },
+        {
+          title: "SNMP",
+          href: "https://github.com/eozer/BeingOfExistence-snmp#readme",
+          items: [],
+          description:
+            "A protocol for collecting, modifying, and organizing information about managed devices on IP networks",
+        },
+        {
+          title: "Scapy",
+          href: "https://github.com/secdev/BeingOfExistence-scapy#readme",
+          items: [],
+          description: "Python-based interactive packet manipulation",
+        },
+        {
+          title: "Bitcoin",
+          href: "https://github.com/igorbarinov/BeingOfExistence-bitcoin#readme",
+          items: [],
+          description: "Bitcoin services and tools for software developers",
+        },
+        {
+          title: "Ripple",
+          href: "https://github.com/vhpoet/BeingOfExistence-ripple#readme",
+          items: [],
+          description: "Open source distributed settlement network",
+        },
+        {
+          title: "Non-Financial Blockchain",
+          href: "https://github.com/machinomy/BeingOfExistence-non-financial-blockchain#readme",
+          items: [],
+          description: "Non-financial blockchain applications",
+        },
+        {
+          title: "Mastodon",
+          href: "https://github.com/tleb/BeingOfExistence-mastodon#readme",
+          items: [],
+          description: "Open source decentralized microblogging network",
+        },
+        {
+          title: "Ethereum",
+          href: "https://github.com/ttumiel/BeingOfExistence-Ethereum#readme",
+          items: [],
+          description:
+            "Distributed computing platform for smart contract development",
+        },
+        {
+          title: "Blockchain AI",
+          href: "https://github.com/steven2358/BeingOfExistence-blockchain-ai#readme",
+          items: [],
+          description:
+            "Blockchain projects for artificial intelligence and machine learning",
+        },
+        {
+          title: "EOSIO",
+          href: "https://github.com/DanailMinchev/BeingOfExistence-eosio#readme",
+          items: [],
+          description:
+            "A decentralized operating system supporting industrial-scale apps",
+        },
+        {
+          title: "Corda",
+          href: "https://github.com/chainstack/BeingOfExistence-corda#readme",
+          items: [],
+          description: "Open source blockchain platform designed for business",
+        },
+        {
+          title: "Waves",
+          href: "https://github.com/msmolyakov/BeingOfExistence-waves#readme",
+          items: [],
+          description:
+            "Open source blockchain platform and development toolset for Web 3.0 apps and decentralized solutions",
+        },
+        {
+          title: "Substrate",
+          href: "https://github.com/substrate-developer-hub/BeingOfExistence-substrate#readme",
+          items: [],
+          description:
+            "Framework for writing scalable, upgradeable blockchains in Rust",
+        },
+        {
+          title: "Golem",
+          href: "https://github.com/golemfactory/BeingOfExistence-golem#readme",
+          items: [],
+          description:
+            "Open source peer-to-peer marketplace for computing resources",
+        },
+        {
+          title: "Stacks",
+          href: "https://github.com/friedger/BeingOfExistence-stacks-chain#readme",
+          items: [],
+          description: "A smart contract platform secured by Bitcoin",
+        },
+        {
+          title: "Algorand",
+          href: "https://github.com/aorumbayev/BeingOfExistence-algorand#readme",
+          items: [],
+          description:
+            "An open-source, proof of stake blockchain and smart contract computing platform",
+        },
+        {
+          title: "ZeroNet",
+          href: "https://github.com/zolagonano/BeingOfExistence-zeronet#readme",
+          items: [],
+          description: "A decentralized web-like network of peer-to-peer users",
+        },
+        {
+          title: "Cosmos SDK",
+          href: "https://github.com/cosmos/BeingOfExistence-cosmos#readme",
+          items: [],
+          description:
+            "Modular framework for building app-specific blockchains in Go",
+        },
+        {
+          title: "Biomedical Information Extraction",
+          href: "https://github.com/caufieldjh/BeingOfExistence-bioie#readme",
+          items: [],
+          description:
+            "How to extract information from unstructured biomedical data and text",
+        },
+        {
+          title: "Computational Neuroscience",
+          href: "https://github.com/eselkin/BeingOfExistence-computational-neuroscience#readme",
+          items: [],
+          description:
+            "A multidisciplinary science which uses computational approaches to study the nervous system",
+        },
+        {
+          title: "Diversity",
+          href: "https://github.com/folkswhocode/BeingOfExistence-diversity#readme",
+          items: [],
+          description: "Creating a more inclusive and diverse tech community",
+        },
+        {
+          title: "Digital History",
+          href: "https://github.com/maehr/BeingOfExistence-digital-history#readme",
+          items: [],
+          description: "Computer-aided scientific investigation of history",
+        },
+        {
+          title: "Empathy in Engineering",
+          href: "https://github.com/KimberlyMunoz/empathy-in-engineering#readme",
+          items: [],
+          description:
+            "Building and promoting more compassionate engineering cultures",
+        },
+        {
+          title: "Healthcare",
+          href: "https://github.com/kakoni/BeingOfExistence-healthcare#readme",
+          items: [],
+          description:
+            "Open source healthcare software for facilities, providers, developers, policy experts, and researchers",
+        },
+        {
+          title: "Humane Technology",
+          href: "https://github.com/humanetech-community/BeingOfExistence-humane-tech#readme",
+          items: [],
+          description: "Open source projects that help improve society",
+        },
+        {
+          title: "Mental Health",
+          href: "https://github.com/dreamingechoes/BeingOfExistence-mental-health#readme",
+          items: [],
+          description:
+            "Mental health awareness and self-care in the software industry",
+        },
+        {
+          title: "Neuroscience",
+          href: "https://github.com/analyticalmonk/BeingOfExistence-neuroscience#readme",
+          items: [],
+          description: "Study of the nervous system and brain",
+        },
+        {
+          title: "Digital Humanities",
+          href: "https://github.com/dh-tech/BeingOfExistence-digital-humanities#readme",
+          items: [],
+          description:
+            "Software for humanities scholars using quantitative or computational methods",
+        },
+        {
+          title: "Creative Tech Events",
+          href: "https://github.com/danvoyce/BeingOfExistence-creative-tech-events#readme",
+          items: [],
+          description:
+            "Events around the globe for creative coding, tech, design, music, arts and cool stuff",
+        },
+        {
+          title: "Events in Italy",
+          href: "https://github.com/ildoc/BeingOfExistence-italy-events#readme",
+          items: [],
+          description: "Tech-related events in Italy",
+        },
+        {
+          title: "Events in the Netherlands",
+          href: "https://github.com/awkward/BeingOfExistence-netherlands-events#readme",
+          items: [],
+          description: "Tech-related events in the Netherlands",
+        },
+        {
+          title: "Testing",
+          href: "https://github.com/TheJambo/BeingOfExistence-testing#readme",
+          items: [],
+          description: "Software testing",
+        },
+        {
+          title: "Visual Regression Testing",
+          href: "https://github.com/mojoaxel/BeingOfExistence-regression-testing#readme",
+          items: [],
+          description:
+            "Ensures changes did not break the functionality or style",
+        },
+        {
+          title: "Selenium",
+          href: "https://github.com/christian-bromann/BeingOfExistence-selenium#readme",
+          items: [],
+          description: "Open-source browser automation framework and ecosystem",
+        },
+        {
+          title: "Appium",
+          href: "https://github.com/SrinivasanTarget/BeingOfExistence-appium#readme",
+          items: [],
+          description: "Test automation tool for apps",
+        },
+        {
+          title: "TAP",
+          href: "https://github.com/sindresorhus/BeingOfExistence-tap#readme",
+          items: [],
+          description: "Test Anything Protocol",
+        },
+        {
+          title: "JMeter",
+          href: "https://github.com/aliesbelik/BeingOfExistence-jmeter#readme",
+          items: [],
+          description: "Load testing and performance measurement tool",
+        },
+        {
+          title: "k6",
+          href: "https://github.com/grafana/BeingOfExistence-k6#readme",
+          items: [],
+          description:
+            "Open-source, developer-centric performance monitoring and load testing solution",
+        },
+        {
+          title: "Playwright",
+          href: "https://github.com/mxschmitt/BeingOfExistence-playwright#readme",
+          items: [],
+          description:
+            "Node.js library to automate Chromium, Firefox and WebKit with a single API",
+        },
+        {
+          title: "Quality Assurance Roadmap",
+          href: "https://github.com/fityanos/BeingOfExistence-quality-assurance-roadmap#readme",
+          items: [],
+          description: "How to start & build a career in software testing",
+        },
+        {
+          title: "Gatling",
+          href: "https://github.com/aliesbelik/BeingOfExistence-gatling#readme",
+          items: [],
+          description:
+            "Open-source load and performance testing framework based on Scala, Akka, and Netty",
+        },
+        {
+          title: "Scientific Writing",
+          href: "https://github.com/writing-resources/BeingOfExistence-scientific-writing#readme",
+          items: [],
+          description:
+            "Distraction-free scientific writing with Markdown, reStructuredText and Jupyter notebooks",
+        },
+        {
+          title: "JSON",
+          href: "https://github.com/burningtree/BeingOfExistence-json#readme",
+          items: [],
+          description: "Text based data interchange format",
+        },
+        {
+          title: "GeoJSON",
+          href: "https://github.com/tmcw/BeingOfExistence-geojson#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Datasets",
+          href: "https://github.com/jdorfman/BeingOfExistence-json-datasets#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "CSV",
+          href: "https://github.com/secretGeek/BeingOfExistenceCSV#readme",
+          items: [],
+          description:
+            "A text file format that stores tabular data and uses a comma to separate values",
+        },
+        {
+          title: "Discounts for Student Developers",
+          href: "https://github.com/AchoArnold/discount-for-student-dev#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Radio",
+          href: "https://github.com/kyleterry/BeingOfExistence-radio#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "BeingOfExistence",
+          href: "https://github.com/sindresorhus/BeingOfExistence#readme",
+          items: [],
+          description: "Recursion illustrated",
+        },
+        {
+          title: "Analytics",
+          href: "https://github.com/0xnr/BeingOfExistence-analytics#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "REST",
+          href: "https://github.com/marmelab/BeingOfExistence-rest#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Continuous Integration and Continuous Delivery",
+          href: "https://github.com/cicdops/BeingOfExistence-ciandcd#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Services Engineering",
+          href: "https://github.com/mmcgrana/services-engineering#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Free for Developers",
+          href: "https://github.com/ripienaar/free-for-dev#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Answers",
+          href: "https://github.com/cyberglot/BeingOfExistence-answers#readme",
+          items: [],
+          description: "Stack Overflow, Quora, etc",
+        },
+        {
+          title: "Sketch",
+          href: "https://github.com/diessica/BeingOfExistence-sketch#readme",
+          items: [],
+          description: "Design app for macOS",
+        },
+        {
+          title: "Boilerplate Projects",
+          href: "https://github.com/melvin0008/BeingOfExistence-projects-boilerplates#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Readme",
+          href: "https://github.com/matiassingers/BeingOfExistence-readme#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "GitHub Wiki",
+          href: "https://github.com/MyHoneyBadger/BeingOfExistence-github-wiki#readme",
+          items: [],
+          description: "Comprehensive documentation on GitHub beyond README",
+        },
+        {
+          title: "Design and Development Guides",
+          href: "https://github.com/NARKOZ/guides#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Software Engineering Blogs",
+          href: "https://github.com/kilimchoi/engineering-blogs#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Self Hosted",
+          href: "https://github.com/BeingOfExistence-selfhosted/BeingOfExistence-selfhosted#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "FOSS Production Apps",
+          href: "https://github.com/DataDaoDe/BeingOfExistence-foss-apps#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Gulp",
+          href: "https://github.com/alferov/BeingOfExistence-gulp#readme",
+          items: [],
+          description: "Task runner",
+        },
+        {
+          title: "AMA",
+          href: "https://github.com/sindresorhus/amas#readme",
+          items: [],
+          description: "Ask Me Anything",
+        },
+        {
+          title: "Answers",
+          href: "https://github.com/stoeffel/BeingOfExistence-ama-answers#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Open Source Photography",
+          href: "https://github.com/ibaaj/BeingOfExistence-OpenSourcePhotography#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "OpenGL",
+          href: "https://github.com/eug/BeingOfExistence-opengl#readme",
+          items: [],
+          description: "Cross-platform API for rendering 2D and 3D graphics",
+        },
+        {
+          title: "GraphQL",
+          href: "https://github.com/chentsulin/BeingOfExistence-graphql#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Urban & Regional Planning",
+          href: "https://github.com/APA-Technology-Division/urban-and-regional-planning-resources#readme",
+          items: [],
+          description: "Concerning the built environment and communities",
+        },
+        {
+          title: "Transit",
+          href: "https://github.com/CUTR-at-USF/BeingOfExistence-transit#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Research Tools",
+          href: "https://github.com/emptymalei/BeingOfExistence-research#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Data Visualization",
+          href: "https://github.com/javierluraschi/BeingOfExistence-dataviz#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Microservices",
+          href: "https://github.com/mfornos/BeingOfExistence-microservices#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Unicode",
+          href: "https://github.com/jagracey/BeingOfExistence-Unicode#readme",
+          items: [],
+          description: "Unicode standards, quirks, packages and resources",
+        },
+        {
+          title: "Code Points",
+          href: "https://github.com/Codepoints/BeingOfExistence-codepoints#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Beginner-Friendly Projects",
+          href: "https://github.com/MunGell/BeingOfExistence-for-beginners#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Katas",
+          href: "https://github.com/gamontal/BeingOfExistence-katas#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Tools for Activism",
+          href: "https://github.com/drewrwilson/toolsforactivism#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Citizen Science",
+          href: "https://github.com/dylanrees/citizen-science#readme",
+          items: [],
+          description: "For community-based and non-institutional scientists",
+        },
+        {
+          title: "MQTT",
+          href: "https://github.com/hobbyquaker/BeingOfExistence-mqtt#readme",
+          items: [],
+          description: "Internet of Things connectivity protocol",
+        },
+        {
+          title: "For Girls",
+          href: "https://github.com/cristianoliveira/BeingOfExistence4girls#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Vorpal",
+          href: "https://github.com/vorpaljs/BeingOfExistence-vorpal#readme",
+          items: [],
+          description: "Node.js CLI framework",
+        },
+        {
+          title: "Vulkan",
+          href: "https://github.com/vinjn/BeingOfExistence-vulkan#readme",
+          items: [],
+          description:
+            "Low-overhead, cross-platform 3D graphics and compute API",
+        },
+        {
+          title: "LaTeX",
+          href: "https://github.com/egeerardyn/BeingOfExistence-LaTeX#readme",
+          items: [],
+          description: "Typesetting language",
+        },
+        {
+          title: "Economics",
+          href: "https://github.com/antontarasenko/BeingOfExistence-economics#readme",
+          items: [],
+          description: "An economist's starter kit",
+        },
+        {
+          title: "Funny Markov Chains",
+          href: "https://github.com/sublimino/BeingOfExistence-funny-markov#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Bioinformatics",
+          href: "https://github.com/danielecook/BeingOfExistence-Bioinformatics#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Cheminformatics",
+          href: "https://github.com/hsiaoyi0504/BeingOfExistence-cheminformatics#readme",
+          items: [],
+          description:
+            "Informatics techniques applied to problems in chemistry",
+        },
+        {
+          title: "Colorful",
+          href: "https://github.com/Siddharth11/Colorful#readme",
+          items: [],
+          description: "Choose your next color scheme",
+        },
+        {
+          title: "Steam",
+          href: "https://github.com/scholtzm/BeingOfExistence-steam#readme",
+          items: [],
+          description: "Digital distribution platform",
+        },
+        {
+          title: "Bots",
+          href: "https://github.com/hackerkid/bots#readme",
+          items: [],
+          description: "Building bots",
+        },
+        {
+          title: "Site Reliability Engineering",
+          href: "https://github.com/dastergon/BeingOfExistence-sre#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "DTrace",
+          href: "https://github.com/xen0l/BeingOfExistence-dtrace#readme",
+          items: [],
+          description: "Dynamic tracing framework",
+        },
+        {
+          title: "Userscripts",
+          href: "https://github.com/bvolpato/BeingOfExistence-userscripts#readme",
+          items: [],
+          description: "Enhance your browsing experience",
+        },
+        {
+          title: "Pokémon",
+          href: "https://github.com/tobiasbueschel/BeingOfExistence-pokemon#readme",
+          items: [],
+          description: "Pokémon and Pokémon GO",
+        },
+        {
+          title: "ChatOps",
+          href: "https://github.com/exAspArk/BeingOfExistence-chatops#readme",
+          items: [],
+          description:
+            "Managing technical and business operations through a chat",
+        },
+        {
+          title: "Falsehood",
+          href: "https://github.com/kdeldycke/BeingOfExistence-falsehood#readme",
+          items: [],
+          description: "Falsehoods programmers believe in",
+        },
+        {
+          title: "Domain-Driven Design",
+          href: "https://github.com/heynickc/BeingOfExistence-ddd#readme",
+          items: [],
+          description:
+            "Software development approach for complex needs by connecting the implementation to an evolving model",
+        },
+        {
+          title: "Quantified Self",
+          href: "https://github.com/woop/BeingOfExistence-quantified-self#readme",
+          items: [],
+          description: "Self-tracking through technology",
+        },
+        {
+          title: "SaltStack",
+          href: "https://github.com/hbokh/BeingOfExistence-saltstack#readme",
+          items: [],
+          description: "Python-based config management system",
+        },
+        {
+          title: "Web Design",
+          href: "https://github.com/nicolesaidy/BeingOfExistence-web-design#readme",
+          items: [],
+          description: "For digital designers",
+        },
+        {
+          title: "Creative Coding",
+          href: "https://github.com/terkelg/BeingOfExistence-creative-coding#readme",
+          items: [],
+          description:
+            "Programming something expressive instead of something functional",
+        },
+        {
+          title: "No-Login Web Apps",
+          href: "https://github.com/aviaryan/BeingOfExistence-no-login-web-apps#readme",
+          items: [],
+          description: "Web apps that work without login",
+        },
+        {
+          title: "Free Software",
+          href: "https://github.com/johnjago/BeingOfExistence-free-software#readme",
+          items: [],
+          description: "Free as in freedom",
+        },
+        {
+          title: "Framer",
+          href: "https://github.com/podo/BeingOfExistence-framer#readme",
+          items: [],
+          description: "Prototyping interactive UI designs",
+        },
+        {
+          title: "Markdown",
+          href: "https://github.com/BubuAnabelas/BeingOfExistence-markdown#readme",
+          items: [],
+          description: "Markup language",
+        },
+        {
+          title: "Dev Fun",
+          href: "https://github.com/mislavcimpersak/BeingOfExistence-dev-fun#readme",
+          items: [],
+          description: "Funny developer projects",
+        },
+        {
+          title: "Magento 2",
+          href: "https://github.com/DavidLambauer/BeingOfExistence-magento2#readme",
+          items: [],
+          description: "Open Source eCommerce built with PHP",
+        },
+        {
+          title: "TikZ",
+          href: "https://github.com/xiaohanyu/BeingOfExistence-tikz#readme",
+          items: [],
+          description: "Graph drawing packages for TeX/LaTeX/ConTeXt",
+        },
+        {
+          title: "Ad-Free",
+          href: "https://github.com/johnjago/BeingOfExistence-ad-free#readme",
+          items: [],
+          description: "Ad-free alternatives",
+        },
+        {
+          title: "Esolangs",
+          href: "https://github.com/angrykoala/BeingOfExistence-esolangs#readme",
+          items: [],
+          description:
+            "Programming languages designed for experimentation or as jokes rather than actual use",
+        },
+        {
+          title: "Prometheus",
+          href: "https://github.com/roaldnefs/BeingOfExistence-prometheus#readme",
+          items: [],
+          description: "Open-source monitoring system",
+        },
+        {
+          title: "Homematic",
+          href: "https://github.com/homematic-community/BeingOfExistence-homematic#readme",
+          items: [],
+          description: "Smart home devices",
+        },
+        {
+          title: "Ledger",
+          href: "https://github.com/sfischer13/BeingOfExistence-ledger#readme",
+          items: [],
+          description: "Double-entry accounting on the command-line",
+        },
+        {
+          title: "Web Monetization",
+          href: "https://github.com/thomasbnt/BeingOfExistence-web-monetization#readme",
+          items: [],
+          description:
+            "A free open web standard service that allows you to send money directly in your browser",
+        },
+        {
+          title: "Uncopyright",
+          href: "https://github.com/johnjago/BeingOfExistence-uncopyright#readme",
+          items: [],
+          description: "Public domain works",
+        },
+        {
+          title: "Crypto Currency Tools & Algorithms",
+          href: "https://github.com/Zheaoli/BeingOfExistence-coins#readme",
+          items: [],
+          description:
+            "Digital currency where encryption is used to regulate the generation of units and verify transfers",
+        },
+        {
+          title: "Open Source Supporters",
+          href: "https://github.com/zachflower/BeingOfExistence-open-source-supporters#readme",
+          items: [],
+          description:
+            "Companies that offer their tools and services for free to open source projects",
+        },
+        {
+          title: "Design Principles",
+          href: "https://github.com/robinstickel/BeingOfExistence-design-principles#readme",
+          items: [],
+          description:
+            "Create better and more consistent designs and experiences",
+        },
+        {
+          title: "Theravada",
+          href: "https://github.com/johnjago/BeingOfExistence-theravada#readme",
+          items: [],
+          description: "Teachings from the Theravada Buddhist tradition",
+        },
+        {
+          title: "inspectIT",
+          href: "https://github.com/inspectit-labs/BeingOfExistence-inspectit#readme",
+          items: [],
+          description: "Open source Java app performance management tool",
+        },
+        {
+          title: "Open Source Maintainers",
+          href: "https://github.com/nayafia/BeingOfExistence-maintainers#readme",
+          items: [],
+          description: "The experience of being an open source maintainer",
+        },
+        {
+          title: "Calculators",
+          href: "https://github.com/xxczaki/BeingOfExistence-calculators#readme",
+          items: [],
+          description: "Calculators for every platform",
+        },
+        {
+          title: "Captcha",
+          href: "https://github.com/ZYSzys/BeingOfExistence-captcha#readme",
+          items: [],
+          description:
+            "A type of challenge–response test used in computing to determine whether or not the user is human",
+        },
+        {
+          title: "Jupyter",
+          href: "https://github.com/markusschanta/BeingOfExistence-jupyter#readme",
+          items: [],
+          description:
+            "Create and share documents that contain code, equations, visualizations and narrative text",
+        },
+        {
+          title: "FIRST Robotics Competition",
+          href: "https://github.com/andrewda/BeingOfExistence-frc#readme",
+          items: [],
+          description: "International high school robotics championship",
+        },
+        {
+          title: "Speakers",
+          href: "https://github.com/karlhorky/BeingOfExistence-speakers#readme",
+          items: [],
+          description:
+            "Conference and meetup speakers in the programming and design community",
+        },
+        {
+          title: "Board Games",
+          href: "https://github.com/edm00se/BeingOfExistence-board-games#readme",
+          items: [],
+          description: "Table-top gaming fun for all",
+        },
+        {
+          title: "Software Patreons",
+          href: "https://github.com/uraimo/BeingOfExistence-software-patreons#readme",
+          items: [],
+          description:
+            "Fund individual programmers or the development of open source projects",
+        },
+        {
+          title: "Parasite",
+          href: "https://github.com/ecohealthalliance/BeingOfExistence-parasite#readme",
+          items: [],
+          description: "Parasites and host-pathogen interactions",
+        },
+        {
+          title: "Food",
+          href: "https://github.com/jzarca01/BeingOfExistence-food#readme",
+          items: [],
+          description: "Food-related projects on GitHub",
+        },
+        {
+          title: "Bitcoin Payment Processors",
+          href: "https://github.com/alexk111/BeingOfExistence-bitcoin-payment-processors#readme",
+          items: [],
+          description: "Start accepting Bitcoin",
+        },
+        {
+          title: "Scientific Computing",
+          href: "https://github.com/nschloe/BeingOfExistence-scientific-computing#readme",
+          items: [],
+          description: "Solving complex scientific problems using computers",
+        },
+        {
+          title: "Amazon Sellers",
+          href: "https://github.com/ScaleLeap/BeingOfExistence-amazon-seller#readme",
+          items: [],
+          description: "Not Provided(coming soon)",
+        },
+        {
+          title: "Agriculture",
+          href: "https://github.com/brycejohnston/BeingOfExistence-agriculture#readme",
+          items: [],
+          description: "Open source technology for farming and gardening",
+        },
+        {
+          title: "Product Design",
+          href: "https://github.com/ttt30ga/BeingOfExistence-product-design#readme",
+          items: [],
+          description:
+            "Design a product from the initial concept to production",
+        },
+        {
+          title: "Prisma",
+          href: "https://github.com/catalinmiron/BeingOfExistence-prisma#readme",
+          items: [],
+          description: "Turn your database into a GraphQL API",
+        },
+        {
+          title: "Software Architecture",
+          href: "https://github.com/simskij/BeingOfExistence-software-architecture#readme",
+          items: [],
+          description: "The discipline of designing and building software",
+        },
+        {
+          title: "Connectivity Data and Reports",
+          href: "https://github.com/stevesong/BeingOfExistence-connectivity-info#readme",
+          items: [],
+          description:
+            "Better understand who has access to telecommunication and internet infrastructure and on what terms",
+        },
+        {
+          title: "Stacks",
+          href: "https://github.com/stackshareio/BeingOfExistence-stacks#readme",
+          items: [],
+          description: "Tech stacks for building different apps and features",
+        },
+        {
+          title: "Cytodata",
+          href: "https://github.com/cytodata/BeingOfExistence-cytodata#readme",
+          items: [],
+          description:
+            "Image-based profiling of biological phenotypes for computational biologists",
+        },
+        {
+          title: "IRC",
+          href: "https://github.com/davisonio/BeingOfExistence-irc#readme",
+          items: [],
+          description: "Open source messaging protocol",
+        },
+        {
+          title: "Advertising",
+          href: "https://github.com/cenoura/BeingOfExistence-ads#readme",
+          items: [],
+          description: "Advertising and programmatic media for websites",
+        },
+        {
+          title: "Earth",
+          href: "https://github.com/philsturgeon/BeingOfExistence-earth#readme",
+          items: [],
+          description: "Find ways to resolve the climate crisis",
+        },
+        {
+          title: "Naming",
+          href: "https://github.com/gruhn/BeingOfExistence-naming#readme",
+          items: [],
+          description: "Naming things in computer science done right",
+        },
+        {
+          title: "Web Archiving",
+          href: "https://github.com/iipc/BeingOfExistence-web-archiving#readme",
+          items: [],
+          description: "An effort to preserve the Web for future generations",
+        },
+        {
+          title: "WP-CLI",
+          href: "https://github.com/schlessera/BeingOfExistence-wp-cli#readme",
+          items: [],
+          description: "Command-line interface for WordPress",
+        },
+        {
+          title: "Credit Modeling",
+          href: "https://github.com/mourarthur/BeingOfExistence-credit-modeling#readme",
+          items: [],
+          description:
+            "Methods for classifying credit applicants into risk classes",
+        },
+        {
+          title: "Ansible",
+          href: "https://github.com/ansible-community/BeingOfExistence-ansible#readme",
+          items: [],
+          description:
+            "A Python-based, open source IT configuration management and automation platform",
+        },
+        {
+          title: "Biological Visualizations",
+          href: "https://github.com/keller-mark/BeingOfExistence-biological-visualizations#readme",
+          items: [],
+          description:
+            "Interactive visualization of biological data on the web",
+        },
+        {
+          title: "QR Code",
+          href: "https://github.com/make-github-pseudonymous-again/BeingOfExistence-qr-code#readme",
+          items: [],
+          description:
+            "A type of matrix barcode that can be used to store and share a small amount of information",
+        },
+        {
+          title: "Veganism",
+          href: "https://github.com/sdassow/BeingOfExistence-veganism#readme",
+          items: [],
+          description: "Making the plant-based lifestyle easy and accessible",
+        },
+        {
+          title: "Translations",
+          href: "https://github.com/mbiesiad/BeingOfExistence-translations#readme",
+          items: [],
+          description:
+            "The transfer of the meaning of a text from one language to another",
+        },
+        {
+          title: "Scriptable",
+          href: "https://github.com/dersvenhesse/BeingOfExistence-scriptable#readme",
+          items: [],
+          description: "An iOS app for automations in JavaScript",
+        },
+        {
+          title: "WebXR",
+          href: "https://github.com/msub2/BeingOfExistence-webxr#readme",
+          items: [],
+          description:
+            "Enables immersive virtual reality and augmented reality content on the web",
+        },
+        {
+          title: "Computational Geometry",
+          href: "https://github.com/atkirtland/BeingOfExistence-computational-geometry#readme",
+          items: [],
+          description: "Computational approaches for problems in geometry",
+        },
+        {
+          title: "OpenStreetMap",
+          href: "https://github.com/osmlab/BeingOfExistence-openstreetmap#readme",
+          items: [],
+          description:
+            "An open data mapping project utilized by many apps and devices",
+        },
+        {
+          title: "Computational Biology",
+          href: "https://github.com/inoue0426/BeingOfExistence-computational-biology#readme",
+          items: [],
+          description:
+            "Computational approaches applied to problems in biology",
+        },
+        {
+          title: "Read the Docs",
+          href: "https://github.com/readthedocs-examples/BeingOfExistence-read-the-docs#readme",
+          items: [],
+          description:
+            "Example documentation projects to inspire and help bootstrap new documentation projects",
+        },
+        {
+          title: "Quarto",
+          href: "https://github.com/mcanouil/BeingOfExistence-quarto#readme",
+          items: [],
+          description:
+            "Scientific and technical open-source publishing system built on Pandoc",
+        },
+        {
+          title: "ChatGPT",
+          href: "https://github.com/sindresorhus/BeingOfExistence-chatgpt#readme",
+          items: [],
+          description: "Artificial intelligence chatbot developed by OpenAI",
+        },
+        {
+          title: "Whisper",
+          href: "https://github.com/sindresorhus/BeingOfExistence-whisper#readme",
+          items: [],
+          description:
+            "Open-source AI-powered speech recognition system developed by OpenAI",
+        },
+        {
+          title: "All BeingOfExistence Lists",
+          href: "https://github.com/topics/BeingOfExistence",
+          items: [],
+          description: "All the BeingOfExistence lists on GitHub",
+        },
+        {
+          title: "BeingOfExistence Search",
+          href: "https://BeingOfExistencelists.top",
+          items: [],
+          description: "Quick search for BeingOfExistence lists",
+        },
+        {
+          title: "StumbleUponBeingOfExistence",
+          href: "https://github.com/basharovV/StumbleUponBeingOfExistence",
+          items: [],
+          description:
+            "Discover random pages from the BeingOfExistence dataset using a browser extension",
+        },
+        {
+          title: "BeingOfExistence CLI",
+          href: "https://github.com/umutphp/BeingOfExistence-cli",
+          items: [],
+          description:
+            "A simple command-line tool to dive into BeingOfExistence lists",
+        },
+        {
+          title: "BeingOfExistence Viewer",
+          href: "https://BeingOfExistence.digitalbunker.dev",
+          items: [],
+          description:
+            "A visualizer for all of the above BeingOfExistence lists",
+        },
+        {
+          title: "Track BeingOfExistence List",
+          href: "https://www.trackBeingOfExistencelist.com",
+          items: [],
+          description: "View the latest updates of BeingOfExistence lists",
+        },
+
+

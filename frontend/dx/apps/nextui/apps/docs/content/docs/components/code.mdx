@@ -1,0 +1,50 @@
+---
+title: "Code"
+description: "Code is a component used to display inline code. "
+---
+
+import {codeContent} from "@/content/components/code";
+
+# Code
+
+Code is a component used to display inline code.
+
+<ComponentLinks component="code" rscCompatible />
+
+---
+
+<CarbonAd/>
+
+## Import
+
+<ImportTabs
+  commands={{
+    main: 'import {Code} from "@nextui-org/react";',
+    individual: 'import {Code} from "@nextui-org/code";',
+  }}
+/>
+
+## Usage
+
+<CodeDemo title="Usage" files={codeContent.usage} />
+
+### Sizes
+
+<CodeDemo title="Sizes" files={codeContent.sizes} />
+
+### Colors
+
+<CodeDemo title="Colors" files={codeContent.colors} />
+
+<Spacer y={4} />{" "}
+
+## API
+
+### Code Props
+
+| Attribute | Type                                                                        | Description              | Default   |
+| --------- | --------------------------------------------------------------------------- | ------------------------ | --------- |
+| children  | `ReactNode`                                                                 | The content of the code. | -         |
+| size      | `sm` \| `md` \| `lg`                                                        | The size of the code.    | `sm`      |
+| color     | `default` \| `primary` \| `secondary` \| `success` \| `warning` \| `danger` | The color of the code.   | `default` |
+| radius    | `none` \| `sm` \| `md` \| `lg` \| `full`                                    | The radius of the code.  | `sm`      |

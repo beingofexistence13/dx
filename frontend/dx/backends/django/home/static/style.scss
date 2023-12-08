@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.box {
+  width: 90%;
+  height: 50vh;
+  position: relative;
+  left: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 40vh;
+}
+
+h1 {
+  width: 50%;
+  color: #00FF6C;
+  position: relative;
+  left: 2rem;
+  font-weight: 700;
+  top: 1rem;
+}
+
+.icon {
+  position: relative;
+  left: 22rem;
+  bottom: 1.2rem;
+}
+
+.bglt {
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=stylhhe1.css.map */
