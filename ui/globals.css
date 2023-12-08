@@ -155,9 +155,6 @@
   background-clip: text;
 }
 
-
-
-
 .blurry_gradient_top {
     background-image: radial-gradient(circle 286px at 10% 20%, rgba(253, 0, 0, 1) 0%, rgba(255, 32, 249, 1) 90.8%);
     filter: blur(120px);
@@ -166,7 +163,6 @@
     background-image: radial-gradient(circle 286px at 10% 20%, rgb(0, 253, 21) 0%, rgb(110, 32, 255) 90.8%);
     filter: blur(120px);
 }
-
 
 .glass {
     background: rgba(255, 255, 255, 0.2);
