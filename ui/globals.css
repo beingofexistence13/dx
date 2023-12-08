@@ -108,28 +108,85 @@
   font-size: 5rem;
   font-weight: 900;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: -webkit-text-fill-color 3s linear;
 
 }
 .plan_text{
+  animation: 10s ease-in 0s infinite reverse both running plan-text-animation;
   background-color: #FFE53B;
   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
   -webkit-background-clip: text;
   /* text-shadow: -2px -7px 6px linear-gradient(147deg, #FFE53B 0%, #FF2525 74%),
                -2px 11px 6px #000000; */
-  /* -webkit-text-fill-color: transparent; */
 }
 .develop_text{
+  animation: 10s ease-in 0s infinite reverse both running develop-text-animation;
+
   background-color: #FA8BFF;
   background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .online_text{
+  animation: 10s ease-in 0s infinite reverse both running online-text-animation;
+
   background-color: #00ff75;
   background-image: linear-gradient(45deg, #00ff75 0%, #e9ff34 66%);
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@keyframes plan-text-animation {
+  0% {
+  -webkit-text-fill-color: transparent;
+  }
+33.3%{
+  -webkit-text-fill-color: transparent;
+
+}
+66.6%{
+  -webkit-text-fill-color: unset;
+
+}
+99.9%{
+  -webkit-text-fill-color: unset;
+
+}
+}
+@keyframes develop-text-animation {
+  0% {
+  -webkit-text-fill-color: unset;
+  }
+33.3%{
+  -webkit-text-fill-color: transparent;
+
+}
+66.6%{
+  -webkit-text-fill-color: transparent;
+
+}
+99.9%{
+  -webkit-text-fill-color: unset;
+
+}
+}
+@keyframes online-text-animation {
+  0% {
+  -webkit-text-fill-color: unset;
+  }
+33.3%{
+  -webkit-text-fill-color: unset;
+
+}
+66.6%{
+  -webkit-text-fill-color: transparent;
+
+}
+99.9%{
+  -webkit-text-fill-color: transparent;
+
+}
 }
 
 .blurry_gradient_top {
