@@ -196,6 +196,18 @@ border: 1px solid rgba(255, 255, 255, 1);
   background-clip: text;
 }
 
+.blurry_gradient_hardware {
+    background-image: radial-gradient(circle 286px at 10% 20%, rgb(253, 245, 0) 0%, rgb(255, 32, 106) 90.8%);
+    filter: blur(120px);
+}
+.blurry_gradient_software {
+    background-image: radial-gradient(circle 286px at 10% 20%, rgb(0, 253, 253) 0%, rgb(117, 32, 255) 90.8%);
+    filter: blur(120px);
+}
+.blurry_gradient_cloud {
+    background-image: radial-gradient(circle 286px at 10% 20%, rgb(219, 0, 253) 0%, rgb(88, 255, 32) 90.8%);
+    filter: blur(120px);
+}
 .blurry_gradient_top {
     background-image: radial-gradient(circle 286px at 10% 20%, rgba(253, 0, 0, 1) 0%, rgba(255, 32, 249, 1) 90.8%);
     filter: blur(120px);

@@ -58,12 +58,10 @@ const Info = () => {
     return (
         <section className="info h-[100vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
 
-            <motion.div drag
-                dragElastic={0.2} className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-[25vh] left-0 z-[0]">
-            </motion.div>
-            <motion.div drag
-                dragElastic={0.2} className="blurry_gradient_bottom h-[550px] w-[550px] rounded-full absolute bottom-[50vh] right-0 z-[0]">
-            </motion.div>
+            <div className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-[25vh] left-0 z-[0]">
+            </div>
+            <div className="blurry_gradient_bottom h-[550px] w-[550px] rounded-full absolute bottom-[50vh] right-0 z-[0]">
+            </div>
 
 
             <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-28 relative z-10">
@@ -129,13 +127,14 @@ const Info = () => {
                     </Popover>
                 </div>
                 {/* Blured Intereactive Livewallpaper(related to the project offcourse) */}
-                <div 
-                ref={constraintsRef}
-                className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
+                <div
+                    ref={constraintsRef}
+                    className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
                     <motion.div
-                    drag
-                    dragConstraints={constraintsRef}
-                    className="h-full w-full">
+                        drag
+                        dragConstraints={constraintsRef}
+                        dragSnapToOrigin={true}
+                        className="h-full w-full">
                         <AspectRatio ratio={16 / 9} className="bg-muted rounded-lg">
                             {/* <Image
                             src="/suzume-no-tojimari.jpeg"
