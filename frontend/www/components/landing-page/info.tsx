@@ -128,18 +128,23 @@ const Info = () => {
                 </div>
                 {/* Blured Intereactive Livewallpaper(related to the project offcourse) */}
                 <div className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
-                    <AspectRatio ratio={16 / 9} className="bg-muted rounded-md">
-                        {/* <Image
+                    <motion.div 
+                    drag
+                    className="h-full w-full">
+                        <AspectRatio ratio={16 / 9} className="bg-muted rounded-md">
+                            {/* <Image
                             src="/suzume-no-tojimari.jpeg"
                             alt="best animated in the world"
                             fill
                             className="rounded-md object-cover"
                         /> */}
-                        <video controls loop className="h-full w-full rounded-md object-cover"
-                            poster="suzume-no-tojimari.jpeg">
-                            <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
-                        </video>
-                    </AspectRatio>
+                            <video controls loop className="h-full w-full rounded-md object-cover"
+                                poster="suzume-no-tojimari.jpeg">
+                                <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
+                            </video>
+                        </AspectRatio>
+                    </motion.div>
+
                 </div>
             </div>
         </section>
