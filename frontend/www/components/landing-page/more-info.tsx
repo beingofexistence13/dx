@@ -19,7 +19,11 @@ const MoreInfo = () => {
 
       <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-40 relative z-10">
         <span>MoreInfo</span>
+        <div className="whitelistbar">
+          Magic Card
+        </div>
       </div>
+
 
     </section>
   )

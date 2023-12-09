@@ -8,11 +8,11 @@ import { motion } from "framer-motion";
 
 const Whitelistbar = () => {
   return (
-    <div className="hover:text-green-400  h-12 max-w-[90%] w-[650px] fixed bottom-0 left-[50%] translate-x-[-50%] z-20">
+    <div className="hover:text-green-400  h-12 max-w-[90%] w-[650px] fixed bottom-0 left-[50%] translate-x-[-50%]">
       <motion.div drag
-        dragElastic={0.2} className="blurry_gradient_whitelistbar h-[550px] w-[550px] rounded-full absolute top-0 left-0 z-[0]">
+        dragElastic={0.2} className="blurry_gradient_whitelistbar h-[550px] w-[550px] rounded-full absolute top-0 left-0">
       </motion.div>
-      <div className="whitelistar_container bg-white flex flex-row items-center justify-between px-3 py-1 relative z-30 border-t border-l border-r rounded-tl-2xl rounded-tr-xl mt-1">
+      <div className="whitelistbar bg-white flex flex-row items-center justify-between px-3 py-1 relative border-t border-l border-r rounded-tl-2xl rounded-tr-xl mt-1">
         <div className="waitlist_onboarding">Join Waitlist</div>
         <div className="waitlist_preferences flex flex-row items-center justify-center space-x-3">
           <span className="event_date hover:text-green-400">31/12/2023</span>
