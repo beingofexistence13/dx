@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import * as React from "react"
 import { Check, ChevronsUpDown, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useRef } from "react";
 
 const frameworks = [
     {
@@ -52,6 +53,7 @@ const frameworks = [
 const Info = () => {
     const [open, setOpen] = React.useState(false)
     const [value, setValue] = React.useState("")
+    const constraintsRef = useRef(null);
 
     return (
         <section className="info h-[100vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
@@ -127,18 +129,21 @@ const Info = () => {
                     </Popover>
                 </div>
                 {/* Blured Intereactive Livewallpaper(related to the project offcourse) */}
-                <div className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
-                    <motion.div 
+                <div 
+                ref={constraintsRef}
+                className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
+                    <motion.div
                     drag
+                    dragConstraints={constraintsRef}
                     className="h-full w-full">
-                        <AspectRatio ratio={16 / 9} className="bg-muted rounded-md">
+                        <AspectRatio ratio={16 / 9} className="bg-muted rounded-lg">
                             {/* <Image
                             src="/suzume-no-tojimari.jpeg"
                             alt="best animated in the world"
                             fill
                             className="rounded-md object-cover"
                         /> */}
-                            <video controls loop className="h-full w-full rounded-md object-cover"
+                            <video controls loop className="h-full w-full rounded-lg object-cover"
                                 poster="suzume-no-tojimari.jpeg">
                                 <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
                             </video>

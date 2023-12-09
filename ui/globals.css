@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
     :root {
       --body-background: rgb(255, 255, 255);
@@ -108,6 +109,33 @@ video,#player{
   min-height: 100% !important;
   min-width: 100% !important;
 }
+.whitelistbar::before,
+.whitelistbar::after {
+  animation: hue_rotate 50s linear infinite;
+  content: "";
+  position: absolute;
+  top: -7.5px;
+  left: -7.5px;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #fffc00,
+    #aaff00,
+    #00ff2e,
+    #00fcff,
+    #0054ff,
+    #8700ff,
+    #ff00c4,
+    #ff0026
+  );
+  background-size: 400%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: calc(100% + 15px);
+  height: calc(100% + 15px);
+  z-index: -1;
+}
+
 .blurred_container{
   /* From https://css.glass */
 background: rgba(255, 255, 255, 0.33);
