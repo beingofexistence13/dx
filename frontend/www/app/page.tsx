@@ -1,4 +1,5 @@
 
+import { Whitelistbar } from "@/components/landing-page";
 import Feature from "@/components/landing-page/feature";
 import Info from "@/components/landing-page/info";
 import MoreInfo from "@/components/landing-page/more-info";
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="main h-auto w-full">
       <div className="landingPage min-h-[100vh] ">
 
+        <Whitelistbar />
         <Info />
         <MoreInfo />
         <VerticalInfo />

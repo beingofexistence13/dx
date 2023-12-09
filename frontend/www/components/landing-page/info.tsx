@@ -4,10 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, Al
 import { motion } from "framer-motion";
 import * as React from "react"
 import { Check, ChevronsUpDown, ChevronRight } from "lucide-react"
-// import { Image } from "@nextui-org/react"
 import { cn } from "@/lib/utils"
-import Image from "next/image"
-import ReactPlayer from 'react-player';
 
 const frameworks = [
     {
@@ -57,17 +54,17 @@ const Info = () => {
     const [value, setValue] = React.useState("")
 
     return (
-        <section className="info h-[150vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
+        <section className="info h-[100vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
 
             <motion.div drag
-                dragElastic={0.2} className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-10 left-0 z-[0]">
+                dragElastic={0.2} className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-[25vh] left-0 z-[0]">
             </motion.div>
             <motion.div drag
                 dragElastic={0.2} className="blurry_gradient_bottom h-[550px] w-[550px] rounded-full absolute bottom-[50vh] right-0 z-[0]">
             </motion.div>
 
 
-            <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-40 relative z-10">
+            <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-28 relative z-10">
                 {/* FeatureShotcjut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
                 <div className="glass feature_shotcut_container flex items-center justify-center hover:bg-[--foreground] hover:text-green-400 border">
                     <span className="feature_shotcut_text">Introducing Dx asks</span>

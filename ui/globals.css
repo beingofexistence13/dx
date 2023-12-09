@@ -172,6 +172,10 @@ border: 1px solid rgba(255, 255, 255, 1);
     background-image: radial-gradient(circle 286px at 10% 20%, rgba(253, 0, 0, 1) 0%, rgba(255, 32, 249, 1) 90.8%);
     filter: blur(120px);
 }
+.blurry_gradient_whitelistbar {
+    background-image: radial-gradient(circle 286px at 10% 20%, rgb(114, 0, 253) 0%, rgb(32, 255, 222) 90.8%);
+    filter: blur(120px);
+}
 .blurry_gradient_bottom {
     background-image: radial-gradient(circle 286px at 10% 20%, rgb(0, 253, 21) 0%, rgb(110, 32, 255) 90.8%);
     filter: blur(120px);
