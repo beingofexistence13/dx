@@ -33,9 +33,9 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
       img.src = canvasRef.current.toDataURL();
       img.onload = () => {
         setIsLoading(false);
-        // window.alert(
-        //   `Canvas loaded in ${performance.now() - startTime} milliseconds`
-        // )
+        window.alert(
+          `Canvas loaded in ${performance.now() - startTime} milliseconds`
+        )
       };
     }
   }, [canvasRef]);
@@ -286,7 +286,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </div>
 
                 <span className="flex h-[30px] flex-1 items-center justify-center rounded-md border text-[10px]">
-                  Tips: Are Easy And Makes Jobs More Faster
+                  Tips: life sucks
                 </span>
 
                 <Popover>
@@ -576,7 +576,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                 </Popover>
               </div>
               <Tabs
-                defaultValue="hackUp"
+                defaultValue="hackIn"
                 className="hackTabs h-[400px] w-[100%] space-y-3 overflow-y-auto overflow-x-hidden lg:h-[500px]"
               >
                 <TabsList className="hackTabList glassmorphisum mx-auto grid w-[90%] grid-cols-2">
@@ -771,16 +771,16 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                     </div>
                     {/* Friday Factor */}
                     <div className="friday-factor grid min-h-max w-full grid-cols-2 gap-2">
-                      <div className="friday glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
+                      <div className="friday glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg border">
                         Friday
                       </div>
-                      <div className="qr-code glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
+                      <div className="qr-code glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg border">
                         QR Code
                       </div>
-                      <div className="authenticator glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
+                      <div className="authenticator glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg border">
                         Authenticator
                       </div>
-                      <div className="face glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg">
+                      <div className="face glassmorphisum hoverGlassmorphisum flex h-[50px] w-full items-center justify-center rounded-lg border">
                         Face
                       </div>
                     </div>
@@ -822,7 +822,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         <ButtonShadcnUi
                           variant="link"
                           onClick={handleButtonShadcnUiClick}
-                          className="text-muted-foreground"
+                          className="text-muted-foreground flex items-center justify-center"
                         >
                           Choose Your Avatar
                         </ButtonShadcnUi>

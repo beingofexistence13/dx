@@ -380,7 +380,7 @@ export function UserHeader() {
         {/* Header Right Stuffs */}
         <div className="flex flex-1 items-center justify-between space-x-2 lg:justify-end">
           <Avatar {...pressProps} ref={ref} className="lg:hidden">
-            <AvatarImage src="/logo.svg" alt="@shadcn" />
+            <AvatarImage src="/logo.svg" alt="@beingofexistence" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
           <div

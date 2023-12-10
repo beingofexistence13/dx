@@ -1,5 +1,4 @@
 /* eslint-disable tailwindcss/classnames-order */
-
 "use client"
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputShadcnUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
@@ -65,10 +64,9 @@ const Info = () => {
             <div className="blurry_gradient_bottom absolute bottom-[50vh] right-0 z-[0] h-[550px] w-[550px] rounded-full">
             </div>
 
-
             <div className="info_main_container relative z-10 mx-auto mt-28 flex max-w-[1200px] flex-col items-center justify-center">
-                {/* FeatureShotcjut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
-                <div className="glass feature_shotcut_container flex items-center justify-center border hover:bg-[--foreground] hover:text-green-400">
+                {/* FeatureShotcut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
+                <div className="feature_shotcut_container bg-[--code-foreground]  flex items-center justify-center border hover:text-green-400">
                     <span className="feature_shotcut_text">Introducing Dx asks</span>
                     <ChevronRight />
                 </div>
@@ -128,22 +126,15 @@ const Info = () => {
                         </PopoverContent>
                     </Popover>
                 </div>
-                {/* Blured Intereactive Livewallpaper(related to the project offcourse) */}
                 <div
                     ref={constraintsRef}
-                    className="blurred_container flex h-auto w-[1000px] items-center justify-center p-5">
+                    className="blurred_container flex h-auto w-[1000px] items-center justify-center p-5 rounded-lg border">
                     <motion.div
                         drag
                         dragConstraints={constraintsRef}
                         dragSnapToOrigin={true}
                         className="h-full w-full">
                         <AspectRatio ratio={16 / 9} className="bg-muted rounded-lg">
-                            {/* <Image
-                            src="/suzume-no-tojimari.jpeg"
-                            alt="best animated in the world"
-                            fill
-                            className="rounded-md object-cover"
-                        /> */}
                             <video controls loop className="h-full w-full rounded-lg object-cover"
                                 poster="suzume-no-tojimari.jpeg">
                                 <source src="/mylivewallpapers.com-Chilling-with-my-Cat-4K.mp4" type="video/mp4" />
@@ -157,4 +148,4 @@ const Info = () => {
     )
 }
 
-export default Info
+export default Info;

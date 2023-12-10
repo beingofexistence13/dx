@@ -39,7 +39,7 @@ export function FridayAction() {
             <DropdownMenuTrigger asChild>
                 <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
                     <Avatar className="max-h-[20px] max-w-[20px] ">
-                        <AvatarImage src="/friday.png" alt="@shadcn" />
+                        <AvatarImage src="/friday.png" alt="@beingofexistence" />
                         <AvatarFallback>F</AvatarFallback>
                     </Avatar>
                 </div>

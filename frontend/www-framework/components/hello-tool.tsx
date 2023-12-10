@@ -102,66 +102,66 @@ export function HelloTool() {
         {/* <ScrollArea className="h-[200px] w-[50px] rounded-md border p-4">
       <div className="collab mx-2 flex h-auto flex-row items-center space-x-2 border-x px-2 lg:my-2 lg:flex-col lg:space-x-0 lg:space-y-2 lg:border-x-0 lg:border-y lg:py-2">
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
-          <AvatarImage src="/user-15.webp" alt="@shadcn" />
+          <AvatarImage src="/user-15.webp" alt="@beingofexistence" />
           <AvatarFallback>15</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
-          <AvatarImage src="/user-14.webp" alt="@shadcn" />
+          <AvatarImage src="/user-14.webp" alt="@beingofexistence" />
           <AvatarFallback>14</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
-          <AvatarImage src="/user-13.webp" alt="@shadcn" />
+          <AvatarImage src="/user-13.webp" alt="@beingofexistence" />
           <AvatarFallback>13</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
-          <AvatarImage src="/user-12.webp" alt="@shadcn" />
+          <AvatarImage src="/user-12.webp" alt="@beingofexistence" />
           <AvatarFallback>12</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/user-11.webp" alt="@shadcn" />
+          <AvatarImage src="/user-11.webp" alt="@beingofexistence" />
           <AvatarFallback>11</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
           <AvatarImage
             src="/chainswap-x-force-by-deadpool.jpeg"
-            alt="@shadcn"
+            alt="@beingofexistence"
           />
           <AvatarFallback>10</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
-          <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@shadcn" />
+          <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@beingofexistence" />
           <AvatarFallback>9</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
-          <AvatarImage src="/one-punch-man.png" alt="@shadcn" />
+          <AvatarImage src="/one-punch-man.png" alt="@beingofexistence" />
           <AvatarFallback>8</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
-          <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@shadcn" />
+          <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@beingofexistence" />
           <AvatarFallback>7</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
-          <AvatarImage src="/night-shy.jpeg" alt="@shadcn" />
+          <AvatarImage src="/night-shy.jpeg" alt="@beingofexistence" />
           <AvatarFallback>6</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/curse-king-sukuna.png" alt="@shadcn" />
+          <AvatarImage src="/curse-king-sukuna.png" alt="@beingofexistence" />
           <AvatarFallback>5</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-          <AvatarImage src="/nezuukoo-chaaannn.png" alt="@shadcn" />
+          <AvatarImage src="/nezuukoo-chaaannn.png" alt="@beingofexistence" />
           <AvatarFallback>4</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-          <AvatarImage src="/user-two.jpg" alt="@shadcn" />
+          <AvatarImage src="/user-two.jpg" alt="@beingofexistence" />
           <AvatarFallback>3</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-          <AvatarImage src="/user-three.jpg" alt="@shadcn" />
+          <AvatarImage src="/user-three.jpg" alt="@beingofexistence" />
           <AvatarFallback>2</AvatarFallback>
         </Avatar>
         <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-          <AvatarImage src="/user-four.jpg" alt="@shadcn" />
+          <AvatarImage src="/user-four.jpg" alt="@beingofexistence" />
           <AvatarFallback>1</AvatarFallback>
         </Avatar>
 
@@ -253,66 +253,66 @@ export function HelloTool() {
         <ScrollArea className="h-[500px] w-min">
           <div className="space-y-3 p-3">
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
-              <AvatarImage src="/user-15.webp" alt="@shadcn" />
+              <AvatarImage src="/user-15.webp" alt="@beingofexistence" />
               <AvatarFallback>15</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] 2xl:flex">
-              <AvatarImage src="/user-14.webp" alt="@shadcn" />
+              <AvatarImage src="/user-14.webp" alt="@beingofexistence" />
               <AvatarFallback>14</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
-              <AvatarImage src="/user-13.webp" alt="@shadcn" />
+              <AvatarImage src="/user-13.webp" alt="@beingofexistence" />
               <AvatarFallback>13</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] xl:flex">
-              <AvatarImage src="/user-12.webp" alt="@shadcn" />
+              <AvatarImage src="/user-12.webp" alt="@beingofexistence" />
               <AvatarFallback>12</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-              <AvatarImage src="/user-11.webp" alt="@shadcn" />
+              <AvatarImage src="/user-11.webp" alt="@beingofexistence" />
               <AvatarFallback>11</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
               <AvatarImage
                 src="/chainswap-x-force-by-deadpool.jpeg"
-                alt="@shadcn"
+                alt="@beingofexistence"
               />
               <AvatarFallback>10</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
-              <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@shadcn" />
+              <AvatarImage src="/suzume-no-tojimari.jpeg" alt="@beingofexistence" />
               <AvatarFallback>9</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] sm:flex">
-              <AvatarImage src="/one-punch-man.png" alt="@shadcn" />
+              <AvatarImage src="/one-punch-man.png" alt="@beingofexistence" />
               <AvatarFallback>8</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
-              <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@shadcn" />
+              <AvatarImage src="/saturo-freeking-gojo.jpeg" alt="@beingofexistence" />
               <AvatarFallback>7</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] md:flex">
-              <AvatarImage src="/night-shy.jpeg" alt="@shadcn" />
+              <AvatarImage src="/night-shy.jpeg" alt="@beingofexistence" />
               <AvatarFallback>6</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-              <AvatarImage src="/curse-king-sukuna.png" alt="@shadcn" />
+              <AvatarImage src="/curse-king-sukuna.png" alt="@beingofexistence" />
               <AvatarFallback>5</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd hidden h-[30px] w-[30px] lg:flex">
-              <AvatarImage src="/nezuukoo-chaaannn.png" alt="@shadcn" />
+              <AvatarImage src="/nezuukoo-chaaannn.png" alt="@beingofexistence" />
               <AvatarFallback>4</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-              <AvatarImage src="/user-two.jpg" alt="@shadcn" />
+              <AvatarImage src="/user-two.jpg" alt="@beingofexistence" />
               <AvatarFallback>3</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-              <AvatarImage src="/user-three.jpg" alt="@shadcn" />
+              <AvatarImage src="/user-three.jpg" alt="@beingofexistence" />
               <AvatarFallback>2</AvatarFallback>
             </Avatar>
             <Avatar className="pulsate-fwd h-[30px] w-[30px]">
-              <AvatarImage src="/user-four.jpg" alt="@shadcn" />
+              <AvatarImage src="/user-four.jpg" alt="@beingofexistence" />
               <AvatarFallback>1</AvatarFallback>
             </Avatar>
           </div>

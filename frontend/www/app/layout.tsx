@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils"
 import { Providers } from "./providers"
 import { Query } from "./query"
 import { Redux } from "./redux"
+import { GuestHeader } from "@/components/guest-header"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
@@ -85,12 +86,11 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Redux>
             <Query>
+              <GuestHeader />
               <main className="flex-1">
-
                 <div className="w-auto h-full">
                   {children}
                 </div>
-                
               </main>
             </Query>
           </Redux>

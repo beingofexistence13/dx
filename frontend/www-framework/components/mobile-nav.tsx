@@ -60,7 +60,7 @@ export function MobileNav() {
           onOpenChange={setOpen}
         >
           <Avatar className=" font-bold">
-            <AvatarImage src="/logo.svg" alt="@shadcn" />
+            <AvatarImage src="/logo.svg" alt="@beingofexistence" />
             <AvatarFallback>DX</AvatarFallback>
           </Avatar>
           <span className="font-bold">{siteConfig.name}</span>
@@ -373,7 +373,7 @@ export function MobileNav() {
           <h5 className="mt-8 flex h-[250px] w-full items-start justify-center">
             Build By Sumon & Loved By You!!!
             {/* <Avatar>
-              <AvatarImage src={"/docs/metamask.jpg"} alt="@shadcn" />
+              <AvatarImage src={"/docs/metamask.jpg"} alt="@beingofexistence" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar> */}
           </h5>
