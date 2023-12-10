@@ -1,7 +1,7 @@
 /* eslint-disable tailwindcss/classnames-order */
 
 import "react-phone-input-2/lib/style.css"
-import "@/styles/globals.css"
+import "../../../ui/globals.css"
 import { Metadata } from "next"
 import { fontSans } from "@/config/fonts"
 import { siteConfig } from "@/config/website"
@@ -9,15 +9,6 @@ import { cn } from "@/lib/utils"
 import { Providers } from "./providers"
 import { Query } from "./query"
 import { Redux } from "./redux"
-import GuestLayout from "@/components/guest-layout"
-// import "primereact/resources/themes/lara-light-indigo/theme.css"
-// import "primereact/resources/primereact.min.css"
-// import { Chakraui } from "./chakraui"
-// import { Mantine } from "./mantine"
-// import { PrimeReact } from "./primereact"
-import Script from "next/script"
-import SiteLayout from "@/components/site-layout"
-import Hack from "@/components/hack"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acme.com"),
@@ -91,18 +82,15 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Redux>
             <Query>
               <main className="flex-1">
-                {/* <h1>Let me start by solving dx-authflow errors</h1>
-                <Hack /> */}
 
-                {/* Will conditionally render guest or site layout later */}
-                {/* <GuestLayout /> */}
                 <div className="w-auto h-full">
                   {children}
                 </div>
+                
               </main>
             </Query>
           </Redux>

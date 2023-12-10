@@ -7,7 +7,7 @@ import * as React from "react"
 const VerticalInfo = () => {
 
   return (
-    <section className="more_info h-[100vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
+    <section className="more_info relative h-[100vh] w-full max-w-[100%] overflow-y-auto overflow-x-hidden">
 
       {/* <motion.div drag
                 dragElastic={0.2} className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-10 left-0 z-[0]">
@@ -17,7 +17,7 @@ const VerticalInfo = () => {
             </motion.div> */}
 
 
-      <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-40 relative z-10">
+      <div className="info_main_container relative z-10 mx-auto mt-40 flex max-w-[1200px] flex-col items-center justify-center">
         <span>VerticalInfo</span>
       </div>
 

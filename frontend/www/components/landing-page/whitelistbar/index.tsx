@@ -43,19 +43,19 @@ const Whitelistbar = () => {
   // })
 
   return (
-    <div className="h-12 max-w-[90%] w-[650px] fixed bottom-0 left-[50%] translate-x-[-50%] z-30">
-      <div className="blurry_gradient_whitelistbar h-[550px] w-[550px] rounded-full absolute top-0 left-0"></div>
+    <div className="fixed bottom-0 left-[50%] z-30 h-12 w-[650px] max-w-[90%] translate-x-[-50%]">
+      <div className="blurry_gradient_whitelistbar absolute left-0 top-0 h-[550px] w-[550px] rounded-full"></div>
       <motion.div
         whileHover={{ scale: 0.95 }} whileTap={{ scale: 0.8 }}
-        className="whitelistbar bg-white flex flex-row items-center justify-between px-3 py-1 relative border-t border-l border-r rounded-tl-2xl rounded-tr-xl mt-1.5">
+        className="whitelistbar relative mt-1.5 flex flex-row items-center justify-between rounded-tl-2xl rounded-tr-xl border-x border-t bg-white px-3 py-1">
         <div className="waitlist_onboarding">Join Waitlist</div>
         <div className="waitlist_preferences flex flex-row items-center justify-center space-x-3">
           {/* <span className="event_date hover:text-green-400">31/12/2023</span> */}
           <span className="event_date hover:text-green-400">31/12/2023</span>
           {/* <Button variant="outline">Subscribe</Button>
         <Button variant="outline"><ChevronUp /></Button>  translate-x-[-50%] translate-y-[-50%] */}
-          <span className="event_date border px-3 py-1 rounded-md">Subscribe</span>
-          <div className="rounded-full border flex items-center justify-center p-1">
+          <span className="event_date rounded-md border px-3 py-1">Subscribe</span>
+          <div className="flex items-center justify-center rounded-full border p-1">
             <ChevronUp />
           </div>
         </div>

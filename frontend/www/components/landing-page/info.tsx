@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+
 "use client"
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputShadcnUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
@@ -56,17 +58,17 @@ const Info = () => {
     const constraintsRef = useRef(null);
 
     return (
-        <section className="info h-[100vh] w-full max-w-[100%] overflow-x-hidden overflow-y-auto relative">
+        <section className="info relative h-[100vh] w-full max-w-[100%] overflow-y-auto overflow-x-hidden">
 
-            <div className="blurry_gradient_top h-[550px] w-[550px] rounded-full absolute top-[25vh] left-0 z-[0]">
+            <div className="blurry_gradient_top absolute left-0 top-[25vh] z-[0] h-[550px] w-[550px] rounded-full">
             </div>
-            <div className="blurry_gradient_bottom h-[550px] w-[550px] rounded-full absolute bottom-[50vh] right-0 z-[0]">
+            <div className="blurry_gradient_bottom absolute bottom-[50vh] right-0 z-[0] h-[550px] w-[550px] rounded-full">
             </div>
 
 
-            <div className="info_main_container max-w-[1200px] mx-auto flex flex-col items-center justify-center mt-28 relative z-10">
+            <div className="info_main_container relative z-10 mx-auto mt-28 flex max-w-[1200px] flex-col items-center justify-center">
                 {/* FeatureShotcjut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
-                <div className="glass feature_shotcut_container flex items-center justify-center hover:bg-[--foreground] hover:text-green-400 border">
+                <div className="glass feature_shotcut_container flex items-center justify-center border hover:bg-[--foreground] hover:text-green-400">
                     <span className="feature_shotcut_text">Introducing Dx asks</span>
                     <ChevronRight />
                 </div>
@@ -77,12 +79,12 @@ const Info = () => {
                     <span className="online_text">Online.</span>
                 </div>
                 {/* Muted Description */}
-                <div className="text-muted-foreground text-[1rem] h-auto w-auto flex flex-col items-center justify-center">
+                <div className="text-muted-foreground flex h-auto w-auto flex-col items-center justify-center text-[1rem]">
                     <span className="first-line">Meet the new standard for modern hardware,software,cloud development.</span>
                     <span className="last-line">Thoughtout issues, sprints, and product roadmaps dx is best.</span>
                 </div>
                 {/* Guest + Dowload Button */}
-                <div className="button_container flex flex-row items-center justify-center space-x-3 m-5">
+                <div className="button_container m-5 flex flex-row items-center justify-center space-x-3">
                     <Button variant="outline">Continue As Guest</Button>
                     <Popover open={open} onOpenChange={setOpen}>
                         <PopoverTrigger asChild>
@@ -129,7 +131,7 @@ const Info = () => {
                 {/* Blured Intereactive Livewallpaper(related to the project offcourse) */}
                 <div
                     ref={constraintsRef}
-                    className="blurred_container h-auto w-[1000px] flex items-center justify-center p-5">
+                    className="blurred_container flex h-auto w-[1000px] items-center justify-center p-5">
                     <motion.div
                         drag
                         dragConstraints={constraintsRef}
