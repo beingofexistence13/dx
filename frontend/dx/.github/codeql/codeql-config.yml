@@ -1,4 +1,0 @@
-name: CodeQL configuration
-
-paths-ignore:
-  - 'packages/mui-icons-material/lib/**'
