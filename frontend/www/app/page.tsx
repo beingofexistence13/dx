@@ -15,8 +15,8 @@ export default function Home() {
       <div className="landingPage min-h-[100vh] ">
 
         <Whitelistbar />
-        <Info />
-        <MoreInfo />
+        {/* <Info />
+        <MoreInfo /> */}
         <VerticalInfo />
         <ThreeDeeCard />
         <Feature />

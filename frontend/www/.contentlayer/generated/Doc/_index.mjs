@@ -7,13 +7,6 @@ import docs__darkModeMdx from './docs__dark-mode.mdx.json' assert { type: 'json'
 import docs__figmaMdx from './docs__figma.mdx.json' assert { type: 'json' }
 import docs__indexMdx from './docs__index.mdx.json' assert { type: 'json' }
 import docs__themingMdx from './docs__theming.mdx.json' assert { type: 'json' }
-import docs__installation__astroMdx from './docs__installation__astro.mdx.json' assert { type: 'json' }
-import docs__installation__gatsbyMdx from './docs__installation__gatsby.mdx.json' assert { type: 'json' }
-import docs__installation__indexMdx from './docs__installation__index.mdx.json' assert { type: 'json' }
-import docs__installation__manualMdx from './docs__installation__manual.mdx.json' assert { type: 'json' }
-import docs__installation__nextMdx from './docs__installation__next.mdx.json' assert { type: 'json' }
-import docs__installation__remixMdx from './docs__installation__remix.mdx.json' assert { type: 'json' }
-import docs__installation__viteMdx from './docs__installation__vite.mdx.json' assert { type: 'json' }
 import docs__ui__accordionMdx from './docs__ui__accordion.mdx.json' assert { type: 'json' }
 import docs__ui__alertDialogMdx from './docs__ui__alert-dialog.mdx.json' assert { type: 'json' }
 import docs__ui__alertMdx from './docs__ui__alert.mdx.json' assert { type: 'json' }
@@ -55,5 +48,12 @@ import docs__ui__toastMdx from './docs__ui__toast.mdx.json' assert { type: 'json
 import docs__ui__toggleMdx from './docs__ui__toggle.mdx.json' assert { type: 'json' }
 import docs__ui__tooltipMdx from './docs__ui__tooltip.mdx.json' assert { type: 'json' }
 import docs__ui__typographyMdx from './docs__ui__typography.mdx.json' assert { type: 'json' }
+import docs__installation__astroMdx from './docs__installation__astro.mdx.json' assert { type: 'json' }
+import docs__installation__gatsbyMdx from './docs__installation__gatsby.mdx.json' assert { type: 'json' }
+import docs__installation__indexMdx from './docs__installation__index.mdx.json' assert { type: 'json' }
+import docs__installation__manualMdx from './docs__installation__manual.mdx.json' assert { type: 'json' }
+import docs__installation__nextMdx from './docs__installation__next.mdx.json' assert { type: 'json' }
+import docs__installation__remixMdx from './docs__installation__remix.mdx.json' assert { type: 'json' }
+import docs__installation__viteMdx from './docs__installation__vite.mdx.json' assert { type: 'json' }
 
-export const allDocs = [docs__aboutMdx, docs__changelogMdx, docs__cliMdx, docs__darkModeMdx, docs__figmaMdx, docs__indexMdx, docs__themingMdx, docs__installation__astroMdx, docs__installation__gatsbyMdx, docs__installation__indexMdx, docs__installation__manualMdx, docs__installation__nextMdx, docs__installation__remixMdx, docs__installation__viteMdx, docs__ui__accordionMdx, docs__ui__alertDialogMdx, docs__ui__alertMdx, docs__ui__aspectRatioMdx, docs__ui__avatarMdx, docs__ui__badgeMdx, docs__ui__buttonMdx, docs__ui__calendarMdx, docs__ui__cardMdx, docs__ui__checkboxMdx, docs__ui__collapsibleMdx, docs__ui__comboboxMdx, docs__ui__commandMdx, docs__ui__contextMenuMdx, docs__ui__dataTableMdx, docs__ui__datePickerMdx, docs__ui__dialogMdx, docs__ui__dropdownMenuMdx, docs__ui__formMdx, docs__ui__hoverCardMdx, docs__ui__inputMdx, docs__ui__labelMdx, docs__ui__menubarMdx, docs__ui__navigationMenuMdx, docs__ui__popoverMdx, docs__ui__progressMdx, docs__ui__radioGroupMdx, docs__ui__scrollAreaMdx, docs__ui__selectMdx, docs__ui__separatorMdx, docs__ui__sheetMdx, docs__ui__skeletonMdx, docs__ui__sliderMdx, docs__ui__switchMdx, docs__ui__tableMdx, docs__ui__tabsMdx, docs__ui__textareaMdx, docs__ui__toastMdx, docs__ui__toggleMdx, docs__ui__tooltipMdx, docs__ui__typographyMdx]
+export const allDocs = [docs__aboutMdx, docs__changelogMdx, docs__cliMdx, docs__darkModeMdx, docs__figmaMdx, docs__indexMdx, docs__themingMdx, docs__ui__accordionMdx, docs__ui__alertDialogMdx, docs__ui__alertMdx, docs__ui__aspectRatioMdx, docs__ui__avatarMdx, docs__ui__badgeMdx, docs__ui__buttonMdx, docs__ui__calendarMdx, docs__ui__cardMdx, docs__ui__checkboxMdx, docs__ui__collapsibleMdx, docs__ui__comboboxMdx, docs__ui__commandMdx, docs__ui__contextMenuMdx, docs__ui__dataTableMdx, docs__ui__datePickerMdx, docs__ui__dialogMdx, docs__ui__dropdownMenuMdx, docs__ui__formMdx, docs__ui__hoverCardMdx, docs__ui__inputMdx, docs__ui__labelMdx, docs__ui__menubarMdx, docs__ui__navigationMenuMdx, docs__ui__popoverMdx, docs__ui__progressMdx, docs__ui__radioGroupMdx, docs__ui__scrollAreaMdx, docs__ui__selectMdx, docs__ui__separatorMdx, docs__ui__sheetMdx, docs__ui__skeletonMdx, docs__ui__sliderMdx, docs__ui__switchMdx, docs__ui__tableMdx, docs__ui__tabsMdx, docs__ui__textareaMdx, docs__ui__toastMdx, docs__ui__toggleMdx, docs__ui__tooltipMdx, docs__ui__typographyMdx, docs__installation__astroMdx, docs__installation__gatsbyMdx, docs__installation__indexMdx, docs__installation__manualMdx, docs__installation__nextMdx, docs__installation__remixMdx, docs__installation__viteMdx]
