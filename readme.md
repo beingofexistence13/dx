@@ -4,7 +4,41 @@
 
 ## folder structure update:
 * final folders list -
-
+1. ai
+2. backend
+3. benchmark
+4. blockchain
+5. clean-architecture
+6. cloud
+7. config
+8. contubution
+9. database
+10. design-pattern
+11. documentation
+12. domain-driven-design
+13. external
+14. frontend
+15. infrastucture
+16. internal
+17. media
+18. microservices-architecture
+19. observability
+20. package
+21. payment
+22. platform
+23. privacy
+24. reactive-programming
+25. roadmap
+26. script
+27. security
+28. solid-principle
+29. template
+30. test
+31. theory
+32. tool
+33. ui
+34. ux
+35. workflow
 
 
 
