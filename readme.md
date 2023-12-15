@@ -8,38 +8,39 @@
 2. backend
 3. benchmark
 4. blockchain
-5. clean-architecture
+5. clean-architecture // changelog
 6. cloud
 7. config
 8. contubution
 9. database
 10. design-pattern
 11. documentation
-12. domain-driven-design
+12. domain-driven-design // debug
 13. external
 14. frontend
 15. infrastucture
 16. internal
 17. media
-18. microservices-architecture
+18. microservices-architecture // microservice
 19. observability
 20. package
 21. payment
 22. platform
 23. privacy
-24. reactive-programming
+24. reactive-programming // error
 25. roadmap
 26. script
 27. security
-28. solid-principle
+28. solid-principle // generator
 29. template
 30. test
 31. theory
 32. tool
-33. ui
-34. ux
-35. workflow
-
+33. trend
+34. ui
+35. ux
+36. workflow
+37. trend
 
 
 
