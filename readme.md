@@ -42,9 +42,6 @@
 36. workflow
 37. trend
 
-
-
-
 * seraparated folders -
 1. frontend (something is fishy here, so have to check it later)
 2. backend
@@ -319,4 +316,3 @@ Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter 
 ### notes:
 1. pipdream
 2. ...
-mkdir resource && cd resource && touch resource.md && cd ..
