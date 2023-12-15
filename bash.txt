@@ -1,1 +1,0 @@
-mkdir multiversal-os && cd multiversal-os && touch multiversal-os.md && cd ..
