@@ -15,32 +15,30 @@
 9. database
 10. design-pattern
 11. documentation
-12. domain-driven-design // debug
-13. external
-14. frontend
-15. infrastucture
-16. internal
-17. media
-18. microservices-architecture // microservice
-19. observability
-20. package
-21. payment
-22. platform
-23. privacy
-24. reactive-programming // error
-25. roadmap
-26. script
-27. security
-28. solid-principle // generator
-29. template
-30. test
-31. theory
-32. tool
-33. trend
-34. ui
-35. ux
-36. workflow
-37. trend
+12. external
+13. frontend
+14. infrastucture
+15. internal
+16. media
+17. microservice
+18. observability
+19. package
+20. payment
+21. platform
+22. privacy
+23. roadmap
+24. script
+25. security
+26. solid-principle // generator
+27. template
+28. test
+29. theory
+30. tool
+31. trend
+32. ui
+33. ux
+34. workflow
+35. trend
 
 <!-- * seraparated folders -
 1. frontend (something is fishy here, so have to check it later)
