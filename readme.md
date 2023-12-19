@@ -4,7 +4,35 @@
 
 ## folder structure update:
 * final folders list -
-1. ai
+ai
+algorithm
+backend
+blockchain
+config
+database
+design-pattern
+documentation
+frontend
+media
+observability
+package
+payment
+privacy
+readme.md
+roadmap
+script
+security
+test
+theory
+ui
+ux
+
+
+for i in ls
+do
+  echo"$i ls"
+done
+<!-- 1. ai
 2. backend
 3. benchmark
 4. blockchain
@@ -38,7 +66,7 @@
 32. ui
 33. ux
 34. workflow
-35. trend
+35. trend -->
 
 <!-- * seraparated folders -
 1. frontend (something is fishy here, so have to check it later)
